@@ -15,7 +15,7 @@ def page_count(pdf: Path) -> int:
 
 def main():
     rows = []
-    for pdf in sorted(ROOT.glob("cet4_*/cet4_*.pdf")):
+    for pdf in sorted(ROOT.glob("CET/cet4_*/cet4_*.pdf")):
         is_ans = pdf.stem.endswith("_ans")
         sub = "listening" if is_ans else "papers"
         txt = CORPUS / sub / f"{pdf.stem}.txt"

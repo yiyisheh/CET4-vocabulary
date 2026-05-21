@@ -2,11 +2,16 @@
 
 Usage:
     python scripts/make_pdf.py <input.txt> <output.pdf> "<title>" "<subtitle>"
-        [--intro "<intro>"] [--no-freq] [--mark-selfmade]
+        [--intro "<intro>"] [--no-freq] [--mark-selfmade] [--mono]
+        [--example-gray] [--highlight-word]
 
-    --no-freq        omit the 词频 line entirely
+    --no-freq        omit the 词频 line
     --mark-selfmade  label self-composed examples as 例句（自编）
-                     (default: all examples shown plainly as 例句)
+    --mono           headword / section / title in black (B&W print)
+    --example-gray   render the 例句 line in dark gray (#333333)
+    --highlight-word color the studied word (and its variants) blue in examples
+
+`--intro` may contain `\n`; line breaks are kept on the cover page.
 """
 import argparse
 import re
@@ -14,7 +19,7 @@ from pathlib import Path
 
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import cm
-from reportlab.lib.colors import HexColor
+from reportlab.lib.colors import HexColor, black
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
@@ -28,6 +33,7 @@ pdfmetrics.registerFont(TTFont(FONT, FONT_PATH))
 
 BLUE = HexColor("#1f5fa8")
 GRAY = HexColor("#666666")
+EX_GRAY = HexColor("#333333")     # 例句"灰黑体"：比纯黑略灰
 
 PAGE_W, PAGE_H = A4
 MARGIN = 1.5 * cm
@@ -39,24 +45,26 @@ SECTION_RE = re.compile(r"——+\s*Section\s*(\d+)\s*——+")
 DF_FREQ_RE = re.compile(r"见于\s*(\d+\s*/\s*\d+)")
 
 
-def styles():
+def styles(accent):
     return {
         "word": ParagraphStyle("word", fontName=FONT, fontSize=11,
-                               textColor=BLUE, spaceBefore=7, spaceAfter=1,
+                               textColor=accent, spaceBefore=7, spaceAfter=1,
                                leading=13),
         "ipa": ParagraphStyle("ipa", fontName=FONT, fontSize=7.5,
                               textColor=GRAY, leading=10),
         "field": ParagraphStyle("field", fontName=FONT, fontSize=8.5,
                                 leading=11.5),
+        "ex_gray": ParagraphStyle("ex_gray", fontName=FONT, fontSize=8.5,
+                                  leading=11.5, textColor=EX_GRAY),
         "section": ParagraphStyle("section", fontName=FONT, fontSize=13,
-                                  textColor=BLUE, alignment=1,
+                                  textColor=accent, alignment=1,
                                   spaceBefore=6, spaceAfter=14, leading=16),
         "title": ParagraphStyle("title", fontName=FONT, fontSize=26,
-                                textColor=BLUE, alignment=1, leading=34),
+                                textColor=accent, alignment=1, leading=34),
         "sub": ParagraphStyle("sub", fontName=FONT, fontSize=12,
                               textColor=GRAY, alignment=1, leading=20),
-        "intro": ParagraphStyle("intro", fontName=FONT, fontSize=10,
-                                leading=18),
+        "intro": ParagraphStyle("intro", fontName=FONT, fontSize=10.5,
+                                leading=19),
     }
 
 
@@ -110,7 +118,18 @@ def fmt_freq(raw: str) -> str:
     return m.group(1).replace(" ", "") if m else raw
 
 
-def entry_flowables(rec, st, show_freq: bool, mark_selfmade: bool):
+def highlight(text: str, words: list[str]) -> str:
+    """Wrap whole-word, case-insensitive occurrences of `words` in blue."""
+    words = sorted({w for w in words if w}, key=len, reverse=True)
+    if not words:
+        return text
+    pat = re.compile(r"\b(" + "|".join(re.escape(w) for w in words) + r")\b",
+                     re.IGNORECASE)
+    return pat.sub(lambda m: f'<font color="#1f5fa8">{m.group(0)}</font>', text)
+
+
+def entry_flowables(rec, st, show_freq, mark_selfmade, example_gray,
+                    highlight_word):
     blk = [Paragraph(f'<b>{rec["rank"]}. {esc(rec["word"])}</b>', st["word"])]
     if rec["ipa"]:
         blk.append(Paragraph(esc(rec["ipa"]), st["ipa"]))
@@ -123,14 +142,19 @@ def entry_flowables(rec, st, show_freq: bool, mark_selfmade: bool):
         blk.append(Paragraph(f'<b>变形</b>: {esc(rec["forms"])}', st["field"]))
     if rec["ex"]:
         label = rec["ex_label"] if mark_selfmade else "例句"
-        blk.append(Paragraph(f'<b>{label}</b>: {esc(rec["ex"])}', st["field"]))
+        ex = esc(rec["ex"])
+        if highlight_word:
+            ex = highlight(ex, [rec["word"]] + rec["forms"].split())
+        blk.append(Paragraph(f'<b>{label}</b>: {ex}',
+                             st["ex_gray"] if example_gray else st["field"]))
     blk.append(Spacer(1, 3))
     return KeepTogether(blk)
 
 
-def build(txt_path, pdf_path, title, subtitle, intro,
-          show_freq=True, mark_selfmade=False):
-    st = styles()
+def build(txt_path, pdf_path, title, subtitle, intro="",
+          show_freq=True, mark_selfmade=False, mono=False,
+          example_gray=False, highlight_word=False):
+    st = styles(black if mono else BLUE)
 
     def on_page(canvas, doc):
         canvas.setFont(FONT, 8)
@@ -147,20 +171,22 @@ def build(txt_path, pdf_path, title, subtitle, intro,
         pageTemplates=[PageTemplate(id="cover", frames=[cover]),
                        PageTemplate(id="body", frames=body, onPage=on_page)])
 
-    story = [Spacer(1, 5 * cm),
+    story = [Spacer(1, 4 * cm),
              Paragraph(esc(title), st["title"]),
              Spacer(1, 0.8 * cm),
              Paragraph(esc(subtitle), st["sub"])]
     if intro:
-        story += [Spacer(1, 1.5 * cm), Paragraph(esc(intro), st["intro"])]
+        story.append(Spacer(1, 1.5 * cm))
+        story.append(Paragraph(esc(intro).replace("\n", "<br/>"), st["intro"]))
     story += [NextPageTemplate("body"), PageBreak()]
 
     for kind, payload in parse(Path(txt_path)):
         if kind == "section":
             story.append(Paragraph(f"Section {payload}", st["section"]))
         else:
-            story.append(entry_flowables(payload, st, show_freq, mark_selfmade))
-
+            story.append(entry_flowables(payload, st, show_freq,
+                                         mark_selfmade, example_gray,
+                                         highlight_word))
     doc.build(story)
     print(f"-> {pdf_path}")
 
@@ -174,6 +200,10 @@ if __name__ == "__main__":
     ap.add_argument("--intro", default="")
     ap.add_argument("--no-freq", action="store_true")
     ap.add_argument("--mark-selfmade", action="store_true")
+    ap.add_argument("--mono", action="store_true")
+    ap.add_argument("--example-gray", action="store_true")
+    ap.add_argument("--highlight-word", action="store_true")
     a = ap.parse_args()
     build(a.input, a.output, a.title, a.subtitle, a.intro,
-          show_freq=not a.no_freq, mark_selfmade=a.mark_selfmade)
+          show_freq=not a.no_freq, mark_selfmade=a.mark_selfmade, mono=a.mono,
+          example_gray=a.example_gray, highlight_word=a.highlight_word)

@@ -10,7 +10,7 @@ from pathlib import Path
 import fitz
 
 ROOT = Path(__file__).parent.parent
-REF_PDF = ROOT / "CET-main" / "英语四级真题高频词汇.pdf"
+REF_PDF = ROOT / "CET" / "CET-main" / "英语四级真题高频词汇.pdf"
 
 HEADWORD_RE = re.compile(r"^[a-zA-Z][a-zA-Z'\-]*$")
 

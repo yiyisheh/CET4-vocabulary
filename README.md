@@ -36,8 +36,11 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 
 | 文件 | 内容 |
 |------|------|
-| `英语四级TF词频top-1250.pdf` / `…DF词频…` | **成品 PDF** · liut969 同款双栏排版，含词频 |
-| `英语四级TF-top-1250.pdf` / `…DF-…` | **成品 PDF** · 不含词频 |
+| `英语四级高频单词彩色背诵版.pdf` `DF词频` | **成品 PDF** · 最终优化版本，具体介绍参见内容 |
+| `英语四级高频单词黑白背诵版.pdf` `DF词频` | **成品 PDF** · 最终优化版本，具体介绍参见内容 |
+and
+| `英语四级TF词频top-1250.pdf` / `…DF…` | **成品 PDF** · liut969 同款双栏排版，含词频 |
+| `英语四级TF-top-1250.pdf` / `…DF…` | **成品 PDF** · 不含词频 |
 | `英语四级TF自编例句标注top-1250.pdf` / `…DF…` | **成品 PDF** · 含词频，并标注自编例句 |
 
 ---
@@ -69,8 +72,8 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 | `high_freq_cet4_v2b_marked.txt` | v2b + `★` 标注本表独有的 290 个新高频词 |
 | `high_freq_cet4_df.txt` | 按文档频率排序的背诵表 |
 | `high_freq_cet4_v1.txt` | 早期版本（提示词迭代留存，仅作对比） |
-| `英语四级TF词频top-1250.pdf` / `…DF词频…` | **成品 PDF** · liut969 同款双栏排版，含词频 |
-| `英语四级TF-top-1250.pdf` / `…DF-…` | **成品 PDF** · 不含词频 |
+| `英语四级TF词频top-1250.pdf` / `…DF…` | **成品 PDF** · liut969 同款双栏排版，含词频 |
+| `英语四级TF-top-1250.pdf` / `…DF…` | **成品 PDF** · 不含词频 |
 | `英语四级TF自编例句标注top-1250.pdf` / `…DF…` | **成品 PDF** · 含词频，并标注自编例句 |
 | `coverage_chart.png` · `coverage_tf_vs_df.png` | 方法验证图表 |
 
@@ -150,10 +153,15 @@ python scripts/make_pdf.py $TF "output/英语四级TF自编例句标注top-1250.
 python scripts/make_pdf.py $DF "output/英语四级DF自编例句标注top-1250.pdf" "英语四级真题高频词汇" "DF · 标注自编例句" --mark-selfmade
 ```
 
-> `make_pdf.py` 开关：`--no-freq` 不输出词频行，`--mark-selfmade` 标注自编例句。
-
-> `make_pdf.py` 用系统字体 `/Library/Fonts/Arial Unicode.ttf`（macOS）；
-> 其他平台请改 `scripts/make_pdf.py` 里的 `FONT_PATH` 为本机一个含中文与音标的字体。
+> `make_pdf.py` 开关：`--no-freq` 不输出词频行；`--mark-selfmade` 标注自编例句；
+> `--mono` 词头/章节标题用黑色（黑白打印）；`--example-gray` 例句用灰黑体；
+> `--highlight-word` 例句中的该词标蓝。字体用 `/Library/Fonts/Arial Unicode.ttf`
+> （macOS）；其他平台请改 `scripts/make_pdf.py` 里的 `FONT_PATH` 为本机一个含中文与
+> 音标的字体。
+>
+> 另有 `scripts/make_print_pdfs.py`：基于 DF 表生成打印优化的「背诵版」PDF。
+> 最终版（纯黑例句，彩色 / 黑白两种）输出到仓库根目录；早期样式变体（灰黑例句 +
+> 蓝色高亮）输出到的 `_print/` 仅供对比
 
 仓库已包含 `corpus/`、`intermediate/`、`output/`，所以**只想看结果或重做统计**的话，
 无需 API key，跳过第 2 步和 OCR / DeepSeek 相关步骤即可。所有耗费 API 的脚本都支持

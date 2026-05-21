@@ -57,7 +57,7 @@ def ocr_one(pdf: Path, prompt: str, out_path: Path) -> None:
 
 
 def main(workers: int = 4):
-    pdfs = sorted(ROOT.glob("cet4_*/cet4_*.pdf"))
+    pdfs = sorted(ROOT.glob("CET/cet4_*/cet4_*.pdf"))
     paper_pdfs = [p for p in pdfs if not p.stem.endswith("_ans") and is_scanned(p)]
     ans_pdfs = [p for p in pdfs if p.stem.endswith("_ans")]
     print(f"真题 to OCR: {len(paper_pdfs)}, ans to OCR: {len(ans_pdfs)}")

@@ -63,7 +63,7 @@ def extract_listening(ans_path: Path) -> str:
 
 def main() -> None:
     n_paper = n_listen = 0
-    for pdf in sorted(ROOT.glob("cet4_*/cet4_*.pdf")):
+    for pdf in sorted(ROOT.glob("CET/cet4_*/cet4_*.pdf")):
         is_ans = pdf.stem.endswith("_ans")
         # Check if extractable
         doc = fitz.open(pdf)

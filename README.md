@@ -43,6 +43,41 @@ and
 | `英语四级TF-top-1250.pdf` / `…DF…` | **成品 PDF** · 不含词频 |
 | `英语四级TF自编例句标注top-1250.pdf` / `…DF…` | **成品 PDF** · 含词频，并标注自编例句 |
 
+## 优化版 PDF & iPad 背单词 App（新）
+
+在 DF 背诵版基础上做了两件事：**加词根词缀助记**、**做成可在 iPad/手机上背的网页**。
+
+| 文件 | 内容 |
+|------|------|
+| `英语四级高频单词彩色背诵版(优化).pdf` | 去掉「释义:」标签与「变形」行；词头用音节点划分（`com·po·si·tion`）；为可拆解的词补「词根/词缀/合成」助记块（灰体）。 |
+| `英语四级单词背诵.html` | **单文件网页版**，AirDrop 到 iPad 用 Safari 打开即用。排版与优化版 PDF 一致。功能见下。 |
+
+**词根数据来源**：由 Claude 子 agent（母语级英文词源）分批生成，`准确优先于覆盖`，
+拆不出的日耳曼/功能词不强拆。1250 词中 **527 词（42%）** 有拆解。
+`scripts/build_roots.py`（DeepSeek）仅作 API 备选，已不在最终流水线中。
+
+**HTML App 功能**：
+- 开头**设置页**：显示/隐藏已划掉的词 · **划线样式**（变灰划线 / 仅加粗灰线不变色）· 左右翻页 or 上下无缝 · 美音/英音 · **字体大小**（默认≈PDF 原大小）· **栏数**（自动按 PDF 栏宽铺满屏 / 固定 2·3·4）· **间距**（栏间距与留白）· 背景色（预设 + 自定义 `#RRGGBB`，深色自动反白）。
+- 点**序号**（内联 `1.` 与 PDF 一致）→ 灰色划线标记「已掌握」（左侧短下划线，非整行删除线）。
+- 点**单词** → 音节拆分 `com·po·si·tion` ⇄ 原词，同时发音；点词条**其他区域** → 发音。
+- 发音**全部离线嵌入**：2500 条有道 mp3（美+英）base64 内嵌，断网可用（文件因此约 65MB）。
+- **跳过开头静音**滑块（默认 250ms，可调 0–314ms）——有道 mp3 开头有 ~0.33s 静音，跳过后点击秒出声。
+- 音频以 `<script type="application/json">` 存放（不执行、按需解析），阅读界面照常秒开。
+- 生成音频：`python scripts/fetch_audio.py`（下载到 `intermediate/audio/`，可断点续传）再 `build_html.py`。
+- 点**页码** → 弹出/收起快速翻页滚轮（左右模式在底部、上下模式在右侧）。
+- 分页按**实测高度装箱**（像 PDF 一样填满一栏再下一栏），一个词都不会丢。
+- 字号用 `pt` 单位、默认对齐优化版 PDF；不同屏幕如需精确 1:1 可用字体大小微调。
+- 设置、划线、上次位置存 `localStorage`，下次打开照旧。
+
+**生成流水线**（词根数据已随仓库提供，无需重跑 agent）：
+```bash
+python scripts/merge_roots.py          # 合并各来源 -> intermediate/roots.json
+python scripts/build_dataset.py        # + 音节(pyphen) -> intermediate/entries_full.json, web/data.js
+python scripts/make_pdf_optimized.py   # -> 英语四级高频单词彩色背诵版(优化).pdf
+python scripts/build_html.py           # 内联数据 -> 英语四级单词背诵.html（单文件）
+```
+> 依赖：`pip install pyphen`（音节划分）。发音需联网（有道 TTS）。
+
 ---
 
 > 有意思的是，DF 和 TF 几乎一样：

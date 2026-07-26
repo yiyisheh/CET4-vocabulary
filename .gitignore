@@ -15,3 +15,9 @@ _pages/
 
 # stray test image (OCR calibration), not part of the project
 image.png
+
+# embedded-audio source (53MB, regenerable via fetch_audio.py; already embedded into docs/index.html)
+intermediate/audio/
+
+# 66MB 构建产物（单文件离线版，可由 scripts/build_html.py 重生成）；上线用的是 docs/index.html
+英语四级单词背诵.html

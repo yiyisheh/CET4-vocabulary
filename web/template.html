@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="四级1250">
+<meta name="theme-color" content="#1f5fa8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>四级高频单词 · 背诵</title>
+<style>
+  :root{
+    --bg:#ffffff; --card:#ffffff; --ink:#1a1a1a; --sub:#555555;
+    --gray:#8a8a8a; --blue:#1f5fa8; --hair:rgba(0,0,0,.08);
+    --mark:#8a8a8a; --panel:#f4f6f9;
+    --fs:1; --gap:20px; --padh:14px;
+  }
+  *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  html,body{ margin:0; height:100%; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,"PingFang SC","Helvetica Neue",Arial,sans-serif;
+    -webkit-text-size-adjust:100%; overscroll-behavior:none; }
+  body{ display:flex; flex-direction:column; height:100dvh; overflow:hidden; }
+
+  #top{ flex:0 0 auto; display:flex; align-items:center; gap:10px;
+    padding:calc(env(safe-area-inset-top) + 8px) 14px 8px; }
+  #top .t{ font-weight:700; font-size:15px; color:var(--blue); }
+  #top .sp{ flex:1; }
+  .iconbtn{ border:1px solid var(--hair); background:var(--card); color:var(--sub);
+    border-radius:9px; padding:6px 11px; font-size:13px; cursor:pointer; }
+
+  /* ---------- pages ---------- */
+  #pages{ flex:1 1 auto; position:relative; }
+  #pages.h{ display:flex; overflow-x:auto; overflow-y:hidden;
+    scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; }
+  #pages.h .page{ flex:0 0 100%; scroll-snap-align:start; }
+  #pages.v{ display:block; overflow-y:auto; overflow-x:hidden;
+    -webkit-overflow-scrolling:touch; }
+  /* hide native scrollbar (the stray thumb that appeared while scrolling) */
+  #pages::-webkit-scrollbar{ display:none; }
+  #pages{ scrollbar-width:none; -ms-overflow-style:none; }
+
+  .page{ display:flex; gap:var(--gap); padding:6px var(--padh);
+    align-items:flex-start; }
+  .col{ flex:0 0 auto; overflow:hidden; }
+
+  /* ---------- entry (matches the PDF; sizes in pt × --fs ≈ PDF 1:1) ---------- */
+  .entry{ position:relative; border-bottom:1px solid var(--hair);
+    padding:calc(4pt*var(--fs)) 0 calc(4.5pt*var(--fs)) 14px; }
+  .headline{ position:relative; line-height:1.15; }
+  .num{ position:relative; color:var(--gray); font-size:calc(9pt*var(--fs));
+    font-variant-numeric:tabular-nums; cursor:pointer; padding:2px 1px 2px 1px; }
+  .hw{ font-size:calc(11pt*var(--fs)); font-weight:700; color:var(--blue); cursor:pointer;
+    letter-spacing:.2px; }
+  .ipa{ font-size:calc(7.5pt*var(--fs)); font-weight:300; color:var(--gray);
+    margin:2px 0 1px; letter-spacing:.1px; }
+  .def{ font-size:calc(8.5pt*var(--fs)); line-height:1.4; margin:1px 0; }
+  .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:1px 0; }
+  .root{ margin-top:2px; padding-left:6px; }
+  .root .p{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); }
+  .root .p .txt{ font-weight:700; }
+  .root .sum{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); margin-top:1px; }
+
+  /* mark: gray strikethrough through the middle of the number, from the far left
+     (before the number) to just after the number's dot — like a Word strikethrough */
+  .entry.marked .num::before{ content:""; position:absolute; left:-14px; right:0; top:50%;
+    transform:translateY(-50%); height:1.5px; background:var(--mark); }
+  /* style A (default): also dim the whole entry */
+  .entry.marked{ opacity:.5; }
+  /* style B: line only, text stays its normal color */
+  #pages.markline .entry.marked{ opacity:1; }
+  #pages.hideMarked .entry.marked{ display:none; }
+  /* optional divider between entries (transparent keeps height stable for pagination) */
+  #pages.nodivider .entry{ border-bottom-color:transparent; }
+
+  #measure{ position:absolute; visibility:hidden; left:-99999px; top:0; pointer-events:none; }
+
+  /* ---------- page bar + wheel ---------- */
+  #bar{ flex:0 0 auto; display:flex; align-items:center; justify-content:center;
+    padding:6px 12px calc(env(safe-area-inset-bottom) + 6px); border-top:1px solid var(--hair); }
+  #pageno{ font-size:13px; color:var(--sub); cursor:pointer; padding:4px 16px;
+    border:1px solid var(--hair); border-radius:20px; background:var(--card);
+    font-variant-numeric:tabular-nums; }
+  #wheelH{ position:absolute; left:12px; right:12px; bottom:52px; z-index:8;
+    background:var(--card); border:1px solid var(--hair); border-radius:12px;
+    padding:10px 14px; display:none; box-shadow:0 6px 24px rgba(0,0,0,.18); }
+  #wheelH input{ width:100%; }
+  #wheelV{ position:absolute; right:8px; top:12%; bottom:12%; width:46px; z-index:8;
+    background:var(--card); border:1px solid var(--hair); border-radius:23px;
+    display:none; align-items:center; justify-content:center; box-shadow:0 6px 24px rgba(0,0,0,.18); }
+  #wheelV input{ writing-mode:vertical-lr; -webkit-appearance:slider-vertical; width:22px; height:90%; }
+  .wlabel{ text-align:center; font-size:12px; color:var(--sub); margin-bottom:6px;
+    font-variant-numeric:tabular-nums; }
+  input[type=range]{ accent-color:var(--blue); }
+
+  /* ---------- settings ---------- */
+  #settings{ position:fixed; inset:0; background:var(--bg); z-index:50;
+    display:flex; flex-direction:column; padding:0 22px;
+    padding-top:calc(env(safe-area-inset-top) + 18px); overflow:auto; }
+  #settings h1{ font-size:22px; color:var(--blue); margin:12px 0 4px; }
+  #settings .desc{ color:var(--sub); font-size:13px; margin-bottom:12px; }
+  .row{ display:flex; align-items:center; padding:13px 2px;
+    border-bottom:1px solid var(--hair); gap:12px; flex-wrap:wrap; }
+  .row .lab{ flex:1; min-width:140px; }
+  .row .lab b{ font-size:15px; } .row .lab span{ display:block; color:var(--sub);
+    font-size:12px; margin-top:2px; }
+  .seg{ display:flex; border:1px solid var(--blue); border-radius:9px; overflow:hidden; flex-wrap:wrap; }
+  .seg button{ border:0; background:var(--card); color:var(--blue);
+    padding:8px 12px; font-size:13px; cursor:pointer; }
+  .seg button.on{ background:var(--blue); color:#fff; }
+  .switch{ width:52px; height:30px; border-radius:16px; background:#c8ccd2;
+    position:relative; cursor:pointer; transition:background .2s; flex:0 0 auto; }
+  .switch.on{ background:var(--blue); }
+  .switch::after{ content:""; position:absolute; top:3px; left:3px; width:24px; height:24px;
+    border-radius:50%; background:#fff; transition:left .2s; }
+  .switch.on::after{ left:25px; }
+  .slider{ display:flex; align-items:center; gap:10px; min-width:180px; flex:1; }
+  .slider input{ flex:1; } .slider .val{ font-size:12px; color:var(--sub); width:40px;
+    text-align:right; font-variant-numeric:tabular-nums; }
+  .swatches{ display:flex; flex-wrap:wrap; gap:8px; width:100%; margin-top:4px; }
+  .sw{ width:34px; height:34px; border-radius:8px; cursor:pointer;
+    border:1px solid rgba(0,0,0,.15); position:relative; }
+  .sw.on::after{ content:"✓"; position:absolute; inset:0; display:flex; align-items:center;
+    justify-content:center; color:#1f5fa8; font-weight:700; text-shadow:0 0 3px #fff,0 0 3px #fff; }
+  .hexwrap{ display:flex; gap:8px; align-items:center; margin-top:8px; width:100%; }
+  .hexwrap input{ flex:1; max-width:170px; padding:8px 10px; font-size:13px;
+    border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
+  .hexwrap button{ padding:8px 14px; border:1px solid var(--blue); background:var(--blue);
+    color:#fff; border-radius:8px; font-size:13px; cursor:pointer; }
+  #start{ margin:20px 0 40px; padding:15px; background:var(--blue); color:#fff;
+    border:0; border-radius:13px; font-size:17px; font-weight:700; cursor:pointer; }
+  .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
+    font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
+  .hintbox b{ color:var(--ink); }
+</style>
+</head>
+<body>
+
+<div id="settings">
+  <h1>四级高频单词 · 背诵</h1>
+  <div class="desc">2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF</div>
+
+  <div class="row">
+    <div class="lab"><b>显示已划掉的单词</b><span>关闭后，已掌握（划线）的单词会被隐藏</span></div>
+    <div id="sw-showmarked" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>划线样式</b><span>变灰=划线并把整条变灰 / 仅划线=只划线，字体不变</span></div>
+    <div class="seg" id="seg-markstyle">
+      <button data-v="dim">变灰划线</button><button data-v="line">仅划线</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>显示分界线</b><span>词条之间的浅色分隔线</span></div>
+    <div id="sw-divider" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>翻页方式</b><span>左右滑动分页 / 上下无缝滚动</span></div>
+    <div class="seg" id="seg-mode">
+      <button data-v="h">左右翻页</button><button data-v="v">上下无缝</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>发音口音</b><span>点击单词区域朗读（美/英音均已离线嵌入）</span></div>
+    <div class="seg" id="seg-accent">
+      <button data-v="us">美音</button><button data-v="uk">英音</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>跳过开头静音</b><span>有道发音开头约 0.33s 静音；跳过它更跟手</span></div>
+    <div class="slider"><input id="rg-skip" type="range" min="0" max="314" step="10"><span class="val" id="v-skip"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>字体大小</b><span>默认≈优化版 PDF 原大小（100% 缩放时）</span></div>
+    <div class="slider"><input id="rg-fs" type="range" min="0.75" max="1.6" step="0.05"><span class="val" id="v-fs"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>栏数</b><span>自动=按 PDF 栏宽铺满屏幕；也可固定</span></div>
+    <div class="seg" id="seg-cols">
+      <button data-v="auto">自动</button><button data-v="2">2</button><button data-v="3">3</button><button data-v="4">4</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>间距（空隙）</b><span>控制栏间距与左右留白</span></div>
+    <div class="slider"><input id="rg-sp" type="range" min="0" max="1" step="0.05"><span class="val" id="v-sp"></span></div>
+  </div>
+  <div class="row" style="display:block">
+    <div class="lab"><b>背景颜色</b><span>点色块选择；或在下方输入色号 (#RRGGBB) 添加</span></div>
+    <div class="swatches" id="swatches"></div>
+    <div class="hexwrap">
+      <input id="hexinput" type="text" placeholder="#f0e8d0" maxlength="7">
+      <button id="hexadd">添加</button>
+    </div>
+  </div>
+
+  <div class="row" style="display:block">
+    <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准) 与「自定义色号列表」；其余设置及当前选中的颜色不同步</span></div>
+    <div class="hexwrap">
+      <input id="syncinput" type="text" placeholder="同步码，如 cet4-sync-2026" maxlength="40">
+      <button id="syncbtn">连接 / 保存</button>
+    </div>
+    <div id="syncstatus" style="font-size:12px;color:var(--sub);margin-top:6px"></div>
+  </div>
+
+  <div class="hintbox">
+    <b>操作说明</b><br>
+    · 点<b>序号</b> → 灰线标记「已掌握」（再点取消）<br>
+    · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音<br>
+    · 点词条<b>其他地方</b> → 发音<br>
+    · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
+    · 设置 / 划线 / 上次位置自动保存
+  </div>
+  <button id="start">开始背诵</button>
+</div>
+
+<div id="top">
+  <div class="t">四级高频 1250</div><div class="sp"></div>
+  <button class="iconbtn" id="btn-settings">设置</button>
+</div>
+
+<div id="pages"></div>
+<div id="measure"></div>
+
+<div id="wheelH"><div class="wlabel" id="wlabelH"></div><input type="range" id="rangeH"></div>
+<div id="wheelV"><input type="range" id="rangeV"></div>
+<div id="bar"><div id="pageno">1 / 1</div></div>
+
+<script type="application/json" id="audio-us">__AUDIO_US__</script>
+<script type="application/json" id="audio-uk">__AUDIO_UK__</script>
+<script>
+window.CET4 = __DATA__;
+</script>
+<script>
+/* 多端同步配置（Supabase，仅可公开的 publishable key）。
+   留空(null)则不启用同步——App 仍可本地/离线正常使用。 */
+window.SYNC_CONFIG = __SYNC_CONFIG__;
+</script>
+<script>
+(function(){
+  "use strict";
+  var DATA = window.CET4 || [];
+  var LS = "cet4_reader_v3";
+  var PRESETS = [
+    {n:"白", c:"#ffffff"}, {n:"米黄", c:"#f6efdd"}, {n:"护眼绿", c:"#c9e6cc"},
+    {n:"淡青", c:"#dde9e7"}, {n:"浅灰", c:"#e9ebee"}, {n:"夜间", c:"#15181b"}
+  ];
+
+  var state = {
+    showMarked:true, markStyle:"dim", divider:true, mode:"h", accent:"us",
+    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:250,
+    bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:""
+  };
+  try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
+  // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
+  if(state.marked){ for(var _r in state.marked){ if(!state.marks[_r]) state.marks[_r]={v:1,t:0}; } delete state.marked; }
+  if(!state.marks) state.marks={};
+  function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
+  function marked(rank){ var m=state.marks[rank]; return !!(m && m.v===1); }
+
+  var pagesEl=document.getElementById("pages"),
+      measEl=document.getElementById("measure"),
+      pagenoEl=document.getElementById("pageno");
+
+  function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+
+  function entryHTML(e){
+    var h='<div class="entry'+(marked(e.rank)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
+    h+='<div class="headline"><span class="num" data-act="mark">'+e.rank+'.</span> '
+      +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
+    if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
+    if(e.def) h+='<div class="def">'+esc(e.def)+'</div>';
+    if(e.ex) h+='<div class="ex">'+esc(e.ex_label||"例句")+'：'+esc(e.ex)+'</div>';
+    if(e.root && e.root.parts && e.root.parts.length){
+      h+='<div class="root">';
+      e.root.parts.forEach(function(p){
+        h+='<div class="p">'+esc(p.type)+' <span class="txt">'+esc(p.text)+'</span> = '+esc(p.meaning)+'</div>';
+      });
+      if(e.root.summary) h+='<div class="sum">▸ '+esc(e.root.summary)+'</div>';
+      h+='</div>';
+    }
+    return h+'</div>';
+  }
+
+  function applyLayout(){
+    var gap=Math.round(10+state.spacing*28), padh=Math.round(6+state.spacing*20);
+    var r=document.documentElement.style;
+    r.setProperty("--fs", state.fontScale);
+    r.setProperty("--gap", gap+"px");
+    r.setProperty("--padh", padh+"px");
+    return {gap:gap, padh:padh};
+  }
+
+  // ---- measured pagination (fills a column top-to-bottom like the PDF) ----
+  var pages=[], colW=300, colCount=2;
+  function visible(){ return state.showMarked ? DATA : DATA.filter(function(e){ return !marked(e.rank); }); }
+
+  function paginate(){
+    var lay=applyLayout();
+    var W=pagesEl.clientWidth, H=pagesEl.clientHeight;
+    if(!W||!H) return;
+    if(state.cols==="auto"){
+      var target=330*state.fontScale;
+      colCount=Math.max(1, Math.round((W-2*lay.padh+lay.gap)/(target+lay.gap)));
+    } else colCount=+state.cols;
+    colCount=Math.max(1, Math.min(6, colCount));
+    colW=Math.floor((W-2*lay.padh-(colCount-1)*lay.gap)/colCount);
+    var colH=H-14;
+    var list=visible();
+    measEl.style.width=colW+"px";
+    measEl.innerHTML=list.map(entryHTML).join("");
+    var kids=measEl.children, hs=[];
+    for(var i=0;i<kids.length;i++) hs.push(kids[i].offsetHeight);
+    measEl.innerHTML="";
+    var cols=[], cur=[], curH=0;
+    for(var j=0;j<list.length;j++){
+      var eh=hs[j]+1;
+      if(cur.length && curH+eh>colH){ cols.push(cur); cur=[]; curH=0; }
+      cur.push(list[j]); curH+=eh;
+    }
+    if(cur.length) cols.push(cur);
+    pages=[];
+    for(var c=0;c<cols.length;c+=colCount) pages.push(cols.slice(c,c+colCount));
+    if(!pages.length) pages=[[[]]];
+    render();
+  }
+
+  function render(){
+    var html="";
+    for(var p=0;p<pages.length;p++){
+      html+='<div class="page" data-page="'+p+'">';
+      for(var c=0;c<pages[p].length;c++){
+        html+='<div class="col" style="width:'+colW+'px">';
+        for(var k=0;k<pages[p][c].length;k++) html+=entryHTML(pages[p][c][k]);
+        html+='</div>';
+      }
+      html+='</div>';
+    }
+    pagesEl.innerHTML=html;
+    pagesEl.className=state.mode+(state.showMarked?"":" hideMarked")+(state.markStyle==="line"?" markline":"")+(state.divider?"":" nodivider");
+    rangeH.max=rangeV.max=Math.max(0,pages.length-1);
+    restoreAnchor(); prefetchCurrent();
+  }
+
+  function pageOfRank(rank){
+    for(var p=0;p<pages.length;p++) for(var c=0;c<pages[p].length;c++)
+      for(var k=0;k<pages[p][c].length;k++) if(pages[p][c][k].rank===rank) return p;
+    return 0;
+  }
+  function restoreAnchor(){ var p=pageOfRank(state.anchor);
+    requestAnimationFrame(function(){ scrollToPage(p,false); updateLabel(); }); }
+  function scrollToPage(p,smooth){
+    p=Math.max(0,Math.min(pages.length-1,p));
+    var el=pagesEl.querySelector('.page[data-page="'+p+'"]'); if(!el) return;
+    if(state.mode==="h") pagesEl.scrollTo({left:el.offsetLeft, behavior:smooth?"smooth":"auto"});
+    else pagesEl.scrollTo({top:el.offsetTop, behavior:smooth?"smooth":"auto"});
+  }
+  function currentPage(){
+    var ps=pagesEl.querySelectorAll(".page"); if(!ps.length) return 0;
+    if(state.mode==="h"){ var x=pagesEl.scrollLeft+pagesEl.clientWidth/2;
+      for(var i=0;i<ps.length;i++) if(ps[i].offsetLeft+ps[i].offsetWidth>=x) return i;
+    }else{ var y=pagesEl.scrollTop+pagesEl.clientHeight/2;
+      for(var j=0;j<ps.length;j++) if(ps[j].offsetTop+ps[j].offsetHeight>=y) return j; }
+    return ps.length-1;
+  }
+  function firstRankOnPage(p){ return (pages[p]&&pages[p][0]&&pages[p][0][0])?pages[p][0][0].rank:state.anchor; }
+  function updateLabel(){
+    var cur=currentPage();
+    pagenoEl.textContent=(cur+1)+" / "+pages.length;
+    rangeH.value=rangeV.value=cur;
+    wlabelH.textContent="第 "+(cur+1)+" / "+pages.length+" 页";
+    return cur;
+  }
+  var scrollTO;
+  pagesEl.addEventListener("scroll", function(){
+    var cur=updateLabel(); clearTimeout(scrollTO);
+    scrollTO=setTimeout(function(){ state.anchor=firstRankOnPage(cur); save(); prefetchCurrent(); }, 160);
+  }, {passive:true});
+
+  // ---- audio: EMBEDDED (offline), skip leading silence at playback ----
+  var audioMaps={};                 // accent -> {word: base64 mp3}
+  function audioMap(acc){
+    if(!audioMaps[acc]){
+      var el=document.getElementById("audio-"+acc);
+      try{ audioMaps[acc]= el && el.textContent.trim() ? JSON.parse(el.textContent) : {}; }
+      catch(e){ audioMaps[acc]={}; }
+    }
+    return audioMaps[acc];
+  }
+  var cache={};
+  function src(w){
+    var b=audioMap(state.accent)[w];
+    if(b) return "data:audio/mpeg;base64,"+b;                          // embedded, offline
+    return "https://dict.youdao.com/dictvoice?type="+(state.accent==="uk"?1:2)+"&audio="+encodeURIComponent(w); // fallback
+  }
+  function getAudio(w){
+    var key=state.accent+"|"+w, a=cache[key];
+    if(!a){ a=new Audio(); a.preload="auto"; a.src=src(w); cache[key]=a; }
+    return a;
+  }
+  function prefetchCurrent(){
+    var cur=currentPage();
+    [cur,cur+1].forEach(function(p){ if(pages[p]) pages[p].forEach(function(col){ col.forEach(function(e){ getAudio(e.word); }); }); });
+  }
+  function speak(w){
+    var a=getAudio(w), skip=(state.skipMs||0)/1000;
+    var go=function(){ try{ if(skip && (a.duration>skip+0.05)) a.currentTime=skip; else a.currentTime=0; }catch(e){} a.play().catch(function(){}); };
+    if(a.readyState>=1) go(); else { a.addEventListener("loadedmetadata", go, {once:true}); try{ a.load(); }catch(e){} }
+  }
+
+  // ---- interactions ----
+  pagesEl.addEventListener("click", function(ev){
+    var entry=ev.target.closest(".entry"); if(!entry) return;
+    var rank=+entry.dataset.rank, word=entry.dataset.word;
+    var a=ev.target.closest("[data-act]"), act=a?a.dataset.act:"speak";
+    // clicking the blank strip in front of / around the number also marks
+    if(act==="speak"){
+      var hwEl=entry.querySelector(".hw");
+      if(hwEl){ var r=hwEl.getBoundingClientRect();
+        if(ev.clientY<=r.bottom && ev.clientX<r.left) act="mark"; }
+    }
+    if(act==="mark"){
+      var nv = marked(rank) ? 0 : 1;
+      state.marks[rank] = {v:nv, t:Date.now()};
+      entry.classList.toggle("marked", nv===1); save();
+      syncPushMark(rank);
+      if(!state.showMarked) paginate();
+      return;
+    }
+    if(act==="syl"){
+      var showing=a.dataset.showing==="syl";
+      a.textContent=showing?a.dataset.orig:a.dataset.syl;
+      a.dataset.showing=showing?"orig":"syl";
+      speak(word); return;
+    }
+    speak(word);
+  });
+
+  // ---- wheel ----
+  var wheelH=document.getElementById("wheelH"), wheelV=document.getElementById("wheelV"),
+      rangeH=document.getElementById("rangeH"), rangeV=document.getElementById("rangeV"),
+      wlabelH=document.getElementById("wlabelH");
+  rangeH.min=rangeV.min=0;
+  rangeH.addEventListener("input", function(){ wlabelH.textContent="第 "+(+rangeH.value+1)+" / "+pages.length+" 页"; scrollToPage(+rangeH.value,false); });
+  rangeV.addEventListener("input", function(){ scrollToPage(+rangeV.value,false); });
+  pagenoEl.addEventListener("click", function(){
+    if(state.mode==="h"){ var v=wheelH.style.display==="block"; wheelH.style.display=v?"none":"block"; wheelV.style.display="none"; }
+    else{ var v2=wheelV.style.display==="flex"; wheelV.style.display=v2?"none":"flex"; wheelH.style.display="none"; }
+    updateLabel();
+  });
+
+  // ---- theme ----
+  function lum(hex){ hex=hex.replace("#",""); if(hex.length===3) hex=hex.split("").map(function(c){return c+c;}).join("");
+    var r=parseInt(hex.substr(0,2),16)/255,g=parseInt(hex.substr(2,2),16)/255,b=parseInt(hex.substr(4,2),16)/255;
+    return 0.2126*r+0.7152*g+0.0722*b; }
+  function applyTheme(bg){
+    var dark=lum(bg)<0.42, r=document.documentElement.style;
+    r.setProperty("--bg",bg); r.setProperty("--card",bg);
+    r.setProperty("--ink",dark?"#e9e9e9":"#1a1a1a");
+    r.setProperty("--sub",dark?"#aab0b6":"#555555");
+    r.setProperty("--gray",dark?"#9aa0a6":"#8a8a8a");
+    r.setProperty("--blue",dark?"#7fb0e6":"#1f5fa8");
+    r.setProperty("--mark",dark?"#8b9096":"#8a8a8a");
+    r.setProperty("--hair",dark?"rgba(255,255,255,.10)":"rgba(0,0,0,.08)");
+    r.setProperty("--panel",dark?"rgba(255,255,255,.05)":"#f4f6f9");
+  }
+
+  // ---- settings UI ----
+  var settingsEl=document.getElementById("settings"),
+      swShow=document.getElementById("sw-showmarked"),
+      swDivider=document.getElementById("sw-divider"),
+      segMark=document.getElementById("seg-markstyle"),
+      segMode=document.getElementById("seg-mode"),
+      segAccent=document.getElementById("seg-accent"),
+      segCols=document.getElementById("seg-cols"),
+      rgFs=document.getElementById("rg-fs"), vFs=document.getElementById("v-fs"),
+      rgSp=document.getElementById("rg-sp"), vSp=document.getElementById("v-sp"),
+      rgSkip=document.getElementById("rg-skip"), vSkip=document.getElementById("v-skip"),
+      swatchesEl=document.getElementById("swatches"),
+      hexInput=document.getElementById("hexinput"), hexAdd=document.getElementById("hexadd");
+
+  function renderSwatches(){
+    var all=PRESETS.concat(state.customColors.map(function(c){ return {n:c,c:c}; }));
+    swatchesEl.innerHTML=all.map(function(o){
+      return '<div class="sw'+(o.c.toLowerCase()===state.bg.toLowerCase()?" on":"")+'" title="'+o.n+'" data-c="'+o.c+'" style="background:'+o.c+'"></div>';
+    }).join("");
+  }
+  swatchesEl.addEventListener("click", function(ev){ var el=ev.target.closest(".sw"); if(!el) return;
+    state.bg=el.dataset.c; applyTheme(state.bg); renderSwatches(); save(); });
+  hexAdd.addEventListener("click", function(){
+    var v=(hexInput.value||"").trim();
+    if(!/^#?[0-9a-fA-F]{6}$/.test(v)){ hexInput.value=""; hexInput.placeholder="色号无效，如 #f0e8d0"; return; }
+    if(v[0]!=="#") v="#"+v; v=v.toLowerCase();
+    if(state.customColors.indexOf(v)<0 && !PRESETS.some(function(p){return p.c===v;})){ state.customColors.push(v); syncPushColor(v); }
+    state.bg=v; applyTheme(v); renderSwatches(); hexInput.value=""; save();
+  });
+
+  function seg(el,key,after){ el.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(!b) return;
+    state[key]=b.dataset.v; syncSettings(); save(); if(after) after(); }); }
+  function syncSettings(){
+    swShow.classList.toggle("on",state.showMarked);
+    swDivider.classList.toggle("on",state.divider);
+    [[segMark,"markStyle"],[segMode,"mode"],[segAccent,"accent"],[segCols,"cols"]].forEach(function(x){
+      [].forEach.call(x[0].children,function(b){ b.classList.toggle("on",b.dataset.v===String(state[x[1]])); });
+    });
+    rgFs.value=state.fontScale; vFs.textContent=Math.round(state.fontScale*100)+"%";
+    rgSp.value=state.spacing; vSp.textContent=Math.round(state.spacing*100)+"%";
+    rgSkip.value=state.skipMs; vSkip.textContent=state.skipMs+"ms";
+    renderSwatches();
+  }
+  swShow.addEventListener("click", function(){ state.showMarked=!state.showMarked; syncSettings(); save(); });
+  swDivider.addEventListener("click", function(){ state.divider=!state.divider; syncSettings(); pagesEl.classList.toggle("nodivider", !state.divider); save(); });
+  seg(segMark,"markStyle"); seg(segMode,"mode"); seg(segCols,"cols");
+  segAccent.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(b){ state.accent=b.dataset.v; cache={}; syncSettings(); save(); } });
+  rgFs.addEventListener("input", function(){ state.fontScale=+rgFs.value; vFs.textContent=Math.round(state.fontScale*100)+"%"; applyLayout(); save(); });
+  rgSp.addEventListener("input", function(){ state.spacing=+rgSp.value; vSp.textContent=Math.round(state.spacing*100)+"%"; applyLayout(); save(); });
+  rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
+
+  document.getElementById("start").addEventListener("click", function(){ settingsEl.style.display="none"; paginate(); });
+  document.getElementById("btn-settings").addEventListener("click", function(){
+    syncSettings(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+
+  var rzTO;
+  window.addEventListener("resize", function(){ clearTimeout(rzTO); rzTO=setTimeout(function(){ if(settingsEl.style.display==="none") paginate(); }, 200); });
+
+  // ---- multi-device sync (Supabase REST, last-write-wins per word) ----
+  // Syncs ONLY: per-word marks (LWW by timestamp) + the custom-color LIST (union).
+  // NOT synced: any other setting, nor which bg color is selected.
+  var SYNC={cfg:window.SYNC_CONFIG||null, code:"", status:"off", timer:null, busy:false};
+  var syncStatusEl=null;
+  function setSyncStatus(s){ SYNC.status=s; if(syncStatusEl){
+    syncStatusEl.textContent={off:"未开启同步",connecting:"连接中…",on:"已同步 ✓",err:"连接失败（检查同步码/网络）",noconf:"未配置云端"}[s]||s; } }
+
+  function api(path, opts){
+    opts=opts||{};
+    opts.headers=Object.assign({ "apikey":SYNC.cfg.key, "Authorization":"Bearer "+SYNC.cfg.key,
+      "Content-Type":"application/json" }, opts.headers||{});
+    return fetch(SYNC.cfg.url+"/rest/v1/"+path, opts);
+  }
+  function startSync(){
+    if(SYNC.timer){ clearInterval(SYNC.timer); SYNC.timer=null; }
+    SYNC.code=(state.syncCode||"").trim();
+    if(!SYNC.code){ setSyncStatus("off"); return; }
+    if(!SYNC.cfg || !SYNC.cfg.url){ setSyncStatus("noconf"); return; }
+    setSyncStatus("connecting");
+    reconcile();
+    SYNC.timer=setInterval(reconcile, 25000);   // periodic pull while open
+  }
+  function reconcile(){
+    if(!SYNC.code || !SYNC.cfg || SYNC.busy) return;
+    SYNC.busy=true;
+    api("progress?code=eq."+encodeURIComponent(SYNC.code)+"&select=kind,item,v,t")
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(rows){
+        var rMarks={}, rColors={}, k;
+        rows.forEach(function(row){ if(row.kind==="mark") rMarks[row.item]={v:row.v,t:Number(row.t)};
+                                    else if(row.kind==="color") rColors[row.item]=true; });
+        var changed=false, push=[];
+        for(k in rMarks){ var rm=rMarks[k], lm=state.marks[k];
+          if(!lm || rm.t>lm.t){ state.marks[k]={v:rm.v?1:0,t:rm.t}; changed=true; } }
+        for(k in state.marks){ var l2=state.marks[k], r2=rMarks[k];
+          if(!r2 || l2.t>(r2.t||0)) push.push({code:SYNC.code,kind:"mark",item:String(k),v:l2.v,t:l2.t}); }
+        for(k in rColors){ var hex="#"+k;
+          if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
+        state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
+        if(changed){ save(); renderSwatches(); if(settingsEl.style.display==="none") paginate(); }
+        if(push.length) return api("progress?on_conflict=code,kind,item",
+          {method:"POST", headers:{"Prefer":"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify(push)});
+      })
+      .then(function(){ setSyncStatus("on"); })
+      .catch(function(){ setSyncStatus("err"); })
+      .then(function(){ SYNC.busy=false; });
+  }
+  var pushTO;
+  function scheduleSync(){ if(!SYNC.code || !SYNC.cfg) return; clearTimeout(pushTO); pushTO=setTimeout(reconcile, 800); }
+  function syncPushMark(){ scheduleSync(); }
+  function syncPushColor(){ scheduleSync(); }
+  document.addEventListener("visibilitychange", function(){ if(!document.hidden) reconcile(); });
+  window.addEventListener("focus", function(){ reconcile(); });
+
+  // sync settings UI
+  var syncInput=document.getElementById("syncinput"), syncBtn=document.getElementById("syncbtn");
+  syncStatusEl=document.getElementById("syncstatus");
+  syncInput.value=state.syncCode||"";
+  syncBtn.addEventListener("click", function(){ state.syncCode=(syncInput.value||"").trim(); save(); startSync(); });
+  setSyncStatus(state.syncCode ? "connecting" : "off");
+
+  // init
+  applyTheme(state.bg); applyLayout(); syncSettings(); paginate();
+  if(state.syncCode) startSync();
+
+  // PWA: register service worker (offline + durable storage once added to home screen).
+  // Silently ignored when opened as a local file:// (no origin).
+  if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){
+    window.addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}); });
+  }
+})();
+</script>
+</body>
+</html>

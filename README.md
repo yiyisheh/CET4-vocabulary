@@ -61,9 +61,9 @@ and
 - 点**序号**（内联 `1.` 与 PDF 一致）→ 灰色划线标记「已掌握」（左侧短下划线，非整行删除线）。
 - 点**单词** → 音节拆分 `com·po·si·tion` ⇄ 原词，同时发音；点词条**其他区域** → 发音。
 - 发音**全部离线嵌入**：2500 条有道 mp3（美+英）base64 内嵌，断网可用（文件因此约 65MB）。
-- **跳过开头静音**滑块（默认 250ms，可调 0–314ms）——有道 mp3 开头有 ~0.33s 静音，跳过后点击秒出声。
+- **跳过开头静音**滑块（默认 250ms，可调 0–314ms）——有道 mp3 开头有 ~0.33s 静音，跳过后点击秒出声。开头静音**已全库对齐到 ≥314ms**（原始音频里 `been` 等词静音不足会被切，已用 `scripts/align_audio_silence.py` 后处理补齐），故任意 skip 值都不切进单词。
 - 音频以 `<script type="application/json">` 存放（不执行、按需解析），阅读界面照常秒开。
-- 生成音频：`python scripts/fetch_audio.py`（下载到 `intermediate/audio/`，可断点续传）再 `build_html.py`。
+- 生成音频：`python scripts/fetch_audio.py`（下载到 `intermediate/audio/`，可断点续传）→ `python scripts/align_audio_silence.py`（**开头静音对齐,幂等,重下必跑**,否则 `been` 又被切）→ `build_html.py`。
 - 点**页码** → 弹出/收起快速翻页滚轮（左右模式在底部、上下模式在右侧）。
 - 分页按**实测高度装箱**（像 PDF 一样填满一栏再下一栏），一个词都不会丢。
 - 字号用 `pt` 单位、默认对齐优化版 PDF；不同屏幕如需精确 1:1 可用字体大小微调。

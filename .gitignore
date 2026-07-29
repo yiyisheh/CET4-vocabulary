@@ -16,5 +16,8 @@ _pages/
 # stray test image (OCR calibration), not part of the project
 image.png
 
+# 开头静音对齐脚本(align_audio_silence.py)的原件备份,不入库
+intermediate/audio_orig_backup/
+
 # 66MB 构建产物（单文件离线版，可由 scripts/build_html.py 重生成）；上线用的是 docs/index.html
 英语四级单词背诵.html

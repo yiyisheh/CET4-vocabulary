@@ -198,7 +198,7 @@
   <div class="row" style="display:block">
     <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准) 与「自定义色号列表」；其余设置及当前选中的颜色不同步</span></div>
     <div class="hexwrap">
-      <input id="syncinput" type="text" placeholder="同步码，如 cet4-sync-2026" maxlength="40">
+      <input id="syncinput" type="text" placeholder="同步码，如 cet4-9f3k" maxlength="40">
       <button id="syncbtn">连接 / 保存</button>
     </div>
     <div id="syncstatus" style="font-size:12px;color:var(--sub);margin-top:6px"></div>
@@ -547,11 +547,22 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     reconcile();
     SYNC.timer=setInterval(reconcile, 25000);   // periodic pull while open
   }
+  // 分页拉取:云端(PostgREST db-max-rows)一次最多回 N 行(本项目默认 1000),
+  // 且不会提示"还有更多"。这里按“实际返回行数”翻页、直到某页为空,
+  // 因此不写死 1000/500,换任何服务器都能拉全(见 §8)。
+  function pullAll(code, off, acc){
+    return api("progress?code=eq."+encodeURIComponent(code)+"&select=kind,item,v,t&order=kind,item&offset="+off)
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(rows){
+        acc=acc.concat(rows);
+        if(rows.length===0 || off>200000) return acc;   // 空页=已拉完;20万行上限防死循环
+        return pullAll(code, off+rows.length, acc);      // ★按实际行数前进,不假设页大小
+      });
+  }
   function reconcile(){
     if(!SYNC.code || !SYNC.cfg || SYNC.busy) return;
     SYNC.busy=true;
-    api("progress?code=eq."+encodeURIComponent(SYNC.code)+"&select=kind,item,v,t")
-      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    pullAll(SYNC.code, 0, [])
       .then(function(rows){
         var rMarks={}, rColors={}, k;
         rows.forEach(function(row){ if(row.kind==="mark") rMarks[row.item]={v:row.v,t:Number(row.t)};

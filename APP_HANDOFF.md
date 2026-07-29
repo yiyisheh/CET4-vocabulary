@@ -171,6 +171,7 @@ web/pwa/* ───────────────────────�
 - `fetch_audio.py`：对 1250 词各下 美音(有道 type=2)/英音(type=1) → `intermediate/audio/{us,uk}/{rank}.mp3`（可断点续传）
 - `build_html.py`：base64 编码嵌进 html（因此 66MB）
 - 有道 mp3 开头有 **314–415ms 静音**，App 用 `skipMs`(默认250) 在播放时 `currentTime` 跳过，秒出声
+- ⚠️ **开头静音已全库对齐到 ≥314ms**：原始有道音频里 `been` 等词开头静音不足 314ms，默认 skip 250 会切进单词。已做后处理：US 用「精确零边界法」、UK 用「短窗 RMS 起音法」检测真实起音，把不足的补零到 314ms（原生采样率+原码率重编码，已足够长的不动）。实测全库 2500 条真实起音均 ≥314ms。**因此 `intermediate/audio/` 已不再是"可由 fetch_audio.py 重生成"的纯下载产物——补齐是后处理,已改为纳入 git 跟踪(见 §10)。要重下音频须重跑对齐,否则 `been` 又会被切。**
 - 发音源是有道 `dictvoice`，已全部下载内嵌，**运行时不再联网**
 
 ---
@@ -187,6 +188,7 @@ web/pwa/* ───────────────────────�
 - 纯 REST(fetch)，**不引 Supabase SDK**。localStorage 是本地事实源，联网时与云端做**双向 LWW 合并**
 - 触发：开 App / 每 25s 轮询 / 窗口重新聚焦(visibilitychange) / 本地改动后 800ms 防抖
 - 同一 `syncCode` 的设备共享数据
+- ⚠️ **拉取必须分页**：Supabase/PostgREST 有 `db-max-rows` 硬上限(本项目实测默认 **1000**)，单次 GET 超出会被**静默截断且无提示**。而一个码的行数 = 划线(最多 1250 词) + 色号，可超 1000。`reconcile()` 用 `pullAll()` 按**实际返回行数**翻页(offset)直到空页，**不写死页大小**——换服务器(默认可能 500/无上限)也不会漏。改同步逻辑时勿退回单次 GET。
 
 ### 8.3 云端表（用户已在 Supabase SQL Editor 建好）
 ```sql
@@ -236,7 +238,7 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 托管文件已备好在 `docs/`（index.html + manifest + sw.js + icons），**但还没推上线**。步骤：
 
 1. 提交并推送（仓库 `yiyisheh/CET4-vocabulary`，main 分支）。注意 `docs/index.html` 66MB，GitHub <100MB 可过但会警告。
-   - 建议：`intermediate/audio/` 已 gitignore；根目录 66MB 的 `英语四级单词背诵.html` 可考虑也 gitignore（可由 build_html 重生成），只保留 `docs/index.html` 上线用，省一半仓库体积。
+   - `intermediate/audio/` **已纳入 git 跟踪**（因开头静音对齐是后处理、不可由 fetch_audio.py 纯下载重生成，见 §7）；根目录 66MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/index.html` 上线用。
 2. GitHub 仓库 → Settings → Pages → Source 选 **main / docs** → 保存。
 3. 等几分钟，访问 `https://yiyisheh.github.io/CET4-vocabulary/`。
 4. iPad **Safari** 打开该网址 → 分享 → **添加到主屏幕** → 成为已安装 PWA。

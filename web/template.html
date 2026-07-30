@@ -57,9 +57,16 @@
   .hw{ font-size:calc(11pt*var(--fs)); font-weight:700; color:var(--blue); cursor:pointer;
     letter-spacing:.2px; }
   /* uniform breathing gap above each line (headline→ipa→def→ex all share the same 6px). */
-  .ipa{ font-size:calc(7.5pt*var(--fs)); font-weight:300; color:var(--gray);
+  .ipa{ font-size:calc(7.5pt*var(--fs)); font-weight:300; color:var(--sub);
     margin:6px 0 0; letter-spacing:.1px; }
   .def{ font-size:calc(8.5pt*var(--fs)); line-height:1.4; margin:6px 0 0; }
+  /* self-test mask: blank a block/inline (释义 / 词根 / 例句翻译) until the card is unlocked.
+     transparent text keeps the exact height so nothing reflows on reveal; a faint tinted box
+     marks it tappable. Tapping any masked part reveals ALL masked parts of the entry at once
+     ("和卡片同步解锁"). Descendants blanked too (词根 has colored children). */
+  .mask{ color:transparent !important; background:var(--panel); border-radius:5px;
+    cursor:pointer; -webkit-user-select:none; user-select:none; }
+  .mask *{ color:transparent !important; }
   /* example line: tap target is the padding box only. The gap above lives in margin-top
      (NOT clickable) and top padding is trimmed to 1px so the hit area hugs the text; the
      roomier bottom padding stays for a comfortable tap. Negative side margins keep the text
@@ -67,6 +74,10 @@
   .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:6px -6px 0; padding:1px 6px 5px;
     border-radius:7px; cursor:pointer; -webkit-user-select:none; user-select:none; }
   .ex:active{ background:var(--panel); }
+  /* running-total milestone: dark-gray small text on the divider between two words, left-aligned. */
+  .milestone{ text-align:left; color:var(--sub); font-weight:600;
+    font-size:calc(6.8pt*var(--fs)); letter-spacing:.5px;
+    margin:calc(5pt*var(--fs)) 0 calc(-2pt*var(--fs)); opacity:.75; }
   .root{ margin-top:2px; padding-left:6px; }
   .root .p{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); }
   .root .p .txt{ font-weight:700; }
@@ -124,6 +135,9 @@
   .row{ display:flex; align-items:center; padding:13px 2px;
     border-bottom:1px solid var(--hair); gap:12px; flex-wrap:wrap; }
   .row .lab{ flex:1; min-width:140px; }
+  /* nested sub-option (e.g. 自测 的例句翻译子项): indented with a left rule to read as a child row */
+  .row.subrow{ padding-left:16px; margin-left:6px; border-left:2px solid var(--blue); }
+  .row.subrow .lab b{ font-size:14px; font-weight:600; }
   .row .lab b{ font-size:15px; } .row .lab span{ display:block; color:var(--sub);
     font-size:12px; margin-top:2px; }
   .seg{ display:flex; border:1px solid var(--blue); border-radius:9px; overflow:hidden; flex-wrap:wrap; }
@@ -149,6 +163,13 @@
     border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
   .hexwrap button{ padding:8px 14px; border:1px solid var(--blue); background:var(--blue);
     color:#fff; border-radius:8px; font-size:13px; cursor:pointer; }
+  /* counter-interval chips (added running-total intervals; tap a chip to remove it) */
+  .chips{ display:flex; flex-wrap:wrap; gap:6px; width:100%; margin-top:8px; }
+  .chip{ padding:5px 10px; border:1px solid var(--blue); border-radius:14px; color:var(--blue);
+    background:var(--card); font-size:12px; cursor:pointer; -webkit-user-select:none; user-select:none; }
+  .chip::after{ content:" ✕"; opacity:.6; font-size:10px; }
+  .chip.empty{ border-style:dashed; color:var(--sub); border-color:var(--hair); cursor:default; }
+  .chip.empty::after{ content:""; }
   .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--blue); background:var(--blue);
     color:#fff; border-radius:9px; font-size:13px; cursor:pointer; }
   .minibtn:disabled{ opacity:.5; cursor:default; }
@@ -188,6 +209,26 @@
   <div class="row">
     <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，每次进出设置页时才重新加载去掉</span></div>
     <div id="sw-removemarked" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>自测（释义 / 词根留白）</b><span>开启后释义、词根词缀卡彻底留白，点卡片才一起显示——先回忆再核对</span></div>
+    <div id="sw-selftest" class="switch"></div>
+  </div>
+  <div class="row subrow">
+    <div class="lab"><b>例句翻译随卡片解锁</b><span>仅自测时生效：例句中文翻译也一起遮住，点卡片和释义/词根同步解锁（英文原句始终可见）</span></div>
+    <div id="sw-masktrans" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>显示例句</b><span>关闭后不显示例句行（更精简）</span></div>
+    <div id="sw-showex" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>实时累计词数</b><span>在分界线上按间隔标出「累计 N 词」深灰小字；可加多个间隔（如 100、25）。数当前显示的词——开「去掉已划掉」后自动只数剩下的</span></div>
+    <div class="hexwrap">
+      <input id="counter-input" type="number" min="1" inputmode="numeric" placeholder="每 N 词，如 100">
+      <button id="counter-add">添加</button>
+    </div>
+    <div class="chips" id="counter-chips"></div>
   </div>
   <div class="row">
     <div class="lab"><b>划线样式</b><span>变灰=划线并把整条变灰 / 仅划线=只划线，字体不变</span></div>
@@ -319,7 +360,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   var state = {
     removeMarked:false, markStyle:"dim", divider:true, mode:"h", accent:"us",
     fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0,
-    bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170
+    bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170,
+    selftest:false, showEx:true,  // selftest: blank the definition until tapped; showEx: render example lines
+    maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
+    counters:[]                   // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
@@ -327,6 +371,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // migrate showMarked(显示) -> removeMarked(去掉): inverse meaning
   if(state.showMarked!==undefined){ state.removeMarked=!state.showMarked; delete state.showMarked; }
   if(!state.marks) state.marks={};
+  if(!Array.isArray(state.counters)) state.counters=[];
   // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
   if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
@@ -337,22 +382,47 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       pagenoEl=document.getElementById("pageno");
 
   function esc(s){ return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+  // example is "英文（中文）" mixed; split at the first (（ paren into english / translation parts
+  function exEnglish(s){ s=s||""; var i=s.search(/[（(]/); return (i<0?s:s.slice(0,i)).trim(); }
+  function exTrans(s){ s=s||""; var i=s.search(/[（(]/); return i<0?"":s.slice(i).trim(); }
+
+  // running-total milestones: rank -> count to show on that entry's divider. Recomputed each
+  // paginate() from the current visible list; a divider shows if its 1-based position is a
+  // multiple of ANY configured interval ("数当前显示的词"). Empty map when no intervals set.
+  var milestoneAt={};
+  function computeMilestones(list){
+    milestoneAt={};
+    var ivs=(state.counters||[]).filter(function(n){ return n>0; });
+    if(!ivs.length) return;
+    for(var i=0;i<list.length;i++){ var pos=i+1;
+      if(ivs.some(function(n){ return pos%n===0; })) milestoneAt[list[i].rank]=pos;
+    }
+  }
 
   function entryHTML(e){
     var h='<div class="entry'+(marked(e.rank)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     h+='<div class="headline"><span class="num" data-act="mark">'+e.rank+'.</span> '
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
+    var st=state.selftest, m=st?' mask':"", ma=st?' data-act="reveal"':"";  // self-test masking
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
-    if(e.def) h+='<div class="def">'+esc(e.def)+'</div>';
-    if(e.ex) h+='<div class="ex" data-act="ex">'+esc(e.ex_label||"例句")+'：'+esc(e.ex)+'</div>';
+    if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
+    // 词根词缀卡（在例句之上；自测里也一起遮蔽）
     if(e.root && e.root.parts && e.root.parts.length){
-      h+='<div class="root">';
+      h+='<div class="root'+m+'"'+ma+'>';
       e.root.parts.forEach(function(p){
         h+='<div class="p">'+esc(p.type)+' <span class="txt">'+esc(p.text)+'</span> = '+esc(p.meaning)+'</div>';
       });
       if(e.root.summary) h+='<div class="sum">▸ '+esc(e.root.summary)+'</div>';
       h+='</div>';
     }
+    // 例句放在词根下面；英文常显，中文翻译在自测+子项开时随卡片一起遮蔽/解锁
+    if(e.ex && state.showEx){
+      var en=exEnglish(e.ex), tr=exTrans(e.ex), maskTr=st&&state.maskExTrans&&tr;
+      h+='<div class="ex" data-act="ex">'+esc(e.ex_label||"例句")+'：'+esc(en);
+      if(tr) h+=(en?" ":"")+'<span class="extrans'+(maskTr?" mask":"")+'"'+(maskTr?' data-act="reveal"':"")+'>'+esc(tr)+'</span>';
+      h+='</div>';
+    }
+    if(milestoneAt[e.rank]) h+='<div class="milestone">累计 '+milestoneAt[e.rank]+' 词</div>';
     return h+'</div>';
   }
 
@@ -384,6 +454,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     colW=Math.floor((W-2*lay.padh-(colCount-1)*lay.gap)/colCount);
     var colH=H-14;
     var list=visible();
+    computeMilestones(list);
     measEl.style.width=colW+"px";
     measEl.innerHTML=list.map(entryHTML).join("");
     var kids=measEl.children, hs=[];
@@ -687,6 +758,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var rank=+entry.dataset.rank, word=entry.dataset.word;
     var a=ev.target.closest("[data-act]"), act=a?a.dataset.act:"speak";
     if(act==="ex"){ speakEx(rank); return; }         // tap the example line -> read it
+    if(act==="reveal"){                              // self-test: unlock the card -> reveal ALL masked parts together
+      var hid=entry.querySelectorAll(".mask");
+      if(hid.length){ [].forEach.call(hid,function(x){ x.classList.remove("mask"); x.removeAttribute("data-act"); }); return; }
+      speak(word); return;                           // already revealed -> pronounce
+    }
     // clicking the blank strip in front of / around the number also marks
     if(act==="speak"){
       var hwEl=entry.querySelector(".hw");
@@ -746,6 +822,12 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // ---- settings UI ----
   var settingsEl=document.getElementById("settings"),
       swRemove=document.getElementById("sw-removemarked"),
+      swSelftest=document.getElementById("sw-selftest"),
+      swShowEx=document.getElementById("sw-showex"),
+      swMaskTrans=document.getElementById("sw-masktrans"),
+      counterInput=document.getElementById("counter-input"),
+      counterAdd=document.getElementById("counter-add"),
+      counterChips=document.getElementById("counter-chips"),
       swDivider=document.getElementById("sw-divider"),
       segMark=document.getElementById("seg-markstyle"),
       segMode=document.getElementById("seg-mode"),
@@ -778,6 +860,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     state[key]=b.dataset.v; syncSettings(); save(); if(after) after(); }); }
   function syncSettings(){
     swRemove.classList.toggle("on",state.removeMarked);
+    swSelftest.classList.toggle("on",state.selftest);
+    swShowEx.classList.toggle("on",state.showEx);
+    swMaskTrans.classList.toggle("on",state.maskExTrans);
+    renderCounters();
     swDivider.classList.toggle("on",state.divider);
     [[segMark,"markStyle"],[segMode,"mode"],[segCols,"cols"]].forEach(function(x){
       [].forEach.call(x[0].children,function(b){ b.classList.toggle("on",b.dataset.v===String(state[x[1]])); });
@@ -790,6 +876,28 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     renderSwatches();
   }
   swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
+  // selftest/showEx change what entryHTML renders -> re-paginate so it takes effect (and heights recompute for showEx)
+  swSelftest.addEventListener("click", function(){ state.selftest=!state.selftest; syncSettings(); paginate(); save(); });
+  swShowEx.addEventListener("click", function(){ state.showEx=!state.showEx; syncSettings(); paginate(); save(); });
+  swMaskTrans.addEventListener("click", function(){ state.maskExTrans=!state.maskExTrans; syncSettings(); paginate(); save(); });
+  // running-total intervals: chip list you add to / remove from (like custom colors)
+  function renderCounters(){
+    var ivs=state.counters.slice().sort(function(a,b){ return a-b; });
+    counterChips.innerHTML = ivs.length
+      ? ivs.map(function(n){ return '<div class="chip" data-n="'+n+'">每 '+n+' 词</div>'; }).join("")
+      : '<div class="chip empty">未添加——不显示累计</div>';
+  }
+  counterAdd.addEventListener("click", function(){
+    var n=parseInt(counterInput.value,10);
+    if(!(n>0)){ counterInput.value=""; counterInput.placeholder="请输入正整数，如 100"; return; }
+    if(state.counters.indexOf(n)<0){ state.counters.push(n); renderCounters(); paginate(); save(); }
+    counterInput.value="";
+  });
+  counterChips.addEventListener("click", function(ev){
+    var c=ev.target.closest(".chip"); if(!c||!c.dataset.n) return;
+    var n=+c.dataset.n; state.counters=state.counters.filter(function(x){ return x!==n; });
+    renderCounters(); paginate(); save();
+  });
   swDivider.addEventListener("click", function(){ state.divider=!state.divider; syncSettings(); pagesEl.classList.toggle("nodivider", !state.divider); save(); });
   swDev.addEventListener("click", function(){ state.dev=!state.dev; syncSettings(); devApply(); paginate(); save(); });
   seg(segMark,"markStyle"); seg(segMode,"mode"); seg(segCols,"cols");

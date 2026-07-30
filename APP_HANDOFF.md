@@ -86,7 +86,8 @@ English/
 - **点例句** → 朗读整句（**edge-tts 生成，Andrew/Brian 两男声按词 1:1 随机，1250 条已内嵌离线**；见 §7.4）。点击热区加大（整行+padding），可调「例句播放前延迟 0–50ms」
 - **点词条其他处** → 发音（**1250 条美音已 base64 内嵌，离线可用**；可调「跳过开头静音 0–100ms」。⚠️ 英音(UK)已移除、口音切换已删，见 §7）
 - **翻页**：底部页码栏两侧空白区（`‹`/`›`，`#barnav-l/#barnav-r`）点击翻上/下一页；左右滑动分页启用 `scroll-snap-stop:always`，轻划最多前进一页（不影响触控板/iPad）
-- 设置页：去掉已划掉词(不实时·进出设置页才重载去掉) / 划线样式 / 翻页方式(左右分页·上下无缝) / 字号 / 栏数(自动按 PDF 栏宽铺满) / 间距 / 分界线开关 / 背景色(预设+自定义#) / **多端同步** / **离线缓存进度** / **版本号+检查更新**(§10.2) / 开发者模式
+- 设置页：去掉已划掉词(不实时·进出设置页才重载去掉) / **自测(释义+词根词缀卡一起留白·点卡片同步解锁)** + 子项**例句翻译随卡片解锁**(英文常显·中文随卡片一起遮/解) / **显示例句开关** / **实时累计词数(多间隔·分界线深灰小标·靠左·数当前显示的词)** / 划线样式
+- 词条内竖排顺序：单词 → 音标 → 释义 → **词根词缀卡 → 例句**（例句在词根下面） / 翻页方式(左右分页·上下无缝) / 字号 / 栏数(自动按 PDF 栏宽铺满) / 间距 / 分界线开关 / 背景色(预设+自定义#) / **多端同步** / **离线缓存进度** / **版本号+检查更新**(§10.2) / 开发者模式
 - 分页：按**实测高度装箱**，像 PDF 一样填满一栏再下一栏，宽屏自动多栏
 - **多端同步**（Supabase）：同一同步码的设备之间同步「划线」与「自定义色号列表」
 
@@ -133,6 +134,10 @@ web/pwa/* ───────────────────────�
 ```js
 {
   removeMarked:false,        // 「去掉已划掉的单词」；true=去掉。不实时移除，只在 paginate()（设置页开/关）时经 visible() 过滤。旧的 showMarked 会自动迁移为 !showMarked
+  selftest:false,            // 自测：true=释义(.def)+词根卡(.root)加 .mask 遮蔽(透明字+浅色底,含后代;高度不变故不重排),data-act=reveal。点任一遮蔽处→同 entry 内所有 .mask 一起解锁(reveal-all)、再点发音。切换要 paginate()。【本地】
+  showEx:true,               // 是否渲染例句行(.ex)；false=不渲染(高度变→切换要 paginate())。【本地】
+  maskExTrans:true,          // 自测子项：例句中文翻译也随卡片一起遮/解(英文原句常显)。仅 selftest 时生效。exEnglish()/exTrans() 按首个 (（ 切分。切换要 paginate()。【本地】
+  counters:[],               // 实时累计词数的「间隔」列表(如 [100,25])；空=不显示。每 paginate() 由 computeMilestones() 按当前可见列表算 rank→累计数，分界线上渲 .milestone 深灰小标。【本地】
   markStyle:"dim"|"line",    // 划线样式
   divider:true,              // 词条分界线
   mode:"h"|"v",              // 左右翻页 / 上下无缝
@@ -154,9 +159,10 @@ web/pwa/* ───────────────────────�
 > 改了 state 结构记得升 `LS` 版本号或写迁移（见 `marked→marks` 的迁移示例）。
 
 ### 5.3 关键函数
-- `paginate()`：读容器宽高→算栏数(auto 时按 `330*fontScale` 目标栏宽)→用隐藏的 `#measure` 实测每条高度→装箱成页→`render()`
+- `paginate()`：读容器宽高→算栏数(auto 时按 `330*fontScale` 目标栏宽)→`computeMilestones(可见列表)` 算累计小标位置→用隐藏的 `#measure` 实测每条高度(含小标)→装箱成页→`render()`。累计小标随词条测量,故装箱高度天然正确
+- **`computeMilestones(list)`**：填 `milestoneAt{rank:累计数}`。对可见列表每个 1-based 位置 pos,若能被 `state.counters` 里任一间隔整除就记一个小标(值=pos,即"数当前显示的词");公倍数位置只记一次(按 rank 去重)。空 counters→空 map。`entryHTML` 末尾据此渲 `.milestone`
 - `render()`：拼 HTML，设 `#pages` 的 class（h/v、hideMarked、markline、nodivider）
-- 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
+- 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；**自测态下遮蔽处(data-act=reveal，含 .def/.root/.extrans)→首次点去掉同 entry 内所有 `.mask`(并移除其 data-act，恢复原生行为)=同步解锁、再点发音**；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
 - **`speakEx(rank)`**：例句朗读。取 `__AUDIO_EX__` 的 base64 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
 - **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。非内嵌词/无解码时回退 `speakHtml()`(有道 URL)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）

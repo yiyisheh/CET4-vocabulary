@@ -48,28 +48,39 @@ def audio_ex_json():
 
 
 us_json, n_us = audio_json("us")
-uk_json, n_uk = audio_json("uk")
 ex_json, n_ex = audio_ex_json()
+# UK dropped: US-only keeps the page light enough for iPad WebKit (89MB page killed the tab).
 
 # multi-device sync config: web/supabase-config.json if present, else null (sync disabled)
 cfg_path = ROOT / "web" / "supabase-config.json"
 sync_config = cfg_path.read_text().strip() if cfg_path.exists() else "null"
 
-html = (TPL
-        .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":")))
-        .replace("__AUDIO_US__", us_json)
-        .replace("__AUDIO_UK__", uk_json)
-        .replace("__AUDIO_EX__", ex_json)
-        .replace("__SYNC_CONFIG__", sync_config))
-OUT.write_text(html)
-print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
-      f"audio US={n_us} UK={n_uk} EX={n_ex})")
-
-# also emit the hosted PWA copy into docs/ (GitHub Pages source)
 import hashlib
 import shutil
 DOCS = ROOT / "docs"
 DOCS.mkdir(exist_ok=True)
+
+# expected offline-package size (bytes) for the settings-page cache-progress readout:
+# everything the service worker precaches = index.html + manifest + 3 icons.
+PWA_DIR = ROOT / "web" / "pwa"
+assets_bytes = sum((PWA_DIR / n).stat().st_size for n in
+                   ("manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"))
+
+html = (TPL
+        .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":")))
+        .replace("__AUDIO_US__", us_json)
+        .replace("__AUDIO_EX__", ex_json)
+        .replace("__SYNC_CONFIG__", sync_config))
+# CACHE_BYTES depends on the final html length; html length doesn't depend on it (fixed-width
+# is unnecessary — the JS just reads whatever number is here), so inject after building the body.
+cache_bytes = len(html.encode()) + assets_bytes
+html = html.replace("__CACHE_BYTES__", str(cache_bytes))
+
+OUT.write_text(html)
+print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
+      f"audio US={n_us} EX={n_ex}, cache≈{cache_bytes//1024//1024} MB)")
+
+# also emit the hosted PWA copy into docs/ (GitHub Pages source)
 (DOCS / "index.html").write_text(html)
 
 # content hash of the built app -> sw.js CACHE name, so the service worker's bytes

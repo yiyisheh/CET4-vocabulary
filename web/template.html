@@ -35,7 +35,9 @@
   #pages{ flex:1 1 auto; position:relative; }
   #pages.h{ display:flex; overflow-x:auto; overflow-y:hidden;
     scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; }
-  #pages.h .page{ flex:0 0 100%; scroll-snap-align:start; }
+  /* scroll-snap-stop:always => a fast/light fling can advance at most ONE page (it must stop at
+     the next snap point), fixing over-sensitive phone swipes without breaking trackpad/iPad. */
+  #pages.h .page{ flex:0 0 100%; scroll-snap-align:start; scroll-snap-stop:always; }
   #pages.v{ display:block; overflow-y:auto; overflow-x:hidden;
     -webkit-overflow-scrolling:touch; }
   /* hide native scrollbar (the stray thumb that appeared while scrolling) */
@@ -80,6 +82,15 @@
   #pages.nodivider .entry{ border-bottom-color:transparent; }
 
   #measure{ position:absolute; visibility:hidden; left:-99999px; top:0; pointer-events:none; }
+
+  /* bottom-corner tap zones: tap left corner => previous page, right corner => next page.
+     Faint chevrons so they're discoverable; sit just above the page bar. */
+  .corner{ position:fixed; bottom:calc(env(safe-area-inset-bottom) + 46px);
+    width:56px; height:120px; z-index:9; display:flex; align-items:center; justify-content:center;
+    color:var(--gray); opacity:.32; font-size:30px; font-weight:300; line-height:1;
+    -webkit-user-select:none; user-select:none; cursor:pointer; transition:opacity .15s; }
+  #corner-l{ left:0; padding-left:4px; } #corner-r{ right:0; padding-right:4px; }
+  .corner:active{ opacity:.85; background:var(--panel); }
 
   /* ---------- page bar + wheel ---------- */
   #bar{ flex:0 0 auto; display:flex; align-items:center; justify-content:center;
@@ -143,6 +154,12 @@
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
     font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
   .hintbox b{ color:var(--ink); }
+  /* offline-cache progress: slim bar in settings, matches the accent color */
+  .cachebar{ flex:0 0 120px; height:8px; border-radius:5px; background:var(--panel);
+    overflow:hidden; border:1px solid var(--hair); }
+  .cachebar i{ display:block; height:100%; width:0; background:var(--blue);
+    border-radius:5px; transition:width .35s ease; }
+  #cache-row.done .cachebar i{ background:#2ea043; }
   /* developer mode: bottom dock (takes real layout space), drag top edge to resize */
   #dev{ display:none; flex:0 0 auto; height:var(--devH,170px); min-height:80px;
     flex-direction:column; background:rgba(6,10,14,.96); border-top:1px solid #26323c; }
@@ -182,14 +199,8 @@
     </div>
   </div>
   <div class="row">
-    <div class="lab"><b>发音口音</b><span>点击单词区域朗读（美/英音均已离线嵌入）</span></div>
-    <div class="seg" id="seg-accent">
-      <button data-v="us">美音</button><button data-v="uk">英音</button>
-    </div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>跳过开头静音</b><span>有道发音开头约 0.33s 静音；跳过它更跟手</span></div>
-    <div class="slider"><input id="rg-skip" type="range" min="0" max="314" step="10"><span class="val" id="v-skip"></span></div>
+    <div class="lab"><b>跳过开头静音</b><span>发音开头静音归一为约 100ms；跳得越多越跟手（0–100ms）</span></div>
+    <div class="slider"><input id="rg-skip" type="range" min="0" max="100" step="10"><span class="val" id="v-skip"></span></div>
   </div>
   <div class="row">
     <div class="lab"><b>例句播放前延迟</b><span>点例句朗读前的静默间隔；例句音频已去前置静音，可留 0</span></div>
@@ -227,6 +238,11 @@
     <div id="syncstatus" style="font-size:12px;color:var(--sub);margin-top:6px"></div>
   </div>
 
+  <div class="row" id="cache-row">
+    <div class="lab"><b>离线缓存</b><span id="cache-sub">检测中…</span></div>
+    <div class="cachebar"><i id="cache-fill"></i></div>
+  </div>
+
   <div class="row">
     <div class="lab"><b>开发者模式</b><span>底部实时显示解码 PCM 波形、真起音(橙)/起播(绿)/播放头(红)，调试发音起点用</span></div>
     <div id="sw-dev" class="switch"></div>
@@ -235,7 +251,7 @@
   <div class="hintbox">
     <b>操作说明</b><br>
     · 点<b>序号</b> → 灰线标记「已掌握」（再点取消）<br>
-    · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音<br>
+    · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音（美音）<br>
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
@@ -258,15 +274,18 @@
   <div id="dev-info">开发者模式：点任意单词发音 —— 橙线=检测到的真起音，绿线=实际起播(起音前留 lead)，红线=播放头</div>
 </div>
 
+<div id="corner-l" class="corner">‹</div>
+<div id="corner-r" class="corner">›</div>
+
 <div id="wheelH"><div class="wlabel" id="wlabelH"></div><input type="range" id="rangeH"></div>
 <div id="wheelV"><input type="range" id="rangeV"></div>
 <div id="bar"><div id="pageno">1 / 1</div></div>
 
 <script type="application/json" id="audio-us">__AUDIO_US__</script>
-<script type="application/json" id="audio-uk">__AUDIO_UK__</script>
 <script type="application/json" id="audio-ex">__AUDIO_EX__</script>
 <script>
 window.CET4 = __DATA__;
+window.CACHE_BYTES = __CACHE_BYTES__;   // 离线包预计字节数（构建时注入），用于缓存进度
 </script>
 <script>
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
@@ -285,13 +304,15 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   var state = {
     showMarked:true, markStyle:"dim", divider:true, mode:"h", accent:"us",
-    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:250, exDelay:0,
+    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0,
     bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
   if(state.marked){ for(var _r in state.marked){ if(!state.marks[_r]) state.marks[_r]={v:1,t:0}; } delete state.marked; }
   if(!state.marks) state.marks={};
+  // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
+  if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
   function marked(rank){ var m=state.marks[rank]; return !!(m && m.v===1); }
 
@@ -440,9 +461,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // The Youdao source has wildly uneven leading silence (~314ms up to ~1000ms), so a FIXED skip
   // leaves a long dead gap before the word on many clips. Instead we DETECT each clip's true
   // onset on the decoded PCM (sustained-RMS above the per-clip noise floor — ignores lone blips,
-  // catches quiet fricatives) and start `lead` ms before it, where lead = 314 - skipMs (default
-  // skip 250 => uniform 64ms lead). This normalizes every word to the same snappy lead-in.
-  // Validated across all 2500 clips: 0 clips, lead uniform ~64–76ms (see detect_full.py).
+  // catches quiet fricatives) and start `lead` ms before it, where lead = 100 - skipMs (default
+  // skip 40 => uniform 60ms lead). This normalizes every word to the same snappy lead-in.
+  // (UK accent removed — US-only now to keep the page light enough for iPad WebKit.)
   var actx=null, abufCache={}, abufOrder=[], curSrc=null;   // cache: key -> {buf, onset(sec)}
   var ABUF_MAX=48;                                 // cap decoded-buffer cache (~5MB)
   function audioCtx(){
@@ -471,7 +492,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function playEntry(en, w){
     var ctx=actx; if(!ctx) return;
     try{ if(curSrc){ curSrc.stop(); } }catch(e){}  // cut off any word still playing
-    var lead=(314-(state.skipMs||0))/1000; if(lead<0) lead=0;   // skipMs read live; higher = less lead
+    var lead=(100-(state.skipMs||0))/1000; if(lead<0) lead=0;   // lead-in normalized to 100ms; skipMs(0..100) read live; higher = less lead
     var off=en.onset-lead; if(off<0) off=0;
     if(!(off < en.buf.duration-0.05)) off=0;        // guard: never start past (near) the end
     var s=ctx.createBufferSource(); s.buffer=en.buf; s.connect(ctx.destination);
@@ -652,6 +673,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     else{ var v2=wheelV.style.display==="flex"; wheelV.style.display=v2?"none":"flex"; wheelH.style.display="none"; }
     updateLabel();
   });
+  // bottom-corner tap = turn one page (works in both h paging and v seamless scroll)
+  function turnPage(d){ scrollToPage(currentPage()+d, true); }
+  document.getElementById("corner-l").addEventListener("click", function(){ turnPage(-1); });
+  document.getElementById("corner-r").addEventListener("click", function(){ turnPage(1); });
 
   // ---- theme ----
   function lum(hex){ hex=hex.replace("#",""); if(hex.length===3) hex=hex.split("").map(function(c){return c+c;}).join("");
@@ -675,7 +700,6 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       swDivider=document.getElementById("sw-divider"),
       segMark=document.getElementById("seg-markstyle"),
       segMode=document.getElementById("seg-mode"),
-      segAccent=document.getElementById("seg-accent"),
       segCols=document.getElementById("seg-cols"),
       rgFs=document.getElementById("rg-fs"), vFs=document.getElementById("v-fs"),
       rgSp=document.getElementById("rg-sp"), vSp=document.getElementById("v-sp"),
@@ -706,7 +730,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function syncSettings(){
     swShow.classList.toggle("on",state.showMarked);
     swDivider.classList.toggle("on",state.divider);
-    [[segMark,"markStyle"],[segMode,"mode"],[segAccent,"accent"],[segCols,"cols"]].forEach(function(x){
+    [[segMark,"markStyle"],[segMode,"mode"],[segCols,"cols"]].forEach(function(x){
       [].forEach.call(x[0].children,function(b){ b.classList.toggle("on",b.dataset.v===String(state[x[1]])); });
     });
     rgFs.value=state.fontScale; vFs.textContent=Math.round(state.fontScale*100)+"%";
@@ -720,7 +744,6 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   swDivider.addEventListener("click", function(){ state.divider=!state.divider; syncSettings(); pagesEl.classList.toggle("nodivider", !state.divider); save(); });
   swDev.addEventListener("click", function(){ state.dev=!state.dev; syncSettings(); devApply(); paginate(); save(); });
   seg(segMark,"markStyle"); seg(segMode,"mode"); seg(segCols,"cols");
-  segAccent.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(b){ state.accent=b.dataset.v; syncSettings(); save(); } });
   rgFs.addEventListener("input", function(){ state.fontScale=+rgFs.value; vFs.textContent=Math.round(state.fontScale*100)+"%"; applyLayout(); save(); });
   rgSp.addEventListener("input", function(){ state.spacing=+rgSp.value; vSp.textContent=Math.round(state.spacing*100)+"%"; applyLayout(); save(); });
   rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
@@ -728,7 +751,54 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   document.getElementById("start").addEventListener("click", function(){ settingsEl.style.display="none"; paginate(); });
   document.getElementById("btn-settings").addEventListener("click", function(){
-    syncSettings(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+    syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+
+  // ---- offline-cache progress ----
+  // The service worker precaches the whole app (index.html + PWA assets) on install; until
+  // that finishes the app isn't fully offline. We show its progress by comparing how much
+  // this origin has stored (navigator.storage.estimate) against the expected package size
+  // (window.CACHE_BYTES, injected at build). No re-download — pure display. Falls back to a
+  // binary cached/not-cached readout via the Cache API when estimate() is unavailable (older iOS).
+  var cacheRow=document.getElementById("cache-row"),
+      cacheSub=document.getElementById("cache-sub"),
+      cacheFill=document.getElementById("cache-fill"), cacheTO=null;
+  function mb(b){ return (b/1048576).toFixed(0); }
+  function setCache(pct, txt, done){
+    if(cacheFill) cacheFill.style.width=Math.max(0,Math.min(100,pct))+"%";
+    if(cacheSub) cacheSub.textContent=txt;
+    if(cacheRow) cacheRow.classList.toggle("done", !!done);
+  }
+  function cacheStored(){                         // true once index.html sits in a cache
+    if(!("caches" in window)) return Promise.resolve(false);
+    return caches.match("./index.html").then(function(h){ return !!h; })
+      .then(function(hit){ return hit ? true : caches.match("./").then(function(h){ return !!h; }); })
+      .catch(function(){ return false; });
+  }
+  function updateCacheUI(){
+    clearTimeout(cacheTO);
+    if(!("caches" in window) || !("serviceWorker" in navigator) || location.protocol.indexOf("http")!==0){
+      setCache(0, "此环境不支持离线缓存（需以 PWA / https 打开）", false);
+      if(cacheFill) cacheFill.style.display="none"; return;
+    }
+    var expected=+window.CACHE_BYTES||0;
+    cacheStored().then(function(cached){
+      if(cached){
+        setCache(100, "已缓存，可离线使用 ✓" + (expected?"（约 "+mb(expected)+" MB）":""), true);
+        return;
+      }
+      // not done yet — estimate progress and keep polling while settings is open
+      var est = (navigator.storage && navigator.storage.estimate) ? navigator.storage.estimate() : Promise.resolve(null);
+      est.then(function(e){
+        if(e && expected){
+          var pct=Math.min(99, Math.round(e.usage/expected*100));
+          setCache(pct, "缓存中… "+pct+"%（约 "+mb(e.usage)+" / "+mb(expected)+" MB）", false);
+        } else {
+          setCache(15, "缓存中…（首次联网后自动完成）", false);
+        }
+      }).catch(function(){ setCache(15, "缓存中…", false); })
+        .then(function(){ if(settingsEl.style.display!=="none") cacheTO=setTimeout(updateCacheUI, 1500); });
+    });
+  }
 
   var rzTO;
   window.addEventListener("resize", function(){ clearTimeout(rzTO); rzTO=setTimeout(function(){ if(settingsEl.style.display==="none") paginate(); }, 200); });
@@ -807,7 +877,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   setSyncStatus(state.syncCode ? "connecting" : "off");
 
   // init
-  applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate();
+  applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
   if(state.syncCode) startSync();
 
   // PWA: register service worker (offline + durable storage once added to home screen).

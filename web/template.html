@@ -145,6 +145,9 @@
     border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
   .hexwrap button{ padding:8px 14px; border:1px solid var(--blue); background:var(--blue);
     color:#fff; border-radius:8px; font-size:13px; cursor:pointer; }
+  .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--blue); background:var(--blue);
+    color:#fff; border-radius:9px; font-size:13px; cursor:pointer; }
+  .minibtn:disabled{ opacity:.5; cursor:default; }
   /* fixed at the bottom of the settings overlay so it's always reachable without scrolling.
      Child of #settings (display:none when closed) so it only shows while settings is open. */
   #start{ position:fixed; left:22px; right:22px; bottom:calc(env(safe-area-inset-bottom) + 16px);
@@ -243,6 +246,11 @@
     <div class="cachebar"><i id="cache-fill"></i></div>
   </div>
 
+  <div class="row" id="update-row">
+    <div class="lab"><b>版本</b><span id="ver-sub">…</span></div>
+    <button id="btn-update" class="minibtn">检查更新</button>
+  </div>
+
   <div class="row">
     <div class="lab"><b>开发者模式</b><span>底部实时显示解码 PCM 波形、真起音(橙)/起播(绿)/播放头(红)，调试发音起点用</span></div>
     <div id="sw-dev" class="switch"></div>
@@ -287,6 +295,7 @@
 <script>
 window.CET4 = __DATA__;
 window.CACHE_BYTES = __CACHE_BYTES__;   // 离线包预计字节数（构建时注入），用于缓存进度
+window.BUILD_INFO = __BUILD_INFO__;     // {v:内容哈希版本, t:构建时间戳}（构建时注入），与 sw 缓存名同源
 </script>
 <script>
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
@@ -922,6 +931,38 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       if(reloaded) return; reloaded=true; location.reload();
     });
   }
+
+  // ---- version readout + manual "check for updates" ----
+  // Version = the content hash baked into BUILD_INFO (same value as the sw cache name), so what's
+  // shown here is exactly what determines whether an update exists. Timestamp = build time.
+  // The button forces the SW to re-fetch sw.js; if a newer build is live its bytes differ, the new
+  // SW installs (skipWaiting) and the controllerchange handler above reloads into it automatically.
+  (function(){
+    var verSub=document.getElementById("ver-sub"), updBtn=document.getElementById("btn-update");
+    if(!verSub||!updBtn) return;
+    var BI=window.BUILD_INFO||{};
+    function setVer(extra){
+      var s="当前 "+(BI.v||"—")+(BI.t?" · "+BI.t:"");
+      verSub.textContent = extra ? s+"  ·  "+extra : s;
+    }
+    setVer();
+    var swSupported=("serviceWorker" in navigator) && location.protocol.indexOf("http")===0;
+    if(!swSupported){ updBtn.disabled=true; updBtn.textContent="离线单文件"; return; }
+    updBtn.addEventListener("click", function(){
+      updBtn.disabled=true; updBtn.textContent="检查中…"; setVer("正在检查更新…");
+      function reset(){ updBtn.disabled=false; updBtn.textContent="检查更新"; }
+      navigator.serviceWorker.getRegistration().then(function(reg){
+        if(!reg){ setVer("尚未注册离线更新（请稍后重试）"); reset(); return; }
+        var found=false;
+        reg.addEventListener("updatefound", function(){   // a newer SW started installing
+          found=true; setVer("发现新版本，正在下载… 稍后自动刷新");
+        });
+        reg.update().then(function(){
+          setTimeout(function(){ if(!found){ setVer("已是最新版本 ✓"); reset(); } }, 1600);
+        }).catch(function(){ setVer("检查失败，请检查网络后重试"); reset(); });
+      }).catch(function(){ setVer("检查失败，请检查网络后重试"); reset(); });
+    });
+  })();
 })();
 </script>
 </body>

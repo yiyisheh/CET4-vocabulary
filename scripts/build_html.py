@@ -11,6 +11,7 @@ the whole thing works with no network.
 """
 import base64
 import json
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
@@ -71,6 +72,17 @@ html = (TPL
         .replace("__AUDIO_US__", us_json)
         .replace("__AUDIO_EX__", ex_json)
         .replace("__SYNC_CONFIG__", sync_config))
+
+# content hash of the built app -> both the sw.js CACHE name and the version shown in-app.
+# Computed here, BEFORE injecting build-info/cache-bytes, so it stays a pure function of the
+# content (data/audio/template) and does NOT depend on the timestamp — an identical-content
+# rebuild yields the same version and doesn't force a needless client update. __BUILD_INFO__ /
+# __CACHE_BYTES__ are still literal placeholders in `html` at this point, so this is deterministic.
+build_hash = hashlib.sha256(html.encode()).hexdigest()[:12]
+build_time = datetime.now().strftime("%Y-%m-%d %H:%M")
+html = html.replace("__BUILD_INFO__",
+                    json.dumps({"v": build_hash, "t": build_time}, ensure_ascii=False))
+
 # CACHE_BYTES depends on the final html length; html length doesn't depend on it (fixed-width
 # is unnecessary — the JS just reads whatever number is here), so inject after building the body.
 cache_bytes = len(html.encode()) + assets_bytes
@@ -78,14 +90,10 @@ html = html.replace("__CACHE_BYTES__", str(cache_bytes))
 
 OUT.write_text(html)
 print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
-      f"audio US={n_us} EX={n_ex}, cache≈{cache_bytes//1024//1024} MB)")
+      f"audio US={n_us} EX={n_ex}, cache≈{cache_bytes//1024//1024} MB, ver={build_hash} @ {build_time})")
 
 # also emit the hosted PWA copy into docs/ (GitHub Pages source)
 (DOCS / "index.html").write_text(html)
-
-# content hash of the built app -> sw.js CACHE name, so the service worker's bytes
-# change (and clients auto-update) exactly when the app changes, no manual version bump.
-build_hash = hashlib.sha256(html.encode()).hexdigest()[:12]
 for f in (ROOT / "web" / "pwa").iterdir():
     if f.name == "sw.js":
         (DOCS / f.name).write_text(f.read_text().replace("__BUILD__", build_hash))

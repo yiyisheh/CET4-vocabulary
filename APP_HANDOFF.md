@@ -132,12 +132,14 @@ web/pwa/* ───────────────────────�
   fontScale:1.0,             // 字号（pt×此值，默认≈PDF 1:1）
   cols:"auto"|"2"|"3"|"4",   // 栏数
   spacing:0.35,              // 间距(0..1 → 栏距/留白)
-  skipMs:250,                // 跳过发音开头静音(0..314ms)
+  skipMs:250,                // 起播引子控制：lead = 314-skipMs（默认留64ms引子，见§7）
   bg:"#ffffff",              // 当前背景色（【不同步】）
   customColors:[hex...],     // 自定义色号列表（【同步】，取并集）
   marks:{ rank:{v:0|1,t:ms} },// 划线：每词{是否+时间戳}（【同步】，LWW）
   anchor:rank,               // 上次所在页的首词，用于恢复位置
-  syncCode:""                // 同步码（【本地】，各设备自填）
+  syncCode:"",               // 同步码（【本地】，各设备自填）
+  dev:false,                 // 开发者模式（底部波形面板，【本地】）
+  devH:170                   // 开发者面板高度px（可拖拽，【本地】）
 }
 ```
 > 改了 state 结构记得升 `LS` 版本号或写迁移（见 `marked→marks` 的迁移示例）。
@@ -146,7 +148,9 @@ web/pwa/* ───────────────────────�
 - `paginate()`：读容器宽高→算栏数(auto 时按 `330*fontScale` 目标栏宽)→用隐藏的 `#measure` 实测每条高度→装箱成页→`render()`
 - `render()`：拼 HTML，设 `#pages` 的 class（h/v、hideMarked、markline、nodivider）
 - 点击委托（`pagesEl` 上一个 click）：判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
-- `speak(word)`：取内嵌 base64 → `data:audio/mpeg` → `currentTime=skipMs/1000` 跳静音 → play
+- **`speak(word)`**：Web Audio 播放（见 §7）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset}`，上限 48 条）→ `detectOnset()` 检测真起音 → `AudioBufferSourceNode.start(0, onset−lead)` 样本级起播。**不再用 `<audio>.currentTime`**（MP3 中途 seek 不可靠）。非内嵌词/无 Web Audio 时回退 `speakHtml()`(有道 URL)
+- `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
+- 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动
 - 同步：见 §8
 
@@ -166,13 +170,26 @@ web/pwa/* ───────────────────────�
 
 ---
 
-## 7. 发音（离线内嵌）
+## 7. 发音（离线内嵌，Web Audio 播放）
 
 - `fetch_audio.py`：对 1250 词各下 美音(有道 type=2)/英音(type=1) → `intermediate/audio/{us,uk}/{rank}.mp3`（可断点续传）
 - `build_html.py`：base64 编码嵌进 html（因此 66MB）
-- 有道 mp3 开头有 **314–415ms 静音**，App 用 `skipMs`(默认250) 在播放时 `currentTime` 跳过，秒出声
-- ⚠️ **开头静音已全库对齐到 ≥314ms**：原始有道音频里 `been` 等词开头静音不足 314ms，默认 skip 250 会切进单词。已做后处理：US 用「精确零边界法」、UK 用「短窗 RMS 起音法」检测真实起音，把不足的补零到 314ms（原生采样率+原码率重编码，已足够长的不动）。实测全库 2500 条真实起音均 ≥314ms。**因此 `intermediate/audio/` 已不再是"可由 fetch_audio.py 重生成"的纯下载产物——补齐是后处理,已改为纳入 git 跟踪(见 §10)。重跑对齐用 `python scripts/align_audio_silence.py`(幂等:已 ≥314ms 的跳过不动;判定用真实词起音而非纯零边界,避免有损重编码反复退化)。重下音频后必跑,否则 `been` 又会被切。**
 - 发音源是有道 `dictvoice`，已全部下载内嵌，**运行时不再联网**
+
+### 7.1 播放内核：为什么用 Web Audio 而不是 `<audio>.currentTime`
+早期方案是 `<audio>` + `currentTime=skipMs/1000` 跳掉开头静音。**这条路错了**：在 MP3 上做运行时 seek 不可靠——① seek 会吸附到 ~24ms 帧边界（落点不准）；② MP3 有「比特池(bit reservoir)」，一帧依赖前面几帧上下文，**从中间 seek 进去、紧跟落点的那一两帧会被解成静音/杂音**。两者叠加会切掉软起音（`/h/ /s/ /f/…`），表现为"开头被切一点点、还时好时坏"。
+
+**现方案**（`speak()`）：`decodeAudioData` 把整条 MP3 **完整解码成 PCM**（带完整上下文、无 seek），再用 `AudioBufferSourceNode.start(0, off)` 从**精确样本**起播。`off` 是对已解码 PCM 的数组下标，样本级精确，彻底绕开上面两个问题。解码结果缓存 `{buf,onset}`（上限 48 条）。iOS 需在点击手势里 `resume()` AudioContext——发音本就由点击触发，天然满足。
+
+### 7.2 起播点：逐条起音归一化（取代旧的"固定 skip + 补静音到314"）
+有道源的开头静音**极不均匀**（314ms ~ 1000ms 都有；同一个词 US/UK 还能差好几百 ms）。固定跳一个值 → 长静音词前面留一大段死气。所以改成**逐条检测真起音再归一化**：
+- `detectOnset(buf)`：12ms 窗 RMS，阈值 = `max(每条噪声底×2.5, 0.0009)`，要求**持续 10ms** 才算起音——**忽略孤立杂点**（如某些词 330ms 处一个 -53dB 的单点毛刺），**抓得住低幅擦音**。
+- 起播 `off = onset − lead`，`lead = 314 − skipMs`（默认 skip 250 → **统一 64ms 引子**）。即：把每个词都表现成"起音在 314ms、skip 后留固定引子"。`skipMs` 滑块(0..314)现在控制这个引子：**越大引子越小越跟手**，314=紧贴起音起播。
+- 全库 2500 条离线验证（`detect_full.py` 思路）：**0 切词，引子统一 64–76ms**；choices 这类 ~490ms 死气被削掉。
+
+### 7.3 `align_audio_silence.py` / 314 padding 已“退居备用”
+新播放内核**每次实时找真起音**，不再依赖“文件里静音正好是某个值”。所以旧的“补零到 ≥314ms”对齐**已非必需**——`intermediate/audio/` 仍是 git 跟踪的既有产物、无需为发音再跑对齐。脚本保留备用；若哪天重下音频，也**不必**再跑它（起音归一化会自愈）。
+- ⚠️ 依赖浏览器解码一致性：逻辑已全库离线验证零切词，但真机（尤其 Safari）建议用**开发者模式**（设置页开关）抽查——面板底部实时画波形与 橙(真起音)/绿(起播)/红(播放头) 线。
 
 ---
 
@@ -233,17 +250,20 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 
 ---
 
-## 10. 部署（PWA + GitHub Pages）—— ⏳ 尚未执行
+## 10. 部署（PWA + GitHub Pages）—— ✅ 已推送
 
-托管文件已备好在 `docs/`（index.html + manifest + sw.js + icons），**但还没推上线**。步骤：
+托管文件在 `docs/`（index.html + manifest + sw.js + icons），已推送到 `yiyisheh/CET4-vocabulary` 的 **main** 分支。
 
-1. 提交并推送（仓库 `yiyisheh/CET4-vocabulary`，main 分支）。注意 `docs/index.html` 66MB，GitHub <100MB 可过但会警告。
-   - `intermediate/audio/` **已纳入 git 跟踪**（因开头静音对齐是后处理、不可由 fetch_audio.py 纯下载重生成，见 §7）；根目录 66MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/index.html` 上线用。
-2. GitHub 仓库 → Settings → Pages → Source 选 **main / docs** → 保存。
-3. 等几分钟，访问 `https://yiyisheh.github.io/CET4-vocabulary/`。
+1. 代码已 push（`docs/index.html` 58MB，GitHub <100MB 可过、仅 LFS 大小警告）。
+   - `intermediate/audio/` **已纳入 git 跟踪**；根目录 58MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/index.html` 上线用。
+2. GitHub 仓库 → Settings → Pages → Source 选 **main / docs**（若还没开，这步在网页上点一次）。
+3. 访问 `https://yiyisheh.github.io/CET4-vocabulary/`。
 4. iPad **Safari** 打开该网址 → 分享 → **添加到主屏幕** → 成为已安装 PWA。
 
 **为什么要 PWA**：iOS 对 `file://` 本地文件的 localStorage 会隔天清空；而**已安装的 PWA 有独立持久存储**，配合 `sw.js` 缓存实现离线+持久，且是 iOS 上最稳的持久化方式。
+
+### 10.1 PWA 自动更新（已改为免手动 bump）
+`sw.js` 是 cache-first。**缓存名 `cet4-1250-<hash>` 里的 `<hash>` 由 `build_html.py` 按 app 内容自动注入**（`web/pwa/sw.js` 里是占位符 `__BUILD__`）。所以：app 一变 → hash 变 → `docs/sw.js` 字节变 → 浏览器自动重装 SW、重缓存、删旧缓存；app 没变则啥都不下。页面在 `controllerchange` 时**自动刷新一次**显示新版。**改完 app 只要 `build_html.py` + push,老设备下次开就更新,无需手动改版本号。**
 
 ---
 
@@ -254,8 +274,8 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 | 改词条样式/字号/颜色 | `web/template.html` 的 `<style>`，然后 `build_html.py` |
 | 加一个设置项 | template：加 state 字段 + 设置页 DOM + `syncSettings()` 同步 UI + 事件；必要时 `paginate()` |
 | 改划线样式/区域 | `.entry.marked .num::before`（CSS）+ 点击委托里的 mark 判定 |
-| 换/改发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()` |
-| 改跳静音默认值 | template state `skipMs:250` |
+| 换/改发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
+| 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=314-skipMs`，默认值 `skipMs:250`（§7.2） |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
@@ -265,8 +285,9 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 
 ## 12. 待办 / 已知限制
 
-- ⏳ **部署未完成**：`docs/` 已就绪，等推送 + 开 Pages（§10）
+- ✅ **已推送到 main**（§10）；若 Pages 尚未开，去仓库 Settings→Pages 选 main/docs 一次
 - ⚠️ **轮换 Supabase secret key**（§8.4）
+- 发音依赖浏览器解码一致性：逻辑已全库离线验证零切词，真机（尤其 Safari）建议用开发者模式抽查（§7.3）
 - 同步无账号鉴权，靠"同步码不好猜"保护；无实时推送，靠 25s 轮询+聚焦刷新（对背单词够用）
 - 66MB 单文件首次加载需一两秒（用户已接受）
 - 词根覆盖 42%：高频里大量日耳曼/功能词本就拆不出，是"准确优先"的合理结果，非缺陷

@@ -84,8 +84,9 @@ English/
 - **点序号/左侧空白** → 灰色删除线标记「已掌握」（`markStyle`：变灰划线 / 仅划线）
 - **点单词** → 音节拆分 `com·po·si·tion ⇄ composition` 并发音
 - **点例句** → 朗读整句（**edge-tts 生成，Andrew/Brian 两男声按词 1:1 随机，1250 条已内嵌离线**；见 §7.4）。点击热区加大（整行+padding），可调「例句播放前延迟 0–50ms」
-- **点词条其他处** → 发音（**2500 条美/英音已 base64 内嵌，离线可用**；可调「跳过开头静音」）
-- 设置页：显示已划掉词 / 划线样式 / 翻页方式(左右分页·上下无缝) / 口音 / 字号 / 栏数(自动按 PDF 栏宽铺满) / 间距 / 分界线开关 / 背景色(预设+自定义#) / **多端同步**
+- **点词条其他处** → 发音（**1250 条美音已 base64 内嵌，离线可用**；可调「跳过开头静音 0–100ms」。⚠️ 英音(UK)已移除、口音切换已删，见 §7）
+- **翻页**：底部页码栏两侧空白区（`‹`/`›`，`#barnav-l/#barnav-r`）点击翻上/下一页；左右滑动分页启用 `scroll-snap-stop:always`，轻划最多前进一页（不影响触控板/iPad）
+- 设置页：显示已划掉词 / 划线样式 / 翻页方式(左右分页·上下无缝) / 字号 / 栏数(自动按 PDF 栏宽铺满) / 间距 / 分界线开关 / 背景色(预设+自定义#) / **多端同步** / **离线缓存进度** / 开发者模式
 - 分页：按**实测高度装箱**，像 PDF 一样填满一栏再下一栏，宽屏自动多栏
 - **多端同步**（Supabase）：同一同步码的设备之间同步「划线」与「自定义色号列表」
 
@@ -106,11 +107,13 @@ web/pwa/* ───────────────────────�
 
 `build_html.py` 把模板里 5 个占位符替换掉：
 - `__DATA__` → 1250 词条 JSON
-- `__AUDIO_US__` / `__AUDIO_UK__` → `{word: base64 mp3}`（放在 `<script type="application/json">` 里，不执行、按需解析）
+- `__AUDIO_US__` → `{word: base64 mp3}` 美音（放在 `<script type="application/json">` 里，不执行、按需解析）。**UK 已移除**（原来还有 `__AUDIO_UK__`，为减重删掉）
 - `__AUDIO_EX__` → `{rank: base64 mp3}` 例句朗读音频（edge-tts，见 §7.4）
 - `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
+- `__CACHE_BYTES__` → 离线包预计字节数（= 最终 html 长度 + PWA 小资源），供设置页缓存进度对比 `storage.estimate`
 
-> 成品体积 ~88MB（US+UK+EX 三套音频内嵌）；docs/index.html <100MB，GitHub 可推。
+> 成品体积 **~52MB**（US+EX 两套内嵌；删 UK 前是 ~89MB）；docs/index.html <100MB，GitHub 可推。
+> **iPad 无声已定位为播放内核而非体积**：US+UK 原始版（`<audio>` 播放）58MB 在 iPad 正常；换 Web Audio 输出后无声、删到 52MB 仍无声。现已改为「Web Audio 只解码、`<audio>` 出声」（§7.1），体积不再是嫌疑；若 iPad 实测恢复正常，可考虑把 UK 加回来。
 
 ---
 
@@ -136,7 +139,7 @@ web/pwa/* ───────────────────────�
   fontScale:1.0,             // 字号（pt×此值，默认≈PDF 1:1）
   cols:"auto"|"2"|"3"|"4",   // 栏数
   spacing:0.35,              // 间距(0..1 → 栏距/留白)
-  skipMs:250,                // 起播引子控制：lead = 314-skipMs（默认留64ms引子，见§7）
+  skipMs:40,                 // 起播引子控制：lead = 100-skipMs（滑块 0..100，默认留60ms引子，见§7）；旧的 0..314 值会自动迁移
   exDelay:0,                 // 例句播放前延迟(ms, 0..50)；例句音频已去前置静音（§7.4）
   bg:"#ffffff",              // 当前背景色（【不同步】）
   customColors:[hex...],     // 自定义色号列表（【同步】，取并集）
@@ -153,9 +156,11 @@ web/pwa/* ───────────────────────�
 - `paginate()`：读容器宽高→算栏数(auto 时按 `330*fontScale` 目标栏宽)→用隐藏的 `#measure` 实测每条高度→装箱成页→`render()`
 - `render()`：拼 HTML，设 `#pages` 的 class（h/v、hideMarked、markline、nodivider）
 - 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
-- **`speakEx(rank)`**：例句朗读。取 `__AUDIO_EX__` 的 base64 → 复用 §7 的 `decodeAudioData`+缓存内核 → `playEx()`。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；起播 `start(now+exDelay, off)`——`exDelay`(0..50ms)是"播放前静默"。无内嵌/无 Web Audio 则静默（例句不回退有道）
-- **`speak(word)`**：Web Audio 播放（见 §7）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset}`，上限 48 条）→ `detectOnset()` 检测真起音 → `AudioBufferSourceNode.start(0, onset−lead)` 样本级起播。**不再用 `<audio>.currentTime`**（MP3 中途 seek 不可靠）。非内嵌词/无 Web Audio 时回退 `speakHtml()`(有道 URL)
+- **`speakEx(rank)`**：例句朗读。取 `__AUDIO_EX__` 的 base64 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
+- **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。非内嵌词/无解码时回退 `speakHtml()`(有道 URL)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
+- **`turnPage(±1)`**：底部栏两侧 `#barnav-l/#barnav-r` 点击 → `scrollToPage(currentPage()±1)`，h/v 模式通用
+- **`updateCacheUI()`**：设置页「离线缓存」进度。用 `navigator.storage.estimate().usage` 对比 `window.CACHE_BYTES`（构建注入）显示 `缓存中 NN%`；`caches.match('./index.html')` 命中即判为「已缓存 ✓」。缓存满前每 1.5s 轮询（仅设置页打开时）。纯展示，不重复下载
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动
 - 同步：见 §8
@@ -178,20 +183,23 @@ web/pwa/* ───────────────────────�
 
 ## 7. 发音（离线内嵌，Web Audio 播放）
 
-- `fetch_audio.py`：对 1250 词各下 美音(有道 type=2)/英音(type=1) → `intermediate/audio/{us,uk}/{rank}.mp3`（可断点续传）
-- `build_html.py`：base64 编码嵌进 html（因此 66MB）
+- `fetch_audio.py`：对 1250 词各下 美音(有道 type=2)/英音(type=1) → `intermediate/audio/{us,uk}/{rank}.mp3`（可断点续传）。**UK 仍在磁盘、但 `build_html.py` 不再嵌入**（US-only，减重）
+- `build_html.py`：base64 编码嵌进 html（US+EX ≈ 52MB）
 - 发音源是有道 `dictvoice`，已全部下载内嵌，**运行时不再联网**
 
-### 7.1 播放内核：为什么用 Web Audio 而不是 `<audio>.currentTime`
-早期方案是 `<audio>` + `currentTime=skipMs/1000` 跳掉开头静音。**这条路错了**：在 MP3 上做运行时 seek 不可靠——① seek 会吸附到 ~24ms 帧边界（落点不准）；② MP3 有「比特池(bit reservoir)」，一帧依赖前面几帧上下文，**从中间 seek 进去、紧跟落点的那一两帧会被解成静音/杂音**。两者叠加会切掉软起音（`/h/ /s/ /f/…`），表现为"开头被切一点点、还时好时坏"。
+### 7.1 播放内核：Web Audio 只解码，`<audio>` 出声（两轮教训的合体）
+**教训一（为什么不能 `<audio>.currentTime` 直接 seek MP3）**：① seek 会吸附到 ~24ms 帧边界（落点不准）；② MP3 有「比特池(bit reservoir)」，一帧依赖前面几帧上下文，**从中间 seek 进去、紧跟落点的那一两帧会被解成静音/杂音**。两者叠加会切掉软起音（`/h/ /s/ /f/…`），表现为"开头被切一点点、还时好时坏"。
 
-**现方案**（`speak()`）：`decodeAudioData` 把整条 MP3 **完整解码成 PCM**（带完整上下文、无 seek），再用 `AudioBufferSourceNode.start(0, off)` 从**精确样本**起播。`off` 是对已解码 PCM 的数组下标，样本级精确，彻底绕开上面两个问题。解码结果缓存 `{buf,onset}`（上限 48 条）。iOS 需在点击手势里 `resume()` AudioContext——发音本就由点击触发，天然满足。
+**教训二（为什么不能用 `AudioBufferSourceNode` 出声）**：iOS/iPadOS 对 **Web Audio 的输出遵守静音开关/音频会话策略**，会出现"上下文 running、播放头在走、就是没声"（正是 commit `5aae50e` 后 iPad 的症状，见 §12）；`<audio>` 元素则豁免——老的 `<audio>` 版在同一台 iPad 上一直正常。
+
+**现方案**（`speak()`/`playClip()`）：`decodeAudioData` 把整条 MP3 **完整解码成 PCM**（解码不出声、静音状态下也允许），`detectOnset()` 找真起音，然后在**精确样本处裁切 PCM、重编成 16-bit mono WAV blob**，交给共享 `<audio>` 元素播放。WAV 文件本身就从起播点开始，**运行时零 seek**，教训一的两个问题都不存在；出声走 `<audio>`，教训二也绕开。解码结果缓存 `{buf,onset,url}`（上限 48 条，淘汰时 `revokeObjectURL`）。iOS 手势要求：首次点击时 `mediaUnlock()` 在手势内 play 一段静音 WAV，解锁该元素，之后异步解码完成后的 play 也被放行。
 
 ### 7.2 起播点：逐条起音归一化（取代旧的"固定 skip + 补静音到314"）
 有道源的开头静音**极不均匀**（314ms ~ 1000ms 都有；同一个词 US/UK 还能差好几百 ms）。固定跳一个值 → 长静音词前面留一大段死气。所以改成**逐条检测真起音再归一化**：
 - `detectOnset(buf)`：12ms 窗 RMS，阈值 = `max(每条噪声底×2.5, 0.0009)`，要求**持续 10ms** 才算起音——**忽略孤立杂点**（如某些词 330ms 处一个 -53dB 的单点毛刺），**抓得住低幅擦音**。
-- 起播 `off = onset − lead`，`lead = 314 − skipMs`（默认 skip 250 → **统一 64ms 引子**）。即：把每个词都表现成"起音在 314ms、skip 后留固定引子"。`skipMs` 滑块(0..314)现在控制这个引子：**越大引子越小越跟手**，314=紧贴起音起播。
-- 全库 2500 条离线验证（`detect_full.py` 思路）：**0 切词，引子统一 64–76ms**；choices 这类 ~490ms 死气被削掉。
+- 起播 `off = onset − lead`，`lead = 100 − skipMs`（默认 skip 40 → **统一 60ms 引子**）。`skipMs` 滑块(0..100)控制这个引子：**越大引子越小越跟手**，100=紧贴起音起播。因 `lead≥0` ⇒ `off≤onset`，起播点恒 ≤ 真起音，只削词前静音、不切词体（切词只可能来自 `detectOnset` 报晚，而它刻意偏早）。
+- ⚠️ 314→100 **只改 `lead` 常数与滑块范围，没动 `detectOnset`**，故"0切词"性质不变；纯运行时改动，未再跑 `detect_full.py` 复验。
+- 历史全库 2500 条离线验证（`detect_full.py` 思路）：**0 切词**；choices 这类 ~490ms 死气被削掉。
 
 ### 7.3 `align_audio_silence.py` / 314 padding 已“退居备用”
 新播放内核**每次实时找真起音**，不再依赖“文件里静音正好是某个值”。所以旧的“补零到 ≥314ms”对齐**已非必需**——`intermediate/audio/` 仍是 git 跟踪的既有产物、无需为发音再跑对齐。脚本保留备用；若哪天重下音频，也**不必**再跑它（起音归一化会自愈）。
@@ -294,7 +302,8 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 | 改划线样式/区域 | `.entry.marked .num::before`（CSS）+ 点击委托里的 mark 判定 |
 | 换/改单词发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
 | 换/改例句朗读音色 | `fetch_ex_audio.py` 里 `VOICES`（改 edge-tts 声音）→ 删 `intermediate/audio/ex/` 重跑 → `build_html.py`；播放在 `speakEx()`（§7.4） |
-| 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=314-skipMs`，默认值 `skipMs:250`（§7.2） |
+| 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=100-skipMs`，默认值 `skipMs:40`（§7.2） |
+| 加回英音(UK) | `build_html.py` 恢复 `audio_json("uk")` + `__AUDIO_UK__` 占位符 + template 加回 `audio-uk` 标签与口音切换段（`seg-accent`）。⚠️ 但先确认 §12 的 iPad 无声是否与体积有关 |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
@@ -304,13 +313,18 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 
 ## 12. 待办 / 已知限制
 
+- 🟡 **iPad 无声 —— 已改用「解码 Web Audio + 出声 `<audio>`」内核（§7.1），待 iPad 真机复验**：
+  - 原现象：iPad 上 Chrome/Safari 能打开但**点词/例句无声**（开发者面板波形正常解码、播放头在走、上下文 running，就是没声）；**手机浏览器正常**。
+  - 定位依据：原始 **US+UK 58MB（`<audio>` 播放）在 iPad 正常**；commit `5aae50e` 换成 `AudioBufferSourceNode` 出声后无声；删 UK 到 52MB 仍无声 ⇒ **是播放内核问题，不是体积**（iOS 对 Web Audio 输出遵守静音/会话策略，`<audio>` 豁免）。
+  - 修复：出声通道改回 `<audio>`（播裁切好的 WAV blob），保留样本级起播与零切词；桌面无头 Chromium 已验证单词/例句均正常出声、无控制台报错。**iPad 真机复验通过后**可考虑把 UK 加回来（§4）。
+  - Edge iOS 打不开是其更严格的内存上限，另算，与此修复无关。
 - ✅ **已推送到 main**（§10）；若 Pages 尚未开，去仓库 Settings→Pages 选 main/docs 一次
 - ⚠️ **轮换 Supabase secret key**（§8.4）
 - 发音依赖浏览器解码一致性：逻辑已全库离线验证零切词，真机（尤其 Safari）建议用开发者模式抽查（§7.3）
 - 同步无账号鉴权，靠"同步码不好猜"保护；无实时推送，靠 25s 轮询+聚焦刷新（对背单词够用）
-- 66MB 单文件首次加载需一两秒（用户已接受）
+- ~52MB 单文件首次加载需一两秒（用户已接受）
 - 词根覆盖 42%：高频里大量日耳曼/功能词本就拆不出，是"准确优先"的合理结果，非缺陷
-- 改 `state` 结构须处理 localStorage 迁移，否则老用户数据读不出
+- 改 `state` 结构须处理 localStorage 迁移，否则老用户数据读不出（如本轮 `skipMs` 314→100 的越界迁移）
 
 ---
 

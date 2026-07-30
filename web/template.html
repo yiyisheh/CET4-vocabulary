@@ -83,19 +83,19 @@
 
   #measure{ position:absolute; visibility:hidden; left:-99999px; top:0; pointer-events:none; }
 
-  /* bottom-corner tap zones: tap left corner => previous page, right corner => next page.
-     Faint chevrons so they're discoverable; sit just above the page bar. */
-  .corner{ position:fixed; bottom:calc(env(safe-area-inset-bottom) + 46px);
-    width:56px; height:120px; z-index:9; display:flex; align-items:center; justify-content:center;
-    color:var(--gray); opacity:.32; font-size:30px; font-weight:300; line-height:1;
-    -webkit-user-select:none; user-select:none; cursor:pointer; transition:opacity .15s; }
-  #corner-l{ left:0; padding-left:4px; } #corner-r{ right:0; padding-right:4px; }
-  .corner:active{ opacity:.85; background:var(--panel); }
+  /* bottom-bar tap zones: the empty areas left/right of the page number turn one page
+     (left => previous, right => next). Faint chevrons so they're discoverable. */
+  .barnav{ flex:1 1 0; display:flex; align-items:center; color:var(--gray); opacity:.4;
+    font-size:30px; font-weight:300; line-height:1; cursor:pointer;
+    -webkit-user-select:none; user-select:none; transition:opacity .15s; }
+  #barnav-l{ justify-content:flex-start; padding-left:26px; }
+  #barnav-r{ justify-content:flex-end; padding-right:26px; }
+  .barnav:active{ opacity:.9; background:var(--panel); }
 
   /* ---------- page bar + wheel ---------- */
-  #bar{ flex:0 0 auto; display:flex; align-items:center; justify-content:center;
-    padding:6px 12px calc(env(safe-area-inset-bottom) + 6px); border-top:1px solid var(--hair); }
-  #pageno{ font-size:13px; color:var(--sub); cursor:pointer; padding:4px 16px;
+  #bar{ flex:0 0 auto; display:flex; align-items:stretch; justify-content:space-between;
+    padding:0 0 env(safe-area-inset-bottom); min-height:50px; border-top:1px solid var(--hair); }
+  #pageno{ align-self:center; font-size:13px; color:var(--sub); cursor:pointer; padding:4px 16px;
     border:1px solid var(--hair); border-radius:20px; background:var(--card);
     font-variant-numeric:tabular-nums; }
   #wheelH{ position:absolute; left:12px; right:12px; bottom:52px; z-index:8;
@@ -274,12 +274,13 @@
   <div id="dev-info">开发者模式：点任意单词发音 —— 橙线=检测到的真起音，绿线=实际起播(起音前留 lead)，红线=播放头</div>
 </div>
 
-<div id="corner-l" class="corner">‹</div>
-<div id="corner-r" class="corner">›</div>
-
 <div id="wheelH"><div class="wlabel" id="wlabelH"></div><input type="range" id="rangeH"></div>
 <div id="wheelV"><input type="range" id="rangeV"></div>
-<div id="bar"><div id="pageno">1 / 1</div></div>
+<div id="bar">
+  <div id="barnav-l" class="barnav">‹</div>
+  <div id="pageno">1 / 1</div>
+  <div id="barnav-r" class="barnav">›</div>
+</div>
 
 <script type="application/json" id="audio-us">__AUDIO_US__</script>
 <script type="application/json" id="audio-ex">__AUDIO_EX__</script>
@@ -452,11 +453,18 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
   function youdaoUrl(w){ return "https://dict.youdao.com/dictvoice?type="+(state.accent==="uk"?1:2)+"&audio="+encodeURIComponent(w); }
 
-  // ---- audio: Web Audio playback, SAMPLE-ACCURATE start relative to each clip's true onset ----
-  // Why not <audio>.currentTime: seeking mid-way into an MP3 is unreliable — the seek snaps to
-  // ~24ms frame boundaries (imprecise) AND the frame right after the seek decodes wrong (MP3's
-  // bit-reservoir needs prior-frame context). Either eats soft onsets. So we decode the WHOLE
-  // clip to PCM once (full context, no seek) and start at an exact sample.
+  // ---- audio: Web Audio DECODE + <audio> element OUTPUT, sample-accurate vs each clip's onset ----
+  // Why not <audio>.currentTime on the MP3: seeking mid-way into an MP3 is unreliable — the seek
+  // snaps to ~24ms frame boundaries (imprecise) AND the frame right after the seek decodes wrong
+  // (MP3's bit-reservoir needs prior-frame context). Either eats soft onsets. So we decode the
+  // WHOLE clip to PCM once (full context, no seek) and cut at an exact sample.
+  //
+  // Why not AudioBufferSourceNode for OUTPUT: on iOS/iPadOS, Web Audio output obeys the silent
+  // switch / audio-session policy and can be muted while the graph keeps "playing" (context
+  // running, playhead moving, no sound — exactly what iPad showed). <audio> elements are exempt.
+  // So: decodeAudioData (silent, always allowed) -> detectOnset on the PCM -> slice at the exact
+  // sample -> re-encode that slice as a WAV blob -> play it via a shared <audio>. WAV needs no
+  // seek at all (the file starts where playback should), so the no-clipping property holds.
   //
   // The Youdao source has wildly uneven leading silence (~314ms up to ~1000ms), so a FIXED skip
   // leaves a long dead gap before the word on many clips. Instead we DETECT each clip's true
@@ -464,7 +472,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // catches quiet fricatives) and start `lead` ms before it, where lead = 100 - skipMs (default
   // skip 40 => uniform 60ms lead). This normalizes every word to the same snappy lead-in.
   // (UK accent removed — US-only now to keep the page light enough for iPad WebKit.)
-  var actx=null, abufCache={}, abufOrder=[], curSrc=null;   // cache: key -> {buf, onset(sec)}
+  var actx=null, abufCache={}, abufOrder=[];        // cache: key -> {buf, onset(sec), url, urlKey}
   var ABUF_MAX=48;                                 // cap decoded-buffer cache (~5MB)
   function audioCtx(){
     if(!actx){ var C=window.AudioContext||window.webkitAudioContext; if(C){ try{ actx=new C(); }catch(e){} } }
@@ -489,16 +497,41 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     }
     return 0;
   }
+  function pcmToWav(a, sr, s0, preSec){              // Float32 channel from sample s0 -> 16-bit mono WAV blob, `preSec` of silence prepended
+    var n=a.length-s0; if(n<0) n=0;
+    var preN=Math.round((preSec||0)*sr), N=preN+n;
+    var dv=new DataView(new ArrayBuffer(44+N*2));
+    function wstr(o,s){ for(var i=0;i<s.length;i++) dv.setUint8(o+i, s.charCodeAt(i)); }
+    wstr(0,"RIFF"); dv.setUint32(4,36+N*2,true); wstr(8,"WAVEfmt ");
+    dv.setUint32(16,16,true); dv.setUint16(20,1,true); dv.setUint16(22,1,true);
+    dv.setUint32(24,sr,true); dv.setUint32(28,sr*2,true); dv.setUint16(32,2,true); dv.setUint16(34,16,true);
+    wstr(36,"data"); dv.setUint32(40,N*2,true);
+    for(var i=0,o=44+preN*2,v;i<n;i++){ v=a[s0+i]; v=v<-1?-1:v>1?1:v; dv.setInt16(o+i*2, v<0?v*0x8000:v*0x7FFF, true); }
+    return new Blob([dv.buffer],{type:"audio/wav"});
+  }
+  var player=null, mediaUnlocked=false;
+  function mediaEl(){ if(!player){ player=new Audio(); player.preload="auto"; } return player; }
+  function mediaUnlock(){                            // call synchronously inside the tap: a play() within the
+    if(mediaUnlocked) return; mediaUnlocked=true;    // gesture unlocks the element, so the play() after the
+    var p=mediaEl();                                 // async decode is allowed too (iOS gesture requirement)
+    p.src=URL.createObjectURL(pcmToWav(new Float32Array(220),22050,0,0));
+    p.play().catch(function(){});
+  }
+  function dropUrl(en){ if(en&&en.url){ try{ URL.revokeObjectURL(en.url); }catch(e){} en.url=null; } }
+  function playClip(en, off, preSec, label){         // shared output path for words & sentences
+    var p=mediaEl(); try{ p.pause(); }catch(e){}     // cut off anything still playing
+    var sr=en.buf.sampleRate, s0=Math.round(off*sr), key=s0+"|"+Math.round((preSec||0)*1000);
+    if(en.url && en.urlKey!==key) dropUrl(en);       // cut point moved (skipMs/exDelay changed) -> re-slice
+    if(!en.url){ en.url=URL.createObjectURL(pcmToWav(en.buf.getChannelData(0), sr, s0, preSec)); en.urlKey=key; }
+    p.src=en.url;
+    p.play().catch(function(){});
+    if(state.dev) devShow(en.buf, off, preSec||0, label, en.onset);
+  }
   function playEntry(en, w){
-    var ctx=actx; if(!ctx) return;
-    try{ if(curSrc){ curSrc.stop(); } }catch(e){}  // cut off any word still playing
     var lead=(100-(state.skipMs||0))/1000; if(lead<0) lead=0;   // lead-in normalized to 100ms; skipMs(0..100) read live; higher = less lead
     var off=en.onset-lead; if(off<0) off=0;
     if(!(off < en.buf.duration-0.05)) off=0;        // guard: never start past (near) the end
-    var s=ctx.createBufferSource(); s.buffer=en.buf; s.connect(ctx.destination);
-    curSrc=s; var t0=ctx.currentTime;               // start(0) => sample `off` plays at ctx time t0
-    try{ s.start(0, off); }catch(e){ off=0; try{ s.start(); }catch(_){} }
-    if(state.dev) devShow(en.buf, off, t0, w, en.onset);
+    playClip(en, off, 0, w);
   }
   var htmlFallback=null;
   function speakHtml(w){                             // fallback: non-embedded word, or no Web Audio
@@ -509,14 +542,15 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function prefetchCurrent(){}                       // no-op: decode happens lazily on first tap
   function speak(w){
     var b=audioMap(state.accent)[w], ctx=b?audioCtx():null;
-    if(!ctx || !b){ speakHtml(w); return; }          // no embedded audio / no Web Audio support
+    if(!ctx || !b){ speakHtml(w); return; }          // no embedded audio / no Web Audio decode support
+    mediaUnlock();                                   // still inside the tap gesture here
     var key=state.accent+"|"+w, hit=abufCache[key];
     if(hit){ playEntry(hit, w); return; }
     ctx.decodeAudioData(b64ToBytes(b),
       function(buf){
         var en={buf:buf, onset:detectOnset(buf)};
         abufCache[key]=en; abufOrder.push(key);
-        if(abufOrder.length>ABUF_MAX) delete abufCache[abufOrder.shift()];
+        if(abufOrder.length>ABUF_MAX){ var old=abufOrder.shift(); dropUrl(abufCache[old]); delete abufCache[old]; }
         playEntry(en, w);
       },
       function(){ speakHtml(w); });                  // decode failed -> fallback
@@ -536,26 +570,22 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     return exData;
   }
   function playEx(en){
-    var ctx=actx; if(!ctx) return;
-    try{ if(curSrc){ curSrc.stop(); } }catch(e){}    // cut off anything still playing
-    var delay=(state.exDelay||0)/1000;               // pre-play gap, read live
+    var delay=(state.exDelay||0)/1000;               // pre-play gap, read live: baked into the WAV as leading silence
     var off=en.onset; if(off<0) off=0;               // clips pre-trimmed => onset ~0
     if(!(off < en.buf.duration-0.05)) off=0;
-    var s=ctx.createBufferSource(); s.buffer=en.buf; s.connect(ctx.destination);
-    curSrc=s; var t0=ctx.currentTime+delay;          // silence until t0, then sample `off`
-    try{ s.start(t0, off); }catch(e){ try{ s.start(); }catch(_){} }
-    if(state.dev) devShow(en.buf, off, t0, "(例句)", en.onset);
+    playClip(en, off, delay, "(例句)");
   }
   function speakEx(rank){
     var b=exMap()[rank], ctx=b?audioCtx():null;
-    if(!ctx || !b){ return; }                        // no clip / no Web Audio -> silent
+    if(!ctx || !b){ return; }                        // no clip / no Web Audio decode -> silent
+    mediaUnlock();                                   // still inside the tap gesture here
     var key="ex|"+rank, hit=exCache[key];
     if(hit){ playEx(hit); return; }
     ctx.decodeAudioData(b64ToBytes(b),
       function(buf){
         var en={buf:buf, onset:detectOnset(buf)};
         exCache[key]=en; exOrder.push(key);
-        if(exOrder.length>ABUF_MAX) delete exCache[exOrder.shift()];
+        if(exOrder.length>ABUF_MAX){ var old=exOrder.shift(); dropUrl(exCache[old]); delete exCache[old]; }
         playEx(en);
       },
       function(){});                                 // decode failed -> silent
@@ -564,7 +594,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // ---- developer mode: live decode waveform + skip line + playhead ----
   // Docked at the bottom as a real flex child of <body>, so #pages shrinks above it
   // (no overlay). Drag the top handle to resize; height persists in state.devH.
-  var dev={ cv:null, g:null, info:null, cols:null, buf:null, off:0, onset:0, t0:0, raf:0, W:0, H:0, word:"" };
+  var dev={ cv:null, g:null, info:null, cols:null, buf:null, off:0, onset:0, pre:0, raf:0, W:0, H:0, word:"" };
   function devEl(){ if(!dev.cv){ dev.cv=document.getElementById("dev-canvas"); if(dev.cv){ dev.g=dev.cv.getContext("2d"); dev.info=document.getElementById("dev-info"); } } }
   function setDevH(h){                              // clamp + apply dock height
     h=Math.max(80, Math.min(h, Math.round(window.innerHeight*0.7)));
@@ -616,19 +646,20 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var sx=(dev.off/dur)*W;                          // playback start line (green) = onset - lead
     g.strokeStyle="#2ee66a"; g.lineWidth=2; g.beginPath(); g.moveTo(sx,0); g.lineTo(sx,H); g.stroke();
   }
-  function devShow(buf, off, t0, w, onset){
+  function devShow(buf, off, pre, w, onset){         // pre = leading silence baked into the playing WAV (sec)
     devEl(); if(!dev.g) return; if(!dev.W) devResize();
-    dev.buf=buf; dev.off=off; dev.onset=onset||0; dev.t0=t0; dev.word=w; dev.cols=null;
+    dev.buf=buf; dev.off=off; dev.onset=onset||0; dev.pre=pre||0; dev.word=w; dev.cols=null;
     cancelAnimationFrame(dev.raf); dev.raf=requestAnimationFrame(devTick);
   }
   function devTick(){
     if(!state.dev||!dev.buf||!dev.g) return;
     devStatic();
-    var pos=dev.off+(actx.currentTime-dev.t0), dur=dev.buf.duration;
+    // player.currentTime is position inside the sliced WAV; map back into the original buffer
+    var pos=dev.off+Math.max(0,(player?player.currentTime:0)-dev.pre), dur=dev.buf.duration;
     var g=dev.g, W=dev.W, H=dev.H, px=(Math.min(Math.max(pos,0),dur)/dur)*W;
     g.strokeStyle="#ff4444"; g.lineWidth=2; g.beginPath(); g.moveTo(px,0); g.lineTo(px,H); g.stroke();
     dev.info.textContent=dev.word+"   dur "+(dur*1000|0)+"ms   onset(橙) "+(dev.onset*1000|0)+"ms   start(绿) "+(dev.off*1000|0)+"ms   lead "+((dev.onset-dev.off)*1000|0)+"ms   pos(红) "+(pos*1000|0)+"ms   sr "+dev.buf.sampleRate+"Hz";
-    if(pos<dur+0.03) dev.raf=requestAnimationFrame(devTick);
+    if(pos<dur+0.03 && player && !player.ended) dev.raf=requestAnimationFrame(devTick);
   }
   window.addEventListener("resize", function(){ if(state.dev){ devResize(); devStatic(); } });
 
@@ -673,10 +704,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     else{ var v2=wheelV.style.display==="flex"; wheelV.style.display=v2?"none":"flex"; wheelH.style.display="none"; }
     updateLabel();
   });
-  // bottom-corner tap = turn one page (works in both h paging and v seamless scroll)
+  // bottom-bar side tap = turn one page (works in both h paging and v seamless scroll)
   function turnPage(d){ scrollToPage(currentPage()+d, true); }
-  document.getElementById("corner-l").addEventListener("click", function(){ turnPage(-1); });
-  document.getElementById("corner-r").addEventListener("click", function(){ turnPage(1); });
+  document.getElementById("barnav-l").addEventListener("click", function(){ turnPage(-1); });
+  document.getElementById("barnav-r").addEventListener("click", function(){ turnPage(1); });
 
   // ---- theme ----
   function lum(hex){ hex=hex.replace("#",""); if(hex.length===3) hex=hex.split("").map(function(c){return c+c;}).join("");

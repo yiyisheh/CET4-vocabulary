@@ -62,7 +62,11 @@ def parse():
             cur["def"] = s.split(":", 1)[-1].split("：", 1)[-1].strip()
         elif s.startswith("例句"):
             cur["ex_label"] = "例句（自编）" if "自编" in s[:6] else "例句"
-            cur["ex"] = s.split(":", 1)[-1].split("：", 1)[-1].strip()
+            # strip ONLY the leading "例句[（自编）]:" label. The old double-split also cut
+            # at the first fullwidth colon INSIDE the sentence ("W: Oh…"→"女：…",
+            # "Directions: …"→"说明：…"), leaving Chinese-only examples. Anchor to the label.
+            m = re.match(r"例句(?:（自编）)?\s*[:：]\s*(.*)$", s)
+            cur["ex"] = m.group(1).strip() if m else ""
         # 词频 / 变形 lines intentionally dropped
     return entries
 

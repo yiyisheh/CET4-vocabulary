@@ -24,3 +24,6 @@ intermediate/audio_orig_backup/
 
 # 临时工作目录（截图/录屏/预览图等，不入库）
 tmp/
+
+# 试听样本（挑发音音色时临时生成，不入库）
+voice_samples/

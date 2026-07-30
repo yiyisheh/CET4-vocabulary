@@ -36,8 +36,20 @@ def audio_json(accent):
     return json.dumps(out, ensure_ascii=False, separators=(",", ":")), len(out)
 
 
+def audio_ex_json():
+    """Example-sentence clips (edge-tts, one male voice each), keyed by rank."""
+    out = {}
+    d = AUD / "ex"
+    for e in DATA:
+        f = d / f"{e['rank']}.mp3"
+        if f.exists() and f.stat().st_size > 300:
+            out[str(e["rank"])] = base64.b64encode(f.read_bytes()).decode("ascii")
+    return json.dumps(out, ensure_ascii=False, separators=(",", ":")), len(out)
+
+
 us_json, n_us = audio_json("us")
 uk_json, n_uk = audio_json("uk")
+ex_json, n_ex = audio_ex_json()
 
 # multi-device sync config: web/supabase-config.json if present, else null (sync disabled)
 cfg_path = ROOT / "web" / "supabase-config.json"
@@ -47,10 +59,11 @@ html = (TPL
         .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":")))
         .replace("__AUDIO_US__", us_json)
         .replace("__AUDIO_UK__", uk_json)
+        .replace("__AUDIO_EX__", ex_json)
         .replace("__SYNC_CONFIG__", sync_config))
 OUT.write_text(html)
 print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
-      f"audio US={n_us} UK={n_uk})")
+      f"audio US={n_us} UK={n_uk} EX={n_ex})")
 
 # also emit the hosted PWA copy into docs/ (GitHub Pages source)
 import hashlib

@@ -9,7 +9,7 @@
 | 类别 | 文件 | 大小 | 说明 |
 |---|---|---|---|
 | ✅ **App 源码（读这个）** | `web/template.html` | ~32 KB | **整个 App 的唯一源文件**（HTML+CSS+JS 一体）。改 App = 改这里。 |
-| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `fetch_audio.py` `make_pdf_optimized.py` | 4–8 KB | 见 §4 流水线 |
+| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `fetch_audio.py` `fetch_ex_audio.py` `make_pdf_optimized.py` | 4–8 KB | 见 §4 流水线 |
 | ✅ PWA 资源 | `web/pwa/manifest.webmanifest` `web/pwa/sw.js` `web/pwa/icon-*.png` | <20 KB | 见 §7 部署 |
 | ✅ 同步配置 | `web/supabase-config.json` | <1 KB | 仅含**可公开**的 publishable key |
 | ✅ 词条数据 | `intermediate/entries_full.json` | 544 KB | 1250 词最终数据（无音频），可读 |
@@ -83,6 +83,7 @@ English/
 - 词条：序号 · 单词(蓝) · 音标(英/美) · 释义 · 例句 · **词根词缀卡**（绿色标签，约 42% 词有）
 - **点序号/左侧空白** → 灰色删除线标记「已掌握」（`markStyle`：变灰划线 / 仅划线）
 - **点单词** → 音节拆分 `com·po·si·tion ⇄ composition` 并发音
+- **点例句** → 朗读整句（**edge-tts 生成，Andrew/Brian 两男声按词 1:1 随机，1250 条已内嵌离线**；见 §7.4）。点击热区加大（整行+padding），可调「例句播放前延迟 0–50ms」
 - **点词条其他处** → 发音（**2500 条美/英音已 base64 内嵌，离线可用**；可调「跳过开头静音」）
 - 设置页：显示已划掉词 / 划线样式 / 翻页方式(左右分页·上下无缝) / 口音 / 字号 / 栏数(自动按 PDF 栏宽铺满) / 间距 / 分界线开关 / 背景色(预设+自定义#) / **多端同步**
 - 分页：按**实测高度装箱**，像 PDF 一样填满一栏再下一栏，宽屏自动多栏
@@ -103,10 +104,13 @@ web/supabase-config.json ──────────────┤          
 web/pwa/* ─────────────────────────────┘
 ```
 
-`build_html.py` 把模板里 4 个占位符替换掉：
+`build_html.py` 把模板里 5 个占位符替换掉：
 - `__DATA__` → 1250 词条 JSON
 - `__AUDIO_US__` / `__AUDIO_UK__` → `{word: base64 mp3}`（放在 `<script type="application/json">` 里，不执行、按需解析）
+- `__AUDIO_EX__` → `{rank: base64 mp3}` 例句朗读音频（edge-tts，见 §7.4）
 - `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
+
+> 成品体积 ~88MB（US+UK+EX 三套音频内嵌）；docs/index.html <100MB，GitHub 可推。
 
 ---
 
@@ -133,6 +137,7 @@ web/pwa/* ───────────────────────�
   cols:"auto"|"2"|"3"|"4",   // 栏数
   spacing:0.35,              // 间距(0..1 → 栏距/留白)
   skipMs:250,                // 起播引子控制：lead = 314-skipMs（默认留64ms引子，见§7）
+  exDelay:0,                 // 例句播放前延迟(ms, 0..50)；例句音频已去前置静音（§7.4）
   bg:"#ffffff",              // 当前背景色（【不同步】）
   customColors:[hex...],     // 自定义色号列表（【同步】，取并集）
   marks:{ rank:{v:0|1,t:ms} },// 划线：每词{是否+时间戳}（【同步】，LWW）
@@ -147,7 +152,8 @@ web/pwa/* ───────────────────────�
 ### 5.3 关键函数
 - `paginate()`：读容器宽高→算栏数(auto 时按 `330*fontScale` 目标栏宽)→用隐藏的 `#measure` 实测每条高度→装箱成页→`render()`
 - `render()`：拼 HTML，设 `#pages` 的 class（h/v、hideMarked、markline、nodivider）
-- 点击委托（`pagesEl` 上一个 click）：判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
+- 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
+- **`speakEx(rank)`**：例句朗读。取 `__AUDIO_EX__` 的 base64 → 复用 §7 的 `decodeAudioData`+缓存内核 → `playEx()`。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；起播 `start(now+exDelay, off)`——`exDelay`(0..50ms)是"播放前静默"。无内嵌/无 Web Audio 则静默（例句不回退有道）
 - **`speak(word)`**：Web Audio 播放（见 §7）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset}`，上限 48 条）→ `detectOnset()` 检测真起音 → `AudioBufferSourceNode.start(0, onset−lead)` 样本级起播。**不再用 `<audio>.currentTime`**（MP3 中途 seek 不可靠）。非内嵌词/无 Web Audio 时回退 `speakHtml()`(有道 URL)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
@@ -191,6 +197,16 @@ web/pwa/* ───────────────────────�
 新播放内核**每次实时找真起音**，不再依赖“文件里静音正好是某个值”。所以旧的“补零到 ≥314ms”对齐**已非必需**——`intermediate/audio/` 仍是 git 跟踪的既有产物、无需为发音再跑对齐。脚本保留备用；若哪天重下音频，也**不必**再跑它（起音归一化会自愈）。
 - ⚠️ 依赖浏览器解码一致性：逻辑已全库离线验证零切词，但真机（尤其 Safari）建议用**开发者模式**（设置页开关）抽查——面板底部实时画波形与 橙(真起音)/绿(起播)/红(播放头) 线。
 
+### 7.4 例句朗读（edge-tts，本轮新增）
+单词发音是有道逐词 mp3；**例句是整句朗读**，走另一条链路：
+- **音源**：`scripts/fetch_ex_audio.py` 用微软 **edge-tts** 合成（免费，`audio-24khz-48kbitrate-mono-mp3`）。两男声 **`en-US-AndrewMultilingualNeural` / `en-US-BrianMultilingualNeural`**，按 rank **定种子(SEED=42)随机 1:1** 分配（1250→精确 625/625，`voices.json` 记录，可复现）。
+- **只念英文**：例句字段 `ex` 是「英文.(中文)」混排，`english()` 取首个 `(`/`（` 前的英文；并去掉开头对话说话人标记 `W:/M:`（否则会念出字母 "double-u"）。
+- **去前置静音**：ffmpeg `silenceremove=start_threshold=-45dB` 削掉开头静音（全库抽验 <30ms），重编码 48k 单声道 → `intermediate/audio/ex/{rank}.mp3`（随词音频一起入库、离线用）。
+- **播放**：见 §5.3 `speakEx`。前端不再检测起音去静音（文件已去干净），只加 `exDelay` 引子。
+- **重跑**：`python scripts/fetch_ex_audio.py`（断点续传，跳过已存在文件）。改词表/例句后要重下某条，先删 `intermediate/audio/ex/{rank}.mp3` 再跑。
+
+> ⚠️ **例句解析历史坑（已修）**：`build_dataset.py` 旧代码 `s.split("：",1)[-1]` 会把句内含全角冒号的例句（`W: Oh…`→`女：…`、`Directions:…`→`说明：…`）**误截成只剩中文**，18 条例句英文曾整段丢失。已改为正则只剥开头 `例句[（自编）]:` 标签。另：rank 707 `weight` 源表例句为空，已从真题语料补 `Choosing what to eat and drink is key to weight control.`（用原文，非自编）。
+
 ---
 
 ## 8. 多端同步（Supabase）
@@ -233,12 +249,14 @@ grant select, insert, update on public.progress to anon;
 
 ```bash
 # 依赖
-pip install pyphen                 # 音节
-# （音频已下好；要重下：python scripts/fetch_audio.py）
+pip install pyphen edge-tts        # 音节 / 例句 TTS（需 ffmpeg 去静音）
+# （词音频已下好；要重下：python scripts/fetch_audio.py）
+# （例句音频已生成；要重下：python scripts/fetch_ex_audio.py）
 
 # 改了词根/词表后，从数据到成品全量重建：
 python scripts/merge_roots.py          # → intermediate/roots.json
 python scripts/build_dataset.py        # → entries_full.json, web/data.js
+python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
 python scripts/make_pdf_optimized.py   # → 优化版 PDF
 python scripts/build_html.py           # → 英语四级单词背诵.html + docs/
 
@@ -274,7 +292,8 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 | 改词条样式/字号/颜色 | `web/template.html` 的 `<style>`，然后 `build_html.py` |
 | 加一个设置项 | template：加 state 字段 + 设置页 DOM + `syncSettings()` 同步 UI + 事件；必要时 `paginate()` |
 | 改划线样式/区域 | `.entry.marked .num::before`（CSS）+ 点击委托里的 mark 判定 |
-| 换/改发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
+| 换/改单词发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
+| 换/改例句朗读音色 | `fetch_ex_audio.py` 里 `VOICES`（改 edge-tts 声音）→ 删 `intermediate/audio/ex/` 重跑 → `build_html.py`；播放在 `speakEx()`（§7.4） |
 | 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=314-skipMs`，默认值 `skipMs:250`（§7.2） |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |

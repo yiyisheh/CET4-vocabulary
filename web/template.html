@@ -57,7 +57,11 @@
   .ipa{ font-size:calc(7.5pt*var(--fs)); font-weight:300; color:var(--gray);
     margin:2px 0 1px; letter-spacing:.1px; }
   .def{ font-size:calc(8.5pt*var(--fs)); line-height:1.4; margin:1px 0; }
-  .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:1px 0; }
+  /* example line: enlarged tap target (padding grows the hit area; negative side
+     margins keep the text visually aligned with .def). Tap to read the sentence. */
+  .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:2px -6px; padding:5px 6px;
+    border-radius:7px; cursor:pointer; -webkit-user-select:none; user-select:none; }
+  .ex:active{ background:var(--panel); }
   .root{ margin-top:2px; padding-left:6px; }
   .root .p{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); }
   .root .p .txt{ font-weight:700; }
@@ -188,6 +192,10 @@
     <div class="slider"><input id="rg-skip" type="range" min="0" max="314" step="10"><span class="val" id="v-skip"></span></div>
   </div>
   <div class="row">
+    <div class="lab"><b>例句播放前延迟</b><span>点例句朗读前的静默间隔；例句音频已去前置静音，可留 0</span></div>
+    <div class="slider"><input id="rg-exdelay" type="range" min="0" max="50" step="5"><span class="val" id="v-exdelay"></span></div>
+  </div>
+  <div class="row">
     <div class="lab"><b>字体大小</b><span>默认≈优化版 PDF 原大小（100% 缩放时）</span></div>
     <div class="slider"><input id="rg-fs" type="range" min="0.75" max="1.6" step="0.05"><span class="val" id="v-fs"></span></div>
   </div>
@@ -228,6 +236,7 @@
     <b>操作说明</b><br>
     · 点<b>序号</b> → 灰线标记「已掌握」（再点取消）<br>
     · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音<br>
+    · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
     · 设置 / 划线 / 上次位置自动保存
@@ -255,6 +264,7 @@
 
 <script type="application/json" id="audio-us">__AUDIO_US__</script>
 <script type="application/json" id="audio-uk">__AUDIO_UK__</script>
+<script type="application/json" id="audio-ex">__AUDIO_EX__</script>
 <script>
 window.CET4 = __DATA__;
 </script>
@@ -275,7 +285,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   var state = {
     showMarked:true, markStyle:"dim", divider:true, mode:"h", accent:"us",
-    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:250,
+    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:250, exDelay:0,
     bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
@@ -297,7 +307,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def">'+esc(e.def)+'</div>';
-    if(e.ex) h+='<div class="ex">'+esc(e.ex_label||"例句")+'：'+esc(e.ex)+'</div>';
+    if(e.ex) h+='<div class="ex" data-act="ex">'+esc(e.ex_label||"例句")+'：'+esc(e.ex)+'</div>';
     if(e.root && e.root.parts && e.root.parts.length){
       h+='<div class="root">';
       e.root.parts.forEach(function(p){
@@ -491,6 +501,45 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       function(){ speakHtml(w); });                  // decode failed -> fallback
   }
 
+  // ---- example-sentence audio: edge-tts clips (Andrew/Brian, one voice per sentence),
+  // trimmed of leading silence, keyed by rank. Reuses the decode+cache engine. No Youdao
+  // fallback (a sentence isn't a dictionary lookup). `exDelay` (0..50ms) inserts a short
+  // pre-play gap before sound, since the clips carry no leading silence of their own.
+  var exData=null, exCache={}, exOrder=[];
+  function exMap(){
+    if(exData===null){
+      var el=document.getElementById("audio-ex");
+      try{ exData = el && el.textContent.trim() ? JSON.parse(el.textContent) : {}; }
+      catch(e){ exData={}; }
+    }
+    return exData;
+  }
+  function playEx(en){
+    var ctx=actx; if(!ctx) return;
+    try{ if(curSrc){ curSrc.stop(); } }catch(e){}    // cut off anything still playing
+    var delay=(state.exDelay||0)/1000;               // pre-play gap, read live
+    var off=en.onset; if(off<0) off=0;               // clips pre-trimmed => onset ~0
+    if(!(off < en.buf.duration-0.05)) off=0;
+    var s=ctx.createBufferSource(); s.buffer=en.buf; s.connect(ctx.destination);
+    curSrc=s; var t0=ctx.currentTime+delay;          // silence until t0, then sample `off`
+    try{ s.start(t0, off); }catch(e){ try{ s.start(); }catch(_){} }
+    if(state.dev) devShow(en.buf, off, t0, "(例句)", en.onset);
+  }
+  function speakEx(rank){
+    var b=exMap()[rank], ctx=b?audioCtx():null;
+    if(!ctx || !b){ return; }                        // no clip / no Web Audio -> silent
+    var key="ex|"+rank, hit=exCache[key];
+    if(hit){ playEx(hit); return; }
+    ctx.decodeAudioData(b64ToBytes(b),
+      function(buf){
+        var en={buf:buf, onset:detectOnset(buf)};
+        exCache[key]=en; exOrder.push(key);
+        if(exOrder.length>ABUF_MAX) delete exCache[exOrder.shift()];
+        playEx(en);
+      },
+      function(){});                                 // decode failed -> silent
+  }
+
   // ---- developer mode: live decode waveform + skip line + playhead ----
   // Docked at the bottom as a real flex child of <body>, so #pages shrinks above it
   // (no overlay). Drag the top handle to resize; height persists in state.devH.
@@ -567,6 +616,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var entry=ev.target.closest(".entry"); if(!entry) return;
     var rank=+entry.dataset.rank, word=entry.dataset.word;
     var a=ev.target.closest("[data-act]"), act=a?a.dataset.act:"speak";
+    if(act==="ex"){ speakEx(rank); return; }         // tap the example line -> read it
     // clicking the blank strip in front of / around the number also marks
     if(act==="speak"){
       var hwEl=entry.querySelector(".hw");
@@ -630,6 +680,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       rgFs=document.getElementById("rg-fs"), vFs=document.getElementById("v-fs"),
       rgSp=document.getElementById("rg-sp"), vSp=document.getElementById("v-sp"),
       rgSkip=document.getElementById("rg-skip"), vSkip=document.getElementById("v-skip"),
+      rgExDelay=document.getElementById("rg-exdelay"), vExDelay=document.getElementById("v-exdelay"),
       swDev=document.getElementById("sw-dev"),
       swatchesEl=document.getElementById("swatches"),
       hexInput=document.getElementById("hexinput"), hexAdd=document.getElementById("hexadd");
@@ -661,6 +712,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     rgFs.value=state.fontScale; vFs.textContent=Math.round(state.fontScale*100)+"%";
     rgSp.value=state.spacing; vSp.textContent=Math.round(state.spacing*100)+"%";
     rgSkip.value=state.skipMs; vSkip.textContent=state.skipMs+"ms";
+    rgExDelay.value=state.exDelay; vExDelay.textContent=state.exDelay+"ms";
     swDev.classList.toggle("on",!!state.dev);
     renderSwatches();
   }
@@ -672,6 +724,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   rgFs.addEventListener("input", function(){ state.fontScale=+rgFs.value; vFs.textContent=Math.round(state.fontScale*100)+"%"; applyLayout(); save(); });
   rgSp.addEventListener("input", function(){ state.spacing=+rgSp.value; vSp.textContent=Math.round(state.spacing*100)+"%"; applyLayout(); save(); });
   rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
+  rgExDelay.addEventListener("input", function(){ state.exDelay=+rgExDelay.value; vExDelay.textContent=state.exDelay+"ms"; save(); });
 
   document.getElementById("start").addEventListener("click", function(){ settingsEl.style.display="none"; paginate(); });
   document.getElementById("btn-settings").addEventListener("click", function(){

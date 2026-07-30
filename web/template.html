@@ -56,12 +56,15 @@
     font-variant-numeric:tabular-nums; cursor:pointer; padding:2px 1px 2px 1px; }
   .hw{ font-size:calc(11pt*var(--fs)); font-weight:700; color:var(--blue); cursor:pointer;
     letter-spacing:.2px; }
+  /* uniform breathing gap above each line (headline→ipa→def→ex all share the same 6px). */
   .ipa{ font-size:calc(7.5pt*var(--fs)); font-weight:300; color:var(--gray);
-    margin:2px 0 1px; letter-spacing:.1px; }
-  .def{ font-size:calc(8.5pt*var(--fs)); line-height:1.4; margin:1px 0; }
-  /* example line: enlarged tap target (padding grows the hit area; negative side
-     margins keep the text visually aligned with .def). Tap to read the sentence. */
-  .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:2px -6px; padding:5px 6px;
+    margin:6px 0 0; letter-spacing:.1px; }
+  .def{ font-size:calc(8.5pt*var(--fs)); line-height:1.4; margin:6px 0 0; }
+  /* example line: tap target is the padding box only. The gap above lives in margin-top
+     (NOT clickable) and top padding is trimmed to 1px so the hit area hugs the text; the
+     roomier bottom padding stays for a comfortable tap. Negative side margins keep the text
+     aligned with .def. Tap to read the sentence. */
+  .ex{ font-size:calc(8.5pt*var(--fs)); line-height:1.45; margin:6px -6px 0; padding:1px 6px 5px;
     border-radius:7px; cursor:pointer; -webkit-user-select:none; user-select:none; }
   .ex:active{ background:var(--panel); }
   .root{ margin-top:2px; padding-left:6px; }
@@ -77,7 +80,8 @@
   .entry.marked{ opacity:.5; }
   /* style B: line only, text stays its normal color */
   #pages.markline .entry.marked{ opacity:1; }
-  #pages.hideMarked .entry.marked{ display:none; }
+  /* NOTE: no CSS display:none for marked entries — "去掉已划掉" filters at paginate()
+     time only (see visible()), so marking a word never reflows the page in real time. */
   /* optional divider between entries (transparent keeps height stable for pagination) */
   #pages.nodivider .entry{ border-bottom-color:transparent; }
 
@@ -182,8 +186,8 @@
   <div class="desc">2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF</div>
 
   <div class="row">
-    <div class="lab"><b>显示已划掉的单词</b><span>关闭后，已掌握（划线）的单词会被隐藏</span></div>
-    <div id="sw-showmarked" class="switch"></div>
+    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，每次进出设置页时才重新加载去掉</span></div>
+    <div id="sw-removemarked" class="switch"></div>
   </div>
   <div class="row">
     <div class="lab"><b>划线样式</b><span>变灰=划线并把整条变灰 / 仅划线=只划线，字体不变</span></div>
@@ -313,13 +317,15 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   ];
 
   var state = {
-    showMarked:true, markStyle:"dim", divider:true, mode:"h", accent:"us",
+    removeMarked:false, markStyle:"dim", divider:true, mode:"h", accent:"us",
     fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0,
     bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
   if(state.marked){ for(var _r in state.marked){ if(!state.marks[_r]) state.marks[_r]={v:1,t:0}; } delete state.marked; }
+  // migrate showMarked(显示) -> removeMarked(去掉): inverse meaning
+  if(state.showMarked!==undefined){ state.removeMarked=!state.showMarked; delete state.showMarked; }
   if(!state.marks) state.marks={};
   // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
   if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
@@ -361,7 +367,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   // ---- measured pagination (fills a column top-to-bottom like the PDF) ----
   var pages=[], colW=300, colCount=2;
-  function visible(){ return state.showMarked ? DATA : DATA.filter(function(e){ return !marked(e.rank); }); }
+  // marked words are filtered out ONLY here (at paginate time), not via CSS in real time —
+  // so "去掉已划掉" takes effect when the settings page is opened/closed (which re-paginates),
+  // and marking a word while reading never makes the page reflow under your finger.
+  function visible(){ return state.removeMarked ? DATA.filter(function(e){ return !marked(e.rank); }) : DATA; }
 
   function paginate(){
     var lay=applyLayout();
@@ -405,7 +414,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       html+='</div>';
     }
     pagesEl.innerHTML=html;
-    pagesEl.className=state.mode+(state.showMarked?"":" hideMarked")+(state.markStyle==="line"?" markline":"")+(state.divider?"":" nodivider");
+    pagesEl.className=state.mode+(state.markStyle==="line"?" markline":"")+(state.divider?"":" nodivider");
     rangeH.max=rangeV.max=Math.max(0,pages.length-1);
     restoreAnchor(); prefetchCurrent();
   }
@@ -689,7 +698,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       state.marks[rank] = {v:nv, t:Date.now()};
       entry.classList.toggle("marked", nv===1); save();
       syncPushMark(rank);
-      if(!state.showMarked) paginate();
+      // no paginate() here: removal is deferred to the next settings open/close (see visible())
       return;
     }
     if(act==="syl"){
@@ -736,7 +745,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   // ---- settings UI ----
   var settingsEl=document.getElementById("settings"),
-      swShow=document.getElementById("sw-showmarked"),
+      swRemove=document.getElementById("sw-removemarked"),
       swDivider=document.getElementById("sw-divider"),
       segMark=document.getElementById("seg-markstyle"),
       segMode=document.getElementById("seg-mode"),
@@ -768,7 +777,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function seg(el,key,after){ el.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(!b) return;
     state[key]=b.dataset.v; syncSettings(); save(); if(after) after(); }); }
   function syncSettings(){
-    swShow.classList.toggle("on",state.showMarked);
+    swRemove.classList.toggle("on",state.removeMarked);
     swDivider.classList.toggle("on",state.divider);
     [[segMark,"markStyle"],[segMode,"mode"],[segCols,"cols"]].forEach(function(x){
       [].forEach.call(x[0].children,function(b){ b.classList.toggle("on",b.dataset.v===String(state[x[1]])); });
@@ -780,7 +789,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     swDev.classList.toggle("on",!!state.dev);
     renderSwatches();
   }
-  swShow.addEventListener("click", function(){ state.showMarked=!state.showMarked; syncSettings(); save(); });
+  swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
   swDivider.addEventListener("click", function(){ state.divider=!state.divider; syncSettings(); pagesEl.classList.toggle("nodivider", !state.divider); save(); });
   swDev.addEventListener("click", function(){ state.dev=!state.dev; syncSettings(); devApply(); paginate(); save(); });
   seg(segMark,"markStyle"); seg(segMode,"mode"); seg(segCols,"cols");

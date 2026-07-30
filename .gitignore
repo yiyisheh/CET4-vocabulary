@@ -21,3 +21,6 @@ intermediate/audio_orig_backup/
 
 # 66MB 构建产物（单文件离线版，可由 scripts/build_html.py 重生成）；上线用的是 docs/index.html
 英语四级单词背诵.html
+
+# 临时工作目录（截图/录屏/预览图等，不入库）
+tmp/

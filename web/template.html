@@ -134,6 +134,16 @@
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
     font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
   .hintbox b{ color:var(--ink); }
+  /* developer mode: bottom dock (takes real layout space), drag top edge to resize */
+  #dev{ display:none; flex:0 0 auto; height:var(--devH,170px); min-height:80px;
+    flex-direction:column; background:rgba(6,10,14,.96); border-top:1px solid #26323c; }
+  #dev.on{ display:flex; }
+  #dev-handle{ flex:0 0 15px; cursor:ns-resize; touch-action:none; background:#12202c;
+    display:flex; align-items:center; justify-content:center; }
+  #dev-handle::before{ content:""; width:46px; height:4px; border-radius:2px; background:#3a5566; }
+  #dev-canvas{ flex:1 1 auto; display:block; width:100%; min-height:0; background:#0b0f14; }
+  #dev-info{ flex:0 0 auto; padding:4px 8px calc(4px + env(safe-area-inset-bottom));
+    font:11px/1.4 ui-monospace,Menlo,Consolas,monospace; color:#8fe; white-space:pre-wrap; }
 </style>
 </head>
 <body>
@@ -171,6 +181,10 @@
   <div class="row">
     <div class="lab"><b>跳过开头静音</b><span>有道发音开头约 0.33s 静音；跳过它更跟手</span></div>
     <div class="slider"><input id="rg-skip" type="range" min="0" max="314" step="10"><span class="val" id="v-skip"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>开发者模式</b><span>底部实时显示解码 PCM 波形、skip 起播线(绿)与播放头(红)，调试发音起点用</span></div>
+    <div id="sw-dev" class="switch"></div>
   </div>
   <div class="row">
     <div class="lab"><b>字体大小</b><span>默认≈优化版 PDF 原大小（100% 缩放时）</span></div>
@@ -223,6 +237,12 @@
 <div id="pages"></div>
 <div id="measure"></div>
 
+<div id="dev">
+  <div id="dev-handle" title="上下拖动改变高度"></div>
+  <canvas id="dev-canvas"></canvas>
+  <div id="dev-info">开发者模式：点任意单词发音 —— 橙线=检测到的真起音，绿线=实际起播(起音前留 lead)，红线=播放头</div>
+</div>
+
 <div id="wheelH"><div class="wlabel" id="wlabelH"></div><input type="range" id="rangeH"></div>
 <div id="wheelV"><input type="range" id="rangeV"></div>
 <div id="bar"><div id="pageno">1 / 1</div></div>
@@ -250,7 +270,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   var state = {
     showMarked:true, markStyle:"dim", divider:true, mode:"h", accent:"us",
     fontScale:1.0, cols:"auto", spacing:0.35, skipMs:250,
-    bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:""
+    bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
@@ -388,26 +408,153 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     }
     return audioMaps[acc];
   }
-  var cache={};
-  function src(w){
-    var b=audioMap(state.accent)[w];
-    if(b) return "data:audio/mpeg;base64,"+b;                          // embedded, offline
-    return "https://dict.youdao.com/dictvoice?type="+(state.accent==="uk"?1:2)+"&audio="+encodeURIComponent(w); // fallback
+  function b64ToBytes(b64){                       // base64 -> ArrayBuffer (offline, no fetch)
+    var s=atob(b64), n=s.length, u=new Uint8Array(n);
+    for(var i=0;i<n;i++) u[i]=s.charCodeAt(i);
+    return u.buffer;
   }
-  function getAudio(w){
-    var key=state.accent+"|"+w, a=cache[key];
-    if(!a){ a=new Audio(); a.preload="auto"; a.src=src(w); cache[key]=a; }
-    return a;
+  function youdaoUrl(w){ return "https://dict.youdao.com/dictvoice?type="+(state.accent==="uk"?1:2)+"&audio="+encodeURIComponent(w); }
+
+  // ---- audio: Web Audio playback, SAMPLE-ACCURATE start relative to each clip's true onset ----
+  // Why not <audio>.currentTime: seeking mid-way into an MP3 is unreliable — the seek snaps to
+  // ~24ms frame boundaries (imprecise) AND the frame right after the seek decodes wrong (MP3's
+  // bit-reservoir needs prior-frame context). Either eats soft onsets. So we decode the WHOLE
+  // clip to PCM once (full context, no seek) and start at an exact sample.
+  //
+  // The Youdao source has wildly uneven leading silence (~314ms up to ~1000ms), so a FIXED skip
+  // leaves a long dead gap before the word on many clips. Instead we DETECT each clip's true
+  // onset on the decoded PCM (sustained-RMS above the per-clip noise floor — ignores lone blips,
+  // catches quiet fricatives) and start `lead` ms before it, where lead = 314 - skipMs (default
+  // skip 250 => uniform 64ms lead). This normalizes every word to the same snappy lead-in.
+  // Validated across all 2500 clips: 0 clips, lead uniform ~64–76ms (see detect_full.py).
+  var actx=null, abufCache={}, abufOrder=[], curSrc=null;   // cache: key -> {buf, onset(sec)}
+  var ABUF_MAX=48;                                 // cap decoded-buffer cache (~5MB)
+  function audioCtx(){
+    if(!actx){ var C=window.AudioContext||window.webkitAudioContext; if(C){ try{ actx=new C(); }catch(e){} } }
+    if(actx && actx.state==="suspended"){ try{ actx.resume(); }catch(e){} }   // iOS: unlock within the tap gesture
+    return actx;
   }
-  function prefetchCurrent(){
-    var cur=currentPage();
-    [cur,cur+1].forEach(function(p){ if(pages[p]) pages[p].forEach(function(col){ col.forEach(function(e){ getAudio(e.word); }); }); });
+  function detectOnset(buf){                        // first sustained audible sample (sec)
+    var a=buf.getChannelData(0), sr=buf.sampleRate;
+    var win=Math.max(1,(sr*0.012)|0), hop=Math.max(1,(sr*0.002)|0);
+    if(a.length<=win) return 0;
+    var ps=new Float64Array(a.length+1), i, st;
+    for(i=0;i<a.length;i++) ps[i+1]=ps[i]+a[i]*a[i];
+    var n=((a.length-win)/hop)|0; if(n<=0) return 0;
+    var rms=new Float64Array(n);
+    for(i=0;i<n;i++){ st=i*hop; rms[i]=Math.sqrt((ps[st+win]-ps[st])/win); }
+    var sorted=Float64Array.prototype.slice.call(rms).sort();
+    var floor=sorted[(n*0.15)|0]||0, thr=Math.max(floor*2.5, 0.0009);
+    var need=5, run=0;                              // 5 windows x 2ms hop = 10ms sustained -> rejects blips
+    for(i=0;i<n;i++){
+      if(rms[i]>thr){ if(++run>=need) return Math.max(0, (i-need+1)*hop - sr*0.004)/sr; }
+      else run=0;
+    }
+    return 0;
   }
+  function playEntry(en, w){
+    var ctx=actx; if(!ctx) return;
+    try{ if(curSrc){ curSrc.stop(); } }catch(e){}  // cut off any word still playing
+    var lead=(314-(state.skipMs||0))/1000; if(lead<0) lead=0;   // skipMs read live; higher = less lead
+    var off=en.onset-lead; if(off<0) off=0;
+    if(!(off < en.buf.duration-0.05)) off=0;        // guard: never start past (near) the end
+    var s=ctx.createBufferSource(); s.buffer=en.buf; s.connect(ctx.destination);
+    curSrc=s; var t0=ctx.currentTime;               // start(0) => sample `off` plays at ctx time t0
+    try{ s.start(0, off); }catch(e){ off=0; try{ s.start(); }catch(_){} }
+    if(state.dev) devShow(en.buf, off, t0, w, en.onset);
+  }
+  var htmlFallback=null;
+  function speakHtml(w){                             // fallback: non-embedded word, or no Web Audio
+    if(!htmlFallback){ htmlFallback=new Audio(); }
+    htmlFallback.src = youdaoUrl(w);
+    htmlFallback.play().catch(function(){});
+  }
+  function prefetchCurrent(){}                       // no-op: decode happens lazily on first tap
   function speak(w){
-    var a=getAudio(w), skip=(state.skipMs||0)/1000;
-    var go=function(){ try{ if(skip && (a.duration>skip+0.05)) a.currentTime=skip; else a.currentTime=0; }catch(e){} a.play().catch(function(){}); };
-    if(a.readyState>=1) go(); else { a.addEventListener("loadedmetadata", go, {once:true}); try{ a.load(); }catch(e){} }
+    var b=audioMap(state.accent)[w], ctx=b?audioCtx():null;
+    if(!ctx || !b){ speakHtml(w); return; }          // no embedded audio / no Web Audio support
+    var key=state.accent+"|"+w, hit=abufCache[key];
+    if(hit){ playEntry(hit, w); return; }
+    ctx.decodeAudioData(b64ToBytes(b),
+      function(buf){
+        var en={buf:buf, onset:detectOnset(buf)};
+        abufCache[key]=en; abufOrder.push(key);
+        if(abufOrder.length>ABUF_MAX) delete abufCache[abufOrder.shift()];
+        playEntry(en, w);
+      },
+      function(){ speakHtml(w); });                  // decode failed -> fallback
   }
+
+  // ---- developer mode: live decode waveform + skip line + playhead ----
+  // Docked at the bottom as a real flex child of <body>, so #pages shrinks above it
+  // (no overlay). Drag the top handle to resize; height persists in state.devH.
+  var dev={ cv:null, g:null, info:null, cols:null, buf:null, off:0, onset:0, t0:0, raf:0, W:0, H:0, word:"" };
+  function devEl(){ if(!dev.cv){ dev.cv=document.getElementById("dev-canvas"); if(dev.cv){ dev.g=dev.cv.getContext("2d"); dev.info=document.getElementById("dev-info"); } } }
+  function setDevH(h){                              // clamp + apply dock height
+    h=Math.max(80, Math.min(h, Math.round(window.innerHeight*0.7)));
+    state.devH=Math.round(h);
+    document.documentElement.style.setProperty("--devH", state.devH+"px");
+  }
+  function devApply(){                              // reflect state.dev: show/hide + (re)draw
+    devEl(); var wrap=document.getElementById("dev"); if(!wrap) return;
+    setDevH(state.devH||170);
+    wrap.classList.toggle("on", !!state.dev);
+    if(state.dev){ devResize(); if(dev.buf) devStatic(); }
+    else { cancelAnimationFrame(dev.raf); }
+  }
+  (function(){                                      // drag the handle to resize the dock
+    var hnd=document.getElementById("dev-handle"); if(!hnd) return;
+    var y0=0, h0=0, drag=false, wrap=document.getElementById("dev");
+    hnd.addEventListener("pointerdown", function(e){ drag=true; y0=e.clientY; h0=wrap.offsetHeight;
+      try{ hnd.setPointerCapture(e.pointerId); }catch(_){} e.preventDefault(); });
+    hnd.addEventListener("pointermove", function(e){ if(!drag) return;
+      setDevH(h0 + (y0 - e.clientY));              // drag up => taller
+      devResize(); if(dev.buf) devStatic(); });
+    hnd.addEventListener("pointerup", function(){ if(!drag) return; drag=false; save(); paginate(); });
+  })();
+  function devResize(){
+    devEl(); if(!dev.cv) return;
+    var dpr=window.devicePixelRatio||1, r=dev.cv.getBoundingClientRect();
+    dev.W=dev.cv.width=Math.max(1,(r.width*dpr)|0); dev.H=dev.cv.height=Math.max(1,(r.height*dpr)|0);
+    dev.cols=null;                                  // width changed -> recompute columns
+  }
+  function devCols(){                               // downsample buffer -> per-pixel [min,max]
+    var a=dev.buf.getChannelData(0), N=a.length, W=dev.W, step=N/W, c=new Float32Array(W*2), x, i, s0, s1, mn, mx, v;
+    for(x=0;x<W;x++){ s0=(x*step)|0; s1=((x+1)*step)|0; if(s1<=s0) s1=s0+1; mn=1; mx=-1;
+      for(i=s0;i<s1 && i<N;i++){ v=a[i]; if(v<mn)mn=v; if(v>mx)mx=v; }
+      c[x*2]=mn; c[x*2+1]=mx; }
+    dev.cols=c;
+  }
+  function devStatic(){
+    if(!dev.g||!dev.buf) return;
+    var g=dev.g, W=dev.W, H=dev.H, mid=H/2, x;
+    g.clearRect(0,0,W,H);
+    g.strokeStyle="#1b2732"; g.lineWidth=1; g.beginPath(); g.moveTo(0,mid); g.lineTo(W,mid); g.stroke();
+    if(!dev.cols) devCols();
+    g.strokeStyle="#3aa0ff"; g.beginPath();
+    for(x=0;x<W;x++){ g.moveTo(x+0.5, mid-dev.cols[x*2+1]*mid); g.lineTo(x+0.5, mid-dev.cols[x*2]*mid); }
+    g.stroke();
+    var dur=dev.buf.duration;
+    var ox=(dev.onset/dur)*W;                       // detected onset line (orange)
+    g.strokeStyle="#ffb02e"; g.lineWidth=2; g.beginPath(); g.moveTo(ox,0); g.lineTo(ox,H); g.stroke();
+    var sx=(dev.off/dur)*W;                          // playback start line (green) = onset - lead
+    g.strokeStyle="#2ee66a"; g.lineWidth=2; g.beginPath(); g.moveTo(sx,0); g.lineTo(sx,H); g.stroke();
+  }
+  function devShow(buf, off, t0, w, onset){
+    devEl(); if(!dev.g) return; if(!dev.W) devResize();
+    dev.buf=buf; dev.off=off; dev.onset=onset||0; dev.t0=t0; dev.word=w; dev.cols=null;
+    cancelAnimationFrame(dev.raf); dev.raf=requestAnimationFrame(devTick);
+  }
+  function devTick(){
+    if(!state.dev||!dev.buf||!dev.g) return;
+    devStatic();
+    var pos=dev.off+(actx.currentTime-dev.t0), dur=dev.buf.duration;
+    var g=dev.g, W=dev.W, H=dev.H, px=(Math.min(Math.max(pos,0),dur)/dur)*W;
+    g.strokeStyle="#ff4444"; g.lineWidth=2; g.beginPath(); g.moveTo(px,0); g.lineTo(px,H); g.stroke();
+    dev.info.textContent=dev.word+"   dur "+(dur*1000|0)+"ms   onset(橙) "+(dev.onset*1000|0)+"ms   start(绿) "+(dev.off*1000|0)+"ms   lead "+((dev.onset-dev.off)*1000|0)+"ms   pos(红) "+(pos*1000|0)+"ms   sr "+dev.buf.sampleRate+"Hz";
+    if(pos<dur+0.03) dev.raf=requestAnimationFrame(devTick);
+  }
+  window.addEventListener("resize", function(){ if(state.dev){ devResize(); devStatic(); } });
 
   // ---- interactions ----
   pagesEl.addEventListener("click", function(ev){
@@ -477,6 +624,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       rgFs=document.getElementById("rg-fs"), vFs=document.getElementById("v-fs"),
       rgSp=document.getElementById("rg-sp"), vSp=document.getElementById("v-sp"),
       rgSkip=document.getElementById("rg-skip"), vSkip=document.getElementById("v-skip"),
+      swDev=document.getElementById("sw-dev"),
       swatchesEl=document.getElementById("swatches"),
       hexInput=document.getElementById("hexinput"), hexAdd=document.getElementById("hexadd");
 
@@ -507,12 +655,14 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     rgFs.value=state.fontScale; vFs.textContent=Math.round(state.fontScale*100)+"%";
     rgSp.value=state.spacing; vSp.textContent=Math.round(state.spacing*100)+"%";
     rgSkip.value=state.skipMs; vSkip.textContent=state.skipMs+"ms";
+    swDev.classList.toggle("on",!!state.dev);
     renderSwatches();
   }
   swShow.addEventListener("click", function(){ state.showMarked=!state.showMarked; syncSettings(); save(); });
   swDivider.addEventListener("click", function(){ state.divider=!state.divider; syncSettings(); pagesEl.classList.toggle("nodivider", !state.divider); save(); });
+  swDev.addEventListener("click", function(){ state.dev=!state.dev; syncSettings(); devApply(); paginate(); save(); });
   seg(segMark,"markStyle"); seg(segMode,"mode"); seg(segCols,"cols");
-  segAccent.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(b){ state.accent=b.dataset.v; cache={}; syncSettings(); save(); } });
+  segAccent.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(b){ state.accent=b.dataset.v; syncSettings(); save(); } });
   rgFs.addEventListener("input", function(){ state.fontScale=+rgFs.value; vFs.textContent=Math.round(state.fontScale*100)+"%"; applyLayout(); save(); });
   rgSp.addEventListener("input", function(){ state.spacing=+rgSp.value; vSp.textContent=Math.round(state.spacing*100)+"%"; applyLayout(); save(); });
   rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
@@ -598,13 +748,19 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   setSyncStatus(state.syncCode ? "connecting" : "off");
 
   // init
-  applyTheme(state.bg); applyLayout(); syncSettings(); paginate();
+  applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate();
   if(state.syncCode) startSync();
 
   // PWA: register service worker (offline + durable storage once added to home screen).
   // Silently ignored when opened as a local file:// (no origin).
   if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){
     window.addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}); });
+    // When a rebuilt SW takes control (new content hash), reload once to show the update.
+    // Guarded so it can't loop; skipped on the very first install (no prior controller).
+    var reloaded=false;
+    navigator.serviceWorker.addEventListener("controllerchange", function(){
+      if(reloaded) return; reloaded=true; location.reload();
+    });
   }
 })();
 </script>

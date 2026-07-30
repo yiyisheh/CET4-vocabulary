@@ -1,6 +1,8 @@
 /* Service worker: cache the whole app (incl. embedded audio) for full offline use.
-   Bump CACHE when index.html changes so clients pick up the new version. */
-var CACHE = "cet4-1250-v1";
+   CACHE carries a content hash injected by build_html.py — it changes automatically
+   whenever the app changes, which re-installs this SW and refreshes the cache.
+   Do NOT hand-edit the version; just rebuild. */
+var CACHE = "cet4-1250-a654638b22fa";
 var ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./icon-180.png", "./icon-192.png", "./icon-512.png"

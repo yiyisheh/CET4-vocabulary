@@ -53,11 +53,19 @@ print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
       f"audio US={n_us} UK={n_uk})")
 
 # also emit the hosted PWA copy into docs/ (GitHub Pages source)
+import hashlib
 import shutil
 DOCS = ROOT / "docs"
 DOCS.mkdir(exist_ok=True)
 (DOCS / "index.html").write_text(html)
+
+# content hash of the built app -> sw.js CACHE name, so the service worker's bytes
+# change (and clients auto-update) exactly when the app changes, no manual version bump.
+build_hash = hashlib.sha256(html.encode()).hexdigest()[:12]
 for f in (ROOT / "web" / "pwa").iterdir():
-    shutil.copy2(f, DOCS / f.name)
-print(f"-> {DOCS}/  (index.html + PWA: manifest, sw.js, icons)")
+    if f.name == "sw.js":
+        (DOCS / f.name).write_text(f.read_text().replace("__BUILD__", build_hash))
+    else:
+        shutil.copy2(f, DOCS / f.name)
+print(f"-> {DOCS}/  (index.html + PWA: manifest, sw.js@{build_hash}, icons)")
 

@@ -876,11 +876,22 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   rangeH.min=rangeV.min=0;
   rangeH.addEventListener("input", function(){ wlabelH.textContent="第 "+(+rangeH.value+1)+" / "+pages.length+" 页"; scrollToPage(+rangeH.value,false); });
   rangeV.addEventListener("input", function(){ scrollToPage(+rangeV.value,false); });
+  function wheelOpen(){ return wheelH.style.display==="block" || wheelV.style.display==="flex"; }
+  function closeWheel(){ wheelH.style.display="none"; wheelV.style.display="none"; }
   pagenoEl.addEventListener("click", function(){
-    if(state.mode==="h"){ var v=wheelH.style.display==="block"; wheelH.style.display=v?"none":"block"; wheelV.style.display="none"; }
-    else{ var v2=wheelV.style.display==="flex"; wheelV.style.display=v2?"none":"flex"; wheelH.style.display="none"; }
+    if(state.mode==="h"){ var v=wheelH.style.display==="block"; closeWheel(); if(!v) wheelH.style.display="block"; }
+    else{ var v2=wheelV.style.display==="flex"; closeWheel(); if(!v2) wheelV.style.display="flex"; }
     updateLabel();
   });
+  // tap anywhere outside the wheel dismisses it; that first tap is swallowed so it
+  // can't also mark/pronounce a word behind the popup (capture phase = before any
+  // other handler, incl. the #pages click delegate and #barnav-l/r).
+  document.addEventListener("click", function(e){
+    if(!wheelOpen()) return;
+    if(wheelH.contains(e.target) || wheelV.contains(e.target) || pagenoEl.contains(e.target)) return;
+    closeWheel();
+    e.stopPropagation(); e.preventDefault();
+  }, true);
   // bottom-bar side tap = turn one page (works in both h paging and v seamless scroll)
   function turnPage(d){ scrollToPage(currentPage()+d, true); }
   document.getElementById("barnav-l").addEventListener("click", function(){ turnPage(-1); });

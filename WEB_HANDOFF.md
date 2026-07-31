@@ -119,6 +119,7 @@ English/
 - **点例句** → 朗读整句（**edge-tts 生成，Andrew/Brian 两男声按词 1:1 随机，1250 条已内嵌离线**；见 §7.4）。⚠️ 热区**已被刻意缩短**（不是"整行加大"）：上方那 6px 间距走 margin 不可点，只有紧贴文字的 padding box 可点，避免点释义误触朗读。可调「例句播放前延迟 0–50ms」
 - **点词条其他处** → 发音（**1250 条美音已 base64 内嵌，离线可用**；可调「跳过开头静音 0–100ms」。⚠️ 英音(UK)已移除、口音切换已删，见 §7）
 - **翻页**：底部页码栏两侧空白区（`‹`/`›`，`#barnav-l/#barnav-r`）点击翻上/下一页；左右滑动分页启用 `scroll-snap-stop:always`，轻划最多前进一页（不影响触控板/iPad）
+- **快速跳页滑块**：**点底部中间那颗「1 / 8」药丸页码**（`#pageno`）弹出 —— 左右分页模式是贴着底栏上方的横滑块 `#wheelH`（带「第 N / M 页」标签），上下无缝模式是贴右侧的竖滑块 `#wheelV`。拖动即时跳页。**收起方式**：再点一次药丸，或**点页面上任何别处**（这一下点击会被吞掉，不会顺带划词/发音/翻页），进设置页也会收起
 - **自测的"留白"实际是浅色块**：`.mask` 把释义/词根整块变成 `--panel`（#f4f6f9）的**圆角浅灰块**、文字透明（连后代一起），高度不变所以不重排；例句英文常显、中文被同样的块盖住。点块内任意处 → 该词条所有块**一起**解开。
 
 ### 3.2 设置页（自上而下的实际顺序）
@@ -231,6 +232,7 @@ web/pwa/* ───────────────────────�
 - **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。非内嵌词/无解码时回退 `speakHtml()`(有道 URL)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
 - **`turnPage(±1)`**：底部栏两侧 `#barnav-l/#barnav-r` 点击 → `scrollToPage(currentPage()±1)`，h/v 模式通用
+- **跳页滑块 `wheelOpen()/closeWheel()`**：`#pageno` 点击切换 `#wheelH`(h,`block`)/`#wheelV`(v,`flex`)；另有一个**捕获阶段**的 `document` click 监听——滑块开着且点在滑块与药丸之外时 `closeWheel()` 并 `stopPropagation+preventDefault`。**必须是捕获阶段**：这样才能抢在 `#pages` 点击委托和 `#barnav-l/r` 之前吃掉这一下，避免"点外面关滑块"顺手把词划了或发了音
 - **`updateCacheUI()`**：设置页「离线缓存」进度。用 `navigator.storage.estimate().usage` 对比 `window.CACHE_BYTES`（构建注入）显示 `缓存中 NN%`；`caches.match('./index.html')` 命中即判为「已缓存 ✓」。缓存满前每 1.5s 轮询（仅设置页打开时）。纯展示，不重复下载
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动

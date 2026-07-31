@@ -2,7 +2,7 @@
    CACHE carries a content hash injected by build_html.py — it changes automatically
    whenever the app changes, which re-installs this SW and refreshes the cache.
    Do NOT hand-edit the version; just rebuild. */
-var CACHE = "cet4-1250-9db741dc6993";
+var CACHE = "cet4-1250-101c32a14fe3";
 var ASSETS = [
   "./", "./index.html", "./manifest.webmanifest",
   "./icon-180.png", "./icon-192.png", "./icon-512.png"

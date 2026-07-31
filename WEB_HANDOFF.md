@@ -22,10 +22,10 @@
 **一句话**：想看/改网页，永远打开 `web/template.html`；那两个 52 MB 的 `.html` 是**自动生成的产物**，不是源码。
 > 注：`uk/` 30 MB 仍在磁盘和 git 里，但**不再被嵌进成品**（§4），所以成品 52 MB ≠ 音频目录 73 MB。
 
-### 0.1 📌 所有临时资源一律放 `tmp/`
-截图、录屏、测试页、一次性脚本、调试产物——**全部写进仓库根目录的 `tmp/`**，不要散在 `/tmp`、系统临时目录或项目根目录。理由：`tmp/` 已在 `.gitignore` 里（不污染仓库），但它在项目里，**用户能直接打开来看**。
+### 0.1 📌 所有临时产物一律放 `tmp/`
+截图、录屏、生成的测试页、调试产物——**全部写进仓库根目录的 `tmp/`**，不要散在 `/tmp`、系统临时目录或项目根目录。理由：`tmp/` 已在 `.gitignore` 里（不污染仓库），但它在项目里，**用户能直接打开来看**。
 
-- `tmp/devtest/` 是常备的本地验证工具（见 §9），可以放心复用/覆盖。
+- **工具本身入库、产物进 `tmp/`**：验证工具在 `scripts/devtest/`（随仓库分发，见 §9.1），它生成的 `tmp/devtest/testpage.html` 和截图则不入库。
 - 其余随手产物（`shot-*.png`、录屏 `.mp4`、临时 json…）也丢 `tmp/`，不用清理。
 
 ---
@@ -65,7 +65,8 @@ English/
 │   ├── fetch_ex_audio.py     ← edge-tts 合成 1250 条例句朗读 → intermediate/audio/ex/
 │   ├── align_audio_silence.py← （备用）旧的“补静音对齐”脚本，现已非必需，见 §7.3
 │   ├── make_pdf.py           ← PDF 底层排版
-│   └── make_pdf_optimized.py ← 生成优化版 PDF
+│   ├── make_pdf_optimized.py ← 生成优化版 PDF
+│   └── devtest/              ← 【本地验证工具】make_testpage.py + cdp.mjs（§9.1）
 │
 ├── intermediate/             ← 数据与中间产物
 │   ├── entries_full.json     ← 【最终词条数据】1250 词（544 KB）
@@ -81,8 +82,8 @@ English/
 │
 ├── docs/                     ← 【GitHub Pages 托管目录】index.html + manifest + sw.js + 3 图标
 │
-├── tmp/                      ← 【所有临时资源放这里】gitignore，但用户看得见（§0.1）
-│   ├── devtest/              ←   常备验证工具：make_testpage.py + cdp.mjs（§9）
+├── tmp/                      ← 【所有临时产物放这里】gitignore，但用户看得见（§0.1）
+│   ├── devtest/testpage.html ←   §9.1 生成的测试页
 │   └── *.png / *.mp4 …       ←   截图、录屏等随手产物
 │
 ├── 英语四级单词背诵.html      ← 🚫 52MB 成品（AirDrop 单文件离线版）；**已 gitignore**，可重生成
@@ -342,26 +343,26 @@ python scripts/build_html.py           # → 英语四级单词背诵.html + doc
 python scripts/build_html.py           # 重新注入数据/音频/配置即可
 ```
 
-### 9.1 验证网页（工具已备好，在 `tmp/devtest/`）
+### 9.1 验证网页（工具已随仓库分发，在 `scripts/devtest/`）
 ⚠️ **本机没装 playwright / puppeteer 的包**，只有 Playwright 早先下好的浏览器二进制
 （`~/Library/Caches/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-mac-arm64/`）。
 所以别去 `import playwright`，用仓库自带的这两个小工具（零依赖，Node ≥21 自带 `WebSocket`）：
 
 ```bash
 # ① 生成秒开的测试页（真实词条 + 空音频，~100KB；52MB 的成品调界面太慢）
-python tmp/devtest/make_testpage.py            # 默认 前 120 词
-python tmp/devtest/make_testpage.py 60 400     # 60 词，从第 400 条起（前 100 词是虚词，没词根卡）
-#   -> tmp/devtest/testpage.html
+python scripts/devtest/make_testpage.py            # 默认 前 120 词
+python scripts/devtest/make_testpage.py 60 400     # 60 词，从第 400 条起（前 100 词是虚词，没词根卡）
+#   -> tmp/devtest/testpage.html   （产物落 tmp/，不入库）
 
 # ② 驱动无头浏览器：跑一串 JS 表达式，可选截图
-node tmp/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
+node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
   '["document.getElementById(\"start\").click()","document.querySelectorAll(\".entry\").length"]' \
   tmp/devtest/shot.png
 ```
 - 每个表达式的返回值按 JSON 打印（promise 会 await），异常会抛出来——所以它同时也是"有没有控制台报错"的检查。
 - 常用探针：点 `#start` 进阅读页、点 `.num` 划词、`JSON.parse(localStorage.cet4_reader_v3)` 看 state、`document.querySelectorAll('.entry').length` 数渲染条数。
 - 要验真机体积/真音频时，把 url 换成 `file://…/docs/index.html`（52MB，能开，多等几秒）。
-- 截图**一律存 `tmp/`**（§0.1）。
+- 截图与生成的测试页**一律落 `tmp/`**（§0.1）——工具入库，产物不入库。
 
 ---
 
@@ -459,7 +460,7 @@ visible()         = poolMode ? 池内 && 未划掉 : (removeMarked ? 未划掉 :
 - 状态池模式下 `removeMarked` 不再另行生效（池本来就已滤掉划掉的词）。
 - 累计小标（`counters`）照常按 `visible()` 的位置算，所以开池模式时数的是**池内**的词。
 
-### 13.3 已验证（`tmp/devtest/` 的两个工具，§9.1）
+### 13.3 已验证（`scripts/devtest/` 的两个工具，§9.1）
 用 200 词测试页和真实的 `docs/index.html` 都跑过：
 - 开启 → 池 = rank 1–40，页面渲染 40 条 ✓
 - 划掉 24 个（剩 16 > 15）→ **不补**，仍显示原批 ✓

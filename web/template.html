@@ -473,30 +473,56 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
 
   // ---- Leitner active pool ----
-  // A batch of `poolSize` words is the only thing you see. Marking a word ("已掌握") retires it.
-  // When the pool has dropped to `poolLow` survivors (the stubborn ones), the survivors are kept
-  // and new words are injected back up to poolSize — the next 突击 round. New words are always
-  // drawn in DF/rank order from the lowest-ranked word that is neither mastered nor already in the
-  // pool, so no cursor state is needed and un-marking a word simply makes it drawable again.
+  // `state.pool` is the ROSTER of the current round: the poolSize words this round was dealt,
+  // INCLUDING the ones already mastered. Keeping the mastered members on the roster is what makes
+  // "本轮 100 词 · 已掌握 53 · 剩余 47" observable — if they were evicted on sight, 剩余 would
+  // always equal the roster length and the round would have no visible progress.
+  //
+  // Only ONE thing ends a round: 剩余 (roster minus mastered) dropping to poolLow. Then the
+  // mastered members retire, the survivors (the stubborn ones) carry over, and fresh words are
+  // injected back up to poolSize — the next 突击 round. Editing the capacity/threshold in
+  // settings must NOT be mistaken for that trigger (it silently burned a round in the first cut).
+  //
+  // New words are always drawn in DF/rank order from the lowest-ranked word that is neither
+  // mastered nor already on the roster: no cursor to persist, and un-marking a word simply makes
+  // it drawable again.
   function poolRemain(){ return state.pool.filter(function(r){ return !marked(r); }); }
   function poolNeedsRefill(){ return state.poolMode && poolRemain().length<=state.poolLow; }
-  function ensurePool(){                            // returns true if the pool changed
-    if(!state.poolMode) return false;
-    var keep=poolRemain();                          // mastered members retire from the pool
-    if(keep.length>state.poolSize) keep=keep.slice(0,state.poolSize);  // 容量调小了：留最靠前的顽固词
-    if(keep.length<=state.poolLow){                 // low watermark reached -> inject new words
-      var have={}; keep.forEach(function(r){ have[r]=1; });
-      for(var i=0;i<DATA.length && keep.length<state.poolSize;i++){
-        var r=DATA[i].rank;
-        if(have[r] || marked(r)) continue;
-        have[r]=1; keep.push(r);
-      }
+  function poolDraw(have, n){                       // n fresh words: unmastered, not already taken
+    var out=[];
+    for(var i=0;i<DATA.length && out.length<n;i++){
+      var r=DATA[i].rank;
+      if(have[r] || marked(r)) continue;
+      have[r]=1; out.push(r);
     }
-    keep.sort(function(a,b){ return a-b; });
-    // near the end of the book there may be nothing left to inject — skip the write in that case
-    if(keep.join()===state.pool.join()) return false;
-    state.pool=keep; save();
+    return out;
+  }
+  function poolSet(ranks){                          // sort + write; no-op if unchanged
+    ranks.sort(function(a,b){ return a-b; });
+    if(ranks.join()===state.pool.join()) return false;   // e.g. book exhausted, nothing to inject
+    state.pool=ranks; save();
     return true;
+  }
+  function poolRefill(){                            // 下一轮：淘汰已掌握、留顽固词、注入新词补满
+    var keep=poolRemain(), have={};
+    if(keep.length>state.poolSize) keep=keep.slice(0,state.poolSize);
+    keep.forEach(function(r){ have[r]=1; });
+    return poolSet(keep.concat(poolDraw(have, state.poolSize-keep.length)));
+  }
+  function poolResize(){                            // 容量改了：原地增补/裁剪，尽量不打断本轮进度
+    if(state.pool.length===state.poolSize) return false;
+    if(state.pool.length<state.poolSize){           // 调大：只追加新词，已掌握的留在花名册上
+      var roster=state.pool.slice(), have={};       // → 「本轮 100 · 已掌握 53 · 剩余 47」
+      roster.forEach(function(r){ have[r]=1; });
+      return poolSet(roster.concat(poolDraw(have, state.poolSize-roster.length)));
+    }
+    return poolRefill();                            // 调小：装不下已掌握的记录，只能按新容量重开
+  }
+  function ensurePool(){                            // 自动维护：只在"没池"或"触到低水位"时动手
+    if(!state.poolMode) return false;
+    if(!state.pool.length) return poolRefill();     // 首次装池
+    if(poolNeedsRefill()) return poolRefill();      // 低水位 → 下一轮
+    return false;                                   // 本轮进行中：花名册原样不动
   }
 
   function paginate(){
@@ -932,11 +958,13 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function renderPool(){
     poolSizeIn.value=state.poolSize; poolLowIn.value=state.poolLow;
     swPoolMode.classList.toggle("on",state.poolMode);
-    var done=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) done++;
-    poolStatEl.textContent = state.poolMode
-      ? "池内剩余 "+poolRemain().length+" / 容量 "+state.poolSize+" · 全库已掌握 "+done+"/"+DATA.length
-        +"（剩余 ≤ "+state.poolLow+" 时自动补满）"
-      : "未开启——开启后从最靠前的未掌握词开始装池";
+    if(!state.poolMode){ poolStatEl.textContent="未开启——开启后从最靠前的未掌握词开始装池"; return; }
+    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
+    var n=state.pool.length, rem=poolRemain().length;
+    poolStatEl.innerHTML =
+      "本轮 "+n+" 词 · 已掌握 "+(n-rem)+" · 剩余 <b>"+rem+"</b>"
+      +"（剩余 ≤ "+state.poolLow+" 时淘汰已掌握的、补满到 "+state.poolSize+"）"
+      +"<br>全库已掌握 "+all+" / "+DATA.length;
   }
   function syncSettings(){
     renderPool();
@@ -957,21 +985,25 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     renderSwatches();
   }
   swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
-  // active pool: toggling / resizing / resetting re-fills and re-paginates immediately
-  function poolApply(){ ensurePool(); syncSettings(); save(); paginate(); }
-  swPoolMode.addEventListener("click", function(){ state.poolMode=!state.poolMode; poolApply(); });
+  // active pool. NOTE: editing 容量/阈值 must not be treated as "低水位到了" — that would burn a
+  // round's worth of new words just because a number was typed. Capacity resizes the roster in
+  // place (poolResize), the threshold only changes when the NEXT round triggers.
+  function poolApply(){ syncSettings(); save(); paginate(); }
+  swPoolMode.addEventListener("click", function(){ state.poolMode=!state.poolMode; ensurePool(); poolApply(); });
   poolSizeIn.addEventListener("change", function(){
     var n=parseInt(poolSizeIn.value,10);
     state.poolSize=(n>=1)?Math.min(n,DATA.length||1250):40;
     if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
+    if(state.poolMode){ poolResize(); ensurePool(); }
     poolApply();
   });
   poolLowIn.addEventListener("change", function(){
     var n=parseInt(poolLowIn.value,10);
     state.poolLow=(n>=0)?Math.min(n,state.poolSize-1):Math.min(15,state.poolSize-1);
+    if(state.poolMode) ensurePool();               // 阈值调高到当前剩余之上 → 当场开下一轮
     poolApply();
   });
-  poolResetBtn.addEventListener("click", function(){ state.pool=[]; poolApply(); });
+  poolResetBtn.addEventListener("click", function(){ state.pool=[]; ensurePool(); poolApply(); });
   // selftest/showEx change what entryHTML renders -> re-paginate so it takes effect (and heights recompute for showEx)
   swSelftest.addEventListener("click", function(){ state.selftest=!state.selftest; syncSettings(); paginate(); save(); });
   swShowEx.addEventListener("click", function(){ state.showEx=!state.showEx; syncSettings(); paginate(); save(); });

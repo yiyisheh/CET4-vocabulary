@@ -170,6 +170,11 @@
   .chip::after{ content:" ✕"; opacity:.6; font-size:10px; }
   .chip.empty{ border-style:dashed; color:var(--sub); border-color:var(--hair); cursor:default; }
   .chip.empty::after{ content:""; }
+  /* Leitner active-pool numbers (池容量 / 低水位阈值) */
+  .poolnums{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .poolnums label{ font-size:12px; color:var(--sub); display:flex; align-items:center; gap:6px; }
+  .poolnums input{ width:68px; padding:7px 8px; font-size:13px; text-align:center;
+    border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
   .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--blue); background:var(--blue);
     color:#fff; border-radius:9px; font-size:13px; cursor:pointer; }
   .minibtn:disabled{ opacity:.5; cursor:default; }
@@ -209,6 +214,18 @@
   <div class="row">
     <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，每次进出设置页时才重新加载去掉</span></div>
     <div id="sw-removemarked" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>状态池模式（莱特纳）</b><span>每轮只背一个「活动池」的词；划掉=熟练剔除。池内剩余降到低水位阈值时，自动注入新词补满池容量，开启下一轮突击</span></div>
+    <div id="sw-poolmode" class="switch"></div>
+  </div>
+  <div class="row subrow">
+    <div class="lab"><b>池容量 / 低水位阈值</b><span id="pool-stat">未开启</span></div>
+    <div class="poolnums">
+      <label>池容量 <input id="pool-size" type="number" min="1" max="1250" inputmode="numeric"></label>
+      <label>阈值 <input id="pool-low" type="number" min="0" max="1249" inputmode="numeric"></label>
+      <button id="pool-reset" class="minibtn">重置池</button>
+    </div>
   </div>
   <div class="row">
     <div class="lab"><b>自测（释义 / 词根留白）</b><span>开启后释义、词根词缀卡彻底留白，点卡片才一起显示——先回忆再核对</span></div>
@@ -308,6 +325,7 @@
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
+    · <b>状态池</b>：只背池内词，划掉即剔除；剩余到阈值自动补新词<br>
     · 设置 / 划线 / 上次位置自动保存
   </div>
   <button id="start">开始背诵</button>
@@ -363,7 +381,8 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     bg:"#ffffff", customColors:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170,
     selftest:false, showEx:true,  // selftest: blank the definition until tapped; showEx: render example lines
     maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
-    counters:[]                   // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
+    counters:[],                  // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
+    poolMode:false, poolSize:40, poolLow:15, pool:[]   // Leitner active pool (see ensurePool). 【local】
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
@@ -374,6 +393,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   if(!Array.isArray(state.counters)) state.counters=[];
   // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
   if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
+  // active-pool defaults / sanity (threshold must leave room for at least one refill)
+  if(!Array.isArray(state.pool)) state.pool=[];
+  if(!(state.poolSize>=1)) state.poolSize=40;
+  if(!(state.poolLow>=0)) state.poolLow=15;
+  if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
   function marked(rank){ var m=state.marks[rank]; return !!(m && m.v===1); }
 
@@ -440,9 +464,43 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // marked words are filtered out ONLY here (at paginate time), not via CSS in real time —
   // so "去掉已划掉" takes effect when the settings page is opened/closed (which re-paginates),
   // and marking a word while reading never makes the page reflow under your finger.
-  function visible(){ return state.removeMarked ? DATA.filter(function(e){ return !marked(e.rank); }) : DATA; }
+  function visible(){
+    if(state.poolMode){                            // Leitner: only the current active pool, minus what's been mastered
+      var inp={}; state.pool.forEach(function(r){ inp[r]=1; });
+      return DATA.filter(function(e){ return inp[e.rank] && !marked(e.rank); });
+    }
+    return state.removeMarked ? DATA.filter(function(e){ return !marked(e.rank); }) : DATA;
+  }
+
+  // ---- Leitner active pool ----
+  // A batch of `poolSize` words is the only thing you see. Marking a word ("已掌握") retires it.
+  // When the pool has dropped to `poolLow` survivors (the stubborn ones), the survivors are kept
+  // and new words are injected back up to poolSize — the next 突击 round. New words are always
+  // drawn in DF/rank order from the lowest-ranked word that is neither mastered nor already in the
+  // pool, so no cursor state is needed and un-marking a word simply makes it drawable again.
+  function poolRemain(){ return state.pool.filter(function(r){ return !marked(r); }); }
+  function poolNeedsRefill(){ return state.poolMode && poolRemain().length<=state.poolLow; }
+  function ensurePool(){                            // returns true if the pool changed
+    if(!state.poolMode) return false;
+    var keep=poolRemain();                          // mastered members retire from the pool
+    if(keep.length>state.poolSize) keep=keep.slice(0,state.poolSize);  // 容量调小了：留最靠前的顽固词
+    if(keep.length<=state.poolLow){                 // low watermark reached -> inject new words
+      var have={}; keep.forEach(function(r){ have[r]=1; });
+      for(var i=0;i<DATA.length && keep.length<state.poolSize;i++){
+        var r=DATA[i].rank;
+        if(have[r] || marked(r)) continue;
+        have[r]=1; keep.push(r);
+      }
+    }
+    keep.sort(function(a,b){ return a-b; });
+    // near the end of the book there may be nothing left to inject — skip the write in that case
+    if(keep.join()===state.pool.join()) return false;
+    state.pool=keep; save();
+    return true;
+  }
 
   function paginate(){
+    ensurePool();                                   // top up the active pool before measuring
     var lay=applyLayout();
     var W=pagesEl.clientWidth, H=pagesEl.clientHeight;
     if(!W||!H) return;
@@ -774,7 +832,15 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       state.marks[rank] = {v:nv, t:Date.now()};
       entry.classList.toggle("marked", nv===1); save();
       syncPushMark(rank);
-      // no paginate() here: removal is deferred to the next settings open/close (see visible())
+      // Pool mode: the ONE place that re-paginates on a mark — hitting the low watermark starts the
+      // next round (survivors + freshly injected words), so it's a deliberate, visible event.
+      if(poolNeedsRefill()){
+        ensurePool();
+        state.anchor=state.pool.length?state.pool[0]:state.anchor; save();
+        paginate();
+        return;
+      }
+      // otherwise no paginate(): removal is deferred to the next settings open/close (see visible())
       return;
     }
     if(act==="syl"){
@@ -822,6 +888,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // ---- settings UI ----
   var settingsEl=document.getElementById("settings"),
       swRemove=document.getElementById("sw-removemarked"),
+      swPoolMode=document.getElementById("sw-poolmode"),
+      poolSizeIn=document.getElementById("pool-size"),
+      poolLowIn=document.getElementById("pool-low"),
+      poolStatEl=document.getElementById("pool-stat"),
+      poolResetBtn=document.getElementById("pool-reset"),
       swSelftest=document.getElementById("sw-selftest"),
       swShowEx=document.getElementById("sw-showex"),
       swMaskTrans=document.getElementById("sw-masktrans"),
@@ -858,7 +929,17 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   function seg(el,key,after){ el.addEventListener("click", function(ev){ var b=ev.target.closest("button"); if(!b) return;
     state[key]=b.dataset.v; syncSettings(); save(); if(after) after(); }); }
+  function renderPool(){
+    poolSizeIn.value=state.poolSize; poolLowIn.value=state.poolLow;
+    swPoolMode.classList.toggle("on",state.poolMode);
+    var done=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) done++;
+    poolStatEl.textContent = state.poolMode
+      ? "池内剩余 "+poolRemain().length+" / 容量 "+state.poolSize+" · 全库已掌握 "+done+"/"+DATA.length
+        +"（剩余 ≤ "+state.poolLow+" 时自动补满）"
+      : "未开启——开启后从最靠前的未掌握词开始装池";
+  }
   function syncSettings(){
+    renderPool();
     swRemove.classList.toggle("on",state.removeMarked);
     swSelftest.classList.toggle("on",state.selftest);
     swShowEx.classList.toggle("on",state.showEx);
@@ -876,6 +957,21 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     renderSwatches();
   }
   swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
+  // active pool: toggling / resizing / resetting re-fills and re-paginates immediately
+  function poolApply(){ ensurePool(); syncSettings(); save(); paginate(); }
+  swPoolMode.addEventListener("click", function(){ state.poolMode=!state.poolMode; poolApply(); });
+  poolSizeIn.addEventListener("change", function(){
+    var n=parseInt(poolSizeIn.value,10);
+    state.poolSize=(n>=1)?Math.min(n,DATA.length||1250):40;
+    if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
+    poolApply();
+  });
+  poolLowIn.addEventListener("change", function(){
+    var n=parseInt(poolLowIn.value,10);
+    state.poolLow=(n>=0)?Math.min(n,state.poolSize-1):Math.min(15,state.poolSize-1);
+    poolApply();
+  });
+  poolResetBtn.addEventListener("click", function(){ state.pool=[]; poolApply(); });
   // selftest/showEx change what entryHTML renders -> re-paginate so it takes effect (and heights recompute for showEx)
   swSelftest.addEventListener("click", function(){ state.selftest=!state.selftest; syncSettings(); paginate(); save(); });
   swShowEx.addEventListener("click", function(){ state.showEx=!state.showEx; syncSettings(); paginate(); save(); });

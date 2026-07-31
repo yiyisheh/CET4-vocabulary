@@ -8,7 +8,9 @@ Combines:
 
 Outputs:
   intermediate/entries_full.json  (list of entry dicts, section-tagged)
-  <repo>/web/data.js              (window.CET4 = [...] for the HTML app)
+
+That JSON is the only output: the HTML app gets its data injected straight into
+window.CET4 by build_html.py (there is no web/data.js).
 """
 import json
 import re

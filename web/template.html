@@ -1022,7 +1022,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
     var win=Math.min(state.poolMax, DATA.length), rem=poolRemain(), next=Math.min(DATA.length, win+(state.poolSize-state.poolLow));
     poolStatEl.innerHTML =
-      "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b>"
+      "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b><br>"
       +(win>=DATA.length ? "（已到全书末尾）"
                          : "（剩余 ≤ "+state.poolLow+" 时推进到 "+next+" 号）")
       +"<br>全库已掌握 "+all+" / "+DATA.length;
@@ -1328,8 +1328,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     function snoozed(){ try{ return localStorage.getItem(SNOOZE_KEY)==="1"; }catch(e){ return false; } }
     function setSnooze(v){ try{ v?localStorage.setItem(SNOOZE_KEY,"1"):localStorage.removeItem(SNOOZE_KEY); }catch(e){} }
     function setVer(extra){
+      // BI.v / BI.t are build-injected (hex hash + timestamp), safe to drop into innerHTML.
+      // extra (状态提示) goes on its OWN line — no trailing "·" dangling at the end of the version line.
       var s="当前 "+(BI.v||"—")+(BI.t?" · "+BI.t:"");
-      verSub.textContent = extra ? s+"  ·  "+extra : s;
+      verSub.innerHTML = extra ? s+"<br>"+extra : s;
     }
     setVer();
     var swSupported=("serviceWorker" in navigator) && location.protocol.indexOf("http")===0;

@@ -237,9 +237,9 @@
     <div id="sw-poolmode" class="switch"></div>
   </div>
   <div class="row subrow">
-    <div class="lab"><b>起始范围 / 推进阈值</b><span id="pool-stat">未开启</span></div>
+    <div class="lab"><b>池大小 / 推进阈值</b><span id="pool-stat">未开启</span></div>
     <div class="poolnums">
-      <label>起始 <input id="pool-size" type="number" min="1" max="1250" inputmode="numeric"></label>
+      <label>池大小 <input id="pool-size" type="number" min="1" max="1250" inputmode="numeric"></label>
       <label>阈值 <input id="pool-low" type="number" min="1" max="1249" inputmode="numeric"></label>
       <button id="pool-reset" class="minibtn">重置范围</button>
     </div>
@@ -519,13 +519,16 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // are still unmarked, which is exactly the Leitner behaviour.
   //
   // Advance rule: while 剩余 (unmarked words within range) <= poolLow, push the ceiling forward
-  // by poolLow. With 容量 100 / 阈值 40: at 已掌握 60 the range 1..100 has 40 left -> ceiling
-  // moves to 140. 剩余 then stays in (40, 80] forever.
+  // by (poolSize - poolLow) — the amount that refills 剩余 back up to the full 池大小 poolSize.
+  // With 池大小 100 / 阈值 40: at 已掌握 60 the range 1..100 has 40 left (== 阈值) -> ceiling moves
+  // to 160 (+60), so 剩余 returns to exactly 100. The active window is a steady 100 the whole time,
+  // not just at the start. (Step used to be poolLow itself, which only refilled 剩余 to 80 — the
+  // 池大小 was honoured on round 1 only. That was the bug.)
   //
   // ⚠️ NOT «ceiling = 100 + 40*floor(已掌握/60)». That formula advances every 60 mastered but
   // only by 40, so 剩余 drifts down (21 at m=119, 1 at m=179) and hits 0 at m=220 with the next
   // advance not due until 240 — the pool starves. The loop below keys off 剩余 instead, which
-  // matches the same 已掌握 60 -> 140 case and cannot starve.
+  // cannot starve. step = poolSize - poolLow ≥ 1 (poolLow < poolSize is enforced), never 0.
   //
   // Earlier designs (per-round roster of poolSize words) are gone: they made 已掌握 reset every
   // round, which is precisely what the user rejected.
@@ -543,7 +546,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
   function ensurePool(){                              // idempotent; true if the ceiling moved
     if(!state.poolMode) return false;
-    var before=state.poolMax, step=Math.max(1, state.poolLow);   // step 0 would loop forever
+    var before=state.poolMax, step=Math.max(1, state.poolSize-state.poolLow);   // refill 剩余 back to 池大小
     if(state.poolMax<state.poolSize) state.poolMax=Math.min(DATA.length, state.poolSize);
     while(state.poolMax<DATA.length && poolRemain()<=state.poolLow)
       state.poolMax=Math.min(DATA.length, state.poolMax+step);
@@ -1015,9 +1018,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function renderPool(){
     poolSizeIn.value=state.poolSize; poolLowIn.value=state.poolLow;
     swPoolMode.classList.toggle("on",state.poolMode);
-    if(!state.poolMode){ poolStatEl.textContent="未开启——开启后从第 1 号起，先放「起始范围」那么多词"; return; }
+    if(!state.poolMode){ poolStatEl.textContent="未开启——开启后从第 1 号起，始终保持「池大小」那么多没划掉的词"; return; }
     var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
-    var win=Math.min(state.poolMax, DATA.length), rem=poolRemain(), next=Math.min(DATA.length, win+state.poolLow);
+    var win=Math.min(state.poolMax, DATA.length), rem=poolRemain(), next=Math.min(DATA.length, win+(state.poolSize-state.poolLow));
     poolStatEl.innerHTML =
       "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b>"
       +(win>=DATA.length ? "（已到全书末尾）"

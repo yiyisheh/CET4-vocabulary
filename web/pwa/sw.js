@@ -34,9 +34,16 @@ self.addEventListener("install", function(e){
     try { return PRECACHE.map(function(u){ return new Request(u, { cache: "reload" }); }); }
     catch(err){ return PRECACHE; }              // very old Safari: no cache option on Request
   }
-  e.waitUntil(caches.open(CACHE)
-    .then(function(c){ return c.addAll(reqs()); })
-    .then(function(){ return self.skipWaiting(); }));
+  // NOTE: we deliberately do NOT skipWaiting() here. A rebuilt SW installs and then WAITS; the app
+  // does not auto-update. The page only tells us to take over (SKIP_WAITING below) after the user
+  // confirms the update in the "检测到新版本" dialog. See template.html's update IIFE / WEB_HANDOFF §10.2.
+  e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(reqs()); }));
+});
+
+// The page posts this once the user confirms the update; only then do we activate and take control
+// (which fires controllerchange on the page → a single reload into the new version).
+self.addEventListener("message", function(e){
+  if(e.data && e.data.type === "SKIP_WAITING") self.skipWaiting();
 });
 
 self.addEventListener("activate", function(e){

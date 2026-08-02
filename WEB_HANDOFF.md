@@ -462,23 +462,30 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 - 单文件版没有包，直接显示"单文件离线版，音频已内嵌 ✓"。
 - 实测（本机 `python3 -m http.server` + 无头 Chromium，2026-08-02）：两个包下完后进度行转"已缓存，可离线使用 ✓（约 36 MB 音频）"，缓存桶里正好是 `index.html`+manifest+3 图标+两个 `.bin`；`__OFFLINE__` 后 `__RELOAD__` 仍渲染 1250 词，点单词从包里取字节、播的是 `blob:` WAV。更早一轮在 3MB/s 限速下看过 `13% → 98%` 的平滑推进与倒计时。
 
-### 10.1 PWA 自动更新（缓存名固定，靠清单增量淘汰）
+### 10.1 PWA 更新（**手动确认制**·缓存名固定·靠清单增量淘汰）
+> ⚠️ **本轮改为「不自动更新」**：新版只会**安装成 waiting SW 静静等着**，运行中的页面保持旧版，**直到用户在弹窗里确认**才切换。以下机制不变，只是「切过去」这一步从自动改成手动（见 §10.2）。
+
 `sw.js` 是 cache-first。**缓存桶名 `cet4-1250` 现在是固定的**（重构前是 `cet4-1250-<hash>`，一换名整份缓存作废 = 全量重下，正是要避免的）。版本信息改为落在**文件名**和**两份清单**上：
 
 - `__PRECACHE__`：install 时 `addAll` 的小资源（外壳 + manifest + 3 图标）。**故意不含音频包**，否则那 36MB 会被下两遍（包由网页下，§10.0）。
 - `__KEEP__`：`PRECACHE` + 本次构建的两个音频包 URL。activate 时遍历缓存，**删掉不在 KEEP 里的条目**——音频哈希变了就淘汰旧包，没变就原地保留。
 - **`__BUILD_HASH__`：外壳哈希必须写进 `sw.js`**。浏览器判断"有没有新版"只有一个办法——按字节比 `sw.js`。而外壳文件名是不带哈希的 `index.html`，`PRECACHE`/`KEEP` 又只在音频包变了才变，所以**只改网页（比如一行 CSS）时 `sw.js` 会一字不差**，SW 不重装、cache-first 的旧外壳永远留在设备上。已实测复现，修法是构建时往 `sw.js` 注入 `var BUILD = "<外壳哈希>"`（运行时不用它，存在的意义就是让字节变）。
-- 所以：改网页 → 外壳哈希变 → `docs/sw.js` 字节变 → 重装 SW（install 用 `cache:"reload"` 重新拉外壳）→ **只重下 562KB 外壳**，36MB 音频一个字节不动。端到端实测：先装 v1，把站点换成 v2，点「检查更新」→ 页面自动重载、`BUILD_INFO.v` 从 v1 变 v2、`navigation.type` 变 `reload`、1250 词照常渲染。
+- 所以：改网页 → 外壳哈希变 → `docs/sw.js` 字节变 → 新 SW 装成 **waiting**（install 用 `cache:"reload"` 重新拉外壳，但**不再 `skipWaiting()`**）→ 用户确认后才 `postMessage("SKIP_WAITING")` 让它接管 → **只重下 562KB 外壳**，36MB 音频一个字节不动。端到端实测：先装 v1，把站点换成 v2 → 页面探测到 waiting SW → 按钮变「检测到新版本」+弹窗，**不自动重载**；点「立即更新」（连通性通过）才重载进 v2、`navigation.type` 变 `reload`（见 §10.2 的验证记录）。
 - `"./"` **不在 PRECACHE 里**：它和 `"./index.html"` 是同一份字节，两个都列会下载并存储两份。导航请求（`request.mode === "navigate"`）由 fetch 处理器回落到 `"./index.html"` 那一份。
 - **SW 只允许拿外壳回答导航请求**。fetch 处理器早先对**任何**没缓存又取不到的请求都回落到 `index.html`；离线时这意味着音频包请求会拿到一个 `200 text/html` 的外壳（已用 `__OFFLINE__` 实测复现），网页会把它当包收下、写进缓存 —— 那一版**从此永久哑掉且不会重试**。现在非导航请求老老实实失败，网页那边再加一道 `byteLength` 校验兜底（§5.3）。
-- **`controllerchange` 自动刷新**：仅在**真的换版本**时刷。`hadController` 必须在**页面加载时**取样——事件派发时 controller 早已换好，在处理器里判断永远为真。首次安装（原本就没有 controller）不刷：那时页面本身就是刚缓存的那一版，刷了只是白白重新解析。
+- **`controllerchange` → 重载**：现在只在**用户确认后**才发生。SW 不再自动 `skipWaiting()`，所以 controller 只有在页面 `postMessage("SKIP_WAITING")` 之后才会换 —— 这一次换版就是「用户点了立即更新」，绝不会是自动更新。`hadController` 仍必须在**页面加载时**取样（事件派发时 controller 早已换好，在处理器里判断永远为真）；首次安装（原本没有 controller）不刷。
 
-### 10.2 设置页「版本 / 检查更新」（本轮新增）
-- 设置页新增一行：左侧展示 **当前版本号 + 构建时间**（`window.BUILD_INFO`，见 §4 的 `__BUILD_INFO__`），右侧「检查更新」按钮。
-- **版本号 = `build_hash` = sw 缓存名里的 hash**，即"页面里显示什么版本"与"决定要不要更新"是同一个值，便于核对。
-- 按钮逻辑（template 末尾 IIFE）：`registration.update()` 强制**重新拉取 sw.js**（SW 脚本本身默认绕过 HTTP 缓存）；若线上是新版则字节不同 → 新 SW 装上(`skipWaiting`) → §10.1 的 `controllerchange` 处理器**自动刷新**进新版。检测到 `updatefound` 时提示"发现新版本…"；无新版 `update()` 静默返回，1.6s 后回填"已是最新版本 ✓"。
-- **非 http（`file://` 单文件离线版）** 无 SW，按钮置灰显示"离线单文件"（这种版本要更新只能重新拿文件）。
-- 已用无头 Chromium 起本地 http 端到端验证：版本行正常显示；无新版→"已是最新版本 ✓"；模拟线上新版(改 sw 缓存名)→自动重载一次进新版；均无控制台报错。
+### 10.2 设置页「版本 / 手动更新」（本轮重写为**手动确认制**）
+用户明确要求：**不自动更新，必须等用户手动更新**。机制：
+- 设置页有一行：左侧 **当前版本号 + 构建时间**（`window.BUILD_INFO`），右侧按钮（默认「检查更新」）。**版本号 = `build_hash` = sw 缓存名里的 hash**，"显示什么版本"与"决定要不要更新"同一个值。
+- **探测到新版本**（页面发现一个 waiting SW —— 即 `reg.waiting` 已就绪，或 `updatefound`→`installing`→`statechange:installed` 且当前有 controller）时：
+  - 按钮变琥珀色、文案改成 **「检测到新版本」**（`.hasupd` 类）；
+  - **弹出确认弹窗 `#umodal`**，问是否立即更新。弹窗里有 **「不再提示」复选框，默认勾选**（`#um-noremind` checked）—— 直接关掉弹窗（勾着）就等于"别再自动弹"，写进 `localStorage['cet4_upd_snooze']`；按钮仍留着作为手动入口。已 snooze 后不再自动弹，但再点按钮会重新打开弹窗。
+- **应用更新（`#um-now` 立即更新）先做连通性检查**：`fetch("sw.js?ping=…",{cache:"no-store"})` 走真网络（SW 对这种非导航未缓存请求会 `fetch()` 放行）。**失败 → 弹窗内红字"连接失败，已中止更新"，不重载、不切版**；成功 → 清掉 snooze → `waiting.postMessage({type:"SKIP_WAITING"})` → §10.1 的 `controllerchange` 重载进新版。
+- 按钮（无 waiting 时）走**手动检查**：`reg.update()` 重新拉 sw.js；有新版则走上面的探测→弹窗；无新版 1.6s 后回填"已是最新版本 ✓"。有 waiting 时点按钮=重新打开弹窗。
+- **`sw.js` 侧**：install **不再 `skipWaiting()`**（装成 waiting）；新增 `message` 监听，收到 `{type:"SKIP_WAITING"}` 才 `skipWaiting()` 接管。
+- **非 http（`file://` 单文件离线版）** 无 SW，按钮置灰"离线单文件"（弹窗代码在此之前 early-return，不接线）。
+- 已用**持久 profile** 的无头 Chromium 端到端实测（`tmp/updtest/run.mjs`，装 v1→改 sw.js 成 v2→复现）：首装不弹窗；探测到 v2→按钮「检测到新版本」+弹窗+复选框默认勾选；**等待期不自动重载**（load 计数不涨）；离线点更新→"连接失败，已中止"且不重载；恢复联网点更新→重载进新版、按钮复位；全程无控制台报错。
 
 ---
 

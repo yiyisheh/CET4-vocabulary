@@ -178,6 +178,23 @@
   .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--blue); background:var(--blue);
     color:#fff; border-radius:9px; font-size:13px; cursor:pointer; }
   .minibtn:disabled{ opacity:.5; cursor:default; }
+  /* update-available accent: the version button turns amber when a new build is waiting */
+  .minibtn.hasupd{ background:#d98a00; border-color:#d98a00; }
+  /* "检测到新版本" confirm dialog: a centered modal over everything (hidden until an update waits) */
+  #umodal{ display:none; position:fixed; inset:0; z-index:80; background:rgba(0,0,0,.45);
+    align-items:center; justify-content:center; padding:24px; }
+  #umodal.show{ display:flex; }
+  .umbox{ background:var(--card); color:var(--ink); border-radius:14px; padding:20px 20px 16px;
+    max-width:340px; width:100%; box-shadow:0 12px 40px rgba(0,0,0,.35); }
+  .umbox h2{ font-size:17px; color:var(--blue); margin-bottom:8px; }
+  .umbox p{ font-size:13.5px; color:var(--sub); line-height:1.6; }
+  .umchk{ display:flex; align-items:center; gap:8px; margin-top:14px; font-size:13px; color:var(--ink);
+    cursor:pointer; -webkit-user-select:none; user-select:none; }
+  .umchk input{ width:16px; height:16px; }
+  #um-status{ font-size:12.5px; margin-top:10px; min-height:16px; color:var(--sub); }
+  #um-status.err{ color:#c0392b; }
+  .umbtns{ display:flex; justify-content:flex-end; gap:10px; margin-top:14px; }
+  .umbtns .minibtn.ghost{ background:var(--card); color:var(--blue); }
   /* fixed at the bottom of the settings overlay so it's always reachable without scrolling.
      Child of #settings (display:none when closed) so it only shows while settings is open. */
   #start{ position:fixed; left:22px; right:22px; bottom:calc(env(safe-area-inset-bottom) + 16px);
@@ -351,6 +368,20 @@
   <div id="barnav-l" class="barnav">‹</div>
   <div id="pageno">1 / 1</div>
   <div id="barnav-r" class="barnav">›</div>
+</div>
+
+<!-- 「检测到新版本」确认弹窗：探测到新版本时弹出，问是否更新（不会自动更新，见末尾更新 IIFE） -->
+<div id="umodal">
+  <div class="umbox">
+    <h2>检测到新版本</h2>
+    <p>发现可更新的新版本。更新会重新加载页面（进度与设置已保存，不受影响）。是否立即更新？</p>
+    <label class="umchk"><input type="checkbox" id="um-noremind" checked>不再提示（仍可在设置页手动更新）</label>
+    <div id="um-status"></div>
+    <div class="umbtns">
+      <button id="um-later" class="minibtn ghost">以后再说</button>
+      <button id="um-now" class="minibtn">立即更新</button>
+    </div>
+  </div>
 </div>
 
 <!-- 单文件离线版：音频以 base64 内联在下面两个块里（不执行，用时才 JSON.parse）。
@@ -1259,26 +1290,40 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // Silently ignored when opened as a local file:// (no origin).
   if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){
     window.addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}); });
-    // When a rebuilt SW takes control (new content hash), reload once to show the update.
-    // hadController MUST be sampled here, at load: by the time controllerchange fires the
-    // controller has ALREADY been swapped in, so testing it inside the handler always passes.
-    // No prior controller = first install, where the page already IS the version just cached —
-    // reloading would only re-parse the app for nothing.
+    // Reload once when a new SW takes control. A waiting SW now only takes control after the USER
+    // confirms the update (we postMessage SKIP_WAITING; the SW no longer skipWaiting()s on its own —
+    // see sw.js), so this reload is the user-initiated update applying, never an automatic one.
+    // hadController MUST be sampled here, at load: by the time controllerchange fires the controller
+    // has ALREADY been swapped in, so testing it inside the handler always passes. No prior
+    // controller = first install, where the page already IS the version just cached — don't reload.
     var hadController = !!navigator.serviceWorker.controller, reloaded=false;
     navigator.serviceWorker.addEventListener("controllerchange", function(){
       if(!hadController || reloaded) return; reloaded=true; location.reload();
     });
   }
 
-  // ---- version readout + manual "check for updates" ----
+  // ---- version readout + MANUAL update (never automatic) ----
   // Version = the content hash baked into BUILD_INFO (same value as the sw cache name), so what's
   // shown here is exactly what determines whether an update exists. Timestamp = build time.
-  // The button forces the SW to re-fetch sw.js; if a newer build is live its bytes differ, the new
-  // SW installs (skipWaiting) and the controllerchange handler above reloads into it automatically.
+  //
+  // The app does NOT auto-update. A new build installs as a WAITING service worker and sits there;
+  // the running page keeps its old version until the user says so. When a waiting SW is detected we:
+  //   - flip the button to "检测到新版本" (amber), and
+  //   - pop the confirm dialog once — its 「不再提示」 checkbox is CHECKED by default, so simply
+  //     closing it means "stop nagging" (the button stays as the manual entry point).
+  // Applying the update first runs a connectivity check; if the network is unreachable we show an
+  // error and abort (no reload). Only on success do we postMessage SKIP_WAITING → the SW takes
+  // control → the controllerchange handler above reloads into the new version.
   (function(){
     var verSub=document.getElementById("ver-sub"), updBtn=document.getElementById("btn-update");
+    var modal=document.getElementById("umodal"), umStatus=document.getElementById("um-status"),
+        umNo=document.getElementById("um-noremind"), umNow=document.getElementById("um-now"),
+        umLater=document.getElementById("um-later");
     if(!verSub||!updBtn) return;
     var BI=window.BUILD_INFO||{};
+    var SNOOZE_KEY="cet4_upd_snooze";   // set when the user dismisses the dialog with 「不再提示」 ticked
+    function snoozed(){ try{ return localStorage.getItem(SNOOZE_KEY)==="1"; }catch(e){ return false; } }
+    function setSnooze(v){ try{ v?localStorage.setItem(SNOOZE_KEY,"1"):localStorage.removeItem(SNOOZE_KEY); }catch(e){} }
     function setVer(extra){
       var s="当前 "+(BI.v||"—")+(BI.t?" · "+BI.t:"");
       verSub.textContent = extra ? s+"  ·  "+extra : s;
@@ -1286,20 +1331,80 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     setVer();
     var swSupported=("serviceWorker" in navigator) && location.protocol.indexOf("http")===0;
     if(!swSupported){ updBtn.disabled=true; updBtn.textContent="离线单文件"; return; }
+
+    var waitingSW=null;   // the installed-but-waiting worker, once we find one
+
+    // Reachability probe: ask the network (never the cache) for sw.js. cache:"no-store" + a cache-
+    // busting query means the SW's fetch handler falls through to a real fetch() (§sw.js), so this
+    // resolves only when the origin is actually reachable and rejects when offline.
+    function reachable(){
+      return fetch("sw.js?ping="+Date.now(), {cache:"no-store"})
+        .then(function(){ return true; }).catch(function(){ return false; });
+    }
+
+    // Called when a waiting SW appears (new version downloaded, ready but not applied).
+    function onUpdateReady(sw){
+      waitingSW=sw;
+      updBtn.disabled=false;
+      updBtn.textContent="检测到新版本";
+      updBtn.classList.add("hasupd");
+      setVer("已就绪，点按钮更新");
+      if(!snoozed()) openModal();     // pop once unless the user asked us not to
+    }
+    function openModal(){ if(modal){ umNo.checked=true; umStatus.textContent=""; umStatus.classList.remove("err"); modal.classList.add("show"); } }
+    function closeModal(){ if(modal) modal.classList.remove("show"); }
+
+    // Apply the pending update: connectivity check → tell the waiting SW to take over → reload
+    // (via controllerchange). Aborts with an error if the network is unreachable.
+    function applyUpdate(){
+      if(!waitingSW){ closeModal(); return; }
+      umStatus.classList.remove("err"); umStatus.textContent="正在检查连接…";
+      umNow.disabled=true; umLater.disabled=true;
+      reachable().then(function(ok){
+        if(!ok){
+          umStatus.classList.add("err");
+          umStatus.textContent="连接失败，已中止更新。请检查网络后重试。";
+          umNow.disabled=false; umLater.disabled=false;
+          return;
+        }
+        umStatus.textContent="正在更新，即将重新加载…";
+        setSnooze(false);                       // updating clears the snooze so future versions prompt again
+        waitingSW.postMessage({type:"SKIP_WAITING"});   // → activate → controllerchange → reload
+      });
+    }
+
+    if(umNow) umNow.addEventListener("click", applyUpdate);
+    if(umLater) umLater.addEventListener("click", function(){ setSnooze(umNo.checked); closeModal(); });
+
+    // Button: if an update is already waiting it re-opens the confirm dialog; otherwise it does a
+    // manual check (re-fetch sw.js). Detection needs the network too, so a failed check reports it.
     updBtn.addEventListener("click", function(){
+      if(waitingSW){ openModal(); return; }
       updBtn.disabled=true; updBtn.textContent="检查中…"; setVer("正在检查更新…");
       function reset(){ updBtn.disabled=false; updBtn.textContent="检查更新"; }
       navigator.serviceWorker.getRegistration().then(function(reg){
         if(!reg){ setVer("尚未注册离线更新（请稍后重试）"); reset(); return; }
-        var found=false;
-        reg.addEventListener("updatefound", function(){   // a newer SW started installing
-          found=true; setVer("发现新版本，正在下载… 稍后自动刷新");
-        });
+        watch(reg);
         reg.update().then(function(){
-          setTimeout(function(){ if(!found){ setVer("已是最新版本 ✓"); reset(); } }, 1600);
+          // Give updatefound/statechange a beat to surface a waiting worker; if none, we're current.
+          setTimeout(function(){ if(!waitingSW){ setVer("已是最新版本 ✓"); reset(); } }, 1600);
         }).catch(function(){ setVer("检查失败，请检查网络后重试"); reset(); });
       }).catch(function(){ setVer("检查失败，请检查网络后重试"); reset(); });
     });
+
+    // Watch a registration for a worker reaching the "installed while a controller exists" state —
+    // that is precisely "new version downloaded, waiting to be applied". Covers both the already-
+    // waiting case (page opened after the SW installed) and a fresh install found later.
+    function watch(reg){
+      if(reg.waiting && navigator.serviceWorker.controller){ onUpdateReady(reg.waiting); return; }
+      reg.addEventListener("updatefound", function(){
+        var sw=reg.installing; if(!sw) return;
+        sw.addEventListener("statechange", function(){
+          if(sw.state==="installed" && navigator.serviceWorker.controller) onUpdateReady(sw);
+        });
+      });
+    }
+    navigator.serviceWorker.getRegistration().then(function(reg){ if(reg) watch(reg); });
   })();
 })();
 </script>

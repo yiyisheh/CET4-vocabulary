@@ -353,12 +353,17 @@
   <div id="barnav-r" class="barnav">›</div>
 </div>
 
+<!-- 单文件离线版：音频以 base64 内联在下面两个块里（不执行，用时才 JSON.parse）。
+     托管版(docs/)：这两个块是空的，音频改走 AUDIO_INDEX 指向的二进制包，见下。 -->
 <script type="application/json" id="audio-us">__AUDIO_US__</script>
 <script type="application/json" id="audio-ex">__AUDIO_EX__</script>
 <script>
 window.CET4 = __DATA__;
-window.CACHE_BYTES = __CACHE_BYTES__;   // 离线包预计字节数（构建时注入），用于缓存进度
+/* 托管版：{us:{file,bytes,index:{单词:[偏移,长度]}}, ex:{…按 rank}}；单文件版为 null。
+   包名带内容哈希 ⇒ 音频一变文件名就变、必然重下；没变则一个字节都不重下。 */
+window.AUDIO_INDEX = __AUDIO_INDEX__;
 window.BUILD_INFO = __BUILD_INFO__;     // {v:内容哈希版本, t:构建时间戳}（构建时注入），与 sw 缓存名同源
+window.CACHE_NAME = "__CACHE_NAME__";   // 与 sw.js 同名的缓存桶：音频包由网页自己写进去
 </script>
 <script>
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
@@ -600,8 +605,15 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     scrollTO=setTimeout(function(){ state.anchor=firstRankOnPage(cur); save(); prefetchCurrent(); }, 160);
   }, {passive:true});
 
-  // ---- audio: EMBEDDED (offline), skip leading silence at playback ----
-  var audioMaps={};                 // accent -> {word: base64 mp3}
+  // ---- audio source: inline base64 (single-file build) OR binary packs (hosted build) ----
+  // Both end at the same place: an ArrayBuffer of raw mp3 bytes handed to decodeAudioData.
+  // Single-file: everything is inline, available immediately, no network ever.
+  // Hosted: the shell (~560KB incl. all text) loads first so you can read at once, and the two
+  // audio packs stream in behind it. base64 is dropped there — it only existed to fit inside
+  // HTML and cost a flat +33% (it is a lossless byte<->text mapping, never a quality question).
+  var AIDX = window.AUDIO_INDEX || null;           // null => single-file build
+  var packs = {};                                  // "us"/"ex" -> ArrayBuffer once downloaded
+  var audioMaps={};                                // single-file only: accent -> {word: base64}
   function audioMap(acc){
     if(!audioMaps[acc]){
       var el=document.getElementById("audio-"+acc);
@@ -614,6 +626,16 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var s=atob(b64), n=s.length, u=new Uint8Array(n);
     for(var i=0;i<n;i++) u[i]=s.charCodeAt(i);
     return u.buffer;
+  }
+  // The ONE place that answers "give me the mp3 bytes for this clip" (null = not available yet).
+  function clipBytes(which, key){
+    if(AIDX){
+      var meta=AIDX[which], buf=packs[which];
+      var ent = meta && meta.index[key];
+      return (buf && ent) ? buf.slice(ent[0], ent[0]+ent[1]) : null;   // pack still downloading
+    }
+    var b = (which==="us") ? audioMap(state.accent)[key] : exMap()[key];
+    return b ? b64ToBytes(b) : null;
   }
   function youdaoUrl(w){ return "https://dict.youdao.com/dictvoice?type="+(state.accent==="uk"?1:2)+"&audio="+encodeURIComponent(w); }
 
@@ -705,12 +727,14 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
   function prefetchCurrent(){}                       // no-op: decode happens lazily on first tap
   function speak(w){
-    var b=audioMap(state.accent)[w], ctx=b?audioCtx():null;
-    if(!ctx || !b){ speakHtml(w); return; }          // no embedded audio / no Web Audio decode support
-    mediaUnlock();                                   // still inside the tap gesture here
     var key=state.accent+"|"+w, hit=abufCache[key];
-    if(hit){ playEntry(hit, w); return; }
-    ctx.decodeAudioData(b64ToBytes(b),
+    if(hit){ mediaUnlock(); playEntry(hit, w); return; }
+    var b=clipBytes("us", w), ctx=b?audioCtx():null;
+    // No bytes yet (pack still streaming) or no Web Audio: fall back to the Youdao URL, which
+    // needs network — that's the honest behaviour before the offline pack has landed.
+    if(!ctx || !b){ speakHtml(w); return; }
+    mediaUnlock();                                   // still inside the tap gesture here
+    ctx.decodeAudioData(b,
       function(buf){
         var en={buf:buf, onset:detectOnset(buf)};
         abufCache[key]=en; abufOrder.push(key);
@@ -740,12 +764,12 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     playClip(en, off, delay, "(例句)");
   }
   function speakEx(rank){
-    var b=exMap()[rank], ctx=b?audioCtx():null;
-    if(!ctx || !b){ return; }                        // no clip / no Web Audio decode -> silent
-    mediaUnlock();                                   // still inside the tap gesture here
     var key="ex|"+rank, hit=exCache[key];
-    if(hit){ playEx(hit); return; }
-    ctx.decodeAudioData(b64ToBytes(b),
+    if(hit){ mediaUnlock(); playEx(hit); return; }
+    var b=clipBytes("ex", rank), ctx=b?audioCtx():null;
+    if(!ctx || !b){ return; }                        // no clip / pack not in yet -> silent
+    mediaUnlock();                                   // still inside the tap gesture here
+    ctx.decodeAudioData(b,
       function(buf){
         var en={buf:buf, onset:detectOnset(buf)};
         exCache[key]=en; exOrder.push(key);
@@ -1041,50 +1065,113 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
 
   // ---- offline-cache progress ----
-  // The service worker precaches the whole app (index.html + PWA assets) on install; until
-  // that finishes the app isn't fully offline. We show its progress by comparing how much
-  // this origin has stored (navigator.storage.estimate) against the expected package size
-  // (window.CACHE_BYTES, injected at build). No re-download — pure display. Falls back to a
-  // binary cached/not-cached readout via the Cache API when estimate() is unavailable (older iOS).
+  // The bar tracks the audio packs, because that IS the download: the shell is ~560KB (the SW
+  // precaches it during install, effectively instantly) and the packs are the other ~36MB.
+  // We read them with a streaming reader and count bytes ourselves, so the percentage and the
+  // ETA are real. Nothing here re-downloads anything: it's the same fetch the app needs anyway,
+  // and the result is written into the Cache API so the next launch is offline and instant.
   var cacheRow=document.getElementById("cache-row"),
       cacheSub=document.getElementById("cache-sub"),
       cacheFill=document.getElementById("cache-fill"), cacheTO=null;
   function mb(b){ return (b/1048576).toFixed(0); }
+  function eta(sec){
+    if(!isFinite(sec) || sec<0) return "";
+    if(sec<5) return "即将完成";                    // below this the number just flickers
+    if(sec<60) return "剩余约 "+Math.round(sec)+" 秒";
+    var m=Math.floor(sec/60), s=Math.round(sec%60);
+    return "剩余约 "+m+" 分"+(s?" "+s+" 秒":"");
+  }
   function setCache(pct, txt, done){
     if(cacheFill) cacheFill.style.width=Math.max(0,Math.min(100,pct))+"%";
     if(cacheSub) cacheSub.textContent=txt;
     if(cacheRow) cacheRow.classList.toggle("done", !!done);
   }
-  function cacheStored(){                         // true once index.html sits in a cache
-    if(!("caches" in window)) return Promise.resolve(false);
-    return caches.match("./index.html").then(function(h){ return !!h; })
-      .then(function(hit){ return hit ? true : caches.match("./").then(function(h){ return !!h; }); })
-      .catch(function(){ return false; });
-  }
   function updateCacheUI(){
     clearTimeout(cacheTO);
-    if(!("caches" in window) || !("serviceWorker" in navigator) || location.protocol.indexOf("http")!==0){
-      setCache(0, "此环境不支持离线缓存（需以 PWA / https 打开）", false);
-      if(cacheFill) cacheFill.style.display="none"; return;
+    if(!AIDX){                                       // single-file build: everything is already inside
+      setCache(100, "单文件离线版，音频已内嵌 ✓", true); return;
     }
-    var expected=+window.CACHE_BYTES||0;
-    cacheStored().then(function(cached){
-      if(cached){
-        setCache(100, "已缓存，可离线使用 ✓" + (expected?"（约 "+mb(expected)+" MB）":""), true);
-        return;
-      }
-      // not done yet — estimate progress and keep polling while settings is open
-      var est = (navigator.storage && navigator.storage.estimate) ? navigator.storage.estimate() : Promise.resolve(null);
-      est.then(function(e){
-        if(e && expected){
-          var pct=Math.min(99, Math.round(e.usage/expected*100));
-          setCache(pct, "缓存中… "+pct+"%（约 "+mb(e.usage)+" / "+mb(expected)+" MB）", false);
-        } else {
-          setCache(15, "缓存中…（首次联网后自动完成）", false);
+    if(packState.failed){
+      setCache(0, "音频下载失败，重新联网后会自动重试", false); return;
+    }
+    if(packState.done){
+      setCache(100, "已缓存，可离线使用 ✓（约 "+mb(packState.total)+" MB 音频）", true); return;
+    }
+    var got=packState.got, tot=packState.total, ms=Date.now()-packState.t0;
+    var rest = (ms>400 && got>0 && tot>got) ? eta((tot-got)/(got/ms)/1000) : "";
+    var pct = tot ? Math.min(99, Math.round(got/tot*100)) : 0;
+    setCache(pct, "音频下载中… "+pct+"%（"+mb(got)+" / "+mb(tot)+" MB"+(rest?" · "+rest:"")+"）"
+                  + (packState.offline?"　离线中，稍后重试":""), false);
+    if(settingsEl && settingsEl.style.display!=="none") cacheTO=setTimeout(updateCacheUI, 500);
+  }
+
+  // ---- audio packs: stream, count, cache (hosted build only) ----
+  // Reading the body through a reader is what makes the progress real; the assembled bytes go
+  // straight into the same Cache API bucket the service worker uses, so a relaunch is offline.
+  var packState={total:0, got:0, t0:Date.now(), done:false, failed:false, offline:false};
+  function paint(){ if(settingsEl && settingsEl.style.display!=="none") updateCacheUI(); }
+  function fetchPack(which){
+    var meta=AIDX[which], url=meta.file;
+    var cached = ("caches" in window) ? caches.match(url).catch(function(){ return null; })
+                                      : Promise.resolve(null);
+    // A pack is only itself if it is exactly the length the index says. Offline, the service
+    // worker used to answer an uncached pack with the HTML shell (200 text/html); accepting that
+    // would cache HTML under the pack URL and mute the app for good. Length is the cheap guard:
+    // wrong or truncated bodies throw, which lands in the retry path instead of the cache.
+    function check(buf){
+      if(!buf || buf.byteLength !== meta.bytes) throw new Error("pack "+which+" bad body");
+      return buf;
+    }
+    return cached.then(function(hit){
+      if(hit) return hit.arrayBuffer().then(function(b){
+        if(b.byteLength !== meta.bytes){                 // poisoned/partial entry: drop and refetch
+          if("caches" in window) caches.open(window.CACHE_NAME).then(function(c){ c.delete(url); }).catch(function(){});
+          return null;
         }
-      }).catch(function(){ setCache(15, "缓存中…", false); })
-        .then(function(){ if(settingsEl.style.display!=="none") cacheTO=setTimeout(updateCacheUI, 1500); });
+        packState.got+=meta.bytes; paint(); return b;
+      });
+      return null;
+    }).then(function(b){
+      if(b) return b;
+      return fetch(url).then(function(res){
+        if(!res.ok) throw new Error("pack "+res.status);
+        if(!res.body) return res.arrayBuffer();      // no streams (old Safari): works, just no bar
+        var reader=res.body.getReader(), chunks=[], n=0, last=0;
+        return (function pump(){
+          return reader.read().then(function(r){
+            if(r.done){
+              var out=new Uint8Array(n), p=0;
+              for(var i=0;i<chunks.length;i++){ out.set(chunks[i], p); p+=chunks[i].length; }
+              return out.buffer;
+            }
+            chunks.push(r.value); n+=r.value.length; packState.got+=r.value.length;
+            var now=Date.now(); if(now-last>150){ last=now; paint(); }   // throttle: chunks >> frames
+            return pump();
+          });
+        })();
+      }).then(check).then(function(buf){
+        if("caches" in window){                       // best-effort: a full quota shouldn't break playback
+          caches.open(window.CACHE_NAME).then(function(c){ return c.put(url, new Response(buf)); })
+            .catch(function(){});
+        }
+        return buf;
+      });
     });
+  }
+  function loadPacks(){
+    if(!AIDX) return;
+    packState.total = AIDX.us.bytes + AIDX.ex.bytes;
+    packState.t0 = Date.now();
+    // us first: tapping a word is the common case, example sentences can land a moment later.
+    fetchPack("us").then(function(b){ packs.us=b; return fetchPack("ex"); })
+      .then(function(b){ packs.ex=b; packState.done=true; paint(); })
+      .catch(function(){
+        packState.failed=true; packState.offline=!navigator.onLine; paint();
+        window.addEventListener("online", function once(){    // retry when the network comes back
+          window.removeEventListener("online", once);
+          packState.failed=false; packState.got=0; loadPacks();
+        });
+      });
   }
 
   var rzTO;
@@ -1165,6 +1252,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   // init
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
+  loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();
 
   // PWA: register service worker (offline + durable storage once added to home screen).
@@ -1172,10 +1260,13 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   if("serviceWorker" in navigator && location.protocol.indexOf("http")===0){
     window.addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}); });
     // When a rebuilt SW takes control (new content hash), reload once to show the update.
-    // Guarded so it can't loop; skipped on the very first install (no prior controller).
-    var reloaded=false;
+    // hadController MUST be sampled here, at load: by the time controllerchange fires the
+    // controller has ALREADY been swapped in, so testing it inside the handler always passes.
+    // No prior controller = first install, where the page already IS the version just cached —
+    // reloading would only re-parse the app for nothing.
+    var hadController = !!navigator.serviceWorker.controller, reloaded=false;
     navigator.serviceWorker.addEventListener("controllerchange", function(){
-      if(reloaded) return; reloaded=true; location.reload();
+      if(!hadController || reloaded) return; reloaded=true; location.reload();
     });
   }
 

@@ -8,19 +8,20 @@
 
 | 类别 | 文件 | 大小 | 说明 |
 |---|---|---|---|
-| ✅ **网页源码（读这个）** | `web/template.html` | ~64 KB（约 1120 行） | **整个网页的唯一源文件**（HTML+CSS+JS 一体）。改网页 = 改这里。 |
-| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `fetch_audio.py` `fetch_ex_audio.py` `make_pdf_optimized.py` | 2–5 KB | 见 §4 流水线 |
+| ✅ **网页源码（读这个）** | `web/template.html` | ~74 KB（约 1300 行） | **整个网页的唯一源文件**（HTML+CSS+JS 一体）。改网页 = 改这里。 |
+| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `fetch_audio.py` `fetch_ex_audio.py` `resynth_us_audio.py` `make_pdf_optimized.py` | 2–5 KB | 见 §4 流水线 |
 | ✅ PWA 资源 | `web/pwa/manifest.webmanifest` `web/pwa/sw.js` `web/pwa/icon-*.png` | <30 KB | 见 §10 部署 |
 | ✅ 同步配置 | `web/supabase-config.json` | <1 KB | 仅含**可公开**的 publishable key |
 | ✅ 词条数据 | `intermediate/entries_full.json` | 544 KB | 1250 词最终数据（无音频），可读 |
 | ✅ 词根数据 | `intermediate/roots.json` | 186 KB | 词根/词缀/合成拆解 |
 | ✅ 词表源 | `output/high_freq_cet4_df.txt` | 328 KB | rank+音标+释义+例句（DF 排序） |
-| 🚫 **AI 绝对别读** | `英语四级单词背诵.html` | **52 MB** | 构建产物（内嵌 2500 条 base64 音频 = 1250 词 + 1250 例句），读了会撑爆上下文 |
-| 🚫 **AI 绝对别读** | `docs/index.html` | **52 MB** | 同上，托管用副本（与根目录那份字节相同） |
-| 🚫 **AI 绝对别读** | `intermediate/audio/` | **73 MB** | 3750 个 mp3 源（us 18M / uk 30M / ex 25M），构建输入，别遍历 |
+| 🚫 **AI 绝对别读** | `英语四级单词背诵.html` | **49 MB** | 构建产物（**单文件版**：内嵌 2500 条 base64 音频），读了会撑爆上下文 |
+| 🚫 别读（构建产物） | `docs/index.html` | 562 KB | **托管版外壳**：无音频，只有 CSS+JS+1250 词文本。小归小，它仍是产物，改网页请改 `web/template.html` |
+| 🚫 **AI 绝对别读** | `docs/audio-*.bin` | **36 MB** | 托管版的两个音频包（原始 mp3 字节拼接），文件名带内容哈希 |
+| 🚫 **AI 绝对别读** | `intermediate/audio/` | **71 MB** | 3750 个 mp3 源（us 16M / uk 30M / ex 25M），构建输入，别遍历 |
 
-**一句话**：想看/改网页，永远打开 `web/template.html`；那两个 52 MB 的 `.html` 是**自动生成的产物**，不是源码。
-> 注：`uk/` 30 MB 仍在磁盘和 git 里，但**不再被嵌进成品**（§4），所以成品 52 MB ≠ 音频目录 73 MB。
+**一句话**：想看/改网页，永远打开 `web/template.html`；`docs/` 和根目录那份 `.html` 全是**自动生成的产物**，不是源码。
+> 注：`uk/` 30 MB 仍在磁盘和 git 里，但**不再被嵌进成品**（§4）。
 
 ### 0.1 📌 所有临时产物一律放 `tmp/`
 截图、录屏、生成的测试页、调试产物——**全部写进仓库根目录的 `tmp/`**，不要散在 `/tmp`、系统临时目录或项目根目录。理由：`tmp/` 已在 `.gitignore` 里（不污染仓库），但它在项目里，**用户能直接打开来看**。
@@ -63,6 +64,7 @@ English/
 │   ├── build_roots.py        ← （备用）DeepSeek 生成词根；**已不用**，词根由子agent产出
 │   ├── fetch_audio.py        ← 下载 2500 条有道 mp3 → intermediate/audio/{us,uk}/
 │   ├── fetch_ex_audio.py     ← edge-tts 合成 1250 条例句朗读 → intermediate/audio/ex/
+│   ├── resynth_us_audio.py   ← 按编码指纹把不想要的有道音色换成 edge-tts Ava（§7.5；--dry-run/--restore）
 │   ├── align_audio_silence.py← （备用）旧的“补静音对齐”脚本，现已非必需，见 §7.3
 │   ├── make_pdf.py           ← PDF 底层排版
 │   ├── make_pdf_optimized.py ← 生成优化版 PDF
@@ -75,18 +77,22 @@ English/
 │   ├── recall_manual.json    ← 手工补的词缀词（powerful…）
 │   ├── root_chunks/          ← 14 组 in_*/out_*.json（首轮子agent词根产出，共 28 个文件）
 │   ├── recall_chunks/        ← 8 组 in_*/out_*.json（召回轮，共 16 个文件）
-│   ├── audio/                ← 🚫 73MB mp3 源，别读：us/ uk/ 各 1250，ex/ 1250 + voices.json
+│   ├── audio/                ← 🚫 71MB mp3 源，别读：us/ uk/ 各 1250，ex/ 1250 + voices.json
 │   └── （entries_v2/examples/liut969_dict/ds_batches* 均为上游历史产物，网页不用）
 │
 ├── output/high_freq_cet4_df.txt  ← 词表源（rank/音标/释义/例句）
 │
-├── docs/                     ← 【GitHub Pages 托管目录】index.html + manifest + sw.js + 3 图标
+├── docs/                     ← 【GitHub Pages 托管目录】§4.1 的托管形态
+│   ├── index.html            ←   外壳 562KB（CSS+JS+1250 词文本，**不含音频**）
+│   ├── audio-us.<hash>.bin   ←   单词音频包 13.6MB（原始 mp3 字节拼接）
+│   ├── audio-ex.<hash>.bin   ←   例句音频包 22.8MB
+│   └── manifest + sw.js + 3 图标
 │
 ├── tmp/                      ← 【所有临时产物放这里】gitignore，但用户看得见（§0.1）
 │   ├── devtest/testpage.html ←   §9.1 生成的测试页
 │   └── *.png / *.mp4 …       ←   截图、录屏等随手产物
 │
-├── 英语四级单词背诵.html      ← 🚫 52MB 成品（AirDrop 单文件离线版）；**已 gitignore**，可重生成
+├── 英语四级单词背诵.html      ← 🚫 49MB 成品（AirDrop 单文件离线版）；**已 gitignore**，可重生成
 └── 英语四级高频单词彩色背诵版(优化).pdf
 ```
 
@@ -155,27 +161,53 @@ web/supabase-config.json ──────────────┤          
 web/pwa/* ─────────────────────────────┘
 ```
 
-`build_html.py` 把模板里 6 个占位符替换掉：
-- `__DATA__` → 1250 词条 JSON
-- `__AUDIO_US__` → `{word: base64 mp3}` 美音（放在 `<script type="application/json">` 里，不执行、按需解析）。**UK 已移除**（原来还有 `__AUDIO_UK__`，为减重删掉）
-- `__AUDIO_EX__` → `{rank: base64 mp3}` 例句朗读音频（edge-tts，见 §7.4）
-- `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
-- `__CACHE_BYTES__` → 离线包预计字节数（= 最终 html 长度 + PWA 小资源），供设置页缓存进度对比 `storage.estimate`
-- `__BUILD_INFO__` → `{v:内容哈希, t:构建时间}`，设置页「版本」行展示 + 「检查更新」用（见 §10.1）。`v` **与 sw 缓存名同源**（同一 `build_hash`），故在**注入 build-info/cache-bytes 之前**算，只随内容变、不随时间戳变——同内容重建版本号不变、不会白触发更新
+### 4.1 ⚠️ 两种发布形态（本轮重构，改构建/音频前必读）
 
-> 成品体积 **~52MB**（实测 54,312,669 字节；US+EX 两套内嵌，各 1250 条；删 UK 前是 ~89MB）；docs/index.html <100MB，GitHub 可推。
-> **iPad 无声已定位为播放内核而非体积**：US+UK 原始版（`<audio>` 播放）58MB 在 iPad 正常；换 Web Audio 输出后无声、删到 52MB 仍无声。现已改为「Web Audio 只解码、`<audio>` 出声」（§7.1），体积不再是嫌疑；若 iPad 实测恢复正常，可考虑把 UK 加回来。
+**同一份 `web/template.html` 构建出两种形态**，因为它们要解决的问题相反：
+
+| | 单文件版 `英语四级单词背诵.html` | 托管版 `docs/` |
+|---|---|---|
+| 音频在哪 | base64 内嵌在 HTML 里 | 两个独立二进制包 `audio-{us,ex}.<hash>.bin` |
+| 体积 | 49 MB 一个文件 | 外壳 **562 KB** + 包 36 MB |
+| 首屏 | 等 49 MB 下完才看得到第一个词 | **562 KB 到了就能背**，音频在后台流式补 |
+| 用途 | AirDrop 一个文件就能离线用 | PWA / GitHub Pages |
+| 判据 | `window.AUDIO_INDEX === null` | `window.AUDIO_INDEX` 有值 |
+
+**为什么要拆**（不是为了好看，是三个实打实的毛病）：
+1. **首屏**：内嵌时 98.7% 的字节是音频，而背前几个词根本用不到。
+2. **更新成本**：内嵌时改一行 CSS → `index.html` 变 → 全体用户重下 49 MB。拆开后只重下 562 KB 的外壳，**音频包名没变就一个字节都不重下**。
+3. **体积**：base64 是**无损**的字节↔文本映射（`atob` 原样还原，与音质无关），存在的唯一理由是"要塞进 HTML"，代价是固定 +33%。托管版直接存原始字节：**48.6 MB → 36.4 MB**。
+
+**包格式**：把 1250 条 mp3 原始字节首尾相接，`AUDIO_INDEX` 给出 `{键: [偏移, 长度]}`（us 按单词、ex 按 rank），播放时 `buf.slice(off, off+len)` 取出来。索引跟着外壳走（58 KB，已含在外壳那 562 KB 里）。
+
+**文件名带内容哈希**是整套缓存策略的地基：音频一变 → 哈希变 → 文件名变 → 对浏览器是全新 URL，**不可能拿到旧的**；音频没变 → URL 不变 → 命中缓存、不重下。比靠 `max-age` 猜可靠得多。
+
+**谁负责下载**：外壳由 `sw.js` 在 install 时预缓存（562 KB，瞬间）；**音频包由网页自己 `fetch`**、用流式 reader 边读边计数（这才有真进度条，§10.0），下完写进同一个 Cache API 桶。SW 的 `PRECACHE` **故意不含音频包**——否则同样的 36 MB 会被下两遍。
+
+`build_html.py` 把模板里这些占位符替换掉（**两种形态填的内容不同**，§4.1）：
+- `__DATA__` → 1250 词条 JSON（两种形态相同）
+- `__AUDIO_US__` / `__AUDIO_EX__` → 单文件版填 `{word|rank: base64 mp3}`；**托管版填空字符串**。**UK 已移除**（原来还有 `__AUDIO_UK__`，为减重删掉）
+- `__AUDIO_INDEX__` → 托管版填 `{us:{file,bytes,index},ex:{…}}`；**单文件版填 `null`**
+- `__CACHE_NAME__` → `cet4-1250`，与 `sw.js` 的桶名同一个常量（网页要往同一个桶里写音频包）
+- `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
+- `__BUILD_INFO__` → `{v:内容哈希, t:构建时间}`，设置页「版本」行展示 + 「检查更新」用（见 §10.1）。`v` = **外壳的哈希**（包名在外壳里，所以音频变了版本也会变），在**注入 build-info 之前**算，只随内容变、不随时间戳变——同内容重建版本号不变、不会白触发更新。两种形态共用同一个版本号
+- `sw.js` 里还有 `__PRECACHE__` / `__KEEP__` 两个清单和 `__BUILD_HASH__`（外壳哈希，§10.1 解释它为什么必须在）
+
+> 体积：单文件 **49MB**；托管版外壳 **562KB** + 音频包 **36MB**（us 13.6 + ex 22.8）。删 UK 前是 ~89MB；换掉 86 条冗长音源省了 ~3MB（§7.5），去掉 base64 又省了 12MB（§4.1）。
+> **iPad 无声已在真机复验通过**（2026-08-02）：改成「Web Audio 只解码、`<audio>` 出声」（§7.1）之后正常。体积从来不是原因；若想把 UK 加回来，现在托管版加一个包即可，外壳不受影响。
 
 ---
 
 ## 5. `web/template.html` 内部结构（改网页看这节）
 
 结构顺序：`<style>`（全部 CSS）→ `#settings` 设置页 DOM → `#top` / `#pages` / `#measure` / `#dev` / `#bar` → **5 个 `<script>`**：
-1. `<script type="application/json" id="audio-us">__AUDIO_US__</script>`（不执行，`audioMap()` 按需 `JSON.parse`）
-2. `<script type="application/json" id="audio-ex">__AUDIO_EX__</script>`（同上，`exMap()` 解析）
-3. `window.CET4` / `window.CACHE_BYTES` / `window.BUILD_INFO`
+1. `<script type="application/json" id="audio-us">__AUDIO_US__</script>`（**单文件版**才有内容；托管版是空的）
+2. `<script type="application/json" id="audio-ex">__AUDIO_EX__</script>`（同上）
+3. `window.CET4` / **`window.AUDIO_INDEX`**（托管版的音频包索引，单文件版为 `null`）/ `window.BUILD_INFO` / `window.CACHE_NAME`
 4. `window.SYNC_CONFIG`
-5. **网页主逻辑 IIFE**（约 730 行，从 `var DATA=window.CET4` 到末尾的「检查更新」小 IIFE）
+5. **网页主逻辑 IIFE**（约 930 行，从 `var DATA = window.CET4` 到末尾的「检查更新」小 IIFE）
+
+> ⚠️ 模板**一份源码同时供两种形态**（§4.1）。判据只有一个：`window.AUDIO_INDEX` 是不是 `null`。
 
 ### 5.1 关键 CSS 类
 - `.entry`（词条，`position:relative`，`padding-left:14px` 就是"序号前那条可点的空白"）
@@ -228,12 +260,15 @@ web/pwa/* ───────────────────────�
 - `render()`：拼 HTML，设 `#pages` 的 class（`h`/`v` + 可选 `markline`、`nodivider`）。**没有 hideMarked 类**——去掉已划掉的词是在 `visible()` 里过滤掉的，不是 CSS 隐藏
 - 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；**自测态下遮蔽处(data-act=reveal，含 .def/.root/.extrans)→首次点去掉同 entry 内所有 `.mask`(并移除其 data-act，恢复原生行为)=同步解锁、再点发音**；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
   - `mark` 分支**唯一会重排页面的情况**：状态池模式下这一划让池内剩余触到低水位 → `ensurePool()` + `paginate()`（下一轮突击，§13）
-- **`speakEx(rank)`**：例句朗读。取 `__AUDIO_EX__` 的 base64 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
-- **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。取内嵌 base64 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。非内嵌词/无解码时回退 `speakHtml()`(有道 URL)
+- **`speakEx(rank)`**：例句朗读。`clipBytes("ex", rank)` 取字节 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
+- **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。`clipBytes("us", word)` 取字节 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。取不到字节（托管版包还没下完）或无解码时回退 `speakHtml()`(有道 URL，需联网)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
 - **`turnPage(±1)`**：底部栏两侧 `#barnav-l/#barnav-r` 点击 → `scrollToPage(currentPage()±1)`，h/v 模式通用
 - **跳页滑块 `wheelOpen()/closeWheel()`**：`#pageno` 点击切换 `#wheelH`(h,`block`)/`#wheelV`(v,`flex`)；另有一个**捕获阶段**的 `document` click 监听——滑块开着且点在滑块与药丸之外时 `closeWheel()` 并 `stopPropagation+preventDefault`。**必须是捕获阶段**：这样才能抢在 `#pages` 点击委托和 `#barnav-l/r` 之前吃掉这一下，避免"点外面关滑块"顺手把词划了或发了音
-- **`updateCacheUI()`**：设置页「离线缓存」进度。用 `navigator.storage.estimate().usage` 对比 `window.CACHE_BYTES`（构建注入）显示 `缓存中 NN%`；`caches.match('./index.html')` 命中即判为「已缓存 ✓」。缓存满前每 1.5s 轮询（仅设置页打开时）。纯展示，不重复下载
+- **`clipBytes(which, key)`**：**取音频字节的唯一入口**（§4.1）。托管版从 `packs[which]` 里按 `AUDIO_INDEX` 的 `[偏移,长度]` `slice`；单文件版 `atob` 内联 base64。包没下完返回 `null`
+- **`loadPacks()` / `fetchPack(which)`**：托管版启动时拉音频包。先查 `caches.match` 命中就直接用；否则 `fetch` + `getReader()` 边读边计数（这就是真进度条的来源），完成后 `caches.put` 进 `CACHE_NAME` 那个桶。失败挂 `online` 事件重试。先 us 后 ex。
+  **收下之前先验长度**：`buf.byteLength` 必须等于 `AUDIO_INDEX` 里的 `bytes`，否则抛错走重试、绝不入缓存；缓存里已有的长度不符条目也会被删掉重下（原因见 §10.1 最后一条）
+- **`updateCacheUI()`**：设置页「离线缓存」进度，读 `packState`（`{total,got,t0,done,failed}`）算百分比 + 剩余时间；单文件版直接显示"已内嵌 ✓"。纯展示，不额外下载
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动
 - 同步：见 §8
@@ -257,8 +292,26 @@ web/pwa/* ───────────────────────�
 ## 7. 发音（离线内嵌；Web Audio 只解码，`<audio>` 出声）
 
 - `fetch_audio.py`：对 1250 词各下 美音(有道 type=2)/英音(type=1) → `intermediate/audio/{us,uk}/{rank}.mp3`（可断点续传）。**UK 仍在磁盘(30MB)、但 `build_html.py` 不再嵌入**（US-only，减重）
-- `build_html.py`：base64 编码嵌进 html（US 1250 + EX 1250 ≈ 52MB）
-- 发音源是有道 `dictvoice`，已全部下载内嵌，**运行时不再联网**
+- `build_html.py`：**单文件版**才把 base64 嵌进 html（US 1250 + EX 1250 ≈ 49MB）；**托管版**改拼成两个二进制包（§4.1）
+- 发音源**以有道 `dictvoice` 为主，其中 86 条已换成 edge-tts**（§7.5）
+- **取字节只有一个入口 `clipBytes(which, key)`**（`which` = `"us"`/`"ex"`）：托管版从已下载的包里 `slice`，单文件版 `atob` 内联 base64。两条路都交给同一个 `decodeAudioData`。包还没下完时它返回 `null`，`speak()` 退回有道 URL（需联网）、`speakEx()` 静默——这是诚实的中间态，不是 bug
+
+### 7.0 ⚠️ 有道的单词音频不是一个人念的
+有道按词从**多个音源库**拼数据，编码参数就是音源身份证——`ffprobe` 的 (采样率, 码率) 分组和听感一一对应（用户逐条听完 rank 1–100 核对，**100 个词零误差**）：
+
+| (采样率, 码率) | 条数 | 是谁 |
+|---|---|---|
+| 48000/64000（+48k 320k/768k 共 13） | 903 | **主流女音**（用户认可的那个） |
+| 24000/32000 | 230 | **同一个女音**，但码率减半，听着发闷发虚 |
+| ~~44100/128000~~ | ~~79~~ | 另一个更高更尖的女声（F0 中位 219 vs 主流 180）→ **已替换**（§7.5） |
+| ~~24000/160000~~ | ~~7~~ | 又一个偏高的音色 → **已替换**（§7.5） |
+| 44100/160000 | 20 | **混的**：8 条男声 + 12 条女声，同组不同人 |
+| 22050/32000 | 5 | 也是混的：4 男 1 女 |
+| 16k/160k、44.1k/64k、44.1k/192k | 6 | 零星，未逐条听辨 |
+
+- **编码指纹是硬指标，MFCC 音色聚类在单词上不可靠**：1 秒的单词里音素内容压过说话人特征，聚出来的簇和真实音源对不上（例句那种整句音频反而可以，见 §7.4 的 Andrew/Brian 二分实测 1249/1250 吻合）。别再走那条路。
+- 上表之外还有个**跨编码组的切分**：同一 (采样率,码率) 组里可能混着不同性别，得再按基频(F0 145Hz 阈值)切一刀。
+- 挑音色时的试听样本用 `tmp/voiceab/`（gitignore），按「编码组 × 基频」分段拼接，附 `INDEX.md` 列播放顺序。
 
 ### 7.1 播放内核：Web Audio 只解码，`<audio>` 出声（两轮教训的合体）
 **教训一（为什么不能 `<audio>.currentTime` 直接 seek MP3）**：① seek 会吸附到 ~24ms 帧边界（落点不准）；② MP3 有「比特池(bit reservoir)」，一帧依赖前面几帧上下文，**从中间 seek 进去、紧跟落点的那一两帧会被解成静音/杂音**。两者叠加会切掉软起音（`/h/ /s/ /f/…`），表现为"开头被切一点点、还时好时坏"。
@@ -285,6 +338,16 @@ web/pwa/* ───────────────────────�
 - **去前置静音**：ffmpeg `silenceremove=start_threshold=-45dB` 削掉开头静音（全库抽验 <30ms），重编码 48k 单声道 → `intermediate/audio/ex/{rank}.mp3`（随词音频一起入库、离线用）。
 - **播放**：见 §5.3 `speakEx`。前端不再检测起音去静音（文件已去干净），只加 `exDelay` 引子。
 - **重跑**：`python scripts/fetch_ex_audio.py`（断点续传，跳过已存在文件）。改词表/例句后要重下某条，先删 `intermediate/audio/ex/{rank}.mp3` 再跑。
+
+### 7.5 单词音频里那 86 条已换成 edge-tts Ava
+用户逐条听辨后点名不要 §7.0 表里 `44100/128000`(79 条) 和 `24000/160000`(7 条) 这两个音源。
+
+- **`scripts/resynth_us_audio.py`**：按**编码指纹**（不是写死的 rank 列表）挑出目标 → edge-tts `en-US-AvaMultilingualNeural` 逐词合成 → ffmpeg 去前置静音 → 重编码成 `48000Hz/64k 单声道`**对齐主流音源** → 覆盖写回 `intermediate/audio/us/{rank}.mp3`。
+- 原件先备份到 `intermediate/audio_orig_backup/us/`（已 gitignore），`--restore` 一键回滚；`--dry-run` 只列不改。
+- 替换清单记在 **`intermediate/audio/us/voices.json`**（`{rank: 音色名}` + `_meta`）。混合来源全靠这个文件可追溯，别删。
+- 实测：86 条全部变成 `48000/64000`，F0 中位 219→**192**（落进主流的 152–225 区间），时长 1.98s→0.92s，前置静音 ~0ms。
+- ⚠️ **`fetch_audio.py` 见文件存在就跳过，所以不会覆盖这些替换**；但**删掉 `intermediate/audio/us/` 重下会丢**，之后必须重跑本脚本。
+- 前端 `speak()` 的起音检测(§7.2)对新文件照常工作，已用无头浏览器实点验证出声（rank 6/94/99/96）。
 
 > ⚠️ **例句解析历史坑（已修）**：`build_dataset.py` 旧代码 `s.split("：",1)[-1]` 会把句内含全角冒号的例句（`W: Oh…`→`女：…`、`Directions:…`→`说明：…`）**误截成只剩中文**，18 条例句英文曾整段丢失。已改为正则只剥开头 `例句[（自编）]:` 标签。另：rank 707 `weight` 源表例句为空，已从真题语料补 `Choosing what to eat and drink is key to weight control.`（用原文，非自编）。
 
@@ -338,6 +401,7 @@ pip install pyphen edge-tts        # 音节 / 例句 TTS（需 ffmpeg 去静音�
 python scripts/merge_roots.py          # → intermediate/roots.json
 python scripts/build_dataset.py        # → intermediate/entries_full.json
 python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
+python scripts/resynth_us_audio.py     # → 把 86 条不想要的有道音色换成 Ava（§7.5；重下过 us/ 才需要）
 python scripts/make_pdf_optimized.py   # → 优化版 PDF
 python scripts/build_html.py           # → 英语四级单词背诵.html + docs/
 
@@ -351,7 +415,7 @@ python scripts/build_html.py           # 重新注入数据/音频/配置即可
 所以别去 `import playwright`，用仓库自带的这两个小工具（零依赖，Node ≥21 自带 `WebSocket`）：
 
 ```bash
-# ① 生成秒开的测试页（真实词条 + 空音频，~100KB；52MB 的成品调界面太慢）
+# ① 生成秒开的测试页（真实词条 + 空音频，~100KB；49MB 的成品调界面太慢）
 python scripts/devtest/make_testpage.py            # 默认 前 120 词
 python scripts/devtest/make_testpage.py 60 400     # 60 词，从第 400 条起（前 100 词是虚词，没词根卡）
 #   -> tmp/devtest/testpage.html   （产物落 tmp/，不入库）
@@ -362,8 +426,14 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
   tmp/devtest/shot.png
 ```
 - 每个表达式的返回值按 JSON 打印（promise 会 await），异常会抛出来——所以它同时也是"有没有控制台报错"的检查。
+- **表达式列表里可以混入三个指令**（本轮新增）：`"__OFFLINE__"` / `"__ONLINE__"` 断网/恢复，`"__RELOAD__"` 重载并等页面稳定。验 PWA 离线必须用它们——服务器还活着的话，缓存**没命中**也会看起来像命中。
+- ⚠️ **三个踩过的坑，都已在 cdp.mjs 里修掉，别再退回去**：
+  1. **没有 `--autoplay-policy=no-user-gesture-required` 就验不了发音**。合成的 `.click()` 不算真实用户手势，`<audio>.play()` 一律被自动播放策略拒掉，返回 `NotAllowedError`，看起来像"代码坏了"，实际是浏览器策略。同时加了 `--mute-audio` 免得跑测试时真的出声。
+  2. **断网必须同时下发到 service worker 的 target**。装了 SW 之后页面的请求都是 SW 发的，只对页面 target 设 `Network.emulateNetworkConditions` **完全没用**（实测：设了"离线"，请求照样 200）。现在用 `Target.setAutoAttach` 抓住 SW 会话，逐个下发。
+  3. **页面自己跳转后，必须换到新的 execution context 再求值**。SW 更新会让页面 `location.reload()`；`Runtime.evaluate` 不带 `contextId` 会落在**已销毁的旧上下文**里——文档看着正常，但 `window.BUILD_INFO` 之类全没了，活像 app 坏了。现在跟踪最新的默认 context 求值；并且**协议级 error 不再被吞成 `undefined`**（那正是"假故障"的来源），只有"target navigated"这一种可恢复，等新文档起来后重试。
+- 探测 `<audio>` 要注意：播放器是 `new Audio()` 建的、**不在 DOM 里**，`querySelectorAll("audio")` 是空的。要挂 `HTMLMediaElement.prototype.play` 的钩子才看得到。
 - 常用探针：点 `#start` 进阅读页、点 `.num` 划词、`JSON.parse(localStorage.cet4_reader_v3)` 看 state、`document.querySelectorAll('.entry').length` 数渲染条数。
-- 要验真机体积/真音频时，把 url 换成 `file://…/docs/index.html`（52MB，能开，多等几秒）。
+- **验托管版必须起 http 服务**：`cd docs && python3 -m http.server 8123`，url 用 `http://127.0.0.1:8123/index.html`。别用 `file://docs/index.html`——那份是 562KB 的外壳，且 SW 在非 http 下代码里直接跳过注册（`location.protocol.indexOf("http")===0`），缓存/更新/音频包一条都验不了。要验**内嵌**音频就开根目录那份 49MB 单文件。
 - 截图与生成的测试页**一律落 `tmp/`**（§0.1）——工具入库，产物不入库。
 
 ---
@@ -372,16 +442,36 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 
 托管文件在 `docs/`（index.html + manifest + sw.js + icons），已推送到 `yiyisheh/CET4-vocabulary` 的 **main** 分支。
 
-1. 代码已 push（`docs/index.html` 52MB，GitHub <100MB 可过、仅 LFS 大小警告）。remote = `yiyisheh/CET4-vocabulary`。
-   - `intermediate/audio/`（73MB，含不参与构建的 uk/）**已纳入 git 跟踪**；根目录 52MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/index.html` 上线用。
+1. 代码已 push。remote = `yiyisheh/CET4-vocabulary`。`docs/` = 外壳 562KB + 两个音频包 13.6MB / 22.8MB（都在 GitHub 的 100MB 单文件上限内，仅有大小警告）。
+   - `intermediate/audio/`（71MB，含不参与构建的 uk/）**已纳入 git 跟踪**；根目录 49MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/` 上线用。
 2. GitHub 仓库 → Settings → Pages → Source 选 **main / docs**（若还没开，这步在网页上点一次）。
 3. 访问 `https://yiyisheh.github.io/CET4-vocabulary/`。
 4. iPad **Safari** 打开该网址 → 分享 → **添加到主屏幕** → 成为已安装 PWA。
 
 **为什么要 PWA**：iOS 对 `file://` 本地文件的 localStorage 会隔天清空；而**已安装的 PWA 有独立持久存储**，配合 `sw.js` 缓存实现离线+持久，且是 iOS 上最稳的持久化方式。
 
-### 10.1 PWA 自动更新（已改为免手动 bump）
-`sw.js` 是 cache-first。**缓存名 `cet4-1250-<hash>` 里的 `<hash>` 由 `build_html.py` 按网页内容自动注入**（`web/pwa/sw.js` 里是占位符 `__BUILD__`）。所以：网页一变 → hash 变 → `docs/sw.js` 字节变 → 浏览器自动重装 SW、重缓存、删旧缓存；网页没变则啥都不下。页面在 `controllerchange` 时**自动刷新一次**显示新版。**改完网页只要 `build_html.py` + push,老设备下次开就更新,无需手动改版本号。**
+### 10.0 离线缓存进度条是**真的**（本轮重构）
+以前那条进度条只会 0→100 跳变，原因是 `cache.put()` **原子提交**——写完之前 `navigator.storage.estimate()` 几乎不动，提交那一刻整个包一起出现（`estimate()` 本身还被浏览器故意粗粒度化以防指纹）。
+
+现在进度条跟踪的是**音频包**，因为拆分之后那才是真正的下载（外壳 562KB 装 SW 时瞬间就好，36MB 音频才是要等的）：
+
+- **网页自己**`fetch` 音频包，用 `response.body.getReader()` 边读边累加字节，算出百分比和剩余时间；下完 `caches.open(CACHE_NAME).put()` 写进和 SW 同一个桶。
+- **不存在重复下载**：这就是 app 本来就要拿的那份数据，顺手画了个进度条。（重构前的老做法是 SW 把 49MB **再下一遍**只为了画进度，首次访问要 98MB。）
+- 先下 `us` 再下 `ex`——点单词是常见操作，例句可以晚一步到。
+- 断网/失败 → 显示"音频下载失败，重新联网后会自动重试"，并挂 `online` 事件自动重来。
+- 单文件版没有包，直接显示"单文件离线版，音频已内嵌 ✓"。
+- 实测（本机 `python3 -m http.server` + 无头 Chromium，2026-08-02）：两个包下完后进度行转"已缓存，可离线使用 ✓（约 36 MB 音频）"，缓存桶里正好是 `index.html`+manifest+3 图标+两个 `.bin`；`__OFFLINE__` 后 `__RELOAD__` 仍渲染 1250 词，点单词从包里取字节、播的是 `blob:` WAV。更早一轮在 3MB/s 限速下看过 `13% → 98%` 的平滑推进与倒计时。
+
+### 10.1 PWA 自动更新（缓存名固定，靠清单增量淘汰）
+`sw.js` 是 cache-first。**缓存桶名 `cet4-1250` 现在是固定的**（重构前是 `cet4-1250-<hash>`，一换名整份缓存作废 = 全量重下，正是要避免的）。版本信息改为落在**文件名**和**两份清单**上：
+
+- `__PRECACHE__`：install 时 `addAll` 的小资源（外壳 + manifest + 3 图标）。**故意不含音频包**，否则那 36MB 会被下两遍（包由网页下，§10.0）。
+- `__KEEP__`：`PRECACHE` + 本次构建的两个音频包 URL。activate 时遍历缓存，**删掉不在 KEEP 里的条目**——音频哈希变了就淘汰旧包，没变就原地保留。
+- **`__BUILD_HASH__`：外壳哈希必须写进 `sw.js`**。浏览器判断"有没有新版"只有一个办法——按字节比 `sw.js`。而外壳文件名是不带哈希的 `index.html`，`PRECACHE`/`KEEP` 又只在音频包变了才变，所以**只改网页（比如一行 CSS）时 `sw.js` 会一字不差**，SW 不重装、cache-first 的旧外壳永远留在设备上。已实测复现，修法是构建时往 `sw.js` 注入 `var BUILD = "<外壳哈希>"`（运行时不用它，存在的意义就是让字节变）。
+- 所以：改网页 → 外壳哈希变 → `docs/sw.js` 字节变 → 重装 SW（install 用 `cache:"reload"` 重新拉外壳）→ **只重下 562KB 外壳**，36MB 音频一个字节不动。端到端实测：先装 v1，把站点换成 v2，点「检查更新」→ 页面自动重载、`BUILD_INFO.v` 从 v1 变 v2、`navigation.type` 变 `reload`、1250 词照常渲染。
+- `"./"` **不在 PRECACHE 里**：它和 `"./index.html"` 是同一份字节，两个都列会下载并存储两份。导航请求（`request.mode === "navigate"`）由 fetch 处理器回落到 `"./index.html"` 那一份。
+- **SW 只允许拿外壳回答导航请求**。fetch 处理器早先对**任何**没缓存又取不到的请求都回落到 `index.html`；离线时这意味着音频包请求会拿到一个 `200 text/html` 的外壳（已用 `__OFFLINE__` 实测复现），网页会把它当包收下、写进缓存 —— 那一版**从此永久哑掉且不会重试**。现在非导航请求老老实实失败，网页那边再加一道 `byteLength` 校验兜底（§5.3）。
+- **`controllerchange` 自动刷新**：仅在**真的换版本**时刷。`hadController` 必须在**页面加载时**取样——事件派发时 controller 早已换好，在处理器里判断永远为真。首次安装（原本就没有 controller）不刷：那时页面本身就是刚缓存的那一版，刷了只是白白重新解析。
 
 ### 10.2 设置页「版本 / 检查更新」（本轮新增）
 - 设置页新增一行：左侧展示 **当前版本号 + 构建时间**（`window.BUILD_INFO`，见 §4 的 `__BUILD_INFO__`），右侧「检查更新」按钮。
@@ -397,12 +487,15 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 想做什么 | 改哪里 |
 |---|---|
 | 改词条样式/字号/颜色 | `web/template.html` 的 `<style>` → `build_html.py`；**改完务必用 §9.1 截个图看**，别凭 CSS 想象（§3.1 就是被想象出来的错描述） |
+| **动音频/构建/缓存** | **先读 §4.1**：一份模板出两种形态（单文件内嵌 / 托管版外壳+包）。碰 `build_html.py`、`sw.js`、`clipBytes()`、`loadPacks()` 之前都要先明白这件事 |
+| 加回英音(UK) 或加任何新音频集 | 托管版：`build_html.py` 里再 `pack()` 一个包、进 `AUDIO_INDEX` 和 `keep`，**外壳不变大**；单文件版才需要考虑体积 |
 | 放临时文件/截图/测试页 | 一律 `tmp/`（§0.1）——gitignore 但用户能直接打开 |
 | 加一个设置项 | template：加 state 字段(+启动时的容错/迁移) + 设置页 DOM + `syncSettings()` 同步 UI + 事件；改变渲染内容的必须 `paginate()` |
 | 改状态池行为（起始范围/阈值/推进规则） | template 的 `ensurePool()`（就一个 `poolMax`）；UI 在 `renderPool()` + `#sw-poolmode/#pool-size/#pool-low/#pool-reset`（§13） |
 | 改「哪些词参与排版」 | 只改 `visible()` 一个函数——分页、累计小标、状态池都从它取列表 |
 | 改划线样式/区域 | `.entry.marked .num::before`（CSS）+ 点击委托里的 mark 判定 |
 | 换/改单词发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
+| **换掉某个不想要的单词音色** | 先按 §7.0 用 `ffprobe` 的 (采样率,码率) 圈出音源组、拼 `tmp/voiceab/` 试听确认，再改 `resynth_us_audio.py` 的 `TARGET_FORMATS`/`VOICE` → `--dry-run` 核对 → 跑 → `build_html.py`（§7.5） |
 | 换/改例句朗读音色 | `fetch_ex_audio.py` 里 `VOICES`（改 edge-tts 声音）→ 删 `intermediate/audio/ex/` 重跑 → `build_html.py`；播放在 `speakEx()`（§7.4） |
 | 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=100-skipMs`，默认值 `skipMs:40`（§7.2） |
 | 加回英音(UK) | `build_html.py` 恢复 `audio_json("uk")` + `__AUDIO_UK__` 占位符 + template 加回 `audio-uk` 标签与口音切换段（`seg-accent`）。⚠️ 但先确认 §12 的 iPad 无声是否与体积有关 |
@@ -415,16 +508,17 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 
 ## 12. 待办 / 已知限制
 
-- 🟡 **iPad 无声 —— 已改用「解码 Web Audio + 出声 `<audio>`」内核（§7.1），待 iPad 真机复验**：
-  - 原现象：iPad 上 Chrome/Safari 能打开但**点词/例句无声**（开发者面板波形正常解码、播放头在走、上下文 running，就是没声）；**手机浏览器正常**。
-  - 定位依据：原始 **US+UK 58MB（`<audio>` 播放）在 iPad 正常**；commit `5aae50e` 换成 `AudioBufferSourceNode` 出声后无声；删 UK 到 52MB 仍无声 ⇒ **是播放内核问题，不是体积**（iOS 对 Web Audio 输出遵守静音/会话策略，`<audio>` 豁免）。
-  - 修复：出声通道改回 `<audio>`（播裁切好的 WAV blob），保留样本级起播与零切词；桌面无头 Chromium 已验证单词/例句均正常出声、无控制台报错。**iPad 真机复验通过后**可考虑把 UK 加回来（§4）。
-  - Edge iOS 打不开是其更严格的内存上限，另算，与此修复无关。
+- ✅ **iPad 无声已解决并真机复验通过**（2026-08-02）：原因是 iOS/iPadOS 对 **Web Audio 输出**遵守静音开关/音频会话策略（上下文 running、播放头在走、就是没声），`<audio>` 元素豁免。修法是「Web Audio 只解码、`<audio>` 出声」（§7.1），保留样本级起播与零切词。体积从来不是原因（原始 US+UK 58MB 用 `<audio>` 播放一直正常）。Edge iOS 打不开是其更严格的内存上限，另算。
 - ✅ **已推送到 main**（§10）；若 Pages 尚未开，去仓库 Settings→Pages 选 main/docs 一次
 - ⚠️ **轮换 Supabase secret key**（§8.4）
 - 发音依赖浏览器解码一致性：逻辑已全库离线验证零切词，真机（尤其 Safari）建议用开发者模式抽查（§7.3）
 - 同步无账号鉴权，靠"同步码不好猜"保护；无实时推送，靠 25s 轮询+聚焦刷新（对背单词够用）
-- ~52MB 单文件首次加载需一两秒（用户已接受）
+- 单文件版 49MB 首次加载需一两秒（用户已接受）；托管版首屏已降到 **562KB**（实测：本机 http + 无头 Chromium，DOMContentLoaded 294ms，点「开始背诵」装箱 1250 词 113ms）（§4.1）
+- ✅ **首次装 PWA 的无谓自我重载已修**（§10.1 的 `hadController`）。实测：重构前首次安装后 `navigation.type` 会变成 `reload`、页面重新解析 49MB（539ms，iPad 上更久）；现在全程停在 `navigate`
+- ✅ **离线时 SW 把外壳当音频包返回、导致该版本永久哑掉** —— 已修（§10.1），并加了包长度校验与缓存自愈
+- ✅ **只改网页时 `sw.js` 字节不变、更新推不到设备** —— 已修（§10.1 的 `__BUILD_HASH__`）
+- 🟡 **单词音源还有 31 条杂音没处理**（§7.0）：`44100/160000` 20 条（8 男 12 女）、`22050/32000` 5 条（4 男 1 女）、以及 6 条零星格式。用户听过其中的 15/17/23/68，没说要换。要清就照 §7.5 把格式加进 `TARGET_FORMATS` 重跑
+- 🟡 **230 条 `24000/32000` 是同一个女音但发闷**（码率减半）。换成 TTS 等于把用户喜欢的声音换掉，不建议；对症做法是全库 EBU R128 响度归一化，音色不动——尚未做
 - 词根覆盖 42%：高频里大量日耳曼/功能词本就拆不出，是"准确优先"的合理结果，非缺陷
 - 改 `state` 结构须处理 localStorage 迁移，否则老用户数据读不出（如 `skipMs` 314→100 的越界迁移）
 - 状态池**不参与多端同步**（只有 marks/colors 同步，§8.1）。两台设备的上界各自独立，但因为"已掌握"是同步的，两边推进的节奏基本一致

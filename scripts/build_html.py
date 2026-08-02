@@ -1,16 +1,28 @@
-"""Inline dataset + EMBEDDED offline audio into web/template.html.
+"""Build the two shipping shapes of the app from web/template.html.
 
-Produces a single self-contained 英语四级单词背诵.html:
-  - __DATA__      : the 1250 entries (word/ipa/def/example/root/syllables)
-  - __AUDIO_US__  : {word: base64 mp3}  US pronunciation (Youdao), fully offline
-  - __AUDIO_UK__  : {word: base64 mp3}  UK pronunciation
+1) SINGLE FILE  ->  英语四级单词背诵.html
+   Everything inlined, audio as base64 in <script type="application/json"> blocks. ~49MB.
+   This is the AirDrop-it-and-it-works copy; it never touches the network.
 
-Audio is stored as JSON inside <script type="application/json"> blocks (not executed;
-parsed lazily by the app), so the reader stays interactive. Large file by design —
-the whole thing works with no network.
+2) HOSTED (PWA) ->  docs/
+   index.html      the shell: layout + logic + all 1250 entries of TEXT, ~560KB
+   audio-us.<h>.bin  raw mp3 bytes of the 1250 word clips, concatenated
+   audio-ex.<h>.bin  same for the example sentences
+   sw.js / manifest / icons
+
+   Why split: inlined, the reader can't show a single word until all 49MB has arrived, and any
+   one-line CSS change forces every user to re-download all of it. Split, the shell arrives in a
+   moment and the audio streams in behind it with a real progress bar. The pack file names carry
+   a hash of their CONTENT, so changed audio is guaranteed to be re-fetched (new URL) and
+   unchanged audio is guaranteed not to be (same URL, already cached).
+
+   base64 is dropped in the hosted shape — it exists only to survive inside HTML and costs a
+   flat +33%. It is a lossless byte<->text mapping, so this changes size, never quality.
 """
 import base64
+import hashlib
 import json
+import shutil
 from datetime import datetime
 from pathlib import Path
 
@@ -19,6 +31,10 @@ DATA = json.loads((ROOT / "intermediate" / "entries_full.json").read_text())
 AUD = ROOT / "intermediate" / "audio"
 TPL = (ROOT / "web" / "template.html").read_text()
 OUT = ROOT / "英语四级单词背诵.html"
+DOCS = ROOT / "docs"
+PWA_DIR = ROOT / "web" / "pwa"
+CACHE_NAME = "cet4-1250"          # must match web/pwa/sw.js
+MIN_BYTES = {"us": 500, "ex": 300}
 
 slim = [{
     "rank": e["rank"], "word": e["word"], "syl": e["syl"],
@@ -27,77 +43,102 @@ slim = [{
 } for e in DATA]
 
 
-def audio_json(accent):
-    out = {}
-    d = AUD / accent
+def clips(kind):
+    """[(key, bytes)] for one audio set. us is keyed by word (what speak() has), ex by rank."""
+    out = []
     for e in DATA:
-        f = d / f"{e['rank']}.mp3"
-        if f.exists() and f.stat().st_size > 500:
-            out[e["word"]] = base64.b64encode(f.read_bytes()).decode("ascii")
-    return json.dumps(out, ensure_ascii=False, separators=(",", ":")), len(out)
+        f = AUD / kind / f"{e['rank']}.mp3"
+        if f.exists() and f.stat().st_size > MIN_BYTES[kind]:
+            key = e["word"] if kind == "us" else str(e["rank"])
+            out.append((key, f.read_bytes()))
+    return out
 
 
-def audio_ex_json():
-    """Example-sentence clips (edge-tts, one male voice each), keyed by rank."""
-    out = {}
-    d = AUD / "ex"
-    for e in DATA:
-        f = d / f"{e['rank']}.mp3"
-        if f.exists() and f.stat().st_size > 300:
-            out[str(e["rank"])] = base64.b64encode(f.read_bytes()).decode("ascii")
-    return json.dumps(out, ensure_ascii=False, separators=(",", ":")), len(out)
+def inline_json(items):
+    return json.dumps({k: base64.b64encode(b).decode("ascii") for k, b in items},
+                      ensure_ascii=False, separators=(",", ":"))
 
 
-us_json, n_us = audio_json("us")
-ex_json, n_ex = audio_ex_json()
-# UK dropped: US-only keeps the page light enough for iPad WebKit (89MB page killed the tab).
+def pack(items):
+    """Concatenate the clips and index them -> (blob, {key: [offset, length]})."""
+    blob, index, off = bytearray(), {}, 0
+    for k, b in items:
+        blob += b
+        index[k] = [off, len(b)]
+        off += len(b)
+    return bytes(blob), index
 
-# multi-device sync config: web/supabase-config.json if present, else null (sync disabled)
-cfg_path = ROOT / "web" / "supabase-config.json"
-sync_config = cfg_path.read_text().strip() if cfg_path.exists() else "null"
 
-import hashlib
-import shutil
-DOCS = ROOT / "docs"
-DOCS.mkdir(exist_ok=True)
+us_items, ex_items = clips("us"), clips("ex")
+cfg = ROOT / "web" / "supabase-config.json"
+sync_config = cfg.read_text().strip() if cfg.exists() else "null"
 
-# expected offline-package size (bytes) for the settings-page cache-progress readout:
-# everything the service worker precaches = index.html + manifest + 3 icons.
-PWA_DIR = ROOT / "web" / "pwa"
-assets_bytes = sum((PWA_DIR / n).stat().st_size for n in
-                   ("manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"))
+# ---------- shared: build a filled template, given the audio-carrying bits ----------
+def render(audio_us, audio_ex, audio_index):
+    return (TPL
+            .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":")))
+            .replace("__AUDIO_US__", audio_us)
+            .replace("__AUDIO_EX__", audio_ex)
+            .replace("__AUDIO_INDEX__", audio_index)
+            .replace("__CACHE_NAME__", CACHE_NAME)
+            .replace("__SYNC_CONFIG__", sync_config))
 
-html = (TPL
-        .replace("__DATA__", json.dumps(slim, ensure_ascii=False, separators=(",", ":")))
-        .replace("__AUDIO_US__", us_json)
-        .replace("__AUDIO_EX__", ex_json)
-        .replace("__SYNC_CONFIG__", sync_config))
 
-# content hash of the built app -> both the sw.js CACHE name and the version shown in-app.
-# Computed here, BEFORE injecting build-info/cache-bytes, so it stays a pure function of the
-# content (data/audio/template) and does NOT depend on the timestamp — an identical-content
-# rebuild yields the same version and doesn't force a needless client update. __BUILD_INFO__ /
-# __CACHE_BYTES__ are still literal placeholders in `html` at this point, so this is deterministic.
-build_hash = hashlib.sha256(html.encode()).hexdigest()[:12]
+def stamp(html, build_hash, build_time):
+    return html.replace("__BUILD_INFO__",
+                        json.dumps({"v": build_hash, "t": build_time}, ensure_ascii=False))
+
+
+# ---------- hosted: shell + packs ----------
+us_blob, us_index = pack(us_items)
+ex_blob, ex_index = pack(ex_items)
+us_name = f"audio-us.{hashlib.sha256(us_blob).hexdigest()[:10]}.bin"
+ex_name = f"audio-ex.{hashlib.sha256(ex_blob).hexdigest()[:10]}.bin"
+
+audio_index = json.dumps({
+    "us": {"file": us_name, "bytes": len(us_blob), "index": us_index},
+    "ex": {"file": ex_name, "bytes": len(ex_blob), "index": ex_index},
+}, ensure_ascii=False, separators=(",", ":"))
+
+shell = render("", "", audio_index)
+# Version = content hash of the shell. The pack file names live inside it, so changed audio
+# changes the version too. Computed BEFORE stamping build info, so it ignores the timestamp:
+# an identical rebuild keeps the same version and doesn't push a pointless update to clients.
+build_hash = hashlib.sha256(shell.encode()).hexdigest()[:12]
 build_time = datetime.now().strftime("%Y-%m-%d %H:%M")
-html = html.replace("__BUILD_INFO__",
-                    json.dumps({"v": build_hash, "t": build_time}, ensure_ascii=False))
+shell = stamp(shell, build_hash, build_time)
 
-# CACHE_BYTES depends on the final html length; html length doesn't depend on it (fixed-width
-# is unnecessary — the JS just reads whatever number is here), so inject after building the body.
-cache_bytes = len(html.encode()) + assets_bytes
-html = html.replace("__CACHE_BYTES__", str(cache_bytes))
+DOCS.mkdir(exist_ok=True)
+for old in DOCS.glob("audio-*.bin"):              # sweep packs from previous builds
+    if old.name not in (us_name, ex_name):
+        old.unlink()
+(DOCS / "index.html").write_text(shell)
+(DOCS / us_name).write_bytes(us_blob)
+(DOCS / ex_name).write_bytes(ex_blob)
 
-OUT.write_text(html)
-print(f"-> {OUT}  ({OUT.stat().st_size//1024//1024} MB, {len(slim)} entries, "
-      f"audio US={n_us} EX={n_ex}, cache≈{cache_bytes//1024//1024} MB, ver={build_hash} @ {build_time})")
-
-# also emit the hosted PWA copy into docs/ (GitHub Pages source)
-(DOCS / "index.html").write_text(html)
-for f in (ROOT / "web" / "pwa").iterdir():
+# "./" is deliberately absent: it and "./index.html" are the same bytes, and listing both makes
+# addAll fetch and store the shell twice. Navigations to "./" are answered from "./index.html"
+# by the fetch handler in sw.js.
+precache = ["./index.html", "./manifest.webmanifest",
+            "./icon-180.png", "./icon-192.png", "./icon-512.png"]
+keep = precache + ["./" + us_name, "./" + ex_name]
+for f in PWA_DIR.iterdir():
     if f.name == "sw.js":
-        (DOCS / f.name).write_text(f.read_text().replace("__BUILD__", build_hash))
+        # BUILD_HASH is what makes sw.js differ after a shell-only change; without it the browser
+        # sees identical bytes, installs nothing, and keeps serving the cached shell forever.
+        (DOCS / f.name).write_text(f.read_text()
+                                   .replace("__PRECACHE__", json.dumps(precache))
+                                   .replace("__KEEP__", json.dumps(keep))
+                                   .replace("__BUILD_HASH__", build_hash))
     else:
         shutil.copy2(f, DOCS / f.name)
-print(f"-> {DOCS}/  (index.html + PWA: manifest, sw.js@{build_hash}, icons)")
 
+shell_kb = (DOCS / "index.html").stat().st_size // 1024
+print(f"-> {DOCS}/  shell {shell_kb} KB + {us_name} ({len(us_blob)//1048576} MB) "
+      f"+ {ex_name} ({len(ex_blob)//1048576} MB) + sw.js/manifest/icons, ver={build_hash} @ {build_time}")
+
+# ---------- single file: everything inline ----------
+single = stamp(render(inline_json(us_items), inline_json(ex_items), "null"), build_hash, build_time)
+OUT.write_text(single)
+print(f"-> {OUT}  ({OUT.stat().st_size//1048576} MB, {len(slim)} entries, "
+      f"audio US={len(us_items)} EX={len(ex_items)})")

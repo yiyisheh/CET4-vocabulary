@@ -1262,7 +1262,14 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
         for(k in rColors){ var hex="#"+k;
           if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
         state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
-        if(changed){ save(); renderSwatches(); if(settingsEl.style.display==="none") paginate(); }
+        if(changed){
+          save(); renderSwatches();
+          if(settingsEl.style.display==="none"){
+            pagesEl.querySelectorAll(".entry[data-rank]").forEach(function(el){
+              el.classList.toggle("marked", !!marked(+el.dataset.rank));
+            });
+          }
+        }
         if(push.length) return api("progress?on_conflict=code,kind,item",
           {method:"POST", headers:{"Prefer":"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify(push)});
       })

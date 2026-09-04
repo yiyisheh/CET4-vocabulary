@@ -343,7 +343,7 @@
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
     · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值自动往后推进<br>
-    · 设置 / 划线 / 上次位置自动保存
+    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；切后台、重开都不刷新，重新覆盖只在「开始背诵」
   </div>
   <button id="start">开始背诵</button>
 </div>
@@ -418,14 +418,19 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     selftest:false, showEx:true,  // selftest: blank the definition until tapped; showEx: render example lines
     maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
     counters:[],                  // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
-    poolMode:false, poolSize:40, poolLow:15, poolMax:0   // Leitner rank ceiling (see ensurePool). 【local】
+    poolMode:false, poolSize:40, poolLow:15, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
+    revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 开始背诵. 【local】
   };
-  try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
+  // _firstRun: no saved state -> land on the settings page. A returning install goes straight
+  // back to the reading view exactly as it was left (masks/marks/position all restored from state).
+  var _firstRun=true;
+  try{ var s=JSON.parse(localStorage.getItem(LS)); if(s){ Object.assign(state,s); _firstRun=false; } }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
   if(state.marked){ for(var _r in state.marked){ if(!state.marks[_r]) state.marks[_r]={v:1,t:0}; } delete state.marked; }
   // migrate showMarked(显示) -> removeMarked(去掉): inverse meaning
   if(state.showMarked!==undefined){ state.removeMarked=!state.showMarked; delete state.showMarked; }
   if(!state.marks) state.marks={};
+  if(!state.revealed) state.revealed={};
   if(!Array.isArray(state.counters)) state.counters=[];
   // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
   if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
@@ -470,7 +475,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var h='<div class="entry'+(marked(e.rank)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     h+='<div class="headline"><span class="num" data-act="mark">'+e.rank+'.</span> '
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
-    var st=state.selftest, m=st?' mask':"", ma=st?' data-act="reveal"':"";  // self-test masking
+    // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
+    // and relaunches — only 开始背诵 re-covers everything.
+    var st=state.selftest && !state.revealed[e.rank], m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
     // 词根词缀卡（在例句之上；自测里也一起遮蔽）
@@ -503,7 +510,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
 
   // ---- measured pagination (fills a column top-to-bottom like the PDF) ----
-  var pages=[], colW=300, colCount=2;
+  var pages=[], colW=300, colCount=2, layW=0, layH=0;   // layW/layH: the size the current layout was built for
   // marked words are filtered out ONLY here (at paginate time), not via CSS in real time —
   // so "去掉已划掉" takes effect when the settings page is opened/closed (which re-paginates),
   // and marking a word while reading never makes the page reflow under your finger.
@@ -560,6 +567,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var lay=applyLayout();
     var W=pagesEl.clientWidth, H=pagesEl.clientHeight;
     if(!W||!H) return;
+    layW=W; layH=H;
     if(state.cols==="auto"){
       var target=330*state.fontScale;
       colCount=Math.max(1, Math.round((W-2*lay.padh+lay.gap)/(target+lay.gap)));
@@ -893,7 +901,8 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     if(act==="ex"){ speakEx(rank); return; }         // tap the example line -> read it
     if(act==="reveal"){                              // self-test: unlock the card -> reveal ALL masked parts together
       var hid=entry.querySelectorAll(".mask");
-      if(hid.length){ [].forEach.call(hid,function(x){ x.classList.remove("mask"); x.removeAttribute("data-act"); }); return; }
+      if(hid.length){ [].forEach.call(hid,function(x){ x.classList.remove("mask"); x.removeAttribute("data-act"); });
+        state.revealed[rank]=1; save(); return; }    // remember the unlock so no re-render/relaunch re-covers it
       speak(word); return;                           // already revealed -> pronounce
     }
     // clicking the blank strip in front of / around the number also marks
@@ -1094,7 +1103,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
   rgExDelay.addEventListener("input", function(){ state.exDelay=+rgExDelay.value; vExDelay.textContent=state.exDelay+"ms"; save(); });
 
-  document.getElementById("start").addEventListener("click", function(){ settingsEl.style.display="none"; paginate(); });
+  // 开始背诵 = the ONE deliberate refresh: re-cover every self-test mask, re-apply 去掉已划掉 /
+  // 状态池 filtering, re-paginate. Nothing else (backgrounding, relaunch, no-op resize, sync pull)
+  // is allowed to do this.
+  document.getElementById("start").addEventListener("click", function(){
+    state.revealed={}; save(); settingsEl.style.display="none"; paginate(); });
   document.getElementById("btn-settings").addEventListener("click", function(){
     syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
 
@@ -1209,7 +1222,14 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
 
   var rzTO;
-  window.addEventListener("resize", function(){ clearTimeout(rzTO); rzTO=setTimeout(function(){ if(settingsEl.style.display==="none") paginate(); }, 200); });
+  window.addEventListener("resize", function(){ clearTimeout(rzTO); rzTO=setTimeout(function(){
+    if(settingsEl.style.display!=="none") return;
+    // iOS/iPadOS fires resize on every background→foreground switch WITHOUT any real size change
+    // (app-switcher snapshots etc.); re-paginating there re-covered masks and dropped marked words.
+    // Only a real size change (rotation, split-view) justifies a rebuild.
+    if(pagesEl.clientWidth===layW && pagesEl.clientHeight===layH) return;
+    paginate();
+  }, 200); });
 
   // ---- multi-device sync (Supabase REST, last-write-wins per word) ----
   // Syncs ONLY: per-word marks (LWW by timestamp) + the custom-color LIST (union).
@@ -1293,6 +1313,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   // init
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
+  // 老用户冷启动直接回到离开时的背诵页（遮蔽解锁/划线/位置全部由 state 恢复）；
+  // 设置页只剩「点设置按钮」一个入口，「重新覆盖遮蔽 / 过滤划词」只发生在主动点开始背诵时。
+  if(!_firstRun) settingsEl.style.display="none";
   loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();
 

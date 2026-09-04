@@ -126,7 +126,7 @@ English/
 - **点词条其他处** → 发音（**1250 条美音已 base64 内嵌，离线可用**；可调「跳过开头静音 0–100ms」。⚠️ 英音(UK)已移除、口音切换已删，见 §7）
 - **翻页**：底部页码栏两侧空白区（`‹`/`›`，`#barnav-l/#barnav-r`）点击翻上/下一页；左右滑动分页启用 `scroll-snap-stop:always`，轻划最多前进一页（不影响触控板/iPad）
 - **快速跳页滑块**：**点底部中间那颗「1 / 8」药丸页码**（`#pageno`）弹出 —— 左右分页模式是贴着底栏上方的横滑块 `#wheelH`（带「第 N / M 页」标签），上下无缝模式是贴右侧的竖滑块 `#wheelV`。拖动即时跳页。**收起方式**：再点一次药丸，或**点页面上任何别处**（这一下点击会被吞掉，不会顺带划词/发音/翻页），进设置页也会收起
-- **自测的"留白"实际是浅色块**：`.mask` 把释义/词根整块变成 `--panel`（#f4f6f9）的**圆角浅灰块**、文字透明（连后代一起），高度不变所以不重排；例句英文常显、中文被同样的块盖住。点块内任意处 → 该词条所有块**一起**解开。
+- **自测的"留白"实际是浅色块**：`.mask` 把释义/词根整块变成 `--panel`（#f4f6f9）的**圆角浅灰块**、文字透明（连后代一起），高度不变所以不重排；例句英文常显、中文被同样的块盖住。点块内任意处 → 该词条所有块**一起**解开。**解锁记入 `state.revealed` 并持久化：切后台、杀掉重开都不回盖；只有「设置 → 开始背诵」全部重新覆盖**（§5.3「刷新」纪律）。
 
 ### 3.2 设置页（自上而下的实际顺序）
 标题「四级高频单词 · 背诵」+ 副标题「2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF」；每项一行（左标题+灰色说明，右控件：蓝色 switch / seg 按钮组 / 滑块 / 数字框）；**「开始背诵」是固定在底部的蓝色大按钮**（`position:fixed`，会盖住最底下的内容，往上滚才看得到被盖住的行）。
@@ -244,6 +244,7 @@ web/pwa/* ───────────────────────�
   bg:"#ffffff",              // 当前背景色（【不同步】）
   customColors:[hex...],     // 自定义色号列表（【同步】，取并集）
   marks:{ rank:{v:0|1,t:ms} },// 划线：每词{是否+时间戳}（【同步】，LWW）
+  revealed:{ rank:1 },       // 自测已解锁的词（【本地】）：重排/切后台/冷启动都保持解锁；只有「开始背诵」清空、全部重新覆盖
   anchor:rank,               // 上次所在页的首词，用于恢复位置
   syncCode:"",               // 同步码（【本地】，各设备自填）
   dev:false,                 // 开发者模式（底部波形面板，【本地】）
@@ -258,7 +259,12 @@ web/pwa/* ───────────────────────�
 - **`ensurePool()` / `poolRemain()` / `poolNeedsRefill()`**：状态池引擎，见 §13
 - **`computeMilestones(list)`**：填 `milestoneAt{rank:累计数}`。对可见列表每个 1-based 位置 pos,若能被 `state.counters` 里任一间隔整除就记一个小标(值=pos,即"数当前显示的词");公倍数位置只记一次(按 rank 去重)。空 counters→空 map。`entryHTML` 末尾据此渲 `.milestone`
 - `render()`：拼 HTML，设 `#pages` 的 class（`h`/`v` + 可选 `markline`、`nodivider`）。**没有 hideMarked 类**——去掉已划掉的词是在 `visible()` 里过滤掉的，不是 CSS 隐藏
-- 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；**自测态下遮蔽处(data-act=reveal，含 .def/.root/.extrans)→首次点去掉同 entry 内所有 `.mask`(并移除其 data-act，恢复原生行为)=同步解锁、再点发音**；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
+- 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；**自测态下遮蔽处(data-act=reveal，含 .def/.root/.extrans)→首次点去掉同 entry 内所有 `.mask`(并移除其 data-act，恢复原生行为)=同步解锁、写进 `state.revealed` 持久化、再点发音**；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
+- **「何时刷新」纪律（用户明确要求，2026-09-04）**：页面内容**只在「点进设置 → 开始背诵」时重建**——清空 `state.revealed`（遮蔽全部回盖）、按 `removeMarked`/状态池重新过滤、重新装箱。其余一切路径都不许重排/回盖：
+  1. `entryHTML` 对 `state.revealed` 里的词条不再加 `.mask`，所以即使重排/冷启动，已解锁的也保持解锁；
+  2. **冷启动**：老用户（localStorage 有存档）直接回背诵页、恢复离开时的样子（遮蔽解锁/划线/位置）；只有首次安装才落在设置页（否则设置页 → 开始背诵必然回盖，与"重开恢复原样"冲突）；
+  3. **window `resize` 只在 `#pages` 尺寸真的变化时**才 `paginate()`（对比装箱时记下的 `layW/layH`）——**iOS/iPadOS 每次切后台再回来都会发 resize 但尺寸没变**，那正是"切回来遮蔽必回盖、划掉的词被刷掉"的真凶（上一个 fix 只修了同步路径，没修这个）；
+  4. 同步拉取（visibilitychange/focus 触发）只就地 toggle `.marked` class，不动其余 DOM。
   - `mark` 分支**唯一会重排页面的情况**：状态池模式下这一划让池内剩余触到低水位 → `ensurePool()` + `paginate()`（下一轮突击，§13）
 - **`speakEx(rank)`**：例句朗读。`clipBytes("ex", rank)` 取字节 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
 - **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。`clipBytes("us", word)` 取字节 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。取不到字节（托管版包还没下完）或无解码时回退 `speakHtml()`(有道 URL，需联网)

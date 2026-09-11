@@ -16,7 +16,7 @@ var CACHE = "cet4-1250";
 // is an update by byte-comparing sw.js; without this line an unhashed index.html plus PRECACHE
 // lists that never move would leave sw.js identical forever, and the cache-first shell would
 // never be replaced on any device that already installed it.
-var BUILD = "e04d1ce48efb";
+var BUILD = "a1f4bc3d9173";
 // PRECACHE is downloaded here on install (small). KEEP additionally lists the audio packs, which
 // the PAGE downloads and caches — precaching them here too would fetch the same 36MB twice.
 var PRECACHE = ["./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png"];

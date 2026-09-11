@@ -121,8 +121,6 @@
     background:var(--card); border:1px solid var(--hair); border-radius:23px;
     display:none; align-items:center; justify-content:center; box-shadow:0 6px 24px rgba(0,0,0,.18); }
   #wheelV input{ writing-mode:vertical-lr; -webkit-appearance:slider-vertical; width:22px; height:90%; }
-  .wlabel{ text-align:center; font-size:12px; color:var(--sub); margin-bottom:6px;
-    font-variant-numeric:tabular-nums; }
   input[type=range]{ accent-color:var(--blue); }
 
   /* ---------- settings ---------- */
@@ -341,7 +339,7 @@
     · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音（美音）<br>
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
-    · 点<b>页码</b> → 弹出快速翻页滚轮（再点收起）<br>
+    · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页，拖得远一次翻多页；再点或点别处收起）<br>
     · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值自动往后推进<br>
     · 设置 / 划线 / 自测解锁 / 上次位置自动保存；切后台、重开都不刷新，重新覆盖只在「开始背诵」
   </div>
@@ -362,7 +360,7 @@
   <div id="dev-info">开发者模式：点任意单词发音 —— 橙线=检测到的真起音，绿线=实际起播(起音前留 lead)，红线=播放头</div>
 </div>
 
-<div id="wheelH"><div class="wlabel" id="wlabelH"></div><input type="range" id="rangeH"></div>
+<div id="wheelH"><input type="range" id="rangeH"></div>
 <div id="wheelV"><input type="range" id="rangeV"></div>
 <div id="bar">
   <div id="barnav-l" class="barnav">‹</div>
@@ -608,7 +606,6 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     }
     pagesEl.innerHTML=html;
     pagesEl.className=state.mode+(state.markStyle==="line"?" markline":"")+(state.divider?"":" nodivider");
-    rangeH.max=rangeV.max=Math.max(0,pages.length-1);
     restoreAnchor(); prefetchCurrent();
   }
 
@@ -637,8 +634,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function updateLabel(){
     var cur=currentPage();
     pagenoEl.textContent=(cur+1)+" / "+pages.length;
-    rangeH.value=rangeV.value=cur;
-    wlabelH.textContent="第 "+(cur+1)+" / "+pages.length+" 页";
+    // 滑块是 0..1000 连续刻度；拖动中不回写，否则会跟手指打架
+    if(!dragging && pages.length>1){
+      var f=Math.round(cur/(pages.length-1)*1000);
+      rangeH.value=rangeV.value=f;
+    }
     return cur;
   }
   var scrollTO;
@@ -936,13 +936,46 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     speak(word);
   });
 
-  // ---- wheel ----
+  // ---- 跳页滑块：0..1000 连续刻度，拖动时页面实时跟手；松手按「趋势」定去留 ----
+  // 趋势规则：最后一段移动方向 与 离开起点页的方向 一致 → 翻过去，至少 1 页、多拖多翻
+  // （0.5~1.5 → 1 页，1.5~2.5 → 2 页，以此类推）；最后回头了（没退过原点页）→ 不动。
+  // 松手后滑块立即落到目标页的刻度上；吸附动画结束后才恢复 scroll-snap（避免先弹回再翻页）。
   var wheelH=document.getElementById("wheelH"), wheelV=document.getElementById("wheelV"),
       rangeH=document.getElementById("rangeH"), rangeV=document.getElementById("rangeV"),
-      wlabelH=document.getElementById("wlabelH");
-  rangeH.min=rangeV.min=0;
-  rangeH.addEventListener("input", function(){ wlabelH.textContent="第 "+(+rangeH.value+1)+" / "+pages.length+" 页"; scrollToPage(+rangeH.value,false); });
-  rangeV.addEventListener("input", function(){ scrollToPage(+rangeV.value,false); });
+      dragging=false, dragOrigin=0, lastVal=0, lastDir=0;
+  rangeH.min=rangeV.min=0; rangeH.max=rangeV.max=1000;
+  function dragBegin(r){ dragging=true; dragOrigin=currentPage(); lastVal=+r.value; lastDir=0; }
+  function dragMove(r){ var v=+r.value; if(v>lastVal) lastDir=1; else if(v<lastVal) lastDir=-1; lastVal=v; }
+  function dragRelease(r){
+    var pos=(+r.value/1000)*(pages.length-1);
+    var d=pos-dragOrigin, dir=d>0?1:d<0?-1:0, t=dragOrigin;
+    if(dir!==0 && lastDir===dir) t=dragOrigin + dir*Math.max(1, Math.round(Math.abs(d)));
+    t=Math.max(0, Math.min(pages.length-1, t));
+    if(pages.length>1) r.value=Math.round(t/(pages.length-1)*1000);   // 滑块跟着落到目标页的点
+    scrollToPage(t, true);
+    settleSnap();
+  }
+  function settleSnap(){                       // 平滑动画结束后恢复吸附并同步滑块刻度
+    var done=false;
+    function fin(){ if(done) return; done=true; pagesEl.style.scrollSnapType=""; dragging=false; updateLabel(); }
+    pagesEl.addEventListener("scrollend", fin, {once:true});
+    setTimeout(fin, 500);
+  }
+  rangeH.addEventListener("pointerdown", function(){ dragBegin(rangeH); });
+  rangeH.addEventListener("input", function(){
+    if(!dragging) dragBegin(rangeH);
+    dragMove(rangeH);
+    pagesEl.style.scrollSnapType="none";               // 拖动期间摘掉吸附，否则程序滚动会被弹回
+    pagesEl.scrollLeft=(+rangeH.value/1000)*(pagesEl.scrollWidth-pagesEl.clientWidth);
+  });
+  rangeH.addEventListener("change", function(){ dragRelease(rangeH); });
+  rangeV.addEventListener("pointerdown", function(){ dragBegin(rangeV); });
+  rangeV.addEventListener("input", function(){
+    if(!dragging) dragBegin(rangeV);
+    dragMove(rangeV);
+    pagesEl.scrollTop=(+rangeV.value/1000)*(pagesEl.scrollHeight-pagesEl.clientHeight);
+  });
+  rangeV.addEventListener("change", function(){ dragRelease(rangeV); });
   function wheelOpen(){ return wheelH.style.display==="block" || wheelV.style.display==="flex"; }
   function closeWheel(){ wheelH.style.display="none"; wheelV.style.display="none"; }
   pagenoEl.addEventListener("click", function(){

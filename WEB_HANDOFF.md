@@ -125,7 +125,7 @@ English/
 - **点例句** → 朗读整句（**edge-tts 生成，Andrew/Brian 两男声按词 1:1 随机，1250 条已内嵌离线**；见 §7.4）。⚠️ 热区**已被刻意缩短**（不是"整行加大"）：上方那 6px 间距走 margin 不可点，只有紧贴文字的 padding box 可点，避免点释义误触朗读。可调「例句播放前延迟 0–50ms」
 - **点词条其他处** → 发音（**1250 条美音已 base64 内嵌，离线可用**；可调「跳过开头静音 0–100ms」。⚠️ 英音(UK)已移除、口音切换已删，见 §7）
 - **翻页**：底部页码栏两侧空白区（`‹`/`›`，`#barnav-l/#barnav-r`）点击翻上/下一页；左右滑动分页启用 `scroll-snap-stop:always`，轻划最多前进一页（不影响触控板/iPad）
-- **快速跳页滑块**：**点底部中间那颗「1 / 8」药丸页码**（`#pageno`）弹出 —— 左右分页模式是贴着底栏上方的横滑块 `#wheelH`（带「第 N / M 页」标签），上下无缝模式是贴右侧的竖滑块 `#wheelV`。拖动即时跳页。**收起方式**：再点一次药丸，或**点页面上任何别处**（这一下点击会被吞掉，不会顺带划词/发音/翻页），进设置页也会收起
+- **快速跳页滑块**：**点底部中间那颗「1 / 8」药丸页码**（`#pageno`）弹出 —— 左右分页模式是贴着底栏上方的横滑块 `#wheelH`，上下无缝模式是贴右侧的竖滑块 `#wheelV`。**0..1000 连续刻度，拖动时页面实时跟手**（拖动期间摘掉 scroll-snap）；**松手按「趋势」定去留**：最后一段移动方向与离开起点页的方向一致 → 翻过去（至少 1 页，0.5~1.5 → 1 页、1.5~2.5 → 2 页、多拖多翻），最后回头了（没退过原点页）→ 不动；松手时滑块立即落到目标页刻度，吸附动画结束（`scrollend`）才恢复 snap。**收起方式**：再点一次药丸，或**点页面上任何别处**（这一下点击会被吞掉，不会顺带划词/发音/翻页），进设置页也会收起
 - **自测的"留白"实际是浅色块**：`.mask` 把释义/词根整块变成 `--panel`（#f4f6f9）的**圆角浅灰块**、文字透明（连后代一起），高度不变所以不重排；例句英文常显、中文被同样的块盖住。点块内任意处 → 该词条所有块**一起**解开。**解锁记入 `state.revealed` 并持久化：切后台、杀掉重开都不回盖；只有「设置 → 开始背诵」全部重新覆盖**（§5.3「刷新」纪律）。
 
 ### 3.2 设置页（自上而下的实际顺序）
@@ -270,7 +270,7 @@ web/pwa/* ───────────────────────�
 - **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。`clipBytes("us", word)` 取字节 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。取不到字节（托管版包还没下完）或无解码时回退 `speakHtml()`(有道 URL，需联网)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
 - **`turnPage(±1)`**：底部栏两侧 `#barnav-l/#barnav-r` 点击 → `scrollToPage(currentPage()±1)`，h/v 模式通用
-- **跳页滑块 `wheelOpen()/closeWheel()`**：`#pageno` 点击切换 `#wheelH`(h,`block`)/`#wheelV`(v,`flex`)；另有一个**捕获阶段**的 `document` click 监听——滑块开着且点在滑块与药丸之外时 `closeWheel()` 并 `stopPropagation+preventDefault`。**必须是捕获阶段**：这样才能抢在 `#pages` 点击委托和 `#barnav-l/r` 之前吃掉这一下，避免"点外面关滑块"顺手把词划了或发了音
+- **跳页滑块 `wheelOpen()/closeWheel()`**：`#pageno` 点击切换 `#wheelH`(h,`block`)/`#wheelV`(v,`flex`)；另有一个**捕获阶段**的 `document` click 监听——滑块开着且点在滑块与药丸之外时 `closeWheel()` 并 `stopPropagation+preventDefault`。**必须是捕获阶段**：这样才能抢在 `#pages` 点击委托和 `#barnav-l/r` 之前吃掉这一下，避免"点外面关滑块"顺手把词划了或发了音。滑块本体：`rangeH/rangeV` 是 0..1000 连续刻度（不是整页跳格），`input` 时 `scrollSnapType="none"` + 按刻度比例直接设 `scrollLeft/scrollTop`（跟手），`change` 时 `dragRelease()` 按趋势算目标页（见 §3.1）后平滑滑过去，`scrollend`（+500ms 兜底）恢复 snap 并 `updateLabel()` 同步刻度；`updateLabel()` 在 `dragging` 期间不回写滑块
 - **`clipBytes(which, key)`**：**取音频字节的唯一入口**（§4.1）。托管版从 `packs[which]` 里按 `AUDIO_INDEX` 的 `[偏移,长度]` `slice`；单文件版 `atob` 内联 base64。包没下完返回 `null`
 - **`loadPacks()` / `fetchPack(which)`**：托管版启动时拉音频包。先查 `caches.match` 命中就直接用；否则 `fetch` + `getReader()` 边读边计数（这就是真进度条的来源），完成后 `caches.put` 进 `CACHE_NAME` 那个桶。失败挂 `online` 事件重试。先 us 后 ex。
   **收下之前先验长度**：`buf.byteLength` 必须等于 `AUDIO_INDEX` 里的 `bytes`，否则抛错走重试、绝不入缓存；缓存里已有的长度不符条目也会被删掉重下（原因见 §10.1 最后一条）

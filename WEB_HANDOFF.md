@@ -225,7 +225,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - 设置页：`.row`/`.row.subrow`（子项行，左侧 2px 蓝竖线 + 缩进）、`.seg`、`.switch`、`.slider`、`.chips/.chip`（累计间隔，`::after` 自带 ✕）、`.poolnums`（状态池两个数字框）、`.swatches/.sw`、`.cachebar`、`.minibtn`、`.hintbox`、`#start`(fixed 底部大按钮)
 - 划线：`.entry.marked .num::before`（`left:-14px; right:0`，从最左横穿到序号右缘的 1.5px 灰线）；`.entry.marked{opacity:.5}`（变灰样式）；`#pages.markline` 取消变灰（仅划线）
 - 分栏：`.page{display:flex}` + `.col`，栏数/栏宽由 JS 算；`#pages.h` 用 `scroll-snap-type:x mandatory` + `scroll-snap-stop:always`
-- 主题变量全在 `:root`（`--bg/--card/--ink/--sub/--gray/--blue/--hair/--mark/--panel` + `--fs/--gap/--padh`），`applyTheme()` 按背景色亮度（`lum<0.42`）整套切深/浅色；`--blue`（强调色）由 `state.themeColor` 决定，空=默认黑/夜间浅灰
+- 主题变量全在 `:root`（`--bg/--card/--ink/--sub/--gray/--blue/--fill/--hair/--mark/--panel` + `--fs/--gap/--padh`），`applyTheme()` 按背景色亮度（`lum<0.42`）整套切深/浅色；`--blue`（文字级强调）与 `--fill`（大面积实底控件：开关/按钮/大按钮/滑块）都由 `state.themeColor` 决定——空=默认 `--blue` 黑（夜间浅灰）、`--fill` 柔和深灰 #3d3d3d（实底控件不用近黑是刻意的：白底纯黑色块太刺眼）；用户自选色则两者同色
 
 ### 5.2 状态 `state`（存在 `localStorage`，键 `cet4_reader_v3`）
 ```js

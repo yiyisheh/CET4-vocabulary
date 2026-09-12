@@ -15,7 +15,7 @@
   :root{
     --bg:#ffffff; --card:#ffffff; --ink:#1a1a1a; --sub:#555555;
     --gray:#8a8a8a; --blue:#1f5fa8; --hair:rgba(0,0,0,.08);
-    --mark:#8a8a8a; --panel:#f4f6f9;
+    --mark:#8a8a8a; --panel:#f4f6f9; --fill:#3d3d3d;
     --fs:1; --gap:20px; --padh:14px;
   }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -121,7 +121,7 @@
     background:var(--card); border:1px solid var(--hair); border-radius:23px;
     display:none; align-items:center; justify-content:center; box-shadow:0 6px 24px rgba(0,0,0,.18); }
   #wheelV input{ writing-mode:vertical-lr; -webkit-appearance:slider-vertical; width:22px; height:90%; }
-  input[type=range]{ accent-color:var(--blue); }
+  input[type=range]{ accent-color:var(--fill); }
 
   /* ---------- settings ---------- */
   #settings{ position:fixed; inset:0; background:var(--bg); z-index:50;
@@ -141,10 +141,10 @@
   .seg{ display:flex; border:1px solid var(--blue); border-radius:9px; overflow:hidden; flex-wrap:wrap; }
   .seg button{ border:0; background:var(--card); color:var(--blue);
     padding:8px 12px; font-size:13px; cursor:pointer; }
-  .seg button.on{ background:var(--blue); color:#fff; }
+  .seg button.on{ background:var(--fill); color:#fff; }
   .switch{ width:52px; height:30px; border-radius:16px; background:#c8ccd2;
     position:relative; cursor:pointer; transition:background .2s; flex:0 0 auto; }
-  .switch.on{ background:var(--blue); }
+  .switch.on{ background:var(--fill); }
   .switch::after{ content:""; position:absolute; top:3px; left:3px; width:24px; height:24px;
     border-radius:50%; background:#fff; transition:left .2s; }
   .switch.on::after{ left:25px; }
@@ -159,7 +159,7 @@
   .hexwrap{ display:flex; gap:8px; align-items:center; margin-top:8px; width:100%; }
   .hexwrap input{ flex:1; max-width:170px; padding:8px 10px; font-size:13px;
     border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
-  .hexwrap button{ padding:8px 14px; border:1px solid var(--blue); background:var(--blue);
+  .hexwrap button{ padding:8px 14px; border:1px solid var(--fill); background:var(--fill);
     color:#fff; border-radius:8px; font-size:13px; cursor:pointer; }
   /* counter-interval chips (added running-total intervals; tap a chip to remove it) */
   .chips{ display:flex; flex-wrap:wrap; gap:6px; width:100%; margin-top:8px; }
@@ -173,7 +173,7 @@
   .poolnums label{ font-size:12px; color:var(--sub); display:flex; align-items:center; gap:6px; }
   .poolnums input{ width:68px; padding:7px 8px; font-size:13px; text-align:center;
     border:1px solid var(--hair); border-radius:8px; background:var(--card); color:var(--ink); }
-  .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--blue); background:var(--blue);
+  .minibtn{ flex:0 0 auto; padding:9px 16px; border:1px solid var(--fill); background:var(--fill);
     color:#fff; border-radius:9px; font-size:13px; cursor:pointer; }
   .minibtn:disabled{ opacity:.5; cursor:default; }
   /* update-available accent: the version button turns amber when a new build is waiting */
@@ -196,7 +196,7 @@
   /* fixed at the bottom of the settings overlay so it's always reachable without scrolling.
      Child of #settings (display:none when closed) so it only shows while settings is open. */
   #start{ position:fixed; left:22px; right:22px; bottom:calc(env(safe-area-inset-bottom) + 16px);
-    z-index:60; padding:15px; background:var(--blue); color:#fff;
+    z-index:60; padding:15px; background:var(--fill); color:#fff;
     border:0; border-radius:13px; font-size:17px; font-weight:700; cursor:pointer;
     box-shadow:0 6px 22px rgba(0,0,0,.24); }
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
@@ -205,7 +205,7 @@
   /* offline-cache progress: slim bar in settings, matches the accent color */
   .cachebar{ flex:0 0 120px; height:8px; border-radius:5px; background:var(--panel);
     overflow:hidden; border:1px solid var(--hair); }
-  .cachebar i{ display:block; height:100%; width:0; background:var(--blue);
+  .cachebar i{ display:block; height:100%; width:0; background:var(--fill);
     border-radius:5px; transition:width .35s ease; }
   #cache-row.done .cachebar i{ background:#2ea043; }
   /* developer mode: bottom dock (takes real layout space), drag top edge to resize */
@@ -1032,6 +1032,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     r.setProperty("--sub",dark?"#aab0b6":"#555555");
     r.setProperty("--gray",dark?"#9aa0a6":"#8a8a8a");
     r.setProperty("--blue", state.themeColor || (dark?"#e9e9e9":"#1a1a1a"));
+    // --fill 是大面积实底控件（开关/按钮/大按钮）的颜色：默认用柔和深灰，白底下不刺眼；
+    // 用户自选了主题色则文字与控件都用它
+    r.setProperty("--fill", state.themeColor || (dark?"#e9e9e9":"#3d3d3d"));
     r.setProperty("--mark",dark?"#8b9096":"#8a8a8a");
     r.setProperty("--hair",dark?"rgba(255,255,255,.10)":"rgba(0,0,0,.08)");
     r.setProperty("--panel",dark?"rgba(255,255,255,.05)":"#f4f6f9");

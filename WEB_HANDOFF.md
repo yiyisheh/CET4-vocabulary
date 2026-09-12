@@ -113,7 +113,7 @@ English/
 
 | 行 | 类 | 实际样子 |
 |---|---|---|
-| 序号 + 单词 | `.num` / `.hw` | `401.` 灰色 tabular 数字 + `rather` **蓝色粗体**（`--blue` #1f5fa8） |
+| 序号 + 单词 | `.num` / `.hw` | `401.` 灰色 tabular 数字 + `rather` **粗体**（主题色 `--blue`，默认黑 #1a1a1a） |
 | 音标 | `.ipa` | `英[/ˈrɑːðə(r)/] 美[/ˈræðər/]` —— **深灰细字**（`--sub`，7.5pt，font-weight 300） |
 | 释义 | `.def` | `adv.相当; 宁愿; 更确切地说.` 正文色 8.5pt |
 | 词根词缀卡 | `.root` | **不是绿色、不是标签**：一整块**灰色小字**（`--gray` #8a8a8a，8pt），左缩进 6px。每行 `前缀 in- = 在…`（词性灰、词素**加粗**、= 释义）；最后一行是 `▸` 开头的合成汇总 `▸ in- 在… + stead 位置 ⇒ 处在(别人的)位置上 ⇒ 代替; 反而`。约 42%（523/1250）的词有 |
@@ -140,7 +140,7 @@ English/
 5. 实时累计词数（多间隔 chip·分界线深灰小标·靠左·数当前显示的词）
 6. 划线样式 / 显示分界线 / 翻页方式（左右分页·上下无缝）
 7. 跳过开头静音（0–100ms）/ 例句播放前延迟（0–50ms）
-8. 字号 / 栏数（自动按 PDF 栏宽铺满）/ 间距 / 背景色（预设+自定义 #）
+8. 字号 / 栏数（自动按 PDF 栏宽铺满）/ 间距 / 背景色（预设+自定义 #）/ **主题色**（`#accents`：强调色 `--blue`，默认=黑、深色背景下自动变浅灰；预设 黑/蓝/绿/红/紫 + 自定义色号存 `customAccents`【本地不同步】）
 9. **多端同步** / **离线缓存进度** / **版本号+检查更新**（§10.2）/ 开发者模式
 10. 最后是灰底 `.hintbox` 操作说明
 
@@ -225,7 +225,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - 设置页：`.row`/`.row.subrow`（子项行，左侧 2px 蓝竖线 + 缩进）、`.seg`、`.switch`、`.slider`、`.chips/.chip`（累计间隔，`::after` 自带 ✕）、`.poolnums`（状态池两个数字框）、`.swatches/.sw`、`.cachebar`、`.minibtn`、`.hintbox`、`#start`(fixed 底部大按钮)
 - 划线：`.entry.marked .num::before`（`left:-14px; right:0`，从最左横穿到序号右缘的 1.5px 灰线）；`.entry.marked{opacity:.5}`（变灰样式）；`#pages.markline` 取消变灰（仅划线）
 - 分栏：`.page{display:flex}` + `.col`，栏数/栏宽由 JS 算；`#pages.h` 用 `scroll-snap-type:x mandatory` + `scroll-snap-stop:always`
-- 主题变量全在 `:root`（`--bg/--card/--ink/--sub/--gray/--blue/--hair/--mark/--panel` + `--fs/--gap/--padh`），`applyTheme()` 按背景色亮度（`lum<0.42`）整套切深/浅色
+- 主题变量全在 `:root`（`--bg/--card/--ink/--sub/--gray/--blue/--hair/--mark/--panel` + `--fs/--gap/--padh`），`applyTheme()` 按背景色亮度（`lum<0.42`）整套切深/浅色；`--blue`（强调色）由 `state.themeColor` 决定，空=默认黑/夜间浅灰
 
 ### 5.2 状态 `state`（存在 `localStorage`，键 `cet4_reader_v3`）
 ```js
@@ -250,6 +250,8 @@ web/synbook.html ─────────┘      （先跑：书的字节计
   exDelay:0,                 // 例句播放前延迟(ms, 0..50)；例句音频已去前置静音（§7.4）
   bg:"#ffffff",              // 当前背景色（【不同步】）
   customColors:[hex...],     // 自定义色号列表（【同步】，取并集）
+  themeColor:"",             // 主题色=强调色 --blue；""=默认黑（深色背景自动变浅灰 #e9e9e9）【本地】
+  customAccents:[hex...],    // 自定义主题色号列表【本地，不同步】
   marks:{ rank:{v:0|1,t:ms} },// 划线：每词{是否+时间戳}（【同步】，LWW）
   revealed:{ rank:1 },       // 自测已解锁的词（【本地】）：重排/切后台/冷启动都保持解锁；只有「开始背诵」清空、全部重新覆盖
   anchor:rank,               // 上次所在页的首词，用于恢复位置

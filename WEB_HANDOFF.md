@@ -38,6 +38,8 @@
 1. **PDF 背诵版**（打印用）—— `英语四级高频单词彩色背诵版(优化).pdf`
 2. **iPad 背单词网页**（背单词用）—— `英语四级单词背诵.html`（**单文件离线网页**）+ `docs/`（托管版，装到主屏幕后是 **PWA**）
 
+另有第三条线：**同义词辨析书** —— 207 组近义/易混词逐个讲透，黑白书版式，`docs/synbook.html`（托管，SW 预缓存可离线）+ 根目录 `synbook.html`（单文件版的同目录伴侣，gitignore）。主 app 设置页第一行是它的入口。数据：`四级高频词同义辨析.json`（分组+词条+例句）+ `synbook_content/G001.md…G207.md`（每组正文，G001 即 `分类页内容参考.md`）。模板 `web/synbook.html`，构建 `scripts/build_synbook.py`（**要在 build_html.py 之前跑**：书的字节计入版本哈希、文件名进 SW 预缓存清单）。
+
 > 语料抓取 / 词频统计 / OCR 那一大套**上游**流水线见 `README.md`，本文档聚焦**下游的网页与优化版 PDF**。
 
 数据是从近五年(2021–2025)四级真题统计的高频词，按文档频率(DF)排序取 top-1250。
@@ -130,6 +132,7 @@ English/
 
 ### 3.2 设置页（自上而下的实际顺序）
 标题「四级高频单词 · 背诵」+ 副标题「2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF」；每项一行（左标题+灰色说明，右控件：蓝色 switch / seg 按钮组 / 滑块 / 数字框）；**「开始背诵」是固定在底部的蓝色大按钮**（`position:fixed`，会盖住最底下的内容，往上滚才看得到被盖住的行）。
+0. **同义词辨析 · 207 组**（第一行，`#btn-synbook` → `synbook.html`；托管版由 SW 预缓存可离线，单文件版需同目录有 synbook.html）
 1. 去掉已经划掉的单词（不实时·进出设置页才重载去掉）
 2. **状态池模式（莱特纳）** + 子行「池大小 / 推进阈值 / 重置范围」+ 当前范围账目（默认 40 / 15，步长=池大小−阈值，见 §13）
 3. 自测（释义+词根词缀卡一起留白·点卡片同步解锁）+ 子行 **例句翻译随卡片解锁**（英文常显·中文随卡片一起遮/解）
@@ -159,6 +162,10 @@ intermediate/audio/ex/*.mp3 ───────────┤
 web/template.html ─────────────────────┤─ build_html.py ─→ 英语四级单词背诵.html（根，单文件）
 web/supabase-config.json ──────────────┤                └→ docs/index.html + docs/{pwa资源}
 web/pwa/* ─────────────────────────────┘
+
+四级高频词同义辨析.json ──┐
+synbook_content/G*.md ────┤─ build_synbook.py ─→ docs/synbook.html + synbook.html（根，gitignore）
+web/synbook.html ─────────┘      （先跑：书的字节计入 build_html.py 的版本哈希与 SW 预缓存）
 ```
 
 ### 4.1 ⚠️ 两种发布形态（本轮重构，改构建/音频前必读）
@@ -420,6 +427,10 @@ python scripts/build_html.py           # → 英语四级单词背诵.html + doc
 
 # 只改了网页界面(template.html)：
 python scripts/build_html.py           # 重新注入数据/音频/配置即可
+
+# 改了辨析书内容(synbook_content/*.md)或版式(web/synbook.html)：
+python3 scripts/build_synbook.py       # → docs/synbook.html + synbook.html（根）
+python scripts/build_html.py           # 必须跟着跑：书计入版本哈希与 SW 预缓存
 ```
 
 ### 9.1 验证网页（工具已随仓库分发，在 `scripts/devtest/`）
@@ -523,6 +534,8 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
 | 改 PDF 版式 | `scripts/make_pdf.py`(底层 build) + `make_pdf_optimized.py`(参数) |
+| 改辨析书某组内容 | 直接改 `synbook_content/Gxxx.md` → `build_synbook.py` → `build_html.py` |
+| 改辨析书版式/交互 | `web/synbook.html`（一组一页、组内向下滚、目录/弹出检索、跳页滑块与主 app 同一套趋势逻辑）→ 同上两条命令 |
 
 ---
 

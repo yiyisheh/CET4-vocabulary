@@ -227,6 +227,11 @@
   <div class="desc">2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF</div>
 
   <div class="row">
+    <div class="lab"><b>同义词辨析 · 207 组</b><span>1250 个高频词按同义/近义/易混分组，逐组讲透区别；黑白书版式，支持目录跳转与单词检索</span></div>
+    <button class="minibtn" id="btn-synbook">打开</button>
+  </div>
+
+  <div class="row">
     <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，每次进出设置页时才重新加载去掉</span></div>
     <div id="sw-removemarked" class="switch"></div>
   </div>
@@ -1152,6 +1157,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     state.revealed={}; save(); settingsEl.style.display="none"; paginate(); });
   document.getElementById("btn-settings").addEventListener("click", function(){
     syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+  // 同义词辨析书：托管版在 docs/synbook.html（SW 预缓存，离线可读）；
+  // 单文件版指向同目录的 synbook.html（AirDrop 时两个文件一起发）。
+  document.getElementById("btn-synbook").addEventListener("click", function(){ location.href="synbook.html"; });
 
   // ---- offline-cache progress ----
   // The bar tracks the audio packs, because that IS the download: the shell is ~560KB (the SW

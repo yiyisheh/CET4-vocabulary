@@ -101,10 +101,14 @@ audio_index = json.dumps({
 }, ensure_ascii=False, separators=(",", ":"))
 
 shell = render("", "", audio_index)
-# Version = content hash of the shell. The pack file names live inside it, so changed audio
-# changes the version too. Computed BEFORE stamping build info, so it ignores the timestamp:
+# The synonym book (docs/synbook.html, built by scripts/build_synbook.py — run it first) rides
+# along in the precache and the version hash, so book edits propagate to installed PWAs too.
+syn = DOCS / "synbook.html"
+syn_bytes = syn.read_bytes() if syn.exists() else b""
+# Version = content hash of the shell (+ book). The pack file names live inside it, so changed
+# audio changes the version too. Computed BEFORE stamping build info, so it ignores the timestamp:
 # an identical rebuild keeps the same version and doesn't push a pointless update to clients.
-build_hash = hashlib.sha256(shell.encode()).hexdigest()[:12]
+build_hash = hashlib.sha256(shell.encode() + syn_bytes).hexdigest()[:12]
 build_time = datetime.now().strftime("%Y-%m-%d %H:%M")
 shell = stamp(shell, build_hash, build_time)
 
@@ -121,6 +125,8 @@ for old in DOCS.glob("audio-*.bin"):              # sweep packs from previous bu
 # by the fetch handler in sw.js.
 precache = ["./index.html", "./manifest.webmanifest",
             "./icon-180.png", "./icon-192.png", "./icon-512.png"]
+if syn_bytes:
+    precache.append("./synbook.html")     # 同义词辨析书（build_synbook.py 产物）
 keep = precache + ["./" + us_name, "./" + ex_name]
 for f in PWA_DIR.iterdir():
     if f.name == "sw.js":

@@ -38,7 +38,7 @@
 1. **PDF 背诵版**（打印用）—— `英语四级高频单词彩色背诵版(优化).pdf`
 2. **iPad 背单词网页**（背单词用）—— `英语四级单词背诵.html`（**单文件离线网页**）+ `docs/`（托管版，装到主屏幕后是 **PWA**）
 
-另有第三条线：**同义词辨析书** —— 207 组近义/易混词逐个讲透，黑白书版式，`docs/synbook.html`（托管，SW 预缓存可离线）+ 根目录 `synbook.html`（单文件版的同目录伴侣，gitignore）。主 app 设置页第一行是它的入口。数据：`四级高频词同义辨析.json`（分组+词条+例句）+ `synbook_content/G001.md…G207.md`（每组正文，G001 即 `分类页内容参考.md`）。模板 `web/synbook.html`，构建 `scripts/build_synbook.py`（**要在 build_html.py 之前跑**：书的字节计入版本哈希、文件名进 SW 预缓存清单）。
+另有第三条线：**同义词辨析书** —— 207 组近义/易混词逐个讲透，黑白书版式，`docs/synbook.html`（托管，SW 预缓存可离线）+ 根目录 `synbook.html`（单文件版的同目录伴侣，gitignore）。主 app 主菜单有它的入口。数据：`四级高频词同义辨析.json`（分组+词条+例句）+ `synbook_content/G001.md…G207.md`（每组正文，G001 即 `分类页内容参考.md`）。模板 `web/synbook.html`，构建 `scripts/build_synbook.py`（**要在 build_html.py 之前跑**：书的字节计入版本哈希、文件名进 SW 预缓存清单）。
 
 > 语料抓取 / 词频统计 / OCR 那一大套**上游**流水线见 `README.md`，本文档聚焦**下游的网页与优化版 PDF**。
 
@@ -119,7 +119,7 @@ English/
 | 词根词缀卡 | `.root` | **不是绿色、不是标签**：一整块**灰色小字**（`--gray` #8a8a8a，8pt），左缩进 6px。每行 `前缀 in- = 在…`（词性灰、词素**加粗**、= 释义）；最后一行是 `▸` 开头的合成汇总 `▸ in- 在… + stead 位置 ⇒ 处在(别人的)位置上 ⇒ 代替; 反而`。约 42%（523/1250）的词有 |
 | 例句 | `.ex` | `例句： The statement…（以下声明供您参考。）`。英文 + 全角括号里的中文。**几乎全部出自真题语料**；`例句（自编）：` 现仅剩 **1 条**（rank 110 `comprehension`——该词在 31 套卷子里只作「Listening Comprehension」标题出现，无成句，见 §7.5） |
 
-顶栏：左「四级高频 1250」蓝色粗体 + 右「设置」小按钮。
+顶栏：左「四级高频 1250」蓝色粗体 + 右「菜单」小按钮（回主菜单）。
 底栏：`‹` … `1 / 8` 圆角药丸页码 … `›`。
 
 - **点序号/左侧空白** → 灰色删除线标记「已掌握」（`markStyle`：变灰划线 / 仅划线）
@@ -130,10 +130,11 @@ English/
 - **快速跳页滑块**：**点底部中间那颗「1 / 8」药丸页码**（`#pageno`）弹出 —— 左右分页模式是贴着底栏上方的横滑块 `#wheelH`，上下无缝模式是贴右侧的竖滑块 `#wheelV`。**0..1000 连续刻度，拖动时页面实时跟手**（拖动期间摘掉 scroll-snap）；**松手按「趋势」定去留**：越过原点朝某方向拖 → 翻过去（至少 1 页，0.5~1.5 → 1 页、1.5~2.5 → 2 页、多拖多翻）；从最远点**回拉超过 10% 页宽** → 视为反悔、弹回原点页（回拉量 ≤10% 不取消）；松手时滑块立即落到目标页刻度，吸附动画结束（`scrollend`）才恢复 snap。**收起方式**：再点一次药丸，或**点页面上任何别处**（这一下点击会被吞掉，不会顺带划词/发音/翻页），进设置页也会收起
 - **自测的"留白"实际是浅色块**：`.mask` 把释义/词根整块变成 `--panel`（#f4f6f9）的**圆角浅灰块**、文字透明（连后代一起），高度不变所以不重排；例句英文常显、中文被同样的块盖住。点块内任意处 → 该词条所有块**一起**解开。**解锁记入 `state.revealed` 并持久化：切后台、杀掉重开都不回盖；只有「设置 → 开始背诵」全部重新覆盖**（§5.3「刷新」纪律）。
 
-### 3.2 设置页（自上而下的实际顺序）
-标题「四级高频单词 · 背诵」+ 副标题「2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF」；每项一行（左标题+灰色说明，右控件：蓝色 switch / seg 按钮组 / 滑块 / 数字框）；**「开始背诵」是固定在底部的蓝色大按钮**（`position:fixed`，会盖住最底下的内容，往上滚才看得到被盖住的行）。
-0. **同义词辨析 · 207 组**（第一行，`#btn-synbook` → `synbook.html`；托管版由 SW 预缓存可离线，单文件版需同目录有 synbook.html）
-1. 去掉已经划掉的单词（不实时·进出设置页才重载去掉）
+### 3.2 主菜单 + 设置子页（2026-09-15 改为两级）
+**每次启动（无论新老用户）都先落主菜单 `#menu`**（用户要求回退到"先进设置页"的行为）；背诵页顶栏的「菜单」按钮也回到这里。菜单自上而下：标题「四级高频单词 · 背诵」+ 副标题 → 进度区 `#menu-progress`（`renderMenu()`：全库已掌握 x/1250；开状态池时加范围/剩余账目，**已触低水位但尚未推进时提示「点开始背诵将推进到 N 号」**）→ 大号「**开始背诵**」按钮（`#start`，内联非 fixed，是**唯一的页面内容刷新点**，§5.3）→ 两个菜单项：「**同义词辨析 · 207 组**」（`#btn-synbook` → `synbook.html`；托管版由 SW 预缓存可离线，单文件版需同目录有 synbook.html）、「**设置**」（`#btn-opensettings` → 设置子页）。
+
+**设置子页 `#settings`**（菜单里进入，盖在菜单上；头部「‹ 返回」`#btn-back` 回菜单，返回**不刷新**）：每项一行（左标题+灰色说明，右控件：蓝色 switch / seg 按钮组 / 滑块 / 数字框），自上而下：
+1. 去掉已经划掉的单词（不实时·下次开始背诵才重载去掉）
 2. **状态池模式（莱特纳）** + 子行「池大小 / 推进阈值 / 重置范围」+ 当前范围账目（默认 40 / 15，步长=池大小−阈值，见 §13）
 3. 自测（释义+词根词缀卡一起留白·点卡片同步解锁）+ 子行 **例句翻译随卡片解锁**（英文常显·中文随卡片一起遮/解）
 4. 显示例句开关
@@ -207,7 +208,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 
 ## 5. `web/template.html` 内部结构（改网页看这节）
 
-结构顺序：`<style>`（全部 CSS）→ `#settings` 设置页 DOM → `#top` / `#pages` / `#measure` / `#dev` / `#bar` → **5 个 `<script>`**：
+结构顺序：`<style>`（全部 CSS）→ `#menu` 主菜单 + `#settings` 设置子页 DOM → `#top` / `#pages` / `#measure` / `#dev` / `#bar` → **5 个 `<script>`**：
 1. `<script type="application/json" id="audio-us">__AUDIO_US__</script>`（**单文件版**才有内容；托管版是空的）
 2. `<script type="application/json" id="audio-ex">__AUDIO_EX__</script>`（同上）
 3. `window.CET4` / **`window.AUDIO_INDEX`**（托管版的音频包索引，单文件版为 `null`）/ `window.BUILD_INFO` / `window.CACHE_NAME`
@@ -222,7 +223,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - **`.root` 没有任何专属颜色/边框**：`.root .p` 和 `.root .sum` 都是 `--gray` 8pt，只有 `.root .p .txt`（词素本身）是 `font-weight:700`。`padding-left:6px` 的缩进是它唯一的"卡片感"
 - `.ex` 的**点击热区 = padding box**：上 padding 只有 1px、上方间距走 margin（不可点），下 padding 5px 留出舒适点按；左右负 margin 让文字与 `.def` 对齐；`:active` 时才显示 `--panel` 底
 - `.mask`（自测遮蔽：`color:transparent !important` + `.mask *` 后代同样透明 + `--panel` 底 + 5px 圆角；高度不变故不重排）、`.milestone`（累计小标，靠左、`--sub`、6.8pt、opacity .75）
-- 设置页：`.row`/`.row.subrow`（子项行，左侧 2px 蓝竖线 + 缩进）、`.seg`、`.switch`、`.slider`、`.chips/.chip`（累计间隔，`::after` 自带 ✕）、`.poolnums`（状态池两个数字框）、`.swatches/.sw`、`.cachebar`、`.minibtn`、`.hintbox`、`#start`(fixed 底部大按钮)
+- 设置子页：`.row`/`.row.subrow`（子项行，左侧 2px 蓝竖线 + 缩进）、`.seg`、`.switch`、`.slider`、`.chips/.chip`（累计间隔，`::after` 自带 ✕）、`.poolnums`（状态池两个数字框）、`.swatches/.sw`、`.cachebar`、`.minibtn`、`.hintbox`、`.shead`（子页头：‹ 返回 + 标题）；主菜单：`#menu`、`.mprog`（进度区）、`.mitem`（菜单项）、`#start`（菜单的大按钮，内联非 fixed）
 - 划线：`.entry.marked .num::before`（`left:-14px; right:0`，从最左横穿到序号右缘的 1.5px 灰线）；`.entry.marked{opacity:.5}`（变灰样式）；`#pages.markline` 取消变灰（仅划线）
 - 分栏：`.page{display:flex}` + `.col`，栏数/栏宽由 JS 算；`#pages.h` 用 `scroll-snap-type:x mandatory` + `scroll-snap-stop:always`
 - 主题变量全在 `:root`（`--bg/--card/--ink/--sub/--gray/--blue/--fill/--hair/--mark/--panel` + `--fs/--gap/--padh`），`applyTheme()` 按背景色亮度（`lum<0.42`）整套切深/浅色；`--blue`（文字级强调）与 `--fill`（大面积实底控件：开关/按钮/大按钮/滑块）都由 `state.themeColor` 决定——空=默认 `--blue` 黑（夜间浅灰）、`--fill` 柔和深灰 #3d3d3d（实底控件不用近黑是刻意的：白底纯黑色块太刺眼）；用户自选色则两者同色
@@ -269,12 +270,12 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - **`computeMilestones(list)`**：填 `milestoneAt{rank:累计数}`。对可见列表每个 1-based 位置 pos,若能被 `state.counters` 里任一间隔整除就记一个小标(值=pos,即"数当前显示的词");公倍数位置只记一次(按 rank 去重)。空 counters→空 map。`entryHTML` 末尾据此渲 `.milestone`
 - `render()`：拼 HTML，设 `#pages` 的 class（`h`/`v` + 可选 `markline`、`nodivider`）。**没有 hideMarked 类**——去掉已划掉的词是在 `visible()` 里过滤掉的，不是 CSS 隐藏
 - 点击委托（`pagesEl` 上一个 click）：`.ex`(data-act=ex)→`speakEx`(朗读例句)；**自测态下遮蔽处(data-act=reveal，含 .def/.root/.extrans)→首次点去掉同 entry 内所有 `.mask`(并移除其 data-act，恢复原生行为)=同步解锁、写进 `state.revealed` 持久化、再点发音**；判定点在序号左侧→`mark`；点单词→`syl`(音节切换+发音)；其他→发音
-- **「何时刷新」纪律（用户明确要求，2026-09-04）**：页面内容**只在「点进设置 → 开始背诵」时重建**——清空 `state.revealed`（遮蔽全部回盖）、按 `removeMarked`/状态池重新过滤、重新装箱。其余一切路径都不许重排/回盖：
+- **「何时刷新」纪律（用户明确要求，2026-09-04；2026-09-15 起冷启动统一走主菜单、划词永不重排）**：页面内容**只在主菜单点「开始背诵」时重建**——清空 `state.revealed`（遮蔽全部回盖）、按 `removeMarked`/状态池重新过滤、`ensurePool()` 推进范围、重新装箱。其余一切路径都不许重排/回盖：
   1. `entryHTML` 对 `state.revealed` 里的词条不再加 `.mask`，所以即使重排/冷启动，已解锁的也保持解锁；
-  2. **冷启动**：老用户（localStorage 有存档）直接回背诵页、恢复离开时的样子（遮蔽解锁/划线/位置）；只有首次安装才落在设置页（否则设置页 → 开始背诵必然回盖，与"重开恢复原样"冲突）；
-  3. **window `resize` 只在 `#pages` 尺寸真的变化时**才 `paginate()`（对比装箱时记下的 `layW/layH`）——**iOS/iPadOS 每次切后台再回来都会发 resize 但尺寸没变**，那正是"切回来遮蔽必回盖、划掉的词被刷掉"的真凶（上一个 fix 只修了同步路径，没修这个）；
+  2. **冷启动**：每次启动（无论新老用户）都先落**主菜单**（用户要求回退到"先进设置页"的行为，并进一步把设置页改成主菜单，§3.2）；点「开始背诵」才进背诵页，那一刻按本条纪律重建内容；
+  3. **window `resize` 只在 `#pages` 尺寸真的变化时**才 `paginate()`（对比装箱时记下的 `layW/layH`），且主菜单/设置子页打开时直接忽略——**iOS/iPadOS 每次切后台再回来都会发 resize 但尺寸没变**，那正是"切回来遮蔽必回盖、划掉的词被刷掉"的真凶（上一个 fix 只修了同步路径，没修这个）；
   4. 同步拉取（visibilitychange/focus 触发）只就地 toggle `.marked` class，不动其余 DOM。
-  - `mark` 分支**唯一会重排页面的情况**：状态池模式下这一划让池内剩余触到低水位 → `ensurePool()` + `paginate()`（下一轮突击，§13）
+  - `mark` 划词**永不重排**：状态池触低水位也**不当场刷新**（2026-09-15 用户要求），范围推进推迟到下次 `paginate()`（即「开始背诵」或改动影响排版的设置项），主菜单进度区会提示「待推进」（`renderMenu()`）
 - **`speakEx(rank)`**：例句朗读。`clipBytes("ex", rank)` 取字节 → 复用 §7 的 decode+缓存内核 → `playEx()` → `playClip()`（`<audio>` 出声）。例句音频**已在构建前去掉前置静音**，故 `off=onset(≈0)`；`exDelay`(0..50ms)的"播放前静默"以**前置静音样本形式编进 WAV**。无内嵌/无解码则静默（例句不回退有道）
 - **`speak(word)`**：**Web Audio 只做解码，`<audio>` 元素出声**（见 §7.1）。`clipBytes("us", word)` 取字节 → `decodeAudioData` 整条解成 PCM（缓存 `{buf,onset,url}`，上限 48 条）→ `detectOnset()` 检测真起音 → `playClip()`：在样本 `onset−lead` 处**裁切 PCM、编成 16-bit WAV blob**，交给共享 `<audio>` 播放（`lead=100-skipMs`；skipMs/exDelay 变了会按 `urlKey` 重切）。WAV 从起播点开始、无需 seek，保住"样本级、零切词"。首次点击手势内 `mediaUnlock()` 播一段静音 WAV 解锁元素（iOS 手势要求）。取不到字节（托管版包还没下完）或无解码时回退 `speakHtml()`(有道 URL，需联网)
 - `detectOnset(buf)`：稳健起音检测——12ms 窗 RMS、阈值取“每条噪声底×2.5 与 0.0009 的较大者”、要求持续 10ms（忽略孤立杂点、抓得住低幅擦音）
@@ -598,8 +599,8 @@ ensurePool()      = 幂等：先保证 poolMax ≥ poolSize，再 while(剩余 �
 | 180 | **280** | **100** | 每次推进剩余都回到池大小 |
 
 - **迁移**：老版本的 `state.pool`（每轮花名册数组）→ `poolMax = max(pool)`，并**立刻存盘一次**，否则旧数组会永远赖在 localStorage 里。
-- **调用点**：`paginate()` 开头；点击委托 `mark` 分支里 `poolNeedsRefill()` 为真时；设置页开关/改数值/重置之后。
-- `mark` 里那次推进是**全站唯一会因为划词而重排页面的地方**——刻意为之：推进是用户该看见的事件，重排后 `state.anchor` 指到新范围里的第一个词。平时划词不重排（不会在手指底下抖）。
+- **调用点**：`paginate()` 开头（含「开始背诵」）；设置页开关/改数值/重置之后。`mark` 划词**不再**调用（2026-09-15：用户要求到刷新条件时不当场刷新，等重进点「开始背诵」再推进）。
+- **划词不重排**（2026-09-15 改）：以前 `mark` 分支在低水位时会 `ensurePool()`+`paginate()` 当场推进（全站唯一因划词重排的地方，重排后 `state.anchor` 指到新范围第一个词）；现已删掉——推进统一推迟到下次 `paginate()`（「开始背诵」），主菜单进度区（`renderMenu()`）会显示「剩余已到阈值——点开始背诵将推进到 N 号」。
 - 累计小标（`counters`）照常按 `visible()` 的位置算，所以开池模式时数的是**范围内剩余**的词。
 
 ### 13.3 已验证（`scripts/devtest/`，§9.1）
@@ -610,6 +611,7 @@ ensurePool()      = 幂等：先保证 poolMax ≥ poolSize，再 while(剩余 �
 - 到书尾 `Math.min(…, 1250)` 收口：上界 160 · 已掌握 120 在只有 200 词的测试页上被夹到 200 ✓
 - 旧版 roster `[101..200]` 状态 → 迁移成 `poolMax=200`，旧 `pool` 字段从 localStorage 清掉 ✓
 - 「重置范围」→ 回到池大小 ✓；关掉开关 → 恢复全量 ✓；全程无控制台报错 ✓
+- **划到阈值当场不推进**（2026-09-15）：池 10 / 阈值 3，划掉 7 个 → 页面仍 10 词、`poolMax` 仍 10；主菜单提示「剩余已到阈值——点开始背诵将推进到 17 号」；点「开始背诵」→ `poolMax` 17、可见 10 ✓。启动（含老用户存档）一律先落主菜单 ✓
 
 ---
 

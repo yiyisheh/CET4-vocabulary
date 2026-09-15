@@ -123,13 +123,30 @@
   #wheelV input{ writing-mode:vertical-lr; -webkit-appearance:slider-vertical; width:22px; height:90%; }
   input[type=range]{ accent-color:var(--fill); }
 
-  /* ---------- settings ---------- */
+  /* ---------- main menu + settings (both fullscreen overlays) ---------- */
+  /* 主菜单：每次进入的落地页。设置是它的子页（默认隐藏，打开时盖在菜单上）。 */
+  #menu{ position:fixed; inset:0; background:var(--bg); z-index:40;
+    display:flex; flex-direction:column; padding:0 26px;
+    padding-top:calc(env(safe-area-inset-top) + 30px);
+    padding-bottom:calc(env(safe-area-inset-bottom) + 24px); overflow:auto; }
+  #menu h1{ font-size:24px; color:var(--blue); margin:8px 0 4px; }
+  #menu .desc{ color:var(--sub); font-size:13px; }
+  .mprog{ margin-top:18px; background:var(--panel); border-radius:12px;
+    padding:12px 14px; font-size:13.5px; color:var(--sub); line-height:1.7; }
+  .mprog b{ color:var(--ink); }
+  .mitem{ display:flex; align-items:center; gap:12px; width:100%; text-align:left;
+    background:var(--card); border:1px solid var(--hair); border-radius:13px;
+    padding:14px 16px; margin-bottom:10px; cursor:pointer; color:var(--ink); font-family:inherit; }
+  .mitem:active{ background:var(--panel); }
+  .mitem .mt{ display:block; font-size:16px; font-weight:600; }
+  .mitem .md{ display:block; font-size:12px; color:var(--sub); margin-top:2px; }
+  .mitem .marr{ margin-left:auto; color:var(--gray); font-size:24px; font-weight:300; }
   #settings{ position:fixed; inset:0; background:var(--bg); z-index:50;
-    display:flex; flex-direction:column; padding:0 22px;
-    padding-top:calc(env(safe-area-inset-top) + 18px);
-    padding-bottom:calc(env(safe-area-inset-bottom) + 92px); overflow:auto; }
-  #settings h1{ font-size:22px; color:var(--blue); margin:12px 0 4px; }
-  #settings .desc{ color:var(--sub); font-size:13px; margin-bottom:12px; }
+    display:none; flex-direction:column; padding:0 22px;
+    padding-top:calc(env(safe-area-inset-top) + 12px);
+    padding-bottom:calc(env(safe-area-inset-bottom) + 20px); overflow:auto; }
+  .shead{ display:flex; align-items:center; gap:12px; padding:6px 0 10px; }
+  .shead .stitle{ font-size:18px; font-weight:700; color:var(--blue); }
   .row{ display:flex; align-items:center; padding:13px 2px;
     border-bottom:1px solid var(--hair); gap:12px; flex-wrap:wrap; }
   .row .lab{ flex:1; min-width:140px; }
@@ -193,11 +210,9 @@
   #um-status.err{ color:#c0392b; }
   .umbtns{ display:flex; justify-content:flex-end; gap:10px; margin-top:14px; }
   .umbtns .minibtn.ghost{ background:var(--card); color:var(--blue); }
-  /* fixed at the bottom of the settings overlay so it's always reachable without scrolling.
-     Child of #settings (display:none when closed) so it only shows while settings is open. */
-  #start{ position:fixed; left:22px; right:22px; bottom:calc(env(safe-area-inset-bottom) + 16px);
-    z-index:60; padding:15px; background:var(--fill); color:#fff;
-    border:0; border-radius:13px; font-size:17px; font-weight:700; cursor:pointer;
+  /* the main menu's primary action (in-flow big button, not fixed) */
+  #start{ width:100%; margin:26px 0 24px; padding:16px; background:var(--fill); color:#fff;
+    border:0; border-radius:13px; font-size:18px; font-weight:700; cursor:pointer;
     box-shadow:0 6px 22px rgba(0,0,0,.24); }
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
     font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
@@ -222,21 +237,34 @@
 </head>
 <body>
 
-<div id="settings">
+<!-- 主菜单：每次进入先落在这里；「开始背诵」是唯一的页面内容刷新点 -->
+<div id="menu">
   <h1>四级高频单词 · 背诵</h1>
   <div class="desc">2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF</div>
+  <div class="mprog" id="menu-progress"></div>
+  <button id="start">开始背诵</button>
+  <button class="mitem" id="btn-synbook">
+    <span><span class="mt">同义词辨析 · 207 组</span><span class="md">1250 个高频词按同义/近义/易混分组，逐组讲透区别</span></span>
+    <span class="marr">›</span>
+  </button>
+  <button class="mitem" id="btn-opensettings">
+    <span><span class="mt">设置</span><span class="md">状态池 · 自测 · 显示 · 发音 · 颜色 · 多端同步</span></span>
+    <span class="marr">›</span>
+  </button>
+</div>
 
-  <div class="row">
-    <div class="lab"><b>同义词辨析 · 207 组</b><span>1250 个高频词按同义/近义/易混分组，逐组讲透区别；黑白书版式，支持目录跳转与单词检索</span></div>
-    <button class="minibtn" id="btn-synbook">打开</button>
+<div id="settings">
+  <div class="shead">
+    <button class="iconbtn" id="btn-back">‹ 返回</button>
+    <div class="stitle">设置</div>
   </div>
 
   <div class="row">
-    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，每次进出设置页时才重新加载去掉</span></div>
+    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，下次「开始背诵」时才重新加载去掉</span></div>
     <div id="sw-removemarked" class="switch"></div>
   </div>
   <div class="row">
-    <div class="lab"><b>状态池模式（莱特纳）</b><span>只背序号范围内还没划掉的词；划掉=熟练剔除。剩余降到阈值时，范围自动往后推进放新词进来。已掌握按全库总量算，不会归零</span></div>
+    <div class="lab"><b>状态池模式（莱特纳）</b><span>只背序号范围内还没划掉的词；划掉=熟练剔除。剩余降到阈值时，下次「开始背诵」才把范围往后推进放新词进来（不当场刷新）。已掌握按全库总量算，不会归零</span></div>
     <div id="sw-poolmode" class="switch"></div>
   </div>
   <div class="row subrow">
@@ -353,15 +381,14 @@
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
-    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值自动往后推进<br>
-    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；切后台、重开都不刷新，重新覆盖只在「开始背诵」
+    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，下次「开始背诵」才把范围往后推进（不当场刷新）<br>
+    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单，页面内容的重建只发生在点「开始背诵」时
   </div>
-  <button id="start">开始背诵</button>
 </div>
 
 <div id="top">
   <div class="t">四级高频 1250</div><div class="sp"></div>
-  <button class="iconbtn" id="btn-settings">设置</button>
+  <button class="iconbtn" id="btn-settings">菜单</button>
 </div>
 
 <div id="pages"></div>
@@ -432,10 +459,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     poolMode:false, poolSize:40, poolLow:15, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
     revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 开始背诵. 【local】
   };
-  // _firstRun: no saved state -> land on the settings page. A returning install goes straight
-  // back to the reading view exactly as it was left (masks/marks/position all restored from state).
-  var _firstRun=true;
-  try{ var s=JSON.parse(localStorage.getItem(LS)); if(s){ Object.assign(state,s); _firstRun=false; } }catch(e){}
+  try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
   if(state.marked){ for(var _r in state.marked){ if(!state.marks[_r]) state.marks[_r]={v:1,t:0}; } delete state.marked; }
   // migrate showMarked(显示) -> removeMarked(去掉): inverse meaning
@@ -525,7 +549,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // ---- measured pagination (fills a column top-to-bottom like the PDF) ----
   var pages=[], colW=300, colCount=2, layW=0, layH=0;   // layW/layH: the size the current layout was built for
   // marked words are filtered out ONLY here (at paginate time), not via CSS in real time —
-  // so "去掉已划掉" takes effect when the settings page is opened/closed (which re-paginates),
+  // so "去掉已划掉" takes effect on the next 开始背诵 (which re-paginates),
   // and marking a word while reading never makes the page reflow under your finger.
   function visible(){
     if(state.poolMode) return DATA.filter(function(e){ return e.rank<=state.poolMax && !marked(e.rank); });
@@ -931,15 +955,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       state.marks[rank] = {v:nv, t:Date.now()};
       entry.classList.toggle("marked", nv===1); save();
       syncPushMark(rank);
-      // Pool mode: the ONE place that re-paginates on a mark — hitting the low watermark starts the
-      // next round (survivors + freshly injected words), so it's a deliberate, visible event.
-      if(poolNeedsRefill()){
-        ensurePool();
-        var first=visible()[0]; if(first) state.anchor=first.rank; save();
-        paginate();
-        return;
-      }
-      // otherwise no paginate(): removal is deferred to the next settings open/close (see visible())
+      // 划词绝不重排页面（不会在手指底下抖）。状态池触到低水位也**不当场刷新**——
+      // 范围推进推迟到下次 paginate()（重进后点「开始背诵」，或改动影响排版的设置项）；
+      // 主菜单的进度区会提示「待推进」（renderMenu）。
       return;
     }
     if(act==="syl"){
@@ -1041,7 +1059,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
 
   // ---- settings UI ----
-  var settingsEl=document.getElementById("settings"),
+  var menuEl=document.getElementById("menu"),
+      menuProgEl=document.getElementById("menu-progress"),
+      settingsEl=document.getElementById("settings"),
       swRemove=document.getElementById("sw-removemarked"),
       swPoolMode=document.getElementById("sw-poolmode"),
       poolSizeIn=document.getElementById("pool-size"),
@@ -1118,7 +1138,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     poolStatEl.innerHTML =
       "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b><br>"
       +(win>=DATA.length ? "（已到全书末尾）"
-                         : "（剩余 ≤ "+state.poolLow+" 时推进到 "+next+" 号）")
+                         : "（剩余 ≤ "+state.poolLow+" 时，下次开始背诵推进到 "+next+" 号）")
       +"<br>全库已掌握 "+all+" / "+DATA.length;
   }
   function syncSettings(){
@@ -1188,13 +1208,33 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   rgSkip.addEventListener("input", function(){ state.skipMs=+rgSkip.value; vSkip.textContent=state.skipMs+"ms"; save(); });
   rgExDelay.addEventListener("input", function(){ state.exDelay=+rgExDelay.value; vExDelay.textContent=state.exDelay+"ms"; save(); });
 
+  // 主菜单进度区：全库已掌握 + 状态池账目；池已触低水位但尚未推进时提示「待推进」
+  //（推进只发生在下一次 paginate()，即点「开始背诵」时——划词当场不再刷新）。
+  function renderMenu(){
+    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
+    var h="全库已掌握 <b>"+all+"</b> / "+DATA.length;
+    if(state.poolMode){
+      var win=Math.min(state.poolMax,DATA.length), rem=poolRemain();
+      h+="<br>状态池：范围 第 1–"+win+" 号 · 剩余 <b>"+rem+"</b>";
+      if(poolNeedsRefill())
+        h+="<br>剩余已到阈值——点「开始背诵」将推进到 "+Math.min(DATA.length, win+(state.poolSize-state.poolLow))+" 号";
+      else if(win>=DATA.length) h+="（已到全书末尾）";
+    }
+    menuProgEl.innerHTML=h;
+  }
+
   // 开始背诵 = the ONE deliberate refresh: re-cover every self-test mask, re-apply 去掉已划掉 /
-  // 状态池 filtering, re-paginate. Nothing else (backgrounding, relaunch, no-op resize, sync pull)
-  // is allowed to do this.
+  // 状态池 filtering (ensurePool advances the ceiling here), re-paginate. Nothing else
+  // (backgrounding, relaunch, no-op resize, sync pull, marking a word) is allowed to do this.
   document.getElementById("start").addEventListener("click", function(){
-    state.revealed={}; save(); settingsEl.style.display="none"; paginate(); });
+    state.revealed={}; save(); settingsEl.style.display="none"; menuEl.style.display="none"; paginate(); });
+  // 顶栏「设置」-> 回主菜单；菜单里的「设置」-> 设置子页；子页「返回」回菜单（不刷新）。
   document.getElementById("btn-settings").addEventListener("click", function(){
-    syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+    renderMenu(); menuEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
+  document.getElementById("btn-opensettings").addEventListener("click", function(){
+    syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; });
+  document.getElementById("btn-back").addEventListener("click", function(){
+    settingsEl.style.display="none"; renderMenu(); });
   // 同义词辨析书：托管版在 docs/synbook.html（SW 预缓存，离线可读）；
   // 单文件版指向同目录的 synbook.html（AirDrop 时两个文件一起发）。
   document.getElementById("btn-synbook").addEventListener("click", function(){ location.href="synbook.html"; });
@@ -1311,7 +1351,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   var rzTO;
   window.addEventListener("resize", function(){ clearTimeout(rzTO); rzTO=setTimeout(function(){
-    if(settingsEl.style.display!=="none") return;
+    if(settingsEl.style.display!=="none" || menuEl.style.display!=="none") return;
     // iOS/iPadOS fires resize on every background→foreground switch WITHOUT any real size change
     // (app-switcher snapshots etc.); re-paginating there re-covered masks and dropped marked words.
     // Only a real size change (rotation, split-view) justifies a rebuild.
@@ -1399,11 +1439,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   syncBtn.addEventListener("click", function(){ state.syncCode=(syncInput.value||"").trim(); save(); startSync(); });
   setSyncStatus(state.syncCode ? "connecting" : "off");
 
-  // init
+  // init — 每次启动（无论新老用户）都先落主菜单；背诵页只在点「开始背诵」时进入，
+  // 那也是唯一的页面内容刷新点（重盖遮蔽 / 过滤划词 / 状态池推进都在那一刻发生）。
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
-  // 老用户冷启动直接回到离开时的背诵页（遮蔽解锁/划线/位置全部由 state 恢复）；
-  // 设置页只剩「点设置按钮」一个入口，「重新覆盖遮蔽 / 过滤划词」只发生在主动点开始背诵时。
-  if(!_firstRun) settingsEl.style.display="none";
+  settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
   loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();
 

@@ -467,6 +467,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     poolMode:false, poolSize:40, poolLow:15, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
     shuffle:false,                // 池内乱序：pool mode only; the pool is shuffled at 重置, new words still enter by rank. 【local】
     list:null,                    // the frozen page content: ranks in display order, rebuilt ONLY by 重置 (buildList). 【local】
+    listShuffled:false,           // whether that frozen list was shuffled -> hide rank numbers. 【local】
     revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
@@ -520,7 +521,8 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   function entryHTML(e){
     var h='<div class="entry'+(marked(e.rank)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
-    h+='<div class="headline"><span class="num" data-act="mark">'+e.rank+'.</span> '
+    // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
+    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled?'</span>':e.rank+'.</span> ')
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
     // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
     // and relaunches — only 重置 re-covers everything.
@@ -575,9 +577,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function buildList(){
     ensurePool();
     var r=visible().map(function(e){ return e.rank; });
-    if(state.poolMode && state.shuffle)
+    var sh=!!(state.poolMode && state.shuffle);
+    if(sh)
       for(var i=r.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)), t=r[i]; r[i]=r[j]; r[j]=t; }
-    state.list=r; save();
+    state.list=r; state.listShuffled=sh; save();      // listShuffled: 冻结时是否乱序（乱序不显示序号）
   }
   function listEntries(){
     return (state.list||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
@@ -1479,6 +1482,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // 「重置」是唯一的页面内容刷新点（重盖遮蔽 / 过滤划词 / 状态池推进 / 乱序都在那一刻发生）。
   // 老存档没有 state.list：首次按当前设置建一份（不清遮蔽），之后只有「重置」会改它。
   if(!Array.isArray(state.list)) buildList();
+  else if(typeof state.listShuffled!=="boolean") state.listShuffled=!!(state.poolMode && state.shuffle);
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
   settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
   loadPacks();                                   // hosted build: stream the audio in behind the shell

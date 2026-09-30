@@ -211,9 +211,12 @@
   .umbtns{ display:flex; justify-content:flex-end; gap:10px; margin-top:14px; }
   .umbtns .minibtn.ghost{ background:var(--card); color:var(--blue); }
   /* the main menu's primary action (in-flow big button, not fixed) */
-  #start{ width:100%; margin:26px 0 24px; padding:16px; background:var(--fill); color:#fff;
+  #start{ width:100%; margin:26px 0 10px; padding:16px; background:var(--fill); color:#fff;
     border:0; border-radius:13px; font-size:18px; font-weight:700; cursor:pointer;
     box-shadow:0 6px 22px rgba(0,0,0,.24); }
+  /* 重置：开始背诵下面的次级按钮（描边），唯一的页面内容刷新点 */
+  #reset{ width:100%; margin:0 0 24px; padding:12px; background:transparent; color:var(--blue);
+    border:1.5px solid var(--fill); border-radius:13px; font-size:15px; font-weight:700; cursor:pointer; }
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
     font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
   .hintbox b{ color:var(--ink); }
@@ -237,12 +240,13 @@
 </head>
 <body>
 
-<!-- 主菜单：每次进入先落在这里；「开始背诵」是唯一的页面内容刷新点 -->
+<!-- 主菜单：每次进入先落在这里；「开始背诵」原样继续，「重置」是唯一的页面内容刷新点 -->
 <div id="menu">
   <h1>四级高频单词 · 背诵</h1>
   <div class="desc">2021–2025 真题 · top 1250 · 含词根词缀 · 排版对齐优化版 PDF</div>
   <div class="mprog" id="menu-progress"></div>
   <button id="start">开始背诵</button>
+  <button id="reset">重置</button>
   <button class="mitem" id="btn-synbook">
     <span><span class="mt">同义词辨析 · 207 组</span><span class="md">1250 个高频词按同义/近义/易混分组，逐组讲透区别</span></span>
     <span class="marr">›</span>
@@ -260,12 +264,16 @@
   </div>
 
   <div class="row">
-    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，下次「开始背诵」时才重新加载去掉</span></div>
+    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，点主菜单「重置」时才重新加载去掉</span></div>
     <div id="sw-removemarked" class="switch"></div>
   </div>
   <div class="row">
-    <div class="lab"><b>状态池模式（莱特纳）</b><span>只背序号范围内还没划掉的词；划掉=熟练剔除。剩余降到阈值时，下次「开始背诵」才把范围往后推进放新词进来（不当场刷新）。已掌握按全库总量算，不会归零</span></div>
+    <div class="lab"><b>状态池模式（莱特纳）</b><span>只背序号范围内还没划掉的词；划掉=熟练剔除。剩余降到阈值时，点主菜单「重置」才把范围往后推进放新词进来（不当场刷新）。已掌握按全库总量算，不会归零</span></div>
     <div id="sw-poolmode" class="switch"></div>
+  </div>
+  <div class="row subrow">
+    <div class="lab"><b>池内乱序</b><span>池外的新词仍按序号依次进入；池内的词打乱顺序排列。每次点「重置」重新洗牌</span></div>
+    <div id="sw-shuffle" class="switch"></div>
   </div>
   <div class="row subrow">
     <div class="lab"><b>池大小 / 推进阈值</b><span id="pool-stat">未开启</span></div>
@@ -381,8 +389,8 @@
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
     · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
-    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，下次「开始背诵」才把范围往后推进（不当场刷新）<br>
-    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单，页面内容的重建只发生在点「开始背诵」时
+    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，点「重置」才把范围往后推进（不当场刷新）；可开「池内乱序」<br>
+    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单。「开始背诵」原样继续上次的页面，页面内容（哪些词、顺序、遮蔽）只在点<b>「重置」</b>时重建
   </div>
 </div>
 
@@ -457,7 +465,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
     counters:[],                  // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
     poolMode:false, poolSize:40, poolLow:15, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
-    revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 开始背诵. 【local】
+    shuffle:false,                // 池内乱序：pool mode only; the pool is shuffled at 重置, new words still enter by rank. 【local】
+    list:null,                    // the frozen page content: ranks in display order, rebuilt ONLY by 重置 (buildList). 【local】
+    revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
@@ -513,7 +523,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     h+='<div class="headline"><span class="num" data-act="mark">'+e.rank+'.</span> '
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
     // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
-    // and relaunches — only 开始背诵 re-covers everything.
+    // and relaunches — only 重置 re-covers everything.
     var st=state.selftest && !state.revealed[e.rank], m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
@@ -548,12 +558,29 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
 
   // ---- measured pagination (fills a column top-to-bottom like the PDF) ----
   var pages=[], colW=300, colCount=2, layW=0, layH=0;   // layW/layH: the size the current layout was built for
-  // marked words are filtered out ONLY here (at paginate time), not via CSS in real time —
-  // so "去掉已划掉" takes effect on the next 开始背诵 (which re-paginates),
+  // marked words are filtered out ONLY here, and visible() is read ONLY by buildList() (重置) —
+  // so "去掉已划掉" / 状态池 / 乱序 take effect on the next 重置,
   // and marking a word while reading never makes the page reflow under your finger.
   function visible(){
     if(state.poolMode) return DATA.filter(function(e){ return e.rank<=state.poolMax && !marked(e.rank); });
     return state.removeMarked ? DATA.filter(function(e){ return !marked(e.rank); }) : DATA;
+  }
+  // The page content is a frozen snapshot state.list (ranks in display order). Only 重置 calls
+  // buildList(); paginate() merely lays that same list out again (font / columns / rotation…),
+  // so nothing else can change which words are shown, their order, or re-cover masks.
+  // 池内乱序: the ceiling still advances by rank (new words enter in order), then the whole
+  // pool is Fisher–Yates shuffled.
+  var byRank={};
+  DATA.forEach(function(e){ byRank[e.rank]=e; });
+  function buildList(){
+    ensurePool();
+    var r=visible().map(function(e){ return e.rank; });
+    if(state.poolMode && state.shuffle)
+      for(var i=r.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)), t=r[i]; r[i]=r[j]; r[j]=t; }
+    state.list=r; save();
+  }
+  function listEntries(){
+    return (state.list||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
   }
 
   // ---- Leitner active pool: a RANK CEILING, counted against the whole book ----
@@ -599,8 +626,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     return true;
   }
 
-  function paginate(){
-    ensurePool();                                   // top up the active pool before measuring
+  function paginate(){                              // layout only: re-packs the frozen state.list
     var lay=applyLayout();
     var W=pagesEl.clientWidth, H=pagesEl.clientHeight;
     if(!W||!H) return;
@@ -612,7 +638,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     colCount=Math.max(1, Math.min(6, colCount));
     colW=Math.floor((W-2*lay.padh-(colCount-1)*lay.gap)/colCount);
     var colH=H-14;
-    var list=visible();
+    var list=listEntries();
     computeMilestones(list);
     measEl.style.width=colW+"px";
     measEl.innerHTML=list.map(entryHTML).join("");
@@ -956,7 +982,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       entry.classList.toggle("marked", nv===1); save();
       syncPushMark(rank);
       // 划词绝不重排页面（不会在手指底下抖）。状态池触到低水位也**不当场刷新**——
-      // 范围推进推迟到下次 paginate()（重进后点「开始背诵」，或改动影响排版的设置项）；
+      // 范围推进推迟到下次 buildList()（主菜单点「重置」）；
       // 主菜单的进度区会提示「待推进」（renderMenu）。
       return;
     }
@@ -1064,6 +1090,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       settingsEl=document.getElementById("settings"),
       swRemove=document.getElementById("sw-removemarked"),
       swPoolMode=document.getElementById("sw-poolmode"),
+      swShuffle=document.getElementById("sw-shuffle"),
       poolSizeIn=document.getElementById("pool-size"),
       poolLowIn=document.getElementById("pool-low"),
       poolStatEl=document.getElementById("pool-stat"),
@@ -1132,13 +1159,14 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   function renderPool(){
     poolSizeIn.value=state.poolSize; poolLowIn.value=state.poolLow;
     swPoolMode.classList.toggle("on",state.poolMode);
+    swShuffle.classList.toggle("on",!!state.shuffle);
     if(!state.poolMode){ poolStatEl.textContent="未开启——开启后从第 1 号起，始终保持「池大小」那么多没划掉的词"; return; }
     var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
     var win=Math.min(state.poolMax, DATA.length), rem=poolRemain(), next=Math.min(DATA.length, win+(state.poolSize-state.poolLow));
     poolStatEl.innerHTML =
       "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b><br>"
       +(win>=DATA.length ? "（已到全书末尾）"
-                         : "（剩余 ≤ "+state.poolLow+" 时，下次开始背诵推进到 "+next+" 号）")
+                         : "（剩余 ≤ "+state.poolLow+" 时，下次点「重置」推进到 "+next+" 号）")
       +"<br>全库已掌握 "+all+" / "+DATA.length;
   }
   function syncSettings(){
@@ -1162,7 +1190,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
   // active pool. The ceiling only ever moves FORWARD, so editing 容量/阈值 can never lose
   // progress: 容量 is just the starting range, 阈值 is both the low-water mark and the step.
-  function poolApply(){ syncSettings(); save(); paginate(); }
+  // These only change state; the page itself follows on the next 重置 (buildList).
+  function poolApply(){ syncSettings(); save(); }
+  swShuffle.addEventListener("click", function(){ state.shuffle=!state.shuffle; syncSettings(); save(); });
   swPoolMode.addEventListener("click", function(){ state.poolMode=!state.poolMode; ensurePool(); poolApply(); });
   poolSizeIn.addEventListener("change", function(){
     var n=parseInt(poolSizeIn.value,10);
@@ -1209,7 +1239,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   rgExDelay.addEventListener("input", function(){ state.exDelay=+rgExDelay.value; vExDelay.textContent=state.exDelay+"ms"; save(); });
 
   // 主菜单进度区：全库已掌握 + 状态池账目；池已触低水位但尚未推进时提示「待推进」
-  //（推进只发生在下一次 paginate()，即点「开始背诵」时——划词当场不再刷新）。
+  //（推进只发生在点「重置」时——划词当场不再刷新）。
   function renderMenu(){
     var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
     var h="全库已掌握 <b>"+all+"</b> / "+DATA.length;
@@ -1217,17 +1247,23 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
       var win=Math.min(state.poolMax,DATA.length), rem=poolRemain();
       h+="<br>状态池：范围 第 1–"+win+" 号 · 剩余 <b>"+rem+"</b>";
       if(poolNeedsRefill())
-        h+="<br>剩余已到阈值——点「开始背诵」将推进到 "+Math.min(DATA.length, win+(state.poolSize-state.poolLow))+" 号";
+        h+="<br>剩余已到阈值——点「重置」将推进到 "+Math.min(DATA.length, win+(state.poolSize-state.poolLow))+" 号";
       else if(win>=DATA.length) h+="（已到全书末尾）";
     }
     menuProgEl.innerHTML=h;
   }
 
-  // 开始背诵 = the ONE deliberate refresh: re-cover every self-test mask, re-apply 去掉已划掉 /
-  // 状态池 filtering (ensurePool advances the ceiling here), re-paginate. Nothing else
-  // (backgrounding, relaunch, no-op resize, sync pull, marking a word) is allowed to do this.
-  document.getElementById("start").addEventListener("click", function(){
-    state.revealed={}; save(); settingsEl.style.display="none"; menuEl.style.display="none"; paginate(); });
+  // 重置 = the ONE deliberate refresh: re-cover every self-test mask, re-apply 去掉已划掉 /
+  // 状态池 filtering (ensurePool advances the ceiling here), reshuffle if 池内乱序, re-paginate.
+  // Nothing else (开始背诵, settings, backgrounding, relaunch, resize, sync pull, marking a
+  // word) is allowed to do this. 开始背诵 just re-enters the same list where you left off
+  // (paginate() only re-lays it out, in case layout settings changed while in the menu).
+  function enterReading(){ settingsEl.style.display="none"; menuEl.style.display="none"; paginate(); }
+  document.getElementById("start").addEventListener("click", enterReading);
+  document.getElementById("reset").addEventListener("click", function(){
+    state.revealed={}; buildList();
+    if(state.poolMode && state.shuffle && state.list.length) state.anchor=state.list[0];   // 洗牌后从第一页开始
+    save(); enterReading(); });
   // 顶栏「设置」-> 回主菜单；菜单里的「设置」-> 设置子页；子页「返回」回菜单（不刷新）。
   document.getElementById("btn-settings").addEventListener("click", function(){
     renderMenu(); menuEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
@@ -1439,8 +1475,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   syncBtn.addEventListener("click", function(){ state.syncCode=(syncInput.value||"").trim(); save(); startSync(); });
   setSyncStatus(state.syncCode ? "connecting" : "off");
 
-  // init — 每次启动（无论新老用户）都先落主菜单；背诵页只在点「开始背诵」时进入，
-  // 那也是唯一的页面内容刷新点（重盖遮蔽 / 过滤划词 / 状态池推进都在那一刻发生）。
+  // init — 每次启动（无论新老用户）都先落主菜单；「开始背诵」原样继续，
+  // 「重置」是唯一的页面内容刷新点（重盖遮蔽 / 过滤划词 / 状态池推进 / 乱序都在那一刻发生）。
+  // 老存档没有 state.list：首次按当前设置建一份（不清遮蔽），之后只有「重置」会改它。
+  if(!Array.isArray(state.list)) buildList();
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
   settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
   loadPacks();                                   // hosted build: stream the audio in behind the shell

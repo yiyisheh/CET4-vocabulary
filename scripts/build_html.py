@@ -73,6 +73,8 @@ def pack(items):
 us_items, ex_items = clips("us"), clips("ex")
 cfg = ROOT / "web" / "supabase-config.json"
 sync_config = cfg.read_text().strip() if cfg.exists() else "null"
+# 冻结的旧序号表（rank 1..1250 → 单词）：把旧版「按序号存」的划线翻译成单词。永不修改（§8.5）
+legacy_v1 = (ROOT / "web" / "legacy_rank_v1.json").read_text().strip()
 
 # ---------- shared: build a filled template, given the audio-carrying bits ----------
 def render(audio_us, audio_ex, audio_index):
@@ -82,7 +84,8 @@ def render(audio_us, audio_ex, audio_index):
             .replace("__AUDIO_EX__", audio_ex)
             .replace("__AUDIO_INDEX__", audio_index)
             .replace("__CACHE_NAME__", CACHE_NAME)
-            .replace("__SYNC_CONFIG__", sync_config))
+            .replace("__SYNC_CONFIG__", sync_config)
+            .replace("__LEGACY_V1__", legacy_v1))
 
 
 def stamp(html, build_hash, build_time):

@@ -450,6 +450,9 @@ window.CACHE_NAME = "__CACHE_NAME__";   // 与 sw.js 同名的缓存桶：音频
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
    留空(null)则不启用同步——App 仍可本地/离线正常使用。 */
 window.SYNC_CONFIG = __SYNC_CONFIG__;
+/* 冻结的旧序号表：LEGACY_V1[rank-1] = 单词。旧版划线/解锁按 rank 存，靠它翻译成单词（§8.5）。
+   永远对应最初那份 1250 词表，词表以后怎么改都不能动它。 */
+window.LEGACY_V1 = __LEGACY_V1__;
 </script>
 <script>
 (function(){
@@ -472,7 +475,8 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     shuffle:false,                // 池内乱序：pool mode only; the pool is shuffled at 重置, new words still enter by rank. 【local】
     list:null,                    // the frozen page content: ranks in display order, rebuilt ONLY by 重置 (buildList). 【local】
     listShuffled:false,           // whether that frozen list was shuffled -> hide rank numbers. 【local】
-    revealed:{}                   // self-test: ranks already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
+    revealed:{},                  // self-test: words already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
+    keysV:1                       // 1 = marks/revealed keyed by rank (old); 2 = keyed by word (see migrateKeys)
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
   // migrate old marks {rank:1} -> {rank:{v,t}} (t=0 so any later change wins)
@@ -481,6 +485,20 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   if(state.showMarked!==undefined){ state.removeMarked=!state.showMarked; delete state.showMarked; }
   if(!state.marks) state.marks={};
   if(!state.revealed) state.revealed={};
+  // 身份键 rank -> 单词（§8.5）：划线/解锁跟着词走，词表重排或换六级都不会对错词。
+  // 翻译只用冻结的 LEGACY_V1，不用当前 DATA。迁移前把原始存档整份另存一份，永不覆盖。
+  var LEGACY_V1 = window.LEGACY_V1 || [];
+  function legacyWord(rank){ return /^\d+$/.test(String(rank)) ? LEGACY_V1[+rank-1] : undefined; }
+  var _keysMigrated=state.keysV!==2;
+  if(_keysMigrated){
+    try{ if(!localStorage.getItem(LS+"_backup_rankkeys")) localStorage.setItem(LS+"_backup_rankkeys", localStorage.getItem(LS)||"{}"); }catch(e){}
+    var _m={}, _rv={}, _k, _w;
+    for(_k in state.marks){ _w=legacyWord(_k)||_k;
+      if(!_m[_w] || state.marks[_k].t>_m[_w].t) _m[_w]=state.marks[_k]; }
+    for(_k in state.revealed){ _w=legacyWord(_k)||_k; _rv[_w]=1; }
+    state.marks=_m; state.revealed=_rv; state.keysV=2;
+  }
+  function own(o,k){ return Object.prototype.hasOwnProperty.call(o,k); }
   if(typeof state.themeColor!=="string") state.themeColor="";
   if(!Array.isArray(state.customAccents)) state.customAccents=[];
   if(!Array.isArray(state.counters)) state.counters=[];
@@ -497,9 +515,9 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   if(!(state.poolSize>=1)) state.poolSize=40;
   if(!(state.poolLow>=1)) state.poolLow=15;       // 0 would advance by 0 forever
   if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
-  if(_poolMigrated) save();
+  if(_poolMigrated || _keysMigrated) save();
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
-  function marked(rank){ var m=state.marks[rank]; return !!(m && m.v===1); }
+  function marked(word){ var m=own(state.marks,word)&&state.marks[word]; return !!(m && m.v===1); }
 
   var pagesEl=document.getElementById("pages"),
       measEl=document.getElementById("measure"),
@@ -524,13 +542,13 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   }
 
   function entryHTML(e){
-    var h='<div class="entry'+(marked(e.rank)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
+    var h='<div class="entry'+(marked(e.word)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
     h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled?'</span>':e.rank+'.</span> ')
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
     // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
     // and relaunches — only 重置 re-covers everything.
-    var st=state.selftest && !state.revealed[e.rank], m=st?' mask':"", ma=st?' data-act="reveal"':"";
+    var st=state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
     // 核心意象卡（多义小词：一个画面串起各义项；自测里同样遮蔽）
@@ -573,8 +591,8 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // so "去掉已划掉" / 状态池 / 乱序 take effect on the next 重置,
   // and marking a word while reading never makes the page reflow under your finger.
   function visible(){
-    if(state.poolMode) return DATA.filter(function(e){ return e.rank<=state.poolMax && !marked(e.rank); });
-    return state.removeMarked ? DATA.filter(function(e){ return !marked(e.rank); }) : DATA;
+    if(state.poolMode) return DATA.filter(function(e){ return e.rank<=state.poolMax && !marked(e.word); });
+    return state.removeMarked ? DATA.filter(function(e){ return !marked(e.word); }) : DATA;
   }
   // The page content is a frozen snapshot state.list (ranks in display order). Only 重置 calls
   // buildList(); paginate() merely lays that same list out again (font / columns / rotation…),
@@ -620,7 +638,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     for(var i=0;i<DATA.length;i++){
       var r=DATA[i].rank;
       if(r>state.poolMax) break;
-      if(!marked(r)) n++;
+      if(!marked(DATA[i].word)) n++;
     }
     return n;
   }
@@ -979,7 +997,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     if(act==="reveal"){                              // self-test: unlock the card -> reveal ALL masked parts together
       var hid=entry.querySelectorAll(".mask");
       if(hid.length){ [].forEach.call(hid,function(x){ x.classList.remove("mask"); x.removeAttribute("data-act"); });
-        state.revealed[rank]=1; save(); return; }    // remember the unlock so no re-render/relaunch re-covers it
+        state.revealed[word]=1; save(); return; }    // remember the unlock so no re-render/relaunch re-covers it
       speak(word); return;                           // already revealed -> pronounce
     }
     // clicking the blank strip in front of / around the number also marks
@@ -989,10 +1007,10 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
         if(ev.clientY<=r.bottom && ev.clientX<r.left) act="mark"; }
     }
     if(act==="mark"){
-      var nv = marked(rank) ? 0 : 1;
-      state.marks[rank] = {v:nv, t:Date.now()};
+      var nv = marked(word) ? 0 : 1;
+      state.marks[word] = {v:nv, t:Date.now()};
       entry.classList.toggle("marked", nv===1); save();
-      syncPushMark(rank);
+      syncPushMark();
       // 划词绝不重排页面（不会在手指底下抖）。状态池触到低水位也**不当场刷新**——
       // 范围推进推迟到下次 buildList()（主菜单点「重置」）；
       // 主菜单的进度区会提示「待推进」（renderMenu）。
@@ -1173,7 +1191,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     swPoolMode.classList.toggle("on",state.poolMode);
     swShuffle.classList.toggle("on",!!state.shuffle);
     if(!state.poolMode){ poolStatEl.textContent="未开启——开启后从第 1 号起，始终保持「池大小」那么多没划掉的词"; return; }
-    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
+    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].word)) all++;
     var win=Math.min(state.poolMax, DATA.length), rem=poolRemain(), next=Math.min(DATA.length, win+(state.poolSize-state.poolLow));
     poolStatEl.innerHTML =
       "范围 第 1–"+win+" 号 · 已掌握 "+(win-rem)+" · 剩余 <b>"+rem+"</b><br>"
@@ -1253,7 +1271,7 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
   // 主菜单进度区：全库已掌握 + 状态池账目；池已触低水位但尚未推进时提示「待推进」
   //（推进只发生在点「重置」时——划词当场不再刷新）。
   function renderMenu(){
-    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].rank)) all++;
+    var all=0; for(var i=0;i<DATA.length;i++) if(marked(DATA[i].word)) all++;
     var h="全库已掌握 <b>"+all+"</b> / "+DATA.length;
     if(state.poolMode){
       var win=Math.min(state.poolMax,DATA.length), rem=poolRemain();
@@ -1447,22 +1465,30 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     SYNC.busy=true;
     pullAll(SYNC.code, 0, [])
       .then(function(rows){
-        var rMarks={}, rColors={}, k;
-        rows.forEach(function(row){ if(row.kind==="mark") rMarks[row.item]={v:row.v,t:Number(row.t)};
-                                    else if(row.kind==="color") rColors[row.item]=true; });
-        var changed=false, push=[];
-        for(k in rMarks){ var rm=rMarks[k], lm=state.marks[k];
-          if(!lm || rm.t>lm.t){ state.marks[k]={v:rm.v?1:0,t:rm.t}; changed=true; } }
-        for(k in state.marks){ var l2=state.marks[k], r2=rMarks[k];
-          if(!r2 || l2.t>(r2.t||0)) push.push({code:SYNC.code,kind:"mark",item:String(k),v:l2.v,t:l2.t}); }
+        // 划线两种行（§8.5）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
+        // 两者按单词合并取最新；本地较新时两种都写回——旧版设备只认 "mark"，双写让它们照常同步。旧行只覆盖、不删除。
+        var rW={}, rL={}, rColors={}, k, w;
+        function keep(map,key,row){ var t=Number(row.t); if(!own(map,key) || t>map[key].t) map[key]={v:row.v?1:0,t:t}; }
+        rows.forEach(function(row){
+          if(row.kind==="w") keep(rW,row.item,row);
+          else if(row.kind==="mark"){ w=legacyWord(row.item); if(w) keep(rL,w,row); }
+          else if(row.kind==="color") rColors[row.item]=true; });
+        var changed=false, push=[], rm;
+        [rW,rL].forEach(function(map){ for(k in map){ rm=map[k];
+          if(!own(state.marks,k) || rm.t>state.marks[k].t){ state.marks[k]={v:rm.v,t:rm.t}; changed=true; } } });
+        var legacyRank={}; LEGACY_V1.forEach(function(x,i){ legacyRank[x]=i+1; });
+        for(k in state.marks){ var lm=state.marks[k];
+          if(!own(rW,k) || lm.t>rW[k].t) push.push({code:SYNC.code,kind:"w",item:k,v:lm.v,t:lm.t});
+          if(own(legacyRank,k) && (!own(rL,k) || lm.t>rL[k].t)) push.push({code:SYNC.code,kind:"mark",item:String(legacyRank[k]),v:lm.v,t:lm.t}); }
         for(k in rColors){ var hex="#"+k;
           if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
         state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
         if(changed){
           save(); renderSwatches();
+          if(menuEl.style.display!=="none") renderMenu();   // 菜单开着时，同步拉回的划线要反映到「已掌握」计数
           if(settingsEl.style.display==="none"){
             pagesEl.querySelectorAll(".entry[data-rank]").forEach(function(el){
-              el.classList.toggle("marked", !!marked(+el.dataset.rank));
+              el.classList.toggle("marked", !!marked(el.dataset.word));
             });
           }
         }

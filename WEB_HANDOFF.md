@@ -58,6 +58,7 @@ English/
 ├── web/                      ← 【网页源码集中在这里】
 │   ├── template.html         ← 网页唯一源文件（构建时注入数据/音频/配置）
 │   ├── supabase-config.json  ← 同步配置（publishable key）
+│   ├── legacy_rank_v1.json   ← 冻结的旧序号表 rank→单词（翻译旧划线用，永远不改，§8.5）
 │   └── pwa/                  ← manifest / sw.js / icon-180·192·512.png
 │
 ├── scripts/                  ← 构建脚本（下游网页相关的只有这几个，其余是上游语料/OCR 脚本）
@@ -205,6 +206,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - `__AUDIO_INDEX__` → 托管版填 `{us:{file,bytes,index},ex:{…}}`；**单文件版填 `null`**
 - `__CACHE_NAME__` → `cet4-1250`，与 `sw.js` 的桶名同一个常量（网页要往同一个桶里写音频包）
 - `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
+- `__LEGACY_V1__` → `web/legacy_rank_v1.json`（冻结的旧序号表，§8.5；永远不改）
 - `__BUILD_INFO__` → `{v:内容哈希, t:构建时间}`，设置页「版本」行展示 + 「检查更新」用（见 §10.1）。`v` = **外壳的哈希**（包名在外壳里，所以音频变了版本也会变），在**注入 build-info 之前**算，只随内容变、不随时间戳变——同内容重建版本号不变、不会白触发更新。两种形态共用同一个版本号
 - `sw.js` 里还有 `__PRECACHE__` / `__KEEP__` 两个清单和 `__BUILD_HASH__`（外壳哈希，§10.1 解释它为什么必须在）
 
@@ -406,7 +408,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 ## 8. 多端同步（Supabase）
 
 ### 8.1 只同步这些（用户明确要求）
-- ✅ **划线**：每词独立、**最新改动为准(LWW)**；取消划线=写 `v:0` 带新时间戳，也会同步
+- ✅ **划线**：每词独立、**最新改动为准(LWW)**；取消划线=写 `v:0` 带新时间戳，也会同步。**按单词存，不按序号**（§8.5）
 - ✅ **自定义色号列表**：并集（哪台加了新色号，别台也能选）
 - ❌ 其余所有设置 **不同步**
 - ❌ **当前选中哪个背景色 不同步**（每台独立）
@@ -420,7 +422,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 ### 8.3 云端表（用户已在 Supabase SQL Editor 建好）
 ```sql
 create table public.progress (
-  code text, kind text, item text,      -- kind: 'mark'|'color'; item: rank 或 去#色号
+  code text, kind text, item text,      -- kind: 'w'(item=单词) | 'mark'(item=旧序号，§8.5) | 'color'(item=去#色号)
   v smallint default 1, t bigint default 0,
   primary key (code, kind, item));
 alter table public.progress enable row level security;
@@ -437,7 +439,22 @@ grant select, insert, update on public.progress to anon;
 - ⚠️ **`sb_secret_...` 绝不能进客户端**；它曾在对话里出现过，**建议在 Supabase 轮换作废**
 - RLS 是"凭 publishable key + 同步码可读写"——**同步码要用不好猜的**（如 `cet4-sync-9f3k`），否则别人猜到就能改你的划线
 
----
+### 8.5 身份键：按单词，不按序号（2026-10-11 迁移）
+
+**为什么**：旧版划线 `state.marks` / 自测解锁 `state.revealed` / 云端 `mark` 行都以 **rank** 为键。词表一重排、一插词、一换六级，进度就对到别的词上。现在一律以**单词**为键：进度跟着词走，四级划掉的词到六级词库里照样算划掉。
+
+**冻结的旧序号表** `web/legacy_rank_v1.json`（构建时注入 `window.LEGACY_V1`）：最初那份 1250 词表的 `rank → 单词`。旧数据**只通过它**翻译，不通过当前 `DATA`——所以词表以后怎么改，旧数据都不会翻译错。⚠️ **这个文件永远不许改**。
+
+**本地迁移**（启动时一次，`state.keysV` 1→2）：
+- 迁移前把 localStorage 原始存档整份另存到 `cet4_reader_v3_backup_rankkeys`（**只写一次，永不覆盖**），万一出错可以手工恢复。
+- `marks` / `revealed` 的序号键经 `LEGACY_V1` 换成单词。
+- 其余仍按序号的本地状态**有意不动**：`poolMax`（池上界）、`list`（冻结的页面内容）、`anchor`（阅读位置）——它们表示「在**当前词表**里的位置」，本来就该跟着当前词表走；将来换词表时再按位置换算。
+
+**云端双轨**（`reconcile()`）：
+- 新行 `kind='w', item=单词`；旧行 `kind='mark', item=序号`（旧版设备写的）。拉取时两种都读，`mark` 经 `LEGACY_V1` 翻译后与 `w` 按单词合并、取最新时间戳。
+- **双写**：本地较新时 `w` 和对应的 `mark` 行都写回。PWA 是手动更新，总有设备还没升级；旧版只认 `mark`，双写让新旧设备在过渡期照常互通。旧行**只会被更新的值覆盖，从不删除**（anon 本来也没有 delete 权限）。
+- 等所有设备都升级后，双写可以去掉（删 `reconcile()` 里写 `kind:"mark"` 那一行即可），读旧行的逻辑建议永久保留。
+- 已用本地模拟 PostgREST（offset 分页 + upsert）验证：序号→单词迁移、云端独有划线并入、本地较新覆盖旧行、旧版设备写 `mark` 被新版正确读到、新版划词双写、重载不重复迁移、备份不被覆盖。
 
 ## 9. 构建 & 重建（命令速查）
 

@@ -82,6 +82,10 @@
   .root .p{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); }
   .root .p .txt{ font-weight:700; }
   .root .sum{ font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); margin-top:1px; }
+  /* 核心意象卡：与词根卡同款灰色小字 */
+  .core{ margin-top:2px; padding-left:6px; font-size:calc(8pt*var(--fs)); line-height:1.5; color:var(--gray); }
+  .core .txt{ font-weight:700; }
+  .core .sum{ margin-top:1px; }
 
   /* mark: gray strikethrough through the middle of the number, from the far left
      (before the number) to just after the number's dot — like a Word strikethrough */
@@ -529,6 +533,11 @@ window.SYNC_CONFIG = __SYNC_CONFIG__;
     var st=state.selftest && !state.revealed[e.rank], m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
+    // 核心意象卡（多义小词：一个画面串起各义项；自测里同样遮蔽）
+    if(e.core){
+      h+='<div class="core'+m+'"'+ma+'><div class="p">核心 <span class="txt">'+esc(e.core.image)+'</span></div>'
+        +'<div class="sum">▸ '+esc(e.core.derive)+'</div></div>';
+    }
     // 词根词缀卡（在例句之上；自测里也一起遮蔽）
     if(e.root && e.root.parts && e.root.parts.length){
       h+='<div class="root'+m+'"'+ma+'>';

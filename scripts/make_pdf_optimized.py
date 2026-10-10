@@ -74,6 +74,9 @@ def entry_block(e):
     if e["ex"]:
         blk.append(Paragraph(f'<b>{e["ex_label"]}</b>: {esc(e["ex"])}',
                              ST["field"]))
+    if e.get("core"):
+        blk.append(Paragraph(f'核心 <b>{esc(e["core"]["image"])}</b>', ST["root"]))
+        blk.append(Paragraph(f'▸ {esc(e["core"]["derive"])}', ST["rootsum"]))
     if e["root"]:
         for p in e["root"]["parts"]:
             tag = esc(p["type"])
@@ -96,7 +99,7 @@ INTRO = (
     "· 为可拆解的单词补充了「词根/词缀」助记块。\n"
     "\n"
     "绝大部分例句均取自四级试卷原文，其中“(自编)”标志区分出非原文。\n"
-    "词根拆解由 AI 生成，仅供助记参考。\n"
+    "词根拆解与多义小词的「核心意象」由 AI 生成，仅供助记参考。\n"
     "\n"
     "作者：yiyisheh@outlook.com\n"
     "GitHub：https://github.com/yiyisheh/CET4-vocabulary"

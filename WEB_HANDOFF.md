@@ -9,11 +9,12 @@
 | 类别 | 文件 | 大小 | 说明 |
 |---|---|---|---|
 | ✅ **网页源码（读这个）** | `web/template.html` | ~74 KB（约 1300 行） | **整个网页的唯一源文件**（HTML+CSS+JS 一体）。改网页 = 改这里。 |
-| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `fetch_audio.py` `fetch_ex_audio.py` `resynth_us_audio.py` `make_pdf_optimized.py` | 2–5 KB | 见 §4 流水线 |
+| ✅ 构建脚本 | `scripts/build_html.py` `build_dataset.py` `merge_roots.py` `merge_core.py` `fetch_audio.py` `fetch_ex_audio.py` `resynth_us_audio.py` `make_pdf_optimized.py` | 2–5 KB | 见 §4 流水线 |
 | ✅ PWA 资源 | `web/pwa/manifest.webmanifest` `web/pwa/sw.js` `web/pwa/icon-*.png` | <30 KB | 见 §10 部署 |
 | ✅ 同步配置 | `web/supabase-config.json` | <1 KB | 仅含**可公开**的 publishable key |
 | ✅ 词条数据 | `intermediate/entries_full.json` | 544 KB | 1250 词最终数据（无音频），可读 |
 | ✅ 词根数据 | `intermediate/roots.json` | 186 KB | 词根/词缀/合成拆解 |
+| ✅ 核心意象数据 | `intermediate/core.json` | 小 | 多义小词的「核心画面 + 义项推导」（§6.1） |
 | ✅ 词表源 | `output/high_freq_cet4_df.txt` | 328 KB | rank+音标+释义+例句（DF 排序） |
 | 🚫 **AI 绝对别读** | `英语四级单词背诵.html` | **49 MB** | 构建产物（**单文件版**：内嵌 2500 条 base64 音频），读了会撑爆上下文 |
 | 🚫 别读（构建产物） | `docs/index.html` | 562 KB | **托管版外壳**：无音频，只有 CSS+JS+1250 词文本。小归小，它仍是产物，改网页请改 `web/template.html` |
@@ -60,9 +61,10 @@ English/
 │   └── pwa/                  ← manifest / sw.js / icon-180·192·512.png
 │
 ├── scripts/                  ← 构建脚本（下游网页相关的只有这几个，其余是上游语料/OCR 脚本）
-│   ├── build_dataset.py      ← 词表+词根+音节 → entries_full.json
+│   ├── build_dataset.py      ← 词表+词根+核心意象+音节 → entries_full.json
 │   ├── build_html.py         ← 注入数据+音频+同步配置 → 成品 html + docs/
 │   ├── merge_roots.py        ← 合并各来源词根 → roots.json
+│   ├── merge_core.py         ← 合并核心意象（手写 + 子agent）→ core.json（§6.1）
 │   ├── build_roots.py        ← （备用）DeepSeek 生成词根；**已不用**，词根由子agent产出
 │   ├── fetch_audio.py        ← 下载 2500 条有道 mp3 → intermediate/audio/{us,uk}/
 │   ├── fetch_ex_audio.py     ← edge-tts 合成 1250 条例句朗读 → intermediate/audio/ex/
@@ -79,6 +81,9 @@ English/
 │   ├── recall_manual.json    ← 手工补的词缀词（powerful…）
 │   ├── root_chunks/          ← 14 组 in_*/out_*.json（首轮子agent词根产出，共 28 个文件）
 │   ├── recall_chunks/        ← 8 组 in_*/out_*.json（召回轮，共 16 个文件）
+│   ├── core.json             ← 【最终核心意象数据】merge_core.py 产出
+│   ├── core_manual.json      ← 手写的核心意象（16 条样板，优先级最高）
+│   ├── core_chunks/          ← PROMPT.md（子agent 任务书）+ all_words.txt + 8 组 in_*/out_*.json
 │   ├── audio/                ← 🚫 71MB mp3 源，别读：us/ uk/ 各 1250，ex/ 1250 + voices.json
 │   └── （entries_v2/examples/liut969_dict/ds_batches* 均为上游历史产物，网页不用）
 │
@@ -116,6 +121,7 @@ English/
 | 序号 + 单词 | `.num` / `.hw` | `401.` 灰色 tabular 数字 + `rather` **粗体**（主题色 `--blue`，默认黑 #1a1a1a） |
 | 音标 | `.ipa` | `英[/ˈrɑːðə(r)/] 美[/ˈræðər/]` —— **深灰细字**（`--sub`，7.5pt，font-weight 300） |
 | 释义 | `.def` | `adv.相当; 宁愿; 更确切地说.` 正文色 8.5pt |
+| 核心意象卡 | `.core` | 只给**无词根拆解的多义小词**（take/get/over…）。样式与词根卡同款灰色小字：第一行 `核心 主动伸手，把外面的东西拿到自己这边`（画面**加粗**），第二行 `▸ 拿；取 ⇒ 采取（把办法拿来用）；花费（…）…` 义项推导。与词根卡互斥；约 23%（289/1250）的词有（§6.1） |
 | 词根词缀卡 | `.root` | **不是绿色、不是标签**：一整块**灰色小字**（`--gray` #8a8a8a，8pt），左缩进 6px。每行 `前缀 in- = 在…`（词性灰、词素**加粗**、= 释义）；最后一行是 `▸` 开头的合成汇总 `▸ in- 在… + stead 位置 ⇒ 处在(别人的)位置上 ⇒ 代替; 反而`。约 42%（523/1250）的词有 |
 | 例句 | `.ex` | `例句： The statement…（以下声明供您参考。）`。英文 + 全角括号里的中文。**几乎全部出自真题语料**；`例句（自编）：` 现仅剩 **1 条**（rank 110 `comprehension`——该词在 31 套卷子里只作「Listening Comprehension」标题出现，无成句，见 §7.5） |
 
@@ -136,7 +142,7 @@ English/
 **设置子页 `#settings`**（菜单里进入，盖在菜单上；头部「‹ 返回」`#btn-back` 回菜单，返回**不刷新**）：每项一行（左标题+灰色说明，右控件：蓝色 switch / seg 按钮组 / 滑块 / 数字框），自上而下：
 1. 去掉已经划掉的单词（不实时·下次点「重置」才重载去掉）
 2. **状态池模式（莱特纳）** + 子行「**池内乱序**」（`#sw-shuffle`）+ 子行「池大小 / 推进阈值 / 重置范围」+ 当前范围账目（默认 40 / 15，步长=池大小−阈值，见 §13）。池相关设置都只改 state，页面在下次「重置」才跟上
-3. 自测（释义+词根词缀卡一起留白·点卡片同步解锁）+ 子行 **例句翻译随卡片解锁**（英文常显·中文随卡片一起遮/解）
+3. 自测（释义+核心意象卡+词根词缀卡一起留白·点卡片同步解锁）+ 子行 **例句翻译随卡片解锁**（英文常显·中文随卡片一起遮/解）
 4. 显示例句开关
 5. 实时累计词数（多间隔 chip·分界线深灰小标·靠左·数当前显示的词）
 6. 划线样式 / 显示分界线 / 翻页方式（左右分页·上下无缝）
@@ -155,7 +161,8 @@ English/
 
 ```
 output/high_freq_cet4_df.txt  ─┐
-intermediate/roots.json ───────┤─ build_dataset.py ─→ intermediate/entries_full.json
+intermediate/roots.json ───────┤
+intermediate/core.json ────────┤─ build_dataset.py ─→ intermediate/entries_full.json
   (+ pyphen 音节)              ┘        │
                                         ├─ make_pdf_optimized.py ─→ 优化版 PDF
 intermediate/audio/us/*.mp3 ───────────┤   （uk/ 不参与构建）
@@ -307,6 +314,22 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 
 > 要重跑词根：开子agent 处理 `intermediate/root_chunks/in_*.json`（或自己按同格式产出），再 `merge_roots.py`。`build_roots.py`(DeepSeek) 仅留作备用，**不在正式流程**。
 
+### 6.1 核心意象（多义小词）
+
+词根解决的是长单词；take / get / over 这类短小常用词拆不出词根，词典却列一串看似无关的义项（拿；采取；花费；乘坐），只能死记。核心意象用**一个具体画面**串起这些义项，再写一行推导：
+
+```json
+"take": {"image": "主动伸手，把外面的东西拿到自己这边",
+         "derive": "拿；取 ⇒ 采取（把办法拿来用）；乘坐（…）；服用（…）；花费（…）"}
+```
+
+- **范围**：只做**没有词根拆解**的词（长词记词根+中文就够）；`merge_core.py` 会丢掉落在有词根词上的卡片。
+- **准确优先**：画面必须是真实的核心义（母语者语感/词典义项结构/可靠词源），串不起来就不做；个别同形异源或早已断开的义项写「X 单独记」，不硬扯（如 `set` 的「n. 一套」）。
+- **来源**：`core_manual.json`（手写 16 条样板，优先）→ `core_chunks/out_*.json`（8 个 Claude 子agent，按 `core_chunks/PROMPT.md`，候选 = 727 个无词根词）。变形词可写 `{"same_as": "take"}` 复用原形的卡。
+- **复核否决**：`core_manual.json` 里写 `null` = 人工复核后明确不做，压过子agent 产出。主要挡的是「变形词自身释义单一、却会继承原形整张卡」的情况（`kinds`=种类 不该挂 kind 的「善良」卡），以及义项过近的 come 一族。
+- **结果**：289 词有核心意象（词根 523 + 核心意象 289，两者互斥）。
+- **显示**：网页在释义下、词根卡上（`.core`，自测时随释义一起遮）；PDF 在例句后、词根块位置（同款灰字）。
+
 ---
 
 ## 7. 发音（离线内嵌；Web Audio 只解码，`<audio>` 出声）
@@ -426,6 +449,7 @@ pip install pyphen edge-tts        # 音节 / 例句 TTS（需 ffmpeg 去静音�
 
 # 改了词根/词表后，从数据到成品全量重建：
 python scripts/merge_roots.py          # → intermediate/roots.json
+python scripts/merge_core.py           # → intermediate/core.json（须在 roots.json 之后：有词根的词不做核心意象）
 python scripts/build_dataset.py        # → intermediate/entries_full.json
 python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
 python scripts/resynth_us_audio.py     # → 把 86 条不想要的有道音色换成 Ava（§7.5；重下过 us/ 才需要）
@@ -538,6 +562,7 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=100-skipMs`，默认值 `skipMs:40`（§7.2） |
 | 加回英音(UK) | `build_html.py` 恢复 `audio_json("uk")` + `__AUDIO_UK__` 占位符 + template 加回 `audio-uk` 标签与口音切换段（`seg-accent`）。⚠️ 但先确认 §12 的 iPad 无声是否与体积有关 |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
+| 改/补核心意象 | 单条直接改 `core_manual.json`（优先级最高）；批量按 `core_chunks/PROMPT.md` 开子agent → `merge_core.py` → `build_dataset.py`（§6.1） |
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
 | 改 PDF 版式 | `scripts/make_pdf.py`(底层 build) + `make_pdf_optimized.py`(参数) |

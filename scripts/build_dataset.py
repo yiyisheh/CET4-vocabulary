@@ -4,7 +4,8 @@ iPad HTML app.
 Combines:
   output/high_freq_cet4_df.txt   (rank, word, ipa, def, example)  -- 变形/词频 dropped
   intermediate/roots.json        (词根/词缀 breakdown)
-  pyphen en_US                    (syllabification: com-po-si-tion)
+  intermediate/core.json         (核心意象 for polysemous short words; merge_core.py)
+  pyphen en_US                   (syllabification: com-po-si-tion)
 
 Outputs:
   intermediate/entries_full.json  (list of entry dicts, section-tagged)
@@ -21,6 +22,8 @@ import pyphen
 ROOT = Path(__file__).parent.parent
 SRC = ROOT / "output" / "high_freq_cet4_df.txt"
 ROOTS = json.loads((ROOT / "intermediate" / "roots.json").read_text())
+_CORE = ROOT / "intermediate" / "core.json"
+CORE = json.loads(_CORE.read_text()) if _CORE.exists() else {}
 OUT_JSON = ROOT / "intermediate" / "entries_full.json"
 WEB = ROOT / "web"
 WEB.mkdir(exist_ok=True)
@@ -80,13 +83,15 @@ def main():
         r = ROOTS.get(e["word"], {})
         parts = r.get("parts") or []
         e["root"] = {"parts": parts, "summary": r.get("summary", "")} if parts else None
+        e["core"] = CORE.get(e["word"])
 
     OUT_JSON.write_text(json.dumps(entries, ensure_ascii=False, indent=1))
 
     n_root = sum(1 for e in entries if e["root"])
+    n_core = sum(1 for e in entries if e["core"])
     n_syl = sum(1 for e in entries if e["syl"])
     print(f"{len(entries)} entries -> {OUT_JSON.name}")
-    print(f"  {n_root} with 词根, {n_syl} with 分词")
+    print(f"  {n_root} with 词根, {n_core} with 核心意象, {n_syl} with 分词")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,616 @@
+# 任务 C_r1_30：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_30.labels.txt
+
+============================================================
+## 词：in    本段 600 句    模式：全标（每句都写）
+原释义：prep.在…内; 在…中. adv.在里面.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在……里，在……（地点、范围）    B 样本 46    例：In a government office.
+  1  prep. 在……（时间）；……之内，……之后（in recent years, in 41 minutes）    B 样本 8    例：That’s the fastest pace in four decades.
+  2  prep. 以……方式，处于……状态；穿着（in harmony, in a ball gown）    B 样本 9    例：Their brains work in harmony.
+  3  prep. 在……方面（increase in violence, advancement in high-tech）    B 样本 6    例：technology in assisting learning.
+  4  adv. 在里面；进来（come in）    B 样本 0
+  5  prep. （接在 involved, interested, participate, join, result 等词后）引出所涉及的对象或结果    B 样本 6    例：Enrolhim in a Newcastle football club.
+已标过的短语：take part in（1）；in place（1）；in principle（1）；in the process of（1）；in truth（1）；in addition（1）；bring in（1）；in contrast（1）；in fact（1）
+口径说明（照此执行）：
+  - take part in / in fact / in addition / in contrast / in place / in principle / in the process of / in terms of / in case of / in charge of 等按 P 标；bring in 这类动词+in 的引申义按 P 标，仅表字面进出才标 4；常规地点标 0；involved/interested/participate/join/result/enrol in 标 5；increase/rise/improvement/advancement in 标 3。id71 的 in their phones 原文有空格 _30_，我按 absorbed in 之类标 5，不确定。
+句子：
+1287 | H) As it is easy to consume large amounts of fruit juice quite quickly, extra calories are taken 【in】.    ?P:take in
+1293 | use, including everything from helping to protect the lives of firefighters to keeping homes cool 【in】
+1296 | These studies are impressive, but 【in】
+1371 | Perhaps it’s that attention focuses on horror stories — and some merchants do get hit when bike lanes come 【in】.    ?P:come in
+1441 | He has recently been commissioned to design the new Museum of London building 【in】
+1457 | People ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—【in】 2014.
+1513 | This is based on higher earnings and avoided costs 【in】
+1533 | He surprised sporting fans worldwide 【in】 1973.
+1566 | He took two firsts successively 【in】 1935-1936.
+1607 | Horn has found that certain creatures use strategies similar to bilateral control to avoid hitting each other while moving 【in】
+1629 | What did people generally think of Red Rum when he returned to the racecourse 【in】 1977?
+1641 | It was established as a three-star Michelin restaurant 【in】 2011.
+1821 | Furthermore, science has many safeguards 【in】
+1825 | It concluded that pandas fail to wander off 【in】
+1851 | Then they gave worse speeches and made more mistakes 【in】
+1853 | What did the author suspect back 【in】 2016?
+1870 | But when students were taught that people can change, they had better responses to stress, 【in】
+1444 | when the city removed nearby parking to put 【in】 a bike lane.    ?P:put in
+1543 | Driving around town 【in】 a car is so normal to them that cycling seems weird and unusual — despite its
+1835 | The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to find answers 【in】 a certain way.
+1545 | to an art form and some of their dishes are destined to become classics,” reads Michelin’s website, 【in】 a clear nod to plant-
+1313 | A 45-minute session 【in】 a darkened enclosure with peace and quiet costs $25.
+1750 | the species with a gene-editing technology, which will transform the seedlings into a species that survives even 【in】 a drier and
+1338 | G) Surface acting is a prime example of “emotional labor,” a concept that the writer Jess Zimmerman made familiar 【in】 a 2015 essay.
+1771 | Work 【in】 a flexible way.
+1443 | According to Horn, drivers making constant adjustments for equal spacing between cars 【in】 a flow of traffic can help reduce
+1718 | He suffered from severe pain 【in】 a heel.
+1295 | But, 【in】 a historical sense, number-conscious people like us are the unusual ones.
+1426 | 【In】 2015, a joint study found 72% of people taking MOOCs saw career benefits afterward.
+1846 | search of new mates if they find their habitat too comfortable, resulting 【in】 a lack of vital genetic diversity.
+1330 | hang around, so “【in】 a lot of cases, that’s created much nicer environments that are really good for those businesses.
+1866 | For their study — outlined 【in】 a paper 【in】 the journal Conservation Biology — the team looked at genetic diversity and
+1862 | What would scientific studies look like 【in】 a perfect world according to the author?
+1774 | 【In】 a perfect world, money wouldn’t matter — all scientific studies would be completely objective.
+1575 | 【In】 a phantom traffic jam, the cars 【in】 the same lane slow down one after another, creating a wave-like effect.
+1402 | 【In】 a pilot programme, students are given electronic devices to do assignments when schools are closed.
+1281 | [25] But if you’re 【in】 a place where you have a basis of trust, conflict can be extremely productive.
+1502 | Taken 【in】 a practical way, saving for post-work years is like giving money away to others.    ?P:take in
+1346 | Receiving education 【in】 a private university 【in】 the nation’s capital may change the author’s future life and that of her family’s.
+1399 | He surprised sporting fans around the world when he came 【in】 a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win.    ?P:come in
+1445 | It is suggested that gaming skills be included 【in】 a resume if they enhance a job applicant’s appeal.
+1479 | the 11th year 【in】 a row.
+1511 | A day later the students were offered a choice of snacks and drinks 【in】 a seemingly unrelated context.
+1707 | Regardless of their genetic makeup, infants have to learn an incredible amount of information 【in】 a short time, and curiosity is one of the tools humans have found to accomplish that gigantic task.
+1794 | It will result 【in】 a slow recovery.
+1729 | So, if your baby seems to be 【in】 a stressful state while sleeping or is upset upon waking, there may be other factors at
+1412 | shock," which refers to a dramatic drop 【in】 a student's academic performance.
+1738 | 【In】 a study, psychologist Myriam Bechtoldt of the Frankfurt School of Finance and Management 【in】 Germany asked 166 male university students a series of questions to measure their emotional intelligence.
+1619 | Kelli Harding was a participant 【in】 a summer course the author taught.
+1519 | If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts 【in】 a textbook needs to be dismissed.
+1553 | Distance education will never match the personal teaching 【in】 a traditional classroom.
+1514 | coconuts (  -1-) 【in】 a tree?
+1728 | 【In】 a war of culture, data does not help much 【in】 changing people’s minds.
+1642 | first emerge 【in】 aaolescence ( -t $-J.Jl) .
+1671 | — 9 begin seeing moving images and characters 【in】 action.    ?P:in action
+1611 | E) 【In】 addition, studies find the first year of high school typically shows one of the greatest increases 【in】    ?P:in addition
+1779 | Students benefit from Design Ventura because they can learn about budgeting and marketing 【in】 addition to game design.    ?P:in addition
+1422 | 【In】 addition to tuition, college students have to pay extra fees for the courses they take.    ?P:in addition
+1756 | It is a sign of dreaming 【in】 adults and infants alike.
+1878 | The gender difference 【in】 airfare expenses no longer existed.
+1839 | What accounted for the gender gap 【in】 airfares.
+1796 | What did the author’s team conclude about the gender difference 【in】 airfares from their further investigation?
+1770 | Our results show another way these negative behaviors can manifest themselves, like 【in】 airline bookings, and add to evidence that women are less likely to engage 【in】 them.
+1555 | But Pasternak did take note of one unifying factor 【in】 all of the healthy societies he observed.    ?P:in all
+1377 | the Munduruku and Piraha 【in】 Amazonia.
+1656 | The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about 【in】 America.
+1697 | What do we learn about publicity over protein 【in】 America?
+1535 | Savings rates 【in】 America have dropped 【in】 recent decades even though people’s life expectancy has increased.
+1567 | (Indeed, research has shown that the highest earners 【in】 America tend to work the most.
+1516 | For a time an app developer 【in】 America was so busy attending to work and family that she suffered from sleeplessness.
+1798 | moment we restrain our authentic selves 【in】 an effort to be liked.
+1663 | How can people best understand a particular fashion 【in】 an era, according to Ford?
+1448 | 【In】 an experiment, a researcher will place nuts into a can one at a time
+1618 | Yet teachers are expected to prepare them to be responsible citizens, cultivate their social skills, encourage successful time management, and enhance their capacity to flourish 【in】 an increasingly harsh labor market.
+1810 | verbal and written representations of an uncommon base-60 number system used 【in】 ancient
+1631 | habits day 【in】 and day out for greater success.    ?P:day in and day out
+1599 | They are doing work they care about and are interested 【in】, and doing more of it is not
+1746 | Many of the highest earners have a keen interest 【in】 and love for what they are doing.
+1413 | Jan moved from Idaho with her husband 【in】 1972 and opened a restaurant.
+1310 | “Coursera for Refugees” will be available for any non-profit group that supports refugees 【in】 any country, as well as individual refugees.
+1503 | Ford's thesis is that the best way to understand what particular fashions meant 【in】 any given era is to look at the restrictions
+1786 | not real 【in】 any physical sense and are nonexistent to numberless people.
+1453 | When debates 【in】 any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+1369 | such as 【in】 apple skins, that are excluded when you juice them,” says Heather Ferris, a professor of medicine.    ?P:such ... that
+1708 | What do we learn about social customs 【in】 Arabian countries?
+1854 | How students 【in】 arts and sciences view the two types of mindset of interest.
+1309 | The 56-year-old doctor’s methods have been adopted 【in】 Australia, Japan, Canada, and America with enormous success.
+1494 | According to recent research done 【in】 Australia, the answer is yes.
+1808 | It performs a different function 【in】 babies than 【in】 adults.
+1818 | What caused women to plan ahead 【in】 booking business trips.
+1596 | We wanted to determine what was causing these gender differences 【in】 booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.
+1477 | Only a very few have shifted to cycling, and even those almost certainly won’t cycle 【in】 Boston’s snowy
+1470 | I happen to be interested 【in】 both, and ended up enjoying the book for completely different
+1372 | Certain gaming skills meet the requirements of the armed forces 【in】 Britain.
+1325 | Sales of bottled water 【in】 Britain hit a record high last year even though people are increasingly aware that plastics are
+1298 | Campaigners feel it’s strange that children 【in】 British schools are penalized because they happen to be left-handed.
+1745 | People 【in】 business often make decisions based on their own personal feelings or instincts.    ?P:in business
+1780 | They are vital to keeping a dominant position 【in】 business transactions.    ?P:in business
+1467 | Red Rum was headed for the Grand National once again 【in】 1978 but suffered an injury 【in】 one of his heels shortly before the race.
+1409 | J) I spoke to Cindy Hughes, a hairdresser 【in】 Cambridge, Massachusetts.
+1793 | What would help improve food security among the disadvantaged groups 【in】 Canada?
+1623 | For example, low income is the strongest predictor of food insecurity 【in】 Canada, where one 【in】 eight households experiences insufficient access to nutritious foods.
+1562 | The new leader of Formula One admitted he was not super interested 【in】 car racing.
+1282 | New policies adopted by many US schools require students to do online learning at home 【in】 case of a school closure.    ?P:in case of
+1326 | It will probably not guarantee the safety of drivers 【in】 case of accidents.    ?P:in case of
+1860 | Sometimes, rational analysis and data are impractical to be employed 【in】 certain situations.
+1384 | The temptation for those 【in】 charge of education budgets to trade teachers for technology could be so strong that they ignore the disadvantages of distance learning.
+1597 | By keeping their emotions 【in】 check to avoid making poor decisions.    ?P:keep sth in check
+1634 | We all have faith 【in】 chocolates to delight us 【in】 an instant!
+1549 | What does this mean for offices 【in】 cities?
+1366 | Fountains could be seen 【in】 cities before bottled water became popular
+1855 | Teachers must stay on guard when it comes to what their students are doing 【in】 classrooms and how technology could be playing a negative role 【in】 the learning process.
+1294 | 【In】 cold and snowy Alaska, there’s a village called Takotna.
+1792 | It has done a good job 【in】 combating natural disasters.
+1316 | They must be used 【in】 combination for an entire collective.
+1280 | want to see — e.g. losing weight, getting a promotion, retiring 【in】 comfort, etc.
+1365 | Although it sounds like the respondents had a lot 【in】 common, here’s what separated them: about 30% of the men and 50%    ?P:have sth in common ?P:in common
+1341 | Haptics 【in】 communication often suggest the level of intimacy.
+1584 | What does physical contact 【in】 communication suggest?
+1819 | Without making things complicated, the solution to this dilemma is using data and instincts 【in】 conjunction to arrive at the best possible decisions.
+1833 | They work 【in】 conjunction with the environment.
+1418 | 【In】 contrast, 【in】 certain Arabian, African, and Asian countries, men can publicly hold hands or show physical affection as signs of brotherhood or friendship while these behaviors may suggest a romantic relationship 【in】 other parts of the world.    ?P:in contrast
+1478 | 【In】 contrast, the    ?P:in contrast
+1684 | This is 【in】 contrast to books that did not name images, or books that had the same label under each image.    ?P:in contrast to ?P:in contrast
+1739 | By sharing knowledge of agriculture and climate with peers 【in】 countries most vulnerable to poverty and hunger, scientists can help reduce these problems.
+1633 | professor of work and organisation studies at MIT, shows companies and managers can play a key role 【in】 creating a better
+1701 | When people have no way out 【in】 crises, they are more likely to embrace changes.
+1565 | By engaging themselves 【in】 critical reasoning.
+1499 | But it’s possible to avoid such costly mistakes by making a habit of engaging 【in】 critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.
+1464 | As a result, Los Angeles now has its best chance 【in】 decades to combat homelessness.
+1778 | What should people take into consideration 【in】 deciding on the most preferable protein intake?
+1844 | Knowing one’s emotional state is of utmost importance 【in】 deciding what changes to make for a better work-life balance.
+1301 | They are not designed for students to interact with the material 【in】 depth but designed to be graded easily to accommodate such a large number of students.
+1721 | It uses comparison and contrast 【in】 describing fashions of different eras
+1667 | Enrollment 【in】 Design and Technology decreased by nearly ten percent last year 【in】 the UK.
+1752 | Participants 【in】 Design Ventura are challenged to create sustainable and marketable products.
+1698 | Participation of ninth graders 【in】 Design Ventura can motivate them to choose design technology as their subject.
+1573 | We find that if pupils take part 【in】 Design Ventura 【in】 Year Nine it can be the trigger which leads    ?P:take part in
+1406 | K) It costs the schools nothing to participate 【in】 Design Ventura; the professional designers provide their services for free.
+1757 | The challenge 【in】 determining the role of each individual gene.
+1685 | What can we learn from research on diets 【in】 developed countries?
+1525 | Research shows that 【in】 developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.
+1803 | What does the author imply people 【in】 developed countries should do to keep healthy?
+1315 | Unemployment tends to be higher 【in】 developing countries.
+1857 | By setting up more food research programs 【in】 developing countries.
+1869 | They vary 【in】 different stages of brain development.
+1762 | People of different ages and genders show affection 【in】 different ways.
+1828 | They can modify the effects of medicines 【in】 different ways.
+1715 | Supermarkets may not feel cutting-edge now, but they were a revolution 【in】 distribution at the time.
+1795 | We have long feared that this "revolution 【in】 distribution" uses corporate black magic on our appetite.
+1789 | Professor O’Keefe established 【in】 earlier studies that people hold different beliefs about the nature of interest.
+1615 | What do the authors of the study recommend to bridge the gender gap 【in】 early childhood education?
+1339 | 【In】 early-year education, left-handed children are struggling and making a mess of their handwriting.
+1627 | None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role 【in】 economic decisions, such as patience and risk avoidance.
+1709 | What does the author think of the latest technology 【in】 education?
+1520 | Those policy-makers are often fascinated by the latest technology 【in】 education and its potential to “transform” education overnight.
+1680 | Advances 【in】 education technology.
+1822 | Good communication is the first step 【in】 effective persuasion, but logic and reasoning are just as important.
+1875 | To identify gender differences 【in】 emotional intelligence.
+1498 | It places employees 【in】 endless meetings, emails and stress.
+1439 | fluent 【in】 English.
+1390 | For another, most of the classes on Coursera are 【in】 English, and though there are plans to add translations, language barriers can be a big obstacle.
+1456 | He noted that Japanese people ate a wonderful variety of seaweeds, and that Chinese people tried to include at least five different colors 【in】 every meal.
+1625 | Supermarkets have long been suffering as one of the thinnest-margined businesses 【in】 existence and one of the least-looked-forward-to places to work or visit.
+1580 | 【In】 fact, acquiring the exact meaning of number words is a painstaking process that takes    ?P:in fact
+1539 | 【In】 fact, Americans currently consume almost twice the National Academy of Medicine’s recommended daily intake of    ?P:in fact
+1686 | 【In】 fact, 【in】 some cases, extreme ambition may end up doing more harm than good.    ?P:in fact
+1590 | 【In】 fact, 【in】 the United States, a little over half of children between the ages of three and five were read to every day 【in】 2007, and 83% of children 【in】 that age group 【in】 the same country were read to three or more times per week 【in】 2012.    ?P:in fact
+1622 | 【In】 fact, recent research has found that both the quality and quantity of shared book reading 【in】 infancy predicted later childhood vocabulary and reading skills.    ?P:in fact
+1556 | 【In】 fact, some 35 countries, including China, now produce more farmed than wild-caught fish.    ?P:in fact
+1348 | People agree to do too many things they are 【in】 fact unwilling to do.    ?P:in fact
+1447 | experience a hopelessness that results 【in】 failing their core classes, such as English, science and math.
+1289 | H) The truth is that 【in】 fairly dense areas, bikes are more efficient at moving people around.
+1632 | It is meant for those interested 【in】 fashion history    ?P:in fashion
+1569 | and personality, which, he assumes, influenced all innovations 【in】 fashion 【in】 the past and which continue to influence us today.    ?P:in fashion
+1437 | It may sound surprising, but you don't have to be interested 【in】 fashion, or even 【in】 history, to enjoy Dress Codes: How    ?P:in fashion
+1524 | Don’t go for a colour because it’s 【in】 fashion, or you’ve seen it 【in】 a magazine.    ?P:in fashion
+1360 | These bubbles are constructed and monitored by the brain region involved 【in】 fear.
+1505 | He is very much lacking 【in】 financial literacy.
+1784 | They are helpful 【in】 finding a romantic match.
+1432 | According to a recent study, one 【in】 five highly engaged employees is at risk of burnout (精疲力竭).
+1744 | It is a rare skill often found 【in】 fluid organisations.
+1717 | From this different perspective, you can not only be multitasking but this ability can also be taught: something that is easier 【in】 fluid organisations, which favour flexibility 【in】 their working practices.
+1767 | What does research reveal about adults 【in】 food-insecure households?
+1558 | Research suggests that adults 【in】 food-insecure households are just as likely as those 【in】 food-secure households to adjust recipes to make them more healthy.
+1591 | They are also just as proficient 【in】 food preparation and cooking skills.
+1740 | What does the author say is important 【in】 formulating policies to improve diets and health?
+1702 | REM sleep, 25% of the kids 【in】 Foulkes’ studies had no recollection of dreaming, a trend that continues through age 9.
+1579 | next, signaling striking instability 【in】 friendships.
+1765 | The students then had to give job talks 【in】 front of judges who displayed serious facial expressions.    ?P:in front of
+1830 | this, students had to complete a difficult mental math task 【in】 front of the same upper-year students.    ?P:in front of
+1408 | As Horn argues, “There’s absolutely no advantage of tailgating the car 【in】 front of you.    ?P:in front of
+1370 | car 【in】 front so closely.
+1476 | Before systems for bilateral control are installed, drivers should not follow the car 【in】 front too closely so as to reduce
+1508 | One expert claims that juicing wastes a lot of nutrients contained 【in】 fruits.
+1660 | He would have no rival 【in】 Grand National steeplechases.
+1420 | Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting 【in】 greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+1600 | Willpower and habits go hand 【in】 hand.    ?P:go hand in hand
+1711 | Compared with the average American, people 【in】 healthy societies _______.
+1349 | New Tech coupled with improvements 【in】 hearing aid technology and medical advances means that Miller is able to focus far more on his work.
+1314 | At Fox Broadcasting Company, he was a top advisor for years, known for his skill 【in】 helping to lead the launch of the company into sports, as well as the start of Fox News Channel.
+1461 | 15 minutes and a few clicks later, (20) with more than $350 worth of dolls 【in】 her cart, Kate placed the order and ran off to play.
+1517 | What does Mindi Reich-Shapiro emphasize 【in】 her comment on childhood education?
+1554 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up 【in】 her hospital room or flowers delivered.
+1616 | What do we learn about people 【in】 high-contact cultures?
+1382 | People from the rest of the world, such as Latin America, are considered to be 【in】 high-contact cultures, where they tend to expect touching 【in】 social interactions and feel more comfortable with physical closeness.
+1666 | Now most people living 【in】 high-income nations are consuming enough protein.
+1809 | The topic of the speech was what makes one popular 【in】 high school.
+1388 | He has benefited to a great extent from a tiny hearing device 【in】 his ear.
+1834 | What did Professor O’Keefe find 【in】 his earlier studies?
+1430 | 【In】 his mind, it felt like a Super Bowl (超级碗橄榄球赛).
+1303 | What did the author find 【in】 his study about the effect of online social interactions?
+1434 | To this day, Red Rum’s third win is known as one of the greatest moments 【in】 horse racing history.
+1460 | To enable them to settle down 【in】 host countries.
+1526 | Instability increases 【in】 host countries.
+1336 | What's more, the 7 ,OOO or so languages that exist today vary dramatically 【in】 how they utilize numbers.
+1776 | likely all play important roles 【in】 how we balance our professional and personal lives.
+1635 | Later research 【in】 2003, however, suggested high-protein diets could aid 【in】 weight loss, and protein quickly regained its
+1423 | For the first time 【in】 human history, most of our aquatic (水产的) food now comes from farming rather than fishing.
+1285 | What do we learn from research 【in】 human-vehicle interaction?
+1748 | It makes heavy reading but is not lacking 【in】 humor or appeal
+1712 | Its Nobel Prize reminds us all of the moral hazard 【in】 imagining that the poor and vulnerable are somebody else’s problem.
+1836 | A study published 【in】 2002 【in】 Personality and Individual Differences suggested that emotionally perceptive people might be particularly influenced by feelings of depression and hopelessness.
+1547 | F) This conclusion is echoed by work with anumeric children 【in】 industrialized societies.
+1873 | Hi-tech products are needed 【in】 interdisciplinary research.
+1551 | Its absence might suggest a lack of warmth 【in】 interpersonal relationships
+1678 | They tend to be more open 【in】 interpersonal relationships.
+1518 | Its role 【in】 interpersonal relationships is getting increasingly important
+1469 | through day-to-day, make sure your present self knows what's 【in】 it for her too.
+1754 | If meatless meat can help you stick to a plant-based diet, that 【in】 itself can lead to better health.    ?P:in itself
+1654 | While this may be so, it does not, 【in】 itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.    ?P:in itself
+1468 | 【In】 Keynes’s vision, the resulting unemployment
+1415 | ijt 【in】 khl _\\"_a_y_mf buildinn _a real seop !'!_ b_elonging.
+1812 | They account for age differences 【in】 learning.
+1714 | Without any ambition, you wouldn't start your own business, set or achieve goals and get far 【in】 life.
+1736 | Enable students to adapt to the changes 【in】 life.
+1307 | Saying “no” is an important skill to develop at any stage of your career because it retains the most important asset 【in】 life: your time.
+1605 | A visit to the Design Museum shop 【in】 London can reduce the designers’ fears about the future supply of talents educated
+1497 | But contrary to popular belief, the homeless 【in】 Los Angeles are not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+1357 | There are close to 58,000 homeless people 【in】 Los Angeles county.
+1595 | What is one of the causes for more and more people 【in】 Los Angeles to become homeless?
+1743 | Prior research on negative reciprocity among workers found that it can result 【in】 lower employee motivation, business performance and workplace morale (士气) and culture.
+1362 | for normal workers (those who were not 【in】 management roles) 【in】 private industries other than agriculture nearly doubled 【in】
+1764 | 【In】 many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.
+1380 | 【In】 many cases, there is no active help and a lack of teacher training.
+1676 | Genes and the environment interact 【in】 many complex ways to shape individuals and guide their behavior, including their curiosity.
+1492 | It is gaining ground 【in】 many countries.
+1732 | word"five" 【in】 many languages is derived from the word for "hand.
+1814 | Since cheating through technology is not listed specifically as being against the rules 【in】 many school policies, students do not view the actions unethical.
+1858 | They modernized traditional groceries 【in】 many ways.
+1617 | It might hinder the progress 【in】 medical research.
+1747 | Almost 75% of U.S. clinical trials 【in】 medicine are paid
+1651 | What features 【in】 Mediterranean, Nordic and Okinawan diets?
+1397 | That’s why we feel like we have to appear busy, and there’s a real perception that if someone is knee-deep 【in】 meetings, emails, and stress, then they’re probably a big deal.
+1324 | one dependent child—who worked 【in】 middle or senior management roles.
+1355 | After going to DirecTV, he positioned the satellite provider as a mainstream option 【in】 millions of households.
+1648 | It might breed public distrust 【in】 modern medicine.
+1832 | For statistics, we should invest 【in】 more accurate measurement
+1378 | Our always-on world of social media may result 【in】 more connections, but they are superficial and can
+1410 | 【In】 more conventional views, gaming is a time-wasting activity pursued by young boys.
+1364 | 【In】 more northern regions of the US, school is less likely to be affected by snowy weather.
+1488 | K) 【In】 more than a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.
+1290 | J) Digital entrepreneur and business consultant Mia Bennett says: “【In】 more traditional settings, gaming is still imagined to be
+1759 | has helped yield numbers 【in】 most cultures, but not all.
+1356 | Credit is also scarcer 【in】 most developing countries.
+1682 | What do people 【in】 most healthy eating cultures have 【in】 common?    ?P:have sth in common ?P:in common
+1588 | “The only overlapping feature 【in】 most of these healthy countries is that they all walk way more than the average American,” said Pasternak.
+1550 | The role of teachers 【in】 motivating children to learn.
+1690 | Indeed, many companies look for people who are skilled 【in】 multitasking to improve their productivity.
+1847 | subtle and just shows the impact symphonic orchestras have had on society’s taste 【in】 music.
+1700 | describe 【in】 my book, The Authentic Heart, it is the courage to be authentic that connects us 【in】 a deeper way.
+1311 | If I am caught with it 【in】 my pocket, I will be subject to disciplinary procedure, which will impact on my career.
+1521 | 【In】 my practice, the sickest people I see often share similar backgrounds: loneliness, abuse, poverty, or discrimination.
+1473 | But are we really 【in】 need of more protein?    ?P:in need
+1859 | Both men and women were found to engage 【in】 negative behaviors.
+1628 | So much so that, according to experts 【in】 neuroscience (神经系统科学), our brains do not handle multitasking situations well.
+1458 | Colour is now spreading through our homes, up staircases, across wood frames and ceilings, filling 【in】 neutral spaces.
+1688 | The increase 【in】 new housing falls short of the demand of the growing homeless population.
+1509 | Horn said with some simple modifications to the existing equipment 【in】 new vehicles, their spacing bilateral control could
+1687 | There is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded 【in】 New York 【in】 1930.
+1414 | Researchers have also studied some adults 【in】 Nicaragua who were
+1300 | 【In】 nonverbal communication terminology (术语), physical contact and the study of touching are generally referred to as haptics.
+1788 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living 【in】 northern climates, but what we forget about are the tens of thousands of people that tried and failed to make it 【in】 those challenging landscapes.
+1431 | The citizens of this county voted 【in】 November 2016 and again 【in】 March 2017 to raise their own taxes.
+1335 | Each March, this tiny village swells up 【in】 numbers, because it is located 【in】 the middle of a race that takes place every year.
+1852 | It is difficult for anumeric people to keep track of the change 【in】 numbers even when the total is very small.
+1760 | One is the rise 【in】 obesity levels
+1429 | The friends I have who still work 【in】 offices inform me their bosses insist that they take the second option, and that napping is associated with laziness.
+1582 | If savings are modest, then the many advantages of working 【in】 offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo 【in】 2013, encourage employees to work most of the time from corporate office space.
+1504 | Second, after identifying the cause, they zeroed 【in】 on their
+1375 | statement contains information given 【in】 one of the paragraphs.    ?P:give in
+1704 | G) 【In】 one recent study, we examined 360 adolescents' beliefs about the nature of "smartness"-that is,
+1363 | K) “【In】 one study, we asked people online about the goals they set at the beginning of the year.
+1813 | For example, 【in】 one task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.
+1741 | Avoiding radical change 【in】 one's career direction.
+1383 | What does the author say about students enrolled 【in】 online classes?
+1644 | Participate 【in】 online discussions.
+1523 | Back 【in】 1974, only 10% of marine fish stocks had been overfished.
+1392 | While 【in】 1950, only 2,500 U.S. families owned pools, by 1999 this number was 4 million.
+1312 | First, large houses take time to maintain, so cleaners and other low-wage service workers are required to keep these houses 【in】 order.    ?P:in order
+1395 | This means individuals must save more 【in】 order to achieve their goals, or they borrow money from friends and family rather than a bank.    ?P:in order to ?P:in order
+1823 | Workers who rejected working long hours tended to make regular adjustments 【in】 order to achieve work-life balance.    ?P:in order to ?P:in order
+1570 | of your emotional state is essential 【in】 order to determine the changes you want to make 【in】 your work and 【in】 your life,” says    ?P:in order to ?P:in order
+1800 | 【In】 order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach    ?P:in order to ?P:in order
+1435 | productivity stopped working around 1973.Thus, they had to keep working just as much 【in】 order to maintain their    ?P:in order to ?P:in order
+1424 | He can just concentrate on how interesting the meeting might be and what he needs to get out of it 【in】 order to progress.    ?P:in order to ?P:in order
+1843 | 【In】 order to sustain those relationships, you must be able to work 【in】 their best interests as well.    ?P:in sb's best interests ?P:in order to ?P:in order
+1489 | For starters, Americans eat much bigger portions than people 【in】 other countries.
+1436 | 【In】 other words, present self trumps future self.    ?P:in other words
+1358 | 【In】 other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.    ?P:in other words
+1653 | 【In】 other words, the more time parents spend reading, the greater the developmental benefits 【in】 their four-year-old children.    ?P:in other words
+1807 | What does the author say about the proteins 【in】 our body?
+1407 | and protein and fats 【in】 our diet, and increasing fibre.
+1421 | There’s a social dimension to health that we’ve completely overlooked 【in】 our efforts to find the best and most cutting-edge medical care....
+1411 | “We took the jump to transform Eleven Madison Park into a plant-based fine dining restaurant knowing 【in】 our hearts
+1831 | They reside 【in】 our minds, numerical artifacts (A..I.!Ö ×) that not all humans inherit
+1541 | edge 【in】 our professional and personal lives.
+1404 | financial education 【in】 our schooling system that is leaving high schoolers seriously behind 【in】 the modern world of money.
+1337 | 【In】 our stimulation-rich world, it seems unrealistic that boredom could occur at all.
+1512 | grateful to our guests and partners who believed 【in】 our vision and encouraged us to push harder?.    ?P:believe in
+1727 | While our initial attraction may be based 【in】 part on physical chemistry, it is the meeting of our inner worlds that creates    ?P:in part
+1368 | Winning entries 【in】 past years have
+1522 | Contrast that to the healthy Mediterranean, Nordic and Okinawan diets listed 【in】 Pasternak’s book.
+1850 | They occur 【in】 people suffering from emotional stress.
+1876 | By building self-respect 【in】 people suffering from undernutrition.
+1401 | Other studies have shown a greater uptake of exercise 【in】 people who were told to think of the enjoyment of doing the exercise
+1829 | They occur often 【in】 people with an active imagination.
+1532 | The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture 【in】 peril.
+1319 | As we all know, cultural or individual differences 【in】 personal bubble diameters are all too often the cause of discomfort.
+1542 | Drivers caught up 【in】 phantom traffic jams are likely to think an accident has happened or some construction is going on.
+1662 | the correct habits are 【in】 place, you will automatically perform those tasks on a day-to-day basis.    ?P:in place
+1837 | By sharing expertise with peers 【in】 poverty-stricken nations.
+1719 | Keynes was right 【in】 predicting that technology would make the economy much more productive.
+1775 | It is characteristic of academics 【in】 presenting arguments.
+1544 | What is a major flaw 【in】 previous interventions to help reduce junk food consumption?
+1306 | Left-handers are also overrepresented 【in】 professional, interactive sports.
+1735 | Men can show friendship 【in】 public through physical affection.    ?P:in public
+1733 | We originally had this suspicion back 【in】 2016, puzzled by the fact that national statistics showed
+1742 | They were such strange marvels that, on her first official state visit to the United States 【in】 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour of a suburban-Maryland Giant Food.
+1613 | Engage 【in】 real-life interactions.
+1841 | 【In】 reality, education does an aging brain good.    ?P:in reality
+1659 | What we call multitasking, therefore, is 【in】 reality the ability to move more or less quickly from one task to another.    ?P:in reality
+1475 | According to a research paper, drinking fruit juice is beneficial on condition that it is consumed 【in】 reasonable amounts.
+1804 | According to an officer of the Creative Industries Federation, there is difficulty now 【in】 recruiting engineers 【in】 the UK.
+1500 | What did the serious bone disease 【in】 Red Rum’s foot mean to himself and his trainer?
+1802 | cacao seedlings are lined up 【in】 refrigerated greenhouses for a new experiment by using a technology called CRISPR.
+1640 | are 【in】 REM, it allows their brain to develop pathways, connections, and eventually, learn languages.
+1317 | 【In】 2016, researchers from Columbia, Harvard, and Georgetown conducted a study to figure it out.
+1291 | What do supporters say 【in】 response to the restaurant’s new policy?    ?P:in response to
+1670 | A stretch of Skillman Ave witnessed not only a big increase 【in】 sales but also the opening of new businesses.
+1877 | Students no longer spend summers farming, but they aren't 【in】 school, either.
+1386 | Students may no longer be qualified for financial aid if they perform poorly 【in】 school or if their family income has increased.
+1731 | intelligence is fixed-that you are stuck being "not smart" if you struggle 【in】 school-showed higher
+1636 | One of Design Ventura’s judges says the competition adds vigour to the standard curriculum 【in】 schools.
+1405 | likely among the millions of people 【in】 search of more protein-rich diets.    ?P:in search of
+1724 | It has helped Americans 【in】 search of protein-rich diets.    ?P:in search of
+1327 | Kin Design Studio 【in】 Shoreditch, met designers at their school and attended a lunch with Deutsche Bank employees.
+1459 | Nursing homes should be strictly limited 【in】 size.
+1379 | Emotional labor can lead to difficulty 【in】 sleeping and family conflict.
+1787 | The final potential cause is an increase 【in】 snacking and eating out over recent decades-both 【in】 terms
+1674 | European was decimally oriented because, as 【in】 so many cultures, our ancestors' hands served as the
+1647 | They take touching as a cultural norm 【in】 social interactions.
+1805 | The most major indicator of classical music’s importance 【in】 society today is the fact that much of the popular music that
+1720 | Such corporate sponsorship is widespread 【in】 some fields.
+1826 | is currently being produced uses similar beats, harmonies, and melodies as those that were used 【in】 some of classical
+1540 | closing 【in】 some schools.
+1761 | 【In】 some situations, the stakes are low and failure is a healthy part of growth.
+1589 | 【In】 some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems.
+1496 | 【In】 some ways, I'm glad to be coming from the outside.
+1288 | studies of millions of bats emerging at dusk from caves 【in】 Southeast Asia showed that each bat used a form of bilateral
+1308 | Big advances 【in】 speech recognition technology have enabled communication tools to turn live speech into text 【in】 real time on your smartphone or laptop, and sign language into text as well.    ?P:in real time
+1433 | 【In】 spite of progress, the number of women 【in】 top positions of big companies remains extremely small.
+1446 | this is what we believed 【in】,” stated Humm on Instagram.    ?P:believe in
+1815 | 【In】 students who were rated more emotionally intelligent, the stress measures increased more during the experiment and took longer to go back to baseline.
+1782 | common sedative used 【in】 surgical procedures worldwide, might interfere with the internal clock that protects the
+1331 | K) Twelve years into his career, Mark Long, a radiotherapy physicist with the NHS 【in】 Surrey, doesn’t get as much gaming
+1811 | evidence that food conswned out of the home is one of the most poorly recorded categories 【in】 surveys.
+1872 | What often goes unnoticed 【in】 surveys on food conswnption?
+1559 | What does the author say causes refugees’ difficulty 【in】 taking online courses?
+1592 | Difference 【in】 teaching platforms.
+1638 | One 【in】 ten Americans has tried to look like a star.
+1400 | the 1973 level 【in】 terms of actual purchasing Power.    ?P:in terms of
+1621 | What does the author say about China 【in】 terms of aquatic food?    ?P:in terms of
+1571 | Render them confident and secure 【in】 terms of money management.    ?P:in terms of
+1673 | greatest burden of disease worldwide, 【in】 terms of the total cost of treatment and the loss of    ?P:in terms of
+1322 | inspiring, when it comes to actually doing the day-to-day work, it may be more effective to reframe activities 【in】 terms of their    ?P:in terms of
+1442 | Fruit juice is different from whole fruit 【in】 that it contains much less fibre.
+1737 | A Common Sense Media survey found that 35-percent of students had cheated via smartphone, though the parents surveyed 【in】 that particular study did not believe their kids had ever cheated.
+1416 | “The realizations I had 【in】 that process helped me gain insights and ultimately got me ready to integrate self-care into my daily life,” she said.
+1601 | Consider the fact that a 1918 catalog insisted that boys and girls be dressed 【in】 the
+1639 | business that cities nationwide began allowing them to build curbside seating areas where people could sit, safely, 【in】 the
+1359 | 【In】 the absence of Federal legislation, some states 【in】 the US have passed laws concerning paid family leave.
+1612 | 【In】 the absence of the cultural traditions that fill our lives with numbers from infancy, we
+1393 | Just look at the world around you at 2:30 【in】 the afternoon.
+1419 | 【In】 the age of the internet, there’s no such thing as a private debate.
+1354 | Here, at this point 【in】 the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.
+1463 | M) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea 【in】 the background framing the scene.
+1699 | While a good suit works wonders for our performance 【in】 the boardroom, wearing formal wear isn’t a great idea when
+1755 | Many drug targets 【in】 the body follow a 24-hour cycle, too.
+1783 | It determines the formation of connections 【in】 the brain.
+1481 | remain 【in】 the can, even if there are only four or five 【in】 total.    ?P:in total
+1610 | It is the first restaurant 【in】 the city to remove meat from its menu.
+1510 | “They tend to be people with deep roots 【in】 the city, who have hung around since before the neighborhood became what it
+1344 | 【In】 the coming era of budget cuts to education, distance learning could become the norm.
+1626 | The divorce rate 【in】 the county has been on a steady rise.
+1578 | based foods’ growing significance 【in】 the culinary world.
+1474 | “Now that design education is limited 【in】 the curriculum, I’m all 【in】 favour of competitions
+1772 | 【In】 the decision-making process, relying on instincts only makes sense when you have a vast experience to support you.
+1797 | This seemingly easy question is what drives the need to understand the relationship between instincts and data 【in】 the decision-making process.
+1329 | control to reduce the likelihood of collisions with other bats 【in】 the densely packed swarm , Hom said.
+1725 | The schools don’t have to pay anything to take part 【in】 the Design Ventura competition.    ?P:take part in
+1730 | not written 【in】 the DNA.
+1769 | 【In】 the early days, as the supermarket multiplied, so did our suspicion of it.
+1381 | Low pay has long been acknowledged as a major issue 【in】 the early education field.
+1417 | Over 70% of male educators who said they intended to stay 【in】 the early education workforce noted an increased salary was a major motivating factor for them to commit to the career long-term.
+1576 | M) When Janette Sadik-Khan was the head of New York City’s Transportation Department back 【in】 the early 2000s, she
+1816 | More people will be willing to join 【in】 the effort.
+1655 | Most of us 【in】 the entrepreneurial community are blessed—or cursed—with higher-than-average ambition.
+1389 | He felt disappointed working 【in】 the environment.
+1340 | Reich-Shapiro and fellow researchers made several recommendations to increase male representation 【in】 the field.
+1451 | The authors also suggest that traditional recruitment approaches for early childhood educators “do not address the gender gap 【in】 the field.
+1646 | Taking measures to attract prospective male teachers to work 【in】 the field.
+1672 | It was a mad gamble few chefs 【in】 the fine dining world would risk taking.
+1863 | What does the author say about the ability to be persuasive 【in】 the first paragraph?
+1485 | What does the author say 【in】 the first paragraph about physical contact?
+1483 | It is important to understand what causes your stress 【in】 the first place.    ?P:in the first place
+1643 | I) So, how did we ever invent "unnatural" numbers 【in】 the first place?    ?P:in the first place
+1722 | If your workplace isn’t an environment where work-life balance is possible 【in】 the first place, any effort    ?P:in the first place
+1284 | people think they needed bottled water 【in】 the first place, fountains were an urban fixture.    ?P:in the first place
+1527 | 【In】 the first study, more than 600 high school students were surveyed about their tendency to take risks and feel confident.
+1320 | 【In】 the following two years, Red Rum lost out on the title, coming 【in】 second both times.    ?P:come in
+1507 | One group presented their idea 【in】 the form of a puppet show and we see    ?P:in the form of
+1501 | would be distributed more or less evenly across society 【in】 the form of increased leisure.    ?P:in the form of
+1373 | What do we learn about extremely shy students sitting 【in】 the front row of the classroom?
+1577 | They focused on the benefits young people would reap 【in】 the future.
+1763 | Prepare students to be competitive 【in】 the future.
+1351 | The new program aims to aid refugees by offering “important skills that will help them 【in】 the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+1305 | M) 【In】 the grand scheme of things, however, colleges also must come to understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income or first-generation students they are trying desperately to attract.    ?P:in the grand scheme of things
+1693 | Most of us are not 【in】 the habit of exercising self-control.    ?P:in the habit of
+1465 | What is a reason for the author to be 【in】 the habit of saying “busy” when asked how he is doing?    ?P:in the habit of
+1385 | She has walked too many miles 【in】 the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.
+1649 | The power of the classroom is rooted 【in】 the humanity of the people gathered 【in】 the same place, at the same time.
+1867 | A better example for the relevance of opera and classical music can be seen 【in】 the invention of the rock opera.
+1557 | 【In】 the kitchen, painting the overhead cupboards and the walls 【in】 the same colour can make it feel more spacious.
+1679 | What does the author say about science 【in】 the last paragraph?
+1820 | What does the author advise us to do 【in】 the last paragraph?
+1861 | 【In】 the late 1960s, British brain scientist Geoffrey
+1871 | 【In】 the long history of mankind, humans who use numbers are a very small minority.
+1321 | H) This can be seen 【in】 the median workers income over this time period complete with a shift 【in】 1973 that fits 【in】 precisely
+1332 | What did one study find about students seated 【in】 the middle of the classroom?
+1849 | Why do doctors advise patients to take most drugs 【in】 the morning or 【in】 the evening?
+1440 | Many of us living 【in】 the most developed countries are buying into a myth of protein deficiency created by food companies
+1455 | Ultimately, what affects our health 【in】 the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens 【in】 the doctor’s office.
+1403 | They had a tendency to reflect and question assumptions 【in】 the name
+1664 | All of this was done 【in】 the name of increasing job satisfaction and giving workers greater flexibility,    ?P:in the name of
+1865 | They could become a rare treat 【in】 the near future.    ?P:in the near future
+1716 | It only means that the gender gap disappears when we plug 【in】 the negative reciprocity variable.
+1480 | 【In】 the new global economy, students who fail to finish the ninth grade with passing grades. 【in】 college
+1486 | A recent debate published 【in】 The New York Times discussed the question of how quickly medicine should be developed and produced.
+1585 | Why did a recent debate published 【in】 The New York Times arouse concerns among experts?
+1546 | The consequences of doing poorly 【in】 the ninth grade can impact more than students' ability to find a
+1652 | 【In】 2020, the Nobel Peace Prize was awarded to the World Food Programme (WFP).
+1868 | Both scenarios are contributing to a big increase 【in】 the number of people 【in】 the US working into their 70s.
+1353 | Second, once-public spaces, where people from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction 【in】 the number of public facilities available to all, and a reduced quality of life for many.
+1350 | Why did Bill Thomas try something different 【in】 the nursing home?
+1328 | “There are a lot of nutrients contained 【in】 the parts of the fruits,
+1840 | Instinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions have worked 【in】 the past.
+1691 | He could be expected to repeat his glory 【in】 the prime of his career.
+1515 | make you more effective 【in】 the process.
+1669 | 【In】 the process, we may fail to attend to ourselves 【in】 a way that would move us toward deeper intimacy,    ?P:in a way
+1723 | endangering the cacao farms 【in】 the rainforests.
+1799 | But 【in】 the real world,
+1695 | employees 【in】 the redesign group reported less stress and less burnout.
+1637 | wear puts us 【in】 the right frame of mind to conduct business.
+1387 | At around 20 kilograms per person global fish consumption is now more than twice what it was 【in】 the 1960s.
+1598 | He took three Grand National wins 【in】 the 1970s.
+1694 | What was the aim of the first laws passed regarding fashion 【in】 the 1200s?
+1604 | 【In】 the 1970s through the 1990s, protein products remained visible but moved back somewhat with the dietary spotlight
+1536 | Through this lens, he shows us that the first laws passed 【in】 the 1200s to ensure that only the nobility were
+1530 | The challenges are enormous, even if everyone is pulling 【in】 the same direction.
+1657 | Everyone is pulling 【in】 the same direction to solve the homelessness problem.
+1564 | We compared the airfare paid by employees 【in】 the same position within a company for the same class of travel and used a common statistical technique to account for other factors that might affect differences 【in】 airfares.
+1472 | 【In】 the same way that learning a language or new skills takes time, building financial skills requires practice and years to
+1552 | Clear up confusion 【in】 the scientific community.
+1560 | 【In】 the second study, those born on both sides of the cut-off date for starting school, were asked to complete online math questions and rate their performance.
+1529 | The guys who are 【in】 the sport forever are sitting there saying: 'We can't do that.
+1286 | see their design on sale 【in】 the spring of the following year.
+1791 | The scientists measured concentrations of stress hormones 【in】 the students’ saliva (唾液) before and after the talk.
+1583 | What do we learn about male teachers from their responses 【in】 the study?
+1299 | Despite mostly feeling supported by colleagues and family members, many of the male educators surveyed 【in】 the study reported facing social or cultural resistance 【in】 their careers as early education teachers.
+1471 | F) Lupu and Ruiz-Castro identified five steps that the respondents 【in】 the study who had better work-life balance used 【in】 their
+1661 | An economist’s prediction about a shorter average working week seemed to be correct for a time 【in】 the 20th century.
+1304 | The studies indicate something is missing 【in】 the traditional biomedical model.
+1665 | are used to make chocolate, grow 【in】 the tropical plant world and require very specific weather conditions to prosper.
+1352 | “Students should do things differently 【in】 the two environments.
+1484 | What do we learn from the first paragraph about early childhood education 【in】 the U.S.?
+1594 | People's opinions differ as to whether Formula One can be promoted 【in】 the U.S.
+1506 | Physicians 【in】 the U.S. have never actually examined a patient with protein
+1692 | 【In】 the U.S. labor market. the primary concern of people with less schooling and fewer skills is to secure any employment
+1630 | Friedman believes inequality 【in】 the U.S. largely explains why increasing productivity has not resulted 【in】 reduced working
+1751 | Why have physicians 【in】 the U.S. never actually examined a patient with protein deficiency?
+1394 | "I think they can build Formula One 【in】 the U.S.," said Patrick Crakes, an executive at 【In】 Vivo Media Group who spent 25 years at Fox Broadcasting Company before leaving 【in】 2016 as a senior manager at Fox Sports.    ?X
+1495 | What are big houses promoted to be 【in】 the United States?
+1838 | It originated 【in】 the United States.
+1777 | According to a report by The Business Insider, 【in】 the University of California’s new bio-sciences building, tiny green
+1297 | As the scholar Silvia Federici put it 【in】 1975, the unpaid nature of domestic work reinforces the assumption that “housework is not work, thus preventing women from struggling against it.
+1323 | There is a time-honoured tradition 【in】 the US for school kids to stay at home on “snow days”.
+1302 | 【In】 the US, France and Germany, written contracts tend to be seen as something that must be strictly carried out.
+1466 | According to one estimate, less than one third of companies 【in】 the US provide paid parental leave.
+1608 | have turned to claiming the problem is the opposite: There are too many cyclists getting 【in】 the way of cars.    ?P:get in the way of ?P:get in the way
+1620 | What is typical of Americans 【in】 the way of eating?
+1548 | It may get 【in】 the way of enhancing one's social status.    ?P:get in the way of ?P:get in the way
+1683 | 【In】 2019, the WFP assisted nearly 100 million people 【in】 88 countries.
+1490 | That’s because the volume of fish caught 【in】 the wild has leveled off since the 1990s.
+1318 | He said equal parental leave is an essential component to creating gender equality 【in】 the workplace.
+1398 | According to one father, equal parental leave is indispensable to achieving gender equality 【in】 the workplace.
+1396 | That's a shocking and tragic number for a region that's home to some of the richest people 【in】 the world.
+1766 | More and more people 【in】 the world are suffering from starvation.
+1563 | 【In】 the world's richest nation, homelessness on this scale should be shameful and shocking.
+1781 | An increasing interest 【in】 their analyses.
+1677 | Persuading prospective fathers to consider a change 【in】 their career.
+1806 | A huge boost 【in】 their consumption.
+1713 | People from different social groups vary 【in】 their dietary habits.
+1768 | How do the most ambitious entrepreneurs regard failure 【in】 their endeavor?
+1586 | 【In】 their first 18 years of life, American children spend only 9% of their time 【in】 school.
+1568 | Researchers found that enjoyment rather than importance enabled people to persist 【in】 their goals.
+1801 | Research found that those who are given greater flexibility at work are less stressed and more likely to stay 【in】 their jobs.
+1427 | The internet is too easy and too unreliable a research tool, (18) so let’s leave phones and laptops at home, and show them a different world 【in】 their lessons—one of books and pens,” he says.
+1482 | When people are bored, they're more likely to feel less meaning 【in】 their lives.
+1391 | Children are getting more than enough screen time 【in】 their lives without the need to bring their phone into the classroom.
+1874 | Parents must also talk to their kids about the appropriate ways to find academic answers and alert them to unethical behaviours that may seem innocent 【in】 their own eyes.
+1842 | They can do amateur work 【in】 their own fields
+1827 | An enormous effort 【in】 their promotion.
+1283 | argue that work-life balance is “a cycle, not an achievement” 【In】 their 2020 study, the researchers interviewed nearly 80    ?X
+1726 | mean, who wants to hang out with people 【in】 their suits?
+1675 | Define boredom 【in】 their unique way.
+1848 | A noticeable surge 【in】 their varieties.
+1438 | of self-awareness and regularly took steps to adjust the things standing 【in】 their way to work-life balance.    ?P:stand in one's way
+1587 | M) It’s a guess how many George Engels 【in】 their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation is blessed with.
+1734 | It’s what motivates non-human animals, human infants and probably human adults to explore and seek out new things before growing less interested 【in】 them after continued exposure.
+1574 | Most people don’t really believe 【in】 them, but    ?P:believe in
+1689 | This isn’t to say that all men engage 【in】 these behaviors—or that booking relatively late is a sign of abnormal behavior.
+1452 | Although men’s touching is more normal 【in】 these cultures, physical contact between persons of opposite sexes who are not family members is negatively perceived 【in】 Arabian countries.
+1606 | research into the impact of clothes on behavior now suggests that there may actually be a grain of truth 【in】 these sayings.
+1879 | 【In】 these situations, instincts can help you make effective and quick decisions.
+1347 | Being left-handed maximizes their chances of success 【in】 these sports.
+1334 | Directions: 【In】 this section, you are going to reaa a passage with ten statements attached to it. &eh
+1374 | “If we can show the possibilities of eating plant-based food 【in】 this setting, it can open a lot of doors” for others to follow.
+1758 | 【In】 this study, instead of teaching
+1785 | 【In】 this study, students came into the laboratory and were asked to give a public speech 【in】 front of    ?P:in front of
+1824 | Similarly, 【in】 this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make
+1491 | Another interior designer commented that certain combinations can key into something on a deeper level, transporting you to a different moment 【in】 time.    ?P:in time
+1531 | One is too busy to check all emails 【in】 time.    ?P:in time
+1603 | They comfort us 【in】 times of trouble, calming down    ?P:in time
+1376 | The whole village chips 【in】 to help, including the kids, who end up developing their baking skills at an early age.
+1361 | When he returned 【in】 1977 to try again, he was largely regarded as past his prime.
+1703 | It would prove a right step to take 【in】 today’s catering business.    ?P:take in
+1790 | 【In】 today’s classrooms, students who cheat are rarely caught.
+1538 | How did the author feel 【in】 today’s money world?
+1645 | There is no point 【in】 transferring office work to working from home.    ?P:there is no point in
+1650 | George Engel, 【in】 treating his patients, not only looks into their symptoms but also into things like the emotional support they receive.
+1710 | A social aspect to health has not been taken into account 【in】 trying to provide the best medical care.
+1668 | This 【in】 turn helps us become better negotiators and abstract thinkers.    ?P:in turn
+1572 | While fats and sugar have taken the beating 【in】 turns since over a century ago, protein has managed to remain our red-hot    ?P:in turns ?P:in turn
+1749 | you attempt to make toward it on a personal level will be 【in】 vain.
+1343 | Such differences 【in】 value that different working cultures place on the written word tend to cause many problems when it comes to business relationships.    ?P:such ... that
+1493 | It allows refugees to obtain degrees 【in】 various academic fields.
+1367 | Training them to be experts 【in】 vehicle automation.
+1333 | “【In】 view of the climate crisis, I didn’t want to open the same restaurant,” Humm told the Financial Times 【in】 an interview.    ?P:in view of
+1425 | He acted 【in】 violation of the state law.
+1845 | the cocoa crops survive 【in】 warmer and drier climates.
+1817 | The book The Hidden Persuaders, published 【in】 1957, warned that supermarkets were putting women 【in】 a "hypnoidal trance (催眠恍惚状态)," causing them to wander aisles bumping into boxes and "picking things off shelves at random.
+1681 | What Kelli Harding went through 【in】 Washington changed her life.
+1696 | Now, fifty percent of the world’s cocoa beans come from two countries 【in】 West Africa: Cote d’Ivoire and Ghana.
+1609 | 【In】 what way is the new intervention innovative?
+1864 | point was reached 【in】 2020 when human-made materials — such as steel, concrete and plastic — were found to weigh more
+1292 | The fine dining establishment received its first three-star Michelin rating 【in】 2011 when the menu was famed for its fancy
+1454 | But moving away from a traditional classroom 【in】 which a living, breathing human being teaches and interacts with students daily would be a disaster.
+1658 | We found that only the concept of “negative reciprocity”—【in】 which an employee who feels unfairly treated engages 【in】 negative behaviors, such as spending their company’s money less carefully—explains these differences.
+1462 | Are we willing to accept a system 【in】 which an increase 【in】 amenities purchased by the affluent means a reduction 【in】 amenities for the poor?
+1534 | Americans now have a labor market 【in】 which millions of people — those with fewer skills and less
+1345 | It wasn’t diet or genetics that made a difference 【in】 which rabbits got sick and which stayed healthy.
+1342 | We need restructured online classes 【in】 which students can have a learning experience that will actually provide quality education.
+1624 | One 【in】 which the affluent enjoy a more comfortable life at the expense of the poor.
+1428 | Should Americans accept a system 【in】 which the middle and upper classes enjoy a luxurious lifestyle, using the low-wage labor of others?
+1561 | One 【in】 which the rich purchase amenities at an increasingly unjustifiable price.
+1593 | One 【in】 which the upper classes deprive the lower classes of affordable housing.
+1528 | One 【in】 which the wealthy exploit the low-wage laborers building their houses.
+1449 | of community and the feeling that you fit 【in】 with others around you.    ?P:fit in with
+1581 | It may make people feel that they ought to fit 【in】 with the outside world.    ?P:fit in with
+1537 | Going through the steps, and constantly checking 【in】 with yourself
+1856 | More research is needed to see how exactly the relation between emotional intelligence and stress would play out 【in】 women and 【in】 people of different ages and education levels.
+1450 | However, “there are many reasons to think that it’s different 【in】 women,” Harvard Medical School reported.
+1705 | momentary thoughts were represented 【in】 words and passed down across generations.
+1753 | Add to our advantage 【in】 work and life.
+1614 | To illustrate the ongoing change 【in】 working patterns.
+1487 | Physically attending school has hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills to cultivate 【in】 young people.
+1706 | bar 【in】 your car, or every handful of nuts at your desk?
+1602 | the hours 【in】 your day between work, the gym, kids and chores.
+1773 | start to vanish, leaving you stronger, more confident, and yes, happier 【in】 your life.

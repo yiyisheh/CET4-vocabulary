@@ -1,0 +1,3332 @@
+[
+ {
+  "word": "up",
+  "def": "adv.向上; 起床; 彻底. prep.向...上.",
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "向上，往上（方向，如 stand up、look up、up and down stairs）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "（数量、程度）上升，增长（如 Prices are up.）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "沿…往上；沿着（如 climb up the hill、walk up the road）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "完全，彻底（如 eat up、use up）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "起床；醒着（如 Are you up?）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "（时间）到了，结束（如 Time's up.）"
+   }
+  ],
+  "phrases_seen": [
+   "grow up",
+   "up to",
+   "make up",
+   "turn up",
+   "set up",
+   "end up",
+   "sign up",
+   "speed up",
+   "cover up",
+   "wake up",
+   "go up",
+   "be up to",
+   "dress up",
+   "make up for",
+   "clean up",
+   "break up",
+   "pick up",
+   "mix up",
+   "put up for sale",
+   "stay up",
+   "bring up",
+   "be made up of",
+   "give up",
+   "be up for",
+   "ease up",
+   "save up",
+   "soak up",
+   "take up",
+   "come up with",
+   "curl up",
+   "swell up",
+   "catch up",
+   "follow up",
+   "open up",
+   "speak up",
+   "come up against",
+   "build up",
+   "drum up",
+   "stand up for",
+   "load up"
+  ],
+  "notes": [
+   "这 80 句里 up 绝大多数在短语动词里，按 PROMPT 的短语动词规则全部标 P。C 任务口径：只有字面「向上、往上」的方向（stand up、look up、getting up and down stairs、picking up trash 捡起垃圾、rooting up grasses 把草拱出来）才标 0；表语 is up / are up（上涨）标 1；up the hill / up the road 介词用法标 2；义项 3–5 列出备查，实际几乎都被短语吃掉（eat up、get up 起床、stay up 都按 P）。up to + 数字（多达，含 up to 80% faster、fines of up to $10,000）按 P:up to；It's up to sb（由…决定）和 be not up to sth（不能胜任）都按 P:be up to；be up for（乐意参加）按 P:be up for；go up（上涨）、turn up（出现）、pick up a parcel（取件）、make up（构成；补上；编造）、be made up of、make up for、give up for adoption（送养）记作 P:give up。拿不准：picking up trash 按字面「捡起」标 0，与 picking up a parcel 的 P:pick up 区分开。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "It can measure up to 2 meters long and weigh around 204 kilograms.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 81,
+    "text": "And yet, savings rates in the U.S. have gone down in recent decades, not up.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 82,
+    "text": "More and more people are taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many more.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 83,
+    "text": "I happen to be interested in both, and ended up enjoying the book for completely different",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 84,
+    "text": "Grow up strong and healthy.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 85,
+    "text": "The $59 million is up from the $56.7 million budgeted for the current school year.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 86,
+    "text": "They are burnt up in outer space.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 87,
+    "text": "Then, the researchers compared answers to see how well responses to the two exercises matched up.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 88,
+    "text": "Do you ever blend up a protein drink for breakfast or grab a protein bar following an afternoon workout?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 89,
+    "text": "The man’s covering up of what happened.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 90,
+    "text": "Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals than humans.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 91,
+    "text": "Juices containing vegetables can provide more nutrients and less sugar than juices made up of just fruit — but they still",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 92,
+    "text": "They visit the store so much that [7] staff have been forced to put up signs, asking their customers not to feed them.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 93,
+    "text": "E) Horn has been working on the problem of phantom traffic jams for years, and he has come up with a solution: By splitting",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 94,
+    "text": "infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by making towns more bike-friendly.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 95,
+    "text": "Organizers encourage them to visit the Games’ website to sign up.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 96,
+    "text": "Businesses are waking up to the skills gamers can bring",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 97,
+    "text": "Among the reasons given for the decision, the restaurant cited noise levels, lack of space for highchairs, cleaning up crazy messes, and the liability of kids running around the restaurant.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 98,
+    "text": "“Older midcareer workers...make up the bulk of the long-term unemployed in many countries,” Generation’s analysts write",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 99,
+    "text": "something, tearing it down, then building it up again.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 100,
+    "text": "The whole village chips in to help, including the kids, who end up developing their baking skills at an early age.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 101,
+    "text": "natural part of growing up, but it is· not.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 102,
+    "text": "M: You think Jimmy’s just making it all up?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 103,
+    "text": "They can screw us up and set us back.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 104,
+    "text": "When she did sleep, she experienced “problem-solving dreams,” which left her feeling unrested when she woke up.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 105,
+    "text": "They feel pressured to keep up with female colleagues.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 106,
+    "text": "If teens are spending so much time using electronic devices, does that mean they have to give up some other activities?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 107,
+    "text": "Clear up confusion in the scientific community.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 108,
+    "text": "I found employees who engage in online social interactions with co-workers through social media blogs tend to be more motivated and come up with innovative ideas.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 109,
+    "text": "It’s like fixing up an airplane engine and ignoring that the pilot is on his third drink at the bar and a massive storm is overhead....",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 110,
+    "text": "E) An Internet search of “hidden costs” of college turns up a host of articles on parent-centered websites on the college application process.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 111,
+    "text": "And you signed up two months ago.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 112,
+    "text": "I’m saving up to buy something reasonably small and cute, but it’s still a bit expensive for me, and it’ll take a while before I have enough money.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 113,
+    "text": "In one study, they were given matrixes (矩阵) and had to find two numbers that added up to 10.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 114,
+    "text": "Many women who opt to simply keep their own names do so because they don’t want to give up all that they have accomplished professionally.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 115,
+    "text": "Kate was depressed at first, but then she sat with some girl patients and they opened up all the boxes together, laughing and playing.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 116,
+    "text": "Set up company branches.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 117,
+    "text": "M: When people ask my son what he wants to be when he grows up, I have to swallow the urge to say, “Hey, back off my kid’s dreams!",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 118,
+    "text": "He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 119,
+    "text": "Before long, people started offering up their own fancy dresses for her to wear.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 120,
+    "text": "\"It's almost like the dark night is ending and the sun is coming up,\" said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 121,
+    "text": "Poor people may have to give up eating certain foods because of their high prices.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 122,
+    "text": "It was unclear where the rest of the group was from, but they were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 123,
+    "text": "The US is one of only three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies are starting to take up the issue.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 124,
+    "text": "Thus, though American incomes may have gone up since 1973, the amount",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 125,
+    "text": "Drug research sponsored by the pharmaceutical industry is more likely to end up",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 126,
+    "text": "aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 127,
+    "text": "It’s not simply about dividing up",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 128,
+    "text": "Another person was woken up in the middle of the night by what he thought was early construction work starting.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 129,
+    "text": "They are reused up to 100 times.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 130,
+    "text": "Video of the rescue operation shows how the team used a crane to lift up the huge animal out of the well and onto the back of a truck.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 131,
+    "text": "It seemed to make up for his physical defects.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 132,
+    "text": "It included deer, birds, and many fish. [25] In England, King Henry I set up a collection of animals in about 1110 as part of the royal estate.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 133,
+    "text": "“You end up",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 134,
+    "text": "W: Oh, yeah. [15] We had one of those when growing up.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 135,
+    "text": "back up in phantom jams.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 136,
+    "text": "by the third year sales grew faster on five of the streets than in the district overall, on average — up to five times faster, in",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 137,
+    "text": "Besides, I don’t think I could ever give up a good hot dog at a baseball game.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 138,
+    "text": "And Game Academy reckons its belief is backed up by hard data.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 139,
+    "text": "Responding to the post, one person commented that it is messed up beyond another level.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 140,
+    "text": "reliable and faster, but their employer simply will not put up the funds to buy them.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 141,
+    "text": "Success was once defined as being able to stay at a company for a long time and move up the corporate",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 142,
+    "text": "That’s definitely up to you.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 143,
+    "text": "who,\" he said, suggesting that some more equal dividing up of money might be more productive and",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 144,
+    "text": "Hundreds of women spoke up about their own experience with emotional labor: the duties that are expected of them, but go unnoticed.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 145,
+    "text": "Physically attending school has hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills to cultivate in young people.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 146,
+    "text": "Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 147,
+    "text": "M: But you can get 25% off if you sign up in advance.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 148,
+    "text": "Colour is now spreading through our homes, up staircases, across wood frames and ceilings, filling in neutral spaces.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 149,
+    "text": "The more you get right, the more creative you are thought to be because you have come up with uncommon associations.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 150,
+    "text": "At the same time, your name is associated with the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and your husband’s family’s identity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 151,
+    "text": "Given how large the __31__ and cotton industries are, they take up a lot of our fresh water demands across the world, according to The Huffington Post.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 152,
+    "text": "Here, at this point in the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 153,
+    "text": "Explaining why she has kept up the videos, Andrea explained how nice it was to have a little bit of fun and craziness that made people smile.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 154,
+    "text": "The dancers use the ribbons to pull themselves up over their partners' heads.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 155,
+    "text": "While that $18 difference per ticket may seem small, it adds up.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 156,
+    "text": "M: [11] I’ve been catching up on some reading.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 157,
+    "text": "In comparison, 17% of men said their job satisfaction went down and 20% said it went up.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 158,
+    "text": "nutrition research sponsored by the food industry is more likely to end up favoring the food under consideration than",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 159,
+    "text": "K) “Work-life balance is understood to be an individual’s response, so people think ‘it’s up to me to manage the craziness of",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 160,
+    "text": "By watching how healthy pets are brought up.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 161,
+    "text": "[16] Lift-off is usually the most environmentally harmful stage of any space mission, with vast quantities of fuel burnt up in a matter of minutes.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 162,
+    "text": "Children don’t just show up to the first day of",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 163,
+    "text": "up and feel guilty about taking the time to focus on clothes.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 164,
+    "text": "This is where French entrepreneur Sophie André comes in. [23] In 2016 she moved to London and began by setting up a business delivering luxury hand-made food across the city.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 165,
+    "text": "Drivers caught up in phantom traffic jams are likely to think an accident has happened or some construction is going on.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 166,
+    "text": "“Which matters more depends on what your history up until that point has been in the type of work you’re doing,”",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 167,
+    "text": "Unfortunately, she had to give up the practice seven years ago at 108.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 168,
+    "text": "Therefore, businesses need to set up their IT infrastructure so that it is designed to fit in with their",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 169,
+    "text": "If your definition of boredom is being quiet, mindful, and reflective, keep it up.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 170,
+    "text": "Li said “We often chalk up our stress to broad experiences like work.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 171,
+    "text": "Developing the habit of getting up early.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 172,
+    "text": "In many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 173,
+    "text": "Can you sign me up for the 10-week course on Thursday evenings?",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 174,
+    "text": "According to one interior designer, when people return home, they want to see colours that cheer them up and give them a hug.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 175,
+    "text": "“Within six weeks, they had to send a truck around to pick up all the wheelchairs,” Thomas told the Washington Post.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 176,
+    "text": "At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 177,
+    "text": "\"They came up with this,\" he says.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 178,
+    "text": "For if you nap properly, it’s like waking up from a full night’s sleep and you can double your day’s worth of concentration.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 179,
+    "text": "The drive has been going on for two weeks and Morris said just under 50 customers have picked up a free meal.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 180,
+    "text": "The room's ceilings are too low to wear the lion heads for jumping practice, so once up on his partner's head, Mr.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 181,
+    "text": "These results remained when researchers followed up six weeks later.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 182,
+    "text": "The rate of growth has begun to ease (sales were up 7% in the year, compared with 8%",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 183,
+    "text": "There were 114 space launches in 2020, but there may be up to 1,000 per year in future.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 184,
+    "text": "Think about it: what’s something you’ve always wanted to do, but gave up",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 185,
+    "text": "Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 186,
+    "text": "Draw up a list of the efficiencies to be promised.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 187,
+    "text": "Rough calculations show that the savings made by employers when their staff works from home are of similar value to the compensation workers should receive for setting up offices at home.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 188,
+    "text": "The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to find answers in a certain way.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 189,
+    "text": "For the presentation, I’ll bring my own laptop and hook it up to their projector.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 190,
+    "text": "Farmers ring up to receive the information.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 191,
+    "text": "\"Growing up, I would always watch my family and see the lion dance, and I slowly grew interested in it.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 192,
+    "text": "F) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 193,
+    "text": "But guiding them back to Earth in a controlled manner opens new possibilities—most components from the Falcon 9 can be reused up to 100 times.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 194,
+    "text": "Effective measures should be taken to motivate employees to set up offices at home.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 195,
+    "text": "They help each other to cover up their acts.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 196,
+    "text": "But if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 197,
+    "text": "L) Last year, speech recognition company Nuance helped a doctors' surgery in Dukinfield, near Manchester, set up a speech system for the practice's six doctors.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 198,
+    "text": "Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data, Meanwhile,",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 199,
+    "text": "When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above when visiting a friend who does.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 200,
+    "text": "Bring policies against cheating up to date.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 201,
+    "text": "Therefore, I suggest you spend more time in the park with your friends, but make sure you apply lots of skin protection and fill up those water bottles, too.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 202,
+    "text": "This is up from 13% in 2009.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 203,
+    "text": "Unless a far-reaching bottle ban does come into force, it will be up to consumers to not",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 204,
+    "text": "Setting up a spoken web is by no means an easy task.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 205,
+    "text": "Diving headfirst into the crash course of starting university, I’ve quickly tried to get myself up to speed with the financial",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 206,
+    "text": "In fact, in some cases, extreme ambition may end up doing more harm than good.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 207,
+    "text": "the need for a ‘catch up’ phase once we’re out on our own after graduation.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 208,
+    "text": "cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 209,
+    "text": "Cheer them up instantly.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   }
+  ]
+ },
+ {
+  "word": "been",
+  "def": "v.是; 存在(be 的过去分词).",
+  "senses": [
+   {
+    "pos": "aux.",
+    "zh": "（have been + 过去分词）构成完成时的被动语态：已被…"
+   },
+   {
+    "pos": "v.",
+    "zh": "是；处于（某种状态）（have been + 名词 / 形容词 / 介词短语）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "（have been + 动词-ing）构成完成进行时：一直在…"
+   },
+   {
+    "pos": "v.",
+    "zh": "存在，有（there has / have been）"
+   },
+   {
+    "pos": "v.",
+    "zh": "去过，到过（have been to）"
+   }
+  ],
+  "phrases_seen": [],
+  "notes": [
+   "原 def 只写了「是；存在」，助动词用法（被动、完成进行时）是补的，实际占大头。C 任务口径：have/has/had been + 过去分词（含 may have been created、have long been associated、been confused by、been laid off）标 0；been + 名词 / 形容词 / 介词短语（been successful、been best friends、been on the decline、been due to、been mixed、been interested in、been involved in、been able to、It's been five days 已经过了五天）标 1；been + -ing 标 2；there has / have been 标 3；have been to / Have you ever been to（去过）标 4。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "Historically, science has been largely supported through private",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 81,
+    "text": "After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 82,
+    "text": "In England. there has been a",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 83,
+    "text": "She has been driving a school bus ever since 2009.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 84,
+    "text": "Transit Driver Appreciation Day has been celebrated across the country as far back as 2009.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 85,
+    "text": "“Public awareness has never been higher, but the message is not quite reaching all the people it needs to.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 86,
+    "text": "Your current situation in life is built on the beliefs and habits you have been practicing daily.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 87,
+    "text": "and industry bodies have pointed out that there has been a lack of roots-level support.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 88,
+    "text": "Researchers think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 89,
+    "text": "It has been extraordinarily tough and demanding.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 90,
+    "text": "Tim said, “Being an astronaut has been the most extraordinary experience.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 91,
+    "text": "I) The main alternative to increasing traffic throughput per lane has been to build more lanes and more highways, and putting",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 92,
+    "text": "It has long been ignored by many experts.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 93,
+    "text": "The chocolate company has been to court before to protect its popular chocolate treat.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 94,
+    "text": "It has been consumers’ concern.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 95,
+    "text": "[3] Net Ease House, a restaurant in America, has been hit with criticism after announcing on their website that children under the age of ten are no longer welcome.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 96,
+    "text": "Those who had successfully changed careers after 45 told Generation that education and training had been",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 97,
+    "text": "promised efficiencies have been reversed.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 98,
+    "text": "I’ve not been there before.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 99,
+    "text": "M: (8-1) Has Jimmy been coming in lately?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 100,
+    "text": "to choose to hand awards and funding to those who've already been so recognized.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 101,
+    "text": "Ducks are birds that feed and breed in areas where there is a lot of water, but their habitats have been shrinking in recent decades because of the droughts.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 102,
+    "text": "And they had been advised by colleagues or other staff not to hug children.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 103,
+    "text": "At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update on where their journey has taken them and what resiliencies (韧性) have been the pavement on which they’ve traveled.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 104,
+    "text": "She has been attending some group classes.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 105,
+    "text": "For decades tourists have been flocking to Palmdor, which is located off the southeast coast of Spain.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 106,
+    "text": "The WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 107,
+    "text": "The latest discovery was on Monday, meaning four of these cash bundles have been handed in this year and 13 since 2014.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 108,
+    "text": "The 56-year-old doctor’s methods have been adopted in Australia, Japan, Canada, and America with enormous success.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 109,
+    "text": "At any rate, what was lost now has been found, by many of the community’s littlest residents.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 110,
+    "text": "Cube Movie Theatre has been around now for 11 years.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 111,
+    "text": "I) Siri has often been praised for its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 112,
+    "text": "Immigrants have been contributing to the U.S.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 113,
+    "text": "There have been no reports of anyone taking advantage of the situation.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 114,
+    "text": "He has been a club member for 10 years and joined because of an interest in lion dance.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 115,
+    "text": "I haven’t been to a zoo since I was a kid.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 116,
+    "text": "Have you been there?",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 117,
+    "text": "It has been placed under international protection.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 118,
+    "text": "M: [8] A colleague mentioned the book, but I’ve been so busy writing my thesis that I haven’t been able to read for pleasure in months.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 119,
+    "text": "Electric bikes have been the craze in downtown Jacksonville since they were first introduced earlier this month as a one-year pilot program. [5] But they’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 120,
+    "text": "Few topics have been so endlessly analysed as work-life balance.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 121,
+    "text": "The weather was the coldest it had been for the season, [7] so people were warned to be careful when traveling outside.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 122,
+    "text": "It has been funded by food companies and health experts.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 123,
+    "text": "visited the Design Museum shop in London earlier this year their fears may have been eased.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 124,
+    "text": "It might have been abandoned by its owner.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 125,
+    "text": "I’ve had the privilege of working with an exceptional team of individuals during the past 13 years with the agency. [4] It has been incredibly exciting and rewarding.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 126,
+    "text": "The age-long mystery has now been resolved as to how phantom traffic jams are caused.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 127,
+    "text": "most drugs have not been studied for possible different effects during a 24-hour cycle.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 128,
+    "text": "He’s always been very sensitive and sympathizes with animals.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 129,
+    "text": "She has been betrayed by her family.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 130,
+    "text": "I’ve been thinking it over, and I’d like to send him to Westwood Elementary.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 131,
+    "text": "And it has never been easier or cheaper to",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 132,
+    "text": "Forest patches with wild pigs have been found to have considerably reduced plant and animal diversity.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 133,
+    "text": "Has he been causing any trouble?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 134,
+    "text": "Another cause is that the proportion of people who are trying to lose weight has been increasing over",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 135,
+    "text": "W: (11) Well, ducks have never been popular with farmers like my grandfather anyway because they sometimes destroy crops.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 136,
+    "text": "Low pay has long been acknowledged as a major issue in the early education field.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 137,
+    "text": "J) “The rabbit effect,” she explains, means that “when it comes to our health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 138,
+    "text": "The benefits of a traditional Mediterranean diet have been studied since the 1970s, and researchers have found that living that olive oil life can help people lose weight, lower their heart disease risk and reverse diabetes.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 139,
+    "text": "W: (8-2) Yes, I signed up two months ago, but I haven’t been to any of the group classes yet.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 140,
+    "text": "The bundles are usually left in plain sight and have been scattered across the small coastal village.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 141,
+    "text": "What has Bill Thomas been doing for a quarter of a century?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 142,
+    "text": "The fact that we have been open and in business for all these years proves that.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 143,
+    "text": "It has also been noted that Siri lacks a proper editing function, as saying \"Edit message to say: we're at Silver Cloud restaurant and you should come find us\" generates \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us\".",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 144,
+    "text": "\"The sport has clearly been underserved,\" Carey said.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 145,
+    "text": "Chan, who has been involved with the club for nearly 50 years, said that passing the dance from one generation to the next was vital.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 146,
+    "text": "W: So, what have you been doing to stay busy while you’ve had that swollen ankle?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 147,
+    "text": "I think Jeremy has been there and said it was amazing.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 148,
+    "text": "It has been appealing to both freshwater and sea dolphins.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 149,
+    "text": "Most of the coverage of the boom in wild camping has been negative. [17] Camping in public parks has now been banned for August and the early part of September because campers dump litter, human waste, and even their tents on the grassland.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 150,
+    "text": "[22] Most of us have been in teams or organizations where we’ve had conflict with the people that we’re working with around the ideas or decisions that we’re discussing.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 151,
+    "text": "The question of how to achieve work-life balance has long been the main subject of discussion among workers.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 152,
+    "text": "Look, you’ve only been working for five months now.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 153,
+    "text": "What foods have been largely out of favor for more than a century?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 154,
+    "text": "I) Hourican and his pupils have happy memories of spending a whole day at the museum, having been selected as one of 10",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 155,
+    "text": "It has been enjoyed by kids for decades.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 156,
+    "text": "They visit the store so much that [7] staff have been forced to put up signs, asking their customers not to feed them.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 157,
+    "text": "been linked to cancer, but studies show that people who ditch meat have lower blood pressure, lower average blood sugar,",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 158,
+    "text": "“Which matters more depends on what your history up until that point has been in the type of work you’re doing,”",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 159,
+    "text": "Jet lag is a big problem for me and has been for the last few years, even though I never suffered from it before.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 160,
+    "text": "She has been robbed of 5 million Euros.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 161,
+    "text": "W: They do have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting him to try.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 162,
+    "text": "I’ve never done it before and I know that you’ve been doing it for ages.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 163,
+    "text": "A social aspect to health has not been taken into account in trying to provide the best medical care.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 164,
+    "text": "I’ve never been to the head office, you know.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 165,
+    "text": "A Durham Police spokesperson said the money has been returned to the lucky finders in all cases except yesterday.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 166,
+    "text": "What has Bill Thomas been persistently advocating?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 167,
+    "text": "Many Americans' private life has been negatively affected.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 168,
+    "text": "We can't do that because it's never been done that way.'\"",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 169,
+    "text": "The method is well-tested and has been shown to increase interpersonal closeness.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 170,
+    "text": "M: [11] I’ve been catching up on some reading.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 171,
+    "text": "It has been abandoned as a battleground for male dolphins.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 172,
+    "text": "Similar action has been taken even in Scotland, where camping is usually permitted on most of its open land.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 173,
+    "text": "that teenagers will be able to take a natural history test given that for decades children have been able to name more video",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 174,
+    "text": "These experiences have been shown to build children’s confidence and pleasure in physical activities, develop their motor skills, and even improve emotional well-being.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 175,
+    "text": "He has recently been commissioned to design the new Museum of London building in",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 176,
+    "text": "It has been played both indoors and outdoors.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 177,
+    "text": "W: [8] I’ve been thinking about moving off campus next semester.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 178,
+    "text": "Flexible seating has been defined as movable furniture to create an engaging learning environment.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 179,
+    "text": "This phenomenon has been ___31___ several times but rarely studied properly.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 180,
+    "text": "That means she’s been alive longer than any other living individual.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 181,
+    "text": "As long as there have been homework assignments and tests, there have been cheaters.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 182,
+    "text": "They note that the value of women’s rights has often been questioned from an economic standpoint.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 183,
+    "text": "Their food literacy has been improving.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 184,
+    "text": "Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 185,
+    "text": "The divorce rate in the county has been on a steady rise.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 186,
+    "text": "There have been many attempts to help consumers make healthier choices, but consumers often struggle to maintain a healthy diet. [18] This research finds that one way to promote a healthy diet could be to advertise the social benefits of healthy choices.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 187,
+    "text": "There would be no mystery in this if Keynes had been wrong about the power of technology to increase the economy's",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 188,
+    "text": "They have been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 189,
+    "text": "off in 1970s New York, and has been revived by green-thumbed social media influencers who defy",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 190,
+    "text": "The concept has been applied to a wide range of disciplines,",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 191,
+    "text": "Fruit juice also has been linked to",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 192,
+    "text": "M: [13] For that age group, our biggest seller this year has been this action figure.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 193,
+    "text": "success among young children, teens have been harder to reach.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 194,
+    "text": "Much has been written about the importance of timely feedback.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 195,
+    "text": "But excessive heat can cause you to lose water, which has been proven to have a pretty unattractive side effect—bad breath.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 196,
+    "text": "For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 197,
+    "text": "They have been compelled to take low-paying jobs.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 198,
+    "text": "During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins are harder to detect. [21] The Amazon wetland system, fed by the Amazon River, is a crucial place for pink dolphins to breed, and since 2018 has been granted internationally protected status.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 199,
+    "text": "It has long been used to increase food supply and improve urban landscape.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 200,
+    "text": "Their environment for survival has been continuously worsening.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 201,
+    "text": "The researchers explain that the possible reason for this may partly have been the",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 202,
+    "text": "It has been around since the 1930s.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 203,
+    "text": "The researchers argued that previous interventions have probably been unsuccessful because of a major",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 204,
+    "text": "What problem have supermarkets been facing?",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 205,
+    "text": "It has been popularized worldwide with the increasing influence of social media.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 206,
+    "text": "We’ve been told all our lives that if you work hard, you too can succeed.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 207,
+    "text": "Diets high in fibre have been linked to a lower risk of developing heart disease, stroke, high blood",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 208,
+    "text": "They have been roused against their will.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 209,
+    "text": "They have been losing customers and profits.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 210,
+    "text": "Engineering in the U.S. has long been a male-dominated profession.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 211,
+    "text": "been parts of rock operas.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 212,
+    "text": "They have been disturbed by a nightmare.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 213,
+    "text": "It has been under constant debate.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 214,
+    "text": "compositions have also been created solely for the purpose of being included in major motion pictures.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 215,
+    "text": "They have been affected by something other than dreaming.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   }
+  ]
+ },
+ {
+  "word": "like",
+  "def": "prep.像; 如同. v.喜欢. conj.像…一样.",
+  "senses": [
+   {
+    "pos": "prep.",
+    "zh": "比如，像…这样的（举例：countries like Australia）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "像，像…一样（look/sound/feel like + 名词）"
+   },
+   {
+    "pos": "v.",
+    "zh": "喜欢；愿意（sit where they like）"
+   },
+   {
+    "pos": "conj.",
+    "zh": "好像，似乎（look/sound/feel like + 句子）"
+   },
+   {
+    "pos": "conj.",
+    "zh": "像…那样（like in the movie）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（What is sb/sth like?）…怎么样，是什么样子"
+   },
+   {
+    "pos": "adj.",
+    "zh": "相似的，同样的"
+   },
+   {
+    "pos": "n.",
+    "zh": "（likes）爱好，喜欢的东西（likes and dislikes）"
+   }
+  ],
+  "phrases_seen": [
+   "would like",
+   "and the like",
+   "feel like"
+  ],
+  "notes": [
+   "给C的口径：would like / 'd like（想要）标 P:would like；feel like + 名词/doing 表「想要」（I don't feel like sandwiches）标 P:feel like，但 feel like + 名词表「感觉像」按1、feel like + 句子按3；and the like 标 P:and the like；like this/that 作「像这样的+名词」（a cold night like this、habits like that）按0，作状语「像那样做」（doing the work from home like that）按1；someone/people like us 按0。0（举例）与1（比喻、比较）边界：后面是前面名词的具体实例按0，是打比方按1。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "M: In our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how to shop around for the best deals.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 81,
+    "text": "arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 82,
+    "text": "themselves questions like, “What’s currently causing me stress?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 83,
+    "text": "something like 15% of us achieve it.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 84,
+    "text": "It seems like you’d have the same problems with cash.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 85,
+    "text": "Reading a book on how to learn a foreign language quickly allows you to feel like you are making",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 86,
+    "text": "“Teachers like it because the skills are all transferable and it helps to",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 87,
+    "text": "It never occurred to me that he should have it taken care of like that.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 88,
+    "text": "We hear sayings like “dress for the job you want, not the job you have”.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 89,
+    "text": "Do you know what boys aged around ten typically like?",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 90,
+    "text": "like city traffic-lighting patterns, and events like accidents and construction.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 91,
+    "text": "behaviors like exercise or food intake can significantly influence your health.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 92,
+    "text": "(ASMR), which ___27___ to you like a sting in your brain.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 93,
+    "text": "M: Yeah, the classrooms would probably smell like paint, making the air in the school all stuffy.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 94,
+    "text": "And it’s easy to forget that employers, like everyone else, are",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 95,
+    "text": "Researchers would like to explore further how parents and schools can help ninth graders by changing",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 96,
+    "text": "I’d also like it to be small, so that it’s easy to drive in the city.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 97,
+    "text": "Like other outsiders, I was",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 98,
+    "text": "It's a fundamental human need to have a larger purpose and to feel like we're part of something",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 99,
+    "text": "Sure, circumstantial stress, like losing a job, may lead to these same issues.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 100,
+    "text": "W: (11) Well, ducks have never been popular with farmers like my grandfather anyway because they sometimes destroy crops.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 101,
+    "text": "“Having that sort of curiosity is almost like a protective gear from getting into boredom,” she says.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 102,
+    "text": "Do you feel like Vietnamese food then?",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 103,
+    "text": "Yet solving problems like these requires new approaches that extend beyond traditional ways of thinking.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 104,
+    "text": "However, figuring out what a company is like before you actually work there can be a bit of a challenge.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 105,
+    "text": "M: That sounds like a very strange sport indeed.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 106,
+    "text": "“We generally recommend other forms of payment, like credit card.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 107,
+    "text": "It’s like fixing up an airplane engine and ignoring that the pilot is on his third drink at the bar and a massive storm is overhead....",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 108,
+    "text": "But generally speaking, soft cheeses are creamy and go well with sweet things like honey and jam.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 109,
+    "text": "The words “yes” and “no” get so often used in comparison with each other that it feels like they carry equal weight in conversation.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 110,
+    "text": "Many begin to search for the meaning of their existence, leading to behaviors such as ending or starting a relationship, or plans, like starting a vigorous diet or fitness program.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 111,
+    "text": "Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 112,
+    "text": "We’d like to avoid the crowds if possible.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 113,
+    "text": "That’s the kind of goal-setting I like to see in children, springing from their boundless imaginations.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 114,
+    "text": "G) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality—what is it like to speed around a track inside a Ferrari?—are among the possibilities.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 115,
+    "text": "\"It's almost like the dark night is ending and the sun is coming up,\" said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 116,
+    "text": "Like Farrant’s work with resurrection crops, a number of companies, organisations and researchers are aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 117,
+    "text": "W: I like that place.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 118,
+    "text": "they like their jobs so much.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 119,
+    "text": "Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out for alarmingly large snakes—and a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins do exist in the Amazon region.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 120,
+    "text": "Taken in a practical way, saving for post-work years is like giving money away to others.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 121,
+    "text": "It seems like you’re blaming them for not succeeding, when poor performance in school isn’t a child’s fault.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 122,
+    "text": "And finally, they implemented changes, like asking their supervisor for greater",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 123,
+    "text": "What about getting him to join a sport, like soccer?",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 124,
+    "text": "G) In situations like this one, we often claim that we are preparing or researching the best method, but these rationalizations",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 125,
+    "text": "I can understand some scars and physical defects can be ugly and distracting, but not Johnny’s. [14] In fact, I thought it added character… like it gave him a certain uniqueness.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 126,
+    "text": "W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, so maybe a game that they can play together would be good.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 127,
+    "text": "One in ten Americans has tried to look like a star.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 128,
+    "text": "unusual puzzle games like Portal, or tower defence games like Defense Grid?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 129,
+    "text": "Online schools like Udemy and Lynda.com offer sweet deals at sign-",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 130,
+    "text": "technologies or subject matter, but to creativity; skills like imagination, problem-finding and problem­",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 131,
+    "text": "M: (15-1) Oh, no, he’s not like that.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 132,
+    "text": "Initially, kids learn numbers much like they learn letters.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 133,
+    "text": "H) Like Ms.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 134,
+    "text": "At the primary level, the main aim is to cultivate good habits, like learning to plan and exercising self-discipline.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 135,
+    "text": "After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 136,
+    "text": "F) Start by writing down the things you didn’t like about previous employers, as well as the parts you really valued.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 137,
+    "text": "W: No, it’s also popular in Britain and in other former British colonies like Australia and New Zealand.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 138,
+    "text": "In the first part of the study I surveyed the employees about why and how they used platforms like Facebook, Twitter, or LinkedIn.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 139,
+    "text": "George Engel, in treating his patients, not only looks into their symptoms but also into things like the emotional support they receive.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 140,
+    "text": "I would suggest something like this Spanish goat cheese.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 141,
+    "text": "I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 142,
+    "text": "But I don’t like being the center of attention, receiving gifts and having a fuss made.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 143,
+    "text": "Evil is typically referred to when there is deviance from social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 144,
+    "text": "Would you like to sit in first or second class?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 145,
+    "text": "For if you nap properly, it’s like waking up from a full night’s sleep and you can double your day’s worth of concentration.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 146,
+    "text": "While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 147,
+    "text": "People wonder if certain crops and foodstuffs could disappear like some animal species due to climate change.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 148,
+    "text": "Have you asked Jeremy if he would like to come with us?",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 149,
+    "text": "Daddy doesn't like him or her, there is the danger that they will abandon them.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 150,
+    "text": "Willpower is just like a muscle, to keep it strong you need to constantly exercise it.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 151,
+    "text": "More and more people are taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many more.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 152,
+    "text": "Workers were allowed to make changes, like",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 153,
+    "text": "What about playing an indoor sport, like badminton?",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 154,
+    "text": "allow us to feel like we are moving forward when we are merely spinning our wheels.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 155,
+    "text": "If Johnny’s girlfriend doesn’t like him for who he is, then she does not deserve to be his girlfriend.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 156,
+    "text": "Trying to look like the magazine pictures can take us on a long ride away from what beauty",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 157,
+    "text": "EVE teaches skills like creativity, leadership, organisation, and conflict resolution, he",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 158,
+    "text": "even share some basic instinctual quantitative reasoning with distant non-mammalian relatives like",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 159,
+    "text": "They want to reach the top of the corporate ladder and fly like supermom,” she said.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 160,
+    "text": "How feasible it is to create new disciplines like computational economics.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 161,
+    "text": "I) An industry review website like Glassdoor is another spot to check in order to find some insider information about what you can expect about a company.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 162,
+    "text": "M: Sounds like just what I need.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 163,
+    "text": "In many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 164,
+    "text": "That’s out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into things like animal feed and medical products.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 165,
+    "text": "Or I could perceive my birthday as an opportunity to do something for others like asking people to make a donation instead of buying a gift.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 166,
+    "text": "Like other forms of unethical behavior, lying means breaking rules.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 167,
+    "text": "We need to teach children how to behave like the professionals they are striving to become.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 168,
+    "text": "In his mind, it felt like a Super Bowl (超级碗橄榄球赛).",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 169,
+    "text": "That’s why we feel like we have to appear busy, and there’s a real perception that if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 170,
+    "text": "In a new study, participants were told to imagine that they were negotiating for something important to them, like a house.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 171,
+    "text": "Conventional fixes like word puzzles and brain-training apps can contribute to mental durability.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 172,
+    "text": "Like muscle building.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 173,
+    "text": "And if it seems like finding that perfect",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 174,
+    "text": "There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating with others.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 175,
+    "text": "Sometimes we may feel like we are making progress by doing some research or making preparations, but actually we are",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 176,
+    "text": "So he is insane to give in to her like that.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 177,
+    "text": "Red meats like traditional beef.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 178,
+    "text": "But there are some links to skills like “decision-making, the ability to",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 179,
+    "text": "language, as evidenced by words like 14 (\"four\"+ \"10\") and 31 (\"three\" X \"10\" +\"one\").",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 180,
+    "text": "Li said “We often chalk up our stress to broad experiences like work.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 181,
+    "text": "So yes, you can definitely ask your interviewer about what it’s like to work for that particular organization.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 182,
+    "text": "Qualities like flexibility and the ability to work under minimal supervision might become critical.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 183,
+    "text": "with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 184,
+    "text": "M: That sounds like a nightmare.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 185,
+    "text": "Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 186,
+    "text": "Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed to making the most of your time off.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 187,
+    "text": "doing new things, a 2012 study in the journal Psychology and Aging found completing reasoning tasks like puzzles and",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 188,
+    "text": "What do we learn from the passage about researchers like birdwatchers and rock collectors?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 189,
+    "text": "Fifty years ago, it looked like that might change.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 190,
+    "text": "[17] The first theory is that language started with people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, and the sounds of tools.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 191,
+    "text": "“I would love to say that my gaming skills allow me to destroy cancer using linear accelerators like",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 192,
+    "text": "If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 193,
+    "text": "Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 194,
+    "text": "For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 195,
+    "text": "If you are thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 196,
+    "text": "We are all capable of behaving like outliers.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 197,
+    "text": "What do such utterances as “I have limited access to email” sound like according to the author?",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 198,
+    "text": "What would scientific studies look like in a perfect world according to the author?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 199,
+    "text": "Instead, he credits old-school games like Palace of Magic with",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 200,
+    "text": "What does my dream company culture look like?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 201,
+    "text": "Our results show another way these negative behaviors can manifest themselves, like in airline bookings, and add to evidence that women are less likely to engage in them.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 202,
+    "text": "“The engagement and powerful skills that people get playing a game — why can’t work be like",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 203,
+    "text": "For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 204,
+    "text": "healthy snacks and drinks (such as fruit or water) more often over unhealthy options (like biscuits and soda).",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 205,
+    "text": "Scientists can voice their opinions whatever way they like.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 206,
+    "text": "Dreams of very small kids are usually just snapshots , looking much more like a slideshow than a movie, when",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 207,
+    "text": "They heavily feature animals and other familiar sights, like images of people eating.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   }
+  ]
+ },
+ {
+  "word": "no",
+  "def": "adv.不; 没有. adj.没有的; 禁止的.",
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "没有，无（no + 名词：no money, there is no…）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "不，不是（回答问题：No, I didn't）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "不（用在比较级前：no more than 不超过，no less than 不少于）"
+   },
+   {
+    "pos": "n.",
+    "zh": "不，拒绝，否定的回答（say no）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "（be no + 名词）根本不是，绝非（is no hotel, is no exception）"
+   },
+   {
+    "pos": "int.",
+    "zh": "（表示惊讶、失望）哎呀，不（Oh no）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "禁止（No smoking 禁止吸烟）"
+   }
+  ],
+  "phrases_seen": [
+   "no longer",
+   "by no means",
+   "no matter",
+   "no doubt",
+   "there is no point in",
+   "no questions asked",
+   "no big deal"
+  ],
+  "notes": [
+   "给C的口径：no more than / no less than（含题干 no more than 180 words）按2；no longer（不再）、no matter、no doubt、by no means、no big deal、no questions asked、there is no point in 标P；no one（没有人）、there is no way to、no way out、there's no such thing as 均按0；Bus No. / No. 5 这种编号缩写标X。题干 no more than 180 words 出现极多，按 n 加权会抬高义项2。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "Leave no trace of their camping.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 81,
+    "text": "[4] Overall, the new study found no significant relationship between participants’ month of birth and symptoms of depression or anxiety.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 82,
+    "text": "They have no means for large-scale research.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 83,
+    "text": "After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 84,
+    "text": "There is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 85,
+    "text": "M: I do talk about very small homes, but there’s no set definition of a tiny home.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 86,
+    "text": "Waste no time keeping the car moving.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 87,
+    "text": "M: No, no, that’s not the reason.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 88,
+    "text": "So while fruit juice is better than no fruit at all, there",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 89,
+    "text": "It has no batteries, if that’s what you mean.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 90,
+    "text": "traffic crawls to a halt for no apparent reason at all.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 91,
+    "text": "Currently, there are no guidelines regarding when midazolam should be administered.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 92,
+    "text": "M: Apparently that’s no problem.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 93,
+    "text": "It is no longer as noisy and crowded as before.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 94,
+    "text": "M: [8] No way!",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 95,
+    "text": "Through no fault of their own, they can suddenly find their productivity",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 96,
+    "text": "M: (15-1) Oh, no, he’s not like that.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 97,
+    "text": "species' approximately 200, OOO-year lifespan, we had no means of precisely representing quantities.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 98,
+    "text": "M: No, just 60 pounds between the three of us, but still a bit too much to just let go.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 99,
+    "text": "You'll find depth that you won't get from your screen no",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 100,
+    "text": "M: No, duck hunting seemingly exists as the continuation of a tradition.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 101,
+    "text": "It is of no use in understanding obesity.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 102,
+    "text": "M: No, sorry, (12) I’m actually pretty worn out.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 103,
+    "text": "The author claims that it will be a great loss if we no longer read books and longer articles.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 104,
+    "text": "L) Kelli wastes no time taking potshots at (随意批评) the medical establishment and its body-centered biomedicine methods.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 105,
+    "text": "We were assured that, except for low grades or a raise in family income, no money would be taken away.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 106,
+    "text": "W: No, but I’ll check.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 107,
+    "text": "Many of them are not, and a simple “no” will be more productive than whatever work the most efficient person can cope with.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 108,
+    "text": "He no longer has to worry about whether or not he can understand.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 109,
+    "text": "Getting old is by no means something miserable.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 110,
+    "text": "No matter what name the bride adopts, it is most important that the newly-weds truly love each other.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 111,
+    "text": "No wonder using mobile phones while driving causes more crashes a year than drink driving, says the U.S.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 112,
+    "text": "Students no longer spend summers farming, but they aren't in school, either.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 113,
+    "text": "There have been no reports of anyone taking advantage of the situation.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 114,
+    "text": "They find it no more scary than it appears.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 115,
+    "text": "The gender difference in airfare expenses no longer existed.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 116,
+    "text": "I personally feel sorry for the poor animals stuck in cages, but there’s no denying they are fun and educational for children.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 117,
+    "text": "He would have no rival in Grand National steeplechases.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 118,
+    "text": "low, while seven studies found that intensity made no ___34___ to mood benefits.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 119,
+    "text": "But on the whole, there was no systematic pattern.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 120,
+    "text": "That means no running red lights or traveling in the opposite direction of traffic on one-way streets.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 121,
+    "text": "No one is spared his sharp analysis: not the easy targets",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 122,
+    "text": "Take no action despite repeated warnings.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 123,
+    "text": "as no surprise to anyone that classical music pieces are still used as background music in modern movies.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 124,
+    "text": "As Horn argues, “There’s absolutely no advantage of tailgating the car in front of you.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 125,
+    "text": "She no longer has any money left.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 126,
+    "text": "W: [8] No, I’m serious.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 127,
+    "text": "There are no longer any boring or repetitive tasks.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 128,
+    "text": "It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then not being able to find it again after you come out of the shops.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 129,
+    "text": "In many cases, there is no active help and a lack of teacher training.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 130,
+    "text": "Oh no, sorry.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 131,
+    "text": "There are no formulas written on the insides of hands or students looking across the aisle, or whispering answers to their classmates.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 132,
+    "text": "Students may no longer be qualified for financial aid if they perform poorly in school or if their family income has increased.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 133,
+    "text": "W: No problem.",
+    "n": 4,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 134,
+    "text": "But if the benefits of saying “no” are so obvious, then why do we say “yes” so often?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 135,
+    "text": "There is no indication that increasing food skills or budgeting skills will reduce food insecurity.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 136,
+    "text": "They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable of providing it.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 137,
+    "text": "Setting up a spoken web is by no means an easy task.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 138,
+    "text": "To them, a difference, no matter how small in your eyes, signals the end of the relationship.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 139,
+    "text": "They no longer find it shocking.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 140,
+    "text": "Nobody can really be sure if risks will be met with success, no matter how calculated they may be.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 141,
+    "text": "There would be no mystery in this if Keynes had been wrong about the power of technology to increase the economy's",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 142,
+    "text": "It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people to use small tents and leave no trace of their visit.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 143,
+    "text": "collaboration and teamwork over traditional organizational structures, no one likes to be told what to do or to be pushed",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 144,
+    "text": "They are no longer relevant to teenagers’ lives.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 145,
+    "text": "Plant-based meats are no longer just for vegetarians.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 146,
+    "text": "She can no longer hold on to her job.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 147,
+    "text": "M: Oh, no.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 148,
+    "text": "Today’s students use smartphones, tablets or even in-class computers to aid their cheating attempts and leave no trace of their crimes.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 149,
+    "text": "No one understands the reason for this.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 150,
+    "text": "Often, we have to consider saying “no” to someone we will interact with again in the future—our co-worker, our spouse, our family and friends.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 151,
+    "text": "There is no consensus on what high-quality diets are.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 152,
+    "text": "People from diverse backgrounds no longer socialize.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 153,
+    "text": "I had no idea Japan made jeans.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 154,
+    "text": "life not only for others but also for ourselves, because ultimately, there is no difference.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 155,
+    "text": "No one says playing music will be a cure for",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 156,
+    "text": "There are no official rules regarding passport colors, but countries follow a certain set of norms when designing them.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 157,
+    "text": "More than half of the interviewees felt no sense of guilt over cheating.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 158,
+    "text": "Saying “no” to our superiors at work",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 159,
+    "text": "People no longer have access to public swimming pools.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 160,
+    "text": "No matter the form in which they reveal themselves, hero stories will always be present in life.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 161,
+    "text": "REM sleep, 25% of the kids in Foulkes’ studies had no recollection of dreaming, a trend that continues through age 9.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 162,
+    "text": "It is likely that the “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution to the organization.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 163,
+    "text": "Do whatever favors you can, and be warm-hearted and direct when you have to say no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 164,
+    "text": "For example, 34% of Americans born in Latin America report no credit card or installment loan debt.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 165,
+    "text": "But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 166,
+    "text": "E) Perhaps one issue is how we think about the meaning of yes and no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 167,
+    "text": "The words “yes” and “no” get so often used in comparison with each other that it feels like they carry equal weight in conversation.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 168,
+    "text": "When you say “no”, you’re only saying “no” to one option.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 169,
+    "text": "When you say “yes”, you’re saying “no” to every other option.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 170,
+    "text": "I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 171,
+    "text": "In other words, saying “no” saves you time in the future.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 172,
+    "text": "“No” is a form of time credit.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 173,
+    "text": "F) “No” is a decision.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 174,
+    "text": "Saying “no” is sometimes seen as a luxury that only those in power can afford.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 175,
+    "text": "But it’s also true that saying “no” is not merely a privilege reserved for the successful.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 176,
+    "text": "Saying “no” is an important skill to develop at any stage of your career because it retains the most important asset in life: your time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 177,
+    "text": "You need to say “no” to whatever isn’t leading you toward your goals.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 178,
+    "text": "It means saying ‘no’ to the hundred other good ideas that there are.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 179,
+    "text": "Jobs had another great quote about saying “no”: “I’m actually as proud of the things we haven’t done as the things I have done.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 180,
+    "text": "Innovation is saying ‘no’ to 1,000 things.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 181,
+    "text": "You still need to say “no” to distractions, but you also need to learn to say “no” to opportunities that were previously good uses of time, so you can make space for better uses of time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 182,
+    "text": "It’s no easy job learning to say “no” to opportunities that were once considered worth grasping.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 183,
+    "text": "However, aquaculture is no silver bullet.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 184,
+    "text": "What does the author imply by saying aquaculture is no silver bullet?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   }
+  ]
+ },
+ {
+  "word": "part",
+  "def": "n.部分; 角色; 零件. v.分开; 分离.",
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "部分，一部分（part of, a part of, as part of；也指试卷的 Part I、Part II）"
+   },
+   {
+    "pos": "n.",
+    "zh": "角色；作用（play a part 起作用，按短语标）"
+   },
+   {
+    "pos": "n.",
+    "zh": "零件，部件"
+   },
+   {
+    "pos": "n.",
+    "zh": "（参与某事的）一方，方面（on the part of、for one's part，按短语标）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "部分地，在一定程度上（in part，按短语标）"
+   },
+   {
+    "pos": "v.",
+    "zh": "分开，分离；分别"
+   }
+  ],
+  "phrases_seen": [
+   "take part in",
+   "in part",
+   "play a part",
+   "for one's part"
+  ],
+  "notes": [
+   "给C的口径：take part（有无 in 都算，含 the taking part）标 P:take part in；play a part / play one's part 标 P:play a part；in part 标 P:in part；on the part of、for one's part 标P；as part of、the part about…、Part I/II/III 卷面标题、For this part 按0。「（文档中未包含 Part II Listening Comprehension 部分…）」这类是抽取时留下的中文说明、不是真题文本，标X。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "When it comes to looking for a new job, you already know that a big part of the interview process involves the company evaluating whether or not you’re a good fit for their open role.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 81,
+    "text": "It’s even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 82,
+    "text": "validate the value of design as a subject,” she explains, telling me that nearly 600 schools have taken part so far.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 83,
+    "text": "While our initial attraction may be based in part on physical chemistry, it is the meeting of our inner worlds that creates",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 84,
+    "text": "The part about avoiding sleeping on the plane.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 85,
+    "text": "part of my job.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 86,
+    "text": "Now comes the part when you put on your detective hat and do a little digging.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 87,
+    "text": "We find that if pupils take part in Design Ventura in Year Nine it can be the trigger which leads",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 88,
+    "text": "Many still insisted the lanes were killing their part of",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 89,
+    "text": "You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you just stare across the table blankly with your mouth hanging open?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 90,
+    "text": "The schools don’t have to pay anything to take part in the Design Ventura competition.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 91,
+    "text": "Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 92,
+    "text": "job skills, then the interview skills, then the dress part — and you must be perfect at all of them.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 93,
+    "text": "It can be difficult to know the real situation in a company until you become part of it.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 94,
+    "text": "What does the author think constitutes a key part of genuine education?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   }
+  ]
+ }
+]

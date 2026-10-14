@@ -1,0 +1,170 @@
+{
+  "like": {
+    "senses": [
+      {"pos": "prep.", "zh": "比如，像…这样的（举例：countries like Australia）"},
+      {"pos": "prep.", "zh": "像，像…一样（look/sound/feel like + 名词）"},
+      {"pos": "v.", "zh": "喜欢；愿意（sit where they like）"},
+      {"pos": "conj.", "zh": "好像，似乎（look/sound/feel like + 句子）"},
+      {"pos": "conj.", "zh": "像…那样（like in the movie）"},
+      {"pos": "prep.", "zh": "（What is sb/sth like?）…怎么样，是什么样子"},
+      {"pos": "adj.", "zh": "相似的，同样的"},
+      {"pos": "n.", "zh": "（likes）爱好，喜欢的东西（likes and dislikes）"}
+    ],
+    "labels": {
+      "0": 1, "1": 0, "2": 0, "3": 0, "4": "P:and the like", "5": 3, "6": 0, "7": 1, "8": "P:would like", "9": 0,
+      "10": 1, "11": 0, "12": 0, "13": 0, "14": "P:would like", "15": 2, "16": 2, "17": 0, "18": 0, "19": 1,
+      "20": "P:would like", "21": 0, "22": 4, "23": 0, "24": 0, "25": 0, "26": 0, "27": 1, "28": 0, "29": 1,
+      "30": 1, "31": 3, "32": 3, "33": 0, "34": 1, "35": 1, "36": 3, "37": 0, "38": 0, "39": "P:would like",
+      "40": 1, "41": 2, "42": 0, "43": 3, "44": 1, "45": 0, "46": 1, "47": 2, "48": "P:would like", "49": 2,
+      "50": 3, "51": 2, "52": 0, "53": 1, "54": 1, "55": 0, "56": 1, "57": 0, "58": 0, "59": 1,
+      "60": 5, "61": 0, "62": 0, "63": "P:would like", "64": 3, "65": 2, "66": 3, "67": 2, "68": "P:would like", "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": "P:would like", "75": "P:feel like", "76": 1, "77": "P:would like", "78": 3, "79": 0
+    },
+    "example": {"id": 55, "en": "We see more droughts in countries like Australia.", "zh": "在像澳大利亚这样的国家，我们看到干旱越来越多。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：would like / 'd like（想要）标 P:would like；feel like + 名词/doing 表「想要」（I don't feel like sandwiches）标 P:feel like，但 feel like + 名词表「感觉像」按1、feel like + 句子按3；and the like 标 P:and the like；like this/that 作「像这样的+名词」（a cold night like this、habits like that）按0，作状语「像那样做」（doing the work from home like that）按1；someone/people like us 按0。0（举例）与1（比喻、比较）边界：后面是前面名词的具体实例按0，是打比方按1。"
+  },
+  "no": {
+    "senses": [
+      {"pos": "adj.", "zh": "没有，无（no + 名词：no money, there is no…）"},
+      {"pos": "adv.", "zh": "不，不是（回答问题：No, I didn't）"},
+      {"pos": "adv.", "zh": "不（用在比较级前：no more than 不超过，no less than 不少于）"},
+      {"pos": "n.", "zh": "不，拒绝，否定的回答（say no）"},
+      {"pos": "adj.", "zh": "（be no + 名词）根本不是，绝非（is no hotel, is no exception）"},
+      {"pos": "int.", "zh": "（表示惊讶、失望）哎呀，不（Oh no）"},
+      {"pos": "adj.", "zh": "禁止（No smoking 禁止吸烟）"}
+    ],
+    "labels": {
+      "0": 2, "1": 1, "2": 2, "3": 0, "4": 2, "5": 2, "6": 0, "7": 5, "8": 0, "9": "P:no doubt",
+      "10": 0, "11": 0, "12": 0, "13": 2, "14": 0, "15": 0, "16": 3, "17": 1, "18": 0, "19": 2,
+      "20": 0, "21": 0, "22": 1, "23": 0, "24": 0, "25": "P:no longer", "26": 0, "27": 1, "28": 0, "29": 1,
+      "30": 0, "31": 2, "32": 0, "33": 2, "34": 0, "35": 0, "36": 1, "37": 0, "38": 1, "39": "P:by no means",
+      "40": 2, "41": "X", "42": 2, "43": 0, "44": 2, "45": 0, "46": 0, "47": "P:no longer", "48": "P:no longer", "49": 2,
+      "50": "P:no longer", "51": 1, "52": 0, "53": 1, "54": 0, "55": "P:there is no point in", "56": 0, "57": "P:no matter", "58": "P:no longer", "59": "P:no longer",
+      "60": 0, "61": 1, "62": "P:no matter", "63": 0, "64": 4, "65": 1, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 3, "71": 0, "72": 4, "73": 0, "74": "P:no questions asked", "75": "P:no longer", "76": 0, "77": "P:no big deal", "78": 3, "79": "P:by no means"
+    },
+    "example": {"id": 8, "en": "However, no doctor could identify any problem.", "zh": "然而，没有一个医生能查出任何问题。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：no more than / no less than（含题干 no more than 180 words）按2；no longer（不再）、no matter、no doubt、by no means、no big deal、no questions asked、there is no point in 标P；no one（没有人）、there is no way to、no way out、there's no such thing as 均按0；Bus No. / No. 5 这种编号缩写标X。题干 no more than 180 words 出现极多，按 n 加权会抬高义项2。"
+  },
+  "part": {
+    "senses": [
+      {"pos": "n.", "zh": "部分，一部分（part of, a part of, as part of；也指试卷的 Part I、Part II）"},
+      {"pos": "n.", "zh": "角色；作用（play a part 起作用，按短语标）"},
+      {"pos": "n.", "zh": "零件，部件"},
+      {"pos": "n.", "zh": "（参与某事的）一方，方面（on the part of、for one's part，按短语标）"},
+      {"pos": "adv.", "zh": "部分地，在一定程度上（in part，按短语标）"},
+      {"pos": "v.", "zh": "分开，分离；分别"}
+    ],
+    "labels": {
+      "0": "P:in part", "1": 0, "2": 0, "3": "P:play a part", "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": "X", "11": 0, "12": 0, "13": 0, "14": "X", "15": "P:take part in", "16": 0, "17": "P:in part", "18": 0, "19": "X",
+      "20": "P:take part in", "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": [0, "P:on the part of"], "45": 0, "46": 0, "47": "P:for one's part", "48": 0, "49": 0,
+      "50": "P:take part in", "51": 0, "52": 0, "53": 0, "54": 0, "55": "P:play a part", "56": 0, "57": 0, "58": 0, "59": "P:take part in",
+      "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": "P:take part in", "73": ["P:take part in", 0], "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 9, "en": "Nightmares are part of the human experience, especially for kids.", "zh": "噩梦是人类经历的一部分，对孩子来说尤其如此。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：take part（有无 in 都算，含 the taking part）标 P:take part in；play a part / play one's part 标 P:play a part；in part 标 P:in part；on the part of、for one's part 标P；as part of、the part about…、Part I/II/III 卷面标题、For this part 按0。「（文档中未包含 Part II Listening Comprehension 部分…）」这类是抽取时留下的中文说明、不是真题文本，标X。"
+  },
+  "which": {
+    "senses": [
+      {"pos": "pron.", "zh": "引导定语从句，指代前面的名词（译作「…的」或「它，它们」；含 in which / on which 等介词 + which）"},
+      {"pos": "pron.", "zh": "（, which）指代前面整句话或整件事（这一点，这件事：which means…, which is why…）"},
+      {"pos": "pron.", "zh": "哪一个，哪些（疑问，可直接接名词：which school；也用于 know/decide which…）"}
+    ],
+    "labels": {
+      "0": 0, "1": 1, "2": 0, "3": 2, "4": 2, "5": 0, "6": 1, "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 2, "17": 0, "18": 0, "19": 2,
+      "20": 0, "21": 0, "22": 1, "23": 2, "24": 0, "25": 0, "26": 0, "27": 1, "28": 0, "29": 0,
+      "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 1, "39": 2,
+      "40": 0, "41": 0, "42": 1, "43": 2, "44": 0, "45": 0, "46": 1, "47": 2, "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 1, "57": 0, "58": 0, "59": 0,
+      "60": 1, "61": 0, "62": 2, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 1, "69": 0,
+      "70": 0, "71": 1, "72": 1, "73": 0, "74": 0, "75": 0, "76": 1, "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 48, "en": "They may carry viruses that are fatal to native snakes, which do not have resistance.", "zh": "它们可能携带对本地蛇类致命的病毒，而本地蛇类对这些病毒没有抵抗力。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：先行词是一个名词（含 that which、the degree to which、all of which 以外的介词 + which）按0；先行词是前面整个分句或整件事（which means / which is why / which led to / all of which）按1；疑问及 know/decide/guess which…、which of… 按2。0 与 1 的边界有主观成分（如 lag behind in online use, which limits… 按1）。题干 Identify the paragraph from which the information is derived 出现极多（n=28），按0。"
+  },
+  "would": {
+    "senses": [
+      {"pos": "modal v.", "zh": "会，就会（表示假设、推测或可能；would have done 本来会、想必已经）"},
+      {"pos": "modal v.", "zh": "（过去将来）将会，会（said/thought/hoped that … would）"},
+      {"pos": "modal v.", "zh": "过去常常，总是（表示过去的习惯）"},
+      {"pos": "modal v.", "zh": "（客气的询问、请求或委婉表达）…好吗，可以（Would you…? / I would argue）"},
+      {"pos": "modal v.", "zh": "愿意，想要（would prefer / would love to；would not 不肯）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 3, "6": 0, "7": 3, "8": 0, "9": 0,
+      "10": "P:would rather", "11": 0, "12": 1, "13": 1, "14": 1, "15": 3, "16": 0, "17": 0, "18": 2, "19": 2,
+      "20": 2, "21": 0, "22": 0, "23": 0, "24": 2, "25": 0, "26": "P:would rather", "27": "P:would like", "28": 0, "29": 1,
+      "30": 0, "31": 1, "32": 0, "33": 1, "34": 0, "35": 0, "36": 1, "37": 0, "38": 0, "39": 1,
+      "40": 0, "41": 0, "42": 0, "43": 1, "44": 4, "45": 1, "46": 1, "47": "P:would like", "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": "P:would like", "53": 3, "54": 0, "55": 0, "56": 1, "57": "P:would like", "58": 0, "59": 1,
+      "60": 3, "61": 2, "62": 0, "63": "P:would like", "64": 0, "65": 0, "66": 2, "67": "P:would like", "68": 4, "69": 0,
+      "70": 0, "71": 0, "72": 3, "73": 0, "74": 2, "75": 1, "76": 0, "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 35, "en": "If approved, it would be the largest jump in at least eight budget cycles.", "zh": "如果获批，这将是至少八个预算周期以来最大的一次涨幅。"},
+    "form": "will 的过去式",
+    "irregular": true,
+    "note": "给C的口径：would like / 'd like 标 P:would like；would rather 标 P:would rather；would prefer、would love to 按4；Would you…? / Would I be able to…? / how much would it cost? 及 I would argue、we would welcome 这类客气说法按3；That would be helpful、would have done（含 would have thought / Who would have known）按0；主句是过去时的宾语从句、间接引语里的 would（said/hoped/expected/predicted that…would, to see if…would）按1；叙述过去反复发生的事（the gang would…, I would always watch）按2。0 与 1、0 与 3 的边界有主观成分。"
+  },
+  "out": {
+    "senses": [
+      {"pos": "adv.", "zh": "出去，向外；在外面（get out, take the trash out, dine out）"},
+      {"pos": "prep.", "zh": "（out of）从…里面出来，离开（walk out of the room）"},
+      {"pos": "prep.", "zh": "（out of）在…之中，从…中（nine out of ten 十分之九）"},
+      {"pos": "adv.", "zh": "出现，出来（come out 出来、问世）"},
+      {"pos": "adv.", "zh": "完，尽；彻底（run out 用完）"},
+      {"pos": "adv.", "zh": "（灯、火）熄灭"},
+      {"pos": "adv.", "zh": "大声地，出声地（read out, cry out）"},
+      {"pos": "prep.", "zh": "（out of）出于（out of curiosity 出于好奇）"},
+      {"pos": "prep.", "zh": "（out of）缺少，没有（out of money）"}
+    ],
+    "labels": {
+      "0": "P:run out of", "1": "P:wipe out", "2": "P:out of order", "3": 1, "4": "P:miss out", "5": "P:stress out", "6": "P:work out", "7": "P:seek out", "8": 1, "9": 2,
+      "10": "P:carry out", "11": 1, "12": "P:find out", "13": "P:find out", "14": "P:check out", "15": "P:miss out", "16": ["P:turn out", 0], "17": 2, "18": "P:play out", "19": "P:find out",
+      "20": "P:find out", "21": 1, "22": "P:find out", "23": "P:out of reach", "24": 0, "25": 0, "26": "P:hang out", "27": "P:find out", "28": "P:work out", "29": 0,
+      "30": 1, "31": "P:set out", "32": "P:find out", "33": "P:break out", "34": "P:sort out", "35": 0, "36": "P:find out", "37": "P:send out", "38": "P:send out", "39": "P:find out",
+      "40": 2, "41": "P:cheat sb out of sth", "42": "P:point out", "43": "P:pump out", "44": "P:miss out", "45": "P:find out", "46": 2, "47": "P:take out", "48": 0, "49": "P:figure out",
+      "50": "P:turn out", "51": "P:out of work", "52": 0, "53": "P:find out", "54": "P:out of date", "55": "P:miss out", "56": 1, "57": "P:point out", "58": "P:turn out", "59": "P:worn out",
+      "60": 2, "61": "P:turn out", "62": "P:lay out", "63": "P:find out", "64": "P:carry out", "65": "P:turn out", "66": "P:even out", "67": "P:miss out", "68": 1, "69": 0,
+      "70": "P:turn out", "71": "P:leave out", "72": "P:test out", "73": 2, "74": "P:strip out", "75": 1, "76": 0, "77": 0, "78": "P:try out", "79": "P:find out"
+    },
+    "example": {"id": 69, "en": "When I got to my station, I could hardly get out.", "zh": "到站的时候，我几乎挤不出去。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：out 只表空间「向外、出去、在外」（get out, go out, take the trash out, hold out one's arms, dig out nests, dine out）按0；out of 表「从…里出来」（含比喻的 pull oneself out of misery、bring costs out of the realm、take the stress out of）按1；nine out of ten、out of these assistants 按2。表完成、彻底、出现、去除、引申义的短语动词一律标P（find out, turn out, carry out, point out, figure out, miss out, work out, run out of, sort out, set out, send out, take out 表「拆除、去掉」等）；out of date / order / reach / work 标P。出生的 come out 按0。80句里P占大半，非P义项中0、1、2数量接近，首要义项待全量统计确认。"
+  },
+  "only": {
+    "senses": [
+      {"pos": "adv.", "zh": "只，仅仅；只不过"},
+      {"pos": "adj.", "zh": "唯一的，仅有的（the only）"},
+      {"pos": "adv.", "zh": "（only when / only now / only recently）只有…才；直到…才"},
+      {"pos": "conj.", "zh": "只是，不过（only maybe wordier）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 1, "3": 0, "4": 2, "5": 1, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": "P:not only...but also", "12": 0, "13": 1, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": [1, 0],
+      "20": 0, "21": 0, "22": 0, "23": 0, "24": 2, "25": 0, "26": 0, "27": 0, "28": 0, "29": 1,
+      "30": "P:not only...but also", "31": 0, "32": 3, "33": 0, "34": 0, "35": 0, "36": 0, "37": 1, "38": 0, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 1, "47": 0, "48": 0, "49": "P:not only...but also",
+      "50": 0, "51": 2, "52": "P:not only...but also", "53": 0, "54": 1, "55": 2, "56": 1, "57": 0, "58": 0, "59": 0,
+      "60": "P:not only...but also", "61": "P:not only...but also", "62": 0, "63": 0, "64": "P:not only...but also", "65": 0, "66": 0, "67": [2, 0], "68": 0, "69": "P:not only...but also",
+      "70": "P:not only...but also", "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 1, "79": 0
+    },
+    "example": {"id": 14, "en": "I'm only interested in the new classes.", "zh": "我只对新开的课感兴趣。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：not only…but (also)（含倒装、省略 but also 的 Not only does…, it…）一律标 P:not only...but also；the only / one of the only 按1；only when、only now、only recently、only the case when 按2；only just（勉强、刚好）、if only for a short while（哪怕只是）、only to a point、grow only fonder 均按0；if only 表「要是…就好了」时标 P:if only。题干 will be spoken only once 出现极多（n=21/18）。"
+  }
+}

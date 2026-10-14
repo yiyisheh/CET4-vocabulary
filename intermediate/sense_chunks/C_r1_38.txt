@@ -1,0 +1,612 @@
+# 任务 C_r1_38：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_38.labels.txt
+
+============================================================
+## 词：you    本段 600 句    模式：全标（每句都写）
+原释义：pron.你; 你们.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 你，你们（指听话人或读者）    B 样本 69    例：You are now to
+  1  pron. 人们，任何人（泛指，常不译）    B 样本 10    例：Getting back into work after you’ve been laid off is even harder.
+已标过的短语：mind you（1）
+口径说明（照此执行）：
+  - 大量句子是题干「You are now to write…」「You will have 30 minutes…」。泛指 you 与对读者说话的 you 界限有时模糊，按是否针对具体听话人判断。
+句子：
+91 | convince your present self that your future self is, in fact, still 【you】.
+92 | And never assume the driver is going to stop or see 【you】.    ?P:see you
+101 | Is juicing actually good for 【you】?
+103 | “And then 【you】
+130 | And I’ve booked those seats next to each other for 【you】.
+133 | These are machines that shock and awe 【you】.
+167 | W: Thank 【you】.
+171 | How to determine if a company is a good fit for 【you】
+199 | have some happy news for 【you】.
+215 | How are 【you】?
+242 | Simply “feeling” that something is right or should be done is highly subjective and can drown 【you】.
+253 | Even if 【you】
+257 | As Horn argues, “There’s absolutely no advantage of tailgating the car in front of 【you】.
+274 | What kind of learner are 【you】?
+296 | W: I’m not sure I agree with 【you】.
+319 | Recently, I was at a gathering of colleagues when someone turned to me and asked, “So, what’s new with 【you】?
+386 | The only feasible option is to rely on what your instincts tell 【you】.
+390 | I met three different people today, and each time, when I asked, “How are 【you】?
+446 | words, they struggle to make quantitative distinctions that probably seem natural to someone like 【you】
+499 | If it’s true that 【you】
+537 | She is saying it is possible that 【you】
+554 | They don’t look after 【you】.
+589 | When they are convinced they will make achievements together with 【you】.
+598 | consultant or freelancer ( ro lb JfR 3k *) , people would wonder what was wrong with 【you】.
+616 | M: Thank 【you】.
+641 | That’s definitely up to 【you】.
+671 | Show some interest in them and they will definitely show some in 【you】.
+483 | 【You】'll find depth that 【you】 won't get from your screen no
+587 | love yourself as it's highly doubtful that 【you】'll regret it.
+235 | Meanwhile, they keep the milk, eggs, and other daily basics all the way back so 【you】'll travel through as much of the store as possible, and be tempted along the way.
+194 | While the two tactics above can be effective in making better long-term choices, in the end, 【you】're
+600 | But if 【you】're
+558 | 【You】're constantly forced to push yourself past your limit.
+332 | Think about when 【you】're cooking, and 【you】 just want to know what the next step in the recipe is.
+284 | M) Using voice also makes sense when 【you】're doing other things with your hands.
+423 | And speech obviously makes sense when 【you】're driving.
+209 | If 【you】're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response
+83 | Whether 【you】're just having a down day or a down period, taking a walk can instantly lift your mood, especially when 【you】 go outdoors.
+462 | Apparently, if 【you】're more naturally driven to set goals, 【you】 are more likely to succeed.
+378 | Your hands are covered with oil; 【you】're not going to get on the iPad, so it's a lot more natural to talk.
+570 | Matthew Ricci told gaming site Kotaku: “If 【you】're playing EVE Online 【you】 basically already have an MBA.
+201 | But if 【you】're well prepared 【you】 may be able to set goals for your life that are just
+528 | "But what makes 【you】 a competent lion dancer is that there's a sense of imagination involved.
+236 | M: Could I ask 【you】 a favor?
+276 | That will offer 【you】 a good variety to suit different people’s tastes.
+259 | In other words, being proficient with a design tool and a few methods doesn’t make 【you】 a user experience designer.
+266 | I wanted to ask 【you】 about ordering shopping online.
+614 | knowledge is unproductive unless 【you】 actually launch your business or donate to those in need.
+298 | then the time 【you】 actually spend at home may not be enjoyable.
+368 | However, figuring out what a company is like before 【you】 actually work there can be a bit of a challenge.
+679 | Acquisition of new knowledge may not guarantee the progress that 【you】 aim to make.
+466 | W: [12] Now, all I need is to photocopy your passports and then I can get 【you】 all checked in and show 【you】 to your rooms.
+222 | When it comes to looking for a new job, 【you】 already know that a big part of the interview process involves the company evaluating whether or not 【you】’re a good fit for their open role.
+596 | 【You】 also get away from the habit of making guesses or following instincts.
+180 | 【You】 also have to take the time to apply for your marriage license and then decide whether or not 【you】 are going to keep your last name or change it.
+140 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “【you】”, and as students got older, they began to write in more grammatical sentences.    ?P:as...as
+410 | H) Think about the everyday things around 【you】 and ask questions about them.
+328 | For example, if your manager comes to 【you】 and asks 【you】 to do X, 【you】 can respond with ‘Yes, I’m happy to make this the priority.
+617 | flaw: they focused on a future, healthier 【you】 and assumed that this would be enough motivation for teenagers.
+539 | And kids enjoy it just as much today as 【you】 and I did when we were young.
+339 | So we have a family room for 【you】 and your wife and the kids, and another double room for your parents-in-law.
+494 | What is it that sets 【you】 apart from other theatres?
+594 | W: There 【you】 are.
+226 | G) If 【you】 are a low-income student who will be attending school out-of-state, make sure 【you】 know if 【you】 can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP.    ?P:you know
+393 | People understand that 【you】 are a recent graduate, and I doubt anyone cares about your phone other than yourself.
+640 | Directions: For this part , 【you】 are allowed 30 minutes to translate a passage from Chinese into English.
+418 | As 【you】 are already a member, the fee of the class will just be added to your monthly bill.
+624 | M) I have now come to realize that being boring, in actuality, is not only about who 【you】 are as a person, but also how 【you】 present yourself.
+203 | M: Ah, yes, 【you】 are completely right.
+658 | Because when 【you】 are enjoying, people around 【you】 will begin to enjoy as well.
+580 | Imagine that 【you】 are getting on a bus.
+669 | Directions: In this section, 【you】 are going to reaa a passage with ten statements attached to it. &eh
+360 | Directions: In this section, 【you】 are going to read a passage with ten statements attached to it.
+643 | No matter what, make sure 【you】 are having fun in life.
+294 | It’s about the vegetarian food festival 【you】 are holding on the 19th of August at the Newcastle City Hall.
+675 | When 【you】 are lacking water, your mouth becomes dry.
+350 | Just tell him exactly what 【you】 are looking for and I’m sure he will find something good.
+250 | If 【you】 are not aware as to why
+456 | Remember, as Bechtoldt says, “【you】 are not responsible for how other people feel.
+252 | where 【you】 are now and where 【you】 want to be in the future is caused by a lack of knowledge.
+551 | Obviously, person perception is a very subjective process that can be affected by a number of variables, including the characteristics of the person 【you】 are observing, the context of the situation, your own personal traits, and your past experiences.
+402 | But saying 【you】 are 30 percent East Asian or American hardly reflects
+159 | 【You】 are really not joking, are 【you】?
+113 | 【You】 are required to select one. word for each
+341 | 【You】 are required to select one word for each blank from a list
+363 | 【You】 are required to select one word for each blank from a list of choices given in a word bank following the passage.
+639 | 【You】 are required to select one word for each
+569 | W: I suppose 【you】 are right.
+593 | M: [15] 【You】 are right.
+415 | “A family will turn up at a villa and find out it doesn’t exist or the owner doesn’t know who 【you】 are,” says Tipton.
+367 | Therefore, if 【you】 are someone who loves to show physical affection, 【you】 should not be afraid to show it or drastically change your behaviors—just ask for consent beforehand!
+342 | W: [13] It says on your website that 【you】 are still looking for vendors, and I grow organic vegetables on my farm, as well as doing my own home baking.
+262 | 【you】 are taking a DNA test to build your extended DNA family tree, or want precise information on inborn health
+608 | If 【you】 are thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour 【you】 actually like.
+677 | The basis for each of these things, however, is whether or not 【you】 are willing to make a compromise when it comes to changing your name.
+574 | If 【you】 aren’t driving your own car, then 【you】 are saving on fuel.
+331 | When 【you】 arrive in London, hand the ticket to the guard and he will return the bicycles to 【you】.
+311 | How accurate DNA tests are relies greatly upon the kind of test being taken, on the specific question 【you】 ask, and on
+190 | Have 【you】 asked Jeremy if he would like to come with us?
+379 | Just look at the world around 【you】 at 2:30 in the afternoon.
+651 | But an excess of ambition can also be dangerous, putting 【you】 at risk of burnout, stubbornness and even a shorter life.
+392 | 【you】 attempt to make toward it on a personal level will be in vain.
+334 | I’ll pay 【you】 back, of course.
+670 | But can 【you】 be sure 【you】've noted every snack
+530 | As 【you】 become more capable of providing yourself with the approval 【you】 seek, your need for external validation will
+648 | It’s also a strategy that can help 【you】 become successful.
+239 | W: So, what have 【you】 been doing to stay busy while 【you】’ve had that swollen ankle?
+139 | Have 【you】 been there?
+470 | So 【you】 being busy doesn’t make me sympathetic at all.
+370 | If 【you】 believe 【you】 have fallen victim to fraud or cyber-crime, please report it to Action Fraud,” it adds.
+153 | claims that it can help 【you】 both lose weight and stay healthy.
+525 | Hyphenating your last name can help 【you】 bridge the gap between your personal and professional lives.
+291 | 【You】 brought the whole family with 【you】, I see.
+306 | Plant-based meats are coming soon to a dinner table near 【you】, but do they deserve a spot on your plate?
+264 | W: Hmm, that’s nice of 【you】, but I don’t want to feel obliged to buy one of his cars.
+634 | valuable for 【you】 but if 【you】 want to be valuable to others, then 【you】 have to express your knowledge in some way.
+142 | I don’t want to say too much and spoil it for 【you】, but it’s definitely got some amazing technological and sociological concepts in it.
+447 | The food is exactly the same as the stuff 【you】 buy in a conventional shop.
+374 | Do whatever favors 【you】 can, and be warm-hearted and direct when 【you】 have to say no.
+372 | “Sometimes 【you】 can be so good at something that it causes trouble,” she notes.
+371 | 【You】 can cut it into thin slices and eat it on its own.
+519 | So before 【you】 can determine whether 【you】 and a specific company would be compatible together, it’s important to have a solid handle on what exactly 【you】 want from your employer.
+413 | Luckily, there are a few things 【you】 can do to determine whether or not a company is a good fit for 【you】—before 【you】 ever sign your name on that dotted line.
+673 | I) An industry review website like Glassdoor is another spot to check in order to find some insider information about what 【you】 can expect about a company.
+629 | And it’s true; turning down opportunities is easier when 【you】 can fall back on the safety net provided by power, money, and authority.
+646 | 【You】 can find incredible videos, articles and news stories about the success of others.
+227 | M: But 【you】 can get 25% off if 【you】 sign up in advance.
+345 | 【you】 can get somebody on-board with your goal, 【you】 should help them understand why they should pursue it.
+588 | After all, if 【you】 can jump out of a plane or off a bridge, then 【you】 can face anything else easily.
+544 | If anything is really wrong, 【you】 can just take photographs of the damage, and they will give 【you】 the money back or replace the item.
+348 | 【You】 can learn about the best way to make a sales pitch, but the only way
+172 | It’s a tool 【you】 can make yourself to take the stress out of studying.
+428 | From this different perspective, 【you】 can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+384 | One way 【you】 can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+301 | 【You】 can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting
+636 | So as 【you】 can see, when it comes to choices, less is more.
+357 | more reliable results, because 【you】 can see whether a disease-causing trait is present.
+382 | 【You】 can share loud and proud that 【you】 won’t be checking email until 【you】’re back.
+325 | 【You】 can spread it on bread with a knife, and then add a tiny bit of honey on top.
+354 | That’s not to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] 【You】 can start anywhere as long as 【you】 know your end goal and 【you】 commit to actively pursuing opportunities to learn and grow along the way.    ?P:you know
+575 | contribution, or find a cause 【you】 can support with your time and talent.
+219 | But that doesn’t mean your life has ended and 【you】 can’t do anything to change it.
+508 | 【You】 can’t fix a scar.
+394 | 【You】 can talk to a best-
+549 | If those are the only things 【you】 can think of, don’t worry!
+336 | That’s why we recently launched the Out of Office Email Generator, a free tool 【you】 can use before your next long weekend or trip.
+283 | Then 【you】 can walk down through the train to your carriage and take your seats.
+592 | 【You】 can watch
+165 | Nowadays 【you】 can't buy anything without then being asked to provide a rating of a company's
+184 | "【You】 can't help but be awed," he said, "and I think that feeling can be translated to the viewer.
+316 | However, 【you】 can't help butŨ if these companies are basing their business on fabrications (ũ:it
+182 | What use is written online content if 【you】 can't read?
+631 | H) If 【you】 care about outside opinions on your name, 【you】 should know that a large portion of today’s society is annoyed by the hyphenated name.
+656 | Maybe 【you】 carry the most powerful passport in the world, or perhaps the rarest passport.
+361 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then not being able to find it again after 【you】 come out of the shops.
+615 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets 【you】 communicate with someone even when 【you】 can’t see them.
+578 | So would 【you】 consider Mexican?
+576 | I) The stress problem extends beyond mental health when 【you】 consider the link between stress, anxiety and heart health.
+120 | W: (12) Have 【you】 considered making a study guide?
+206 | “But with bilateral control 【you】 could almost double that.
+282 | 【You】 could choose an entirely new last name for the two of 【you】 to share.
+244 | There are 24 episodes. [11] Well, maybe 【you】 could download an electronic copy of the book and try to read it before the show starts.
+286 | M: I was wondering if 【you】 could get me some jeans while 【you】’re there.
+123 | For a barbecue, 【you】 could have any cheese 【you】 want.
+174 | So 【you】 could have different types of cheese.
+420 | M: Or 【you】 could just walk to work.
+198 | W: No, [8] actually, I was wondering how 【you】 could possibly afford a new phone.
+375 | 【You】 could register to use one.
+591 | And 【you】’d be surprised many families of four are happy living in houses that are under 30 square meters.
+99 | Well 【you】’d expect the Design Museum to commission and make some interesting items, but this one was different.
+122 | He was the kind of trusted doctor 【you】’d feel relieved to see and welcome into the room with a sick family member.
+149 | It seems like 【you】’d have the same problems with cash.
+216 | for a hit of stars that if 【you】 delete the survey the company sends 【you】 another one.
+509 | M: [15] Of course 【you】 did.
+579 | F) Start by writing down the things 【you】 didn’t like about previous employers, as well as the parts 【you】 really valued.
+246 | W: 【You】 discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But your ideas about education are the most controversial.
+292 | But with its extreme usability comes a complication: what do 【you】 do if 【you】 strongly feel something should not be done, even if the data insists that it should?
+97 | W: Well, what do 【you】 do now then?
+168 | If 【you】 don’t arouse someone’s curiosity or brighten someone’s day, 【you】 probably come across as being a little bit dull.
+546 | These invisible duties become apparent only when 【you】 don’t do them.
+663 | As investor Pedro Sorrentino put it, “If 【you】 don’t guard your time, people will steal it from 【you】.
+439 | because 【you】 “don’t have the skills for it”?
+228 | 【You】 don’t have to do something just because it exists.
+473 | W: I still think it’s a bad idea to use a credit card for something 【you】 don’t need. [11] One of my colleagues bought a lot of things on credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.
+487 | It’s hard to make any decisions when 【you】 don’t really know what 【you】’re looking for.
+308 | There simply isn’t a one-size-fits-all process. [17] Being effective requires adaptability—something 【you】 don’t really learn in school, much less in a 6-month training camp.
+324 | “They might spot problems 【you】 don’t spot.
+526 | So even if 【you】 don’t understand what the actors say, 【you】 can still read it.
+610 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if 【you】 don't have health and happiness, what else could possibly matter?
+93 | It may sound surprising, but 【you】 don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How
+136 | How Climate Change Will Affect What 【You】 Eat    ?X
+146 | balance as an achievement that 【you】 either hit or don’t.
+478 | “It’s about how 【you】 either make it relevant to the job 【you】 are
+409 | If 【you】 encourage them to tell 【you】 what they’ve learned, they’ll absorb the information more deeply and remember it more readily.
+255 | “【You】 end up
+672 | However, the precise effects vary according to whether 【you】 engage in short, fast running or long-distance running.
+355 | Do 【you】 enjoy
+577 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me about your favorite book,” or “Have 【you】 ever been to that attraction?
+321 | Have 【you】 ever wondered how acceptable it is to hug or touch someone?
+364 | Get them to tell 【you】 everything they have to do.
+100 | But what else can 【you】 expect in a city this big?
+154 | Have 【you】 factored those in?
+567 | If at first 【you】 fail, then try one more time with grit.
+322 | Company culture can have a big impact on how 【you】 feel about your work, so 【you】 want to make sure 【you】 sign an offer letter with an organization 【you】’re truly excited about.
+659 | Do 【you】 feel like Vietnamese food then?
+496 | Let that small longing 【you】 feel motivate 【you】 to make a difference.
+552 | Can 【you】 find a map that shows where the hotel is and send it to me online?
+678 | When 【you】 find that 【you】 can overcome the physical or mental challenges involved in extreme sports, 【you】’ll feel superhuman and your self-confidence will be at an all-time high.
+485 | And when 【you】 find things that are truly interesting to 【you】, share them.
+450 | Use what 【you】 find to ask more questions and learn more about the world around 【you】.
+270 | If 【you】 find yourself searching for something to say beyond small talk, try these tactics to find more interesting approaches to conversation.
+448 | of community and the feeling that 【you】 fit in with others around 【you】.
+482 | They aren’t going to deliver 【you】 food that is out of date.
+208 | Higher education is a great way to equip yourself with some core skills, but it will not prepare 【you】 for actual challenges 【you】’ll face with clients’ work.
+422 | Thank 【you】 for coming, Karen.
+461 | W: Thank 【you】 for having me.
+377 | M: Thank 【you】 for the information.
+416 | Thank 【you】 for your help.
+200 | W: But what prevents 【you】 from just going to the bank and getting more money, if 【you】 want to buy something?
+465 | But this should not stop 【you】 from taking risks, as risks are necessary if 【you】 want your business to succeed.
+481 | concluded, as a Daily Mail story put it, that "hot oatmeal ( Ø !: Ù) breakfast keeps 【you】 full for longer. "
+536 | because although 【you】 gain new knowledge, 【you】 are not discovering how to apply that knowledge.
+258 | business — but 【you】 gain shoppers who now can arrive more easily on bikes.
+309 | Can playing video games help 【you】 get a better job?
+514 | And if 【you】 get a broken egg, well, that could happen in a conventional shop, too.
+134 | They might either attack 【you】, get defensive, or just disappear from your life.    ?P:either ... or
+383 | What if an accident happens or 【you】 get ill and need medical treatment?
+211 | to be impressed by industry qualifications 【you】 get in school.
+515 | matter how many likes 【you】 get on your post.
+230 | The more 【you】 get right, the more creative 【you】 are thought to be because 【you】 have come up with uncommon associations.    ?P:the more...the more
+330 | This way neither of 【you】 gets “your” way and 【you】 both have to deal with the legalities of going through a name change.
+468 | But can 【you】 give me your details anyway?
+86 | But before 【you】 go out and find an entrepreneur to outcompete, it’s important to understand and avoid the traps that often come with rivalry.
+518 | Are 【you】 going to prepare a meal for us?
+280 | (13-1) Haven’t 【you】 got a car?
+162 | So have 【you】 got your mind set on a specific model?
+620 | assume 【you】 had problems getting a job.
+407 | As it turns out, boredom might signal the fact that 【you】 have a
+522 | I’ve checked the availability of flights from Beijing to London on the 22nd and 【you】 have a choice.
+82 | So if 【you】 have a disagreement with a securely attached person, they’re not going to panic.
+389 | 【you】 have a health issue and 【you】 want to be around longer for your kids, or if your business is something 【you】're passionate
+231 | Hopefully 【you】 have a supportive groom who understands why this idea is the most appealing to 【you】.
+191 | In the decision-making process, relying on instincts only makes sense when 【you】 have a vast experience to support 【you】.
+441 | Do 【you】 have any other popular toys?
+87 | Do 【you】 have anything in mind?
+653 | and beliefs that 【you】 have been practicing each day, When 【you】 realize this and begin to direct your focus toward practicing
+401 | W: They do have a great outdoor campus where he could finally learn all those outdoor sports 【you】 have been wanting him to try.
+612 | also satisfying to see the effects of what 【you】 have done.
+111 | Questions 1 and 2 are based on the news report 【you】 have just heard.
+163 | Questions 3 and 4 are based on the news report 【you】 have just heard.
+214 | Questions 5 to 7 are based on the news report 【you】 have just heard.
+403 | Questions 8 to 11 are based on the conversation 【you】 have just heard.
+445 | Questions 12 to 15 are based on the conversation 【you】 have just heard.
+572 | Questions 16 to 18 are based on the passage 【you】 have just heard.
+597 | Questions 19 to 21 are based on the passage 【you】 have just heard.
+619 | Questions 22 to 25 are based on the passage 【you】 have just heard.
+517 | To be interesting means that 【you】 have lived life, taken risks, traveled, sought out experience to learn for yourself and share with others,” she says.
+115 | M: 【You】 have my number.
+404 | 【You】 have nothing to worry about.
+449 | Being humble means 【you】 have the ability to accurately 31 your deficiencies without denying your skills and strengths.
+443 | While this approach is beneficial when 【you】 have the time and the decision is important, it is problematic when time is crucial.
+310 | W: If 【you】 have time right now, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.
+611 | [20] When doing extreme sports, 【you】 have to become more focused.
+346 | I) Of course, finding that balance probably shouldn’t be something 【you】 have to do by yourself.
+81 | The goal in this is to make the fans connect to the live experience as much as possible, and the tools 【you】 have to do that, we're not using at all.
+454 | “The problem then is 【you】 have to find accommodation at short notice.
+186 | But as regards bones, it's ___30___ use it or lose it: To keep your bones strong 【you】 have to keep exercising.
+381 | "The basic requirement for hanging out here is 【you】 have to learn how to lion dance," Mr.
+607 | 【You】 have to pay back your commitment at some point.
+504 | A chemical engineer who worked in manufacturing agreed, “【You】 have to prove yourself just because 【you】 are female.
+534 | And 【you】 have to work twice as hard!
+557 | If 【you】 have too much ambition, 【you】'll find this hard, if not impossible.
+507 | Even if 【you】 haven’t mastered a skill, grit tells 【you】 that 【you】 can still succeed if 【you】 can transform your passion into action.
+212 | After 【you】 hear a
+192 | After 【you】 hear a question, 【you】 must choose the
+217 | After 【you】 hear a question, 【you】 must choose the best answer from the four choices marked A), B), C) and D).
+243 | After 【you】 hear a question, 【you】 must choose the best answer
+293 | After 【you】 hear a question, 【you】 must choose the best answer from
+542 | After 【you】 hear a question , 【you】
+396 | M: Did 【you】 hear about Johnny?
+218 | So how can 【you】 help your child do their best?
+213 | I could give 【you】 his phone number if 【you】 want, and 【you】 could call him and ask him questions.
+150 | 【you】 hope to achieve may seem impossible.
+498 | Failure will teach 【you】 how to think and plan strategically. [24] But just remember that not all risks are good ones, and when 【you】 fail, learn from it and move forward.
+532 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks 【you】 how 【you】 are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+604 | This will help 【you】 immediately identify what 【you】’re looking for in an organization, as well as the things 【you】’re trying to stay far, far away from.
+627 | Because of social categorization, 【you】 immediately judge the woman as harmless, and the man as threatening, leading to the loss of your wallet.
+116 | However, too much of a routine can also make 【you】 incredibly boring.
+531 | 【You】 indirectly support
+365 | Share your observations about the world around 【you】—interesting stories 【you】 heard or things 【you】 noticed—and 【you】 may be surprised by the universal connection they inspire.
+547 | Talking on and on about what’s interesting to 【you】 isn’t going to make 【you】 an interesting person, she says.
+664 | If it gives 【you】 joy every time 【you】 open the cupboard, 【you】 can start to take it further.
+204 | such as in apple skins, that are excluded when 【you】 juice them,” says Heather Ferris, a professor of medicine.
+193 | And then, 【you】 just end up ruining the book for yourself, if the show isn’t very good.
+427 | M: True, but if 【you】 keep current with your skills, 【you】 will be attracted to employers.
+563 | When they become aware of the meaningful relationships 【you】 keep with them.
+460 | It is a way of 【you】 keeping your own identity while also making your future husband happy.
+107 | Are 【you】 kidding?
+581 | I’ve never been to the head office, 【you】 know.    ?P:you know
+625 | I’m trying to keep a slim figure, 【you】 know.    ?P:you know
+426 | "【You】 know everyone.    ?P:you know
+188 | M: Do 【you】 know if Dan will be around next Saturday?    ?P:you know
+406 | I mean, how do 【you】 know that 【you】 won’t get bad fruit, or that the eggs won’t be broken?    ?P:you know
+305 | Do 【you】 know what boys aged around ten typically like?    ?P:you know
+538 | M: 【You】 know what I mean?    ?P:you know
+234 | W: As a kid, did 【you】 know what job 【you】 wanted to do when 【you】 grew up?    ?P:you know
+281 | “【You】 know why most people in nursing homes use wheelchairs?    ?P:you know
+178 | That would help 【you】 learn self-acceptance, or that it’s okay to be the focus.
+417 | Nevertheless, emotional intelligence is a useful skill to have, as long as 【you】 learn to also properly cope with emotions—both others’ and your own, says Bechtoldt.
+135 | Not only can walking make 【you】 less depressed, but according to a new study, depression sufferers who took a ___26___ walk showed just as much improvement in their ___27___ as people taking medicine.
+260 | (ASMR), which ___27___ to 【you】 like a sting in your brain.
+603 | Would 【you】 like some Italian food, perhaps?
+85 | Would 【you】 like to join us?
+225 | How much would 【you】 like to spend?
+529 | We don’t know if 【you】’ll achieve what these risk-takers have achieved.
+160 | past the age of 45, there’s nearly a two in three chance 【you】’ll be out of work for over a year, they find.
+633 | 【You】’ll be pushed to your limits, and if 【you】 aren’t focused 【you】’ll make dangerous mistakes.
+205 | It sounds like 【you】’ll be wasting several hours every day on the road instead of studying.
+666 | It’s great to stay fit and healthy, but standard exercise routines and sports only work the same muscles repeatedly. [21] With extreme sports, 【you】’ll be working entirely different muscles, and that means 【you】 get an all-over workout.
+520 | In parts of the Middle East, 【you】’ll find spoken word agreements are seen as seriously binding.
+320 | M: Well, (11) 【you】’ll need to update your card details directly on our website.
+369 | W: (15-3) Yes, 【you】’ll probably start to grasp information a lot quicker that way.
+98 | Even so, trying to set achievable goals that 【you】’ll work
+660 | And where exactly should 【you】 look for these culture clues?
+475 | What’s something 【you】 love but aren’t good at?
+533 | When they become aware of the potential strength of the judgements 【you】 make.
+430 | In these situations, instincts can help 【you】 make effective and quick decisions.
+667 | Not to mention that soaking up new information can help 【you】 make more informed decisions when 【you】
+455 | Consider how often 【you】 make this kind of judgment every day.
+566 | is one of the greatest forms of learning because the mistakes 【you】 make while practicing reveal important insights.
+362 | there was genuine, scientifically documented truth to the expression "what doesn't kill 【you】 makes 【you】
+387 | 【You】 may choose a
+516 | 【You】 may choose a paragraph more than once.
+527 | If a new competitor emerges to threaten your business, 【you】 may need to change direction, even if that means straying from your original vision.
+436 | 【You】 may not actually experience emotional wellbeing at home if 【you】 remain occupied with what happened at work.
+408 | 【You】 may not use any of the words in the bank more than once.
+655 | 【You】 may not use any of the
+647 | 【You】 may think that summer is the perfect time to go on a date or chat with an attractive boy or girl.
+352 | It has no batteries, if that’s what 【you】 mean.
+476 | What do 【you】 mean?
+80 | M: What do 【you】 mean by blue light?    ?P:what do you mean by
+337 | W: What do 【you】 mean by financial independence?    ?P:what do you mean by
+356 | M: 【You】 mean that boarding school?
+489 | When 【you】 meet with a new coworker, 【you】 immediately begin to develop an initial impression of this person.
+249 | But now that 【you】 mention it, I do think getting another phone so soon is wasteful, regardless of the cost.
+385 | They are right next to each other on the ground floor, since 【you】 mentioned in your message that they have trouble with stairs.
+613 | W: 【You】 mentioned the environment earlier.
+650 | Some men, regardless of how 【you】 might feel about some things, are traditionalists and feel that it is simply “right” for the woman to take the man’s last name as her own.
+155 | “Under reasonable conditions today, 【you】 might get 1,800 cars per lane per hour throughput (the volume of traffic passing
+128 | For example, 【you】 might get “Fox, Man, Peep”, or “Dust, Cereal, Fish”.
+442 | are key, then 【you】 might have more in common with managers.
+674 | 【You】 might learn something, but 【you】 don’t actually have to do anything.
+207 | 【You】 might lose one car driver’s
+484 | For example, 【you】 might recognize that 【you】 are intelligent, but realize that 【you】’re not a 32.
+622 | struggling with real boredom and the emptiness it provokes, consider whether 【you】 might seek new
+119 | 【You】 might think of your teeth as tools, like built-in knives and forks, but if they are mere tools, why do they feel pain and wouldn’t it be better if they could just _26_ under any condition?
+571 | Despite its restrictions, analytical decision-making does have several key strengths. [18] By relying on facts and data, 【you】 minimize your potential for a wrong decision.
+176 | It’s a shame 【you】 missed out on the general discount.
+156 | choices, and also make 【you】 more confident about your ability to make the right decision.
+642 | make 【you】 more effective in the process.
+510 | applying for, or how it makes 【you】 more interesting as a potential employee,” Mr.
+471 | When are 【you】 more likely to succeed in persuading your coworkers?
+247 | 【you】 motivate them to achieve a common goal.
+391 | In order to sustain those relationships, 【you】 must be able to work in their best interests as well.
+349 | job skills, then the interview skills, then the dress part — and 【you】 must be perfect at all of them.
+263 | question, 【you】 must choose the best answer from the four choices marked A), B), C) and D).
+148 | And if 【you】 must fill
+254 | I tell 【you】, my current commute is killing me.
+424 | For if 【you】 nap properly, it’s like waking up from a full night’s sleep and 【you】 can double your day’s worth of concentration.
+429 | And if 【you】 need any help to find transportation for the whole family, we can definitely recommend someone for 【you】.
+479 | In situations where 【you】 need more timely action, decisions based on some information and instinct may work better.
+412 | 【You】 need not only computer science and engineering knowledge, but also an understanding of psychology and visual design to create a better product.
+179 | In order to find the linking words (“Hole” for the first, “Bowl” for the second) 【you】 need to be creative.
+295 | Willpower is just like a muscle, to keep it strong 【you】 need to constantly exercise it.
+181 | All 【you】 need to do is wait at the far end of the platform.
+497 | "【You】 need to pass on the traditions and the culture, and this is a part of our culture," he said.
+676 | 【You】 need to say “no” to whatever isn’t leading 【you】 toward your goals.
+297 | In order to learn the art of persuasion at the workplace, 【you】 need to understand how to handle conflicts and reach
+287 | The first thing 【you】 notice in the staircase to the fourth-floor studio on Canal Street in Manhattan, New York, is the measured thumping coming from behind a metal door.
+541 | 【You】 only want to utilize hard data or facts.
+313 | He’s a good friend of mine, and he would never try to pressure 【you】 or cheat 【you】.
+665 | Whether your future husband insisting on your adopting his last name is a red flag to 【you】 or not, it is still something that 【you】 should take into consideration.
+601 | “Get really specific with what’s stressing 【you】 out,” Ms.
+561 | science through taxes 【you】 pay, products and services 【you】 purchase, and donations 【you】 make.
+277 | H) If 【you】 plan on paying off bills in your student account with a credit card, be aware of any additional costs.
+400 | But if 【you】 prefer Civilization, Total War, or X-Com, where strategy and resource management
+388 | Do 【you】 prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us?
+373 | (11-1) Would 【you】 prefer to pay in advance?
+318 | 【You】 probably have to help younger children plan their session, but it’s important that by the end of primary school it’s second nature.
+131 | 【You】 probably haven't taken the time to think of all the work that went into creating the shirt on your back.
+145 | Richard Thompson Ford is a law professor, and 【you】 probably won't forget that for even one page.
+626 | Now comes the part when 【you】 put on your detective hat and do a little digging.
+540 | 【you】’re a determined gamer is more likely to harm your chances of getting a job.
+602 | So one strategy to leave others with the impression that 【you】’re a sparkling conversation partner is to get others to talk about themselves.
+505 | 【You】’re an advocate of the tiny home movement.
+195 | 【You】’re an economist and spent two decades teaching at universities?
+288 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like 【you】’re being held against your will from working as opposed to making the most of your time off.
+344 | It seems like 【you】’re blaming them for not succeeding, when poor performance in school isn’t a child’s fault.
+275 | Also, speak to the person 【you】’re booking the villa with on a landline phone, as fraudsters tend to only use mobiles.
+434 | I’m busy, 【you】’re busy, everybody’s busy.
+170 | 【You】’re cold, but your heart is racing as if a killer just chased 【you】 down a dark street.
+138 | Finding someone 【you】’re committed to outcompeting can be a great way to stay focused on your goals and push your venture to the next level.
+491 | Once 【you】’re committed to something, 【you】’ve already decided how that future block of time will be spent.
+307 | “Which matters more depends on what your history up until that point has been in the type of work 【you】’re doing,”
+326 | “So really, regardless of what 【you】’re eating, if someone’s walking four miles more than 【you】 each day, they’re going to be a lot thinner and live a lot longer than 【you】.
+232 | When the train arrives, tell the train guard where 【you】’re going, and he will help 【you】 secure the bicycles in the last carriage and give 【you】 a ticket.
+185 | M: I hear 【you】’re going to Japan soon.
+90 | W: Well, sounds like if 【you】’re going to read anything for fun, this is the book.
+95 | M: It was three months ago, and I already know what 【you】’re going to say.
+189 | But when 【you】’re intently focused on outperforming your rivals, 【you】 may begin to develop a “win-at-all-costs” mentality that causes 【you】 to ignore how 【you】 achieve success.
+366 | Just make sure 【you】’re logged in.
+564 | Another civil engineer stated, “On many levels, 【you】’re never quite
+506 | Of course, 【you】’re not actually practicing the action that would
+108 | And if 【you】’re out of work
+177 | Three days later, 【you】’re overwhelmed by how much is on your to-do list.
+644 | M: Oh, (15) 【you】’re really difficult to please.
+223 | Whatever 【you】’re reviewing, it’s important that it’s arranged for your particular needs of that subject, and in the most user-friendly way 【you】 can.
+183 | M: Maybe 【you】’re right.
+299 | M: Maybe 【you】’re right, [9] but the thing is, everyone at the office has a nice, expensive phone, and I’m a little embarrassed by mine.
+437 | M: Maybe 【you】’re right, [10] but the credit card has a very good special offer, where I don’t pay any interest for six months.
+272 | But 【you】’re still filled with _26_.
+147 | 【You】’re thinking I shouldn’t replace my phone this soon.
+645 | The Internet will be your best friend when 【you】’re trying to familiarize yourself with a company’s culture before ever walking through their office doors.
+649 | If 【you】’re weary of full colour, test your tolerance with smaller spaces, such as the inside of a cupboard or a bright window frame.
+661 | Every time 【you】 read an article or listen to an interview, 【you】’re practicing passive inspiration.
+405 | As 【you】 read this, 【you】 are likely aware of what time it is, how old 【you】 are, your checking
+333 | But do 【you】 really need experts to tell 【you】 that?
+169 | It says on your website that your company will pay back the money within three working days of 【you】 receiving the returned item.
+238 | “The more 【you】 reduce, the shorter the supply, and the higher the price will jump,” Schlenker says.
+440 | M: Do 【you】 remember he had a scar on his face?
+606 | Do 【you】 remember the capacity of their meeting room?
+628 | 【You】 remember the trouble 【you】 had last time.
+657 | Can 【you】 remember what 【you】 ate yesterday?
+582 | 【You】 retain the ability to spend your future time however 【you】 want.
+220 | And according to our records, the chair 【you】 returned was received by our warehouse on Friday morning.
+568 | As 【you】 said, he had had it for most of his life.
+419 | When 【you】 say “no”, 【you】’re only saying “no” to one option.
+105 | M: [11] Honestly, I agree, but just don’t let him hear 【you】 say that.
+458 | When 【you】 say “yes”, 【you】’re saying “no” to every other option.
+210 | Then why were 【you】 saying “poor Hannah”?
+398 | There’s a Bobo Man cartoon popular amongst young children, 【you】 see.
+110 | 【You】 see in America, many cities don’t have good public transport.
+261 | 【You】 see, she was planning to quit the job she hates and retire early.
+157 | W: Did 【you】 see that television program on air travel last night?
+463 | So next time 【you】 see your favorite superhero film, be entertained, but also be inspired.
+303 | W: [11] Hmm, could 【you】 send me his number, please?
+237 | Even better, 【you】 set a powerful example because when they see 【you】 ___35___ the benefits of walking, they'll be encouraged to walk more, too.    ?P:see you
+197 | can help 【you】 shift and adapt your professional life to something that will better harmonise with your personal one.
+444 | Then 【you】 should also account for non-genetic factors that are
+273 | But, it’s important to keep in mind that the employer isn’t the only one who needs to identify a good match—【you】 should be looking for that same exact thing.
+233 | It has also been noted that Siri lacks a proper editing function, as saying "Edit message to say: we're at Silver Cloud restaurant and 【you】 should come find us" generates "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and 【you】 should come find us".
+431 | 【You】 should decide on the best choice and mark the corresponding
+623 | 【You】 should decide on the best choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.
+144 | W: [8] 【You】 should make money a regular topic of discussion.
+411 | And then under the description of your personal information, 【you】 should see an option for updating payment methods.
+414 | The golden rule is a moral principle which states that 【you】 should treat others the way 【you】 want to be treated yourself.
+89 | 【You】 should write at least 120 words
+114 | 【You】 should write at least 120 words but no more than 180 words.
+556 | What movie are 【you】 showing right now?
+327 | Can 【you】 sign me up for the 10-week course on Thursday evenings?
+125 | And 【you】 signed up two months ago.
+543 | three or four years, 【you】 simply weren't getting ahead in your career.
+638 | Where do 【you】 sit?
+668 | Studies report that where 【you】 sit in the classroom can impact your ability to learn and the way your teacher perceives 【you】.
+654 | Yes! [22] It does matter where 【you】 sit in your classroom, so choose and choose carefully!
+605 | 【You】 sit next to the elderly woman, who unfortunately turns out to be quite skilled at picking pockets.
+500 | Thank 【you】 so much for your help.
+451 | M: I’ll make a note here on the system for 【you】, so that the payment will be made tomorrow morning.
+269 | Make sure it’s free of distractions, and—for primary school children at least—somewhere near 【you】, so 【you】 can answer questions and offer encouragement.
+399 | If meatless meat can help 【you】 stick to a plant-based diet, that in itself can lead to better health.
+433 | Having a valuable outcome associated with a habit will help 【you】 stick to that habit permanently.
+137 | It’s just a little swollen and I should be fine for next Saturday if 【you】 still want to go for a jog then.
+112 | And then, if 【you】 still wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing it from people.
+562 | One thing that extreme sports do better than perhaps anything else is to help 【you】 stop being afraid. [19] It may sound strange to say that their main function is to reduce fear.
+560 | start to vanish, leaving 【you】 stronger, more confident, and yes, happier in your life.
+102 | M: Are 【you】 sure about that? [9] Rents in big cities are high, and then there’s the cost of electricity and gas.
+586 | Remember, failure is inevitable, and every failure 【you】 survive is a learning experience.
+492 | 【You】 take a taxi if 【you】 really have to.
+229 | Why didn’t 【you】 take the bus?
+173 | But have 【you】 taken a _26_ to consider what these natural flavors actually are?
+535 | Can 【you】 tell our audience what it’s about?
+221 | It was just a nightmare, 【you】 tell yourself; there’s nothing to be afraid of.
+397 | Fans of classical music can also tell 【you】 that there are few types of music that are more expressive.
+300 | scientists made the statement about the death of this wonderful thing, let us tell 【you】 the facts.
+590 | A mechanical engineer said, “It will give 【you】 the flexibility to do almost anything.
+502 | Steve Maraboli once said, “When someone tells 【you】 they are too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of YOUR spot on their schedule.
+152 | I mean, getting rid of rush hour may be impossible, but it could be made more tolerable, don’t 【you】 think?
+323 | M: (15-2) So 【you】 think I should arrange my notes using color and pictures in place of text.
+621 | So, which supermarket do 【you】 think is the best to order from?
+490 | Don’t 【you】 think, Jenny?
+164 | M: 【You】 think Jimmy’s just making it all up?
+477 | M: What do 【you】 think of Battleships, then? [15] It’s a total classic.
+106 | write a response by stating what 【you】 think of the proposal.
+278 | Which of the two classes are 【you】 thinking about?
+329 | M: (14-1) Have 【you】 thought about getting an electric motorbike?
+550 | It can prove a challenge to Western businesses if your business partner wants to renegotiate terms that 【you】 thought were already agreed on.
+457 | M: See 【you】 Thursday.    ?P:see you
+523 | In other words, saying “no” saves 【you】 time in the future.
+553 | Saying “yes” costs 【you】 time in the future.
+583 | Another interior designer commented that certain combinations can key into something on a deeper level, transporting 【you】 to a different moment in time.
+469 | Self-control enables 【you】 to avoid behaviors
+652 | Learning to be this focused when enjoying extreme sports will help 【you】 to be focused at work, keeping 【you】 more productive and ultimately more successful.
+126 | How often do people ask 【you】 to do something and 【you】 just reply, “Sure.
+245 | determination that allows 【you】 to do something difficult.
+474 | Reading a book on how to learn a foreign language quickly allows 【you】 to feel like 【you】 are making
+618 | It’s the first day of school, and your teacher tells 【you】 to find a seat in the classroom.
+511 | Inflexibility causes 【you】 to ignore or avoid listening to the thoughts and ideas of others.
+421 | This allows 【you】 to keep going by your own last name while legally adopting your husband’s last name at the same time.
+124 | The hidden costs colleges don’t want 【you】 to know about
+662 | But excessive heat can cause 【you】 to lose water, which has been proven to have a pretty unattractive side effect—bad breath.
+290 | But this eagerness to win may also hurt your venture’s success, particularly when it causes 【you】 to make impulsive, insensible decisions.
+338 | The sense of eagerness that comes with having a rival can not only cause 【you】 to make poorer decisions, but it can also lead 【you】 to take greater risks that put your venture in peril.
+158 | Some music inspires 【you】 to move your feet, some inspires 【you】 to get out there and change the world.
+635 | Posting about luxury purchases and expensive vacations online may help 【you】 to persuade others and frighten competitors, but it could also signal to potential friends or future employers that 【you】 are unlikely to think about the needs of others.
+493 | It allows 【you】 to stay connected to accomplishments that 【you】 achieved before 【you】 got married.
+240 | One reason having a rival can enhance your venture’s performance is that it creates a level of excitement that drives 【you】 to work harder.
+241 | How are 【you】 today? [12] Do 【you】 have a reservation with us already?
+488 | Namely, they help 【you】 treat others better, by using the way 【you】 yourself would want to be treated as a guide of how to behave.
+353 | If 【you】 tried a
+127 | It’s best to gradually face your birthday with people 【you】 trust.
+359 | W: Well, if 【you】 trust him, then, I guess it should be OK.
+425 | Do 【you】 typically spend that much on a pair of casual trousers?
+524 | M: (15-1) Not if 【you】 use a ride sharing app.
+88 | So if 【you】 use a ton of social media, do 【you】 become unable, or unwilling, to engage in face-to-face contact?
+395 | Think about it: what’s something 【you】’ve always wanted to do, but gave up
+315 | I’ve never done it before and I know that 【you】’ve been doing it for ages.
+609 | At the same time, your name is associated with the identity 【you】’ve built up and hyphenation allows 【you】 to respect that while also respecting tradition and your husband’s family’s identity.
+599 | Right, 【you】’ve convinced me.
+121 | If 【you】’ve ever looked at the ingredients list while grocery shopping, chances are 【you】’ve seen the term “natural flavors”.
+459 | But 【you】’ve given me a thought.
+271 | Maybe the bank canceled my old one before 【you】’ve made the payment.
+347 | Look, 【you】’ve only been working for five months now.
+94 | And once 【you】’ve reached it, congratulations: 【you】've made it; 【you】're a successful human being of the 21st
+630 | Don’t go for a colour because it’s in fashion, or 【you】’ve seen it in a magazine.
+555 | 【You】’ve spent your whole life building your identity under a certain name.
+486 | W: Thank 【you】 very much.
+521 | When 【you】 visit the grocery store, 【you】 might draw conclusions about the cashier who checks 【you】 out.
+452 | E) First of all, know what 【you】 want.
+380 | What size do 【you】 want and how much are they?
+548 | What do 【you】 want, fried chicken, hamburgers, or fish and chips?
+104 | situations with clear guidelines and ideas of what 【you】 want from the ___35___ of options, which can narrow the possible
+187 | “High quality chocolate will be less available in the future, and if 【you】 want it, 【you】’ll have to pay a lot more for it,” Jarvis says.
+304 | We hear sayings like “dress for the job 【you】 want, not the job 【you】 have”.
+453 | For example, if 【you】 want people to treat 【you】 with respect, 【you】 should treat them with respect.
+202 | overrated, and if 【you】 want real success, what 【you】 need is grit the perfect combination of passion and persistence.
+302 | If 【you】 want that new job, 【you】 have to learn the
+464 | "If 【you】 want the good stuff, the quality, 【you】 have to see it for yourself," he said.
+438 | For example, let’s say 【you】 want to
+495 | This is problematic because it hinders your ability to adapt to new circumstances, which is vital if 【you】 want to be a successful entrepreneur.
+285 | M: But asking “What do 【you】 want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations and a high chance of disappointment.
+340 | Decisions are not about making the choice and braving the consequences because 【you】 want to blindly trust your instincts.
+132 | M: So blue light is harmful and that’s why 【you】 want to block it.
+595 | If 【you】 want to build a new spaceship, the raw material has to be mined by another player.
+224 | So if 【you】 want to know for certain what 【you】’re getting with your groceries, 【you】 might want to stick to the farmer’s market.
+256 | But I’m not sure why 【you】 want to leave campus and go through all that trouble when the cost is the same.
+248 | of your emotional state is essential in order to determine the changes 【you】 want to make in your work and in your life,” says
+96 | For all the innovation and choice that define the food and drink industries, if 【you】 want to make money, 【you】 could do a lot
+335 | "【You】 want to play in a circle," Victor Fong, aged 24, told his students at the New York Chinese Freemasons Athletic Club.
+545 | 【you】 want to reduce boredom and increase your sense of meaning, seek work where 【you】 can make a unique
+559 | But for as long as 【you】 want to stay safe, and for as long as 【you】 are content with where your business is right now, 【you】 will never find out.
+573 | But back then, if 【you】 were a
+251 | I also believe 【you】 were a beach volleyball athlete yourself not so long ago.
+585 | Can the date 【you】 were born affect how successful your life is?
+513 | If 【you】 weren't changing companies every
+267 | provider I use asks 【you】 what 【you】 think of the course after 【you】've only completed Ŧ 2 per cent of it.
+175 | Schools will charge 【you】 whatever they can.
+435 | are more likely to agree with 【you】 when they succeed alongside 【you】.
+358 | At the end of each conversation, 【you】 will
+472 | accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if 【you】 will.
+467 | Lao Zi once said, “Care about what other people think and 【you】 will always be their prisoner.
+343 | the correct habits are in place, 【you】 will automatically perform those tasks on a day-to-day basis.
+129 | 【You】 will have 30 minutes for this task and should write at least 120 words but no more than 180 words.
+84 | 【You】 will have 30 minutes to write the essay.
+118 | 【You】 will have 30 minutes to write the report.
+432 | Remember that 【you】 will have to have all your certificates to hand when 【you】 are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+161 | At the end of each news report, 【you】 will hear
+268 | At the end of each conversation, 【you】 will hear four questions.
+109 | Directions: In this section, 【you】 will hear three news reports.
+314 | At the end of each passage, 【you】 will hear three or
+317 | At the end of each passage, 【you】 will hear three or four questions.
+512 | At the end of each passage , 【you】 will hear three or
+265 | Directions: In this section, 【you】 will hear three passages.
+480 | Directions: In this section , 【you】 will hear three passages.
+312 | Directions: In this section, 【you】 will hear two long conversations.
+141 | At the end of each news report, 【you】 will hear two or three
+166 | At the end of each news report, 【you】 will hear two or three questions.
+351 | Granted, 【you】 will not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major
+196 | 【You】 will probably never
+584 | Obviously 【you】 will still be 【you】 even if 【you】’ve taken on your husband’s last name and omitted yours entirely.
+117 | What can I help 【you】 with today?
+637 | Are 【you】 wondering, what do babies dream about?
+501 | However, if 【you】 work
+151 | We’ve been told all our lives that if 【you】 work hard, 【you】 too can succeed.
+503 | When they are convinced 【you】 work in their interests while sacrificing your own.
+279 | He writes, “Remind your superiors what 【you】 would be neglecting if 【you】 said ‘yes’ and force them to deal with the trade-off.
+376 | 【You】 would name yourself Kate Jones-Smith or Kate Smith-Jones.
+632 | Without any ambition, 【you】 wouldn't start your own business, set or achieve goals and get far in life.
+143 | thinking about your deadline in terms of days rather than months or years can help 【you】 wrap your mind around how close the
+565 | But I’ve seen your blog, and 【you】 write about houses that are as small as 20 square meters. [13] That’s not a realistic size for families.
+289 | W: [12] John, your book is getting a lot of attention, partly because 【you】 write that most people can retire by 40.

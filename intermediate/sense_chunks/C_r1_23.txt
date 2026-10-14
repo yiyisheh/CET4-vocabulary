@@ -1,0 +1,280 @@
+# 任务 C_r1_23：1 个词，264 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_23.labels.txt
+
+============================================================
+## 词：of    本段 264 句    模式：全标（每句都写）
+原释义：prep.…的; 属于; 由…组成的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. ……的（所属、关系、内容，如 the end of the day, the importance of）    B 样本 53    例：They were both 60 years of age.
+  1  prep. ……中的（部分、数量、种类，如 one of, a piece of, thousands of）    B 样本 18    例：Part of its dam wall collapsed.
+  2  prep. 关于，对（think of, afraid of, fond of）    B 样本 4    例：He is fond of luxury cat food.
+  3  prep. 由……制成，由……构成（made of）    B 样本 0
+  4  prep. （表示分离、原因）离，脱离，因（independent of, free of, die of）    B 样本 1    例：This is because other effects of red meat consumption could contribute to heart disease independent of cholesterol.
+  5  prep. （人名后）来自，住在（Vaclav Bursa, 15, of Florida）    B 样本 1    例：Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall.
+已标过的短语：ahead of（2）；on behalf of（1）；of course（1）；a number of（1）；make use of（1）；in the process of（1）；walks of life（1）；a variety of（1）
+口径说明（照此执行）：
+  - of 前后是名词的一般修饰/所属关系一律标 0（含 University of California、city of X 这类专名）；表数量、部分（one of、a piece of、part of、most of、a team of）标 1；形容词/动词后的 of（afraid of, fond of, think of, accuse of）标 2；a lot of / a number of / a variety of / of course / ahead of / on behalf of / make use of / in terms of / because of / instead of / out of 等按 P 标。
+句子：
+2487 | transformation project gone wrong, where swollen expectations have been popped and a long list 【of】
+2598 | However, after talking to my friends who felt the same, I quickly realised that it wasn’t my ignorance but the lack 【of】
+2696 | Some people are beginning to wonder whether opera and classical music are still relevant to the modern world 【of】
+2676 | What is the author’s idea 【of】 a financial education course?
+2560 | In the context 【of】 a global pandemic (大流行病), firms may want to provide additional support to employees by providing more frequent communication.
+2659 | What can we conclude about many female engineers from the statement 【of】 a mechanical engineer?
+2523 | What is the finding 【of】 a recent survey on employees who have a job reliant on IT support?
+2497 | Our knowledge about the pain 【of】 abandonment.
+2547 | This isn’t to say that all men engage in these behaviors—or that booking relatively late is a sign 【of】 abnormal behavior.
+2516 | It proves crucial in making others follow one's course 【of】 action.
+2575 | But some experts worried that such public speculation might lead people to believe that disagreement about the details meant a lack 【of】 adequate scientific consensus over the safety and efficiency 【of】 modern-day medicine.
+2617 | compared to the dreams 【of】 adults.
+2638 | What do some people think 【of】 aging adults?
+2654 | The overall trend is hitting Americans 【of】 all different levels 【of】 educational attainment, although the percentages vary by
+2482 | One city on the west coast 【of】 America has banned single-use bottles from its property and events.
+2663 | The share 【of】 Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018.
+2554 | the past 20 years, the share 【of】 Americans working in their 70s has risen from less than 10% to nearly 15%.
+2492 | It is likely that the “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard for the quality 【of】 an employee’s contribution to the organization.
+2683 | But with the release 【of】 Angela
+2705 | What does the passage say about people thinking 【of】 attaining success?
+2532 | Our early childhood fear 【of】 being deserted.
+2577 | To assess the impacts 【of】 being emotionally clever.
+2667 | They have reaped the benefits 【of】 being flexible.
+2723 | compositions have also been created solely for the purpose 【of】 being included in major motion pictures.
+2603 | They feel proud 【of】 being outstanding problem solver.
+2686 | They appear in the sleep 【of】 both adults and infants.
+2680 | They vary in different stages 【of】 brain development.
+2539 | Since your baby doesn’t dream at this stage 【of】 brain development, it’s safe to assume babies do not have nightmares,
+2666 | What does the author say can contribute to the improvement 【of】 brain function?
+2718 | According to a report by The Business Insider, in the University 【of】 California’s new bio-sciences building, tiny green
+2736 | What are scientists trying to do in the University 【of】 California’s new bio-sciences building?
+2698 | To reveal the secrets 【of】 children's dreams.
+2716 | the prices 【of】 chocolates skyrocketing.
+2706 | is currently being produced uses similar beats, harmonies, and melodies as those that were used in some 【of】 classical
+2733 | It contains elements similar to those in some masterpieces 【of】 classical music.
+2727 | What does the author think 【of】 classical music and opera in today’s world?
+2721 | Fans 【of】 classical music can also tell you that there are few types 【of】 music that are more expressive.
+2702 | The most major indicator 【of】 classical music’s importance in society today is the fact that much 【of】 the popular music that
+2537 | research into the impact 【of】 clothes on behavior now suggests that there may actually be a grain 【of】 truth in these sayings.
+2569 | symbolic meaning that we assign to different types 【of】 clothing.
+2662 | Different types 【of】 clothing convey different messages symbolically.
+2653 | Different types 【of】 clothing markedly reflect different personalities.
+2734 | They have benefited by raising prices 【of】 cocoa beans.
+2730 | The quality 【of】 cocoa beans would suffer greatly.
+2619 | The incredible harshness 【of】 cold weather.
+2549 | People may view it as both a means to convince others and an art 【of】 communication.
+2524 | This is where they conduct business, where a sense 【of】 community reinforces the culture
+2635 | Employers can also consider how to bundle different types 【of】 compensation to help employees cope with their unique situations.
+2672 | It determines the formation 【of】 connections in the brain.
+2501 | Claudio Sillero, a professor 【of】 conservation biology at Oxford University, told the newspaper that the new findings could
+2595 | 【Of】 course, that doesn't mean the brain isn't affected by the effects 【of】 time.    ?P:of course
+2578 | It provides refugees with a wide range 【of】 courses free 【of】 charge.    ?P:free of charge ?P:of course
+2606 | However, organizations also need to be honest with employees about the financial impact 【of】 COVID-19.
+2726 | They could calm people down a bit in times 【of】 crisis.
+2558 | What is the general understanding 【of】 curiosity?
+2493 | More research is needed to see how exactly the relation between emotional intelligence and stress would play out in women and in people 【of】 different ages and education levels.
+2483 | The concept has been applied to a wide range 【of】 disciplines,
+2675 | They have proved capable 【of】 doing almost anything.
+2703 | To solve the mystery 【of】 dreaming and brain growth.
+2664 | It is a sign 【of】 dreaming in adults and infants alike.
+2522 | that babies have tons 【of】 dreams.
+2485 | They tell patients to comply with the directions 【of】 drug manufacturers.
+2557 | other massive change, the gig economy will itself become an engine 【of】 economic and social
+2652 | Help remove pandas from the list 【of】 endangered species.
+2550 | Today, only 21% 【of】 engineering
+2640 | It boasted the largest number 【of】 engineering majors in 2000.
+2584 | They may cease to exist as a result 【of】 enjoying too good a life.    ?P:as a result of
+2555 | Nightmares stem from exposure to trauma ，an overactive imagination, and the normal stresses 【of】 everyday life.
+2656 | It is a collection 【of】 facts and established rules.
+2620 | If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set 【of】 facts in a textbook needs to be dismissed.
+2712 | We should stay persistent even in face 【of】 failures.
+2570 | In addition to people being healthier and living much longer, economists say that a combination 【of】 financial
+2668 | Ignorant 【of】 financial literature.
+2567 | their pearls 【of】 financial wisdom.
+2614 | Their chances 【of】 finding new mates have a lot to do with their habitat.
+2646 | It might add to the difficulty 【of】 getting research funds.
+2732 | What do we learn about the cacao farms in the crisis 【of】 global warming?
+2714 | Unfortunately, the crisis 【of】 global warming has already had a serious negative impact on cacao farms’ yields, leading to
+2590 | Gone are the days 【of】 going to a conference and debating scientific issues, and that’s good because those gatherings were not diverse enough and excluded many important voices.
+2687 | What quality in the employees would be 【of】 great importance in a remote work context?
+2583 | There are undoubtedly hundreds 【of】 great resources out there for those wishing to improve their financial literacy, but
+2701 | The real workings 【of】 grit are to have sustainable passion and continue to try.
+2507 | In some situations, the stakes are low and failure is a healthy part 【of】 growth.
+2724 | Relieve them 【of】 heart trouble.
+2650 | Not to think highly 【of】 her qualifications when promoted or given a pay raise.    ?P:think highly of
+2627 | throughout the whole 【of】 high school that would allow students to gradually expand their financial literacy, and would prevent
+2573 | What does the author use the example 【of】 his father· to illustrate?
+2546 | But it’s still early days and there are signs 【of】 hope.
+2543 | A recent debate published in The New York Times discussed the question 【of】 how quickly medicine should be developed and produced.
+2505 | little consideration 【of】 how those changes will impact the end user.
+2561 | To define different types 【of】 human feelings.
+2604 | The cost 【of】 humans’ curiosity to explore.
+2548 | Strengthen our power 【of】 imagination.
+2533 | It refers to the natural and instinctive power 【of】 influencing one’s coworkers.
+2669 | Show the complexity 【of】 interactions between humans and animals.
+2679 | lead to feelings 【of】 isolation and loneliness, particularly for men.
+2636 | Some people may take advantage 【of】 it and benefit themselves.    ?P:take advantage of
+2593 | It supplies refugees with a great variety 【of】 job opportunities.
+2691 | The number 【of】 jobs suitable for older people has increased in the private sector.
+2678 | By exerting an effect on our power 【of】 judgment.
+2490 | They find it hard to meet the expectations 【of】 kids’ parents.
+2641 | gradually accumulate bits and pieces 【of】 knowledge.
+2623 | Lack 【of】 language skills.
+2633 | The importance 【of】 learning from past failures.
+2658 | Imitating old dogs’ way 【of】 learning new tricks
+2622 | People who look at the dark side 【of】 life often feel depressed.
+2624 | attitude, but those who aren't as genetically gifted aren't necessarily out 【of】 luck.
+2626 | It has experienced the gradual weakening 【of】 male dominance.
+2616 | The decline 【of】 manufacturing and the increase in the number 【of】 people working
+2530 | Then there are the questions over the value 【of】 massive open online courses (MOOCs) themselves—both for refugees and for average learners.
+2610 | shows improved function and memory as well as a reduced risk 【of】 mental disease.
+2579 | Our analysis suggests early booking by women can translate into savings 【of】 $1 million a year for a large multinational company with 20,000 regular travelers.
+2615 | wear puts us in the right frame 【of】 mind to conduct business.    ?P:frame of mind
+2613 | financial education in our schooling system that is leaving high schoolers seriously behind in the modern world 【of】 money.
+2688 | Help them become familiar with the world 【of】 money.
+2682 | Render them confident and secure in terms 【of】 money management.    ?P:in terms of
+2563 | Companies spend significant sums 【of】 money on business travel.
+2651 | Giving young people the opportunity to become familiar with the world 【of】 money would provide them with a great
+2661 | Shed light on the conservation 【of】 most large meat-eating animals.
+2639 | To allow for the preferences 【of】 most people 【of】 today
+2660 | Barely capable 【of】 moving ahead.
+2743 | They are considered to be the most expressive type 【of】 music.
+2742 | There are few types 【of】 music for movie producers to choose from.
+2592 | What does the finding 【of】 Myriam Bechtoldt’s study indicate?
+2514 | We found that only the concept 【of】 “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+2621 | For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking 【of】 non-financial ways to reward employees, like unpaid time off or flexible work schedules.
+2484 | One expert claims that juicing wastes a lot 【of】 nutrients contained in fruits.    ?P:a lot of
+2506 | They are artists, writers, programmers, providers 【of】 office services and
+2630 | decisions 【of】 older Americans.
+2737 | To present the simplest definition 【of】 opera.
+2710 | A better example for the relevance 【of】 opera and classical music can be seen in the invention 【of】 the rock opera.
+2739 | To show the relevance 【of】 opera and classical music.
+2529 | People who are aware 【of】 others’ feelings may experience more stress.
+2649 | What is one thing that helps maintain the health 【of】 our brain even as it shrinks2
+2670 | How do the clothes we wear sway our evaluation 【of】 ourselves?
+2642 | Help discover new ways for the conservation 【of】 pandas.
+2536 | The most recent count 【of】 pandas found that there were more than 1,800 left in the wild, putting them on the list 【of】
+2628 | It applies to the preservation 【of】 pandas too.
+2689 | overrated, and if you want real success, what you need is grit the perfect combination 【of】 passion and persistence.
+2632 | What kind 【of】 people can contribute more to them.    ?P:kind of
+2631 | They heavily feature animals and other familiar sights, like images 【of】 people eating.
+2538 | Both scenarios are contributing to a big increase in the number 【of】 people in the US working into their 70s.
+2494 | It is hazardous to leave millions 【of】 people poor and vulnerable.
+2498 | A vast majority 【of】 people prefer
+2562 | In 2015, a joint study found 72% 【of】 people taking MOOCs saw career benefits afterward.
+2709 | They are burdened by their expectation 【of】 perfection.
+2576 | The purpose 【of】 performance evaluation is ultimately to determine how to reward employees for their work.
+2480 | In order to learn the art 【of】 persuasion at the workplace, you need to understand how to handle conflicts and reach
+2581 | What should people do to learn the art 【of】 persuasion at the workplace?
+2517 | Add to the great variety 【of】 plant species.
+2720 | manipulating the DNA 【of】 plants, this technology is already being used across the world to make plants tougher and cheaper.
+2500 | Manufacturing and shipping 【of】 plastic water bottles consume a tremendous amount 【of】 fossil fuels.
+2690 | With the rise 【of】 pop music, jazz, and electronic music, both opera and classical music started to fade away from the
+2594 | What did the researchers want to determine by testing a variety 【of】 possible explanations?    ?P:a variety of
+2692 | What is the aim 【of】 psychologist David Foulkes’ study?
+2545 | What was the purpose 【of】 psychologist Myriam Bechtoldt’s experiment?
+2580 | Raisman spied growth in damaged brain regions 【of】 rats through an electron microscope; their brains were forging new
+2731 | It can be seen as an indicator 【of】 refinement on classical music.
+2738 | Build rows 【of】 refrigerated greenhouses for research on cacao seedlings.
+2504 | Adults dream during REM (rapid eye movement) sleep and infants have loads 【of】 REM.
+2655 | What do scientists think 【of】 REM?
+2647 | What does the author say companies should do in the context 【of】 remote work?
+2502 | A lot 【of】 research has demonstrated that drinking fruit juice does not reduce our daily consumption 【of】 other foods.    ?P:a lot of
+2564 | body 【of】 research suggests that late-in-life learning is possible.
+2552 | They are losing habitat due to the building 【of】 roads and houses.
+2719 | been parts 【of】 rock operas.
+2634 | With the validity 【of】 science coming under attack, there’s a need for scientific debates to be perceived as open and true to life.
+2527 | If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process 【of】 scientific discourse more clearly—then this is good for everyone, including scientists.
+2693 | To evaluate their employees 【of】 similar rank in a consistent way.
+2586 | considerations such as years 【of】 slow rise in real wages and a shift away from traditional pensions in the private sector are
+2499 | It has been popularized worldwide with the increasing influence 【of】 social media.
+2618 | Who is capable 【of】 solving problems with ease.
+2535 | Diving headfirst into the crash course 【of】 starting university, I’ve quickly tried to get myself up to speed with the financial
+2495 | The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary 【of】 state for educational and cultural affairs, said on a press call last week.
+2607 | What do we learn about emotional intelligence from a number 【of】 studies?    ?P:a number of
+2489 | Hundreds 【of】 studies show that infants prefer novelty.
+2684 | By influencing our interpretation 【of】 symbolic messages.
+2486 | It takes advantage 【of】 teenagers’ natural inclination.    ?P:take advantage of
+2713 | The art 【of】 telling a story using music has not faded in the least
+2553 | Science says that the clothes we wear affect our behavior, our mood and even the way we interact with others because 【of】 the    ?P:because of
+2542 | For instance, the Inuit people 【of】 the Arctic regions have created incredible modes to deal with the challenges 【of】 living in northern climates, but what we forget about are the tens 【of】 thousands 【of】 people that tried and failed to make it in those challenging landscapes.
+2513 | For another, most 【of】 the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.
+2503 | To guarantee the maximum effect 【of】 the drugs.
+2556 | Draw up a list 【of】 the efficiencies to be promised.
+2541 | and values 【of】 the gig economy (-* .:c. *") , and where success is rewarded with good reviews that
+2608 | What does the passage say is a consequence 【of】 the global migrant crisis?
+2566 | one 【of】 the groups.
+2491 | In the age 【of】 the internet, there’s no such thing as a private debate.
+2589 | What does the example 【of】 the Inuit people 【of】 the Arctic regions illustrate?
+2645 | REM sleep, 25% 【of】 the kids in Foulkes’ studies had no recollection 【of】 dreaming, a trend that continues through age 9.
+2637 | They benefited most 【of】 the learners.
+2611 | When they become aware 【of】 the meaningful relationships you keep with them.
+2551 | terms 【of】 the modern era to help manage my personal finances.
+2511 | What is the finding 【of】 the new study?
+2715 | In fact, sometimes actual orchestras are used for major parts 【of】 the opera itself.
+2699 | What is the author’s suggestion to employers who experience the financial impact 【of】 the pandemic?
+2512 | What message does the author try to convey at the end 【of】 the passage?
+2521 | What does the author suggest near the end 【of】 the passage?
+2729 | What do we learn about much 【of】 the popular music currently produced?
+2596 | When they become aware 【of】 the potential strength 【of】 the judgements you make.
+2559 | Issues such as safety 【of】 the product and perception 【of】 the public were examined and considered.
+2510 | This means that work should be measured in terms 【of】 the quality 【of】 the work, not just the quality 【of】 the process.    ?P:in terms of
+2685 | What is one 【of】 the reasons for people to delay retirement?
+2601 | some 【of】 the reasons people delay retirement.
+2735 | Why does the author mention the invention 【of】 the rock opera?
+2481 | It is still impacted by the hit songs 【of】 the 1950s.
+2722 | Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA 【of】 the seedlings to make
+2674 | What is the finding 【of】 the 2012 study in the journal Psychology and Aging?
+2526 | What do the authors 【of】 the study recommend to bridge the gender gap in early childhood education?
+2625 | To convince employees 【of】 the value 【of】 collaboration.
+2585 | We also evaluate ourselves based on what we are wearing because 【of】 the way they make us feel.    ?P:because of
+2643 | business casuals on a Friday, since colleagues are most likely to take out time to socialize on the last work day 【of】 the week.
+2515 | Our understanding 【of】 the workings 【of】 the world.
+2704 | Now, fifty percent 【of】 the world’s cocoa beans come from two countries in West Africa: Cote d’Ivoire and Ghana.
+2717 | Some 【of】 the world’s greatest hits have
+2588 | How long people took to reach the top 【of】 their career.
+2597 | Many women engineers hailed the benefits 【of】 their chosen career.
+2673 | The quality 【of】 their contribution.
+2540 | Consider the various expectations 【of】 their customers.
+2707 | They have trouble recollecting the images 【of】 their dreams.
+2587 | David Foulkes studies children (from very small kids to teens) to bring the secrets 【of】 their dreams to the light 【of】 day.
+2568 | They may not adapt to the fragmentation 【of】 their habitat.
+2599 | The increased panda population is attributed to the fragmentation 【of】 their habitat.
+2518 | More people have taken to bottled water because 【of】 their health awareness.    ?P:because of
+2565 | They enable employees to be convinced 【of】 their long-term gains.
+2657 | The quantity 【of】 their output.
+2488 | Working at home or in cafes, starting businesses 【of】 their own, and even launching business ventures
+2519 | “It may well be that the messy nature 【of】 their relationship with human efforts induces more animals to scatter or
+2681 | The flexibility 【of】 their work schedules.
+2665 | The length 【of】 their work time.
+2582 | more 【of】 them.
+2695 | job skills, then the interview skills, then the dress part — and you must be perfect at all 【of】 them.
+2508 | Many 【of】 them feel prejudiced against socially and culturally.
+2708 | Scientists believe that both 【of】 these countries will experience a 3.8F temperature increase by 2050 due to global warming,
+2496 | None 【of】 these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.
+2531 | The surveys showed men tend to exhibit more 【of】 these negative behaviors than women.
+2574 | They determine people’s way 【of】 thinking.
+2700 | scientists made the statement about the death 【of】 this wonderful thing, let us tell you the facts.
+2671 | those with a high school degree or less, the proportion 【of】 those working in their 70s had risen to around 10%, while those
+2544 | Much has been written about the importance 【of】 timely feedback.
+2525 | A study 【of】 12- to 19-month-olds learning how to walk documented that these children fell down a lot.
+2740 | Transplant the genes 【of】 tougher plants to cacao seedlings.
+2572 | Assess the swollen cost 【of】 training the employees.
+2694 | They comfort us in times 【of】 trouble, calming down
+2571 | The general consensus is that they start dreaming around the age 【of】 two.
+2509 | When debates in any sector move beyond the halls 【of】 universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+2520 | But most 【of】 us have conflicting feelings about dressing
+2677 | But what about those 【of】 us who don’t
+2741 | To justify the necessity 【of】 using orchestras in opera.
+2602 | Dreams 【of】 very small kids are usually just snapshots , looking much more like a slideshow than a movie, when
+2697 | The rate 【of】 wage increase in terms 【of】 purchasing power has slowed down for years.    ?P:in terms of
+2609 | It proves to be counterproductive in a number 【of】 ways.    ?P:a number of
+2629 | These findings support the idea 【of】 wearing
+2600 | means that the experience 【of】 wearing something affects our attitudes and our choice 【of】 behavior.
+2725 | Classical music and opera are the very foundation 【of】 what our modern music is based upon.
+2612 | also satisfying to see the effects 【of】 what you have done.
+2605 | These days, the public can access debates about science regardless 【of】 where they take place.    ?P:regardless of
+2711 | which are the natural habitat 【of】 wildlife.
+2728 | The natural habitat 【of】 wildlife there would be ruined.
+2534 | In 1970, the percentage 【of】 women majoring in engineering was less than 1%.
+2528 | As remote work is largely unobservable to supervisors, employers need to think about how they can objectively measure the quality 【of】 work in a way that is consistent for employees 【of】 similar rank.
+2644 | “Which matters more depends on what your history up until that point has been in the type 【of】 work you’re doing,”
+2591 | This means that pay structures need to adapt to the reality 【of】 working from home.
+2648 | Rid themselves 【of】 worries over worldly affairs.

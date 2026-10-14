@@ -1,0 +1,205 @@
+# 任务 C_r1_48：1 个词，182 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_48.labels.txt
+
+============================================================
+## 词：on    本段 182 句    模式：全标（每句都写）
+原释义：prep.在…上; 关于. adv.向前; 继续.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在…上（接触表面）    B 样本 6    例：the corresponding letter on Answer Sheet 1 with a single line through the centre.
+  1  prep. 关于，论及    B 样本 23    例：A few years ago I found myself teaching a university class on evil.
+  2  prep. 在（某天、某日期）    B 样本 4    例：The World Pipe Band Championships will take place in Glasgow on Saturday.
+  3  prep. 对…（产生作用），对于（effect on 对…的影响）    B 样本 5    例：It studied the effects of exercise on sleep.
+  4  prep. 依靠，根据，以…为基础（rely on, based on）    B 样本 9    例：performance on a five-star scale.
+  5  prep. 在（电视、网站、社交媒体等）上，通过（媒介、设备）    B 样本 10    例：Make a specific note on the company’s system.
+  6  prep. 乘（车、船、飞机），在（交通工具）上    B 样本 4    例：Nine tons of gold on plane AN-12 belonged to a goldmine company.
+  7  prep. 在（街道、校园、地球等某处）    B 样本 4    例：The tour saw him control a robot on earth remotely from orbit.
+  8  prep. 处于…状态或过程中（on the decline 在下降；on a trip 在旅途中）    B 样本 3    例：It has been on the decline.
+  9  prep. （作为成员）在（某团体）中    B 样本 1    例：The City of Fayetteville is making a special effort to recognize its bus drivers ahead of the newly proclaimed Transit Driver Appreciation Day happening Saturday. [1] As part of the event, the city is celebrating its longest-serving driver on the force.
+  10  prep. 一…就（on arrival 一到达就）    B 样本 1    例：Some countries offer visas on arrival.
+  11  adv. 继续，向前    B 样本 0
+  12  adv. 穿上，戴上；（电器等）开着    B 样本 0
+已标过的短语：put on（2）；hold on to（1）；on board（1）；work on（1）；on behalf of（1）；call on（1）；descend on（1）；on average（1）；be on good terms with（1）
+口径说明（照此执行）：
+  - 「根据，以…为基础」按 n 加权居首，几乎全靠题干「Questions 1 and 2 are based on…」（n=31/30）；其次是题干「mark the letter on Answer Sheet 1」（n=27）。全量统计后首要义项建议人工确认。descend on（72，涌向）、work on（61，维修）标成 P，可能被判为普通搭配。
+句子：
+759 | the correct habits are in place, you will automatically perform those tasks 【on】 a day-to-day basis.
+800 | Practising it 【on】 a day-to-day basis.
+685 | business casuals 【on】 a Friday, since colleagues are most likely to take out time to socialize 【on】 the last work day of the week.
+810 | It will drive technological progress 【on】 a global scale.
+819 | 【on】 a limited budget.
+686 | Trying to look like the magazine pictures can take us 【on】 a long ride away from what beauty
+726 | For one, starting 【on】 a new career path is not as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely 【on】 an online lecture to get them up-to-date 【on】 standards, policies, and practices.
+727 | Now they can dictate notes 【on】 a patient's health condition and treatment and a smart assistant automatically enters the information into the right fields 【on】 a web form.
+699 | The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said 【on】 a press call last week.
+808 | For example, tests for traits that depend 【on】 a single gene provide much
+729 | The divorce rate in the county has been 【on】 a steady rise.
+798 | Draw 【on】 a vast wealth of past experience.
+700 | This enables them to spend less time 【on】 administration and more time with patients.
+782 | stated, “Young women engineers are 【on】 an equal footing until they have children, then they struggle to balance work and
+744 | Answer the questions by marking the corresponding letter 【on】 Answer Sheet 2.
+861 | should write your answer 【on】 Answer Sheet 2.
+718 | letter for each item 【on】 Answer Sheet 2 with a single line through the centre.
+733 | letter 【on】 Answer Sheet 2 with a single line through the centre.
+842 | best choice and mark the corresponding letter 【on】 Answer Sheet 2 with a single line through the centre.
+786 | who stay 【on】 are more likely doing so for financial reasons.    ?P:stay on
+689 | Those with lower incomes: 0.9 programs 【on】 average.    ?P:on average
+796 | investigation allowed us to conclude that this gap is largely explained by the fact that women tended to book earlier than men, 1.8 days 【on】 average.    ?P:on average
+711 | 【On】 average, English    ?P:on average
+776 | We found that women paid 【on】 average $18 less per ticket than their male colleagues.    ?P:on average
+764 | It sees lots of personal income wasted 【on】 beauty products.
+704 | N) In May, the American Civil Liberties Union (ACLU) and Outten & Golden LLP announced a historic class-action $5m settlement with JPMorgan Chase 【on】 behalf of male employees who claim they were illegally denied access to paid parental leave.    ?P:on behalf of
+829 | Companies spend significant sums of money 【on】 business travel.
+821 | Unfortunately, the crisis of global warming has already had a serious negative impact 【on】 cacao farms’ yields, leading to
+833 | Build rows of refrigerated greenhouses for research 【on】 cacao seedlings.
+793 | Training of real-life skills 【on】 campus.
+822 | It can be seen as an indicator of refinement 【on】 classical music.
+763 | Focus 【on】 clothing.
+682 | vegetables 【on】 common land in Southern England.
+749 | However, they fail to provide a genuine education with an emphasis 【on】 convenience rather than critical thinking.
+752 | For another, most of the classes 【on】 Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.
+705 | It is important to keep in mind that personal space varies depending 【on】 culture and context.
+716 | It has placed much more emphasis 【on】 cure than 【on】 prevention.
+701 | They apply corporate black magic to the goods 【on】 display.
+760 | To loosen restrictions 【on】 dress codes.
+813 | For organizations that have struggled to keep the lights 【on】 due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.    ?P:keep the lights on
+772 | They are based 【on】 easily accessible material.
+694 | Some five years ago, high school seniors in America generally spent more than six hours a day 【on】 electronic devices.
+728 | While some children visit summer camps, most stay at home, watching TV or playing games 【on】 electronic devices, which hardly benefits them.
+827 | Reexamine its effects 【on】 employees’ behaviors.
+857 | What is the finding of a recent survey 【on】 employees who have a job reliant 【on】 IT support?
+781 | Employers place a great value 【on】 employees with persuasion skills because they can impact several aspects of job
+708 | Research found that, as regards achievement of one’s goals, it is important to focus more 【on】 enjoying the process than the
+721 | Unless employers are fully compensated, this could become a variant of parasitic (寄生的) capitalism, whereby corporate profits increasingly rely 【on】 extracting value from the public—and now personal—realm, rather than 【on】 generating new value.
+709 | But the greatest strength of this book (【on】 fashion!) is its intellectual profoundness.
+803 | They were as keen as he was 【on】 financial matters.
+783 | He needs a crash course 【on】 financial terms.
+811 | What often goes unnoticed in surveys 【on】 food conswnption?
+703 | A number of existing farming technologies could be used to reduce the negative effect of climate change 【on】 food production.
+712 | Americans can rely 【on】 food supplements to prevent protein deficiency.
+745 | They depend 【on】 funding from the food industries.
+724 | Teachers must stay 【on】 guard when it comes to what their students are doing in classrooms and how technology could be playing a negative role in the learning process.    ?P:stay on
+730 | In other words, the more we believe that one has the opportunity for success based 【on】 hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.
+809 | F) Given all that's riding 【on】 having a successful ninth grade experience, it pays to explore what can be
+789 | This is based 【on】 higher earnings and avoided costs in
+720 | Reflect 【on】 how they relate to others.
+835 | Height, for example, depends 【on】 hundreds of
+767 | you are taking a DNA test to build your extended DNA family tree, or want precise information 【on】 inborn health
+743 | this is what we believed in,” stated Humm 【on】 Instagram.
+817 | Rely 【on】 instincts in decision-making.
+732 | In the decision-making process, relying 【on】 instincts only makes sense when you have a vast experience to support you.
+799 | We learn about who we are and what is expected of us based 【on】 interactions with others so, to a four-year-old, if Mommy or
+735 | By examining the restraints imposed 【on】 it.
+858 | Most employees rely heavily 【on】 IT in their work.
+856 | According to a recent survey, employees who have a job reliant 【on】 IT support consider IT a major
+837 | Reflect 【on】 its differences from working in the office.
+734 | 43 People ate more of a healthy food when they focused 【on】 its good taste instead of its long-term benefits.
+695 | Clues about the culture of a company can be found 【on】 its website.
+859 | Employees become more dependent 【on】 machines.
+714 | We may develop a habit of being so focused 【on】 maintaining a
+802 | Disqualified 【on】 many levels.
+761 | Another civil engineer stated, “【On】 many levels, you’re never quite
+747 | That depends 【on】 many things, but for purposes of illustration, I have run some estimates for Montreal.
+851 | What do we learn from the conclusion of a recent study 【on】 multitasking?
+815 | Prior research 【on】 negative reciprocity among workers found that it can result in lower employee motivation, business performance and workplace morale (士气) and culture.
+838 | What did prior research 【on】 negative reciprocity among workers find?
+849 | Research about aging adults who take 【on】 new enterprises    ?P:take on
+722 | Lay emphasis 【on】 nonverbal communication.
+769 | It simply focuses 【on】 nutrition and health.
+828 | Focusing determinedly 【on】 one particular goal.
+795 | One major side effect of excessive ambition is the tendency to focus too determinedly 【on】 one particular vision or end goal.
+770 | For policy, we need to focus 【on】 options that make it easy for people to eat fewer calories.
+831 | What will happen if we base our self-worth 【on】 other people’s approval?
+758 | liked, and caring about the effect we have 【on】 others, is healthy and allows us to make connections.
+779 | This need to be liked can be traced back to when we were children and were completely dependent 【on】 others to take care
+840 | Base our worth 【on】 others' opinions.
+834 | It cannot outcompete classical music and opera in its impact 【on】 our current society.
+804 | they have had 【on】 our current society, it is without doubt that we can expect them to continue to remain important for centuries
+715 | It has a considerable impact 【on】 our health.
+762 | the need for a ‘catch up’ phase once we’re out 【on】 our own after graduation.    ?P:on one's own
+713 | By exerting an effect 【on】 our power of judgment.
+777 | But when you’re intently focused 【on】 outperforming your rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore how you achieve success.
+773 | Focusing 【on】 output alone can have unintended consequences.
+731 | A number of lawsuits have pressured companies to formulate gender neutral policies 【on】 parental leave.
+697 | Researchers have looked at the influence of being left-handed 【on】 performance and interactive sports.
+740 | While our initial attraction may be based in part 【on】 physical chemistry, it is the meeting of our inner worlds that creates
+771 | To show the impact of remote working 【on】 productivity.    ?P:work on
+751 | Designing education programs and initiatives 【on】 public health.
+765 | Martin Neil Baily, an economist who is leading a research project 【on】 retirement security, notes that quitting a career can
+812 | Recent open debates 【on】 scientific research, health, and policy have aroused greater public attention and encouraged more diverse voices.
+826 | Remind people to cut down 【on】 snacking.    ?P:cut down on
+784 | subtle and just shows the impact symphonic orchestras have had 【on】 society’s taste in music.
+855 | What does the author imply we should do if we have to focus 【on】 some task and do it well?
+850 | Focusing 【on】 STEM skills is important, but the reality is that SIBM skills are enhanced and more
+780 | 【on】 sticking to those small positive habits one day at a time, it becomes easier to stay strong and achieve that delayed reward.
+794 | This allows managers to both keep an eye 【on】 struggling employees and provide ongoing feedback 【on】 how employees are adapting to their new work environment.    ?P:keep an eye on
+725 | A greater emphasis 【on】 studying the cause of obesity and chronic diseases.
+719 | Most of them are based 【on】 systematic reviews.
+688 | It has shed light 【on】 teens’ instinct for rebellion and autonomy.    ?P:shed light on
+836 | You should decide 【on】 the
+766 | They were based 【on】 the assumption that motivation was the only key.
+742 | They focused 【on】 the benefits young people would reap in the future.
+707 | You should decide 【on】 the best choice and mark the corresponding
+736 | These pioneers reflected 【on】 the challenges they faced — and had advice for women entering the field today.
+746 | Questions 51 to 55 are based 【on】 the following passage.
+847 | Questions 46 to 50 are based 【on】 the following passage.
+854 | Questions 51 to SS are based 【on】 the following passage.
+680 | people ate 50% more of a healthy food when directed to focus 【on】 the good taste rather than the long-term health benefits.
+696 | There are no formulas written 【on】 the insides of hands or students looking across the aisle, or whispering answers to their classmates.
+774 | Make sure to purchase healthy foods 【on】 the internet.
+753 | Your hands are covered with oil; you're not going to get 【on】 the iPad, so it's a lot more natural to talk.
+823 | processed meatless substitutes 【on】 the market today.    ?P:on the market
+738 | What should people take into consideration in deciding 【on】 the most preferable protein intake?
+818 | If we base our worth 【on】 the opinions of others, we cheat ourselves of the power to shape our experiences and embrace
+757 | 【On】 the other hand, there is a more rational approach to making decisions.    ?P:on the other hand
+844 | However, 【on】 the other side of the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.
+690 | Questions 22 to 25 are based 【on】 the passage you have just heard.
+785 | It places a high value 【on】 the physical fitness of stars.
+801 | Besides, teamwork and leadership rely heavily 【on】 the power of persuasion to get things done.
+684 | bar or drink, we also risk missing out 【on】 the rich sources of antioxidants , vitamins and many other benefits of
+691 | They conducted large-scale research 【on】 the role of sugar in people's health.
+737 | may not be the most popular subject, but it’s consistently 【on】 the schedule throughout high school, with all students graduating
+788 | How accurate DNA tests are relies greatly upon the kind of test being taken, 【on】 the specific question you ask, and 【on】
+846 | Those focusing 【on】 the specific questions being asked.
+825 | better performance 【on】 the speech and mental math tasks.
+687 | drug can differ depending 【on】 the time it is taken, it logically follows that taking medicines at specific times could help increase
+723 | Job applicants should read with a critical eye what is written about a company 【on】 the website.
+755 | Managers need to think twice about emailing their teams 【on】 the weekend and talking about how busy they are.
+683 | One city 【on】 the west coast of America has banned single-use bottles from its property and events.
+787 | depends 【on】 their age.
+739 | They may help people concentrate 【on】 their business.
+860 | Think about the possible effects 【on】 their employees.
+824 | find distant relatives based 【on】 their genetic identification.
+853 | People’s active mental processes exert a positive effect 【on】 their multitasking.
+790 | Ignore irrelevant information 【on】 their news feed.
+754 | It meets students' need to study 【on】 their own.    ?P:on one's own
+852 | By playing with things to solve problems 【on】 their own.    ?P:on one's own
+706 | People in business often make decisions based 【on】 their own personal feelings or instincts.    ?P:on one's own
+750 | They copy formulas 【on】 their palms.
+848 | A recent study concluded that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect 【on】 their performance.
+692 | Count the likes they get 【on】 their posts.
+791 | should be looking for new ways to ensure what people eat wouldn't have much impact 【on】 their waistlines.
+681 | placed 【on】 them.
+748 | Building 【on】 these findings, the latest research examined how a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.    ?P:build on
+702 | In the world's richest nation, homelessness 【on】 this scale should be shameful and shocking.
+843 | To keep a watchful eye 【on】 those employees who perform poorly.
+768 | preparatory coursework are very unlikely to graduate 【on】 time and go 【on】 to get jobs.    ?P:go on
+814 | Holding 【on】 to one's original vision.    ?P:hold on to
+693 | However, these savings result from passing costs 【on】 to workers.
+832 | To improve 【on】 traditional organizational structures
+806 | More and more people in the workplace find it hard to rely 【on】 traditional pensions.
+710 | local US regulations in a war 【on】 ugly spots in cities.
+845 | simple as taking a different route to the grocery store or going somewhere new 【on】 vacation can keep the brain healthy.
+775 | Some people believe online interaction would soon depend mainly 【on】 voice.
+698 | There is no consensus 【on】 what high-quality diets are.
+830 | Deliberate 【on】 what really matters.
+797 | One way to avoid this trap is to stop and reflect 【on】 what’s important.
+839 | Reflect 【on】 what successes are achievable.
+741 | “Which matters more depends 【on】 what your history up until that point has been in the type of work you’re doing,”
+778 | The only feasible option is to rely 【on】 what your instincts tell you.
+807 | To confirm the general consensus 【on】 when kids dream.
+816 | They may be intently focused 【on】 winning at the current market level.
+792 | What is the author’s opinion 【on】 working from home?
+841 | Tests that offer to find your perfect romantic match and those claiming to predict personality or talents based 【on】 your
+820 | Successful persuasion skills are based 【on】 your ability to have positive interactions and maintain meaningful relationships
+756 | Finding someone you’re committed to outcompeting can be a great way to stay focused 【on】 your goals and push your venture to the next level.
+805 | Plant-based meats are coming soon to a dinner table near you, but do they deserve a spot 【on】 your plate?
+717 | And courses 【on】 YouTube are free.

@@ -1,0 +1,1287 @@
+{
+ "mark": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "标记，做记号（如在答题卡上标出）"
+   },
+   {
+    "pos": "v.",
+    "zh": "批改，给…打分"
+   },
+   {
+    "pos": "n.",
+    "zh": "分数，成绩"
+   },
+   {
+    "pos": "n.",
+    "zh": "标记，痕迹"
+   },
+   {
+    "pos": "v.",
+    "zh": "标志着，纪念"
+   },
+   {
+    "pos": "n.",
+    "zh": "目标，靶子"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": "X",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "They are made convenient to mark.",
+   "zh": "它们被设计得便于批改。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "除第3句外全是答题说明（mark the corresponding letter），首要义项按规则取材料原文里唯一的批改义"
+ },
+ "choose": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "选择，挑选；（choose to do）选择做，决定做"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0,
+   "40": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "Choose one of the two types of cheese.",
+   "zh": "从两种奶酪中选一种。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "marked": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "标出，标有（mark 的过去式和过去分词）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "显著的，明显的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Each paragraph is marked with a letter.",
+   "zh": "每个段落都用一个字母标注。"
+  },
+  "form": "mark 的过去式和过去分词",
+  "irregular": false,
+  "note": "所有句子都是答题说明"
+ },
+ "centre": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "中心，中央"
+   },
+   {
+    "pos": "n.",
+    "zh": "（机构）中心"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "I’m going to the city centre to buy a new phone today.",
+   "zh": "我今天要去市中心买部新手机。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "following": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "下面的，接下来的，下一个的"
+   },
+   {
+    "pos": "prep.",
+    "zh": "在…之后（时间或位置）"
+   },
+   {
+    "pos": "v.",
+    "zh": "遵循，听从，按照…做"
+   },
+   {
+    "pos": "v.",
+    "zh": "跟随，跟在…后面，追踪"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 2,
+   "7": 0,
+   "8": 0,
+   "9": 2,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 2,
+   "14": 1,
+   "15": 1,
+   "16": 0,
+   "17": 3,
+   "18": 3,
+   "19": 2,
+   "20": 1,
+   "21": 2,
+   "22": 2,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 1,
+   "27": 1,
+   "28": 3,
+   "29": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "It is found that people are more creative following the completion of a tedious task.",
+   "zh": "研究发现，人们在完成一项乏味的任务之后会更有创造力。"
+  },
+  "form": "follow 的现在分词",
+  "irregular": false,
+  "note": "17句 following the diets and diabetes status（追踪）标为跟随，较拿不准"
+ },
+ "bank": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "银行"
+   },
+   {
+    "pos": "n.",
+    "zh": "库（如词库、题库）"
+   },
+   {
+    "pos": "n.",
+    "zh": "河岸"
+   },
+   {
+    "pos": "v.",
+    "zh": "把（钱）存入银行"
+   },
+   {
+    "pos": "v.",
+    "zh": "（飞机）倾斜飞行"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 1,
+   "16": 0,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 1,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "I need to stop at the bank to withdraw some cash.",
+   "zh": "我需要在银行停一下取点现金。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "read": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "阅读，读；识字"
+   },
+   {
+    "pos": "v.",
+    "zh": "朗读，读给…听（read aloud / read to sb）"
+   },
+   {
+    "pos": "v.",
+    "zh": "理解，解读"
+   },
+   {
+    "pos": "v.",
+    "zh": "（信件、告示等）写着，内容是"
+   }
+  ],
+  "labels": {
+   "0": "P:read through",
+   "1": 0,
+   "2": 0,
+   "3": "P:read through",
+   "4": 0,
+   "5": 0,
+   "6": "P:read through",
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 3,
+   "21": 0,
+   "22": 1,
+   "23": 1,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0,
+   "40": 0,
+   "41": 0,
+   "42": 1,
+   "43": 0,
+   "44": 0,
+   "45": 0,
+   "46": 0,
+   "47": 1,
+   "48": 0,
+   "49": 0,
+   "50": 1,
+   "51": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "He has got some books to read.",
+   "zh": "他有一些书要读。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "given": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "给，给予，授予（give 的过去分词）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "考虑到，鉴于（given that…）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "规定的，特定的，某一个"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 2,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": "P:give up",
+   "14": "P:give away",
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 1,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 2,
+   "25": 0,
+   "26": 1,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 2,
+   "35": 0,
+   "36": 0,
+   "37": 2,
+   "38": 1,
+   "39": 0,
+   "40": 1,
+   "41": 0,
+   "42": 1,
+   "43": "P:give birth",
+   "44": 0,
+   "45": "P:give way to",
+   "46": 1,
+   "47": 0,
+   "48": 0
+  },
+  "example": {
+   "id": 32,
+   "en": "The baby hasn’t been given a name yet.",
+   "zh": "这个宝宝还没有取名字。"
+  },
+  "form": "give 的过去分词",
+  "irregular": true,
+  "note": ""
+ },
+ "write": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "写，撰写，书写"
+   },
+   {
+    "pos": "v.",
+    "zh": "（作者在文中）写道，著述"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 1,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0,
+   "40": 0,
+   "41": 0,
+   "42": 0,
+   "43": 0,
+   "44": 1,
+   "45": "P:write off",
+   "46": 0,
+   "47": 0,
+   "48": 0,
+   "49": 0,
+   "50": 0,
+   "51": 0,
+   "52": 0,
+   "53": 1,
+   "54": 0,
+   "55": 0,
+   "56": "P:write down",
+   "57": 0,
+   "58": 0,
+   "59": 1,
+   "60": 0,
+   "61": 1,
+   "62": 0
+  },
+  "example": {
+   "id": 51,
+   "en": "Let’s say your goal is to write a book.",
+   "zh": "假设你的目标是写一本书。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "comprehension": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "理解，理解力"
+   },
+   {
+    "pos": "n.",
+    "zh": "理解练习，理解测试（Listening / Reading Comprehension）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": "X",
+   "2": 1,
+   "3": "X",
+   "4": "X",
+   "5": 1
+  },
+  "example": {
+   "id": 0,
+   "en": "Part II Listening Comprehension",
+   "zh": "第二部分 听力理解"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "句子全是试卷栏目标题；1、3、4句是文档说明性的中文占位，标X"
+ },
+ "choice": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "选择（做选择的行为或结果，如 a good choice）"
+   },
+   {
+    "pos": "n.",
+    "zh": "选项（备选答案）"
+   },
+   {
+    "pos": "n.",
+    "zh": "选择的余地，多种选择"
+   },
+   {
+    "pos": "adj.",
+    "zh": "精选的，上等的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 2,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 2,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 2,
+   "19": 0,
+   "20": 0,
+   "21": 2,
+   "22": 1,
+   "23": [
+    0,
+    1
+   ],
+   "24": 0,
+   "25": 0,
+   "26": 1,
+   "27": 2,
+   "28": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "It is a good choice for children.",
+   "zh": "这对孩子来说是个不错的选择。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "word": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "单词，词"
+   },
+   {
+    "pos": "n.",
+    "zh": "话语，言语（the spoken / written word）"
+   },
+   {
+    "pos": "n.",
+    "zh": "诺言，信用（one’s word）"
+   },
+   {
+    "pos": "n.",
+    "zh": "消息，音讯"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 2,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 0,
+   "18": 1
+  },
+  "example": {
+   "id": 17,
+   "en": "The researchers tested the participants’ creativity by asking them to play a word game.",
+   "zh": "研究人员让参与者玩文字游戏来测试他们的创造力。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "reading": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "阅读，读书"
+   },
+   {
+    "pos": "v.",
+    "zh": "读（read 的现在分词）"
+   },
+   {
+    "pos": "n.",
+    "zh": "读物，阅读材料"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": "P:read through",
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 2,
+   "26": 2,
+   "27": 0,
+   "28": 1,
+   "29": 1,
+   "30": 1,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0,
+   "40": 1,
+   "41": 1
+  },
+  "example": {
+   "id": 2,
+   "en": "Reading is a habit every child can develop.",
+   "zh": "阅读是每个孩子都能养成的习惯。"
+  },
+  "form": "read 的现在分词",
+  "irregular": false,
+  "note": "名词（动名词）与进行时分词的界线较模糊，如 spending time reading 标为分词"
+ },
+ "least": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "最不，最少（the least active）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "最小的，最少的"
+   },
+   {
+    "pos": "n.",
+    "zh": "最少，最小的事物"
+   }
+  ],
+  "labels": {
+   "0": "P:at least",
+   "1": "P:at least",
+   "2": "P:at least",
+   "3": "P:at least",
+   "4": "P:at least",
+   "5": "P:at least",
+   "6": "P:at least",
+   "7": "P:at least",
+   "8": 1,
+   "9": "P:at least",
+   "10": "P:at least",
+   "11": "P:at least",
+   "12": "P:at least",
+   "13": "P:at least",
+   "14": "P:at least",
+   "15": "P:at least",
+   "16": "P:at least",
+   "17": "P:at least",
+   "18": 0,
+   "19": "P:at least",
+   "20": "P:at least",
+   "21": "P:at least",
+   "22": "P:at least",
+   "23": "P:in the least",
+   "24": "P:at least",
+   "25": "P:at least",
+   "26": "P:at least",
+   "27": "P:at least",
+   "28": "P:at least",
+   "29": "P:at least",
+   "30": "P:at the very least",
+   "31": "P:at least",
+   "32": 2,
+   "33": "P:at least",
+   "34": 0,
+   "35": "P:at least",
+   "36": "P:at least",
+   "37": "P:at least",
+   "38": "P:at least",
+   "39": "P:at least",
+   "40": 0,
+   "41": "P:at least",
+   "42": "P:at least",
+   "43": 1,
+   "44": "P:at least",
+   "45": 0,
+   "46": "P:at least",
+   "47": 1
+  },
+  "example": {
+   "id": 40,
+   "en": "The people least interested in retraining are more likely to come from historically disadvantaged",
+   "zh": "对再培训最不感兴趣的人，更可能来自历史上处于劣势的社区。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "绝大多数是 at least；非短语句子里没有完整的短例句，例句句尾被截断"
+ },
+ "listening": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "听，倾听"
+   },
+   {
+    "pos": "n.",
+    "zh": "听力（Listening Comprehension）"
+   },
+   {
+    "pos": "v.",
+    "zh": "听（listen 的现在分词）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": "X",
+   "2": 1,
+   "3": "X",
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 2,
+   "9": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Learning and listening can help you think about things in a different way.",
+   "zh": "学习和倾听能帮助你以不同的方式思考问题。"
+  },
+  "form": "listen 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "statements": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "陈述，说法，声明"
+   },
+   {
+    "pos": "n.",
+    "zh": "报表，结算单"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "This understanding also holds true in the business world, where an organization’s stories, and the stories its leaders tell, help solidify relationships in a way that factual statements don’t.",
+   "zh": "这一点在商业世界同样成立：一个组织的故事和领导者讲的故事，能以单靠事实陈述做不到的方式巩固人际关系。"
+  },
+  "form": "statement 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "writing": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "写作，书写"
+   },
+   {
+    "pos": "n.",
+    "zh": "文字作品，文笔"
+   },
+   {
+    "pos": "v.",
+    "zh": "写（write 的现在分词）"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": "P:write off",
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 2,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": "P:write down",
+   "16": 0,
+   "17": 0,
+   "18": 1,
+   "19": 2,
+   "20": 0,
+   "21": 1,
+   "22": 0,
+   "23": 1
+  },
+  "example": {
+   "id": 22,
+   "en": "Students’ ability to learn formal writing is unlikely to be affected by texting.",
+   "zh": "学生学习规范写作的能力不太可能受到发短信的影响。"
+  },
+  "form": "write 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "please": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "请（礼貌用语）"
+   },
+   {
+    "pos": "v.",
+    "zh": "使高兴，使满意"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": "P:as one pleases",
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 1,
+   "20": 0,
+   "21": 1,
+   "22": 1
+  },
+  "example": {
+   "id": 9,
+   "en": "Next, please.",
+   "zh": "请下一位。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "list": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "清单，名单，列表"
+   },
+   {
+    "pos": "v.",
+    "zh": "列出，列举；把…列入名单"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "Help remove pandas from the list of endangered species.",
+   "zh": "帮助把大熊猫从濒危物种名单中移除。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "required": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "必需的，规定的"
+   },
+   {
+    "pos": "v.",
+    "zh": "要求，规定（be required to do 被要求做）"
+   },
+   {
+    "pos": "v.",
+    "zh": "需要"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3": 2,
+   "4": 1,
+   "5": 2,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1
+  },
+  "example": {
+   "id": 10,
+   "en": "They didn’t wear the shoes required by the school’s new policy.",
+   "zh": "他们没有穿学校新规定要求的鞋子。"
+  },
+  "form": "require 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "decide": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "决定，下决心（decide to do）"
+   },
+   {
+    "pos": "v.",
+    "zh": "选定，选择（decide on）"
+   },
+   {
+    "pos": "v.",
+    "zh": "判定，断定（decide whether / which）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 2,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 2,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "They decide to move to cooler mountainous areas.",
+   "zh": "它们决定搬到更凉爽的山区。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "carefully": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "仔细地，小心地"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "They had checked the plane carefully.",
+   "zh": "他们仔细检查过飞机。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "identified": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "认出，识别，确认身份（identify 的过去式和过去分词）"
+   },
+   {
+    "pos": "v.",
+    "zh": "查明，发现并指出"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 1
+  },
+  "example": {
+   "id": 2,
+   "en": "When the person who damages dorm facilities is not identified, students are required to share the cost.",
+   "zh": "如果无法确认损坏宿舍设施的人是谁，学生需要分摊费用。"
+  },
+  "form": "identify 的过去式和过去分词",
+  "irregular": false,
+  "note": "义项0与1的界线较模糊"
+ },
+ "item": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "物品，商品，食品"
+   },
+   {
+    "pos": "n.",
+    "zh": "项，条目（如答题卡上的题号）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Figuring out the positive properties of each food item.",
+   "zh": "弄清每种食物的有益特性。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "statement": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "陈述，说法（题目中的叙述）"
+   },
+   {
+    "pos": "n.",
+    "zh": "声明，言论"
+   },
+   {
+    "pos": "n.",
+    "zh": "报表，结算单"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "What can we conclude about many female engineers from the statement of a mechanical engineer?",
+   "zh": "从一位机械工程师的话中，我们能得出关于许多女工程师的什么结论？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "材料原文里只有声明义，其余都是答题说明"
+ },
+ "select": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "选择，挑选"
+   },
+   {
+    "pos": "adj.",
+    "zh": "精选的，优等的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "One way we can improve the effects of fruit juice on our health is making sure we select ripe",
+   "zh": "我们改善果汁对健康影响的一种办法，是确保挑选成熟的水果。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "例句被截断，仅此一句材料原文"
+ },
+ "blank": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "空格，空白处"
+   },
+   {
+    "pos": "adj.",
+    "zh": "空白的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "茫然的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "You are required to select one word for each blank from a list of choices given in a word bank following the passage.",
+   "zh": "你需要从文章后面词库给出的选项中，为每个空格选一个词。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "全部是答题说明"
+ }
+}

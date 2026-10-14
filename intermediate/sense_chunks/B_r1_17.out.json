@@ -1,0 +1,150 @@
+{
+  "did": {
+    "senses": [
+      {"pos": "aux.", "zh": "构成过去时的疑问句、否定句（Did you…? / did not）"},
+      {"pos": "v.", "zh": "做，干"},
+      {"pos": "aux.", "zh": "代替前文提到的动词，避免重复（than we did / so did I）"},
+      {"pos": "aux.", "zh": "用在动词原形前加强语气：确实，的确"},
+      {"pos": "v.", "zh": "表现，进展（did well / did better）"}
+    ],
+    "labels": {"0": 2, "1": 0, "2": 0, "3": 0, "4": 3, "5": 0, "6": 2, "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 4, "13": 3, "14": 4, "15": 0, "16": 0, "17": 2, "18": 0, "19": 0,
+               "20": 0, "21": 1, "22": 0, "23": 1, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 3,
+               "30": 1, "31": 0, "32": "P:do one's best", "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 3, "39": 3,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 4, "48": 0, "49": 0,
+               "50": 0, "51": 1, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 1, "58": 3, "59": 3,
+               "60": 0, "61": 0, "62": 3, "63": 2, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 1, "72": 0, "73": 2, "74": 3, "75": 0, "76": 0, "77": 2, "78": 0, "79": 3},
+    "example": {"id": 42, "en": "How did you meet her?", "zh": "你是怎么认识她的？"},
+    "form": "do 的过去式",
+    "irregular": true,
+    "note": "口径：疑问句/否定句里的 did 标 0（即使句中另有 do 作实义动词，如 What did they do 也只标 0）；肯定句里 did + 动词原形 标 3（强调）；than/as/so did、Of course you did 这类替代前文动词的标 2；did well/better、how well they did 标 4；did a study / did it / what I did 等实义「做」标 1；do one's best 按 P。"
+  },
+  "first": {
+    "senses": [
+      {"pos": "adj.", "zh": "第一的，最早的"},
+      {"pos": "adv.", "zh": "首先，先；（列举时）第一"},
+      {"pos": "adv.", "zh": "首次，最初"},
+      {"pos": "n.", "zh": "第一个（人或事物）；第一名"},
+      {"pos": "adj.", "zh": "首要的，最重要的；首席的"},
+      {"pos": "adv.", "zh": "（名次）第一"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 4, "3": 0, "4": 0, "5": 1, "6": 1, "7": "P:at first", "8": 0, "9": 0,
+               "10": 2, "11": 0, "12": 3, "13": "P:in the first place", "14": 0, "15": "P:in the first place", "16": 0, "17": "P:at first", "18": 0, "19": 0,
+               "20": 1, "21": 0, "22": 2, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 3, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": "P:in the first place", "34": 0, "35": 1, "36": 0, "37": 0, "38": 5, "39": 0,
+               "40": 0, "41": "P:for the first time", "42": 0, "43": 0, "44": 0, "45": 0, "46": 2, "47": 1, "48": [4, 0], "49": "P:in the first place",
+               "50": 1, "51": 0, "52": 1, "53": "P:first of all", "54": 0, "55": 3, "56": 0, "57": 0, "58": "P:at first", "59": 2,
+               "60": 3, "61": "P:at first", "62": "P:at first", "63": 0, "64": 3, "65": 1, "66": 0, "67": 0, "68": 1, "69": 0,
+               "70": 0, "71": 0, "72": 1, "73": 0, "74": 0, "75": "P:at first sight", "76": 0, "77": 2, "78": 0, "79": 0},
+    "example": {"id": 1, "en": "Would this be your first car?", "zh": "这会是你的第一辆车吗？"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：first class/floor/prize/authors、the first time（这不是第一次）按 0；句首 First, 和「先做某事」（do X first）标 1；first started/came about/met 等「第一次、最初」标 2；the first is…、the first of its kind、the very first、the first to arrive 标 3；First Minister（首席大臣）标 4；finished first 标 5；at first、in the first place、first of all、for the first time、at first sight 按 P。"
+  },
+  "around": {
+    "senses": [
+      {"pos": "prep.", "zh": "在…周围，环绕；在…附近"},
+      {"pos": "adv.", "zh": "大约，左右"},
+      {"pos": "adv.", "zh": "到处，四处；在四周"},
+      {"pos": "prep.", "zh": "遍及，在…各处"},
+      {"pos": "prep.", "zh": "关于，围绕（某话题、中心）"},
+      {"pos": "adv.", "zh": "转过来，朝相反方向（turn around）"},
+      {"pos": "adv.", "zh": "在附近，在场；存在"},
+      {"pos": "adv.", "zh": "过来，到（某处）"}
+    ],
+    "labels": {"0": 2, "1": 0, "2": 2, "3": 0, "4": 1, "5": 0, "6": 1, "7": 1, "8": 0, "9": 1,
+               "10": 3, "11": 0, "12": 2, "13": 1, "14": 2, "15": 1, "16": 1, "17": 0, "18": 0, "19": 1,
+               "20": 0, "21": 3, "22": 6, "23": 0, "24": 3, "25": 4, "26": 1, "27": 1, "28": 5, "29": 5,
+               "30": 4, "31": 0, "32": 0, "33": 2, "34": 1, "35": 3, "36": "P:hang around", "37": 0, "38": 2, "39": 4,
+               "40": 4, "41": 3, "42": 3, "43": 2, "44": 1, "45": 6, "46": 0, "47": 4, "48": 2, "49": 1,
+               "50": 3, "51": 2, "52": 7, "53": 0, "54": 6, "55": 1, "56": 0, "57": "P:get around to", "58": 0, "59": 0,
+               "60": "P:pass around", "61": 1, "62": "P:shop around", "63": 5, "64": 3, "65": 0, "66": 0, "67": 1, "68": 1, "69": "P:hang around",
+               "70": 4, "71": 1, "72": 3, "73": 2, "74": 2, "75": 2, "76": 0, "77": 1, "78": 3, "79": 0},
+    "example": {"id": 53, "en": "They are admired by people around them.", "zh": "他们受到身边人的钦佩。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：数字、时间、年龄前的 around 一律标 1（含 around lunch time / around your birthday / around 1973）；the world/people/things around us 及绕脖子、绕赛道、绕地球 70 圈都标 0；around the world/nation/village/Italy、run around the restaurant、get around the town 这类「在某范围内各处」标 3；不带宾语的 walk/run/move/look around、all around 标 2；rules/discussion around、centers/revolve around 标 4；turn around 标 5；be around（在、存在）标 6；hang around、shop around、get around to、pass around（辗转易手）按 P。"
+  },
+  "find": {
+    "senses": [
+      {"pos": "v.", "zh": "找到，寻得"},
+      {"pos": "v.", "zh": "发现，得知"},
+      {"pos": "v.", "zh": "觉得，认为（find sth + 形容词）"},
+      {"pos": "v.", "zh": "（find oneself）发觉自己（处于某种状态）"},
+      {"pos": "n.", "zh": "发现物"}
+    ],
+    "labels": {"0": 1, "1": 0, "2": "P:find out", "3": 0, "4": 1, "5": [3, 0], "6": 0, "7": 1, "8": 2, "9": 1,
+               "10": 1, "11": "P:find out", "12": 0, "13": 0, "14": 1, "15": 0, "16": 2, "17": 0, "18": "P:find out", "19": 2,
+               "20": 0, "21": 2, "22": "P:find out", "23": 2, "24": 0, "25": 1, "26": "P:find out", "27": 1, "28": "P:find out", "29": 2,
+               "30": "P:find out", "31": 2, "32": 1, "33": 0, "34": "P:find out", "35": 0, "36": 2, "37": 0, "38": 1, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 1, "44": "P:find out", "45": 1, "46": 3, "47": 3, "48": 0, "49": 2,
+               "50": 0, "51": "P:find out", "52": "P:find out", "53": 1, "54": 0, "55": 0, "56": 2, "57": 0, "58": 0, "59": 2,
+               "60": 2, "61": 1, "62": 0, "63": "P:find out", "64": 1, "65": 1, "66": 1, "67": 1, "68": 2, "69": 0,
+               "70": 3, "71": 2, "72": 3, "73": 2, "74": 2, "75": 1, "76": 1, "77": "P:find out", "78": 1, "79": 1},
+    "example": {"id": 37, "en": "It’s the first day of school, and your teacher tells you to find a seat in the classroom.", "zh": "今天是开学第一天，老师让你在教室里找个座位。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：find + 具体东西/人（找到、寻得、找工作）标 0；find that… / 研究发现 / 醒来发现 / find + 宾语 + doing（发现某人某物处于某状态）标 1；find + 宾语 + 形容词/名词/to be（觉得）标 2；find oneself doing/处于某处境标 3，但 find themselves（寻找自我）按 0；find out 一律按 P。0 和 1 的边界：句意偏「搜寻后得到」标 0，偏「意识到、看到某情况」标 1。"
+  },
+  "author": {
+    "senses": [
+      {"pos": "n.", "zh": "作者（书、文章、研究报告的）"},
+      {"pos": "n.", "zh": "作家"},
+      {"pos": "n.", "zh": "创始人，发起人"},
+      {"pos": "v.", "zh": "撰写，编写"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 2, "12": 0, "13": 0, "14": 0, "15": 1, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 1, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 44, "en": "The author’s lectures sparked lively discussions in his class.", "zh": "作者的讲座在他的课堂上引发了热烈的讨论。"},
+    "form": null,
+    "irregular": false,
+    "note": "绝大多数是阅读题干 the author（本文作者），以及 lead/senior author of the study（研究报告的第一/资深作者），都标 0；不带「某作品」、泛指以写作为职业的人（a best-selling author、one author has mentioned）标 1；the author of the Stanford prison experiment（实验的发起人）标 2。"
+  },
+  "same": {
+    "senses": [
+      {"pos": "adj.", "zh": "相同的，同一个的，同样的"},
+      {"pos": "pron.", "zh": "同样的事物，同样的情况（do/feel the same）"},
+      {"pos": "adv.", "zh": "同样地"}
+    ],
+    "labels": {"0": "P:the same as", "1": 0, "2": 1, "3": 0, "4": "P:the same as", "5": 0, "6": 1, "7": 0, "8": 0, "9": 0,
+               "10": [0, "P:at the same time"], "11": 0, "12": 0, "13": 0, "14": "P:at the same time", "15": 0, "16": "P:the same as", "17": 0, "18": "P:at the same time", "19": 0,
+               "20": "P:at the same time", "21": 0, "22": "P:the same as", "23": 0, "24": 0, "25": "P:the same as", "26": "P:the same as", "27": "P:the same as", "28": 1, "29": 0,
+               "30": "P:the same as", "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": "P:at the same time", "39": 1,
+               "40": 0, "41": 0, "42": "P:the same as", "43": "P:the same as", "44": 0, "45": 0, "46": 0, "47": "P:on the same page", "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": "P:at the same time", "56": 0, "57": "P:the same as", "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 1, "66": 0, "67": 1, "68": 0, "69": 0,
+               "70": "P:at the same time", "71": 1, "72": 0, "73": "P:the same as", "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 8, "en": "They came from the same artist.", "zh": "它们出自同一位艺术家之手。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：凡「the same (+名词) as …」比较结构（含中间隔名词的 the same colour as the walls）一律按 P:the same as；at the same time（同时；然而）按 P；on the same page（意见一致）按 P；stay/remain/be the same、It's the same with/for me 作表语按 0；do/feel/ask/show the same、the same is true of、the same cannot be said 标 1。请复核：the same as 是否应算 P——我判断零基础学习者需要整体记「与…相同」，但它也可以看作 same + as 的组合。"
+  },
+  "want": {
+    "senses": [
+      {"pos": "v.", "zh": "想要，希望"},
+      {"pos": "v.", "zh": "（you want to / might want to）应该，最好"},
+      {"pos": "v.", "zh": "需要"},
+      {"pos": "n.", "zh": "缺乏，不足"},
+      {"pos": "n.", "zh": "需要，必需品"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 1,
+               "10": 0, "11": [0, 1], "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 1, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 69, "en": "We all have goals that we want to achieve in our lives.", "zh": "我们都有人生中想要实现的目标。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：want to do、want sth、want sb to do、if you want 都标 0；只有说话人给建议、意思是「你应该」时（so you want to make sure…、you might want to stick to…、教练说 You want to play in a circle）标 1；条件句 if you want to… 仍是「想要」标 0。"
+  }
+}

@@ -1,0 +1,281 @@
+# 任务 C_r1_74：1 个词，263 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_74.labels.txt
+
+============================================================
+## 词：do    本段 263 句    模式：全标（每句都写）
+原释义：v.做; 干; 行动. aux v.构成疑问句和否定句.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 做，干，从事    B 样本 38    例：Don't machines do all that?
+  1  aux. 构成疑问句（Do you…? / What do…?）    B 样本 20    例：Do you enjoy
+  2  aux. 构成否定句（do not / don't）    B 样本 10    例：They do not know all the effects of eating meat.
+  3  v. 代替前面提到的动词（避免重复）    B 样本 3    例：Follow all the traffic rules drivers do.
+  4  aux. （用在动词前）强调：确实，的确    B 样本 2    例：But now that you mention it, I do think getting another phone so soon is wasteful, regardless of the cost.
+  5  v. 进展，表现（如 do well 表现好）    B 样本 2    例：Many will do well.
+  6  v. 带来，造成（如 do harm / do good）    B 样本 2    例：It would do harm to one's muscles.
+  7  v. 行，足够（如 That will do.）    B 样本 0
+已标过的短语：have something to do with（3）；do one's best（1）
+口径说明（照此执行）：
+  - don't / doesn't 里的 do 是否算本词形取决于分词，这里按句中独立出现的 do 标（如 id17、66、70、74、76 都标「做」）。have more/a lot to do with 统一记作 P:have something to do with。
+句子：
+86 | Respond as most busy people 【do】.
+88 | The level of impact on students’ educational performance is all to 【do】
+110 | Get them to tell you everything they have to 【do】.
+145 | “right” or “correct” decision begins to feel more ___31___ and, at the same time, more difficult to 【do】.
+177 | It’s that we have unrealistic expectations of what we’re asked to 【do】
+182 | What does science suggest the right dress may 【do】?
+189 | What does the author advise disadvantaged schools and communities to 【do】?
+212 | What does the author propose people 【do】?
+215 | It focuses our attention on what we 【do】.
+217 | Provide extra energy for what we 【do】.
+227 | So, what should we 【do】?
+229 | What does the author say teachers are expected to 【do】?
+231 | What does the author suggest sensitive individuals 【do】?
+242 | that don't contribute to your success and adopt those that 【do】.
+261 | He did something all professionals would 【do】.
+264 | What is the typical supermarket layout intended to 【do】?
+282 | What does the author think open debate can 【do】?
+288 | What does the author say businesspeople often 【do】?
+325 | How old they are and what activities they 【do】.
+142 | “We consume compounds every day that may be poisonous and our bodies 【do】 a
+194 | Now comes the part when you put on your detective hat and 【do】 a little digging.
+138 | For all the innovation and choice that define the food and drink industries, if you want to make money, you could 【do】 a lot
+305 | But even after we have accounted for these social considerations, many of us still seem to 【do】 a poor job of managing the trade-off between yes and no.
+223 | And there's little they can 【do】 about it.
+136 | For her book Overload: How Good Jobs Went Bad and What to 【Do】 about It, she and co-author    ?X
+105 | (8-3) What should we 【do】 about music?
+339 | What does the author suggest policymakers 【do】 about obesity?
+303 | What does the author suggest scientists 【do】 about public debate?
+140 | What can the new findings 【do】 according to Professor Sillero?
+292 | A mechanical engineer said, “It will give you the flexibility to 【do】 almost anything.
+156 | Now, watching movies is something that most teens 【do】 alone.
+331 | They can 【do】 amateur work in their own fields
+84 | Why 【Do】 Americans Work So Much?    ?X
+340 | According to one famous entrepreneur, innovation means refusal to 【do】 an enormous number of things.
+97 | W: Does it 【do】 anything?
+270 | What can publicly accessible fruit and vegetable gardens 【do】 apart from their practical functions?
+139 | Recent evidence points to drivers’ limited understanding of what these systems can and cannot 【do】 as a contributing
+98 | It may 【do】 as much harm as good.
+211 | In a pilot programme, students are given electronic devices to 【do】 assignments when schools are closed.
+220 | Are you wondering, what 【do】 babies dream about?
+250 | So, when 【do】 babies start dreaming?
+119 | Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who 【do】 bad things.
+162 | But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans 【do】 bad things: instead there are many, and they are all marvelously different.
+253 | What should business leaders 【do】 before implementing new IT initiatives?
+237 | Immigrants 【do】 better in this area too.
+134 | One thing that extreme sports 【do】 better than perhaps anything else is to help you stop being afraid. [19] It may sound strange to say that their main function is to reduce fear.
+87 | M: If students 【do】 better, we’ll spend less on schooling.
+180 | Think about it: what’s something you’ve always wanted to 【do】, but gave up
+236 | What did supermarkets 【do】 by adopting the Fordist factory approach?
+89 | I) Of course, finding that balance probably shouldn’t be something you have to 【do】 by yourself.
+104 | How 【do】 children acquire the skills needed for the 21st century?
+201 | What does the author advise us to 【do】 concerning ambition?
+302 | What does the author tell us to 【do】 concerning tactile communication?
+160 | 【do】 considerably more walking
+99 | Even worse, when people finally 【do】 decide, they are generally less satisfied
+93 | 【do】 decide to take action.
+274 | Why 【do】 doctors advise patients to take most drugs in the morning or in the evening?
+249 | What 【do】 doctors 【do】 when prescribing medicine for people?
+152 | How 【do】 early career setbacks affect our long-term success?
+263 | And the quality and quantity of work I can 【do】 emerges directly from my ability to concentrate.
+171 | They 【do】 everything from suggesting new friends to recommending purchases.
+213 | Bans 【do】 exist in some places.
+132 | Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out for alarmingly large snakes—and a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins 【do】 exist in the Amazon region.
+102 | W: If you have time right now, I think we need to sit down and discuss what exactly we are going to 【do】 for Jake’s education next year.
+206 | Female employees consistently pay lower airfares than men 【do】 for the same flights because they tend to book earlier.
+185 | Perhaps it’s that attention focuses on horror stories — and some merchants 【do】 get hit when bike lanes come in.
+80 | M: While most financial planners 【do】 give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+199 | Some creative ideas have turned out to 【do】 harm to human society.
+147 | W: They 【do】 have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting him to try.
+245 | the biggest bottled water manufacturers, cites a survey in which people were asked what they would 【do】 if bottled water were
+315 | What does Hannah’s husband say he’ll 【do】 if she sells the new car?
+265 | What does the author imply we should 【do】 if we have to focus on some task and 【do】 it well?
+309 | What should people 【do】 in a decision-making process if instincts disagree with data?
+319 | What does the author suggest teachers 【do】 in the classroom?
+329 | What does the author say companies should 【do】 in the context of remote work?
+267 | What does the author advise us to 【do】 in the last paragraph?
+172 | As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they 【do】 in the real world.
+332 | What are scientists trying to 【do】 in the University of California’s new bio-sciences building?
+287 | Teachers and students experience a closer relationship in year-round schools than they 【do】 in traditional schools and, in the absence of any long-term break, students 【do】 not feel detached from the school environment.
+286 | “What we don’t want to 【do】 is not act,” added Coursera chief operations officer Lila Ibrahim.
+225 | The emotional labor women 【do】 is noticed only when it is not done.
+153 | “Some professional women aim to 【do】 it all.
+116 | And 【do】 it today, tomorrow is too late.
+190 | schools or universities 【do】 just as well later in life as those who just manage to get accepted.
+271 | A financial education subject should 【do】 just the same.
+143 | I’ve never heard of it, but I 【do】 know little Lawrence loves cartoons.
+96 | But when they 【do】 lead to too many calories, they risk raising
+226 | It may 【do】 little good to patients.
+151 | So the real danger here is that children who will completely able to 【do】 math at a normal level may keep away from it because they feel anxious.
+175 | [24] Productive conflict is a vital part of teams and organizations that want to push forward and 【do】 more.
+238 | It can 【do】 more harm to the workplace than to employees.
+204 | (19-2) Good stories 【do】 more than create a sense of connection.
+205 | How 【do】 most Los Angeles residents now feel about homelessness?
+256 | The authors also suggest that traditional recruitment approaches for early childhood educators “【do】 not address the gender gap in the field.
+207 | Their brains 【do】 not allow them to multitask.
+181 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who 【do】 not. [19] But new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.
+176 | Research indicates absences from school with permission 【do】 not cause as many problems as those without permission.
+150 | Numbers 【do】 not exist in all cultures.
+191 | Many women also 【do】 not experience chest pain before a heart attack the way men 【do】, which leads to fewer women discovering problematic heart issues.
+170 | So much so that, according to experts in neuroscience (神经系统科学), our brains 【do】 not handle multitasking situations well.
+186 | Since your baby doesn’t dream at this stage of brain development, it’s safe to assume babies 【do】 not have nightmares,
+316 | people 【do】 not know how much they are eating, it can be really hard for them to stick to a diet.
+306 | They 【do】 not lack food knowledge or budgeting skills.
+252 | They 【do】 not look promising at the moment.
+277 | They 【do】 not make any sense at present.
+285 | They 【do】 not pay much attention to their food recipes.
+195 | Online classes 【do】 not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+295 | Even so, it can be difficult for those who 【do】 not study music theory to see this as an indicator, since it is
+246 | Most end users 【do】 not understand the terms after reading them through.
+230 | Since cheating through technology is not listed specifically as being against the rules in many school policies, students 【do】 not view the actions unethical.
+193 | However, that does not mean teens need to use electronic devices as often as they 【do】 now.
+290 | of us can’t afford to 【do】 nuclear research as a private hobby, but bird watchers, rock collectors, and others can 【do】 real research
+317 | What 【do】 numerous studies show about infants?
+216 | Human fascination with animals goes back as far as humans 【do】. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals than humans.
+248 | The New Year has come and gone, and many may have already forgotten what they had resolved to 【do】 on January 1st.
+113 | More and more, watching a movie is something teens choose to 【do】 on their electronic devices.
+135 | New policies adopted by many US schools require students to 【do】 online learning at home in case of a school closure.
+269 | collaboration and teamwork over traditional organizational structures, no one likes to be told what to 【do】 or to be pushed
+310 | What 【do】 other scientists have to
+312 | What 【do】 people believe chocolates can 【do】?
+111 | Why 【do】 people 【do】 things that way?
+117 | What 【do】 people in most healthy eating cultures have in common?
+137 | W: Housing costs are high, but 【do】 people really save that much by having a smaller home?
+125 | What 【do】 people tend to believe about the homeless?
+200 | They often fail to recognise when they need help, and when they 【do】 recognise it, they tend to believe that no one else is capable of providing it.
+337 | They can 【do】 research with limited resources.
+297 | What 【do】 scientists think of REM?
+262 | How 【do】 smart people react when they are found to be wrong?
+163 | Many women who opt to simply keep their own names 【do】 so because they don’t want to give up all that they have accomplished professionally.
+131 | the idea that less labor will be necessary because machines can 【do】 so much.
+120 | For example, many women who choose to hyphenate 【do】 so partially because they have earned higher educational degrees and certifications under their maiden names.
+243 | beliefs, to realize that we almost never 【do】 so, to understand that the simplest choices are charged with meaning, and yet that
+308 | What 【do】 some childhood development experts believe about the long summer vacation?
+255 | Why 【do】 some people oppose working from home?
+289 | What 【do】 some people think of aging adults?
+155 | Yet the widespread view is that obesity is self-induced and that it is entirely the individual’s responsibility to 【do】 something about it.
+165 | W: We can’t dismiss the idea that teenagers have to plan to 【do】 something after they finish school, and parents are entitled to hope it’s more than simply spending 10 hours a day playing computer games.
+210 | determination that allows you to 【do】 something difficult.
+161 | You don’t have to 【do】 something just because it exists.
+299 | Try to 【do】 something original.
+283 | Why 【do】 students rarely get caught cheating nowadays?
+169 | What 【do】 such utterances as “I have limited access to email” sound like according to the author?
+276 | What 【do】 supporters say in response to the restaurant’s new policy?
+90 | M: I 【do】 talk about very small homes, but there’s no set definition of a tiny home.
+166 | The guys who are in the sport forever are sitting there saying: 'We can't 【do】 that.
+203 | We can't 【do】 that because it's never been done that way.'"
+123 | The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to 【do】 that, we're not using at all.
+318 | What 【do】 the authors of the study recommend to bridge the gender gap in early childhood education?
+247 | How 【do】 the clothes we wear sway our evaluation of ourselves?
+164 | How 【do】 the most ambitious entrepreneurs regard failure in their endeavor?
+208 | Parents who stare non-stop at their phones and don’t read books are likely to breed kids who will 【do】 the same.
+106 | They 【do】 their favored activity whenever and wherever possible.
+109 | These invisible duties become apparent only when you don’t 【do】 them.
+232 | We say “yes” to many requests not because we want to 【do】 them, but because we don’t want to be seen as rude or unhelpful.
+173 | from the increased productivity since Keynes's time — can afford to work less, why 【do】 they continue to work so much?
+144 | Plant-based meats are coming soon to a dinner table near you, but 【do】 they deserve a spot on your plate?
+228 | 【Do】 they use formal, direct language?
+320 | People sometimes struggle to 【do】 things that are simply a waste of time.
+118 | Even worse, people will occasionally fight to 【do】 things that waste time.
+81 | P) “I 【do】 think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.
+101 | To 【do】 this, researchers had students read an article on the food industry.
+133 | To 【do】 this, the researchers computed abstractness ratings for ___29___ 40,000 commonly
+128 | What are entrepreneurs advised to 【do】 to avoid traps that often accompany rivalry?
+114 | Luckily, there are a few things you can 【do】 to determine whether or not a company is a good fit for you—before you ever sign your name on that dotted line.
+278 | What should people 【do】 to enhance their sense of meaning?
+179 | It looks at what the manufacturers of self-driving cars should legally 【do】 to ensure that drivers understand how to
+254 | What does the author suggest people 【do】 to get rid of boredom?
+149 | What can we 【do】 to help children learn the basics of math and geometry?
+103 | we can 【do】 to help ourselves is to go online and learn new, relevant skills.
+321 | What does the author suggest disadvantaged people 【do】 to improve their health?
+333 | What does the author imply people in developed countries should 【do】 to keep healthy?
+291 | What should people 【do】 to learn the art of persuasion at the workplace?
+158 | What does the author suggest managers 【do】 to neutralize the retention risk?
+100 | What does he 【do】 to strengthen his muscles and all that?
+268 | What does the author say we need to 【do】 to strengthen our willpower?
+304 | What does the author think schools should 【do】 to tackle cheating?
+178 | It defies our increasing awareness of the harm plastics 【do】 to the
+293 | What would financial literacy 【do】 to young people?
+275 | As children develop and grow, their dreams 【do】 too.
+336 | People agree to 【do】 too many things they are in fact unwilling to 【do】.
+209 | Why 【do】 we allow what others think of us to have so much power over how we feel about ourselves?
+307 | What 【do】 we know about “Coursera for Refugees”?
+146 | What 【do】 we learn about advertising campaigns from the snack food companies?
+233 | What 【do】 we learn about Bill Thomas bringing animals and plants into the nursing home?
+334 | What 【do】 we learn about Branyas Morera?
+184 | What 【do】 we learn about consumers buying Beyond Burger and Impossible Foods products?
+197 | What 【do】 we learn about emotional intelligence from a number of studies?
+338 | What 【do】 we learn about extremely shy students sitting in the front row of the classroom?
+222 | What 【do】 we learn about genetic health tests from the passage?
+298 | What 【do】 we learn about Hannah from the conversation?
+300 | What 【do】 we learn about how genes shape people’s behavior?
+301 | What 【do】 we learn about male teachers from their responses in the study?
+314 | What 【do】 we learn about much of the popular music currently produced?
+188 | What 【do】 we learn about New York’s Eleven Madison Park?
+335 | What 【do】 we learn about obese people from the passage?
+326 | What 【do】 we learn about our modern music?
+257 | What 【do】 we learn about people in high-contact cultures?
+313 | What 【do】 we learn about publicity over protein in America?
+224 | What 【do】 we learn about social media from the passage?
+281 | What 【do】 we learn about social customs in Arabian countries?
+126 | What 【do】 we learn about the culture of busyness from a recent study?
+324 | What 【do】 we learn about the cacao farms in the crisis of global warming?
+342 | What 【do】 we learn about the WFP’s effort to eliminate hunger?
+214 | What 【do】 we learn from research in human-vehicle interaction?
+168 | What 【do】 we learn from the new Los Angeles Homeless Services Authority report?
+219 | What 【do】 we learn from the passage about the timing of our behaviors?
+221 | What 【do】 we learn from the news report about the egg price in the U.S.?
+234 | What 【do】 we learn from the passage about the brightest people?
+239 | What 【do】 we learn from the conclusion of a recent study on multitasking?
+240 | What 【do】 we learn from the passage about Red Rum the racehorse?
+244 | What 【do】 we learn from the passage about vegetable planting?
+251 | What 【do】 we learn from the news report about the restaurant Net Ease House?
+259 | What 【do】 we learn from the study by the Josephson Institute of Ethics?
+280 | What 【do】 we learn from the first paragraph about early childhood education in the U.S.?
+296 | What 【do】 we learn from the passage about the economics professor and her hairdresser?
+323 | What 【do】 we learn from the passage about researchers like birdwatchers and rock collectors?
+341 | What 【do】 we need to 【do】 if we keep consuming fish at the current rate?
+148 | Not only 【do】 we not want to see lives go to waste, but we
+198 | But if the benefits of saying “no” are so obvious, then why 【do】 we say “yes” so often?
+141 | But when I told him, he said he loves her and would just 【do】 what she wants him to.
+330 | It is especially difficult for people to decline to 【do】 what their superiors ask them to 【do】.
+284 | 【Do】 whatever favors you can, and be warm-hearted and direct when you have to say no.
+174 | possible solutions: The first is to force your future self to 【do】 whatever your present self doesn't want to 【do】.
+322 | What should we 【do】 when facing various factors that limit the practicability of data?
+327 | What does a leader tend to 【do】 when they’re committed to analytical decision-making?
+279 | For instance, many babies are perfectly proficient crawlers, but they decide to try walking because there’s more to see and 【do】 when they stand upright.
+272 | What would drivers 【do】 when they suffer from “warning fatigue”?
+273 | What are people advised to 【do】 when they want to socialize?
+241 | What can we 【do】 when we become better able to provide ourselves with the desired approval?
+122 | W: As a kid, did you know what job you wanted to 【do】 when you grew up?
+83 | New technologies always provoke generational panic, which usually has more to 【do】 with adult fears than with the lives of teenagers.
+328 | The nation's obesity level has much to 【do】 with calorie intake.    ?P:have much to do with
+258 | Job satisfaction has a lot to 【do】 with company culture.
+159 | Ultimately, what affects our health in the most meaningful ways has more to 【do】 with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+196 | According to Kelli Harding, rabbits’ health had more to 【do】 with humans’ kindness to them than their diet or genetics.
+121 | Questions having to 【do】 with labor cost.    ?P:have to do with
+192 | It has much to 【do】 with one’s genes.    ?P:have much to do with
+108 | Often the star rating I give has far more to 【do】 with the kind of day
+94 | Their chances of finding new mates have a lot to 【do】 with their habitat.
+91 | “We ___35___ that it may have to 【do】 with what the mice    ?P:have to do with
+115 | It has much to 【do】 with whom employees interact with.    ?P:have much to do with
+311 | How 【do】 women engineers frequently feel according to the two civil engineers?
+154 | Then encourage them to establish an order in which they 【do】 work.
+260 | For example, if your manager comes to you and asks you to 【do】 X, you can respond with ‘Yes, I’m happy to make this the priority.
+130 | So if you use a ton of social media, 【do】 you become unable, or unwilling, to engage in face-to-face contact?
+266 | But with its extreme usability comes a complication: what 【do】 you 【do】 if you strongly feel something should not be done, even if the data insists that it should?
+92 | W: Well, what 【do】 you 【do】 now then?
+294 | 【Do】 you ever blend up a protein drink for breakfast or grab a protein bar following an afternoon workout?
+112 | 【Do】 you feel like Vietnamese food then?
+129 | How are you today? [12] 【Do】 you have a reservation with us already?
+183 | 【Do】 you have any other popular toys?
+82 | 【Do】 you have anything in mind?
+95 | What 【do】 you mean?
+127 | W: What 【do】 you mean by financial independence?    ?P:what do you mean by
+85 | 【Do】 you prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us?
+235 | But 【do】 you really need experts to tell you that?
+187 | Where 【do】 you sit?
+107 | So, which supermarket 【do】 you think is the best to order from?
+218 | M: What 【do】 you think of Battleships, then? [15] It’s a total classic.
+167 | 【Do】 you typically spend that much on a pair of casual trousers?
+124 | What size 【do】 you want and how much are they?
+202 | M: But asking “What 【do】 you want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations and a high chance of disappointment.
+157 | G) Make sure to 【do】 your research.

@@ -1,0 +1,277 @@
+# 任务 C_r1_72：1 个词，262 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_72.labels.txt
+
+============================================================
+## 词：will    本段 262 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：modal v.将; 会; 愿意. n.意志; 遗嘱.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  modal v. 将，将要，会（表示将来）    B 样本 72    例：You will have 30 minutes to
+  1  modal v. （总）会，往往会（表示习惯、倾向或常理）    B 样本 8    例：Suppliers will always have a certain amount of surplus.
+  2  modal v. 愿意，要（表示意愿；Will you…? 表示请求）    B 样本 0
+  3  n. 意志，决心，意愿    B 样本 0
+  4  modal v. 大概是，应该是（表示推测）    B 样本 0
+  5  n. 遗嘱    B 样本 0
+口径说明（照此执行）：
+  - 大量句子是听力题干套话 you will hear…/You will have 30 minutes…。「将来」与「习惯、倾向」两个义项的边界有主观性（如 id12、id64 描述诈骗惯常手法，标了「倾向」）。
+句子：
+126 | W: Yeah, I think he 【will】.
+207 | The new prevalence of remote and flexible working models 【will】
+214 | They have been roused against their 【will】.    ?P:against one's will
+232 | As you become more capable of providing yourself with the approval you seek, your need for external validation 【will】
+278 | accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you 【will】.
+280 | At the end of each conversation, you 【will】
+301 | aids to back up your ideas can help communicate your ideas better and make compelling arguments so your listeners 【will】
+203 | Daddy doesn't like him or her, there is the danger that they 【will】 abandon them.
+110 | We need restructured online classes in which students can have a learning experience that 【will】 actually provide quality education.
+338 | It is predicted that climate change 【will】 affect the availability and price of quality chocolate.
+163 | Food 【will】 all be ready-to-eat space food.
+196 | It 【will】 allow Africans to play a bigger role in world trade.
+297 | The platform 【will】 allow refugees worldwide to take thousands of online courses for free.
+109 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that 【will】 also allow time for other activities—like going to the movies with friends or reading longer, more complicated texts.
+240 | There 【will】 also be a fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes with special needs triumph in the games.
+171 | It 【will】 also bring to an end a less popular US high school tradition: the “make-up day”
+157 | They 【will】 also carry with them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts of their families.
+212 | N) Maybe bike lanes 【will】 always be charged with emotion, until enough of the public is finally concerned about climate
+123 | No matter the form in which they reveal themselves, hero stories 【will】 always be present in life.
+168 | Lao Zi once said, “Care about what other people think and you 【will】 always be their prisoner.
+231 | Some risks may not work out, but an optimistic risk-taker 【will】 always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.
+286 | The State Department 【will】 announce a partnership with an online education platform called Coursera.
+276 | the correct habits are in place, you 【will】 automatically perform those tasks on a day-to-day basis.
+251 | It 【will】 awaken them to reality.
+143 | more beautiful and delicious our future 【will】 be.
+334 | For now, the jury is still out as to how successful those endeavours 【will】 be.
+98 | No one says playing music 【will】 be a cure for
+189 | The author claims that it 【will】 be a great loss if we no longer read books and longer articles.
+104 | If asked, most people 【will】 be able to give a vague
+258 | that teenagers 【will】 be able to take a natural history test given that for decades children have been able to name more video
+288 | Our identity as social beings 【will】 be affected.
+192 | There 【will】 be around 20 of us, including children.
+190 | Schools with limited resources 【will】 be at a disadvantage.
+234 | When you find that you can overcome the physical or mental challenges involved in extreme sports, you’ll feel superhuman and your self-confidence 【will】 be at an all-time high.
+223 | G) If you are a low-income student who 【will】 be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP.
+167 | M: True, but if you keep current with your skills, you 【will】 be attracted to employers.
+307 | “Coursera for Refugees” 【will】 be available for any non-profit group that supports refugees in any country, as well as individual refugees.
+296 | This ability 【will】 be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.
+318 | Ultimately, misleading results 【will】 be corrected as science
+130 | believe that tomorrow 【will】 be different.
+169 | We believe that we 【will】 be different tomorrow, but in doing so, we prioritize our
+206 | They fear that students without internet access at home 【will】 be disadvantaged by the policy, and superintendent Tom
+177 | We 【will】 be discouraged from revealing our true selves.
+170 | But after a time, your fear response to other things in life 【will】 be dramatically reduced.
+101 | I think those drinks 【will】 be enough.
+91 | The pain 【will】 be especially acute in parts of the country that heavily rely on heating oil to keep homes warm.
+87 | Teachers are also losing their snow days and instead 【will】 be expected to be on hand to take a virtual register and
+287 | How those decreases 【will】 be felt 【will】 depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+275 | Our desire to be loved 【will】 be fulfilled.
+199 | Some plants 【will】 be grown, but not potatoes like in the movie The Martian.
+246 | M: Sure, the initial expenditure 【will】 be high, but much lower afterwards.
+89 | Almost all of these students 【will】 be in kindergarten through high school, but 66 【will】 be in prekindergarten and other programs.
+172 | you attempt to make toward it on a personal level 【will】 be in vain.
+242 | Temperatures in the pressurised tank 【will】 be kept to around 200°C.
+323 | “High quality chocolate 【will】 be less available in the future, and if you want it, you’ll have to pay a lot more for it,” Jarvis says.
+85 | They 【will】 be less challenging after a time.
+237 | rates are, at the most generous estimates, 56%, so the actual recycling rate 【will】 be lower than that,” Chetan-Walsh says.
+326 | More food 【will】 be made available to the needy.
+108 | M: I’ll make a note here on the system for you, so that the payment 【will】 be made tomorrow morning.
+202 | Nobody can really be sure if risks 【will】 be met with success, no matter how calculated they may be.
+295 | When employees are properly compensated, employers’ real estate savings 【will】 be modest.
+155 | They can create social media groups in which employees 【will】 be more likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.
+116 | Many of them are not, and a simple “no” 【will】 be more productive than whatever work the most efficient person can cope with.
+129 | the idea that less labor 【will】 be necessary because machines can do so much.
+115 | So I’m sure that the head office in London 【will】 be pleased once we get back and present our research.
+329 | The relief effort 【will】 be rendered less sustainable.
+309 | Our sense of self 【will】 be sharpened and enhanced.
+194 | Once you’re committed to something, you’ve already decided how that future block of time 【will】 be spent.
+100 | Both the news report and the questions 【will】 be spoken only once.
+120 | Both the passages and the questions 【will】 be spoken only once.
+146 | Both the passage and the questions 【will】 be spoken only once .
+293 | Both the conversation and the questions 【will】 be spoken only once.
+320 | Both the passage and the questions 【will】 be spoken only once.
+250 | If I am caught with it in my pocket, I 【will】 be subject to disciplinary procedure, which 【will】 impact on my career.
+244 | L) Ideally, your spouse or partner 【will】 be supportive, rather than dismissive, of your stress.
+92 | better habits day-in and day-out, continual progress 【will】 be the logical outcome.
+161 | The price 【will】 be the same.
+99 | technologies, and 【will】 be unable to learn new skills.
+299 | Our life 【will】 be unfruitful and exhausting
+236 | Without organisational support, any personal effort to maintain work-life balance 【will】 be unsuccessful.
+279 | Unless a far-reaching bottle ban does come into force, it 【will】 be up to consumers to not
+113 | It 【will】 be very casual.
+322 | More people 【will】 be willing to join in the effort.
+315 | The rich 【will】 become richer and the poor poorer.
+314 | It 【will】 become the norm sooner or later.
+325 | This month, more than 4 million students across the nation 【will】 begin high school.
+124 | The new year—according to the Chinese lunar calendar—【will】 begin on Saturday and marks the Year of the Rooster, which is thought to be a symbol of positivity.
+151 | Because when you are enjoying, people around you 【will】 begin to enjoy as well.
+266 | What’s more, making obesity a disease “may not benefit patients, but it 【will】 benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+265 | Who 【will】 benefit if working from home becomes the norm?
+133 | can help you shift and adapt your professional life to something that 【will】 better harmonise with your personal one.
+304 | It 【will】 bring about radical economic and social changes.
+216 | They 【will】 care less about their own background.
+166 | Despite alarmist headlines about “foods that are going extinct,” there is no evidence that major food types like beans, chocolate, wine, corn or wheat 【will】 cease to exist.
+106 | Homework is an important part of schooling, but the purposes of giving children homework 【will】 change as they grow older.
+193 | Schools 【will】 charge you whatever they can.
+179 | Organizers expect about 100 athletes 【will】 come out to compete in Fayetteville.
+182 | They 【will】 come to the cafe even more frequently.
+185 | So the real danger here is that children who 【will】 completely able to do math at a normal level may keep away from it because they feel anxious.
+336 | “We’ve seen profound changes in the last decades in what we eat largely as a result of international trade, and I think that trend toward more diversification 【will】 continue,” Jarvis says.
+253 | In other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone 【will】 continue to have the same degree of access as today.
+186 | How much the work 【will】 cost.
+188 | Show some interest in them and they 【will】 definitely show some in you.
+82 | Parents who stare non-stop at their phones and don’t read books are likely to breed kids who 【will】 do the same.
+328 | Many 【will】 do well.
+294 | It 【will】 drive technological progress on a global scale.
+145 | Wild pigs 【will】 eat almost anything containing calories.
+229 | It 【will】 enable them to absorb what they have learned.
+305 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—【will】 encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.
+204 | as other people, it follows that trying to identify more closely with our future selves 【will】 encourage us to make better long-
+245 | He suggests that most people with obesity 【will】 eventually develop complications.
+292 | Scientists believe that both of these countries 【will】 experience a 3.8F temperature increase by 2050 due to global warming,
+208 | They 【will】 experience the coldest winter in four decades.
+333 | Consider that nearly two-thirds of students 【will】 experience the "ninth-grade
+81 | M: We were thinking of renting a car, but we 【will】 explore all the options available for sure. [14] So, yes, that would be very helpful in comparing prices.
+284 | bureaucracies, have limited English language skills, or are not contributing financially to their child’s education, the burden of self-advocacy 【will】 fall on the student.
+252 | It 【will】 familiarize them with the school environment.
+233 | It’s easy for me to imagine how amazing it 【will】 feel at the end of the workday
+335 | More than half of students 【will】 find their academic performance declining sharply when they enter the
+137 | They 【will】 find themselves lacking in all the skills they need.
+241 | They 【will】 find they have something in common.
+249 | I) It is possible that your future husband 【will】 find this choice offensive.
+321 | It 【will】 force cities to transform their infrastructure.
+340 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your 【will】 from working as opposed to making the most of your time off.    ?P:against one's will
+141 | Event organizer Benjamin Kowalczyk says he’s excited that athletes 【will】 get a chance to come back and demonstrate their abilities.
+209 | “Putting that information in front of them 【will】 give them the best opportunity to match their skills and their dreams to what our schools can provide,” said Mathews. [23] He notes that the state can only regulate public institutions in this way, but he hopes private institutions in Ohio follow the lead of the state and post similar information.
+283 | Passive inspiration can give you ideas, but active inspiration 【will】 give you power.
+291 | A mechanical engineer said, “It 【will】 give you the flexibility to do almost anything.
+103 | If anything is really wrong, you can just take photographs of the damage, and they 【will】 give you the money back or replace the item.
+147 | Probably their math anxiety 【will】 go unnoticed because their performance is good.
+153 | If serious reading dies, a lot 【will】 go with it.
+184 | It 【will】 gradually pass away without teachers' help.
+255 | What 【will】 happen if we base our self-worth on other people’s approval?
+306 | What 【will】 happen when food aid is offered at a price?
+84 | The deeper the pink, the more attractive the males are believed to be, and the older the male, the more pink it 【will】 have.
+173 | They 【will】 have a costly bill to pay to heat their homes.
+148 | Most people 【will】 have a feeling that they've missed
+80 | She 【will】 have a photo taken with Brigette Clark.
+213 | They 【will】 have a variety of events to choose from including running, throwing and jumping.
+134 | They 【will】 have insufficient heating oil to keep warm.
+121 | They 【will】 have limited communications with family, restricted food and resources.
+127 | While outperforming your rivals may provide short-term benefits, the loss of your integrity 【will】 have long-term consequences.
+282 | If working from home becomes permanent, employees 【will】 have to dedicate part of their private space to work.
+105 | At the end of each conversation, you 【will】 hear four questions.
+102 | At the end of each passage, you 【will】 hear three or
+313 | At the end of each passage , you 【will】 hear three or
+220 | At the end of each passage, you 【will】 hear three or four questions.
+303 | Directions: In this section , you 【will】 hear three passages.
+262 | Directions: In this section, you 【will】 hear two long conversations.
+118 | It 【will】 help many African countries reduce trade deficits.
+238 | He believes giving out this information 【will】 help Ohio’s colleges and universities to be more competitive.
+300 | What 【will】 help people stick to doing something constructive automatically?
+178 | I) Mom-and-pop shops are usually pretty quick at recognizing situations that 【will】 help their bottom lines.
+200 | It 【will】 help them get back to where their lessons started.
+316 | The new program aims to aid refugees by offering “important skills that 【will】 help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+225 | Policeman John Forster said in a statement: “The circumstances remain a mystery so we would welcome any information that 【will】 help us get to the bottom of these random incidents.
+256 | Regarding our future selves as still being ourselves 【will】 help us make better long-term decisions.
+197 | When the train arrives, tell the train guard where you’re going, and he 【will】 help you secure the bicycles in the last carriage and give you a ticket.
+289 | Having a valuable outcome associated with a habit 【will】 help you stick to that habit permanently.
+205 | Learning to be this focused when enjoying extreme sports 【will】 help you to be focused at work, keeping you more productive and ultimately more successful.
+260 | The information 【will】 highlight what a great value they have for their very reasonable cost.
+165 | H) "A good lion dancer 【will】 imitate a living creature," said Karlin Chan, aged 59, who heads the athletic club's community public relations.
+341 | little consideration of how those changes 【will】 impact the end user.
+270 | As a compromise, a bride 【will】 in most cases adopt a name that combines the couple’s last names.
+135 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, which 【will】 in turn boost their self-confidence.
+88 | in eight hours’ worth of ‘me time’, which 【will】 include my family, my hobbies, my workout, my everything,” says Anat Lechner,
+114 | They 【will】 inevitably pack too much to fit in their tiny dorm rooms.
+267 | However, taking action and applying a new idea to your life 【will】 inspire you more than anything someone else can say.
+215 | The difficulty of foretelling how the various genes 【will】 interact.
+158 | Often, we have to consider saying “no” to someone we 【will】 interact with again in the future—our co-worker, our spouse, our family and friends.
+119 | And 【will】 it cost extra?
+281 | other massive change, the gig economy 【will】 itself become an engine of economic and social
+332 | “The more you reduce, the shorter the supply, and the higher the price 【will】 jump,” Schlenker says.
+156 | (8-2) We 【will】 just be a small group of friends gathering together at Washington Park.
+312 | This 【will】 lead to some tough decisions: whether to grow chocolate or save wildlife.
+273 | E) Overall, the yields of many foods, from staples to life-enhancing extras such as coffee and chocolate, 【will】 likely be impacted by climate change too.
+219 | Whatever the case, your passport 【will】 likely be one of four colors: red, blue, green or black, although there are slight variations.
+330 | But for poorer people, those same price jumps 【will】 likely cause certain foods to go extinct from their diets.
+317 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, for example, while climate change 【will】 likely have “great impacts” on cocoa (可可粉) production in West Africa.
+298 | But eventually, yields 【will】 likely suffer because the soil north of Iowa declines in quality—a legacy of glacial (冰川的) expansion.
+268 | The university administration 【will】 likely vote to raise costs at least once more before my graduation.
+128 | The kids 【will】 love it and there are so many islands nearby to explore.
+107 | I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, is always looking for what 【will】 make a person or story interesting to viewers: It’s usually a matter of individuality.
+311 | When they are convinced they 【will】 make achievements together with you.
+150 | Creating an ideal working environment 【will】 make it easier for them to get down to their assignments quickly.
+96 | the deep fear that we 【will】 make the wrong decision.
+324 | Similarly, in this unconventional experiment, scientists 【will】 make tiny, precise changes to the DNA of the seedlings to make
+139 | We 【will】 meet people who value us for who we are.
+132 | children 【will】 miss fewer days of school.
+142 | “The employer community 【will】 need the
+248 | By 2050, the world 【will】 need to feed an estimated 9.7 billion people.
+243 | There 【will】 never be agreement on its harm to people.
+274 | But for as long as you want to stay safe, and for as long as you are content with where your business is right now, you 【will】 never find out.
+191 | Distance education 【will】 never match the personal teaching in a traditional classroom.
+331 | But many 【will】 not.
+259 | announced that water bottles 【will】 not be sold this summer.
+269 | Fish-farming 【will】 not be sustainable.
+263 | Surprisingly, the Space Roaster concept—should it go ahead—【will】 not be the first attempt to take coffee into space.
+285 | The ability to overcome food shortages that must be built into some of the poorest countries 【will】 not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+136 | Knowing the best way to learn a foreign language 【will】 not enable you to speak it without actual practice.
+176 | It 【will】 not enjoy as much popularity as classical music and opera among music fans.
+138 | They 【will】 not fade away from the public eye.
+122 | One benefit of this change is that students 【will】 not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school.
+140 | to remember that many of the choices you make, such as what to have for lunch, 【will】 not ___32___ much in the future and
+290 | Effective use of persuasion skills 【will】 not only help get your coworkers excited about your ideas, it’ll also help
+261 | Higher education is a great way to equip yourself with some core skills, but it 【will】 not prepare you for actual challenges you’ll face with clients’ work.
+339 | reliable and faster, but their employer simply 【will】 not put up the funds to buy them.
+94 | Granted, you 【will】 not typically see today's teenagers lending their ears to Bach anytime soon, but there are some major
+235 | Roth is concerned that e-learning days 【will】 offer a lower quality of education.
+222 | That 【will】 offer you a good variety to suit different people’s tastes.
+198 | They worry assistants 【will】 one day be used to deliver advertising directly to us.
+86 | So, in the end, the rewards 【will】 pay for themselves.
+264 | In an experiment, a researcher 【will】 place nuts into a can one at a time
+181 | at once, but it’s difficult to predict how they 【will】 play together.
+201 | We 【will】 probably have to change where we grow certain crops, as some regions get too hot.
+180 | According to a researcher, bad reputation about games 【will】 probably limit a gamer’s chances of landing a job.
+277 | You 【will】 probably never
+210 | It 【will】 probably not guarantee the safety of drivers in case of accidents.
+239 | It 【will】 probably not provide manufacturers adequate protection from legal responsibilities.
+221 | Interesting as it might appear, a made-up conversation 【will】 probably turn out to be dull.
+217 | The spacecraft 【will】 reach a height of around 200 km.
+144 | They 【will】 realise the importance of communication.
+187 | Workers at Mexican oil company 【will】 receive a healthy incentive of almost $300 a year if they meet certain body weight standards.
+160 | It 【will】 reduce the cost of trade between African countries.
+218 | They 【will】 regain confidence with counselling.
+271 | It 【will】 result in a slow recovery.
+227 | When you arrive in London, hand the ticket to the guard and he 【will】 return the bicycles to you.
+159 | Also, a free shuttle bus 【will】 run between the event car parks and the competition site.
+195 | Shuttle buses 【will】 run every 15 minutes from 8:00 am until 8:00 pm.
+162 | Called "Better Cotton", this environmentally conscious product 【will】 save millions of liters of water a year simply from __34__ the demands of cotton production.
+95 | Not everyone 【will】 see
+90 | They 【will】 see a 27% higher price to buy natural gas.
+152 | Most of the furniture you 【will】 see is original and in good condition.
+308 | “If predictions for the end of the century are true, though, I think a lot of agricultural areas in the US 【will】 see significant hits.
+327 | H) This means that, for those who can afford it, some foods 【will】 simply cost them more in the future.
+211 | soon; a 2021 report predicts the market 【will】 skyrocket to $74 billion by 2030 — a 957 percent surge.
+337 | four- and five-year-olds 【will】 spend a third of this time engaged in spatial, mathematical, and architectural
+247 | We did not know to ask—and the school did not readily point out—that even if tuition rises, my financial aid package 【will】 stay the same.
+224 | As investor Pedro Sorrentino put it, “If you don’t guard your time, people 【will】 steal it from you.
+226 | Obviously you 【will】 still be you even if you’ve taken on your husband’s last name and omitted yours entirely.
+272 | It 【will】 strengthen their relationship with teachers.
+257 | There is objection to e-learning days owing to fear that students with no access to the Internet at home 【will】 suffer.
+230 | The disadvantage, obviously, is that local farmers 【will】 suffer under this situation.
+174 | Taking children along to the pet shop to buy food and supplies 【will】 support their cognitive development as their passion for learning flourishes.
+149 | How long the work 【will】 take.
+175 | People may find it demanding to create a goal which 【will】 take a long time to achieve.
+228 | Some phone users worry advertisers 【will】 take advantage of voice assistants to send ads directly to them.
+112 | Ultimately, Smith hopes institutions 【will】 take note of these insights _34_.
+97 | The event 【will】 take place at Methodist University.
+117 | It 【will】 take place at the St.
+254 | Failure 【will】 teach you how to think and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn from it and move forward.
+302 | These farms 【will】 then have to be shifted to cooler mountainous areas,
+125 | But if we can’t find ways to protect other foods, 【will】 they survive climate change?
+319 | the species with a gene-editing technology, which 【will】 transform the seedlings into a species that survives even in a drier and
+93 | They 【will】 try hard to land a job that fits their skills best.
+111 | “A family 【will】 turn up at a villa and find out it doesn’t exist or the owner doesn’t know who you are,” says Tipton.
+183 | The craft 【will】 use the heat of re-entry to roast coffee beans as they float inside it in a pressurised tank.
+83 | How 【will】 we all keep busy when we only have to work 15 hours a week?
+131 | How 【will】 we fund the rewards in the meantime?
+154 | Teachers 【will】 worry about poor internet connections.
+164 | What benefit 【will】 year-round schooling bring students in addition to improving their learning?
+310 | Foreseeing the desired outcome it 【will】 yield.

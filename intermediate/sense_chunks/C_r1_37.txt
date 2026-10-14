@@ -1,0 +1,292 @@
+# 任务 C_r1_37：1 个词，276 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_37.labels.txt
+
+============================================================
+## 词：is    本段 276 句    模式：全标（每句都写）
+原释义：v.是(be 的第三人称单数现在式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 是（连接主语和表语，说明身份、性质、状态）    B 样本 43    例：The event is free.
+  1  aux. 正在（构成进行时 is doing）    B 样本 26    例：He is feeling exhausted.
+  2  aux. 被（构成被动语态 is done）    B 样本 10    例：It is owned by the local government.
+  3  v. 有，存在（there is）    B 样本 1    例：Given how unsettling and haunting nightmares can be, is there a way for dreamers to _27_, or even turn off, these bad dreams as they happen?
+  4  aux. 要，应当（is to do，表示安排或指令）    B 样本 0
+  5  v. 在，位于（某处）    B 样本 0
+已标过的短语：be going to（1）；be used to（1）
+口径说明（照此执行）：
+  - 80 句里约四分之一是作文题干「Suppose your university is organizing/seeking…」，进行时占比被题干抬高；is being spread（29）按被动标。
+句子：
+1297 | Recent evidence shows even relying on the information provided by the seller 【is】
+1310 | It distorts many employees’ belief of what a satisfying life 【is】.
+1340 | fun of in gaming circles as a “spreadsheet simulator ”, the economy of the fictional EVE universe 【is】
+1376 | How much protein they consume and what their body weight 【is】.
+1505 | how valuable an individual 【is】.
+1411 | Taking whatever materials are handy and tinkering with them 【is】 a
+1486 | My father 【is】 a
+1496 | Today, consulting or freelancing for five businesses at the same time 【is】 a badge of honor.
+1410 | “And problem-solving 【is】 a big
+1520 | There 【is】 a big boost in employees' work efficiency.
+1302 | 【Is】 a boss undermining your day-to-day control over decision making?
+1508 | It 【is】 a collection of facts and established rules.
+1444 | What does the passage say 【is】 a consequence of the global migrant crisis?
+1390 | Because there 【is】 a delayed satisfaction associated with self-control, it can be easy to get off track.
+1311 | It 【is】 a desirable ability that can be developed.
+1478 | “But unless we accept that obesity 【is】 a disease, we are not going to be able to tackle it,” he concludes.
+1489 | It 【is】 a dynamic and self-improving process.
+1514 | Most important, there 【is】 a growing recognition that people who balance
+1394 | It 【is】 a guarantee for real success in life.
+1506 | In some situations, the stakes are low and failure 【is】 a healthy part of growth.
+1371 | earners, work 【is】 a labor of love.
+1510 | It 【is】 a lesson they have to learn.
+1288 | N) He added: "The broader sport 【is】 a little too inward-looking, and we need to be more open.
+1338 | There 【is】 a long way to go before humans can interact with driverless vehicles.
+1503 | What 【is】 a major flaw in previous interventions to help reduce junk food consumption?
+1521 | What's needed now 【is】 a marketplace platform specifically designed to bring freelancers and
+1536 | It 【is】 a modern disease.
+1384 | It 【is】 a must for feeding the world’s fast-growing population.
+1377 | It 【is】 a new concept much too overrated.
+1442 | For many scientists, public debate 【is】 a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+1418 | Overall, this 【is】 a positive quality, especially for people trying to build their own businesses.
+1456 | It 【is】 a response to solving the problem of food instability.
+1430 | Shrimp-farming 【is】 a risky business.
+1420 | This isn’t to say that all men engage in these behaviors—or that booking relatively late 【is】 a sign of abnormal behavior.
+1544 | It 【is】 a sign of dreaming in adults and infants alike.
+1391 | Such planting 【is】 a small step for humanity — in the
+1437 | In more conventional views, gaming 【is】 a time-wasting activity pursued by young boys.
+1535 | It 【is】 a unique trait specific to the human race.
+1480 | One American philosopher stated that addressing the needs of the poor and vulnerable 【is】 about more than money—it 【is】 mostly about creating conditions under which prosperity and opportunity can thrive.
+1348 | I believe neither 【is】 acceptable.
+1407 | Once a reward 【is】 achieved, it 【is】 much easier to continue sticking to your habits.
+1289 | He 【is】 actually proud to be fully occupied.
+1380 | Every aspect of our lives 【is】 affected by numbers.
+1409 | manipulating the DNA of plants, this technology 【is】 already being used across the world to make plants tougher and cheaper.
+1363 | L) Being relatable 【is】 also essential, Morrissey says.
+1364 | There 【is】 also little interaction amongst students.
+1382 | Being authentic, honest, and vulnerable 【is】 always interesting.
+1406 | These top earners derive meaning from their jobs and work 【is】 an
+1290 | It 【is】 an essential quality many employees lack.
+1280 | Paying attention to the listener 【is】 an important part of having a conversation that’s interesting to both parties.
+1354 | some of us, persuasion 【is】 an instinctive quality and the power of influencing comes naturally.
+1393 | How serious their protein deficiency 【is】 and what remedies they use.
+1424 | Barrie 【is】 aware they still have a mountain to climb.
+1295 | The weakening of the human connection to nature might be good for economic growth but 【is】 bad for people.
+1352 | Rather, we can assume it 【is】 because they need the money.
+1385 | As the world migrant crisis intensifies, employment 【is】 becoming a global concern.
+1553 | Research has found that having access to diverse teachers 【is】 beneficial for children.
+1300 | It 【is】 beneficial to explore ways to cope with the challenges facing students entering high school.
+1484 | Prevention 【is】 better than cure because obesity 【is】 so difficult to treat.
+1307 | They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else 【is】 capable of providing it.
+1540 | Who 【is】 capable of solving problems with ease.
+1315 | It 【is】 characteristic of academics in presenting arguments.
+1306 | A lot of that 【is】 coming from China, which produces 60% of the world’s farmed fish.    ?P:that is
+1292 | This 【is】 confirmed by a recent poll that found that, for half
+1296 | Bottled water 【is】 considerably more expensive than tap water.
+1314 | It 【is】 critical to create good habits and take the actions necessary to stick to those
+1475 | Therefore, businesses need to set up their IT infrastructure so that it 【is】 designed to fit in with their
+1549 | It 【is】 destined to transform human genes.
+1298 | Grit 【is】 different because it
+1322 | It 【is】 difficult for anumeric people to keep track of the change in numbers even when the total 【is】 very small.
+1530 | It 【is】 difficult to define.
+1550 | What 【is】 Dr.
+1470 | It 【is】 due to the fact that women care more about their company’s money.
+1485 | It 【is】 envied by many.
+1461 | It 【is】 especially appealing to the taste of teenagers.
+1396 | This 【is】 especially important for under­
+1548 | It 【is】 essential to human beings’ language learning.
+1401 | It 【is】 essential to maintaining both mental and physical health.
+1502 | We learn about who we are and what 【is】 expected of us based on interactions with others so, to a four-year-old, if Mommy or
+1507 | Its impact on society 【is】 expected to rise.
+1287 | Weather information 【is】 extremely important to farmers.
+1308 | The United States 【is】 facing a housing crisis: Affordable housing 【is】 inadequate, while luxury homes abound (充裕), and homelessness remains a persistent problem.
+1397 | Each passage 【is】 fallowed by some questions or unfinished
+1282 | They are advertised as a way for adults to finish their education and students to learn the material at their own pace—it 【is】 far more compatible for people with busy schedules.
+1515 | But walking 【is】 faster than crawling, so this motivates expert crawlers to transition to walking.
+1449 | It 【is】 filled with all kinds of video game characters.
+1294 | It 【is】 filled with interesting episodes to spare readers intolerable boredom.
+1495 | It 【is】 financially rewarding.
+1321 | Directions: There are 2 passages in this section. &eh passage 【is】 followed by some questions or unfinished
+1398 | Each passage 【is】 followed by some questions or unfinished statements.
+1383 | Not all students have access to these types of resources, whether it 【is】 for financial or other reasons, and some students can be put at a disadvantage.
+1374 | The idea 【is】 for people to get back in touch with the soil — while
+1369 | One 【is】 forced by circumstances to stop working.
+1286 | Legally speaking, the bride 【is】 free to choose whatever name she prefers.
+1422 | Today, most scientific research 【is】 funded by government grants, companies doing research and development and non-
+1426 | "It's certainly a problem that so much research in nutrition and health 【is】 funded by industry," says
+1435 | Other research 【is】 funded by private
+1342 | Human numerical instincts are not so superior to those of other mammals as 【is】 generally believed.
+1339 | a way, Duckworth 【is】 giving new hope to people who have shut the doors on their dreams.
+1429 | If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this 【is】 good for everyone, including scientists.
+1491 | Clearly, some amount of ambition 【is】 good for your motivation.
+1423 | It 【is】 harmful to mankind to use human-made materials.
+1509 | It 【is】 hazardous to leave millions of people poor and vulnerable.
+1482 | liked, and caring about the effect we have on others, 【is】 healthy and allows us to make connections.
+1421 | K) Friedman concludes that the prosperity Keynes predicted 【is】 here.
+1341 | Focusing on STEM skills 【is】 important, but the reality 【is】 that SIBM skills are enhanced and more
+1285 | What does the author say 【is】 important in formulating policies to improve diets and health?
+1414 | To make a conversation interesting, it 【is】 important that you listen to the other party attentively.
+1323 | It 【is】 important to talk through these issues before they come to a head.
+1436 | It 【is】 increasingly detached from the natural world.
+1481 | Remember, failure 【is】 inevitable, and every failure you survive 【is】 a learning experience.
+1487 | Psychologists also agree curiosity 【is】 intrinsically (内在地) motivated.
+1305 | Why 【is】 it important for firms to provide timely feedback during the pandemic?
+1477 | While pinning down a definition has proven tricky, the general consensus 【is】 it’s some means of information gathering.
+1412 | What might surprise consumers 【is】 just how many present-day nutrition studies are still funded by the
+1293 | Willpower 【is】 just like a muscle, to keep it strong you need to constantly exercise it.
+1464 | Choosing what to eat and drink 【is】 key to weight control.
+1433 | It 【is】 largely attributed to women booking earlier than men.
+1405 | investigation allowed us to conclude that this gap 【is】 largely explained by the fact that women tended to book earlier than men, 1.8 days on average.
+1446 | It 【is】 largely explained by women’s choosing cheaper flights.
+1317 | financial education in our schooling system that 【is】 leaving high schoolers seriously behind in the modern world of money.    ?P:that is
+1459 | even if it 【is】 low-paid.
+1458 | It 【is】 mainly accounted for by male employees’ readiness to pay more.
+1517 | It 【is】 morally wrong to think helping the poor 【is】 not our business.
+1532 | Some people have said aging 【is】 more a slide into forgetfulness than a journey towards wisdom.
+1452 | Exercise 【is】 more important to good health than diet.
+1460 | Drug research sponsored by the pharmaceutical industry 【is】 more likely to end up
+1472 | nutrition research sponsored by the food industry 【is】 more likely to end up favoring the food under consideration than
+1370 | Figure out which of the two 【is】 more reliable.
+1333 | This 【is】 most likely not because
+1291 | Big, systematic data 【is】 mostly the foundation of most of our decisions, personal and business alike.
+1345 | It 【is】 nearly impossible for students to build a relationship with their professor.
+1555 | What 【is】 needed for men to commit to early childhood education?
+1554 | It 【is】 negatively impacted by a lack of male teachers.
+1525 | life not only for others but also for ourselves, because ultimately, there 【is】 no difference.
+1427 | There 【is】 no point in transferring office work to working from home.    ?P:there is no point in
+1327 | However, aquaculture 【is】 no silver bullet.
+1416 | What does the author imply by saying aquaculture 【is】 no silver bullet?
+1389 | They are doing work they care about and are interested in, and doing more of it 【is】 not
+1438 | Being an information technology, or IT, worker 【is】 not a job I envy.
+1355 | It 【is】 not a moment too soon
+1402 | “What we don’t want to do 【is】 not act,” added Coursera chief operations officer Lila Ibrahim.
+1361 | Making quantitative distinctions 【is】 not an inborn skill.
+1417 | For one, starting on a new career path 【is】 not as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+1318 | All of this considered, the road forward for self-driving cars 【is】 not going to be a smooth
+1324 | Make sure to bring the audience into the conversation so that it 【is】 not one-sided,” Pass says.
+1399 | M) I have now come to realize that being boring, in actuality, 【is】 not only about who you are as a person, but also how you present yourself.
+1303 | K) “If the listener 【is】 not paying attention, it’s your sign to shorten the story or change direction.
+1313 | of hourly workers, their top concern 【is】 not that they work too much but that they work too little.
+1474 | But recent studies show a lack of exercise 【is】 not to blame for rising obesity rates.
+1526 | Good question, but the answer 【is】 nothing!
+1381 | The emotional labor women do 【is】 noticed only when it 【is】 not done.
+1552 | They prefer to go after all that 【is】 novel.    ?P:that is
+1462 | Junk food 【is】 now a staple of many Americans’ diets.
+1359 | restructured Zentech, once a taxation vehicle for his father’s business, and it 【is】 now in its fourth year helping international
+1467 | Debating scientific issues at a conference 【is】 now old-fashioned.
+1516 | It 【is】 now too widespread to be neglected.
+1434 | But for most Americans, that prosperity 【is】 nowhere to be seen.
+1501 | What does the author say 【is】 of extreme importance for one to become a successful entrepreneur?
+1542 | It 【is】 of no use in understanding obesity.
+1490 | When aid 【is】 offered
+1537 | What will happen when food aid 【is】 offered at a price?
+1439 | And what it pays for 【is】 often a pro-industry
+1325 | Most interaction with the professor has to be through email which 【is】 often impersonal.
+1541 | It 【is】 often the major cause for human failures.
+1400 | What does the author say 【is】 one disadvantage of online classes?
+1386 | What 【is】 one of the consequences of living big?
+1497 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, and curiosity 【is】 one of the tools humans have found to accomplish that gigantic task.
+1372 | The art of self-control 【is】 one that most successful individuals have mastered.
+1543 | What 【is】 one thing that helps maintain the health of our brain even as it shrinks2
+1453 | It 【is】 only a temporary measure.
+1319 | Grit tells us that the door 【is】 open wider than we first thought
+1451 | When IT 【is】 operating as it should, employee self-confidence swells.
+1350 | One 【is】 opposed to the prevailing work culture.
+1366 | State Department 【is】 posing a solution: online learning.
+1538 | body of research suggests that late-in-life learning 【is】 possible.
+1531 | It 【is】 preventing starvation occurring on a global scale.
+1445 | This 【is】 problematic because it hinders your ability to adapt to new circumstances, which 【is】 vital if you want to be a successful entrepreneur.
+1483 | It 【is】 protected by US government regulations.
+1360 | This combination 【is】 proving to be
+1328 | They tend to undervalue the opinions of others, which means they have trouble believing that anyone 【is】 qualified to give them useful feedback.
+1329 | This 【is】 reflected in our homes.
+1346 | What does the author say 【is】 remarkable about the fish we eat?
+1362 | It 【is】 reported that women consistently suffer more from severe stress than men.
+1534 | and values of the gig economy (-* .:c. *") , and where success 【is】 rewarded with good reviews that
+1347 | What 【is】 said about those working with or under overachieving people?
+1513 | What 【is】 said to happen when IT 【is】 functioning properly?
+1358 | She 【is】 saying it 【is】 possible that you
+1457 | Unfortunately, for the most ambitious entrepreneurs, a failure 【is】 seen as disastrous, and impossible to recover from.
+1316 | Continuing to grow concrete forests rather than real ones 【is】 shortsighted.
+1413 | The exercise 【is】 simple but important, since it brings these costs out of the realm of speculation into the realm of meaningful discussion.
+1388 | One 【is】 simply enjoying their time off work.
+1365 | Why does the author say aquaculture 【is】 so important these days?
+1488 | He believes that the dictionary definition of disease “【is】 so vague that we can classify almost anything as a disease” and says the question 【is】 not whether we can, but whether we should, and to what end.
+1330 | There 【is】 some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+1353 | you have a health issue and you want to be around longer for your kids, or if your business 【is】 something you're passionate
+1527 | By ensuring that their mental health 【is】 sound.
+1524 | It 【is】 still far from its goal despite the progress made.
+1378 | J) Digital entrepreneur and business consultant Mia Bennett says: “In more traditional settings, gaming 【is】 still imagined to be
+1473 | It 【is】 still impacted by the hit songs of the 1950s.
+1518 | want someone to approve of us, it’s being driven by that little kid part of us that 【is】 still terrified of abandonment.    ?P:that is
+1454 | “Thus body weight 【is】 strongly influenced by biology—it 【is】 not an individual’s fault if they develop obesity.
+1498 | But labelling obesity as a disease “risks reducing autonomy, disempowering and robbing people of the intrinsic (内在的) motivation that 【is】 such an important enabler of change.    ?P:that is
+1450 | It 【is】 suggested that gaming skills be included in a resume if they enhance a job applicant’s appeal.
+1392 | It should be taught the same way as English 【is】 taught.
+1468 | Despite decades of effort to eliminate hunger, the latest estimate 【is】 that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment.
+1415 | But 【is】 that bad for science?
+1404 | The problem with this argument 【is】 that most children aren't playing outside or even spending time with other kids.
+1466 | Yet the widespread view 【is】 that obesity 【is】 self-induced and that it 【is】 entirely the individual’s responsibility to do something about it.
+1368 | One benefit of this change 【is】 that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time 【is】 taken off from school.
+1533 | The general consensus 【is】 that they start dreaming around the age of two.
+1304 | Perhaps the biggest disadvantage of taking an online class 【is】 the absence of face-to-face interaction between the teacher and their students.
+1551 | What 【is】 the aim of psychologist David Foulkes’ study?
+1419 | What 【is】 the argument against the experts' idea of a long summer vacation?
+1375 | What 【is】 the author’s idea of a financial education course?
+1440 | What 【is】 the author’s opinion on working from home?
+1281 | What 【is】 the author’s suggestion to those who are seeking employment?
+1326 | What 【is】 the author’s suggestion to employers who experience the financial impact of the pandemic?
+1476 | What 【is】 the author's advice to consumers?
+1493 | that engineering 【is】 the best degree.
+1511 | Daddy doesn't like him or her, there 【is】 the danger that they will abandon them.
+1465 | The human thirst for knowledge 【is】 the driving force behind our successful development as a species.
+1504 | What 【is】 the finding of a recent survey on employees who have a job reliant on IT support?
+1547 | What 【is】 the finding of the 2012 study in the journal Psychology and Aging?
+1373 | Good communication 【is】 the first step in effective persuasion, but logic and reasoning are just as important.
+1529 | It 【is】 the force that pushes human society forward.
+1545 | What 【is】 the general understanding of curiosity?
+1335 | What does the author say 【is】 the greatest strength of Ford's book?
+1512 | In what way 【is】 the new intervention innovative?
+1523 | What 【is】 the popular view of obesity?
+1357 | What 【is】 the problem with requiring buyers to sign end-user license agreements?
+1443 | It 【is】 the safety net for those who fall off the edge of existence.
+1432 | One major side effect of excessive ambition 【is】 the tendency to focus too determinedly on one particular vision or end goal.
+1349 | What 【is】 the typical supermarket layout intended to do?
+1431 | Why 【is】 the U.S.
+1336 | Yet slipping from popular culture 【is】 the wonder and beauty of the natural world.
+1425 | By showing students the best way to learn 【is】 through play.
+1494 | They claim that lack of exercise 【is】 to blame for the increasing obesity rates.
+1367 | A better goal than building bigger houses for some 【is】 to create more publicly accessible spaces and amenities for all.
+1519 | An innovative way to beat obesity 【is】 to expose food companies’ manipulative and deceptive practices
+1344 | So one strategy to leave others with the impression that you’re a sparkling conversation partner 【is】 to get others to talk about themselves.
+1334 | The best way to create and stick to a habit 【is】 to have strong motivation.
+1309 | One of Chase Carey's goals 【is】 to make Formula One more appealing to Americans.
+1441 | One strategy to be a good conversationalist 【is】 to motivate your partner to tell their own stories.
+1395 | “When creating treatment plans, the aim 【is】 to optimise
+1351 | The only feasible option 【is】 to rely on what your instincts tell you.
+1447 | In the U.S. labor market. the primary concern of people with less schooling and fewer skills 【is】 to secure any employment
+1320 | But part of Game Academy’s suggestion 【is】 to transform
+1455 | If the public 【is】 to understand that science 【is】 an honorably self-correcting process, the idea that science 【is】 a fixed set of facts in a textbook needs to be dismissed.
+1331 | One 【is】 too busy to check all emails in time.
+1522 | It 【is】 too complex for non-scientists to understand.
+1546 | It 【is】 too inclusive and thus lacks clarity.
+1479 | It 【is】 transmitted through textbooks.
+1301 | characteristics 【is】 tremendous linguistic ( ii i. €r?) and cognitive diversity.
+1343 | The unpaid housework done by women 【is】 triple that done by men.
+1283 | The purpose of performance evaluation 【is】 ultimately to determine how to reward employees for their work.
+1428 | A person who 【is】 unable to stimulate others’ curiosity or make their life enjoyable may appear somewhat boring.
+1403 | What kind of social system does the author think 【is】 unacceptable?
+1299 | G) Playing games casually 【is】 unlikely to help your career prospects.
+1471 | People-pleasing, or seeking self-worth through others' approval, 【is】 unproductive and an exhausting way to go through
+1356 | It 【is】 unrealistic to give all Australian youth a financial education.
+1408 | It 【is】 unwise to weaken the human connection to nature.
+1539 | So, if your baby seems to be in a stressful state while sleeping or 【is】 upset upon waking, there may be other factors at
+1332 | Without making things complicated, the solution to this dilemma 【is】 using data and instincts in conjunction to arrive at the best possible decisions.
+1337 | He 【is】 very much lacking in financial literacy.
+1469 | For people with limited ambition, however, failure 【is】 viewed as something closer to reality.
+1387 | Some childhood development experts believe that time off from school 【is】 vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+1312 | This seemingly easy question 【is】 what drives the need to understand the relationship between instincts and data in the decision-making process.
+1499 | It 【is】 what proves valid and true to life.
+1492 | into trouble 【is】 when our self-worth 【is】 dependent upon whether we win someone's approval or not.
+1284 | What’s really remarkable, though, 【is】 where that fish comes from.
+1528 | This 【is】 where they conduct business, where a sense of community reinforces the culture
+1379 | That 【is】 why    ?P:that is
+1463 | Which 【is】 why managers should appreciate just how influential the IT user experience 【is】 to their
+1500 | This 【is】 why the work of the WFP 【is】 so vital.
+1448 | Such corporate sponsorship 【is】 widespread in some fields.

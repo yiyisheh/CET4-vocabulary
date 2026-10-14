@@ -1,0 +1,614 @@
+# 任务 C_r1_15：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_15.labels.txt
+
+============================================================
+## 词：a    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.一(个); 任一(个).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 一（个），一种（泛指）    B 样本 76    例：After you hear a
+  1  art. 每一（表示每个单位，如 twice a week）    B 样本 0
+  2  art. 任一（泛指一类事物，如 A dog is a loyal animal）    B 样本 0
+已标过的短语：a lot of（1）；a number of（1）；a few（1）
+已标 X：2 句，如：best answer from the four choices marked A), B), C) and D).
+口径说明（照此执行）：
+  - 选项字母 A)（marked A), B), C) and D)）标 X；a lot of / a number of / a few / a little / a variety of 等按 P 标；a dozen、a year、a month、a piece of 等普通数量用法按 0 标。
+句子：
+831 | the cars far behind are forced to stop completely or risk hitting the slower vehicles ahead — and so the traffic grinds to 【a】
+925 | In England. there has been 【a】
+1102 | For example, you might recognize that you are intelligent, but realize that you’re not 【a】 32.
+1153 | He recalled 【a】
+785 | must choose the best answer from the four choices marked 【A】 ) , B) , C) and D) .    ?X
+817 | the four choices marked 【A】), B), C) and D).Then mark the corresponding letter on Answer Sheet 1 with 【a】 single line through    ?X
+979 | W: I still think it’s 【a】 bad idea to use 【a】 credit card for something you don’t need. [11] One of my colleagues bought 【a】 lot of things on credit during her first year of work, and it became 【a】 bad habit, and she accumulated 【a】 lot of debt.    ?P:a lot of
+773 | Besides, I could teach him some of the basics from my time as 【a】 badminton player.
+1148 | 【A】 bank is more likely to hire
+881 | Freshly juiced fruit has become 【a】 basic dietary item — especially for busy, health-conscious consumers who can save time
+807 | 【A】 basketball player.
+869 | It has been abandoned as 【a】 battleground for male dolphins.
+929 | I also believe you were 【a】 beach volleyball athlete yourself not so long ago.
+730 | It has 【a】 beautiful campus.
+752 | However, deviance can also describe 【a】 behavior that simply differs from the norm.
+1086 | You can talk to 【a】 best-
+836 | Hiring managers are three times as likely to rate job applicants age 35-44 as 【a】 better
+1197 | 【A】 better connection between instructors and students.
+774 | about 【a】 better strategy, then we would get better results.
+1193 | By allowing employees to donate their time during work hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. [21] In one survey, 89% of employees perceived companies that sponsored volunteer activities as creating 【a】 better working environment, and 75% said volunteering was critical to their well-being.
+1138 | selling author about writing, but the only way to become 【a】 better writer is to practice publishing consistently.
+759 | "We're 【a】 big family," he said, shaking hands with other members as they walked through the door.
+940 | 【a】 big help — and that included in-person, on-the-job training, “'informal learning,” and online courses — with or without
+1121 | "This makes Morocco 【a】 big ___31___ in the field of solar energy in the Arab region and the African continent.
+1247 | Jet lag is 【a】 big problem for me and has been for the last few years, even though I never suffered from it before.
+908 | An employee in 【a】 big tech company deviates when they expose its wrongdoings.
+1010 | By renting 【a】 bike.
+696 | Rent 【a】 bike for him to get around the town.
+776 | Perhaps they made the sound of wind to comment on the weather or imitated the sound of 【a】 bird to tell 【a】 friend that there was 【a】 bird nearby.
+1263 | “I was comparing prices online and found one that came in 【a】 bit cheaper than others,” says O’Shaughnessy.    ?P:a bit
+989 | W: It sounds 【a】 bit difficult, but he’s done his research, I suppose.    ?P:a bit
+958 | They are 【a】 bit expensive for her.    ?P:a bit
+803 | I’m saving up to buy something reasonably small and cute, but it’s still 【a】 bit expensive for me, and it’ll take 【a】 while before I have enough money.    ?P:a bit
+1208 | It’s 【a】 bit heavy, but it’s great food for 【a】 cold night like this.    ?P:a bit
+897 | M: I’m getting 【a】 bit hungry.    ?P:a bit
+713 | Relax 【a】 bit less often.    ?P:a bit
+745 | But 【a】 bit of 【a】 giveaway is that the villa will be cheaper than on other websites and there’s unlimited availability,” says Tipton.    ?P:a bit
+1061 | We’ve got 【a】 bit of spare time now.    ?P:a bit
+766 | M: When is the show supposed to start? [10] I’m 【a】 bit overwhelmed with the amount of data I still need to collect to finish my thesis.    ?P:a bit
+682 | I think that’s 【a】 bit too formal.    ?P:a bit
+736 | M: No, just 60 pounds between the three of us, but still 【a】 bit too much to just let go.    ?P:a bit
+840 | And his story was 【a】 bit vague to begin with.    ?P:a bit
+788 | See, I did think it was 【a】 bit weird for him to be asking for money for that sort of thing.    ?P:a bit
+821 | “You can't get that with 【a】 blizzard bag or doing the work from home like that.
+971 | W: We have bunches of brochures here. [15] I would recommend getting out on 【a】 boat trip.
+1034 | Let’s say your goal is to write 【a】 book.
+1158 | In 1980, about 60 percent of senior high school students said they read 【a】 book, newspaper or magazine every day that was not assigned for school.
+1015 | 【A】 boom in market demand for clear plastic bottles.
+912 | This is because of 【a】 boom in petroleum chemical production from the U.S.
+857 | This time, though, it’s not 【a】 bottle that washes ashore.
+928 | worse than fill 【a】 bottle with water and sell it.
+1097 | They set up 【a】 branch in Dubai to manufacture coffee roasters.
+939 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class of 【a】 brand new school.
+1188 | environment and 【a】 broader, growing sense that something has to change.
+1048 | And if you get 【a】 broken egg, well, that could happen in 【a】 conventional shop, too.
+951 | Choosing the best time for signing 【a】 business contract.
+1068 | At the Dreamery, 【a】 business in Manhattan, naps are for sale.
+722 | how to start 【a】 business or how to lose weight fast or how to learn 【a】 new language in three months.
+1132 | I’ve never envied 【a】 busy person—the one who likes to point out their busy lives to others.
+1028 | In 【a】 busy world, “being busy” doesn’t stand out, nor does it mean productive, creative, accomplished, or professional.
+1219 | This is not 【a】 call to become 【a】 compulsive (强迫性的) liar, but 【a】 controlled liar.
+976 | [16] So I’m launching 【a】 campaign to stop people complaining about being “busy.
+699 | (13-1) Haven’t you got 【a】 car?
+838 | W: I’m thinking of buying 【a】 car.
+919 | M: We were thinking of renting 【a】 car, but we will explore all the options available for sure. [14] So, yes, that would be very helpful in comparing prices.
+890 | W: No, I actually owned 【a】 car for 【a】 little while when I lived in Miami.
+727 | when 【a】 car in dense traffic slows down even slightly, which causes the car behind that vehicle to slow even more — and
+812 | In other words, even if 【a】 certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.
+802 | View it as 【a】 chance for people to socialize and have fun.
+1011 | I could take 【a】 change of clothes and jog to work.
+884 | 【A】 change to teachers’ opinion of their students.
+804 | 【A】 child deviates from social pressures when they stand up for another child being bullied in school.
+775 | Research shows that 【a】 child’s awareness of social standing comes from adults.
+924 | It seems like you’re blaming them for not succeeding, when poor performance in school isn’t 【a】 child’s fault.
+756 | M: But asking “What do you want to be?” isn’t going to lead 【a】 child to 【a】 fulfilled life rather lead to false expectations and 【a】 high chance of disappointment.
+735 | It is related to 【a】 child's low intelligence.
+1113 | I’ve checked the availability of flights from Beijing to London on the 22nd and you have 【a】 choice.
+1170 | Richard Stone, an English teacher, thinks there should be 【a】 clear separation between school and home.
+1094 | They actually wanted 【a】 clear vision of the blackboard.
+893 | He thinks that being 【a】 close loser might give people 【a】
+707 | He has been 【a】 club member for 10 years and joined because of an interest in lion dance.
+743 | It is 【a】 code of conduct based on laws and ethics.
+864 | example, statistical studies that he and 【a】 colleague built of corn and soybean (大豆) production in the US show 【a】 steep decline after crossing the 30°C temperature threshold (临界点).
+1140 | It included deer, birds, and many fish. [25] In England, King Henry I set up 【a】 collection of animals in about 1110 as part of the royal estate.
+1096 | has some work experience in the industry than 【a】 college graduate who took the “right” degree.
+832 | Using new furniture to create 【a】 comfortable environment.
+1189 | Having 【a】 companion to talk to about their feelings can also help children feel secure and develop communication skills.
+822 | Various aspects of 【a】 company’s workforce.
+1279 | [25] Since most people tend to avoid risk, businesses that are brave enough to take risks already have 【a】 competitive advantage.
+767 | To tell others 【a】 complete lie about their inability.
+1116 | To be more creative, we could try lying in 【a】 controlled environment.
+1085 | But guiding them back to Earth in 【a】 controlled manner opens new possibilities—most components from the Falcon 9 can be reused up to 100 times.
+996 | The food is exactly the same as the stuff you buy in 【a】 conventional shop.
+852 | Whether 【a】 country’s educational level is linked to women’s rights.
+1008 | Their value to 【a】 country’s international image.
+904 | Whether 【a】 country’s protection of women’s rights is related to its public health.
+956 | Their link with 【a】 country’s public health.
+1190 | Let’s consider 【a】 couple more reasons to prioritize active
+1271 | There are 【a】 couple of ways to compromise on the issue.
+1273 | They enable him to enjoy 【a】 creative career.
+771 | I just got 【a】 credit card, so I thought I might as well buy 【a】 new phone.
+720 | It was once thought that the sensory regions of the brain were not ___31___ after 【a】 critical period in childhood.
+1112 | It may result in 【a】 crowded beach.
+1078 | Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out for alarmingly large snakes—and 【a】 curious pink dolphin appears to swim alongside. [19] While this may seem like 【a】 mythical creature, pink dolphins do exist in the Amazon region.
+1258 | Church records show he’s baptized (施洗礼) on April 26, and 3 days was 【a】 customary amount of time to wait before baptizing 【a】 newly born baby.
+764 | While there’s plenty of drama and messiness online, it is not, for most teens, 【a】 cycle of non-stop abuse: 【a】 Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+1099 | Social isolation poses more health risks than obesity or smoking 15 cigarettes 【a】 day, according to
+704 | W: We can’t dismiss the idea that teenagers have to plan to do something after they finish school, and parents are entitled to hope it’s more than simply spending 10 hours 【a】 day playing computer games.
+742 | Meanwhile, time spent playing video games rose from under an hour 【a】 day to an hour and 【a】 half on average.
+1218 | Being 【a】 deaf person in tech required 【a】 huge amount of effort in organization.
+1166 | He is 【a】 deaf person working in IT.
+1144 | ___28___ and avoid making 【a】 decision altogether.
+1147 | Analytical decision-making is 【a】 decision-making approach where 【a】 manager makes important business decisions only with solid data.
+1182 | Although born gray, males of the species are easily identified as they enter adulthood by 【a】 decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting or 【a】 serious bid for 【a】 mate.
+687 | The scientific evidence from countries like Australia, Canada and the USA clearly indicates 【a】 decline in the birds’ numbers.
+1055 | It has seen 【a】 decline in verbal agreements.
+797 | E) With such 【a】 degree of professionalism, how can consumers find out if the website they’re looking to book with is trustworthy?
+854 | There was too long 【a】 delay.
+1198 | While analytical decision-makers benefit from 【a】 deliberate, thoughtful approach, this style also has some shortcomings.
+1122 | They have 【a】 denser weave, and are more durable than any other jeans in the world.
+827 | Interactive experiences may provide opportunities for children to learn about what ___29___ 【a】 desirable
+974 | But it may also be an expression of 【a】 desire for going outdoors—【a】 response to the months of lockdown.
+960 | F) Creativity is also 【a】 deviation.
+1168 | Find online logic games and cheat at them, play Scrabble (拼字游戏) with 【a】 dictionary, or write 【a】 story about something that is untrue?
+1243 | G) So while we know that fruit juice can cause diabetes if it’s part of 【a】 diet that has more calories overall, it's less clear how
+758 | To them, 【a】 difference, no matter how small in your eyes, signals the end of the relationship.
+1236 | But weather can make 【a】 difference to school results, according to another piece of Harvard research published last    ?P:make a difference
+1229 | But when they were asked about how caregiving and household tasks were divided, their answers painted 【a】 different picture.
+813 | New research from America studies the role that the presence of individuals from different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence of an observer of 【a】 different race, as opposed to an observer from their own race.
+865 | The same was true when they were with someone from 【a】 different university, compared to someone from their own.
+1260 | The survey allowed for reading materials on 【a】 digital device.
+963 | 【A】 digitally-designed system.
+706 | So if you have 【a】 disagreement with 【a】 securely attached person, they’re not going to panic.
+1142 | Why such 【a】 disconnect? [20] Most people cite time and conflicting work schedules as major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job.
+801 | So how much of 【a】 discount is there on these two new classes?
+697 | I’m just wondering if I can get 【a】 discount on them.
+839 | Addiction to computer games is 【a】 disease.
+891 | There is not enough evidence to classify it as 【a】 disease.
+868 | Some of the dangers are emotional: hurting someone from 【a】 distance is not the same as hurting them face to face.
+710 | Within 【a】 distance of 18 inches.
+738 | They have 【a】 distinctive style of handwriting.
+899 | Advantages and disadvantages of 【a】 diversified team.
+1125 | [19] For college students under pressure, 【a】 dog may be the best stress fighter around, according to the finding of 【a】 recent study.
+992 | There’s 【a】 downside to this.
+987 | Adaptive cruise control is 【a】 driver assistance
+751 | W: (13-2) I’ve got 【a】 driver’s license, but that’s all.
+1087 | figures revealed 【a】 drop of almost 10 percent in students studying Design and Technology.
+791 | My grandfather was 【a】 duck hunter.
+783 | W: I know for 【a】 fact Hannah isn’t.    ?P:for a fact
+1076 | Newspaper reports of teenagers give 【a】 false picture of their behaviour.
+867 | So we have 【a】 family room for you and your wife and the kids, and another double room for your parents-in-law.
+1161 | “【A】 family will turn up at 【a】 villa and find out it doesn’t exist or the owner doesn’t know who you are,” says Tipton.
+896 | He is 【a】 famous architect.
+1157 | I’m just not 【a】 fan of sauces.
+753 | It’s 【a】 fantasy that goes back centuries: 【a】 message in 【a】 bottle, carried ashore from far-off lands.
+1036 | Researchers think the zoo was started with animals brought home from 【a】 far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+1242 | have bought 【a】 fascinating children’s toy called “Dazzle Racer”.
+810 | M: Could I ask you 【a】 favor?
+1029 | Even 【a】 few days lost in 【a】 year could be enough to    ?P:a few
+725 | His fascination with crime began at an early age when he was ___29___ by his father who made him spend 【a】 few minutes    ?P:a few
+1185 | University in the US, which concluded that missing 【a】 few occasional days because of the weather did not damage learning.    ?P:a few
+1091 | fight phantom jams within 【a】 few years, maybe decades before an alternative solution, such as networked self-driving cars,    ?P:a few
+1175 | Inside, the dancer manipulates strings that open and close the lion's eyes, shake its ears and open its mouth to reveal 【a】 fire-orange tongue.
+853 | M: (10) The same discount of 20% is being offered to everyone at the door on 【a】 “first come, first served” basis for the first month.
+1165 | (13-1) There’s 【a】 flight arriving the following morning, with 【a】 two-hour stopover in Dubai, or 【a】 flight arriving at 11:30 in the evening, with 【a】 five-hour stopover in Amsterdam.
+724 | W: What 【a】 fool he is.
+1173 | It could also be 【a】 forerunner for many other countries in the world that ___32___ on foreign imports of energy," said Ali Hajji, 【a】 solar energy specialist and engineering professor.
+1275 | For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, 【a】 former motorcycle parts dealer who built it into an international presence essentially on his own.
+909 | Police _29_ the eggs came from 【a】 freighter that lost part of its cargo during an unusually _30_ storm, the worst to hit Germany’s northeastern coast since 2006.
+947 | I would have to stay with 【a】 friend or check into 【a】 hotel.
+1046 | M: (14) I have 【a】 friend who sells second-hand cars.
+1092 | But research shows that, when it comes to actually making 【a】 ___27___ from all of these choices, people can become
+1274 | For if you nap properly, it’s like waking up from 【a】 full night’s sleep and you can double your day’s worth of concentration.
+921 | 【A】 full 70% of the young adults cannot afford to buy 【a】 car by themselves.
+828 | Eventually these gestures turned into 【a】 full sign language.
+698 | He loves them but does not want to make 【a】 fuss.    ?P:make a fuss
+944 | So we didn’t make 【a】 fuss about it.    ?P:make a fuss
+1088 | In China, Emperor Wenwang is said to have built 【a】 “Garden of Intelligence” around 1060 B.C.
+1254 | The phenomenon of math anxiety is characterized as 【a】 general sense of feeling that the subject is hard compared with other subjects leading to 【a】 subsequent lack or loss of confidence.
+729 | Last year, 【a】 German federal court said the shade of the gold wrapping was also protected.
+1130 | The Amazon river dolphin is 【a】 giant among its species.
+829 | He had 【a】 gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal ___31___
+805 | Authors, artists and children _26_ have dreamed of such 【a】 gift from the sea.
+793 | W: I am logged in, and I’ll give that 【a】 go.    ?P:give sth a go
+1082 | or 【a】 goal to reach.
+770 | They are 【a】 good choice for many people.
+1212 | J) Carla O’Shaughnessy from Sydenham was searching last year for 【a】 good deal to book 【a】 villa in Majorca for 【a】 summer break for the family.
+1081 | miss out on getting 【a】 good exam grade, the DFE’s research concluded.
+1128 | Parents are advised to mind their own digital behaviour and set 【a】 good example for their kids.
+1150 | He’s 【a】 good friend of mine, and he would never try to pressure you or cheat you.
+892 | Anyway, Jimmy is 【a】 good guy.
+1093 | Besides, I don’t think I could ever give up 【a】 good hot dog at 【a】 baseball game.
+818 | M: [11] That’s 【a】 good idea.
+1201 | Speaking to an expert would be 【a】 good idea.
+880 | Is it 【a】 good idea to display luxury brands and other signals of status?
+1226 | H) "【A】 good lion dancer will imitate 【a】 living creature," said Karlin Chan, aged 59, who heads the athletic club's community public relations.
+700 | But if we take 【a】 good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.
+1057 | “When people book their holidays they get so emotionally involved, and when they find that villa at 【a】 good price with availability in peak season, they are an easy target,” says Cooper.
+1107 | In spite of our _27_ discomfort, it turns out there’s 【a】 good reason our teeth are so sensitive.
+879 | reputation and the kinds of strategies that are effective for ___30___ 【a】 good reputation in their social environment.
+1270 | K) In addition to benefits for creativity, deviance can be 【a】 good thing in other ways.
+747 | That will offer you 【a】 good variety to suit different people’s tastes.
+721 | The environment is easier to control, and he can still get 【a】 good workout, in addition to improving his hand-eye coordination.
+789 | tracked more than 1 , 100 scientists who were on the border between getting 【a】 grant and missing out
+786 | He has 【a】 great collection of different stuff.
+1227 | “Many places could benefit 【a】 great deal just by using technologies that already exist,” Walsh says.    ?P:a great deal
+694 | It generates 【a】 great deal of electronic garbage.    ?P:a great deal
+734 | So going there should be 【a】 great idea.
+889 | They carry 【a】 great many diseases.    ?P:a great many
+1023 | There’s also 【a】 great night market further into town that has all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.
+887 | W: They do have 【a】 great outdoor campus where he could finally learn all those outdoor sports you have been wanting him to try.
+913 | Jeans are available in 【a】 greater variety in America.
+932 | Experiments showed that participants were less likely to choose someone who signals their wealth or status to join 【a】 group seeking cooperative members. [20] But participants were more likely to choose that person when they’re looking for 【a】 competitive team member.
+1005 | “It’s 【a】 growing problem and people can’t stop fraudsters being dishonest,” says Tipton.
+1211 | Namely, they help you treat others better, by using the way you yourself would want to be treated as 【a】 guide of how to behave.
+955 | What about 【a】 hard cheese?
+988 | 【A】 harmonious relationship among its students.
+806 | It’s located in what used to be 【a】 hat factory.
+1192 | heart disease — were applicable to the food and drink we generally consume as part of 【a】 healthy diet.
+1202 | exercise or to eat 【a】 healthy diet.
+1073 | There have been many attempts to help consumers make healthier choices, but consumers often struggle to maintain 【a】 healthy diet. [18] This research finds that one way to promote 【a】 healthy diet could be to advertise the social benefits of healthy choices.
+1051 | Workers at Mexican oil company will receive 【a】 healthy incentive of almost $300 【a】 year if they meet certain body weight standards.
+871 | 【A】 healthy mentality.
+1103 | To qualify for the bonus, they must maintain 【a】 healthy weight.
+1155 | Some applaud the policy as fair, because it rewards both the individuals who maintain 【a】 healthy weight and those who are working towards achieving it.
+1079 | They found that participants in 【a】 high-power interviewer role were more likely to give abstract
+1045 | They charged 【a】 high price for their space-roasted coffee beans.
+1003 | It places 【a】 high value on written contracts.
+1164 | They have 【a】 higher chance of joining sports teams.
+1146 | 【A】 higher grade average among all students of 【a】 class.
+1070 | Also, the fabric they use is of 【a】 higher quality and the dyes are natural.
+1038 | Customer satisfaction takes 【a】 hit as well.    ?P:take sth as
+1119 | It is 【a】 hotel for business people.
+1052 | 【A】 house made of timber and brick.
+1207 | 【A】 house of 【a】 unique design.
+1156 | 【A】 house of the current fashion.
+1268 | To enter 【a】 house well looked after.
+1104 | 【A】 house with 【a】 lot of free space.    ?P:a lot of
+1240 | 【A】 household pet can also cultivate 【a】 child’s sense of responsibility as their parent explains the necessary processes of keeping their pet happy and healthy.
+1217 | To get 【a】 hug from family members.
+945 | There's 【a】 huge amount of time and effort that goes into the process of selecting
+1154 | Perhaps it is not 34, then, that humility appears to be 【a】 huge asset to relationships.
+1209 | This is 【a】 huge drop and it is important to note that this was not merely 【a】 decline in reading paper books, newspapers or magazines.
+1151 | Thep is that loneliness is 【a】 huge, if silent, risk
+1256 | Thus, 【a】 humble partner might be your ideal partner.
+986 | The study found that while the bigger display table created more interest, people were almost 10 times less likely to purchase 【a】 jar of jam than in the case of the smaller display.
+680 | their finding 【a】 job.
+1204 | recent paper he submitted to 【a】 journal, which accepted it only to request extensive editing, and then
+975 | having more power in society — might be 【a】 key determinant .For instance, in 【a】 follow-up study conducted with
+1249 | [16] 【A】 key flaw with analytical decision-making is that it takes time.
+1277 | "I started lion dancing when I was 【a】 kid," he said.
+903 | You can spread it on bread with 【a】 knife, and then add 【a】 tiny bit of honey on top.
+1050 | Humility can sometimes be 29 with 【a】 lack of confidence.
+1181 | This is ___28___ due to 【a】 lack of necessary evidence.
+1191 | and industry bodies have pointed out that there has been 【a】 lack of roots-level support.
+849 | Also, speak to the person you’re booking the villa with on 【a】 landline phone, as fraudsters tend to only use mobiles.
+859 | 【A】 large touchscreen.
+931 | adults use 【a】 large variety of attributes to manage and create impressions, we don’t yet know whether children ___32___ and
+969 | The study found that people feel judged to 【a】 larger extent by members of other groups.
+1106 | This fits 【a】 larger pattern.
+920 | Just last week, California passed 【a】 law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.
+834 | It dulls 【a】 leader's sense of urgency.
+1035 | Recently, 【a】 leading design federation in the UK warned that the UK could face 【a】 creative skills shortage, after the latest
+916 | But eventually, yields will likely suffer because the soil north of Iowa declines in quality—【a】 legacy of glacial (冰川的) expansion.
+1047 | before making your choices. &eh choice in the bank is identified by 【a】 letter.
+1077 | choice in the bank is identified by 【a】 letter.
+1237 | Instead, they suggest it may be more of 【a】 lifelong process—【a】 continuous,
+952 | Logical learners have 【a】 linear mind and would rather use logic, reasoning and systems.
+1230 | Researchers have previously found 【a】 link between eating more fruits and vegetables, and improved longer term mental health.
+1123 | 【A】 lion head figure weighs under 10 pounds and sits squarely on the dancer's shoulders.
+973 | You are required to select one word for each blank from 【a】 list
+842 | You are required to select one word for each blank from 【a】 list of choices given in 【a】 word bank following the passage.
+1199 | 【a】 literature graduate who spent their summers working in their local bank than 【a】 finance or economics graduate who spent
+1084 | 【A】 litre of bottled water can cost well over 【a】 pound, especially for something fancy that has been sucked
+980 | 【A】 litre of tap water, the stuff we have cleverly piped into our homes, costs less
+1210 | If we eat something too hot or too cold, or if the tooth is worn down enough where the tissue _29_ is exposed, all of those things cause pain, and then the pain causes the person not to use that tooth to try to protect it 【a】 little bit more.
+1041 | W: That’s 【a】 little gloomy, but I can understand that to 【a】 point.    ?P:to a point
+1276 | M: They are 【a】 little pricey, yes.
+1016 | Additionally, recycling facilities may be improved at 【a】 local council level and recycled plastic could be imported.
+948 | He is 【a】 local entrepreneur.
+873 | H) There is 【a】 long-running debate on whether missing days of school affects attainment.
+1278 | “General farm management can go 【a】 long way toward easing changes.    ?P:go a long way
+815 | Let me have 【a】 look.
+1105 | W: Let me have 【a】 look at that.
+901 | He also suggests asking someone not going on the holiday to have 【a】 look at the website.
+876 | For all the innovation and choice that define the food and drink industries, if you want to make money, you could do 【a】 lot
+1215 | They tend to be 【a】 lot more aggressive than right-handed people.
+1124 | “High quality chocolate will be less available in the future, and if you want it, you’ll have to pay 【a】 lot more for it,” Jarvis says.
+1020 | “If predictions for the end of the century are true, though, I think 【a】 lot of agricultural areas in the US will see significant hits.    ?P:a lot of
+709 | W: [12] John, your book is getting 【a】 lot of attention, partly because you write that most people can retire by 40.    ?P:a lot of
+746 | It does 【a】 lot of damage to the environment.    ?P:a lot of
+1111 | 【A】 lot of minerals are extracted from the earth to make electronic readers.    ?P:a lot of
+684 | Is this 【a】 lot of money we’re talking about here?    ?P:a lot of
+1083 | 【A】 lot of people don’t know about this movement.    ?P:a lot of
+1013 | This is where 【a】 lot of people have trouble.    ?P:a lot of
+820 | 【A】 lot of people think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students more incentive to succeed.    ?P:a lot of
+1095 | Not to mention the overwhelming amount of homework they assign, which would lead to 【a】 lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?    ?P:a lot of
+1117 | There are 【a】 lot of reasons to want to keep your own last name.    ?P:a lot of
+900 | I’ve been using one since the start of last semester, and it has really helped relieve 【a】 lot of study pressure.    ?P:a lot of
+954 | Both groups spend 【a】 lot of time on mobile devices.    ?P:a lot of
+1220 | 【A】 lot of times, though, the act of keeping your name is still something that causes concern.    ?P:a lot of
+833 | He’s vegetarian, so I need to make 【a】 lot of vegetable dishes.    ?P:a lot of
+739 | Ducks are birds that feed and breed in areas where there is 【a】 lot of water, but their habitats have been shrinking in recent decades because of the droughts.    ?P:a lot of
+1056 | W: (15-3) Yes, you’ll probably start to grasp information 【a】 lot quicker that way.
+1252 | He’s 【a】 lovely guy, and he’ll be happy to help.
+1131 | descriptions of behaviors than were participants in 【a】 low-power interviewee role.
+708 | Even the small group of people who got 10 times the amount of exercise recommended by the federal government had 【a】 46% lower _32_ of death than the least active group.
+717 | Roth is concerned that e-learning days will offer 【a】 lower quality of education.
+1141 | Diets high in fibre have been linked to 【a】 lower risk of developing heart disease, stroke, high blood
+800 | Send him 【a】 map of the hotel area.
+1267 | Can you find 【a】 map that shows where the hotel is and send it to me online?
+683 | They need__«!dical help f`【a】 math anxiety. __
+981 | [16] Lift-off is usually the most environmentally harmful stage of any space mission, with vast quantities of fuel burnt up in 【a】 matter of minutes.    ?P:in a matter of
+1039 | technology that sets 【a】 maximum speed for vehicles and automatically slows the speed of the car when traffic is sensed in
+1001 | Can we get 【a】 meal delivered?
+949 | Are you going to prepare 【a】 meal for us?
+1017 | It is 【a】 means to inspire creative thinking.
+703 | 【A】 mechanical engineer.
+1159 | Tooth pain is 【a】 _28_ mechanism that ensures when 【a】 tooth is being damaged we’ll notice and do something about it.
+748 | Reserve 【a】 meeting room in the head office.
+749 | M: (8-1) Are you already 【a】 member?
+953 | Action Fraud says people should ensure the company renting the villa is 【a】 member of 【a】 recognized trade body such as ABTA.
+957 | As you are already 【a】 member, the fee of the class will just be added to your monthly bill.
+902 | It is 【a】 mental process influenced by many factors.
+688 | Download 【a】 menu.
+1246 | The battle over bike lanes needs 【a】 mindset shift
+1253 | Last year Britain even appointed 【a】 minister for loneliness.
+816 | But even back then, 【a】 minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck 【a】 blow at that culture in the 1980s.
+855 | W: (14-2) I consider that for maybe 【a】 minute.
+1120 | 【A】 45-minute session in 【a】 darkened enclosure with peace and quiet costs $25.
+750 | Hold it on 【a】 modest scale to remove birthday anxieties.
+811 | Stories vary about how lion dancing came to be, but most of them include 【a】 monster named Nian who would terrorize 【a】 village.
+863 | While lions are not native to China, some versions of the story include the villagers creating 【a】 monster of their own in the shape of 【a】 lion to fight off the beast.
+1090 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just 【a】 month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+898 | While 70 percent of 8th and 10th grade students used to go to the movies once 【a】 month or more, now only about half do this.
+728 | Joining 【a】 6-month training camp.
+795 | It is 【a】 moral principle to guide people’s behavior.
+1160 | The golden rule is 【a】 moral principle which states that you should treat others the way you want to be treated yourself.
+701 | She ordered 【a】 more expensive doll instead.
+1257 | 【A】 more productive method of encouraging health among employees is to promote healthy behaviors.
+1255 | He submitted the unedited version to 【a】 more respected journal and got
+1101 | J) For his part, Wang said that in his own experience, losing did light 【a】 motivating fire.
+1136 | through 【a】 mountain.
+792 | They were more eager to enjoy 【a】 movie.
+950 | More and more, watching 【a】 movie is something teens choose to do on their electronic devices.
+858 | This one, in particular, was closed for 47 years before we transformed it into 【a】 movie theatre.
+841 | As expected, there was 【a】 much higher rate of attrition (g!) among
+723 | see in adults appear at 【a】 much younger age than ___27___ known.
+962 | W: This week, we’re showing 【a】 musical from Pakistan.
+1172 | This is 【a】 nap joint.
+1145 | As I read an article on the subject in the past that suggested the opposite, it claimed that it was important not to miss meals and that taking 【a】 nap on the plane was the best way to adjust to 【a】 new time zone.
+1222 | It is 【a】 nap research institute.
+1223 | Is 【a】 nap worth $25?
+933 | Most foods containing fructose—【a】 naturally occurring sugar found in all fruits
+685 | have shown there's sometimes no penalty to 【a】 near miss.
+977 | that missing any days at school could have 【a】 negative impact on results.
+888 | H) “Midcareer switchers overwhelmingly say that training enabled them to shift to 【a】 new career path,” the analysts write.
+1214 | When you meet with 【a】 new coworker, you immediately begin to develop an initial impression of this person.
+967 | "It's hopeful that we're going to have 【a】 new day.
+1250 | Yes, it really can be difficult getting 【a】 new job after age 45, let alone changing careers.
+1195 | that, even more important choices, like accepting 【a】 new job, can ___33___ be changed.
+826 | We believe that 【a】 new result requires new knowledge.
+712 | But working out how to behave online is 【a】 new social skill.
+941 | Develop 【a】 new strain of coffee bean.
+1022 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years as more fathers feel comfortable taking extended time off, but gender bias persists when it comes to career prospects and the home, according to 【a】 new study of working parents.
+1075 | In 【a】 new study, participants were told to imagine that they were negotiating for something important to them, like 【a】 house.
+1232 | However, 【a】 new systematic review brings us usefully up-to-date on the current findings in this area.
+830 | Have 【a】 nice day.
+719 | M: Maybe you’re right, [9] but the thing is, everyone at the office has 【a】 nice, expensive phone, and I’m 【a】 little embarrassed by mine.
+1262 | 【A】 notable criticism of the golden rule is that its application can lead to undesirable outcomes, when it conflicts with laws and ethical principles.
+845 | M: I’ll make 【a】 note here on the system for you, so that the payment will be made tomorrow morning.
+1176 | Like Farrant’s work with resurrection crops, 【a】 number of companies, organisations and researchers are aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.    ?P:a number of
+1194 | G) Traffic jams are caused by 【a】 number of factors, such as roads that are poorly designed or over-capacity, localized factors    ?P:a number of
+1126 | H) Since then, there have been 【a】 number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.    ?P:a number of
+814 | 【A】 number of studies have looked at how family life can affect productivity and satisfaction in the workplace.    ?P:a number of
+978 | The researchers also studied 【a】 ___32___ of college students and found that
+914 | My friend brought me 【a】 pair from there five years ago, and they still look new.
+1225 | Do you typically spend that much on 【a】 pair of casual trousers?
+862 | W: 【A】 pair of jeans?
+1162 | Being 【a】 parent _33_ very high across the priorities of all study participants.
+1069 | With demand for energy ___29___ at an annual rate of 7 percent, the new solar plant could be 【a】 ___30___ part of that goal.
+872 | Your proposal to pay cash rewards to students who get good grades is 【a】 particular problem.
+790 | Directions: In this section, there is 【a】 passage with ten blanks.
+1026 | They have been attracted by 【a】 patch of land this close to wilderness, and it is their responsibility to keep it that way.
+1032 | than half 【a】 penny.
+690 | Online time has doubled since 2006, and social media use has moved from 【a】 periodic activity to 【a】 daily one in the same period.
+882 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if 【a】 person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published 【a】 study about jams.
+761 | W: Okay, but how much money does 【a】 person need to retire? [13] I’ve read articles recommending one million dollars as 【a】 good figure for retirement.
+850 | It is an objective evaluation of 【a】 person’s character.
+1206 | But critics say the policy contradicts recommendations by many health experts, who warn that 【a】 person’s weight is influenced by genetic and environmental factors.
+1137 | Helping to look after 【a】 pet can facilitate numerous aspects of 【a】 child’s emotional development. [19] Research shows that reading to 【a】 loyal and nonjudgmental companion, such as 【a】 dog or cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.
+823 | W: I don’t think buying 【a】 phone on credit is 【a】 good idea.
+1171 | It rents 【a】 place for nap-takers.
+1053 | M: Okay, well, there’s 【a】 place that does salads.
+1235 | After all, if you can jump out of 【a】 plane or off 【a】 bridge, then you can face anything else easily.
+768 | And then, for the last 10 years, I’ve worked as 【a】 political consultant, advising politicians at the national level about problems in our country.
+755 | 【A】 pop singer.
+1031 | Our guest today is 【a】 popular blog writer and 【a】 major figure in the tiny home community.
+1021 | Because of this, they strategically use healthy food choices to make 【a】 positive impression.
+907 | W: Yeah, that’s 【a】 possibility.
+1066 | “When students use their phones for research, they learn they have 【a】 powerful tool in their hands.
+993 | Use 【a】 pressurised tank to brew coffee.
+777 | inside 【a】 prison for his misconduct.
+1002 | Why is this 【a】 problem?
+1244 | But it’s 【a】 problem that impacts independent luxury food suppliers too.
+741 | But this seems to be 【a】 problem with your card number.
+930 | deliberate repetition of 【a】 process with the intention of reaching 【a】 specific goal.
+716 | M: I spent 25 years as 【a】 professor, actually.
+1261 | So it’s really 【a】 protective mechanism more than anything else.
+997 | Van de Rijt said he's not convinced that losing out gives people 【a】 psychological boost;
+1234 | Hal Hershfield, 【a】 psychologist at the UCLA Anderson School of Management, wanted to know why people weren't
+1251 | It is when the villagers choose 【a】 queen.
+983 | 【A】 question to think about is, “What happens even earlier than age five?
+733 | After you hear 【a】 question , you
+765 | After you hear 【a】 question, you must choose the best answer from
+1213 | How 【a】 rabbit study and an ex-student boost my hopes for 【a】 future of ‘love and dignity’
+1149 | 【A】 race passes through it annually.
+1231 | For many horses (and many trainers) this would mean the end of 【a】 racing career before it even began.
+1203 | Physical symptoms include 【a】 racing heart or struggling to catch breath.
+1067 | 【A】 rapid increase in U.S. petroleum chemical production.
+995 | They must be made from 【a】 rare material.
+1063 | But at this time of year, the air pollution is 【a】 real problem.
+718 | Not 【a】 realistic size for families.
+1135 | But I’ve seen your blog, and you write about houses that are as small as 20 square meters. [13] That’s not 【a】 realistic size for families.
+1143 | becomes 【a】 reality on the roads.
+1224 | "The last few years have seen 【a】 realization of ___35___ how competitive solar technologies can be," said Michael Taylor, 【a】 senior analyst at the International Renewable Energy Agency.
+1098 | He’s 【a】 really nice guy, and he knows 【a】 lot about cars.
+1177 | “It’s 【a】 really powerful finding,” said Patricia Pendry, who led the study.
+875 | People understand that you are 【a】 recent graduate, and I doubt anyone cares about your phone other than yourself.
+1264 | So it was when 【a】 recent letter came from Kelli Harding, 【a】 student 21 years ago in my Peace Studies summer course in Washington.
+1152 | 【A】 recent study found that 10 percent of British children suffer from math anxiety.
+1239 | Sales in the UK were worth 【a】 record £558.4 million
+1080 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, it’s not 【a】 reflection of their schedule; it’s 【a】 reflection of YOUR spot on their schedule.
+1118 | Meanwhile, Helen Lockhart, 【a】 registered nurse working for community education, supports 【a】 complete ban.
+934 | On 【a】 regular day at 【a】 local food market, people would find 【a】 display table with 24 different kinds of jams.
+809 | They may regard any difference as the end of 【a】 relationship.
+1089 | Another study found 【a】 relationship between fruit juice and type 2 diabetes after following the diets and diabetes status of
+946 | But 【a】 relationship is made of two 26 individuals.
+998 | And the personality traits (特性) these individuals 27 or lack can often make 【a】 relationship more- or less- likely to 28.
+769 | Roth says it is not sufficient as 【a】 replacement.
+1043 | They have 【a】 reputation of being overly strict with the students.
+1012 | G) In 【a】 research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on 【a】 subsequent task, even after controlling for differences in baseline creative skills.
+1221 | The internet is too easy and too unreliable 【a】 research tool, (18) so let’s leave phones and laptops at home, and show them 【a】 different world in their lessons—one of books and pens,” he says.
+763 | How are you today? [12] Do you have 【a】 reservation with us already?
+847 | Observing the golden rule is the first step to becoming 【a】 responsible citizen.
+740 | Locate 【a】 restaurant.
+1200 | She owned 【a】 restaurant in Idaho.
+1062 | By sharing 【a】 ride.
+1167 | M: (15-1) Not if you use 【a】 ride sharing app.
+731 | And then she bought her husband 【a】 ridiculously expensive sports car.
+1205 | The study also found that someone who is humble is more likely to initiate 【a】 romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.
+1216 | I’ve booked 【a】 room in 【a】 hotel about 【a】 mile from the office.
+895 | So every time we paint 【a】 room, we first have to move the furniture to another room.
+982 | You can learn about the best way to make 【a】 sales pitch, but the only way
+1027 | 【a】 sample of 300 students, the researchers ___33___ power dynamics in an interpersonal setting to see if this would influence
+760 | “Even if overall food production may be unaffected, food security can still be impacted,” says Margaret Walsh, 【a】 scientist at the US Department of Agriculture’s Climate Change Program Office.
+1058 | As 【a】 scientist, Smith _30_ studied individuality for 【a】 living, and even he was surprised to find younger respondents cared more about having 【a】 _31_ in life.    ?P:for a living
+970 | “Consider 【a】 scientist who is 【a】 keen rock climber,” says Kelly.
+1071 | As one person controls the head, 【a】 second follows under 【a】 train of fabric representing the body.
+1014 | Astrid Natley, 【a】 secondary school math teacher, incorporates phones into her classroom.
+1049 | It may yet be 【a】 selection effect.
+762 | When we develop 【a】 sense of space.
+1180 | It wasn’t apparent at the time, but Red Rum had 【a】 serious bone disease in his foot.
+918 | To maintain 【a】 serious hobby, people need to invest significant psychological resources, say the authors—so if the activity has the same kinds of demands as their work, they may be left _32_ and unable to perform well at their job.
+866 | But this was only the _29_ when they had 【a】 serious hobby that was dissimilar to their job, or when their hobby was similar to their work but they only did it _30_.
+972 | L) Distraction is also 【a】 serious issue.
+1179 | New research has studied the effects of 【a】 seven-week healthy cooking course.
+943 | They are 【a】 shade of red bordering on brown.
+905 | It’s 【a】 shame you missed out on the general discount.
+999 | If older children have more than an hour of homework, encourage them to schedule 【a】 short break to stretch.
+772 | depriving adult mice of vision for 【a】 short period increased the sensitivity of individual neurons in the auditory cortex ,
+1114 | He is 【a】 sign language interpreter.
+1269 | He needed 【a】 sign language interpreter for every meeting, but it was 【a】 huge effort to coordinate.
+1139 | 【a】 similar mix of creative and technical skills, also has recruitment problems.
+1186 | “I don’t think it’s such 【a】 simple formula.
+1129 | Please mark the corresponding letter for each item on Answer Sheet 2 with 【a】 single
+715 | Then mark the corresponding letter on Answer Sheet 1 with 【a】 single line through
+837 | corresponding letter on Answer Sheet 1 with 【a】 single line through the centre.
+894 | Please mark the corresponding letter for each item on Answer Sheet 2 with 【a】 single line through the centre.
+1059 | The health impacts from making one electronic reader are 70 times greater than those from making 【a】 single printed book.
+726 | W: I like this sort of idea. [14] Lawrence has 【a】 sister who is slightly older, so maybe 【a】 game that they can play together would be good.    ?P:so...that
+1024 | And studies show that pupils don’t fact-check information online—“smart searching” is 【a】 skill schools need to teach urgently.
+1030 | Thus, language seems to be 【a】 skill that, contrary to what many might ___35___, does not weaken with age.
+1259 | I’m trying to keep 【a】 slim figure, you know.
+1018 | It’s 【a】 slower process of making clothing.
+870 | W: I should be fine with doing it on your website, and I already have all my certificates, as we run 【a】 small farm shop too.
+695 | (8-2) We will just be 【a】 small group of friends gathering together at Washington Park.
+1072 | Some studies indicate that horticulture crops—generally, everything besides staples—may be impacted most severely, largely because they tend to be confined to 【a】 smaller geographic area.
+1238 | W: Housing costs are high, but do people really save that much by having 【a】 smaller home?
+917 | In one experiment, participants were offered the choice between candy and fruit as 【a】 snack.
+1054 | One reason is that going to the cinema is generally 【a】 social activity.
+691 | It is mainly based on 【a】 society’s religion.
+799 | What’s the difference between 【a】 soft cheese and 【a】 hard cheese?
+856 | 【A】 soldier deviates when they choose not to follow orders to kill an innocent civilian.
+883 | E) Horn has been working on the problem of phantom traffic jams for years, and he has come up with 【a】 solution: By splitting
+874 | Kids and adults alike find in dogs 【a】 source of attachment.
+1042 | Following 【a】 specific diet every day.
+942 | So have you got your mind set on 【a】 specific model?
+994 | I’ve heard that German cars are very reliable, but I haven’t decided on 【a】 specific model yet.
+692 | W: Rugby is 【a】 sport with two teams and the players carry the ball in their arms and throw it at each other.
+1037 | blood sugar cause the release of insulin to bring it back down to 【a】 stable level.
+1241 | First, passive learning can be 【a】 stick that supports inaction.
+1108 | As an emotional learner, I organize my notes into 【a】 story that I can connect to and recite to myself.
+935 | the difference between the cars in front and the cars behind, the spacing of cars in 【a】 stream of traffic can act as 【a】 damper
+936 | 【A】 strengthened effect of its discipline.
+1178 | I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have 【a】 strong desire for equality.
+784 | “Hiring managers have 【a】 strong perception bias against 45+ job candidates — they believe that members of this
+1266 | Their brain has 【a】 stronger connection between its two sides.
+1248 | 【A】 stronger support for 【a】 student-centered teaching approach.
+1133 | This differed from the findings of 【a】 study from Harvard
+796 | W: (12) Have you considered making 【a】 study guide?
+1074 | F) “We did 【a】 study on paternity leave five years ago.
+737 | F) In 【a】 study published in Nature Communications, Northwestern University sociologist Dashun Wang
+1044 | K) Many years ago, I wrote about 【a】 study which found that employers are much more likely to hire 【a】 college graduate who
+732 | 【A】 substantial part of this, they report, is “widespread ageism” on the part of hiring managers.
+681 | He is 【a】 successful car dealer.
+1134 | And once you’ve reached it, congratulations: you've made it; you're 【a】 successful human being of the 21st
+1009 | M: Well, I think that was quite 【a】 successful trip in the end.
+757 | Why friends break off contact all of 【a】 sudden.    ?P:all of a sudden
+965 | He longs to become 【a】 superstar himself.
+1169 | Hopefully you have 【a】 supportive groom who understands why this idea is the most appealing to you.
+1127 | Participants then completed 【a】 survey indicating how tough, deceptive and pleasant or otherwise they wanted to be, or wanted their agent to be, in the negotiations.
+915 | The new year—according to the Chinese lunar calendar—will begin on Saturday and marks the Year of the Rooster, which is thought to be 【a】 symbol of positivity.
+1109 | “The public has to learn to be far more aware they are 【a】 target for these sort of frauds.
+1115 | You take 【a】 taxi if you really have to.
+923 | 【A】 team of researchers led by Priyanka Joshi examined the degree to which men and women relied on “communicative
+984 | This makes things tricky for people who may want to impress others while also demonstrating that they are 【a】 team player.
+877 | It’s 【a】 team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+1183 | abstractly does not reflect 【a】 ___34___ tendency of men or women but rather ___35___ within specific contexts.
+1228 | Executive function is 【a】 term for the skills one needs to plan, organize, motivate, concentrate and memorize.
+711 | W: Poor Jeremy. [11] His wife is 【a】 terrible cook.
+906 | There was 【a】 terrible smell.
+926 | Indeed, the latest research that has emerged on language and aging shows that language mastery is 【a】 ___30___ that we begin
+1233 | There’s also 【a】 theory that this color helps the dolphins more readily blend in with their surroundings.
+959 | But you’ve given me 【a】 thought.
+787 | Social media addiction is 【a】 threat to our health.
+1006 | It may pose 【a】 threat to their children’s safety.
+968 | Other studies, including studies of wheat in India and corn in Africa, also found that there is 【a】 threshold above which yields sharply decline: crops can adapt and move, but only to 【a】 point.    ?P:to a point
+754 | When the train arrives, tell the train guard where you’re going, and he will help you secure the bicycles in the last carriage and give you 【a】 ticket.
+819 | They will be less challenging after 【a】 time.
+1065 | Once upon 【a】 time, it was just customary for 【a】 bride to take her groom’s last name as her own and abandon her maiden name completely.    ?P:once upon a time
+1064 | This shows participants three words at 【a】 time that appear to be unrelated, and the person has to think of 【a】 fourth word that is associated with all of them.
+922 | It is also cheap, at 【a】 time when many are worried about what the economic future holds.
+1110 | Perhaps this is because older people had fewer options when they were starting their careers, at 【a】 time when values focused more on stable incomes than _32_ personal missions.
+1184 | But after 【a】 time, your fear response to other things in life will be dramatically reduced.
+1187 | M: I do talk about very small homes, but there’s no set definition of 【a】 tiny home.
+860 | According to one recent business report, recycled plastic now costs an extra $72 【a】 tonne compared with newly-made plastic.
+848 | It’s 【a】 tool you can make yourself to take the stress out of studying.
+778 | M: What do you think of Battleships, then? [15] It’s 【a】 total classic.
+808 | Instead of 【a】 touchscreen, they’re controlled with an old-school keypad.
+844 | He is 【a】 tour guide.
+1000 | He took 【a】 tour of his client’s old home.
+705 | Why social media accounts vanish without 【a】 trace.
+843 | M: No, duck hunting seemingly exists as the continuation of 【a】 tradition.
+1100 | I’m going to go on the computer now and give it 【a】 try.    ?P:give sth a try
+1196 | So I guess I’ll give it 【a】 try next time I fly 【a】 long distance.    ?P:give sth a try
+714 | M: It does sound like it would suit my taste, but if they are making 【a】 TV series based on it now, I don’t know if I should read the book or watch the show first.
+861 | Jeans are 【a】 typical American garment.
+966 | I would have thought America made the best jeans because it’s 【a】 typical American garment.
+1245 | models of real-world traffic conditions, showing how 【a】 typical U.S. freeway could benefit from cars using bilateral control.
+825 | There’s nothing like playing as part of 【a】 unit to accomplish 【a】 goal like winning 【a】 game or even 【a】 championship. [13] He could try basketball since many of the courts are indoors now and it’s 【a】 sport that could help him understand team spirit while cooperating with others.
+780 | Adopting 【a】 variety of different seating options.    ?P:a variety of
+937 | He eats 【a】 variety of different vegetables and nuts, especially those with high amounts of protein.    ?P:a variety of
+1033 | Current spacecraft use 【a】 variety of fuels, but most are based on fossil fuels.    ?P:a variety of
+798 | Engage in 【a】 variety of psychological activities.    ?P:a variety of
+885 | No meat? [9] That doesn’t sound like 【a】 very balanced diet.
+851 | It’s only $15, 【a】 very good price.
+927 | M: Maybe you’re right, [10] but the credit card has 【a】 very good special offer, where I don’t pay any interest for six months.
+910 | London is 【a】 very large and international city.
+744 | M: That sounds like 【a】 very strange sport indeed.
+1007 | It has 【a】 very strong smell and 【a】 dry flavor.
+1265 | Obviously, person perception is 【a】 very subjective process that can be affected by 【a】 number of variables, including the characteristics of the person you are observing, the context of the situation, your own personal traits, and your past experiences.    ?P:a number of
+693 | “【A】 villa might cost £5,000 elsewhere and they will offer it at say £3,500.
+911 | 【A】 voice-response device.
+1174 | M: I have 【a】 34 waist and size 30 or 32 in length.
+878 | something new can actually be 【a】 waste of time if your goal is to make progress and not simply gain additional knowledge.
+779 | the slowing action spreads backward through the lane of traffic like 【a】 wave, getting worse the farther it spreads, Eventually,
+1004 | I’m very much dependent on vision as 【a】 way of taking in information.
+1019 | "In 【a】 way," she said, the rooster "stands for 'We The People.'"    ?P:in a way
+689 | I recently bought an office chair from your company, but I returned it about 【a】 week ago.
+824 | The researchers found that in adult mice, 【a】 week in the dark also changed
+794 | One out of ten American 8th grade students in 2016 spent 40 hours 【a】 week or more playing video games.
+985 | system 【a】 while to break these cells down and for fructose to enter the bloodstream.
+846 | E) That may be true, but that still does not tell us much about what happens across 【a】 whole generation of people when time spent on digital media grows.
+1163 | But the software for electronic readers can be updated instantly without the need for buying 【a】 whole lot of new books.    ?P:a whole lot
+1040 | 【A】 win for all people involved
+702 | Is there any chance we could have 【a】 window seat for one of those?
+781 | It has instructions for making 【a】 winter bean salad.
+961 | “At first, I thought this was 【a】 wonder, because everything was so _32_, but then we realized that this is 【a】 huge _33_ in the end,” said the mayor.
+782 | It has 【a】 wonderful arts program.
+991 | What about our local school then? [14] They have 【a】 wonderful arts program that would really challenge Jake in terms of creativity and imagination.
+1060 | It creates 【a】 wonderful setting for dating.
+1025 | of choices given in 【a】 word bank following the passage.
+886 | Minimizing the possibility of 【a】 wrong decision.
+686 | Workers who can lose 30 pounds in 【a】 year.
+964 | The price increase of recycled plastic could cost sustainable manufacturers an extra $250 million 【a】 year.
+1272 | Kate, 【a】 6-year-old girl, helped her brother wash windows to get 【a】 reward promised by her mother, 【a】 purple doll that she wanted.
+835 | I thought we agreed that we would not be sending him away at such 【a】 young age.
+938 | She moved to the U.S. at 【a】 young age.
+990 | Playing the piano from 【a】 young age.

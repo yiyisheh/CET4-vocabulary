@@ -1,0 +1,458 @@
+# 任务 C_r1_82：2 个词，429 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_82.labels.txt
+
+============================================================
+## 词：how    本段 216 句    模式：全标（每句都写）
+原释义：adv.怎样; 如何; 多少; 多么.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 怎样，如何（方式、方法）    B 样本 49    例：How can I help you?
+  1  adv. 多么，多（程度，如 how long 多久、how often 多常、how important 多么重要）    B 样本 18    例：How often he does shopping.
+  2  adv. 多少（how much / how many，问数量、价钱）    B 样本 8    例：How much did she win?
+  3  adv. 怎么样（问状况、评价，如 How are you?）    B 样本 2    例：How are you?
+已标过的短语：how about（3）
+口径说明（照此执行）：
+  - C 任务口径：how + 形容词/副词（how long/often/far/well/early/important/easily，含感叹句 How utterly...!）一律标 1；how much / how many（含 how much of a discount）标 2；How are you / How did we do（问状况、评价）标 3；how about（…怎么样，提建议）按 P:how about，how come（为什么）按 P:how come；how to do 和从句里的「…的方式、怎样」都标 0，不算短语。
+句子：
+131 | It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: 【How】
+267 | Building on these findings, the latest research examined 【how】 a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.
+288 | 【How】 a growth mindset of interest can contribute to cross-disciplinary thinking.
+176 | models of real-world traffic conditions, showing 【how】 a typical U.S. freeway could benefit from cars using bilateral control.
+102 | W: 【How】 about delivery fees?    ?P:how about
+126 | 【How】 about trying something new?    ?P:how about
+185 | Have you ever wondered 【how】 acceptable it is to hug or touch someone?
+180 | 【How】 accurate DNA tests are relies greatly upon the kind of test being taken, on the specific question you ask, and on
+144 | conditions, it is important to understand 【how】 accurate genetic tests are, and what information we can rely upon.
+99 | With genetic testing becoming increasingly popular, many people are left wondering exactly 【how】 accurate it is.
+81 | That is because they want to appear more adult, and they know 【how】 adults are expected to write.
+186 | Technology, no matter 【how】 advanced, should simply be a tool of a good teacher.
+273 | 【how】 advertising campaigns specifically target very young and poor people, causing harm for these vulnerable groups.
+166 | It’s easy for me to imagine 【how】 amazing it will feel at the end of the workday
+244 | 【How】 are almost half of our daily actions performed according to the passage?
+225 | I met three different people today, and each time, when I asked, “【How】 are you?
+163 | 【How】 are you today? [12] Do you have a reservation with us already?
+140 | Intelligent Transportation Systems, shows 【how】 bilateral control can fight the problem.
+206 | that shows 【how】 bilateral control can suppress phantom traffic jams.
+183 | Studies point to 【how】 boredom is good for creativity and innovation, as
+276 | 【How】 boundaries can be removed between arts and science disciplines.
+278 | To stop managers from talking about 【how】 busy their teams usually are.
+258 | Managers need to think twice about emailing their teams on the weekend and talking about 【how】 busy they are.
+221 | So why are we so proud to talk about 【how】 busy we are all the time?
+161 | Nobody can really be sure if risks will be met with success, no matter 【how】 calculated they may be.
+274 | 【How】 can a business help improve its employees' experience in using IT?
+124 | W: Maybe, but 【how】 can anyone save enough to retire by 40 when most people can’t retire at 60?
+283 | 【How】 can competitive rivalry benefit entrepreneurs according to the passage?
+210 | 【How】 can educators better develop students' SIBM skills, according to the author?
+286 | 【How】 can entrepreneurs avoid making impulsive and insensible decisions?
+289 | 【How】 can entrepreneurs overcome the risk-inducing effects of rivalry?
+201 | 【How】 can people best understand a particular fashion in an era, according to Ford?
+257 | 【How】 can scientists help cope with poverty and hunger?
+234 | After all, without counting, 【how】 can someone tell whether there are, say, seven or eight
+193 | 【How】 can the self-disclosure approach succeed in increasing interpersonal closeness?
+181 | 【How】 can they work together to achieve these goals?
+150 | I) So 【how】 can this problem be solved?
+95 | 【How】 can we solve this problem?
+259 | But when they were asked about 【how】 caregiving and household tasks were divided, their answers painted a different picture.
+237 | 【How】 civilized the communicators are.
+129 | thinking about your deadline in terms of days rather than months or years can help you wrap your mind around 【how】 close the
+255 | 【How】 close the communicators’ relationships are.
+281 | Last year, The New York Times revealed 【how】 Coca-Cola was funding well-known scientists and
+209 | 【how】 complex the genetics behind a trait is.
+80 | 【How】 could I ever forget?
+92 | 【How】 did talking evolve?
+247 | 【How】 did the author feel in today’s money world?
+243 | 【How】 did these personal bubbles arise?
+252 | I) So, 【how】 did we ever invent "unnatural" numbers in the first place?
+220 | 【How】 did we get here?
+114 | Pasternak also came away with some valuable observations about 【how】 different the North American way of life was, compared with many other countries.
+207 | Their design determines 【how】 differently they react to medicines.
+233 | 【How】 do children acquire the skills needed for the 21st century?
+240 | 【How】 do most Los Angeles residents now feel about homelessness?
+156 | 【How】 do smart people react when they are found to be wrong?
+93 | 【How】 do the clothes we wear sway our evaluation of ourselves?
+218 | 【How】 do the most ambitious entrepreneurs regard failure in their endeavor?
+246 | 【How】 do women engineers frequently feel according to the two civil engineers?
+121 | W: 【How】 does an insecure attachment affect relationships between friends, co-workers and romantic relationships?
+260 | 【How】 does the art of self-control help us succeed?
+174 | 【How】 does the author think grit can be helpful to us?
+293 | 【How】 does the business world view multitasking?
+91 | H) So 【how】 does the competition work?
+170 | 【How】 does this benefit the planet?
+203 | Yet, very little research has focused on 【how】 dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.
+217 | I like 【how】 economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.
+256 | This allows managers to both keep an eye on struggling employees and provide ongoing feedback on 【how】 employees are adapting to their new work environment.
+199 | individuals 【how】 enjoyable it was to pursue their goal, as well as 【how】 important their goal was.
+191 | The video from National Geographic was created to spread __32__ of 【how】 environmentally harmful cotton is.
+153 | More research is needed to see 【how】 exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+196 | A number of studies have looked at 【how】 family life can affect productivity and satisfaction in the workplace.
+143 | Basically, she miscalculated 【how】 fast she was burning through the money, and she’s now full of regret.
+282 | 【How】 feasible it is to create new disciplines like computational economics.
+254 | What do we learn about 【how】 genes shape people’s behavior?
+132 | For her book Overload: 【How】 Good Jobs Went Bad and What to Do about It, she and co-author
+141 | 【How】 had the
+119 | I mean, 【how】 hard it could be to create fabric and __26__ it into a shirt shape.
+118 | They simply don’t understand 【how】 hard some people have to work to accomplish the same things, and because of that, they push people too hard.
+269 | What is a reason for the author to be in the habit of saying “busy” when asked 【how】 he is doing?
+135 | Of more than 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet, and almost all overestimated 【how】 healthy it was. [4] Those who rated their diet as poor tended to be far more accurate.
+134 | By watching 【how】 healthy pets are brought up.
+248 | 【How】 healthy they are and what food they eat.
+241 | Personally, I’m going to stop saying “busy” when people ask me 【how】 I am.
+194 | One of my bad habits is saying “busy” when people ask me 【how】 I’m doing.
+224 | two months after setting the goal far more than 【how】 important they rated their goal to be.
+264 | Which is why managers should appreciate just 【how】 influential the IT user experience is to their
+190 | 【How】 is Bill Thomas’s new concept received?
+98 | M: Five million Euros—【how】 is that even possible?
+208 | applying for, or 【how】 it makes you more interesting as a potential employee,” Mr.
+83 | ways similar to 【how】 it would register Taylor Swift or the mailman.
+157 | Given 【how】 large the __31__ and cotton industries are, they take up a lot of our fresh water demands across the world, according to The Huffington Post.
+228 | As a university student I've come to realise just 【how】 little I know about money.
+287 | 【How】 long people took to reach the top of their career.
+294 | 【How】 long people usually stayed in a company.
+171 | “This study ___28___ what we are learning about 【how】 manipulating vision can have a ___29___ effect on the ability of an
+187 | M) It’s a guess 【how】 many George Engels in their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation is blessed with.
+212 | matter 【how】 many likes you get on your post.
+211 | Responses suggest that anumeric people have some trouble keeping track of 【how】 many nuts
+103 | included 【how】 many papers they authored and 【how】 influential those papers were, as measured by the
+275 | What might surprise consumers is just 【how】 many present-day nutrition studies are still funded by the
+147 | He examined 【how】 many times people were first authors on influential
+148 | 【How】 many workers are needed.
+192 | What size do you want and 【how】 much are they?    ?P:how much
+154 | Three days later, you’re overwhelmed by 【how】 much is on your to-do list.    ?P:how much
+265 | 【how】 much our cognitive lives differ cross-culturally, we must continually explore the depths of our    ?P:how much
+272 | 【How】 much protein they consume and what their body weight is.    ?P:how much
+266 | people do not know 【how】 much they are eating, it can be really hard for them to stick to a diet.    ?P:how much
+198 | Imagine 【how】 much time we lose each    ?P:how much
+130 | Working out 【how】 much we save using discount pizza coupons, for example, is much more relevant than abstract sums.    ?P:how much
+117 | Some say we should never meet our heroes, lest they disappoint us when we find out 【how】 normal they are.
+115 | 【How】 often do people ask you to do something and you just reply, “Sure.    ?P:how often
+253 | of 【how】 often they happen and 【how】 much they contribute to our overall energy intake.    ?P:how often ?P:how much
+113 | Consider 【how】 often you make this kind of judgment every day.    ?P:how often
+262 | 【How】 old they are and what activities they do.
+101 | As you read this, you are likely aware of what time it is, 【how】 old you are, your checking
+188 | Remember, as Bechtoldt says, “you are not responsible for 【how】 other people feel.
+107 | Further research is needed to investigate the causal nature of this relationship and to look at 【how】 owners’ personalities are directly influencing their pets’ behaviour and wellbeing.
+145 | Researchers would like to explore further 【how】 parents and schools can help ninth graders by changing
+290 | 【How】 people accumulated wealth in his father's time.
+295 | 【How】 people can be more focused and productive.
+120 | I don’t understand 【how】 people have creative careers without napping.
+292 | 【How】 people viewed success in his father's time.
+230 | The age-long mystery has now been resolved as to 【how】 phantom traffic jams are caused.
+204 | Numerous documentaries have shown 【how】 plastic is ultimately
+109 | A recent debate published in The New York Times discussed the question of 【how】 quickly medicine should be developed and produced.
+85 | with the length of time that a student is absent from school and 【how】 regularly this occurs.
+213 | To exemplify 【how】 remote working affects the economy.
+151 | When I examined 【how】 respondents expressed openness to new careers and employers, I found that they engaged in some key activities including researching new organizations and making new work connections.
+280 | 【How】 serious their protein deficiency is and what remedies they use.
+158 | To them, a difference, no matter 【how】 small in your eyes, signals the end of the relationship.
+214 | Despite the classification, there are more complex factors such as relational closeness, gender, age, and context that can affect 【how】 someone views physical contact.
+285 | 【How】 students in arts and sciences view the two types of mindset of interest.
+160 | For now, the jury is still out as to 【how】 successful those endeavours will be.
+279 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor 【how】 such feelings are affecting your decision-making.
+84 | M: In our family, we talk openly about things like the budget for holidays, 【how】 taxes reduce your income, and 【how】 to shop around for the best deals.
+100 | We also hope to learn 【how】 teachers, parents or school counselors can help
+142 | 【How】 teachers perceive them.
+215 | Teachers must stay on guard when it comes to what their students are doing in classrooms and 【how】 technology could be playing a negative role in the learning process.
+108 | F) But the trends related to movies are less disturbing compared with the change in 【how】 teens spend their time.
+239 | Once you’re committed to something, you’ve already decided 【how】 that future block of time will be spent.
+133 | M: Well, I can see 【how】 that might happen to someone, and I’m sure she regrets it, but I know it won’t happen to me.
+110 | (22-1) 【How】 the balance is struck between these two forms of communication—the point at which one needs to be exchanged for another—really depends on individual cultures.
+177 | Because 【how】 the body responds to a
+182 | Speakers of anumeric, or numberless, languages offer a window into 【how】 the invention of numbers
+168 | What does the author think of the book Dress Codes: 【How】 the Laws of Fashion Made History?
+86 | 【How】 the man could possibly afford a new phone.
+167 | M: When the time is right, I’ll start talking to our children about investing and show them 【how】 the money saved for their further education has grown.
+104 | 【How】 the paint job is to be done.
+116 | Additionally, a painted ceiling is a magical thing without being too obvious and can affect 【how】 the space feels as well.
+172 | Video of the rescue operation shows 【how】 the team used a crane to lift up the huge animal out of the well and onto the back of a truck.
+222 | So Ciara Kelly and colleagues recruited 129 hobbyists to look at 【how】 the time spent on their hobbies _27_ their work life.
+169 | is not 【how】 the two pieces of work and life come together.
+250 | The difficulty of foretelling 【how】 the various genes will interact.
+291 | By monitoring 【how】 their decision-making impacts their mentality.
+162 | 【How】 they affect our communication.
+184 | 【How】 they can be reduced in number.
+238 | As remote work is largely unobservable to supervisors, employers need to think about 【how】 they can objectively measure the quality of work in a way that is consistent for employees of similar rank.
+125 | 【How】 they cause increased headaches.
+271 | It may be an uncomfortable process, but good leaders and healthy teams recognize that productive and healthy conflict is an important part of 【how】 they function.
+138 | These findings suggest that people should change 【how】 they present themselves depending on their social goal.
+235 | Reflect on 【how】 they relate to others.
+82 | important part of 【how】 they think of themselves.
+111 | In the first part of the study I surveyed the employees about why and 【how】 they used platforms like Facebook, Twitter, or LinkedIn.
+146 | What's more, the 7 ,OOO or so languages that exist today vary dramatically in 【how】 they utilize numbers.
+231 | But if someone can explain 【how】 they’ve
+232 | at once, but it’s difficult to predict 【how】 they will play together.
+263 | Every new gaming upgrade improved his knowledge of 【how】 they worked.
+219 | Because people identify so closely with stories, they can imagine 【how】 they would have acted in similar circumstances.
+251 | little consideration of 【how】 those changes will impact the end user.
+123 | 【How】 those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+229 | It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand 【how】 to
+227 | The question of 【how】 to achieve work-life balance has long been the main subject of discussion among workers.
+88 | By showing children 【how】 to acquire knowledge about healthy pets.
+173 | because although you gain new knowledge, you are not discovering 【how】 to apply that knowledge.
+159 | The question is 【how】 to apply them effectively to strengthen an entire collective, which is more than just the sum of individual relationships," said Dr Matous.
+261 | We’re not all going to have the same ideas on 【how】 to approach policies, programs or problems.
+106 | The author of 【How】 to Be Interesting: An Instruction Manual, Hagy spends a lot of time thinking about what’s interesting to her.    ?X
+205 | an online course about 【how】 to build a business or read an article about a terrible disaster in a developing nation, but that
+277 | Employers can also consider 【how】 to bundle different types of compensation to help employees cope with their unique situations.
+179 | But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing 【how】 to choose” what to forget.
+105 | Educators don’t know 【how】 to deal with this.
+216 | To demonstrate 【how】 to distinguish different feelings.
+96 | [16] The most common question I’m asked always centers around 【how】 to get started in user experience design, to which my response is always that nothing can substitute real-world experience.
+226 | In order to learn the art of persuasion at the workplace, you need to understand 【how】 to handle conflicts and reach
+112 | Just come in and figure out 【how】 to increase peace and decrease violence.
+136 | Reading a book on 【how】 to learn a foreign language quickly allows you to feel like you are making
+249 | “It also helps with meta-skills — learning 【how】 to learn, experimentation, and
+122 | One lion dancer learned 【how】 to perform from his elders.
+137 | They are puzzled 【how】 to present their best to the employer.
+97 | Knowing 【how】 to remember major events in one's life.
+268 | The purpose of performance evaluation is ultimately to determine 【how】 to reward employees for their work.
+155 | Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on 【how】 to shift our perspectives on aging and growth.
+90 | 【how】 to start a business or 【how】 to lose weight fast or 【how】 to learn a new language in three months.
+94 | “Phantom” Traffic Jams Are Real—And Scientists Know 【How】 to Stop Them    ?X
+175 | To illustrate 【how】 to tell a story using music.
+195 | Failure will teach you 【how】 to think and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn from it and move forward.
+127 | It is urgent that schools teach kids 【how】 to verify online information.
+165 | Small children are not just learning 【how】 to walk and communicate, they are also trying to learn 【how】 the world works.
+236 | A study of 12- to 19-month-olds learning 【how】 to walk documented that these children fell down a lot.
+223 | Participants then completed a survey indicating 【how】 tough, deceptive and pleasant or otherwise they wanted to be, or wanted their agent to be, in the negotiations.
+242 | I) However, the study also shows 【how】 traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.
+284 | 【how】 valuable an individual is.
+202 | likely all play important roles in 【how】 we balance our professional and personal lives.
+128 | Why do we allow what others think of us to have so much power over 【how】 we feel about ourselves?
+139 | By impacting 【how】 we feel about ourselves.
+197 | Another role that they are expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect 【how】 we negotiate.
+189 | E) Perhaps one issue is 【how】 we think about the meaning of yes and no.
+152 | Ultimately, what affects our health in the most meaningful ways has more to do with 【how】 we treat one another, 【how】 we live, and 【how】 we think about what it means to be human than with anything that happens in the doctor’s office.
+89 | Then, the researchers compared answers to see 【how】 well responses to the two exercises matched up.
+200 | 【How】 will we fund the rewards in the meantime?
+164 | But 【how】 wise is it, really, to let your instincts drive your decisions?
+270 | But when you’re intently focused on outperforming your rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore 【how】 you achieve success.
+245 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks you 【how】 you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+87 | W: No, [8] actually, I was wondering 【how】 you could possibly afford a new phone.
+178 | “It’s about 【how】 you either make it relevant to the job you are
+149 | M) I have now come to realize that being boring, in actuality, is not only about who you are as a person, but also 【how】 you present yourself.
+
+============================================================
+## 词：so    本段 213 句    模式：全标（每句都写）
+原释义：adv.如此; 这么; 非常. conj.因此; 所以.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 所以，因此；于是    B 样本 27    例：So he asked the city’s
+  1  adv. 如此，这么，非常    B 样本 22    例：Companies are so ť
+  2  adv. 那么，这么说（引出话题、提问或确认）    B 样本 11    例：So would you consider Mexican?
+  3  conj. 为了，以便（= so that）    B 样本 3    例：It’s best to start young, so it’s instinctive rather than a scary subject.
+  4  adv. 这样，如此（代替前文，如 do so、I think so）    B 样本 4    例：“When people book holiday villas they are doing so through rose-colored
+  5  adv. 也（so + 助动词 + 主语，如 So do I）    B 样本 1    例：In the early days, as the supermarket multiplied, so did our suspicion of it.
+已标过的短语：so...that（5）；so that（3）；even so（2）；and so on（1）；so as to（1）；or so（1）
+口径说明（照此执行）：
+  - C 任务口径：so that / so as to / so...that（如此…以至于，含 so much that）/ and so on / or so（大约）/ even so（即便如此）/ so far / so-called / so long as 一律按 P；so much / so many（如此多）标 1。句首 So：承接前文得出结论、叙事里的「于是」标 0；转换话题、引出提问、确认对方意思（So, what's new? / So you think...）标 2。不带 that 的 so 表目的（…so he can...）标 3。do so、so recognized、especially so、So it was when... 这类指代前文的标 4；as A..., so did B / so do I 标 5。
+句子：
+170 | At last, the problem became 【so】 acute—and 【so】 visible—that Los Angeles took extraordinary action.
+110 | Over a decade or 【so】, American teens’ social media use shifted from an occasional activity to a routine one.    ?P:or so
+106 | The problem is, housework is often overlooked as work, even though it is often as laborious (or in some cases, more 【so】) as any paid job.
+161 | Fraudsters advertise their villas at reasonable prices 【so】 as not to be suspected.
+158 | While it may sound safe to avoid all physical contact 【so】 as not to offend anyone, the lack of touching might imply cold attitudes or indifference in interpersonal relationships.
+222 | Before systems for bilateral control are installed, drivers should not follow the car in front too closely 【so】 as to reduce    ?P:so as to ?P:too...to
+221 | 【So】 as you can see, when it comes to choices, less is more.
+235 | Many women who opt to simply keep their own names do 【so】 because they don’t want to give up all that they have accomplished professionally.
+159 | 【So】 before you can determine whether you and a specific company would be compatible together, it’s important to have a solid handle on what exactly you want from your employer.
+160 | (25-1) By contrast, other cultures may not see written contracts as quite 【so】 binding.
+230 | For a time an app developer in America was 【so】 busy attending to work and family that she suffered from sleeplessness.
+139 | W: [12] Um, I don’t think he should be doing something 【so】 challenging with all his breathing issues.
+265 | Yes! [22] It does matter where you sit in your classroom, 【so】 choose and choose carefully!
+122 | First, large houses take time to maintain, 【so】 cleaners and other low-wage service workers are required to keep these houses in order.
+187 | car in front 【so】 closely.
+271 | Because people identify 【so】 closely with stories, they can imagine how they would have acted in similar circumstances.
+219 | The experts concluded that pandas should ideally “be happy enough to thrive, but not 【so】 content that they don’t want to    ?P:so...that
+101 | He felt 【so】 disappointed in the establishment.
+291 | 【so】 does brain volume: Humans lose about 4 percent every decade starting in their 40s.
+286 | Smart people develop overachieving personalities because things come 【so】 easily to them.
+287 | 【So】 embrace the cliché and
+113 | “When people book their holidays they get 【so】 emotionally involved, and when they find that villa at a good price with availability in peak season, they are an easy target,” says Cooper.
+136 | Few topics have been 【so】 endlessly analysed as work-life balance.
+208 | 【So】 even if you don’t understand what the actors say, you can still read it.
+231 | 【So】 every time we paint a room, we first have to move the furniture to another room.
+93 | validate the value of design as a subject,” she explains, telling me that nearly 600 schools have taken part 【so】 far.    ?P:so far
+173 | 【So】 far, eight states and the District of Columbia have their own paid family leave laws.    ?P:so far
+277 | From our experience 【so】 far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It is a win for all concerned.    ?P:so far
+96 | I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself in an apartment 【so】 far from home. [9] And then there’s the expense, too.    ?P:so far
+129 | “Since climbing is 【so】 far _35_ from their day-to-day work activities, they can still recover from the demands of their job with plenty of resources.    ?P:so far
+262 | 【So】 far, it's a winning strategy: More than nine out of ten    ?P:so far
+243 | We may develop a habit of being 【so】 focused on maintaining a
+244 | Now, she notes ironically, the lanes are 【so】 foil of activity that opponents    ?P:so...that
+88 | Why the man is 【so】 fond of using his credit card.
+284 | who stay on are more likely doing 【so】 for financial reasons.
+278 | But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] 【So】, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+201 | There’s no wrong answer here—【so】 from big things to small details, write them all down on your list.
+150 | 【So】 going there should be a great idea.
+233 | “Sometimes you can be 【so】 good at something that it causes trouble,” she notes.    ?P:so...that
+247 | 【So】 have you got your mind set on a specific model?
+182 | It’s a team sport and they often have mixed-gender teams 【so】 he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+184 | 【So】 he is insane to give in to her like that.
+81 | He has brought his own lunch today, 【so】 he will stay in.
+255 | The next day, Kate asked if she could check the shipping status, 【so】 her mom clicked on the web page and then walked out of the room.
+94 | It gets 【so】 hot in the summer.
+279 | 【So】 how can you help your child do their best?
+151 | I) 【So】, how did we ever invent "unnatural" numbers in the first place?
+141 | H) 【So】 how does the competition work?
+107 | W: (12-1) 【So】, how much would the paint job cost?
+91 | M: I go to the bank once a week, and the rest of the time I keep my bank card at home, 【so】 I can’t get more cash out.
+210 | M: Too many people spend their lives working on jobs they hate because they’re afraid, 【so】 I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, they can go back to work.
+147 | 【So】 I guess I’ll give it a try next time I fly a long distance.
+189 | W: Well, she did say that jet lag often becomes more of a problem after forty. [14] 【So】 I guess I’m lucky that I can still adjust to different time zones well.    ?P:so...that
+273 | [16] 【So】 I’m launching a campaign to stop people complaining about being “busy.
+116 | 【So】 I’m sure that the head office in London will be pleased once we get back and present our research.    ?P:so...that
+99 | He’s vegetarian, 【so】 I need to make a lot of vegetable dishes.
+179 | First, they paused and reconsidered beliefs such as “I'm a professional, 【so】 I should work, work, work”, and asked
+261 | “【So】 I started delivering products by bicycle.
+240 | 【So】 I started to think: “Guess what?
+137 | I just got a credit card, 【so】 I thought I might as well buy a new phone.
+80 | To maintain a serious hobby, people need to invest significant psychological resources, say the authors—【so】 if the activity has the same kinds of demands as their work, they may be left _32_ and unable to perform well at their job.
+109 | But crucially, this was less 【so】 if they had completed the 30-minute jog.
+169 | 【So】 if you have a disagreement with a securely attached person, they’re not going to panic.
+204 | 【So】 if you have a left-handed child, you should encourage them to play table tennis, baseball and tennis.
+190 | 【So】, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at
+253 | Why does the author say aquaculture is 【so】 important these days?
+252 | This is why it’s 【so】 important to know which aspects of a company’s culture you value most.
+98 | hang around, 【so】 “in a lot of cases, that’s created much nicer environments that are really good for those businesses.
+215 | 【So】, in the end, the rewards will pay for themselves.
+197 | 【So】 including labor costs, taxes, and everything, this job would come to $3,000.
+105 | 【So】 is there any evidence that setbacks might actually    ?P:so...that
+185 | Even 【so】, it can be difficult for those who do not study music theory to see this as an indicator, since it is    ?P:even so
+119 | While this may be 【so】, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.
+168 | The U.S. has changed from a farming economy to a knowledge- and innovation-based economy, 【so】 it makes sense for the school year to change as well.
+100 | 【So】, it might be fair to assume
+238 | Another role that they are expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] 【So】, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+289 | When there are several different assignments, make sure they begin with one they enjoy, 【so】 it seems easy to get started.
+220 | 【So】, it should come
+87 | He said most Indiana schools already use digital devices during lessons, 【so】 it was an
+236 | The internet is too easy and too unreliable a research tool, (18) 【so】 let’s leave phones and laptops at home, and show them a different world in their lessons—one of books and pens,” he says.
+225 | The 115-year-old is active on social media, regularly sharing aspects of her life. [20] She also shares some of her secrets to living 【so】 long.
+218 | I also believe you were a beach volleyball athlete yourself not 【so】 long ago.
+149 | That’s 【so】 lucky of her.
+193 | European was decimally oriented because, as in 【so】 many cultures, our ancestors' hands served as the
+85 | They should cover 【so】 many different types
+212 | The kids will love it and there are 【so】 many islands nearby to explore.
+245 | That segment was too brief, especially as 【so】 many people have that problem.    ?P:so...that
+166 | E) The compromise is the biggest reason that 【so】 many women choose to hyphenate their last names.
+246 | “Many people ask me what diet I follow to live 【so】 many years,” Branyas wrote.
+186 | W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, 【so】 maybe a game that they can play together would be good.    ?P:so...that
+226 | 【So】, most people need their own car to get around.
+83 | Why Do Americans Work 【So】 Much?    ?X
+213 | the idea that less labor will be necessary because machines can do 【so】 much.
+239 | they like their jobs 【so】 much.
+258 | from the increased productivity since Keynes's time — can afford to work less, why do they continue to work 【so】 much?
+263 | During Covid, restaurants and cafes lost 【so】 much
+217 | Not 【so】 much, and, yes, they are made of plastic, although the company invites
+177 | W: Your book has sold 2 million copies, but before we discuss why it’s getting 【so】 much attention, let’s talk about your background.
+242 | With 【so】 much emphasis on employee wellness these days, company volunteer programs could be the perfect 2025 resolution.
+84 | Thank you 【so】 much for your help.
+191 | With 【so】 much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, 【so】 I don’t think I feel comfortable having our son in the first class of a brand new school.
+124 | Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend 【so】 much of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+272 | Why do we allow what others think of us to have 【so】 much power over how we feel about ourselves?
+248 | "It's certainly a problem that 【so】 much research in nutrition and health is funded by industry," says
+152 | It makes life 【so】 much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then not being able to find it again after you come out of the shops.
+211 | 【So】 much 【so】 that, according to experts in neuroscience (神经系统科学), our brains do not handle multitasking situations well.    ?P:so...that ?P:so that
+276 | outdoor seating 【so】 much that cities are making it permanent: A New York City study of several streets closed during Covid    ?P:so...that
+90 | “If a product that is 【so】 nakedly unnecessary
+237 | 【So】 next time you see your favorite superhero film, be entertained, but also be inspired.
+103 | The process seems 【so】 normal that we sometimes think of it as a    ?P:so...that
+223 | Driving around town in a car is 【so】 normal to them that cycling seems weird and unusual — despite its    ?P:so...that
+154 | Stress is 【so】 normalized that it is easy for women to shrug off those symptoms as simply the consequences of stress.    ?P:so...that
+241 | L) As is 【so】 often the case, clever marketing can beat reason; awareness is rarely enough.
+117 | The words “yes” and “no” get 【so】 often used in comparison with each other that it feels like they carry equal weight in conversation.
+92 | and losing weight becoming a better parent, saving more money, and 【so】 on.    ?P:and so on
+143 | We consider some clothes to be powerful some to be fun, and 【so】 on.    ?P:and so on
+176 | Almost half of our daily actions are part of our habits and not decisions, 【so】 once
+156 | 【So】 one strategy to leave others with the impression that you’re a sparkling conversation partner is to get others to talk about themselves.
+108 | And when we’re doing 【so】, our brains are more engaged.
+224 | 【So】 our family vacations were always by car or train.
+118 | W: (12) No, but the train was 【so】 packed that I could barely move, and it was difficult to breathe too.    ?P:so...that
+153 | valid reasons boredom may feel 【so】 painful.
+206 | Not all books are created equal, 【so】 parents need to choose the books they share with their children with great care.
+207 | For example, many women who choose to hyphenate do 【so】 partially because they have earned higher educational degrees and certifications under their maiden names.
+216 | K) “Work-life balance is understood to be an individual’s response, 【so】 people think ‘it’s up to me to manage the craziness of
+288 | Why are these sports becoming 【so】 popular?
+167 | 【So】 practically all of those factories had to close down.
+132 | Over the next century, he predicted, the economy would become 【so】 productive that people would barely need to work    ?P:so...that
+114 | The technology is being adopted 【so】 quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to find answers in a certain way.    ?P:so...that
+203 | “【So】 really, regardless of what you’re eating, if someone’s walking four miles more than you each day, they’re going to be a lot thinner and live a lot longer than you.
+275 | tried a dish from Impossible Foods, she felt 【so】 sick that she couldn’t finish it.    ?P:so...that
+89 | But now that you mention it, I do think getting another phone 【so】 soon is wasteful, regardless of the cost.
+202 | The temptation for those in charge of education budgets to trade teachers for technology could be 【so】 strong that they ignore the disadvantages of distance learning.    ?P:so...that
+254 | Travis Bradberry, president at TalentSmart, explained Bradberry in his post Why Smart People Act 【so】 Stupid that “rational thinking and intelligence don’t tend to go hand in hand”.    ?P:so...that
+142 | W: What? [15] That’s 【so】 superficial and selfish of her.
+227 | Human numerical instincts are not 【so】 superior to those of other mammals as is generally believed.
+123 | M: I’m not 【so】 sure that sleep is nearly as important as people always say it is.    ?P:so...that
+195 | 【So】 take the step of joining an
+121 | M: 【So】 tell us about your cinema, Cube Movie Theatre.
+266 | I’d also like it to be small, 【so】 that it’s easy to drive in the city.    ?P:so...that ?P:so that
+82 | Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete it 【so】 that no traces remain.    ?P:so...that ?P:so that
+102 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, 【so】 that people can just help themselves, rather than getting everyone to sit down at the table to eat a meal.    ?P:so...that ?P:so that
+163 | W: (13-3) Okay, 【so】 that’s Dubai.    ?P:so...that ?P:so that
+196 | Women are advised to identify the specific causes of their stress 【so】 that steps can be taken to deal with it.    ?P:so...that ?P:so that
+251 | 【So】 that takes more time.    ?P:so...that ?P:so that
+257 | But they could also indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter 【so】 that the other party would think they were losing interest.    ?P:so...that ?P:so that
+145 | of slowdowns by cars in front of a given car, 【so】 that the slowing is not worsened until it becomes a phantom jam, the    ?P:so...that ?P:so that
+260 | advantage to enter adulthood with confidence and security 【so】 that they are able to manage their own money and look after    ?P:so...that ?P:so that
+292 | [23] But too often we get caught in this place where conflict is perceived to be negative—something we want to avoid 【so】 that we can maintain the harmony of our workplace.    ?P:so...that ?P:so that
+192 | M: (11) Maybe we should ask Paul to bring his computer and speakers, 【so】 that we can play some music.    ?P:so...that ?P:so that
+181 | rates are, at the most generous estimates, 56%, 【so】 the actual recycling rate will be lower than that,” Chetan-Walsh says.
+157 | The client’s main desire was to have a home with the unique design, 【so】 the architect was given complete freedom.
+267 | During the secondary school years, extending what is learned at school is positively related to academic achievement, 【so】 the content of homework becomes more important.
+274 | 【So】 the menus remain regular too.
+283 | The reality is, nobody is too busy—it’s just about priorities. [17] 【So】 the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+270 | 【So】 the next week, (21) Kate’s family loaded up their car and took all the dolls to the playroom at the children’s hospital.
+138 | G) 【So】 the plastic tide only creeps higher.
+264 | 【So】 the problem really is widespread and deserves attention.
+249 | 【So】 the real danger here is that children who will completely able to do math at a normal level may keep away from it because they feel anxious.
+97 | the cars far behind are forced to stop completely or risk hitting the slower vehicles ahead — and 【so】 the traffic grinds to a
+128 | W: Yeah. [9] My little nephew turns six, and he loves the zoo, 【so】 the whole family is going.
+86 | Two pounds for each year 【so】 they can see some progression.
+134 | In our house, we have transparent money boxes for them to put small change in, 【so】 they can see their savings grow.
+125 | After two staffers returned to their share, there was $700 leftover according to Tarah Morris, the owner of the restaurant, 【so】 they decided to do something more by creating the board.
+290 | 【So】 they push even harder.
+256 | Good stories can contain multiple meanings, 【so】 they’re surprisingly economical in conveying complex ideas in graspable ways.
+250 | But walking is faster than crawling, 【so】 this motivates expert crawlers to transition to walking.
+180 | M: [15] 【So】, tiny homes might not be for everyone, but they’re a good option for many.
+282 | We learn about who we are and what is expected of us based on interactions with others 【so】, to a four-year-old, if Mommy or
+135 | beliefs, to realize that we almost never do 【so】, to understand that the simplest choices are charged with meaning, and yet that
+234 | That’s out of a total fish supply of 167 million tonnes; the remaining 20 million or 【so】 tonnes go into things like animal feed and medical products.    ?P:or so
+209 | M: Yeah, I thought 【so】 too.
+120 | Even if your groom is fine with it, his family (or your own) might not be 【so】 understanding.
+269 | “They’re 【so】 used to being right and having quick answers that they don’t even realise when they’re making a mess by answering without thinking things through.
+280 | It’s even harder for smart people because they grow 【so】 used to being right all the time that it becomes a part of their identity,” Bradberry wrote.
+205 | I’m reminded of the famous Peter Drucker quote, “There is nothing 【so】 useless as doing efficiently that which should not be done at all.    ?P:so...that
+198 | He believes that the dictionary definition of disease “is 【so】 vague that we can classify almost anything as a disease” and says the question is not whether we can, but whether we should, and to what end.    ?P:so...that
+112 | A person’s word is linked to their honor, 【so】 verbal agreements are seen as important, whereas written contracts are taken as memos of understanding.
+268 | This is why the work of the WFP is 【so】 vital.
+171 | None of these explained away the gender gap, 【so】 we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.
+183 | them to opt for it at General Certificate of Secondary Education, 【so】 we are helping to keep alive something which is crucial
+144 | We’d have a kitchen, 【so】 we could cook ourselves.
+126 | "Many people see team-building activities as a waste of time, 【so】 we decided to look in more depth at what's behind this," said the paper's lead researcher, Dr Peter Matous.
+104 | 【So】 we didn’t make a fuss about it.
+130 | 【So】 we have a family room for you and your wife and the kids, and another double room for your parents-in-law.
+133 | We believe that we will be different tomorrow, but in doing 【so】, we prioritize our
+127 | We wanted to determine what was causing these gender differences in booking business trips 【so】 we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.
+199 | Fortunately, all the blueprints for both the building and its contents have been preserved, 【so】 we’ve been able to replace badly damaged furniture.
+155 | 【So】 we would prefer the more expensive option.
+281 | Why are immigrants doing 【so】 well?
+165 | 【So】 what does this mean for parents?
+175 | 【So】 what happened?
+172 | W: 【So】, what have you been doing to stay busy while you’ve had that swollen ankle?
+115 | F) 【So】 what hidden costs should low-income students really be paying attention to?
+131 | M) 【So】 what’s the best way to cope?
+200 | 【So】, what should we do?
+214 | 【So】 what should we make of all this?
+229 | 【So】, what's the message conveyed?
+148 | 【So】, when do babies start dreaming?
+162 | 【So】 when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional $1,200 for the next year.
+228 | 【So】, which supermarket do you think is the best to order from?
+95 | 【So】 while fruit juice is better than no fruit at all, there
+188 | 【So】 while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees the parking loss as an existential
+146 | 【So】 why the blind
+194 | 【So】 with the deliveries, I’m actually saving on petrol.
+174 | M: We were thinking of renting a car, but we will explore all the options available for sure. [14] 【So】, yes, that would be very helpful in comparing prices.
+232 | 【So】 yes, you can definitely ask your interviewer about what it’s like to work for that particular organization.
+140 | If 【so】, you are
+259 | 【So】 you being busy doesn’t make me sympathetic at all.
+285 | Make sure it’s free of distractions, and—for primary school children at least—somewhere near you, 【so】 you can answer questions and offer encouragement.
+164 | You still need to say “no” to distractions, but you also need to learn to say “no” to opportunities that were previously good uses of time, 【so】 you can make space for better uses of time.
+111 | Company culture can have a big impact on how you feel about your work, 【so】 you want to make sure you sign an offer letter with an organization you’re truly excited about.
+178 | aids to back up your ideas can help communicate your ideas better and make compelling arguments 【so】 your listeners will

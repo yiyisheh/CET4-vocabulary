@@ -1,0 +1,610 @@
+# 任务 C_r1_52：2 个词，578 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_52.labels.txt
+
+============================================================
+## 词：with    本段 127 句    模式：全标（每句都写）
+原释义：prep.和…在一起; 具有; 用; 随着.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 和，跟，与（一起；表示共同参与或交往的对象）    B 样本 32    例：Bring in pets with them.
+  1  prep. 用（工具、材料、手段）    B 样本 14    例：Pay with his credit card.
+  2  prep. 带有，具有；带着    B 样本 10    例：or emails with surveys asking, "How did we do?
+  3  prep. 对于，在…方面（表示涉及的对象，如 deal with、wrong with）    B 样本 8    例：It is helping the police with the investigation.
+  4  prep. 在…的情况下（with + 名词 + 分词等，表示伴随状况）    B 样本 5    例：They argue we should replace them with other drinks, with water being the best choice.
+  5  prep. 随着；伴随    B 样本 3    例：It varies with the seasons.
+  6  prep. 因为，由于    B 样本 2    例：The sheets are damp with sweat.
+  7  prep. 属于，在…工作（如 researchers with a project）    B 样本 2    例：I’ve had the privilege of working with an exceptional team of individuals during the past 13 years with the agency. [4] It has been incredibly exciting and rewarding.
+  8  prep. 赞成，支持    B 样本 0
+已标过的短语：compared with（1）；charge sb with sth（1）；in harmony with（1）；in connection with（1）；have sth in common with（1）；with the help of（1）；make friends with（1）；provide sb with sth（1）
+口径说明（照此执行）：
+  - 「用」义的高频主要来自试卷说明套话 with a single line through the centre（n 很大）；扣掉套话后「和，跟，与」更常用，最终首要义项请留意。
+句子：
+801 | This occurs when business leaders implement IT initiatives 【with】
+803 | Adequate and timely IT support should also be available to enable users to cope 【with】
+723 | Job applicants should read 【with】 a critical eye what is written about a company on the website.
+759 | the species 【with】 a gene-editing technology, which will transform the seedlings into a species that survives even in a drier and
+686 | Employees 【with】 a growth mindset may be more likely to devise innovative ideas that bridge multiple areas of knowledge to achieve better solutions.
+681 | those 【with】 a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those
+694 | letter on Answer Sheet 2 【with】 a single line through the centre.
+730 | Its validity should be checked 【with】 additional care.
+722 | People’s interests tend to change 【with】 age.
+794 | However, they fail to provide a genuine education 【with】 an emphasis on convenience rather than critical thinking.    ?P:provide sb with sth
+752 | A chat 【with】 an insider of a company can give job applicants very useful information when they prepare for an interview.
+704 | Obese people would be overwhelmed 【with】 anxiety.
+734 | There’s a reason tailored jackets are associated 【with】 being “dressed for success”.
+772 | Why does the author say tailored jackets are associated 【with】 being “dressed for success”?
+743 | Despite this, popular culture and the housing industry market happiness as living 【with】 both more space and more amenities (便利设施).
+735 | This type of play-especially 【with】 building blocks-helps children discover and develop key
+764 | They are advertised as a way for adults to finish their education and students to learn the material at their own pace—it is far more compatible for people 【with】 busy schedules.
+793 | Allow them to tinker freely 【with】 calculators.
+797 | Engage students 【with】 challenging tasks to foster their creativity.
+689 | The technology is being adopted so quickly that school districts cannot adequately keep up 【with】 cheating policies, or even awareness campaigns that alert students to the problem 【with】 using technology to find answers in a certain way.    ?P:keep up with
+721 | They recommend providing young men opportunities to work 【with】 children through training and volunteer programs, targeting groups of men who are considering a career change, such as fathers.
+799 | Work together 【with】 companies to improve their teaching facilities.    ?P:together with
+739 | Job satisfaction has a lot to do 【with】 company culture.
+698 | advantage to enter adulthood 【with】 confidence and security so that they are able to manage their own money and look after
+683 | even share some basic instinctual quantitative reasoning 【with】 distant non-mammalian relatives like
+796 | They provide little chance for students to build relationships 【with】 each other.
+726 | The words “yes” and “no” get so often used in comparison 【with】 each other that it feels like they carry equal weight in conversation.
+763 | Who is capable of solving problems 【with】 ease.
+719 | technology companies are partnering 【with】 educators to bring back good, old-fashioned play.
+708 | However, organizations also need to be honest 【with】 employees about the financial impact of COVID-19.
+707 | What problem was found 【with】 employees using social media for work?
+693 | Students needed to help 【with】 farm work.
+737 | They feel pressured to keep up 【with】 female colleagues.    ?P:keep up with
+800 | For many scientists, public debate is a new frontier and it may feel like a place 【with】 few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+732 | Allow them to enter adulthood 【with】 financial security.
+766 | The WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters 【with】 food aid.
+750 | and values of the gig economy (-* .:c. *") , and where success is rewarded 【with】 good reviews that
+760 | If at first you fail, then try one more time 【with】 grit.
+790 | Encourage them to make things 【with】 hands.
+776 | 【with】 heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich and poor and sustains the old world order.
+784 | By familiarizing themselves 【with】 high-tech gadgets.
+767 | Most of us in the entrepreneurial community are blessed—or cursed—【with】 higher-than-average ambition.
+699 | “It may well be that the messy nature of their relationship 【with】 human efforts induces more animals to scatter or
+731 | People may cither be born 【with】 it or be able to cultivate it.
+706 | To begin 【with】, job applicants should be clear what they expect from their future employer.    ?P:to begin with
+756 | Questions having to do 【with】 labor cost.    ?P:have to do with
+783 | Brains can refresh and improve 【with】 learning.
+777 | For people 【with】 limited ambition, however, failure is viewed as something closer to reality.
+713 | They can do research 【with】 limited resources.
+798 | Schools 【with】 limited resources will be at a disadvantage.
+740 | Many of them ended 【with】 lower productivity.
+705 | It has done away 【with】 many of the traditional ways of thinking.
+715 | family—and compete 【with】 men who don’t have the same household responsibilities.
+751 | Providing male teachers 【with】 more opportunities for advancement.    ?P:provide sb with sth
+697 | I am a historian who, along 【with】 my colleagues, surveyed 251 women engineers who graduated from college in the    ?P:along with
+771 | What does the passage say about people born 【with】 natural talents?
+768 | make people think slower; as long as we are alive and functioning, we can alter our brains 【with】 new information and
+727 | Your hands are covered 【with】 oil; you're not going to get on the iPad, so it's a lot more natural to talk.
+687 | M) What are my chances of finding all of those things 【with】 one employer?
+685 | It has much to do 【with】 one’s genes.    ?P:have much to do with
+804 | Embrace it 【with】 open arms.    ?P:with open arms
+755 | It is an essential aspect of life to cooperate 【with】 other people.
+724 | They were reluctant to collaborate 【with】 others.
+744 | Our desperate longing for interactions 【with】 others.
+745 | Avoid getting involved in conflicts 【with】 others.
+761 | Why does science say the clothes one wears may affect their interaction 【with】 others?
+718 | Science says that the clothes we wear affect our behavior, our mood and even the way we interact 【with】 others because of the
+709 | Collaborating 【with】 others is an important element of life.
+712 | We learn about who we are and what is expected of us based on interactions 【with】 others so, to a four-year-old, if Mommy or
+688 | It is hard to measure when employees interact 【with】 outsiders.
+692 | This enables them to spend less time on administration and more time 【with】 patients.
+765 | Physically attending school has hidden benefits: getting up every morning, interacting 【with】 peers, and building relationships 【with】 teachers are essential skills to cultivate in young people.
+775 | Cultivating relationships 【with】 peers and teachers.
+782 | By sharing knowledge of agriculture and climate 【with】 peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems.
+792 | By sharing expertise 【with】 peers in poverty-stricken nations.
+748 | mean, who wants to hang out 【with】 people in their suits?
+786 | How can scientists help cope 【with】 poverty and hunger?
+680 | It particularly comes 【with】 risks when we consume more than 150ml of free sugars per day, or when it puts us
+716 | It should provide students 【with】 some basic knowledge.    ?P:provide sb with sth
+701 | 【with】 some college education were in the middle at around 15%.
+703 | Indeed, work 【with】 some other species suggests they too can refine their quantitative thought if
+753 | But moving away from a traditional classroom in which a living, breathing human being teaches and interacts 【with】 students daily would be a disaster.
+728 | It will strengthen their relationship 【with】 teachers.
+762 | They partner 【with】 technology companies to enhance teaching efficiency.
+682 | Technology companies have an interest in developing a workforce 【with】 the
+729 | As you become more capable of providing yourself 【with】 the approval you seek, your need for external validation will    ?P:provide sb with sth
+806 | employees' work, rather than adjust their work to fit in 【with】 the company's IT limitations.    ?P:fit in with
+774 | First of all, students lack the desire to learn, and they simply complete their assignments to receive credit for a passing grade rather than genuinely engage 【with】 the course material.
+757 | What can we do when we become better able to provide ourselves 【with】 the desired approval?    ?P:provide sb with sth
+684 | They work in conjunction 【with】 the environment.
+738 | What does the author want to illustrate 【with】 the example of smartphones?
+695 | A little examination can go a long way towards identifying bias associated 【with】 the funding source.
+770 | Produce chocolates 【with】 the latest gene-editing technology.
+741 | The ability to work 【with】 the least supervision.
+781 | They are not designed for students to interact 【with】 the material in depth but designed to be graded easily to accommodate such a large number of students.
+785 | Most interaction 【with】 the professor has to be through email which is often impersonal.
+747 | But 【with】 the release of Angela
+795 | Develop students' creative skills 【with】 the resources available.
+779 | 【With】 the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the
+711 | It will familiarize them 【with】 the school environment.
+742 | I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish 【with】 the time.
+802 | 【With】 the validity of science coming under attack, there’s a need for scientific debates to be perceived as open and true to life.
+746 | Help them become familiar 【with】 the world of money.
+805 | Therefore, businesses need to set up their IT infrastructure so that it is designed to fit in 【with】 their    ?P:fit in with
+754 | To maintain connections 【with】 their employees away from office.
+717 | Their chances of finding new mates have a lot to do 【with】 their habitat.
+720 | They placed the sugar industry in the spotlight 【with】 their new findings.
+791 | It can be harder for students to create study groups and form relationships 【with】 their peers.
+788 | It is nearly impossible for students to build a relationship 【with】 their professor.
+690 | Help people to deal 【with】 their troubles in life.
+725 | Employers can also consider how to bundle different types of compensation to help employees cope 【with】 their unique situations.
+758 | When they become aware of the meaningful relationships you keep 【with】 them.
+787 | Spend more time playing games 【with】 them.
+749 | Taking whatever materials are handy and tinkering 【with】 them is a
+780 | By playing 【with】 things to solve problems on their own.
+778 | Some folks are born 【with】 this take-in-the-world
+733 | 【With】 those born 【with】 natural talents, it feels as if they excel without really trying.
+702 | relevant when combined 【with】 traditional, hands-on creative activities.
+773 | By blending them 【with】 traditional, stimulating activities.
+700 | It provides us 【with】 vitamins — but fruit juice is far from a quick fix.    ?P:provide sb with sth
+789 | By collaborating closely 【with】 world economic institutions.
+691 | For example, if your manager comes to you and asks you to do X, you can respond 【with】 ‘Yes, I’m happy to make this the priority.
+736 | consultant or freelancer ( ro lb JfR 3k *) , people would wonder what was wrong 【with】 you.
+769 | When they are convinced they will make achievements together 【with】 you.    ?P:together with
+714 | are more likely to agree 【with】 you when they succeed alongside you.
+696 | you can get somebody on-board 【with】 your goal, you should help them understand why they should pursue it.
+710 | M) Using voice also makes sense when you're doing other things 【with】 your hands.
+
+============================================================
+## 词：not    本段 451 句    模式：全标（每句都写）
+原释义：adv.不; 没有; 并非.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 不，没有（否定谓语动词：is not / do not / have not）    B 样本 52    例：It is not tasty.
+  1  adv. 不是，并非（否定句中某个词或短语：hot, not cold；not all）    B 样本 9    例：of being chosen or not.
+  2  adv. 不（否定不定式、动名词、分词：not to do / not doing）    B 样本 8    例：The part about not eating on board the plane.
+  3  adv. 不（代替否定的从句，如 I hope not）    B 样本 0
+已标过的短语：not only...but also（6）；whether or not（2）；if not（1）；not any more（1）；why not（1）
+口径说明（照此执行）：
+  - not only / not just ... but (also/even) 统一标 P:not only...but also；29、50 两句同时还有普通否定（have not yet / do not want），只能标一个，取了短语。
+句子：
+151 | But many will 【not】.
+199 | natural part of growing up, but it is· 【not】.
+218 | I don’t see why 【not】.    ?P:why not
+222 | The evidence suggests 【not】.
+230 | person who does 【not】.
+237 | But why 【not】?    ?P:why not
+244 | they are overweight or 【not】.
+281 | This was an exciting result because it showed that the body's stress responses are 【not】
+310 | And Morrison was 【not】 ___26___
+337 | The bride should consider adopting her groom’s last name whether he feels strongly about it or 【not】.
+378 | Ford shows us it’s 【not】.
+381 | Of course 【not】.
+406 | Unless a far-reaching bottle ban does come into force, it will be up to consumers to 【not】
+427 | They are doing work they care about and are interested in, and doing more of it is 【not】
+478 | into trouble is when our self-worth is dependent upon whether we win someone's approval or 【not】.
+359 | For example, you might recognize that you are intelligent, but realize that you’re 【not】 a 32.
+336 | Thomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is 【not】 a bad thing.
+213 | This is 【not】 a call to become a compulsive (强迫性的) liar, but a controlled liar.
+248 | Luckily, there are a few things you can do to determine whether or 【not】 a company is a good fit for you—before you ever sign your name on that dotted line.    ?P:whether or not
+109 | I’m just 【not】 a fan of sauces.
+229 | Passive learning is 【not】 a form of practice
+174 | While that is 【not】 a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.
+518 | Some researchers suggest that work-life balance is 【not】 a goal to achieve, but a process for life to be adjusted promptly.
+104 | demonstrate that number words are 【not】 a human universal.
+412 | Being an information technology, or IT, worker is 【not】 a job I envy.
+522 | It is 【not】 a moment too soon    ?P:not a moment too soon
+108 | This _28_ of biographical information is due primarily to his social _29_: he was 【not】 a noble, but the son of a leather trader.
+136 | 【Not】 a realistic size for families.
+225 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, it’s 【not】 a reflection of their schedule; it’s a reflection of YOUR spot on their schedule.
+127 | The researchers also were 【not】 able to _34_ for certain lifestyle factors that could affect lifespan, including
+487 | Decisions are 【not】 about making the choice and braving the consequences because you want to blindly trust your instincts.
+391 | Perhaps 【not】 accidentally, in 2016 reading scores were the lowest they have ever been since 1972.
+399 | “What we don’t want to do is 【not】 act,” added Coursera chief operations officer Lila Ibrahim.
+268 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re 【not】 actually accomplishing their real purpose.
+514 | You may 【not】 actually experience emotional wellbeing at home if you remain occupied with what happened at work.
+140 | Of course, you’re 【not】 actually practicing the action that would
+187 | They may 【not】 adapt to the fragmentation of their habitat.
+347 | them with tap water, why 【not】 add flavouring?    ?P:why not
+524 | The authors also suggest that traditional recruitment approaches for early childhood educators “do 【not】 address the gender gap in the field.
+413 | The author emphasizes being anumeric does 【not】 affect one's cognitive ability.
+138 | It was once thought that the sensory regions of the brain were 【not】 ___31___ after a critical period in childhood.
+283 | has helped yield numbers in most cultures, but 【not】 all.
+284 | Still 【not】 all behavior experts agree.
+369 | 【Not】 all books are created equal, so parents need to choose the books they share with their children with great care.
+308 | We’re 【not】 all going to have the same ideas on how to approach policies, programs or problems.
+357 | They reside in our minds, numerical artifacts (A..I.!Ö ×) that 【not】 all humans inherit
+341 | Failure will teach you how to think and plan strategically. [24] But just remember that 【not】 all risks are good ones, and when you fail, learn from it and move forward.
+446 | After all, 【not】 all socioeconomically disadvantaged people consume poor diets.
+392 | 【Not】 all students have access to these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.
+442 | But online education does 【not】 allow a teacher to keep a struggling student after class and offer help.
+425 | Their brains do 【not】 allow them to multitask.
+276 | But what is simple is 【not】 always easy.
+176 | W: But it’s 【not】 always easy to get back into the workforce after an extended absence.
+433 | Still, that’s 【not】 always the case: When roused during
+429 | argue that work-life balance is “a cycle, 【not】 an achievement” In their 2020 study, the researchers interviewed nearly 80
+227 | But Morrison was 【not】 an early success.
+143 | K) Plus, she adds, it’s 【not】 an ideal way to reach the advised ‘five a day’.
+436 | Making quantitative distinctions is 【not】 an inborn skill.
+482 | “Thus body weight is strongly influenced by biology—it is 【not】 an individual’s fault if they develop obesity.
+254 | Many of them are 【not】, and a simple “no” will be more productive than whatever work the most efficient person can cope with.
+253 | My financial aid did 【not】 anticipate any of these costs, and so it did 【not】 cover them.
+454 | It does 【not】 appeal to him.
+193 | W: I am 【not】 as bad as that.
+87 | It is 【not】 as fancy as his colleagues’.
+206 | W: (11) I think they play football, but it’s 【not】 as popular as rugby.
+139 | It’s a team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s 【not】 as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+242 | H) Compared with other mammals, our numerical instincts are 【not】 as remarkable as many assume.
+504 | According to a management expert, work-life balance is 【not】 as simple as giving equal amounts of time to work and
+424 | For one, starting on a new career path is 【not】 as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+526 | less qualified and 【not】 as smart as I was.
+247 | In 1980, about 60 percent of senior high school students said they read a book, newspaper or magazine every day that was 【not】 assigned for school.
+128 | M: No, 【not】 at all.
+306 | as a whole, it is 【not】 at all the case for the median American worker.
+269 | weather are less problematic for students than absences that are 【not】 authorised.
+468 | If you are 【not】 aware as to why
+505 | Self-driving car manufacturers are 【not】 aware of the legal matters involved.
+384 | First, many physicians are 【not】 aware that some drugs work better during a specific time of the day.
+405 | And, according to new findings, it may 【not】 be.
+517 | Obese people would 【not】 be able to afford the medical costs.
+417 | Offering online classes certainly helps students who would otherwise 【not】 be able to attend classroom sessions.
+484 | Students may 【not】 be able to enjoy their state benefits when they go to college out of the state.
+453 | It might 【not】 be able to rival classical music and opera in importance for centuries to come.
+501 | Therefore, if you are someone who loves to show physical affection, you should 【not】 be afraid to show it or drastically change your behaviors—just ask for consent beforehand!
+428 | persuasion skills, employees may 【not】 be as committed to or convinced of the importance of an organization's vision and long-
+246 | How to 【not】 be boring
+390 | “Often, the ‘boring things’ may 【not】 be boring at all.
+509 | Learning new tricks should 【not】 be confined to old dogs only.
+422 | I’m reminded of the famous Peter Drucker quote, “There is nothing so useless as doing efficiently that which should 【not】 be done at all.
+477 | But with its extreme usability comes a complication: what do you do if you strongly feel something should 【not】 be done, even if the data insists that it should?
+479 | then the time you actually spend at home may 【not】 be enjoyable.
+88 | M: [15] So, tiny homes might 【not】 be for everyone, but they’re a good option for many.
+126 | Bone density may 【not】 be one of the most exciting health benefits of walking, but it's an important one.
+354 | I thought we agreed that we would 【not】 be sending him away at such a young age.
+121 | Even if your groom is fine with it, his family (or your own) might 【not】 be so understanding.
+271 | announced that water bottles will 【not】 be sold this summer.
+111 | Its terms may 【not】 be strictly binding.
+475 | Fish-farming will 【not】 be sustainable.
+356 | Surprisingly, the Space Roaster concept—should it go ahead—will 【not】 be the first attempt to take coffee into space.
+451 | may 【not】 be the most popular subject, but it’s consistently on the schedule throughout high school, with all students graduating
+328 | You may 【not】 be the one conducting the actual interview, but you’re still trying to determine whether or 【not】 the company is a good fit for you.    ?P:whether or not
+340 | This is an opportunity that surely all can agree must 【not】 be wasted.
+403 | This is most likely 【not】 because
+295 | We say “yes” to many requests 【not】 because we want to do them, but because we don’t want to be seen as rude or unhelpful.
+460 | Given these expectations, schools should 【not】 become permanently “remote”.
+409 | most drugs have 【not】 been studied for possible different effects during a 24-hour cycle.
+331 | A social aspect to health has 【not】 been taken into account in trying to provide the best medical care.
+152 | I’ve 【not】 been there before.
+120 | We need a more informed way of discussing behavior that at first we cannot, or should 【not】, begin to understand.
+154 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then 【not】 being able to find it again after you come out of the shops.
+395 | A Common Sense Media survey found that 35-percent of students had cheated via smartphone, though the parents surveyed in that particular study did 【not】 believe their kids had ever cheated.
+507 | What’s more, making obesity a disease “may 【not】 benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+415 | “Many people are ‘【not】 boring’ in the way that they can carry a conversation or can be good at a social gathering, etc.
+153 | We are 【not】 born to handle quantitative distinctions
+293 | Printed textbooks that are 【not】 brand new, still contain the basic relevant information of core subjects.
+286 | It has 【not】 built facilities specially for the left-handed.
+273 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do 【not】. [19] But new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.
+275 | M: 【Not】 by itself.
+309 | Research indicates absences from school with permission do 【not】 cause as many problems as those without permission.
+130 | However, the study showed participants’ mental health improved even if their reported diet did 【not】 change after completing the program.
+448 | American workers’ average weekly working time has 【not】 changed for nearly half a century.
+506 | But emotional labor is 【not】 circumstantial.
+321 | It is 【not】 clear how much they would charge for a cup.
+485 | The ability to overcome food shortages that must be built into some of the poorest countries will 【not】 come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+401 | They are 【not】 comparable to mechanical operating systems.
+297 | A behavior that does 【not】 conform to social norms may be described as being deviant.
+202 | It is 【not】 considered cost-effective.
+465 | It was surely a disadvantage though 【not】 considered fatal.
+455 | Drinking Coca-Cola does 【not】 contribute to weight gain.
+474 | bureaucracies, have limited English language skills, or are 【not】 contributing financially to their child’s education, the burden of self-advocacy will fall on the student.
+155 | Van de Rijt said he's 【not】 convinced that losing out gives people a psychological boost;
+190 | M: [11] I’m 【not】 convinced that the benefits are greater than the disadvantages, but I’ll discuss this with your mother.
+182 | University in the US, which concluded that missing a few occasional days because of the weather did 【not】 damage learning.
+224 | Almost half of our daily actions are part of our habits and 【not】 decisions, so once
+231 | If Johnny’s girlfriend doesn’t like him for who he is, then she does 【not】 deserve to be his girlfriend.
+362 | They are 【not】 designed for students to interact with the material in depth but designed to be graded easily to accommodate such a large number of students.
+400 | Some childhood development experts believe that time off from school is vital to healthy development as kids are 【not】 designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+418 | People who are 【not】 directly involved in the group’s daily work should also take part.
+256 | But this should be liberating, 【not】 disappointing.
+272 | because although you gain new knowledge, you are 【not】 discovering how to apply that knowledge.
+440 | Gone are the days of going to a conference and debating scientific issues, and that’s good because those gatherings were 【not】 diverse enough and excluded many important voices.
+118 | 【Not】 doing something will always be faster than doing it.
+516 | The emotional labor women do is noticed only when it is 【not】 done.
+245 | It has 【not】 done enough to help left-handed children.
+98 | I was surprised that the expert recommended 【not】 eating for the entire journey and avoiding sleeping on the plane.
+469 | Knowing the best way to learn a foreign language will 【not】 enable you to speak it without actual practice.
+141 | vulnerable, but 【not】 endangered, species.
+432 | It will 【not】 enjoy as much popularity as classical music and opera among music fans.
+463 | Refusing a request is sometimes seen as a privilege 【not】 enjoyed by ordinary people.
+323 | Some argue that there’s 【not】 enough research on the subject.
+228 | E) Hope is 【not】 entirely out of reach.
+167 | W: It’s 【not】 entirely unusual to feel anxious or sad around your birthday.
+156 | It is 【not】 environmentally friendly.
+137 | 【Not】 every child enjoys competitive sports or playing with balls and that’s OK.
+316 | 【Not】 everyone will see
+287 | And that’s 【not】 exactly an unexpected question.
+523 | 140-pound person should 【not】 exceed 120 grams of protein per day, particularly because a high protein diet can strain kidney
+520 | Some people believe that there may 【not】 exist a stress gap between men and women.
+162 | For a growing number of people, however, their yearly break is turning into a nightmare as they find that the property they have paid thousands for does 【not】 exist and the website through which they booked it has disappeared.
+129 | I did 【not】 expect 80% of people to say the organisation finds dads taking this leave acceptable and three-quarters to say it’s equally supportive of women and men taking leave,” Harrington said.
+447 | He was 12 years old and 【not】 expected to place highly.
+512 | Many women also do 【not】 experience chest pain before a heart attack the way men do, which leads to fewer women discovering problematic heart issues.
+398 | However, the research does 【not】 explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+382 | They will 【not】 fade away from the public eye.
+350 | The art of telling a story using music has 【not】 faded in the least
+339 | One benefit of this change is that students will 【not】 fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school.
+493 | Although men’s touching is more normal in these cultures, physical contact between persons of opposite sexes who are 【not】 family members is negatively perceived in Arabian countries.
+459 | (25-2) For example, a Japanese firm may have signed a contract, but they may 【not】 feel bound by every detail of it—particularly if circumstances later change.
+301 | Supermarkets may 【not】 feel cutting-edge now, but they were a revolution in distribution at the time.
+373 | Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do 【not】 feel detached from the school environment.
+513 | Obese people would 【not】 feel responsible to take any action.
+365 | Of the teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam but that they did 【not】 feel uneasy about the behaviour.
+226 | I) The Harvard study examined seven years of school results data and could 【not】 find any impact from snow closures.
+464 | Dietary recommendations are 【not】 fit for underprivileged people.
+191 | Before systems for bilateral control are installed, drivers should 【not】 follow the car in front too closely so as to reduce
+145 | N) But until those systems become standard, human drivers can help reduce phantom traffic jams simply by 【not】 following the
+305 | While there’s plenty of drama and messiness online, it is 【not】, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+510 | Talking about work-life balance is said to be a privilege reserved for the better-off, 【not】 for those who barely make a living.
+252 | But tablets contain many technological features that are 【not】 found in printed textbooks.
+307 | We may 【not】 get immediate rewards from self-control.
+157 | He did 【not】 go to university and at age 18 married Anne Hathaway, who was eight years his _32_.
+207 | He also suggests asking someone 【not】 going on the holiday to have a look at the website.
+330 | It is suggested that people 【not】 going on the holiday might help detect website frauds.
+490 | 【not】 going to answer many questions.
+498 | All of this considered, the road forward for self-driving cars is 【not】 going to be a smooth
+492 | “But unless we accept that obesity is a disease, we are 【not】 going to be able to tackle it,” he concludes.
+135 | It’s 【not】 going to be as
+215 | Your hands are covered with oil; you're 【not】 going to get on the iPad, so it's a lot more natural to talk.
+360 | E) “If someone is making up some conversation that might be interesting, it’s probably 【not】 going to land well,” says Pirson, whose expertise includes trust and well-being, mindfulness, and humanistic management.
+173 | So if you have a disagreement with a securely attached person, they’re 【not】 going to panic.
+204 | Large surveys conducted over the course of many years tell us that American youth are 【not】 going to the cinema nearly as often as they did in the past.
+311 | “Forty-four per cent would buy another drink which is 【not】 great, 14% would go without, and 4.5% said they
+452 | Acquisition of new knowledge may 【not】 guarantee the progress that you aim to make.
+515 | It will probably 【not】 guarantee the safety of drivers in case of accidents.
+264 | So much so that, according to experts in neuroscience (神经系统科学), our brains do 【not】 handle multitasking situations well.
+338 | Ambitious people may 【not】 have a greater chance of success.
+148 | He does 【not】 have a strong academic record.
+175 | One consequence of climate change is that some people may 【not】 have adequate access to certain foods.
+146 | She does 【not】 have any problem flying.
+408 | It could 【not】 have come into being without classical music and opera as its foundation.
+421 | All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would 【not】 have had anywhere else.
+372 | Ambitious people may 【not】 have more positive qualities.
+410 | Since your baby doesn’t dream at this stage of brain development, it’s safe to assume babies do 【not】 have nightmares,
+238 | They may carry viruses that are fatal to native snakes, which do 【not】 have resistance.
+235 | change — and it seems reckless to 【not】 have them.
+132 | weights—is of such ___32___ intensity that your body does 【not】 have time to use oxygen to create energy and so instead it
+97 | She does 【not】 have to worry about jetlag.
+166 | For example, there is no meeting that goes faster than 【not】 having a meeting at all.
+300 | W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that 【not】 having enough sleep can contribute to serious health problems like obesity and heart disease.
+296 | He no longer has to worry about whether or 【not】 he can understand.    ?P:whether or not
+352 | In a war of culture, data does 【not】 help much in changing people’s minds.
+497 | is 【not】 how the two pieces of work and life come together.
+494 | When the person who damages dorm facilities is 【not】 identified, students are required to share the cost.
+255 | M: (15-1) 【Not】 if you use a ride sharing app.
+389 | Humble people do 【not】 ignore, avoid, or try to deny their limits or deficiencies.
+299 | If you have too much ambition, you'll find this hard, if 【not】 impossible.    ?P:if not
+250 | It’s 【not】 impossible to stop but as it’s internet-based it’s harder to pursue.
+81 | There’s also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are 【not】 _31_ in any of these measurements.
+423 | While this may be so, it does 【not】, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.
+344 | for normal workers (those who were 【not】 in management roles) in private industries other than agriculture nearly doubled in
+267 | Most of us are 【not】 in the habit of exercising self-control.
+333 | Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do 【not】 include extra fees for lab tests or prescription medications (药物).
+358 | Most people did 【not】 include snacks when reporting their calorie intake.
+116 | They hit me right out of gate with a $160 fee to attend my freshman orientation, a price which does 【not】 include the cost of travel to and from the District.
+165 | Almost every class has an associated fee 【not】 included in the cost of tuition, most between $40 and $100.
+92 | “Most large animals that eat meat live in increasingly fragmented landscapes,” said Sillero, who was 【not】 involved in the
+212 | W: Well, to deal with the birthday blues, you should 【not】 isolate yourself.
+214 | Whether your future husband insisting on your adopting his last name is a red flag to you or 【not】, it is still something that you should take into consideration.
+142 | I can understand some scars and physical defects can be ugly and distracting, but 【not】 Johnny’s. [14] In fact, I thought it added character… like it gave him a certain uniqueness.
+319 | You are really 【not】 joking, are you?
+163 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed 【not】 just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.
+370 | Good health is 【not】 just a privilege of the young.
+117 | Thus, the researchers argued that gender equality is 【not】 just a women’s rights issue.
+261 | It’s 【not】 just about being entertained, but also being inspired.
+208 | He’d sit down to talk with the patient 【not】 just about medical problems, but about her life and priorities.
+332 | It includes 【not】 just how we form these impressions, but the conclusions we make about other people based on our impressions.
+178 | This is true 【not】 just in terms of their social lives, but their education too.
+471 | F) It’s 【not】 just inside the home, though.
+488 | Small children are 【not】 just learning how to walk and communicate, they are also trying to learn how the world works.
+334 | In reality, they’re 【not】 just opposite in meaning, but of entirely different magnitudes in commitment.
+291 | But it’s 【not】 just the financial cost.
+461 | This means that work should be measured in terms of the quality of the work, 【not】 just the quality of the process.
+181 | M: But my proposal is 【not】 just to reward students with good grades, but also students who show improvements.
+376 | In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas 【not】 just to their friends, but to the world.
+285 | people do 【not】 know how much they are eating, it can be really hard for them to stick to a diet.
+367 | We did 【not】 know to ask—and the school did 【not】 readily point out—that even if tuition rises, my financial aid package will stay the same.
+210 | The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, or even the entire building if they do 【not】 know who caused the damage.
+499 | Like domestic labor, emotional labor is generally dismissed and 【not】 labeled work.
+486 | They do 【not】 lack food knowledge or budgeting skills.
+404 | It makes heavy reading but is 【not】 lacking in humor or appeal
+431 | That said, the main point of this article is that learning by itself does 【not】 lead to progress.
+241 | M: (15-1) Oh, no, he’s 【not】 like that.
+194 | He does 【not】 like Westwood Elementary School.
+443 | Since cheating through technology is 【not】 listed specifically as being against the rules in many school policies, students do 【not】 view the actions unethical.
+196 | They do 【not】 look promising at the moment.
+462 | If something does 【not】 look right, ask about it.
+251 | According to Kelli Harding, scientific advances have 【not】 made Americans healthier, nor prolonged their life.
+239 | They do 【not】 make any sense at present.
+470 | It does 【not】 match his abilities.
+386 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just 【not】 mature enough to live on his own at this point.
+220 | [22] Taking risks in business does 【not】 mean going into business blindly and then expecting great results.
+416 | However, that does 【not】 mean teens need to use electronic devices as often as they do now.
+288 | This is a huge drop and it is important to note that this was 【not】 merely a decline in reading paper books, newspapers or magazines.
+368 | But it’s also true that saying “no” is 【not】 merely a privilege reserved for the successful.
+200 | Is it 【not】 more expensive to get everything delivered?
+374 | But contrary to popular belief, the homeless in Los Angeles are 【not】 mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+192 | to remember that many of the choices you make, such as what to have for lunch, will 【not】 ___32___ much in the future and
+335 | This is in contrast to books that did 【not】 name images, or books that had the same label under each image.
+124 | E) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that is 【not】 NASCAR (纳斯卡车赛).
+219 | While lions are 【not】 native to China, some versions of the story include the villagers creating a monster of their own in the shape of a lion to fight off the beast.
+349 | In Egypt, researchers have found buildings from around 3500 B.C., containing the remains of animals, including elephants, which were 【not】 native to Egypt.
+282 | Pigs are 【not】 native to North America.
+209 | W: 【Not】 necessarily.
+110 | Thus, using more of one type of media does 【not】 necessarily mean less of the other.
+258 | We must change the way we think: living well does 【not】 need to mean having more private spaces; instead, it could mean having more public spaces.
+317 | According to one survey, city design with bike lanes and pedestrian space did 【not】 negatively impact local businesses.
+80 | This shifts weight onto the muscles at the back of the head and causes the bone to grow in a way that is 【not】 normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing or pressure.
+203 | As his great contemporary the poet and dramatist Ben Jonson said, “He was 【not】 of an age, but for all time.
+302 | "Many people don't want to be forced into having fun or making friends, especially 【not】 on top of their busy jobs.
+457 | Make sure to bring the audience into the conversation so that it is 【not】 one-sided,” Pass says.
+277 | A stretch of Skillman Ave witnessed 【not】 only a big increase in sales but also the opening of new businesses.
+472 | M) I have now come to realize that being boring, in actuality, is 【not】 only about who you are as a person, but also how you present yourself.
+393 | These decisions should 【not】 only be made by those directly affected.
+342 | From this different perspective, you can 【not】 only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+164 | What about the cost, 【not】 only buying all those tablets, but the software and electronic infrastructure that goes with it, 【not】 to mention retraining all the teachers and administration staff?
+221 | The sense of eagerness that comes with having a rival can 【not】 only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.
+508 | You need 【not】 only computer science and engineering knowledge, but also an understanding of psychology and visual design to create a better product.
+371 | 【Not】 only does this tendency hinder their growth and performance, it can lead to harmful relationships, both personally and professionally.
+496 | life 【not】 only for others but also for ourselves, because ultimately, there is no difference.    ?P:not only ... but also ?P:not only...but also
+197 | the ninth grade can have long-term consequences 【not】 only for the students themselves but for their
+383 | 【Not】 only has red meat
+449 | Effective use of persuasion skills will 【not】 only help get your coworkers excited about your ideas, it’ll also help
+180 | it is possible to 【not】 only learn it, but also strengthen it with constant exercise.    ?P:not only ... but also ?P:not only...but also
+292 | George Engel, in treating his patients, 【not】 only looks into their symptoms but also into things like the emotional support they receive.    ?P:not only ... but also ?P:not only...but also
+426 | Research has found the use of digital technology benefits 【not】 only teenagers’ social lives but also their studies.    ?P:not only ... but also ?P:not only...but also
+313 | [23] The first-known collections were held by royalty and were 【not】 open to the public.
+171 | However, it is only for the winners themselves, 【not】 others.
+495 | It is morally wrong to think helping the poor is 【not】 our business.
+351 | loss, 【not】 ours.
+262 | Roosters and chickens are 【not】 particularly strong creatures, Ms.
+476 | They do 【not】 pay much attention to their food recipes.
+444 | They should 【not】 pay student bills or excess fees blindly.
+438 | K) “If the listener is 【not】 paying attention, it’s your sign to shorten the story or change direction.
+195 | It is 【not】 poisonous but can still attack and kill its victims.
+186 | H) Another point to consider is that practice is learning, but learning is 【not】 practice.
+236 | Higher education is a great way to equip yourself with some core skills, but it will 【not】 prepare you for actual challenges you’ll face with clients’ work.
+434 | But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are 【not】 prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+489 | We're 【not】 present,” she says.
+112 | The study found only an association: It did 【not】 prove that drinks with added sugar cause early death.
+480 | may 【not】 provide enough information to the driver, leading to confusion about the nature of the requests for agreement and
+519 | It will probably 【not】 provide manufacturers adequate protection from legal responsibilities.
+270 | Her first novel was 【not】 published until she was 39, and her last appeared when she was 84.
+435 | reliable and faster, but their employer simply will 【not】 put up the funds to buy them.
+184 | “Public awareness has never been higher, but the message is 【not】 quite reaching all the people it needs to.
+318 | photon blasters, but that’s 【not】 quite the reality.
+327 | G) Indeed, the number of senior high school students who said they had 【not】 read any books for pleasure in the last year was one out of three by 2016.
+439 | The number of senior high schoolers 【not】 reading books for pleasure in a year increased three times over 20 years.
+361 | Most of them are 【not】 reading long articles or books that explore deep themes and require critical thinking and reflection.
+322 | 【not】 real in any physical sense and are nonexistent to numberless people.
+420 | In many cases, students did 【not】 realize that strategies like looking up answers on a smartphone were actually cheating at all.
+125 | M: 【Not】 really.    ?P:not really
+198 | W: No, 【not】 really.    ?P:not really
+437 | “The difference is 【not】 really news to me, as a clinical psychologist,” said Erin Joyce, a women and couples therapist in Los Angeles.    ?P:not really
+131 | But even when these accounts touch on real concerns, they do 【not】 really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.    ?P:not really
+430 | Australia’s youth are being done a great disservice by 【not】 receiving any consistent financial education.
+189 | A lot of research has demonstrated that drinking fruit juice does 【not】 reduce our daily consumption of other foods.
+324 | The national statistics did 【not】 reflect the actual calorie conswnption.
+123 | He said the participants need to be super competent, resourceful, and 【not】 relying on other people to feel comfortable.
+419 | Online classes do 【not】 require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+473 | While cheek-kissing for Latin Americans is also a universal greeting form, it does 【not】 require such a high degree of relational closeness.
+502 | Remember, as Bechtoldt says, “you are 【not】 responsible for how other people feel.
+466 | Friedman believes inequality in the U.S. largely explains why increasing productivity has 【not】 resulted in reduced working
+249 | The ball is 【not】 round and the players push each other.
+396 | But there are promising students from struggling families across the nation who should 【not】 rule out their dream schools entirely.
+216 | “I handle my own gold medal so gently that I would 【not】 scratch it.
+441 | (25-1) By contrast, other cultures may 【not】 see written contracts as quite so binding.
+346 | Our capacity to speak, write and learn new vocabulary does 【not】 seem to ___28___ with age.
+122 | The local language Dagbani is spoken by 1.2 million people but is 【not】 served by any online translation applications.
+326 | The hesitation I felt in 【not】 sharing the ordinary things that were happening in my life, and the wild mental search for something more interesting, may have backfired and made me seem less interesting.
+467 | It’s 【not】 simply about dividing up
+169 | Some people even believe that 【not】 simply adopting your husband’s last name is a huge sign of disrespect and a lack of commitment.
+158 | It is possible that the wellbeing of pets is driven by the underlying nature of the owner, 【not】 simply by their conscious decisions and behaviours.
+91 | something new can actually be a waste of time if your goal is to make progress and 【not】 simply gain additional knowledge.
+315 | Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea is 【not】 simply to redistribute waste food, but to provide a high-quality product.
+240 | intelligence is fixed-that you are stuck being "【not】 smart" if you struggle in school-showed higher
+185 | I also believe you were a beach volleyball athlete yourself 【not】 so long ago.
+380 | 【Not】 so much, and, yes, they are made of plastic, although the company invites
+388 | Human numerical instincts are 【not】 so superior to those of other mammals as is generally believed.
+259 | M: I’m 【not】 so sure that sleep is nearly as important as people always say it is.
+263 | But this should 【not】 stop you from taking risks, as risks are necessary if you want your business to succeed.
+314 | Even so, it can be difficult for those who do 【not】 study music theory to see this as an indicator, since it is
+134 | It seems like you’re blaming them for 【not】 succeeding, when poor performance in school isn’t a child’s fault.
+86 | Roth says it is 【not】 sufficient as a replacement.
+243 | These experts claim there is 【not】 sufficient data to indicate that people’s reliance on those other activities is an addiction.
+375 | They are 【not】 sufficiently exposed to multitasking situations.
+260 | The new leader of Formula One admitted he was 【not】 super interested in car racing.
+119 | M: I’m 【not】 sure.
+233 | W: I’m 【not】 sure.
+290 | M: Um, I’m 【not】 sure.
+93 | M: Um… but I’m 【not】 sure how.
+85 | W: I’m 【not】 sure I agree with you.
+280 | W: I’m 【not】 sure of the exact figure, but it’s a few million Euros, maybe five million Euros after tax.
+95 | I’m 【not】 sure we can afford it.
+144 | But I’m 【not】 sure why you want to leave campus and go through all that trouble when the cost is the same.
+320 | I) Experiment results showed that students who were 【not】 taught that people can change showed poor
+159 | E) That may be true, but that still does 【not】 tell us much about what happens across a whole generation of people when time spent on digital media grows.
+103 | Wilson says, (7) when people start to know other people around them, they realize they’re 【not】 that different.
+105 | M: 【Not】 that I know of.    ?P:not that I know of
+503 | Richard Kennedy says “It’s 【not】 that old dogs can't learn new tricks.
+107 | Their meat is 【not】 that popular.
+377 | of hourly workers, their top concern is 【not】 that they work too much but that they work too little.
+94 | But this is 【not】 the case with fruit juice.
+366 | The best inspiration comes from the application of ideas, 【not】 the consumption of them.
+345 | No one is spared his sharp analysis: 【not】 the easy targets
+491 | “They expressed optimism, calmness and sympathy even when these were 【not】 the emotions that they were actually feeling,” the study said.
+83 | This is 【not】 the first time a clone has been made of a star police dog.
+343 | But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, 【not】 the internet, that struck a blow at that culture in the 1980s.
+232 | We hear sayings like “dress for the job you want, 【not】 the job you have”.
+304 | A recent study concluded that regardless of whether people are actually handling several tasks or 【not】, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+355 | According to one study, students' academic performance is 【not】 the only decisive factor of their stress
+348 | your energy on the process, 【not】 the product.
+188 | M: No, no, that’s 【not】 the reason.
+402 | Some of the dangers are emotional: hurting someone from a distance is 【not】 the same as hurting them face to face.
+113 | Because the Food and Drug Administration (FDA) has 【not】 _34_ the term, companies can use it to refer to pretty much anything derived from a plant or animal.
+312 | It is 【not】 the things we learn nor the dreams
+414 | Perhaps it is 【not】 34, then, that humility appears to be a huge asset to relationships.
+114 | G) Enter the rabbits—【not】 those running around in our woodlands but ones serving in two month-long medical experiments to test the effects of eating a high-fat diet and the connections between cholesterol and heart disease.
+394 | Fraudsters advertise their villas at reasonable prices so as 【not】 to be suspected.
+385 | But recent studies show a lack of exercise is 【not】 to blame for rising obesity rates.
+527 | 【Not】 to feel superior to less qualified male engineers.
+168 | A soldier deviates when they choose 【not】 to follow orders to kill an innocent civilian.
+521 | And they had been advised by colleagues or other staff 【not】 to hug children.
+257 | J) There are all sorts of reasons to hyphenate your name or 【not】 to hyphenate your name.
+530 | 【Not】 to lose self-confidence though constantly discouraged or unfairly treated.
+149 | It was recommended 【not】 to make contact with the animal.
+364 | Holidaymakers are advised 【not】 to make payments by bank transfer.
+407 | 【Not】 to mention that soaking up new information can help you make more informed decisions when you
+90 | 【Not】 to mention the great physical benefits from exercising outside every day.
+411 | 【Not】 to mention the overwhelming amount of homework they assign, which would lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?
+147 | As I read an article on the subject in the past that suggested the opposite, it claimed that it was important 【not】 to miss meals and that taking a nap on the plane was the best way to adjust to a new time zone.
+458 | While it may sound safe to avoid all physical contact so as 【not】 to offend anyone, the lack of touching might imply cold attitudes or indifference in interpersonal relationships.
+278 | That’s 【not】 to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+265 | F) This is 【not】 to say that kids always use good judgment.
+211 | This is 【not】 to say you should never attend another meeting, but the truth is that we say “yes” to too many things we don’t actually want to do.
+177 | G) The previous study found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer 【not】 to take all their time off at once.
+450 | flexibility, or deciding 【not】 to take on every project that comes their way.
+528 | 【Not】 to take seriously all the messages she was getting.
+201 | It is 【not】 to the best interest of taxpayers to keep giving money to narrow winners.
+529 | 【Not】 to think highly of her qualifications when promoted or given a pay raise.
+160 | If we eat something too hot or too cold, or if the tooth is worn down enough where the tissue _29_ is exposed, all of those things cause pain, and then the pain causes the person 【not】 to use that tooth to try to protect it a little bit more.
+363 | Obviously, the desire to bring about diversity has 【not】 translated into corporate reality.
+179 | In a new paper, Friedman tries to figure out why that increased productivity has 【not】 translated into increased leisure
+483 | However, gender matters more for them because cheek-kissing often only happens between women or a man and a woman but 【not】 two men.
+274 | Granted, you will 【not】 typically see today's teenagers lending their ears to Bach anytime soon, but there are some major
+387 | In one study, students were told their social position in school is 【not】 unchangeable.
+511 | Most end users do 【not】 understand the terms after reading them through.
+353 | 【Not】 unlike achieving
+217 | L) That is what hooked Carey, and he said he thought his experience was 【not】 unusual.
+84 | And yet, savings rates in the U.S. have gone down in recent decades, 【not】 up.
+89 | He is 【not】 up to anything challenging.
+102 | You may 【not】 use any of the
+325 | You may 【not】 use any of the words in the bank more than once.
+133 | need for immediate rewards, why 【not】 use it to your advantage?    ?P:why not
+294 | It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could 【not】 use my Ohio Medicaid on campus for anything other than emergency care.
+172 | The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're 【not】 using at all.
+106 | who gets grants, he said, and the latest research shows that the scientific establishment is 【not】 very
+115 | W: 【Not】 very much.
+329 | For example, if someone breaks the law, the golden rule would suggest that we should let them go, because we would 【not】 want to be punished ourselves.
+379 | Thus, language seems to be a skill that, contrary to what many might ___35___, does 【not】 weaken with age.
+183 | 【Not】 welcomed by most Americans.
+100 | 【Not】 welcoming children under ten is a complete slap in the face to families.
+234 | It may sound trite , but beauty is only skin deep; it’s 【not】 what brings love toward us.
+525 | But that’s 【not】 what happened.
+266 | But Friedman says that this is 【not】 what has happened.
+397 | But that’s 【not】 what it means at all.
+500 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says the question is 【not】 whether we can, but whether we should, and to what end.
+481 | Research from Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” or forcing emotions that are 【not】 wholly felt.
+223 | increasing productivity are 【not】 widely shared by everyone.
+303 | Some risks may 【not】 work out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.
+456 | As the scholar Silvia Federici put it in 1975, the unpaid nature of domestic work reinforces the assumption that “housework is 【not】 work, thus preventing women from struggling against it.
+96 | of slowdowns by cars in front of a given car, so that the slowing is 【not】 worsened until it becomes a phantom jam, the
+445 | Doing efficiently what is 【not】 worth doing is the most useless effort.
+150 | 【not】 written in the DNA.
+161 | Authorities have 【not】 yet confirmed what will happen if the rightful owner is 【not】 found.
+82 | health benefits, such guidelines do 【not】 yet exist for exercise and mood.
+99 | He is 【not】 yet mature enough to live on his own.
+279 | But “the research hasn’t really changed minds, at least 【not】 yet,” says one of the authors of the study, Dr.
+170 | Robots are 【not】 yet witty, Siri is boring.
+101 | Hiring managers who are 【not】 yet 45 years old seem unwilling to hire people their senior.
+298 | The basis for each of these things, however, is whether or 【not】 you are willing to make a compromise when it comes to changing your name.    ?P:whether or not
+205 | When it comes to looking for a new job, you already know that a big part of the interview process involves the company evaluating whether or 【not】 you’re a good fit for their open role.    ?P:whether or not
+289 | N) When you’re hunting for a new job, you already know that the employer is trying to decide whether or 【not】 you’re a good fit for the position.    ?P:whether or not

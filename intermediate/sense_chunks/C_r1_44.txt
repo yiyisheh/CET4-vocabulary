@@ -1,0 +1,190 @@
+# 任务 C_r1_44：1 个词，173 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_44.labels.txt
+
+============================================================
+## 词：that    本段 173 句    模式：全标（每句都写）
+原释义：pron.那; 那个. conj.引导名词性从句. adj.那个.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 引导宾语、主语、表语或同位语从句（本身不译）    B 样本 37    例：By learning that raising pets can do much good.
+  1  pron. 引导定语从句，指代前面的人或物（译作“……的”）    B 样本 27    例：Food that is organic.
+  2  pron. 那，那个；那件事（指代前文提到的事物）    B 样本 7    例：When that is the case,
+  3  det. 那，那个（放在名词前）    B 样本 6    例：[1] That driver is Sherry Christian.
+  4  pron. （that of）……的那个（代替前文名词，避免重复）    B 样本 3    例：Their damage can be as serious as that of bombs.
+  5  adv. 那么，那样（not that popular）    B 样本 1    例：Their meat is not that popular.
+  6  conj. （so/such…that）如此…以至于    B 样本 1    例：for a hit of stars that if you delete the survey the company sends you another one.
+已标过的短语：that is（1）
+口径说明（照此执行）：
+  - 第 9 句同时有 suggest that（连词）、aware that（连词）和插入语 that is（即），只能标一个，标了 P:that is。
+句子：
+1285 | “If we’re reflecting, maybe we should also reflect on 【that】.
+1353 | and values of the gig economy (-* .:c. *") , and where success is rewarded with good reviews 【that】
+1352 | the middle of a critical meeting, are expected to instantly fix the projector 【that】's no longer working.
+1334 | If play and building are critical to 21st-century skill development, 【that】's really good news for two
+1350 | In addition to people being healthier and living much longer, economists say 【that】 a combination of financial
+1281 | So much so 【that】, according to experts in neuroscience (神经系统科学), our brains do not handle multitasking situations well.    ?P:so...that ?P:so that
+1299 | One American philosopher stated 【that】 addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive.
+1356 | Richard Pile, a physician with a special interest in diabetes, argues 【that】 adopting this approach “could actually result in worse outcomes for individuals and society.
+1284 | place to catch instances of bias 【that】 affect research outcomes.
+1441 | This isn’t to say 【that】 all men engage in these behaviors—or 【that】 booking relatively late is a sign of abnormal behavior.
+1319 | It was found 【that】 American youngsters today don’t socialize nearly as much as the earlier generations.
+1358 | They tend to undervalue the opinions of others, which means they have trouble believing 【that】 anyone is qualified to give them useful feedback.
+1317 | Joyce suggests 【that】 apart from self-care, women should seek professional support if they experience severe stress.
+1321 | Choose diets 【that】 are both healthy and affordable.
+1300 | We can easily think of a number of foods and recipes 【that】 are both inexpensive and nutritious.
+1432 | It faces problems 【that】 are getting more varied and complicated.
+1369 | They are also the ones who know there are systems 【that】 are more powerful,
+1333 | 【that】 babies have tons of dreams.
+1380 | Scientists believe 【that】 both of these countries will experience a 3.8F temperature increase by 2050 due to global warming,
+1425 | Employees with a growth mindset may be more likely to devise innovative ideas 【that】 bridge multiple areas of knowledge to achieve better solutions.
+1376 | Why do we tend to think 【that】 busy people are of high status?
+1339 | Despite the classification, there are more complex factors such as relational closeness, gender, age, and context 【that】 can affect how someone views physical contact.
+1392 | It is a desirable ability 【that】 can be developed.
+1348 | as no surprise to anyone 【that】 classical music pieces are still used as background music in modern movies.
+1390 | Of the endless troubles 【that】 come with being driven from one’s home country, losing educational certificates may seem small.
+1311 | describe in my book, The Authentic Heart, it is the courage to be authentic 【that】 connects us in a deeper way.
+1384 | REM sleep, 25% of the kids in Foulkes’ studies had no recollection of dreaming, a trend 【that】 continues through age 9.
+1331 | While our initial attraction may be based in part on physical chemistry, it is the meeting of our inner worlds 【that】 creates
+1355 | 【That】 depends on many things, but for purposes of illustration, I have run some estimates for Montreal.
+1439 | number games can enhance 【that】 desire for novel experiences, which can, in turn, refresh the brain.
+1451 | While 【that】 $18 difference per ticket may seem small, it adds up.
+1427 | Of course, 【that】 doesn't mean the brain isn't affected by the effects of time.
+1435 | 【that】 engineering is the best degree.
+1315 | 【that】 eventually may fail, all indicate "initiative," "creativity," and "adaptability," which are desirable
+1287 | But contrary to all the publicity 【that】 everyone needs more protein, most
+1433 | None of these explained away the gender gap, so we applied data collected from surveys 【that】 express consumer preferences 【that】 play a central role in economic decisions, such as patience and risk avoidance.
+1357 | Yet solving problems like these requires new approaches 【that】 extend beyond traditional ways of thinking.
+1429 | They will try hard to land a job 【that】 fits their skills best.
+1400 | evidence 【that】 food conswned out of the home is one of the most poorly recorded categories in surveys.
+1423 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, and curiosity is one of the tools humans have found to accomplish 【that】 gigantic task.
+1314 | Research shows 【that】 given 15 minutes of free play,
+1391 | We hold the belief 【that】 hard work leads to success.
+1387 | This would be a form of expropriation (侵占), with employees absorbing production costs 【that】 have traditionally been paid by the employer.
+1374 | A study led by Yale Professor of Psychology, Paul O’Keefe, found 【that】 having a growth mindset (思维倾向) of interest may spark this type of innovation.
+1402 | Research has found 【that】 having access to diverse teachers is beneficial for children.
+1450 | What is one thing 【that】 helps maintain the health of our brain even as it shrinks2
+1420 | cracked the code to realistic fake meat is 【that】 I couldn’t stand to take another bite,” she wrote.
+1418 | I was getting were 【that】 I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly
+1309 | We’ve been told all our lives 【that】 if you work hard, you too can succeed.
+1409 | “Maybe the best sign 【that】 Impossible Foods has
+1430 | If meatless meat can help you stick to a plant-based diet, 【that】 in itself can lead to better health.
+1431 | Hundreds of studies show 【that】 infants prefer novelty.
+1325 | Instinctive decisions are always backed by previous experiences or information, which acknowledges 【that】 instinctive decisions have worked in the past.
+1403 | Those with a growth mindset of interest tend to believe 【that】 interests can be developed and cultivated, while those with a fixed mindset of interest tend to believe 【that】 interests are inherent (与生俱有的) and simply need to be ‘found.
+1360 | From this different perspective, you can not only be multitasking but this ability can also be taught: something 【that】 is easier in fluid organisations, which favour flexibility in their working practices.    ?P:that is
+1286 | financial education in our schooling system 【that】 is leaving high schoolers seriously behind in the modern world of money.    ?P:that is
+1446 | They prefer to go after all 【that】 is novel.    ?P:that is
+1388 | But labelling obesity as a disease “risks reducing autonomy, disempowering and robbing people of the intrinsic (内在的) motivation 【that】 is such an important enabler of change.    ?P:that is
+1340 | It’s even harder for smart people because they grow so used to being right all the time 【that】 it becomes a part of their identity,” Bradberry wrote.
+1447 | Prior research on negative reciprocity among workers found 【that】 it can result in lower employee motivation, business performance and workplace morale (士气) and culture.
+1399 | Therefore, businesses need to set up their IT infrastructure so 【that】 it is designed to fit in with their    ?P:so...that ?P:so that
+1324 | However, on the other side of the coin there are people who maintain 【that】 it is possible to be, or at least seem to be, multitasking.
+1305 | But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists 【that】 it should?
+1347 | When we think about attaining success — whether it’s landing 【that】 job or learning 【that】 new skill —
+1297 | Professor Wilding disagrees 【that】 labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing out 【that】 other common diseases, such as high blood pressure and diabetes, require people to take action to manage their condition.
+1292 | They claim 【that】 lack of exercise is to blame for the increasing obesity rates.
+1417 | body of research suggests 【that】 late-in-life learning is possible.
+1328 | In the same way 【that】 learning a language or new skills takes time, building financial skills requires practice and years to
+1343 | What should we do when facing various factors 【that】 limit the practicability of data?
+1393 | want someone to approve of us, it’s being driven by 【that】 little kid part of us 【that】 is still terrified of abandonment.    ?P:that is
+1411 | For policy, we need to focus on options 【that】 make it easy for people to eat fewer calories.
+1398 | He suggests 【that】 many college-educated workers are choosing
+1366 | They may neglect to cultivate the inner qualities 【that】 matter more.
+1448 | It's 【that】 maybe old dogs don't realize why they should.
+1405 | We compared the airfare paid by employees in the same position within a company for the same class of travel and used a common statistical technique to account for other factors 【that】 might affect differences in airfares.
+1379 | Fifty years ago, it looked like 【that】 might change.
+1318 | He suggests 【that】 most people with obesity will eventually develop complications.
+1313 | They were based on the assumption 【that】 motivation was the only key.
+1349 | we might find a magnetic attraction 【that】 moves us from something superficial to something 【that】 connects us to our depths.
+1289 | The most major indicator of classical music’s importance in society today is the fact 【that】 much of the popular music 【that】
+1320 | The ability to overcome food shortages 【that】 must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+1336 | We originally had this suspicion back in 2016, puzzled by the fact 【that】 national statistics showed
+1364 | If you want 【that】 new job, you have to learn the
+1301 | They often fail to recognise when they need help, and when they do recognise it, they tend to believe 【that】 no one else is capable of providing it.
+1394 | In 1979, 【that】 number was 9%.
+1338 | “But unless we accept 【that】 obesity is a disease, we are not going to be able to tackle it,” he concludes.
+1445 | Richard Kennedy says “It’s not 【that】 old dogs can't learn new tricks.
+1303 | In other words, the more we believe 【that】 one has the opportunity for success based on hard work, the more we tend to think 【that】 people who skip leisure and work all the time are of higher standing.
+1304 | This requires two essential conditions: 【that】 one of the tasks needs to be automatic, like walking or eating, and 【that】 they both need different mental processes.
+1438 | We found 【that】 only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+1422 | See 【that】 people don't stick to the same diet.
+1389 | Professor O’Keefe established in earlier studies 【that】 people hold different beliefs about the nature of interest.
+1354 | We found reliable evidence 【that】 people were
+1335 | Most important, there is a growing recognition 【that】 people who balance
+1436 | been linked to cancer, but studies show 【that】 people who ditch meat have lower blood pressure, lower average blood sugar,
+1414 | After coding and analyzing the ideas they generated, the team found 【that】 people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors 【that】 drew from only one of those areas, like computational chemistry.
+1381 | tells us 【that】 perfection isn’t the goal.
+1367 | “Which matters more depends on what your history up until 【that】 point has been in the type of work you’re doing,”
+1306 | But for most Americans, 【that】 prosperity is nowhere to be seen.
+1332 | common sedative used in surgical procedures worldwide, might interfere with the internal clock 【that】 protects the
+1443 | It is the force 【that】 pushes human society forward.
+1383 | Martin Neil Baily, an economist who is leading a research project on retirement security, notes 【that】 quitting a career can
+1434 | But 【that】 reduction doesn't necessarily
+1342 | A recent study concluded 【that】 regardless of whether people are actually handling several tasks or not, the mere fact 【that】 they perceive this activity as multitasking has a positive effect on their performance.
+1382 | Many vegetarians don’t actually care for food 【that】 resembles meat.
+1368 | Still, 【that】’s not always the case: When roused during
+1407 | But 【that】’s not what happened.
+1280 | 【That】’s what people who get promoted say.
+1442 | 【That】’s why brain scientist
+1323 | 【That】’s why we feel like we have to appear busy, and there’s a real perception 【that】 if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.
+1341 | 【That】’s why we recently launched the Out of Office Email Generator, a free tool you can use before your next long weekend or trip.
+1412 | 【That】 said, curiosity does have a genetic component.
+1397 | tried a dish from Impossible Foods, she felt so sick 【that】 she couldn’t finish it.    ?P:so...that
+1296 | For a time an app developer in America was so busy attending to work and family 【that】 she suffered from sleeplessness.
+1294 | "It's certainly a problem 【that】 so much research in nutrition and health is funded by industry," says
+1291 | First, many physicians are not aware 【that】 some drugs work better during a specific time of the day.
+1282 | Simply “feeling” 【that】 something is right or should be done is highly subjective and can drown you.
+1410 | By designing systems 【that】 suit their needs.
+1404 | “Coursera for Refugees” will be available for any non-profit group 【that】 supports refugees in any country, as well as individual refugees.
+1395 | the species with a gene-editing technology, which will transform the seedlings into a species 【that】 survives even in a drier and
+1329 | She introduces a new concept 【that】 talent may be
+1326 | Keynes was right in predicting 【that】 technology would make the economy much more productive.
+1362 | 【that】 teenagers will be able to take a natural history test given 【that】 for decades children have been able to name more video
+1298 | A more disturbing trend in America today is 【that】 teens are spending far less time reading than around four decades ago.
+1312 | Over 50 years ago, researchers found 【that】 the cholesterol drug simvastatin is more effective at lowering cholesterol levels
+1373 | He believes 【that】 the dictionary definition of disease “is so vague 【that】 we can classify almost anything as a disease” and says the question is not whether we can, but whether we should, and to what end.    ?P:so...that
+1396 | Grit tells us 【that】 the door is open wider than we first thought
+1444 | It only means 【that】 the gender gap disappears when we plug in the negative reciprocity variable.
+1377 | But having to pay attention to several things at once means 【that】 the powers of concentration are reduced and 【that】 can lead to more mistakes.
+1386 | Another cause is 【that】 the proportion of people who are trying to lose weight has been increasing over
+1283 | K) Friedman concludes 【that】 the prosperity Keynes predicted is here.
+1372 | Rough calculations show 【that】 the savings made by employers when their staff works from home are of similar value to the compensation workers should receive for setting up offices at home.
+1345 | wood has such health benefits 【that】 the Woodland Trust successfully lobbied for it to be prescribed by doctors.    ?P:such ... that
+1293 | have found 【that】 their best overall problem solvers were master tinkerers in their youth.
+1421 | By ensuring 【that】 their mental health is sound.
+1330 | Fans of classical music can also tell you 【that】 there are few types of music 【that】 are more expressive.
+1337 | Some people believe 【that】 there may not exist a stress gap between men and women.
+1401 | Curiosity covers such a large set of behaviors 【that】 there probably isn’t any single “curiosity gene” 【that】 makes humans wonder about and explore their environment.
+1288 | The most recent count of pandas found 【that】 there were more than 1,800 left in the wild, putting them on the list of
+1413 | Some also reported 【that】 there were parents surprised or concerned 【that】 their child had a male teacher.
+1437 | A study of 12- to 19-month-olds learning how to walk documented 【that】 these children fell down a lot.
+1346 | advantage to enter adulthood with confidence and security so 【that】 they are able to manage their own money and look after    ?P:so...that ?P:so that
+1363 | Recently, chocolate lovers were heartbroken as scientists claimed 【that】 they can become extinct by 2050!
+1295 | It may make people feel 【that】 they ought to fit in with the outside world.
+1375 | They simply don’t understand how hard some people have to work to accomplish the same things, and because of 【that】, they push people too hard.
+1322 | “It’s hard for anyone to graciously accept the fact 【that】 they’re wrong.
+1351 | The general consensus is 【that】 they start dreaming around the age of two.
+1302 | The friends I have who still work in offices inform me their bosses insist 【that】 they take the second option, and 【that】 napping is associated with laziness.
+1361 | Daddy doesn't like him or her, there is the danger 【that】 they will abandon them.
+1316 | Most people will have a feeling 【that】 they've missed
+1426 | investigation allowed us to conclude 【that】 this gap is largely explained by the fact 【that】 women tended to book earlier than men, 1.8 days on average.
+1307 | Research found 【that】 those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.
+1370 | It was considered a fashion at 【that】 time.
+1424 | The authors also suggest 【that】 traditional recruitment approaches for early childhood educators “do not address the gender gap in the field.
+1440 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people 【that】 tried and failed to make it in those challenging landscapes.
+1385 | But if there's one thing 【that】 triggers widespread employee frustration, it's an IT
+1371 | Now the Office for National Statistics has confirmed 【that】 we are consuming 50% more calories than
+1365 | they have had on our current society, it is without doubt 【that】 we can expect them to continue to remain important for centuries
+1428 | We are constantly reminded 【that】 we don’t truly belong.
+1290 | perfect appearance 【that】 we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection.
+1310 | is currently being produced uses similar beats, harmonies, and melodies as those 【that】 were used in some of classical
+1378 | We need to understand 【that】 when we desperately
+1415 | The new program aims to aid refugees by offering “important skills 【that】 will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+1449 | Our results show another way these negative behaviors can manifest themselves, like in airline bookings, and add to evidence 【that】 women are less likely to engage in them.
+1452 | It is due to the fact 【that】 women care more about their company’s money.
+1416 | We found 【that】 women paid on average $18 less per ticket than their male colleagues.
+1327 | Some researchers suggest 【that】 work-life balance is not a goal to achieve, but a process for life to be adjusted promptly.
+1308 | throughout the whole of high school 【that】 would allow students to gradually expand their financial literacy, and would prevent
+1344 | If it’s true 【that】 you
+1419 | She is saying it is possible 【that】 you
+1408 | Even if you haven’t mastered a skill, grit tells you 【that】 you can still succeed if you can transform your passion into action.
+1359 | You can share loud and proud 【that】 you won’t be checking email until you’re back.
+1406 | love yourself as it's highly doubtful 【that】 you'll regret it.

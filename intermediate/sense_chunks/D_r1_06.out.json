@@ -1,0 +1,962 @@
+{
+ "against one's will": {
+  "canonical": "against one's will",
+  "pos": "adv.",
+  "zh": "违背某人的意愿",
+  "example": {
+   "id": 0,
+   "en": "They have been roused against their will.",
+   "zh": "他们被强行唤醒了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to be fair": {
+  "canonical": "to be fair",
+  "pos": "adv.",
+  "zh": "公平地说，说句公道话",
+  "example": {
+   "id": 0,
+   "en": "To be fair to the German supermarkets.",
+   "zh": "对德国的超市公平地说。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to be exact": {
+  "canonical": "to be exact",
+  "pos": "adv.",
+  "zh": "确切地说，准确地讲",
+  "example": {
+   "id": 0,
+   "en": "Seventeen times per hour, to be exact.",
+   "zh": "确切地说，是每小时十七次。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "more than": {
+  "canonical": "more than",
+  "pos": "adv.",
+  "zh": "超过，多于；不仅仅，比…更（more than anything else）",
+  "example": {
+   "id": 9,
+   "en": "It drew competitors from more than 40 countries.",
+   "zh": "它吸引了来自四十多个国家的参赛者。"
+  },
+  "valid": true,
+  "note": "多数句为「超过」，少数为「不仅仅/比…更」（句7、16、17）"
+ },
+ "the more...the more": {
+  "canonical": "the more ... the more",
+  "pos": "conj.",
+  "zh": "越…越…",
+  "example": {
+   "id": 0,
+   "en": "The more calories, the better.",
+   "zh": "热量越多越好。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no more than": {
+  "canonical": "no more than",
+  "pos": "adv.",
+  "zh": "不超过，至多；仅仅",
+  "example": {
+   "id": 2,
+   "en": "Spend no more than 30 dollars.",
+   "zh": "花费不要超过三十美元。"
+  },
+  "valid": true,
+  "note": "绝大多数是作文题「不超过180词」"
+ },
+ "what's more": {
+  "canonical": "what's more",
+  "pos": "adv.",
+  "zh": "此外，而且",
+  "example": {
+   "id": 1,
+   "en": "What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.",
+   "zh": "而且，如今存在的约七千种语言在使用数字的方式上差异极大。"
+  },
+  "valid": true,
+  "note": "例句已修正 OCR（7 ,OOO→7,000）"
+ },
+ "more or less": {
+  "canonical": "more or less",
+  "pos": "adv.",
+  "zh": "或多或少，大致；差不多",
+  "example": {
+   "id": 1,
+   "en": "What we call multitasking, therefore, is in reality the ability to move more or less quickly from one task to another.",
+   "zh": "因此，我们所说的多任务处理，实际上是在不同任务之间或多或少快速切换的能力。"
+  },
+  "valid": true,
+  "note": "句1中 more or less quickly 是「或多或少」；句0 more or less evenly 为「大致」"
+ },
+ "as long as": {
+  "canonical": "as long as",
+  "pos": "conj.",
+  "zh": "只要；既然…就；（时间）长达，只要…的时候",
+  "example": {
+   "id": 1,
+   "en": "As long as there have been homework assignments and tests, there have been cheaters.",
+   "zh": "只要有作业和考试，就有作弊的人。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as soon as possible": {
+  "canonical": "as soon as possible",
+  "pos": "adv.",
+  "zh": "尽快，尽早",
+  "example": {
+   "id": 1,
+   "en": "Correct their mistake as soon as possible.",
+   "zh": "尽快纠正他们的错误。"
+  },
+  "valid": true,
+  "note": "可视为 as soon as 的扩展，保留独立条目"
+ },
+ "such as": {
+  "canonical": "such as",
+  "pos": "prep.",
+  "zh": "例如，诸如",
+  "example": {
+   "id": 6,
+   "en": "Words considered to be concrete could be easily visualized such as “table” or “chair”.",
+   "zh": "被认为具体的词很容易在脑中想象出来，比如“桌子”或“椅子”。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as if": {
+  "canonical": "as if",
+  "pos": "conj.",
+  "zh": "好像，仿佛",
+  "example": {
+   "id": 1,
+   "en": "With those born with natural talents, it feels as if they excel without really trying.",
+   "zh": "对于天生有才能的人，感觉他们不用真正努力就能出类拔萃。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come as a surprise": {
+  "canonical": "come as a surprise",
+  "pos": "v.",
+  "zh": "令人惊讶，出乎意料（to sb）",
+  "example": {
+   "id": 0,
+   "en": "Its finding came as a surprise to the researchers.",
+   "zh": "它的发现让研究人员感到意外。"
+  },
+  "valid": true,
+  "note": "整体含义可由字面推出，但作为固定搭配（come as a surprise / no surprise）值得整体记；偏弱"
+ },
+ "as usual": {
+  "canonical": "as usual",
+  "pos": "adv.",
+  "zh": "像往常一样，照常",
+  "example": {
+   "id": 0,
+   "en": "Have meals as usual to stay away from hunger.",
+   "zh": "照常吃饭，以免饥饿。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as well as": {
+  "canonical": "as well as",
+  "pos": "conj.",
+  "zh": "和，以及；不但…而且",
+  "example": {
+   "id": 1,
+   "en": "It may lead to bad as well as good habits.",
+   "zh": "它可能导致坏习惯，也可能导致好习惯。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as far as": {
+  "canonical": "as far as",
+  "pos": "conj.",
+  "zh": "就…而言；在…范围内",
+  "example": {
+   "id": 0,
+   "en": "They are dealing with the same challenges that adults are, as far as they are living in a tech environment designed to suck as much of their time onto their devices as possible.",
+   "zh": "他们面对的挑战和成年人一样，因为他们同样生活在一个设计来尽可能占用他们设备时间的科技环境里。"
+  },
+  "valid": true,
+  "note": "原句 as far as 用法特殊（近似 insofar as），例句删去了 OCR 空格；仅 1 句，建议复核"
+ },
+ "as regards": {
+  "canonical": "as regards",
+  "pos": "prep.",
+  "zh": "关于，至于",
+  "example": {
+   "id": 1,
+   "en": "Research found that, as regards achievement of one’s goals, it is important to focus more on enjoying the process than the long-term benefits.",
+   "zh": "研究发现，就实现目标而言，更重要的是关注享受过程，而不是长远的好处。"
+  },
+  "valid": true,
+  "note": "例句补全了被截断的结尾（取自原卷）"
+ },
+ "as much as": {
+  "canonical": "as much as",
+  "pos": "adv.",
+  "zh": "多达，与…一样多",
+  "example": {
+   "id": 0,
+   "en": "It was from 1855 and worth as much as $2,000.",
+   "zh": "它来自1855年，价值高达两千美元。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as many as": {
+  "canonical": "as many as",
+  "pos": "adv.",
+  "zh": "多达（修饰可数名词）",
+  "example": {
+   "id": 1,
+   "en": "As many as 20 students show up after school.",
+   "zh": "放学后多达二十名学生到场。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as such": {
+  "canonical": "as such",
+  "pos": "adv.",
+  "zh": "因此；就其本身而言",
+  "example": {
+   "id": 0,
+   "en": "As such, they’re more likely to be “let down” by the experience.",
+   "zh": "因此，他们更可能对这次经历感到“失望”。"
+  },
+  "valid": true,
+  "note": "此句 as such 为「因此」"
+ },
+ "as well": {
+  "canonical": "as well",
+  "pos": "adv.",
+  "zh": "也，同样",
+  "example": {
+   "id": 2,
+   "en": "Because when you are enjoying, people around you will begin to enjoy as well.",
+   "zh": "因为当你乐在其中时，你周围的人也会开始乐在其中。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "might as well": {
+  "canonical": "might as well",
+  "pos": "v.",
+  "zh": "不妨，还是…的好",
+  "example": {
+   "id": 0,
+   "en": "I just got a credit card, so I thought I might as well buy a new phone.",
+   "zh": "我刚拿到一张信用卡，所以觉得不妨买部新手机。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as soon as": {
+  "canonical": "as soon as",
+  "pos": "conj.",
+  "zh": "一…就…",
+  "example": {
+   "id": 0,
+   "en": "As soon as two tasks require our attention, productivity suffers.",
+   "zh": "一旦两项任务同时需要我们的注意力，效率就会下降。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as ever": {
+  "canonical": "as ever",
+  "pos": "adv.",
+  "zh": "一如既往，同往常一样",
+  "example": {
+   "id": 0,
+   "en": "As ever, we ought to be careful about our own behaviour.",
+   "zh": "一如既往，我们应该留意自己的行为。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no such thing as": {
+  "canonical": "no such thing as",
+  "pos": "n.",
+  "zh": "没有…这回事，不存在…",
+  "example": {
+   "id": 0,
+   "en": "In the age of the internet, there’s no such thing as a private debate.",
+   "zh": "在互联网时代，不存在私下的辩论。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "suffer from": {
+  "canonical": "suffer from",
+  "pos": "v.",
+  "zh": "遭受，患（病）；受…之苦",
+  "example": {
+   "id": 1,
+   "en": "She suffered from lung cancer.",
+   "zh": "她患有肺癌。"
+  },
+  "valid": false,
+  "note": "动词 + 固定介词（同 rely on），按规则应在 suffer 的义项里处理，不作短语；如想保留作搭配可改回 true"
+ },
+ "far from": {
+  "canonical": "far from",
+  "pos": "prep.",
+  "zh": "远非，根本不；离…很远",
+  "example": {
+   "id": 0,
+   "en": "But this is far from ideal.",
+   "zh": "但这远非理想。"
+  },
+  "valid": true,
+  "note": "真题里均为「远非」"
+ },
+ "apart from": {
+  "canonical": "apart from",
+  "pos": "prep.",
+  "zh": "除…之外（另有）；除…以外（不包括）",
+  "example": {
+   "id": 2,
+   "en": "Joyce suggests that apart from self-care, women should seek professional support if they experience severe stress.",
+   "zh": "乔伊斯建议，除了自我照顾外，女性在承受严重压力时还应寻求专业帮助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "aside from": {
+  "canonical": "aside from",
+  "pos": "prep.",
+  "zh": "除…之外，此外",
+  "example": {
+   "id": 0,
+   "en": "Aside from the link to type 2 diabetes, many studies agree that fruit juice is harmful if it contributes to an excess in calories.",
+   "zh": "除了与2型糖尿病的关联外，许多研究一致认为，如果果汁导致热量过剩，就是有害的。"
+  },
+  "valid": true,
+  "note": "例句去掉了选项字母 E)"
+ },
+ "can't help but": {
+  "canonical": "can't help but",
+  "pos": "v.",
+  "zh": "不禁，忍不住（后接动词原形）",
+  "example": {
+   "id": 1,
+   "en": "You can't help but be awed.",
+   "zh": "你不禁心生敬畏。"
+  },
+  "valid": true,
+  "note": "例句取自句1，删去了引号和后半句"
+ },
+ "by accident": {
+  "canonical": "by accident",
+  "pos": "adv.",
+  "zh": "偶然地，意外地",
+  "example": {
+   "id": 1,
+   "en": "An 81-year-old man ended up in Germany by accident after trying to get from Newcastle, Great Britain, to Rome, Italy.",
+   "zh": "一位81岁的男子本想从英国纽卡斯尔去意大利罗马，却意外到了德国。"
+  },
+  "valid": true,
+  "note": "句0 实为 by chance（偶然），同义，已并入"
+ },
+ "by oneself": {
+  "canonical": "by oneself",
+  "pos": "adv.",
+  "zh": "独自，单独；靠自己，独立地",
+  "example": {
+   "id": 2,
+   "en": "Doing the painting job all by themselves.",
+   "zh": "全靠他们自己完成这项粉刷工作。"
+  },
+  "valid": true,
+  "note": "句0、1 的 by itself 是「本身；单靠」，用法略不同"
+ },
+ "what do you mean by": {
+  "canonical": "what do you mean by",
+  "pos": "v.",
+  "zh": "你说的…是什么意思",
+  "example": {
+   "id": 0,
+   "en": "What do you mean by blue light?",
+   "zh": "你说的蓝光是什么意思？"
+  },
+  "valid": false,
+  "note": "只是 mean by 的普通疑问句，每个词的意思相加即可推出，不算固定短语；学习者按 mean 的义项学即可"
+ },
+ "by hand": {
+  "canonical": "by hand",
+  "pos": "adv.",
+  "zh": "用手，手工",
+  "example": {
+   "id": 0,
+   "en": "Do you prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us?",
+   "zh": "你喜欢在网上填写申请，还是打印出来手写后寄回给我们？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by day": {
+  "canonical": "by day",
+  "pos": "adv.",
+  "zh": "白天，在白天",
+  "example": {
+   "id": 0,
+   "en": "Alvin Chau, aged 26, is an environmental consultant by day and a lion dancer on weekends.",
+   "zh": "26岁的周亚文白天是环境顾问，周末是舞狮人。"
+  },
+  "valid": true,
+  "note": "偏透明，勉强保留；真题仅1句"
+ },
+ "one by one": {
+  "canonical": "one by one",
+  "pos": "adv.",
+  "zh": "一个接一个地，逐个",
+  "example": {
+   "id": 1,
+   "en": "They opened all of them one by one.",
+   "zh": "他们把它们一个一个全打开了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by contrast": {
+  "canonical": "by contrast",
+  "pos": "adv.",
+  "zh": "相比之下，与此相反",
+  "example": {
+   "id": 0,
+   "en": "By contrast, fossil fuel plastic was more expensive.",
+   "zh": "相比之下，化石燃料塑料更贵。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by no means": {
+  "canonical": "by no means",
+  "pos": "adv.",
+  "zh": "绝不，一点也不",
+  "example": {
+   "id": 1,
+   "en": "Setting up a spoken web is by no means an easy task.",
+   "zh": "建立口语网络绝非易事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come by": {
+  "canonical": "come by",
+  "pos": "v.",
+  "zh": "（通过努力）得到，获得；承袭",
+  "example": {
+   "id": 0,
+   "en": "Le comes by the dance as a legacy.",
+   "zh": "乐从家族传承中得到了这门舞艺。"
+  },
+  "valid": true,
+  "note": "句子里是「继承而来」；字面不可推"
+ },
+ "by comparison": {
+  "canonical": "by comparison",
+  "pos": "adv.",
+  "zh": "相比之下，比较起来",
+  "example": {
+   "id": 0,
+   "en": "Eyesight may dim and our recall may weaken, but by comparison, our ability to produce language is well preserved into older adulthood.",
+   "zh": "视力可能减退，记忆可能减弱，但相比之下，我们产出语言的能力到老年依然保持良好。"
+  },
+  "valid": true,
+  "note": "例句删去了被 OCR 空格破坏的 and understand 部分，仅作示意"
+ },
+ "go by": {
+  "canonical": "go by",
+  "pos": "v.",
+  "zh": "（时间）流逝；依据…判断；以…称呼",
+  "example": {
+   "id": 1,
+   "en": "Their wisdom grows as time goes by.",
+   "zh": "他们的智慧随着时间流逝而增长。"
+  },
+  "valid": true,
+  "note": "三种用法各 1 句：依据（句0）、流逝（句1）、以…名字称呼（句2）"
+ },
+ "by far": {
+  "canonical": "by far",
+  "pos": "adv.",
+  "zh": "…得多，到目前为止（与最高级连用）",
+  "example": {
+   "id": 0,
+   "en": "It is also by far the world’s most expensive place to get sick.",
+   "zh": "它也是迄今为止世界上看病最贵的地方。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by all means": {
+  "canonical": "by all means",
+  "pos": "adv.",
+  "zh": "当然可以，尽管；务必",
+  "example": {
+   "id": 0,
+   "en": "By all means, set ambitious long-term goals for your future self.",
+   "zh": "尽管为未来的自己设定雄心勃勃的长期目标吧。"
+  },
+  "valid": true,
+  "note": "例句截取了 but 之前的分句"
+ },
+ "stand by": {
+  "canonical": "stand by",
+  "pos": "v.",
+  "zh": "支持，站在…一边；坚守",
+  "example": {
+   "id": 0,
+   "en": "Stand by the parliament in fighting social diseases.",
+   "zh": "支持议会对抗社会弊病。"
+  },
+  "valid": true,
+  "note": "仅1句，且为标语式句子"
+ },
+ "lead by example": {
+  "canonical": "lead by example",
+  "pos": "v.",
+  "zh": "以身作则，做出表率",
+  "example": {
+   "id": 0,
+   "en": "By making its voice heard, science can lead by example.",
+   "zh": "通过发出自己的声音，科学可以做出表率。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "i mean": {
+  "canonical": "I mean",
+  "pos": "int.",
+  "zh": "我是说，我的意思是（口语补充说明）",
+  "example": {
+   "id": 3,
+   "en": "I mean, getting rid of rush hour may be impossible, but it could be made more tolerable, don’t you think?",
+   "zh": "我是说，要消除高峰时段也许不可能，但可以让它更容易忍受，你觉得呢？"
+  },
+  "valid": true,
+  "note": "口语话语标记；偏长，句2 同样可选"
+ },
+ "what about": {
+  "canonical": "what about",
+  "pos": "int.",
+  "zh": "…怎么样？那…呢？",
+  "example": {
+   "id": 1,
+   "en": "What about a hard cheese?",
+   "zh": "硬奶酪怎么样？"
+  },
+  "valid": true,
+  "note": "和 how about 同义"
+ },
+ "what if": {
+  "canonical": "what if",
+  "pos": "conj.",
+  "zh": "如果…会怎么样？万一…呢？",
+  "example": {
+   "id": 0,
+   "en": "What if an accident happens or you get ill and need medical treatment?",
+   "zh": "万一发生意外或你生病需要治疗怎么办？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "guess what": {
+  "canonical": "guess what",
+  "pos": "int.",
+  "zh": "你猜怎么着；猜猜看（引出新消息）",
+  "example": {
+   "id": 0,
+   "en": "Guess what else?",
+   "zh": "你猜还有什么？"
+  },
+  "valid": true,
+  "note": "真题仅2句，且都是口语开场；例句偏短但含义不如句1典型，仍选句0"
+ },
+ "no matter": {
+  "canonical": "no matter",
+  "pos": "conj.",
+  "zh": "无论，不管（后接 what / how / who 等）",
+  "example": {
+   "id": 3,
+   "en": "Technology, no matter how advanced, should simply be a tool of a good teacher.",
+   "zh": "无论技术多么先进，它都应仅仅是好老师的工具。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "not only ... but also": {
+  "canonical": "not only ... but also",
+  "pos": "conj.",
+  "zh": "不但…而且…，不仅…还…",
+  "example": {
+   "id": 2,
+   "en": "It’s not just about being entertained, but also being inspired.",
+   "zh": "这不只关乎得到娱乐，也关乎得到启发。"
+  },
+  "valid": true,
+  "note": "含 not just ... but (also) 变体，已并入"
+ },
+ "anything but": {
+  "canonical": "anything but",
+  "pos": "adv.",
+  "zh": "根本不，绝不是",
+  "example": {
+   "id": 0,
+   "en": "The answers are anything but simple.",
+   "zh": "答案一点也不简单。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at least": {
+  "canonical": "at least",
+  "pos": "adv.",
+  "zh": "至少；无论如何",
+  "example": {
+   "id": 6,
+   "en": "Children must read at least 3 times a week.",
+   "zh": "孩子们每周必须至少阅读三次。"
+  },
+  "valid": true,
+  "note": "大部分是作文题套话 at least 120 words"
+ },
+ "at once": {
+  "canonical": "at once",
+  "pos": "adv.",
+  "zh": "立刻，马上；同时",
+  "example": {
+   "id": 1,
+   "en": "An operating system capable of doing several tasks at once.",
+   "zh": "一个能同时执行多项任务的操作系统。"
+  },
+  "valid": true,
+  "note": "真题多为「同时」，少数为「立刻」"
+ },
+ "at any cost": {
+  "canonical": "at any cost",
+  "pos": "adv.",
+  "zh": "不惜任何代价，无论如何",
+  "example": {
+   "id": 0,
+   "en": "Attempt to succeed at any cost.",
+   "zh": "不惜一切代价争取成功。"
+  },
+  "valid": true,
+  "note": "含 at all costs 变体"
+ },
+ "at all times": {
+  "canonical": "at all times",
+  "pos": "adv.",
+  "zh": "随时，始终",
+  "example": {
+   "id": 0,
+   "en": "Give way to automobiles at all times.",
+   "zh": "任何时候都要给汽车让路。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at first": {
+  "canonical": "at first",
+  "pos": "adv.",
+  "zh": "起初，开始时",
+  "example": {
+   "id": 1,
+   "en": "At first, you just eliminate the obvious distractions and explore the rest.",
+   "zh": "起初，你只需排除明显的干扰，再去探索其余的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at all": {
+  "canonical": "at all",
+  "pos": "adv.",
+  "zh": "根本，完全（用于否定、疑问和条件句）",
+  "example": {
+   "id": 1,
+   "en": "But that’s not what it means at all.",
+   "zh": "但那根本不是它的意思。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at one's best": {
+  "canonical": "at one's best",
+  "pos": "adv.",
+  "zh": "处于最佳状态",
+  "example": {
+   "id": 0,
+   "en": "The sport was at its best when he was allowed to act as a dictator.",
+   "zh": "当他被允许像独裁者那样行事时，这项运动处于最佳状态。"
+  },
+  "valid": true,
+  "note": "例句取自长句，已去引号并简化为主句；仅 1 句"
+ },
+ "at any rate": {
+  "canonical": "at any rate",
+  "pos": "adv.",
+  "zh": "无论如何，不管怎样",
+  "example": {
+   "id": 0,
+   "en": "At any rate, what was lost now has been found, by many of the community’s littlest residents.",
+   "zh": "不管怎样，丢失的东西如今已被社区里许多最小的居民找到了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at risk": {
+  "canonical": "at risk",
+  "pos": "adj.",
+  "zh": "处于危险中，有风险（at risk of 面临…风险）",
+  "example": {
+   "id": 1,
+   "en": "New research suggests that pandas may be at risk of dying out because they are too comfortable.",
+   "zh": "新研究表明，大熊猫可能因为太安逸而面临灭绝的风险。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at last": {
+  "canonical": "at last",
+  "pos": "adv.",
+  "zh": "终于，最后",
+  "example": {
+   "id": 0,
+   "en": "At last, the problem became so acute—and so visible—that Los Angeles took extraordinary action.",
+   "zh": "最后，问题变得如此严重、如此显眼，以至于洛杉矶采取了非常措施。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at first sight": {
+  "canonical": "at first sight",
+  "pos": "adv.",
+  "zh": "乍一看，一见（钟情）",
+  "example": {
+   "id": 0,
+   "en": "Attraction at first sight.",
+   "zh": "一见钟情的吸引。"
+  },
+  "valid": true,
+  "note": "仅1句，且是标题式短语"
+ },
+ "at large": {
+  "canonical": "at large",
+  "pos": "adv.",
+  "zh": "整个（置于名词后）；在逃",
+  "example": {
+   "id": 0,
+   "en": "The students themselves and society at large.",
+   "zh": "学生本人和整个社会。"
+  },
+  "valid": true,
+  "note": "例句由残句整理（首字母大写、去掉其后文字）"
+ },
+ "at best": {
+  "canonical": "at best",
+  "pos": "adv.",
+  "zh": "最多，充其量",
+  "example": {
+   "id": 0,
+   "en": "“This argument is, at best, far from sufficient,” he writes.",
+   "zh": "他写道：“这一论点充其量也远远不够充分。”"
+  },
+  "valid": true,
+  "note": "例句含引号，若网页处理引号不便可换"
+ },
+ "at short notice": {
+  "canonical": "at short notice",
+  "pos": "adv.",
+  "zh": "在短时间通知下，临时",
+  "example": {
+   "id": 0,
+   "en": "The problem then is you have to find accommodation at short notice.",
+   "zh": "那么问题就是你得临时找住处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at present": {
+  "canonical": "at present",
+  "pos": "adv.",
+  "zh": "目前，现在",
+  "example": {
+   "id": 0,
+   "en": "They do not make any sense at present.",
+   "zh": "它们目前毫无意义。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at random": {
+  "canonical": "at random",
+  "pos": "adv.",
+  "zh": "随便地，随机地",
+  "example": {
+   "id": 0,
+   "en": "Supermarkets caused women to wander aisles bumping into boxes and picking things off shelves at random.",
+   "zh": "超市让女性在过道里游荡，碰到箱子，随手从货架上拿东西。"
+  },
+  "valid": true,
+  "note": "例句为改写缩短（原句更长且含括号），仅1句，建议复核"
+ },
+ "either ... or": {
+  "canonical": "either ... or",
+  "pos": "conj.",
+  "zh": "要么…要么…；或者…或者…",
+  "example": {
+   "id": 0,
+   "en": "Pay either in cash or with his phone.",
+   "zh": "要么用现金支付，要么用他的手机支付。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sooner or later": {
+  "canonical": "sooner or later",
+  "pos": "adv.",
+  "zh": "迟早，早晚",
+  "example": {
+   "id": 0,
+   "en": "It will come true sooner or later.",
+   "zh": "它迟早会实现。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "or something": {
+  "canonical": "or something",
+  "pos": "adv.",
+  "zh": "或者什么的（表示不确定）",
+  "example": {
+   "id": 0,
+   "en": "And then, if you still wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing it from people.",
+   "zh": "然后，如果你还想拿钱当作某种道歉之类的，他大概不必四处向人借钱。"
+  },
+  "valid": true,
+  "note": "仅1句"
+ },
+ "or so": {
+  "canonical": "or so",
+  "pos": "adv.",
+  "zh": "大约，左右",
+  "example": {
+   "id": 0,
+   "en": "What's more, the 7,000 or so languages that exist today vary dramatically in how they utilize numbers.",
+   "zh": "而且，如今存在的七千种左右的语言在使用数字的方式上差异极大。"
+  },
+  "valid": true,
+  "note": "例句已修正 OCR"
+ },
+ "one way or another": {
+  "canonical": "one way or another",
+  "pos": "adv.",
+  "zh": "以某种方式，不管怎样",
+  "example": {
+   "id": 0,
+   "en": "All of us can be affected by food instability one way or another.",
+   "zh": "我们所有人都可能以某种方式受到食物不稳定的影响。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "just about": {
+  "canonical": "just about",
+  "pos": "adv.",
+  "zh": "几乎，差不多",
+  "example": {
+   "id": 1,
+   "en": "As the night goes on, groups of riders are often seen traveling in just about every direction in the streets and on pedestrian paths.",
+   "zh": "随着夜幕降临，常常能看到成群骑行者几乎朝每个方向穿行在街道和人行道上。"
+  },
+  "valid": true,
+  "note": "句0 just about even out 也是「差不多」"
+ },
+ "bring about": {
+  "canonical": "bring about",
+  "pos": "v.",
+  "zh": "引起，导致；带来",
+  "example": {
+   "id": 1,
+   "en": "Self-control only brings about small benefits.",
+   "zh": "自控只能带来小小的好处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "how about": {
+  "canonical": "how about",
+  "pos": "int.",
+  "zh": "…怎么样？（提建议或询问）",
+  "example": {
+   "id": 2,
+   "en": "How about something healthy?",
+   "zh": "来点健康的东西怎么样？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come about": {
+  "canonical": "come about",
+  "pos": "v.",
+  "zh": "发生，产生",
+  "example": {
+   "id": 0,
+   "en": "The revolutionary idea of a self-service grocery first came about in America.",
+   "zh": "自助杂货店这一革命性的理念最早出现在美国。"
+  },
+  "valid": true,
+  "note": "例句删去了中间的修饰从句"
+ },
+ "rather than": {
+  "canonical": "rather than",
+  "pos": "conj.",
+  "zh": "而不是，与其…不如",
+  "example": {
+   "id": 4,
+   "en": "He enjoys celebrating others’ birthdays rather than his own.",
+   "zh": "他喜欢庆祝别人的生日，而不是自己的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "other than": {
+  "canonical": "other than",
+  "pos": "prep.",
+  "zh": "除了；不同于",
+  "example": {
+   "id": 0,
+   "en": "It could be reshaped into animals other than rabbits.",
+   "zh": "它可以被重塑成兔子以外的动物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "more than a little": {
+  "canonical": "more than a little",
+  "pos": "adv.",
+  "zh": "相当，非常（比“有点”更多）",
+  "example": {
+   "id": 0,
+   "en": "His writing is more than a little dense — dense with research, clauses, and precise adjectives and nouns.",
+   "zh": "他的文章相当晦涩，充满了研究、从句和精确的形容词与名词。"
+  },
+  "valid": true,
+  "note": "仅1句"
+ }
+}

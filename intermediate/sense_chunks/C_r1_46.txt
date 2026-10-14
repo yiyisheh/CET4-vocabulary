@@ -1,0 +1,560 @@
+# 任务 C_r1_46：1 个词，536 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_46.labels.txt
+
+============================================================
+## 词：for    本段 536 句    模式：全标（每句都写）
+原释义：prep.为了; 对于; 由于. conj.因为.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 为了，用于（表示目的、用途）    B 样本 25    例：Long time for processing.
+  1  prep. （表示时间、距离）达，持续    B 样本 10    例：A sentence for life.
+  2  prep. 给，为（表示对象、受益者）    B 样本 4    例：He is a host for a TV program.
+  3  prep. 对于，对…来说    B 样本 11    例：Helicopter taxi is not an affordable option for many travelers.
+  4  prep. 因为，由于（表示原因、理由）    B 样本 11    例：They claimed damages for their heavy losses.
+  5  prep. （look/search/ask for）寻找，请求（引出所求的东西）    B 样本 6    例：Search for the meaning of their life.
+  6  prep. 以（某价格），换取；为…付钱    B 样本 4    例：Eat as much as they want for $10.
+  7  prep. 就…而言，至于    B 样本 3    例：Directions: For this part, you are allowed 80 minutes to write an essay titled "Is technology making people
+  8  prep. （for sb to do）让某人做…（引出动作的执行者）    B 样本 2    例：King’s wife said her husband had come “running in” and was “shouting for me to come have a look”.
+  9  prep. （表示对应）每…；对应于    B 样本 2    例：They were in the operating room with five teams of doctors, one for each baby.
+  10  prep. 在（某时、某场合）：for the second time 第二次    B 样本 2    例：A deadly snake, which had finally been tracked down after escaping a zoo, has slipped away for the second time.
+  11  prep. 支持，赞成    B 样本 0
+  12  prep. 前往，去往（leave for）    B 样本 0
+  13  conj. 因为（书面语）    B 样本 0
+已标过的短语：for instance（1）；mistake sth for sth（1）
+口径说明（照此执行）：
+  - 目的义计数含题干「You will have 30 minutes for the task」（n=9）。几处边界：compensate for loss（47）、damages for losses（60）归「因为」；for a reported fire（34）归原因；improving its work for the coming year（48）归时间场合义；A sentence for life（43）按「持续（终身）」标。
+句子：
+680 | It’s hard to make any decisions when you don’t really know what you’re looking 【for】.    ?P:look for
+716 | What does the report say security officers were searching 【for】?
+760 | What did the government say would be done if security officers found what they were searching 【for】?
+761 | “Last night, we were honored to be awarded three Michelin stars 【for】
+824 | E) Another theory Friedman considers is that, in an era of ever fewer settings that provide effective opportunities 【for】
+893 | There are two main reasons 【for】
+941 | This culture of busyness is making it hard 【for】
+942 | G) Keynes's prediction of a shorter working week rests on the idea that the standard of living would continue rising 【for】
+1005 | It also means having private space dedicated to work: the space must be heated, cleaned, maintained and paid 【for】.
+1020 | I’ve read some financial education books, done some online learning, and have spoken to my nearest and dearest 【for】
+1026 | pumped less blood through the body-both responses that the body shows when it is preparing 【for】
+1068 | Or they save money by hiring "top-tier c-m  ) experts" only 【for】
+970 | Knowing one’s emotional state is of utmost importance in deciding what changes to make 【for】 a better work-life balance.
+1033 | It used to be considered socially unacceptable 【for】 a bride to retain her maiden name.
+1061 | the need 【for】 a ‘catch up’ phase once we’re out on our own after graduation.
+842 | If you get a yes to your request 【for】 a chat, you’ll be armed with some pretty powerful and helpful information heading into your interview!
+890 | pushing 【for】 a “deposit return” scheme.
+1101 | The hairdresser agreed but 【for】 a different reason: She
+905 | Even if your school offers a flat-rate fee 【for】 a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do not include extra fees 【for】 lab tests or prescription medications (药物).
+876 | Watching someone else’s success might leave you feeling excited 【for】 a few minutes.
+721 | Feeling bored may signal the desire 【for】 a greater sense
+714 | This began a journey to transform our practice and challenge the ways of learning 【for】 a group of Year 6 students used to sitting in desks and rows 【for】 years.
+1007 | It is impossible 【for】 a job applicant to have every expectation met.
+1076 | Our analysis suggests early booking by women can translate into savings of $1 million a year 【for】 a large multinational company with 20,000 regular travelers.
+697 | “The old standard of women staying home, having babies and cooking doesn’t apply and hasn’t applied 【for】 a long time.
+1003 | Success was once defined as being able to stay at a company 【for】 a long time and move up the corporate
+738 | Chase Carey used to serve as a top advisor 【for】 a major broadcasting company.
+771 | Cheating was becoming a way of life 【for】 a majority of high school teens.
+787 | Although born gray, males of the species are easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting or a serious bid 【for】 a mate.
+1114 | cacao seedlings are lined up in refrigerated greenhouses 【for】 a new experiment by using a technology called CRISPR.
+930 | N) When you’re hunting 【for】 a new job, you already know that the employer is trying to decide whether or not you’re a good fit 【for】 the position.
+1070 | First of all, students lack the desire to learn, and they simply complete their assignments to receive credit 【for】 a passing grade rather than genuinely engage with the course material.
+862 | work with groups to produce imaginative design ideas 【for】 a product in simple materials that could sell 【for】 £10 in the Design
+849 | What has Bill Thomas been doing 【for】 a quarter of a century?
+912 | That's a shocking and tragic number 【for】 a region that's home to some of the richest people in the world.
+750 | depriving adult mice of vision 【for】 a short period increased the sensitivity of individual neurons in the auditory cortex ,
+952 | calculated that the lifetime benefit to the local economy 【for】 a single additional student who completes
+1119 | students 【for】 a successful future.
+981 | 【For】 a time an app developer in America was so busy attending to work and family that she suffered from sleeplessness.
+1188 | An economist’s prediction about a shorter average working week seemed to be correct 【for】 a time in the 20th century.
+744 | 【For】 a while, it looked like Keynes was right.
+1050 | They are advertised as a way 【for】 adults to finish their education and students to learn the material at their own pace—it is far more compatible 【for】 people with busy schedules.
+1006 | Providing male teachers with more opportunities 【for】 advancement.
+1177 | They account 【for】 age differences in learning.    ?P:account for
+745 | Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out 【for】 alarmingly large snakes—and a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins do exist in the Amazon region.    ?P:keep an eye out for
+798 | From our experience so far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It is a win 【for】 all concerned.
+791 | 【For】 all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot
+1095 | But Friedman says that, 【for】 Americans,
+950 | They send the message that bad diets are responsible 【for】 Americans’ obesity.
+985 | So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible 【for】 an additional $1,200 【for】 the next year.
+884 | They must be used in combination 【for】 an entire collective.
+1029 | A chat with an insider of a company can give job applicants very useful information when they prepare 【for】 an interview.
+1021 | M) Ritman Smith adds: “Design technology has become a tricky subject to make a case 【for】, and we’ve heard of departments    ?P:make a case for
+712 | consumption 【for】 animal rights, health, or environmental reasons.
+1187 | 【For】 another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.    ?P:for another
+764 | It is difficult 【for】 anumeric people to keep track of the change in numbers even when the total is very small.
+1053 | “It’s hard 【for】 anyone to graciously accept the fact that they’re wrong.
+846 | It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus 【for】 anything other than emergency care.
+1118 | They are solid scientific bases 【for】 application.
+991 | 【For】 as long as there are homeless people, there is a tendency to blame the victims themselves 【for】 their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+822 | But 【for】 as long as you want to stay safe, and 【for】 as long as you are content with where your business is right now, you will never find out.
+1100 | By affecting what we take as the basis 【for】 assessment.
+705 | animal to hear long after the window 【for】 auditory learning was thought to have ___30___ said Patrick Kanold,
+765 | Similar to the need 【for】 belonging, bored people often report that they feel a limited sense of
+775 | You still need to say “no” to distractions, but you also need to learn to say “no” to opportunities that were previously good uses of time, so you can make space 【for】 better uses of time.
+1196 | It proves necessary 【for】 big achievements.
+909 | The trend 【for】 bigger housing thus poses ethical questions.
+773 | After I fell out of my bed twice during my freshman year, the university installed a railing—【for】 $20, billed to my student account.
+971 | then consumers add flavours) 【for】 $3.2 billion.
+1123 | They consume plenty of cereal 【for】 breakfast.
+707 | Do you ever blend up a protein drink 【for】 breakfast or grab a protein bar following an afternoon workout?
+710 | Freshly juiced fruit has become a basic dietary item — especially 【for】 busy, health-conscious consumers who can save time
+1094 | It is mainly accounted 【for】 by male employees’ readiness to pay more.    ?P:account for
+1059 | 【for】 by private companies.
+1190 | they have had on our current society, it is without doubt that we can expect them to continue to remain important 【for】 centuries
+1209 | It might not be able to rival classical music and opera in importance 【for】 centuries to come.
+1067 | happen if schools helped to make beliefs about the potential 【for】 change and improvement a larger
+724 | Research has found that having access to diverse teachers is beneficial 【for】 children.
+834 | Interventions to help reduce junk food consumption are especially important 【for】 children and teenagers.
+929 | The responsibilities of fathers 【for】 children’s growth.
+802 | It takes great efforts 【for】 children to grasp the concept of number words.
+805 | “It’s important 【for】 children to see other possibilities and other paths they can take.
+772 | There was one exception: Social skills were slightly lower 【for】 children who accessed online games and social networking sites many times a day.
+1191 | What is the chief reason 【for】 college-educated workers delaying retirement according to an economist?
+778 | Meanwhile, Helen Lockhart, a registered nurse working 【for】 community education, supports a complete ban.
+1157 | They have been successful in preparing the workforce 【for】 companies.
+807 | Or are their social media accounts strictly reserved 【for】 company-related announcements and product launches?
+725 | Therefore, if you are someone who loves to show physical affection, you should not be afraid to show it or drastically change your behaviors—just ask 【for】 consent beforehand!
+1156 | They differ in their reasons 【for】 continuing to work.
+797 | People may find it more pleasant to wander around streets redesigned 【for】 cycling and walking.
+1079 | that teenagers will be able to take a natural history test given that 【for】 decades children have been able to name more video
+1062 | During the course of preparing 【for】 Design Ventura, teachers receive training and support while students get tutoring from
+935 | However, the research does not explain why this is the case—a question that has significant implications 【for】 designing effective policies and initiatives to improve diets and prevent chronic diseases.
+948 | More research is needed to determine the best times to administer treatments 【for】 different diseases.
+983 | O) Keep these tips in mind to figure out whether you and a potential employer are a perfect match or just a recipe (方案) 【for】 disaster.
+1043 | increases hormones needed 【for】 displaying dominance.
+1144 | They may enable people to have the right mentality 【for】 doing business.
+762 | You are required to select one word 【for】 each
+801 | letter 【for】 each item on Answer Sheet 2 with a single line through the centre.
+1103 | 【For】 each of them there are four choices marked A), B), C) and D).
+880 | The basis 【for】 each of these things, however, is whether or not you are willing to make a compromise when it comes to changing your name.
+908 | Hyphenating the two names is a way 【for】 each person to, at least a little bit, “win” the argument.
+865 | They cost parents an average of £337 per year 【for】 each secondary school child.
+901 | The authors also suggest that traditional recruitment approaches 【for】 early childhood educators “do not address the gender gap in the field.
+987 | The internet is full of recipes 【for】 “eating well on a budget.
+1019 | The weakening of the human connection to nature might be good 【for】 economic growth but is bad 【for】 people.
+982 | Recruiting young men who have a passion 【for】 education young children.
+1171 | The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state 【for】 educational and cultural affairs, said on a press call last week.
+904 | As remote work is largely unobservable to supervisors, employers need to think about how they can objectively measure the quality of work in a way that is consistent 【for】 employees of similar rank.
+874 | Create opportunities 【for】 employees to share success stories.
+878 | This shift toward aquaculture isn’t just good 【for】 ensuring salmon (三文鱼) on your plate; it’s also crucial to ensuring food security and sustainability.
+739 | The New York dance club also serves as a place 【for】 entertainment where youngsters can enjoy themselves safely.
+1060 | 【For】 every three nature-related words in
+1186 | If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good 【for】 everyone, including scientists.
+1073 | More public spaces created 【for】 everyone to enjoy.
+789 | cutting back on family time?”, 【for】 example.    ?P:for example
+841 | Take smartphones 【for】 example.    ?P:for example
+886 | Answering the phone and writing at the same time, 【for】 example.    ?P:for example
+919 | students helped to make decisions and there were plenty of discussions — they changed the product’s name, 【for】 example.    ?P:for example
+1107 | 【For】 example, a traditional Mediterranean diet includes fruits, vegetables, whole grains, nuts and olive oil as the main components of nutritional intake.    ?P:for example
+774 | Left-handed people can find it inconvenient to do certain things, writing in a notebook 【for】 example, but there are a number of advantages of being left-handed.    ?P:for example
+766 | It’s a common story—one we frequently ridicule and readily dismiss, 【for】 example, by claiming that women tend to complain more than men, despite the growing sum of research that underlines the problem.    ?P:for example
+779 | Doctors completing online forms about their patients by speech, 【for】 example, can dictate 150 words a minute, three times faster than typing on a keyboard.    ?P:for example
+1001 | Height, 【for】 example, depends on hundreds of    ?P:for example
+832 | 【For】 example, eating at night can lead to weight    ?P:for example
+742 | One group of researchers, 【for】 example, examined the link between rivalry and unethical behavior.    ?P:for example
+752 | 【For】 example, if you’re a dedicated athlete you might need to consume higher quantities of protein.    ?P:for example
+734 | 【For】 example, if your groom’s name is John Smith and your name is Kate Jones.    ?P:for example
+768 | 【For】 example, in one task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.    ?P:for example
+962 | 【For】 example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.    ?P:for example
+777 | 【For】 example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names.    ?P:for example
+693 | 【For】 example, 34% of Americans born in Latin America report no credit card or installment loan debt.    ?P:for example
+790 | 【For】 example, other studies have found dogs are more likely to bite children versus adults.    ?P:for example
+743 | 【For】 example, participants could choose to be tough by making an opening demand far greater than what they’d be willing to accept.    ?P:for example
+906 | 【For】 example, pound 【for】 pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia.    ?P:for example
+1170 | 【For】 example, some sensitive individuals may assume responsibility 【for】 other people’s sadness or anger, which ultimately stresses them out.    ?P:for example
+951 | 【For】 example, tests 【for】 traits that depend on a single gene provide much    ?P:for example
+839 | 【For】 example, the United Nations reported that women do nearly three times as much unpaid domestic work as men.    ?P:for example
+1136 | 【For】 example, they showed the students photographs of people’s faces and asked them to what extent feelings such as happiness or disgust were being expressed.    ?P:for example
+740 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, 【for】 example, while climate change will likely have “great impacts” on cocoa (可可粉) production in West Africa.    ?P:for example
+900 | 【For】 example, women are more likely to experience disturbed sleep, anxiety and unusual fatigue before a heart attack.    ?P:for example
+1205 | As you become more capable of providing yourself with the approval you seek, your need 【for】 external validation will
+883 | The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed 【for】 farm work.
+1140 | Its recommendations should be examined 【for】 feasibility.
+934 | It is a must 【for】 feeding the world’s fast-growing population.
+1030 | Students may no longer be qualified 【for】 financial aid if they perform poorly in school or if their family income has increased.
+1148 | Not all students have access to these types of resources, whether it is 【for】 financial or other reasons, and some students can be put at a disadvantage.
+1145 | who stay on are more likely doing so 【for】 financial reasons.
+984 | Why is it important 【for】 firms to provide timely feedback during the pandemic?
+1048 | Today, consulting or freelancing 【for】 five businesses at the same time is a badge of honor.
+853 | Shopping 【for】 food involved mud, noisy chickens, clouds of flies, nasty smells, bargaining, and getting short-changed.
+756 | Many vegetarians don’t actually care 【for】 food that resembles meat.
+1131 | They are necessary 【for】 formal business dealings.
+997 | K) It costs the schools nothing to participate in Design Ventura; the professional designers provide their services 【for】 free.    ?P:for free
+1137 | The platform will allow refugees worldwide to take thousands of online courses 【for】 free.    ?P:for free
+915 | F) A third possibility proves more convincing 【for】 Friedman.
+755 | system a while to break these cells down and 【for】 fructose to enter the bloodstream.
+892 | I) Another reason 【for】 fruit juice’s recent popularity is the argument that it can help to remove poisonous or harmful substances
+947 | It takes some time 【for】 fruit’s cells to be digested and 【for】 fructose to be absorbed.
+749 | Physical activity provides a positive outlet 【for】 frustration, anxiety, or anger and can become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important 【for】 our physical and mental health, and cultivating the habit of physical activity starts early.
+1161 | They can apply 【for】 fully funded access to Coursera’s course catalog, which means they can take all of the platform’s classes and obtain professional certificates 【for】 free.    ?P:for free
+1164 | It has implications 【for】 future panda research.
+882 | They’re designed 【for】 3G networks because 4G coverage doesn’t reach two thirds of Africa’s customers.
+920 | J) And juice isn’t a cure-all 【for】 getting your nutrients, either.
+972 | Catholic High School product raised about £1,000 【for】 Great Ormond Street Hospital.
+827 | And finally, they implemented changes, like asking their supervisor 【for】 greater
+916 | habits day in and day out 【for】 greater success.
+1111 | This is confirmed by a recent poll that found that, 【for】 half
+1034 | An absolute necessity 【for】 happiness.
+851 | Big houses are advertised as a reward 【for】 hard work and diligence, turning housing from a basic necessity into a luxury.
+796 | Most of them refrain from eating meat 【for】 health reasons.
+889 | 【For】 her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author
+826 | through day-to-day, make sure your present self knows what's in it 【for】 her too.
+809 | Cheating was getting more and more difficult 【for】 high school students.
+715 | restructured Zentech, once a taxation vehicle 【for】 his father’s business, and it is now in its fourth year helping international
+1080 | The schooling system was to blame 【for】 his trouble.
+1179 | Remember, as Bechtoldt says, “you are not responsible 【for】 how other people feel.
+868 | Willot says companies are interested in _lL these ants' method of heat protection 【for】 human
+1168 | It is often the major cause 【for】 human failures.
+1128 | Such planting is a small step 【for】 humanity — in the
+961 | It proves a reliable source of protein 【for】 humans and animals.
+1092 | 【For】 if you nap properly, it’s like waking up from a full night’s sleep and you can double your day’s worth of concentration.
+844 | This requires a fundamental rethinking of what organizations expect from employees and what companies would look 【for】 in a model employee in a remote work context.    ?P:look for
+726 | This will help you immediately identify what you’re looking 【for】 in an organization, as well as the things you’re trying to stay far, far away from.    ?P:look for
+1013 | A reward 【for】 industriousness.
+1178 | When debates in any sector move beyond the halls of universities and government agencies, there’s potential 【for】 information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+845 | It’s easy to spend all day searching 【for】 inspiration.
+701 | J) Take writing this article, 【for】 instance.    ?P:for instance
+1134 | 【For】 instance, many babies are perfectly proficient crawlers, but they decide to try walking because there’s more to see and do when they stand upright.    ?P:for instance
+869 | 【For】 instance, studies funded by Welch Foods-the brand behind Welch's 100% Grape Juice-found    ?P:for instance
+1147 | 【For】 instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.    ?P:for instance
+897 | 【For】 instance, they may drop difficult coursework.    ?P:for instance
+1211 | Our desperate longing 【for】 interactions with others.
+737 | Most Africans live in rural areas that are tough to wire 【for】 Internet access.
+979 | And what it pays 【for】 is often a pro-industry
+994 | As a society, we reap the rewards from this science but we also help pay 【for】 it.
+1189 | because you “don’t have the skills 【for】 it”?
+1203 | Formulate new rules 【for】 it.
+1152 | And, of course, they are compensated 【for】 it at a level that makes it worth their
+1042 | them to opt 【for】 it at General Certificate of Secondary Education, so we are helping to keep alive something which is crucial
+783 | “High quality chocolate will be less available in the future, and if you want it, you’ll have to pay a lot more 【for】 it,” Jarvis says.
+1040 | wood has such health benefits that the Woodland Trust successfully lobbied 【for】 it to be prescribed by doctors.
+736 | I) Siri has often been praised 【for】 its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.
+763 | Takotna has gained a reputation 【for】 its dessert-based hospitality since the 1970s.
+800 | It was famed throughout the U.S. 【for】 its fancy regional dishes.
+694 | The room's ceilings are too low to wear the lion heads 【for】 jumping practice, so once up on his partner's head, Mr.
+1121 | The human thirst 【for】 knowledge is the driving force behind our successful development as a species.
+1214 | curiosity and a desire 【for】 knowledge — may also help folks pass brain tests.
+684 | Fees 【for】 lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate.
+720 | the by-product of two key factors: the human capacity 【for】 language and our inclination 【for】 focusing on
+1096 | They have no means 【for】 large-scale research.
+829 | F) The theme 【for】 last year’s competition was “Move”, and Hourican began with three groups working in lunch breaks and
+1016 | We find few people of high status have time 【for】 leisure.
+995 | Some researchers suggest that work-life balance is not a goal to achieve, but a process 【for】 life to be adjusted promptly.    ?P:for life
+1086 | It was difficult to keep a job 【for】 long.
+830 | The paper concluded that foods containing fructose may have some small benefits 【for】 long-term blood sugar
+898 | concluded, as a Daily Mail story put it, that "hot oatmeal ( Ø !: Ù) breakfast keeps you full 【for】 longer. "
+960 | We were assured that, except 【for】 low grades or a raise in family income, no money would be taken away.
+1032 | Prioritizing the provision of better nutrition 【for】 lower classes.
+748 | similar strategies 【for】 maintaining their work-life balance.
+938 | But now it is cheaper 【for】 major manufacturers to use new plastic.
+1174 | In fact, sometimes actual orchestras are used 【for】 major parts of the opera itself.
+945 | Last year, the company bought SodaStream (a drinks company that sells machines 【for】 making tap water bubbly and
+872 | Cities and programs should establish support groups 【for】 male early childhood educators and provide mentoring and professional development advice 【for】 male educators and their program leaders.
+727 | These findings present a dilemma 【for】 managers: employees using social media at work are more engaged and more productive, but they are also more likely to leave your company.
+782 | Team-building exercises have become popular 【for】 managers trying to increase organisational and team harmony and productivity.
+881 | Second, once-public spaces, where people from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life 【for】 many.
+1197 | It can be difficult 【for】 many classical music fans to appreciate.
+867 | It would set a model 【for】 many more restaurants to follow.
+818 | Previously, the lowest price had been around $40, well out of reach 【for】 many people.
+1193 | 【For】 many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+1106 | The office hours of the professor may also be during inconvenient times 【for】 many students as well.
+1126 | Friedman believes that 【for】 many top
+1012 | Making preparations 【for】 marriage causes a lot of stress.
+1181 | Many economists assume people's thirst 【for】 material things has prevented them from enjoying more leisure time.
+999 | They give little thought to the time of taking it 【for】 maximum effect.
+1009 | M) In the grand scheme of things, however, colleges also must come to understand that the hidden fees they ask 【for】 may prove unmanageable 【for】 the very kinds of low-income or first-generation students they are trying desperately to attract.
+1055 | Here, at this point in the argument, it’s traditional 【for】 me to bring up all the studies that show the benefits of napping.
+746 | It’s easy 【for】 me to imagine how amazing it will feel at the end of the workday
+1153 | One survey taker explained, “The greatest challenge 【for】 me was continuing to believe in myself, when all the messages
+1117 | lead to feelings of isolation and loneliness, particularly 【for】 men.
+956 | What is needed 【for】 men to commit to early childhood education?
+917 | 【For】 millions of people, work is
+1087 | Why did the author run the estimates 【for】 Montreal?
+1056 | What is one of the causes 【for】 more and more people in Los Angeles to become homeless?
+965 | They are pushing 【for】 more recycled plastics in new products.
+924 | A strong incentive 【for】 more restaurants to offer healthier foods to their customers.
+792 | What foods have been largely out of favor 【for】 more than a century?
+781 | 【For】 more than a decade, they have been under attack from e-commerce giants, blamed 【for】 making Americans fat, and accused of contributing to climate change.
+1074 | I’ve been working from home 【for】 more than 10 years now.
+1163 | But 【for】 most Americans, that prosperity is nowhere to be seen.
+1077 | 【For】 most Americans, then, the magic of increasing
+810 | But overall, the study found little evidence that time spent on screens was hurting social skills 【for】 most children.
+856 | 【For】 most scientists, the answer is no.
+1202 | There are few types of music 【for】 movie producers to choose from.
+1206 | They are essential 【for】 movies to become the world’s greatest hits.
+977 | Genetic tests 【for】 multi-factorial traits are often very tricky to interpret.
+1102 | What makes genetic tests 【for】 multi-factorial traits tricky to interpret?
+730 | Renting a mini-fridge 【for】 my dorm room costs my roommates and me about $140 a year.
+803 | Now the Office 【for】 National Statistics has confirmed that we are consuming 50% more calories than
+980 | What has the Office 【for】 National Statistics verified?
+786 | has stayed at just below 40 hours 【for】 nearly five decades.
+1172 | American workers’ average weekly working time has not changed 【for】 nearly half a century.
+704 | Regular exercise can significantly improve self-regulation and decrease disciplinary consequences 【for】 negative behavior.
+990 | Makers of clear plastic bottles may also opt 【for】 new fossil-fuel based plastic to save money.
+1213 | A desire 【for】 new life challenges can further boost brainpower.
+1081 | happiness can stop the bears from searching 【for】 new mates.
+1014 | This could mean incentives 【for】 new recycling plants.
+954 | should be looking 【for】 new ways to ensure what people eat wouldn't have much impact on their waistlines.    ?P:look for
+1065 | But scientists believe REM serves a completely different purpose 【for】 newborns and infants than dreaming.
+1025 | Then you should also account 【for】 non-genetic factors that are    ?P:account for
+1158 | It is too complex 【for】 non-scientists to understand.    ?P:too...to
+1038 | 【for】 normal workers (those who were not in management roles) in private industries other than agriculture nearly doubled in
+1215 | number games can enhance that desire 【for】 novel experiences, which can, in turn, refresh the brain.
+885 | 【For】 now, the jury is still out as to how successful those endeavours will be.    ?P:for now
+838 | Under-reporting rates are much higher 【for】 obese people, because they simply consume more food,
+1069 | What does this mean 【for】 offices in cities?
+1175 | The number of jobs suitable 【for】 older people has increased in the private sector.
+1180 | 【For】 one, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+1162 | What does the author say is of extreme importance 【for】 one to become a successful entrepreneur?
+780 | Certain companies have started selling simple smartphones 【for】 only $20.
+1027 | In 35 years, he worked 【for】 only three companies.
+1058 | But by 2013 the average hourly wage 【for】 ordinary workers had fallen 5 percent from
+959 | 【For】 organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.
+806 | As Professor O’Keefe pointed out, “This research provides a useful direction 【for】 organizations whose products and services call 【for】 integrated and creative solutions.    ?P:call for
+722 | “After I became a first-time mother, I quickly realized I was so busy caring 【for】 other people and work that I felt like I’d lost myself,” she said.
+1208 | life not only 【for】 others but also 【for】 ourselves, because ultimately, there is no difference.    ?P:not only ... but also ?P:not only...but also
+757 | K) 【For】 others, the pushback is cultural, says Henry Grabar, a writer 【for】 the Slate Magazine.
+717 | “If we can show the possibilities of eating plant-based food in this setting, it can open a lot of doors” 【for】 others to follow.
+713 | “【For】 our business, the bike lanes are way worse than Covid
+699 | British economist John Maynard Keynes when he wrote his short essay “Economic Possibilities 【for】 Our Grandchildren” in
+1210 | 48 What may account 【for】 our need to be liked or approved of?    ?P:account for
+1063 | While a good suit works wonders 【for】 our performance in the boardroom, wearing formal wear isn’t a great idea when
+1212 | Embrace life 【for】 ourselves and 【for】 others.
+871 | Li took a step back and used her experience to build Sanity & Self, a self-care app and platform 【for】 overworked women.
+1173 | It can be used to locate the right spot 【for】 pandas.
+975 | May said that the school’s uniform policy showed the lack of regard 【for】 parents dealing with the high cost of living.
+1097 | Part of remedying this social disease would be 【for】 parliament to pass a “right to grow” law, allowing anyone to turn
+1008 | Allowing their employees to look 【for】 part-time jobs.    ?P:look for
+1044 | Considering drug-taking timing when prescribing drugs 【for】 patients.
+728 | Kelli Harding doesn’t think America’s medical model is sufficient 【for】 patients who need help most.
+974 | What do doctors do when prescribing medicine 【for】 people?
+733 | The reasons 【for】 people’s evil behaviors can be explained in more ways than one.
+986 | It ensures a balanced healthy diet 【for】 people the world over.
+864 | When doctors prescribe medicine 【for】 people, they rarely consider the best time to take it.
+813 | It is especially difficult 【for】 people to decline to do what their superiors ask them to do.
+1166 | What is one of the reasons 【for】 people to delay retirement?
+1113 | The idea is 【for】 people to get back in touch with the soil — while
+1054 | What does the author advocate 【for】 people to live well?
+1091 | Overall, this is a positive quality, especially 【for】 people trying to build their own businesses.
+914 | Indeed, many companies look 【for】 people who are skilled in multitasking to improve their productivity.    ?P:look for
+852 | It made every effort to keep the essential capabilities of smartphones, but strip out costs and preserve battery life 【for】 people who likely have inadequate access to electricity.
+709 | This makes things tricky 【for】 people who may want to impress others while also demonstrating that they are a team player.
+1125 | 【For】 people with limited ambition, however, failure is viewed as something closer to reality.
+700 | It would make sense that wild campers need to ask 【for】 permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense 【for】 people to use small tents and leave no trace of their visit.
+711 | By allowing employees to donate their time during work hours, the workplace becomes an outlet 【for】 personal fulfillment without affecting personal time. [21] In one survey, 89% of employees perceived companies that sponsored volunteer activities as creating a better working environment, and 75% said volunteering was critical to their well-being.
+1160 | Furthermore, several studies have implied that emotional intelligence can be used to manipulate others 【for】 personal gains.
+825 | During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins are harder to detect. [21] The Amazon wetland system, fed by the Amazon River, is a crucial place 【for】 pink dolphins to breed, and since 2018 has been granted internationally protected status.
+759 | Many gamers know their passion 【for】 playing games has shaped their identity.
+899 | 【For】 policy, we need to focus on options that make it easy 【for】 people to eat fewer calories.
+855 | But 【for】 poorer people, those same price jumps will likely cause certain foods to go extinct from their diets.
+921 | most drugs have not been studied 【for】 possible different effects during a 24-hour cycle.
+859 | Taken in a practical way, saving 【for】 post-work years is like giving money away to others.
+682 | Instead, she remains positive, holding up 【for】 praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.
+823 | By criticizing themselves 【for】 previous poor performances.
+1028 | That depends on many things, but 【for】 purposes of illustration, I have run some estimates 【for】 Montreal.
+702 | Understand the reason 【for】 pursuing their goals
+719 | The toughness of the race allows 【for】 racers to eat pretty much whatever they want.    ?P:allow for
+946 | product is going on sale 【for】 real and the boys had to learn about budgeting and marketing, as well as designing their game.    ?P:for real
+1201 | It is a guarantee 【for】 real success in life.    ?P:for real
+691 | M: Yes, we grown-ups can be tedious and limiting in our need 【for】 reality.
+1000 | It has shed light on teens’ instinct 【for】 rebellion and autonomy.
+1024 | They were incapable of appealing to teens’ instinct 【for】 rebelliousness.
+895 | new intervention cleverly exploits teenagers’ instinct 【for】 rebelliousness and autonomy, and the value they place on social
+918 | the plastic 【for】 recycling.
+996 | users to post them back 【for】 recycling.
+1199 | State Department launching an online learning program 【for】 refugees?
+1204 | What do we know about “Coursera 【for】 Refugees”?
+1194 | Then there are the questions over the value of massive open online courses (MOOCs) themselves—both 【for】 refugees and 【for】 average learners.
+1207 | It offers free online data services 【for】 refugees around the world.
+1150 | “Coursera 【for】 Refugees” will be available 【for】 any non-profit group that supports refugees in any country, as well as individual refugees.
+1115 | They have stopped seeking new mates 【for】 reproduction.
+1130 | Pandas’ natural habitats are becoming less suitable 【for】 reproduction.
+1112 | They try hard to pull down the safeguards 【for】 research.
+953 | industry pays 【for】 research, it often gets what it pays 【for】.
+1129 | Build rows of refrigerated greenhouses 【for】 research on cacao seedlings.
+837 | 50 years ago, the sugar industry paid Harvard scientists 【for】 research that shifted the focus away from
+735 | “When students use their phones 【for】 research, they learn they have a powerful tool in their hands.
+1052 | with heavy conditions attached, like loan repayment or food 【for】 resources, it often widens the gap between rich and poor and sustains the old world order.
+799 | But recent studies show a lack of exercise is not to blame 【for】 rising obesity rates.
+784 | Risk-takers are best at adapting in difficult times. [25] Simply put, when most individuals stay away from risk, it means less competition 【for】 risk-takers.
+1035 | At the Dreamery, a business in Manhattan, naps are 【for】 sale.
+732 | As your skills improve and you learn to separate what works from what doesn’t, you have to continually increase your threshold 【for】 saying “yes”.
+1169 | But is that bad 【for】 science?
+1018 | Funding 【for】 science has changed with the times.
+926 | Bonnie Liebman, director of nutrition at the Center 【for】 Science in the Public Interest.
+1198 | With the validity of science coming under attack, there’s a need 【for】 scientific debates to be perceived as open and true to life.
+1078 | These groups provide invaluable funding 【for】 scientific research.
+1127 | They provide valuable resources 【for】 scientific research.
+879 | He wanted to make it more pleasant 【for】 seniors.
+776 | Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game 【for】 seniors over the last 25 years.
+907 | Residences 【for】 seniors should be run independently.
+1105 | To provide convincing data 【for】 serious discussion.
+1049 | Rough calculations show that the savings made by employers when their staff works from home are of similar value to the compensation workers should receive 【for】 setting up offices at home.
+1104 | What does the author say about people now working 【for】 several businesses at the same time?
+718 | It is the best time 【for】 sightseeing.
+812 | An Italian study found that 【for】 simple arithmetic there was little difference between right- and left-handed performance, (24) but 【for】 more difficult problem-solving, left-handers won out.
+1072 | It’s even harder 【for】 smart people because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.
+1090 | “【For】 smart people, being wrong can feel like a personal attack, and being right, a necessity.
+1045 | A totally different approach could be adopted to combat advertising campaigns 【for】 snack food.
+1200 | 【For】 social beings who desire love and belonging, wanting to be
+1132 | to stay in the labor force more 【for】 social benefits than 【for】 financial reasons.
+964 | A better goal than building bigger houses 【for】 some is to create more publicly accessible spaces and amenities 【for】 all.
+922 | But 【for】 some parents, the school’s restrictions are an unnecessary burden.
+819 | 【For】 some 300 years, Americans had fed themselves from small stores and public markets.
+828 | A litre of bottled water can cost well over a pound, especially 【for】 something fancy that has been sucked
+973 | We all take a little extra effort to look nice 【for】 special occasions.
+1089 | 【For】 starters, Americans eat much bigger portions than people in other countries.
+816 | In the second study, those born on both sides of the cut-off date 【for】 starting school, were asked to complete online math questions and rate their performance.
+870 | 【For】 statistics, we should invest in more accurate measurement
+831 | It provides all the nutrients 【for】 staying healthy.
+820 | The researchers said there are numerous schools of thought that propose differing psychological methods 【for】 strengthening relationships.
+854 | What does Matous think of the various psychological methods borrowed from other fields 【for】 strengthening relationships?
+741 | But they’re less helpful 【for】 struggling students.
+753 | the museum’s 2015 Design Ventura competition, which brings the business of design to life 【for】 students aged 13 to 16 by
+811 | 【For】 students already struggling to pay tuition, these costs may be the least of their worries.
+1085 | feature of the overall school culture, especially 【for】 students starting the ninth grade.
+1122 | It is nearly impossible 【for】 students to build a relationship with their professor.
+1159 | They provide little chance 【for】 students to build relationships with each other.
+1135 | It can be harder 【for】 students to create study groups and form relationships with their peers.
+911 | Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year 【for】 students to get back to where they were before the summer holiday.
+1088 | They are not designed 【for】 students to interact with the material in depth but designed to be graded easily to accommodate such a large number of students.
+1002 | We then assessed biological stress responses 【for】 students whose
+1022 | There’s a reason tailored jackets are associated with being “dressed 【for】 success”.
+1116 | Why does the author say tailored jackets are associated with being “dressed 【for】 success”?
+913 | In other words, the more we believe that one has the opportunity 【for】 success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.
+992 | Our own opportunity 【for】 success never comes easily.
+978 | turned to 【for】 support when they move from the eighth to the ninth grade.
+1154 | Their environment 【for】 survival has been continuously worsening.
+955 | Women tend to mistake signs of heart attacks 【for】 symptoms of stress.
+689 | “My school doesn’t have money 【for】 tablets,” she says.
+891 | there is training and support 【for】 teachers and tutoring 【for】 students from designers.
+866 | flaw: they focused on a future, healthier you and assumed that this would be enough motivation 【for】 teenagers.
+873 | So yes, you can definitely ask your interviewer about what it’s like to work 【for】 that particular organization.
+967 | What is a reason 【for】 the author to be in the habit of saying “busy” when asked how he is doing?
+944 | Talking about work-life balance is said to be a privilege reserved 【for】 the better-off, not 【for】 those who barely make a living.
+729 | In virtually every comparison made, ratings of social skills either remain constant or improved 【for】 the children born later.
+1182 | Help discover new ways 【for】 the conservation of pandas.
+1051 | In addition to tuition, college students have to pay extra fees 【for】 the courses they take.
+896 | A greater responsibility 【for】 the culinary world to undertake.
+793 | challenging them to develop a new creative, sustainable and commercially feasible product 【for】 the Design Museum shop
+968 | Although Keynes’s eight-fold figure holds up 【for】 the economy
+695 | “If predictions 【for】 the end of the century are true, though, I think a lot of agricultural areas in the US will see significant hits.
+861 | F) But even if large numbers of people are quitting bottled water because of care 【for】 the environment, others are taking it up.
+1108 | What accounts 【for】 the existence of intelligent people’s logical blind spots?    ?P:account for
+848 | 【For】 the first time in human history, most of our aquatic (水产的) food now comes from farming rather than fishing.    ?P:for the first time
+1110 | What accounted 【for】 the gender gap in airfares.    ?P:account for
+940 | The purpose of such action is to fund an enormous multibillion-dollar, 10-year program of housing and social services 【for】 the homeless.
+989 | A luxury 【for】 the homeless.
+1093 | Supplying enough job opportunities 【for】 the homeless remains a challenge.
+976 | They claim that lack of exercise is to blame 【for】 the increasing obesity rates.
+751 | But students need to search 【for】 the information.
+998 | We hear sayings like “dress 【for】 the job you want, not the job you have”.
+858 | Many of the parents have taken on college loans 【for】 the kids, too, sometimes at the expense of their own finances.
+1036 | They account 【for】 the majority of drug addicts.    ?P:account for
+804 | “It’s been well documented in extensive research over the years that prevalence rates 【for】 the majority of the anxiety disorders are higher in women than men.
+993 | as a whole, it is not at all the case 【for】 the median American worker.
+1109 | Unfortunately, 【for】 the most ambitious entrepreneurs, a failure is seen as disastrous, and impossible to recover from.
+936 | L) What matters, of course, is that the two of you are going to be happily married—hopefully 【for】 the of your lives.
+692 | A former motorbike parts dealer led Formula One 【for】 the past forty years.
+685 | The researchers analyzed databases which held information from 162 countries 【for】 the period 2004 to 2010.
+937 | Are we willing to accept a system in which an increase in amenities purchased by the affluent means a reduction in amenities 【for】 the poor?
+958 | What mainly accounts 【for】 the possibility that distance learning could become the norm?    ?P:account for
+817 | L) Last year, speech recognition company Nuance helped a doctors' surgery in Dukinfield, near Manchester, set up a speech system 【for】 the practice's six doctors.
+747 | To allow 【for】 the preferences of most people of today    ?P:allow for
+1183 | compositions have also been created solely 【for】 the purpose of being included in major motion pictures.
+875 | It is likely that the “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard 【for】 the quality of an employee’s contribution to the organization.
+1165 | A better example 【for】 the relevance of opera and classical music can be seen in the invention of the rock opera.
+1039 | patronage , church sponsorship or simply paying 【for】 the research yourself.
+836 | 【for】 the Saharan silver ant, ___1L from their underground nests into the sun's brutal rays to _JJ__ 【for】
+1057 | We compared the airfare paid by employees in the same position within a company 【for】 the same class of travel and used a common statistical technique to account 【for】 other factors that might affect differences in airfares.    ?P:account for
+1037 | Female employees consistently pay lower airfares than men do 【for】 the same flights because they tend to book earlier.
+1185 | desk 【for】 the same issue.
+877 | After my freshman year, I had to opt 【for】 the school’s insurance plan, which costs around $2,000 a year.
+939 | The U.S. has changed from a farming economy to a knowledge- and innovation-based economy, so it makes sense 【for】 the school year to change as well.
+696 | Executive function is a term 【for】 the skills one needs to plan, organize, motivate, concentrate and memorize.
+1176 | How do children acquire the skills needed 【for】 the 21st century?
+925 | the ninth grade can have long-term consequences not only 【for】 the students themselves but 【for】 their
+683 | 【For】 the study, researchers compared teacher and parent evaluations of American children who started kindergarten in 1998, with those who began school in 2010.
+686 | But it’s also true that saying “no” is not merely a privilege reserved 【for】 the successful.
+835 | To strive 【for】 the three-star Michelin rating.
+688 | You could choose an entirely new last name 【for】 the two of you to share.
+963 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name 【for】 the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.
+933 | My school charges an additional fee 【for】 the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill.
+1010 | Why a Nobel Prize 【for】 the WFP, and why now?
+850 | Some men, regardless of how you might feel about some things, are traditionalists and feel that it is simply “right” 【for】 the woman to take the man’s last name as her own.
+894 | According to the new rules, students of Tavern are required to wear smart black shoes appropriate 【for】 the workplace. [24] Harris held that strengthened rules around school uniforms improved student outcomes and behavior.
+767 | 【For】 the youngest learners, it means they are more likely to get exposed to different varieties of play and communication.
+843 | Give promotions to employees 【for】 their accomplishments.
+814 | Thomas’s approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous (自主的) and creative living space 【for】 their elderly.
+833 | [22] Dozens of British students arriving 【for】 their first day of school on Tuesday were sent home over their shoes.
+1167 | They help students acquire the skills needed 【for】 their future success.
+1138 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing 【for】 their health and happiness—and if you don't have health and happiness, what else could possibly matter?
+888 | Researchers found that participants who saw the images of their aged selves would save more 【for】 their later years than
+1075 | The society fails to forgive them 【for】 their mistakes.
+1015 | They are responsible 【for】 their own condition.
+1149 | The findings suggest that some people may be too emotionally clever 【for】 their own good, says Bechtoldt.    ?P:for one's own good
+1099 | 【For】 their study — outlined in a paper in the journal Conservation Biology — the team looked at genetic diversity and
+706 | The information will highlight what a great value they have 【for】 their very reasonable cost.
+932 | The purpose of performance evaluation is ultimately to determine how to reward employees 【for】 their work.
+1139 | 【For】 them, it may even be a pleasure.
+1017 | 【For】 them, output by 2029 is likely to be around
+815 | Adopting their husband’s last name makes it hard 【for】 them to claim ownership of these accomplishments personally because they happened under their “other” name.
+840 | Over 70% of male educators who said they intended to stay in the early education workforce noted an increased salary was a major motivating factor 【for】 them to commit to the career long-term.
+927 | people do not know how much they are eating, it can be really hard 【for】 them to stick to a diet.
+1143 | It is urgent to provide an ideal habitat 【for】 them to thrive.
+1142 | Gene-edit cacao seedlings 【for】 them to withstand a drier, warmer climate.
+1124 | They set higher goals 【for】 themselves.
+698 | Next, they were told either that they would negotiate 【for】 themselves, or they would program an artificial intelligence agent to negotiate 【for】 them.
+754 | But life wasn’t easy 【for】 these animals.
+1046 | At the moment, the scientific bases 【for】 these applications are non-existent or incredibly weak.
+769 | And where exactly should you look 【for】 these culture clues?    ?P:look for
+923 | how advertising campaigns specifically target very young and poor people, causing harm 【for】 these vulnerable groups.
+847 | No one understands the reason 【for】 this.
+902 | Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working 【for】 this company?” can reveal a lot about what it’s really like behind closed doors.
+966 | It is neither desirable nor morally acceptable nor practical 【for】 this county to tolerate the signs of deprivation more commonly associated with the slums of Rio de Janeiro.
+795 | The researchers explain that the possible reason 【for】 this may partly have been the
+1004 | Directions: 【For】 this part , you are allowed 30 minutes to translate a passage from Chinese into English .
+1120 | Directions: 【For】 this part , you are allowed 30 minutes to translate a passage from Chinese into English.
+1192 | Directions: 【For】 this part, you are allowed 30 minutes to translate a passage from Chinese into English.
+857 | 【for】 this theory.
+887 | But Friedman argues that the evidence 【for】 this theory is far
+931 | Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education 【for】 those concerned more about budgets than learning.
+785 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially 【for】 those decisions that are complex and can determine the future of your venture.
+903 | The temptation 【for】 those in charge of education budgets to trade teachers 【for】 technology could be so strong that they ignore the disadvantages of distance learning.
+821 | H) This means that, 【for】 those who can afford it, some foods will simply cost them more in the future.
+1155 | Even so, it can be difficult 【for】 those who do not study music theory to see this as an indicator, since it is
+1031 | It is the safety net 【for】 those who fall off the edge of existence.
+1041 | There are undoubtedly hundreds of great resources out there 【for】 those wishing to improve their financial literacy, but
+949 | Private rental prices in Britain rose 3.2 percent over the 12 months since July 2022—the largest jump since 2016, soaring energy bills have made things worse. [25] Lucinda May, mom of a Tavern student said that she had to ask her parents 【for】 £65 to buy her child the correct pair of shoes.
+1084 | Those looking 【for】 traits determined by a single gene.    ?P:look for
+1066 | Those looking 【for】 traits responsible 【for】 certain diseases.    ?P:for certain ?P:look for
+1064 | Conducting more studies to find out the best timing 【for】 treating different diseases.
+1083 | Finding out the most effective drugs 【for】 treating diseases through further research.
+1133 | If play and building are critical to 21st-century skill development, that's really good news 【for】 two
+708 | Many other designers and architects have expressed concern over the future supply of home-grown talent 【for】 UK firms,
+1146 | This is especially important 【for】 under­
+1011 | Dietary recommendations are not fit 【for】 underprivileged people.
+690 | H) So although many computer assistants can answer simple questions about the weather and play music 【for】 us, anything resembling a wide-ranging human conversation is decades away.
+758 | It is a shift in practice from being teacher-focused to student-focused learning. [20] 【For】 us, flexible seating has meant removing most of the traditional chairs and desks and introducing a variety of different seating options to promote student engagement.
+969 | Why can it be difficult 【for】 us to maintain self-control?
+687 | It’s time 【for】 us to understand deviance, and realize its potential 【for】 good as well as 【for】 harm.
+1071 | Some schools charge students a fee to their student accounts 【for】 using credit cards to pay bills.    ?P:account for
+1195 | Many of the highest earners have a keen interest in and love 【for】 what they are doing.
+1082 | Provide extra energy 【for】 what we do.
+1047 | of schools and 【for】 which kinds of students these growth mindset ideas help young people adapt to the
+1023 | They rarely consider which medicine works better 【for】 which patient.
+863 | recommended daily number of calories (around 2,000 【for】 women and 2,500 【for】 men) on the days we drink juice, according
+1141 | These pioneers reflected on the challenges they faced — and had advice 【for】 women entering the field today.
+928 | Stress is so normalized that it is easy 【for】 women to shrug off those symptoms as simply the consequences of stress.
+770 | It kills employees’ motivation 【for】 work.
+808 | What problem was found with employees using social media 【for】 work?
+681 | In the second part of the study I found 76% of employees using social media 【for】 work took an interest in other organizations they found on social media.
+860 | environment 【for】 workers.
+723 | This is due to a lack of action from ministers, who’ve failed to take any meaningful action 【for】 years.
+794 | The collection stayed at that location 【for】 600 years.
+1184 | The rate of wage increase in terms of purchasing power has slowed down 【for】 years.
+703 | discussion around careers 【for】 years—especially 【for】 working parents.
+910 | 【For】 years, using recycled plastic to make plastic products was cheap.
+957 | You may not be the one conducting the actual interview, but you’re still trying to determine whether or not the company is a good fit 【for】 you.
+1098 | have some happy news 【for】 you.
+731 | You might feel like the sun is giving you extra energy 【for】 your day, which is actually happening.
+788 | By all means, set ambitious long-term goals 【for】 your future self, but when it comes to actually following
+943 | you have a health issue and you want to be around longer 【for】 your kids, or if your business is something you're passionate
+988 | Try to remember that as you are staring at the application 【for】 your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese 【for】 that might be).
+1151 | Clearly, some amount of ambition is good 【for】 your motivation.

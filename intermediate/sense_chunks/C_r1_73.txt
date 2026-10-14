@@ -1,0 +1,422 @@
+# 任务 C_r1_73：1 个词，409 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_73.labels.txt
+
+============================================================
+## 词：about    本段 409 句    模式：全标（每句都写）
+原释义：prep.关于; 大约. adv.大约; 周围.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 关于，有关    B 样本 62    例：Talk about it openly.
+  1  adv. 大约，左右    B 样本 14    例：The post was shared about 5,000 times.
+  2  adv. 到处，四处；在周围    B 样本 0
+已标过的短语：just about（2）；what about（2）
+口径说明（照此执行）：
+  - be about to（即将）未在这 80 句出现，遇到请标 P:be about to；just about（几乎）、what about（…怎么样）标为短语；care/worry/think about 按「关于」标。
+句子：
+98 | is really 【about】.
+140 | Can you tell our audience what it’s 【about】?
+153 | What training are we talking 【about】?
+173 | If we stop children using phones, we are rejecting something they care 【about】.
+176 | A head costs 【about】 $1,500.
+282 | You have nothing to worry 【about】.
+335 | In light of Hershfield’s study, one simple question arises: Is it possible to make our present selves give a damn 【about】
+414 | Are you wondering, what do babies dream 【about】?
+445 | What can eye contact, visibility and more interaction probably bring 【about】?    ?P:bring about
+478 | “The best entertainment and storytelling comes from people who are relatable—those who don’t shy away from opening up but freely share who they are and what they care 【about】.
+417 | Job applicants should read with a critical eye what is written 【about】 a company on the website.
+265 | 【about】 a current other.
+302 | resembled their brain activity while thinking 【about】 a current other rather than the current self.
+120 | I’ve booked a room in a hotel 【about】 a mile from the office.
+264 | An economist’s prediction 【about】 a shorter average working week seemed to be correct for a time in the 20th century.
+199 | K) Many years ago, I wrote 【about】 a study which found that employers are much more likely to hire a college graduate who
+168 | Renting a mini-fridge for my dorm room costs my roommates and me 【about】 $140 a year.
+402 | A study by the Josephson Institute of Ethics interviewed 23,000 high school students and asked them a variety of questions 【about】 academic ethics.
+385 | But year-round schooling isn't just 【about】 academics.    ?P:just about
+171 | What does research reveal 【about】 adults in food-insecure households?
+371 | What do we learn 【about】 advertising campaigns from the snack food companies?
+451 | Research 【about】 aging adults who take on new enterprises
+149 | The part 【about】 air travel in the past.
+212 | And what 【about】 all those trees that are cut down to make printed books?    ?P:what about
+194 | What do we learn 【about】 American society from the first paragraph?
+274 | W: [10] It’s 【about】 an hour to campus, but there’s no reason I can’t study on the bus.
+223 | They are doing work they care 【about】 and are interested in, and doing more of it is not
+245 | Curiosity covers such a large set of behaviors that there probably isn’t any single “curiosity gene” that makes humans wonder 【about】 and explore their environment.
+150 | Not all zoos and animal parks have the most favorable conditions, but [11] without them, it just wouldn’t be feasible to learn 【about】 animals and their environments.
+156 | work and play, and who work at what they are passionate 【about】, are more focused and productive,
+285 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget 【about】 are the tens of thousands of people that tried and failed to make it in those challenging landscapes.
+191 | It included deer, birds, and many fish. [25] In England, King Henry I set up a collection of animals in 【about】 1110 as part of the royal estate.
+428 | When we think 【about】 attaining success — whether it’s landing that job or learning that new skill —
+195 | The part 【about】 avoiding sleeping on the plane.
+457 | What can we assume 【about】 babies who appear upset upon waking?
+155 | W: Well, I had thought 【about】 baking a cake, and some biscuits.
+304 | 【about】 being able to put food on the table.
+136 | To prevent people from complaining 【about】 being “busy”.
+390 | [16] So I’m launching a campaign to stop people complaining 【about】 being “busy.
+95 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] But new research found that people believe someone who shows off their social status cares more 【about】 benefiting themselves than helping others.
+123 | What do we learn 【about】 Bill Thomas bringing animals and plants into the nursing home?
+110 | Some experts say the policy is inconsistent with the science of what we know 【about】 body weight regulation.
+415 | What do we learn 【about】 Branyas Morera?
+190 | product is going on sale for real and the boys had to learn 【about】 budgeting and marketing, as well as designing their game.
+309 | Students benefit from Design Ventura because they can learn 【about】 budgeting and marketing in addition to game design.
+434 | Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more 【about】 budgets than learning.
+207 | I would argue that of all the changes brought 【about】 by the widespread use of digital devices, the huge decline in reading is likely to have the biggest negative impact on today’s teens because reading books and longer articles is one of the best ways to learn critical thinking.    ?P:bring about
+177 | How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over 【about】 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+242 | He’s a really nice guy, and he knows a lot 【about】 cars.
+328 | What does the author say 【about】 China in terms of aquatic food?
+464 | What was scientists’ recent assertion 【about】 chocolates?
+485 | Richard Pile’s concern 【about】 classifying obesity as a disease?
+343 | N) Maybe bike lanes will always be charged with emotion, until enough of the public is finally concerned 【about】 climate
+292 | In cases where parents are working multiple jobs, are less knowledgeable 【about】 college
+300 | They are 【about】 combining your inner wisdom with the knowledge of systematic data to make the best decisions.
+463 | What does the author say 【about】 companies and special interest groups?
+342 | What do we learn 【about】 consumers buying Beyond Burger and Impossible Foods products?
+178 | At the start of the program, 77 per cent of female participants were confident 【about】 cooking, but just 23 per cent of males were confident.
+357 | What do we know 【about】 “Coursera for Refugees”?
+313 | If we’ve learned anything 【about】 culture wars, it’s that data isn’t much good at
+320 | What does the author say 【about】 curiosity?
+284 | W: How 【about】 delivery fees?    ?P:how about
+89 | Information 【about】 diversity.
+338 | Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information 【about】 diversity, and using this when deciding whether to click on the listing.
+164 | Obviously, the desire to bring 【about】 diversity has not translated into corporate reality.    ?P:bring about
+305 | It finds that sharing information 【about】 diversity makes job postings more attractive to job seekers, even when pay is lower.
+227 | It’s not simply 【about】 dividing up
+397 | What does the passage say 【about】 DNA tests to predict personality or talents?
+192 | But most of us have conflicting feelings 【about】 dressing
+487 | What do we learn from the first paragraph 【about】 early childhood education in the U.S.?
+86 | The man's ideas 【about】 education.
+303 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But your ideas 【about】 education are the most controversial.
+281 | What does the author say 【about】 educators?
+316 | What does Michelin’s 2022 New York guide say 【about】 Eleven Madison Park’s decision?
+361 | Managers need to think twice 【about】 emailing their teams on the weekend and talking 【about】 how busy they are.
+420 | What do we learn 【about】 emotional intelligence from a number of studies?
+102 | What 【about】 enrolling him in Lakeview School?    ?P:what about
+119 | On paper, my expenses and my financial aid just 【about】 even out.    ?P:just about
+352 | They can create social media groups in which employees will be more likely to collaborate and less likely to share withdrawal intentions or discussions 【about】 external job opportunities.
+458 | What do we learn 【about】 extremely shy students sitting in the front row of the classroom?
+426 | Women also talked 【about】 family caregiving responsibilities.
+85 | [6] If the clone continues to perform as well as expected, it could mean a huge reduction in the training time for police dogs, which usually takes 【about】 five years.
+403 | They care 【about】 flavors.
+205 | She is too picky 【about】 food.
+141 | Those who cared 【about】 food quality.
+130 | Despite alarmist headlines 【about】 “foods that are going extinct,” there is no evidence that major food types like beans, chocolate, wine, corn or wheat will cease to exist.
+232 | Catholic High School product raised 【about】 £1,000 for Great Ormond Street Hospital.
+314 | According to a researcher, bad reputation 【about】 games will probably limit a gamer’s chances of landing a job.
+373 | What do we learn 【about】 genetic health tests from the passage?
+170 | M: (14-1) Have you thought 【about】 getting an electric motorbike?
+92 | What 【about】 getting him to join a sport, like soccer?    ?P:what about
+99 | The part 【about】 getting over jetlag.
+96 | per day and don’t realise this isn’t just 【about】 getting vitamins,” she says.    ?P:just about
+113 | While 70 percent of 8th and 10th grade students used to go to the movies once a month or more, now only 【about】 half do this.
+82 | M: What 【about】 hamburgers, then?    ?P:what about
+315 | What do we learn 【about】 Hannah from the conversation?
+166 | As a scientist, Smith _30_ studied individuality for a living, and even he was surprised to find younger respondents cared more 【about】 having a _31_ in life.
+395 | What does the passage say 【about】 health education?
+255 | I) What is true 【about】 health is also true 【about】 productivity: an ounce of prevention is worth a pound of
+392 | But they raise concerns 【about】 health rather than profit margins.
+269 | By showing children how to acquire knowledge 【about】 healthy pets.
+109 | Worse, most of what we know 【about】 heart disease comes from studies involving men.
+380 | The author was deeply moved by what Kelli Harding wrote 【about】 her current life.
+325 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details 【about】 her life, such as if she had family pictures up in her hospital room or flowers delivered.
+107 | Is this a lot of money we’re talking 【about】 here?
+251 | “I Googled the agent’s name and there were lots of complaints 【about】 him being a fraudster.
+240 | training, is going to help resolve their worries 【about】 hiring someone over 45.
+246 | He inquired 【about】 his client’s family background.
+286 | Although few plays have been performed or analyzed as extensively as the 38 plays Shakespeare wrote, there are few surviving details 【about】 his life.
+360 | How do most Los Angeles residents now feel 【about】 homelessness?
+228 | But I’ve seen your blog, and you write 【about】 houses that are as small as 20 square meters. [13] That’s not a realistic size for families.
+406 | To stop managers from talking 【about】 how busy their teams usually are.
+299 | So why are we so proud to talk 【about】 how busy we are all the time?
+382 | Pasternak also came away with some valuable observations 【about】 how different the North American way of life was, compared with many other countries.
+348 | What do we learn 【about】 how genes shape people’s behavior?
+129 | Stories vary 【about】 how lion dancing came to be, but most of them include a monster named Nian who would terrorize a village.
+339 | “This study ___28___ what we are learning 【about】 how manipulating vision can have a ___29___ effect on the ability of an
+461 | As remote work is largely unobservable to supervisors, employers need to think 【about】 how they can objectively measure the quality of work in a way that is consistent for employees of similar rank.
+231 | an online course 【about】 how to build a business or read an article 【about】 a terrible disaster in a developing nation, but that
+151 | “It’s 【about】 how you either make it relevant to the job you are
+369 | What can we conclude 【about】 Impossible Foods’ products from Joan Solsman’s remark?
+219 | The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came 【about】 in America.    ?P:come about
+122 | Birthdays can tap into a lot of things people worry 【about】, including their achievements in life in the past decade, or their accomplishments of the past year.
+186 | M: [12] Well, it’s mainly 【about】 increasing home ownership and protecting the environment.
+161 | M: How 【about】 Indian food?    ?P:how about
+375 | What do numerous studies show 【about】 infants?
+154 | their fixed mindsets 【about】 intelligence.
+137 | M: When the time is right, I’ll start talking to our children 【about】 investing and show them how the money saved for their further education has grown.
+105 | W: How 【about】 inviting people to come at 6:00 p.m.?    ?P:how about
+94 | A question to think 【about】 is, “What happens even earlier than age five?
+124 | It’s easy to get overwhelmed just thinking 【about】 it.
+163 | Tooth pain is a _28_ mechanism that ensures when a tooth is being damaged we’ll notice and do something 【about】 it.
+167 | Think 【about】 it.
+203 | So we didn’t make a fuss 【about】 it.
+254 | If something does not look right, ask 【about】 it.
+317 | And there's little they can do 【about】 it.
+481 | Have more discussions 【about】 it.
+482 | Yet the widespread view is that obesity is self-induced and that it is entirely the individual’s responsibility to do something 【about】 it.
+172 | The bride should consider adopting her groom’s last name whether he feels strongly 【about】 it or not.
+83 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) 【about】 it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed 【about】 200 British teenagers over three years.
+267 | For her book Overload: How Good Jobs Went Bad and What to Do 【about】 It, she and co-author
+210 | Happy with the responses, O’Shaughnessy paid the full amount of £3,000 via bank transfer into the travel agent’s account and then forgot 【about】 it until a month before the booking.
+442 | Think 【about】 it: what’s something you’ve always wanted to do, but gave up
+386 | They are increasingly ashamed 【about】 its scale.
+345 | What does the man say 【about】 Jake?
+311 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study 【about】 jams.
+236 | She does not have to worry 【about】 jetlag.
+444 | What are Foulkes’ findings 【about】 kids’ dreams?
+165 | She emailed the company via its website, asking how far the villa was from the airport and 【about】 local restaurants.
+145 | Posting 【about】 luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could also signal to potential friends or future employers that you are unlikely to think 【about】 the needs of others.
+263 | Decisions are not 【about】 making the choice and braving the consequences because you want to blindly trust your instincts.
+488 | What do we learn 【about】 male teachers from their responses in the study?
+453 | What can we conclude 【about】 many female engineers from the statement of a mechanical engineer?
+319 | People automatically assume children are anxious 【about】 math because they are poor achievers.
+353 | He’d sit down to talk with the patient not just 【about】 medical problems, but 【about】 her life and priorities.    ?P:just about
+160 | She is too concerned 【about】 money.
+411 | As a university student I've come to realise just how little I know 【about】 money.
+441 | Enable them to look after themselves without worrying 【about】 money.
+159 | “Women working outside of the home should make an effort to have a conscious conversation with their partners 【about】 more equitable sharing of household and family responsibilities,” Dr.
+449 | Remote work is 【about】 more than just working from home—it means working differently.
+383 | One American philosopher stated that addressing the needs of the poor and vulnerable is 【about】 more than money—it is mostly 【about】 creating conditions under which prosperity and opportunity can thrive.
+239 | What does the news report say 【about】 most people arriving at American borders with eggs?
+97 | W: [8] I’ve been thinking 【about】 moving off campus next semester.
+310 | What do we learn 【about】 much of the popular music currently produced?
+201 | (8-3) What should we do 【about】 music?
+88 | Therefore, organizations and leaders should adopt powerful persuasion skills to bring 【about】 necessary changes.    ?P:bring about
+184 | Why are organizations and leaders advised to adopt powerful persuasion skills to bring 【about】 necessary changes?    ?P:bring about
+106 | Think twice 【about】 new nutrition research findings.
+280 | What do we learn 【about】 New York’s Eleven Madison Park?
+430 | What can we infer 【about】 nightmares from the passage?
+364 | W: What 【about】 now?    ?P:what about
+211 | I) Amid the political noise 【about】 Obamacare, Medicare, Medicaid, health insurance and thieving pharmaceutical (医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better.
+108 | What do we learn 【about】 obese people from the passage?
+158 | What does the author suggest policymakers do 【about】 obesity?
+484 | What does Professor John Wilding argue 【about】 obesity?
+81 | While 【about】 75% of employees said both genders should give the same amount of care, the majority of men and nearly half of women admitted that in reality the female actually did most of it.
+356 | Despite decades of effort to eliminate hunger, the latest estimate is that 【about】 11% of people on the planet (【about】 820 million people) are suffering daily undernourishment.
+185 | Although it sounds like the respondents had a lot in common, here’s what separated them: 【about】 30% of the men and 50%
+221 | G) Under current conditions, 【about】 4% of the world’s croplands experience drought in any given year, but by the end of the century those conditions are forecasted to jump to 【about】 18% per year.
+359 | The average American student receives 13 weeks off from school each calendar year—with 【about】 11 of those during the summer.
+134 | 【About】 58% of young adults call parental support the new normal.
+244 | I wanted to ask you 【about】 ordering shopping online.
+217 | Kate saw that her doll would be arriving the next afternoon, but then she noticed something else: suggestions 【about】 other dolls and toys she could order.
+253 | It includes not just how we form these impressions, but the conclusions we make 【about】 other people based on our impressions.
+354 | Hearing 【about】 other people’s success isn’t the same as creating your own.
+407 | We should care 【about】 other peoples’ view as much as they care 【about】 our own.
+472 | A 2012 study from the University of California, Santa Barbara, found that roughly 40% of the time we are talking, we’re disclosing subjective information 【about】 our experience.
+152 | What 【about】 our local school then? [14] They have a wonderful arts program that would really challenge Jake in terms of creativity and imagination.    ?P:what about
+462 | Avoiding worrying 【about】 our mental durability.
+341 | What do we learn 【about】 our modern music?
+179 | As ever, we ought to be careful 【about】 our own behaviour.
+237 | I responded in a whisper “flexible seating”, thinking 【about】 our then-current classroom.
+273 | By impacting how we feel 【about】 ourselves.
+334 | Why do we allow what others think of us to have so much power over how we feel 【about】 ourselves?
+235 | What does the author say 【about】 outer beauty?
+196 | M: Yes. [12] The part 【about】 overcoming jet lag was interesting.
+368 | What do we learn from new research 【about】 pandas?
+121 | They suspect that mums may be less happy than dads because they’re more likely to have higher expectations 【about】 parenthood.
+455 | What does the passage say 【about】 people born with natural talents?
+466 | What does the passage say 【about】 people doing manual work?
+287 | What do we learn 【about】 people in high-contact cultures?
+202 | What does the author say 【about】 people now working for several businesses at the same time?
+209 | A team of researchers from the University of Basel published their new study 【about】 people’s attitudes towards diversity at work.
+471 | What does the passage say 【about】 people thinking of attaining success?
+438 | so does brain volume: Humans lose 【about】 4 percent every decade starting in their 40s.
+162 | In 1980, 【about】 60 percent of senior high school students said they read a book, newspaper or magazine every day that was not assigned for school.
+229 | By allowing children to surf the internet 【about】 pets by themselves.
+248 | What does the author say in the first paragraph 【about】 physical contact?
+367 | If we care 【about】 plastic waste, why won’t we stop drinking bottled water?
+142 | What 【about】 playing an indoor sport, like badminton?    ?P:what about
+447 | Teachers will worry 【about】 poor internet connections.
+391 | What did researchers find 【about】 popular culture?
+456 | They hold different views 【about】 postponing retirement.
+249 | F) Start by writing down the things you didn’t like 【about】 previous employers, as well as the parts you really valued.
+409 | The reality is, nobody is too busy—it’s just 【about】 priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.    ?P:just about
+133 | E) Parents are wrong to worry that kids don’t care 【about】 privacy.
+330 | Some people are concerned 【about】 privacy because their phones are constantly collecting their personal information.
+266 | And then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level 【about】 problems in our country.
+128 | Stories 【about】 professional mistakes and what leaders learned from them are another great avenue for learning.
+479 | What does the author suggest scientists do 【about】 public debate?
+308 | What do we learn 【about】 publicity over protein in America?
+318 | It will bring 【about】 radical economic and social changes.    ?P:bring about
+126 | E) "The most frequently heard complaint is 【about】 rainfall predictions," says Mr Dittoh, who lives in Tamale, northern Ghana.
+222 | What do we learn from the passage 【about】 Red Rum the racehorse?
+146 | “It’s also 【about】 reducing the amount of grain carbs
+197 | 【about】 “repeating the process, but each time doing something slightly different to improve the result”.
+452 | What do we learn from the passage 【about】 researchers like birdwatchers and rock collectors?
+413 | Katharine Abraham, an economics professor, was chatting with her hairdresser 【about】 retirement plans.
+214 | Jobs had another great quote 【about】 saying “no”: “I’m actually as proud of the things we haven’t done as the things I have done.
+476 | Debates 【about】 science are accessible to the public anyway.
+483 | What does the author say 【about】 science in the last paragraph?
+473 | These days, the public can access debates 【about】 science regardless of where they take place.
+262 | A recent news report talked 【about】 scientific efforts to help crops survive droughts through genetic engineering.
+372 | Why does the woman feel uncomfortable 【about】 sending Jake to Lakeview School?
+424 | Self-control only brings 【about】 small benefits.    ?P:bring about
+322 | What do we learn 【about】 social customs in Arabian countries?
+401 | What did the author’s own research find 【about】 social media?
+379 | What does previous research 【about】 social media reveal?
+333 | They found busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs 【about】 social mobility.
+298 | What did the study by Matous' team find 【about】 some team-building exercises?
+112 | How 【about】 something healthy?    ?P:how about
+127 | It's 【about】 speed, danger and risk.
+275 | What brings 【about】 spiritual connection?    ?P:bring about
+433 | What does the author say 【about】 students enrolled in online classes?
+431 | What did one study find 【about】 students seated in the middle of the classroom?
+277 | 【About】 30 students were turned away from Tavern High School in Norfolk, England.
+336 | What 【about】 students who don’t get good grades?    ?P:what about
+331 | What have people long feared 【about】 supermarkets?
+233 | up and feel guilty 【about】 taking the time to focus on clothes.
+465 | What does Duckworth say 【about】 talent?
+448 | Personal teaching is 【about】 teachers showing students a higher path, and 【about】 young people going through the process together.
+261 | A paper published this week by University of Sydney researchers in Social Networks has reported participants' feelings 【about】 team-building interventions, revealing ethical implications in forcing employees to take part.
+321 | Still, the only “new-to-me” topics that came to mind were my daughter’s basketball tournament (锦标赛) and my feelings 【about】 that morning’s political headlines—neither amusing nor appropriate topics at that moment.
+193 | M: Are you sure 【about】 that? [9] Rents in big cities are high, and then there’s the cost of electricity and gas.
+148 | Just read 【about】 the
+138 | What does the author say 【about】 the ability to be persuasive in the first paragraph?
+435 | Parents must also talk to their kids 【about】 the appropriate ways to find academic answers and alert them to unethical behaviours that may seem innocent in their own eyes.
+419 | Of the teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam but that they did not feel uneasy 【about】 the behaviour.
+460 | If this trend spurs scientists to agree more quickly 【about】 the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.
+143 | You can learn 【about】 the best way to make a sales pitch, but the only way
+257 | What do we learn from the passage 【about】 the brightest people?
+470 | What do we learn 【about】 the cacao farms in the crisis of global warming?
+291 | When you visit the grocery store, you might draw conclusions 【about】 the cashier who checks you out.
+213 | My family was careful to ask 【about】 the chances of financial aid being taken away after my freshman year.
+234 | M: What’s 【about】 the commute to and from campus?
+118 | What 【about】 the cost, not only buying all those tablets, but the software and electronic infrastructure that goes with it, not to mention retraining all the teachers and administration staff?    ?P:what about
+400 | Clues 【about】 the culture of a company can be found on its website.
+387 | What do we learn 【about】 the culture of busyness from a recent study?
+454 | scientists made the statement 【about】 the death of this wonderful thing, let us tell you the facts.
+247 | (22-2) Before starting the tour, let me give you a brief introduction 【about】 the design of this amazing building.
+468 | But some experts worried that such public speculation might lead people to believe that disagreement 【about】 the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+93 | Here are some additional ways to think 【about】 the difference.
+366 | “We still have a lot to learn 【about】 the dog-child relationship,” Udell said. [25] “But research does show that kids are very capable of training dogs.”
+429 | What do we learn from the passage 【about】 the economics professor and her hairdresser?
+418 | What did the author find in his study 【about】 the effect of online social interactions?
+362 | liked, and caring 【about】 the effect we have on others, is healthy and allows us to make connections.
+206 | The claim was based on a new review of studies 【about】 the effects of running.
+198 | What do we learn from the news report 【about】 the egg price in the U.S.?
+440 | What does the passage say 【about】 the engineering profession in the United States?
+398 | H) Think 【about】 the everyday things around you and ask questions 【about】 them.
+477 | However, organizations also need to be honest with employees 【about】 the financial impact of COVID-19.
+293 | What does the author say is remarkable 【about】 the fish we eat?
+272 | A visit to the Design Museum shop in London can reduce the designers’ fears 【about】 the future supply of talents educated
+422 | What did the author’s team conclude 【about】 the gender difference in airfares from their further investigation?
+283 | What does the author say 【about】 the gig economy?
+408 | K) “In one study, we asked people online 【about】 the goals they set at the beginning of the year.
+393 | What can we infer from the passage 【about】 the Goldilocks principle?
+332 | What do people tend to believe 【about】 the homeless?
+297 | What does the passage say 【about】 the idea of a self-service grocery?
+183 | W: [11] I am always talking to my elder daughter 【about】 the importance of saving into a pension.
+474 | Much has been written 【about】 the importance of timely feedback.
+116 | G) “By working with industry partners such as ABTA and Get Safe Online, we are able to issue alerts 【about】 the latest threats they should be aware of.
+290 | To properly care for patients, we also need to care 【about】 the lives of the people getting the care.
+421 | What do some childhood development experts believe 【about】 the long summer vacation?
+344 | It revealed a secret 【about】 the manipulative and
+169 | E) Perhaps one issue is how we think 【about】 the meaning of yes and no.
+427 | High schoolers knew nothing 【about】 the modern financial world.
+384 | What did the joint study find 【about】 the MOOCs several years ago?
+350 | Professor O’Keefe established in earlier studies that people hold different beliefs 【about】 the nature of interest.
+399 | People are divided 【about】 the nature of interest.
+104 | G) In one recent study, we examined 360 adolescents' beliefs 【about】 the nature of "smartness"-that is,
+271 | may not provide enough information to the driver, leading to confusion 【about】 the nature of the requests for agreement and
+135 | W: Tom, did you see the article online 【about】 the new TV series based on the book *The Three Body Problem*?
+323 | Send a quick message to a current or previous company employee on LinkedIn or by email and ask if they would be willing to have a quick conversation with you 【about】 the organization in general.
+220 | There are a number of different versions 【about】 the origin of the lion dance.
+436 | It enables students to learn 【about】 the outside world.
+423 | Our knowledge 【about】 the pain of abandonment.
+374 | Think 【about】 the possible effects on their employees.
+115 | (3-1) German police appealed Friday for information 【about】 the possible owners of two 17th-century oil paintings.
+241 | happen if schools helped to make beliefs 【about】 the potential for change and improvement a larger
+180 | There would be no mystery in this if Keynes had been wrong 【about】 the power of technology to increase the economy's
+114 | Doubts 【about】 the practicability of diversity are gradually disappearing.
+250 | Doubts 【about】 the practicability of diversity have a greater weight if a person is directly affected.
+394 | What does the author say 【about】 the proteins in our body?
+175 | Chase Carey thought the audience of Formula One could be made to share his feeling 【about】 the race.
+279 | What do we learn from the news report 【about】 the restaurant Net Ease House?
+295 | They were also asked 【about】 the risks they took while riding bicycles and managing their finances.
+326 | You can find incredible videos, articles and news stories 【about】 the success of others.
+370 | What do we learn from the passage 【about】 the timing of our behaviors?
+100 | He’s even written to his state senator 【about】 the torture of dolphins in sea parks.
+469 | Employers should think instead 【about】 the values and soft skills they want to emphasize in a remote work environment.
+84 | To inquire 【about】 the vegetarian food festival.
+181 | It’s 【about】 the vegetarian food festival you are holding on the 19th of August at the Newcastle City Hall.
+174 | H) So although many computer assistants can answer simple questions 【about】 the weather and play music for us, anything resembling a wide-ranging human conversation is decades away.
+404 | What do we learn 【about】 the WFP’s effort to eliminate hunger?
+349 | Share your observations 【about】 the world around you—interesting stories you heard or things you noticed—and you may be surprised by the universal connection they inspire.
+416 | Use what you find to ask more questions and learn more 【about】 the world around you.
+377 | What does the author say 【about】 the world today?
+450 | What does the author emphasize 【about】 their analysis in the last paragraph?
+103 | when they asked over-45 candidates 【about】 their attitudes, they found that “those who are excited by training are unemployed
+238 | science,” he says, but confesses he only became a true believer when he started asking players 【about】 their biggest in-game
+437 | It is due to the fact that women care more 【about】 their company’s money.
+443 | They are happy 【about】 their current financial situation.
+225 | Unsurprisingly, people’s brains were most active when thinking 【about】 their current selves and least active when thinking
+91 | They may hold too optimistic a view 【about】 their diet.
+187 | By motivating children to find out 【about】 their favourite pets.
+270 | Having a companion to talk to 【about】 their feelings can also help children feel secure and develop communication skills.
+182 | To tell others a complete lie 【about】 their inability.
+396 | What does the man say 【about】 their local school?
+259 | Doctors completing online forms 【about】 their patients by speech, for example, can dictate 150 words a minute, three times faster than typing on a keyboard.
+306 | By hearing 【about】 their peers’ passion for pets.
+405 | Research shows that students in year-round schools are more self-confident and feel more positive 【about】 their schooling experience.
+200 | That is, we taught them a growth mindset 【about】 their social
+131 | By refraining from being too excited 【about】 their successes.
+258 | In the first study, more than 600 high school students were surveyed 【about】 their tendency to take risks and feel confident.
+278 | “But ask them the same 【about】 their work,
+294 | Too much concern 【about】 their work.
+324 | Respondents were then asked 【about】 their work behaviors, including whether they felt motivated in their jobs and showed initiative at work.
+467 | Questions are a powerful tool, especially when they encourage others to disclose information 【about】 themselves.
+475 | So one strategy to leave others with the impression that you’re a sparkling conversation partner is to get others to talk 【about】 themselves.
+381 | Learning and listening can help you think 【about】 things in a different way.
+87 | M: In our family, we talk openly 【about】 things like the budget for holidays, how taxes reduce your income, and how to shop around for the best deals.
+144 | J) “One of the really useful things 【about】 this competition,” says Hourican, “is that there’s a commercial element because the
+90 | A lot of people don’t know 【about】 this movement.
+439 | say 【about】 this research?
+412 | But what 【about】 those of us who don’t    ?P:what about
+215 | M: What 【about】 those popular shared bikes?    ?P:what about
+329 | What is said 【about】 those working with or under overachieving people?
+111 | She lost it 【about】 three days ago.
+486 | Nationwide, only 【about】 three percent of early childhood teachers are male in the U.S.
+230 | For instance, SpaceX’s Falcon 9 gets through 112 tonnes of refined fuel, emitting 【about】 336 tonnes of CO₂.
+132 | How 【about】 trying something new?    ?P:how about
+218 | Our phones are always near us and they are collecting data 【about】 us all the time.
+346 | What 【about】 using DNA tests to discover distant family members?    ?P:what about
+410 | What do we learn from the passage 【about】 vegetable planting?
+268 | M: I do talk 【about】 very small homes, but there’s no set definition of a tiny home.
+188 | W: Oh, oh, what 【about】 volleyball?    ?P:what about
+80 | They often talk 【about】 ways to get more sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that these are really important topics and these workshops help typical students succeed.
+327 | Though it is difficult and embarrassing, students should make inquiries 【about】 what fees they have to pay and why.
+157 | But I thought maybe he doesn’t want his parents to know 【about】 what happened.
+252 | Ultimately, what affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think 【about】 what it means to be human than with anything that happens in the doctor’s office.
+351 | So yes, you can definitely ask your interviewer 【about】 what it’s like to work for that particular organization.
+358 | Questions 【about】 what lifestyle to promote.
+355 | To write his 2010 book, The 5-Factor World Diet, nutritionist Harley Pasternak traveled to the healthiest countries around the world to learn more 【about】 what made their meals extra nourishing.
+216 | Hyphenating the last names could be a win-win solution should arguments arise 【about】 what name to adopt upon marriage.
+301 | Lao Zi once said, “Care 【about】 what other people think and you will always be their prisoner.
+376 | The author of How to Be Interesting: An Instruction Manual, Hagy spends a lot of time thinking 【about】 what’s interesting to her.
+446 | Talking on and on 【about】 what’s interesting to you isn’t going to make you an interesting person, she says.
+224 | It is also cheap, at a time when many are worried 【about】 what the economic future holds.
+340 | Their conclusions 【about】 what The Guardian described as this “sweet spot” are in line with the so-called Goldilocks
+307 | He said it would give prospective students more information 【about】 what to expect once they graduate.
+288 | I) An industry review website like Glassdoor is another spot to check in order to find some insider information 【about】 what you can expect 【about】 a company.
+117 | In this study, his team “went the _29_ direction” by spending years carrying out individual interviews and group surveys to see what people really talk 【about】 when they talk 【about】 success.
+296 | Think 【about】 when you're cooking, and you just want to know what the next step in the recipe is.
+256 | He no longer has to worry 【about】 whether or not he can understand.
+101 | Consulting her mother 【about】 which school Jake is to attend.
+260 | There is some debate 【about】 which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+388 | We learn 【about】 who we are and what is expected of us based on interactions with others so, to a four-year-old, if Mommy or
+480 | M) I have now come to realize that being boring, in actuality, is not only 【about】 who you are as a person, but also how you present yourself.
+312 | These new generations of alternate meat get all the attention, but don’t forget 【about】 whole grains and vegetables.
+289 | In the first part of the study I surveyed the employees 【about】 why and how they used platforms like Facebook, Twitter, or LinkedIn.
+425 | And “being busy” is the lie they tell themselves 【about】 why they can’t achieve it.
+243 | Why some people are more passionate 【about】 work.
+139 | Some researchers are now encouraging us to stop thinking 【about】 work-life
+337 | Talking 【about】 work-life balance “is a very privileged conversation”, says Lechner.
+365 | Talking 【about】 work-life balance is said to be a privilege reserved for the better-off, not for those who barely make a living.
+378 | Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part 【about】 working for this company?” can reveal a lot 【about】 what it’s really like behind closed doors.
+204 | What does the author say 【about】 working from home?
+347 | What does the author say 【about】 working in IT?
+189 | selling author 【about】 writing, but the only way to become a better writer is to practice publishing consistently.
+147 | I don’t know if that’s a good idea as your mother and I would worry 【about】 you living all by yourself in an apartment so far from home. [9] And then there’s the expense, too.
+276 | choices, and also make you more confident 【about】 your ability to make the right decision.
+226 | W: Your book has sold 2 million copies, but before we discuss why it’s getting so much attention, let’s talk 【about】 your background.
+125 | M: So tell us 【about】 your cinema, Cube Movie Theatre.
+363 | thinking 【about】 your deadline in terms of days rather than months or years can help you wrap your mind around how close the
+459 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me 【about】 your favorite book,” or “Have you ever been to that attraction?
+389 | I) The third solution is to forget 【about】 your future self and use your present self’s love of instant gratification
+208 | Company culture can have a big impact on how you feel 【about】 your work, so you want to make sure you sign an offer letter with an organization you’re truly excited 【about】.
+432 | That means embracing what is truly interesting or unique 【about】 yourself.

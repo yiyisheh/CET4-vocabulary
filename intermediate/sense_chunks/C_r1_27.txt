@@ -1,0 +1,438 @@
+# 任务 C_r1_27：1 个词，425 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_27.labels.txt
+
+============================================================
+## 词：and    本段 425 句    模式：全标（每句都写）
+原释义：conj.和; 与; 以及; 而且.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 和，与，以及（并列名词、形容词、同类动作）    B 样本 54    例：He is a bold and aggressive pet.
+  1  conj. 然后，并且，而且（连接先后发生的动作或分句，补充说明）    B 样本 25    例：It escapes regulation and misleads consumers.
+  2  conj. 去……，来……（go and see, try and do）    B 样本 0
+  3  conj. 而（表对比，常省略重复成分）    B 样本 1    例：Heating oil is projected to be 27% higher and electricity 10% higher.
+口径说明（照此执行）：
+  - and 连接名词/形容词/同类短语或动作的并列标 0（含 Customs and Border Protection 等专名中的 and）；连接先后动作、谓语、分句（句首的 And 也算）标 1；go/come/try and do 标 2；省略重复成分的对比标 3。0 与 1 边界模糊时，能译成「和」就标 0，更像「然后/并且」就标 1。
+句子：
+1902 | the species with a gene-editing technology, which will transform the seedlings into a species that survives even in a drier 【and】
+1968 | It revealed a secret about the manipulative 【and】
+2026 | Now, this impressive new accomplishment validates Eleven Madison Park’s decision to take meat off the menu 【and】
+2053 | Afterwards, the participants read a fictional survey of teens who wanted to “fight back against the companies by buying 【and】
+2104 | They are artists, writers, programmers, providers of office services 【and】
+2127 | What's needed now is a marketplace platform specifically designed to bring freelancers 【and】
+2149 | Such platforms then become a place to feature the most experienced, professional, 【and】
+2163 | For their study — outlined in a paper in the journal Conservation Biology — the team looked at genetic diversity 【and】
+2193 | According to a management expert, work-life balance is not as simple as giving equal amounts of time to work 【and】
+2200 | Perhaps more important, as the global economy continues to be disrupted by technology 【and】
+2301 | stated, “Young women engineers are on an equal footing until they have children, then they struggle to balance work 【and】
+1929 | curiosity 【and】 a desire for knowledge — may also help folks pass brain tests.
+2298 | transformation project gone wrong, where swollen expectations have been popped 【and】 a long list of
+1945 | Online classes also require either a computer or laptop 【and】 a reliable internet connection.
+2102 | “I think luxury companies have a real role to play 【and】 a responsibility,” says Humm.
+2052 | considerations such as years of slow rise in real wages 【and】 a shift away from traditional pensions in the private sector are
+2109 | Personal teaching is about teachers showing students a higher path, 【and】 about young people going through the process together.
+2122 | This in turn helps us become better negotiators 【and】 abstract thinkers.
+2057 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building 【and】 acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work 【and】, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.
+1987 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state 【and】 actively monitor how such feelings are affecting your decision-making.
+1903 | protein although the most desirable protein intake may vary depending on age 【and】 activity level.
+2056 | that eventually may fail, all indicate "initiative," "creativity," 【and】 "adaptability," which are desirable
+2043 | Our results show another way these negative behaviors can manifest themselves, like in airline bookings, 【and】 add to evidence that women are less likely to engage in them.
+2135 | Choose diets that are both healthy 【and】 affordable.
+2190 | The scientists measured concentrations of stress hormones in the students’ saliva (唾液) before 【and】 after the talk.
+2042 | The citizens of this county voted in November 2016 【and】 again in March 2017 to raise their own taxes.
+2071 | What is the finding of the 2012 study in the journal Psychology 【and】 Aging?
+1959 | doing new things, a 2012 study in the journal Psychology 【and】 Aging found completing reasoning tasks like puzzles 【and】
+1919 | Developed countries sometimes offer food 【and】 aid to developing ones, but at a price.
+2006 | Parents must also talk to their kids about the appropriate ways to find academic answers 【and】 alert them to unethical behaviours that may seem innocent in their own eyes.
+2160 | People may view it as both a means to convince others 【and】 an art of communication.
+2248 | Systematic data 【and】 analysis.
+2070 | Data 【and】 analysis have long been associated with informed decisions.
+1881 | They took her a full year to track 【and】 analyze.
+1914 | After coding 【and】 analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts 【and】 sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.
+2230 | Show the complexity of interactions between humans 【and】 animals.
+2280 | 【And】 anyone, anywhere, can do it.
+1973 | Questions 46 【and】 50 are based on the following passage.
+2256 | Some people may lack it 【and】 are easily manipulated by others.
+1885 | Live sessions are infrequent 【and】 are often scheduled during the middle of the day when students have to attend other classes or work.
+1922 | Ambitious people strongly desire accomplishments 【and】 are willing to take more risks 【and】 spend more effort to get them.
+2174 | For example, they showed the students photographs of people’s faces 【and】 asked them to what extent feelings such as happiness or disgust were being expressed.
+1908 | flaw: they focused on a future, healthier you 【and】 assumed that this would be enough motivation for teenagers.
+2060 | If this trend spurs scientists to agree more quickly about the best solutions to our problems—【and】 at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.
+2146 | It has shed light on teens’ instinct for rebellion 【and】 autonomy.
+1938 | new intervention cleverly exploits teenagers’ instinct for rebelliousness 【and】 autonomy, 【and】 the value they place on social
+2046 | Rising to life's challenges 【and】 avoiding risks.
+2229 | Yet slipping from popular culture is the wonder 【and】 beauty of the natural world.
+1960 | come to a logical choice 【and】 become fully committed to your ideas 【and】 plans.
+2003 | Having a growth mindset of interest can help job seekers expand their interests 【and】 become more adaptable to different fields, 【and】 take the initiative to learn new skills.
+2247 | Some people may take advantage of it 【and】 benefit themselves.
+1992 | firmly fixed on low-calorie, low-fat, sugar-free snack foods 【and】 beverages following the publication of studies linking sugar
+1995 | It helps maintain normal blood pressure 【and】 blood sugar.
+2288 | To solve the mystery of dreaming 【and】 brain growth.
+2176 | Decisions are not about making the choice 【and】 braving the consequences because you want to blindly trust your instincts.
+2131 | Growing into living 【and】 breathing human beings.
+2168 | the best way to prepare today's children to be the makers 【and】 builders of tomorrow.
+2243 | If play 【and】 building are critical to 21st-century skill development, that's really good news for two
+1976 | Physically attending school has hidden benefits: getting up every morning, interacting with peers, 【and】 building relationships with teachers are essential skills to cultivate in young people.
+2117 | Big, systematic data is mostly the foundation of most of our decisions, personal 【and】 business alike.
+2103 | Educators 【and】 business leaders have more in common than it may seem.
+2257 | Personal feelings 【and】 business strategies.
+1948 | above the kitchen sink 【and】 calling it dinner.
+2045 | Simply “feeling” that something is right or should be done is highly subjective 【and】 can drown you.
+1997 | deceptive strategies used to make junk food more addictive 【and】 characterize the products as healthy.
+2274 | — 9 begin seeing moving images 【and】 characters in action.
+1932 | manipulating the DNA of plants, this technology is already being used across the world to make plants tougher 【and】 cheaper.
+2007 | What characterizes Japanese 【and】 Chinese foods?
+2090 | A greater emphasis on studying the cause of obesity 【and】 chronic diseases.
+2278 | To show the relevance of opera 【and】 classical music.
+2231 | indicators that both opera 【and】 classical music are now still quite alive.
+2220 | Some people are beginning to wonder whether opera 【and】 classical music are still relevant to the modern world of
+2260 | A better example for the relevance of opera 【and】 classical music can be seen in the invention of the rock opera.
+2277 | also, of course, our first defense against species loss 【and】 climate change.
+2008 | By sharing knowledge of agriculture 【and】 climate with peers in countries most vulnerable to poverty 【and】 hunger, scientists can help reduce these problems.
+1998 | While cow milk is still served for tea 【and】 coffee, the menu is almost
+2214 | For the youngest learners, it means they are more likely to get exposed to different varieties of play 【and】 communication.
+2269 | resourced schools 【and】 communities.
+2289 | What does the author advise disadvantaged schools 【and】 communities to do?
+2303 | family—【and】 compete with men who don’t have the same household responsibilities.
+2031 | It faces problems that are getting more varied 【and】 complicated.
+1957 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints 【and】 conducting cost-benefit analyses, especially for those decisions that are complex 【and】 can determine the future of your venture.
+2156 | Change their eating habits 【and】 consumption patterns.
+2266 | The real workings of grit are to have sustainable passion 【and】 continue to try.
+1950 | They are also just as proficient in food preparation 【and】 cooking skills.
+2164 | On the other hand, a casual dress helps us become more friendly 【and】 creative.
+2253 | reasons: Children are born builders, makers, 【and】 creators, so fostering (;J:.g-$f.
+1921 | The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational 【and】 cultural affairs, said on a press call last week.
+2281 | Many of them feel prejudiced against socially 【and】 culturally.
+2128 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, 【and】 curiosity is one of the tools humans have found to accomplish that gigantic task.
+2055 | For each of them there are four choices marked A), B), C) 【and】 D).
+2191 | Sometimes, rational analysis 【and】 data are impractical to be employed in certain situations.
+2271 | Applying instincts 【and】 data in conjunction.
+2139 | This seemingly easy question is what drives the need to understand the relationship between instincts 【and】 data in the decision-making process.
+2152 | Gone are the days of going to a conference 【and】 debating scientific issues, 【and】 that’s good because those gatherings were not diverse enough 【and】 excluded many important voices.
+2183 | An innovative way to beat obesity is to expose food companies’ manipulative 【and】 deceptive practices
+2125 | more beautiful 【and】 delicious our future will be.
+2018 | Being curious 【and】 desiring knowledge.
+2223 | This type of play-especially with building blocks-helps children discover 【and】 develop key
+2083 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing out that other common diseases, such as high blood pressure 【and】 diabetes, require people to take action to manage their condition.
+2058 | Recognising obesity as a chronic disease with severe complications rather than a lifestyle choice “should help reduce the stigma (耻辱) 【and】 discrimination experienced by many people with obesity,” he adds.
+2184 | The large majority of our traits 【and】 diseases also depend upon non-genetic factors, such as lifestyle, the environment, 【and】
+2158 | What does the author imply we should do if we have to focus on some task 【and】 do it well?
+2187 | For instance, many babies are perfectly proficient crawlers, but they decide to try walking because there’s more to see 【and】 do when they stand upright.
+1962 | the cocoa crops survive in warmer 【and】 drier climates.
+1911 | Choosing what to eat 【and】 drink is key to weight control.
+2101 | A day later the students were offered a choice of snacks 【and】 drinks in a seemingly unrelated context.
+2124 | healthy snacks 【and】 drinks (such as fruit or water) more often over unhealthy options (like biscuits 【and】 soda).
+1916 | Online classes do not require buildings 【and】 each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+2196 | Clothes usually represent one’s social 【and】 economic status.
+2093 | The business perspective offers a different view: multitasking is understood as the ability to adapt to all types of environment within a company 【and】 effectively undertake different activities within a set time frame.
+2130 | But some experts worried that such public speculation might lead people to believe that disagreement about the details meant a lack of adequate scientific consensus over the safety 【and】 efficiency of modern-day medicine.
+2209 | With the rise of pop music, jazz, 【and】 electronic music, both opera 【and】 classical music started to fade away from the
+1926 | To encourage both employers 【and】 employees to answer emails promptly.
+2195 | from developmental psychology to economics 【and】 engineering.
+1974 | You need not only computer science 【and】 engineering knowledge, but also an understanding of psychology 【and】 visual design to create a better product.
+2086 | Yet teachers are expected to prepare them to be responsible citizens, cultivate their social skills, encourage successful time management, 【and】 enhance their capacity to flourish in an increasingly harsh labor market.
+2022 | to industry 【and】 entrepreneurship.
+2255 | It is a collection of facts 【and】 established rules.
+2099 | Wearing power clothing makes us feel more confident 【and】 even
+2091 | But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness 【and】 even a shorter life.
+2028 | Working at home or in cafes, starting businesses of their own, 【and】 even launching business ventures
+2023 | Science says that the clothes we wear affect our behavior, our mood 【and】 even the way we interact with others because of the
+2221 | are in REM, it allows their brain to develop pathways, connections, 【and】 eventually, learn languages.
+1982 | Remember, failure is inevitable, 【and】 every failure you survive is a learning experience.
+2292 | They grow 【and】 evolve with age.
+2300 | employees, 【and】 exert substantial effort in ensuring their IT team eliminates programming errors 【and】
+2002 | With obesity now affecting 29% of the population in England, 【and】 expected to rise to 35% by 2030, should we now recognise it as a disease?
+1917 | From a young age, students learn that answers exist conveniently at their fingertips through search engines 【and】 expert websites.
+2082 | Curiosity covers such a large set of behaviors that there probably isn’t any single “curiosity gene” that makes humans wonder about 【and】 explore their environment.
+2201 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried 【and】 failed to make it in those challenging landscapes.
+2250 | Duckworth says grit is the difference between success 【and】 failure.
+2170 | In some situations, the stakes are low 【and】 failure is a healthy part of growth.
+2304 | Their ability to balance work 【and】 family.
+2245 | Despite mostly feeling supported by colleagues 【and】 family members, many of the male educators surveyed in the study reported facing social or cultural resistance in their careers as early education teachers.
+2013 | This means individuals must save more in order to achieve their goals, or they borrow money from friends 【and】 family rather than a bank.
+1969 | However, last year, the restaurant’s co-owner 【and】 famous chef, Daniel Humm, made the bold decision to remove meat
+1936 | They’re nutritious, inexpensive, 【and】 far more sustainable than any of the
+2293 | reliable 【and】 faster, but their employer simply will not put up the funds to buy them.
+2207 | Sugary 【and】 fatty foods.
+1965 | up 【and】 feel guilty about taking the time to focus on clothes.
+1983 | Research shows that students in year-round schools are more self-confident 【and】 feel more positive about their schooling experience.
+2263 | Reich-Shapiro 【and】 fellow researchers made several recommendations to increase male representation in the field.
+2180 | move around 【and】 find new mates”.
+2212 | four- 【and】 five-year-olds will spend a third of this time engaged in spatial, mathematical, 【and】 architectural
+2141 | The new prevalence of remote 【and】 flexible working models will
+2249 | In April 1649, locals responded to high prices 【and】 food shortages by cultivating
+2010 | Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees 【and】 for average learners.
+1935 | It takes some time for fruit’s cells to be digested 【and】 for fructose to be absorbed.
+1970 | of schools 【and】 for which kinds of students these growth mindset ideas help young people adapt to the
+1915 | It can be harder for students to create study groups 【and】 form relationships with their peers.
+2143 | discomfort 【and】 fragmentation” may actually help preserve panda populations.
+2239 | underused public spaces into vegetable 【and】 fruit gardens.
+2233 | principles in math 【and】 geometry.
+2285 | What can we do to help children learn the basics of math 【and】 geometry?
+2066 | Without any ambition, you wouldn't start your own business, set or achieve goals 【and】 get far in life.
+2072 | We persuade 【and】 get persuaded every day — were either convincing or being convinced.
+2020 | All of this was done in the name of increasing job satisfaction 【and】 giving workers greater flexibility,
+2215 | Settle disputes between universities 【and】 government agencies.
+2004 | When debates in any sector move beyond the halls of universities 【and】 government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community 【and】 the public.
+1953 | These closer bonds 【and】 greater attachment pay off.
+2092 | Today, a greater 【and】 greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.
+2252 | As children develop 【and】 grow, their dreams do too.
+1984 | The values 【and】 habits they bring from their own homelands help explain some of the success.
+2294 | These pioneers reflected on the challenges they faced — 【and】 had advice for women entering the field today.
+2039 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing for their health 【and】 happiness—【and】 if you don't have health 【and】 happiness, what else could possibly matter?
+2136 | Prioritize health 【and】 happiness over material success.
+2258 | off in 1970s New York, 【and】 has been revived by green-thumbed social media influencers who defy
+2238 | It reduces the chances of making mistakes, 【and】 has increasingly become a favorite approach to decision-making among leaders of today.
+1939 | People over 45 stimulated by training suffer shorter periods of unemployment, get more job offers 【and】 have greater
+1941 | It simply focuses on nutrition 【and】 health.
+2037 | What does the author say is important in formulating policies to improve diets 【and】 health?
+2065 | A better understanding of the relationship between social class 【and】 health.
+2097 | It has been funded by food companies 【and】 health experts.
+2166 | Obesity can be hopefully prevented by building links between teenagers’ values 【and】 healthy eating.
+1996 | timing into account could help make treatments more effective 【and】 help more people worldwide.
+2145 | What do we learn from the passage about the economics professor 【and】 her hairdresser?
+1896 | Why did the author 【and】 his colleagues launch the Out of Office Email Generator?
+1958 | What did the serious bone disease in Red Rum’s foot mean to himself 【and】 his trainer?
+2219 | They are losing habitat due to the building of roads 【and】 houses.
+1977 | Teachers must stay on guard when it comes to what their students are doing in classrooms 【and】 how technology could be playing a negative role in the learning process.
+2134 | How can scientists help cope with poverty 【and】 hunger?
+1967 | My colleagues 【and】 I wondered whether midazolam, the most
+2202 | Experts say this can have an impact on young children whose understanding of gender roles 【and】 identity are rapidly forming.
+2178 | 【And】 if it seems like finding that perfect
+2240 | overrated, 【and】 if you want real success, what you need is grit the perfect combination of passion 【and】 persistence.
+1954 | The U.S. was founded by successive waves of immigrants, 【and】 immigrants are still contributing to America today—statistics prove it.
+1966 | What do we learn about consumers buying Beyond Burger 【and】 Impossible Foods products?
+1952 | Unfortunately, for the most ambitious entrepreneurs, a failure is seen as disastrous, 【and】 impossible to recover from.
+2286 | It has long been used to increase food supply 【and】 improve urban landscape.
+1989 | Brains can refresh 【and】 improve with learning.
+1999 | happen if schools helped to make beliefs about the potential for change 【and】 improvement a larger
+2094 | These reduce the likelihood of errors 【and】 increase the chances of success.
+2216 | A study published in 2002 in Personality 【and】 Individual Differences suggested that emotionally perceptive people might be particularly influenced by feelings of depression 【and】 hopelessness.
+1972 | Though employers are backed by a chorus of remote work advocates, others note the loneliness, reduced productivity 【and】 inefficiencies of extended remote work.
+2284 | They appear in the sleep of both adults 【and】 infants.
+2279 | It is a sign of dreaming in adults 【and】 infants alike.
+2197 | Adults dream during REM (rapid eye movement) sleep 【and】 infants have loads of REM.
+2210 | But scientists believe REM serves a completely different purpose for newborns 【and】 infants than dreaming.
+2113 | Designing education programs 【and】 initiatives on public health.
+2040 | The U.S. has changed from a farming economy to a knowledge- 【and】 innovation-based economy, so it makes sense for the school year to change as well.
+2016 | How can entrepreneurs avoid making impulsive 【and】 insensible decisions?
+2140 | It refers to the natural 【and】 instinctive power of influencing one’s coworkers.
+2159 | Without making things complicated, the solution to this dilemma is using data 【and】 instincts in conjunction to arrive at the best possible decisions.
+1946 | But moving away from a traditional classroom in which a living, breathing human being teaches 【and】 interacts with students daily would be a disaster.
+2172 | For many scientists, public debate is a new frontier 【and】 it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent 【and】 vigorous, wherever they are held.
+2033 | Those policy-makers are often fascinated by the latest technology in education 【and】 its potential to “transform” education overnight.
+1988 | What does the author say Red Rum did with his power, speed 【and】 jumping ability?
+2251 | subtle 【and】 just shows the impact symphonic orchestras have had on society’s taste in music.
+2062 | Parents 【and】 kids had conflicting ideas over cheating.
+1920 | Are unhealthy diets really the result of poor choices, limited food skills 【and】 knowledge?
+1924 | They can offer insight into the evolution of their own experience 【and】 knowledge, presenting themselves as more approachable 【and】 then they are more likely to inspire others to want to know more.
+2110 | It is likely that the “first to arrive 【and】 last to leave” mentality is no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution to the organization.
+2203 | Let everyone see the noisy, messy deliberations that advance science 【and】 lead to decisions that benefit us all.
+2192 | Why are organizations 【and】 leaders advised to adopt powerful persuasion skills to bring about necessary changes?
+2118 | Therefore, organizations 【and】 leaders should adopt powerful persuasion skills to bring about necessary changes.
+1887 | Today’s students use smartphones, tablets or even in-class computers to aid their cheating attempts 【and】 leave no trace of their crimes.
+2144 | Studies have found that people tend to be less open 【and】 less able to relax when they wear formal clothes.
+2096 | employees in the redesign group reported less stress 【and】 less burnout.
+2175 | They are less 【and】 less indifferent to it.    ?P:less and less
+2181 | Add to our advantage in work 【and】 life.
+2119 | is not how the two pieces of work 【and】 life come together.
+1978 | “So really, regardless of what you’re eating, if someone’s walking four miles more than you each day, they’re going to be a lot thinner 【and】 live a lot longer than you.
+1933 | 【and】 liver function 【and】 increase risks of developing heart disease 【and】 cancer.
+2024 | In addition to people being healthier 【and】 living much longer, economists say that a combination of financial
+2123 | lead to feelings of isolation 【and】 loneliness, particularly for men.
+1928 | He won enormous fame 【and】 love from British people.
+1886 | School facilities are expensive to build 【and】 maintain, 【and】 teachers are expensive to employ.
+1990 | Successful persuasion skills are based on your ability to have positive interactions 【and】 maintain meaningful relationships
+1930 | aids to back up your ideas can help communicate your ideas better 【and】 make compelling arguments so your listeners will
+2155 | In a study, psychologist Myriam Bechtoldt of the Frankfurt School of Finance 【and】 Management in Germany asked 166 male university students a series of questions to measure their emotional intelligence.
+2074 | bar or drink, we also risk missing out on the rich sources of antioxidants , vitamins 【and】 many other benefits of
+1912 | You should decide on the best choice 【and】 mark the corresponding letter on Answer Sheet 2 with a single line through the centre.
+2080 | best choice 【and】 mark the corresponding letter on Answer Sheet 2 with a single line through the centre.
+2098 | Participants in Design Ventura are challenged to create sustainable 【and】 marketable products.
+2121 | Students benefit from Design Ventura because they can learn about budgeting 【and】 marketing in addition to game design.
+2272 | They can make unlovely spaces lovely, 【and】 marry use 【and】 beauty as well as help promote a sense of community.
+2126 | STEM (science, technology, engineering 【and】 math) skills needed to grow the company 【and】 advance the
+2241 | is currently being produced uses similar beats, harmonies, 【and】 melodies as those that were used in some of classical
+1899 | shows improved function 【and】 memory as well as a reduced risk of mental disease.
+1940 | better performance on the speech 【and】 mental math tasks.
+2208 | travel further, 【and】 might result in greater genetic connectivity 【and】 enhanced population persistence.
+2073 | Unsurprisingly, Kelly 【and】 Moen found that
+2148 | Focusing on STEM skills is important, but the reality is that SIBM skills are enhanced 【and】 more
+2034 | Cheating was getting more 【and】 more difficult for high school students.    ?P:more and more
+2116 | Being quicker 【and】 more efficient increases our performance 【and】 the number of tasks completed.
+2206 | Research found that those who are given greater flexibility at work are less stressed 【and】 more likely to stay in their jobs.
+2165 | More 【and】 more people have switched to less intellectually challenging jobs.    ?P:more and more
+2157 | What is one of the causes for more 【and】 more people in Los Angeles to become homeless?    ?P:more and more
+2064 | More 【and】 more people in the world are suffering from starvation.    ?P:more and more
+2182 | More 【and】 more people in the workplace find it hard to rely on traditional pensions.    ?P:more and more
+1971 | Success was once defined as being able to stay at a company for a long time 【and】 move up the corporate
+2268 | According to Foulkes, “Children’s dream life...seems to be similar to their waking imagination 【and】 narration.
+2211 | They are generally unable to separate genetic 【and】 non-genetic factors.
+2297 | less qualified 【and】 not as smart as I was.
+1942 | Unless employers are fully compensated, this could become a variant of parasitic (寄生的) capitalism, whereby corporate profits increasingly rely on extracting value from the public—【and】 now personal—realm, rather than on generating new value.
+1891 | They can apply for fully funded access to Coursera’s course catalog, which means they can take all of the platform’s classes 【and】 obtain professional certificates for free.
+1951 | For one, starting on a new career path is not as simple as watching a few videos 【and】 obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, 【and】 practices.
+2061 | But online education does not allow a teacher to keep a struggling student after class 【and】 offer help.
+2001 | This requires purchasing desks, chairs 【and】 office equipment.
+1925 | They rearranged the staff 【and】 office spaces.
+2035 | What features in Mediterranean, Nordic 【and】 Okinawan diets?
+2167 | How accurate DNA tests are relies greatly upon the kind of test being taken, on the specific question you ask, 【and】 on
+1961 | management redesign 【and】 one that continued working within the existing management structure.
+2291 | It will not enjoy as much popularity as classical music 【and】 opera among music fans.
+2267 | Classical music 【and】 opera are the very foundation of what our modern music is based upon.
+2283 | It could not have come into being without classical music 【and】 opera as its foundation.
+2295 | It might not be able to rival classical music 【and】 opera in importance for centuries to come.
+2287 | It cannot outcompete classical music 【and】 opera in its impact on our current society.
+2273 | What does the author think of classical music 【and】 opera in today’s world?
+1901 | professor of work 【and】 organisation studies at MIT, shows companies 【and】 managers can play a key role in creating a better
+2261 | They heavily feature animals 【and】 other familiar sights, like images of people eating.
+1905 | Diets containing large amounts of fibre reduce the risk of heart disease, diabetes 【and】 other health hazards.
+2235 | “It’s important for children to see other possibilities 【and】 other paths they can take.
+2133 | This 【and】 other research challenge the prevailing view that emotional intelligence is uniformly beneficial to its bearer.
+2005 | They are places where students receive counseling 【and】 other support.
+2076 | means that the experience of wearing something affects our attitudes 【and】 our choice of behavior.
+2114 | Distinguish between conventional success 【and】 our life goal.
+2225 | “In our world 【and】 our society, we have very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department of the Borough of Manhattan Community College, 【and】 one of the authors of a recent study.
+2029 | It also means having private space dedicated to work: the space must be heated, cleaned, maintained 【and】 paid for.
+2054 | grateful to our guests 【and】 partners who believed in our vision 【and】 encouraged us to push harder?.
+2108 | Issues such as safety of the product 【and】 perception of the public were examined 【and】 considered.
+1994 | edge in our professional 【and】 personal lives.
+2161 | likely all play important roles in how we balance our professional 【and】 personal lives.
+2177 | Commit themselves fully to their ideas 【and】 plans
+2218 | point was reached in 2020 when human-made materials — such as steel, concrete 【and】 plastic — were found to weigh more
+2081 | work 【and】 play, 【and】 who work at what they are passionate about, are more focused 【and】 productive,
+2032 | Recent open debates on scientific research, health, 【and】 policy have aroused greater public attention 【and】 encouraged more diverse voices.
+1979 | with heavy conditions attached, like loan repayment or food for resources, it often widens the gap between rich 【and】 poor 【and】 sustains the old world order.
+2025 | how advertising campaigns specifically target very young 【and】 poor people, causing harm for these vulnerable groups.
+2017 | He remained famous 【and】 popular.
+2041 | That means less debt 【and】 potentially better credit outcomes when they reach the U.S.
+1991 | J) Under the management redesign, many steps were taken to ensure better work-life balance 【and】 prevent burnout .
+2150 | It’s what motivates non-human animals, human infants 【and】 probably human adults to explore 【and】 seek out new things before growing less interested in them after continued exposure.
+2185 | technologies or subject matter, but to creativity; skills like imagination, problem-finding 【and】 problem­
+2085 | A recent debate published in The New York Times discussed the question of how quickly medicine should be developed 【and】 produced.
+2234 | How people can be more focused 【and】 productive.
+2059 | It is undergoing radical 【and】 profound changes.
+2270 | Cities 【and】 programs should establish support groups for male early childhood educators 【and】 provide mentoring 【and】 professional development advice for male educators 【and】 their program leaders.
+2049 | Later research in 2003, however, suggested high-protein diets could aid in weight loss, 【and】 protein quickly regained its
+2173 | This allows managers to both keep an eye on struggling employees 【and】 provide ongoing feedback on how employees are adapting to their new work environment.
+2111 | They eat their meals regularly 【and】 punctually.
+2217 | In these situations, instincts can help you make effective 【and】 quick decisions.
+2228 | Combining instinctive 【and】 rational analysis produces well-rounded decisions.
+1900 | Good communication is the first step in effective persuasion, but logic 【and】 reasoning are just as important.
+2009 | We can easily think of a number of foods 【and】 recipes that are both inexpensive 【and】 nutritious.
+2088 | Olive oil 【and】 red wine.
+1888 | Fish, chicken 【and】 red wine make moderate appearances, while red meat, salt 【and】 sugar are used much less often.
+1937 | their effectiveness 【and】 reduce unwanted side effects.
+1927 | One way to avoid this trap is to stop 【and】 reflect on what’s important.
+1955 | They were intended to share personal attitudes 【and】 relationships.
+1918 | The benefits of a traditional Mediterranean diet have been studied since the 1970s, 【and】 researchers have found that living that olive oil life can help people lose weight, lower their heart disease risk 【and】 reverse diabetes.
+2000 | The goal was to reach the top, accumulate wealth 【and】 retire to a life of ease.
+2100 | in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches work 【and】 retirement
+1986 | None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience 【and】 risk avoidance.
+2151 | But labelling obesity as a disease “risks reducing autonomy, disempowering 【and】 robbing people of the intrinsic (内在的) motivation that is such an important enabler of change.
+1889 | Progress at reducing undernourishment has stopped despite gains through the 1990s 【and】 2000s.
+2021 | 【and】 saturated fat consumption to heart disease.
+2129 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” 【and】 says the question is not whether we can, but whether we should, 【and】 to what end.
+2027 | Researchers would like to explore further how parents 【and】 schools can help ninth graders by changing
+2084 | How boundaries can be removed between arts 【and】 science disciplines.
+1884 | Building on these findings, the latest research examined how a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts 【and】 sciences.
+2107 | How students in arts 【and】 sciences view the two types of mindset of interest.
+2236 | It is a dynamic 【and】 self-improving process.
+1944 | As Professor O’Keefe pointed out, “This research provides a useful direction for organizations whose products 【and】 services call for integrated 【and】 creative solutions.
+2036 | This ability will be built upon self-confident people using open 【and】 shared scientific knowledge to pull themselves out of their misery.
+2115 | In the world's richest nation, homelessness on this scale should be shameful 【and】 shocking.
+1890 | These approaches, however, often presume less food literacy (i.e. food knowledge 【and】 skills) among low-income people.
+2051 | We consider some clothes to be powerful some to be fun, 【and】 so on.    ?P:and so on
+2014 | At last, the problem became so acute—【and】 so visible—that Los Angeles took extraordinary action.
+2213 | other massive change, the gig economy will itself become an engine of economic 【and】 social
+2244 | It will bring about radical economic 【and】 social changes.
+1980 | Instead, disadvantaged groups are constrained by their economic, material 【and】 social circumstances.
+2078 | After the intervention, participants associated healthy eating with autonomy 【and】 social justice.
+2067 | The purpose of such action is to fund an enormous multibillion-dollar, 10-year program of housing 【and】 social services for the homeless.
+2106 | Richard Pile, a physician with a special interest in diabetes, argues that adopting this approach “could actually result in worse outcomes for individuals 【and】 society.
+2132 | Employers should think instead about the values 【and】 soft skills they want to emphasize in a remote work environment.
+2079 | to an art form 【and】 some of their dishes are destined to become classics,” reads Michelin’s website, in a clear nod to plant-
+1975 | Not all students have access to these types of resources, whether it is for financial or other reasons, 【and】 some students can be put at a disadvantage.
+1897 | But such behavior may stain your reputation 【and】 strain relationships important to your success.
+2047 | make, the more they trust your judgement 【and】 strength.
+2227 | More research is needed to see how exactly the relation between emotional intelligence 【and】 stress would play out in women 【and】 in people of different ages 【and】 education levels.
+1923 | Teachers 【and】 students experience a closer relationship in year-round schools than they do in traditional schools 【and】, in the absence of any long-term break, students do not feel detached from the school environment.
+1963 | While fats 【and】 sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot
+2050 | During the course of preparing for Design Ventura, teachers receive training 【and】 support while students get tutoring from
+2264 | Make a rational 【and】 systematic analysis.
+2153 | Cultivating relationships with peers 【and】 teachers.
+2095 | collaboration 【and】 teamwork over traditional organizational structures, no one likes to be told what to do or to be pushed
+2075 | Enrollment in Design 【and】 Technology decreased by nearly ten percent last year in the UK.
+2011 | However, they're only slightly happier than their less-ambitious counterparts, 【and】 tend to live significantly shorter lives.
+2138 | But having to pay attention to several things at once means that the powers of concentration are reduced 【and】 that can lead to more mistakes.
+2030 | Yet the widespread view is that obesity is self-induced 【and】 that it is entirely the individual’s responsibility to do something about it.
+2222 | They cannot tell apart the impact of lifestyle 【and】 that of the environment.
+2044 | This requires two essential conditions: that one of the tasks needs to be automatic, like walking or eating, 【and】 that they both need different mental processes.
+2199 | solving, teamwork, optimism, patience 【and】 the ability to experiment 【and】 take risks.
+2154 | Qualities like flexibility 【and】 the ability to work under minimal supervision might become critical.
+2105 | Genes 【and】 the environment interact in many complex ways to shape individuals 【and】 guide their behavior, including their curiosity.
+2019 | The more they achieve 【and】 the greater progress they
+2077 | The decline of manufacturing 【and】 the increase in the number of people working
+1904 | “【And】 the judging day is terrific
+2232 | Nightmares stem from exposure to trauma ，an overactive imagination, 【and】 the normal stresses of everyday life.
+2171 | What’s more, making obesity a disease “may not benefit patients, but it will benefit healthcare providers 【and】 the pharmaceutical (制药的) industry when health insurance 【and】 clinical guidelines promote treatment with drugs 【and】 surgery,” he warns.
+2137 | To narrow the gap between the rich 【and】 the poor.
+1892 | All amenities made accessible to the rich 【and】 the poor alike.
+2112 | The rich will become richer 【and】 the poor poorer.
+2226 | Diverse topics can be debated by both scientists 【and】 the public.
+2012 | Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms 【and】 the summer break provides a perfect opportunity to get outside.
+1893 | The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society 【and】 the summer months were needed for farm work.
+1964 | “I’m always impressed by the levels of confidence 【and】 the support the students get
+1907 | Consequently, all human body functions also follow this daily rhythm, 【and】 the timing of
+1880 | got the growth mindset intervention ( f- f»i) showed less-contracted blood vessels 【and】 their hearts
+1895 | They relocated team leaders 【and】 their offices.
+2242 | lab, he lets kids fall asleep 【and】 then wakes them 3 times a night 【and】 asks them to describe what they recall.
+2038 | But it’s still early days 【and】 there are signs of hope.
+2296 | 【And】 there's little they can do about it.
+1947 | Schools must develop anti-cheating policies that include technology 【and】 these policies must be updated consistently.
+1943 | Be interested in others 【and】 they are sure to be interested in you.
+2254 | 【And】 they had been advised by colleagues or other staff not to hug children.
+1913 | Show some interest in them 【and】 they will definitely show some in you.
+2186 | Slowly but surely, these platforms create a bridge between traditional enterprises 【and】 this emerging
+2198 | Tests that offer to find your perfect romantic match 【and】 those claiming to predict personality or talents based on your
+1981 | For another, most of the classes on Coursera are in English, 【and】 though there are plans to add translations, language barriers can be a big obstacle.
+2188 | It is too inclusive 【and】 thus lacks clarity.
+2205 | Absence of definitive criteria, 【and】 time 【and】 resource constraints, 【and】 novel situations are instances which limit the practicality of data.
+2302 | Adequate 【and】 timely IT support should also be available to enable users to cope with
+2275 | Taking whatever materials are handy 【and】 tinkering with them is a
+2048 | 【and】 to assure workers that it was something management was committed to.
+2204 | In students who were rated more emotionally intelligent, the stress measures increased more during the experiment 【and】 took longer to go back to baseline.
+1985 | That's a shocking 【and】 tragic number for a region that's home to some of the richest people in the world.
+1909 | A new study finds that more education 【and】 training helps midcareer individuals find a new job.
+2189 | With the validity of science coming under attack, there’s a need for scientific debates to be perceived as open 【and】 true to life.
+2246 | It is what proves valid 【and】 true to life.
+2262 | as simple as giving kids room to play, tinker 【and】 try things out, even as they grow older.
+1910 | pumped more blood-both of which contributed to more oxygen getting to the brain, 【and】, ultimately,
+1956 | We compared the airfare paid by employees in the same position within a company for the same class of travel 【and】 used a common statistical technique to account for other factors that might affect differences in airfares.
+2169 | 【and】 values of the gig economy (-* .:c. *") , 【and】 where success is rewarded with good reviews that
+2265 | accessible fruit 【and】 vegetable gardens connect what we eat to where it comes from—the means of production, if you will.
+2290 | What can publicly accessible fruit 【and】 vegetable gardens do apart from their practical functions?
+2282 | Cover public spaces with fruit trees 【and】 vegetable plants.
+1906 | These new generations of alternate meat get all the attention, but don’t forget about whole grains 【and】 vegetables.
+2063 | Fruits 【and】 vegetables.
+2276 | They recommend providing young men opportunities to work with children through training 【and】 volunteer programs, targeting groups of men who are considering a career change, such as fathers.
+2089 | It is hazardous to leave millions of people poor 【and】 vulnerable.
+1949 | One American philosopher stated that addressing the needs of the poor 【and】 vulnerable is about more than money—it is mostly about creating conditions under which prosperity 【and】 opportunity can thrive.
+1883 | Being authentic, honest, 【and】 vulnerable is always interesting.
+1898 | He often led pre-race parades at Aintree Racecourse 【and】 was a popular guest at charity benefits 【and】 public events.
+1934 | One group presented their idea in the form of a puppet show 【and】 we see
+1993 | M) Ritman Smith adds: “Design technology has become a tricky subject to make a case for, 【and】 we’ve heard of departments
+2142 | How old they are 【and】 what activities they do.
+2087 | This requires a fundamental rethinking of what organizations expect from employees 【and】 what companies would look for in a model employee in a remote work context.
+2120 | How healthy they are 【and】 what food they eat.
+2147 | conditions, it is important to understand how accurate genetic tests are, 【and】 what information we can rely upon.
+1894 | Stories about professional mistakes 【and】 what leaders learned from them are another great avenue for learning.
+2179 | How serious their protein deficiency is 【and】 what remedies they use.
+2162 | How much protein they consume 【and】 what their body weight is.
+1931 | For her book Overload: How Good Jobs Went Bad 【and】 What to Do about It, she 【and】 co-author
+2194 | Both red 【and】 white meats.
+1882 | Some people believe that there may not exist a stress gap between men 【and】 women.
+2068 | Both men 【and】 women were found to engage in negative behaviors.
+2224 | They have control over their life 【and】 work schedules.
+2015 | Prior research on negative reciprocity among workers found that it can result in lower employee motivation, business performance 【and】 workplace morale (士气) 【and】 culture.
+2069 | Answering the phone 【and】 writing at the same time, for example.
+2299 | 【And】 you have to work twice as hard!
+2259 | job skills, then the interview skills, then the dress part — 【and】 you must be perfect at all of them.
+2237 | Nevertheless, emotional intelligence is a useful skill to have, as long as you learn to also properly cope with emotions—both others’ 【and】 your own, says Bechtoldt.

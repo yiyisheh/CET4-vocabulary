@@ -1,0 +1,962 @@
+{
+ "be up to": {
+  "canonical": "be up to",
+  "pos": "v.",
+  "zh": "由……决定，是……的责任；胜任",
+  "example": {
+   "id": 0,
+   "en": "That’s definitely up to you.",
+   "zh": "这绝对由你来决定。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "when it comes to": {
+  "canonical": "when it comes to",
+  "pos": "conj.",
+  "zh": "当谈到，当涉及",
+  "example": {
+   "id": 0,
+   "en": "So as you can see, when it comes to choices, less is more.",
+   "zh": "如你所见，说到选择，少即是多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get around to": {
+  "canonical": "get around to",
+  "pos": "v.",
+  "zh": "抽出时间做（拖了很久的事）",
+  "example": {
+   "id": 0,
+   "en": "I was given three books over Christmas, and I’m only now getting around to reading them.",
+   "zh": "圣诞节我收到了三本书，现在才抽出时间去读。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to hand": {
+  "canonical": "to hand",
+  "pos": "adv.",
+  "zh": "在手边，随手可得",
+  "example": {
+   "id": 0,
+   "en": "Remember that you will have to have all your certificates to hand when you are filling out the forms.",
+   "zh": "记住，填表时你得把所有证书放在手边。"
+  },
+  "valid": true,
+  "note": "英式用法，常作 at hand；例句截取了原句前半"
+ },
+ "get down to": {
+  "canonical": "get down to",
+  "pos": "v.",
+  "zh": "开始认真做，着手处理",
+  "example": {
+   "id": 0,
+   "en": "Creating an ideal working environment will make it easier for them to get down to their assignments quickly.",
+   "zh": "营造理想的工作环境会让他们更容易迅速投入到任务中。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "add up to": {
+  "canonical": "add up to",
+  "pos": "v.",
+  "zh": "总计为，合计",
+  "example": {
+   "id": 0,
+   "en": "In one study, they were given matrixes and had to find two numbers that added up to 10.",
+   "zh": "在一项研究中，他们拿到一些矩阵，要找出两个相加等于10的数。"
+  },
+  "valid": true,
+  "note": "例句删去了括号里的中文注释"
+ },
+ "in addition to": {
+  "canonical": "in addition to",
+  "pos": "prep.",
+  "zh": "除……之外（还）",
+  "example": {
+   "id": 1,
+   "en": "In addition to tuition, college students have to pay extra fees for the courses they take.",
+   "zh": "除了学费，大学生还要为所修课程支付额外费用。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fall victim to": {
+  "canonical": "fall victim to",
+  "pos": "v.",
+  "zh": "成为……的受害者，遭受……",
+  "example": {
+   "id": 0,
+   "en": "They fell victim to eagles.",
+   "zh": "它们成了老鹰的猎物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be subject to": {
+  "canonical": "be subject to",
+  "pos": "v.",
+  "zh": "受……支配，须接受……",
+  "example": {
+   "id": 0,
+   "en": "If I am caught with it in my pocket, I will be subject to disciplinary procedure, which will impact on my career.",
+   "zh": "如果被发现我口袋里有这个，我就要接受纪律处分，这会影响我的职业生涯。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "bring sth to an end": {
+  "canonical": "bring sth to an end",
+  "pos": "v.",
+  "zh": "使……结束，终结",
+  "example": {
+   "id": 0,
+   "en": "It will also bring to an end a less popular US high school tradition: the “make-up day”",
+   "zh": "这也将终结美国高中一项不太受欢迎的传统：“补课日”。"
+  },
+  "valid": true,
+  "note": "真题里宾语后置：bring to an end sth"
+ },
+ "come down to": {
+  "canonical": "come down to",
+  "pos": "v.",
+  "zh": "归结为，取决于",
+  "example": {
+   "id": 0,
+   "en": "It all comes down to the difference between learning and practicing.",
+   "zh": "这一切归结为学习和练习之间的区别。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pay attention to": {
+  "canonical": "pay attention to",
+  "pos": "v.",
+  "zh": "注意，关注",
+  "example": {
+   "id": 1,
+   "en": "Pay attention to the differences between genders.",
+   "zh": "要注意性别之间的差异。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as to": {
+  "canonical": "as to",
+  "pos": "prep.",
+  "zh": "关于，至于",
+  "example": {
+   "id": 2,
+   "en": "People's opinions differ as to whether Formula One can be promoted in the U.S.",
+   "zh": "人们对一级方程式赛车能否在美国推广看法不一。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "much to sb's delight": {
+  "canonical": "much to sb's delight",
+  "pos": "adv.",
+  "zh": "令某人高兴的是",
+  "example": {
+   "id": 0,
+   "en": "Much to the delight of local children, the eggs contained toys.",
+   "zh": "令当地孩子们高兴的是，这些蛋里装着玩具。"
+  },
+  "valid": true,
+  "note": "原句 delight 处是空格（_28_），例句由我改写补全"
+ },
+ "as opposed to": {
+  "canonical": "as opposed to",
+  "pos": "prep.",
+  "zh": "与……相对，而不是",
+  "example": {
+   "id": 2,
+   "en": "This research found college students were more likely to choose healthy food in the presence of an observer of a different race, as opposed to an observer from their own race.",
+   "zh": "这项研究发现，大学生在有不同种族的观察者在场时，比有同种族观察者在场时更可能选择健康食物。"
+  },
+  "valid": true,
+  "note": "例句较长，其他句子更长或被截断；去掉了句首 [16] 编号"
+ },
+ "to be honest": {
+  "canonical": "to be honest",
+  "pos": "adv.",
+  "zh": "说实话",
+  "example": {
+   "id": 0,
+   "en": "But to be honest, I’d prefer something hot, not cold.",
+   "zh": "但说实话，我更想要热的，而不是冷的。"
+  },
+  "valid": true,
+  "note": "变体 to be perfectly honest 也归此"
+ },
+ "turn to": {
+  "canonical": "turn to",
+  "pos": "v.",
+  "zh": "求助于，转向；开始从事",
+  "example": {
+   "id": 0,
+   "en": "Turn to her parents for help.",
+   "zh": "向她的父母求助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "look to": {
+  "canonical": "look to",
+  "pos": "v.",
+  "zh": "指望，依靠；打算，期望；展望",
+  "example": {
+   "id": 1,
+   "en": "Across the U.S., families are looking to the winter with fear as energy costs soar.",
+   "zh": "在美国各地，随着能源成本飙升，家庭们担忧地展望着冬天。"
+  },
+  "valid": true,
+  "note": "义项较杂：依靠/打算/展望，例句取最完整的一句"
+ },
+ "so as to": {
+  "canonical": "so as to",
+  "pos": "conj.",
+  "zh": "为了，以便",
+  "example": {
+   "id": 1,
+   "en": "Fraudsters advertise their villas at reasonable prices so as not to be suspected.",
+   "zh": "骗子以合理的价格宣传他们的别墅，以免被怀疑。"
+  },
+  "valid": true,
+  "note": "含否定形式 so as not to"
+ },
+ "not to say": {
+  "canonical": "not to say",
+  "pos": "v.",
+  "zh": "并不是说",
+  "example": {
+   "id": 0,
+   "en": "This is not to say you should never attend another meeting.",
+   "zh": "这并不是说你再也不该参加会议。"
+  },
+  "valid": true,
+  "note": "例句截取了原句前半；常见完整形式 that is not to say that"
+ },
+ "in relation to": {
+  "canonical": "in relation to",
+  "pos": "prep.",
+  "zh": "关于，就……而言；与……相比",
+  "example": {
+   "id": 0,
+   "en": "In relation to the intensity of anaerobic exercise, however, the results were far clearer.",
+   "zh": "然而就无氧运动的强度而言，结果清楚得多。"
+  },
+  "valid": true,
+  "note": "例句截取了原句前半"
+ },
+ "come to mind": {
+  "canonical": "come to mind",
+  "pos": "v.",
+  "zh": "想起，浮现在脑海",
+  "example": {
+   "id": 0,
+   "en": "Still, the only “new-to-me” topics that came to mind were my daughter’s basketball tournament and my feelings about that morning’s political headlines.",
+   "zh": "不过，我想到的唯一“新鲜”话题是女儿的篮球锦标赛和我对当天早上政治头条的感受。"
+  },
+  "valid": true,
+  "note": "例句删去了括号里的中文注释并截取前半"
+ },
+ "contrary to": {
+  "canonical": "contrary to",
+  "pos": "prep.",
+  "zh": "与……相反",
+  "example": {
+   "id": 1,
+   "en": "Contrary to parents’ belief, kids try hard to leave as few traces as possible on the web.",
+   "zh": "与家长的想法相反，孩子们努力在网上少留痕迹。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "thanks to": {
+  "canonical": "thanks to",
+  "pos": "prep.",
+  "zh": "幸亏，由于",
+  "example": {
+   "id": 0,
+   "en": "Gain instruction in new skills, thanks to the internet.",
+   "zh": "多亏了互联网，人们能学到新技能。"
+  },
+  "valid": true,
+  "note": "例句为选项片段"
+ },
+ "wake up to": {
+  "canonical": "wake up to",
+  "pos": "v.",
+  "zh": "开始意识到，认识到",
+  "example": {
+   "id": 0,
+   "en": "Businesses are waking up to the skills gamers can bring",
+   "zh": "企业开始认识到游戏玩家能带来的技能。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to a great extent": {
+  "canonical": "to a great extent",
+  "pos": "adv.",
+  "zh": "在很大程度上",
+  "example": {
+   "id": 0,
+   "en": "He has benefited to a great extent from a tiny hearing device in his ear.",
+   "zh": "他在很大程度上得益于耳朵里的一个小型助听器。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go to waste": {
+  "canonical": "go to waste",
+  "pos": "v.",
+  "zh": "被浪费，白白浪费",
+  "example": {
+   "id": 0,
+   "en": "Not only do we not want to see lives go to waste",
+   "zh": "我们不仅不想看到生命被白白浪费"
+  },
+  "valid": true,
+  "note": "例句为被截断的句子片段"
+ },
+ "owing to": {
+  "canonical": "owing to",
+  "pos": "prep.",
+  "zh": "由于，因为",
+  "example": {
+   "id": 0,
+   "en": "Owing to the internet, it is now more convenient than ever to receive training in new skills.",
+   "zh": "由于互联网，如今接受新技能培训比以往任何时候都方便。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get through to": {
+  "canonical": "get through to",
+  "pos": "v.",
+  "zh": "被理解，传达到；联系上",
+  "example": {
+   "id": 0,
+   "en": "Parents often hear that reading to their children is critical for supporting development, and the message is getting through to them.",
+   "zh": "家长们常听说给孩子读书对促进发展至关重要，这个信息正在被他们接受。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "slim to none": {
+  "canonical": "slim to none",
+  "pos": "adj.",
+  "zh": "微乎其微，几乎没有",
+  "example": {
+   "id": 0,
+   "en": "Slim to none—believe me, I’ve looked.",
+   "zh": "微乎其微，相信我，我找过了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in contrast to": {
+  "canonical": "in contrast to",
+  "pos": "prep.",
+  "zh": "与……形成对比",
+  "example": {
+   "id": 0,
+   "en": "This is in contrast to books that did not name images, or books that had the same label under each image.",
+   "zh": "这与没有给图片命名的书，或每张图下标签都相同的书形成对比。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stick to": {
+  "canonical": "stick to",
+  "pos": "v.",
+  "zh": "坚持，固守；遵守",
+  "example": {
+   "id": 0,
+   "en": "Simply put, countries stick to darker and more conservative colors because they appear more official.",
+   "zh": "简单地说，各国坚持使用更深、更保守的颜色，因为它们看起来更正式。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "lead up to": {
+  "canonical": "lead up to",
+  "pos": "v.",
+  "zh": "导致，为……作铺垫；在……之前",
+  "example": {
+   "id": 0,
+   "en": "He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event.",
+   "zh": "他回忆起去年观看摩纳哥一级方程式大赛，被赛前的仪式震撼了。"
+  },
+  "valid": true,
+  "note": "例句截取了原句前半"
+ },
+ "to this day": {
+  "canonical": "to this day",
+  "pos": "adv.",
+  "zh": "至今，直到今天",
+  "example": {
+   "id": 0,
+   "en": "To this day, Red Rum’s third win is known as one of the greatest moments in horse racing history.",
+   "zh": "直到今天，红朗姆的第三次夺冠仍被称为赛马史上最伟大的时刻之一。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have much to do with": {
+  "canonical": "have much to do with",
+  "pos": "v.",
+  "zh": "与……有很大关系",
+  "example": {
+   "id": 2,
+   "en": "Job satisfaction has a lot to do with company culture.",
+   "zh": "工作满意度与公司文化关系很大。"
+  },
+  "valid": true,
+  "note": "真题里 much 和 a lot 两种写法并存，规范写法按给定的 have much to do with"
+ },
+ "close to": {
+  "canonical": "close to",
+  "pos": "prep.",
+  "zh": "接近，将近",
+  "example": {
+   "id": 0,
+   "en": "There are close to 58,000 homeless people in Los Angeles county.",
+   "zh": "洛杉矶县有近58,000名无家可归者。"
+  },
+  "valid": true,
+  "note": "作“将近”讲时是固定用法；作“靠近”则只是普通搭配，此处只有“将近”"
+ },
+ "come to a head": {
+  "canonical": "come to a head",
+  "pos": "v.",
+  "zh": "到达紧要关头，激化",
+  "example": {
+   "id": 0,
+   "en": "It is important to talk through these issues before they come to a head.",
+   "zh": "在这些问题激化之前把它们谈开很重要。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come to fruition": {
+  "canonical": "come to fruition",
+  "pos": "v.",
+  "zh": "实现，取得成果",
+  "example": {
+   "id": 0,
+   "en": "Until genetic engineering comes to fruition, other strategies might also help in some places.",
+   "zh": "在基因工程见效之前，其他策略在一些地方也可能有帮助。"
+  },
+  "valid": true,
+  "note": "例句删去了句首 K) 并截取前半"
+ },
+ "that is to say": {
+  "canonical": "that is to say",
+  "pos": "adv.",
+  "zh": "也就是说",
+  "example": {
+   "id": 0,
+   "en": "students believed that intelligence could improve-that is to say, when they held more of a growth",
+   "zh": "学生相信智力可以提高，也就是说，当他们更具成长……"
+  },
+  "valid": true,
+  "note": "唯一一句被截断，例句保持原样"
+ },
+ "give birth to": {
+  "canonical": "give birth to",
+  "pos": "v.",
+  "zh": "产生，引起；生（孩子）",
+  "example": {
+   "id": 0,
+   "en": "Improved technology gives birth to highly popular products.",
+   "zh": "技术进步催生出广受欢迎的产品。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "turn out": {
+  "canonical": "turn out",
+  "pos": "v.",
+  "zh": "结果是，原来是；证明是",
+  "example": {
+   "id": 1,
+   "en": "It turns out that ASMR is pretty special.",
+   "zh": "结果发现ASMR相当特别。"
+  },
+  "valid": true,
+  "note": "含 turn out to be / it turns out (that)"
+ },
+ "bring sth to life": {
+  "canonical": "bring sth to life",
+  "pos": "v.",
+  "zh": "使生动起来，使变得真实",
+  "example": {
+   "id": 0,
+   "en": "Design Ventura, which helps to bring the standard curriculum to life",
+   "zh": "Design Ventura 有助于让标准课程生动起来"
+  },
+  "valid": true,
+  "note": "例句截取了原句中间一段"
+ },
+ "bring sth up to date": {
+  "canonical": "bring sth up to date",
+  "pos": "v.",
+  "zh": "使……更新，使符合最新情况",
+  "example": {
+   "id": 0,
+   "en": "Bring policies against cheating up to date.",
+   "zh": "更新反作弊的政策。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to one's advantage": {
+  "canonical": "to one's advantage",
+  "pos": "adv.",
+  "zh": "对某人有利，利用……为己所用",
+  "example": {
+   "id": 1,
+   "en": "Why not use it to your advantage?",
+   "zh": "为什么不好好利用它呢？"
+  },
+  "valid": true,
+  "note": "例句截取了原句后半；use sth to one's advantage 才是常见搭配"
+ },
+ "take to": {
+  "canonical": "take to",
+  "pos": "v.",
+  "zh": "开始喜欢，养成……的习惯",
+  "example": {
+   "id": 0,
+   "en": "More people have taken to bottled water because of their health awareness.",
+   "zh": "出于健康意识，更多人开始喝瓶装水了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take sth to heart": {
+  "canonical": "take sth to heart",
+  "pos": "v.",
+  "zh": "把……放在心上，重视",
+  "example": {
+   "id": 0,
+   "en": "We can never be truly free if taking to heart others’ opinion of us.",
+   "zh": "如果总把别人对我们的看法放在心上，我们永远无法真正自由。"
+  },
+  "valid": true,
+  "note": "真题里宾语后置：take to heart sth"
+ },
+ "run counter to": {
+  "canonical": "run counter to",
+  "pos": "v.",
+  "zh": "与……背道而驰，违背",
+  "example": {
+   "id": 0,
+   "en": "It runs counter to the public interest.",
+   "zh": "这违背公众利益。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fall to the wayside": {
+  "canonical": "fall by the wayside",
+  "pos": "v.",
+  "zh": "半途而废，被淘汰，被遗忘",
+  "example": {
+   "id": 0,
+   "en": "achieve and the ones that fall to the wayside.",
+   "zh": "……实现的和那些半途而废的。"
+  },
+  "valid": true,
+  "note": "真题写 fall to the wayside，标准写法为 fall by the wayside；唯一例句是被截断的片段"
+ },
+ "true to life": {
+  "canonical": "true to life",
+  "pos": "adj.",
+  "zh": "逼真的，符合现实的",
+  "example": {
+   "id": 0,
+   "en": "It is what proves valid and true to life.",
+   "zh": "能证明有效且符合现实的才是它。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "turn a blind eye to": {
+  "canonical": "turn a blind eye to",
+  "pos": "v.",
+  "zh": "对……视而不见",
+  "example": {
+   "id": 0,
+   "en": "They usually turn a blind eye to their own weaknesses.",
+   "zh": "他们通常对自己的弱点视而不见。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "to what extent": {
+  "canonical": "to what extent",
+  "pos": "adv.",
+  "zh": "在多大程度上",
+  "example": {
+   "id": 0,
+   "en": "For example, they showed the students photographs of people’s faces and asked them to what extent feelings such as happiness or disgust were being expressed.",
+   "zh": "例如，他们给学生看人脸照片，问他们高兴或厌恶等情绪在多大程度上被表现出来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give priority to": {
+  "canonical": "give priority to",
+  "pos": "v.",
+  "zh": "优先考虑，把……放在首位",
+  "example": {
+   "id": 0,
+   "en": "When making decisions, we give priority to our current frame of mind without thinking much of the consequences.",
+   "zh": "做决定时，我们优先考虑当下的心态，而不太考虑后果。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a lot of": {
+  "canonical": "a lot of",
+  "pos": "adj.",
+  "zh": "许多，大量",
+  "example": {
+   "id": 11,
+   "en": "A lot of people don’t know about this movement.",
+   "zh": "很多人不了解这场运动。"
+  },
+  "valid": true,
+  "note": "含 lots of 的写法；n.（a lot will go with it）一句为 a lot 用法"
+ },
+ "a number of": {
+  "canonical": "a number of",
+  "pos": "adj.",
+  "zh": "许多，一些",
+  "example": {
+   "id": 3,
+   "en": "There are a number of different versions about the origin of the lion dance.",
+   "zh": "关于舞狮的起源有好几种不同的说法。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a few": {
+  "canonical": "a few",
+  "pos": "adj.",
+  "zh": "几个，一些",
+  "example": {
+   "id": 1,
+   "en": "Make a decision within a few days.",
+   "zh": "在几天内做出决定。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "bring sth to a halt": {
+  "canonical": "bring sth to a halt",
+  "pos": "v.",
+  "zh": "使……停止",
+  "example": {
+   "id": 0,
+   "en": "It brought the mine’s operations to a halt.",
+   "zh": "这使矿场的运营停了下来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a range of": {
+  "canonical": "a range of",
+  "pos": "adj.",
+  "zh": "一系列，各种各样的",
+  "example": {
+   "id": 0,
+   "en": "The concept has been applied to a wide range of disciplines.",
+   "zh": "这一概念已被应用于广泛的学科。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a great deal": {
+  "canonical": "a great deal",
+  "pos": "adv.",
+  "zh": "大量；非常，很",
+  "example": {
+   "id": 1,
+   "en": "It generates a great deal of electronic garbage.",
+   "zh": "它产生大量电子垃圾。"
+  },
+  "valid": true,
+  "note": "后接 of 作“大量”，单用作副词“很，非常”"
+ },
+ "a lot": {
+  "canonical": "a lot",
+  "pos": "adv.",
+  "zh": "很多，非常",
+  "example": {
+   "id": 1,
+   "en": "They tend to eat quite a lot.",
+   "zh": "他们往往吃得相当多。"
+  },
+  "valid": true,
+  "note": "与 a lot of 分开立条：a lot 单用或修饰比较级/动词"
+ },
+ "a little": {
+  "canonical": "a little",
+  "pos": "adv.",
+  "zh": "有点，稍微；一点点",
+  "example": {
+   "id": 0,
+   "en": "They are a little pricey, yes.",
+   "zh": "它们是有点贵，没错。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a variety of": {
+  "canonical": "a variety of",
+  "pos": "adj.",
+  "zh": "各种各样的",
+  "example": {
+   "id": 2,
+   "en": "Engage in a variety of psychological activities.",
+   "zh": "参与各种各样的心理活动。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a couple of": {
+  "canonical": "a couple of",
+  "pos": "adj.",
+  "zh": "几个，两三个",
+  "example": {
+   "id": 0,
+   "en": "There are a couple of ways to compromise on the issue.",
+   "zh": "在这个问题上有几种妥协的办法。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as a result": {
+  "canonical": "as a result",
+  "pos": "adv.",
+  "zh": "结果，因此",
+  "example": {
+   "id": 2,
+   "en": "As a result, the girl’s mother is facing a criminal case.",
+   "zh": "结果，这个女孩的母亲面临刑事指控。"
+  },
+  "valid": true,
+  "note": "as a result of 是另一个短语（由于）"
+ },
+ "all of a sudden": {
+  "canonical": "all of a sudden",
+  "pos": "adv.",
+  "zh": "突然，忽然",
+  "example": {
+   "id": 0,
+   "en": "Why friends break off contact all of a sudden.",
+   "zh": "朋友为什么会突然断绝联系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a total of": {
+  "canonical": "a total of",
+  "pos": "adj.",
+  "zh": "总共，共计",
+  "example": {
+   "id": 0,
+   "en": "A total of nine furry friends freely wander around in the office and do whatever their little hearts desire.",
+   "zh": "总共九只毛茸茸的朋友在办公室里自由漫步，想干什么就干什么。"
+  },
+  "valid": true,
+  "note": "偏组合式，边界案例；仅 1 句，作为“总共”整体记尚可，保留 valid"
+ },
+ "a host of": {
+  "canonical": "a host of",
+  "pos": "adj.",
+  "zh": "一大批，许多",
+  "example": {
+   "id": 0,
+   "en": "The board of free meals inside the restaurant shows a host of potential meals already paid for by customers, each costing about $10.",
+   "zh": "餐厅里的免费餐板上显示着一大批顾客已付款的待领餐食，每份约10美元。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a difference": {
+  "canonical": "make a difference",
+  "pos": "v.",
+  "zh": "有影响，起作用",
+  "example": {
+   "id": 0,
+   "en": "These things have made a huge difference.",
+   "zh": "这些事情产生了巨大的影响。"
+  },
+  "valid": true,
+  "note": "含 make no difference / make a difference to"
+ },
+ "a whole lot": {
+  "canonical": "a whole lot",
+  "pos": "adv.",
+  "zh": "多得多，非常多",
+  "example": {
+   "id": 0,
+   "en": "It makes the hostess's job a whole lot easier.",
+   "zh": "这让女主人的工作轻松得多。"
+  },
+  "valid": true,
+  "note": "含 a whole lot of（大量）"
+ },
+ "a bit": {
+  "canonical": "a bit",
+  "pos": "adv.",
+  "zh": "有点，稍微",
+  "example": {
+   "id": 1,
+   "en": "I’m getting a bit hungry.",
+   "zh": "我有点饿了。"
+  },
+  "valid": true,
+  "note": "含 a bit of（一点儿）"
+ },
+ "make a fuss": {
+  "canonical": "make a fuss",
+  "pos": "v.",
+  "zh": "小题大做，大惊小怪",
+  "example": {
+   "id": 1,
+   "en": "He loves them but does not want to make a fuss.",
+   "zh": "他爱它们，但不想小题大做。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for a fact": {
+  "canonical": "for a fact",
+  "pos": "adv.",
+  "zh": "确切地，肯定地",
+  "example": {
+   "id": 0,
+   "en": "I know for a fact Hannah isn’t.",
+   "zh": "我确切地知道汉娜不是。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give sth a go": {
+  "canonical": "give sth a go",
+  "pos": "v.",
+  "zh": "试一试",
+  "example": {
+   "id": 0,
+   "en": "I am logged in, and I’ll give that a go.",
+   "zh": "我已经登录了，我来试试。"
+  },
+  "valid": true,
+  "note": "与 give sth a try 同义，分开立条"
+ },
+ "a great many": {
+  "canonical": "a great many",
+  "pos": "adj.",
+  "zh": "很多，大量",
+  "example": {
+   "id": 0,
+   "en": "They carry a great many diseases.",
+   "zh": "它们携带许多疾病。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in a matter of": {
+  "canonical": "in a matter of",
+  "pos": "prep.",
+  "zh": "在……之内，仅仅……就",
+  "example": {
+   "id": 0,
+   "en": "Lift-off is usually the most environmentally harmful stage of any space mission, with vast quantities of fuel burnt up in a matter of minutes.",
+   "zh": "发射通常是任何太空任务中对环境危害最大的阶段，大量燃料在几分钟内就被烧光。"
+  },
+  "valid": true,
+  "note": "例句去掉了句首 [16] 编号"
+ },
+ "in a way": {
+  "canonical": "in a way",
+  "pos": "adv.",
+  "zh": "在某种程度上，从某种意义上说",
+  "example": {
+   "id": 0,
+   "en": "\"In a way,\" she said, the rooster \"stands for 'We The People.'\"",
+   "zh": "她说，在某种程度上，这只公鸡“代表着‘我们人民’”。"
+  },
+  "valid": true,
+  "note": "混合：ids 1,3,4,5 是 in a way that...（以……的方式），不是固定短语，只有 id 0、2 是“在某种程度上”"
+ },
+ "for a living": {
+  "canonical": "for a living",
+  "pos": "adv.",
+  "zh": "以……为生，作为谋生手段",
+  "example": {
+   "id": 0,
+   "en": "As a scientist, Smith has studied individuality for a living.",
+   "zh": "作为科学家，史密斯以研究个性为业。"
+  },
+  "valid": true,
+  "note": "原句 has 处是空格（_30_），例句由我补全并截取前半"
+ },
+ "at a time": {
+  "canonical": "at a time",
+  "pos": "adv.",
+  "zh": "每次，一次",
+  "example": {
+   "id": 0,
+   "en": "In an experiment, a researcher will place nuts into a can one at a time.",
+   "zh": "在一项实验中，研究人员会每次往罐子里放一颗坚果。"
+  },
+  "valid": true,
+  "note": "例句补了句末句号；含 one day at a time"
+ },
+ "once upon a time": {
+  "canonical": "once upon a time",
+  "pos": "adv.",
+  "zh": "从前，很久以前",
+  "example": {
+   "id": 0,
+   "en": "Once upon a time, it was just customary for a bride to take her groom’s last name as her own and abandon her maiden name completely.",
+   "zh": "从前，新娘随夫姓、完全抛弃娘家姓是惯例。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give sth a try": {
+  "canonical": "give sth a try",
+  "pos": "v.",
+  "zh": "试一试",
+  "example": {
+   "id": 0,
+   "en": "I’m going to go on the computer now and give it a try.",
+   "zh": "我现在就去用电脑试一试。"
+  },
+  "valid": true,
+  "note": "与 give sth a go 同义，分开立条"
+ },
+ "go a long way": {
+  "canonical": "go a long way",
+  "pos": "v.",
+  "zh": "大有帮助，大有作为",
+  "example": {
+   "id": 0,
+   "en": "General farm management can go a long way toward easing changes.",
+   "zh": "总体的农场管理对缓解变化大有帮助。"
+  },
+  "valid": true,
+  "note": "含 go a long way toward(s)"
+ }
+}

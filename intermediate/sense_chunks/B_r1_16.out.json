@@ -1,0 +1,145 @@
+{
+  "then": {
+    "senses": [
+      {"pos": "adv.", "zh": "然后，接着，后来"},
+      {"pos": "adv.", "zh": "那么，那样的话，这样一来（表推论或结果，常接在 if 从句后）"},
+      {"pos": "adv.", "zh": "那时，当时"},
+      {"pos": "adv.", "zh": "而且，另外（and then there's…）"},
+      {"pos": "adj.", "zh": "当时的（the then president）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 3, "4": 0, "5": 0, "6": 0, "7": 0, "8": 2, "9": 0,
+               "10": 1, "11": 0, "12": 0, "13": 1, "14": 0, "15": 1, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 1, "23": 2, "24": 1, "25": 0, "26": 2, "27": 0, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 1, "37": 0, "38": 1, "39": 0,
+               "40": 0, "41": 3, "42": 0, "43": 1, "44": 0, "45": 3, "46": 0, "47": 1, "48": 1, "49": 0,
+               "50": 0, "51": 1, "52": 1, "53": 1, "54": 0, "55": 1, "56": 1, "57": 0, "58": 1, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 2, "64": 0, "65": 1, "66": 1, "67": 2, "68": 0, "69": 3,
+               "70": 0, "71": 0, "72": 1, "73": 0, "74": 0, "75": 1, "76": 0, "77": 1, "78": 3, "79": 0},
+    "example": {"id": 6, "en": "The dog was then sent back to the U.S. on a private charter jet.", "zh": "这只狗随后乘坐私人包机被送回了美国。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：back then / since then / by then / until then / just then 按2（那时）；if/when…, then… 以及 OK then、What about…, then?、None of us, then, is… 这类推论语气按1；and then 表时间先后按0，表追加理由（And then there's the expense, too. / Then you should also account for…）按3；now and then / every now and then 标 P:now and then；but then (again)（不过话说回来）标 P:but then，表「但后来」仍按0。卷面说明 Then mark the corresponding letter… 按0。0 与 1 的边界（and then 引出结果，如 id 22、77）有主观成分。"
+  },
+  "research": {
+    "senses": [
+      {"pos": "n.", "zh": "研究，调查"},
+      {"pos": "v.", "zh": "研究，调查，查资料"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 1, "13": 0, "14": 0, "15": 0, "16": "X", "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 1, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": "X", "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 5, "en": "Research has found that having access to diverse teachers is beneficial for children.", "zh": "研究发现，接触多元化的教师对孩子有益。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：作定语（research team / grant / firm / fellow / partners、非专名的 research institute）按0；do one's research 按0；Pew Research Center、Savanna Agricultural Research Institute 这类机构专名里的 research 标 X。"
+  },
+  "had": {
+    "senses": [
+      {"pos": "aux.", "zh": "构成过去完成时（had done，表示在过去某时之前已经）"},
+      {"pos": "v.", "zh": "有，拥有，具有"},
+      {"pos": "v.", "zh": "不得不，必须（had to do）"},
+      {"pos": "v.", "zh": "进行，从事；经历，遭受（had a break / had an operation / had trouble）"},
+      {"pos": "v.", "zh": "让，使，请（人做某事）（had sb do / had sth done）"},
+      {"pos": "v.", "zh": "患（病），出现（症状）"},
+      {"pos": "v.", "zh": "吃，喝（had lunch）"},
+      {"pos": "v.", "zh": "生（孩子）"}
+    ],
+    "labels": {"0": 2, "1": 0, "2": 3, "3": 0, "4": 1, "5": 4, "6": 0, "7": 4, "8": 1, "9": 0,
+               "10": 1, "11": 3, "12": 1, "13": 3, "14": 2, "15": 2, "16": 1, "17": 2, "18": 2, "19": 4,
+               "20": 0, "21": 3, "22": 0, "23": 0, "24": 0, "25": 1, "26": 1, "27": 5, "28": 1, "29": 0,
+               "30": 0, "31": 0, "32": 2, "33": 0, "34": 1, "35": 0, "36": 0, "37": 0, "38": 4, "39": 4,
+               "40": 0, "41": 1, "42": 3, "43": 0, "44": 0, "45": 0, "46": 2, "47": 1, "48": 1, "49": 0,
+               "50": 1, "51": 0, "52": 0, "53": 4, "54": 0, "55": 0, "56": 1, "57": 1, "58": 1, "59": 3,
+               "60": 0, "61": 0, "62": 1, "63": 1, "64": 0, "65": 2, "66": 5, "67": 0, "68": 1, "69": 1,
+               "70": 1, "71": 0, "72": 1, "73": 5, "74": 0, "75": 2, "76": 3, "77": "P:have sth in common", "78": 0, "79": 1},
+    "example": {"id": 35, "en": "And alarmed locals contacted police, thinking they had heard bombs going off.", "zh": "惊慌的当地居民报了警，以为自己听到了炸弹爆炸声。"},
+    "form": "have 的过去式和过去分词",
+    "irregular": true,
+    "note": "给C的口径：had + 过去分词（含 had been doing、倒装 had they found…、省略的 than they actually had）按0；has/have had 里的 had 按实义标（have had concerns 按1）；had to 按2（不作P）；had better 标 P:had better；have sth in common 标 P:have sth in common；have to do with 标 P:have to do with；had no idea、had a chance、had the privilege of、had an impact 按1；had an operation / hemispherectomies / blood tests / a break / phone conversations / trouble / conflict 按3；had a disease / health problems / a swollen ankle 按5；had sb do、had sth done（含选项里的 had its planes land、had two flights mixed up、had things published）按4，但 had a chicken bone lodged in her lung 这类「身上有」按1。"
+  },
+  "year": {
+    "senses": [
+      {"pos": "n.", "zh": "年，一年"},
+      {"pos": "n.", "zh": "学年，年级；年度（school year / freshman year）"},
+      {"pos": "n.", "zh": "岁（…-year-old：…岁的）"}
+    ],
+    "labels": {"0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": [0, 2], "8": 0, "9": 0,
+               "10": 0, "11": "P:all year round", "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 1, "27": 1, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": "P:year after year", "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": "X", "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": [0, 1],
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 1, "71": 0, "72": 0, "73": 0, "74": 1, "75": 0, "76": 0, "77": 0, "78": 1, "79": "X"},
+    "example": {"id": 2, "en": "Last year Britain even appointed a minister for loneliness.", "zh": "去年英国甚至任命了一位孤独事务大臣。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：school / academic / freshman year、the first year of high school 按1；…-year-old 按2；all year round 标 P:all year round；year after year 标 P:year after year；year-over-year、a year、per year、the year 2020 按0；泛指节日的 New Year / Lunar New Year（含 New Year resolution）按0，Lunar New Year Parade 这类活动专名标 X。"
+  },
+  "too": {
+    "senses": [
+      {"pos": "adv.", "zh": "太，过于"},
+      {"pos": "adv.", "zh": "也，还"},
+      {"pos": "adv.", "zh": "很，非常（口语：not too bad / You're too kind）"}
+    ],
+    "labels": {"0": 1, "1": 1, "2": 0, "3": "P:too...to", "4": 0, "5": 0, "6": 1, "7": 1, "8": 0, "9": 0,
+               "10": 1, "11": 0, "12": 0, "13": "P:too...to", "14": 0, "15": 0, "16": 1, "17": 1, "18": 0, "19": 0,
+               "20": 0, "21": 1, "22": 0, "23": "P:too...to", "24": 1, "25": 1, "26": 1, "27": "P:too...to", "28": 0, "29": 1,
+               "30": 0, "31": 0, "32": 1, "33": 1, "34": 1, "35": "P:not a moment too soon", "36": 0, "37": 0, "38": "P:too...to", "39": 0,
+               "40": 0, "41": 1, "42": 0, "43": 1, "44": 0, "45": 0, "46": 1, "47": "P:too...to", "48": 0, "49": 0,
+               "50": 1, "51": "P:too...to", "52": 0, "53": 0, "54": 0, "55": "P:too...to", "56": 0, "57": "P:too...to", "58": 1, "59": 0,
+               "60": 1, "61": 0, "62": 0, "63": "P:too...to", "64": 0, "65": 0, "66": 0, "67": 1, "68": "P:too...to", "69": 0,
+               "70": 0, "71": 0, "72": 1, "73": 0, "74": 0, "75": 1, "76": 0, "77": 0, "78": 0, "79": 1},
+    "example": {"id": 49, "en": "Too many people are addicted to smartphones.", "zh": "太多人沉迷于智能手机了。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：too + 形容词/副词 + to do（含 too much/many…to do、too…for sb to do、a bit too much to let go）标 P:too...to；not a moment too soon（早该如此）标 P:not a moment too soon；me too、I think so too、句中 X, too, … 按1；much too、a bit too、too many/much、too often、too + 形容词 + a + 名词 按0；not too / only too 表「很」按2。注意 we say yes to too many things we don't want to do 这类 to do 属于从句，不算 too...to，按0。"
+  },
+  "well": {
+    "senses": [
+      {"pos": "adv.", "zh": "好，令人满意地（do well / sleep well）"},
+      {"pos": "int.", "zh": "嗯，好吧，那么（口语开头或停顿）"},
+      {"pos": "adv.", "zh": "充分地，很（用在过去分词或形容词前：well known / well prepared）"},
+      {"pos": "adv.", "zh": "远远地，大大地（well before / well into）"},
+      {"pos": "adj.", "zh": "健康的，身体好的"},
+      {"pos": "n.", "zh": "井"},
+      {"pos": "adj.", "zh": "良好的，令人满意的（All is well.）"}
+    ],
+    "labels": {"0": 0, "1": "P:as well as", "2": 1, "3": 0, "4": 2, "5": 1, "6": 2, "7": 1, "8": "P:as well as", "9": 1,
+               "10": 1, "11": 1, "12": 1, "13": 0, "14": 1, "15": 0, "16": "P:as well as", "17": 1, "18": 2, "19": 1,
+               "20": "P:as well as", "21": "P:go down well", "22": 0, "23": "P:as well as", "24": 0, "25": 0, "26": 2, "27": 0, "28": "P:as well as", "29": 0,
+               "30": 2, "31": 3, "32": "P:might as well", "33": 5, "34": 0, "35": 2, "36": 1, "37": 1, "38": 2, "39": 1,
+               "40": 0, "41": 2, "42": 1, "43": "P:as well as", "44": 1, "45": 1, "46": 0, "47": 1, "48": [0, "P:well-being"], "49": 1,
+               "50": "P:as well as", "51": 1, "52": "P:go well with", "53": 1, "54": 2, "55": 1, "56": "P:as well as", "57": 1, "58": 0, "59": "P:as well",
+               "60": 1, "61": 0, "62": "P:as well as", "63": 1, "64": 1, "65": "P:as well as", "66": 2, "67": 3, "68": 5, "69": 5,
+               "70": "P:as well as", "71": 1, "72": 2, "73": "P:as well", "74": "P:as well as", "75": 0, "76": [1, 0], "77": 1, "78": 1, "79": "P:as well as"},
+    "example": {"id": 11, "en": "Well, it depends.", "zh": "嗯，这要看情况。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：as well as（以及）标 P:as well as，但 do/perform (just) as well as… 表「和…一样好」的比较按0；句末 as well（也）标 P:as well；might/may as well 标 P:might as well；go down well（受欢迎）标 P:go down well；go well with（与…相配）标 P:go well with；well-being 标 P:well-being；well + 过去分词/形容词（well known / documented / preserved / protected / received / treated / equipped / prepared / looked after）一律按2；well 修饰动词（do / perform / sleep / cook / land well、how well）按0；well before / into / above 按3；口语 Well, … 及句中插入的 well, 按1。0 与 2 按语法形式划界，不再按语义细分。听力原文里口语 Well 极多，首要义项可能因此是 int.，请复核是否合适。"
+  },
+  "different": {
+    "senses": [
+      {"pos": "adj.", "zh": "不同的，有区别的；各种不同的"},
+      {"pos": "adj.", "zh": "另一个，别的（a different + 单数名词）"},
+      {"pos": "adj.", "zh": "与众不同的，特别的"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 1, "12": 0, "13": 0, "14": 0, "15": 0, "16": 1, "17": 0, "18": 1, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 1, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 1, "34": 0, "35": 0, "36": 0, "37": 1, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 2, "55": 0, "56": 0, "57": [0, 1], "58": 1, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 1, "65": 2, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 0, "72": 1, "73": 0, "74": 0, "75": [0, 1], "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 31, "en": "It is completely different from other outdoor games.", "zh": "它和其他户外游戏完全不同。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：「不同的」与「各种的」合并为0（different kinds of、different people、be different from 都按0）；a/an different + 单数名词表「另一个、别的」（a different route / world / race / language / matter / picture）按1，但 each … a different … 表「各不相同」按0；表「与众不同、新花样」（this one was different、try something different）按2。0/2 的边界有主观成分。"
+  }
+}

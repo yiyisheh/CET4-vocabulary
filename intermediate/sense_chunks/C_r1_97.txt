@@ -1,0 +1,716 @@
+# 任务 C_r1_97：12 个词，553 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_97.labels.txt
+
+============================================================
+## 词：still    本段 25 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：adv.仍然; 还是; 更. adj.静止的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 仍然，还，依旧    B 样本 74    例：It is still immature.
+  1  adv. 但是，尽管如此（多用于句首 Still, …）    B 样本 6    例：Still, 15% or more of kids are found to be deeply bookish.
+  2  adv. （用在比较级前）更，还要（still better）    B 样本 0
+  3  adj. 静止的，不动的；安静的（stand still）    B 样本 0
+口径说明（照此执行）：
+  - 句首 Still,（但是，尽管如此）按 1；句中 but still / can still / still + 比较级但表示「仍然、照样」（health outcomes were still better than…：尽管条件差，结果仍然更好）按 0，只有纯粹加强比较级的 still more / still better / better still 才按 2。stand still / sit still / keep still / still water 按 3。
+句子：
+82 | W: Well, she did say that jet lag often becomes more of a problem after forty. [14] So I guess I’m lucky that I can 【still】 adjust to different time zones well.
+91 | Regarding our future selves as 【still】 being ourselves will help us make better long-term decisions.
+80 | When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can 【still】 benefit from all of the above when visiting a friend who does.
+87 | The U.S. was founded by successive waves of immigrants, and immigrants are 【still】 contributing to America today—statistics prove it.
+102 | But it’s 【still】 early days and there are signs of hope.
+96 | Many people today 【still】 find name hyphenation upon marriage unacceptable.
+100 | And, of course, some researchers today 【still】 fund small-scale studies out of their own pockets.
+88 | In other words, even if a certain food is 【still】 grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.
+92 | Scientists can 【still】 help save chocolates from dying out!
+101 | They 【still】 make their presence felt.
+90 | This is precisely why parents 【still】 need to set firm boundaries around it, as with any other distraction.
+95 | 【Still】 not all behavior experts agree.
+99 | Today, three decades after his retirement, he is 【still】 one of the best-known and most beloved racehorses of all time.
+97 | For now, the jury is 【still】 out as to how successful those endeavours will be.
+81 | indicators that both opera and classical music are now 【still】 quite alive.
+85 | Of course, teens are 【still】 reading.
+89 | Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, which featured a record 33 female CEOs, but this 【still】 represents a tiny fraction of the total.
+103 | P) “I do think there’s 【still】 some way to go…there’s 【still】 going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.
+86 | Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is 【still】 something that you should take into consideration.
+83 | 【Still】, that’s not always the case: When roused during
+94 | Teachers tend to 【still】 use this format because of either the need to control students or the belief that the teacher is the most important person in the room.
+93 | as no surprise to anyone that classical music pieces are 【still】 used as background music in modern movies.
+104 | Why are classical music pieces 【still】 used as background music in modern movies?
+84 | And then, if you 【still】 wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing it from people.
+98 | O) The father of two from Columbus, Ohio, who 【still】 works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is 【still】 substantial progress to be made towards changing attitudes towards paternity leave.
+
+============================================================
+## 词：very    本段 25 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：adv.非常; 很. adj.恰好的; 同一的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 很，非常    B 样本 76    例：W: Not very much.
+  1  adj. 正是那个，恰好的；（强调）就，甚至（the very + 名词：the very next year, the very shape）    B 样本 3    例：The very next year, Red Rum returned to take his second title.
+已标过的短语：at the very least（1）
+口径说明（照此执行）：
+  - very 修饰形容词/副词时一律按 0，包括 the very rich、the very concrete benefits、very much、very few、very little、Thank you very much、not very、the very best（修饰最高级）；very 直接修饰名词、表「正是、就是、恰恰」（the very kinds of students, the very next year, the very shape of our bodies, the very beginning / end / top）按 1。at the very least（至少）按短语标。
+句子：
+87 | These are often 【very】
+88 | It expects every individual to look their 【very】 best.
+96 | “We still have a lot to learn about the dog-child relationship,” Udell said. [25] “But research does show that kids are 【very】 capable of training dogs.”
+91 | I think it’s 【very】 complicated.
+94 | Bear in mind, they will last me several years and they’re 【very】 fashionable too.
+93 | There is some debate about which was the 【very】 first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+99 | Classical music and opera are the 【very】 foundation of what our modern music is based upon.
+95 | M: We were thinking of renting a car, but we will explore all the options available for sure. [14] So, yes, that would be 【very】 helpful in comparing prices.
+86 | Some of these students are 【very】 imaginative.
+98 | It is 【very】 important to preserve their genetic diversity.
+84 | Yet, 【very】 little research has focused on how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.
+104 | I’m 【very】 much dependent on vision as a way of taking in information.
+85 | He is 【very】 much lacking in financial literacy.
+100 | They 【very】 much resemble animal meat.
+83 | immediate, or at least 【very】 near-term rewards.
+80 | "It's a 【very】 regional fan base.
+82 | “He’s a 【very】 relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is a cat of expensive tastes who likes his high priced cat food.
+101 | Dreams of 【very】 small kids are usually just snapshots , looking much more like a slideshow than a movie, when
+89 | David Foulkes studies children (from 【very】 small kids to teens) to bring the secrets of their dreams to the light of day.
+90 | In the long history of mankind, humans who use numbers are a 【very】 small minority.
+81 | But they are 【very】 special.
+97 | are used to make chocolate, grow in the tropical plant world and require 【very】 specific weather conditions to prosper.
+102 | M: That sounds like a 【very】 strange sport indeed.
+92 | It has a 【very】 strong smell and a dry flavor.
+103 | Obviously, person perception is a 【very】 subjective process that can be affected by a number of variables, including the characteristics of the person you are observing, the context of the situation, your own personal traits, and your past experiences.
+
+============================================================
+## 词：where    本段 16 句    模式：全标（每句都写）
+原释义：adv.在哪里; 在何处. conj.在…的地方.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. （引导定语从句，修饰前面表示地点或情况的名词）在那里，在其中（a city where…, situations where…）    B 样本 44    例："narrow wins" in areas where merit is subjective.
+  1  adv. 哪里，在哪里，到哪里（疑问；也用在 know / find out / ask / tell / show / discuss 等后面）    B 样本 23    例：Where he goes shopping.
+  2  conj. 在…的地方；…的地方（sit where you like, This is where…）    B 样本 12    例：Where it is
+已标 X：1 句，如：It can get any where in the city within 15 minutes.
+口径说明（照此执行）：
+  - 前面有先行词（地点、国家、situations / cases / an age / a phenomenon / an approach / a special offer 等抽象名词）的定语从句按 0，to the point where（到…的地步）也按 0；直接疑问句和间接疑问（find out / know / forgot / tell / show / discuss / choose / unclear / regardless of where…，以及 where to do）按 1；前面没有先行词、相当于「…的地方」（sit where they like, This is where…, Where it is heard…, where we get into trouble is…, change where we grow crops, content with where your business is, connect … to where it comes from）按 2。id 11 any where 是 anywhere 的拆写，标 X。
+句子：
+88 | Analytical decision-making is a decision-making approach 【where】 a manager makes important business decisions only with solid data.
+92 | 【Where】 do you sit?
+95 | 【Where】 does the report say the discovery was made?
+84 | W: They do have a great outdoor campus 【where】 he could finally learn all those outdoor sports you have been wanting him to try.
+89 | This style contrasts with more instinctive leadership styles 【where】 managers make many decisions using instinct or opinion.
+83 | Without conflict, we’re often stuck in this artificial harmony 【where】 people don’t express potentially innovative ideas for fear that they may start conflict with others.
+85 | and values of the gig economy (-* .:c. *") , and 【where】 success is rewarded with good reviews that
+86 | It will help them get back to 【where】 their lessons started.
+81 | This is 【where】 they conduct business, 【where】 a sense of community reinforces the culture
+80 | She went on a TV show 【where】 they quiz on general knowledge and she won first prize.
+82 | Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to 【where】 they were before the summer holiday.
+91 | Branyas was born in the United States on April 4, 1907, but her family moved to Spain, 【where】 they were originally from when she was a young child.
+87 | [25] But if you’re in a place 【where】 you have a basis of trust, conflict can be extremely productive.
+90 | In situations 【where】 you need more timely action, decisions based on some information and instinct may work better.
+94 | Studies report that 【where】 you sit in the classroom can impact your ability to learn and the way your teacher perceives you.
+93 | Yes! [22] It does matter 【where】 you sit in your classroom, so choose and choose carefully!
+
+============================================================
+## 词：might    本段 16 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：modal v.可能; 也许; 可以.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  modal v. 可能，也许（推测；might have done 表示对过去的推测）    B 样本 77    例：It might help
+  1  modal v. （委婉建议或客气说法）不妨，可以（you might want to…, I might add）    B 样本 2    例：Furthermore, I might add, (15) all movies come with English text at the bottom of the screen.
+  2  modal v. （may 的过去式，用于转述）可能；可以    B 样本 0
+  3  n. 力量，威力，强权    B 样本 0
+已标过的短语：might as well（1）
+口径说明（照此执行）：
+  - 绝大多数是表推测的「可能」，按 0（含 might have done、Interesting as it might appear、than you might expect）；you might want to… / I might add 这类委婉建议、客气说法按 1；转述句中明确作 may 的过去式（He said I might go）按 2；might as well（不妨，倒不如）、might well（很可能）按短语标；名词 might（力量）按 3。
+句子：
+89 | It 【might】 add to the difficulty of getting research funds.
+81 | Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that 【might】 be).
+83 | So, it 【might】 be fair to assume
+91 | One researcher suggests it 【might】 be more fruitful to distribute grants on a relatively equal basis.
+85 | It 【might】 breed public distrust in modern medicine.
+84 | They 【might】 even make us better at our jobs'.
+82 | It 【might】 have got lost.
+90 | It is suggested that people not going on the holiday 【might】 help detect website frauds.
+88 | Suffering early setbacks 【might】 help people improve their job performance.
+95 | What does the author say boredom 【might】 indicate?
+80 | For organizations that have struggled to keep the lights on due to the pandemic, this 【might】 mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.
+87 | It 【might】 not be able to rival classical music and opera in importance for centuries to come.
+92 | It 【might】 prevent medical scientists reaching consensus.
+94 | struggling with real boredom and the emptiness it provokes, consider whether you 【might】 seek new
+93 | As it turns out, boredom 【might】 signal the fact that you have a
+86 | “They 【might】 spot problems you don’t spot.
+
+============================================================
+## 词：last    本段 9 句    模式：全标（每句都写）
+原释义：adj.最后的; 最近的. adv.最后; 上次. v.持续; 维持.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 上一个的，刚过去的（last year 去年；the last 10 years 过去十年）    B 样本 51    例：You remember the trouble you had last time.
+  1  adj. 最后的，最末的    B 样本 10    例：What does the author advise us to do in the last paragraph?
+  2  v. 持续，维持；（东西）够用，耐用    B 样本 2    例：Bear in mind, they will last me several years and they’re very fashionable too.
+  3  adv. 上次，最近一次    B 样本 1    例：The dog is six and a half years old and was last seen wearing a red collar.
+  4  adv. 最后（排在最后）    B 样本 0
+  5  adj. 最不可能的，最不想要的（the last thing I want）    B 样本 0
+  6  n. 最后一个（人或物）    B 样本 0
+已标过的短语：last name（14）；at last（1）；every last（1）
+口径说明（照此执行）：
+  - 口径：last year/week/month/night/time 及 in/over/for the last 10 years（过去十年）都标 0；the last paragraph/one/carriage 等标 1；last name（姓）一律标 P:last name；at last 标 P:at last；every last（每一个，强调）标 P:every last；last but not least 标 P:last but not least；was last seen 这类副词「上次」标 3。
+句子：
+87 | The bride who adopts a hyphenated 【last】 name after marriage can maintain connections with their past achievements.    ?P:last name
+81 | Some men, regardless of how you might feel about some things, are traditionalists and feel that it is simply “right” for the woman to take the man’s 【last】 name as her own.    ?P:last name
+80 | Some people even believe that not simply adopting your husband’s 【last】 name is a huge sign of disrespect and a lack of commitment.    ?P:last name
+82 | Whether your future husband insisting on your adopting his 【last】 name is a red flag to you or not, it is still something that you should take into consideration.    ?P:last name
+85 | The bride should consider adopting her groom’s 【last】 name whether he feels strongly about it or not.    ?P:last name
+84 | As a compromise, a bride will in most cases adopt a name that combines the couple’s 【last】 names.    ?P:last name
+86 | Hyphenating the 【last】 names could be a win-win solution should arguments arise about what name to adopt upon marriage.    ?P:last name
+83 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current 【last】 names, what matters is that you love each other and are going to be joining your lives together.    ?P:last name
+88 | The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call 【last】 week.
+
+============================================================
+## 词：others    本段 7 句    模式：全标（每句都写）
+原释义：pron.其他人(或物); 其余的人(other 的复数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 别人，他人    B 样本 65    例：It keeps others away.
+  1  pron. 另一些（人或物），其他的（人或物）（some…, others…）    B 样本 14    例：Some favoured higher intensity, others
+  2  pron. （the others）其余的人或物    B 样本 0
+已标过的短语：among others（1）
+口径说明（照此执行）：
+  - 口径：泛指「自己以外的人」（help others、get along with others）标 0；与 some/前文对比、或指同类中的另一些（some…, others…；cheaper than others；more creative than others）标 1；among others（等等，其中包括）标 P:among others。
+句子：
+84 | Our desperate longing for interactions with 【others】.
+85 | Embrace life for ourselves and for 【others】.
+86 | Base our worth on 【others】' opinions.
+82 | life not only for 【others】 but also for ourselves, because ultimately, there is no difference.    ?P:not only ... but also ?P:not only...but also
+80 | Avoid burdening themselves with 【others】’ feelings.
+83 | We can never be truly free if taking to heart 【others】’ opinion of us.
+81 | If we base our worth on the opinions of 【others】, we cheat ourselves of the power to shape our experiences and embrace
+
+============================================================
+## 词：feel    本段 8 句    模式：全标（每句都写）
+原释义：v.感觉; 觉得; 触摸. n.感觉; 触觉.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 感到，觉得（某种情绪或状态，后接形容词：feel happy）    B 样本 47    例：They may feel shocked.
+  1  v. 认为，觉得（后接从句或 like + 从句：feel that…, feel like we…）    B 样本 14    例：They feel it only too logical to succeed.
+  2  v. 感受到，感觉到（疼痛、恐惧、压力等）    B 样本 9    例：When we begin to feel fear.
+  3  v. （事物）给人…的感觉，摸起来（It feels strange.）    B 样本 7    例：valid reasons boredom may feel so painful.
+  4  v. 触摸，摸    B 样本 0
+  5  n. 感觉，手感，氛围    B 样本 0
+已标过的短语：feel like doing sth（2）；feel free to do sth（1）
+口径说明（照此执行）：
+  - 口径：feel + 形容词/过去分词（feel lonely, feel obliged, feel sorry for）及 how sb feels（情绪）标 0；feel that…、feel + 从句、feel like + 从句（觉得好像）、表看法的 feel about 标 1；feel like + 名词/动名词（想要：feel like Vietnamese food）标 P:feel like doing sth；feel free to…标 P:feel free to do sth；主语是事物（boredom may feel painful, make it feel spacious）标 3。
+句子：
+80 | One study showed that women managers often expressed positive emotions that they didn’t really 【feel】.
+85 | By impacting how we 【feel】 about ourselves.
+82 | Company culture can have a big impact on how you 【feel】 about your work, so you want to make sure you sign an offer letter with an organization you’re truly excited about.
+84 | Pendry believes those students may experience the programs as another lecture and 【feel】 even more stressed.
+87 | For many scientists, public debate is a new frontier and it may 【feel】 like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.    ?P:feel like
+83 | While painting the kitchen counters, a bold colour can make everything 【feel】 more open and lighter.
+81 | Many of them 【feel】 prejudiced against socially and culturally.
+86 | It may make people 【feel】 that they ought to fit in with the outside world.
+
+============================================================
+## 词：studies    本段 5 句    模式：全标（每句都写）
+原释义：n.研究; 学习(study 的复数). v.学习; 研究(study 的第三人称单数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 研究（项目、论文）    B 样本 70    例：He compared studies
+  1  n. 学业，学习    B 样本 4    例：It leads students to neglect their studies.
+  2  v. 研究，调查    B 样本 4    例：It studies dreams.
+  3  n. 学科，…学（如 Peace Studies 和平学）    B 样本 2    例：professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better
+  4  v. 学习，攻读    B 样本 0
+  5  n. 书房    B 样本 0
+口径说明（照此执行）：
+  - 口径：their/academic/undergraduate studies（学业）标 1；作动词（a firm that studies…, Foulkes studies children）标 2；学科名称（Peace Studies, organisation studies）标 3。
+句子：
+80 | What do we learn about emotional intelligence from a number of 【studies】?
+82 | Are the results consistent with other independently funded 【studies】?
+83 | What did Coca-Cola-funded 【studies】 claim?
+81 | Some 【studies】 indicate that horticulture crops—generally, everything besides staples—may be impacted most severely, largely because they tend to be confined to a smaller geographic area.
+84 | What would scientific 【studies】 look like in a perfect world according to the author?
+
+============================================================
+## 词：number    本段 3 句    模式：全标（每句都写）
+原释义：n.数字; 号码; 数量. v.给…编号; 总计.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 数量，数目（the number of…）    B 样本 39    例：The increase in their number.
+  1  n. 号码（电话号码、卡号等）    B 样本 8    例：W: My card number?
+  2  n. 数字，数；统计数字    B 样本 16    例：number coming before it.
+  3  v. 给…编号    B 样本 0
+  4  v. 总计，共计（达到…数目）    B 样本 0
+已标过的短语：a number of（16）
+已标 X：1 句，如：A restaurant named “Number 4” in Newcastle contacted Joe’s teacher to ask if the 9-year-old could come and decorate its dining-room with his drawings.
+口径说明（照此执行）：
+  - 口径：光杆 a number of（若干，许多）标 P:a number of；带形容词的 a large/growing/small/enormous number of 按 0（数量）标；this/that number was 31%（统计数字、百分比）标 2，this number was 4 million（指前文某物的数量）标 0；number words/games/systems 标 2；店名 Number 4 标 X。
+句子：
+81 | verbal and written representations of an uncommon base-60 【number】 system used in ancient
+80 | Most 【number】 systems, then, are
+82 | It takes great efforts for children to grasp the concept of 【number】 words.
+
+============================================================
+## 词：one    本段 330 句    模式：全标（每句都写）
+原释义：num.一; 一个. pron.一个人; 任何人. adj.一个的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  num. 一，一个    B 样本 26    例：One window seat.
+  1  pron. 其中一个，…之一（one of…）    B 样本 22    例：One of the five tourists.
+  2  pron. （代替前面说过的同类东西）一个（a new one, the cheaper one）    B 样本 15    例：You could register to use one.
+  3  pron. （泛指）人，任何人（one's life）    B 样本 9    例：Getting one's car parked.
+  4  det. 某（个），有一（天）（one day, one evening）    B 样本 2    例：So one dark evening, she put on her black off-the-shoulder gown and put her trash bin out.
+  5  adj. 唯一的；同一的    B 样本 2    例：Major companies in one location.
+已标过的短语：no one（3）
+已标 X：2 句，如：News Report One
+口径说明（照此执行）：
+  - 口径：one of…/every one of…/one…the other（其中一个）标 1；代替前文名词的 one（my old one, another one）标 2；one's 及泛指「人」标 3；no one 标 P:no one；one another 标 P:one another；one by one 标 P:one by one；one day/one evening/one time（某天、有一次）标 4；the one thing（唯一的）、in one location（同一处）标 5；Formula One、News Report One、PLOS ONE 等名称/编号标 X（id 31 同句另有 One recent study，按 0 标）。首要义项 0 与 1 在这 80 句里接近，需全部句子统计后确认。
+句子：
+124 | Some Olympians said they treat their medals as treasures and that it was disrespectful and unacceptable for Kawamura to bite 【one】.
+126 | The desire for adventure is a human 【one】.
+192 | It is an effort to transform the restaurant into a luxury 【one】.
+222 | can help you shift and adapt your professional life to something that will better harmonise with your personal 【one】.
+224 | Each participating school may submit just 【one】
+250 | Over 40% of Fortune 500 companies had a founder who was either an immigrant or the child of 【one】.
+298 | The reasons for people’s evil behaviors can be explained in more ways than 【one】.
+312 | language, as evidenced by words like 14 ("four"+ "10") and 31 ("three" X "10" +"【one】").
+315 | Over a decade or so, American teens’ social media use shifted from an occasional activity to a routine 【one】.
+395 | Avoiding radical change in 【one】's career direction.
+355 | The author emphasizes being anumeric does not affect 【one】's cognitive ability.
+356 | It may be an obstacle to expanding 【one】's connections.
+257 | It proves crucial in making others follow 【one】's course of action.
+342 | determined solely by 【one】's grades.
+301 | The spoken web is helpful when 【one】's hands are occupied.
+255 | Brain damage seriously hinders 【one】's learning.
+146 | Knowing how to remember major events in 【one】's life.
+322 | Playing number games unexpectedly stimulates 【one】's memory.
+344 | It does harm to 【one】's mental health.
+375 | He recalled attending Formula 【One】's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.    ?X
+97 | It would do harm to 【one】's muscles.
+386 | Holding on to 【one】's original vision.
+305 | Wishing to solve puzzles enhances 【one】's reasoning power.
+366 | It may get in the way of enhancing 【one】's social status.
+85 | To break 【one】's ultimate limits.
+84 | It challenges 【one】's willpower.
+401 | The new leader of Formula 【One】 admitted he was not super interested in car racing.    ?X
+144 | In a phantom traffic jam, the cars in the same lane slow down 【one】 after another, creating a wave-like effect.    ?P:one after another
+341 | Dreams now include multiple events strung together, 【one】 after the
+205 | 【One】 American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive.
+81 | Over 2 feet away from 【one】 another.    ?P:one another
+103 | and chat with 【one】 another.    ?P:one another
+202 | Ultimately, what affects our health in the most meaningful ways has more to do with how we treat 【one】 another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.    ?P:one another
+90 | deprivation also changes the way brain cells ___27___ with 【one】 another, shifting the mice’s sensitivity to different frequencies.    ?P:one another
+200 | My co-workers would all be friendly with 【one】 another, without ever falling into the office gossip trap.    ?P:one another
+211 | Adults love that last 【one】, as it’s the perfect mix of the sensible and the ambitious.
+234 | In an experiment, a researcher will place nuts into a can 【one】 at a time    ?P:one at a time
+167 | M: The 【one】 at 10:12 sounds good.
+208 | The school that 【one】 attends.
+171 | 【One】 author has mentioned that women desire to play an irreplaceable role in a great adventure.
+96 | each autonomous robot tries to keep itself halfway between the robot in front and the 【one】 behind; the phantom jams
+409 | 【One】 benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school.
+121 | They opened all of them 【one】 by 【one】.
+267 | and then remove them 【one】 by 【one】.
+206 | 【One】 can also paint the wooden frameworks the same colour as the walls, helping the rooms look bigger.
+403 | People's opinions differ as to whether Formula 【One】 can be promoted in the U.S.    ?X
+98 | Eating as little as 【one】 can possibly manage.
+349 | Still, observational studies like this 【one】 cannot prove cause and effect; they can only find _33_.
+189 | You might lose 【one】 car driver’s
+125 | For the past four decades, the leader of Formula 【One】 car racing, 【one】 of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.    ?X
+95 | The unusual situation started about 12 months ago, when 【one】 cat routinely started visiting the store. [6] Local newspapers reported that puzzled customers posted on Facebook groups to try to find out if the cat was lost.
+183 | month 【one】 chief executive of a water bottling company said that bans would “result in greater consumption of sugary drinks,
+223 | 【One】 city on the west coast of America has banned single-use bottles from its property and events.
+172 | 【One】 club member says he feels proud of his cultural tradition.
+249 | E) While Formula 【One】 commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the 【one】 that is not NASCAR (纳斯卡车赛).    ?X
+87 | “When it snows, let the kids enjoy it.” said 【one】 commenter.
+331 | 【One】 common French custom of greetings is cheek-kissing, but it is mostly restricted to friends, close acquaintances and family members.
+141 | Making sounds helps 【one】 communicate with people they can’t see.
+170 | After an American company, Liberty Media, acquired the Formula 【One】 competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan—was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.    ?X
+271 | You may not be the 【one】 conducting the actual interview, but you’re still trying to determine whether or not the company is a good fit for you.
+382 | 【One】 consequence of climate change is that some people may not have adequate access to certain foods.
+396 | Chase Carey thought the audience of Formula 【One】 could be made to share his feeling about the race.    ?X
+306 | on sticking to those small positive habits 【one】 day at a time, it becomes easier to stay strong and achieve that delayed reward.    ?P:one day at a time ?P:one day
+278 | They worry assistants will 【one】 day be used to deliver advertising directly to us.    ?P:one day
+181 | 【one】 dependent child—who worked in middle or senior management roles.
+296 | What does the author say is 【one】 disadvantage of online classes?
+385 | Calorie conswnption is linked to the amount of snacks 【one】 eats.
+203 | The health impacts from making 【one】 electronic reader are 70 times greater than those from making a single printed book.
+317 | They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no 【one】 else is capable of providing it.    ?P:no one
+238 | M) What are my chances of finding all of those things with 【one】 employer?
+321 | According to 【one】 estimate, less than 【one】 third of companies in the US provide paid parental leave.
+247 | In 【one】 example, the phrase "Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant" was interpreted as sending a message to Jason only, containing the text "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant".
+297 | There was 【one】 exception: Social skills were slightly lower for children who accessed online games and social networking sites many times a day.
+174 | In 【one】 experiment, participants were offered the choice between candy and fruit as a snack.
+316 | The math task in 【one】 experiment was designed to test participants’ tendency to cheat.
+340 | 【One】 expert claims that juicing wastes a lot of nutrients contained in fruits.
+266 | Researchers think that 【one】 explanation is that ties to friends
+163 | According to 【one】 famous entrepreneur, innovation means refusal to do an enormous number of things.
+217 | According to 【one】 father, equal parental leave is indispensable to achieving gender equality in the workplace.
+219 | the other two explanations Friedman considers, this 【one】 fits chronologically .
+405 | Compared with other racing series, Formula 【One】 focuses more on speed and involves more danger.    ?X
+392 | A former motorbike parts dealer led Formula 【One】 for the past forty years.    ?X
+272 | (22-2) Understanding when it’s appropriate to exchange 【one】 form for another can be a major key to success in international business.
+83 | 【One】 form of socialising doesn’t replace the other.
+127 | Chan, who has been involved with the club for nearly 50 years, said that passing the dance from 【one】 generation to the next was vital.
+159 | Yet 【one】 group had 60% fewer of them.
+337 | 【One】 group of researchers, for example, examined the link between rivalry and unethical behavior.
+324 | 【One】 group presented their idea in the form of a puppet show and we see
+328 | gateway to the realization that "five fingers on 【one】 hand is the same as five fingers on the other. " Such
+201 | On the 【one】 hand, many see value in diversity, which can contribute a variety of perspectives, encourage new ideas, and generate innovative solutions.    ?P:on the one hand
+368 | And Formula 【One】 has that more than any other racing series.    ?X
+397 | In other words, the more we believe that 【one】 has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.
+281 | It is the way to quit a job 【one】 hates.
+225 | 【One】 he can play either alone or in a group.
+186 | 【One】 he can play together with his sister
+142 | 【One】 he finds interesting and challenging.
+348 | K) Now, after Liberty Media paid $4.4 billion to acquire Formula 【One】, he is charged with making the investment pay off.    ?X
+94 | 【One】 he loves for helping exercise his mind.
+160 | M: Yes, for hard cheese, I would recommend this Italian 【one】 here.
+122 | There’s 【one】 here at 9:47, then 【one】 at 10:12 and then a third at 10:26.
+155 | This 【one】, however, is made of concrete, a novel construction material in those days.
+119 | I’ll download 【one】 immediately.
+332 | For example, low income is the strongest predictor of food insecurity in Canada, where 【one】 in eight households experiences insufficient access to nutritious foods.
+400 | According to a recent study, 【one】 in five highly engaged employees is at risk of burnout (精疲力竭).
+246 | This 【one】, in particular, was closed for 47 years before we transformed it into a movie theatre.
+360 | Earlier this year, scientists warned that 【one】 in six animal species could go extinct (灭绝的) due to climate change.
+188 | 【One】 in ten Americans has tried to look like a star.
+359 | "I think they can build Formula 【One】 in the U.S.," said Patrick Crakes, an executive at In Vivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports.    ?X
+367 | 【One】 in which the affluent enjoy a more comfortable life at the expense of the poor.
+347 | 【One】 in which the rich purchase amenities at an increasingly unjustifiable price.
+358 | 【One】 in which the upper classes deprive the lower classes of affordable housing.
+334 | 【One】 in which the wealthy exploit the low-wage laborers building their houses.
+182 | “【One】 interesting thing we have observed is that dogs are matching children’s behavior, but less frequently than what we have seen between dogs and adults.
+164 | According to 【one】 interior designer, when people return home, they want to see colours that cheer them up and give them a hug.
+335 | Formula 【One】 is a global, famous brand of stars.    ?X
+406 | 【One】 is forced by circumstances to stop working.
+273 | 【One】 is next to a small, elderly woman; the other is next to a muscular, fierce-looking man.
+404 | 【One】 is opposed to the prevailing work culture.
+408 | 【One】 is simply enjoying their time off work.
+180 | No 【one】 is spared his sharp analysis: not the easy targets    ?P:no one
+151 | Americans now live alone, and as the song says, 【one】 is the loneliest number.
+373 | 【One】 is the rise in obesity levels
+302 | H) The larger question, though, is a familiar 【one】: Is there room for Formula 【One】 in the ever-crowded sports landscape of the United States?    ?X
+402 | 【One】 is too busy to check all emails in time.
+293 | A research paper rejected by 【one】 journal may get accepted by another.
+259 | 【One】 large beverage company has adapted its operations when confronted with challenges from health and environmental
+221 | collaboration and teamwork over traditional organizational structures, no 【one】 likes to be told what to do or to be pushed    ?P:no one
+214 | 【One】 lion dancer compares their New York dance club to a family.
+251 | 【One】 lion dancer learned how to perform from his elders.
+80 | It was unclear where the rest of the group was from, but they were most likely traveling together. [7] 【One】 local woman commented on being embarrassed that tourists were cleaning up their beach.
+291 | our studies have yielded 【one】 main insight: Students' beliefs about change-their beliefs about whether
+374 | 【One】 major side effect of excessive ambition is the tendency to focus too determinedly on 【one】 particular vision or end goal.
+129 | W: Okay, but how much money does a person need to retire? [13] I’ve read articles recommending 【one】 million dollars as a good figure for retirement.
+193 | students found that 50 percent of friendships among ninth graders changed from 【one】 month to the
+381 | Chase Carey believes greater use should be made of digital technology to make Formula 【One】 more accessible to its fans.    ?X
+204 | M: Just 【one】 more thing.
+352 | If at first you fail, then try 【one】 more time with grit.
+239 | (22-1) How the balance is struck between these two forms of communication—the point at which 【one】 needs to be exchanged for another—really depends on individual cultures.
+253 | Executive function is a term for the skills 【one】 needs to plan, organize, motivate, concentrate and memorize.
+260 | I) Hourican and his pupils have happy memories of spending a whole day at the museum, having been selected as 【one】 of 10
+277 | The internet is too easy and too unreliable a research tool, (18) so let’s leave phones and laptops at home, and show them a different world in their lessons—【one】 of books and pens,” he says.
+265 | What is 【one】 of Branyas Morera’s secrets to living a long life?
+387 | 【One】 of Chase Carey's goals is to make Formula 【One】 more appealing to Americans.    ?X
+339 | 【One】 of Design Ventura’s judges says the competition adds vigour to the standard curriculum in schools.
+104 | Whatever the case, your passport will likely be 【one】 of four colors: red, blue, green or black, although there are slight variations.
+240 | Instead, she remains positive, holding up for praise 【one】 of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.
+102 | W: Hmm, that’s nice of you, but I don’t want to feel obliged to buy 【one】 of his cars.
+218 | Red Rum was headed for the Grand National once again in 1978 but suffered an injury in 【one】 of his heels shortly before the race.
+88 | When Toni Morrison died in 2019, the world lost 【one】 of its most influential authors.
+393 | 【One】 of my bad habits is saying “busy” when people ask me how I’m doing.
+138 | W: I still think it’s a bad idea to use a credit card for something you don’t need. [11] 【One】 of my colleagues bought a lot of things on credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.
+114 | Kelli’s letter, a literate update on both her personal and professional life, touched my heart, and especially so when saying that two decades later she still has the course text, “Solutions to Violence,” and that “it remains 【one】 of my favorite possessions.
+130 | The US is 【one】 of only three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies are starting to take up the issue.
+343 | K) Research on the language of numbers shows, more and more, that 【one】 of our species' key
+158 | However, this issue with the golden rule can be dealt with in a general manner, by viewing this principle as 【one】 of several principles that we use to guide our behavior as individuals and as a society.
+198 | “In our world and our society, we have very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department of the Borough of Manhattan Community College, and 【one】 of the authors of a recent study.
+289 | But “the research hasn’t really changed minds, at least not yet,” says 【one】 of the authors of the study, Dr.
+131 | It’s supposed to be 【one】 of the best Italian’s in town.
+132 | Today, three decades after his retirement, he is still 【one】 of the best-known and most beloved racehorses of all time.
+148 | 【One】 of the best things
+295 | I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely to have the biggest negative impact on today’s teens because reading books and longer articles is 【one】 of the best ways to learn critical thinking.
+280 | What is 【one】 of the causes for more and more people in Los Angeles to become homeless?
+308 | L) Another is television presenter and interior designer Naomi Cleaver, who is 【one】 of the competition’s judges.
+318 | What is 【one】 of the consequences of living big?
+244 | J) For every 【one】 of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task.
+100 | They are unemployed for much longer than the average, and their age is indeed 【one】 of the greatest barriers to
+140 | is 【one】 of the greatest forms of learning because the mistakes you make while practicing reveal important insights.
+232 | E) In addition, studies find the first year of high school typically shows 【one】 of the greatest increases in
+177 | To this day, Red Rum’s third win is known as 【one】 of the greatest moments in horse racing history.
+351 | 【one】 of the groups.
+210 | Even turning your voice into text—automatic speech recognition—is 【one】 of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet.
+150 | In fact, as 【one】 of the most damaging invasive species on the continent, (17) wild pigs cause millions of dollars in crop damage yearly.
+117 | Although Palmdor is 【one】 of the most famous private islands in the world, its seafront is public land and is a favorite destination for famous people.
+190 | 【One】 of the most famous examples of this
+309 | Hitchcock is 【one】 of the most influential filmmakers in the history of ___27___.
+379 | evidence that food conswned out of the home is 【one】 of the most poorly recorded categories in surveys.
+213 | Telling stories is 【one】 of the most powerful means leaders have to influence, teach and inspire.
+123 | Clean water is __30__ becoming 【one】 of the most sought-after resources in the world.
+168 | after all, 【one】 of the most useful cash crops across the globe.
+109 | This house built in 1904 is 【one】 of the most well-known works of Charles Hill, the famous architect.
+261 | It distinguishes itself as 【one】 of the oldest games.
+178 | information given in 【one】 of the paragraphs.
+236 | Each statement contains information given in 【one】 of the paragraphs.
+82 | Lesley Harper, who runs 【one】 of the pubs, said the cat has been a big hit with their customers.
+287 | J) “【One】 of the really useful things about this competition,” says Hourican, “is that there’s a commercial element because the
+263 | What is 【one】 of the reasons for people to delay retirement?
+394 | This requires two essential conditions: that 【one】 of the tasks needs to be automatic, like walking or eating, and that they both need different mental processes.
+241 | 【One】 of the techniques we use in person perception is social categorization.
+407 | Supermarkets have long been suffering as 【one】 of the thinnest-margined businesses in existence and 【one】 of the least-looked-forward-to places to work or visit.
+330 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, and curiosity is 【one】 of the tools humans have found to accomplish that gigantic task.
+175 | J) The vast majority of men, 97%, said 【one】 of the top reasons to take leave was to share caregiving with their partner.
+377 | What is 【one】 of the traps entrepreneurs may often fall into when competing with rivals?
+91 | State Representative Adam Mathews is 【one】 of the two legislators who proposed the bill.
+99 | The type of snake was determined to be 【one】 of the world’s largest snake species.
+209 | Is there any chance we could have a window seat for 【one】 of those?
+357 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only 【one】 of those areas, like computational chemistry.
+162 | I want to see if I can get 【one】 of those rental bicycles and ride to the office just for fun.
+143 | W: Oh, yeah. [15] We had 【one】 of those when growing up.
+314 | 【One】 of two things may happen: Employers pass these costs onto employees.
+147 | Being practically next door, 【one】 of us could take him to school every day before going to work.
+105 | 【One】 online course
+118 | When you say “no”, you’re only saying “no” to 【one】 option.
+120 | Evil behavior is typically thought to embrace 【one】 or both forms.
+195 | Otltures without nwnbers, or with only 【one】 or two precise numbers, include
+270 | Imagine going from reading texts as short as 【one】 or two sentences to trying to read entire books written in complex language and containing sophisticated ideas.
+110 | 【One】 out of ten American 8th grade students in 2016 spent 40 hours a week or more playing video games.
+237 | G) Indeed, the number of senior high school students who said they had not read any books for pleasure in the last year was 【one】 out of three by 2016.
+136 | Richard Thompson Ford is a law professor, and you probably won't forget that for even 【one】 page.
+391 | Focusing determinedly on 【one】 particular goal.
+194 | On 【one】 particular United States island, wild pigs themselves became an attractive food source for a species of mainland eagle.
+262 | It’s estimated at less than 【one】 per cent of the UK’s food waste total.
+89 | 【One】 person described it as a loud boom, similar to a plane crash.
+233 | It started with 【one】 person, Jan Newton.
+354 | The topic of the speech was what makes 【one】 popular in high school.
+113 | What does the author say is 【one】 possible benefit of students attending school physically?
+388 | 【One】 possible solution to the food security problem is diversification of diet.
+245 | There was just 【one】 problem for the German children who received them: They were written in Russian.
+399 | Chase Carey intends to make connections easier between the audience and the Formula 【One】 racers.    ?X
+320 | By retiring when 【one】 reaches sixty years old.
+361 | 【One】 reason having a rival can enhance your venture’s performance is that it creates a level of excitement that drives you to work harder.
+199 | 【One】 reason is that going to the cinema is generally a social activity.
+248 | According to 【one】 recent business report, recycled plastic now costs an extra $72 a tonne compared with newly-made plastic.
+313 | According to 【one】 recent study, narrow winners of research grants had better chances to be promoted
+327 | G) In 【one】 recent study, we examined 360 adolescents' beliefs about the nature of "smartness"-that is,
+282 | Compared to five years ago, according to 【one】 researcher, many more people said their organisation gave the same support to men and women taking parental leave.
+329 | 【One】 researcher suggests it might be more fruitful to distribute grants on a relatively equal basis.
+191 | Leaders who use this style don’t want to make mistakes. [17] This commitment to 【one】 right way of thinking or doing things hinders the manager’s flexibility.
+176 | Only family, pets and 【one】’s closest friends may enter it. [23] A mere acquaintance entering our intimate space makes us uncomfortable.
+285 | It refers to the natural and instinctive power of influencing 【one】’s coworkers.
+288 | Too many choices decrease 【one】’s desire to buy.
+231 | There are tools to compare 【one】’s DNA with others’ to
+307 | Knowing 【one】’s emotional state is of utmost importance in deciding what changes to make for a better work-life balance.
+303 | By keeping close contact with 【one】’s employers.
+154 | It has much to do with 【one】’s genes.
+220 | Research found that, as regards achievement of 【one】’s goals, it is important to focus more on enjoying the process than the
+333 | Of the endless troubles that come with being driven from 【one】’s home country, losing educational certificates may seem small.    ?P:drive sth home
+161 | Greater emotional cleverness means less trouble in 【one】’s life.
+371 | Clothes largely determine 【one】’s likability by people around.
+336 | By investing half of 【one】’s monthly income.
+153 | Thus, humility leads to an honest view of 【one】’s own advantages and shortcomings.
+227 | It considers 【one】’s physical appearance very important.
+364 | Clothes usually represent 【one】’s social and economic status.
+363 | It plays a lesser role in 【one】’s success.
+229 | No 【one】 says playing music will be a cure for    ?P:no one
+369 | Last week, BBC Future explored 【one】 scientist’s efforts to help crops cope with the increased probability of droughts.
+128 | 【One】 should foresee a financial crisis.
+215 | 【One】 should have 【one】 million dollars to retire.
+252 | 【One】 should start saving as early as possible.
+173 | 【One】 should trust financial planners’ figures.
+145 | “Parking here is already a nightmare,” 【one】 shouted at a protest rally.
+134 | In light of Hershfield’s study, 【one】 simple question arises: Is it possible to make our present selves give a damn about
+112 | I’ve been using 【one】 since the start of last semester, and it has really helped relieve a lot of study pressure.
+111 | There was only 【one】 small problem: I simply didn’t get along with the company culture.
+115 | M: (9-2) I would suggest having at least 【one】 soft cheese and 【one】 hard cheese.
+184 | 【One】 solution suggested in the study involves requiring buyers to sign end-user license agreements (EULAs), similar to
+299 | 【One】 spouse wants a complete name change.
+264 | 【One】 start-up is convinced that the skills learned by playing games — hard-won through years of training and battle — can
+346 | For 【one】, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+166 | The time 【one】 starts school.
+275 | They involve similar thought patterns, so stimulating 【one】 stimulates the other.
+196 | G) 【One】 straightforward reason close losers might outperform narrow winners is that the two groups have
+108 | 【One】 strategy to be a good conversationalist is to motivate your partner to tell their own stories.
+372 | According to 【one】 study, each high school graduate contributes at least 500, OOO dollars to the local
+290 | What did 【one】 study find about students seated in the middle of the classroom?
+304 | 【One】 study finds that even workers who claim to desire gender equality stick to traditional gender roles both at work and at home.
+137 | 【One】 study, for example, found that adults over sixty had an
+197 | 【One】 study found that people tend to rate this quality 35 in their spouse.
+101 | 【One】 study has
+149 | 【One】 study of ninth-grade
+274 | In 【one】 study, researchers showed the participants columns of abstract illustrations and asked them which ones they would prefer.
+384 | 【One】 study showed that friendships among ninth graders were far from stable.
+294 | 【One】 study showed that women managers often expressed positive emotions that they didn’t really feel.
+378 | In 【one】 study, students were told their social position in school is not unchangeable.
+230 | In 【one】 study, students who sat in the front and center of the classroom received a higher grade average and scored higher on tests than those sitting towards the back of the classroom.
+365 | According to 【one】 study, students' academic performance is not the only decisive factor of their stress
+207 | In 【one】 study, they were given matrixes (矩阵) and had to find two numbers that added up to 10.
+179 | K) “In 【one】 study, we asked people online about the goals they set at the beginning of the year.
+228 | According to 【one】 survey, city design with bike lanes and pedestrian space did not negatively impact local businesses.
+254 | 【One】 survey indicated there is now less objection to paternity leave.
+226 | By allowing employees to donate their time during work hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. [21] In 【one】 survey, 89% of employees perceived companies that sponsored volunteer activities as creating a better working environment, and 75% said volunteering was critical to their well-being.
+187 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According to 【one】 survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+338 | 【One】 survey taker explained, “The greatest challenge for me was continuing to believe in myself, when all the messages
+362 | What does 【one】 survey taker say was her greatest challenge?
+165 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in 【one】 task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+398 | A skilled worker executing more than 【one】 task at the same time.
+345 | For example, in 【one】 task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.
+389 | What we call multitasking, therefore, is in reality the ability to move more or less quickly from 【one】 task to another.
+279 | Formula 【One】 teams race far more technologically advanced vehicles around tracks all over the world—in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.    ?X
+292 | time, they start to understand that a given number represents a quantity greater by 【one】 than the
+286 | management redesign and 【one】 that continued working within the existing management structure.
+169 | I have 【one】 that I use to cover my phone screen too.
+212 | Among the goals, Carey said in an interview on Tuesday, is 【one】 that just about every global sport seems interested in chasing: increasing interest in the United States.
+284 | The art of self-control is 【one】 that most successful individuals have mastered.
+376 | “Depending on a greater number of plant species creates a more vigorous and less risky food system—and 【one】 that provides a broader range of nutritional requirements.
+258 | Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, 【one】 that worked under a
+107 | When there are several different assignments, make sure they begin with 【one】 they enjoy, so it seems easy to get started.
+135 | 【One】 thing that extreme sports do better than perhaps anything else is to help you stop being afraid. [19] It may sound strange to say that their main function is to reduce fear.
+283 | What is 【one】 thing that helps maintain the health of our brain even as it shrinks2
+390 | But if there's 【one】 thing that triggers widespread employee frustration, it's an IT
+276 | F) While tradition is 【one】 thing, there isn’t any logical reason to completely change your name.
+380 | What does the author say is of extreme importance for 【one】 to become a successful entrepreneur?
+93 | Making sounds enables 【one】 to express their ideas more explicitly.
+319 | While some might immediately link Formula 【One】 to NASCAR in terms of American growth, Carey said Formula 【One】's brand research had indicated there was very little crossover; rather, Formula 【One】 fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.    ?X
+235 | Being a close loser could greatly motivate 【one】 to persevere in their research.
+106 | Recent research has found that 【one】 trait in particular—humility (谦逊)—is an important indicator of successful relationships.
+156 | Thus, using more of 【one】 type of media does not necessarily mean less of the other.
+242 | No 【one】 understands the reason for this.    ?P:no one
+116 | But Pasternak did take note of 【one】 unifying factor in all of the healthy societies he observed.
+310 | 【One】 veteran player has applied his gaming skills to his real-world business and owes his success partly to a game company.
+185 | Well you’d expect the Design Museum to commission and make some interesting items, but this 【one】 was different.
+300 | 【One】 was with high school students and the other with more than 1,000 Australian adults aged between 24 and 60 years old.
+139 | 【One】 water bottle company launched recycled half-
+311 | people are stuck 【one】 way forever, or whether people can change their personalities and abilities-are
+243 | All of us can be affected by food instability 【one】 way or another.    ?P:one way or another
+152 | 【One】 way social scientists have probed the effects of career setbacks is to look at scientists of very
+350 | 【One】 way to avoid this trap is to stop and reflect on what’s important.
+216 | There have been many attempts to help consumers make healthier choices, but consumers often struggle to maintain a healthy diet. [18] This research finds that 【one】 way to promote a healthy diet could be to advertise the social benefits of healthy choices.
+325 | 【One】 way we can improve the effects of fruit juice on our health is making sure we select ripe
+370 | 【One】 way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+269 | It’s a common story—【one】 we frequently ridicule and readily dismiss, for example, by claiming that women tend to complain more than men, despite the growing sum of research that underlines the problem.
+256 | It is a behavior we are born with more than 【one】 we learn.
+92 | G) In situations like this 【one】, we often claim that we are preparing or researching the best method, but these rationalizations
+353 | Why does science say the clothes 【one】 wears may affect their interaction with others?
+383 | A multitasker is 【one】 who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does.
+326 | 【One】 who enjoys playing games that require management skills to win might possess more qualities of a manager.
+86 | I’ve never envied a busy person—the 【one】 who likes to point out their busy lives to others.
+157 | But, it’s important to keep in mind that the employer isn’t the only 【one】 who needs to identify a good match—you should be looking for that same exact thing.
+268 | who got 【one】 with luck, as suggested in 【one】 study.
+133 | You are required to select 【one】 word for each blank from a list
+323 | hit songs of the 1950s, researchers found, there was only slightly more than 【one】 50 years later.
+
+============================================================
+## 词：life    本段 51 句    模式：全标（每句都写）
+原释义：n.生活; 生命; 人生.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 生活（日常生活、某方面的生活：social life, work life）    B 样本 40    例：___35___ of life.
+  1  n. 人生，一生，生涯    B 样本 23    例：He desires more in life.
+  2  n. 生命，性命；寿命（包括电池等的使用寿命）    B 样本 8    例：They boast the longest battery life.
+  3  n. 活力，生机    B 样本 2    例：To bring new life into the city.
+  4  n. 生物（总称，如 marine life 海洋生物）    B 样本 0
+已标过的短语：true to life（2）；walk of life（1）；life jacket（1）；for life（1）；bring sth to life（1）
+已标 X：1 句，如：Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.
+口径说明（照此执行）：
+  - 口径：daily/social/family/work/professional/night life、quality of life、way of life、enjoy life 标 0（生活）；whole life、later in life、a dream/more in life、meaning of life、人生阶段（first 18 years of life）、生涯（racing life）标 1；extend life、longer life、life expectancy、battery life、save lives 标 2；bring new life into 标 3；walks of life、true to life、for life（终身）、life jacket、bring sth to life、come to life 标 P；书名里的 Life 标 X。0 与 1 界线较模糊，拿不准时按 0。
+句子：
+85 | Nightmares stem from exposure to trauma ，an overactive imagination, and the normal stresses of everyday 【life】.
+86 | Her other secrets for living a long 【life】?
+89 | Greater emotional cleverness means less trouble in one’s 【life】.
+90 | This philosophy applies in many areas of 【life】.
+91 | Changing people’s philosophy of 【life】.
+93 | Enjoy a happier 【life】.
+96 | They may cease to exist as a result of enjoying too good a 【life】.
+102 | Collaborating with others is an important element of 【life】.
+106 | It is a guarantee for real success in 【life】.
+107 | They reflect kids’ waking 【life】.
+111 | Help people to deal with their troubles in 【life】.
+113 | Without any ambition, you wouldn't start your own business, set or achieve goals and get far in 【life】.
+116 | What is one of Branyas Morera’s secrets to living a long 【life】?
+118 | According to Kelli Harding, scientific advances have not made Americans healthier, nor prolonged their 【life】.
+120 | But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and even a shorter 【life】.
+122 | What does Branyas Morera think also contributes to a long 【life】?
+123 | No matter what, make sure you are having fun in 【life】.
+124 | The author was deeply moved by what Kelli Harding wrote about her current 【life】.
+128 | What Kelli Harding went through in Washington changed her 【life】.
+129 | It may affect obese people’s quality of 【life】.
+126 | Rising to 【life】's challenges and avoiding risks.
+110 | He’d sit down to talk with the patient not just about medical problems, but about her 【life】 and priorities.
+109 | The hesitation I felt in not sharing the ordinary things that were happening in my 【life】, and the wild mental search for something more interesting, may have backfired and made me seem less interesting.
+81 | We all bring different 【life】 and work experiences to the table.
+103 | One in which the affluent enjoy a more comfortable 【life】 at the expense of the poor.
+121 | A desire for new 【life】 challenges can further boost brainpower.
+94 | is not how the two pieces of work and 【life】 come together.
+127 | A person who is unable to stimulate others’ curiosity or make their 【life】 enjoyable may appear somewhat boring.
+88 | In 2016, the United States ranked forty-third in the world for 【life】 expectancy....    ?P:for life
+80 | Savings rates in America have dropped in recent decades even though people’s 【life】 expectancy has increased.
+130 | Cheating was becoming a way of 【life】 for a majority of high school teens.
+104 | Embrace 【life】 for ourselves and for others.
+125 | Distinguish between conventional success and our 【life】 goal.
+92 | Many Americans' private 【life】 has been negatively affected.
+99 | But that doesn’t mean your 【life】 has ended and you can’t do anything to change it.
+95 | Your current situation in 【life】 is built on the beliefs and habits you have been practicing daily.
+98 | But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long 【life】 is “knowing how to choose” what to forget.
+101 | People who look at the dark side of 【life】 often feel depressed.
+115 | than all 【life】 on Earth.
+114 | Throughout 【life】, people’s brains constantly renovate themselves.
+83 | The state of your 【life】 right now is a result of the habits
+84 | such as Design Ventura, which helps to bring the standard curriculum to 【life】,” says Cleaver.    ?P:bring sth to life
+82 | my work 【life】’”, says Kelly.
+97 | According to Foulkes, “Children’s dream 【life】...seems to be similar to their waking imagination and narration.
+100 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her 【life】, such as if she had family pictures up in her hospital room or flowers delivered.
+117 | To be interesting means that you have lived 【life】, taken risks, traveled, sought out experience to learn for yourself and share with others,” she says.
+105 | Some researchers suggest that work-life balance is not a goal to achieve, but a process for 【life】 to be adjusted promptly.    ?P:for life
+119 | It is an essential aspect of 【life】 to cooperate with other people.
+87 | Nevertheless, many people live lives that are boringly predictable, or live a 【life】 where everything is outlined or planned.
+108 | “【Life】 would be impossible if we remembered everything,” she said.
+112 | Saying “no” is an important skill to develop at any stage of your career because it retains the most important asset in 【life】: your time.
+
+============================================================
+## 词：my    本段 58 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：pron.我的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 我的    B 样本 79    例：My father is a
+  1  int. （表示惊讶）天哪，哎呀（My! / Oh my!）    B 样本 0
+已标过的短语：one's nearest and dearest（1）
+口径说明（照此执行）：
+  - 口径：泛指/作定语的 my 一律标0（含 my own、my father-in-law）；含 one's 的习语按 P 标（on one's own、one's nearest and dearest 至亲好友、make one's way 等）；Oh my God / Oh my gosh 标 P:oh my God，单独的感叹 My! / Oh my! 标1。
+句子：
+126 | And the quality and quantity of work I can do emerges directly from 【my】 ability to concentrate.
+100 | M: I go to the bank once a week, and the rest of the time I keep 【my】 bank card at home, so I can’t get more cash out.
+121 | After I fell out of 【my】 bed twice during 【my】 freshman year, the university installed a railing—for $20, billed to 【my】 student account.
+128 | 【My】 benefits became invalid the second I moved out of Ohio.
+96 | Or I could perceive 【my】 birthday as an opportunity to do something for others like asking people to make a donation instead of buying a gift.
+92 | 【My】 boss would genuinely listen to and value all of 【my】 ideas and suggestions.
+118 | W: I should be fine with doing it on your website, and I already have all 【my】 certificates, as we run a small farm shop too.
+115 | M) What are 【my】 chances of finding all of those things with one employer?
+103 | Who built that interesting building in 【my】 city?
+108 | And I’ll submit 【my】 claims form afterwards.
+105 | 【My】 co-workers would all be friendly with one another, without ever falling into the office gossip trap.
+83 | I am a historian who, along with 【my】 colleagues, surveyed 251 women engineers who graduated from college in the
+125 | 【My】 college experience offers a few examples.
+97 | I’m on 【my】 computer very late most nights, and that’s probably why I don’t sleep enough.
+117 | 【My】 daughter’s stock answers are basketball player, pop singer, mechanical engineer.
+122 | When she was much younger, 【my】 daughter used to say she wanted to be Queen of the Clouds, which I loved.
+116 | Renting a mini-fridge for 【my】 dorm room costs 【my】 roommates and me about $140 a year.
+93 | F) With a blending of free-flowing confessional prose and scholarly research found in 461 notes, Kelli met 【my】 expectations that her ideas and ideals would be sound and singular.
+112 | And I also have a notebook where I record 【my】 expenses.
+99 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In 【my】 experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+131 | 【My】 family was careful to ask about the chances of financial aid being taken away after 【my】 freshman year.
+111 | W: [13] It says on your website that you are still looking for vendors, and I grow organic vegetables on 【my】 farm, as well as doing 【my】 own home baking.
+123 | 【My】 financial aid did not anticipate any of these costs, and so it did not cover them.
+132 | We did not know to ask—and the school did not readily point out—that even if tuition rises, 【my】 financial aid package will stay the same.
+94 | They hit me right out of gate with a $160 fee to attend 【my】 freshman orientation, a price which does not include the cost of travel to and from the District.
+129 | After 【my】 freshman year, I had to opt for the school’s insurance plan, which costs around $2,000 a year.
+80 | And it’s the same for most of 【my】 friends.
+84 | However, after talking to 【my】 friends who felt the same, I quickly realised that it wasn’t 【my】 ignorance but the lack of
+137 | As a low-income student from a down-and-out Rust Belt community, these educational experiences have enormous potential to brighten 【my】 future—and 【my】 family’s future.
+134 | The university administration will likely vote to raise costs at least once more before 【my】 graduation.
+135 | J) Yes, I chose to attend an expensive university far from 【my】 hometown.
+89 | (12-2) (15) I’m starting to realize that painting 【my】 house is far more troublesome than I had anticipated.
+88 | part of 【my】 job.
+87 | Actually 【my】 mother is terrified of airplanes to the point where she can’t even fly.
+98 | 【My】 name’s Philip.
+86 | W: Good morning. [12] I’m looking for a present for 【my】 nephew, Lawrence.
+91 | Oh, (10) maybe it has something to do with 【my】 new card.
+102 | M: You have 【my】 number.
+127 | It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use 【my】 Ohio Medicaid on campus for anything other than emergency care.
+104 | Maybe the bank canceled 【my】 old one before you’ve made the payment.
+95 | I’ll pay everything with 【my】 own card, right?
+120 | That’s not to say that I think 【my】 path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+114 | I’ll use that food delivery app on 【my】 phone.
+85 | Then, when I was tired and hungry, I’d use 【my】 phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.
+106 | In 【my】 practice, the sickest people I see often share similar backgrounds: loneliness, abuse, poverty, or discrimination.
+82 | M: But 【my】 proposal is not just to reward students with good grades, but also students who show improvements.
+101 | [16] The most common question I’m asked always centers around how to get started in user experience design, to which 【my】 response is always that nothing can substitute real-world experience.
+130 | 【My】 school charges an additional fee for the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill.
+124 | M: When people ask 【my】 son what he wants to be when he grows up, I have to swallow the urge to say, “Hey, back off 【my】 kid’s dreams!
+109 | When I got to 【my】 station, I could hardly get out.
+81 | M: When is the show supposed to start? [10] I’m a bit overwhelmed with the amount of data I still need to collect to finish 【my】 thesis.
+119 | Besides, I could teach him some of the basics from 【my】 time as a badminton player.
+136 | All things considered, I am paying significantly less than the ticket price of 【my】 university, and having an educational experience in Washington, D.C., that I would not have had anywhere else.
+107 | Fees for lab science classes are the highest, and all students at 【my】 university are required to take at least one lab before they graduate.
+133 | So when 【my】 university voted to raise tuition costs 3% at the end of 【my】 freshman year, 【my】 financial aid package remained the same and I was suddenly responsible for an additional $1,200 for the next year.
+113 | I found 【my】 way to user experience through graphic design, and slowly over many different roles and experiences that led me to become a user experience designer.    ?P:find one's way
+90 | What is that roadside monument I see on 【my】 way to work every day?    ?P:on one's way
+110 | And I’m tired of people asking that question of 【my】 10-year-old daughter.

@@ -1,0 +1,88 @@
+[
+ {
+  "word": "to",
+  "def": "prep.向; 到; 对. (用于动词不定式前).",
+  "senses": [
+   {
+    "pos": "",
+    "zh": "不定式符号，后接动词原形（want to go）"
+   },
+   {
+    "pos": "",
+    "zh": "（不定式）为了"
+   },
+   {
+    "pos": "",
+    "zh": "（be to do）按要求或安排要做"
+   },
+   {
+    "pos": "prep.",
+    "zh": "向，到，往（方向、目的地）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "对，给（引出对象，如 say to, send to, open to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "到，至（终点、范围、程度，如 from 1 to 10, up to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "与……相比，与……相同（similar to, compared to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（时间）差（ten to six）"
+   }
+  ],
+  "phrases_seen": [
+   "have to"
+  ],
+  "notes": [
+   "1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。"
+  ],
+  "sents": [
+   {
+    "id": 3680,
+    "text": "Meanwhile, it pays to examine studies funded by industry or special interest",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 3681,
+    "text": "What do other scientists have to",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 3682,
+    "text": "They have little access to government funding.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 3683,
+    "text": "What would scientific studies look like in a perfect world according to the author?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 3684,
+    "text": "They try hard to pull down the safeguards for research.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 3685,
+    "text": "They make extra efforts to research their own products.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   }
+  ]
+ }
+]

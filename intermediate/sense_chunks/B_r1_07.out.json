@@ -1,0 +1,142 @@
+{
+  "how": {
+    "senses": [
+      {"pos": "adv.", "zh": "怎样，如何（方式、方法）"},
+      {"pos": "adv.", "zh": "多么，多（程度，如 how long 多久、how often 多常、how important 多么重要）"},
+      {"pos": "adv.", "zh": "多少（how much / how many，问数量、价钱）"},
+      {"pos": "adv.", "zh": "怎么样（问状况、评价，如 How are you?）"}
+    ],
+    "labels": {"0": 0, "1": "P:how about", "2": 1, "3": 3, "4": 3, "5": 1, "6": 2, "7": 0, "8": "P:how about", "9": 1,
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 2, "15": 0, "16": 0, "17": 0, "18": 1, "19": 1,
+               "20": 0, "21": 0, "22": 2, "23": 0, "24": 0, "25": 0, "26": 0, "27": 1, "28": 1, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 1, "38": 0, "39": 1,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 2, "49": 0,
+               "50": 0, "51": 2, "52": 0, "53": 0, "54": 0, "55": 2, "56": 0, "57": 0, "58": "P:how about", "59": 0,
+               "60": 0, "61": 0, "62": 1, "63": 0, "64": 0, "65": 1, "66": 2, "67": 0, "68": 1, "69": 1,
+               "70": 0, "71": 1, "72": 1, "73": 1, "74": 1, "75": 1, "76": 0, "77": 0, "78": 2, "79": 0},
+    "example": {"id": 11, "en": "How did you meet her?", "zh": "你是怎么认识她的？"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：how + 形容词/副词（how long/often/far/well/early/important/easily，含感叹句 How utterly...!）一律标 1；how much / how many（含 how much of a discount）标 2；How are you / How did we do（问状况、评价）标 3；how about（…怎么样，提建议）按 P:how about，how come（为什么）按 P:how come；how to do 和从句里的「…的方式、怎样」都标 0，不算短语。"
+  },
+  "so": {
+    "senses": [
+      {"pos": "conj.", "zh": "所以，因此；于是"},
+      {"pos": "adv.", "zh": "如此，这么，非常"},
+      {"pos": "adv.", "zh": "那么，这么说（引出话题、提问或确认）"},
+      {"pos": "conj.", "zh": "为了，以便（= so that）"},
+      {"pos": "adv.", "zh": "这样，如此（代替前文，如 do so、I think so）"},
+      {"pos": "adv.", "zh": "也（so + 助动词 + 主语，如 So do I）"}
+    ],
+    "labels": {"0": 0, "1": 3, "2": "P:and so on", "3": 0, "4": 1, "5": 1, "6": 1, "7": 2, "8": "P:so that", "9": 1,
+               "10": 1, "11": 2, "12": 0, "13": 4, "14": 0, "15": 1, "16": 0, "17": 2, "18": 0, "19": 0,
+               "20": 1, "21": 1, "22": 0, "23": "P:so...that", "24": 3, "25": 0, "26": 0, "27": "P:so as to", "28": 0, "29": 0,
+               "30": 2, "31": 2, "32": 0, "33": "P:so...that", "34": 1, "35": 3, "36": 0, "37": 1, "38": 0, "39": 1,
+               "40": 1, "41": "P:even so", "42": 1, "43": 0, "44": 0, "45": "P:so...that", "46": "P:so...that", "47": 0, "48": 0, "49": 1,
+               "50": "P:even so", "51": 1, "52": "P:so that", "53": 2, "54": "P:or so", "55": 0, "56": 4, "57": "P:so...that", "58": 1, "59": "P:so that",
+               "60": 2, "61": 2, "62": 0, "63": 1, "64": 4, "65": 4, "66": 0, "67": 2, "68": 1, "69": 0,
+               "70": 1, "71": 1, "72": 0, "73": 0, "74": 2, "75": 5, "76": 0, "77": 0, "78": [2, 1], "79": 1},
+    "example": {"id": 3, "en": "I heard he comes here a lot, so I thought I'd come in and check with you.", "zh": "我听说他常来这儿，所以想进来问问你。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：so that / so as to / so...that（如此…以至于，含 so much that）/ and so on / or so（大约）/ even so（即便如此）/ so far / so-called / so long as 一律按 P；so much / so many（如此多）标 1。句首 So：承接前文得出结论、叙事里的「于是」标 0；转换话题、引出提问、确认对方意思（So, what's new? / So you think...）标 2。不带 that 的 so 表目的（…so he can...）标 3。do so、so recognized、especially so、So it was when... 这类指代前文的标 4；as A..., so did B / so do I 标 5。"
+  },
+  "if": {
+    "senses": [
+      {"pos": "conj.", "zh": "如果，假如"},
+      {"pos": "conj.", "zh": "是否（= whether）"},
+      {"pos": "conj.", "zh": "虽然，即使（让步，如 a huge, if silent, risk）"}
+    ],
+    "labels": {"0": "X", "1": 1, "2": 2, "3": 0, "4": 0, "5": 1, "6": 1, "7": 0, "8": 1, "9": "P:as if",
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 1, "17": 0, "18": 0, "19": 1,
+               "20": 0, "21": 0, "22": 0, "23": "P:even if", "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 1,
+               "30": "P:if not", "31": 0, "32": 0, "33": 1, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 1, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": "X", "51": 0, "52": "P:even if", "53": 0, "54": 1, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 1, "64": 0, "65": 1, "66": 0, "67": 0, "68": 0, "69": "P:even if",
+               "70": "P:even if", "71": 0, "72": "P:even if", "73": 0, "74": "P:as if", "75": "P:even if", "76": 1, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 22, "en": "I would cry if that happened to me.", "zh": "要是这种事发生在我身上，我会哭的。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：even if（即使）、as if（好像）、if not（A, if not B：即使不是 B 也是 A）、what if（要是…怎么办）、only if 按 P。ask/know/see/check/wonder/be sure/unclear if 这类「是否」标 1（选项里 If their percentage keeps increasing 这种是问「是否」，也标 1）。if possible、if approved、if not claimed 等省略式仍标 0。OCR 乱码里冒出来的 if（如 ( 1if t k)）标 X。"
+  },
+  "all": {
+    "senses": [
+      {"pos": "det.", "zh": "所有的，全部的（后接名词）"},
+      {"pos": "pron.", "zh": "全部，一切，大家；（放在主语后）都"},
+      {"pos": "adv.", "zh": "完全，十分（加强语气，如 all by oneself、all done）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 1, "4": "P:after all", "5": 1, "6": "P:all right", "7": "P:all the time", "8": 0, "9": 0,
+               "10": 1, "11": 0, "12": 1, "13": 1, "14": "P:all over", "15": 0, "16": 0, "17": 2, "18": 1, "19": 0,
+               "20": 0, "21": "P:all right", "22": 0, "23": 1, "24": "P:all of a sudden", "25": 1, "26": 0, "27": 1, "28": 0, "29": 0,
+               "30": "P:all right", "31": 1, "32": 1, "33": "P:in all", "34": 0, "35": 0, "36": 2, "37": 0, "38": 1, "39": 0,
+               "40": 1, "41": 1, "42": 0, "43": "P:all over", "44": "P:all over", "45": 2, "46": "P:at all", "47": 0, "48": 0, "49": 0,
+               "50": 1, "51": 0, "52": 0, "53": 2, "54": 0, "55": "X", "56": "P:at all", "57": 1, "58": 0, "59": "P:for all time",
+               "60": 0, "61": 1, "62": 0, "63": 0, "64": 1, "65": "P:all of a sudden", "66": 2, "67": 0, "68": "P:at all", "69": "P:all over",
+               "70": 1, "71": 0, "72": "P:all sorts of", "73": "P:all over", "74": 0, "75": 0, "76": 1, "77": 0, "78": 0, "79": 1},
+    "example": {"id": 22, "en": "All wild animals should be well protected.", "zh": "所有野生动物都应当受到妥善保护。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：all right（好的；不错）、after all、at all（根本，完全；含 not at all）、all of a sudden、in all（总共）、all over（遍及，如 all over the world）、all the time（一直）、all sorts of（各种各样的）、for all time（永远）、above all、all in all、all the same 按 P。all (the/his) + 名词、all this/those 标 0；all of、we/they/it all、do it all、All you need to do is... 这类代词用法标 1；修饰形容词/副词/介词短语加强语气（all by yourself、all done、all around、is all to do with）标 2。会议名 All Energy Conference 标 X。"
+  },
+  "does": {
+    "senses": [
+      {"pos": "aux.", "zh": "构成疑问句（也用于倒装，如 Not only does…）"},
+      {"pos": "aux.", "zh": "构成否定（does not / doesn't）"},
+      {"pos": "v.", "zh": "做，干"},
+      {"pos": "aux.", "zh": "代替前面出现的动词（避免重复）"},
+      {"pos": "aux.", "zh": "确实，的确（加强语气，如 does have）"},
+      {"pos": "v.", "zh": "造成，带来（does harm / damage / good）"}
+    ],
+    "labels": {"0": 1, "1": 2, "2": 0, "3": 5, "4": 0, "5": 3, "6": 0, "7": 2, "8": 0, "9": 0,
+               "10": 3, "11": 1, "12": 1, "13": 3, "14": 1, "15": 1, "16": 0, "17": 1, "18": 0, "19": 1,
+               "20": 0, "21": 1, "22": 0, "23": 5, "24": 0, "25": 2, "26": 3, "27": 0, "28": 1, "29": 4,
+               "30": 1, "31": 0, "32": 4, "33": 1, "34": 0, "35": 1, "36": 3, "37": 1, "38": 0, "39": 1,
+               "40": 5, "41": 0, "42": 0, "43": 1, "44": 0, "45": 1, "46": 4, "47": 0, "48": 1, "49": 1,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 2, "55": 1, "56": 0, "57": 1, "58": 5, "59": 5,
+               "60": 1, "61": 3, "62": 0, "63": 1, "64": 0, "65": 0, "66": 5, "67": 0, "68": 0, "69": 0,
+               "70": 1, "71": 4, "72": 0, "73": 0, "74": 0, "75": 0, "76": 1, "77": 4, "78": 5, "79": 0},
+    "example": {"id": 16, "en": "But does it matter what books parents read?", "zh": "可是父母读什么书重要吗？"},
+    "form": "do 的第三人称单数现在时",
+    "irregular": false,
+    "note": "原 def 只写了实义动词「做」，助动词义项是补的。C 任务口径：疑问句（含题干 What does the author say...）及 Not only does / nor does 倒装标 0；does not / doesn't 标 1；作实义动词（does shopping、a place that does salads、what a computer does、does more to...）标 2；单独作谓语代替前文动词（as red meat does、than it does mothers、Research indicates that it does、a friend who does）标 3；肯定句中 does + 动词原形表强调（does have / does show / can and does change）标 4；does harm/damage/good (to)、does little good 标 5。irregular 按拼写规则（-es）写 false，请复核是否要因读音 /dʌz/ 改 true。"
+  },
+  "his": {
+    "senses": [
+      {"pos": "det.", "zh": "他的（后接名词）"},
+      {"pos": "pron.", "zh": "他的（东西）（单独使用，如 The book is his.）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": "P:make one's way", "4": ["P:for one's part", 0], "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": ["P:try one's best", 0], "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": "P:on one's own", "44": "P:on one's own", "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": "P:on one's own", "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 65, "en": "He spends most of his time in the gym.", "zh": "他大部分时间都泡在健身房里。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：on one's own（独自；靠自己）、make one's way（前往）、try/do one's best（尽力）、for one's part（就某人而言）按 P；his 后接名词（含 his own、指雄性动物的 his）都标 0；只有单独使用、后面不跟名词（The book is his / a friend of his）才标 1。"
+  },
+  "should": {
+    "senses": [
+      {"pos": "modal v.", "zh": "应该，应当（义务、建议）"},
+      {"pos": "modal v.", "zh": "可能，应该会（推测）"},
+      {"pos": "modal v.", "zh": "本应该（should have done，表示过去该做而没做）"},
+      {"pos": "modal v.", "zh": "万一，如果（表示假设条件，should 提到主语前）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 1, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": 0, "23": 1, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 1, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 2, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 1, "69": 0,
+               "70": 0, "71": 0, "72": 1, "73": 1, "74": 0, "75": 0, "76": 0, "77": 0, "78": 3, "79": 0},
+    "example": {"id": 15, "en": "Children should start reading at age 3.", "zh": "孩子应该从三岁开始阅读。"},
+    "form": null,
+    "irregular": false,
+    "note": "大量句子是作文题干 You should write at least 120 words，按 0 标。C 任务口径：suggest/propose/insist that... should 及 whether... should be open 这类仍标 0；推测（should be fine、should be around $500、should come as no surprise）标 1；should have done 标 2；Should + 主语 + 动词表条件（...should the system malfunction）标 3。form 写 null：should 词源上是 shall 的过去式，但真题未见这种用法，按独立情态动词处理，请复核。id 73 选项 They should become so popular 来自听力「Why are these sports becoming so popular?」，是「竟会（这么流行）」的语气，暂标 1，拿不准。"
+  }
+}

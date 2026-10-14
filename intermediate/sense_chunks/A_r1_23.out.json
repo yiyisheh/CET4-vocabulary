@@ -1,0 +1,1087 @@
+{
+ "half": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "一半"
+   },
+   {
+    "pos": "adj.",
+    "zh": "半个的（half a mile，half the price）"
+   },
+   {
+    "pos": "n.",
+    "zh": "（时间）半点（half past nine：九点半）"
+   },
+   {
+    "pos": "n.",
+    "zh": "半场；后半段"
+   },
+   {
+    "pos": "adv.",
+    "zh": "一半地"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 3,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 1,
+   "27": 0,
+   "28": 1,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0
+  },
+  "example": {
+   "id": 18,
+   "en": "Natural gas is used by nearly half of U.S. households for heat.",
+   "zh": "天然气被近一半的美国家庭用来取暖。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "half a/the + 名词（half a mile、half the price）标为 adj. 义项1；half of … 标为 n. 义项0"
+ },
+ "months": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "月，月份"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "It lasted three months.",
+   "zh": "持续了三个月。"
+  },
+  "form": "month 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "successful": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "成功的，有成就的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "He is a successful businessman.",
+   "zh": "他是一位成功的商人。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "suggest": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "建议，提议"
+   },
+   {
+    "pos": "v.",
+    "zh": "表明，暗示（研究、事实等说明）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 1,
+   "16": 1,
+   "17": 1,
+   "18": 1,
+   "19": 1,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 1,
+   "24": 1,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 1,
+   "29": 1,
+   "30": 1,
+   "31": 1,
+   "32": 1,
+   "33": 1,
+   "34": 1
+  },
+  "example": {
+   "id": 33,
+   "en": "Its absence might suggest a lack of warmth in interpersonal relationships",
+   "zh": "它的缺失可能意味着人际关系中缺乏温暖。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id2（authors suggest that…）和 id19（What does science suggest…）介于建议/表明之间，按表明标"
+ },
+ "effect": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "影响，作用"
+   },
+   {
+    "pos": "n.",
+    "zh": "效果，效应（domino effect）"
+   },
+   {
+    "pos": "v.",
+    "zh": "引起，使发生"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": "P:side effect",
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 1,
+   "17": "P:come into effect",
+   "18": 0,
+   "19": 0,
+   "20": 1,
+   "21": "P:cause and effect",
+   "22": "P:side effect",
+   "23": "P:cause and effect",
+   "24": 1,
+   "25": 1,
+   "26": 1,
+   "27": 1,
+   "28": 1,
+   "29": 0,
+   "30": 0,
+   "31": 1,
+   "32": 1,
+   "33": 0,
+   "34": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "Climate change has little effect on the lives of wild ducks.",
+   "zh": "气候变化对野鸭的生活几乎没有影响。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "looking": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "看，瞧（look at / on）"
+   },
+   {
+    "pos": "v.",
+    "zh": "看起来，显得（look like）"
+   },
+   {
+    "pos": "v.",
+    "zh": "（be looking to do）打算，希望"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有…样子的（good-looking）"
+   }
+  ],
+  "labels": {
+   "0": "P:look for",
+   "1": "P:look for",
+   "2": 0,
+   "3": "P:look for",
+   "4": 2,
+   "5": "P:look up",
+   "6": "P:look forward to",
+   "7": "P:look for",
+   "8": "P:look after",
+   "9": 0,
+   "10": "P:look for",
+   "11": 0,
+   "12": 0,
+   "13": "P:look to",
+   "14": "P:look for",
+   "15": "P:look for",
+   "16": "P:look for",
+   "17": "P:look for",
+   "18": "P:look for",
+   "19": "P:look for",
+   "20": "P:look for",
+   "21": 0,
+   "22": 0,
+   "23": 2,
+   "24": "P:look for",
+   "25": "P:look for",
+   "26": "P:look into",
+   "27": 1,
+   "28": "P:look for",
+   "29": "P:look for",
+   "30": "P:look for",
+   "31": "P:look for"
+  },
+  "example": {
+   "id": 2,
+   "en": "I’m just looking on the system here.",
+   "zh": "我只是在这里看一下系统。"
+  },
+  "form": "look 的现在分词",
+  "irregular": false,
+  "note": "id13 looking to the winter（展望）按 P:look to 标，拿不准"
+ },
+ "child": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "孩子，儿童；子女"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Reading is a habit every child can develop.",
+   "zh": "阅读是每个孩子都能养成的习惯。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "showed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "表明，显示（结果、研究显示）"
+   },
+   {
+    "pos": "v.",
+    "zh": "给…看，出示，展示"
+   },
+   {
+    "pos": "v.",
+    "zh": "表现出，显露"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 2,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 2,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 1,
+   "24": 0,
+   "25": 0,
+   "26": [
+    0,
+    2
+   ],
+   "27": 0,
+   "28": 2,
+   "29": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "Other experiments showed similar results based on racial group.",
+   "zh": "其他实验按种族分组也显示出相似的结果。"
+  },
+  "form": "show 的过去式",
+  "irregular": false,
+  "note": ""
+ },
+ "stop": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "停止，不再（stop doing）"
+   },
+   {
+    "pos": "v.",
+    "zh": "阻止，制止（stop sb from doing）"
+   },
+   {
+    "pos": "v.",
+    "zh": "停下，停住；中途停留"
+   },
+   {
+    "pos": "n.",
+    "zh": "车站，停靠站"
+   },
+   {
+    "pos": "n.",
+    "zh": "停止，停下"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 1,
+   "2": 3,
+   "3": 3,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 2,
+   "12": 0,
+   "13": 0,
+   "14": 4,
+   "15": 0,
+   "16": 0,
+   "17": 2,
+   "18": 0,
+   "19": 1,
+   "20": 1,
+   "21": 1,
+   "22": 0,
+   "23": 2,
+   "24": 0,
+   "25": 0,
+   "26": 2,
+   "27": 1,
+   "28": 1,
+   "29": 1,
+   "30": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Sunshine can stop you from sweating, too.",
+   "zh": "阳光也能让你不出汗。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "growing": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "日益增多的，不断增长的"
+   },
+   {
+    "pos": "v.",
+    "zh": "增长，增加"
+   },
+   {
+    "pos": "v.",
+    "zh": "变得，逐渐成为（growing old）"
+   },
+   {
+    "pos": "v.",
+    "zh": "生长，种植"
+   }
+  ],
+  "labels": {
+   "0": "P:grow up",
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 2,
+   "6": 2,
+   "7": "P:grow up",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 3,
+   "14": "P:grow up",
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": 0,
+   "21": 2,
+   "22": 1,
+   "23": 1,
+   "24": 2,
+   "25": 2,
+   "26": 1,
+   "27": 1,
+   "28": 0
+  },
+  "example": {
+   "id": 18,
+   "en": "The growing trend of eating out.",
+   "zh": "日益增长的外出就餐趋势。"
+  },
+  "form": "grow 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "states": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "州"
+   },
+   {
+    "pos": "n.",
+    "zh": "国家"
+   },
+   {
+    "pos": "n.",
+    "zh": "状态"
+   },
+   {
+    "pos": "v.",
+    "zh": "陈述，声明"
+   }
+  ],
+  "labels": {
+   "0": "P:the United States",
+   "1": "P:the United States",
+   "2": "P:the United States",
+   "3": 3,
+   "4": "P:the United States",
+   "5": "P:the United States",
+   "6": 1,
+   "7": "P:the United States",
+   "8": "P:the United States",
+   "9": 0,
+   "10": "P:the United States",
+   "11": "P:the United States",
+   "12": "P:the United States",
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": "P:the United States",
+   "17": "P:the United States",
+   "18": "P:the United States",
+   "19": "P:the United States",
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": "P:the United States",
+   "24": "P:the United States",
+   "25": "P:the United States",
+   "26": "P:the United States",
+   "27": "P:the United States",
+   "28": 0,
+   "29": 0,
+   "30": "P:the United States",
+   "31": "P:the United States"
+  },
+  "example": {
+   "id": 13,
+   "en": "Follow other states’ example.",
+   "zh": "效仿其他州的做法。"
+  },
+  "form": "state 的复数；state 的第三人称单数",
+  "irregular": false,
+  "note": "the United States 全部标为 P:the United States（拿不准是否应标 X）；id30 的 state visit 在该句中同属 United States 句，未单独标"
+ },
+ "worth": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "值（多少钱）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "值得（做某事）"
+   },
+   {
+    "pos": "n.",
+    "zh": "价值"
+   },
+   {
+    "pos": "n.",
+    "zh": "…的量（$350 worth of…）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 3,
+   "4": 2,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 3,
+   "9": 1,
+   "10": 3,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 3,
+   "15": 0,
+   "16": 2,
+   "17": 3,
+   "18": 1,
+   "19": 1,
+   "20": 0,
+   "21": 2,
+   "22": 3,
+   "23": 1,
+   "24": 3,
+   "25": 2,
+   "26": 1,
+   "27": 1
+  },
+  "example": {
+   "id": 6,
+   "en": "It’s worth asking if things are necessary.",
+   "zh": "值得问一问这些东西是否必要。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "amount": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "数量，量"
+   },
+   {
+    "pos": "n.",
+    "zh": "金额，总额"
+   },
+   {
+    "pos": "v.",
+    "zh": "总计，相当于"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0
+  },
+  "example": {
+   "id": 17,
+   "en": "Suppliers will always have a certain amount of surplus.",
+   "zh": "供应商总会有一定量的过剩。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "common": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "常见的，普遍的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "共同的，共有的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "普通的，一般的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "公共的，公用的"
+   }
+  ],
+  "labels": {
+   "0": "P:in common",
+   "1": "P:in common",
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 1,
+   "8": 3,
+   "9": "P:common sense",
+   "10": 0,
+   "11": "P:in common",
+   "12": 1,
+   "13": "P:common sense",
+   "14": 0,
+   "15": "P:in common",
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": "P:in common",
+   "20": "P:in common",
+   "21": 0,
+   "22": "P:in common",
+   "23": 0,
+   "24": 0,
+   "25": 1,
+   "26": 3,
+   "27": 0,
+   "28": "P:common sense",
+   "29": 1,
+   "30": "P:common sense"
+  },
+  "example": {
+   "id": 24,
+   "en": "The most common types of financial support include cell phone plans, food, school costs and car expenses.",
+   "zh": "最常见的经济资助类型包括手机套餐、食物、学费和汽车开销。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Common Sense Media 按 P:common sense 标，拿不准"
+ },
+ "daily": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "每日的，日常的"
+   },
+   {
+    "pos": "adv.",
+    "zh": "每天"
+   },
+   {
+    "pos": "n.",
+    "zh": "日报"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 1,
+   "16": 0,
+   "17": 0,
+   "18": "X",
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 1,
+   "28": 0,
+   "29": 1
+  },
+  "example": {
+   "id": 22,
+   "en": "How are almost half of our daily actions performed according to the passage?",
+   "zh": "根据文章，我们近一半的日常行为是如何完成的？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Daily Mail 报刊名标 X"
+ },
+ "reported": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "报告，报道"
+   },
+   {
+    "pos": "v.",
+    "zh": "自述，称（自己经历的情况）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "据报道的，所报告的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 2,
+   "3": 1,
+   "4": 2,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 2,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 1,
+   "19": 0,
+   "20": 1,
+   "21": 1,
+   "22": 2,
+   "23": 0,
+   "24": 1,
+   "25": 0,
+   "26": 1,
+   "27": 1,
+   "28": 1,
+   "29": 0
+  },
+  "example": {
+   "id": 23,
+   "en": "No injuries were reported in connection with the fire.",
+   "zh": "没有关于与火灾有关的人员受伤的报告。"
+  },
+  "form": "report 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "survey": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "调查，问卷"
+   },
+   {
+    "pos": "v.",
+    "zh": "调查，对…进行调查"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0
+  },
+  "example": {
+   "id": 28,
+   "en": "The survey results are remarkable.",
+   "zh": "调查结果令人瞩目。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "bit": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "一点儿，少量（a bit of…）"
+   },
+   {
+    "pos": "n.",
+    "zh": "小块，碎片"
+   },
+   {
+    "pos": "v.",
+    "zh": "咬（bite 的过去式）"
+   }
+  ],
+  "labels": {
+   "0": "P:a bit",
+   "1": "P:a bit",
+   "2": "P:a bit",
+   "3": "P:a bit",
+   "4": "P:a bit",
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": "P:a bit",
+   "9": "P:a bit",
+   "10": "P:a bit",
+   "11": 2,
+   "12": 2,
+   "13": 0,
+   "14": "P:a bit",
+   "15": 2,
+   "16": "P:a bit",
+   "17": "P:a bit",
+   "18": "P:a bit",
+   "19": "P:a bit",
+   "20": "P:a bit",
+   "21": "P:a bit",
+   "22": 0,
+   "23": "P:a bit",
+   "24": "P:a bit",
+   "25": "P:a bit",
+   "26": "P:a bit",
+   "27": "P:a bit"
+  },
+  "example": {
+   "id": 7,
+   "en": "We’ve got a bit of spare time now.",
+   "zh": "我们现在有一点空闲时间。"
+  },
+  "form": "bite 的过去式",
+  "irregular": true,
+  "note": "a bit / a little bit（有点）当副词时标 P:a bit；a bit of + 名词标义项0，口径拿不准"
+ },
+ "compared": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "比较，对比；比作"
+   },
+   {
+    "pos": "adj.",
+    "zh": "相比之下的"
+   }
+  ],
+  "labels": {
+   "0": "P:compare with",
+   "1": "P:compare with",
+   "2": "P:compare with",
+   "3": "P:compare with",
+   "4": "P:compare with",
+   "5": "P:compare to",
+   "6": "P:compare to",
+   "7": "P:compare with",
+   "8": "P:compare with",
+   "9": 0,
+   "10": 0,
+   "11": "P:compare to",
+   "12": "P:compare to",
+   "13": 0,
+   "14": "P:compare with",
+   "15": "P:compare with",
+   "16": 0,
+   "17": 0,
+   "18": "P:compare to",
+   "19": "P:compare to",
+   "20": "P:compare to",
+   "21": "P:compare with",
+   "22": 0,
+   "23": "P:compare with",
+   "24": "P:compare to",
+   "25": "P:compare with",
+   "26": "P:compare with",
+   "27": "P:compare to"
+  },
+  "example": {
+   "id": 16,
+   "en": "Then, the researchers compared answers to see how well responses to the two exercises matched up.",
+   "zh": "然后，研究人员比较了答案，看这两项练习的回答吻合得有多好。"
+  },
+  "form": "compare 的过去式和过去分词",
+  "irregular": false,
+  "note": "compared with / compared to（与…相比）按 P 标；compared 作及物动词（比较了…）按义项0"
+ }
+}

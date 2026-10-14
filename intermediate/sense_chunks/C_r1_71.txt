@@ -1,0 +1,395 @@
+# 任务 C_r1_71：1 个词，382 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_71.labels.txt
+
+============================================================
+## 词：or    本段 382 句    模式：全标（每句都写）
+原释义：conj.或者; 否则; 大约.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 或者，还是    B 样本 66    例：two or three questions.
+  1  conj. 否则，要不然    B 样本 1    例：But as regards bones, it's ___30___ use it or lose it: To keep your bones strong you have to keep exercising.
+  2  conj. 或者说，也就是（换一种说法）    B 样本 1    例：Most of us in the entrepreneurial community are blessed—or cursed—with higher-than-average ambition.
+已标过的短语：either ... or（10）；whether or not（2）
+口径说明（照此执行）：
+  - 原 def 的「大约」实为短语 or so（十个左右），已不单列义项，遇到请标 P:or so；two or three、7 or 8 这类数字之间的 or 按「或者」标。either…or 标 P:either ... or，whether…or not 标 P:whether or not；whether A or B（无论A还是B）按「或者，还是」标。id20 同时有 whether or not 和普通的 keep…or change，只标了 P。
+句子：
+232 | “It may well be that the messy nature of their relationship with human efforts induces more animals to scatter 【or】
+264 | We learn about who we are and what is expected of us based on interactions with others so, to a four-year-old, if Mommy 【or】
+305 | many school boards have introduced policies which require students to work from home if the school is shut by snow 【or】
+335 | The issue is that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver is human 【or】
+411 | Their job satisfaction, too, can surge when well-functioning machines relieve them of dull tasks 【or】
+405 | If you’re weary of full colour, test your tolerance with smaller spaces, such as the inside of a cupboard 【or】 a bright window frame.
+128 | And stories are more engaging than the recital of data points 【or】 a discussion of abstract ideas.
+368 | Is it an open communication style 【or】 a flexible schedule?
+226 | future self, a current other, 【or】 a future other.
+404 | Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, 【or】 a glass 【or】 two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+188 | 【or】 a goal to reach.
+429 | However, gender matters more for them because cheek-kissing often only happens between women 【or】 a man and a woman but not two men.
+196 | a high score 【or】 a perfect run.
+251 | We were assured that, except for low grades 【or】 a raise in family income, no money would be taken away.
+352 | Today, a greater and greater proportion of people living on the streets are there because of bad luck 【or】 a series of mistakes, 【or】 because the economy forgot them—they lost a job 【or】 were evicted 【or】 fled an abusive marriage just as the housing market was growing increasingly unforgiving.
+302 | Although born gray, males of the species are easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting 【or】 a serious bid for a mate.
+266 | Put in practical terms, when thinking of yourself in a month 【or】 a year 【or】 a decade, your brain registers that person in
+174 | Without any ambition, you wouldn't start your own business, set 【or】 achieve goals and get far in life.
+156 | often 【or】 always feel lonely.
+436 | But saying you are 30 percent East Asian 【or】 American hardly reflects
+379 | forward, it likely won’t fully protect automakers from their legal liability should the system malfunction 【or】 an
+90 | Physical activity provides a positive outlet for frustration, anxiety, 【or】 anger and can become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important for our physical and mental health, and cultivating the habit of physical activity starts early.
+442 | For example, some sensitive individuals may assume responsibility for other people’s sadness 【or】 anger, which ultimately stresses them out.
+116 | Because the Food and Drug Administration (FDA) has not _34_ the term, companies can use it to refer to pretty much anything derived from a plant 【or】 animal.
+291 | All of us can be affected by food instability one way 【or】 another.    ?P:one way or another
+136 | [4] Overall, the new study found no significant relationship between participants’ month of birth and symptoms of depression 【or】 anxiety.
+393 | 【or】 any other behavior?
+394 | It makes heavy reading but is not lacking in humor 【or】 appeal
+329 | 48 What may account for our need to be liked 【or】 approved of?
+321 | bureaucracies, have limited English language skills, 【or】 are not contributing financially to their child’s education, the burden of self-advocacy will fall on the student.
+287 | 【Or】 are their social media accounts strictly reserved for company-related announcements and product launches?
+153 | Hiring managers admit they are reluctant to hire those over 40 【or】 45, arguing they
+215 | Keeping your name and joining it to your husband’s through hyphenation is as legal as simply adopting his name 【or】 as simply keeping your own and leaving his out of the picture entirely.
+374 | But most Los Angeles residents are no longer either shocked 【or】 ashamed.    ?P:either ... or
+218 | "I value my culture and tradition, being Chinese 【or】 Asian-American.
+369 | make eye contact 【or】 assess a student’s level of engagement.
+261 | However, on the other side of the coin there are people who maintain that it is possible to be, 【or】 at least seem to be, multitasking.
+355 | immediate, 【or】 at least very near-term rewards.
+152 | Inflexibility causes you to ignore 【or】 avoid listening to the thoughts and ideas of others.
+311 | The exhausted and hungry racers are greeted with delightful pies of all kinds, such as apple, orange, lemon 【or】 banana.
+398 | The bulk of the world's languages use base-10, base-20 【or】 base-5 number systems.
+452 | People may cither be born with it 【or】 be able to cultivate it.
+177 | While that is not a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether it's by dancing, carrying a flag 【or】 beating a drum.
+80 | The beach was not as nice 【or】 beautiful as it should be. [5] He felt so sad to see such a gorgeous place littered with so much trash.    ?P:as...as
+285 | “Having a strong point of view, signature style, 【or】 being a super-enthusiast in a particular field makes someone interesting,” she says.
+435 | We persuade and get persuaded every day — were either convincing 【or】 being convinced.    ?P:either ... or
+277 | as 【or】 better than younger employees in the same jobs.
+238 | admit that post-45 hires turn out on average to be just as good as 【or】 better than younger workers, they still don’t want to
+413 | Whatever the case, your passport will likely be one of four colors: red, blue, green 【or】 black, although there are slight variations.
+129 | Taking a walk can be great for ___32___ your head 【or】 blowing off some steam.
+317 | Most of them are not reading long articles 【or】 books that explore deep themes and require critical thinking and reflection.
+443 | This is in contrast to books that did not name images, 【or】 books that had the same label under each image.
+171 | Evil behavior is typically thought to embrace one 【or】 both forms.
+111 | If you don’t arouse someone’s curiosity 【or】 brighten someone’s day, you probably come across as being a little bit dull.
+350 | They do not lack food knowledge 【or】 budgeting skills.
+293 | There is no indication that increasing food skills 【or】 budgeting skills will reduce food insecurity.
+343 | “Many people are ‘not boring’ in the way that they can carry a conversation 【or】 can be good at a social gathering, etc.
+143 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog 【or】 cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.
+366 | K) “If the listener is not paying attention, it’s your sign to shorten the story 【or】 change direction.
+434 | favoring the drug under consideration than studies sponsored by government grants 【or】 charitable organizations.
+168 | You may think that summer is the perfect time to go on a date 【or】 chat with an attractive boy 【or】 girl.
+410 | And it has never been easier 【or】 cheaper to
+200 | He’s a good friend of mine, and he would never try to pressure you 【or】 cheat you.
+160 | I would have to stay with a friend 【or】 check into a hotel.
+418 | Recognizing when a friend 【or】 colleague feels sad, angry 【or】 surprised is key to getting along with others.
+439 | Some also reported that there were parents surprised 【or】 concerned that their child had a male teacher.
+98 | “When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, 【or】 construction 【or】
+422 | persuasion skills, employees may not be as committed to 【or】 convinced of the importance of an organization's vision and long-
+323 | While this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive 【or】 cost-prohibitive.
+99 | bike lanes 【or】 created pedestrian-friendly areas.
+309 | relevant education, training 【or】 credentials .
+308 | It may be inherited 【or】 cultivated.
+428 | Despite mostly feeling supported by colleagues and family members, many of the male educators surveyed in the study reported facing social 【or】 cultural resistance in their careers as early education teachers.
+249 | If you believe you have fallen victim to fraud 【or】 cyber-crime, please report it to Action Fraud,” it adds.
+384 | reality, the benefits of boredom may be related to having time to clear your mind, be quiet, 【or】 daydream.
+126 | Every day at about 1 p.m., everyone faces the same choice: sleep until 2 p.m. and then work until 5, 【or】 daydream and drift around social media and attend pointless meetings until 7 p.m.
+306 | flexibility, 【or】 deciding not to take on every project that comes their way.
+412 | English is a base-10 【or】 decimal ( -r :ttr. -$1] e{j )
+239 | damage 【or】 defeat after a physical threat.
+228 | Severe weather that causes cancellation 【or】 delay is more likely in regions that are less able to handle the situation.
+210 | In my practice, the sickest people I see often share similar backgrounds: loneliness, abuse, poverty, 【or】 discrimination.
+346 | They can create social media groups in which employees will be more likely to collaborate and less likely to share withdrawal intentions 【or】 discussions about external job opportunities.
+431 | For example, they showed the students photographs of people’s faces and asked them to what extent feelings such as happiness 【or】 disgust were being expressed.
+333 | “You can't get that with a blizzard bag 【or】 doing the work from home like that.
+102 | Leaders who use this style don’t want to make mistakes. [17] This commitment to one right way of thinking 【or】 doing things hinders the manager’s flexibility.
+229 | balance as an achievement that you either hit 【or】 don’t.    ?P:either ... or
+406 | They set the bar too high, and when people take too long 【or】 don’t get things quite right, they assume it’s due too lack of effort.
+270 | knowledge is unproductive unless you actually launch your business 【or】 donate to those in need.
+449 | Therefore, if you are someone who loves to show physical affection, you should not be afraid to show it 【or】 drastically change your behaviors—just ask for consent beforehand!
+409 | bar 【or】 drink, we also risk missing out on the rich sources of antioxidants , vitamins and many other benefits of
+325 | But contrary to popular belief, the homeless in Los Angeles are not mostly mentally ill 【or】 drug addicted 【or】 frightening, although a sizable minority meet some of those descriptions.
+190 | Parents can encourage their child to research their favourite pets at the library 【or】 during a supervised internet search.
+214 | For example, you might get “Fox, Man, Peep”, 【or】 “Dust, Cereal, Fish”.
+360 | school diploma 【or】 earlier.
+221 | This requires two essential conditions: that one of the tasks needs to be automatic, like walking 【or】 eating, and that they both need different mental processes.
+85 | More recent studies have suggested that factors such as social class 【or】 economic background have more to do with these diagnoses than month of birth.
+380 | a literature graduate who spent their summers working in their local bank than a finance 【or】 economics graduate who spent
+382 | After all, without counting, how can someone tell whether there are, say, seven 【or】 eight
+245 | For example, companies can give workers gym memberships, 【or】 encourage participation in lectures on healthy eating and living.
+125 | One major side effect of excessive ambition is the tendency to focus too determinedly on one particular vision 【or】 end goal.
+359 | consumption for animal rights, health, 【or】 environmental reasons.
+92 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game 【or】 even a championship. [13] He could try basketball since many of the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating with others.
+370 | The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, 【or】 even awareness campaigns that alert students to the problem with using technology to find answers in a certain way.
+314 | well 【or】 even better.
+365 | But curiosity can also be dangerous, leading to setbacks 【or】 even downfalls.
+347 | Today’s students use smartphones, tablets 【or】 even in-class computers to aid their cheating attempts and leave no trace of their crimes.
+377 | It may sound surprising, but you don't have to be interested in fashion, 【or】 even in history, to enjoy Dress Codes: How
+330 | Whether that’s likely, 【or】 even possible, anytime soon, is anyone’s guess.
+253 | 【Or】 even simply see your birthday as an opportunity to bring people together for them to have fun.
+216 | The problem with this argument is that most children aren't playing outside 【or】 even spending time with other kids.
+118 | The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, 【or】 even the entire building if they do not know who caused the damage.
+195 | most drugs during the morning 【or】 evening primarily to ensure compliance.
+414 | bar in your car, 【or】 every handful of nuts at your desk?
+290 | They should not pay student bills 【or】 excess fees blindly.
+199 | they are bullied 【or】 excluded 【or】 left out-can change over time.
+139 | Certain institutions, such as schools are likely to close when bad weather, such as snow, flooding, 【or】 extreme heat 【or】
+197 | You only want to utilize hard data 【or】 facts.
+400 | contribution, 【or】 find a cause you can support with your time and talent.
+348 | M) In the grand scheme of things, however, colleges also must come to understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income 【or】 first-generation students they are trying desperately to attract.
+112 | What do you want, fried chicken, hamburgers, 【or】 fish and chips?
+339 | remain in the can, even if there are only four 【or】 five in total.
+388 | For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off 【or】 flexible work schedules.
+250 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room 【or】 flowers delivered.
+234 | similar spacing strategies to avoid hitting each other while swimming 【or】 flying in densely packed groups.
+237 | You also get away from the habit of making guesses 【or】 following instincts.
+212 | with heavy conditions attached, like loan repayment 【or】 food for resources, it often widens the gap between rich and poor and sustains the old world order.
+149 | behaviors like exercise 【or】 food intake can significantly influence your health.
+244 | Research from Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” 【or】 forcing emotions that are not wholly felt.
+437 | three 【or】 four years, you simply weren't getting ahead in your career.
+145 | “reducing 【or】 fragmenting their natural habitats”, The Times reported.
+447 | consultant 【or】 freelancer ( ro lb JfR 3k *) , people would wonder what was wrong with you.
+454 | Today, consulting 【or】 freelancing for five businesses at the same time is a badge of honor.
+185 | while asking them to what degree various traits — like “honorable” 【or】 “funny” — applied to their current self, their
+146 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could also signal to potential friends 【or】 future employers that you are unlikely to think about the needs of others.
+289 | According to Kelli Harding, rabbits’ health had more to do with humans’ kindness to them than their diet 【or】 genetics.
+117 | It wasn’t diet 【or】 genetics that made a difference in which rabbits got sick and which stayed healthy.
+357 | Not to think highly of her qualifications when promoted 【or】 given a pay raise.
+354 | simple as taking a different route to the grocery store 【or】 going somewhere new on vacation can keep the brain healthy.
+395 | Do you ever blend up a protein drink for breakfast 【or】 grab a protein bar following an afternoon workout?
+276 | Database technology enables business leaders to look to hard evidence in analyzing target markets and promotional strategies rather than making assumptions 【or】 guesses on what works.
+248 | Are they sharing photos of their team’s Thursday afternoon barbeque 【or】 Halloween costume contest?
+147 | I) Another reason for fruit juice’s recent popularity is the argument that it can help to remove poisonous 【or】 harmful substances
+193 | However, “the whole concept of a juice diet helping to remove poisonous 【or】 harmful substances from the
+115 | On the other hand, they assume that it might be difficult to work with someone who has completely different views, speaks a different language, 【or】 has a different style of work.
+173 | Love them 【or】 hate them, smartphones have become an integral part of our daily lives.
+103 | income, 【or】 ___34___, have a moral right to a healthy, sustainable environment.
+301 | Daddy doesn't like him 【or】 her, there is the danger that they will abandon them.
+94 | Environmentalists have long believed that building roads 【or】 homes near the bears may threaten their survival by
+151 | applying for, 【or】 how it makes you more interesting as a potential employee,” Mr.
+144 | how to start a business 【or】 how to lose weight fast 【or】 how to learn a new language in three months.
+213 | 【Or】 I could perceive my birthday as an opportunity to do something for others like asking people to make a donation instead of buying a gift.
+358 | 【Or】, if the message is presented while the vehicle is in motion,
+371 | Students may no longer be qualified for financial aid if they perform poorly in school 【or】 if their family income has increased.
+407 | you have a health issue and you want to be around longer for your kids, 【or】 if your business is something you're passionate
+376 | achieve delayed, long-term benefits, such as career advancement, debt repayment, 【or】 improved health.
+461 | Working at home 【or】 in cafes, starting businesses of their own, and even launching business ventures
+204 | The problem is, housework is often overlooked as work, even though it is often as laborious (【or】 in some cases, more so) as any paid job.
+235 | Why do doctors advise patients to take most drugs in the morning 【or】 in the evening?
+458 | At the moment, the scientific bases for these applications are non-existent 【or】 incredibly weak.
+416 | While it may sound safe to avoid all physical contact so as not to offend anyone, the lack of touching might imply cold attitudes 【or】 indifference in interpersonal relationships.
+178 | I) Another potential climate change-induced problem is our dependence on commodity crops—wheat, soybeans, corn and rice—which currently provide humanity with 75% of its calories, either directly 【or】 indirectly through the animals we raise on those crops.    ?P:either ... or
+353 | As we all know, cultural 【or】 individual differences in personal bubble diameters are all too often the cause of discomfort.
+328 | Instinctive decisions are always backed by previous experiences 【or】 information, which acknowledges that instinctive decisions have worked in the past.
+219 | K) Until genetic engineering comes to fruition, other strategies might also help in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster 【or】 installing storage facilities to delay spoilage.
+257 | For example, 34% of Americans born in Latin America report no credit card 【or】 installment loan debt.
+263 | People in business often make decisions based on their own personal feelings 【or】 instincts.
+208 | 【Or】 is it casual, conversational, and maybe even a little humorous?
+275 | So, if your baby seems to be in a stressful state while sleeping 【or】 is upset upon waking, there may be other factors at
+336 | It may create connection 【or】 isolation.
+381 | Being an information technology, 【or】 IT, worker is not a job I envy.
+417 | O) Keep these tips in mind to figure out whether you and a potential employer are a perfect match 【or】 just a recipe (方案) for disaster.
+108 | a research grant 【or】 just barely made it.
+123 | You would name yourself Kate Jones-Smith 【or】 Kate Smith-Jones.
+109 | And the personality traits (特性) these individuals 27 【or】 lack can often make a relationship more- 【or】 less- likely to 28.
+441 | Online classes also require either a computer 【or】 laptop and a reliable internet connection.    ?P:either ... or
+349 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on your smartphone 【or】 laptop, and sign language into text as well.
+89 | It will come true sooner 【or】 later.    ?P:sooner or later
+342 | It will become the norm sooner 【or】 later.    ?P:sooner or later
+271 | When we think about attaining success — whether it’s landing that job 【or】 learning that new skill —
+133 | Another role that they are expected to take over is negotiating on our behalf in commercial transactions 【or】 legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+135 | would be distributed more 【or】 less evenly across society in the form of increased leisure.
+180 | What we call multitasking, therefore, is in reality the ability to move more 【or】 less quickly from one task to another.
+274 | those with a high school degree 【or】 less, the proportion of those working in their 70s had risen to around 10%, while those
+319 | In the first part of the study I surveyed the employees about why and how they used platforms like Facebook, Twitter, 【or】 LinkedIn.
+389 | “We don’t prioritize eating seasonally 【or】 locally, and we also add lots of salt, sugar and thickening agents to our foods,” explained Pasternak.
+162 | However, the precise effects vary according to whether you engage in short, fast running 【or】 long-distance running.
+340 | The phenomenon of math anxiety is characterized as a general sense of feeling that the subject is hard compared with other subjects leading to a subsequent lack 【or】 loss of confidence.
+96 | looking into the effects of fructose-containing sugars with control diets free from 【or】 lower in these sugars.
+247 | In 1980, about 60 percent of senior high school students said they read a book, newspaper 【or】 magazine every day that was not assigned for school.
+286 | This is a huge drop and it is important to note that this was not merely a decline in reading paper books, newspapers 【or】 magazines.
+401 | A person who is unable to stimulate others’ curiosity 【or】 make their life enjoyable may appear somewhat boring.
+258 | "Many people don't want to be forced into having fun 【or】 making friends, especially not on top of their busy jobs.
+307 | Sometimes we may feel like we are making progress by doing some research 【or】 making preparations, but actually we are
+297 | We wanted to determine what was causing these gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead 【or】 male frequent travelers being inclined to book late.
+260 | They often talk about ways to get more sleep, set goals, 【or】 manage stress 【or】 anxiety. [21] Pendry acknowledges that these are really important topics and these workshops help typical students succeed.
+415 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility 【or】 may overwhelm health services, pointing out that other common diseases, such as high blood pressure and diabetes, require people to take action to manage their condition.
+267 | When you find that you can overcome the physical 【or】 mental challenges involved in extreme sports, you’ll feel superhuman and your self-confidence will be at an all-time high.
+140 | ___34___ better than participants in their youth 【or】 middle years on tasks that required them to determine the meaning of
+426 | They should be able to be read by a machine at temperatures ranging from 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air can be extremely dry 【or】 moist.
+86 | Words that were more ___30___ to visualize, for example, “justice” 【or】 “morality” were considered to be more abstract.
+104 | high school is half a million dollars 【or】 more.
+455 | For example, in one task, research participants were instructed to create new college majors by combining two 【or】 more existing academic Arts 【or】 Science programs at their university.
+341 | preparation, different training, a better strategy, 【or】 more focus.
+207 | While 70 percent of 8th and 10th grade students used to go to the movies once a month 【or】 more, now only about half do this.
+223 | Still, 15% 【or】 more of kids are found to be deeply bookish.
+113 | One out of ten American 8th grade students in 2016 spent 40 hours a week 【or】 more playing video games.
+132 | A multitasker is one who can perform two 【or】 more tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does.
+419 | In fact, in the United States, a little over half of children between the ages of three and five were read to every day in 2007, and 83% of children in that age group in the same country were read to three 【or】 more times per week in 2012.
+225 | It’s rare for the show 【or】 movie to be better than the book.
+138 | M: Well, [15] by increasing taxes 【or】 moving money from other areas of the budget into education.
+84 | breaks down glucose in your blood 【or】 muscles.
+189 | There are plenty of other options such as imaginative play, non-competitive games, and gardening 【or】 nature experiences.
+362 | While only a small portion of the world's languages are anumeric 【or】 nearly anumeric, they
+91 | In the same way that learning a language 【or】 new skills takes time, building financial skills requires practice and years to
+158 | of being chosen 【or】 not.
+224 | into trouble is when our self-worth is dependent upon whether we win someone's approval 【or】 not.
+391 | The bride should consider adopting her groom’s last name whether he feels strongly about it 【or】 not.
+427 | they are overweight 【or】 not.
+164 | Luckily, there are a few things you can do to determine whether 【or】 not a company is a good fit for you—before you ever sign your name on that dotted line.    ?P:whether or not
+372 | He no longer has to worry about whether 【or】 not he can understand.    ?P:whether or not
+255 | Whether your future husband insisting on your adopting his last name is a red flag to you 【or】 not, it is still something that you should take into consideration.
+403 | You may not be the one conducting the actual interview, but you’re still trying to determine whether 【or】 not the company is a good fit for you.    ?P:whether or not
+298 | A recent study concluded that regardless of whether people are actually handling several tasks 【or】 not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+294 | J) There are all sorts of reasons to hyphenate your name 【or】 not to hyphenate your name.
+324 | The basis for each of these things, however, is whether 【or】 not you are willing to make a compromise when it comes to changing your name.    ?P:whether or not
+114 | When it comes to looking for a new job, you already know that a big part of the interview process involves the company evaluating whether 【or】 not you’re a good fit for their open role.    ?P:whether or not
+387 | N) When you’re hunting for a new job, you already know that the employer is trying to decide whether 【or】 not you’re a good fit for the position.    ?P:whether or not
+280 | Speakers of anumeric, 【or】 numberless, languages offer a window into how the invention of numbers
+299 | Also, the mental health benefits were equal among participants who were overweight 【or】 obese, and those in a healthy weight range. [20] This suggests a link between cooking confidence and satisfaction around cooking, and mental health benefits.
+205 | For those who are overweight 【or】 obese, they could receive the bonus if they reduce their weight by 10% during the year.
+432 | It followed infants across the second six months of life and found that when parents showed babies books that had faces 【or】 objects with specific labels, they learned more.
+227 | After all, if you can jump out of a plane 【or】 off a bridge, then you can face anything else easily.
+163 | Over the years, many scholars have insisted that time online does not necessarily take away time spent engaging with traditional media 【or】 on other activities.
+304 | [22] Most of us have been in teams 【or】 organizations where we’ve had conflict with the people that we’re working with around the ideas 【or】 decisions that we’re discussing.
+209 | It could be your next-door neighbor 【or】 organized crime in Russia.
+446 | Genetic health tests claim to be able to detect certain hereditary diseases, 【or】 other health conditions.
+450 | Not all students have access to these types of resources, whether it is for financial 【or】 other reasons, and some students can be put at a disadvantage.
+448 | And they had been advised by colleagues 【or】 other staff not to hug children.
+187 | cold, causes travel difficulties, power outages 【or】 otherwise endangers public safety.
+222 | Participants then completed a survey indicating how tough, deceptive and pleasant 【or】 otherwise they wanted to be, 【or】 wanted their agent to be, in the negotiations.
+194 | G) Traffic jams are caused by a number of factors, such as roads that are poorly designed 【or】 over-capacity, localized factors
+283 | L) Ideally, your spouse 【or】 partner will be supportive, rather than dismissive, of your stress.
+383 | To meet the new definition for addiction, the behavior must damage a person’s relationships 【or】 performance at school 【or】 work, and this must last for at least a year.
+399 | Maybe you carry the most powerful passport in the world, 【or】 perhaps the rarest passport.
+256 | While some children visit summer camps, most stay at home, watching TV 【or】 playing games on electronic devices, which hardly benefits them.
+141 | Not every child enjoys competitive sports 【or】 playing with balls and that’s OK.
+272 | Some people believe a juice diet helps to rid our body of harmful 【or】 poisonous substances.
+119 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals and doctors was below average, health outcomes were still better than in countries rated as moderate 【or】 poor.
+211 | Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do not include extra fees for lab tests 【or】 prescription medications (药物).
+82 | This shifts weight onto the muscles at the back of the head and causes the bone to grow in a way that is not normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing 【or】 pressure.
+318 | Send a quick message to a current 【or】 previous company employee on LinkedIn 【or】 by email and ask if they would be willing to have a quick conversation with you about the organization in general.
+332 | We’re not all going to have the same ideas on how to approach policies, programs 【or】 problems.
+186 | In a busy world, “being busy” doesn’t stand out, nor does it mean productive, creative, accomplished, 【or】 professional.
+334 | I was getting were that I would never be taken seriously 【or】 promoted 【or】 given raises at the same rate as men, who were clearly
+172 | They might have also had things published 【or】 publicized and want to stay connected to that identity.
+397 | deteriorating 【or】 quality control non-existent.
+220 | New research from America studies the role that the presence of individuals from different social 【or】 racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence of an observer of a different race, as opposed to an observer from their own race.
+231 | an online course about how to build a business 【or】 read an article about a terrible disaster in a developing nation, but that
+367 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for other activities—like going to the movies with friends 【or】 reading longer, more complicated texts.
+165 | The fake websites have authentic-sounding names involving a mix of keywords, typically including the place name, “summer”, “villas” 【or】 “rentals”.
+424 | There are no longer any boring 【or】 repetitive tasks.
+281 | If anything is really wrong, you can just take photographs of the damage, and they will give you the money back 【or】 replace the item.
+385 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions 【or】 requests to share their own experiences 【or】 thoughts. (e.g., “Now, tell me about your favorite book,” 【or】 “Have you ever been to that attraction?
+191 | G) In situations like this one, we often claim that we are preparing 【or】 researching the best method, but these rationalizations
+148 | the cars far behind are forced to stop completely 【or】 risk hitting the slower vehicles ahead — and so the traffic grinds to a
+456 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints 【or】 rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+142 | This will lead to some tough decisions: whether to grow chocolate 【or】 save wildlife.
+278 | We also hope to learn how teachers, parents 【or】 school counselors can help
+124 | Would you like to sit in first 【or】 second class?
+87 | And never assume the driver is going to stop 【or】 see you.
+183 | People-pleasing, 【or】 seeking self-worth through others' approval, is unproductive and an exhausting way to go through
+269 | one dependent child—who worked in middle 【or】 senior management roles.
+230 | These include helping with social development, increasing physical activity, managing anxiety 【or】 serving as a source of attachment in the face of changing family structures.
+110 | The second is guaranteed to look great for about 10 years, whereas the cheaper one will start to dull after around six 【or】 seven years.
+97 | Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size 【or】 shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product.
+161 | After all, it’s literally my job to talk to people and tell their stories 【or】 share their advice.
+300 | Simply “feeling” that something is right 【or】 should be done is highly subjective and can drown you.
+122 | We need a more informed way of discussing behavior that at first we cannot, 【or】 should not, begin to understand.
+440 | In contrast, in certain Arabian, African, and Asian countries, men can publicly hold hands 【or】 show physical affection as signs of brotherhood 【or】 friendship while these behaviors may suggest a romantic relationship in other parts of the world.
+279 | They can also harm other wild species through indirect competition, rather than eating them 【or】 shrinking their food supply.
+421 | patronage , church sponsorship 【or】 simply paying for the research yourself.
+155 | It’s better to let people walk around and talk to each other, 【or】 sit where they like.
+433 | Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set of employer standards 【or】 skills requirements.
+167 | G) If you are a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, 【or】 SNAP.
+386 | Over a decade 【or】 so, American teens’ social media use shifted from an occasional activity to a routine one.    ?P:or so
+241 | What's more, the 7 ,OOO 【or】 so languages that exist today vary dramatically in how they utilize numbers.    ?P:or so
+169 | That’s out of a total fish supply of 167 million tonnes; the remaining 20 million 【or】 so tonnes go into things like animal feed and medical products.    ?P:or so
+310 | students keep their ongoing academic 【or】 social difficulties in perspective.
+88 | Consequently, being replaced by a robot 【or】 software ___32___ less of
+273 | Drivers caught up in phantom traffic jams are likely to think an accident has happened 【or】 some construction is going on.
+201 | rely exclusively on terms similar to "a few" 【or】 "some. " In contrast, our own lives are governed by
+157 | And then, if you still wanted to give money as some sort of apology 【or】 something, he probably shouldn’t have to go around borrowing it from people.    ?P:or something
+451 | Meanwhile, it pays to examine studies funded by industry 【or】 special interest
+444 | Should we ignore any research funded by companies 【or】 special interest groups?
+457 | What does the author think of research funded by industry 【or】 special interest groups?
+121 | Many begin to search for the meaning of their existence, leading to behaviors such as ending 【or】 starting a relationship, 【or】 plans, like starting a vigorous diet 【or】 fitness program.
+217 | Immigrants use credit less often for purchasing cars, homes 【or】 starting businesses.
+95 | Experiments showed that participants were less likely to choose someone who signals their wealth 【or】 status to join a group seeking cooperative members. [20] But participants were more likely to choose that person when they’re looking for a competitive team member.
+246 | I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, is always looking for what will make a person 【or】 story interesting to viewers: It’s usually a matter of individuality.
+313 | Physical symptoms include a racing heart 【or】 struggling to catch breath.
+320 | There are no formulas written on the insides of hands 【or】 students looking across the aisle, 【or】 whispering answers to their classmates.
+361 | technologies 【or】 subject matter, but to creativity; skills like imagination, problem-finding and problem­
+120 | We find ourselves over-committed to things that don’t meaningfully improve 【or】 support those around us, and certainly don’t improve our own lives.
+460 | What does the passage say about DNA tests to predict personality 【or】 talents?
+453 | Tests that offer to find your perfect romantic match and those claiming to predict personality 【or】 talents based on your
+322 | Because there was no email 【or】 text message service, everything had to be done face to face, 【or】 by telephone.
+326 | This isn’t to say that all men engage in these behaviors—【or】 that booking relatively late is a sign of abnormal behavior.
+170 | That would help you learn self-acceptance, 【or】 that it’s okay to be the focus.
+242 | I mean, how do you know that you won’t get bad fruit, 【or】 that the eggs won’t be broken?
+150 | Teachers tend to still use this format because of either the need to control students 【or】 the belief that the teacher is the most important person in the room.
+176 | Over 40% of Fortune 500 companies had a founder who was either an immigrant 【or】 the child of one.    ?P:either ... or
+303 | ways similar to how it would register Taylor Swift 【or】 the mailman.
+288 | “A family will turn up at a villa and find out it doesn’t exist 【or】 the owner doesn’t know who you are,” says Tipton.
+356 | reflect patterns and behaviours of student disengagement 【or】 the possible negative attitudes of parents towards education that
+282 | psychological boost, 【or】 the proverbial kick in the pants.
+375 | According to research, we begin to develop our individual sense of personal space around age 3 【or】 4. [25] The sizes of our bubbles are fixed by our teens.
+175 | One benefit of this change is that students will not fall victim to the "summer slide," 【or】 the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school.
+262 | But they could also indicate that they—【or】 their agent—would strategically express anger toward the opponent to gain advantage, 【or】 they could opt to convey dissatisfaction with the encounter so that the other party would think they were losing interest.
+105 | And whatever their financial background, 【or】 their educational background, most people will have something in common with each other.
+166 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships 【or】 their educational levels.
+240 | In addition to either eating other animals 【or】 their food supply, wild pigs damage native habitats by rooting up grasses and rubbing on trees.    ?P:either ... or
+295 | This means individuals must save more in order to achieve their goals, 【or】 they borrow money from friends and family rather than a bank.
+284 | 【Or】 they can give employees more time during their lunch break to exercise.
+182 | 【Or】 they post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.
+459 | 【Or】 they save money by hiring "top-tier c-m  ) experts" only for
+107 | “Sometimes a cat will walk on a phone and cut off the call, 【or】 they shut down the computers by walking onto the off switch.
+181 | Next, they were told either that they would negotiate for themselves, 【or】 they would program an artificial intelligence agent to negotiate for them.
+206 | Share your observations about the world around you—interesting stories you heard 【or】 things you noticed—and you may be surprised by the universal connection they inspire.
+131 | He goes to the gym most days, plus tennis two 【or】 three times a week.
+445 | collaboration and teamwork over traditional organizational structures, no one likes to be told what to do 【or】 to be pushed
+106 | exercise 【or】 to eat a healthy diet.
+408 | The art of persuasion means convincing others to agree with your point of view 【or】 to follow your course of action.
+265 | Do you prefer to fill out an application on the web, 【or】 to print it out and fill it in by hand and then post it back to us?
+192 | with the remainder either too harsh 【or】 too affected by human activity.    ?P:either ... or
+327 | Here people feel comfortable conducting routine social interactions with new acquaintances 【or】 total strangers.
+402 | Have you ever wondered how acceptable it is to hug 【or】 touch someone?
+100 | So our family vacations were always by car 【or】 train.
+396 | their summers surfing 【or】 traveling around Italy.
+259 | That’s why we recently launched the Out of Office Email Generator, a free tool you can use before your next long weekend 【or】 trip.
+159 | Humble people do not ignore, avoid, 【or】 try to deny their limits 【or】 deficiencies.
+296 | They feel management is being too nosy 【or】 trying to control their lives too much.    ?P:too...to
+202 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, 【or】 trying to park the car on those huge supermarket car parks then not being able to find it again after you come out of the shops.
+268 | In areas less accustomed to snow, even small snowfalls of an inch 【or】 two
+344 | Imagine going from reading texts as short as one 【or】 two sentences to trying to read entire books written in complex language and containing sophisticated ideas.
+392 | Increasingly, we are uncomfortable, annoyed, disgusted, scared 【or】 unaware.
+420 | What is said about those working with 【or】 under overachieving people?
+378 | Not to lose self-confidence though constantly discouraged 【or】 unfairly treated.
+338 | Directions: There are 2 passages in this section. &eh passage is followed by some questions 【or】 unfinished
+364 | F.ach passage is followed by some questions 【or】 unfinished
+425 | Each passage is fallowed by some questions 【or】 unfinished
+315 | Each passage is followed by some questions 【or】 unfinished statements.
+316 | That means embracing what is truly interesting 【or】 unique about yourself.
+243 | schools 【or】 universities do just as well later in life as those who just manage to get accepted.
+198 | probably won’t be a good “fit,” their experience won’t be relevant to the workplace, and they’ll be unable 【or】 unwilling to
+83 | So if you use a ton of social media, do you become unable, 【or】 unwilling, to engage in face-to-face contact?
+134 | In fact, they spend hours changing Facebook settings 【or】 using quick-delete sharing tools, such as Snapchat, to minimise their traces.
+127 | Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work 【or】 visit.
+423 | you are taking a DNA test to build your extended DNA family tree, 【or】 want precise information on inborn health
+184 | M: It does sound like it would suit my taste, but if they are making a TV series based on it now, I don’t know if I should read the book 【or】 watch the show first.
+236 | healthy snacks and drinks (such as fruit 【or】 water) more often over unhealthy options (like biscuits and soda).
+345 | Simple questions like, “What three words would you use to describe the culture here?” 【or】 “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.
+93 | Most people have a dream in life, a vision of who 【or】 what they’d like to be in the future.
+373 | Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads “name after you get married” (【or】 whatever the legalese for that might be).
+130 | Despite alarmist headlines about “foods that are going extinct,” there is no evidence that major food types like beans, chocolate, wine, corn 【or】 wheat will cease to exist.
+233 | It particularly comes with risks when we consume more than 150ml of free sugars per day, 【or】 when it puts us
+81 | But this was only the _29_ when they had a serious hobby that was dissimilar to their job, 【or】 when their hobby was similar to their work but they only did it _30_.
+154 | people are stuck one way forever, 【or】 whether people can change their personalities and abilities-are
+351 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share 【or】 whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.
+438 | This may be driven partly by self-deception 【or】 "wishful thinking''.
+312 | Otltures without nwnbers, 【or】 with only one 【or】 two precise numbers, include
+337 | a big help — and that included in-person, on-the-job training, “'informal learning,” and online courses — with 【or】 without
+137 | abstractly does not reflect a ___34___ tendency of men 【or】 women but rather ___35___ within specific contexts.
+203 | biomedical science, research has been done on scientists who narrowly lost 【or】 won grant money.
+430 | Live sessions are infrequent and are often scheduled during the middle of the day when students have to attend other classes 【or】 work.
+363 | They may play games instead of attending school, 【or】 work, 【or】 socializing.
+252 | The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, 【or】 world economic institutions.
+254 | Find online logic games and cheat at them, play Scrabble (拼字游戏) with a dictionary, 【or】 write a story about something that is untrue?
+101 | But if you prefer Civilization, Total War, 【or】 X-Com, where strategy and resource management
+331 | thinking about your deadline in terms of days rather than months 【or】 years can help you wrap your mind around how close the
+292 | M: 【Or】 you could just walk to work.
+179 | What if an accident happens 【or】 you get ill and need medical treatment?
+390 | Don’t go for a colour because it’s in fashion, 【or】 you’ve seen it in a magazine.

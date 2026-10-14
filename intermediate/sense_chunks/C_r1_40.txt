@@ -1,0 +1,616 @@
+# 任务 C_r1_40：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_40.labels.txt
+
+============================================================
+## 词：are    本段 600 句    模式：全标（每句都写）
+原释义：v.是(be 的现在式复数及第二人称单数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 是（连接主语和表语，说明身份、性质、状态）    B 样本 26    例：They are popular.
+  1  aux. 正在（构成进行时 are doing）    B 样本 14    例：“Cats are sleeping just beside us.
+  2  aux. 被（构成被动语态 are done）    B 样本 15    例：They are burnt up in outer space.
+  3  v. 有，存在（there are）    B 样本 2    例：While the positives are many, there are still some obstacles.
+  4  aux. 要，应当（are to do，表示安排或指令）    B 样本 20    例：You are now to
+  5  v. 在，位于（某处）    B 样本 0
+已标过的短语：be going to（5）；be on good terms with（1）
+口径说明（照此执行）：
+  - 被动义按 n 加权居首，全靠题干套话「Questions 1 and 2 are based on the news report you have just heard」（n=31）；「You are now to write」也让 are to do 计数偏高。全量统计后首要义项建议人工确认，可能应为系动词「是」。
+句子：
+171 | But have you taken a _26_ to consider what these natural flavors actually 【are】?
+178 | We tend to think evil is something that other people 【are】.
+357 | W: There you 【are】.
+472 | It means saying ‘no’ to the hundred other good ideas that there 【are】.
+473 | Some say we should never meet our heroes, lest they disappoint us when we find out how normal they 【are】.
+540 | Small business owners 【are】
+541 | “It’s about how you either make it relevant to the job you 【are】
+625 | Yet, there 【are】
+634 | Now, more than three-tenths 【are】.
+124 | They 【are】 a bit expensive for her.
+307 | Traffic jams 【are】 a common problem of most big cities, either in developed or in developing countries, but one kind of
+281 | There 【are】 a couple of ways to compromise on the issue.
+397 | Snow days 【are】 a familiar theme in American film and TV shows, with children getting the good news and then running
+629 | Luckily, there 【are】 a few things you can do to determine whether or not a company is a good fit for you—before you ever sign your name on that dotted line.
+92 | They 【are】 a good choice for many people.
+478 | M: They 【are】 a little pricey, yes.
+189 | Among his favorite haunts 【are】 a local hairdresser, two pubs, and the Nottingham Primary School.
+80 | In fact, there 【are】 a lot more people giving tickets than receiving.
+230 | There 【are】 a lot of reasons to want to keep your own last name.
+554 | G) If you 【are】 a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP.
+595 | Left-handed people can find it inconvenient to do certain things, writing in a notebook for example, but there 【are】 a number of advantages of being left-handed.
+338 | There 【are】 a number of different versions about the origin of the lion dance.
+589 | Questions 【are】 a powerful tool, especially when they encourage others to disclose information about themselves.
+145 | People understand that you 【are】 a recent graduate, and I doubt anyone cares about your phone other than yourself.
+460 | They 【are】 a shade of red bordering on brown.
+667 | “The public has to learn to be far more aware they 【are】 a target for these sort of frauds.
+495 | This makes things tricky for people who may want to impress others while also demonstrating that they 【are】 a team player.
+131 | Jeans 【are】 a typical American garment.
+447 | Many people who can only afford to rent a large home 【are】 able to buy a tiny home.
+275 | Students 【are】 able to highlight and edit text, write notes and search for information much more quickly than they can with printed textbooks.
+592 | G) “By working with industry partners such as ABTA and Get Safe Online, we 【are】 able to issue alerts about the latest threats they should be aware of.
+429 | Like evil, we often view heroism as only a possibility for outliers—for people who 【are】 abnormal.
+130 | Only American citizens or permanent U.S. residents 【are】 acceptable.
+524 | Reflect on what successes 【are】 achievable.
+238 | Two men who have been best friends for 60 years have just realized they 【are】 actually brothers.
+606 | A recent study concluded that regardless of whether people 【are】 actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+406 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they 【are】 actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+419 | Maybe they 【are】 actually little miracles,” he says.
+186 | See whether they 【are】 actually related.
+101 | — between parts of different brain networks 【are】 actually stronger in people who had hemispherectomies than in people with
+235 | Their stress levels 【are】 actually the same as those experienced by the children who yell and scream.
+424 | This allows managers to both keep an eye on struggling employees and provide ongoing feedback on how employees 【are】 adapting to their new work environment.
+264 | Too many people 【are】 addicted to smartphones.    ?P:too...to
+232 | They 【are】 affected by the overuse of social media.
+390 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings 【are】 affecting your decision-making.
+258 | She said twenty percent of people 【are】 afraid to fly.
+604 | Like Farrant’s work with resurrection crops, a number of companies, organisations and researchers 【are】 aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.
+135 | Now it seems their brains 【are】 alike, too.
+515 | We 【are】 all capable of behaving like outliers.
+271 | It assumes that human beings 【are】 all good-natured.
+430 | J) There 【are】 all sorts of reasons to hyphenate your name or not to hyphenate your name.
+149 | “Teachers like it because the skills 【are】 all transferable and it helps to
+512 | These articles 【are】 almost always geared towards upper- and middle-class families.
+487 | How 【are】 almost half of our daily actions performed according to the passage?
+328 | As you 【are】 already a member, the fee of the class will just be added to your monthly bill.
+534 | [24] Ohio’s schools 【are】 already competitive.
+581 | H) There 【are】 already plenty of gamers out there who know that their hobby has made them who they 【are】.
+415 | There 【are】 also a few compulsory aspects of passports.
+488 | Teachers 【are】 also losing their snow days and instead will be expected to be on hand to take a virtual register and
+431 | They 【are】 also more likely to attend university and become professional athletes, chief executives and even important politicians.
+670 | Left-handers 【are】 also overrepresented in professional, interactive sports.
+649 | G) There 【are】 also so-called “blizzard bags”, with assignments that children take home ahead of an expected snow closure.
+190 | Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters 【are】 also the kids most likely to spend time with friends in person.
+517 | Our phones 【are】 always near us and they 【are】 collecting data about us all the time.
+228 | There 【are】 always several of those bikes out in front of our apartment complex.
+292 | They have to be on Facebook, to know what’s going on among friends and family, but they 【are】 ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+212 | Mice, deer, birds, snakes and frogs 【are】 among their victims.
+630 | “When people book their holidays they get so emotionally involved, and when they find that villa at a good price with availability in peak season, they 【are】 an easy target,” says Cooper.
+407 | Horn said phantom traffic jams 【are】 an emergent property of the flow of vehicles down a highway.
+602 | When it comes to our countries, our communities, and our families, we understand instinctively that the stories we hold in common 【are】 an important part of the ties that bind.
+360 | But for some parents, the school’s restrictions 【are】 an unnecessary burden.
+647 | We learn about who we 【are】 and what is expected of us based on interactions with others so, to a four-year-old, if Mommy or
+676 | Stories about professional mistakes and what leaders learned from them 【are】 another great avenue for learning.
+214 | People automatically assume children 【are】 anxious about math because they 【are】 poor achievers.
+193 | The answers 【are】 anything but simple.
+201 | Among them 【are】 architect Asif Khan, a Design Museum trustee who has worked as designer-in-residence at the museum,
+234 | They 【are】 artificial.
+164 | They 【are】 as intelligent as other children.
+475 | Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, as there 【are】 as many ways to pronounce things as there 【are】 people on the planet.    ?P:as...as
+248 | But I’ve seen your blog, and you write about houses that 【are】 as small as 20 square meters. [13] That’s not a realistic size for families.
+631 | Despite smartphones and social media, young people today 【are】 as socially competent as those from the previous generation.
+223 | M) It’s a guess how many George Engels in their white jackets 【are】 at work these days and another speculation on the number of Kelli Hardings the nation is blessed with.
+391 | We’re also wondering what tours and day trips 【are】 available.
+183 | Jeans 【are】 available in a greater variety in America.
+168 | To treat the disorder, there’re a number of medicines and therapies that 【are】 backed by _33_ research, according to the American Academy of Sleep Medicine, which analyzed the available research on the treatment of nightmare disorder in a recent _34_ published in the Journal of Clinical Sleep Medicine.
+401 | Current spacecraft use a variety of fuels, but most 【are】 based on fossil fuels.
+211 | Questions 8 to 11 【are】 based on the conversation you have just heard.
+262 | Questions 12 to 15 【are】 based on the conversation you have just heard.
+318 | Questions 26 to 35 【are】 based on the following passage.
+107 | Questions 3 and 4 【are】 based on the news report yon have just heard.
+109 | Questions 3 and 4 【are】 based on the news report you have just heard.
+159 | Questions 5 to 7 【are】 based on the news report yon have just heard.
+161 | Questions 5 to 7 【are】 based on the news report you have just heard.
+89 | Questions 19 to 21 【are】 based on the passage you have just heard
+502 | Questions 16 to 18 【are】 based on the passage you have just heard.
+544 | Questions 19 to 21 【are】 based on the passage you have just heard.
+584 | Questions 22 to 25 【are】 based on the passage you have just heard.
+675 | They 【are】 basically misleading.
+266 | However, you can't help butŨ if these companies 【are】 basing their business on fabrications (ũ:it
+182 | My daughter’s stock answers 【are】 basketball player, pop singer, mechanical engineer.
+173 | Besides that, tablet prices continue to drop and 【are】 becoming increasingly affordable.
+536 | Pandas’ natural habitats 【are】 becoming less suitable for reproduction.
+371 | Paper books 【are】 being ignored, in favor of screens.
+600 | Plastic packaging makers 【are】 being pressured to use more recycled plastic.
+486 | The deeper the pink, the more attractive the males 【are】 believed to be, and the older the male, the more pink it will have.
+471 | This confirms that even with a lack of resources, if a country has strong women’s rights, the health outcomes 【are】 better.
+327 | They 【are】 better at reasoning.
+601 | They 【are】 biased against women.
+470 | The costs of any damage to the dorm, including elevators, bathrooms, and common areas, 【are】 billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage.
+113 | Ducks 【are】 birds that feed and breed in areas where there is a lot of water, but their habitats have been shrinking in recent decades because of the droughts.
+118 | There 【are】 black people and white people and Indian people.
+546 | When people 【are】 bored, they have an increase in "associative thought"-the process of making new
+320 | Nevertheless, many people live lives that 【are】 boringly predictable, or live a life where everything is outlined or planned.
+346 | It is a behavior we 【are】 born with more than one we learn.
+525 | These 【are】 both examples of deceptive strategies. [18] Participants were more willing to employ deceptive strategies when assigned an agent to negotiate on their behalf.
+99 | They 【are】 both students at Marathon High School.
+439 | They may adopt strategies that 【are】 bound to ruin their venture.
+643 | [25] Since most people tend to avoid risk, businesses that 【are】 brave enough to take risks already have a competitive advantage.
+254 | They 【are】 brought in by the store’s customers.
+249 | By watching how healthy pets 【are】 brought up.
+195 | Often, the school remains officially open even though buses do not run and classes 【are】 canceled.
+618 | The age-long mystery has now been resolved as to how phantom traffic jams 【are】 caused.
+497 | G) Traffic jams 【are】 caused by a number of factors, such as roads that 【are】 poorly designed or over-capacity, localized factors
+137 | These pieces of bone 【are】 caused by the way people bend their heads when they use the phone.
+354 | Participants in Design Ventura 【are】 challenged to create sustainable and marketable products.
+420 | Digital devices 【are】 changing other behaviors, too.
+260 | Children 【are】 children.
+423 | “Now they 【are】 clever.
+603 | There 【are】 close to 58,000 homeless people in Los Angeles county.
+530 | “easy decision” to extend this to days when schools 【are】 closed.
+364 | They 【are】 compact.
+442 | And, of course, they 【are】 compensated for it at a level that makes it worth their
+351 | They 【are】 competitive.
+250 | M: As I’ve said many times before, [15] beach volleyball and indoor volleyball 【are】 completely different.
+150 | M: Ah, yes, you 【are】 completely right.
+280 | Here, too, things 【are】 complex.
+341 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that 【are】 complex and can determine the future of your venture.
+219 | However, nightmares 【are】 complicated, and researchers 【are】 still struggling to understand them, said Dr.
+674 | Some people 【are】 concerned about privacy because their phones 【are】 constantly collecting their personal information.
+617 | have ___34___ the test of time and 【are】 considered to be masterpieces.
+123 | The new parents have yet to name the sixth baby but 【are】 considering either Lily or Rose.
+86 | Newspapers 【are】 constantly filled with frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent videogames.
+572 | We 【are】 constantly reminded that we don’t truly belong.
+359 | “Cyclists and pedestrians 【are】 consumers too,”
+166 | They 【are】 copies built to the architect’s designs.
+167 | However, (25) those pieces in the children’s bedrooms 【are】 copies built to the designs of the architect.
+599 | Your hands 【are】 covered with oil; you're not going to get on the iPad, so it's a lot more natural to talk.
+121 | But generally speaking, soft cheeses 【are】 creamy and go well with sweet things like honey and jam.
+330 | Not all books 【are】 created equal, so parents need to choose the books they share with their children with great care.
+95 | A number of factors 【are】 creating a bad situation: Global energy consumption is up, but supplies have been reduced. [1] The Energy Department projects heating bills will jump 28% this winter for those who rely on natural gas.
+269 | Humans 【are】 creatures of habit.
+562 | These movies 【are】 criticized as being too simple.
+326 | And what about all those trees that 【are】 cut down to make printed books?
+176 | They 【are】 dangerous.
+126 | “They 【are】 dealing with the same challenges that adults 【are】, as far as they 【are】 living in the _32_ of a tech environment designed to suck as much of their time onto their devices as possible,” Rideout says.
+179 | Over time, though, more and more women 【are】 deciding to keep their last names.
+157 | “Generally, the items 【are】 declared during the first inspection.
+85 | New scientific research at the University of the Sunshine Coast in Queensland, Australia, suggests that young people 【are】 developing extra pieces of bone at the backs of their heads.
+668 | These included their ability to form and maintain friendships and get along with people who 【are】 different.
+115 | Further research is needed to investigate the causal nature of this relationship and to look at how owners’ personalities 【are】 directly influencing their pets’ behaviour and wellbeing.
+527 | Many of the highest earners have a keen interest in and love for what they 【are】 doing.
+375 | Teachers must stay on guard when it comes to what their students 【are】 doing in classrooms and how technology could be playing a negative role in the learning process.
+510 | “When people book holiday villas they 【are】 doing so through rose-colored
+237 | The work universities 【are】 doing to help students succeed academically.
+393 | They 【are】 doing work they care about and 【are】 interested in, and doing more of it is not
+187 | We 【are】 drawn to people who think like us; we then influence their thoughts over time, which may push their brain activity into more closely resembling our own.
+132 | It seems people want to help and 【are】 driven by helping others.
+621 | But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you 【are】 easier to see. [25] So, for students who 【are】 not prepared and for those who 【are】 extremely shy, the attention could cause some unwanted stress.
+545 | They 【are】 easily identifiable.
+443 | Although born gray, males of the species 【are】 easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting or a serious bid for a mate.
+459 | They 【are】 easy to drive.
+568 | Some of the dangers 【are】 emotional: hurting someone from a distance is not the same as hurting them face to face.
+125 | This month, as temperatures in northwestern Greenland approach all-time highs, researchers 【are】 encountering unusual, surprising levels of melting ice in the region.
+233 | W: We can’t dismiss the idea that teenagers have to plan to do something after they finish school, and parents 【are】 entitled to hope it’s more than simply spending 10 hours a day playing computer games.
+482 | What 【are】 entrepreneurs advised to do to avoid traps that often accompany rivalry?
+227 | They 【are】 environmentally friendly.
+140 | There 【are】 24 episodes. [11] Well, maybe you could download an electronic copy of the book and try to read it before the show starts.
+658 | “Most videogames 【are】 essentially puzzles to solve,” he says.
+539 | least some of the estimated $121 billion per year that traffic jams 【are】 estimated to cost the U.S. economy, Horn told Live
+284 | We should be helping our kids understand who they 【are】, even if that means letting go of who we think they should be.
+613 | [19] A new study finds that job seekers 【are】 even willing to explore jobs with lower salaries when companies 【are】 more diverse.
+458 | when they asked over-45 candidates about their attitudes, they found that “those who 【are】 excited by training 【are】 unemployed
+663 | Hundreds of women spoke up about their own experience with emotional labor: the duties that 【are】 expected of them, but go unnoticed.
+483 | Another role that they 【are】 expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+441 | That is because they want to appear more adult, and they know how adults 【are】 expected to write.
+425 | A lot of minerals 【are】 extracted from the earth to make electronic readers.
+463 | They can 33 mistakes, see value in things that 【are】 far from perfect and identify areas for improvement.
+411 | They may carry viruses that 【are】 fatal to native snakes, which do not have resistance.
+278 | So why 【are】 fathers happier than mothers?
+503 | - - - -24o -A7 -'Fhey-look-more-traditional-;- - - - - - - - - - - - - -- C-) They 【are】 favored -by-airlines-; - - - - - - - - - -
+489 | A chemical engineer who worked in manufacturing agreed, “You have to prove yourself just because you 【are】 female.
+218 | Although few plays have been performed or analyzed as extensively as the 38 plays Shakespeare wrote, there 【are】 few surviving details about his life.
+345 | Remember that you will have to have all your certificates to hand when you 【are】 filling out the forms, as the standards 【are】 high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+210 | individuals 【are】 finding it harder to get jobs,” they write.
+111 | _J'J__ activities, such as calling Telstra or picking up a parcel from Australia Post, 【are】 followed by texts
+163 | Online purchases 【are】 Ť followed up by a customer satisfaction survey.
+434 | They 【are】 for casual wearing.
+638 | At the Dreamery, a business in Manhattan, naps 【are】 for sale.
+567 | Friends and acquaintances can comfortably occupy this zone, especially during informal conversations, but strangers 【are】 forbidden. [24] Extending from 4 to 12 feet away from us is “social space”.
+104 | They don’t know they 【are】 forbidden to bring eggs.
+143 | 【are】 forced to close and students get an unexpected day off.
+454 | the cars far behind 【are】 forced to stop completely or risk hitting the slower vehicles ahead — and so the traffic grinds to a
+480 | G) Under current conditions, about 4% of the world’s croplands experience drought in any given year, but by the end of the century those conditions 【are】 forecasted to jump to about 18% per year.
+436 | "Teams 【are】 formed, combined and restructured.
+577 | Early zoos 【are】 found all over the world.
+526 | Still, 15% or more of kids 【are】 found to be deeply bookish.
+569 | each of them there 【are】 four choices marked A), B), C) and D).
+273 | In short, natural flavors 【are】 _32_ from plants and animals to create specific flavors for processed foods.
+639 | They 【are】 full of shootings.
+340 | I personally feel sorry for the poor animals stuck in cages, but there’s no denying they 【are】 fun and educational for children.
+255 | They 【are】 fun, great for exercising the mind and can be played either alone or in groups.
+358 | These 【are】 generally known as “phantom” traffic jams, in which dense
+154 | Even worse, when people finally do decide, they 【are】 generally less satisfied
+665 | But they 【are】 generally reading short texts.
+82 | They 【are】 generally the same age.
+295 | Our brains 【are】 genetically determined to satisfy immediate desires.
+333 | Children 【are】 getting more than enough screen time in their lives without the need to bring their phone into the classroom.
+553 | Imagine that you 【are】 getting on a bus.
+576 | Duckworth’s Grit, we 【are】 given a new key to success.
+398 | Research found that those who 【are】 given greater flexibility at work 【are】 less stressed and more likely to stay in their jobs.
+241 | Indeed, as they get older and 【are】 given more freedom, they often ease up on social networking.
+388 | Despite alarmist headlines about “foods that 【are】 going extinct,” there is no evidence that major food types like beans, chocolate, wine, corn or wheat will cease to exist.
+558 | L) What matters, of course, is that the two of you 【are】 going to be happily married—hopefully for the of your lives.
+598 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and 【are】 going to be joining your lives together.
+582 | W: If you have time right now, I think we need to sit down and discuss what exactly we 【are】 going to do for Jake’s education next year.
+339 | It’s clear that farmers in many parts of the world 【are】 going to find things harder in the coming decades.
+516 | From there you 【are】 going to have to legally change your name all over the place.
+127 | You also have to take the time to apply for your marriage license and then decide whether or not you 【are】 going to keep your last name or change it.
+605 | Failure will teach you how to think and plan strategically. [24] But just remember that not all risks 【are】 good ones, and when you fail, learn from it and move forward.
+322 | Doubts about the practicability of diversity 【are】 gradually disappearing.
+240 | Their chips 【are】 great, but their service takes a long time. [10] And I need to get back by 2:30 for a conference call.
+197 | W: Of course, those 【are】 great goals.
+204 | M: [11] I’m not convinced that the benefits 【are】 greater than the disadvantages, but I’ll discuss this with your mother.
+314 | The exhausted and hungry racers 【are】 greeted with delightful pies of all kinds, such as apple, orange, lemon or banana.
+301 | These issues 【are】 growing more pressing with the emergence of commercial spaceflight.
+146 | They 【are】 guided back to Earth.
+350 | And you’d be surprised many families of four 【are】 happy living in houses that 【are】 under 30 square meters.
+528 | During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins 【are】 harder to detect. [21] The Amazon wetland system, fed by the Amazon River, is a crucial place for pink dolphins to breed, and since 2018 has been granted internationally protected status.
+244 | Our brains 【are】 hardwired for instant gratification.
+484 | J) It is probably true that fewer kids 【are】 heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading.
+303 | them to opt for it at General Certificate of Secondary Education, so we 【are】 helping to keep alive something which is crucial
+399 | W: Housing costs 【are】 high, but do people really save that much by having a smaller home?
+587 | “It’s been well documented in extensive research over the years that prevalence rates for the majority of the anxiety disorders 【are】 higher in women than men.
+192 | It’s about the vegetarian food festival you 【are】 holding on the 19th of August at the Newcastle City Hall.
+641 | For as long as there 【are】 homeless people, there is a tendency to blame the victims themselves for their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+624 | Public health experts in many countries 【are】 Ĺ how to address widespread loneliness in our
+490 | W: Those 【are】 huge savings.
+117 | They 【are】 imitations.
+616 | our thoughts 【are】 immediately burdened by all the things we must first learn.
+651 | The findings 【are】 important because there is a growing body of evidence that dogs can help children in many ways.
+402 | a way to avoid taking action on the goals and interests that we say 【are】 important to us.
+586 | These studies 【are】 impressive, but in
+596 | People agree to do too many things they 【are】 in fact unwilling to do.
+451 | Their conclusions about what The Guardian described as this “sweet spot” 【are】 in line with the so-called Goldilocks
+444 | the correct habits 【are】 in place, you will automatically perform those tasks on a day-to-day basis.
+377 | Universities today 【are】 in the business of making money, and mine is no exception.
+276 | They 【are】 in the minority among the population.
+653 | We 【are】 inclined to think that a lack of knowledge prevents us from advancing to a better future.
+608 | When kids switch from chat to music to homework, they 【are】 indeed likely to have trouble doing each task well.
+199 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts 【are】 indoors now and it’s a sport that could help him understand team spirit while cooperating with others.
+656 | Before systems for bilateral control 【are】 installed, drivers should not follow the car in front too closely so as to reduce
+417 | For example, you might recognize that you 【are】 intelligent, but realize that you’re not a 32.
+660 | Willot says companies 【are】 interested in _lL these ants' method of heat protection for human
+465 | People who 【are】 interesting 【are】 persistently curious, she says.
+251 | He says: “When we practice something, we 【are】 involved in the
+148 | But if you're well prepared you may be able to set goals for your life that 【are】 just
+508 | Some people, they argue, 【are】 just more interested in certain kinds of media and entertainment.
+102 | The gloomy environments animals 【are】 kept in.
+468 | Prices 【are】 kept within reasonable ranges to avoid arousing suspicion.
+302 | 【are】 key, because they define the difference between actively practicing something and passively learning it.
+310 | 【are】 key, then you might have more in common with managers.
+445 | They 【are】 known as “e-learning days”, which certainly sounds less fun than a snow day.
+151 | They 【are】 known for their loyalty to their owners.
+513 | When you 【are】 lacking water, your mouth becomes dry.
+400 | “This study ___28___ what we 【are】 learning about how manipulating vision can have a ___29___ effect on the ability of an
+506 | They want the department of education to record which children 【are】 left-handed and what their educational attainments 【are】, since they make up some 10% of the population.
+246 | Severe weather that causes cancellation or delay is more likely in regions that 【are】 less able to handle the situation.
+297 | 【are】 less common in more northern areas of the United States that 【are】 used to heavy winter snowfall because municipalities
+590 | F) But the trends related to movies 【are】 less disturbing compared with the change in how teens spend their time.
+585 | Second, people who live alone 【are】 less likely to go to the doctor _E_, to
+505 | The study also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because they 【are】 less likely to see themselves as “too good” for someone else.
+404 | This means people 【are】 less willing to collaborate with them.
+570 | Today, researchers 【are】 likely to be funded
+646 | Parents who stare non-stop at their phones and don’t read books 【are】 likely to breed kids who will do the same.
+91 | Certain institutions, such as schools 【are】 likely to close when bad weather, such as snow, flooding, or extreme heat or
+208 | The gaming industry is larger than films and music combined, yet few of us 【are】 likely to list our achievements in playing
+555 | And vitamin D from sunshine can help your body to absorb certain minerals, which 【are】 linked to building stronger bones.
+84 | They 【are】 linked to cooking confidence and cooking satisfaction.
+597 | Even though we 【are】 living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.
+389 | M: While most financial planners do give numbers, I don’t think that’s useful, as people 【are】 living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+141 | Across the board, people 【are】 living longer.
+253 | Just tell him exactly what you 【are】 looking for and I’m sure he will find something good.
+294 | M: That’s exactly the type of thing we 【are】 looking for. [14] We’re getting close to the deadline, however.
+494 | They 【are】 losing habitat due to the building of roads and houses.
+324 | “Millions of pounds 【are】 lost each year by defrauded holidaymakers,” says Sean Tipton of the Association of British Travel Agents (ABTA).
+378 | There 【are】 lots of great potential markets here in China.
+128 | There 【are】 lots of people interested in watching such movies.
+518 | In total, KaiOS phones 【are】 made from about $15 worth of parts, while Apple’s top-of-the-line iPhone has $390 worth of stuff.
+435 | But make double certain they 【are】 made in Japan.
+450 | Reading a book on how to learn a foreign language quickly allows you to feel like you 【are】 making
+88 | M: It does sound like it would suit my taste, but if they 【are】 making a TV series based on it now, I don’t know if I should read the book or watch the show first.
+657 | outdoor seating so much that cities 【are】 making it permanent: A New York City study of several streets closed during Covid
+615 | Sometimes we may feel like we 【are】 making progress by doing some research or making preparations, but actually we 【are】
+563 | Why 【are】 many employees opposed to team-building exercises?
+153 | There 【are】 many other cases in the medical ___30___ that document the brain’s amazing ability to ___31___.
+296 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks you how you 【are】, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+551 | You might think of your teeth as tools, like built-in knives and forks, but if they 【are】 mere tools, why do they feel pain and wouldn’t it be better if they could just _26_ under any condition?
+196 | When their job search criteria 【are】 met fully.
+557 | People may be simply considered evil if their behaviors 【are】 morally unacceptable to us.
+650 | Young women engineers 【are】 more accepted mostly because there 【are】 just
+504 | It is found that people 【are】 more creative following the completion of a tedious task.
+331 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task 【are】 more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+337 | They have a denser weave, and 【are】 more durable than any other jeans in the world.
+308 | H) The truth is that in fairly dense areas, bikes 【are】 more efficient at moving people around.
+664 | And when we’re doing so, our brains 【are】 more engaged.
+640 | And stories 【are】 more engaging than the recital of data points or a discussion of abstract ideas.
+181 | They 【are】 more expensive models.
+83 | We know that friends 【are】 more likely to be the same age, gender and ethnic background as each other.
+622 | The people least interested in retraining 【are】 more likely to come from historically disadvantaged
+532 | Children 【are】 more likely to develop a lifelong love of physical activity from frequent positive early experiences.
+356 | Customers given more choices 【are】 more likely to get confused.
+659 | communities, more likely to have low incomes, and 【are】 more likely to have the least schooling after getting their high-
+418 | Studies in recent years show that left-handed children 【are】 more likely to suffer with learning difficulties and their scores 【are】 lower on IQ tests.
+225 | They 【are】 more likely to win in combat sports.
+122 | Whether women’s rights 【are】 more often overlooked in less-developed countries.
+370 | To tell the truth, interesting people 【are】 more popular among their friends.
+129 | They 【are】 more powerful and capable.
+673 | Intelligent people 【are】 more prone to silly mistakes because of blind spots in how they use logic.
+501 | for less time, receive more job offers, and 【are】 more satisfied by the job offers they receive.
+522 | Jarvis and his colleagues also found that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today 【are】 36% more similar than they were in 1961.
+633 | The explanation is that the two brain spheres of left-handers 【are】 more strongly connected.
+290 | They found that when people compete against their rivals, they 【are】 more willing to behave unethically to win.
+583 | And, yes, managers 【are】 most likely
+317 | These scientists, for reasons that 【are】 mostly arbitrary, either just missed getting
+671 | They 【are】 mostly farmed.
+213 | They 【are】 mostly secondary school students.
+535 | allow us to feel like we 【are】 moving forward when we 【are】 merely spinning our wheels.
+319 | These 【are】 much better and much more productive ways for companies to move forward on their employees’ wellbeing.
+299 | And other people include homes that 【are】 much larger, say, 60 square meters.
+678 | “On the other hand, scientists at the USDA who I’ve spoken with 【are】 much more cautious.
+642 | “The people at Monsanto who I’ve talked to 【are】 much more optimistic that they’ll be able to engineer heat-tolerant crops,” Schlenker says.
+138 | When you look at today’s digital activity, the facts 【are】 much more positive than you might expect.
+477 | They 【are】 much too pricey.
+286 | Also, the fabric they use is of a higher quality and the dyes 【are】 natural.
+336 | They 【are】 natural.
+329 | It’s worth asking if things 【are】 necessary.
+565 | But this should not stop you from taking risks, as risks 【are】 necessary if you want your business to succeed.
+112 | How many workers 【are】 needed.
+325 | There 【are】 no formulas written on the insides of hands or students looking across the aisle, or whispering answers to their classmates.
+209 | [3] Net Ease House, a restaurant in America, has been hit with criticism after announcing on their website that children under the age of ten 【are】 no longer welcome.
+366 | There 【are】 no official rules regarding passport colors, but countries follow a certain set of norms when designing them.
+229 | But if we take a good look, the word ‘evil’ is insufficient—there 【are】 no simple explanations for why humans do bad things: instead there 【are】 many, and they 【are】 all marvelously different.
+265 | In fact, more than three quarters of children with high levels of math anxiety 【are】 normal to high achievers.
+379 | Many of them 【are】 not, and a simple “no” will be more productive than whatever work the most efficient person can cope with.
+549 | “Many people 【are】 ‘not boring’ in the way that they can carry a conversation or can be good at a social gathering, etc.
+469 | Printed textbooks that 【are】 not brand new, still contain the basic relevant information of core subjects.
+669 | bureaucracies, have limited English language skills, or 【are】 not contributing financially to their child’s education, the burden of self-advocacy will fall on the student.
+323 | People who 【are】 not directly involved in the group’s daily work should also take part.
+575 | because although you gain new knowledge, you 【are】 not discovering how to apply that knowledge.
+224 | But tablets contain many technological features that 【are】 not found in printed textbooks.
+416 | taxpayers 【are】 not getting the maximum bang for their buck if the close losers 【are】 performing just as
+550 | Large surveys conducted over the course of many years tell us that American youth 【are】 not going to the cinema nearly as often as they did in the past.
+529 | Most of us 【are】 not in the habit of exercising self-control.
+609 | Small children 【are】 not just learning how to walk and communicate, they 【are】 also trying to learn how the world works.
+677 | But contrary to popular belief, the homeless in Los Angeles 【are】 not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+81 | While lions 【are】 not native to China, some versions of the story include the villagers creating a monster of their own in the shape of a lion to fight off the beast.
+160 | Pigs 【are】 not native to North America.
+133 | Roosters and chickens 【are】 not particularly strong creatures, Ms.
+205 | Though they 【are】 not sure how these individuals
+626 | Research from Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” or forcing emotions that 【are】 not wholly felt.
+242 | increasing productivity 【are】 not widely shared by everyone.
+559 | Robots 【are】 not yet witty, Siri is boring.
+200 | where you 【are】 now and where you want to be in the future is caused by a lack of knowledge.
+100 | But instead of leaving and never coming back, it invited its friends round. [5] There 【are】 now at least five different cats who come almost on a daily basis.
+96 | There 【are】 now dozens of criminal cases in which offenders have ___31___ themselves off as people of a different age, race
+247 | Some researchers 【are】 now encouraging us to stop thinking about work-life
+392 | They 【are】 now six times longer and, unlike older “what I did this summer” essays, they offer arguments supported by evidence.
+289 | W: They 【are】 nowhere near as popular as they used to be when we were children.
+185 | Teng said, but they 【are】 numerous.
+521 | The researchers said there 【are】 numerous schools of thought that propose differing psychological methods for strengthening relationships.
+672 | On the contrary, economically disadvantaged people report diets that 【are】 nutrient-poor and energy-dense.
+511 | Obviously, person perception is a very subjective process that can be affected by a number of variables, including the characteristics of the person you 【are】 observing, the context of the situation, your own personal traits, and your past experiences.
+637 | The spoken web is helpful when one's hands 【are】 occupied.
+578 | Hence, his movies 【are】 ___30___ of the guilt and innocence of the wrongdoer and the
+226 | Currently we 【are】 offering existing members discounts off two of our brand new classes, hot yoga, and advanced spinning, but the discount doesn’t apply to any of our regular classes I’m afraid.
+410 | calm under pressure 【are】 often attributes of people that 【are】 good at gaming,” according to a Royal Air Force spokesperson.
+383 | They 【are】 often denied crucial information the web offers many others.
+427 | The researchers behind the study state that many parts of the world have made good economic progress, but women’s rights 【are】 often overlooked.
+374 | Details of legitimate (合法的) villas 【are】 often stolen from other sites.
+432 | With a literacy rate in some parts of Africa at only 22.6%, farmers 【are】 often "underpaid for their produce because they might be unaware of the prevailing prices," says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.
+612 | stated, “Young women engineers 【are】 on an equal footing until they have children, then they struggle to balance work and
+409 | As annual inflation climbs over 10 percent, many households 【are】 on tight budgets.
+593 | There 【are】 only two seats available.
+461 | The passports of many countries can take images of their well-known geographical features and wildlife, which also function as security features as some 【are】 only visible under a special light.
+236 | G) The lion head and tail 【are】 operated by two people.
+136 | When we 【are】 3 or 4 years old.
+87 | The festival they 【are】 organising.
+169 | They 【are】 originals.
+362 | There 【are】 others, however, who showed support for the restaurant’s decision. [4] They said it has the right to implement any rules it wants.
+217 | For those who 【are】 overweight or obese, they could receive the bonus if they reduce their weight by 10% during the year.
+610 | Almost 75% of U.S. clinical trials in medicine 【are】 paid
+395 | Almost half of our daily actions 【are】 part of our habits and not decisions, so once
+116 | Nightmares 【are】 part of the human experience, especially for kids.
+456 | Those skills 【are】 part of what the Royal Air Force is looking for “in a variety of roles”.
+462 | Directions: There 【are】 2 passa,ges in this section .
+533 | 【are】 paying attention to while they 【are】 in the dark.
+464 | Campaigners feel it’s strange that children in British schools 【are】 penalized because they happen to be left-handed.
+566 | However, on the other side of the coin there 【are】 people who maintain that it is possible to be, or at least seem to be, multitasking.
+191 | Why 【are】 people working just as much today as
+305 | They 【are】 pets kept by the store staff.
+263 | A pair of entrepreneurs 【are】 planning to build and launch a spacecraft that would carry and roast coffee beans in outer space.
+573 | There 【are】 plenty of other options such as imaginative play, non-competitive games, and gardening or nature experiences.
+499 | E) “There 【are】 plenty of soft skills that gamers can utilise in a professional setting, such as teamwork, problem solving and
+614 | single-use plastics of all types 【are】 polluting our cities and seas.
+519 | They 【are】 popular with boys.
+433 | These devices 【are】 powered by software from the giant electronics company, KaiOS Technologies Limited.
+493 | G) In situations like this one, we often claim that we 【are】 preparing or researching the best method, but these rationalizations
+594 | But there 【are】 promising students from struggling families across the nation who should not rule out their dream schools entirely.
+661 | He is now supporting "_;g_ benches," which 【are】 public seating areas where people 【are】 encouraged to go
+560 | They 【are】 pushing for more recycled plastics in new products.
+134 | Their interests 【are】 quite similar.
+274 | In today’s classrooms, students who cheat 【are】 rarely caught.
+270 | Why it matters that teens 【are】 reading less
+256 | “Phantom” Traffic Jams 【Are】 Real—And Scientists Know How to Stop Them    ?X
+408 | hang around, so “in a lot of cases, that’s created much nicer environments that 【are】 really good for those businesses.
+523 | They often talk about ways to get more sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that these 【are】 really important topics and these workshops help typical students succeed.
+500 | You 【are】 really not joking, 【are】 you?
+372 | They 【are】 regarded as seriously binding.
+203 | They 【are】 regular visitors to the store.
+231 | If we stop children using phones, we 【are】 rejecting something they care about.
+382 | Those who 【are】 relatively old compared to their classmates have certain advantages over them.
+414 | They 【are】 relatively uniform in color and design.
+313 | They 【are】 reliable.
+479 | Staff 【are】 relocated and office spaces redesigned.
+106 | Hiring managers admit they 【are】 reluctant to hire those over 40 or 45, arguing they
+312 | E) The survey results 【are】 remarkable.
+172 | “Despite our scientific progress,” she writes, “Americans 【are】 remarkably unhealthy.
+139 | You 【are】 required to select one word for each blank from a list
+267 | You 【are】 required to select one word for each blank from a list of choices given in a word bank following the passage.
+623 | You 【are】 required to select one word for each
+309 | According to the new rules, students of Tavern 【are】 required to wear smart black shoes appropriate for the workplace. [24] Harris held that strengthened rules around school uniforms improved student outcomes and behavior.
+611 | But local school superintendents in Ohio 【are】 resisting proposals to adopt e-learning
+300 | They 【are】 resourceful.
+156 | our society, the diagnoses of dementia 【are】 ___33___ resources to the maximum.
+174 | Their people still have better health if women’s rights 【are】 respected.
+90 | Cumber said, “People can have fun, but both drivers and riders 【are】 responsible for paying attention while on the road.
+94 | They 【are】 reused up to 100 times.
+304 | M: [15] You 【are】 right.
+306 | W: I suppose you 【are】 right.
+342 | They 【are】 right next to each other on the ground floor, since you mentioned in your message that they have trouble with stairs.
+538 | There 【are】 rules that motivate customers to buy
+147 | M: No, they 【are】 safe. [8] But paying online is too convenient and I spent too much money on things I didn’t need.
+162 | If you aren’t driving your own car, then you 【are】 saving on fuel.
+514 | When you decline a request, you 【are】 saving your future time.
+552 | “There is no way to definitely know who they 【are】,” says Neate.
+491 | “We don’t know why we 【are】 seeing these patterns,” Kanold said.
+344 | education — 【are】 seeking whatever poorly paid work they can get.
+422 | A person’s word is linked to their honor, so verbal agreements 【are】 seen as important, whereas written contracts 【are】 taken as memos of understanding.
+373 | In parts of the Middle East, you’ll find spoken word agreements 【are】 seen as seriously binding.
+421 | They 【are】 seldom honored by business partners.
+165 | When there 【are】 several different assignments, make sure they begin with one they enjoy, so it seems easy to get started.
+645 | Furthermore, there 【are】 significant individual differences.
+120 | They 【are】 similar in terms of social skills.
+272 | In other words, when a person’s own work group is involved, they tend to prefer team members who 【are】 similar to themselves.
+556 | People sometimes struggle to do things that 【are】 simply a waste of time.
+405 | There 【are】 situations where customers buy nothing.
+644 | Indeed, many companies look for people who 【are】 skilled in multitasking to improve their productivity.
+438 | These 【are】 skills students need to succeed in college.
+316 | Whatever the case, your passport will likely be one of four colors: red, blue, green or black, although there 【are】 slight variations.
+215 | Companies 【are】 so ť
+635 | Because the buildings 【are】 so big.
+580 | Now, she notes ironically, the lanes 【are】 so foil of activity that opponents
+216 | Why their numbers 【are】 so high.
+440 | The kids will love it and there 【are】 so many islands nearby to explore.
+652 | Walsh argues that bottled water is different because the alternatives 【are】 so obvious.
+428 | But if the benefits of saying “no” 【are】 so obvious, then why do we say “yes” so often?
+591 | In spite of our _27_ discomfort, it turns out there’s a good reason our teeth 【are】 so sensitive.
+353 | Here 【are】 some additional ways to think about the difference.
+155 | It could be melted for use in other products. [7] It said even though there 【are】 some differences between the two products, there was still the possibility of confusion for consumers.
+93 | There 【are】 some factors that could affect the budget moving forward.
+620 | But there 【are】 some links to skills like “decision-making, the ability to
+413 | They 【are】 spacious.
+385 | They 【are】 special.
+466 | If teens 【are】 spending so much time using electronic devices, does that mean they have to give up some other activities?
+321 | Analysis of surveys of over one million teens in the United States collected since 1976 reveals a major shift in how teens 【are】 spending their leisure time.
+170 | Many languages 【are】 spoken in South Africa, but she only speaks English.
+636 | Try to remember that as you 【are】 staring at the application for your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that might be).
+239 | The US is one of only three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies 【are】 starting to take up the issue.
+571 | “Students 【are】 still able to enjoy snow days and outside time,” he said.
+369 | They claim that thousands of children 【are】 still being “penalized” for being left-handed.
+243 | W: [13] It says on your website that you 【are】 still looking for vendors, and I grow organic vegetables on my farm, as well as doing my own home baking.
+103 | For anyone who wants to help make this year’s games a massive success, there 【are】 still opportunities to volunteer for Fayetteville’s Special Olympics.
+628 | Of course, teens 【are】 still reading.
+298 | If the underlying emotional sources of stress 【are】 still there,
+282 | We need to teach children how to behave like the professionals they 【are】 striving to become.
+548 | In early-year education, left-handed children 【are】 struggling and making a mess of their handwriting.
+574 | Environmental campaigners 【are】 struggling to understand why nations blessed with clean tap water grow only fonder of the
+662 | Our always-on world of social media may result in more connections, but they 【are】 superficial and can
+332 | Some people find it “snobby” (势利的) and others simply find it irritating because they have a hard time remembering which last name they 【are】 supposed to say first.
+579 | But when the robots 【are】 switched over to bilateral control (by flashing the lights in the room),
+467 | They 【are】 taken as memos of understanding.
+655 | H) As it is easy to consume large amounts of fruit juice quite quickly, extra calories 【are】 taken in.
+188 | More fathers 【are】 taking paternity leave, but mothers 【are】 still doing all the work
+347 | More and more people 【are】 taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many more.
+627 | A 2012 study from the University of California, Santa Barbara, found that roughly 40% of the time we 【are】 talking, we’re disclosing subjective information about our experience.
+387 | Some 50% of the members of a New York lion dance club 【are】 teenagers.
+220 | His worksheets 【are】 terribly messy.
+607 | Those 【are】 the average sizes of American’s personal bubbles, anyway.
+334 | But what 【are】 the challenges of moving to "the spoken web"?
+368 | Many people believe that passion and commitment 【are】 the foundations of strong romantic relationships.
+367 | I) He said the people who should be paying regard to the Wang paper 【are】 the funding agents who
+426 | Fees for lab science classes 【are】 the highest, and all students at my university 【are】 required to take at least one lab before they graduate.
+207 | The color of the wrapper is similar as 【are】 the illustrations of the features.
+142 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But your ideas about education 【are】 the most controversial.
+679 | They 【are】 the ones setting the standard with new ideas, fresh offers and bold inventions.
+666 | If those 【are】 the only things you can think of, don’t worry!
+648 | 【Are】 the results consistent with other independently funded studies?
+158 | These 【are】 the results from a new study
+352 | Sustainable fuels 【are】 the top priority to enable greener space travel.
+349 | “We come home and even though physically we 【are】 there,
+396 | Why 【are】 these sports becoming so popular?
+386 | What size do you want and how much 【are】 they?
+542 | M: Wow! [10] 【Are】 they all happy?
+283 | Given how large the __31__ and cotton industries 【are】, they take up a lot of our fresh water demands across the world, according to The Huffington Post.
+279 | If you 【are】 thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.
+485 | 【are】 those shorter working weeks.
+380 | The more you get right, the more creative you 【are】 thought to be because you have come up with uncommon associations.
+363 | Hiring managers 【are】 three times as likely to rate job applicants age 35-44 as a better
+376 | The health impacts from making one electronic reader 【are】 70 times greater than those from making a single printed book.
+311 | Moms 【are】 tired and don’t have time to cook.
+509 | They 【are】 to be confirmed in written form.
+654 | The real workings of grit 【are】 to have sustainable passion and continue to try.
+245 | Steve Maraboli once said, “When someone tells you they 【are】 too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of YOUR spot on their schedule.
+403 | New research suggests that pandas may be at risk of dying out because they 【are】 too comfortable.
+287 | The room's ceilings 【are】 too low to wear the lion heads for jumping practice, so once up on his partner's head, Mr.
+619 | have turned to claiming the problem is the opposite: There 【are】 too many cyclists getting in the way of cars.
+202 | The trains here 【are】 too old.
+293 | In other words, most Americans 【are】 too poor to work less.
+335 | Most Africans live in rural areas that 【are】 tough to wire for Internet access.
+381 | Some men, regardless of how you might feel about some things, 【are】 traditionalists and feel that it is simply “right” for the woman to take the man’s last name as her own.
+481 | These 【are】 traditionally very similar to college classes.
+361 | that gaming skills 【are】 transferable.
+198 | They 【are】 treated as expendable.
+449 | Reusable rockets can cut down on some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and other components 【are】 treated as expendable.
+453 | There 【are】 tricks to increase customer satisfaction.
+437 | “If predictions for the end of the century 【are】 true, though, I think a lot of agricultural areas in the US will see significant hits.
+507 | And when you find things that 【are】 truly interesting to you, share them.
+105 | Officials said most people arriving at international borders with eggs 【are】 truthful about their purchases. [2] They simply don’t know bringing eggs is not allowed.
+384 | Now, some phone companies 【are】 trying to introduce Internet-ready phones into African markets.
+476 | Most companies 【are】 trying to make phones ever more powerful and capable.
+547 | Women 【are】 twice as likely to suffer from severe stress and anxiety as men, according to a 2016 study published in The Journal of Brain & Behavior.
+184 | There 【are】 two different attachment styles; an anxious attachment style and an avoidant attachment style.
+355 | There 【are】 two main theories.
+365 | They 【are】 unable to get rid of their addiction without professional help.
+315 | They 【are】 unaware of the damage their behavior is doing to them.
+412 | Besides, the majority of hiring managers 【are】 under 45 — and seem
+261 | They 【are】 unemployed for much longer than the average, and their age is indeed one of the greatest barriers to
+257 | (“Fears of disastrous consequences for local businesses 【are】 unfounded,” the researchers
+285 | They 【are】 unique.
+452 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could also signal to potential friends or future employers that you 【are】 unlikely to think about the needs of others.
+588 | They say that these prison numbers 【are】 unusually high and ask why it is the case.
+537 | Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some 【are】 up to 40,000 years old, and there 【are】 more images of animals than humans.
+448 | frequencies based on what they 【are】 used to hearing.
+177 | The bundles 【are】 usually left in plain sight and have been scattered across the small coastal village.
+455 | I) Mom-and-pop shops 【are】 usually pretty quick at recognizing situations that will help their bottom lines.
+97 | use the fact that different attributes 【are】 valuable at different times to different ___33___.
+252 | Some of these students 【are】 very imaginative.
+108 | I’ve heard that German cars 【are】 very reliable, but I haven’t decided on a specific model yet.
+520 | But they 【are】 very special.
+144 | They 【are】 vital to reducing waste worldwide.
+259 | Businesses 【are】 waking up to the skills gamers can bring
+498 | “For our business, the bike lanes 【are】 way worse than Covid
+496 | There 【are】 ways to predict customer preferences:
+564 | J) There 【are】 ways we could soften the coming blow to the global food supply, however.
+543 | What training 【are】 we talking about?
+348 | 【are】 well equipped to clear roads and remove snow.
+222 | Most of us might think that “natural flavors” 【are】, well, naturally good for us.
+492 | When responsibilities 【are】 well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above when visiting a friend who does.
+114 | They 【are】 well preserved and in pretty good shape.
+474 | The basis for each of these things, however, is whether or not you 【are】 willing to make a compromise when it comes to changing your name.
+206 | In other words, when we 【are】 ___30___ with more choices, making the
+446 | majors 【are】 women, a number largely unchanged since 2000.
+531 | A civil engineer said, “We 【are】 ‘women engineers.
+632 | In cases where parents 【are】 working multiple jobs, 【are】 less knowledgeable about college
+268 | Some applaud the policy as fair, because it rewards both the individuals who maintain a healthy weight and those who 【are】 working towards achieving it.
+98 | In the absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that 【are】 worn only a few times and then discarded.
+394 | It is also cheap, at a time when many 【are】 worried about what the economic future holds.
+561 | They 【are】 worth the price.
+343 | E) Parents 【are】 wrong to worry that kids don’t care about privacy.
+288 | Despite these _35_, the study’s results 【are】 yet another indication of the power of physical activity, even in small amounts.
+110 | How 【are】 you?
+194 | I met three different people today, and each time, when I asked, “How 【are】 you?
+221 | What kind of learner 【are】 you?
+175 | M: (8-1) 【Are】 you already a member?
+457 | 【Are】 you kidding?
+180 | What movie 【are】 you showing right now?
+152 | M: 【Are】 you sure about that? [9] Rents in big cities 【are】 high, and then there’s the cost of electricity and gas.
+277 | Which of the two classes 【are】 you thinking about?
+291 | How 【are】 you today? [12] Do you have a reservation with us already?
+119 | If you’ve ever looked at the ingredients list while grocery shopping, chances 【are】 you’ve seen the term “natural flavors”.    ?P:chances are

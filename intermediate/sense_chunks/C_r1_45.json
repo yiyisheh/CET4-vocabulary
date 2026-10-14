@@ -1,0 +1,3673 @@
+[
+ {
+  "word": "for",
+  "def": "prep.为了; 对于; 由于. conj.因为.",
+  "senses": [
+   {
+    "pos": "prep.",
+    "zh": "为了，用于（表示目的、用途）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（表示时间、距离）达，持续"
+   },
+   {
+    "pos": "prep.",
+    "zh": "给，为（表示对象、受益者）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "对于，对…来说"
+   },
+   {
+    "pos": "prep.",
+    "zh": "因为，由于（表示原因、理由）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（look/search/ask for）寻找，请求（引出所求的东西）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "以（某价格），换取；为…付钱"
+   },
+   {
+    "pos": "prep.",
+    "zh": "就…而言，至于"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（for sb to do）让某人做…（引出动作的执行者）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（表示对应）每…；对应于"
+   },
+   {
+    "pos": "prep.",
+    "zh": "在（某时、某场合）：for the second time 第二次"
+   },
+   {
+    "pos": "prep.",
+    "zh": "支持，赞成"
+   },
+   {
+    "pos": "prep.",
+    "zh": "前往，去往（leave for）"
+   },
+   {
+    "pos": "conj.",
+    "zh": "因为（书面语）"
+   }
+  ],
+  "phrases_seen": [
+   "for instance",
+   "mistake sth for sth"
+  ],
+  "notes": [
+   "目的义计数含题干「You will have 30 minutes for the task」（n=9）。几处边界：compensate for loss（47）、damages for losses（60）归「因为」；for a reported fire（34）归原因；improving its work for the coming year（48）归时间场合义；A sentence for life（43）按「持续（终身）」标。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "You are now to write an essay for submission.",
+    "n": 5,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 81,
+    "text": "Two men who have been best friends for 60 years have just realized they are actually brothers.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 82,
+    "text": "Create Internet pages for him.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 83,
+    "text": "“He’s been a regular visitor for most of this year,” she told the Press Association.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 84,
+    "text": "One recent study published in the journal PLOS ONE, for example, found that the strength of a person’s social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 85,
+    "text": "Checking town records for the property developer.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 86,
+    "text": "[6] If the clone continues to perform as well as expected, it could mean a huge reduction in the training time for police dogs, which usually takes about five years.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 87,
+    "text": "To provide remedies for students' poor performance.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 88,
+    "text": "Cumber said, “People can have fun, but both drivers and riders are responsible for paying attention while on the road.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 89,
+    "text": "outside for some seasonal snowman-building and snowball throwing, against a background of joyful pop music.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 90,
+    "text": "Budgeted $56.7 million for the coming school year.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 91,
+    "text": "However, this week, the City of Fayetteville issued a proclamation for the day to take place March 18th. [2] Officials said they want bus drivers to know how important they are to Fayetteville, serving almost 1.6 million riders a year.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 92,
+    "text": "Predicted a 10% jump in heating bills for most U.S. households this winter.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 93,
+    "text": "Natural gas is used by nearly half of U.S. households for heat.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 94,
+    "text": "faces may have important implications for security and crime prevention as super realistic masks may ___34___ the key",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 95,
+    "text": "Tell her exactly what kind of property to look for.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 96,
+    "text": "His passion for produce got him a position as South Dakota’s official Corn Ambassador.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 97,
+    "text": "They are known for their loyalty to their owners.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 98,
+    "text": "He’s going to take up a full-time position as ambassador for science and space instead—work he’s been doing since 2019. [3] The former British Army Air Corps helicopter pilot was selected as a European Space Agency astronaut in 2009.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 99,
+    "text": "a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain ___32___",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 100,
+    "text": "Compensate for the Swiss manufacturer's loss.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 101,
+    "text": "The games are coming back for the first time in 5 years.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 102,
+    "text": "It is unfit for crucial issues.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 103,
+    "text": "Meanwhile, 30 eggs in Mexico sell for just $3.40.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 104,
+    "text": "of the need to protect Earth’s natural resources for future generations.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 105,
+    "text": "Asked Joe for permission to use his online drawings.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 106,
+    "text": "Kirsteen said: “We’ll pay that to anyone who brings him home as long as they are not responsible for his disappearance.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 107,
+    "text": "He got a ticket for speeding.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 108,
+    "text": "Some other fellow came in asking for Jimmy just yesterday, (9) a real nervous, pushy type of fellow, saying he needed Jimmy for some study project they were working on.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 109,
+    "text": "You are required to select one. word for each",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 110,
+    "text": "They raised ducks and geese for their eggs.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 111,
+    "text": "They were easily found and plentifully available food source in farming areas, especially for poor immigrants.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 112,
+    "text": "For the company’s records.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 113,
+    "text": "And then under the description of your personal information, you should see an option for updating payment methods.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 114,
+    "text": "In 1980, about 60 percent of senior high school students said they read a book, newspaper or magazine every day that was not assigned for school.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 115,
+    "text": "She searched for her daughter in freezing cold.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 116,
+    "text": "A four-year-old girl has walked eight kilometers through a snowy forest to seek help for her sick grandmother who later died of a heart attack.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 117,
+    "text": "In short, natural flavors are _32_ from plants and animals to create specific flavors for processed foods.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 118,
+    "text": "It interrupted traffic for several hours running.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 119,
+    "text": "A car ride for the same journey costs less than half as much.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 120,
+    "text": "It assigned a team of doctors for each expected baby.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 121,
+    "text": "The babies’ mother commented that they had already prepared room for five babies at home, so they will have to rearrange things for their happy surprise.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 122,
+    "text": "View it as a chance for people to socialize and have fun.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 123,
+    "text": "He told The Northern Echo: “(7) It isn’t an affluent part of the world, so for them to find cash of that amount and instantly think about taking it to the police stations shows the community spirit there is.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 124,
+    "text": "It was for third-year criminology students to help them contextualize theory and research within controversial current topics.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 125,
+    "text": "Wait in a queue for his turn.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 126,
+    "text": "Is there any chance we could have a window seat for one of those?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 127,
+    "text": "He apologized for scratching an athlete's gold medal.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 128,
+    "text": "To prepare for eventually sending astronauts to Mars, NASA began taking applications Friday for four people to live for a year in Mars Dune Alpha.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 129,
+    "text": "They are for casual wearing.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 130,
+    "text": "Before long, people started offering up their own fancy dresses for her to wear.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 131,
+    "text": "About 100 current and past members of the dance group—which has been performing since 1956—will be among the 220 groups marching through Chinatown in Manhattan for the 18th Lunar New Year Parade on February 5.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 132,
+    "text": "Search for their half-brothers.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 133,
+    "text": "Alan was given away for adoption soon after he was born, and Walter never knew his father. [3] So recently, they made separate attempts on DNA matching websites to discover more about their ancestry.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 134,
+    "text": "Hold a birthday party for him.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 135,
+    "text": "“He’s a very relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is a cat of expensive tastes who likes his high priced cat food.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 136,
+    "text": "While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 137,
+    "text": "The deadline for application.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 138,
+    "text": "M: [8] A colleague mentioned the book, but I’ve been so busy writing my thesis that I haven’t been able to read for pleasure in months.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 139,
+    "text": "To do this, the researchers computed abstractness ratings for ___29___ 40,000 commonly",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 140,
+    "text": "M: In our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how to shop around for the best deals.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 141,
+    "text": "tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 142,
+    "text": "Kept raising funds for at least 8 budget cycles.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 143,
+    "text": "The 5.99% request more than doubles the highest previous year-over-year increase in the last eight years, which was 2.99% for the 2021-2022 school year.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 144,
+    "text": "To ask them for help.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 145,
+    "text": "For the study, the researchers asked participants to rate their diet as excellent, very good, good, fair or poor.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 146,
+    "text": "for over the course of many years can be extremely challenging.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 147,
+    "text": "Make sure the agent finds something good for her.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 148,
+    "text": "Tariq’s profession of love for his favorite vegetable earned him the name “the Corn Kid”.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 149,
+    "text": "Choosing a present for her nephew.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 150,
+    "text": "He flew to the space station for a 6-month tour in 2015.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 151,
+    "text": "traffic crawls to a halt for no apparent reason at all.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 152,
+    "text": "It doesn't sound practical for her.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 153,
+    "text": "There will also be a fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes with special needs triumph in the games.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 154,
+    "text": "A stronger support for a student-centered teaching approach.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 155,
+    "text": "Among the reasons given for the decision, the restaurant cited noise levels, lack of space for highchairs, cleaning up crazy messes, and the liability of kids running around the restaurant.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 156,
+    "text": "by 20 million people across the United States, the event ___30___ support for legislation such as the Clean Air Act and the",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 157,
+    "text": "Beg for help from the police.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 158,
+    "text": "He wants to provide a bridge for people to connect in an area that has been divided by class and wealth by providing affordable breakfasts.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 159,
+    "text": "He had an operation for his injury.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 160,
+    "text": "Nothing serious, mind you, but he damaged someone’s car and wanted to get some money together to make up for the damage he’d caused.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 161,
+    "text": "for a hit of stars that if you delete the survey the company sends you another one.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 162,
+    "text": "Ask some friends for help.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 163,
+    "text": "M: What do they use for hunting during that period?",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 164,
+    "text": "For future training purposes.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 165,
+    "text": "M: I’ll make a note here on the system for you, so that the payment will be made tomorrow morning.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 166,
+    "text": "The survey allowed for reading materials on a digital device.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 167,
+    "text": "She lay totally unconscious for three days.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 168,
+    "text": "Last year, a three-year-old boy survived alone for three days in a remote forest in the same region.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 169,
+    "text": "So if you want to know for certain what you’re getting with your groceries, you might want to stick to the farmer’s market.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 170,
+    "text": "It is a good choice for children.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 171,
+    "text": "But Bangalore airport says it is a competitive alternative to a car ride for tech executives in a hurry.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 172,
+    "text": "It made ample preparations for various possibilities.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 173,
+    "text": "A Spanish island called Palmdor has been bought by a family from Europe for 18 million euros.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 174,
+    "text": "They are a bit expensive for her.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 175,
+    "text": "Many begin to search for the meaning of their existence, leading to behaviors such as ending or starting a relationship, or plans, like starting a vigorous diet or fitness program.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 176,
+    "text": "They would run around looking for clues and at the end unmask the bad guy.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 177,
+    "text": "Pay an extra fee for the service.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 178,
+    "text": "And I’ve booked those seats next to each other for you.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 179,
+    "text": "Pay for the cost of a new medal.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 180,
+    "text": "A Japanese mayor apologized Thursday for biting the Olympic gold medal of a softball player.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 181,
+    "text": "Thirty-four percent of them use credit for their daily purchases.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 182,
+    "text": "Welcome to Frank’s restaurant where customers are paying for meals and leaving receipts on a board.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 183,
+    "text": "But the club also acts as a recreation center and safe haven for teenagers, with video games readily available.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 184,
+    "text": "They were both given up for adoption.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 185,
+    "text": "W: Hello Benjamin, Dan and I will be going for a run along the canal Saturday morning.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 186,
+    "text": "When to go for their meal.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 187,
+    "text": "Sarah Godfrey, who is organizing Wilbur’s party, told the local newspaper, “Wilbur is part of our lives, as he is for everyone who lives in the village.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 188,
+    "text": "They say that kids use overly casual language and text-speak in writing, and don’t have as much patience for long reading and complex arguments.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 189,
+    "text": "Look for open land in Scotland.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 190,
+    "text": "W: Well, sounds like if you’re going to read anything for fun, this is the book.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 191,
+    "text": "Words that were more ___30___ to visualize, for example, “justice” or “morality” were considered to be more abstract.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 192,
+    "text": "W: Indeed. [9] It’s also essential to make money real for children through practical examples.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 193,
+    "text": "The Department for Education (DFE) published research in 2016 arguing",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 194,
+    "text": "Decrease in salaries for school administrators.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 195,
+    "text": "These account for 64% of the total request at $59 million.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 196,
+    "text": "To get food for the elephant.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 197,
+    "text": "The army officers heard a noise coming from the well and realized an elephant was trapped deep inside. [6] The officers then threw in some food for the creature and called the local forest department for help.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 198,
+    "text": "But if you're well prepared you may be able to set goals for your life that are just",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 199,
+    "text": "He was remembered for the scar on his cheek.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 200,
+    "text": "Postal Service’s collection boxes in Marion County and for the possession of a stolen postal key, according to the Department of Justice.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 201,
+    "text": "Looking for Lawrence.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 202,
+    "text": "By assuming the role of an ambassador for human flights to space, I’ll continue to support the European and the UK space agencies.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 203,
+    "text": "“When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 204,
+    "text": "A win for all people involved",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 205,
+    "text": "For anyone who wants to help make this year’s games a massive success, there are still opportunities to volunteer for Fayetteville’s Special Olympics.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 206,
+    "text": "A more favorable atmosphere for effective classroom learning.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 207,
+    "text": "There are others, however, who showed support for the restaurant’s decision. [4] They said it has the right to implement any rules it wants.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 208,
+    "text": "Looking for a job after 45",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 209,
+    "text": "A surprise party for Paul's birthday.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 210,
+    "text": "I wouldn’t need to use it every day, but I think it would be very convenient to have one for the weekends.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 211,
+    "text": "He wanted to buy a gift for his mother's birthday.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 212,
+    "text": "See, I did think it was a bit weird for him to be asking for money for that sort of thing.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 213,
+    "text": "These scientists, for reasons that are mostly arbitrary, either just missed getting",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 214,
+    "text": "She could have asked a friend for help with the paint job.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 215,
+    "text": "The second is guaranteed to look great for about 10 years, whereas the cheaper one will start to dull after around six or seven years.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 216,
+    "text": "To get her money back for the returned chair.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 217,
+    "text": "Are you going to prepare a meal for us?",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 218,
+    "text": "G) Indeed, the number of senior high school students who said they had not read any books for pleasure in the last year was one out of three by 2016.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 219,
+    "text": "She shows a real passion for taking photos.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 220,
+    "text": "Whatever you’re reviewing, it’s important that it’s arranged for your particular needs of that subject, and in the most user-friendly way you can.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 221,
+    "text": "For a growing number of people, however, their yearly break is turning into a nightmare as they find that the property they have paid thousands for does not exist and the website through which they booked it has disappeared.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 222,
+    "text": "It might take some time for students to adapt.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 223,
+    "text": "It previously specialized in private charter flights for government officials.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 224,
+    "text": "They needed to stay in the hospital for a couple of months.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 225,
+    "text": "For decades tourists have been flocking to Palmdor, which is located off the southeast coast of Spain.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 226,
+    "text": "Create picture books for their children.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 227,
+    "text": "Or I could perceive my birthday as an opportunity to do something for others like asking people to make a donation instead of buying a gift.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 228,
+    "text": "Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 229,
+    "text": "They are meant mostly for immigrants.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 230,
+    "text": "What is the arrangement for that?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 231,
+    "text": "She bought some new software for it.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 232,
+    "text": "Biting a medal in front of journalists and photographers has become a common pose for Olympic medalists.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 233,
+    "text": "With demand for energy ___29___ at an annual rate of 7 percent, the new solar plant could be a ___30___ part of that goal.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 234,
+    "text": "Anyone who is hungry and wants something to eat can take one, no questions asked and hand it to the staff for some food.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 235,
+    "text": "\"The basic requirement for hanging out here is you have to learn how to lion dance,\" Mr.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 236,
+    "text": "He is physically unfit for it.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 237,
+    "text": "It’s just a little swollen and I should be fine for next Saturday if you still want to go for a jog then.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 238,
+    "text": "There will be crowds of people waiting for her.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 239,
+    "text": "M: So, [8] where do you want to go for lunch?",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 240,
+    "text": "I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 241,
+    "text": "Ask for permission from authorities.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 242,
+    "text": "I don’t want to say too much and spoil it for you, but it’s definitely got some amazing technological and sociological concepts in it.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 243,
+    "text": "having more power in society — might be a key determinant .For instance, in a follow-up study conducted with",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 244,
+    "text": "Working out how much we save using discount pizza coupons, for example, is much more relevant than abstract sums.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 245,
+    "text": "weather are less problematic for students than absences that are not authorised.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 246,
+    "text": "It allows him to borrow money without paying interest for six months.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 247,
+    "text": "The $59 million is up from the $56.7 million budgeted for the current school year.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 248,
+    "text": "The army officers were examined for injuries.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 249,
+    "text": "It was then taken to an examining room for evaluation of any injuries. [7] The elephant was kept under close supervision for a few days before it was successfully released back into the wild.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 250,
+    "text": "For example, let’s say you want to",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 251,
+    "text": "The man’s deep sympathy for Johnny.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 252,
+    "text": "Jax and Goodman stole mail for around four months.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 253,
+    "text": "One he loves for helping exercise his mind.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 254,
+    "text": "The supermarket is known for its loyal customers, but now has a different kind of visitor that has appeared over the last year.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 255,
+    "text": "and researchers may have come up with a solution for this frustrating traffic pattern: maintaining equal spacing between",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 256,
+    "text": "They arrived late for their first day of school.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 257,
+    "text": "It could be melted for use in other products. [7] It said even though there are some differences between the two products, there was still the possibility of confusion for consumers.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 258,
+    "text": "Alzheimer’s Disease, the part of your brain responsible for ASMR doesn’t get lost to Alzheimer’s.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 259,
+    "text": "W: She bought a house for herself and her husband, a house for her parents, and then a house for each of her four brothers and sisters.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 260,
+    "text": "Ageism and long-term unemployment are most damaging for those in the second half of their careers.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 261,
+    "text": "Preparations for Saturday's get-together.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 262,
+    "text": "W: No, I actually owned a car for a little while when I lived in Miami.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 263,
+    "text": "They have little talent for learning math.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 264,
+    "text": "I’ve never done it before and I know that you’ve been doing it for ages.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 265,
+    "text": "A 2018 study published in the Proceedings of the National Academy of Sciences, for example, followed",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 266,
+    "text": "To prepare for secondary school.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 267,
+    "text": "Please feel free to call me for any further questions.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 268,
+    "text": "Reconsider her options for payment methods.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 269,
+    "text": "It’s a bit heavy, but it’s great food for a cold night like this.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 270,
+    "text": "For today’s youth, books, newspapers and magazines have less and less of a presence in their daily lives.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 271,
+    "text": "Choosing the best time for signing a business contract.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 272,
+    "text": "For example, if you want people to treat you with respect, you should treat them with respect.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 273,
+    "text": "Consumers have been warned to be aware of the potential for deception in this market, which is far from uncommon.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 274,
+    "text": "As a scientist, Smith _30_ studied individuality for a living, and even he was surprised to find younger respondents cared more about having a _31_ in life.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 275,
+    "text": "W: (8-1) Hi, I wish to buy some cheese for a barbecue this weekend.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 276,
+    "text": "She has registered for two new gym classes.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 277,
+    "text": "Although Palmdor is one of the most famous private islands in the world, its seafront is public land and is a favorite destination for famous people.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 278,
+    "text": "Across all three, parenthood was 27 with more positive wellbeing outcomes for dads than for mums.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 279,
+    "text": "Or even simply see your birthday as an opportunity to bring people together for them to have fun.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 280,
+    "text": "But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 281,
+    "text": "They are hard for English people to appreciate.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 282,
+    "text": "M: Thank you for the information.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 283,
+    "text": "A boom in market demand for clear plastic bottles.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 284,
+    "text": "However, it is only for the winners themselves, not others.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 285,
+    "text": "It could also be a forerunner for many other countries in the world that ___32___ on foreign imports of energy,\" said Ali Hajji, a solar energy specialist and engineering professor.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 286,
+    "text": "The idea for the board of free meals started after a donor came in with $100 for each member of its staff.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 287,
+    "text": "While that is not a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 288,
+    "text": "It argues for postponing retirement.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 289,
+    "text": "I personally feel sorry for the poor animals stuck in cages, but there’s no denying they are fun and educational for children.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 290,
+    "text": "To find the best trip for his kids.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 291,
+    "text": "There were crowds of people around her asking for a photo with her.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 292,
+    "text": "And it turns out that when they write for strangers, their sense of “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 293,
+    "text": "It has been abandoned as a battleground for male dolphins.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 294,
+    "text": "It’s rare for the show or movie to be better than the book.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 295,
+    "text": "saving for retirement.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 296,
+    "text": "Two pounds for each year so they can see some progression.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 297,
+    "text": "There is a time-honoured tradition in the US for school kids to stay at home on “snow days”.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 298,
+    "text": "Not a realistic size for families.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 299,
+    "text": "The weather was the coldest it had been for the season, [7] so people were warned to be careful when traveling outside.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 300,
+    "text": "The army officers were rewarded for their rescue efforts.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 301,
+    "text": "M: Well, actually, I’ve stopped using online payments for the past three months now.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 302,
+    "text": "valuable for you but if you want to be valuable to others, then you have to express your knowledge in some way.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 303,
+    "text": "It seemed to make up for his physical defects.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 304,
+    "text": "[4] Jax and Goodman each face up to five years in federal prison in the mail thefts and up to ten years for possession of the postal key.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 305,
+    "text": "It has been enjoyed by kids for decades.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 306,
+    "text": "W: We’ve budgeted for those, and for Internet and transportation.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 307,
+    "text": "E) Horn has been working on the problem of phantom traffic jams for years, and he has come up with a solution: By splitting",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 308,
+    "text": "Turn to her parents for help.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 309,
+    "text": "It has instructions for making a winter bean salad.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 310,
+    "text": "Alzheimer’s haze and bring them back to (at least a likeness of) normality... if only for a short while.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 311,
+    "text": "W: I know for a fact Hannah isn’t.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 312,
+    "text": "Those over 45 comprise over 40% of the long-term unemployed, for example.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 313,
+    "text": "Travel plans for the coming weekend.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 314,
+    "text": "Their activities may also create opportunities for invasive plants to colonize these areas.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 315,
+    "text": "Last year Britain even appointed a minister for loneliness.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 316,
+    "text": "M: (15) I actually found that it was cheaper for me, as I live quite far away from my local supermarket.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 317,
+    "text": "Researchers concluded that those who just barely qualified for a grant",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 318,
+    "text": "Create an ideal study environment for them.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 319,
+    "text": "Creating an ideal working environment will make it easier for them to get down to their assignments quickly.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 320,
+    "text": "Running is the best exercise for extending one’s life.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 321,
+    "text": "I know it’s really tasty and great comfort food, but it’s too fattening for me.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 322,
+    "text": "H) This might present problems for young people later on.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 323,
+    "text": "If teeth didn’t feel pain, we might _30_ to use them in situations that damage them, and for humans, damaging _31_ teeth is a problem because, unlike crocodiles, we can’t _32_ them.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 324,
+    "text": "For example, if someone breaks the law, the golden rule would suggest that we should let them go, because we would not want to be punished ourselves.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 325,
+    "text": "In 2017 there were 1,632 cases of reported “villa fraud (诈骗)”, with victims losing an average of £2,052, according to Action Fraud, the national center for reporting such frauds.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 326,
+    "text": "Higher education institutions tend to focus on preparing students for high-paying jobs.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 327,
+    "text": "What type do you think would be suitable for a barbecue?",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 328,
+    "text": "Recruiting coaches for hot yoga and advanced spinning.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 329,
+    "text": "When the island was put up for sale, it was offered to the local government but proved too expensive for the local authorities.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 330,
+    "text": "In one study, the authors 28 that dads were more likely to take “playing” as an 29 activity both when caring for their kids",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 331,
+    "text": "I’m saving up to buy something reasonably small and cute, but it’s still a bit expensive for me, and it’ll take a while before I have enough money.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 332,
+    "text": "A child deviates from social pressures when they stand up for another child being bullied in school.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 333,
+    "text": "Learn to use the internet for research.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 334,
+    "text": "Thank you for coming, Karen.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 335,
+    "text": "It is a hotel for business people.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 336,
+    "text": "The mayor said the medal was undamaged, though he offered to pay for the cost of a new one.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 337,
+    "text": "Experts believe that the Middle East and North Africa have huge ___33___ for solar energy projects.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 338,
+    "text": "The board of free meals inside the restaurant shows a host of potential meals already paid for by customers, each costing about $10.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 339,
+    "text": "He has been a club member for 10 years and joined because of an interest in lion dance.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 340,
+    "text": "Exercising for just 10 minutes a week is linked to a longer life, according to a new study published in The British Journal of Sports Medicine.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 341,
+    "text": "M: Thanks for having me on the show, Lisa.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 342,
+    "text": "Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become more acceptable.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 343,
+    "text": "Their chips are great, but their service takes a long time. [10] And I need to get back by 2:30 for a conference call.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 344,
+    "text": "Parents are advised to mind their own digital behaviour and set a good example for their kids.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 345,
+    "text": "It calls for due assistance.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 346,
+    "text": "And then, you just end up ruining the book for yourself, if the show isn’t very good.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 347,
+    "text": "Understood in that way, saving for retirement is the",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 348,
+    "text": "In our house, we have transparent money boxes for them to put small change in, so they can see their savings grow.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 349,
+    "text": "I happen to be interested in both, and ended up enjoying the book for completely different",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 350,
+    "text": "Only fit for families of four or less.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 351,
+    "text": "In particular, dangerous conditions such as icy roads or wet ground could cause difficulty for drivers.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 352,
+    "text": "The elephant was given medical treatment for many days.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 353,
+    "text": "W: [9] Oh, impulse purchases can be an issue for me, too.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 354,
+    "text": "In many cases, learning for the sake of learning can",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 355,
+    "text": "Making sounds can free one’s hands for doing other things.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 356,
+    "text": "Identifying why the fast-fashion business model creates waste and determining whether regulators can establish incentives for consumers and manufacturers are steps to reduce waste.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 357,
+    "text": "It was an outlet for their personal fulfillment.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 358,
+    "text": "And if we move far enough from the city center, the rent is low enough for us to afford all of it.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 359,
+    "text": "technology that sets a maximum speed for vehicles and automatically slows the speed of the car when traffic is sensed in",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 360,
+    "text": "to remember that many of the choices you make, such as what to have for lunch, will not ___32___ much in the future and",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 361,
+    "text": "My sister’s boyfriend is coming over for dinner.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 362,
+    "text": "No one says playing music will be a cure for",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 363,
+    "text": "W: If you have time right now, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 364,
+    "text": "past the age of 45, there’s nearly a two in three chance you’ll be out of work for over a year, they find.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 365,
+    "text": "Cook a dish for the party.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 366,
+    "text": "On one particular United States island, wild pigs themselves became an attractive food source for a species of mainland eagle.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 367,
+    "text": "us at some point,\" its minister for loneliness Baroness Barran said.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 368,
+    "text": "For years, parents and teachers have worried that these games might be addictive.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 369,
+    "text": "good explanation for the phenomenon in the book The Formula: The Universal Laws of Success by",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 370,
+    "text": "It has not built facilities specially for the left-handed.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 371,
+    "text": "Make sure it’s free of distractions, and—for primary school children at least—somewhere near you, so you can answer questions and offer encouragement.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 372,
+    "text": "Running is the easiest form of exercise for most people.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 373,
+    "text": "The findings suggest that, just as a parent’s personality can affect the personality of a child, the same is true for a cat and its owner.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 374,
+    "text": "Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for other activities—like going to the movies with friends or reading longer, more complicated texts.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 375,
+    "text": "Whereas people with tooth sensitivity may complain, for example, of tooth pain _34_ by heat or cold, the nerves in the inner layer don’t sense temperature.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 376,
+    "text": "But when people make decisions for others, they typically put together a more diverse team.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 377,
+    "text": "Fraudsters target popular seaside destinations for British tourists visiting Spain where prices can soar if demand exceeds supply.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 378,
+    "text": "For such institutions, from universities to workplaces, to better _35_ people in the U.S., they’ll need to understand “what the American public highly prioritizes,” Smith says.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 379,
+    "text": "For a barbecue, you could have any cheese you want.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 380,
+    "text": "She missed the deadline for the 10-week course.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 381,
+    "text": "But with their newfound luxury comes the responsibility for its protection and maintenance.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 382,
+    "text": "For mums, 32, compared to women without children, the results weren’t quite as positive.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 383,
+    "text": "W: (14-2) I consider that for maybe a minute.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 384,
+    "text": "G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 385,
+    "text": "To find causes for differences in the participants’ performance.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 386,
+    "text": "W: Thank you for having me.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 387,
+    "text": "It rents a place for nap-takers.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 388,
+    "text": "Some Olympians said they treat their medals as treasures and that it was disrespectful and unacceptable for Kawamura to bite one.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 389,
+    "text": "For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 390,
+    "text": "The drive has been going on for two weeks and Morris said just under 50 customers have picked up a free meal.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 391,
+    "text": "F) Today, the dancers travel across Chinatown going from business to business to bring good luck for the coming year.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 392,
+    "text": "Several recent studies have found that even low-intensity exercise, done for a short amount of time, can have a meaningful _26_ on health.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 393,
+    "text": "W: Okay, but how much money does a person need to retire? [13] I’ve read articles recommending one million dollars as a good figure for retirement.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 394,
+    "text": "G) The previous study found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 395,
+    "text": "I’m up for that.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 396,
+    "text": "Red Rum was passed around to several owners before being purchased for Noel Le Mar.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 397,
+    "text": "You are required to select one word for each blank from a list",
+    "n": 12,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 398,
+    "text": "Thanks for the tip, Alice.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 399,
+    "text": "result, the decisions we make for our present selves often look very different from our decisions for our future selves.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 400,
+    "text": "M: When the time is right, I’ll start talking to our children about investing and show them how the money saved for their further education has grown.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 401,
+    "text": "Richard Thompson Ford is a law professor, and you probably won't forget that for even one page.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 402,
+    "text": "Only suitable for renting to the poor.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 403,
+    "text": "Look, you’ve only been working for five months now.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 404,
+    "text": "He has to prepare for the future.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 405,
+    "text": "Then, when I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 406,
+    "text": "may not provide enough information to the driver, leading to confusion about the nature of the requests for agreement and",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 407,
+    "text": "When they were looking for a cooperative workmate.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 408,
+    "text": "[5] Recently, the clothing industry has come under attack for creating a waste problem with serious environmental consequences.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 409,
+    "text": "To make up for the waste products.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 410,
+    "text": "W: For a lot of reasons.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 411,
+    "text": "According to Horn, drivers making constant adjustments for equal spacing between cars in a flow of traffic can help reduce",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 412,
+    "text": "Department of Finance to give him a few years’ worth of sales figures for that stretch of Skillman Ave.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 413,
+    "text": "What’s his reasoning for being vegetarian?",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 414,
+    "text": "Those skills are part of what the Royal Air Force is looking for “in a variety of roles”.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 415,
+    "text": "I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough to live on his own at this point.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 416,
+    "text": "They are unemployed for much longer than the average, and their age is indeed one of the greatest barriers to",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 417,
+    "text": "For commuting to work.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 418,
+    "text": "Once back on Earth, the planet’s first space-roasted beans would be used to make coffee that would be sold for the first time in Dubai.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 419,
+    "text": "for individuals who become isolated and disconnected. \"",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 420,
+    "text": "To meet the new definition for addiction, the behavior must damage a person’s relationships or performance at school or work, and this must last for at least a year.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 421,
+    "text": "According to Barabasi, it's easier and less risky for those in positions of power",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 422,
+    "text": "What percentage they account for.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 423,
+    "text": "To qualify for the bonus, they must maintain a healthy weight.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 424,
+    "text": "As his great contemporary the poet and dramatist Ben Jonson said, “He was not of an age, but for all time.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 425,
+    "text": "The majority of owners want to provide the best care for their pets and it’s therefore possible that pets could be affected by the way their owners interact with and manage them.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 426,
+    "text": "Thus, deep reading is crucial for being a good citizen, a successful college student and a productive employee.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 427,
+    "text": "How to determine if a company is a good fit for you",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 428,
+    "text": "(22-1) How the balance is struck between these two forms of communication—the point at which one needs to be exchanged for another—really depends on individual cultures.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 429,
+    "text": "I) For now the only way to stop fraudsters appears ultimately to lie in the hands of the consumer.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 430,
+    "text": "How a rabbit study and an ex-student boost my hopes for a future of ‘love and dignity’",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 431,
+    "text": "M: Yes, for hard cheese, I would recommend this Italian one here.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 432,
+    "text": "She didn’t sign up for membership in time.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 433,
+    "text": "M: (10) The same discount of 20% is being offered to everyone at the door on a “first come, first served” basis for the first month.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 434,
+    "text": "“This difference suggests that how mothers and fathers spend time with their children might have important 35 for their wellbeing,” the authors write.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 435,
+    "text": "He needed a sign language interpreter for every meeting, but it was a huge effort to coordinate.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 436,
+    "text": "For example, you might get “Fox, Man, Peep”, or “Dust, Cereal, Fish”.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 437,
+    "text": "To offer constructive suggestions for making educational policies.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 438,
+    "text": "Cube Movie Theatre has been around now for 11 years.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 439,
+    "text": "Take a look at the video below from National Geographic for some more mind-blowing __29__ about cotton clothing production.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 440,
+    "text": "W: (9) Blue light includes natural light, but it also includes light that isn’t natural, for example, from computers, phones, televisions and other electronic devices.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 441,
+    "text": "G) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality—what is it like to speed around a track inside a Ferrari?—are among the possibilities.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 442,
+    "text": "The desire for adventure is a human one.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 443,
+    "text": "\"It's almost like the dark night is ending and the sun is coming up,\" said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 444,
+    "text": "Still, the idea that exercising for just 10 minutes a week may be enough to increase your lifespan is novel.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 445,
+    "text": "M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 446,
+    "text": "I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 447,
+    "text": "M: Good afternoon. [12] Yes, we reserved our rooms yesterday morning on your website for three nights.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 448,
+    "text": "For many horses (and many trainers) this would mean the end of a racing career before it even began.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 449,
+    "text": "Please mark the corresponding letter for each item on Answer Sheet 2 with a single",
+    "n": 12,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 450,
+    "text": "W: [13] It says on your website that you are still looking for vendors, and I grow organic vegetables on my farm, as well as doing my own home baking.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 451,
+    "text": "current mood over the consequences of our inaction for the future self.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 452,
+    "text": "And then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level about problems in our country.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 453,
+    "text": "It is read by people for entirely different reasons",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 454,
+    "text": "They are a good choice for many people.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 455,
+    "text": "M: Maybe you’re right, [10] but the credit card has a very good special offer, where I don’t pay any interest for six months.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 456,
+    "text": "New technologies for bringing back space vehicles for recycling.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 457,
+    "text": "I don’t want our son to spend his afternoons doing something he hates, even if it might prepare him for the future.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 458,
+    "text": "And human drivers need to consent to take responsibility for the outcomes of the software and hardware.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 459,
+    "text": "It was a shelter for wild animals.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 460,
+    "text": "W: [9] Well, for example, the subway system could have air conditioning.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 461,
+    "text": "inside a prison for his misconduct.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 462,
+    "text": "W: Good morning. [12] I’m looking for a present for my nephew, Lawrence.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 463,
+    "text": "Before systems for bilateral control are installed, drivers should not follow the car in front too closely so as to reduce",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 464,
+    "text": "compared to 3 percent for Queens in general.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 465,
+    "text": "He’s the spokesperson for his local animal rights group.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 466,
+    "text": "applying for, or how it makes you more interesting as a potential employee,” Mr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 467,
+    "text": "Not to mention the overwhelming amount of homework they assign, which would lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 468,
+    "text": "for less time, receive more job offers, and are more satisfied by the job offers they receive.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 469,
+    "text": "For long-distance travel.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 470,
+    "text": "It is not clear how much they would charge for a cup.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 471,
+    "text": "What happens when a language bas no words for numbers?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 472,
+    "text": "Switzerland’s passport is dark red, for example, (22) while most European countries prefer a shade of red.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 473,
+    "text": "E) This is bad news for the losers.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 474,
+    "text": "You are required to select one word for each blank from a list of choices given in a word bank following the passage.",
+    "n": 16,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 475,
+    "text": "For those who are overweight or obese, they could receive the bonus if they reduce their weight by 10% during the year.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 476,
+    "text": "If you find yourself searching for something to say beyond small talk, try these tactics to find more interesting approaches to conversation.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 477,
+    "text": "In another study, researchers asked volunteers to jog for 30 minutes and then showed them clips from a sad movie.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 478,
+    "text": "The number of senior high schoolers not reading books for pleasure in a year increased three times over 20 years.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 479,
+    "text": "On paper, the job seemed perfect for me: The position was completely in line with my degree, the duties and responsibilities were compatible with my interests, and the office maintained a well-stocked kitchen that would satisfy my every snack desire.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 480,
+    "text": "(22-2) Understanding when it’s appropriate to exchange one form for another can be a major key to success in international business.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 481,
+    "text": "“The public has to learn to be far more aware they are a target for these sort of frauds.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 482,
+    "text": "In 2016, the United States ranked forty-third in the world for life expectancy....",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 483,
+    "text": "Thank you for your help.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 484,
+    "text": "Rent a bike for him to get around the town.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 485,
+    "text": "Can you sign me up for the 10-week course on Thursday evenings?",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 486,
+    "text": "For example, there is no meeting that goes faster than not having a meeting at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 487,
+    "text": "Don’t go for a colour because it’s in fashion, or you’ve seen it in a magazine.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 488,
+    "text": "In order to find the linking words (“Hole” for the first, “Bowl” for the second) you need to be creative.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 489,
+    "text": "He also noted the plastic bags and other materials that have washed ashore on the island can cause serious problems for _34_.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 490,
+    "text": "This one, in particular, was closed for 47 years before we transformed it into a movie theatre.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 491,
+    "text": "Blind and partially sighted people have been using text-to-speech converters for decades.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 492,
+    "text": "Blue light isn’t necessarily bad for us.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 493,
+    "text": "H) The larger question, though, is a familiar one: Is there room for Formula One in the ever-crowded sports landscape of the United States?",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 494,
+    "text": "Even though we basically know what will happen, we keep coming back for more.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 495,
+    "text": "\"In a way,\" she said, the rooster \"stands for 'We The People.'\"",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 496,
+    "text": "The researchers also were not able to _34_ for certain lifestyle factors that could affect lifespan, including",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 497,
+    "text": "Shouldn’t people have extra cash for emergencies?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 498,
+    "text": "But on opportunity for promotion, more than double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 499,
+    "text": "So we have a family room for you and your wife and the kids, and another double room for your parents-in-law.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 500,
+    "text": "For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 501,
+    "text": "countries have ___26___ evidence-backed guidelines on the type and intensity of exercise ___27___ for various physical",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 502,
+    "text": "M: That’s exactly the type of thing we are looking for. [14] We’re getting close to the deadline, however.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 503,
+    "text": "selves and encourage people to save more for retirement.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 504,
+    "text": "It seems like you’re blaming them for not succeeding, when poor performance in school isn’t a child’s fault.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 505,
+    "text": "It is meant for those interested in fashion history",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 506,
+    "text": "They help to save up for larger houses.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 507,
+    "text": "I’ll be able to pay for the phone well before that period is over.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 508,
+    "text": "The technology for meeting the needs of commercial space travel.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 509,
+    "text": "For instance, SpaceX’s Falcon 9 gets through 112 tonnes of refined fuel, emitting about 336 tonnes of CO₂.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 510,
+    "text": "“Warning fatigue” and distracted driving are also causes for concern.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 511,
+    "text": "Interactive experiences may provide opportunities for children to learn about what ___29___ a desirable",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 512,
+    "text": "Just tell him exactly what you are looking for and I’m sure he will find something good.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 513,
+    "text": "He had a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal ___31___",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 514,
+    "text": "M: [13] For that age group, our biggest seller this year has been this action figure.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 515,
+    "text": "the lasting intimacy and spiritual connection for which we long.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 516,
+    "text": "The city analyzed the data for businesses along those routes and found that",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 517,
+    "text": "I was surprised that the expert recommended not eating for the entire journey and avoiding sleeping on the plane.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 518,
+    "text": "F) Two years ago, a Glasgow University study made headlines for suggesting gaming could make students more successful.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 519,
+    "text": "Despite its restrictions, analytical decision-making does have several key strengths. [18] By relying on facts and data, you minimize your potential for a wrong decision.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 520,
+    "text": "likely to take it — which raises a challenge for society as a whole.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 521,
+    "text": "For getting around in Miami.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 522,
+    "text": "In 2015, two Italian companies, collaborated on the construction of a similar type of spacecraft, which was the first coffee machine designed for use in space.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 523,
+    "text": "Instead of using words for precise quantities, these people",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 524,
+    "text": "The International Civil Aviation Organization, which works to define the principles of air travel, suggests that countries use a suitable type, size and style for official documents like passports.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 525,
+    "text": "taxpayers are not getting the maximum bang for their buck if the close losers are performing just as",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 526,
+    "text": "Please mark the corresponding letter for each item on Answer Sheet 2 with a single line through the centre.",
+    "n": 16,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 527,
+    "text": "That means weight can be hard for individuals to control, which makes the bonus unfair.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 528,
+    "text": "The hesitation I felt in not sharing the ordinary things that were happening in my life, and the wild mental search for something more interesting, may have backfired and made me seem less interesting.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 529,
+    "text": "It was designed and built for a local entrepreneur and his family.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 530,
+    "text": "time for other activities.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 531,
+    "text": "When it comes to looking for a new job, you already know that a big part of the interview process involves the company evaluating whether or not you’re a good fit for their open role.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 532,
+    "text": "(25-2) For example, a Japanese firm may have signed a contract, but they may not feel bound by every detail of it—particularly if circumstances later change.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 533,
+    "text": "J) Carla O’Shaughnessy from Sydenham was searching last year for a good deal to book a villa in Majorca for a summer break for the family.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 534,
+    "text": "I) Amid the political noise about Obamacare, Medicare, Medicaid, health insurance and thieving pharmaceutical (医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 535,
+    "text": "Students are able to highlight and edit text, write notes and search for information much more quickly than they can with printed textbooks.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 536,
+    "text": "It creates a wonderful setting for dating.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 537,
+    "text": "Thanks for your help.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 538,
+    "text": "For example, if your manager comes to you and asks you to do X, you can respond with ‘Yes, I’m happy to make this the priority.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 539,
+    "text": "Parents often hear that reading to their children is critical for supporting development, and the message is getting through to them.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 540,
+    "text": "J) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 541,
+    "text": "There was just one problem for the German children who received them: They were written in Russian.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 542,
+    "text": "M: Is there enough demand for that?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 543,
+    "text": "With a literacy rate in some parts of Africa at only 22.6%, farmers are often \"underpaid for their produce because they might be unaware of the prevailing prices,\" says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 544,
+    "text": "But too much blue light, especially from electronic devices, can harm our health by weakening our vision and making it harder for us to fall asleep.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 545,
+    "text": "John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 546,
+    "text": "Stories about professional mistakes and what leaders learned from them are another great avenue for learning.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 547,
+    "text": "\"If you want the good stuff, the quality, you have to see it for yourself,\" he said.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 548,
+    "text": "By using the genes from resurrection (复活) plants, Jill Farrant of the University of Cape Town is exploring whether she can design crops to survive for much longer periods without water.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 549,
+    "text": "M: I admit it’s difficult, but it has worked for thousands.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 550,
+    "text": "Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, which featured a record 33 female CEOs, but this still represents a tiny fraction of the total.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 551,
+    "text": "And if you need any help to find transportation for the whole family, we can definitely recommend someone for you.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 552,
+    "text": "Red Rum was headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 553,
+    "text": "health benefits, such guidelines do not yet exist for exercise and mood.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 554,
+    "text": "Thank you so much for your help.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 555,
+    "text": "more of their salary for retirement than the control group.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 556,
+    "text": "So, in the end, the rewards will pay for themselves.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 557,
+    "text": "It converts fashion into something for deliberation.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 558,
+    "text": "It calls for lifelong efforts.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 559,
+    "text": "W: I still think it’s a bad idea to use a credit card for something you don’t need. [11] One of my colleagues bought a lot of things on credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 560,
+    "text": "The technology for effectively protecting ozone from being destroyed.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 561,
+    "text": "[20] Pets also provide a fantastic subject for research and learning.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 562,
+    "text": "For example, a driver, annoyed after receiving",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 563,
+    "text": "reputation and the kinds of strategies that are effective for ___30___ a good reputation in their social environment.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 564,
+    "text": "As you said, he had had it for most of his life.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 565,
+    "text": "He is also remembered by other filmmakers, for he",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 566,
+    "text": "Right over here, we have dozens of puzzles for children of all ages.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 567,
+    "text": "They have to get prepared for resentment and bitter court battles.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 568,
+    "text": "(“Fears of disastrous consequences for local businesses are unfounded,” the researchers",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 569,
+    "text": "Jet lag is a big problem for me and has been for the last few years, even though I never suffered from it before.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 570,
+    "text": "“For now, I think the negative reputation around games means that telling someone",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 571,
+    "text": "Her other secrets for living a long life?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 572,
+    "text": "Some analysts find age 45+ jobless workers are most likely to be unemployed for more than a year.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 573,
+    "text": "For convenience at weekends.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 574,
+    "text": "It is a seven-day race, called the Iditarod Trail and participants stop at Takotna for their obligatory 24-hour rest.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 575,
+    "text": "For the bulk of our",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 576,
+    "text": "While there’s little innovation when it comes to passport cover color, the same cannot be said for the pages.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 577,
+    "text": "Even though Wang tried to account for this by culling the weakest",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 578,
+    "text": "For example, you might recognize that you are intelligent, but realize that you’re not a 32.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 579,
+    "text": "For example, companies can give workers gym memberships, or encourage participation in lectures on healthy eating and living.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 580,
+    "text": "I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, is always looking for what will make a person or story interesting to viewers: It’s usually a matter of individuality.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 581,
+    "text": "Fortunately, all the blueprints for both the building and its contents have been preserved, so we’ve been able to replace badly damaged furniture.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 582,
+    "text": "The simple answer is to thoroughly learn unique cultural norms for physical contact.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 583,
+    "text": "But, it’s important to keep in mind that the employer isn’t the only one who needs to identify a good match—you should be looking for that same exact thing.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 584,
+    "text": "Although she found another villa in time for their holiday, she admits she was much more cautious.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 585,
+    "text": "For them, the medical model isn’t enough.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 586,
+    "text": "But the software for electronic readers can be updated instantly without the need for buying a whole lot of new books.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 587,
+    "text": "Social isolation and loneliness were determined with questionnaires; the researchers depended on medical records and death _28_ for",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 588,
+    "text": "I want to see if I can get one of those rental bicycles and ride to the office just for fun.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 589,
+    "text": "For this reason, it can be helpful to be gracious in your response.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 590,
+    "text": "So what does this mean for parents?",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 591,
+    "text": "K) In addition to benefits for creativity, deviance can be a good thing in other ways.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 592,
+    "text": "You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 593,
+    "text": "The fact that we have been open and in business for all these years proves that.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 594,
+    "text": "Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed on grass.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 595,
+    "text": "And it’s the same for most of my friends.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 596,
+    "text": "At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 597,
+    "text": "There are extra benefits for leaders: (21) with a simple personal story, they can convey fundamental values.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 598,
+    "text": "Chan, who has been involved with the club for nearly 50 years, said that passing the dance from one generation to the next was vital.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 599,
+    "text": "But that doesn’t mean it’s all good news for future food.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 600,
+    "text": "What’s the reason for this pattern?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 601,
+    "text": "Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, but we don’t expect the men to take over for the women at home.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 602,
+    "text": "M: We were thinking of renting a car, but we will explore all the options available for sure. [14] So, yes, that would be very helpful in comparing prices.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 603,
+    "text": "Red Rum traveled all over the country for various engagements.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 604,
+    "text": "way that your body is able to use oxygen to burn fat for energy.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 605,
+    "text": "But it may also be an expression of a desire for going outdoors—a response to the months of lockdown.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 606,
+    "text": "Our brains are hardwired for instant gratification.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 607,
+    "text": "Skateboarding, for example, can burn as many as 500 calories per hour.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 608,
+    "text": "For the rest of us, persuasion",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 609,
+    "text": "as infants and continue on for the rest of our lives.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 610,
+    "text": "But I’ve seen your blog, and you write about houses that are as small as 20 square meters. [13] That’s not a realistic size for families.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 611,
+    "text": "By hearing about their peers’ passion for pets.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 612,
+    "text": "Taking children along to the pet shop to buy food and supplies will support their cognitive development as their passion for learning flourishes.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 613,
+    "text": "Driver training for self-driving vehicles can help ensure that drivers fully understand system capabilities and limitations.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 614,
+    "text": "It’s important for us to further",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 615,
+    "text": "If Johnny’s girlfriend doesn’t like him for who he is, then she does not deserve to be his girlfriend.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 616,
+    "text": "He is also ___35___ by people around the world for his",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 617,
+    "text": "They are fun, great for exercising the mind and can be played either alone or in groups.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 618,
+    "text": "We will meet people who value us for who we are.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 619,
+    "text": "Plus, streets redesigned for bikes and pedestrians tend to become more pleasant places to",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 620,
+    "text": "Higher education is a great way to equip yourself with some core skills, but it will not prepare you for actual challenges you’ll face with clients’ work.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 621,
+    "text": "led a team in an online game, for example, they may be able to persuade an employer that this is useful,” says Dr Barr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 622,
+    "text": "But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing how to choose” what to forget.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 623,
+    "text": "The fine dining establishment received its first three-star Michelin rating in 2011 when the menu was famed for its fancy",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 624,
+    "text": "Many got killed in the wild when searching for food.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 625,
+    "text": "Lucky for them, (23) Takotna is famous for its delicious fruit pies.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 626,
+    "text": "the surroundings they have dominated for centuries.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 627,
+    "text": "J) For his part, Wang said that in his own experience, losing did light a motivating fire.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 628,
+    "text": "They can 33 mistakes, see value in things that are far from perfect and identify areas for improvement.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 629,
+    "text": "These are much better and much more productive ways for companies to move forward on their employees’ wellbeing.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 630,
+    "text": "To be interesting means that you have lived life, taken risks, traveled, sought out experience to learn for yourself and share with others,” she says.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 631,
+    "text": "While cheek-kissing for Latin Americans is also a universal greeting form, it does not require such a high degree of relational closeness.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 632,
+    "text": "Luckily, there are a few things you can do to determine whether or not a company is a good fit for you—before you ever sign your name on that dotted line.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 633,
+    "text": "Social media can be a powerful communication tool for employees, helping them to collaborate, share ideas and solve problems.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 634,
+    "text": "To properly care for patients, we also need to care about the lives of the people getting the care.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 635,
+    "text": "That’s better for the environment.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 636,
+    "text": "They will also carry with them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts of their families.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 637,
+    "text": "For the presentation, I’ll bring my own laptop and hook it up to their projector.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 638,
+    "text": "But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 639,
+    "text": "Like evil, we often view heroism as only a possibility for outliers—for people who are abnormal.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 640,
+    "text": "Once upon a time, it was just customary for a bride to take her groom’s last name as her own and abandon her maiden name completely.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 641,
+    "text": "Nick Gibb, minister for school standards in England, believes schools should ban their pupils from bringing in smartphones.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 642,
+    "text": "For software to understand pizza is served at Italian restaurants is easy.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 643,
+    "text": "Poor sleep might be a problem for older people, but surely young people can handle late nights.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 644,
+    "text": "He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 645,
+    "text": "Immigrants use credit less often for purchasing cars, homes or starting businesses.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 646,
+    "text": "J) For Sara Pore, aged 17, another club member, lion dance is more than just tradition, it provides a creative outlet.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 647,
+    "text": "How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 648,
+    "text": "[19] For college students under pressure, a dog may be the best stress fighter around, according to the finding of a recent study.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 649,
+    "text": "P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 650,
+    "text": "In a new study, participants were told to imagine that they were negotiating for something important to them, like a house.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 651,
+    "text": "What does it take for decisions to become the best according to the author?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 652,
+    "text": "In relation to the intensity of anaerobic exercise, however, the results were far clearer—the optimum for",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 653,
+    "text": "Most of the coverage of the boom in wild camping has been negative. [17] Camping in public parks has now been banned for August and the early part of September because campers dump litter, human waste, and even their tents on the grassland.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 654,
+    "text": "need for immediate rewards, why not use it to your advantage?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 655,
+    "text": "Without conflict, we’re often stuck in this artificial harmony where people don’t express potentially innovative ideas for fear that they may start conflict with others.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 656,
+    "text": "They help motivate coworkers to strive for a common goal.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 657,
+    "text": "One study, for example, found that adults over sixty had an",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 658,
+    "text": "M: [15] So, tiny homes might not be for everyone, but they’re a good option for many.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 659,
+    "text": "Students have to search for the information.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 660,
+    "text": "A child’s physical development can benefit greatly from taking pets for walks in the fresh air.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 661,
+    "text": "All of this considered, the road forward for self-driving cars is not going to be a smooth",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 662,
+    "text": "implications for the skills pipeline in Britain’s hugely successful arts and creative industries.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 663,
+    "text": "Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] But participants were more likely to choose that person when they’re looking for a competitive team member.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 664,
+    "text": "Is juicing actually good for you?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 665,
+    "text": "But for volunteering to benefit employees and the workplace, the entire organization needs to be involved.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 666,
+    "text": "Plant-based meats are no longer just for vegetarians.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 667,
+    "text": "hang around, so “in a lot of cases, that’s created much nicer environments that are really good for those businesses.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 668,
+    "text": "[19] When planning for this year, our principal asked what needed to change to engage students more in their learning.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 669,
+    "text": "Eventually, he realised he could transfer his skills to real-life business — instead of doing it for free.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 670,
+    "text": "But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 671,
+    "text": "While cow milk is still served for tea and coffee, the menu is almost",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 672,
+    "text": "They charged a high price for their space-roasted coffee beans.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 673,
+    "text": "Weeks before the competitors arrive, the residents of Takotna start preparing for what is without question their biggest event of the year.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 674,
+    "text": "word\"five\" in many languages is derived from the word for \"hand.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 675,
+    "text": "Studies point to how boredom is good for creativity and innovation, as",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 676,
+    "text": "The study also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 677,
+    "text": "They claim that thousands of children are still being “penalized” for being left-handed.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 678,
+    "text": "Richard Pile, a physician with a special interest in diabetes, argues that adopting this approach “could actually result in worse outcomes for individuals and society.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 679,
+    "text": "However, gender matters more for them because cheek-kissing often only happens between women or a man and a woman but not two men.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   }
+  ]
+ }
+]

@@ -1,0 +1,962 @@
+{
+ "fix up": {
+  "canonical": "fix up",
+  "pos": "v.",
+  "zh": "修理，修补；整理，布置",
+  "example": {
+   "id": 0,
+   "en": "It’s like fixing up an airplane engine and ignoring that the pilot is on his third drink at the bar and a massive storm is overhead.",
+   "zh": "这就像在修飞机引擎，却无视飞行员已在酒吧喝到第三杯、头顶还有一场巨大风暴。"
+  },
+  "valid": true,
+  "note": "仅1句，例句偏长"
+ },
+ "offer up": {
+  "canonical": "offer up",
+  "pos": "v.",
+  "zh": "提供，献出",
+  "example": {
+   "id": 0,
+   "en": "Before long, people started offering up their own fancy dresses for her to wear.",
+   "zh": "不久，人们开始拿出自己漂亮的裙子给她穿。"
+  },
+  "valid": true,
+  "note": "up 仅加强语气，边缘；仅1句"
+ },
+ "come up": {
+  "canonical": "come up",
+  "pos": "v.",
+  "zh": "（太阳）升起",
+  "example": {
+   "id": 0,
+   "en": "\"It's almost like the dark night is ending and the sun is coming up,\" said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.",
+   "zh": "“就像黑夜快结束、太阳正在升起。”"
+  },
+  "valid": false,
+  "note": "此句 come up 只是字面的向上方向（日出），按 come/up 义项标，不算固定短语"
+ },
+ "back up": {
+  "canonical": "back up",
+  "pos": "v.",
+  "zh": "支持，证实；备份；（车辆）堵塞排队",
+  "example": {
+   "id": 1,
+   "en": "And Game Academy reckons its belief is backed up by hard data.",
+   "zh": "游戏学院认为自己的看法有确凿数据支持。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "divide up": {
+  "canonical": "divide up",
+  "pos": "v.",
+  "zh": "分开，瓜分",
+  "example": {
+   "id": 1,
+   "en": "who,\" he said, suggesting that some more equal dividing up of money might be more productive and",
+   "zh": "这不只是分配的问题。"
+  },
+  "valid": true,
+  "note": "两句都是残句；例句取id0"
+ },
+ "mess up": {
+  "canonical": "mess up",
+  "pos": "v.",
+  "zh": "弄糟，搞乱；（messed up）一团糟的",
+  "example": {
+   "id": 0,
+   "en": "Responding to the post, one person commented that it is messed up beyond another level.",
+   "zh": "回应这条帖子时，有人评论说这事糟糕得超乎想象。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "move up": {
+  "canonical": "move up",
+  "pos": "v.",
+  "zh": "晋升，在职位阶梯上上升",
+  "example": {
+   "id": 0,
+   "en": "Success was once defined as being able to stay at a company for a long time and move up the corporate ladder.",
+   "zh": "过去，成功被定义为能在一家公司长期待下去并在公司内晋升。"
+  },
+  "valid": true,
+  "note": "原句截断，ladder 为补全"
+ },
+ "get up": {
+  "canonical": "get up",
+  "pos": "v.",
+  "zh": "起床",
+  "example": {
+   "id": 0,
+   "en": "Developing the habit of getting up early.",
+   "zh": "养成早起的习惯。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "add up": {
+  "canonical": "add up",
+  "pos": "v.",
+  "zh": "累积起来；加起来",
+  "example": {
+   "id": 0,
+   "en": "While that $18 difference per ticket may seem small, it adds up.",
+   "zh": "虽然每张票18美元的差价看似不大，但积少成多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "up until": {
+  "canonical": "up until",
+  "pos": "prep.",
+  "zh": "直到……为止",
+  "example": {
+   "id": 0,
+   "en": "“Which matters more depends on what your history up until that point has been in the type of work you’re doing,”",
+   "zh": "“哪个更重要，取决于你到那时为止在所做的这类工作上有怎样的经历。”"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "chalk up": {
+  "canonical": "chalk up",
+  "pos": "v.",
+  "zh": "把……归因于（chalk up sth to sth）；记下，获得",
+  "example": {
+   "id": 0,
+   "en": "Li said “We often chalk up our stress to broad experiences like work.",
+   "zh": "李说：“我们常把压力归因于工作之类的宽泛经历。”"
+  },
+  "valid": true,
+  "note": "句中为 chalk up sth to sth 用法"
+ },
+ "look up": {
+  "canonical": "look up",
+  "pos": "v.",
+  "zh": "查阅，查找",
+  "example": {
+   "id": 0,
+   "en": "In many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.",
+   "zh": "在很多情况下，学生没有意识到用智能手机查答案之类的做法其实就是作弊。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "cheer up": {
+  "canonical": "cheer up",
+  "pos": "v.",
+  "zh": "使高兴起来，振作",
+  "example": {
+   "id": 0,
+   "en": "Cheer them up instantly.",
+   "zh": "立刻让他们高兴起来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "spring up": {
+  "canonical": "spring up",
+  "pos": "v.",
+  "zh": "突然出现，涌现",
+  "example": {
+   "id": 0,
+   "en": "Unlike many food waste projects that have sprung up in recent years",
+   "zh": "与近年来涌现的许多食物浪费项目不同"
+  },
+  "valid": true,
+  "note": "仅1句，例句截取自截断原句，非完整句"
+ },
+ "draw up": {
+  "canonical": "draw up",
+  "pos": "v.",
+  "zh": "起草，拟定",
+  "example": {
+   "id": 0,
+   "en": "Draw up a list of the efficiencies to be promised.",
+   "zh": "拟一份要承诺的节省措施清单。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hook up": {
+  "canonical": "hook up",
+  "pos": "v.",
+  "zh": "连接（设备）",
+  "example": {
+   "id": 0,
+   "en": "For the presentation, I’ll bring my own laptop and hook it up to their projector.",
+   "zh": "演示时，我会带自己的笔记本电脑，把它连到他们的投影仪上。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "ring up": {
+  "canonical": "ring up",
+  "pos": "v.",
+  "zh": "打电话（英式）",
+  "example": {
+   "id": 0,
+   "en": "Farmers ring up to receive the information.",
+   "zh": "农民们打电话来获取信息。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "heat up": {
+  "canonical": "heat up",
+  "pos": "v.",
+  "zh": "变热，升温",
+  "example": {
+   "id": 0,
+   "en": "But if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.",
+   "zh": "但如果升到40到41度，你可能会中暑。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "shoot up": {
+  "canonical": "shoot up",
+  "pos": "v.",
+  "zh": "猛增，飙升",
+  "example": {
+   "id": 0,
+   "en": "Flavoured water is booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data.",
+   "zh": "风味水正在走红：据最新分析数据，起泡类的销量猛增了20%。"
+  },
+  "valid": true,
+  "note": "例句去掉了结尾残句 Meanwhile,"
+ },
+ "fill up": {
+  "canonical": "fill up",
+  "pos": "v.",
+  "zh": "装满，加满",
+  "example": {
+   "id": 0,
+   "en": "Therefore, I suggest you spend more time in the park with your friends, but make sure you apply lots of skin protection and fill up those water bottles, too.",
+   "zh": "因此我建议你多和朋友待在公园里，但一定要涂足防晒，并把水瓶都装满。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "up to speed": {
+  "canonical": "up to speed",
+  "pos": "adj.",
+  "zh": "跟上进度，掌握最新情况（get up to speed）",
+  "example": {
+   "id": 0,
+   "en": "Diving headfirst into the crash course of starting university, I’ve quickly tried to get myself up to speed with the financial",
+   "zh": "一头扎进大学入学的速成课程，我很快努力让自己跟上财务方面的情况。"
+  },
+  "valid": true,
+  "note": "canonical 可考虑 get up to speed；原句截断"
+ },
+ "line up": {
+  "canonical": "line up",
+  "pos": "v.",
+  "zh": "排列，排队；安排好",
+  "example": {
+   "id": 0,
+   "en": "Cacao seedlings are lined up in refrigerated greenhouses for a new experiment by using a technology called CRISPR.",
+   "zh": "可可幼苗在冷藏温室里排列好，用于一项采用CRISPR技术的新实验。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "would like": {
+  "canonical": "would like",
+  "pos": "v.",
+  "zh": "想要，愿意",
+  "example": {
+   "id": 0,
+   "en": "Would you like to join us?",
+   "zh": "你愿意加入我们吗？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "feel like": {
+  "canonical": "feel like",
+  "pos": "v.",
+  "zh": "想要（做/吃）；感觉像",
+  "example": {
+   "id": 0,
+   "en": "I don’t feel like sandwiches today.",
+   "zh": "我今天不想吃三明治。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "nothing like": {
+  "canonical": "nothing like",
+  "pos": "prep.",
+  "zh": "没有什么比……更好",
+  "example": {
+   "id": 0,
+   "en": "There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship.",
+   "zh": "没有什么比作为团队一员去完成赢得比赛甚至冠军这样的目标更好了。"
+  },
+  "valid": true,
+  "note": "pos 取 adv. 类难定"
+ },
+ "no doubt": {
+  "canonical": "no doubt",
+  "pos": "adv.",
+  "zh": "无疑，毫无疑问",
+  "example": {
+   "id": 0,
+   "en": "And that covers just three activities, and if other digital media activities were included, that estimate would no doubt rise.",
+   "zh": "这还只是三种活动；如果把其他数字媒体活动也算上，这个估计无疑还会上升。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no longer": {
+  "canonical": "no longer",
+  "pos": "adv.",
+  "zh": "不再",
+  "example": {
+   "id": 1,
+   "en": "She no longer has any money left.",
+   "zh": "她不再有钱了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no questions asked": {
+  "canonical": "no questions asked",
+  "pos": "adv.",
+  "zh": "不问缘由，不加追问",
+  "example": {
+   "id": 0,
+   "en": "Anyone who is hungry and wants something to eat can take one, no questions asked and hand it to the staff for some food.",
+   "zh": "任何饿了想吃东西的人都可以拿一个，不会被追问，然后交给工作人员换取食物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no big deal": {
+  "canonical": "no big deal",
+  "pos": "n.",
+  "zh": "没什么大不了",
+  "example": {
+   "id": 0,
+   "en": "I landed badly during a fall and twisted it a little, but it’s no big deal.",
+   "zh": "我摔倒时落地姿势不好，稍微扭了一下，但没什么大不了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no problem": {
+  "canonical": "no problem",
+  "pos": "int.",
+  "zh": "没问题；不客气",
+  "example": {
+   "id": 0,
+   "en": "No problem.",
+   "zh": "没问题。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no way": {
+  "canonical": "no way",
+  "pos": "int.",
+  "zh": "不可能，绝不",
+  "example": {
+   "id": 0,
+   "en": "No way!",
+   "zh": "不可能！"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "no wonder": {
+  "canonical": "no wonder",
+  "pos": "adv.",
+  "zh": "难怪",
+  "example": {
+   "id": 0,
+   "en": "No wonder using mobile phones while driving causes more crashes a year than drink driving, says the U.S.",
+   "zh": "难怪开车时使用手机引发的车祸每年比酒驾还多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "would rather": {
+  "canonical": "would rather",
+  "pos": "v.",
+  "zh": "宁愿，更愿意",
+  "example": {
+   "id": 0,
+   "en": "She feels Jeremy would rather dine out.",
+   "zh": "她觉得杰里米更愿意出去吃。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wipe out": {
+  "canonical": "wipe out",
+  "pos": "v.",
+  "zh": "彻底消灭，灭绝",
+  "example": {
+   "id": 0,
+   "en": "The foxes were almost wiped out completely.",
+   "zh": "狐狸几乎被彻底消灭了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "miss out": {
+  "canonical": "miss out",
+  "pos": "v.",
+  "zh": "错过（常接 on）",
+  "example": {
+   "id": 1,
+   "en": "It’s a shame you missed out on the general discount.",
+   "zh": "你错过了通用折扣，真可惜。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stress out": {
+  "canonical": "stress out",
+  "pos": "v.",
+  "zh": "使焦虑紧张",
+  "example": {
+   "id": 0,
+   "en": "Get really specific with what’s stressing you out.",
+   "zh": "要把让你焦虑的事情想得非常具体。"
+  },
+  "valid": true,
+  "note": "原句有引号和 Ms. 残片，已截取"
+ },
+ "work out": {
+  "canonical": "work out",
+  "pos": "v.",
+  "zh": "弄清，想出；算出；结果是；（事情）成功",
+  "example": {
+   "id": 0,
+   "en": "But working out how to behave online is a new social skill.",
+   "zh": "但弄明白在网上该如何举止，是一项新的社交技能。"
+  },
+  "valid": true,
+  "note": "四句含四种不同用法"
+ },
+ "seek out": {
+  "canonical": "seek out",
+  "pos": "v.",
+  "zh": "寻找，找出",
+  "example": {
+   "id": 1,
+   "en": "It’s what motivates non-human animals, human infants and probably human adults to explore and seek out new things before growing less interested in them after continued exposure.",
+   "zh": "这是促使非人类动物、人类婴儿，或许还有成年人去探索、寻找新事物的动力，之后在持续接触后才会兴趣减退。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "carry out": {
+  "canonical": "carry out",
+  "pos": "v.",
+  "zh": "执行，实施，开展",
+  "example": {
+   "id": 0,
+   "en": "It has to be carried out to the letter.",
+   "zh": "必须一丝不苟地执行。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "find out": {
+  "canonical": "find out",
+  "pos": "v.",
+  "zh": "查明，发现，弄清楚",
+  "example": {
+   "id": 0,
+   "en": "Find out where Jimmy is.",
+   "zh": "查明吉米在哪里。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "check out": {
+  "canonical": "check out",
+  "pos": "v.",
+  "zh": "为（顾客）结账；查看，核实",
+  "example": {
+   "id": 0,
+   "en": "When you visit the grocery store, you might draw conclusions about the cashier who checks you out.",
+   "zh": "逛杂货店时，你可能会对给你结账的收银员下些判断。"
+  },
+  "valid": true,
+  "note": "仅1句"
+ },
+ "play out": {
+  "canonical": "play out",
+  "pos": "v.",
+  "zh": "（事情）发展，上演",
+  "example": {
+   "id": 0,
+   "en": "I think social media too can intensify things as birthdays now play out more publicly.",
+   "zh": "我认为社交媒体也会加剧这种情况，因为现在生日的过法更公开了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hang out": {
+  "canonical": "hang out",
+  "pos": "v.",
+  "zh": "闲逛，（和某人）待在一起",
+  "example": {
+   "id": 0,
+   "en": "I mean, who wants to hang out with people in their suits?",
+   "zh": "我是说，谁想和穿着西装的人一起玩呢？"
+  },
+  "valid": true,
+  "note": "原句开头 I 被OCR丢失，已补"
+ },
+ "set out": {
+  "canonical": "set out",
+  "pos": "v.",
+  "zh": "阐明，提出；着手（做）；出发",
+  "example": {
+   "id": 2,
+   "en": "When people set out to improve their health, they usually take a familiar path.",
+   "zh": "人们着手改善健康时，通常会走一条熟悉的路。"
+  },
+  "valid": true,
+  "note": "三句三种用法，例句截取冒号前"
+ },
+ "break out": {
+  "canonical": "break out",
+  "pos": "v.",
+  "zh": "（火灾、战争等）爆发",
+  "example": {
+   "id": 0,
+   "en": "Six people had to move away from their home to another place after a fire broke out in a building on Main Street Saturday, officials said.",
+   "zh": "官员称，周六主街一栋楼发生火灾后，六人不得不搬离住处去别处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sort out": {
+  "canonical": "sort out",
+  "pos": "v.",
+  "zh": "整理，理清；解决",
+  "example": {
+   "id": 0,
+   "en": "To help busy people to sort out their priorities.",
+   "zh": "帮助忙碌的人理清轻重缓急。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "send out": {
+  "canonical": "send out",
+  "pos": "v.",
+  "zh": "发出，发送",
+  "example": {
+   "id": 0,
+   "en": "They sent out a message to calm them down.",
+   "zh": "他们发出了一条让他们冷静的消息。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "cheat sb out of sth": {
+  "canonical": "cheat sb out of sth",
+  "pos": "v.",
+  "zh": "骗取某人的某物",
+  "example": {
+   "id": 0,
+   "en": "executives out of millions of pounds.",
+   "zh": "骗走高管们数百万英镑。"
+  },
+  "valid": true,
+  "note": "仅1句且为残句"
+ },
+ "point out": {
+  "canonical": "point out",
+  "pos": "v.",
+  "zh": "指出",
+  "example": {
+   "id": 0,
+   "en": "He points out that more than 200 genes influence weight.",
+   "zh": "他指出有超过200个基因影响体重。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pump out": {
+  "canonical": "pump out",
+  "pos": "v.",
+  "zh": "大量生产，大量排出",
+  "example": {
+   "id": 0,
+   "en": "In the absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that are worn only a few times and then discarded.",
+   "zh": "在缺乏环境和经济上可行的回收办法时，快时尚厂商大量生产质量低劣的衣服，这些衣服只穿几次就被丢弃。"
+  },
+  "valid": true,
+  "note": "句子较长，仅1句"
+ },
+ "take out": {
+  "canonical": "take out",
+  "pos": "v.",
+  "zh": "取出；抽出（时间）",
+  "example": {
+   "id": 1,
+   "en": "Colleagues are most likely to take out time to socialize on the last work day of the week.",
+   "zh": "同事们最有可能在一周最后一个工作日抽出时间社交。"
+  },
+  "valid": true,
+  "note": "id0 是残句；id1 为 take out time（≈take time out），边缘"
+ },
+ "worn out": {
+  "canonical": "worn out",
+  "pos": "adj.",
+  "zh": "筋疲力尽的；磨破的",
+  "example": {
+   "id": 0,
+   "en": "No, sorry, I’m actually pretty worn out.",
+   "zh": "不好意思，我其实累坏了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "lay out": {
+  "canonical": "lay out",
+  "pos": "v.",
+  "zh": "展示，摆出；布置，安排",
+  "example": {
+   "id": 0,
+   "en": "Well, I suggest reorganizing your notes using color-coded sections in your study guides, or using idea mapping to lay out the information and make it more quickly accessible.",
+   "zh": "我建议你在学习指南里用彩色编码的分区重新整理笔记，或用思维导图把信息铺陈出来，这样查起来更快。"
+  },
+  "valid": true,
+  "note": "去掉了题号括号"
+ },
+ "even out": {
+  "canonical": "even out",
+  "pos": "v.",
+  "zh": "持平，相互抵消；变均匀",
+  "example": {
+   "id": 0,
+   "en": "On paper, my expenses and my financial aid just about even out.",
+   "zh": "账面上，我的开销和助学金差不多持平。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "leave out": {
+  "canonical": "leave out",
+  "pos": "v.",
+  "zh": "遗漏，排除在外",
+  "example": {
+   "id": 1,
+   "en": "Keeping your name and joining it to your husband’s through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.",
+   "zh": "用连字符把你的姓和丈夫的姓连在一起，与直接改用他的姓，或只保留自己的姓而把他的姓排除在外，同样合法。"
+  },
+  "valid": true,
+  "note": "id0 为 left out 被排挤"
+ },
+ "test out": {
+  "canonical": "test out",
+  "pos": "v.",
+  "zh": "试验，检验",
+  "example": {
+   "id": 0,
+   "en": "To test this out, they conducted two studies.",
+   "zh": "为了检验这一点，他们开展了两项研究。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "strip out": {
+  "canonical": "strip out",
+  "pos": "v.",
+  "zh": "去除，剔除",
+  "example": {
+   "id": 0,
+   "en": "It made every effort to keep the essential capabilities of smartphones, but strip out costs and preserve battery life for people who likely have inadequate access to electricity.",
+   "zh": "它竭力保留智能手机的基本功能，但去掉成本，并延长电池续航，面向可能难以获得电力的人群。"
+  },
+  "valid": true,
+  "note": "仅1句"
+ },
+ "try out": {
+  "canonical": "try out",
+  "pos": "v.",
+  "zh": "试用，试验",
+  "example": {
+   "id": 0,
+   "en": "Trying out innovative marketing strategies.",
+   "zh": "尝试创新的营销策略。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fill out": {
+  "canonical": "fill out",
+  "pos": "v.",
+  "zh": "填写（表格）",
+  "example": {
+   "id": 0,
+   "en": "Fill out a more comprehensive checklist, and be wary of listed prices that seem too low.",
+   "zh": "填写一份更全面的清单，并警惕看起来过低的标价。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "print out": {
+  "canonical": "print out",
+  "pos": "v.",
+  "zh": "打印出来",
+  "example": {
+   "id": 0,
+   "en": "Do you prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us?",
+   "zh": "你是喜欢在网上填申请，还是打印出来手填再寄回给我们？"
+  },
+  "valid": true,
+  "note": "仅1句；该句同时含 fill out"
+ },
+ "stand out": {
+  "canonical": "stand out",
+  "pos": "v.",
+  "zh": "突出，出众",
+  "example": {
+   "id": 1,
+   "en": "If Kelli stands out, it’s because she is also a gifted writer.",
+   "zh": "如果说凯莉很出众，那是因为她还是个有天赋的作家。"
+  },
+  "valid": true,
+  "note": "去掉了选项标号 E)"
+ },
+ "roll out": {
+  "canonical": "roll out",
+  "pos": "v.",
+  "zh": "推出，推广",
+  "example": {
+   "id": 0,
+   "en": "It could be rolled out across the state.",
+   "zh": "它可以在全州推广。"
+  },
+  "valid": true,
+  "note": "原句为残句，补了主语"
+ },
+ "die out": {
+  "canonical": "die out",
+  "pos": "v.",
+  "zh": "灭绝，消失",
+  "example": {
+   "id": 0,
+   "en": "Scientists can still help save chocolates from dying out!",
+   "zh": "科学家仍能帮助拯救巧克力免于灭绝！"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wear out": {
+  "canonical": "wear out",
+  "pos": "v.",
+  "zh": "磨损，耗尽，使筋疲力尽",
+  "example": {
+   "id": 0,
+   "en": "wear out increasing the risk of developing type 2 diabetes.",
+   "zh": "磨损会增加患2型糖尿病的风险。"
+  },
+  "valid": true,
+  "note": "仅1句且为残句，语境不明（wear out 作 磨损/耗尽 理解），建议核对原卷"
+ },
+ "come out": {
+  "canonical": "come out",
+  "pos": "v.",
+  "zh": "显露出来；出来，到场",
+  "example": {
+   "id": 0,
+   "en": "Red Rum’s true talent came out in steeplechases.",
+   "zh": "红朗姆的真正才华在障碍赛马中显露出来。"
+  },
+  "valid": true,
+  "note": "原句括号注释已删"
+ },
+ "out of the gate": {
+  "canonical": "out of the gate",
+  "pos": "adv.",
+  "zh": "一开始，起步时",
+  "example": {
+   "id": 0,
+   "en": "They hit me right out of the gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and from the District.",
+   "zh": "他们一上来就向我收了160美元参加新生入学指导，这还不包括往返该地区的路费。"
+  },
+  "valid": true,
+  "note": "原句 of gate 缺 the，已补"
+ },
+ "win out": {
+  "canonical": "win out",
+  "pos": "v.",
+  "zh": "最终获胜，胜出",
+  "example": {
+   "id": 0,
+   "en": "An Italian study found that for simple arithmetic there was little difference between right- and left-handed performance, but for more difficult problem-solving, left-handers won out.",
+   "zh": "一项意大利研究发现，简单算术上左右手使用者差别不大，但在更难的解题上，左利手者胜出。"
+  },
+  "valid": true,
+  "note": "去掉了题号"
+ },
+ "the jury is out": {
+  "canonical": "the jury is out",
+  "pos": "v.",
+  "zh": "尚无定论",
+  "example": {
+   "id": 0,
+   "en": "For now, the jury is still out as to how successful those endeavours will be.",
+   "zh": "目前，这些努力能有多成功仍无定论。"
+  },
+  "valid": true,
+  "note": "整句习语，canonical 保持"
+ },
+ "lose out": {
+  "canonical": "lose out",
+  "pos": "v.",
+  "zh": "落败；错失（机会）",
+  "example": {
+   "id": 1,
+   "en": "In the following two years, Red Rum lost out on the title, coming in second both times.",
+   "zh": "在接下来的两年里，红朗姆都屈居第二，与冠军失之交臂。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pass out": {
+  "canonical": "pass out",
+  "pos": "v.",
+  "zh": "分发；昏倒",
+  "example": {
+   "id": 0,
+   "en": "She didn’t just pass out food, she gave them love.",
+   "zh": "她不只是分发食物，还给了他们爱。"
+  },
+  "valid": true,
+  "note": "真题里为“分发”义"
+ },
+ "hear sb out": {
+  "canonical": "hear sb out",
+  "pos": "v.",
+  "zh": "听某人把话说完",
+  "example": {
+   "id": 0,
+   "en": "Please hear me out.",
+   "zh": "请听我把话说完。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of favor": {
+  "canonical": "out of favor",
+  "pos": "adj.",
+  "zh": "不受欢迎，不再流行",
+  "example": {
+   "id": 0,
+   "en": "What foods have been largely out of favor for more than a century?",
+   "zh": "哪些食物一百多年来基本上不受青睐？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of one's own pocket": {
+  "canonical": "out of one's own pocket",
+  "pos": "adv.",
+  "zh": "自掏腰包",
+  "example": {
+   "id": 0,
+   "en": "And, of course, some researchers today still fund small-scale studies out of their own pockets.",
+   "zh": "当然，今天仍有一些研究者自掏腰包资助小规模研究。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give out": {
+  "canonical": "give out",
+  "pos": "v.",
+  "zh": "发放，公布",
+  "example": {
+   "id": 0,
+   "en": "He believes giving out this information will help Ohio’s colleges and universities to be more competitive.",
+   "zh": "他认为公布这些信息将有助于俄亥俄州的高校更具竞争力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "rule out": {
+  "canonical": "rule out",
+  "pos": "v.",
+  "zh": "排除，不考虑",
+  "example": {
+   "id": 0,
+   "en": "But there are promising students from struggling families across the nation who should not rule out their dream schools entirely.",
+   "zh": "但全国各地有不少来自困难家庭的优秀学生，不应该完全排除自己梦想中的学校。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of state": {
+  "canonical": "out of state",
+  "pos": "adj.",
+  "zh": "州外的，外州的",
+  "example": {
+   "id": 0,
+   "en": "Students may not be able to enjoy their state benefits when they go to college out of the state.",
+   "zh": "学生去州外上大学时，可能享受不到本州的福利。"
+  },
+  "valid": true,
+  "note": "组合偏透明，边缘；保留"
+ },
+ "these days": {
+  "canonical": "these days",
+  "pos": "adv.",
+  "zh": "如今，现在",
+  "example": {
+   "id": 0,
+   "en": "We’re eating more fish than ever these days.",
+   "zh": "如今我们吃的鱼比以往任何时候都多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "look one's best": {
+  "canonical": "look one's best",
+  "pos": "v.",
+  "zh": "使自己看起来最好",
+  "example": {
+   "id": 0,
+   "en": "It expects every individual to look their very best.",
+   "zh": "它期望每个人都尽量展现最好的一面。"
+  },
+  "valid": false,
+  "note": "各词义相加即可理解（look + best），属普通搭配"
+ },
+ "even though": {
+  "canonical": "even though",
+  "pos": "conj.",
+  "zh": "即使，尽管",
+  "example": {
+   "id": 4,
+   "en": "Even though we basically know what will happen, we keep coming back for more.",
+   "zh": "尽管我们基本知道会发生什么，我们还是一再回来看。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "once again": {
+  "canonical": "once again",
+  "pos": "adv.",
+  "zh": "再一次，又一次",
+  "example": {
+   "id": 0,
+   "en": "He has escaped the zoo once again.",
+   "zh": "它又一次从动物园逃走了。"
+  },
+  "valid": true,
+  "note": ""
+ }
+}

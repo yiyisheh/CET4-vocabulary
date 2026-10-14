@@ -1,0 +1,3652 @@
+[
+ {
+  "word": "to",
+  "def": "prep.向; 到; 对. (用于动词不定式前).",
+  "senses": [
+   {
+    "pos": "",
+    "zh": "不定式符号，后接动词原形（want to go）"
+   },
+   {
+    "pos": "",
+    "zh": "（不定式）为了"
+   },
+   {
+    "pos": "",
+    "zh": "（be to do）按要求或安排要做"
+   },
+   {
+    "pos": "prep.",
+    "zh": "向，到，往（方向、目的地）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "对，给（引出对象，如 say to, send to, open to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "到，至（终点、范围、程度，如 from 1 to 10, up to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "与……相比，与……相同（similar to, compared to）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（时间）差（ten to six）"
+   }
+  ],
+  "phrases_seen": [
+   "have to"
+  ],
+  "notes": [
+   "1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。"
+  ],
+  "sents": [
+   {
+    "id": 1880,
+    "text": "They will inevitably pack too much to fit in their tiny dorm rooms.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 1881,
+    "text": "But excessive heat can cause you to lose water, which has been proven to have a pretty unattractive side effect—bad breath.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 1882,
+    "text": "Often, we have to consider saying “no” to someone we will interact with again in the future—our co-worker, our spouse, our family and friends.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 1883,
+    "text": "According to one interior designer, when people return home, they want to see colours that cheer them up and give them a hug.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 1884,
+    "text": "The math task in one experiment was designed to test participants’ tendency to cheat.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 1885,
+    "text": "You could choose an entirely new last name for the two of you to share.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 1886,
+    "text": "To test this out, they conducted two studies.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 1887,
+    "text": "This is down to climate change, he believes.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 1888,
+    "text": "Smaller manufacturers may also be forced to use new plastic to reduce costs.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 1889,
+    "text": "G) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality—what is it like to speed around a track inside a Ferrari?—are among the possibilities.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 1890,
+    "text": "They can offer insight into the evolution of their own experience and knowledge, presenting themselves as more approachable and then they are more likely to inspire others to want to know more.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 1891,
+    "text": "\"Many people see team-building activities as a waste of time, so we decided to look in more depth at what's behind this,\" said the paper's lead researcher, Dr Peter Matous.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 1892,
+    "text": "Last week, BBC Future explored one scientist’s efforts to help crops cope with the increased probability of droughts.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 1893,
+    "text": "But this should not stop you from taking risks, as risks are necessary if you want your business to succeed.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 1894,
+    "text": "I did not expect 80% of people to say the organisation finds dads taking this leave acceptable and three-quarters to say it’s equally supportive of women and men taking leave,” Harrington said.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 1895,
+    "text": "Red Rum was passed around to several owners before being purchased for Noel Le Mar.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 1896,
+    "text": "According to Benjamin M.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 1897,
+    "text": "It helps to resolve problems.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 1898,
+    "text": "Learning to be this focused when enjoying extreme sports will help you to be focused at work, keeping you more productive and ultimately more successful.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 1899,
+    "text": "This is because unauthorised absences tend to",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 1900,
+    "text": "And, according to new findings, it may not be.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 1901,
+    "text": "animal to hear long after the window for auditory learning was thought to have ___30___ said Patrick Kanold,",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 1902,
+    "text": "The state attracts more undergraduate students than it sends to colleges out of state. [25] Many colleges and universities currently provide similar information on their websites.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 1903,
+    "text": "Reading a book on how to learn a foreign language quickly allows you to feel like you are making",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 1904,
+    "text": "It’s important for us to further",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 1905,
+    "text": "In Egypt, researchers have found buildings from around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 1906,
+    "text": "and fruit juices — don’t seem to have harmful effects as long as they’re not contributing to excess daily calories.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 1907,
+    "text": "Trying to look like the magazine pictures can take us on a long ride away from what beauty",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 1908,
+    "text": "parking spots, as they argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 1909,
+    "text": "According to the new rules, students of Tavern are required to wear smart black shoes appropriate for the workplace. [24] Harris held that strengthened rules around school uniforms improved student outcomes and behavior.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 1910,
+    "text": "be very relevant to certain areas.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 1911,
+    "text": "Studies report that where you sit in the classroom can impact your ability to learn and the way your teacher perceives you.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 1912,
+    "text": "Hiring managers who are not yet 45 years old seem unwilling to hire people their senior.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 1913,
+    "text": "Directions: In this section, you are going to reaa a passage with ten statements attached to it. &eh",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1914,
+    "text": "Their activities may also create opportunities for invasive plants to colonize these areas.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1915,
+    "text": "There is not enough evidence to classify it as a disease.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 1916,
+    "text": "According to the World Health Organization experts, people’s use of computer games is different from their use of the Internet, social media and online shopping.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 1917,
+    "text": "organization to build face-to-face relationships.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 1918,
+    "text": "Research from Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” or forcing emotions that are not wholly felt.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 1919,
+    "text": "Campaigners feel it’s strange that children in British schools are penalized because they happen to be left-handed.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 1920,
+    "text": "Use what you find to ask more questions and learn more about the world around you.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 1921,
+    "text": "The researchers said moderate exercise appears to have helped those participants to be less vulnerable to the impact of the sad movie.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 1922,
+    "text": "What social class people belong to.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 1923,
+    "text": "If you get a yes to your request for a chat, you’ll be armed with some pretty powerful and helpful information heading into your interview!",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 1924,
+    "text": "Holidaymakers have been alerted to the frequent occurrence of online villa-booking frauds.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 1925,
+    "text": "G) Enter the rabbits—not those running around in our woodlands but ones serving in two month-long medical experiments to test the effects of eating a high-fat diet and the connections between cholesterol and heart disease.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 1926,
+    "text": "However, taking action and applying a new idea to your life will inspire you more than anything someone else can say.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 1927,
+    "text": "They will also carry with them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts of their families.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 1928,
+    "text": "Bacteria accumulate because there isn’t enough water in your mouth to wash it away.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 1929,
+    "text": "Saying “no” to our superiors at work",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 1930,
+    "text": "Another interior designer commented that certain combinations can key into something on a deeper level, transporting you to a different moment in time.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 1931,
+    "text": "Some creative ideas have turned out to do harm to human society.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 1932,
+    "text": "This way neither of you gets “your” way and you both have to deal with the legalities of going through a name change.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 1933,
+    "text": "In the first study, more than 600 high school students were surveyed about their tendency to take risks and feel confident.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 1934,
+    "text": "Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed on grass.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 1935,
+    "text": "Makers of clear plastic bottles may also opt for new fossil-fuel based plastic to save money.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 1936,
+    "text": "The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 1937,
+    "text": "The U.S. was founded by successive waves of immigrants, and immigrants are still contributing to America today—statistics prove it.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 1938,
+    "text": "The study found that team-building exercises which focused on the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections with colleagues.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 1939,
+    "text": "By using the genes from resurrection (复活) plants, Jill Farrant of the University of Cape Town is exploring whether she can design crops to survive for much longer periods without water.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 1940,
+    "text": "Some risks may not work out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 1941,
+    "text": "G) The previous study found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 1942,
+    "text": "For Ginger and Red Rum, though, it was just an obstacle to greatness that had to be overcome.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 1943,
+    "text": "an economist at Harvard, the U.S. economy is right on track to reach Keynes’s eightfold multiple by 2029.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 1944,
+    "text": "A team of researchers led by Priyanka Joshi examined the degree to which men and women relied on “communicative",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 1945,
+    "text": "It’s great to stay fit and healthy, but standard exercise routines and sports only work the same muscles repeatedly. [21] With extreme sports, you’ll be working entirely different muscles, and that means you get an all-over workout.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 1946,
+    "text": "The level of impact on students’ educational performance is all to do",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 1947,
+    "text": "Some researchers are now encouraging us to stop thinking about work-life",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 1948,
+    "text": "which is devoted to hearing.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 1949,
+    "text": "But students need to search for the information.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 1950,
+    "text": "progress (“Hey, I'm figuring out the best way to do this!”).",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 1951,
+    "text": "A question to think about is, “What happens even earlier than age five?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 1952,
+    "text": "Researchers think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 1953,
+    "text": "system a while to break these cells down and for fructose to enter the bloodstream.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 1954,
+    "text": "Many of us spend far too much time, energy, and money trying to polish an image of what we think will bring attention,",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 1955,
+    "text": "Department of Finance to give him a few years’ worth of sales figures for that stretch of Skillman Ave.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 1956,
+    "text": "Private rental prices in Britain rose 3.2 percent over the 12 months since July 2022—the largest jump since 2016, soaring energy bills have made things worse. [25] Lucinda May, mom of a Tavern student said that she had to ask her parents for £65 to buy her child the correct pair of shoes.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 1957,
+    "text": "“It’s about how you either make it relevant to the job you are",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 1958,
+    "text": "This study gathered that students had a clearer vision of the blackboard, and were able to focus more attention on the instructor.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 1959,
+    "text": "Some analysts find age 45+ jobless workers are most likely to be unemployed for more than a year.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 1960,
+    "text": "The start of high school doesn't have to be stressful",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1961,
+    "text": "A pair of entrepreneurs are planning to build and launch a spacecraft that would carry and roast coffee beans in outer space.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1962,
+    "text": "They vary in color from country to country.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 1963,
+    "text": "These experts claim there is not sufficient data to indicate that people’s reliance on those other activities is an addiction.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 1964,
+    "text": "Similar to the need for belonging, bored people often report that they feel a limited sense of",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 1965,
+    "text": "Emotional labor can lead to difficulty in sleeping and family conflict.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 1966,
+    "text": "They don’t understand why successive governments have failed to act on this.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 1967,
+    "text": "And when you find things that are truly interesting to you, share them.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 1968,
+    "text": "(22-1) Welcome to the tour of the Hill House.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 1969,
+    "text": "They are sensitive to the way people express their emotions",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 1970,
+    "text": "That’s the perfect opportunity to speak up and get your burning company culture questions answered!",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 1971,
+    "text": "It is holidaymakers that can protect themselves from falling victim to frauds.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 1972,
+    "text": "Instead of receiving the standard care given to lab animals, the 60% group was watched over by a newcomer to the lab who, Kelli writes, “handled the animals differently.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 1973,
+    "text": "And what matters is the power your actions have to inspire you.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 1974,
+    "text": "As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study, university merit scholarships and financial aid awards, and about $8,000 yearly in federally subsidized (有补贴的) and unsubsidized loans.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 1975,
+    "text": "The body’s normal temperature is 36 to 37 degrees centigrade.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 1976,
+    "text": "He writes, “Remind your superiors what you would be neglecting if you said ‘yes’ and force them to deal with the trade-off.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 1977,
+    "text": "If you are thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 1978,
+    "text": "It all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 1979,
+    "text": "Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 1980,
+    "text": "In the second study, those born on both sides of the cut-off date for starting school, were asked to complete online math questions and rate their performance.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 1981,
+    "text": "Mr Meteo takes the online weather forecast, converts it to a short recording in the appropriate language and makes it available on a basic phone.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 1982,
+    "text": "Plastic packaging makers are being pressured to use more recycled plastic.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 1983,
+    "text": "Opinions vary, particularly because viewing habits among consumers continue to evolve.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 1984,
+    "text": "First, they are more likely to be entrepreneurs.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 1985,
+    "text": "\"Many people don't want to be forced into having fun or making friends, especially not on top of their busy jobs.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 1986,
+    "text": "But if we can’t find ways to protect other foods, will they survive climate change?",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 1987,
+    "text": "Failure will teach you how to think and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn from it and move forward.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 1988,
+    "text": "H) Since then, there have been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 1989,
+    "text": "His power, speed and jumping ability carried him to his first Grand National title in 1973.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 1990,
+    "text": "century after the last data Keynes would have had access to.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 1991,
+    "text": "abstraction” to verbally convey their ideas and emotions.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 1992,
+    "text": "We all bring different life and work experiences to the table.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 1993,
+    "text": "There is opposition to the practice of giving children assignments to take home before extreme weather forces a school",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 1994,
+    "text": "They had a tendency to reflect and question assumptions in the name",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 1995,
+    "text": "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to ___33___",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 1996,
+    "text": "This bill would require the universities and colleges to send a packet directly to students.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 1997,
+    "text": "allow us to feel like we are moving forward when we are merely spinning our wheels.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 1998,
+    "text": "Children don’t just show up to the first day of",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 1999,
+    "text": "In China, Emperor Wenwang is said to have built a “Garden of Intelligence” around 1060 B.C.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 2000,
+    "text": "fructose in fruit juices counts as ‘free sugars’ — which also include honey and the sugars added to foods.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2001,
+    "text": "In the process, we may fail to attend to ourselves in a way that would move us toward deeper intimacy,",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2002,
+    "text": "compared to 3 percent for Queens in general.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2003,
+    "text": "you’re a determined gamer is more likely to harm your chances of getting a job.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2004,
+    "text": "By sitting front and center, students were able to hear better too. [24] The instructors said that they also formed a better connection with the students who sat in front.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2005,
+    "text": "People who had succeeded in career change after 45 told a nonprofit organization they owed a great deal to the education",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2006,
+    "text": "shock,\" which refers to a dramatic drop in a student's academic performance.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2007,
+    "text": "The craft will use the heat of re-entry to roast coffee beans as they float inside it in a pressurised tank.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2008,
+    "text": "Social isolation poses more health risks than obesity or smoking 15 cigarettes a day, according to",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2009,
+    "text": "But they argue that playing computer games to access is different.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2010,
+    "text": "It's a fundamental human need to have a larger purpose and to feel like we're part of something",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2011,
+    "text": "Sure, circumstantial stress, like losing a job, may lead to these same issues.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2012,
+    "text": "They want the department of education to record which children are left-handed and what their educational attainments are, since they make up some 10% of the population.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 2013,
+    "text": "I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, is always looking for what will make a person or story interesting to viewers: It’s usually a matter of individuality.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2014,
+    "text": "Prior to beginning his design, the architect spent some time in the client’s old home, observing their life and studying their habits.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 2015,
+    "text": "They attach great importance to close ties among people.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2016,
+    "text": "So yes, you can definitely ask your interviewer about what it’s like to work for that particular organization.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2017,
+    "text": "Holidaymakers are advised not to make payments by bank transfer.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2018,
+    "text": "When she fed her rabbits she talked to them and petted them.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2019,
+    "text": "They hit me right out of gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and from the District.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2020,
+    "text": "But if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2021,
+    "text": "For example, if your manager comes to you and asks you to do X, you can respond with ‘Yes, I’m happy to make this the priority.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2022,
+    "text": "If it gives you joy every time you open the cupboard, you can start to take it further.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2023,
+    "text": "Thomas’s approach, named the Eden Alternative, has driven nursing homes to allow a more autonomous (自主的) and creative living space for their elderly.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2024,
+    "text": "This allows you to keep going by your own last name while legally adopting your husband’s last name at the same time.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2025,
+    "text": "Farmers ring up to receive the information.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2026,
+    "text": "The UK government plans to tax companies which don’t use at least 30% recycled plastic in their products.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2027,
+    "text": "John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2028,
+    "text": "From 1996 to 2016, the pace at which immigrants started businesses was double that of U.S.-born individuals.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 2029,
+    "text": "They feel management is being too nosy or trying to control their lives too much.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2030,
+    "text": "Despite alarmist headlines about “foods that are going extinct,” there is no evidence that major food types like beans, chocolate, wine, corn or wheat will cease to exist.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2031,
+    "text": "[25] Since most people tend to avoid risk, businesses that are brave enough to take risks already have a competitive advantage.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 2032,
+    "text": "I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2033,
+    "text": "The very next year, Red Rum returned to take his second title.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2034,
+    "text": "In a new paper, Friedman tries to figure out why that increased productivity has not translated into increased leisure",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2035,
+    "text": "Communicative abstraction, according to the researchers, reflects",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2036,
+    "text": "We’re not all going to have the same ideas on how to approach policies, programs or problems.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 2037,
+    "text": "New policies adopted by many US schools require students to do online learning at home in case of a school closure.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2038,
+    "text": "of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2039,
+    "text": "frequencies based on what they are used to hearing.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2040,
+    "text": "H) Another point to consider is that practice is learning, but learning is not practice.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2041,
+    "text": "The logical question to ask is, “What happens even",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2042,
+    "text": "This collection eventually moved to the Tower of London in 1235.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 2043,
+    "text": "blood sugar cause the release of insulin to bring it back down to a stable level.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2044,
+    "text": "perfect appearance that we never cultivate the inner qualities necessary to sustain and deepen intimacy and connection.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2045,
+    "text": "When Coburn spoke to them and described what",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2046,
+    "text": "led a team in an online game, for example, they may be able to persuade an employer that this is useful,” says Dr Barr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2047,
+    "text": "But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2048,
+    "text": "Owing to the internet, it is now more convenient than ever to receive training in new skills.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2049,
+    "text": "This should matter a great deal to parents, teachers and policymakers.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2050,
+    "text": "The effect would be to roast the beans all over, and produce perfect coffee.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2051,
+    "text": "First, it produces stress hormones that can lead to",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2052,
+    "text": "To meet the new definition for addiction, the behavior must damage a person’s relationships or performance at school or work, and this must last for at least a year.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2053,
+    "text": "When people are bored, they're more likely to feel less meaning in their lives.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2054,
+    "text": "Li, many women try to manage the added stress to reach what Dr.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2055,
+    "text": "Educators don’t know how to deal with this.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 2056,
+    "text": "To be interesting means that you have lived life, taken risks, traveled, sought out experience to learn for yourself and share with others,” she says.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2057,
+    "text": "This meant that he could design the house according to the needs of the family.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 2058,
+    "text": "They tend to be more open in interpersonal relationships.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2059,
+    "text": "Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2060,
+    "text": "Fraudsters advertise their villas at reasonable prices so as not to be suspected.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2061,
+    "text": "She has walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2062,
+    "text": "Fees for lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2063,
+    "text": "At that point, your heat regulatory system can essentially quit, which stops you from sweating as your body tries to keep water around your vital organs.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2064,
+    "text": "Which of these other projects should I deprioritize to pay attention to this new project?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2065,
+    "text": "Parents often hear that reading to their children is critical for supporting development, and the message is getting through to them.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2066,
+    "text": "He encourages residents to think of their age as an enriching new phase of life rather than the end of it.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2067,
+    "text": "E) The compromise is the biggest reason that so many women choose to hyphenate their last names.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2068,
+    "text": "The service was designed to be cheap and easy to run, says Mr Dittoh.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2069,
+    "text": "Additionally, the government is planning to increase the quantity of recycled plastic in the market.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2070,
+    "text": "While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2071,
+    "text": "This can be compared to just 19% of the general population.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 2072,
+    "text": "In this study the researchers recommended a self-disclosure (表露) approach where participants were guided through a series of questions that allowed them to increasingly disclose personal information and values.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2073,
+    "text": "We will probably have to change where we grow certain crops, as some regions get too hot.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2074,
+    "text": "But for as long as you want to stay safe, and for as long as you are content with where your business is right now, you will never find out.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 2075,
+    "text": "J) The vast majority of men, 97%, said one of the top reasons to take leave was to share caregiving with their partner.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2076,
+    "text": "He was the first horse to take successive firsts since Reynoldstown in 1935-1936.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2077,
+    "text": "Perhaps people just never feel materially satisfied, always wanting more money to buy the next new thing.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2078,
+    "text": "the tendency of people to use “abstract speech that focuses on the broader picture and ___26___ purpose of action rather than",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2079,
+    "text": "[23] But too often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we can maintain the harmony of our workplace.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 2080,
+    "text": "According to some research, extreme hot weather negatively affects students’ performance.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2081,
+    "text": "changed to accommodate these new priorities?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2082,
+    "text": "the ___34___ of space to different frequencies.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2083,
+    "text": "because although you gain new knowledge, you are not discovering how to apply that knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2084,
+    "text": "number of pupils that sat exams in Design and Technology fell 10 percent from 204,788 to 185,279 last year.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2085,
+    "text": "Diets high in fibre have been linked to a lower risk of developing heart disease, stroke, high blood",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2086,
+    "text": "describe in my book, The Authentic Heart, it is the courage to be authentic that connects us in a deeper way.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2087,
+    "text": "E) This little story turns out to be a fascinating glimpse at the challenges cities face as they try to update their urban",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2088,
+    "text": "G) Playing games casually is unlikely to help your career prospects.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2089,
+    "text": "What do supporters say in response to the restaurant’s new policy?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2090,
+    "text": "New York's Eleven Madison Park has become the first vegan restaurant to be awarded three",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2091,
+    "text": "IBtimately it should matter to",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2092,
+    "text": "But if gravity is removed, the beans float around in a heated oven, received 360 degrees of evenly distributed heat and roast to near perfection.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2093,
+    "text": "Second, people who live alone are less likely to go to the doctor _E_, to",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2094,
+    "text": "Thus, they claim it is too early to call computer game addiction a disorder.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2095,
+    "text": "you want to reduce boredom and increase your sense of meaning, seek work where you can make a unique",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2096,
+    "text": "“Some professional women aim to do it all.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2097,
+    "text": "J) Of course, it’s possible to be a fountain of knowledge and a boring person, says public relations consultant Andrea Pass.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2098,
+    "text": "The client’s main desire was to have a home with the unique design, so the architect was given complete freedom.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 2099,
+    "text": "What does the author tell us to do concerning tactile communication?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2100,
+    "text": "My boss would genuinely listen to and value all of my ideas and suggestions.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2101,
+    "text": "Social media can be a powerful communication tool for employees, helping them to collaborate, share ideas and solve problems.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2102,
+    "text": "J) “The rabbit effect,” she explains, means that “when it comes to our health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2103,
+    "text": "The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2104,
+    "text": "And vitamin D from sunshine can help your body to absorb certain minerals, which are linked to building stronger bones.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2105,
+    "text": "For this reason, it can be helpful to be gracious in your response.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2106,
+    "text": "In fact, in the United States, a little over half of children between the ages of three and five were read to every day in 2007, and 83% of children in that age group in the same country were read to three or more times per week in 2012.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2107,
+    "text": "“Within six weeks, they had to send a truck around to pick up all the wheelchairs,” Thomas told the Washington Post.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2108,
+    "text": "It allows you to stay connected to accomplishments that you achieved before you got married.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2109,
+    "text": "He plans to begin field tests this month, working",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2110,
+    "text": "To be clear, this institution is no hotel.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2111,
+    "text": "At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2112,
+    "text": "Unemployment tends to be higher in developing countries.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 2113,
+    "text": "The method is well-tested and has been shown to increase interpersonal closeness.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2114,
+    "text": "And some people may struggle to get the same access to certain foods.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2115,
+    "text": "K) Men and women’s experiences of the return to work following parental leave were also considerably different.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2116,
+    "text": "Red Rum’s spirit and grace had already begun to charm the leagues of Grand National fans.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2117,
+    "text": "theory that appeals to many economists.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2118,
+    "text": "likely to speak in the abstract than were women.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2119,
+    "text": "This could be because some people want to avoid conflict at all costs, after all they still have to work together.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 2120,
+    "text": "There is a time-honoured tradition in the US for school kids to stay at home on “snow days”.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2121,
+    "text": "flexibility, or deciding not to take on every project that comes their way.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2122,
+    "text": "“We ___35___ that it may have to do with what the mice",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2123,
+    "text": "I) Even more importantly, practice is the only way to make a meaningful contribution with your knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2124,
+    "text": "With £10 to spend, they could",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2125,
+    "text": "E) Aside from the link to type 2 diabetes, many studies agree that fruit juice is harmful if it contributes to an excess in calories.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2126,
+    "text": "we might find a magnetic attraction that moves us from something superficial to something that connects us to our depths.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2127,
+    "text": "infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by making towns more bike-friendly.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2128,
+    "text": "But part of Game Academy’s suggestion is to transform",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2129,
+    "text": "What does the man think really matters to people?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2130,
+    "text": "However, last year, the restaurant’s co-owner and famous chef, Daniel Humm, made the bold decision to remove meat",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2131,
+    "text": "the students themselves and society at large, because students' experience of transitioning (lii./t) to",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2132,
+    "text": "Temperatures in the pressurised tank will be kept to around 200°C.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2133,
+    "text": "exercise or to eat a healthy diet.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2134,
+    "text": "The International Civil Aviation Organization, which works to define the principles of air travel, suggests that countries use a suitable type, size and style for official documents like passports.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2135,
+    "text": "It does harm to one's mental health.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2136,
+    "text": "They want to reach the top of the corporate ladder and fly like supermom,” she said.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2137,
+    "text": "Paying attention to the listener is an important part of having a conversation that’s interesting to both parties.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2138,
+    "text": "However, (25) those pieces in the children’s bedrooms are copies built to the designs of the architect.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 2139,
+    "text": "Learn to use appropriate body language first.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2140,
+    "text": "Slim to none—believe me, I’ve looked.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2141,
+    "text": "These beliefs contribute to a majority of workers connecting with colleagues on social media, even during work hours.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2142,
+    "text": "There’s a social dimension to health that we’ve completely overlooked in our efforts to find the best and most cutting-edge medical care....",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2143,
+    "text": "After I fell out of my bed twice during my freshman year, the university installed a railing—for $20, billed to my student account.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2144,
+    "text": "Left-handed people can find it inconvenient to do certain things, writing in a notebook for example, but there are a number of advantages of being left-handed.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2145,
+    "text": "Do whatever favors you can, and be warm-hearted and direct when you have to say no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2146,
+    "text": "This is good news, because reading to young children helps their language and brain development.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2147,
+    "text": "Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift our perspectives on aging and growth.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2148,
+    "text": "For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees and certifications under their maiden names.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2149,
+    "text": "For software to understand pizza is served at Italian restaurants is easy.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2150,
+    "text": "Here, at this point in the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2151,
+    "text": "After going to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2152,
+    "text": "This means individuals must save more in order to achieve their goals, or they borrow money from friends and family rather than a bank.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 2153,
+    "text": "However, to be successful it must be voluntary.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2154,
+    "text": "In other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2155,
+    "text": "But on opportunity for promotion, more than double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2156,
+    "text": "When he returned in 1977 to try again, he was largely regarded as past his prime.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2157,
+    "text": "Many workers report that they would like to spend more time with family, rather than at work Furthermore,",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2158,
+    "text": "To arrive at this ___28___, the researchers examined the linguistic patterns of men and women in over 600,000",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2159,
+    "text": "[24] Productive conflict is a vital part of teams and organizations that want to push forward and do more.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 2160,
+    "text": "Debates on social media show some parents are opposed to ending the “snow day” tradition.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2161,
+    "text": "can help you shift and adapt your professional life to something that will better harmonise with your personal one.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2162,
+    "text": "are paying attention to while they are in the dark.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2163,
+    "text": "an online course about how to build a business or read an article about a terrible disaster in a developing nation, but that",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2164,
+    "text": "Well you’d expect the Design Museum to commission and make some interesting items, but this one was different.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2165,
+    "text": "Sciences, set out to understand if the associations between sugary soft drinks and health — including risk of diabetes and",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2166,
+    "text": "us and appreciate us as we take the courageous risk to allow ourselves to be seen as we really are.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2167,
+    "text": "by the third year sales grew faster on five of the streets than in the district overall, on average — up to five times faster, in",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2168,
+    "text": "casual gamers into “conscious” ones, applying critical thinking to developing their skills.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2169,
+    "text": "Why does the woman feel uncomfortable about sending Jake to Lakeview School?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2170,
+    "text": "“In view of the climate crisis, I didn’t want to open the same restaurant,” Humm told the Financial Times in an interview.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2171,
+    "text": "In the new global economy, students who fail to finish the ninth grade with passing grades. in college",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2172,
+    "text": "Once back on Earth, the planet’s first space-roasted beans would be used to make coffee that would be sold for the first time in Dubai.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2173,
+    "text": "Public health experts in many countries are Ĺ how to address widespread loneliness in our",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2174,
+    "text": "They should be able to be read by a machine at temperatures ranging from 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air can be extremely dry or moist.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2175,
+    "text": "A need to be left alone.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2176,
+    "text": "Li took a step back and used her experience to build Sanity & Self, a self-care app and platform for overworked women.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2177,
+    "text": "Talking on and on about what’s interesting to you isn’t going to make you an interesting person, she says.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2178,
+    "text": "Fortunately, all the blueprints for both the building and its contents have been preserved, so we’ve been able to replace badly damaged furniture.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 2179,
+    "text": "Pay attention to the differences between genders.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2180,
+    "text": "This is why it’s so important to know which aspects of a company’s culture you value most.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2181,
+    "text": "Employers typically worry that social media is a productivity killer; more than half of U.S. employers reportedly block access to social media at work.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2182,
+    "text": "Ultimately, what affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2183,
+    "text": "For students already struggling to pay tuition, these costs may be the least of their worries.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2184,
+    "text": "Left-handed fighters also had higher chances to win.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2185,
+    "text": "But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2186,
+    "text": "This is in contrast to books that did not name images, or books that had the same label under each image.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2187,
+    "text": "He wanted to make it more pleasant for seniors.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2188,
+    "text": "They might have also had things published or publicized and want to stay connected to that identity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2189,
+    "text": "To cover multiple domains and to be able to have a conversation with users on every single topic is still a long way off.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2190,
+    "text": "But do you really need experts to tell you that?",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2191,
+    "text": "K) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged with making the investment pay off.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2192,
+    "text": "\"With caution, many relational methods to improve teams and organisations can be borrowed from other fields.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2193,
+    "text": "E) Overall, the yields of many foods, from staples to life-enhancing extras such as coffee and chocolate, will likely be impacted by climate change too.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2194,
+    "text": "Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, which featured a record 33 female CEOs, but this still represents a tiny fraction of the total.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2195,
+    "text": "He was 12 years old and not expected to place highly.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2196,
+    "text": "In other words, most Americans are too poor to work less.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2197,
+    "text": "To do this, the researchers computed abstractness ratings for ___29___ 40,000 commonly",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2198,
+    "text": "It can lead to increased innovation and greater trust on teams.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 2199,
+    "text": "In more northern regions of the US, school is less likely to be affected by snowy weather.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2200,
+    "text": "of your emotional state is essential in order to determine the changes you want to make in your work and in your life,” says",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2201,
+    "text": "We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2202,
+    "text": "knowledge is unproductive unless you actually launch your business or donate to those in need.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2203,
+    "text": "the museum’s 2015 Design Ventura competition, which brings the business of design to life for students aged 13 to 16 by",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2204,
+    "text": "heart disease — were applicable to the food and drink we generally consume as part of a healthy diet.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2205,
+    "text": "It expects every individual to look their very best.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2206,
+    "text": "Plus, streets redesigned for bikes and pedestrians tend to become more pleasant places to",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2207,
+    "text": "“If they say they want leadership — why can’t I point to my years of leading World of Warcraft raids?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2208,
+    "text": "What does a leader tend to do when they’re committed to analytical decision-making?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2209,
+    "text": "“If we can show the possibilities of eating plant-based food in this setting, it can open a lot of doors” for others to follow.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2210,
+    "text": "preparatory coursework are very unlikely to graduate on time and go on to get jobs.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2211,
+    "text": "Surprisingly, the Space Roaster concept—should it go ahead—will not be the first attempt to take coffee into space.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2212,
+    "text": "\"It can lead to very serious health",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2213,
+    "text": "Simply put, countries stick to darker and more conservative colors because they appear more official.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2214,
+    "text": "A desire to be fulfilled.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2215,
+    "text": "“The realizations I had in that process helped me gain insights and ultimately got me ready to integrate self-care into my daily life,” she said.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2216,
+    "text": "K) “If the listener is not paying attention, it’s your sign to shorten the story or change direction.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2217,
+    "text": "From climate change to the ongoing pandemic (大流行病) and beyond, the issues facing today’s world are increasingly complex and dynamic.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2218,
+    "text": "N) When you’re hunting for a new job, you already know that the employer is trying to decide whether or not you’re a good fit for the position.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2219,
+    "text": "In my research with 277 employees of a healthcare organization I found these concerns to be misguided.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2220,
+    "text": "“Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2221,
+    "text": "F) So what hidden costs should low-income students really be paying attention to?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2222,
+    "text": "Left-handed people were more likely to prefer the images on the left.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2223,
+    "text": "We find ourselves over-committed to things that don’t meaningfully improve or support those around us, and certainly don’t improve our own lives.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2224,
+    "text": "Not all books are created equal, so parents need to choose the books they share with their children with great care.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 2225,
+    "text": "He wanted to apply his Harvard training to practice.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2226,
+    "text": "Many women who opt to simply keep their own names do so because they don’t want to give up all that they have accomplished professionally.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2227,
+    "text": "Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2228,
+    "text": "And the quality and quantity of work I can do emerges directly from my ability to concentrate.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 2229,
+    "text": "He recalled attending Formula One's Monaco race last year and being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2230,
+    "text": "The question is how to apply them effectively to strengthen an entire collective, which is more than just the sum of individual relationships,\" said Dr Matous.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2231,
+    "text": "F) In the US—the world’s largest producer of corn and soybeans—farms can move north to some degree, Schlenker says.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2232,
+    "text": "“By that I mean companies need to give men paternity leave and encourage men to take time off to be with their kids early on in the kids’ life.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2233,
+    "text": "To this day, Red Rum’s third win is known as one of the greatest moments in horse racing history.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2234,
+    "text": "For them, output by 2029 is likely to be around",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2235,
+    "text": "Words considered to be concrete could be easily visualized such as “table” or “chair”.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2236,
+    "text": "There is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2237,
+    "text": "balance” is actually just a substitute to having a sense of fulfillment and contentment.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2238,
+    "text": "For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2239,
+    "text": "valuable for you but if you want to be valuable to others, then you have to express your knowledge in some way.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2240,
+    "text": "challenging them to develop a new creative, sustainable and commercially feasible product for the Design Museum shop",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2241,
+    "text": "However, when the calories weren't in excess overall, there were some advantages to consuming whole fruit —",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2242,
+    "text": "What happens when people strive to look better?",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2243,
+    "text": "J) I spoke to Cindy Hughes, a hairdresser in Cambridge, Massachusetts.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2244,
+    "text": "If you want to build a new spaceship, the raw material has to be mined by another player.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2245,
+    "text": "What is one of Branyas Morera’s secrets to living a long life?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2246,
+    "text": "Now, this impressive new accomplishment validates Eleven Madison Park’s decision to take meat off the menu and",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2247,
+    "text": "calculated that the lifetime benefit to the local economy for a single additional student who completes",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2248,
+    "text": "The whole village chips in to help, including the kids, who end up developing their baking skills at an early age.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2249,
+    "text": "He is now supporting \"_;g_ benches,\" which are public seating areas where people are encouraged to go",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2250,
+    "text": "While there’s little innovation when it comes to passport cover color, the same cannot be said for the pages.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2251,
+    "text": "A conflict to be resolved.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2252,
+    "text": "However, “there are many reasons to think that it’s different in women,” Harvard Medical School reported.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2253,
+    "text": "Make sure to bring the audience into the conversation so that it is not one-sided,” Pass says.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2254,
+    "text": "Those with a growth mindset of interest tend to believe that interests can be developed and cultivated, while those with a fixed mindset of interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘found.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2255,
+    "text": "You may not be the one conducting the actual interview, but you’re still trying to determine whether or not the company is a good fit for you.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2256,
+    "text": "I found employees who engage in online social interactions with co-workers through social media blogs tend to be more motivated and come up with innovative ideas.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2257,
+    "text": "To properly care for patients, we also need to care about the lives of the people getting the care.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2258,
+    "text": "It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other than emergency care.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2259,
+    "text": "So if you have a left-handed child, you should encourage them to play table tennis, baseball and tennis.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 2260,
+    "text": "When you say “no”, you’re only saying “no” to one option.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2261,
+    "text": "He felt it his duty to revolutionize its management.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2262,
+    "text": "Adopting their husband’s last name makes it hard for them to claim ownership of these accomplishments personally because they happened under their “other” name.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2263,
+    "text": "I) Siri has often been praised for its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2264,
+    "text": "\"You can't help but be awed,\" he said, \"and I think that feeling can be translated to the viewer.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2265,
+    "text": "Why are many employees opposed to team-building exercises?",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2266,
+    "text": "Other studies, including studies of wheat in India and corn in Africa, also found that there is a threshold above which yields sharply decline: crops can adapt and move, but only to a point.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2267,
+    "text": "They also need to recognise that men have to make significant adjustments when they become parents.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2268,
+    "text": "He owed his great success to several well-known horse trainers.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2269,
+    "text": "According to Friedman, between 1947 and 1973, the average hourly wage",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2270,
+    "text": "Words that were more ___30___ to visualize, for example, “justice” or “morality” were considered to be more abstract.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2271,
+    "text": "In a pilot programme, students are given electronic devices to do assignments when schools are closed.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2272,
+    "text": "I) Of course, finding that balance probably shouldn’t be something you have to do by yourself.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2273,
+    "text": "It defies our increasing awareness of the harm plastics do to the",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2274,
+    "text": "J) The last important point to consider is that practice focuses your energy on the process.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2275,
+    "text": "“Then when I changed schools four years ago, I introduced it here because it helps to develop so many",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2276,
+    "text": "control when they don’t lead to over-consumption of calories.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2277,
+    "text": "They have to get prepared for resentment and bitter court battles.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2278,
+    "text": "when the city removed nearby parking to put in a bike lane.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2279,
+    "text": "Manufacturing costs come into effect, and commodities fluctuate in price based on demand and the distance to haul the",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2280,
+    "text": "What does Branyas Morera think also contributes to a long life?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2281,
+    "text": "“We took the jump to transform Eleven Madison Park into a plant-based fine dining restaurant knowing in our hearts",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2282,
+    "text": "The consequences of doing poorly in the ninth grade can impact more than students' ability to find a",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2283,
+    "text": "The toughness of the race allows for racers to eat pretty much whatever they want.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2284,
+    "text": "The minister is also _lL to stop public transportation from being cut in ways",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2285,
+    "text": "A feeling to be validated.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2286,
+    "text": "For example, women are more likely to experience disturbed sleep, anxiety and unusual fatigue before a heart attack.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2287,
+    "text": "Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me about your favorite book,” or “Have you ever been to that attraction?",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2288,
+    "text": "For example, in one task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2289,
+    "text": "O) Keep these tips in mind to figure out whether you and a potential employer are a perfect match or just a recipe (方案) for disaster.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2290,
+    "text": "When I examined how respondents expressed openness to new careers and employers, I found that they engaged in some key activities including researching new organizations and making new work connections.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2291,
+    "text": "He was the kind of trusted doctor you’d feel relieved to see and welcome into the room with a sick family member.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2292,
+    "text": "After my freshman year, I had to opt for the school’s insurance plan, which costs around $2,000 a year.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2293,
+    "text": "When you say “yes”, you’re saying “no” to every other option.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2294,
+    "text": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2295,
+    "text": "F) While tradition is one thing, there isn’t any logical reason to completely change your name.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2296,
+    "text": "In one example, the phrase \"Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant\" was interpreted as sending a message to Jason only, containing the text \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant\".",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2297,
+    "text": "N) He added: \"The broader sport is a little too inward-looking, and we need to be more open.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2298,
+    "text": "They see such exercises as harmful to harmony.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2299,
+    "text": "“What’s common to all studies is the finding that extreme heat is damaging to crop growth, although exact cutoffs vary by crop,” Schlenker says.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2300,
+    "text": "Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, but we don’t expect the men to take over for the women at home.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2301,
+    "text": "What did the serious bone disease in Red Rum’s foot mean to himself and his trainer?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2302,
+    "text": "productivity stopped working around 1973.Thus, they had to keep working just as much in order to maintain their",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2303,
+    "text": "a sample of 300 students, the researchers ___33___ power dynamics in an interpersonal setting to see if this would influence",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2304,
+    "text": "It may sound surprising, but you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2305,
+    "text": "For her book Overload: How Good Jobs Went Bad and What to Do about It, she and co-author",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2306,
+    "text": "environment and a broader, growing sense that something has to change.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2307,
+    "text": "and beliefs that you have been practicing each day, When you realize this and begin to direct your focus toward practicing",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2308,
+    "text": "G) Catherine Ritman Smith, head of learning at the Design Museum, is expecting around 10,000 participants aged 13 to 16",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2309,
+    "text": "But when they do lead to too many calories, they risk raising",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2310,
+    "text": "They are better able to gain attention, love, and personal connection.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2311,
+    "text": "Only a very few have shifted to cycling, and even those almost certainly won’t cycle in Boston’s snowy",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2312,
+    "text": "Eventually, he realised he could transfer his skills to real-life business — instead of doing it for free.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2313,
+    "text": "What is of great importance to students according to the speaker?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 2314,
+    "text": "“Last night, we were honored to be awarded three Michelin stars for",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2315,
+    "text": "It can also impact the extent to which they enjoy life.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2316,
+    "text": "Proud residents then started to refer to Jan as Queen of Takotna.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2317,
+    "text": "Directions: In this section, you are going to read a passage with ten statements attached to it.",
+    "n": 29,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2318,
+    "text": "It may be an obstacle to expanding one's connections.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2319,
+    "text": "Stress is so normalized that it is easy for women to shrug off those symptoms as simply the consequences of stress.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2320,
+    "text": "Questions are a powerful tool, especially when they encourage others to disclose information about themselves.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2321,
+    "text": "After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2322,
+    "text": "After all, it’s a good thing to know before actually accepting an offer.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2323,
+    "text": "These findings present a dilemma for managers: employees using social media at work are more engaged and more productive, but they are also more likely to leave your company.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2324,
+    "text": "He’d sit down to talk with the patient not just about medical problems, but about her life and priorities.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2325,
+    "text": "My school charges an additional fee for the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2326,
+    "text": "I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2327,
+    "text": "They are less likely to have food-purchasing habits that conform to public health recommendations.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2328,
+    "text": "Keeping your name and joining it to your husband’s through hyphenation is as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2329,
+    "text": "It has also been noted that Siri lacks a proper editing function, as saying \"Edit message to say: we're at Silver Cloud restaurant and you should come find us\" generates \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us\".",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2330,
+    "text": "In some ways, I'm glad to be coming from the outside.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2331,
+    "text": "What did Dr Matous and his team do to find out whether team-building activities would improve productivity?",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2332,
+    "text": "G) Under current conditions, about 4% of the world’s croplands experience drought in any given year, but by the end of the century those conditions are forecasted to jump to about 18% per year.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2333,
+    "text": "N) In May, the American Civil Liberties Union (ACLU) and Outten & Golden LLP announced a historic class-action $5m settlement with JPMorgan Chase on behalf of male employees who claim they were illegally denied access to paid parental leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2334,
+    "text": "It was simply a hindrance they had to get over to excel.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2335,
+    "text": "from the increased productivity since Keynes's time — can afford to work less, why do they continue to work so much?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2336,
+    "text": "They found that participants in a high-power interviewer role were more likely to give abstract",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2337,
+    "text": "I happen to be interested in both, and ended up enjoying the book for completely different",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2338,
+    "text": "J) Under the management redesign, many steps were taken to ensure better work-life balance and prevent burnout .",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2339,
+    "text": "this past year, an increase of 7%, according to the latest figures from the market analyst Kantar.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2340,
+    "text": "Not to mention that soaking up new information can help you make more informed decisions when you",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2341,
+    "text": "to take part this year and says that the project — funded by Deutsche Bank as part of its youth engagement programme",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2342,
+    "text": "H) As it is easy to consume large amounts of fruit juice quite quickly, extra calories are taken in.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2343,
+    "text": "They may neglect to cultivate the inner qualities that matter more.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2344,
+    "text": "So while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees the parking loss as an existential",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2345,
+    "text": "He credits his success to his family, his strong desire to run his own business- and “a damn good company in",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2346,
+    "text": "I am so grateful to the team members who contributed through its nearly 25-year history.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2347,
+    "text": "turned to for support when they move from the eighth to the ninth grade.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2348,
+    "text": "rely exclusively on terms similar to \"a few\" or \"some. \" In contrast, our own lives are governed by",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2349,
+    "text": "It may make people feel that they ought to fit in with the outside world.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2350,
+    "text": "Many women also do not experience chest pain before a heart attack the way men do, which leads to fewer women discovering problematic heart issues.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2351,
+    "text": "So one strategy to leave others with the impression that you’re a sparkling conversation partner is to get others to talk about themselves.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2352,
+    "text": "You need not only computer science and engineering knowledge, but also an understanding of psychology and visual design to create a better product.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2353,
+    "text": "It can be difficult to know the real situation in a company until you become part of it.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2354,
+    "text": "They can create social media groups in which employees will be more likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2355,
+    "text": "He built a large consultation service to address the holistic (整体的) needs of hospitalized patients, including psychological and social factors.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2356,
+    "text": "I) There is another depressing reality hidden within even the largest financial aid packages: Colleges often offer the most generous packages during freshman year as a way to attract new students.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2357,
+    "text": "Once you’re committed to something, you’ve already decided how that future block of time will be spent.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2358,
+    "text": "However, the research does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2359,
+    "text": "G) Probably the most important reason to consider hyphenation is your identity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2360,
+    "text": "The American Civil Liberties Union has stated that digital assistants create a threat to privacy from hackers.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2361,
+    "text": "Chase Carey believes greater use should be made of digital technology to make Formula One more accessible to its fans.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2362,
+    "text": "They were intended to share personal attitudes and relationships.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2363,
+    "text": "Some studies indicate that horticulture crops—generally, everything besides staples—may be impacted most severely, largely because they tend to be confined to a smaller geographic area.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2364,
+    "text": "Thus, they were allowed to take 16 weeks of paid parental leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2365,
+    "text": "It was really a major obstacle hard to overcome on their own.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2366,
+    "text": "(Indeed, research has shown that the highest earners in America tend to work the most.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2367,
+    "text": "How to better work towards long-term goals",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2368,
+    "text": "Ford's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2369,
+    "text": "Managers were regularly reminded to explicitly support their employees.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2370,
+    "text": "Environmental campaigners are struggling to understand why nations blessed with clean tap water grow only fonder of the",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2371,
+    "text": "do decide to take action.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2372,
+    "text": "Born To Be — is the biggest event in the museum’s calendar.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2373,
+    "text": "contribute to weight gain.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2374,
+    "text": "It may lead to bad as well as good habits.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2375,
+    "text": "“They tend to be people with deep roots in the city, who have hung around since before the neighborhood became what it",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2376,
+    "text": "J) Digital entrepreneur and business consultant Mia Bennett says: “In more traditional settings, gaming is still imagined to be",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2377,
+    "text": "grateful to our guests and partners who believed in our vision and encouraged us to push harder?.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2378,
+    "text": "students found that 50 percent of friendships among ninth graders changed from one month to the",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2379,
+    "text": "Without numbers, healthy human adults struggle to precisely distinguish and",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2380,
+    "text": "What does the author suggest people do to get rid of boredom?",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2381,
+    "text": "Harvard reports that women are “much more likely than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize the symptoms.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2382,
+    "text": "These are the people viewers most relate to and find interesting.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2383,
+    "text": "Employees with a growth mindset may be more likely to devise innovative ideas that bridge multiple areas of knowledge to achieve better solutions.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2384,
+    "text": "It is impossible for a job applicant to have every expectation met.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2385,
+    "text": "social media to directly reduce turnover (跳槽) intentions, by recognizing employees’ accomplishments and giving visibility to employees’ success stories.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2386,
+    "text": "Kelli Harding differs from those seeking quick and simple solutions to America’s medical problems.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2387,
+    "text": "My family was careful to ask about the chances of financial aid being taken away after my freshman year.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2388,
+    "text": "You retain the ability to spend your future time however you want.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2389,
+    "text": "Public-health initiatives to promote healthy diets often focus on providing nutrition education and recipes (食谱).",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2390,
+    "text": "At the same time, your name is associated with the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and your husband’s family’s identity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2391,
+    "text": "They worry assistants will one day be used to deliver advertising directly to us.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2392,
+    "text": "One of Chase Carey's goals is to make Formula One more appealing to Americans.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2393,
+    "text": "They implicitly added to the vulnerability of team members.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2394,
+    "text": "“High quality chocolate will be less available in the future, and if you want it, you’ll have to pay a lot more for it,” Jarvis says.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2395,
+    "text": "O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2396,
+    "text": "What did people generally think of Red Rum when he returned to the racecourse in 1977?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2397,
+    "text": "But for most Americans, that prosperity is nowhere to be seen.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2398,
+    "text": "Hal Hershfield, a psychologist at the UCLA Anderson School of Management, wanted to know why people weren't",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2399,
+    "text": "Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2400,
+    "text": "Workers were allowed to make changes, like",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2401,
+    "text": "“It’s very surprising to me,” says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2402,
+    "text": "That said, the main point of this article is that learning by itself does not lead to progress.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2403,
+    "text": "“Teachers like it because the skills are all transferable and it helps to",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2404,
+    "text": "fruit to retain as much of its goodness as possible, according to Roger Clemens, professor of pharmaceutical",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2405,
+    "text": "Plant-based meats are coming soon to a dinner table near you, but do they deserve a spot on your plate?",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2406,
+    "text": "Driving around town in a car is so normal to them that cycling seems weird and unusual — despite its",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2407,
+    "text": "But there are some links to skills like “decision-making, the ability to",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2408,
+    "text": "Three Michelin stars is the highest award, given to chefs who are at the peak of their profession.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2409,
+    "text": "Researchers think that one explanation is that ties to friends",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2410,
+    "text": "The person watching is asked to signal when all the nuts have been",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2411,
+    "text": "Reflect on how they relate to others.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2412,
+    "text": "J) The good news is, women are more likely than men to take charge of their stress and manage it, the American Psychological Association reports.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2413,
+    "text": "M) I have now come to realize that being boring, in actuality, is not only about who you are as a person, but also how you present yourself.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2414,
+    "text": "The benefits of a growth mindset of interest may also extend to those seeking employment.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2415,
+    "text": "Job applicants are advised to make a written list of their likes and dislikes in their previous employment.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2416,
+    "text": "It enables employees to form connections.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2417,
+    "text": "According to Kelli Harding, scientific advances have not made Americans healthier, nor prolonged their life.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2418,
+    "text": "We did not know to ask—and the school did not readily point out—that even if tuition rises, my financial aid package will stay the same.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2419,
+    "text": "You have to pay back your commitment at some point.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2420,
+    "text": "Research suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2421,
+    "text": "Some people find it “snobby” (势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2422,
+    "text": "K) But digital voices need more personality to make them popular.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2423,
+    "text": "Chase Carey thought the audience of Formula One could be made to share his feeling about the race.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2424,
+    "text": "By allowing participants freedom to express themselves.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2425,
+    "text": "But for poorer people, those same price jumps will likely cause certain foods to go extinct from their diets.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2426,
+    "text": "P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2427,
+    "text": "He could be expected to repeat his glory in the prime of his career.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2428,
+    "text": "Some people view socializing at the workplace as a chance to develop personal relationships.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2429,
+    "text": "Logically, they'll need more money to live comfortably in",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2430,
+    "text": "allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2431,
+    "text": "and to assure workers that it was something management was committed to.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2432,
+    "text": "“Public awareness has never been higher, but the message is not quite reaching all the people it needs to.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2433,
+    "text": "hide behind information and use learning as an excuse to delay the more difficult and more important choice of actually doing",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2434,
+    "text": "work with groups to produce imaginative design ideas for a product in simple materials that could sell for £10 in the Design",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2435,
+    "text": "I) Another reason for fruit juice’s recent popularity is the argument that it can help to remove poisonous or harmful substances",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2436,
+    "text": "vegetable burger years ago and dismissed it as rubbery and flavorless, it’s a good time to give meatless meat another chance.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2437,
+    "text": "The fierce divide between store owners and bike-lane advocates seems similar to",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2438,
+    "text": "“It also helps with meta-skills — learning how to learn, experimentation, and",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2439,
+    "text": "to an art form and some of their dishes are destined to become classics,” reads Michelin’s website, in a clear nod to plant-",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2440,
+    "text": "F) Given all that's riding on having a successful ninth grade experience, it pays to explore what can be",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2441,
+    "text": "words, they struggle to make quantitative distinctions that probably seem natural to someone like you",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2442,
+    "text": "What should people do to enhance their sense of meaning?",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2443,
+    "text": "“The basics of adequate sleep, healthy diet and exercise are a good place to start,” Dr.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2444,
+    "text": "Because when you are enjoying, people around you will begin to enjoy as well.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2445,
+    "text": "This is a pressing issue because many people are becoming unemployed due to the COVID-19 pandemic.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2446,
+    "text": "At the end of an interview, a job applicant should seize the opportunity to get answers to their urgent questions.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2447,
+    "text": "It does much harm to employee loyalty.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2448,
+    "text": "According to Kelli Harding, rabbits’ health had more to do with humans’ kindness to them than their diet or genetics.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2449,
+    "text": "So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional $1,200 for the next year.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2450,
+    "text": "Saying “no” is an important skill to develop at any stage of your career because it retains the most important asset in life: your time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2451,
+    "text": "For example, low income is the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 2452,
+    "text": "Some men, regardless of how you might feel about some things, are traditionalists and feel that it is simply “right” for the woman to take the man’s last name as her own.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2453,
+    "text": "This enables them to spend less time on administration and more time with patients.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 2454,
+    "text": "Chase Carey used to serve as a top advisor for a major broadcasting company.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 2455,
+    "text": "By applying it to employees who volunteer to participate.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 2456,
+    "text": "J) There are ways we could soften the coming blow to the global food supply, however.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2457,
+    "text": "He said equal parental leave is an essential component to creating gender equality in the workplace.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 2458,
+    "text": "It is quite horrifying to see people being guided by some unknown force.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 2459,
+    "text": "As ordinary American workers’ average hourly pay had decreased despite increasing productivity, they had to work just as",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2460,
+    "text": "To help explain this seemingly irrational behavior, Hershfield and his team scanned the brains of study participants",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 2461,
+    "text": "The status of the upper classes was threatened: fashion was a tool to preserve it.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2462,
+    "text": "They were less likely to quit their jobs; indeed, over",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2463,
+    "text": "Plastic water bottles require oceans of fossil fuels to make and ship.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2464,
+    "text": "Acquisition of new knowledge may not guarantee the progress that you aim to make.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 2465,
+    "text": "shortlisted schools to present their idea to a panel of judges, including designer Jasper Conran.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2466,
+    "text": "However, “the whole concept of a juice diet helping to remove poisonous or harmful substances from the",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2467,
+    "text": "Analysts don’t expect the meat-free movement to slow anytime",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 2468,
+    "text": "weren’t enough cyclists to justify installing lanes.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2469,
+    "text": "time as he used to.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2470,
+    "text": "“I think luxury companies have a real role to play and a responsibility,” says Humm.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 2471,
+    "text": "done to meet the academic, social and emotional challenges of the transition to high school.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2472,
+    "text": "E) It is worth stressing that these anumeric people are cognitively (,1£ R -jj\" i:1) normal, well-adapted to",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2473,
+    "text": "Try to do something original.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2474,
+    "text": "It is important to understand what causes your stress in the first place.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2475,
+    "text": "Pirson claims that some ordinary things may often prove to be miraculously interesting.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2476,
+    "text": "Having a growth mindset of interest can help job seekers expand their interests and become more adaptable to different fields, and take the initiative to learn new skills.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 2477,
+    "text": "To begin with, job applicants should be clear what they expect from their future employer.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2478,
+    "text": "It differs from employee to employee.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 2479,
+    "text": "A social aspect to health has not been taken into account in trying to provide the best medical care.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   }
+  ]
+ }
+]

@@ -1,0 +1,616 @@
+# 任务 C_r1_19：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_19.labels.txt
+
+============================================================
+## 词：of    本段 600 句    模式：全标（每句都写）
+原释义：prep.…的; 属于; 由…组成的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. ……的（所属、关系、内容，如 the end of the day, the importance of）    B 样本 53    例：They were both 60 years of age.
+  1  prep. ……中的（部分、数量、种类，如 one of, a piece of, thousands of）    B 样本 18    例：Part of its dam wall collapsed.
+  2  prep. 关于，对（think of, afraid of, fond of）    B 样本 4    例：He is fond of luxury cat food.
+  3  prep. 由……制成，由……构成（made of）    B 样本 0
+  4  prep. （表示分离、原因）离，脱离，因（independent of, free of, die of）    B 样本 1    例：This is because other effects of red meat consumption could contribute to heart disease independent of cholesterol.
+  5  prep. （人名后）来自，住在（Vaclav Bursa, 15, of Florida）    B 样本 1    例：Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall.
+已标过的短语：ahead of（2）；on behalf of（1）；of course（1）；a number of（1）；make use of（1）；in the process of（1）；walks of life（1）；a variety of（1）
+口径说明（照此执行）：
+  - of 前后是名词的一般修饰/所属关系一律标 0（含 University of California、city of X 这类专名）；表数量、部分（one of、a piece of、part of、most of、a team of）标 1；形容词/动词后的 of（afraid of, fond of, think of, accuse of）标 2；a lot of / a number of / a variety of / of course / ahead of / on behalf of / make use of / in terms of / because of / instead of / out of 等按 P 标。
+句子：
+142 | Consequently, being replaced by a robot or software ___32___ less 【of】
+422 | In the competitive game 【of】
+577 | M: Not that I know 【of】.    ?P:not that I know of
+628 | "Loneliness ĺ almost every one 【of】
+216 | Officials at Reid Park Zoo in Tucson Arizona are celebrating the birth 【of】 a baby elephant.
+221 | The other is a painting 【of】 a boy by the 17th-century Dutch artist Samuel van Hoogstraten, date unknown.
+257 | Outside the office 【of】 a charity foundation.
+642 | So how much 【of】 a discount is there on these two new classes?
+193 | The staff believe he squeezed himself out 【of】 a gap located around new energy-saving bulbs installed inside the snake house.
+586 | But a bit 【of】 a giveaway is that the villa will be cheaper than on other websites and there’s unlimited availability,” says Tipton.
+101 | At the gate 【of】 a grade school in Kent.
+325 | A four-year-old girl has walked eight kilometers through a snowy forest to seek help for her sick grandmother who later died 【of】 a heart attack.
+651 | Also, the fabric they use is 【of】 a higher quality and the dyes are natural.
+364 | [5] Security officers were searching a suburb in Australia where an adult snake was believed to be wandering after the discovery 【of】 a huge, freshly shed snakeskin. [6] The skin was found at a construction site, and the government wrote to residents to warn them.
+205 | Under the engine cover 【of】 a man’s car.
+107 | After combing through the security video outside a Gorbals shop, Kirsteen has now posted an image 【of】 a man suspected 【of】 stealing the dog.
+128 | Pay for the cost 【of】 a new medal.
+285 | The mayor said the medal was undamaged, though he offered to pay for the cost 【of】 a new one.
+250 | That’s the main finding 【of】 a new study by researchers at the U.S.
+355 | characteristics 【of】 a person’s appearance to be ___35___ identified.
+85 | One recent study published in the journal PLOS ONE, for example, found that the strength 【of】 a person’s social circle was a better _28_ 【of】 self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep.
+466 | W: Well, she did say that jet lag often becomes more 【of】 a problem after forty. [14] So I guess I’m lucky that I can still adjust to different time zones well.
+667 | deliberate repetition 【of】 a process with the intention 【of】 reaching a specific goal.
+338 | They may regard any difference as the end 【of】 a relationship.
+337 | Goto, however, has accepted the International Olympic Committee’s offer 【of】 a replacement, according to Japanese media reports.
+165 | The crash 【of】 a Russian cargo airplane.
+534 | They’ll have pictures 【of】 a sales team and it might be a poor actor in New York that is down as their head 【of】 sales.
+610 | students with electronic tablets loaded with assignments to complete in the event 【of】 a school closure.    ?P:in the event of
+333 | I could see people’s views change within the course 【of】 a single lecture.
+167 | They can just be symptoms 【of】 a sleep disorder that can _32_ from an unpleasant experience, stress, or certain drugs.
+129 | A Japanese mayor apologized Thursday for biting the Olympic gold medal 【of】 a softball player.
+451 | Genetic researchers in China have made a clone 【of】 a star police dog.
+555 | This is not the first time a clone has been made 【of】 a star police dog.
+357 | Postal Service’s collection boxes in Marion County and for the possession 【of】 a stolen postal key, according to the Department 【of】 Justice.
+286 | Why friends break off contact all 【of】 a sudden.    ?P:all of a sudden
+330 | And then all 【of】 a sudden, it turned out there was another waiting to come out.    ?P:all of a sudden
+281 | “They are dealing with the same challenges that adults are, as far as they are living in the _32_ 【of】 a tech environment designed to suck as much 【of】 their time onto their devices as possible,” Rideout says.
+309 | It was placed in the care 【of】 a UK charity.
+674 | Building the skills required 【of】 a user experience designer takes time, patience and commitment.
+306 | A display 【of】 a variety 【of】 products increases consumers’ interest.    ?P:a variety of
+301 | They heard a noise from the bottom 【of】 a well.
+571 | Minimizing the possibility 【of】 a wrong decision.
+174 | Two boys and four girls were born on Monday to the surprise 【of】 a young couple and doctors who had expected five babies.
+452 | concrete speech focusing on details and the means 【of】 ___27___ action.
+104 | The Department 【of】 Agriculture banned eggs from Mexico in 2012.
+302 | Department 【of】 Agriculture in Stoneville, Mississippi.
+518 | Actually my mother is terrified 【of】 airplanes to the point where she can’t even fly.
+148 | Loss 【of】 all their possessions.
+125 | Ninety-five percent 【of】 Americans ages 13 to 17 have a smartphone or have access to one, and nearly half report using the internet “almost _26_.
+255 | By assuming the role 【of】 an ambassador for human flights to space, I’ll continue to support the European and the UK space agencies.
+506 | In areas less accustomed to snow, even small snowfalls 【of】 an inch or two
+93 | Assured U.S. citizens 【of】 an increase in energy supplies by the end 【of】 this year.
+392 | He has been a club member for 10 years and joined because 【of】 an interest in lion dance.    ?P:because of
+550 | When in the presence 【of】 an unknown student from their own university, only 12 per cent 【of】 students selected the healthier option. [17] However, this number was 31 per cent when in the presence 【of】 an unknown student from another university.
+662 | E) But some parents object to the new policy if the vigorous debate on the Facebook page 【of】 Anderson County school
+616 | More images 【of】 animals than humans.
+425 | Parents and cat owners alike experience high levels 【of】 anxiety.
+191 | The study looks at symptoms 【of】 anxiety and depression among more than 70,000 older adults in Europe. [3] A number 【of】 past studies have found the link between season 【of】 birth and mental health diagnoses.    ?P:a number of
+399 | In the Czech Republic, the same was true 【of】 anxiety symptoms.
+614 | It was then taken to an examining room for evaluation 【of】 any injuries. [7] The elephant was kept under close supervision for a few days before it was successfully released back into the wild.
+311 | Curing it 【of】 any possible diseases.
+391 | There have been no reports 【of】 anyone taking advantage 【of】 the situation.    ?P:take advantage of
+99 | Joanna Stephens, 28, 【of】 Atlanta, completed the course in 41 minutes and 12 seconds.
+290 | W: [12] John, your book is getting a lot 【of】 attention, partly because you write that most people can retire by 40.    ?P:a lot of
+488 | But I don’t like being the center 【of】 attention, receiving gifts and having a fuss made.
+519 | Maximizing the advantage 【of】 available resources.
+376 | Flee from the threat 【of】 bears.
+377 | The young girl braved the threat 【of】 bears, wolves and temperatures far below freezing.
+561 | The odds 【of】 becoming a professional sportsman someday.
+660 | descriptions 【of】 behaviors than were participants in a low-power interviewee role.
+370 | 【of】 being chosen or not.
+507 | How the man got into the habit 【of】 being wasteful.    ?P:get into the habit of
+220 | Drinking water instead 【of】 beverages with added sugar.    ?P:instead of
+98 | It closed the city 【of】 Big Pine Key to traffic for three hours.
+145 | Decided on this year’s energy assistance package 【of】 $8 billion in total.
+103 | It has risen because 【of】 bird flu.    ?P:because of
+156 | This was due to the risk 【of】 bird flu.
+295 | More recent studies have suggested that factors such as social class or economic background have more to do with these diagnoses than month 【of】 birth.
+347 | [4] Overall, the new study found no significant relationship between participants’ month 【of】 birth and symptoms 【of】 depression or anxiety.
+351 | Their damage can be as serious as that 【of】 bombs.
+240 | These pieces 【of】 bone are caused by the way people bend their heads when they use the phone.
+344 | The result is a piece 【of】 bone like a horn that sticks out from the head by the neck.
+643 | The number and quality 【of】 books parents read to them in infancy.
+539 | The number 【of】 books they have read by age four.
+120 | Their main recommendations are that people eat less 【of】 both kinds 【of】 meat and more vegetarian protein.    ?P:kind of
+431 | Have a taste 【of】 both 【of】 the cheeses.
+491 | Firstly, the association cited changing diets, (6) in particular the switch to those low in calories, as a factor in the reduction 【of】 bread consumption.
+595 | Finally, the rising cost 【of】 bread is considered to be a factor, with the price 【of】 a French stick loaf increasing by nearly 25% in the last 10 years.
+353 | Lack 【of】 budgeting strategies.
+564 | Fewer images 【of】 buildings than animals.
+179 | This new method 【of】 burying carbon dioxide and turning it into stone is cheaper and more secure, The Guardian reports.
+126 | Lack 【of】 burying ground.
+252 | Increasing the number 【of】 bus routes.
+282 | They put jam instead 【of】 butter on bread.    ?P:instead of
+471 | W: I’m thinking 【of】 buying a car.
+644 | Or I could perceive my birthday as an opportunity to do something for others like asking people to make a donation instead 【of】 buying a gift.    ?P:instead of
+480 | She comes from the city 【of】 Cape Town.
+335 | One potential difficulty is that for each ton 【of】 carbon dioxide buried, the technique requires 25 tons 【of】 water.
+283 | Already, the project in Iceland has been increased in scale to bury 10,000 tons 【of】 carbon dioxide each year.
+318 | One way social scientists have probed the effects 【of】 career setbacks is to look at scientists 【of】 very
+587 | It can save their trouble 【of】 carrying printed books.
+208 | Even so, there have been a very small number 【of】 cases recently when authorities discovered eggs during further inspections.
+308 | This ___29___ that the brain is able to compensate for loss 【of】 certain brain structure.
+502 | The issuing 【of】 certificates to vendors.
+327 | Buy different kinds 【of】 cheese.    ?P:kind of
+640 | So you could have different types 【of】 cheese.
+600 | "It's almost like the dark night is ending and the sun is coming up," said Ya Yung Teng, the digital collections coordinator for the Museum 【of】 Chinese in America.
+522 | blank from a list 【of】 choices given in a word bank following the passage.
+346 | To test the feasibility 【of】 cloning technology.
+578 | launching narrow winners far ahead 【of】 close losers.    ?P:ahead of
+418 | Develop a new strain 【of】 coffee bean.
+273 | Nevertheless, it is speculated that they could either be handed over to the National Art Museum 【of】 Cologne or sold to the public by the local government.
+158 | They will realise the importance 【of】 communication.
+389 | The scene broadcast on television prompted thousands 【of】 complaints to city hall.
+584 | It is a code 【of】 conduct based on laws and ethics.
+154 | It could be melted for use in other products. [7] It said even though there are some differences between the two products, there was still the possibility 【of】 confusion for consumers.
+321 | He is tired 【of】 cooking.
+253 | Tariq couldn’t believe his eyes when he saw the palace made 【of】 corn.
+495 | I’ll pay you back, 【of】 course.    ?P:of course
+656 | W: 【Of】 course.    ?P:of course
+199 | There are now dozens 【of】 criminal cases in which offenders have ___31___ themselves off as people 【of】 a different age, race
+192 | The importance 【of】 cutting down family expenses.
+401 | That is increasing the probability 【of】 dangerous accidents.
+607 | M: When is the show supposed to start? [10] I’m a bit overwhelmed with the amount 【of】 data I still need to collect to finish my thesis.
+153 | Inside the car 【of】 David King's neighbour.
+266 | Often the star rating I give has far more to do with the kind 【of】 day    ?P:kind of
+375 | Compared with teens a couple 【of】 decades ago, the way they interact with traditional media like books and movies is fundamentally different.
+447 | To maintain a serious hobby, people need to invest significant psychological resources, say the authors—so if the activity has the same kinds 【of】 demands as their work, they may be left _32_ and unable to perform well at their job.    ?P:kind of
+261 | With the help 【of】 Denis Hayes, a graduate student at Harvard University, Nelson    ?P:with the help of
+294 | It is linked with older adult’s symptoms 【of】 depression.
+141 | After six days 【of】 desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan 【of】 the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.
+256 | — between parts 【of】 different brain networks are actually stronger in people who had hemispherectomies than in people with
+259 | It caters to the tastes 【of】 different customers.
+419 | He has a great collection 【of】 different stuff.
+362 | He eats a variety 【of】 different vegetables and nuts, especially those with high amounts 【of】 protein.    ?P:a variety of
+489 | We need a more informed way 【of】 discussing behavior that at first we cannot, or should not, begin to understand.
+557 | W: [8] You should make money a regular topic 【of】 discussion.
+462 | What kind 【of】 display attracts a greater crowd 【of】 customers.    ?P:kind of
+410 | What kind 【of】 display creates more interest.    ?P:kind of
+514 | What kind 【of】 display leads to greater customer satisfaction.    ?P:kind of
+358 | What kind 【of】 display results in more sales.    ?P:kind of
+173 | It assigned a team 【of】 doctors for each expected baby.
+278 | They were in the operating room with five teams 【of】 doctors, one for each baby.
+646 | She ordered a large number 【of】 dolls.
+414 | He’s even written to his state senator about the torture 【of】 dolphins in sea parks.
+397 | Newspapers are constantly filled with frightening accounts 【of】 drug addiction and aggressive behaviour supposedly caused by violent videogames.
+580 | And in such great numbers, their commercial hunting 【of】 ducks and geese became an industry.
+319 | The number 【of】 ducks has declined sharply in recent years.
+210 | At the end 【of】 each conversation, you will
+267 | At the end 【of】 each conversation, you will hear four questions.
+675 | Figuring out the positive properties 【of】 each food item.
+264 | At the end 【of】 each passage, you will hear three or
+314 | At the end 【of】 each passage , you will hear three or
+579 | At the end 【of】 each passage, you will hear three or four questions.
+119 | They do not know all the effects 【of】 eating meat.
+482 | “When the fraudsters first started it was unsophisticated—the websites looked amateur and there wasn’t a lot 【of】 effort,” says Tipton.    ?P:a lot of
+567 | M: Are you sure about that? [9] Rents in big cities are high, and then there’s the cost 【of】 electricity and gas.
+594 | Make full use 【of】 electronic devices.    ?P:make full use of
+336 | Overuse 【of】 electronic devices may cause heart disease.
+639 | It generates a great deal 【of】 electronic garbage.
+230 | Enormous cost 【of】 energy.
+313 | organized the first Earth Day on April 22, 1970, educating participants in the ___29___ 【of】 environmental protection.
+513 | In the absence 【of】 environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that are worn only a few times and then discarded.
+102 | They will have a variety 【of】 events to choose from including running, throwing and jumping.    ?P:a variety of
+449 | But even when these accounts touch on real concerns, they do not really reflect the great mass 【of】 everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence 【of】 a new teenage sphere that is conducted digitally.
+385 | Over the past 13 years, as a student, lecturer and researcher, I’ve enjoyed discussing the science 【of】 evil with anyone willing to listen.
+117 | These factors included lack 【of】 exercise and not eating enough vegetables.
+529 | Running is the easiest form 【of】 exercise for most people.
+272 | Forming the habit 【of】 exercising regularly.
+552 | “He’s a very relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is a cat 【of】 expensive tastes who likes his high priced cat food.
+481 | But though she was suffering from the effects 【of】 extreme cold, the child reportedly suffered no life-threatening effects.
+652 | As one person controls the head, a second follows under a train 【of】 fabric representing the body.
+147 | When trial participants were asked to choose between photographs 【of】 faces 【of】 a different race from theirs, response times
+669 | Manufacturers, consumers, and regulatory bodies can then take an informed approach to recognize the environmental impact 【of】 fast-fashion and to design an ecosystem to reduce waste, incentivize innovation, and create new business models to manage waste.
+144 | However, this week, the City 【of】 Fayetteville issued a proclamation for the day to take place March 18th. [2] Officials said they want bus drivers to know how important they are to Fayetteville, serving almost 1.6 million riders a year.
+108 | He was unsure what kind 【of】 fellow Jimmy was.    ?P:kind of
+629 | Some other fellow came in asking for Jimmy just yesterday, (9) a real nervous, pushy type 【of】 fellow, saying he needed Jimmy for some study project they were working on.
+218 | This included rebuilding about 50 kilometers 【of】 fencing.
+445 | By following the counsel 【of】 financial planners.
+249 | They pay insufficient attention to their choice 【of】 food.
+679 | In the early times, pigs were allowed to wander freely in search 【of】 food.    ?P:in search of
+366 | They ran out 【of】 food completely.    ?P:run out of
+160 | The quality 【of】 food products.
+315 | And now I think we should prepare some sandwiches and snacks, and some other kinds 【of】 food, so that people can just help themselves, rather than getting everyone to sit down at the table to eat a meal.    ?P:kind of
+287 | The board 【of】 free meals inside the restaurant shows a host 【of】 potential meals already paid for by customers, each costing about $10.
+183 | The idea for the board 【of】 free meals started after a donor came in with $100 for each member 【of】 its staff.
+439 | The National Association 【of】 French Millers says bread consumption is on the decline, with French people eating nine grams less than in the previous year.
+207 | It is fully aware 【of】 frequent customers' feelings.
+82 | The activity 【of】 friends’ brains was more similar than that 【of】 people who didn’t know each other, particularly in regions involved in attention, emotion and language.
+536 | (8-2) We will just be a small group 【of】 friends gathering together at Washington Park.
+224 | Hundreds 【of】 frozen turkeys were spilled all over the road.
+131 | Explaining why she has kept up the videos, Andrea explained how nice it was to have a little bit 【of】 fun and craziness that made people smile.
+509 | The chances 【of】 getting an athletic scholarship later on.
+123 | Enrich the local culture 【of】 Glasgow.
+369 | Now, we need to invest in the technologies and programmes that transform the rest 【of】 Glasgow’s economy and make us net zero before anyone else.
+666 | Then, when I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead 【of】 going to the canteen, where I could get a healthier meal for half the price.    ?P:instead of
+322 | The aircraft was carrying 265 million pounds worth 【of】 gold and diamonds, when the door flew open—sending the precious metal back to earth.
+217 | The loss 【of】 gold from an airplane.
+270 | Tons 【of】 gold have fallen out 【of】 the sky in Russia after a cargo plane malfunctioned in midair this morning.
+478 | Nine tons 【of】 gold on plane AN-12 belonged to a goldmine company.
+426 | Reports suggest some bars 【of】 gold were scattered up to 15 miles away from the airport.
+437 | What I like most is destroying the cliche (陈词滥调) 【of】 good and evil, and replacing them with scientific insight.
+543 | Nowadays, men eat an approximate average 【of】 140 grams 【of】 bread daily, (6) whereas women eat 80 to 90 grams.
+175 | Record growth 【of】 Greenland’s ice sheets.
+528 | W: They use new types 【of】 guns, and birds could easily be shot down in flight.
+379 | It is the best kind 【of】 hard cheese.    ?P:kind of
+665 | It does a lot 【of】 harm to the environment    ?P:a lot of
+121 | It released a lot 【of】 harmful gases.    ?P:a lot of
+137 | That finding suggests that the “_29_ self” represented by endless amounts 【of】 health data doesn’t tell the whole _30_.
+526 | Others in the US have found similar effects with National Institutes 【of】 Health early-career fellowships
+232 | He has had some sort 【of】 health problems.    ?P:sort of
+441 | And poor sleep can cause all sorts 【of】 health problems.    ?P:all sorts of ?P:sort of
+387 | People in France are keeping away from the narrow French stick loaf in favor 【of】 healthier, cheaper options, a millers association has said.
+197 | They may lack adequate knowledge 【of】 healthy food.
+626 | The goal was simple, to discover how the adapted to the kind 【of】 heat that can melt    ?P:kind of
+520 | That’s so lucky 【of】 her.
+372 | She even texted pictures 【of】 her and her husband eating there in 2017 as proof.
+182 | It was suggested by some 【of】 her customers.
+166 | The bushfires that hit the area back then destroyed a large part 【of】 her family’s massive property.
+676 | W: She bought a house for herself and her husband, a house for her parents, and then a house for each 【of】 her four brothers and sisters.
+533 | The photos 【of】 her hometown look amazing.
+475 | Replace some 【of】 her old furniture.
+106 | Post pictures 【of】 her pet dog on social media.
+484 | “A large number 【of】 high-class travelers, including CEOs, have to spend more than three hours by road to get there—and that is a loss 【of】 time,” a Bangalore airport spokesperson said.
+172 | At around half past nine this morning, a trailer attached to a lorry turned over at the crossing 【of】 High Street in Milton.
+360 | a young boy had a significant portion 【of】 his brain removed for medical reasons, which included the part 【of】 the brain ___32___
+412 | other parts 【of】 his brain took over the missing part’s ___34___ tasks.
+109 | The man parked but didn’t put on the handbrake 【of】 his car properly.
+460 | The man’s good memory 【of】 his childhood.
+525 | (5-2) Hidenobu Fukuda, who heads the firm, introduced the pet policy, upon request from one 【of】 his employees, allowing staff to bring their own cats to work.
+450 | To check the prices 【of】 his farm produce.
+81 | One 【of】 his friends was caught littering.
+215 | Post a picture 【of】 his restaurant online.
+396 | Wilbur is both bold and friendly. [6] He spends most 【of】 his time in shops and businesses around the village.
+289 | He spends most 【of】 his time in the gym.
+180 | See them as symbols 【of】 honor.
+634 | W: (14-2) That’s not the kind 【of】 hot I mean.    ?P:kind of
+668 | Little proof 【of】 human fascination with animals.
+636 | It fails to consider the complexity 【of】 human relationships.
+512 | Much evidence 【of】 humans capturing animals.
+470 | People from the state 【of】 Idaho.
+494 | Another wave 【of】 immigrants is hitting the U.S.
+546 | The number 【of】 immigrants to the U.S. is declining.
+239 | Within a distance 【of】 18 inches.
+458 | [5] It was a heartwarming moment that dozens 【of】 Indian rescuers rallied together to use a crane in order to save an elephant trapped at the bottom 【of】 a 20-foot well.
+446 | New research from America studies the role that the presence 【of】 individuals from different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence 【of】 an observer 【of】 a different race, as opposed to an observer from their own race.
+161 | His car rolled backwards, and in a striking display 【of】 irony, hit a sign saying “Rom”—the small town in North Germany he had mistakenly plugged into the GPS system.
+619 | And if we move far enough from the city center, the rent is low enough for us to afford all 【of】 it.
+569 | Change the wrapping 【of】 its commodities.
+111 | It had two 【of】 its domestic flights mixed up.
+432 | The service, which claims to be the first 【of】 its kind in India, offers only one route, but Bangalore airport will add more once it gets approval.    ?P:the first of its kind
+381 | Considering the promotion 【of】 its regular classes.
+374 | However, the aircraft made an emergency landing in Magan after it began losing some 【of】 its valuable cargo.
+390 | America makes the best-known brands 【of】 jeans.
+547 | W: A pair 【of】 jeans?
+673 | The urgency 【of】 joining an animal rights group.
+537 | They have a higher chance 【of】 joining sports teams.
+405 | The possibilities 【of】 joining the school sports team.
+181 | Biting a medal in front 【of】 journalists and photographers has become a common pose for Olympic medalists.    ?P:in front of
+558 | outside for some seasonal snowman-building and snowball throwing, against a background 【of】 joyful pop music.
+378 | The fake websites have authentic-sounding names involving a mix 【of】 keywords, typically including the place name, “summer”, “villas” or “rentals”.
+234 | Most staffers have received messages 【of】 kindness.
+339 | The board has messages 【of】 kindness like, “If you want more kindness in the world, put it here.
+563 | where you are now and where you want to be in the future is caused by a lack 【of】 knowledge.
+593 | Evil is typically referred to when there is deviance from social norms; formal deviance is the violation 【of】 laws, like theft, murder, and attacks, while informal deviance involves violations 【of】 social norms, like lying.
+429 | She stands accused 【of】 leaving a minor in danger in the care 【of】 the elderly.
+411 | But instead 【of】 leaving and never coming back, it invited its friends round. [5] There are now at least five different cats who come almost on a daily basis.    ?P:instead of
+565 | [6] The researchers put forth policy contributions, ranging from sustainable disposal 【of】 leftover stock to production tax to incentivize both manufacturers and consumers to be more waste conscious.
+430 | Details 【of】 legitimate (合法的) villas are often stolen from other sites.
+395 | However, there has been _26_ little research on the influence 【of】 leisure activities.
+247 | Firing 【of】 less qualified faculty members.
+394 | M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs 【of】 living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+97 | Tariq’s profession 【of】 love for his favorite vegetable earned him the name “the Corn Kid”.
+305 | [3] The arrests were in connection with a string 【of】 mail thefts from U.S.
+599 | It’s a slower process 【of】 making clothing.
+511 | for over the course 【of】 many years can be extremely challenging.
+168 | Eating more vegetables instead 【of】 meats.    ?P:instead of
+219 | To treat the disorder, there’re a number 【of】 medicines and therapies that are backed by _33_ research, according to the American Academy 【of】 Sleep Medicine, which analyzed the available research on the treatment 【of】 nightmare disorder in a recent _34_ published in the Journal 【of】 Clinical Sleep Medicine.    ?P:a number of
+236 | The dance group, made up 【of】 60 members, performs throughout the year but was now preparing for its biggest events, Chinese Lunar New Year celebrations, which will begin on Saturday and conclude on February 15.
+504 | To arrive at this ___28___, the researchers examined the linguistic patterns 【of】 men and women in over 600,000
+653 | The risk students face due to a history 【of】 mental health problems.
+517 | The 100th anniversary celebration 【of】 Methodist University.
+363 | She has been robbed 【of】 5 million Euros.
+251 | executives out 【of】 millions 【of】 pounds.
+575 | He’s a good friend 【of】 mine, and he would never try to pressure you or cheat you.
+122 | The dams contain waste products 【of】 mining and can contain materials which are harmful to the environment and human health.
+532 | She is 【of】 mixed blood.
+624 | Our friend Hannah won a ton 【of】 money.
+277 | They needed to stay in the hospital for a couple 【of】 months.
+477 | Collection 【of】 more data.
+354 | 【Of】 more than 9,700 people, roughly 85 percent were off base when asked to rate the quality 【of】 their diet, and almost all overestimated how healthy it was. [4] Those who rated their diet as poor tended to be far more accurate.
+516 | Traffic jams are a common problem 【of】 most big cities, either in developed or in developing countries, but one kind 【of】    ?P:kind of
+361 | It became a pet 【of】 Mr.
+612 | W: I still think it’s a bad idea to use a credit card for something you don’t need. [11] One 【of】 my colleagues bought a lot 【of】 things on credit during her first year 【of】 work, and it became a bad habit, and she accumulated a lot 【of】 debt.    ?P:a lot of
+493 | And it’s the same for most 【of】 my friends.
+463 | Three 【of】 my friends from the dormitory would share the place with me.
+492 | Require companies to use 30% 【of】 new plastic.
+544 | Increase the supply 【of】 new plastic in the market.
+246 | “Even when unemployment results from the ___33___ 【of】 new technologies, people still judge it in a social context,”
+271 | What we do know is that people _35_ to have different kinds 【of】 nightmares at different points during the sleep cycle.    ?P:kind of
+473 | A total 【of】 nine furry friends freely wander around in the office and do whatever their little hearts desire.    ?P:a total of
+225 | They were all 【of】 normal size except the sixth.
+661 | She’s just started a part-time job and was thinking 【of】 not contributing to her pension.
+279 | Local policemen came across bundles 【of】 £20 notes.
+227 | Bundles 【of】 £20 notes kept turning up.
+284 | Exposure to blue light is the chief cause 【of】 obesity.
+269 | To inquire about the price 【of】 office chairs.
+393 | By investing half 【of】 one’s monthly income.
+497 | They tended to be arbitrarily judged by individuals 【of】 opposing groups.
+611 | It goes out 【of】 order frequently.    ?P:out of order
+633 | He studied the blueprints 【of】 other famous buildings.
+602 | The study found that people feel judged to a larger extent by members 【of】 other groups.
+645 | E) Perhaps this is where we can find the good side 【of】 our bad side.
+590 | Currently we are offering existing members discounts off two 【of】 our brand new classes, hot yoga, and advanced spinning, but the discount doesn’t apply to any 【of】 our regular classes I’m afraid.
+604 | Sarah Godfrey, who is organizing Wilbur’s party, told the local newspaper, “Wilbur is part 【of】 our lives, as he is for everyone who lives in the village.
+541 | We think 【of】 ourselves as “good people”, and even when we do morally wrong things, we understand the context 【of】 our decisions.    ?P:think of sth as
+198 | But that represents a reduction from last year’s energy assistance package 【of】 over $8 billion.
+521 | employment, based on surveys 【of】 over 5,000 workers and managers in seven countries.
+663 | She developed a habit 【of】 overspending.
+265 | Reaching our goals will need exactly this kind 【of】 partnership approach—with government, business, local authorities and citizens all playing their part.    ?P:kind of
+622 | W: [15] Actually, it was a quarter 【of】 people.
+570 | She said twenty percent 【of】 people are afraid to fly.
+545 | And I’m tired 【of】 people asking that question 【of】 my 10-year-old daughter.
+170 | For a growing number 【of】 people, however, their yearly break is turning into a nightmare as they find that the property they have paid thousands for does not exist and the website through which they booked it has disappeared.
+400 | the tendency 【of】 people to use “abstract speech that focuses on the broader picture and ___26___ purpose 【of】 action rather than
+83 | There will be crowds 【of】 people waiting for her.
+342 | When researching this book, I interviewed hundreds 【of】 people who retired by 40.
+293 | Social isolation, meanwhile, is linked to higher rates 【of】 physical diseases and mental health conditions.
+596 | Reduce the amount 【of】 plastic pollution in local areas.
+96 | Broke a number 【of】 postal collection boxes.    ?P:a number of
+326 | “Millions 【of】 pounds are lost each year by defrauded holidaymakers,” says Sean Tipton 【of】 the Association 【of】 British Travel Agents (ABTA).
+331 | A bundle containing thousands 【of】 pounds got stolen.
+124 | Bundles containing thousands 【of】 pounds in cash keep turning up on the streets 【of】 Blackhall Colliery in northern England, according to police.
+613 | It usually requires years 【of】 preparations.
+116 | Its findings confirmed those 【of】 previous studies.
+304 | Tell her exactly what kind 【of】 property to look for.    ?P:kind of
+114 | Finally, the woman got a full body scan at a hospital in the city 【of】 Qingdao.
+365 | This mission is founded on the proposition that all people, regardless 【of】 race, gender,    ?P:regardless of
+648 | Take measures to promote the use 【of】 recycled plastic.
+524 | They are a shade 【of】 red bordering on brown.
+274 | In 2017 there were 1,632 cases 【of】 reported “villa fraud (诈骗)”, with victims losing an average 【of】 £2,052, according to Action Fraud, the national center for reporting such frauds.
+241 | This idea is supported by plenty 【of】 _32_ research.
+348 | A team 【of】 researchers led by Priyanka Joshi examined the degree to which men and women relied on “communicative
+341 | It is being debated by hundreds 【of】 retirees.
+349 | As the night goes on, groups 【of】 riders are often seen traveling in just about every direction in the streets and on pedestrian paths.
+143 | The number 【of】 riders they serve in the city.
+589 | Their brain is more powerful than that 【of】 right-handed people.
+244 | The necessity 【of】 saving into a pension.
+609 | W: [11] I am always talking to my elder daughter about the importance 【of】 saving into a pension.
+402 | The criterion for a snow day is primarily the inability 【of】 school buses to operate safely on their routes and danger to
+350 | the US, it means the chance 【of】 school children benefiting from the long-standing tradition 【of】 the “snow day”, when schools
+503 | The ultimate goal 【of】 scientists is to produce clones 【of】 talented police dogs that can be trained in months instead 【of】 years. [7] However, this goal is not yet possible due to the current costs 【of】 the technology.    ?P:instead of
+479 | Paper books are being ignored, in favor 【of】 screens.
+638 | Fraudsters also invest in pay-per-click advertising to feature at the top 【of】 search engines when people type in phrases such as “Spanish seaside villas”.
+194 | a threat to their feeling 【of】 self-worth.
+359 | Regular shoppers at the supermarket are familiar with the sight 【of】 several cats settling down in the shop aisles.
+223 | It has been the scene 【of】 several fatal accidents recently.
+428 | She suffered from the effects 【of】 severe cold.
+678 | the bottom 【of】 shoes.
+442 | They are full 【of】 shootings.
+212 | It increases the joy 【of】 shopping.
+163 | She has a big family 【of】 six.
+226 | This was the first record 【of】 six babies being born at the same time in that region.
+468 | This type 【of】 snake is classified as a threat to humans, especially small children as well as pets.
+245 | This kind 【of】 snake is one 【of】 the most deadly and poisonous in the wild, and they can range from 3 to 5 meters in length.    ?P:kind of
+416 | The type 【of】 snake was determined to be one 【of】 the world’s largest snake species.
+540 | It seems to trigger a type 【of】 social anxiety.
+657 | So if you use a ton 【of】 social media, do you become unable, or unwilling, to engage in face-to-face contact?
+299 | Closing down 【of】 some less competitive schools.
+601 | They were influenced by the presence 【of】 someone from an outsider group.
+139 | A new study has cast doubt on historic research suggesting that the season or month 【of】 someone’s birth is associated with an increased risk 【of】 certain mental health conditions.
+585 | It’s in the southwest 【of】 South Africa.
+291 | When we develop a sense 【of】 space.
+312 | Among the reasons given for the decision, the restaurant cited noise levels, lack 【of】 space for highchairs, cleaning up crazy messes, and the liability 【of】 kids running around the restaurant.
+382 | For decades tourists have been flocking to Palmdor, which is located off the southeast coast 【of】 Spain.
+214 | display 【of】 star feedback has become the nuclear power sources 【of】 the modem economy.
+110 | for a hit 【of】 stars that if you delete the survey the company sends you another one.
+213 | The city’s council and ScottishPower have announced a range 【of】 strategies in an attempt to reduce carbon emissions ahead 【of】 the new national target 【of】 2045.    ?P:a range of ?P:ahead of
+352 | The district will have a total enrollment 【of】 3,742 students.
+608 | a sample 【of】 300 students, the researchers ___33___ power dynamics in an interpersonal setting to see if this would influence
+343 | A number 【of】 studies have looked at how family life can affect productivity and satisfaction in the workplace.    ?P:a number of
+637 | It’s a tool you can make yourself to take the stress out 【of】 studying.    ?P:take sth out of
+671 | It sounds like you’ll be wasting several hours every day on the road instead 【of】 studying.    ?P:instead of
+606 | The closing date 【of】 submission.
+630 | good explanation for the phenomenon in the book The Formula: The Universal Laws 【of】 Success by
+427 | Analysis 【of】 surveys 【of】 over one million teens in the United States collected since 1976 reveals a major shift in how teens are spending their leisure time.
+535 | It involves buying lots 【of】 tablets and software.
+127 | Researchers in Iceland found a new way 【of】 tackling climate change by pumping carbon dioxide underground and turning it into stone.
+568 | something,” said Massachusetts Institute 【of】 Technology (MIT) computer science professor Berthold Horn.
+501 | New technologies always provoke generational panic, which usually has more to do with adult fears than with the lives 【of】 teenagers.
+635 | One out 【of】 ten American 8th grade students in 2016 spent 40 hours a week or more playing video games.
+260 | [3] Net Ease House, a restaurant in America, has been hit with criticism after announcing on their website that children under the age 【of】 ten are no longer welcome.
+583 | By 2016, nearly nine out 【of】 ten young women in the 12th grade said they visited social media sites every day.
+177 | But as recent survey data and interviews have suggested, many teens find much 【of】 that time to be unsatisfyingly spent.
+574 | You may not use any 【of】 the
+317 | Speaking ahead 【of】 the All Energy Conference being held in Glasgow, ScottishPower chief executive Keith Anderson said: “We have a large supply 【of】 renewable energy on our doorstep and one 【of】 the only two low emission zones in action across the UK.    ?P:ahead of
+89 | The poisonous snake forced the closure 【of】 the attraction last week when staff noticed the disappearance.
+298 | says Christoph Fuchs, one 【of】 the authors 【of】 the study.
+554 | The completion 【of】 the baking task.
+659 | There are 24 episodes. [11] Well, maybe you could download an electronic copy 【of】 the book and try to read it before the show starts.
+398 | Get an e-Copy 【of】 the book to read.
+100 | who underwent a hemispherectomy, a surgical procedure in which half 【of】 the brain is removed to treat illness.
+464 | ___35___ the ability to smell, scientists believe it is possible that another part 【of】 the brain took on that task.
+658 | The details 【of】 the ceremony.
+621 | To boost the growth 【of】 the chocolate industry
+617 | [7] In order to devise effective policies to curb the environmental impact 【of】 the clothing industry, it is important to identify the source 【of】 the problem in the supply chain.
+649 | When she was much younger, my daughter used to say she wanted to be Queen 【of】 the Clouds, which I loved.
+138 | Because 【of】 the collapse 【of】 the three-story building.    ?P:because of
+409 | Investigators reviewed videos 【of】 the collection boxes; the video showed the two men loading the stolen mail into Jax’s vehicle.
+505 | And she’s aware 【of】 the concerns.
+560 | But now that you mention it, I do think getting another phone so soon is wasteful, regardless 【of】 the cost.    ?P:regardless of
+146 | The pain will be especially acute in parts 【of】 the country that heavily rely on heating oil to keep homes warm.
+162 | provider I use asks you what you think 【of】 the course after you've only completed Ŧ 2 per cent 【of】 it.
+242 | Helping search for the suspect 【of】 the crime.
+487 | Fit most 【of】 the cupboards into walls.
+420 | They are unaware 【of】 the damage their behavior is doing to them.
+340 | About 100 current and past members 【of】 the dance group—which has been performing since 1956—will be among the 220 groups marching through Chinatown in Manhattan for the 18th Lunar New Year Parade on February 5.
+159 | The family is now offering a £5,000 reward for the safe return 【of】 the dog after launching a social media campaign to find the thief.
+112 | (1-2) Both 【of】 the dogs had been sent to the wrong destinations on connecting flights from Denver, with Buddy mistakenly being sent to Japan instead.
+603 | Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% 【of】 the 1,240 employees surveyed said the notion 【of】 fathers taking leave has become more acceptable.
+105 | Earth Day is an annual celebration that honors the achievements 【of】 the environmental movement and raises awareness
+195 | The significance 【of】 the event to take place March 18.
+572 | W: I’m not sure 【of】 the exact figure, but it’s a few million Euros, maybe five million Euros after tax.
+408 | The man’s use 【of】 the expression ‘fixed’.
+87 | No injuries were reported in connection with the fire. [2] The Norwalk Fire Marshal is investigating the cause and origin 【of】 the fire.
+185 | One 【of】 the five tourists.
+672 | Horn said phantom traffic jams are an emergent property 【of】 the flow 【of】 vehicles down a highway.
+233 | “I’m really sorry that I hurt the treasure 【of】 the gold medalist,” Kawamura told reporters Thursday.
+258 | Last year, a German federal court said the shade 【of】 the gold wrapping was also protected.
+538 | W: (8-2) Yes, I signed up two months ago, but I haven’t been to any 【of】 the group classes yet.
+288 | Teenagers comprise about half 【of】 the group, many 【of】 whom began lion dancing at the age 【of】 14.
+186 | It was unclear where the rest 【of】 the group was from, but they were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.
+329 | She became a member 【of】 the gym two months ago.
+292 | This shifts weight onto the muscles at the back 【of】 the head and causes the bone to grow in a way that is not normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing or pressure.
+581 | He is the owner 【of】 the Hill House.
+433 | Send him a map 【of】 the hotel area.
+115 | Nightmares are part 【of】 the human experience, especially for kids.
+190 | Investigating the cause 【of】 the incident.
+135 | Take some photos 【of】 the islands.
+566 | By making it part 【of】 the job.
+92 | She says that the best part 【of】 the job is watching the children who ride her bus grow up.
+510 | The elephant wandered out 【of】 the jungle and fell into the well.
+95 | face from the real thing outside 【of】 the lab.
+469 | Those over 45 make up the bulk 【of】 the long-term
+573 | “Older midcareer workers...make up the bulk 【of】 the long-term unemployed in many countries,” Generation’s analysts write
+625 | Those over 45 comprise over 40% 【of】 the long-term unemployed, for example.
+328 | She stated that the driver 【of】 the lorry had been arrested on suspicion 【of】 dangerous driving.
+134 | One 【of】 the male tourists from Australia commented that although there was a lot 【of】 trash, nobody was doing anything.    ?P:a lot of
+415 | Sending Jake to the school near the biome 【of】 the man's mother.
+211 | But at the end 【of】 the meal, customers don’t have to worry about the bill.
+196 | The biggest driver 【of】 the $91.8 million proposed budget remains teacher salaries.
+132 | Bone density may not be one 【of】 the most exciting health benefits 【of】 walking, but it's an important one.
+434 | Although Palmdor is one 【of】 the most famous private islands in the world, its seafront is public land and is a favorite destination for famous people.
+150 | It is one 【of】 the most popular running events in the southeastern U.S.
+151 | The run closed the span between the Middle and Lower Keys to traffic for 3 hours Saturday. [2] The April contest is one 【of】 the most popular running events in the southeastern United States.
+474 | A 2018 study published in the Proceedings 【of】 the National Academy 【of】 Sciences, for example, followed
+157 | 【of】 the need to protect Earth’s natural resources for future generations.
+238 | W: Our guest on today’s Book Talk is John Black, the author 【of】 the new bestseller, Retire Early.
+403 | They usually happen in the middle 【of】 the night.
+456 | Another person was woken up in the middle 【of】 the night by what he thought was early construction work starting.
+254 | It distinguishes itself as one 【of】 the oldest games.
+527 | Calculate the cost 【of】 the paint job.
+80 | In fact, 60-70 percent 【of】 the participants in the study could no longer even be ___28___ as depressed.
+455 | They set off to inspect the site 【of】 the plane crash.
+334 | In the middle 【of】 the platform.
+386 | At the far end 【of】 the platform.
+461 | [4] Jax and Goodman each face up to five years in federal prison in the mail thefts and up to ten years for possession 【of】 the postal key.
+222 | Consumers have been warned to be aware 【of】 the potential for deception in this market, which is far from uncommon.
+200 | Identifying the source 【of】 the problem.
+448 | Lesley Harper, who runs one 【of】 the pubs, said the cat has been a big hit with their customers.
+443 | To them, a difference, no matter how small in your eyes, signals the end 【of】 the relationship.
+562 | Video 【of】 the rescue operation shows how the team used a crane to lift up the huge animal out 【of】 the well and onto the back 【of】 a truck.
+406 | Their rating match that 【of】 the researchers more than nine times out 【of】 ten.
+235 | After two staffers returned to their share, there was $700 leftover according to Tarah Morris, the owner 【of】 the restaurant, so they decided to do something more by creating the board.
+320 | The restaurant waitress Sasha Formica posted a picture 【of】 the ring on Facebook.
+297 | Electric bikes have been the craze in downtown Jacksonville since they were first introduced earlier this month as a one-year pilot program. [5] But they’re leading to safety concerns, mainly at night when some riders don’t follow the rules 【of】 the road.
+548 | The new year—according to the Chinese lunar calendar—will begin on Saturday and marks the Year 【of】 the Rooster, which is thought to be a symbol 【of】 positivity.
+576 | They must be 【of】 the same size.
+549 | They were readily shared among members 【of】 the same social or racial group.
+597 | Adults love that last one, as it’s the perfect mix 【of】 the sensible and the ambitious.
+508 | Some roads were also closed because 【of】 the severe weather.    ?P:because of
+631 | Workers who’re in the top 10% 【of】 the slimmest.
+86 | Because 【of】 the smoke and heat damage    ?P:because of
+465 | The opening 【of】 the Special Olympics Spring Games.
+496 | While lions are not native to China, some versions 【of】 the story include the villagers creating a monster 【of】 their own in the shape 【of】 a lion to fight off the beast.
+188 | New scientific research at the University 【of】 the Sunshine Coast in Queensland, Australia, suggests that young people are developing extra pieces 【of】 bone at the backs 【of】 their heads.
+664 | You’re an advocate 【of】 the tiny home movement.
+229 | Fifty-four percent 【of】 the 13-to-17-year-olds surveyed said they spend too much time _30_ in their phones.
+201 | South Dakota is one 【of】 the top corn producers in America.
+248 | These account for 64% 【of】 the total request at $59 million.
+483 | Choose one 【of】 the two types 【of】 cheese.
+531 | More and more, young people choose spending time on their electronic devices over engaging in other activities, regardless 【of】 the type.    ?P:regardless of
+670 | It is estimated at 11% 【of】 the UK’s total food supply.
+454 | are less common in more northern areas 【of】 the United States that are used to heavy winter snowfall because municipalities
+176 | Residents 【of】 the village have been coming across bundles 【of】 £20 notes—usually worth £2,000—in the former mining village in County Durham.
+84 | His feet could barely reach the brake, and his head was only just high enough to see out 【of】 the windows.
+421 | (5-1) A Japanese IT firm has officially introduced an “office cat” policy to combat the stressful environment 【of】 the workplace.
+209 | and on either April 22 or the day the spring equinox occurs throughout the ___26___ 【of】 the world.
+423 | Duck hunting remains legal in many parts 【of】 the world.
+424 | W: (8) I can’t believe that duck hunting is still legal in so many parts 【of】 the world.
+332 | He told The Northern Echo: “(7) It isn’t an affluent part 【of】 the world, so for them to find cash 【of】 that amount and instantly think about taking it to the police stations shows the community spirit there is.
+623 | She is one 【of】 the world's best-known pianists.
+206 | The color 【of】 the wrapper is similar as are the illustrations 【of】 the features.
+243 | These include nutrient intake, sun exposure, climate, and disease exposure varying across the course 【of】 the year.
+263 | The café is open in the mornings every day 【of】 the year and has two members 【of】 staff or supervisors on shift every day.
+472 | They are unable to get rid 【of】 their addiction without professional help.    ?P:get rid of
+591 | The speed 【of】 their brain development in infancy.
+641 | The left side 【of】 their brain is more powerful than its right side.
+204 | because the ___28___ half 【of】 their brain strengthened.
+417 | Ageism and long-term unemployment are most damaging for those in the second half 【of】 their careers.
+373 | Parents’ personalities can affect the personalities 【of】 their children.
+553 | In the 1930s, parents worried that radio was gaining “an irresistible hold 【of】 their children”.
+435 | Painting the interior 【of】 their cupboards.
+436 | Many begin to search for the meaning 【of】 their existence, leading to behaviors such as ending or starting a relationship, or plans, like starting a vigorous diet or fitness program.
+140 | Urging kids to deposit some 【of】 their gift money.
+499 | “Since climbing is so far _35_ from their day-to-day work activities, they can still recover from the demands 【of】 their job with plenty 【of】 resources.
+388 | Relax their strict control 【of】 their kids.
+440 | Dismiss their high expectations 【of】 their kids.
+383 | Search for the meaning 【of】 their life.
+459 | interests and values that determine what they want out 【of】 their lives.
+498 | In contrast, they felt less judged by members 【of】 their own group.
+91 | The importance 【of】 their service to the city.
+605 | This is true not just in terms 【of】 their social lives, but their education too.    ?P:in terms of
+618 | It had taken little 【of】 their spare time.
+650 | More 【of】 them are successful business people.
+490 | Nearly all 【of】 them closed down decades ago.
+598 | More 【of】 them expect their children to succeed in business.
+368 | Most 【of】 them get timely help from their teachers.
+316 | Most 【of】 them have average to strong math ability.
+444 | Stories vary about how lion dancing came to be, but most 【of】 them include a monster named Nian who would terrorize a village.
+438 | Almost all 【of】 them were operating at a deficit.
+296 | To call on busy people to take care 【of】 themselves.    ?P:take care of
+380 | Thankfully, none 【of】 these accidents have resulted in serious injury.
+189 | There’s also a qualified self, which is who I am, what are my activities, my social network, and all 【of】 these aspects are not _31_ in any 【of】 these measurements.
+632 | Yet, there’s no commercial farming 【of】 these birds nowadays.
+228 | The latest discovery was on Monday, meaning four 【of】 these cash bundles have been handed in this year and 13 since 2014.
+620 | The exact cause 【of】 these phantom traffic jams has long remained a mystery.
+280 | Policeman John Forster said in a statement: “The circumstances remain a mystery so we would welcome any information that will help us get to the bottom 【of】 these random incidents.    ?P:get to the bottom of
+404 | Almost all 【of】 these students will be in kindergarten through high school, but 66 will be in prekindergarten and other programs.
+384 | Birthdays can tap into a lot 【of】 things people worry about, including their achievements in life in the past decade, or their accomplishments 【of】 the past year.    ?P:a lot of
+152 | The findings showed that, despite missing half 【of】 this critical ___27___, participants could function well.
+556 | What is the ___32___ 【of】 this effect?
+276 | With just one week to go before Christmas, there are worries that local supermarket supplies 【of】 this holiday favorite may be affected.
+486 | It is said to have a remarkable location that few other private islands 【of】 this size can match, according to estate agents.
+654 | Because 【of】 this, they strategically use healthy food choices to make a positive impression.    ?P:because of
+413 | The reunion 【of】 this year’s Olympic gold medalists.
+500 | “He’s been a regular visitor for most 【of】 this year,” she told the Press Association.
+647 | Is there any chance we could have a window seat for one 【of】 those?
+300 | One 【of】 those is total enrollment.
+655 | 【Of】 those surveyed, 62% 【of】 fathers took the maximum amount 【of】 time off compared to 93% 【of】 mothers, and around three-quarters 【of】 workers said their employer was equally supportive 【of】 mothers and fathers taking parental leave and over half said leave policies had made workplace culture better.
+615 | something new can actually be a waste 【of】 time if your goal is to make progress and not simply gain additional knowledge.
+202 | It always reminds people 【of】 times 【of】 war
+113 | The transfer 【of】 tons 【of】 precious metal by air.
+237 | The number 【of】 tourists to the beach is on a steady decline.
+262 | The new market on the other side 【of】 town.
+367 | I think I might try that big new supermarket on the other side 【of】 town and see what they have.
+453 | That means no running red lights or traveling in the opposite direction 【of】 traffic on one-way streets.
+88 | To add a new means 【of】 transport.
+133 | The beautiful beach was spoiled with lots 【of】 trash.
+171 | It may affect the local supply 【of】 turkeys for Christmas.
+345 | As a parent 【of】 two boys at primary school, I worry about the issues associated with teenagers and social media.
+324 | He knew the owner 【of】 two missing paintings.
+169 | (3-1) German police appealed Friday for information about the possible owners 【of】 two 17th-century oil paintings.
+118 | During the British winter, the thought 【of】 two weeks in a coastal villa (别墅) with soul-stirring views 【of】 the sea and a huge pool to enjoy is enough to offset (抵消) the labor until the holidays start.
+94 | Natural gas is used by nearly half 【of】 U.S. households for heat.
+164 | We will arrange to return the pets to them as soon as possible,” a spokesperson 【of】 United Airlines said.
+467 | It dulls a leader's sense 【of】 urgency.
+187 | They are more intelligent than many 【of】 us.
+136 | But we already know this. [3] What we have not yet understood is the way the tiny machines in front 【of】 us are changing our skeletons, possibly altering not just the way we behave but even the very shape 【of】 our bodies.    ?P:in front of
+588 | There will be around 20 【of】 us, including children.
+515 | And with four 【of】 us, it wouldn’t cost any more than living in the dorm.
+323 | Most 【of】 us spend much more time with digital media than we did a decade ago.
+559 | Why the man is so fond 【of】 using his credit card.
+310 | He’s vegetarian, so I need to make a lot 【of】 vegetable dishes.    ?P:a lot of
+627 | To be honest, I could use some help in deciding what type 【of】 vehicle would best suit my needs.
+149 | This was after his online interview attracted millions 【of】 views and was made into a song.
+307 | The supermarket is known for its loyal customers, but now has a different kind 【of】 visitor that has appeared over the last year.    ?P:kind of
+184 | Even better, you set a powerful example because when they see you ___35___ the benefits 【of】 walking, they'll be encouraged to walk more, too.
+178 | High consumption 【of】 water.
+476 | Ducks are birds that feed and breed in areas where there is a lot 【of】 water, but their habitats have been shrinking in recent decades because 【of】 the droughts.    ?P:because of ?P:a lot of
+356 | The man’s covering up 【of】 what happened.
+407 | Most people have a dream in life, a vision 【of】 who or what they’d like to be in the future.
+371 | Climate change has little effect on the lives 【of】 wild ducks.
+130 | Have a chance 【of】 winning a $100 prize.
+457 | The opportunities 【of】 winning some championships.
+485 | Whether a country’s protection 【of】 women’s rights is related to its public health.
+677 | And if you’re out 【of】 work    ?P:out of work
+90 | the majority 【of】 workers find it less upsetting to see their own jobs go to robots than to other employees.
+551 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years as more fathers feel comfortable taking extended time off, but gender bias persists when it comes to career prospects and the home, according to a new study 【of】 working parents.
+203 | I’ve had the privilege 【of】 working with an exceptional team 【of】 individuals during the past 13 years with the agency. [4] It has been incredibly exciting and rewarding.
+275 | It is the spot that causes the local police a lot 【of】 worry.    ?P:a lot of
+592 | Birthday reminders can be helpful, but I kind 【of】 worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.    ?P:kind of
+231 | The gas turned into solid in just two years, much faster than the hundreds or thousands 【of】 years researchers had predicted.
+303 | Jet Sanders, who worked on the study while a PhD student at the University 【of】 York, said: “Failure to detect synthetic
+523 | W: Hmm, that’s nice 【of】 you, but I don’t want to feel obliged to buy one 【of】 his cars.
+530 | It says on your website that your company will pay back the money within three working days 【of】 you receiving the returned item.
+542 | They attract large crowds 【of】 young Londoners.
+155 | It is no longer critical 【of】 younger customers.
+582 | And then under the description 【of】 your personal information, you should see an option for updating payment methods.
+268 | Sue Tygielski is the zoo’s director 【of】 zoological operations.

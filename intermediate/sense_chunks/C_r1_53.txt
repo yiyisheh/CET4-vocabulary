@@ -1,0 +1,618 @@
+# 任务 C_r1_53：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_53.labels.txt
+
+============================================================
+## 词：have    本段 600 句    模式：全标（每句都写）
+原释义：aux. v.已经; 曾经. vt.有; 持有; 经历.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. 构成完成时（have done，表示已经、曾经）    B 样本 44    例：Most scenic sites have been closed.
+  1  v. 有，拥有，具有    B 样本 21    例：You will have 30 minutes to
+  2  v. 不得不，必须（have to do）    B 样本 5    例：She might have to cancel her registration any minute.
+  3  v. 吃，喝（have a meal）    B 样本 3    例：Whether to have sandwiches.
+  4  v. 让，使，请（人做某事）（have sth done / have sb do）    B 样本 3    例：Have her house repainted.
+  5  v. 进行，从事；经历，度过（have a look / have fun）    B 样本 2    例：View it as a chance for people to socialize and have fun.
+  6  v. 患（病），出现（症状）    B 样本 1    例：The unnamed woman, from the province of Shandong, started to have coughing problems when she was 7 or 8 years old.
+  7  v. 生（孩子）    B 样本 0
+已标过的短语：have sth in common with（1）；have yet to do（1）
+口径说明（照此执行）：
+  - have to 作为义项「不得不」处理而非 P；may/might/would have done（对过去的推测）并入完成时义项。
+句子：
+100 | modifications to the adaptive cruise control that many new cars already 【have】.
+200 | He said, “We already 【have】
+211 | I think I might try that big new supermarket on the other side of town and see what they 【have】.
+292 | M: I already 【have】.
+318 | G) One straightforward reason close losers might outperform narrow winners is that the two groups 【have】
+490 | The deeper the pink, the more attractive the males are believed to be, and the older the male, the more pink it will 【have】.
+503 | Weighing the consequences they 【have】.
+532 | Winning entries in past years 【have】
+612 | We hear sayings like “dress for the job you want, not the job you 【have】”.
+618 | As it turns out, boredom might signal the fact that you 【have】 a
+492 | [25] But if you’re in a place where you 【have】 a basis of trust, conflict can be extremely productive.
+324 | Company culture can 【have】 a big impact on how you feel about your work, so you want to make sure you sign an offer letter with an organization you’re truly excited about.
+613 | Suppliers will always 【have】 a certain amount of surplus.
+278 | I’ve checked the availability of flights from Beijing to London on the 22nd and you 【have】 a choice.
+443 | [25] Since most people tend to avoid risk, businesses that are brave enough to take risks already 【have】 a competitive advantage.
+467 | “Women working outside of the home should make an effort to 【have】 a conscious conversation with their partners about more equitable sharing of household and family responsibilities,” Dr.
+284 | To cover multiple domains and to be able to 【have】 a conversation with users on every single topic is still a long way off.
+145 | They will 【have】 a costly bill to pay to heat their homes.
+228 | It’s like my brain decides to 【have】 a crisis.
+440 | They 【have】 a denser weave, and are more durable than any other jeans in the world.
+339 | So if you 【have】 a disagreement with a securely attached person, they’re not going to panic.
+214 | Small early career setbacks seem to 【have】 a disproportionate effect
+215 | They 【have】 a distinctive style of handwriting.
+199 | Most people 【have】 a dream in life, a vision of who or what they’d like to be in the future.
+353 | “This study ___28___ what we are learning about how manipulating vision can 【have】 a ___29___ effect on the ability of an
+487 | So we 【have】 a family room for you and your wife and the kids, and another double room for your parents-in-law.
+659 | Most people will 【have】 a feeling that they've missed
+417 | M: (14) I 【have】 a friend who sells second-hand cars.
+619 | That said, curiosity does 【have】 a genetic component.
+365 | Older workers who actively pursue more education and training 【have】 a good chance of being hired.
+260 | W: They do 【have】 a great outdoor campus where he could finally learn all those outdoor sports you 【have】 been wanting him to try.
+652 | Ambitious people may not 【have】 a greater chance of success.
+377 | Doubts about the practicability of diversity 【have】 a greater weight if a person is directly affected.
+569 | A conclusion has been drawn from many experiments that anumeric people 【have】 a hard time
+675 | Smart people also 【have】 a hard time accepting feedback.
+651 | Some people find it “snobby” (势利的) and others simply find it irritating because they 【have】 a hard time remembering which last name they are supposed to say first.
+491 | you 【have】 a health issue and you want to be around longer for your kids, or if your business is something you're passionate
+225 | They 【have】 a higher chance of joining sports teams.
+498 | But we 【have】 a higher risk of consuming more than the
+424 | The client’s main desire was to 【have】 a home with the unique design, so the architect was given complete freedom.
+489 | Many of the highest earners 【have】 a keen interest in and love for what they are doing.
+151 | We’d 【have】 a kitchen, so we could cook ourselves.
+398 | Americans now 【have】 a labor market in which millions of people — those with fewer skills and less
+109 | Speaking ahead of the All Energy Conference being held in Glasgow, ScottishPower chief executive Keith Anderson said: “We 【have】 a large supply of renewable energy on our doorstep and one of the only two low emission zones in action across the UK.
+329 | They 【have】 a larger brain.
+633 | It's a fundamental human need to 【have】 a larger purpose and to feel like we're part of something
+648 | We need restructured online classes in which students can 【have】 a learning experience that will actually provide quality education.
+546 | So if you 【have】 a left-handed child, you should encourage them to play table tennis, baseball and tennis.
+273 | Logical learners 【have】 a linear mind and would rather use logic, reasoning and systems.
+183 | Explaining why she has kept up the videos, Andrea explained how nice it was to 【have】 a little bit of fun and craziness that made people smile.
+288 | Lion dancers need to 【have】 a little imagination to perform well.
+663 | They 【have】 a longer history than humans.
+396 | Let me 【have】 a look.
+218 | W: Let me 【have】 a look at that.
+274 | He also suggests asking someone not going on the holiday to 【have】 a look at the website.
+300 | While research has found dogs can 【have】 a lot of positive impacts on a child’s life, there are also risks associated with the dog-child relationship.
+236 | I 【have】 a lot of pride in that," he said.
+643 | Their chances of finding new mates 【have】 a lot to do with their habitat.
+404 | “We still 【have】 a lot to learn about the dog-child relationship,” Udell said. [25] “But research does show that kids are very capable of training dogs.”
+207 | Barrie is aware they still 【have】 a mountain to climb.
+196 | [16] To begin with, children seem to 【have】 a natural desire to overcome challenges and take risks.
+656 | 【have】 a natural talent?
+298 | that missing any days at school could 【have】 a negative impact on results.
+132 | "It's hopeful that we're going to 【have】 a new day.
+458 | 【Have】 a nice day.
+146 | And I also 【have】 a notebook where I record my expenses.
+469 | Recruiting young men who 【have】 a passion for education young children.
+302 | When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t 【have】 a pet in their own household, they can still benefit from all of the above when visiting a friend who does.
+135 | She will 【have】 a photo taken with Brigette Clark.
+189 | Or they post a photograph on Instagram, 【have】 a pleasant conversation with friends and then delete it so that no traces remain.
+476 | However, the sun can 【have】 a positive influence on your body by raising your energy levels.
+387 | “When students use their phones for research, they learn they 【have】 a powerful tool in their hands.
+431 | But excessive heat can cause you to lose water, which has been proven to 【have】 a pretty unattractive side effect—bad breath.
+419 | The organization explains that this decision reflects general agreement among experts around the world that some people 【have】 a problem with these games.
+472 | Send a quick message to a current or previous company employee on LinkedIn or by email and ask if they would be willing to 【have】 a quick conversation with you about the organization in general.
+258 | Now our students 【have】 a range of different seating options, including a floor desk, couches, stools, bean bags, and the traditional desk-and-chair.
+462 | “I think luxury companies 【have】 a real role to play and a responsibility,” says Humm.
+226 | It is said to 【have】 a remarkable location that few other private islands of this size can match, according to estate agents.
+364 | They 【have】 a reputation of being overly strict with the students.
+344 | How are you today? [12] Do you 【have】 a reservation with us already?
+376 | So before you can determine whether you and a specific company would be compatible together, it’s important to 【have】 a solid handle on what exactly you want from your employer.
+523 | I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to 【have】 a strong desire for equality.
+570 | Minor setbacks in their early career may 【have】 a strong negative effect on the career of close losers.
+105 | “Hiring managers 【have】 a strong perception bias against 45+ job candidates — they believe that members of this
+549 | Hopefully you 【have】 a supportive groom who understands why this idea is the most appealing to you.
+119 | 【Have】 a taste of both of the cheeses.
+102 | They will 【have】 a variety of events to choose from including running, throwing and jumping.
+556 | In the decision-making process, relying on instincts only makes sense when you 【have】 a vast experience to support you.
+483 | M: I 【have】 a 34 waist and size 30 or 32 in length.
+459 | O) Crises, after all, 【have】 a way of opening people’s eyes to possibilities.
+325 | They found that people 【have】 a wide range of opinions concerning diversity.
+127 | Is there any chance we could 【have】 a window seat for one of those?
+312 | What about our local school then? [14] They 【have】 a wonderful arts program that would really challenge Jake in terms of creativity and imagination.
+437 | African farmers unable to read often don't 【have】 access to important information conveyed online.
+577 | People no longer 【have】 access to public swimming pools.
+635 | Not all students 【have】 access to these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.
+638 | Many women who opt to simply keep their own names do so because they don’t want to give up all that they 【have】 accomplished professionally.
+432 | But even after we 【have】 accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.
+485 | We don’t know if you’ll achieve what these risk-takers 【have】 achieved.
+579 | Because people identify so closely with stories, they can imagine how they would 【have】 acted in similar circumstances.
+230 | They 【have】 adapted to meet fashion changes.
+442 | One consequence of climate change is that some people may not 【have】 adequate access to certain foods.
+97 | I know many cities in the world 【have】 air conditioning in their subway, so why can’t we?
+178 | They 【have】 all been turned into movie theatres.
+347 | W: I should be fine with doing it on your website, and I already 【have】 all my certificates, as we run a small farm shop too.
+494 | We 【have】 all seen the damage plastic waste is doing around the world, but sales of bottled water 【have】 continued to grow.
+187 | They 【have】 already become our new friends.
+499 | The New Year has come and gone, and many may 【have】 already forgotten what they had resolved to do on January 1st.
+204 | J) With the help of engineering students at high schools in Maine, Horn and Wang 【have】 also built a robot simulation
+623 | They might 【have】 also had things published or publicized and want to stay connected to that identity.
+565 | Studies 【have】 also linked employee volunteer programs with more productive employees.
+368 | Researchers 【have】 also studied some adults in Nicaragua who were
+446 | Historically, new technologies 【have】 always caused great fears among parents.
+502 | “I 【have】 always eaten little, but everything, and I 【have】 never followed any plan.
+426 | Many of us 【have】 an easier time identifying the things that we absolutely don’t want.
+209 | J) If they think we’re too old to learn new skills after we’re 45, just learning some new skills may 【have】 an effect on its own.
+282 | They 【have】 an English translation on the screen.
+554 | L) On the subject of career advancement, 59% of women and 49% of men said leave could be limiting and both genders said they feared it would 【have】 an impact on their progress long-term.
+373 | Experts say this can 【have】 an impact on young children whose understanding of gender roles and identity are rapidly forming.
+596 | When people are bored, they 【have】 an increase in "associative thought"-the process of making new
+243 | W: Hello, good afternoon. [12] I 【have】 an inquiry to make.
+632 | Technology companies 【have】 an interest in developing a workforce with the
+155 | Matthew Ricci told gaming site Kotaku: “If you're playing EVE Online you basically already 【have】 an MBA.
+322 | They were also more likely to 【have】 an ongoing medical condition and be overweight.
+117 | Do you 【have】 any advice?
+172 | For a barbecue, you could 【have】 any cheese you want.
+291 | Whether it might 【have】 any effect on the way we negotiate.
+307 | Do you 【have】 any other popular toys?
+153 | She does not 【have】 any problem flying.
+511 | You know that part at the end of a job interview when the hiring manager asks if you 【have】 any questions, and you just stare across the table blankly with your mouth hanging open?
+136 | Do you 【have】 anything in mind?    ?P:have sth in mind
+382 | Some 【have】 argued that ensuring those rights would limit progress, but this study indicates the opposite.
+662 | Nevertheless, emotional intelligence is a useful skill to 【have】, as long as you learn to also properly cope with emotions—both others’ and your own, says Bechtoldt.
+241 | They say that kids use overly casual language and text-speak in writing, and don’t 【have】 as much patience for long reading and complex arguments.
+111 | She could 【have】 asked a friend for help with the paint job.
+610 | day, the recommendation to 【have】 at least five portions of fruit and vegetables every day.
+170 | The fake websites 【have】 authentic-sounding names involving a mix of keywords, typically including the place name, “summer”, “villas” or “rentals”.
+264 | Most of them 【have】 average to strong math ability.
+466 | We regard these disappointments as a fate we could 【have】 avoided with more careful
+165 | The hesitation I felt in not sharing the ordinary things that were happening in my life, and the wild mental search for something more interesting, may 【have】 backfired and made me seem less interesting.
+283 | Love them or hate them, smartphones 【have】 become an integral part of our daily lives.
+650 | They 【have】 become as important as grain.
+411 | Some 【have】 become its signature dishes.
+340 | Team-building exercises 【have】 become popular for managers trying to increase organisational and team harmony and productivity.
+418 | The person watching is asked to signal when all the nuts 【have】 been
+486 | H) Since then, there 【have】 been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which 【have】 helped put pressure on companies to make their parental leave policies gender neutral.
+161 | Still, cats in the workplace 【have】 been a tremendous success for the company.
+98 | It might 【have】 been abandoned by its owner.
+247 | that teenagers will be able to take a natural history test given that for decades children 【have】 been able to name more video
+333 | The 56-year-old doctor’s methods 【have】 been adopted in Australia, Japan, Canada, and America with enormous success.
+615 | They 【have】 been affected by something other than dreaming.
+428 | Holidaymakers 【have】 been alerted to the frequent occurrence of online villa-booking frauds.
+448 | They 【have】 been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way.
+134 | They 【have】 been best friends ever since.
+82 | Two men who 【have】 been best friends for 60 years 【have】 just realized they are actually brothers.
+441 | They 【have】 been compelled to take low-paying jobs.
+338 | Immigrants 【have】 been contributing to the U.S.
+497 | The first public exhibit of animals may 【have】 been created by Egypt’s Queen Hatshepsut around 1480 B.C.
+567 | They 【have】 been disturbed by a nightmare.
+356 | visited the Design Museum shop in London earlier this year their fears may 【have】 been eased.
+122 | For decades tourists 【have】 been flocking to Palmdor, which is located off the southeast coast of Spain.
+505 | Forest patches with wild pigs 【have】 been found to 【have】 considerably reduced plant and animal diversity.
+234 | More people 【have】 been giving than taking.
+259 | success among young children, teens 【have】 been harder to reach.
+474 | As long as there 【have】 been homework assignments and tests, there 【have】 been cheaters.
+297 | [22] Most of us 【have】 been in teams or organizations where we’ve had conflict with the people that we’re working with around the ideas or decisions that we’re discussing.
+588 | What foods 【have】 been largely out of favor for more than a century?
+409 | Diets high in fibre 【have】 been linked to a lower risk of developing heart disease, stroke, high blood
+677 | They 【have】 been losing customers and profits.
+394 | There 【have】 been many attempts to help consumers make healthier choices, but consumers often struggle to maintain a healthy diet. [18] This research finds that one way to promote a healthy diet could be to advertise the social benefits of healthy choices.
+287 | There 【have】 been no reports of anyone taking advantage of the situation.
+231 | The fact that we 【have】 been open and in business for all these years proves that.
+454 | Your current situation in life is built on the beliefs and habits you 【have】 been practicing daily.
+406 | and beliefs that you 【have】 been practicing each day, When you realize this and begin to direct your focus toward practicing
+470 | Fortunately, all the blueprints for both the building and its contents 【have】 been preserved, so we’ve been able to replace badly damaged furniture.
+537 | They 【have】 been roused against their will.
+124 | The bundles are usually left in plain sight and 【have】 been scattered across the small coastal village.
+144 | These experiences 【have】 been shown to build children’s confidence and pleasure in physical activities, develop their motor skills, and even improve emotional well-being.
+91 | Few topics 【have】 been so endlessly analysed as work-life balance.
+621 | The benefits of a traditional Mediterranean diet 【have】 been studied since the 1970s, and researchers 【have】 found that living that olive oil life can help people lose weight, lower their heart disease risk and reverse diabetes.
+658 | They 【have】 been successful in preparing the workforce for companies.
+358 | The researchers explain that the possible reason for this may partly 【have】 been the
+275 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update on where their journey has taken them and what resiliencies (韧性) 【have】 been the pavement on which they’ve traveled.
+533 | Researchers think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might 【have】 been to show off her wealth and power.
+640 | For more than a decade, they 【have】 been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.
+232 | Blind and partially sighted people 【have】 been using text-to-speech converters for decades.
+118 | Consumers 【have】 been warned to be aware of the potential for deception in this market, which is far from uncommon.
+239 | They 【have】 begun to affect our social behavior.
+173 | Their people still 【have】 better health if women’s rights are respected.
+164 | I estimate you 【have】 between 210 and 240 square meters of walls and ceiling.
+293 | H) But even as error rates stayed stable, student essays 【have】 blossomed in size and complexity.
+407 | 【have】 bought a fascinating children’s toy called “Dazzle Racer”.
+628 | Research shows, however, that we actually 【have】 bubbles of different sizes.
+563 | In China, Emperor Wenwang is said to 【have】 built a “Garden of Intelligence” around 1060 B.C.
+555 | W: We 【have】 bunches of brochures here. [15] I would recommend getting out on a boat trip.
+617 | What 【have】 businesses come to recognize now?
+600 | It’s a good problem to 【have】, but it can be a tough skill to master.
+152 | And the researchers in the new study 【have】 calculated that solving phantom jams could save at
+488 | In the history of horse racing, few horses 【have】 captured the affection of the British public like Red Rum.
+270 | Owners—defined as individuals with high levels of anxiety, fear, anger, depression and loneliness—were more likely to 【have】 cats with behavioural issues.
+436 | Those who are relatively old compared to their classmates 【have】 certain advantages over them.
+493 | But over the years, things 【have】 changed a lot.
+403 | stated, “Young women engineers are on an equal footing until they 【have】 children, then they struggle to balance work and
+530 | A litre of tap water, the stuff we 【have】 cleverly piped into our homes, costs less
+182 | Many people 【have】 come to eat at the restaurant.
+371 | But researchers 【have】 come to realize that being humble generally indicates the 30 of deeply admirable personal qualities.
+229 | The more you get right, the more creative you are thought to be because you 【have】 come up with uncommon associations.
+590 | But most of us 【have】 conflicting feelings about dressing
+595 | They 【have】 control over their life and work schedules.
+647 | For instance, the Inuit people of the Arctic regions 【have】 created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.
+481 | I don’t understand how people 【have】 creative careers without napping.
+660 | They 【have】 different interests than adults.
+115 | What we do know is that people _35_ to 【have】 different kinds of nightmares at different points during the sleep cycle.
+510 | People of different ages 【have】 different mindsets.
+238 | M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and 【have】 different needs and wants, which is why I suggest that people aim for financial independence.
+349 | We all 【have】 different personality preferences and tendencies.
+224 | So you could 【have】 different types of cheese.
+661 | Some students may 【have】 difficulty attending them.
+256 | M) Unlike bats, birds and fish, however, humans 【have】 difficulty judging distances behind them.
+506 | the surroundings they 【have】 dominated for centuries.
+420 | K) In sports and many areas of life, we think of failures as evidence of something we could 【have】 done
+529 | also satisfying to see the effects of what you 【have】 done.
+547 | Jobs had another great quote about saying “no”: “I’m actually as proud of the things we haven’t done as the things I 【have】 done.
+359 | Right over here, we 【have】 dozens of puzzles for children of all ages.
+395 | Attitudes towards paternity leave (陪产假) 【have】 drastically changed in America in the last five years as more fathers feel comfortable taking extended time off, but gender bias persists when it comes to career prospects and the home, according to a new study of working parents.
+334 | Authors, artists and children _26_ 【have】 dreamed of such a gift from the sea.
+296 | Savings rates in America 【have】 dropped in recent decades even though people’s life expectancy has increased.
+601 | For example, many women who choose to hyphenate do so partially because they 【have】 earned higher educational degrees and certifications under their maiden names.
+516 | Big advances in speech recognition technology 【have】 enabled communication tools to turn live speech into text in real time on your smartphone or laptop, and sign language into text as well.
+543 | The kitchen would 【have】 endless options of pizza and cookies.
+475 | As a low-income student from a down-and-out Rust Belt community, these educational experiences 【have】 enormous potential to brighten my future—and my family’s future.
+384 | I’m saving up to buy something reasonably small and cute, but it’s still a bit expensive for me, and it’ll take a while before I 【have】 enough money.
+375 | Perhaps not accidentally, in 2016 reading scores were the lowest they 【have】 ever been since 1972.
+572 | It is impossible for a job applicant to 【have】 every expectation met.
+221 | Well, the main thing is to 【have】 everything in the right place.
+138 | countries 【have】 ___26___ evidence-backed guidelines on the type and intensity of exercise ___27___ for various physical
+252 | Many other designers and architects 【have】 expressed concern over the future supply of home-grown talent for UK firms,
+290 | Shouldn’t people 【have】 extra cash for emergencies?
+542 | They don’t understand why successive governments 【have】 failed to act on this.
+667 | We all 【have】 faith in chocolates to delight us in an instant!
+326 | If you believe you 【have】 fallen victim to fraud or cyber-crime, please report it to Action Fraud,” it adds.
+606 | This would imply that the participants in the current study may 【have】 felt better due to improved diet.
+253 | W: He must 【have】 felt differently though.
+305 | He must 【have】 felt self-conscious and insecure, perhaps.
+390 | They 【have】 fewer chances to be hired by U.S. companies.
+614 | They are likely to 【have】 financial troubles.
+410 | I 【have】 fond memories playing Battleships when it was raining outside and we had to stay indoors.
+674 | The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may 【have】 food problems of their own, or world economic institutions.
+385 | They are less likely to 【have】 food-purchasing habits that conform to public health recommendations.
+205 | to remember that many of the choices you make, such as what to 【have】 for lunch, will not ___32___ much in the future and
+354 | The information will highlight what a great value they 【have】 for their very reasonable cost.
+316 | More than half of American adults are unmarried, and researchers 【have】 found
+456 | In Egypt, researchers 【have】 found buildings from around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.
+352 | For example, other studies 【have】 found dogs are more likely to bite children versus adults.
+535 | Researchers 【have】 found donating our time and talent to others can lower blood pressure, boost happiness and improve mental and physical health.
+597 | Given curiosity’s complexity, scientists 【have】 found it hard to define.
+110 | Others in the US 【have】 found similar effects with National Institutes of Health early-career fellowships
+185 | Several recent studies 【have】 found that even low-intensity exercise, done for a short amount of time, can 【have】 a meaningful _26_ on health.
+644 | Studies 【have】 found that people tend to be less open and less able to relax when they wear formal clothes.
+645 | 【have】 found that their best overall problem solvers were master tinkerers in their youth.
+85 | Indeed, social scientists who study young people 【have】 found that their digital use can be inventive and even beneficial.
+131 | Over the years, other creatures like frogs and fish 【have】 found their way into toilets.
+386 | “The surprise eggs 【have】 found their way to freedom,” said Mayor Uwe Garrel.
+439 | They 【have】 founded most Fortune 500 companies.
+332 | Or even simply see your birthday as an opportunity to bring people together for them to 【have】 fun.
+141 | Cumber said, “People can 【have】 fun, but both drivers and riders are responsible for paying attention while on the road.
+587 | Moves against various plastics 【have】 gathered pace, from shopping bags to straws and plastic-lined coffee cups.
+251 | We all 【have】 goals that we want to achieve in our lives.
+88 | And yet, savings rates in the U.S. 【have】 gone down in recent decades, not up.
+346 | Thus, though American incomes may 【have】 gone up since 1973, the amount
+315 | You see in America, many cities don’t 【have】 good public transport.
+150 | It might 【have】 got lost.
+341 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, for example, while climate change will likely 【have】 “great impacts” on cocoa (可可粉) production in West Africa.
+415 | People over 45 stimulated by training suffer shorter periods of unemployment, get more job offers and 【have】 greater
+348 | People often wonder why some entrepreneurs 【have】 greater success than others.
+518 | As middle-class houses 【have】 grown larger, two things 【have】 happened.
+167 | But today’s teens 【have】 grown up with smartphones.
+294 | century after the last data Keynes would 【have】 had access to.
+430 | All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not 【have】 had anywhere else.
+672 | Some scientists 【have】 had concerns.
+669 | subtle and just shows the impact symphonic orchestras 【have】 had on society’s taste in music.
+496 | I) Hourican and his pupils 【have】 happy memories of spending a whole day at the museum, having been selected as one of 10
+254 | and fruit juices — don’t seem to 【have】 harmful effects as long as they’re not contributing to excess daily calories.
+624 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't 【have】 health and happiness, what else could possibly matter?
+374 | The researchers said moderate exercise appears to 【have】 helped those participants to be less vulnerable to the impact of the sad movie.
+227 | They suspect that mums may be less happy than dads because they’re more likely to 【have】 higher expectations about parenthood.
+482 | They 【have】 higher installment loan debt than native-born Americans.
+197 | By visiting friends who 【have】 household pets.
+520 | Experts believe that the Middle East and North Africa 【have】 huge ___33___ for solar energy projects.
+309 | “They tend to be people with deep roots in the city, who 【have】 hung around since before the neighborhood became what it
+113 | 【Have】 I become boring?
+611 | 【have】 implications beyond panda conservation.
+649 | Furthermore, several studies 【have】 implied that emotional intelligence can be used to manipulate others for personal gains.
+175 | “This difference suggests that how mothers and fathers spend time with their children might 【have】 important 35 for their wellbeing,” the authors write.
+147 | faces may 【have】 important implications for security and crime prevention as super realistic masks may ___34___ the key
+636 | What do people in most healthy eating cultures 【have】 in common?    ?P:have sth in common
+438 | It made every effort to keep the essential capabilities of smartphones, but strip out costs and preserve battery life for people who likely 【have】 inadequate access to electricity.
+550 | Second, once-public spaces, where people from diverse backgrounds used to come together, 【have】 increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life for many.
+271 | Over the years, many scholars 【have】 insisted that time online does not necessarily take away time spent engaging with traditional media or on other activities.
+93 | They will 【have】 insufficient heating oil to keep warm.
+90 | many school boards 【have】 introduced policies which require students to work from home if the school is shut by snow or
+445 | Yes, we 【have】 it here.
+201 | It never occurred to me that he should 【have】 it taken care of like that.
+106 | Questions 5 to 7 are based on the news report yon 【have】 just heard.
+108 | Questions 5 to 7 are based on the news report you 【have】 just heard.
+210 | Questions 8 to 11 are based on the conversation you 【have】 just heard.
+262 | Questions 12 to 15 are based on the conversation you 【have】 just heard.
+314 | Questions 16 to 18 are based on the passage you 【have】 just heard.
+366 | Questions 19 to 21 are based on the passage you 【have】 just heard.
+463 | Questions 22 to 25 are based on the passage you 【have】 just heard.
+631 | We even evaluate people whom we 【have】 just met
+301 | Scientists 【have】 known that depriving adult mice of vision can increase the sensitivity of individual neurons in the
+125 | We must try to understand what we 【have】 labeled evil.
+323 | For today’s youth, books, newspapers and magazines 【have】 less and less of a presence in their daily lives.
+272 | They were complete clock watchers, while I would 【have】 liked a more flexible schedule.
+553 | Phrases like “I 【have】 limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed to making the most of your time off.
+604 | What do such utterances as “I 【have】 limited access to email” sound like according to the author?
+513 | bureaucracies, 【have】 limited English language skills, or are not contributing financially to their child’s education, the burden of self-advocacy will fall on the student.
+585 | They 【have】 little access to government funding.
+539 | are organized sequentially, but 【have】 little awareness of what each individual number means.
+507 | These papers deal with a kind of failure people 【have】 little control
+501 | Basically, little kids 【have】 little dreams.
+160 | They 【have】 little talent for learning math.
+217 | To be interesting means that you 【have】 lived life, taken risks, traveled, sought out experience to learn for yourself and share with others,” she says.
+363 | Adults dream during REM (rapid eye movement) sleep and infants 【have】 loads of REM.
+583 | Data and analysis 【have】 long been associated with informed decisions.
+96 | Psychologists 【have】 long been interested in how we construct our identities and the sorts of strategies that we use to
+625 | Supermarkets 【have】 long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit.
+589 | Environmentalists 【have】 long believed that building roads or homes near the bears may threaten their survival by
+653 | We 【have】 long feared that this "revolution in distribution" uses corporate black magic on our appetite.
+641 | While outperforming your rivals may provide short-term benefits, the loss of your integrity will 【have】 long-term consequences.
+538 | the ninth grade can 【have】 long-term consequences not only for the students themselves but for their
+343 | A number of studies 【have】 looked at how family life can affect productivity and satisfaction in the workplace.
+514 | Researchers 【have】 looked at the influence of being left-handed on performance and interactive sports.
+261 | communities, more likely to 【have】 low incomes, and are more likely to 【have】 the least schooling after getting their high-
+360 | been linked to cancer, but studies show that people who ditch meat 【have】 lower blood pressure, lower average blood sugar,
+192 | Fishbach of the University of Chicago 【have】 made a career out of studying the differences between the goals that people
+191 | Genetic researchers in China 【have】 made a clone of a star police dog.
+575 | These things 【have】 made a huge difference.
+330 | The researchers behind the study state that many parts of the world 【have】 made good economic progress, but women’s rights are often overlooked.
+362 | Private rental prices in Britain rose 3.2 percent over the 12 months since July 2022—the largest jump since 2016, soaring energy bills 【have】 made things worse. [25] Lucinda May, mom of a Tavern student said that she had to ask her parents for £65 to buy her child the correct pair of shoes.
+250 | Truly environmentally friendly space travel is still some way off. [18] But we already 【have】 many of the technologies needed to start limiting its impact on our planet.
+528 | The art of self-control is one that most successful individuals 【have】 mastered.
+548 | He can employ lip-reading and 【have】 meetings via video instead of on the phone.
+608 | They are likely to 【have】 mental health issues.
+126 | You will 【have】 30 minutes for this task and should write at least 120 words but no more than 180 words.
+198 | It’s a team sport and they often 【have】 mixed-gender teams so he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+335 | “My school doesn’t 【have】 money for tablets,” she says.
+434 | Enabling them to 【have】 more access to nutritious foods.
+388 | The new system means letters to patients now 【have】 more detail.
+319 | They tend to 【have】 more difficulties in learning.
+277 | They 【have】 more disadvantages in getting ahead.
+616 | Educators and business leaders 【have】 more in common than it may seem.    ?P:have sth in common
+103 | are key, then you might 【have】 more in common with managers.    ?P:have sth in common with ?P:have sth in common
+592 | Those who 【have】 more job satisfaction tend to retire later than those who 【have】 less.
+480 | What's more, homes built in the 2000s were more likely than earlier models to 【have】 more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+665 | Ambitious people may not 【have】 more positive qualities.
+639 | They 【have】 more positive qualities than most of us.
+255 | We just 【have】 more space and privacy.
+468 | If older children 【have】 more than an hour of homework, encourage them to schedule a short break to stretch.
+598 | As online courses tend to 【have】 more than 100 students, most of the assignments are short and simple.
+86 | People 【have】 more time during the summer.
+671 | and thus 【have】 more to remember.
+162 | Matthew effect fosp1red-6y ilie Bible's-wisdom diaf fo -those who 【have】, more will be -given: There's-a -
+320 | M: You 【have】 my number.
+668 | 【have】 natural talent it’s nothing without grit.
+495 | Physicians in the U.S. 【have】 never actually examined a patient with protein
+112 | W: (11) Well, ducks 【have】 never been popular with farmers like my grandfather anyway because they sometimes destroy crops.
+460 | Since your baby doesn’t dream at this stage of brain development, it’s safe to assume babies do not 【have】 nightmares,
+609 | They 【have】 no means for large-scale research.
+306 | by the World Health Organisation that adults 【have】 no more than 30g of added sugar, the equivalent of 150ml of fruit juice,
+525 | He would 【have】 no rival in Grand National steeplechases.
+500 | When people 【have】 no way out in crises, they are more likely to embrace changes.
+317 | But importantly—and surprisingly—this new study suggests that the majority of students experiencing math anxiety 【have】 normal to high math ability.
+536 | most drugs 【have】 not been studied for possible different effects during a 24-hour cycle.
+429 | According to Kelli Harding, scientific advances 【have】 not made Americans healthier, nor prolonged their life.
+116 | They 【have】 not quite grasped the concept of diversity.
+84 | But we already know this. [3] What we 【have】 not yet understood is the way the tiny machines in front of us are changing our skeletons, possibly altering not just the way we behave but even the very shape of our bodies.
+464 | You 【have】 nothing to worry about.
+321 | M) I 【have】 now come to realize that being boring, in actuality, is not only about who you are as a person, but also how you present yourself.
+248 | “One interesting thing we 【have】 observed is that dogs are matching children’s behavior, but less frequently than what we 【have】 seen between dogs and adults.
+130 | Fifty customers 【have】 offered donations.
+557 | liked, and caring about the effect we 【have】 on others, is healthy and allows us to make connections.
+180 | However, as water supplies __35__, farmers and consumers need to be more conscious of the effect that these products 【have】 on the environment as a whole.
+263 | I wouldn’t need to use it every day, but I think it would be very convenient to 【have】 one for the weekends.
+133 | One should 【have】 one million dollars to retire.
+129 | I 【have】 one that I use to cover my phone screen too.
+336 | Some people 【have】 other concerns.
+203 | And we’d each 【have】 our own bedroom, where we could study instead of going to the library.
+265 | This means they 【have】 overwhelming negative emotions towards the subject, ranging from rage to despair.
+605 | In the absence of Federal legislation, some states in the US 【have】 passed laws concerning paid family leave.
+194 | “Many 【have】 PE and science assignments
+561 | Why 【have】 physicians in the U.S. never actually examined a patient with protein deficiency?
+235 | The drive has been going on for two weeks and Morris said just under 50 customers 【have】 picked up a free meal.
+222 | They’ll 【have】 pictures of a sales team and it might be a poor actor in New York that is down as their head of sales.
+304 | and industry bodies 【have】 pointed out that there has been a lack of roots-level support.
+157 | age group 【have】 poor skills and low adaptability,” Generation’s analysts report.
+451 | Successful persuasion skills are based on your ability to 【have】 positive interactions and maintain meaningful relationships
+473 | It may 【have】 potential disadvantages.
+220 | They favored a more rigid, closed-door, corporate atmosphere, while I would 【have】 preferred something more collaborative and open.
+627 | A number of lawsuits 【have】 pressured companies to formulate gender neutral policies on parental leave.
+582 | Researchers 【have】 previously found a link between eating more fruits and vegetables, and improved longer term mental health.
+311 | The researchers argued that previous interventions 【have】 probably been unsuccessful because of a major
+303 | E) Learning something new and practicing something new may seem very similar but these two methods can 【have】 profoundly
+586 | They 【have】 proved capable of doing almost anything.
+267 | They sometimes 【have】 psychological problems.
+370 | winners, it's impossible to know which of the winners would 【have】 quit had they found themselves on
+123 | The number of books they 【have】 read by age four.
+447 | If the very rich — the workers who 【have】 reaped above-average gains
+559 | They 【have】 reaped the benefits of being flexible.
+286 | Most staffers 【have】 received messages of kindness.
+114 | According to the official news agency, Russian authorities 【have】 recovered more than 170 gold bars weighing 20 kilograms each.
+521 | The elites of our society 【have】 rejected superhero films.
+564 | The claimed health benefits of fruit and vegetable juices 【have】 rendered the industry very profitable.
+163 | She should 【have】 repainted her house much earlier.
+156 | They may carry viruses that are fatal to native snakes, which do not 【have】 resistance.
+541 | That depends on many things, but for purposes of illustration, I 【have】 run some estimates for Montreal.
+584 | Some people 【have】 said aging is more a slide into forgetfulness than a journey towards wisdom.
+405 | animal to hear long after the window for auditory learning was thought to 【have】 ___30___ said Patrick Kanold,
+578 | "People 【have】 said we're going to 'Americanize' it," Carey said.
+166 | Police 【have】 sealed off the runway, and say it is unclear if it was an accident or an attempted robbery.
+551 | "The last few years 【have】 seen a realization of ___35___ how competitive solar technologies can be," said Michael Taylor, a senior analyst at the International Renewable Energy Agency.
+461 | Despite its restrictions, analytical decision-making does 【have】 several key strengths. [18] By relying on facts and data, you minimize your potential for a wrong decision.
+142 | F) Students in North Carolina already 【have】 several make-up days scheduled because of school closures during Hurricane
+257 | Only a very few 【have】 shifted to cycling, and even those almost certainly won’t cycle in Boston’s snowy
+244 | Other studies 【have】 shown a greater uptake of exercise in people who were told to think of the enjoyment of doing the exercise
+560 | Numerous documentaries 【have】 shown how plastic is ultimately
+534 | Numerous studies 【have】 shown that drinking fruit juice doesn’t make us consume any less of other foods
+408 | Studies 【have】 shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] But new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.
+266 | 【have】 shown there's sometimes no penalty to a near miss.
+427 | (25-2) For example, a Japanese firm may 【have】 signed a contract, but they may not feel bound by every detail of it—particularly if circumstances later change.
+327 | were that all the rabbits would 【have】 similar cloggings of their arteries (动脉堵塞).
+92 | M: Well, if people 【have】 smaller homes, they use less land and fewer resources to build them.
+526 | Why do we allow what others think of us to 【have】 so much power over how we feel about ourselves?
+678 | 【have】 some happy news for you.
+457 | The paper concluded that foods containing fructose may 【have】 some small benefits for long-term blood sugar
+465 | Responses suggest that anumeric people 【have】 some trouble keeping track of how many nuts
+158 | They will find they 【have】 something in common.    ?P:have something in common ?P:have sth in common
+642 | I’ve read some financial education books, done some online learning, and 【have】 spoken to my nearest and dearest for
+591 | Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that 【have】 sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product.
+389 | Certain companies 【have】 started selling simple smartphones for only $20.
+630 | They 【have】 stopped seeking new mates for reproduction.
+449 | The best way to create and stick to a habit is to 【have】 strong motivation.
+212 | They 【have】 strong negative emotions towards math.
+544 | For organizations that 【have】 struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.
+568 | We make these observations as research psychologists who 【have】 studied how
+646 | What 【have】 studies found about boredom?
+622 | But while catchings at sea 【have】 suffered, fish-farming has been growing at a fast rate.
+139 | More recent studies 【have】 suggested that factors such as social class or economic background 【have】 more to do with these diagnoses than month of birth.
+87 | Researchers 【have】 suggested that such links could arise from various things.
+666 | What problem 【have】 supermarkets been facing?
+566 | More and more people 【have】 switched to less intellectually challenging jobs.
+527 | Many of the parents 【have】 taken on college loans for the kids, too, sometimes at the expense of their own finances.
+455 | validate the value of design as a subject,” she explains, telling me that nearly 600 schools 【have】 taken part so far.
+531 | While fats and sugar 【have】 taken the beating in turns since over a century ago, protein has managed to remain our red-hot
+629 | More people 【have】 taken to bottled water because of their health awareness.
+381 | “People 【have】 tended to focus from a policy point of view on _31_ lonely people to make them more _32_, ” said the lead author, Nicole K.
+350 | students don't always 【have】 that option.
+206 | That segment was too brief, especially as so many people 【have】 that problem.    ?P:so...that
+421 | Being humble means you 【have】 the ability to accurately 31 your deficiencies without denying your skills and strengths.
+159 | Then we’ll 【have】 the afternoon to prepare food and drink, and stuff like that.
+425 | I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely to 【have】 the biggest negative impact on today’s teens because reading books and longer articles is one of the best ways to learn critical thinking.
+400 | willpower 【have】 the discipline to develop positive, successful habits.
+121 | She prefers to 【have】 the fee added to her monthly bill.
+148 | kindergarten and 【have】 the idea of reputation pop ___35___ into existence.
+313 | People from poor neighborhoods tend to 【have】 the least interest in retraining.
+154 | Not all zoos and animal parks 【have】 the most favorable conditions, but [11] without them, it just wouldn’t be feasible to learn about animals and their environments.
+357 | W: Then why did he 【have】 the operation?
+107 | M: (8-1) So what time do you think we should 【have】 the party on Saturday?
+174 | It is unclear whether the new owners 【have】 the power to ban tourists from the island.
+657 | They may enable people to 【have】 the right mentality for doing business.
+289 | In other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to 【have】 the same degree of access as today.
+81 | They 【have】 the same ethnic background.
+452 | family—and compete with men who don’t 【have】 the same household responsibilities.
+401 | We’re not all going to 【have】 the same ideas on how to approach policies, programs or problems.
+94 | It seems like you’d 【have】 the same problems with cash.
+202 | 【have】 ___34___ the test of time and are considered to be masterpieces.
+414 | While this approach is beneficial when you 【have】 the time and the decision is important, it is problematic when time is crucial.
+83 | Where to 【have】 their lunch.
+444 | So far, eight states and the District of Columbia 【have】 their own paid family leave laws.
+412 | change — and it seems reckless to not 【have】 them.
+246 | that 【have】 them out enjoying the weather.
+95 | There are now dozens of criminal cases in which offenders 【have】 ___31___ themselves off as people of a different age, race
+140 | to 【have】 this article done.
+391 | I would 【have】 thought America made the best jeans because it’s a typical American garment.
+179 | I would 【have】 thought that in London most people don’t speak foreign languages.
+168 | Teeth 【have】 three layers, only one of which—the innermost layer of the tooth—can hurt, as that layer of the tooth _33_ both blood vessels and nerves.
+580 | We find few people of high status 【have】 time for leisure.
+626 | To ensure employees as well as employers truly 【have】 time off.
+208 | W: If you 【have】 time right now, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.
+104 | Moms are tired and don’t 【have】 time to cook.
+190 | weights—is of such ___32___ intensity that your body does not 【have】 time to use oxygen to create energy and so instead it
+478 | You take a taxi if you really 【have】 to.    ?P:have to
+558 | What do other scientists 【have】 to    ?P:have to
+522 | That’s why we feel like we 【have】 to appear busy, and there’s a real perception that if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.    ?P:have to
+620 | Live sessions are infrequent and are often scheduled during the middle of the day when students 【have】 to attend other classes or work.    ?P:have to
+392 | They 【have】 to be applied cautiously to be effective.    ?P:have to
+540 | starting to show that early setbacks don't 【have】 to be fatal.    ?P:have to
+416 | They 【have】 to be heated to 36D°C.    ?P:have to
+402 | It may sound surprising, but you don't 【have】 to be interested in fashion, or even in history, to enjoy Dress Codes: How    ?P:have to
+137 | They 【have】 to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.    ?P:have to
+342 | M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t 【have】 to be permanent, and if people need to, they can go back to work.    ?P:have to
+171 | New teachers and staff 【have】 to be recruited.    ?P:have to
+399 | Clearly there 【have】 to be rules.    ?P:have to
+504 | The start of high school doesn't 【have】 to be stressful    ?P:have to
+245 | [20] When doing extreme sports, you 【have】 to become more focused.    ?P:have to
+237 | We will probably 【have】 to change where we grow certain crops, as some regions get too hot.    ?P:have to
+331 | Often, we 【have】 to consider saying “no” to someone we will interact with again in the future—our co-worker, our spouse, our family and friends.    ?P:have to
+574 | As your skills improve and you learn to separate what works from what doesn’t, you 【have】 to continually increase your threshold for saying “yes”.    ?P:have to
+576 | This way neither of you gets “your” way and you both 【have】 to deal with the legalities of going through a name change.    ?P:have to
+508 | If working from home becomes permanent, employees will 【have】 to dedicate part of their private space to work.    ?P:have to
+422 | Get them to tell you everything they 【have】 to do.    ?P:have to
+328 | You might learn something, but you don’t actually 【have】 to do anything.    ?P:have to
+143 | I) Of course, finding that balance probably shouldn’t be something you 【have】 to do by yourself.    ?P:have to
+279 | You don’t 【have】 to do something just because it exists.    ?P:have to
+603 | The goal in this is to make the fans connect to the live experience as much as possible, and the tools you 【have】 to do that, we're not using at all.    ?P:have to
+453 | “We ___35___ that it may 【have】 to do with what the mice    ?P:have to do with ?P:have to
+355 | valuable for you but if you want to be valuable to others, then you 【have】 to express your knowledge in some way.    ?P:have to
+177 | Arriving in their “Mystery Machine”, the gang would 【have】 to find a monster who was terrorizing a neighborhood.    ?P:have to
+378 | “The problem then is you 【have】 to find accommodation at short notice.    ?P:have to
+654 | What does the author imply we should do if we 【have】 to focus on some task and do it well?    ?P:have to
+89 | [6] Electric bike riders 【have】 to follow all the same rules as you would if you were in an automobile.    ?P:have to
+308 | They 【have】 to get prepared for resentment and bitter court battles.    ?P:have to
+637 | They’ll 【have】 to get their protein somewhere.    ?P:have to
+484 | Poor people may 【have】 to give up eating certain foods because of their high prices.    ?P:have to
+219 | If teens are spending so much time using electronic devices, does that mean they 【have】 to give up some other activities?    ?P:have to
+213 | And then, if you still wanted to give money as some sort of apology or something, he probably shouldn’t 【have】 to go around borrowing it from people.    ?P:have to
+128 | Cotton doesn't 【have】 to go, since it is,    ?P:have to
+573 | Today, many Americans 【have】 to go to college on student loans.    ?P:have to
+295 | Remember that you will 【have】 to 【have】 all your certificates to hand when you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.    ?P:have to
+372 | You probably 【have】 to help younger children plan their session, but it’s important that by the end of primary school it’s second nature.    ?P:have to
+552 | Telling stories is one of the most powerful means leaders 【have】 to influence, teach and inspire.    ?P:have to
+380 | And what matters is the power your actions 【have】 to inspire you.    ?P:have to
+676 | It is a lesson they 【have】 to learn.    ?P:have to
+634 | Regardless of their genetic makeup, infants 【have】 to learn an incredible amount of information in a short time, and curiosity is one of the tools humans 【have】 found to accomplish that gigantic task.    ?P:have to
+80 | "The basic requirement for hanging out here is you 【have】 to learn how to lion dance," Mr.    ?P:have to
+679 | If you want that new job, you 【have】 to learn the    ?P:have to
+664 | From there you are going to 【have】 to legally change your name all over the place.    ?P:have to
+149 | It’s a 30-minute ride and I don’t 【have】 to make any changes.    ?P:have to
+581 | They also need to recognise that men 【have】 to make significant adjustments when they become parents.    ?P:have to
+216 | So every time we paint a room, we first 【have】 to move the furniture to another room.    ?P:have to
+393 | “High quality chocolate will be less available in the future, and if you want it, you’ll 【have】 to pay a lot more for it,” Jarvis says.    ?P:have to
+545 | Though it is difficult and embarrassing, students should make inquiries about what fees they 【have】 to pay and why.    ?P:have to
+562 | The schools don’t 【have】 to pay anything to take part in the Design Ventura competition.    ?P:have to
+477 | You 【have】 to pay back your commitment at some point.    ?P:have to
+599 | In addition to tuition, college students 【have】 to pay extra fees for the courses they take.    ?P:have to
+515 | You 【have】 to pick carefully.    ?P:have to
+337 | W: We can’t dismiss the idea that teenagers 【have】 to plan to do something after they finish school, and parents are entitled to hope it’s more than simply spending 10 hours a day playing computer games.    ?P:have to
+655 | while I was researching, I still kept wishing that I didn’t 【have】 to play catch-up with the money world.    ?P:have to
+299 | A chemical engineer who worked in manufacturing agreed, “You 【have】 to prove yourself just because you are female.    ?P:have to
+383 | Do whatever favors you can, and be warm-hearted and direct when you 【have】 to say no.    ?P:have to
+249 | Students 【have】 to search for the information.    ?P:have to
+184 | "If you want the good stuff, the quality, you 【have】 to see it for yourself," he said.    ?P:have to
+120 | “A large number of high-class travelers, including CEOs, 【have】 to spend more than three hours by road to get there—and that is a loss of time,” a Bangalore airport spokesperson said.    ?P:have to
+268 | I would 【have】 to stay with a friend or check into a hotel.    ?P:have to
+285 | M: When people ask my son what he wants to be when he grows up, I 【have】 to swallow the urge to say, “Hey, back off my kid’s dreams!    ?P:have to
+479 | You also 【have】 to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.    ?P:have to
+670 | 【have】 to tolerate the bad tempers of colleagues frustrated at the number of times they've had to call the help    ?P:have to
+233 | And all the artificial blue light from electronic devices means we 【have】 to try harder to sleep well.    ?P:have to
+242 | How will we all keep busy when we only 【have】 to work 15 hours a week?    ?P:have to
+450 | This could be because some people want to avoid conflict at all costs, after all they still 【have】 to work together.    ?P:have to
+351 | And you 【have】 to work twice as hard!    ?P:have to
+101 | She does not 【have】 to worry about jetlag.    ?P:have to
+413 | that babies 【have】 tons of dreams.
+276 | Tablets 【have】 too many distractions.
+602 | If you 【have】 too much ambition, you'll find this hard, if not impossible.
+181 | I haven’t slept enough in months because I 【have】 too much work to do, and I feel fine.
+571 | This would be a form of expropriation (侵占), with employees absorbing production costs that 【have】 traditionally been paid by the employer.
+193 | In our house, we 【have】 transparent money boxes for them to put small change in, so they can see their savings grow.
+517 | This is where a lot of people 【have】 trouble.
+223 | They may 【have】 trouble comprehending texts.
+397 | When kids switch from chat to music to homework, they are indeed likely to 【have】 trouble doing each task well.
+673 | People who are emotionally stressed may 【have】 trouble making friends.
+593 | They 【have】 trouble recollecting the images of their dreams.
+524 | They are right next to each other on the ground floor, since you mentioned in your message that they 【have】 trouble with stairs.
+281 | Some creative ideas 【have】 turned out to do harm to human society.
+361 | 【have】 turned to claiming the problem is the opposite: There are too many cyclists getting in the way of cars.
+379 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, 【have】 two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+310 | Nearly all British schools 【have】 uniforms.
+512 | Focusing on output alone can 【have】 unintended consequences.
+195 | It’s that we 【have】 unrealistic expectations of what we’re asked to do
+345 | Computers 【have】 vastly increased the ability of students to gather information, sample different points of view and write more fluidly.
+423 | “In our world and our society, we 【have】 very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department of the Borough of Manhattan Community College, and one of the authors of a recent study.
+509 | Campaigners 【have】 warned that the British government is not doing enough to prevent left-handed pupils from falling behind their peers.
+435 | He also noted the plastic bags and other materials that 【have】 washed ashore on the island can cause serious problems for _34_.
+519 | The friends I 【have】 who still work in offices inform me their bosses insist that they take the second option, and that napping is associated with laziness.
+280 | M: (10) I 【have】 wonderful friends and I love celebrating their birthdays.
+607 | Instinctive decisions are always backed by previous experiences or information, which acknowledges that instinctive decisions 【have】 worked in the past.
+369 | For years, parents and teachers 【have】 worried that these games might be addictive.
+594 | our studies 【have】 yielded one main insight: Students' beliefs about change-their beliefs about whether
+240 | 【Have】 you asked Jeremy if he would like to come with us?
+186 | W: So, what 【have】 you been doing to stay busy while you’ve had that swollen ankle?
+188 | 【Have】 you been there?
+169 | W: (12) 【Have】 you considered making a study guide?
+269 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me about your favorite book,” or “【Have】 you ever been to that attraction?
+471 | 【Have】 you ever wondered how acceptable it is to hug or touch someone?
+99 | 【Have】 you factored those in?
+176 | What 【have】 you got planned?
+367 | So 【have】 you got your mind set on a specific model?
+433 | M: (14-1) 【Have】 you thought about getting an electric motorbike?

@@ -1,0 +1,1549 @@
+{
+ "organizations": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "组织，机构"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "These findings could help organizations become more diverse.",
+   "zh": "这些发现能帮助各类组织变得更加多元。"
+  },
+  "form": "organization 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "prepare": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "准备，预备（prepare for：为…做准备）"
+   },
+   {
+    "pos": "v.",
+    "zh": "使做好准备，培养（prepare sb for sth / to do）"
+   },
+   {
+    "pos": "v.",
+    "zh": "做（饭菜），准备（食物）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 2,
+   "2": 0,
+   "3": 2,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 1,
+   "13": 2,
+   "14": 0,
+   "15": 1,
+   "16": 1
+  },
+  "example": {
+   "id": 7,
+   "en": "Help him prepare his presentation.",
+   "zh": "帮他准备演讲。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "produce": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "生产，制造"
+   },
+   {
+    "pos": "n.",
+    "zh": "农产品（尤指蔬菜水果）"
+   },
+   {
+    "pos": "v.",
+    "zh": "做出，创作（作品、想法、语言等）"
+   },
+   {
+    "pos": "v.",
+    "zh": "产生，造成（结果）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 3,
+   "2": 2,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 2,
+   "9": 1,
+   "10": 2,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 2,
+   "16": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "They have suffered a lot due to a decrease in produce.",
+   "zh": "由于农产品减产，他们损失惨重。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "首要义项按统计是 n. 农产品（7 句），多于 v. 生产（5 句）。"
+ },
+ "programs": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "项目，计划（如培训、教育、志愿项目）"
+   },
+   {
+    "pos": "n.",
+    "zh": "（大学的）专业，课程"
+   },
+   {
+    "pos": "n.",
+    "zh": "节目"
+   },
+   {
+    "pos": "n.",
+    "zh": "（计算机）程序"
+   },
+   {
+    "pos": "v.",
+    "zh": "编程，设定程序"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Many universities provide academic stress management programs and workshops.",
+   "zh": "许多大学提供学业压力管理项目和研讨会。"
+  },
+  "form": "program 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "recently": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "最近，近来"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 15,
+   "en": "I've made a new friend recently.",
+   "zh": "我最近交了个新朋友。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "worry": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "担心，担忧（worry about）"
+   },
+   {
+    "pos": "n.",
+    "zh": "担忧，烦恼"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "You have nothing to worry about.",
+   "zh": "你没什么可担心的。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "distance": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "距离，路程"
+   },
+   {
+    "pos": "n.",
+    "zh": "远程（distance learning / education：远程教育）"
+   },
+   {
+    "pos": "n.",
+    "zh": "远处（from a distance：从远处，隔着距离）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 2,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 1
+  },
+  "example": {
+   "id": 7,
+   "en": "It is within walking distance.",
+   "zh": "步行就能到。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "drive": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "开车，驾驶"
+   },
+   {
+    "pos": "v.",
+    "zh": "推动，促进，驱使"
+   },
+   {
+    "pos": "n.",
+    "zh": "（有组织的）运动，活动"
+   },
+   {
+    "pos": "n.",
+    "zh": "驾车路程"
+   },
+   {
+    "pos": "n.",
+    "zh": "动力，干劲"
+   },
+   {
+    "pos": "n.",
+    "zh": "（计算机）驱动器"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 2,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "He noticed the driver was too young to drive.",
+   "zh": "他注意到那个司机年纪太小，还不该开车。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "exist": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "存在"
+   },
+   {
+    "pos": "v.",
+    "zh": "生存，生活"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "Numbers do not exist in all cultures.",
+   "zh": "并不是所有文化里都有数字。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "feeling": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "感觉，感受（a feeling that…：觉得…）"
+   },
+   {
+    "pos": "v.",
+    "zh": "感到，觉得（feel 的现在分词）"
+   },
+   {
+    "pos": "n.",
+    "zh": "情感，情绪（常用复数 feelings）"
+   },
+   {
+    "pos": "n.",
+    "zh": "看法，想法"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Pain is the only feeling to which the nerves in that layer respond.",
+   "zh": "疼痛是那一层神经唯一会作出反应的感觉。"
+  },
+  "form": "feel 的现在分词",
+  "irregular": false,
+  "note": "n. 感觉 与 v. 感到 各 8 句并列，按义项表顺序取 n. 为首要义项。"
+ },
+ "improved": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "改善，提高（improve 的过去式和过去分词）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "改善了的，改进的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 1,
+   "15": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "They improved the quality of the food they sold.",
+   "zh": "他们提高了所售食品的质量。"
+  },
+  "form": "improve 的过去式和过去分词",
+  "irregular": false,
+  "note": "v. 与 adj. 各 8 句并列，按义项表顺序取 v. 为首要义项。"
+ },
+ "land": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "土地，陆地"
+   },
+   {
+    "pos": "v.",
+    "zh": "（飞机）降落，着陆"
+   },
+   {
+    "pos": "v.",
+    "zh": "获得，得到（工作、客户）"
+   },
+   {
+    "pos": "n.",
+    "zh": "国家，地区"
+   },
+   {
+    "pos": "v.",
+    "zh": "（拳头）击中；（话语）被接受，奏效"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 4,
+   "2": 0,
+   "3": 4,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 2,
+   "10": 2,
+   "11": 3,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Look for open land in Scotland.",
+   "zh": "在苏格兰找一块空旷的土地。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "places": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "地方，场所"
+   },
+   {
+    "pos": "v.",
+    "zh": "给予（重视）（place value / emphasis on：重视）"
+   },
+   {
+    "pos": "v.",
+    "zh": "放置，使处于"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 2
+  },
+  "example": {
+   "id": 7,
+   "en": "Bans do exist in some places.",
+   "zh": "有些地方确实有禁令。"
+  },
+  "form": "place 的复数；place 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "prefer": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "更喜欢，宁愿（prefer to do / prefer A to B）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "People prefer to work with team members similar to themselves.",
+   "zh": "人们更喜欢和与自己相似的队友共事。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "skill": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "技能，技巧"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 15,
+   "en": "We can never master a skill without constant practice.",
+   "zh": "不经常练习，就永远掌握不了一项技能。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "sound": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "听起来，似乎"
+   },
+   {
+    "pos": "n.",
+    "zh": "声音，响声"
+   },
+   {
+    "pos": "adj.",
+    "zh": "健全的，健康的；合理的，可靠的"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "It doesn't sound practical for her.",
+   "zh": "这对她来说听起来不太现实。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "spending": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "花（时间、钱）（spend 的现在分词）"
+   },
+   {
+    "pos": "n.",
+    "zh": "开支，花费"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": [
+    1,
+    0
+   ],
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "If teens are spending so much time using electronic devices, does that mean they have to give up some other activities?",
+   "zh": "如果青少年花这么多时间用电子设备，是不是意味着他们得放弃其他一些活动？"
+  },
+  "form": "spend 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "technologies": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "技术，科技"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "Glasgow needs to invest in new technologies to reach its goal.",
+   "zh": "格拉斯哥需要投资新技术来实现目标。"
+  },
+  "form": "technology 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "act": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "行动，采取行动"
+   },
+   {
+    "pos": "v.",
+    "zh": "表现，举止"
+   },
+   {
+    "pos": "v.",
+    "zh": "充当，起…作用（act as）"
+   },
+   {
+    "pos": "n.",
+    "zh": "行为，举动（the act of doing：做…这件事）"
+   },
+   {
+    "pos": "n.",
+    "zh": "法案，法令"
+   },
+   {
+    "pos": "v.",
+    "zh": "扮演，演戏"
+   },
+   {
+    "pos": "n.",
+    "zh": "（戏剧的）一幕"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 3,
+   "3": 1,
+   "4": 3,
+   "5": 2,
+   "6": 2,
+   "7": 0,
+   "8": 2,
+   "9": 4,
+   "10": 3,
+   "11": 4,
+   "12": 3,
+   "13": 1,
+   "14": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "While being married is great and wonderful, the act of getting married can be quite stressful.",
+   "zh": "婚姻生活固然美好，但结婚这件事本身可能压力很大。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "aim": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "目标，目的"
+   },
+   {
+    "pos": "v.",
+    "zh": "力求，旨在，以…为目标（aim to do / aim for / aim at）"
+   },
+   {
+    "pos": "v.",
+    "zh": "瞄准"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 1
+  },
+  "example": {
+   "id": 5,
+   "en": "Aim high and expect great results.",
+   "zh": "把目标定高，期待出色的结果。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "名词句子有 3 句在写作 Directions 里，不计；计入后 n. 8 : v. 6，不计则 v. 6 : n. 5，所以首要义项是 v.。"
+ },
+ "cheaper": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "更便宜的，更便宜地（cheap 的比较级）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "Meanwhile, new plastic is becoming cheaper.",
+   "zh": "与此同时，新塑料变得越来越便宜。"
+  },
+  "form": "cheap 的比较级",
+  "irregular": false,
+  "note": ""
+ },
+ "concept": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "概念，观念，理念"
+   },
+   {
+    "pos": "n.",
+    "zh": "构想，设想（新产品、新计划的点子）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "The concept of self-care, at its core, is quite simple.",
+   "zh": "自我关爱这个概念，说到底很简单。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "finally": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "终于，最终"
+   },
+   {
+    "pos": "adv.",
+    "zh": "最后（列举时引出最后一点）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "She was finally rescued by her relatives.",
+   "zh": "她最终被亲戚们救了出来。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "forms": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "形式，类型"
+   },
+   {
+    "pos": "n.",
+    "zh": "表格"
+   },
+   {
+    "pos": "v.",
+    "zh": "形成（form 的第三人称单数）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "But work stress can take many different forms.",
+   "zh": "但工作压力可能有多种不同的形式。"
+  },
+  "form": "form 的复数；form 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "friend": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "朋友"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "He is going to visit a friend.",
+   "zh": "他打算去拜访一位朋友。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "goes": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "去，走；（车、路）通往"
+   },
+   {
+    "pos": "v.",
+    "zh": "进行，发展"
+   },
+   {
+    "pos": "v.",
+    "zh": "变得，处于（某种状态）（go unnoticed / go out of order）"
+   },
+   {
+    "pos": "v.",
+    "zh": "（说法、谚语）说，内容是（as the saying goes：正如俗话所说）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:go into",
+   "2": "P:go with",
+   "3": 1,
+   "4": "P:go back",
+   "5": "P:go both ways",
+   "6": "P:as time goes by",
+   "7": "P:go on",
+   "8": 2,
+   "9": 0,
+   "10": 2,
+   "11": 0,
+   "12": 3,
+   "13": 3,
+   "14": "P:go back"
+  },
+  "example": {
+   "id": 11,
+   "en": "He goes to the gym most days, plus tennis two or three times a week.",
+   "zh": "他大多数日子都去健身房，另外每周打两三次网球。"
+  },
+  "form": "go 的第三人称单数",
+  "irregular": false,
+  "note": "id5 'The relationship probably goes two ways'（双向的）按 P:go both ways 标；id1 goes into 指（时间精力）投入，id2 goes with 指配套，id4/14 goes back 指追溯到。"
+ },
+ "linked": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "有关联的（be linked to / with：与…有关）"
+   },
+   {
+    "pos": "v.",
+    "zh": "把…联系起来，连接（link 的过去式和过去分词）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Social isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions.",
+   "zh": "与此同时，社交隔离与较高的身体疾病和心理健康问题发生率有关。"
+  },
+  "form": "link 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "protection": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "保护，防护"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "It has been placed under international protection.",
+   "zh": "它已被置于国际保护之下。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "residents": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "居民，住户"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "It is strongly opposed by nearby residents.",
+   "zh": "它遭到附近居民的强烈反对。"
+  },
+  "form": "resident 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "setting": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "环境，场合，背景"
+   },
+   {
+    "pos": "v.",
+    "zh": "设定，制定，树立（目标、标准、榜样）（set 的现在分词）"
+   },
+   {
+    "pos": "n.",
+    "zh": "（机器等的）设置"
+   }
+  ],
+  "labels": {
+   "0": "P:set up",
+   "1": 0,
+   "2": "P:set up",
+   "3": "P:set up",
+   "4": "P:set up",
+   "5": 1,
+   "6": 1,
+   "7": "P:set up",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 1
+  },
+  "example": {
+   "id": 1,
+   "en": "It creates a wonderful setting for dating.",
+   "zh": "它为约会营造了绝佳的环境。"
+  },
+  "form": "set 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "treat": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "对待，看待（treat…as：把…当作）"
+   },
+   {
+    "pos": "v.",
+    "zh": "治疗"
+   },
+   {
+    "pos": "n.",
+    "zh": "乐事，难得的享受；好吃的东西"
+   },
+   {
+    "pos": "v.",
+    "zh": "请客，款待"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 3,
+   "3": 2,
+   "4": 0,
+   "5": 0,
+   "6": 2,
+   "7": 2,
+   "8": 1,
+   "9": 2,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Treat them as treasures.",
+   "zh": "把它们当作宝贝。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "walk": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "走，步行，散步"
+   },
+   {
+    "pos": "n.",
+    "zh": "散步，步行（take a walk：散步）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Or you could just walk to work.",
+   "zh": "或者你也可以直接走路去上班。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "willing": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "愿意的，乐意的（be willing to do）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "More people will be willing to join in the effort.",
+   "zh": "会有更多人愿意加入这项行动。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "again": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "再一次，又"
+   },
+   {
+    "pos": "adv.",
+    "zh": "（句首）再者，同样地"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "He wants to see it again.",
+   "zh": "他想再看一遍。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "am": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "是（be 的第一人称单数现在式，与 I 连用）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "与现在分词构成进行时（I am doing）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "与过去分词构成被动语态（I am caught）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": "X",
+   "4": 2,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": "X",
+   "9": 0,
+   "10": 0,
+   "11": "X",
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "I am not as bad as that.",
+   "zh": "我没那么糟。"
+  },
+  "form": "be 的第一人称单数现在式",
+  "irregular": true,
+  "note": "id3/8/11 是时间里的 am（= a.m. 上午），与 be 无关，标 X；如想在词条里提示「上午」需另加义项。"
+ },
+ "chances": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "可能性，几率，（成功等的）机会"
+   },
+   {
+    "pos": "n.",
+    "zh": "（做某事的）机会，时机"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": "P:chances are",
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "These reduce the likelihood of errors and increase the chances of success.",
+   "zh": "这些做法降低了出错的可能，提高了成功的几率。"
+  },
+  "form": "chance 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "essential": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "必不可少的，极其重要的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "基本的，核心的"
+   },
+   {
+    "pos": "n.",
+    "zh": "必需品，要素"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "It is an essential quality many employees lack.",
+   "zh": "这是许多员工都欠缺的一项重要品质。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "fall": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "落下，跌倒，掉进"
+   },
+   {
+    "pos": "n.",
+    "zh": "秋天"
+   },
+   {
+    "pos": "v.",
+    "zh": "下降，减少"
+   },
+   {
+    "pos": "n.",
+    "zh": "跌倒，摔倒"
+   },
+   {
+    "pos": "n.",
+    "zh": "下降，减少"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": "P:fall back on",
+   "3": "P:fall asleep",
+   "4": 1,
+   "5": "P:fall victim to",
+   "6": 3,
+   "7": 0,
+   "8": "P:fall by the wayside",
+   "9": "P:fall in love with",
+   "10": "P:fall asleep",
+   "11": 0,
+   "12": 0,
+   "13": "P:fall asleep"
+  },
+  "example": {
+   "id": 7,
+   "en": "What is one of the traps entrepreneurs may often fall into when competing with rivals?",
+   "zh": "创业者在与对手竞争时常会掉进的陷阱之一是什么？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "v. 落下 与 n. 秋天 各 3 句并列，按义项表顺序取 v.；id8 原文是 fall to the wayside，按 P:fall by the wayside 标；id11 the burden will fall on the student 按「落下」标。"
+ },
+ "largely": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "主要地，在很大程度上"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "It has largely failed to turn teens away from junk food.",
+   "zh": "它在很大程度上没能让青少年远离垃圾食品。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ }
+}

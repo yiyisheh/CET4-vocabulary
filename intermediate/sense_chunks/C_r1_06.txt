@@ -1,0 +1,596 @@
+# 任务 C_r1_06：1 个词，584 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_06.labels.txt
+
+============================================================
+## 词：the    本段 584 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.这; 那. adv.更; 越发.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 这，那（特指）    B 样本 80    例：See the Pope.
+  1  adv. 越……越……（the more…the more…）    B 样本 0
+  2  adv. （与比较级连用）更加，越发（all the better）    B 样本 0
+口径说明（照此执行）：
+  - 专有名词里的 the（The World Pipe Band Championships、the Corn Kid）仍按 art. 标 0；the+比较级……the+比较级 标 1；all the better/more 一类标 2。
+句子：
+3881 | I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated from college in 【the】
+3927 | “Most large animals that eat meat live in increasingly fragmented landscapes,” said Sillero, who was not involved in 【the】
+3967 | Dreams now include multiple events strung together, one after 【the】
+4030 | of schools and for which kinds of students these growth mindset ideas help young people adapt to 【the】
+4106 | More than half of students will find their academic performance declining sharply when they enter 【the】
+4124 | You should decide on 【the】
+4150 | Technology companies have an interest in developing a workforce with 【the】
+4171 | If you want that new job, you have to learn 【the】
+4189 | solving, teamwork, optimism, patience and 【the】 ability to experiment and take risks.
+4126 | 【The】 ability to finish tasks in a timely manner.
+4117 | 【The】 ability to maximize work efficiency.
+3936 | 【The】 ability to overcome food shortages that must be built into some of 【the】 poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+4108 | 【The】 ability to produce quality work.
+3870 | Qualities like flexibility and 【the】 ability to work under minimal supervision might become critical.
+4135 | 【The】 ability to work with 【the】 least supervision.
+3748 | Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in 【the】 absence of any long-term break, students do not feel detached from 【the】 school environment.
+3684 | done to meet 【the】 academic, social and emotional challenges of 【the】 transition to high school.
+3799 | One in which 【the】 affluent enjoy a more comfortable life at 【the】 expense of 【the】 poor.
+3851 | 【The】 agricultural society then attached less importance to academics.
+4057 | What is 【the】 aim of psychologist David Foulkes’ study?
+3686 | Calorie conswnption is linked to 【the】 amount of snacks one eats.
+4166 | Play may be 【the】 answer.
+3887 | Good question, but 【the】 answer is nothing!
+3743 | Organizations should reconsider 【the】 appropriateness of their performance evaluation procedures in light of 【the】 shift to remote work.
+4076 | As you become more capable of providing yourself with 【the】 approval you seek, your need for external validation will
+3939 | What is 【the】 argument against 【the】 experts' idea of a long summer vacation?
+3780 | What should people do to learn 【the】 art of persuasion at 【the】 workplace?
+3700 | How does 【the】 art of self-control help us succeed?
+4012 | 【The】 art of telling a story using music has not faded in 【the】 least    ?P:in the least
+3787 | They were based on 【the】 assumption that motivation was 【the】 only key.
+3993 | What would scientific studies look like in a perfect world according to 【the】 author?
+4213 | How can educators better develop students' SIBM skills, according to 【the】 author?
+4229 | What does 【the】 author advise disadvantaged schools and communities to do?
+4049 | What does 【the】 author advise us to do concerning ambition?
+4136 | What does 【the】 author advise us to do in 【the】 last paragraph?
+3825 | What does 【the】 author advocate for people to live well?
+3979 | What has 【the】 author come to realise since entering university?
+3940 | What does 【the】 author emphasize about their analysis in 【the】 last paragraph?
+3995 | How did 【the】 author feel in today’s money world?
+3990 | What does 【the】 author imply by saying "this isn't always 【the】 case" (Line 1, Para.
+3883 | What does 【the】 author imply people in developed countries should do to keep healthy?
+3991 | What does 【the】 author imply we should do if we have to focus on some task and do it well?
+4122 | Why does 【the】 author mention 【the】 invention of 【the】 rock opera?
+4025 | What did 【the】 author realise after talking to his friends?
+3707 | What does 【the】 author recommend we eat at 【the】 end of 【the】 passage?
+3766 | Why did 【the】 author run 【the】 estimates for Montreal?
+3867 | What can we conclude from 【the】 author’s calculations?
+4066 | What is 【the】 author’s idea of a financial education course?
+3891 | What is 【the】 author’s opinion on working from home?
+4159 | What is 【the】 author’s suggestion to employers who experience 【the】 financial impact of 【the】 pandemic?
+3724 | What did 【the】 author’s team conclude about 【the】 gender difference in airfares from their further investigation?
+4008 | What does 【the】 author say about companies and special interest groups?
+4017 | What does 【the】 author say about curiosity?
+4199 | What does 【the】 author say about educators?
+3985 | What does 【the】 author say about people now working for several businesses at 【the】 same time?    ?P:at the same time
+3915 | What does 【the】 author say about science in 【the】 last paragraph?
+3701 | What does 【the】 author say about 【the】 ability to be persuasive in 【the】 first paragraph?
+4001 | What does 【the】 author say about 【the】 gig economy?
+4069 | What does 【the】 author say about 【the】 proteins in our body?
+3687 | What does 【the】 author say about working from home?
+4257 | What does 【the】 author say about working in IT?
+4195 | What does 【the】 author say can contribute to 【the】 improvement of brain function?
+4062 | What does 【the】 author say causes refugees’ difficulty in taking online courses?
+4003 | What does 【the】 author say companies should do in 【the】 context of remote work?
+4006 | What does 【the】 author say is of extreme importance for one to become a successful entrepreneur?
+3820 | Why does 【the】 author say some experts’ anxiety seems misplaced?
+3885 | Why does 【the】 author say tailored jackets are associated with being “dressed for success”?
+3952 | Why did people often change jobs when 【the】 author started his career?
+4149 | What does 【the】 author suggest near 【the】 end of 【the】 passage?
+3817 | What does 【the】 author suggest policymakers do about obesity?
+3893 | What does 【the】 author suggest scientists do about public debate?
+3895 | What does 【the】 author suggest sensitive individuals do?
+3717 | What does 【the】 author suggest teachers do in 【the】 classroom?
+4231 | How does 【the】 author think grit can be helpful to us?
+3694 | What kind of social system does 【the】 author think is unacceptable?
+4092 | What does 【the】 author think of classical music and opera in today’s world?
+3974 | What does 【the】 author think of most entrepreneurs?
+4051 | What does 【the】 author think of research funded by industry or special interest groups?
+3958 | What does 【the】 author think of 【the】 traditional school year in 【the】 U.S. today?
+4086 | What message does 【the】 author try to convey at 【the】 end of 【the】 passage?
+3913 | What does 【the】 author use 【the】 example of his father· to illustrate?
+3685 | What is 【the】 author's advice to consumers?
+3868 | What do 【the】 authors of 【the】 study recommend to bridge 【the】 gender gap in early childhood education?
+4242 | have to tolerate 【the】 bad tempers of colleagues frustrated at 【the】 number of times they've had to call 【the】 help
+4225 | What can we do to help children learn 【the】 basics of math and geometry?
+3861 | By affecting what we take as 【the】 basis for assessment.
+3722 | Decades of research shows that it can take from 8 to 13 weeks at 【the】 beginning of every school year for students to get back to where they were before 【the】 summer holiday.
+3789 | levels of stress hormones when their grades were declining at 【the】 beginning of 【the】 ninth grade.
+3711 | has called these beliefs "mindsets ( ,'i if!:tlj)," with a "fixed mindset" referring to 【the】 belief that
+3737 | people cannot change and a "growth mindset" referring to 【the】 belief that people can change.
+4161 | They have reaped 【the】 benefits of being flexible.
+3828 | 【The】 benefits of multitasking are clear.
+4009 | Many women engineers hailed 【the】 benefits of their chosen career.
+3761 | They focused on 【the】 benefits young people would reap in 【the】 future.
+3992 | You should decide on 【the】 best choice and mark 【the】 corresponding
+4024 | that engineering is 【the】 best degree.
+4169 | They enjoy doing engineering to 【the】 best degree.
+3862 | When doctors prescribe medicine for people, they rarely consider 【the】 best time to take it.
+4028 | More research is needed to determine 【the】 best times to administer treatments for different diseases.
+4157 | Conducting more studies to find out 【the】 best timing for treating different diseases.
+4217 | By showing students 【the】 best way to learn is through play.
+4179 | 【the】 best way to prepare today's children to be 【the】 makers and builders of tomorrow.
+3720 | They shit 【the】 blame to others.
+3951 | pumped less blood through 【the】 body-both responses that 【the】 body shows when it is preparing for
+3734 | Many drug targets in 【the】 body follow a 24-hour cycle, too.
+3812 | Because how 【the】 body responds to a
+3815 | This was an exciting result because it showed that 【the】 body's stress responses are not
+4185 | number games can enhance that desire for novel experiences, which can, in turn, refresh 【the】 brain.
+4205 | Desiring new experiences can help to renovate 【the】 brain.
+4000 | pumped more blood-both of which contributed to more oxygen getting to 【the】 brain, and, ultimately,
+4152 | Of course, that doesn't mean 【the】 brain isn't affected by 【the】 effects of time.
+4168 | New pathways can strengthen our ever-changing mental structure, even as 【the】 brain shrinks.
+3980 | They are losing habitat due to 【the】 building of roads and houses.
+4170 | According to a report by 【The】 Business Insider, in 【the】 University of California’s new bio-sciences building, tiny green    ?X
+3803 | 【The】 business perspective offers a different view: multitasking is understood as 【the】 ability to adapt to all types of environment within a company and effectively undertake different activities within a set time frame.
+3975 | How does 【the】 business world view multitasking?
+4206 | 【The】 cacao farmers would have a tough time to adapt.
+4129 | endangering 【the】 cacao farms in 【the】 rainforests.
+4218 | What do we learn about 【the】 cacao farms in 【the】 crisis of global warming?
+4196 | What would happen if 【the】 cacao farms were shifted to cooler mountainous areas?
+3735 | It has contributed little to 【the】 campaigns against obesity.
+3898 | Actually, this isn't always 【the】 case.
+3983 | Still, that’s not always 【the】 case: When roused during
+4007 | letter on Answer Sheet 2 with a single line through 【the】 centre.
+3839 | 【The】 challenge in determining 【the】 role of each individual gene.
+4115 | It is beneficial to explore ways to cope with 【the】 challenges facing students entering high school.
+3905 | These pioneers reflected on 【the】 challenges they faced — and had advice for women entering 【the】 field today.
+4137 | 【The】 change in their responsibilities.
+3969 | It was a response to 【the】 changing job market.
+4253 | What is 【the】 chief reason for college-educated workers delaying retirement according to an economist?
+3929 | Over 50 years ago, researchers found that 【the】 cholesterol drug simvastatin is more effective at lowering cholesterol levels
+3973 | For another, most of 【the】 classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.
+4099 | So embrace 【the】 cliché and
+3811 | Why does science say 【the】 clothes one wears may affect their interaction with others?
+3836 | How do 【the】 clothes we wear sway our evaluation of ourselves?
+4186 | 【the】 cocoa crops survive in warmer and drier climates.
+4158 | STEM (science, technology, engineering and math) skills needed to grow 【the】 company and advance 【the】
+4256 | employees' work, rather than adjust their work to fit in with 【the】 company's IT limitations.
+4130 | Show 【the】 complexity of interactions between humans and animals.
+3884 | 【The】 concept has been applied to a wide range of disciplines,
+3941 | What do we learn from 【the】 conclusion of a recent study on multitasking?
+3683 | Weighing 【the】 consequences they have.
+4121 | Shed light on 【the】 conservation of most large meat-eating animals.
+4102 | Help discover new ways for 【the】 conservation of pandas.
+3916 | In 【the】 context of a global pandemic (大流行病), firms may want to provide additional support to employees by providing more frequent communication.
+3712 | Success was once defined as being able to stay at a company for a long time and move up 【the】 corporate
+4133 | best choice and mark 【the】 corresponding letter on Answer Sheet 2 with a single line through 【the】 centre.
+4107 | 【The】 cost of humans’ curiosity to explore.
+4146 | Unfortunately, 【the】 crisis of global warming has already had a serious negative impact on cacao farms’ yields, leading to
+3816 | This is where they conduct business, where a sense of community reinforces 【the】 culture
+4064 | Daddy doesn't like him or her, there is 【the】 danger that they will abandon them.
+3871 | People who look at 【the】 dark side of life often feel depressed.
+3681 | and are active during 【the】 day.
+3886 | First, many physicians are not aware that some drugs work better during a specific time of 【the】 day.
+3948 | when taken at night rather than during 【the】 day.
+4093 | Their reaction to medicines changes during 【the】 day-night cycle.
+4203 | 【The】 decline of manufacturing and 【the】 increase in 【the】 number of people working
+4127 | What can we do when we become better able to provide ourselves with 【the】 desired approval?
+4155 | Duckworth says grit is 【the】 difference between success and failure.
+3864 | 【The】 difficulty of foretelling how 【the】 various genes will interact.
+3794 | It might add to 【the】 difficulty of getting research funds.
+3888 | 【The】 difficulty of telling genetic factors from environmental ones.
+4114 | They tell patients to comply with 【the】 directions of drug manufacturers.
+4176 | manipulating 【the】 DNA of plants, this technology is already being used across 【the】 world to make plants tougher and cheaper.
+4181 | Similarly, in this unconventional experiment, scientists will make tiny, precise changes to 【the】 DNA of 【the】 seedlings to make
+4192 | Grit tells us that 【the】 door is open wider than we first thought
+4207 | a way, Duckworth is giving new hope to people who have shut 【the】 doors on their dreams.
+3949 | compared to 【the】 dreams of adults.
+3879 | favoring 【the】 drug under consideration than studies sponsored by government grants or charitable organizations.
+4132 | To ensure they take 【the】 drugs as instructed.    ?P:take sth as
+3843 | To exemplify how remote working affects 【the】 economy.
+3854 | After all, 【the】 economy as a whole has grown
+3960 | Keynes was right in predicting that technology would make 【the】 economy much more productive.
+4036 | liked, and caring about 【the】 effect we have on others, is healthy and allows us to make connections.
+4081 | They can modify 【the】 effects of medicines in different ways.
+4052 | also satisfying to see 【the】 effects of what you have done.
+4260 | Draw up a list of 【the】 efficiencies to be promised.
+4047 | More people will be willing to join in 【the】 effort.
+4097 | What quality in 【the】 employees would be of great importance in a remote work context?
+4223 | They are puzzled how to present their best to 【the】 employer.
+4035 | It means 【the】 end of their career.
+4252 | little consideration of how those changes will impact 【the】 end user.
+3772 | Of 【the】 endless troubles that come with being driven from one’s home country, losing educational certificates may seem small.
+3911 | 【The】 enormous work to identify 【the】 hundreds of genes involved.
+3874 | Most of us in 【the】 entrepreneurial community are blessed—or cursed—with higher-than-average ambition.
+4084 | They work in conjunction with 【the】 environment.
+3953 | Genes and 【the】 environment interact in many complex ways to shape individuals and guide their behavior, including their curiosity.
+4096 | What does 【the】 example of 【the】 Inuit people of 【the】 Arctic regions illustrate?
+4063 | Follow 【the】 example of 【the】 most ambitious entrepreneurs.
+3693 | What accounts for 【the】 existence of intelligent people’s logical blind spots?
+3844 | They find it hard to meet 【the】 expectations of kids’ parents.
+3740 | It benefits employers at 【the】 expense of employees.
+4250 | 【The】 experience of using IT penetrates almost 【the】 entire work field.
+3810 | 【The】 experts concluded that pandas should ideally “be happy enough to thrive, but not so content that they don’t want to
+4040 | What is 【the】 experts’ conclusion regarding pandas?
+3750 | It is due to 【the】 fact that women care more about their company’s money.
+3746 | They graciously accept 【the】 facts.
+3892 | Taking measures to attract prospective male teachers to work in 【the】 field.
+3857 | women would continue to enter 【the】 field at 【the】 same rate.
+3971 | However, organizations also need to be honest with employees about 【the】 financial impact of COVID-19.
+3756 | 【the】 financial seas with no skills and no life jacket!
+4258 | What is 【the】 finding of a recent survey on employees who have a job reliant on IT support?
+3847 | What does 【the】 finding of Myriam Bechtoldt’s study indicate?
+3770 | What is 【the】 finding of 【the】 new study?
+4200 | What is 【the】 finding of 【the】 2012 study in 【the】 journal Psychology and Aging?
+3691 | 【The】 findings suggest that some people may be too emotionally clever for their own good, says Bechtoldt.
+3755 | Act as 【the】 first defense against natural disasters.
+3688 | What do we learn from 【the】 first paragraph about early childhood education in 【the】 U.S.?
+3769 | It is likely that 【the】 “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard for 【the】 quality of an employee’s contribution to 【the】 organization.
+4085 | 【The】 flexibility of their work schedules.
+4038 | A mechanical engineer said, “It will give you 【the】 flexibility to do almost anything.
+4142 | Questions 46 to 50 are based on 【the】 following passage.
+4236 | Questions 51 to SS are based on 【the】 following passage.
+3903 | nutrition research sponsored by 【the】 food industry is more likely to end up favoring 【the】 food under consideration than
+4031 | It is 【the】 force that pushes human society forward.
+3699 | would be distributed more or less evenly across society in 【the】 form of increased leisure.    ?P:in the form of
+4014 | It determines 【the】 formation of connections in 【the】 brain.
+3996 | They may not adapt to 【the】 fragmentation of their habitat.
+3943 | A little examination can go a long way towards identifying bias associated with 【the】 funding source.
+4248 | reliable and faster, but their employer simply will not put up 【the】 funds to buy them.
+3872 | with heavy conditions attached, like loan repayment or food for resources, it often widens 【the】 gap between rich and poor and sustains 【the】 old world order.
+3852 | 【The】 gender difference in airfare expenses no longer existed.
+3697 | It only means that 【the】 gender gap disappears when we plug in 【the】 negative reciprocity variable.
+3802 | What accounted for 【the】 gender gap in airfares.
+3876 | 【The】 gender gap tended to narrow to a significant degree.
+3934 | While pinning down a definition has proven tricky, 【the】 general consensus is it’s some means of information gathering.
+3910 | 【The】 general consensus is that they start dreaming around 【the】 age of two.
+4094 | To confirm 【the】 general consensus on when kids dream.
+4245 | What is 【the】 general trend in people delaying retirement?
+4072 | What is 【the】 general understanding of curiosity?
+4230 | Transplant 【the】 genes of tougher plants to cacao seedlings.
+3710 | Those complex enough to reveal 【the】 genetics behind a trait.
+3841 | and values of 【the】 gig economy (-* .:c. *") , and where success is rewarded with good reviews that
+3890 | other massive change, 【the】 gig economy will itself become an engine of economic and social
+4048 | 【The】 global economic crisis intensifies.
+3866 | Perhaps more important, as 【the】 global economy continues to be disrupted by technology and
+4182 | tells us that perfection isn’t 【the】 goal.
+3738 | 【The】 goal was to reach 【the】 top, accumulate wealth and retire to a life of ease.
+4234 | It lets us reconsider 【the】 goals to achieve.
+4089 | It has experienced 【the】 gradual weakening of male dominance.
+3781 | Add to 【the】 great variety of plant species.
+3925 | One survey taker explained, “【The】 greatest challenge for me was continuing to believe in myself, when all 【the】 messages
+4175 | simple as taking a different route to 【the】 grocery store or going somewhere new on vacation can keep 【the】 brain healthy.
+4128 | Excluded from 【the】 group.
+3962 | one of 【the】 groups.
+3765 | 【The】 growing trend of eating out.
+3984 | got 【the】 growth mindset intervention ( f- f»i) showed less-contracted blood vessels and their hearts
+3835 | Their conclusions about what 【The】 Guardian described as this “sweet spot” are in line with 【the】 so-called Goldilocks    ?X
+3727 | Most of us are not in 【the】 habit of exercising self-control.    ?P:in the habit of
+4173 | 【The】 hairdresser agreed but for a different reason: She
+4190 | What is one thing that helps maintain 【the】 health of our brain even as it shrinks2
+4247 | 【The】 higher their earnings, 【the】 more likely they are tempted to delay retirement.
+4251 | 【The】 higher their educational level, 【the】 more likely they are to delay retirement.
+3976 | Many of 【the】 highest earners have a keen interest in and love for what they are doing.
+3804 | (Indeed, research has shown that 【the】 highest earners in America tend to work 【the】 most.
+3749 | Supplying enough job opportunities for 【the】 homeless remains a challenge.
+4080 | Considering 【the】 huge impact
+4045 | It is a unique trait specific to 【the】 human race.
+3914 | 【The】 human thirst for knowledge is 【the】 driving force behind our successful development as a species.
+3956 | 【The】 idea isn’t without its kinks.
+3733 | These findings support 【the】 idea of wearing
+3758 | 【The】 ideal level of perfectly livable habitat was found to be only 80% of an area,
+4105 | They have trouble recollecting 【the】 images of their dreams.
+3814 | They cannot tell apart 【the】 impact of lifestyle and that of 【the】 environment.
+3818 | To show 【the】 impact of remote working on productivity.
+3981 | subtle and just shows 【the】 impact symphonic orchestras have had on society’s taste in music.
+3822 | To assess 【the】 impacts of being emotionally clever.
+3715 | 【The】 importance of broadening children’s horizons.
+4134 | 【The】 importance of learning from past failures.
+3894 | Much has been written about 【the】 importance of timely feedback.
+3801 | 【The】 increase in new housing falls short of 【the】 demand of 【the】 growing homeless population.
+4145 | 【The】 increase in their number.
+4026 | 【The】 increased panda population is attributed to 【the】 fragmentation of their habitat.
+3778 | from 【the】 increased productivity since Keynes's time — can afford to work less, why do they continue to work so much?
+3729 | It has been popularized worldwide with 【the】 increasing influence of social media.
+3682 | They claim that lack of exercise is to blame for 【the】 increasing obesity rates.
+4116 | 【The】 incredible harshness of cold weather.
+4125 | 【The】 innovative ideas stemming from curiosity.
+3957 | It's a clear departure from 【the】 intended plan toward 【the】 intended goal.
+4013 | common sedative used in surgical procedures worldwide, might interfere with 【the】 internal clock that protects 【the】
+4177 | job skills, then 【the】 interview skills, then 【the】 dress part — and you must be perfect at all of them.
+4002 | For instance, 【the】 Inuit people of 【the】 Arctic regions have created incredible modes to deal with 【the】 challenges of living in northern climates, but what we forget about are 【the】 tens of thousands of people that tried and failed to make it in those challenging landscapes.
+4263 | By adjusting their work to suit 【the】 IT system.
+4254 | Which is why managers should appreciate just how influential 【the】 IT user experience is to their
+4075 | What did 【the】 joint study find about 【the】 MOOCs several years ago?
+3732 | For their study — outlined in a paper in 【the】 journal Conservation Biology — 【the】 team looked at genetic diversity and
+4180 | doing new things, a 2012 study in 【the】 journal Psychology and Aging found completing reasoning tasks like puzzles and
+4056 | It holds 【the】 key to all human body functions.
+3999 | REM sleep, 25% of 【the】 kids in Foulkes’ studies had no recollection of dreaming, a trend that continues through age 9.
+4232 | to stay in 【the】 labor force more for social benefits than for financial reasons.
+4249 | More men than women are likely to stay in 【the】 labor force until their late seventies.
+3865 | In this study, students came into 【the】 laboratory and were asked to give a public speech in front of
+4100 | It boasted 【the】 largest number of engineering majors in 2000.
+3759 | business casuals on a Friday, since colleagues are most likely to take out time to socialize on 【the】 last work day of 【the】 week.
+4144 | In 【the】 late 1960s, British brain scientist Geoffrey
+3797 | Despite decades of effort to eliminate hunger, 【the】 latest estimate is that about 11% of people on 【the】 planet (about 820 million people) are suffering daily undernourishment.
+4226 | Produce chocolates with 【the】 latest gene-editing technology.
+3690 | Take advantage of 【the】 latest technologies.
+4087 | They benefited most of 【the】 learners.
+4060 | 【The】 length of their work time.
+3987 | For organizations that have struggled to keep 【the】 lights on due to 【the】 pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.    ?P:keep the lights on
+4112 | Help remove pandas from 【the】 list of endangered species.
+3966 | This is because 【the】 liver enzyme these drugs target is more active at night.
+4095 | According to one study, each high school graduate contributes at least 500, OOO dollars to 【the】 local
+3899 | What do some childhood development experts believe about 【the】 long summer vacation?
+4059 | It is often 【the】 major cause for human failures.
+3788 | They cannot independently identify 【the】 majority of potential diseases.
+3921 | It contributes to 【the】 male-female divide in 【the】 workplace.
+4141 | To guarantee 【the】 maximum effect of 【the】 drugs.
+3856 | When they become aware of 【the】 meaningful relationships you keep with them.
+3786 | modify can react differently to 【the】 medicine over 【the】 course of a 24-hour time period.
+3777 | A recent study concluded that regardless of whether people are actually handling several tasks or not, 【the】 mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+4110 | Not to take seriously all 【the】 messages she was getting.
+3946 | “It may well be that 【the】 messy nature of their relationship with human efforts induces more animals to scatter or
+4228 | with some college education were in 【the】 middle at around 15%.
+4240 | 【the】 middle of a critical meeting, are expected to instantly fix 【the】 projector that's no longer working.
+3703 | terms of 【the】 modern era to help manage my personal finances.
+4053 | High schoolers knew nothing about 【the】 modern financial world.
+3947 | Some people are beginning to wonder whether opera and classical music are still relevant to 【the】 modern world of
+3808 | financial education in our schooling system that is leaving high schoolers seriously behind in 【the】 modern world of money.
+3950 | They do not look promising at 【the】 moment.
+3726 | Rather, we can assume it is because they need 【the】 money.
+4178 | needs 【the】 money.
+3730 | while I was researching, I still kept wishing that I didn’t have to play catch-up with 【the】 money world.
+3745 | Its Nobel Prize reminds us all of 【the】 moral hazard in imagining that 【the】 poor and vulnerable are somebody else’s problem.
+3909 | most drugs during 【the】 morning or evening primarily to ensure compliance.
+4123 | Why do doctors advise patients to take most drugs in 【the】 morning or in 【the】 evening?
+3998 | My colleagues and I wondered whether midazolam, 【the】 most
+3938 | Unfortunately, for 【the】 most ambitious entrepreneurs, a failure is seen as disastrous, and impossible to recover from.
+4021 | How do 【the】 most ambitious entrepreneurs regard failure in their endeavor?
+4037 | They reap 【the】 most benefits from scientific research
+4165 | Finding out 【the】 most effective drugs for treating diseases through further research.
+3790 | Such platforms then become a place to feature 【the】 most experienced, professional, and
+4156 | They are considered to be 【the】 most expressive type of music.
+4184 | In fact many experts argue that 【the】 most important 21st-century skills aren't related to specific
+3965 | 【The】 most major indicator of classical music’s importance in society today is 【the】 fact that much of 【the】 popular music that
+4098 | They provided 【the】 most needed vocational skills.
+3858 | may not be 【the】 most popular subject, but it’s consistently on 【the】 schedule throughout high school, with all students graduating
+3859 | What should people take into consideration in deciding on 【the】 most preferable protein intake?
+3964 | 【The】 most recent count of pandas found that there were more than 1,800 left in 【the】 wild, putting them on 【the】 list of
+4082 | To solve 【the】 mystery of dreaming and brain growth.
+3757 | It has helped to create 【the】 myth of protein deficiency.
+3728 | It refers to 【the】 natural and instinctive power of influencing one’s coworkers.
+4138 | which are 【the】 natural habitat of wildlife.
+4201 | 【The】 natural habitat of wildlife there would be ruined.
+3763 | G) In one recent study, we examined 360 adolescents' beliefs about 【the】 nature of "smartness"-that is,
+4191 | They could become a rare treat in 【the】 near future.    ?P:in the near future
+4148 | To justify 【the】 necessity of using orchestras in opera.
+3926 | 【the】 need for a ‘catch up’ phase once we’re out on our own after graduation.
+3848 | One American philosopher stated that addressing 【the】 needs of 【the】 poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive.
+4061 | More food will be made available to 【the】 needy.
+3827 | What happened when 【the】 negative reciprocity variable was taken into account?
+4091 | What can 【the】 new findings do according to Professor Sillero?
+3813 | In what way is 【the】 new intervention innovative?
+3723 | What do we learn from 【the】 new Los Angeles Homeless Services Authority report?
+3937 | 【The】 new program aims to aid refugees by offering “important skills that will help them in 【the】 global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+3838 | What conclusion can be drawn from 【the】 new research?
+4011 | What can we conclude from 【the】 new research by scientists at Michigan State University?
+4167 | Urging their employees to adapt to 【the】 new situation.
+4151 | To help employees in need adapt to 【the】 new work environment.
+3742 | Why did a recent debate published in 【The】 New York Times arouse concerns among experts?    ?X
+3907 | Claudio Sillero, a professor of conservation biology at Oxford University, told 【the】 newspaper that 【the】 new findings could
+3714 | It will become 【the】 norm sooner or later.
+3863 | Nightmares stem from exposure to trauma ，an overactive imagination, and 【the】 normal stresses of everyday life.
+3834 | Americans can absorb 【the】 number of calories recommended by food experts.
+4239 | 【The】 number of jobs suitable for older people has increased in 【the】 private sector.
+4071 | 【The】 number of people experiencing depression shows a sharp increase in 【the】 first year of high school.
+4183 | Both scenarios are contributing to a big increase in 【the】 number of people in 【the】 US working into their 70s.
+3853 | Being quicker and more efficient increases our performance and 【the】 number of tasks completed.
+3680 | It provides all 【the】 nutrients for staying healthy.
+4032 | Reflect on its differences from working in 【the】 office.
+4246 | They are also 【the】 ones who know there are systems that are more powerful,
+4238 | They are 【the】 ones who, right in
+3792 | To illustrate 【the】 ongoing change in working patterns.
+4083 | According to one study, students' academic performance is not 【the】 only decisive factor of their stress
+4027 | In fact, sometimes actual orchestras are used for major parts of 【the】 opera itself.
+4088 | If we base our worth on 【the】 opinions of others, we cheat ourselves of 【the】 power to shape our experiences and embrace
+3963 | Giving young people 【the】 opportunity to become familiar with 【the】 world of money would provide them with a great
+4018 | Rethink 【the】 organizational fundamentals.
+3706 | On 【the】 other hand, a casual dress helps us become more friendly and creative.    ?P:on the other hand
+3751 | However, on 【the】 other side of 【the】 coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.
+3920 | It enables students to learn about 【the】 outside world.
+4058 | feature of 【the】 overall school culture, especially for students starting 【the】 ninth grade.
+4216 | 【The】 overall trend is hitting Americans of all different levels of educational attainment, although 【the】 percentages vary by
+4109 | Our knowledge about 【the】 pain of abandonment.
+4143 | Why is it important for firms to provide timely feedback during 【the】 pandemic?
+3713 | What do we learn about obese people from 【the】 passage?
+3762 | What do we learn about genetic health tests from 【the】 passage?
+4029 | What can we infer about nightmares from 【the】 passage?
+3977 | What do we learn from 【the】 passage about researchers like birdwatchers and rock collectors?
+4235 | What do we learn from 【the】 passage about 【the】 economics professor and her hairdresser?
+4054 | What can we infer from 【the】 passage about 【the】 Goldilocks principle?
+4042 | What do we learn from 【the】 passage about 【the】 timing of our behaviors?
+3702 | What do we learn from 【the】 passage about vegetable planting?
+3961 | What does 【the】 passage mainly discuss regarding scientific research?
+3931 | What does 【the】 passage say about DNA tests to predict personality or talents?
+3709 | What does 【the】 passage say about health education?
+4211 | What does 【the】 passage say about people born with natural talents?
+4219 | What does 【the】 passage say about people thinking of attaining success?
+4255 | What does 【the】 passage say about people doing manual work?
+4065 | What does 【the】 passage say about 【the】 engineering profession in 【the】 United States?    ?P:the United States
+4034 | What does 【the】 passage say is a consequence of 【the】 global migrant crisis?
+4188 | 【the】 past 20 years, 【the】 share of Americans working in their 70s has risen from less than 10% to nearly 15%.
+3832 | In 1970, 【the】 percentage of women majoring in engineering was less than 1%.
+3959 | People’s performance benefits from 【the】 perception of what they are doing as multitasking.
+4147 | overrated, and if you want real success, what you need is grit 【the】 perfect combination of passion and persistence.
+3855 | Drug research sponsored by 【the】 pharmaceutical industry is more likely to end up
+3725 | Answering 【the】 phone and writing at 【the】 same time, for example.    ?P:at the same time
+3897 | 【The】 platform currently offers professor-led lectures on a broad range of topics, from data science to fashion design.
+3873 | They can apply for fully funded access to Coursera’s course catalog, which means they can take all of 【the】 platform’s classes and obtain professional certificates for free.
+3849 | 【The】 platform will allow refugees worldwide to take thousands of online courses for free.
+3988 | It is morally wrong to think helping 【the】 poor is not our business.
+4113 | What do we learn about much of 【the】 popular music currently produced?
+4262 | Think about 【the】 possible effects on their employees.
+3739 | They overlook 【the】 potential causes of obesity.
+3791 | 【The】 potential causes of snacking.
+4044 | happen if schools helped to make beliefs about 【the】 potential for change and improvement a larger
+3831 | When they become aware of 【the】 potential strength of 【the】 judgements you make.
+3877 | But having to pay attention to several things at once means that 【the】 powers of concentration are reduced and that can lead to more mistakes.
+3904 | To allow for 【the】 preferences of most people of today
+4067 | It applies to 【the】 preservation of pandas too.
+4154 | 【the】 prices of chocolates skyrocketing.
+4193 | considerations such as years of slow rise in real wages and a shift away from traditional pensions in 【the】 private sector are
+3719 | It is a response to solving 【the】 problem of food instability.
+3800 | 【The】 problem with this argument is that most children aren't playing outside or even spending time with other kids.
+3768 | It might hinder 【the】 progress in medical research.
+4019 | It is still far from its goal despite 【the】 progress made.
+4224 | those with a high school degree or less, 【the】 proportion of those working in their 70s had risen to around 10%, while those
+3829 | K) Friedman concludes that 【the】 prosperity Keynes predicted is here.
+3716 | Prevent information from being used incorrectly by 【the】 public.
+3783 | It has raised a lot of health concerns among 【the】 public.
+3845 | Diverse topics can be debated by both scientists and 【the】 public.
+3869 | Debates about science are accessible to 【the】 public anyway.
+4103 | They will not fade away from 【the】 public eye.
+3704 | firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following 【the】 publication of studies linking sugar
+4055 | compositions have also been created solely for 【the】 purpose of being included in major motion pictures.
+3935 | 【The】 purpose of performance evaluation is ultimately to determine how to reward employees for their work.
+3796 | What was 【the】 purpose of psychologist Myriam Bechtoldt’s experiment?
+4214 | 【The】 quality of cocoa beans would suffer greatly.
+3795 | This means that work should be measured in terms of 【the】 quality of 【the】 work, not just 【the】 quality of 【the】 process.
+4073 | 【The】 quality of their contribution.
+3821 | As remote work is largely unobservable to supervisors, employers need to think about how they can objectively measure 【the】 quality of work in a way that is consistent for employees of similar rank.
+4046 | 【The】 quantity of their output.
+3989 | Then there are 【the】 questions over 【the】 value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.
+4210 | 【The】 rainforests would be shrinking dramatically.
+4241 | 【The】 rate of wage increase in terms of purchasing power has slowed down for years.
+4202 | 【The】 real workings of grit are to have sustainable passion and continue to try.
+3830 | But in 【the】 real world,
+4174 | Focusing on STEM skills is important, but 【the】 reality is that SIBM skills are enhanced and more
+3954 | This means that pay structures need to adapt to 【the】 reality of working from home.
+3806 | Understand 【the】 reason for pursuing their goals
+4237 | What is one of 【the】 reasons for people to delay retirement?
+4198 | some of 【the】 reasons people delay retirement.
+3744 | More research is needed to see how exactly 【the】 relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+4139 | But with 【the】 release of Angela
+3997 | A better example for 【the】 relevance of opera and classical music can be seen in 【the】 invention of 【the】 rock opera.
+4140 | To show 【the】 relevance of opera and classical music.
+4074 | 【The】 relief effort will be rendered less sustainable.
+3784 | with 【the】 remainder either too harsh or too affected by human activity.
+3705 | 【The】 research was conducted by scientists from Michigan State University.
+3805 | patronage , church sponsorship or simply paying for 【the】 research yourself.
+3776 | What did 【the】 researchers want to determine by testing a variety of possible explanations?
+4233 | Develop students' creative skills with 【the】 resources available.
+4010 | Overwhelmed by 【the】 resources online.
+3968 | part because they felt like they had 【the】 resources to deal with 【the】 demanding situation.
+3741 | 【The】 responsibilities of fathers for children’s growth.
+3924 | Are 【the】 results consistent with other independently funded studies?
+3753 | As a society, we reap 【the】 rewards from this science but we also help pay for it.
+3850 | All amenities made accessible to 【the】 rich and 【the】 poor alike.
+3747 | One in which 【the】 rich purchase amenities at an increasingly unjustifiable price.
+3731 | bar or drink, we also risk missing out on 【the】 rich sources of antioxidants , vitamins and many other benefits of
+4033 | 【The】 rich will become richer and 【the】 poor poorer.
+3860 | principle: that there can be just 【the】 right amount of something.
+3785 | What does science suggest 【the】 right dress may do?
+3908 | They may enable people to have 【the】 right mentality for doing business.
+4079 | It can be used to locate 【the】 right spot for pandas.
+3928 | With 【the】 rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from 【the】
+3793 | 【The】 role of teachers in motivating children to learn.
+4077 | It witnessed a significant increase in women engineers in 【the】 1970s.
+3823 | Progress at reducing undernourishment has stopped despite gains through 【the】 1990s and 2000s.
+4023 | They try hard to pull down 【the】 safeguards for research.
+3692 | It is 【the】 safety net for those who fall off 【the】 edge of existence.
+3882 | A financial education subject should do just 【the】 same.
+3842 | See that people don't stick to 【the】 same diet.
+3775 | Everyone is pulling in 【the】 same direction to solve 【the】 homelessness problem.
+3978 | family—and compete with men who don’t have 【the】 same household responsibilities.
+3782 | However, after talking to my friends who felt 【the】 same, I quickly realised that it wasn’t my ignorance but 【the】 lack of
+4244 | desk for 【the】 same issue.
+3944 | I was getting were that I would never be taken seriously or promoted or given raises at 【the】 same rate as men, who were clearly
+3901 | A skilled worker executing more than one task at 【the】 same time.    ?P:at the same time
+3922 | An efficient person able to perform multiple tasks at 【the】 same time.    ?P:at the same time
+3764 | Today, consulting or freelancing for five businesses at 【the】 same time is a badge of honor.    ?P:at the same time
+3912 | this, students had to complete a difficult mental math task in front of 【the】 same upper-year students.
+4078 | It should be taught 【the】 same way as English is taught.
+3945 | In 【the】 same way that learning a language or new skills takes time, building financial skills requires practice and years to
+3875 | It will familiarize them with 【the】 school environment.
+4039 | 【The】 schooling system was to blame for his trouble.
+3689 | Clear up confusion in 【the】 scientific community.
+3917 | 【The】 scientific community, however, can provide a helping hand to 【the】 WFP.
+4070 | To reveal 【the】 secrets of children's dreams.
+3930 | David Foulkes studies children (from very small kids to teens) to bring 【the】 secrets of their dreams to 【the】 light of day.
+4215 | They appear to know all 【the】 secrets to success.
+4220 | 【The】 share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018.
+4131 | To present 【the】 simplest definition of opera.
+4197 | because you “don’t have 【the】 skills for it”?
+4221 | How do children acquire 【the】 skills needed for 【the】 21st century?
+4209 | They help students acquire 【the】 skills needed for their future success.
+4227 | They will find themselves lacking in all 【the】 skills they need.
+4043 | They appear in 【the】 sleep of both adults and infants.
+3840 | H) We also investigated 【the】 social side of 【the】 high school transition.
+3696 | 【The】 society fails to forgive them for their mistakes.
+4162 | 【the】 species with a gene-editing technology, which will transform 【the】 seedlings into a species that survives even in a drier and
+3760 | This means that 【the】 specific proteins a drug is designed to
+3736 | Those focusing on 【the】 specific questions being asked.
+4015 | better performance on 【the】 speech and mental math tasks.
+3932 | When these students gave 【the】 speech, their blood vessels contracted and their hearts
+3986 | In some situations, 【the】 stakes are low and failure is a healthy part of growth.
+3833 | Let’s compare a theoretical financial education subject to 【the】 standard compulsory English class.
+3824 | 【The】 State Department will announce a partnership with an online education platform called Coursera.
+4101 | scientists made 【the】 statement about 【the】 death of this wonderful thing, let us tell you 【the】 facts.
+4153 | What can we conclude about many female engineers from 【the】 statement of a mechanical engineer?
+3819 | What do we learn about male teachers from their responses in 【the】 study?
+3718 | Indeed, 【the】 study adds to previous research hinting at a dark side of emotional intelligence.
+3774 | Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and 【the】 summer break provides a perfect opportunity to get outside.
+3695 | One benefit of this change is that students will not fall victim to 【the】 "summer slide," or 【the】 well-documented phenomenon where students forget some of 【the】 knowledge they have acquired when too much time is taken off from school.
+4261 | Assess 【the】 swollen cost of training 【the】 employees.
+3698 | This requires two essential conditions: that one of 【the】 tasks needs to be automatic, like walking or eating, and that they both need different mental processes.
+3919 | One major side effect of excessive ambition is 【the】 tendency to focus too determinedly on one particular vision or end goal.
+3923 | An economist’s prediction about a shorter average working week seemed to be correct for a time in 【the】 20th century.
+4163 | our thoughts are immediately burdened by all 【the】 things we must first learn.
+3837 | drug can differ depending on 【the】 time it is taken, it logically follows that taking medicines at specific times could help increase
+4104 | They give little thought to 【the】 time of taking it for maximum effect.
+4022 | can't please all people all of 【the】 time, wouldn't it make sense to stop trying?
+3779 | Funding for science has changed with 【the】 times.    ?P:with the times
+3708 | Consequently, all human body functions also follow this daily rhythm, and 【the】 timing of
+3970 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, and curiosity is one of 【the】 tools humans have found to accomplish that gigantic task.
+3933 | How long people took to reach 【the】 top of their career.
+3889 | 【The】 topic of 【the】 speech was what makes one popular in high school.
+4016 | It may soon replace 【the】 traditional economic model.
+4208 | in less labor-intensive occupations also has contributed to 【the】 trend, says Abraham, who researches work and retirement
+4111 | are used to make chocolate, grow in 【the】 tropical plant world and require very specific weather conditions to prosper.
+4119 | How do women engineers frequently feel according to 【the】 two civil engineers?
+4212 | “Which matters more depends on what your history up until that point has been in 【the】 type of work you’re doing,”
+3798 | To solve this problem, 【the】 U.S.
+4005 | Why is 【the】 U.S.
+3826 | 【The】 U.S. has changed from a farming economy to a knowledge- and innovation-based economy, so it makes sense for 【the】 school year to change as well.
+3807 | Engineering in 【the】 U.S. has long been a male-dominated profession.
+3942 | In 【the】 U.S. labor market. 【the】 primary concern of people with less schooling and fewer skills is to secure any employment
+3902 | Friedman believes inequality in 【the】 U.S. largely explains why increasing productivity has not resulted in reduced working
+3809 | Why have physicians in 【the】 U.S. never actually examined a patient with protein deficiency?
+4222 | What are scientists trying to do in 【the】 University of California’s new bio-sciences building?
+4187 | Grit lifts 【the】 unreasonable expectations off our shoulders.
+3773 | One in which 【the】 upper classes deprive 【the】 lower classes of affordable housing.
+3767 | 【The】 urgency of creating teacher education programs.
+3880 | To convince employees of 【the】 value of collaboration.
+3846 | Employers should think instead about 【the】 values and soft skills they want to emphasize in a remote work environment.
+4259 | Consider 【the】 various expectations of their customers.
+4068 | Classical music and opera are 【the】 very foundation of what our modern music is based upon.
+3752 | If 【the】 very rich — 【the】 workers who have reaped above-average gains
+4194 | There are cognitive ( -iA  {JI.;) benefits of doing things 【the】 way we did as children-building
+3721 | One in which 【the】 wealthy exploit 【the】 low-wage laborers building their houses.
+3771 | 【The】 WFP has been around since 1961 and has been 【the】 global coordinator of nationally based efforts to avoid disasters with food aid.
+4004 | What do we learn about 【the】 WFP’s effort to eliminate hunger?
+3955 | What does 【the】 WFP’s winning of 【the】 Nobel Peace Prize make us realize?
+3906 | throughout 【the】 whole of high school that would allow students to gradually expand their financial literacy, and would prevent
+3896 | This is why 【the】 work of 【the】 WFP is so vital.
+4204 | They have been successful in preparing 【the】 workforce for companies.
+4118 | Our understanding of 【the】 workings of 【the】 world.
+3754 | Why are persuasion skills greatly valued in 【the】 workplace?
+3878 | Some people view socializing at 【the】 workplace as a chance to develop personal relationships.
+4243 | More and more people in 【the】 workplace find it hard to rely on traditional pensions.
+3900 | It can do more harm to 【the】 workplace than to employees.
+4020 | It offers free online data services for refugees around 【the】 world.
+4164 | They are well received by movie fans from all over 【the】 world.
+3972 | More and more people in 【the】 world are suffering from starvation.
+3918 | As 【the】 world migrant crisis intensifies, employment is becoming a global concern.
+4090 | Help them become familiar with 【the】 world of money.
+4120 | Now, fifty percent of 【the】 world’s cocoa beans come from two countries in West Africa: Cote d’Ivoire and Ghana.
+4041 | Some of 【the】 world’s greatest hits have
+4172 | They are essential for movies to become 【the】 world’s greatest hits.
+4050 | Small children are not just learning how to walk and communicate, they are also trying to learn how 【the】 world works.
+3982 | Taking medicine at 【the】 wrong time can even cause harm.
+4160 | Just as height usually declines over 【the】 years,
+3994 | But over 【the】 years, things have changed a lot.

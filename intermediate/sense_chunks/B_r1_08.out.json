@@ -1,0 +1,97 @@
+{
+  "through": {
+    "senses": [
+      {"pos": "prep.", "zh": "通过，借助，凭借（方式、手段、途径）"},
+      {"pos": "prep.", "zh": "穿过，穿越；遍及（空间）"},
+      {"pos": "prep.", "zh": "在整个…期间；（从…）到…为止（时间、范围）"},
+      {"pos": "prep.", "zh": "经历，完成（某个过程或困难，如 persist through difficulties、be guided through the steps）"},
+      {"pos": "prep.", "zh": "由于，因为"},
+      {"pos": "adv.", "zh": "穿过，通过（不带宾语，如 pass through、let sb through）"},
+      {"pos": "adv.", "zh": "从头到尾，彻底（如 read sth through）"},
+      {"pos": "adv.", "zh": "（电话）接通；直达"}
+    ],
+    "labels": {"0": 1, "1": "P:comb through", "2": 0, "3": 1, "4": 0, "5": 0, "6": 7, "7": 0, "8": 1, "9": 1, "10": 0, "11": 0, "12": 0, "13": 2, "14": 1, "15": 1, "16": "P:go through", "17": 1, "18": 1, "19": 1, "20": "P:work through", "21": 1, "22": "P:pull through", "23": 1, "24": 1, "25": 0, "26": 0, "27": "P:go through", "28": 2, "29": 1, "30": "P:get through", "31": "P:read through", "32": 0, "33": "P:go through", "34": "P:go through", "35": 1, "36": 0, "37": 0, "38": 0, "39": "P:burn through", "40": 0, "41": 1, "42": 0, "43": "P:read through", "44": 1, "45": 0, "46": "P:read through", "47": 1, "48": "P:through rose-colored glasses", "49": "P:go through", "50": 0, "51": "P:get through to", "52": 0, "53": 0, "54": 1, "55": 0, "56": 1, "57": 0, "58": 2, "59": 0, "60": [0, 3], "61": 0, "62": 5, "63": 0, "64": 0, "65": 0, "66": 1, "67": 1, "68": "P:go through", "69": 0, "70": 0, "71": 0, "72": 0, "73": "P:think through", "74": 0, "75": 3, "76": 0, "77": 1, "78": 0, "79": 0},
+    "example": {"id": 32, "en": "I found the flat I’m living in now through him.", "zh": "我现在住的这套公寓是通过他找到的。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：方式/手段/媒介（含 through the lens of、through numberless eyes 这类「透过…视角」，以及 harm sb through competition）标 0；空间穿过/遍及（含卷面说明 a single line through the centre、spread through、pass through it、fell through the floorboards 字面掉下去）标 1；through the 1990s、through schooling、kindergarten through high school 标 2；persist through frustration、be guided through a series of questions 这类「经历/完成某过程」标 3；不带宾语的 passing through 标 5；电话 you're through to... 标 7。短语按 P：go through（经历；走完步骤）、get through（耗用；度过）、get through to（让…听进去）、read through / read sth through、think sth through、work through、pull through（挺过来）、comb through（仔细查找）、burn through（很快花光）、fall through（落空，非字面）、through rose-colored glasses（戴着有色眼镜看，过于乐观）。adv「从头到尾」(6) 基本都被短语吃掉；原 def 的「由于」(4) 这 80 句未见。"
+  },
+  "many": {
+    "senses": [
+      {"pos": "adj.", "zh": "许多的，很多的（后接可数名词复数）"},
+      {"pos": "pron.", "zh": "许多人，许多（事物）（单独使用，如 many of them）"}
+    ],
+    "labels": {"0": 1, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 1, "11": 0, "12": 1, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 1, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 1, "26": 0, "27": 0, "28": 1, "29": 0, "30": 0, "31": 0, "32": 0, "33": 0, "34": 1, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 1, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 1, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 1, "70": 0, "71": 0, "72": 0, "73": 0, "74": "P:as many as", "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 24, "en": "Many people have come to eat at the restaurant.", "zh": "很多人来过这家餐馆吃饭。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：many 后接名词的一律标 0，包括 how many（多少，与 how 任务口径一致，不算短语）、so many / too many、many other、many more people、as many books as possible；表语 The positives are many 也标 0。many of... / many of whom / many of us、Many 单独作主语（Many escaped...）、and many more（还有很多）标 1。as many as + 数字（多达）按 P:as many as；a great many（许多）、many a（许多个）按 P。"
+  },
+  "also": {
+    "senses": [
+      {"pos": "adv.", "zh": "也，还，同样"},
+      {"pos": "adv.", "zh": "此外，而且（放在句首，补充新的一点）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": "P:not only...but also", "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 1, "18": 0, "19": 0, "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0, "30": "P:not only...but also", "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0, "70": 0, "71": 1, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": "P:not only...but also"},
+    "example": {"id": 63, "en": "Left-handed fighters also had higher chances to win.", "zh": "左撇子拳手获胜的几率也更高。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：句中的 also（含 also known as 又称、can also、There's also...）一律标 0；只有句首独立的 Also,（此外）标 1。not only...but also 及其变体 not just...but also（不但…而且）都写成 P:not only...but also；aren't just..., they also... 这种没有 but 的并列不算短语，标 0。"
+  },
+  "most": {
+    "senses": [
+      {"pos": "adv.", "zh": "最（构成形容词、副词的最高级，如 the most important）"},
+      {"pos": "adj.", "zh": "大多数的，大部分的（后接名词）"},
+      {"pos": "pron.", "zh": "大多数，大部分（如 most of them）"},
+      {"pos": "adv.", "zh": "最，最大程度地（修饰动词，如 like sth most）"},
+      {"pos": "adj.", "zh": "最多的（the most + 名词，如 win the most votes）"},
+      {"pos": "adv.", "zh": "非常，极其（如 a most interesting book）"}
+    ],
+    "labels": {"0": 1, "1": 0, "2": 2, "3": 0, "4": 0, "5": 0, "6": 2, "7": 1, "8": 0, "9": 2, "10": 0, "11": 0, "12": 2, "13": 0, "14": 0, "15": 0, "16": 0, "17": 3, "18": 0, "19": 3, "20": 0, "21": 1, "22": 0, "23": 3, "24": 2, "25": 1, "26": 1, "27": 0, "28": 3, "29": "P:most likely", "30": 2, "31": 2, "32": 3, "33": 0, "34": 2, "35": 1, "36": 0, "37": 1, "38": 1, "39": 2, "40": 1, "41": 0, "42": 1, "43": 0, "44": 2, "45": 0, "46": 0, "47": 1, "48": 1, "49": 0, "50": 0, "51": 1, "52": 0, "53": 1, "54": 1, "55": 2, "56": 1, "57": 0, "58": 0, "59": 0, "60": 0, "61": 1, "62": 1, "63": 3, "64": 1, "65": 1, "66": 3, "67": 1, "68": 2, "69": 0, "70": 2, "71": 0, "72": [2, 0], "73": 1, "74": 0, "75": 1, "76": 1, "77": 0, "78": 2, "79": 2},
+    "example": {"id": 5, "en": "Tackle the most difficult task first.", "zh": "先处理最难的任务。"},
+    "form": "many / much 的最高级",
+    "irregular": true,
+    "note": "C 任务口径：the most / most + 形容词或副词（含不带 the 的 most damaging、were most respected、most importantly 最重要的是、the most innovative idea）标 0；most + 名词（most people、most nights、as most busy people do）标 1；most of...（含 most of the time 大多数时候）及单独作代词（fees, most between $40 and $100）标 2；动词后的 most（like / value / care / trust most、impressed them most）标 3；the most + 名词表「最多的」（the most votes、the most time）标 4；a most + 形容词（非常）标 5。most likely（很可能）、at most / at the most（至多）、make the most of（充分利用）按 P。form 按「many / much 的最高级」写、irregular 写 true，但真题里绝大多数是独立用法（最高级标记、大多数），请复核是否改成 null / false。"
+  },
+  "other": {
+    "senses": [
+      {"pos": "adj.", "zh": "其他的，别的，另外的"},
+      {"pos": "adj.", "zh": "（the other）另一个的；其余的（两者中的另一方，或剩下的全部）"},
+      {"pos": "pron.", "zh": "另一个人（或物）；（the other / others）其余的人或物，他人"}
+    ],
+    "labels": {"0": "P:each other", "1": 0, "2": 0, "3": 0, "4": "P:in other words", "5": 0, "6": 2, "7": 0, "8": 0, "9": 0, "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": "P:other than", "16": 0, "17": 0, "18": "P:in other words", "19": 0, "20": 0, "21": "P:each other", "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": "P:each other", "30": 0, "31": "P:each other", "32": 2, "33": "P:in other words", "34": 0, "35": 2, "36": 0, "37": 0, "38": 1, "39": 0, "40": 0, "41": 0, "42": 0, "43": 0, "44": 1, "45": 0, "46": 0, "47": 0, "48": 0, "49": 0, "50": 0, "51": 0, "52": 0, "53": 1, "54": "P:each other", "55": 0, "56": 0, "57": 0, "58": 0, "59": 0, "60": 0, "61": 0, "62": 0, "63": 0, "64": "P:each other", "65": 0, "66": 0, "67": 0, "68": 0, "69": 1, "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": "P:each other", "78": 0, "79": 1},
+    "example": {"id": 40, "en": "It is completely different from other outdoor games.", "zh": "它和其他户外游戏完全不同。"},
+    "form": null,
+    "irregular": false,
+    "note": "C 任务口径：other + 名词（含 some / any / many / few other、other people、Other tourists、Some other fellow 另一个家伙）标 0；the other + 名词（the other side、the other party、the other respondents 其余受访者、The other main theory）以及 their \"other\" name 标 1；单独作代词（one... the other、the other 90 cents、a current other 他人、others）标 2。each other（互相）、in other words（换句话说）、other than（除了）、on the other hand（另一方面）、the other day（前几天）、every other（每隔一个）、one after the other（一个接一个）、among other things 按 P。"
+  },
+  "up": {
+    "senses": [
+      {"pos": "adv.", "zh": "向上，往上（方向，如 stand up、look up、up and down stairs）"},
+      {"pos": "adv.", "zh": "（数量、程度）上升，增长（如 Prices are up.）"},
+      {"pos": "prep.", "zh": "沿…往上；沿着（如 climb up the hill、walk up the road）"},
+      {"pos": "adv.", "zh": "完全，彻底（如 eat up、use up）"},
+      {"pos": "adv.", "zh": "起床；醒着（如 Are you up?）"},
+      {"pos": "adj.", "zh": "（时间）到了，结束（如 Time's up.）"}
+    ],
+    "labels": {"0": "P:break up", "1": 0, "2": "P:end up", "3": "P:end up", "4": "P:pick up", "5": "P:mix up", "6": "P:make up", "7": "P:make up", "8": "P:up to", "9": "P:wake up", "10": "P:grow up", "11": "P:wake up", "12": "P:turn up", "13": "P:go up", "14": "P:up to", "15": "P:sign up", "16": "P:put up for sale", "17": "P:turn up", "18": "P:turn up", "19": "P:be up to", "20": "P:set up", "21": "P:speed up", "22": "P:stay up", "23": "P:grow up", "24": "P:bring up", "25": "P:dress up", "26": "P:be made up of", "27": "P:give up", "28": 0, "29": 0, "30": "P:be up for", "31": "P:ease up", "32": "P:speed up", "33": "P:end up", "34": "P:cover up", "35": "P:cover up", "36": "P:make up", "37": "P:save up", "38": "P:grow up", "39": "P:be up to", "40": 1, "41": "P:soak up", "42": "P:up to", "43": "P:up to", "44": "P:make up for", "45": "P:take up", "46": "P:come up with", "47": "P:sign up", "48": "P:curl up", "49": "P:go up", "50": "P:up to", "51": "P:make up", "52": "P:set up", "53": "P:swell up", "54": "P:catch up", "55": "P:make up for", "56": "P:follow up", "57": "P:cover up", "58": "P:open up", "59": "P:grow up", "60": "P:speak up", "61": "P:turn up", "62": "P:come up against", "63": "P:build up", "64": "P:sign up", "65": "P:set up", "66": "P:drum up", "67": "P:stand up for", "68": "P:grow up", "69": "P:load up", "70": "P:grow up", "71": "P:grow up", "72": "P:set up", "73": "P:dress up", "74": "P:show up", "75": "P:clean up", "76": "P:clean up", "77": "P:speed up", "78": 0, "79": "P:hold up"},
+    "example": {"id": 29, "en": "He has much difficulty getting up and down stairs.", "zh": "他上下楼梯非常吃力。"},
+    "form": null,
+    "irregular": false,
+    "note": "这 80 句里 up 绝大多数在短语动词里，按 PROMPT 的短语动词规则全部标 P。C 任务口径：只有字面「向上、往上」的方向（stand up、look up、getting up and down stairs、picking up trash 捡起垃圾、rooting up grasses 把草拱出来）才标 0；表语 is up / are up（上涨）标 1；up the hill / up the road 介词用法标 2；义项 3–5 列出备查，实际几乎都被短语吃掉（eat up、get up 起床、stay up 都按 P）。up to + 数字（多达，含 up to 80% faster、fines of up to $10,000）按 P:up to；It's up to sb（由…决定）和 be not up to sth（不能胜任）都按 P:be up to；be up for（乐意参加）按 P:be up for；go up（上涨）、turn up（出现）、pick up a parcel（取件）、make up（构成；补上；编造）、be made up of、make up for、give up for adoption（送养）记作 P:give up。拿不准：picking up trash 按字面「捡起」标 0，与 picking up a parcel 的 P:pick up 区分开。"
+  },
+  "been": {
+    "senses": [
+      {"pos": "aux.", "zh": "（have been + 过去分词）构成完成时的被动语态：已被…"},
+      {"pos": "v.", "zh": "是；处于（某种状态）（have been + 名词 / 形容词 / 介词短语）"},
+      {"pos": "aux.", "zh": "（have been + 动词-ing）构成完成进行时：一直在…"},
+      {"pos": "v.", "zh": "存在，有（there has / have been）"},
+      {"pos": "v.", "zh": "去过，到过（have been to）"}
+    ],
+    "labels": {"0": 1, "1": 2, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 1, "9": 1, "10": 1, "11": 0, "12": 1, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 2, "19": 1, "20": 0, "21": 0, "22": 1, "23": 0, "24": 2, "25": 2, "26": 1, "27": 3, "28": 1, "29": 0, "30": 0, "31": 1, "32": 0, "33": 0, "34": 3, "35": 2, "36": 1, "37": 0, "38": 0, "39": 2, "40": 1, "41": 0, "42": 1, "43": 2, "44": 2, "45": 0, "46": 0, "47": 2, "48": 3, "49": 0, "50": 0, "51": 0, "52": 0, "53": 1, "54": 0, "55": 0, "56": 0, "57": 4, "58": [0, 1], "59": 2, "60": 0, "61": 1, "62": 3, "63": 0, "64": 0, "65": 2, "66": 2, "67": 2, "68": 0, "69": 0, "70": 2, "71": 2, "72": 2, "73": 2, "74": 1, "75": 1, "76": 3, "77": 1, "78": 2, "79": 0},
+    "example": {"id": 30, "en": "Most scenic sites have been closed.", "zh": "大多数景区已经关闭了。"},
+    "form": "be 的过去分词",
+    "irregular": true,
+    "note": "原 def 只写了「是；存在」，助动词用法（被动、完成进行时）是补的，实际占大头。C 任务口径：have/has/had been + 过去分词（含 may have been created、have long been associated、been confused by、been laid off）标 0；been + 名词 / 形容词 / 介词短语（been successful、been best friends、been on the decline、been due to、been mixed、been interested in、been involved in、been able to、It's been five days 已经过了五天）标 1；been + -ing 标 2；there has / have been 标 3；have been to / Have you ever been to（去过）标 4。"
+  }
+}

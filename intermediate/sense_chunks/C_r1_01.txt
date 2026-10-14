@@ -1,0 +1,612 @@
+# 任务 C_r1_01：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_01.labels.txt
+
+============================================================
+## 词：the    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.这; 那. adv.更; 越发.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 这，那（特指）    B 样本 80    例：See the Pope.
+  1  adv. 越……越……（the more…the more…）    B 样本 0
+  2  adv. （与比较级连用）更加，越发（all the better）    B 样本 0
+口径说明（照此执行）：
+  - 专有名词里的 the（The World Pipe Band Championships、the Corn Kid）仍按 art. 标 0；the+比较级……the+比较级 标 1；all the better/more 一类标 2。
+句子：
+931 | He says: “When we practice something, we are involved in 【the】
+921 | Computers have vastly increased 【the】 ability of students to gather information, sample different points of view and write more fluidly.
+835 | Having 【the】 ability to forget things selectively.
+939 | 【The】 ability to learn.
+725 | In 【the】 absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that are worn only a few times and then discarded.
+1073 | 【The】 academic and learning issues struggling students encounter.
+1075 | It renders 【the】 acquaintance a stranger.
+1127 | It brings 【the】 acquaintance closer to us.
+1248 | modifications to 【the】 adaptive cruise control that many new cars already have.
+1267 | Following 【the】 advice of experts.
+684 | 【The】 after-sales service.
+839 | Then we’ll have 【the】 afternoon to prepare food and drink, and stuff like that.
+1201 | past 【the】 age of 45, there’s nearly a two in three chance you’ll be out of work for over a year, they find.
+794 | However, 【the】 aircraft made an emergency landing in Magan after it began losing some of its valuable cargo.
+846 | Reports suggest some bars of gold were scattered up to 15 miles away from 【the】 airport.
+912 | Reduce 【the】 amount of plastic pollution in local areas.
+1133 | M: [10] We also give our kids pocket money, and 【the】 amount they get is linked to chores, such as putting 【the】 bins out and emptying 【the】 dishwasher.
+836 | They were told to observe and, if possible, photograph 【the】 animal.
+888 | It was recommended not to make contact with 【the】 animal.
+1071 | M: 【The】 answer may lie in childhood, 【the】 way 【the】 person related to their mom and dad.
+774 | 【The】 army officers heard a noise coming from 【the】 well and realized an elephant was trapped deep inside. [6] 【The】 officers then threw in some food for 【the】 creature and called 【the】 local forest department for help.
+1275 | What is 【the】 arrangement for that?
+1027 | W: Tom, did you see 【the】 article online about 【the】 new TV series based on 【the】 book *【The】 Three Body Problem*?    ?X
+1225 | And all 【the】 artificial blue light from electronic devices means we have to try harder to sleep well.
+859 | Firstly, 【the】 association cited changing diets, (6) in particular 【the】 switch to those low in calories, as a factor in 【the】 reduction of bread consumption.
+807 | 【The】 association is concerned about 【the】 effects this trend will have on their trade, and suggests three reasons why it is happening.
+1022 | W: Our guest on today’s Book Talk is John Black, 【the】 author of 【the】 new bestseller, Retire Early.
+802 | 【The】 babies’ mother commented that they had already prepared room for five babies at home, so they will have to rearrange things for their happy surprise.
+688 | Officials describe 【the】 baby elephant as “healthy, standing and nursing”.
+740 | 【The】 baby hasn’t been given a name yet.
+754 | Go to 【the】 baggage claim area.
+1190 | W: But what prevents you from just going to 【the】 bank and getting more money, if you want to buy something?
+1262 | Maybe 【the】 bank canceled my old one before you’ve made 【the】 payment.
+1256 | before making your choices. &eh choice in 【the】 bank is identified by a letter.
+1138 | M: I go to 【the】 bank once a week, and 【the】 rest of 【the】 time I keep my bank card at home, so I can’t get more cash out.
+930 | M: I need to stop at 【the】 bank to withdraw some cash.
+968 | "【The】 basic requirement for hanging out here is you have to learn how to lion dance," Mr.
+1169 | G) In a research paper, Evil Genius, published in 2014, 【the】 behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+986 | Weigh 【the】 benefits against 【the】 disadvantages.
+818 | After you hear a question, you must choose 【the】 best answer
+1048 | must choose 【the】 best answer from 【the】 four choices marked A ) , B ) , C ) and D ) .
+1157 | Provide their pets with 【the】 best care.
+1209 | Running is 【the】 best exercise for extending one’s life.
+1191 | You can research 【the】 best instructions on weight lifting technique, but 【the】 only way to build strength is to practice lifting
+1232 | It’s supposed to be one of 【the】 best Italian’s in town.
+695 | It is 【the】 best kind of hard cheese.
+1004 | Choosing 【the】 best time for signing a business contract.
+815 | To find 【the】 best trip for his kids.
+1233 | M) So what’s 【the】 best way to cope?
+1243 | You can learn about 【the】 best way to make a sales pitch, but 【the】 only way
+1029 | M: What’s 【the】 best way to teach children how to save and spend their money?
+1199 | They actually wanted a clear vision of 【the】 blackboard.
+915 | 【The】 board has messages of kindness like, “If you want more kindness in 【the】 world, put it here.
+863 | 【The】 board of free meals inside 【the】 restaurant shows a host of potential meals already paid for by customers, each costing about $10.
+1131 | W: Well, sounds like if you’re going to read anything for fun, this is 【the】 book.
+1079 | M: [8] A colleague mentioned 【the】 book, but I’ve been so busy writing my thesis that I haven’t been able to read for pleasure in months.
+1235 | M: It does sound like it would suit my taste, but if they are making a TV series based on it now, I don’t know if I should read 【the】 book or watch 【the】 show first.
+1078 | Get an e-Copy of 【the】 book to read.
+1185 | After birthdays and Christmas, they would go to 【the】 branch and deposit their gift money.
+1179 | It causes 【the】 bubble around us to vanish.
+1081 | M: In our family, we talk openly about things like 【the】 budget for holidays, how taxes reduce your income, and how to shop around for 【the】 best deals.
+937 | It could be rewrapped and sold by 【the】 budget supermarket.
+889 | Those over 45 make up 【the】 bulk of 【the】 long-term
+1097 | “Older midcareer workers...make up 【the】 bulk of 【the】 long-term unemployed in many countries,” Generation’s analysts write
+1012 | 【The】 bundles are usually left in plain sight and have been scattered across 【the】 small coastal village.
+882 | Studied on 【the】 bus.
+1203 | In fact, I think his family owns 【the】 business.
+735 | 【The】 café doesn’t use volunteers, but pays its staff to ensure consistency in its service.
+683 | 【The】 café is open in 【the】 mornings every day of 【the】 year and has two members of staff or supervisors on shift every day.
+994 | They will come to 【the】 cafe even more frequently.
+841 | “Sometimes a cat will walk on a phone and cut off 【the】 call, or they shut down 【the】 computers by walking onto 【the】 off switch.
+710 | W: Hello Benjamin, Dan and I will be going for a run along 【the】 canal Saturday morning.
+1034 | Then, when I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to 【the】 canteen, where I could get a healthier meal for half 【the】 price.
+756 | 【The】 capacity to mass produce it.
+884 | when a car in dense traffic slows down even slightly, which causes 【the】 car behind that vehicle to slow even more — and
+1196 | between 【the】 car in front and 【the】 car behind.
+1148 | He says 【the】 car is 【the】 best thing that has ever happened to him, and [11] if she sells it, he will divorce her.
+1057 | She stands accused of leaving a minor in danger in 【the】 care of 【the】 elderly.
+988 | 【the】 cars far behind are forced to stop completely or risk hitting 【the】 slower vehicles ahead — and so 【the】 traffic grinds to a
+734 | It is bringing 【the】 case to 【the】 local district court.
+728 | But now, new research has found 【the】 cause
+974 | through 【the】 centre.
+1158 | And according to our records, 【the】 chair you returned was received by our warehouse on Friday morning.
+825 | 【The】 chances of getting an athletic scholarship later on.
+851 | Have a taste of both of 【the】 cheeses.
+763 | He prefers to stay next door to 【the】 children.
+1274 | They took all of them to 【the】 children’s hospital.
+1222 | They asked 【the】 children’s hospital to pick them.
+834 | 【The】 chocolate company has been to court before to protect its popular chocolate treat.
+951 | One reason is that going to 【the】 cinema is generally a social activity.
+1168 | Policeman John Forster said in a statement: “【The】 circumstances remain a mystery so we would welcome any information that will help us get to 【the】 bottom of these random incidents.    ?P:get to the bottom of
+1151 | I’d also like it to be small, so that it’s easy to drive in 【the】 city.
+726 | Moving to 【the】 city center.
+1188 | M: I’m going to 【the】 city centre to buy a new phone today.
+1043 | Where they sit in 【the】 classroom.
+1252 | M: Yeah, 【the】 classrooms would probably smell like paint, making 【the】 air in 【the】 school all stuffy.
+890 | It is open round 【the】 clock.
+715 | Tests show that 【the】 clone and her mother are almost identical genetically.
+819 | [6] If 【the】 clone continues to perform as well as expected, it could mean a huge reduction in 【the】 training time for police dogs, which usually takes about five years.
+916 | But 【the】 club also acts as a recreation center and safe haven for teenagers, with video games readily available.
+782 | 【The】 color of 【the】 wrapper is similar as are 【the】 illustrations of 【the】 features.
+1202 | Travel plans for 【the】 coming weekend.
+1058 | Action Fraud says people should ensure 【the】 company renting 【the】 villa is a member of a recognized trade body such as ABTA.
+741 | For 【the】 company’s records.
+793 | To follow 【the】 company’s rule.
+949 | Make a specific note on 【the】 company’s system.
+1001 | Update her bank card details on 【the】 company’s website.
+1053 | Upload her personal information to 【the】 company’s website.
+904 | 【The】 company that owns and operates 【the】 service is called Thumby Aviation.
+738 | In 【the】 competitive game of
+848 | They have not quite grasped 【the】 concept of diversity.
+987 | But its owner assured 【the】 concerned customers it was very much loved and fed at home.
+873 | And she’s aware of 【the】 concerns.
+984 | Consider 【the】 consequences.
+1098 | Both 【the】 conversation and 【the】 questions will be spoken only once.
+1150 | Questions 8 to 11 are based on 【the】 conversation you have just heard.
+922 | Then mark 【the】 corresponding letter on Answer Sheet 1 with a single line
+1132 | Then mark 【the】 corresponding letter on Answer Sheet 1 with a single line through
+1240 | But now that you mention it, I do think getting another phone so soon is wasteful, regardless of 【the】 cost.
+1008 | What about 【the】 cost, not only buying all those tablets, but 【the】 software and electronic infrastructure that goes with it, not to mention retraining all 【the】 teachers and administration staff?
+947 | Calculate 【the】 cost of 【the】 paint job.
+813 | By following 【the】 counsel of financial planners.
+929 | It is less popular than indoor sports in 【the】 country.
+885 | Defend itself in 【the】 country's commercial court.
+971 | They still existed six months after 【the】 course ended.
+847 | Large surveys conducted over 【the】 course of many years tell us that American youth are not going to 【the】 cinema nearly as often as they did in 【the】 past.
+1023 | They varied greatly among 【the】 course participants.
+1119 | We’d like to avoid 【the】 crowds if possible.
+959 | Fit most of 【the】 cupboards into walls.
+720 | This represents 47 fewer students than 【the】 current year. [4] Fewer students mean less federal and state funding.
+1257 | If anything is really wrong, you can just take photographs of 【the】 damage, and they will give you 【the】 money back or replace 【the】 item.
+1049 | Nothing serious, mind you, but he damaged someone’s car and wanted to get some money together to make up for 【the】 damage he’d caused.
+1152 | They are unaware of 【the】 damage their behavior is doing to them.
+840 | 【The】 damage to 【the】 packaging.
+708 | 【The】 dance group, made up of 60 members, performs throughout 【the】 year but was now preparing for its biggest events, Chinese Lunar New Year celebrations, which will begin on Saturday and conclude on February 15.
+812 | About 100 current and past members of 【the】 dance group—which has been performing since 1956—will be among 【the】 220 groups marching through Chinatown in Manhattan for 【the】 18th Lunar New Year Parade on February 5.
+1077 | Some of 【the】 dangers are emotional: hurting someone from a distance is not 【the】 same as hurting them face to face.    ?P:the same as
+1069 | In fact, we need blue light during 【the】 day to be healthy.
+1186 | Another said 【the】 decision would “ruin
+716 | 【The】 delight in seeing their savings grow.
+1139 | Here are some additional ways to think about 【the】 difference.
+956 | What’s 【the】 difference between a soft cheese and a hard cheese?
+1087 | are key, because they define 【the】 difference between actively practicing something and passively learning it.
+775 | It all comes down to 【the】 difference between learning and practicing.
+1092 | 【the】 difference between 【the】 cars in front and 【the】 cars behind, 【the】 spacing of cars in a stream of traffic can act as a damper
+911 | This could explain why 【the】 difference in consumption between genders is so big.
+784 | [5] Security officers were searching a suburb in Australia where an adult snake was believed to be wandering after 【the】 discovery of a huge, freshly shed snakeskin. [6] 【The】 skin was found at a construction site, and 【the】 government wrote to residents to warn them.
+1170 | By helping her mother do 【the】 dishes.
+830 | 【The】 distance to her home.
+712 | There was one time when 【the】 doctor’s receptionist came back and he was sitting on her chair.
+1072 | "We're a big family," he said, shaking hands with other members as they walked through 【the】 door.
+1247 | Three of my friends from 【the】 dormitory would share 【the】 place with me.
+967 | 【The】 drive has been going on for two weeks and Morris said just under 50 customers have picked up a free meal.
+977 | And never assume 【the】 driver is going to stop or see you.
+1255 | In 【the】 early times, pigs were allowed to wander freely in search of food.
+681 | 【the】 Earth Day mission year-round.
+785 | 【The】 Earth Day Network ___35___ this mission
+1164 | A lot of minerals are extracted from 【the】 earth to make electronic readers.
+1261 | Running is 【the】 easiest form of exercise for most people.
+1177 | 【The】 effect of interacting with therapy dogs on students under pressure.
+686 | That allows researchers to measure only 【the】 effects
+1265 | But though she was suffering from 【the】 effects of extreme cold, 【the】 child reportedly suffered no life-threatening effects.
+1153 | I mean, how do you know that you won’t get bad fruit, or that 【the】 eggs won’t be broken?
+821 | [7] City Council Member Anna Cumber was instrumental in introducing 【the】 electric bikes to Jacksonville as a way to bring new life into downtown.
+844 | She said 【the】 elephant’s birth went smoothly and that there were no complications.
+722 | 【The】 elephant wandered out of 【the】 jungle and fell into 【the】 well.
+878 | It was then taken to an examining room for evaluation of any injuries. [7] 【The】 elephant was kept under close supervision for a few days before it was successfully released back into 【the】 wild.
+687 | At 【the】 end of each conversation, you will hear four questions.
+1046 | At 【the】 end of each conversation, you will
+944 | At 【the】 end of each passage, you will hear three or
+1273 | Participants were asked to self-report how well they did at 【the】 end of 【the】 study: 59% cheated by saying that they solved more matrixes than they actually had.
+753 | They would run around looking for clues and at 【the】 end unmask 【the】 bad guy.
+1140 | To protect 【the】 endangered animals.
+981 | It does a lot of harm to 【the】 environment
+1111 | It does a lot of damage to 【the】 environment.
+1216 | It does far more damage to 【the】 environment.
+881 | Manufacturers, consumers, and regulatory bodies can then take an informed approach to recognize 【the】 environmental impact of fast-fashion and to design an ecosystem to reduce waste, incentivize innovation, and create new business models to manage waste.
+829 | [7] In order to devise effective policies to curb 【the】 environmental impact of 【the】 clothing industry, it is important to identify 【the】 source of 【the】 problem in 【the】 supply chain.
+680 | He felt so disappointed in 【the】 establishment.
+1181 | Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and 【the】 EU has considered similar legislation.
+978 | students with electronic tablets loaded with assignments to complete in 【the】 event of a school closure.    ?P:in the event of
+992 | W: I’m not sure of 【the】 exact figure, but it’s a few million Euros, maybe five million Euros after tax.
+1163 | It accelerates 【the】 exhaustion of rare minerals.
+1195 | I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself in an apartment so far from home. [9] And then there’s 【the】 expense, too.
+1250 | M: [13] Well, 【the】 expert on 【the】 show did cite research supporting her recommendations.
+1146 | I was surprised that 【the】 expert recommended not eating for 【the】 entire journey and avoiding sleeping on 【the】 plane.
+778 | 【The】 facilities available.
+1024 | M: That’s true. [9] Remember that’s where we saw Brigette Clark, 【the】 famous movie star.
+801 | She prefers to have 【the】 fee added to her monthly bill.
+1122 | "This makes Morocco a big ___31___ in 【the】 field of solar energy in 【the】 Arab region and 【the】 African continent.
+685 | (5-2) Hidenobu Fukuda, who heads 【the】 firm, introduced 【the】 pet policy, upon request from one of his employees, allowing staff to bring their own cats to work.
+1200 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in 【the】 first class of a brand new school.
+991 | 【The】 first day of school.
+1242 | M: 【The】 first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more than what I had budgeted, and by now it’s just a habit.
+923 | This is not 【the】 first time a clone has been made of a star police dog.
+832 | Horn said phantom traffic jams are an emergent property of 【the】 flow of vehicles down a highway.
+1205 | 【The】 food is exactly 【the】 same as 【the】 stuff you buy in a conventional shop.    ?P:the same as
+1161 | Russian reports on social media suggest 【the】 forest may have been as cold as negative 34 degrees Celsius.
+1215 | It contributes to 【the】 formation of personal traits.
+1214 | H) Nick Cooper, 【the】 founder and co-owner of villa booking company Villa Plus, estimates his company has uncovered more than 200 fake villa websites over 【the】 past two years, and doesn’t believe enough is being done.
+870 | from 【the】 four choices marked A), B), C) and D).
+1080 | 【the】 four choices marked A), B), C) and D).
+1002 | Before we continue, I just want to make you aware that this call is being recorded and may be used in 【the】 future for training purposes.
+723 | where you are now and where you want to be in 【the】 future is caused by a lack of knowledge.
+729 | Athletes with special needs triumph in 【the】 Game.
+701 | Arriving in their “Mystery Machine”, 【the】 gang would have to find a monster who was terrorizing a neighborhood.
+989 | To be fair to 【the】 German supermarkets.
+1005 | As a result, 【the】 girl’s mother is facing a criminal case.
+1253 | “People age 45+ face persistent and rising pressure in 【the】 global
+1197 | 【The】 gloomy environments animals are kept in.
+796 | Observing 【the】 golden rule is 【the】 first step to becoming a responsible citizen.
+744 | Failure to follow 【the】 golden rule may lead to violation of laws and ethics.
+692 | 【The】 golden rule must sometimes give way to more important principles.
+874 | Snow days are a familiar theme in American film and TV shows, with children getting 【the】 good news and then running
+1013 | E) Perhaps this is where we can find 【the】 good side of our bad side.
+760 | Teenagers comprise about half of 【the】 group, many of whom began lion dancing at 【the】 age of 14.
+1041 | To boost 【the】 growth of 【the】 chocolate industry
+709 | He spends most of his time in 【the】 gym.
+970 | He goes to 【the】 gym most days, plus tennis two or three times a week.
+697 | She missed out on 【the】 gym’s general discount.
+1093 | Return 【the】 handbook to him.
+1208 | Three days later, 【the】 happy wife called to claim 【the】 ring.
+905 | Reserve a meeting room in 【the】 head office.
+1112 | 【The】 health impacts from making one electronic reader are 70 times greater than those from making a single printed book.
+852 | 【The】 helicopters ferried around eight customers to 【the】 airport on their first day.
+1147 | They obtained 【the】 highest grade average in their class.
+1056 | It has reached 【the】 highest level of evolution.
+752 | That’s a month earlier than normal and something that’s happened only once before in 【the】 historical record in 2016.
+954 | He also suggests asking someone not going on 【the】 holiday to have a look at 【the】 website.
+698 | They needed to stay in 【the】 hospital for two to three months for medical supervision.
+957 | Send him a map of 【the】 hotel area.
+804 | That means that not only is 【the】 ice melting very fast, it has more time to melt this summer than it would in a normal climate system.
+759 | 【The】 idea for 【the】 board of free meals started after a donor came in with $100 for each member of its staff.
+942 | They will realise 【the】 importance of communication.
+1060 | M: Sure, 【the】 initial expenditure will be high, but much lower afterwards.
+1212 | Teeth have three layers, only one of which—【the】 innermost layer of 【the】 tooth—can hurt, as that layer of 【the】 tooth _33_ both blood vessels and nerves.
+1251 | They may receive extra attention from 【the】 instructor.
+1095 | They often received close attention from 【the】 instructors.
+983 | deliberate repetition of a process with 【the】 intention of reaching a specific goal.
+803 | Painting 【the】 interior of their cupboards.
+965 | Goto, however, has accepted 【the】 International Olympic Committee’s offer of a replacement, according to Japanese media reports.
+1180 | M: No, I haven’t, but I’ve noticed that it has great reviews on 【the】 Internet.
+1066 | Learn to use 【the】 internet for research.
+1266 | “It is hopeless to report fake villa websites to 【the】 internet giants who host them,” he says.
+973 | But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not 【the】 internet, that struck a blow at that culture in 【the】 1980s.
+1218 | 【The】 island is less than two miles long and half a mile wide.
+906 | 【The】 island is often described as heaven on earth by holidaymakers.
+1062 | When 【the】 island was put up for sale, it was offered to 【the】 local government but proved too expensive for 【the】 local authorities.
+867 | Take some photos of 【the】 islands.
+1162 | ABTA says it is trying to combat 【the】 issue by running public awareness campaigns.
+693 | One is a landscape painted by 【the】 Italian artist Pietro Bellotti dating to 1665.
+1246 | By making it part of 【the】 job.
+737 | Not only does Fukuda encourage bringing cats to 【the】 job, but he also encourages his employees to rescue cats from overpopulated shelters or streets.
+1044 | You see, she was planning to quit 【the】 job she hates and retire early.
+1165 | Researchers, writing in 【the】 journal Heart, pooled data from 23 studies and found that social isolation or feelings of loneliness were tied to an increased risk of coronary heart disease (冠心病) and strokes.
+953 | She made 【the】 journey through a remote region in Siberia after waking up to find her grandmother motionless.
+1109 | 【The】 journey took place in February when temperatures average negative 26 degrees Celsius.
+1213 | 【The】 journey was only recently confirmed by authorities.
+892 | It increases 【the】 joy of shopping.
+879 | explains 【the】 key difference between practicing and learning.
+1134 | “When it snows, let 【the】 kids enjoy it.” said one commenter.
+1187 | Dogs pay much attention to 【the】 kids they live with.
+1244 | It was 【the】 kingdom’s best-equipped zoo.
+1118 | By cleaning 【the】 kitchen floor.
+862 | Morocco is responding to increasing energy demands by setting up one of 【the】 largest solar plants in 【the】 world.
+817 | While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in 【the】 last 12 months.
+960 | 【The】 latest discovery was on Monday, meaning four of these cash bundles have been handed in this year and 13 since 2014.
+1110 | G) “By working with industry partners such as ABTA and Get Safe Online, we are able to issue alerts about 【the】 latest threats they should be aware of.
+1113 | 【The】 left side of their brain is more powerful than its right side.
+1129 | If we’re lucky, 【the】 legal environment will change to make teenagers’ online lives less likely to haunt them later on.
+1108 | It has to be carried out to 【the】 letter.    ?P:to the letter
+1241 | By taking children to 【the】 library to borrow books on animals.
+790 | suggests that narrow winners become even bigger winners down 【the】 line.    ?P:down the line
+1258 | down 【the】 line.    ?P:down the line
+1124 | E) It is believed that 【the】 lion dance began in 【the】 third century.
+791 | Climate change has little effect on 【the】 lives of wild ducks.
+927 | Joint efforts to improve 【the】 local community.
+985 | W: Well, I think 【the】 local government could help improve things.
+920 | Sarah Godfrey, who is organizing Wilbur’s party, told 【the】 local newspaper, “Wilbur is part of our lives, as he is for everyone who lives in 【the】 village.
+838 | Provide free meals to 【the】 local poor.
+1149 | Those over 45 comprise over 40% of 【the】 long-term unemployed, for example.
+1206 | E) This is bad news for 【the】 losers.
+1211 | Perhaps not accidentally, in 2016 reading scores were 【the】 lowest they have ever been since 1972.
+1020 | While that is not a formal requirement for being a member, everyone finds a way to participate in 【the】 Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.
+1038 | Interviewing 【the】 man.
+771 | How 【the】 man could possibly afford a new phone.
+719 | How 【the】 man got into 【the】 habit of being wasteful.    ?P:get into the habit of
+823 | Why 【the】 man is so fond of using his credit card.
+799 | Buy what 【the】 man recommended.
+828 | 【The】 man’s covering up of what happened.
+776 | 【The】 man’s deep sympathy for Johnny.
+932 | 【The】 man’s good memory of his childhood.
+880 | 【The】 man’s use of 【the】 expression ‘fixed’.
+955 | Ask 【the】 man to cut 【the】 cheese into slices.
+1090 | Helping 【the】 man with his shopping.
+976 | 【The】 man's academic background.
+924 | 【The】 man's attempts at drawing public attention.
+872 | 【The】 man's ideas about education.
+1028 | 【The】 man's proposals to solve economic problems.
+1100 | They need extra help to catch up in 【the】 math class.
+934 | Discuss 【the】 matter with 【the】 woman’s mother.
+913 | 【The】 mayor said 【the】 medal was undamaged, though he offered to pay for 【the】 cost of a new one.
+948 | During 【the】 meal, 【the】 man’s wedding ring slipped off his finger.
+757 | He asked her to put 【the】 medal around his neck.
+700 | But this year, 【the】 melting season began in early May.
+1226 | Experts believe that 【the】 Middle East and North Africa have huge ___33___ for solar energy projects.
+824 | Another person was woken up in 【the】 middle of 【the】 night by what he thought was early construction work starting.
+696 | India launched its helicopter taxi service on Monday, promising to ferry customers 【the】 40 miles between Bangalore’s Electronic City tech hub and 【the】 International Airport terminal in 15 minutes.
+1061 | They are in 【the】 minority among 【the】 population.
+1096 | Basically, she miscalculated how fast she was burning through 【the】 money, and she’s now full of regret.
+1116 | A Durham Police spokesperson said 【the】 money has been returned to 【the】 lucky finders in all cases except yesterday.
+1054 | It says on your website that your company will pay back 【the】 money within three working days of you receiving 【the】 returned item.
+933 | Rush hour is terrible, especially in 【the】 morning between 8 and 9.
+979 | Audience participation in 【The】 Morning Show.    ?X
+1224 | Well, creating fabric from cotton, which is 【the】 most __27__ clothing material, is actually a process that involves a lot of water, 2,700 liters per shirt to be __28__.
+1033 | It proves to be 【the】 most complicated stage of space missions.
+1010 | Although Palmdor is one of 【the】 most famous private islands in 【the】 world, its seafront is public land and is a favorite destination for famous people.
+990 | Not all zoos and animal parks have 【the】 most favorable conditions, but [11] without them, it just wouldn’t be feasible to learn about animals and their environments.
+747 | It is 【the】 most popular in Spain.
+767 | 【The】 mother dog helped solve multiple murders and many other crimes. [5] 【The】 clone has already performed better than traditionally bred dogs on several tests.
+750 | 【The】 mother who is in stable condition could return home a day later if all physical tests came back normal.
+899 | While 70 percent of 8th and 10th grade students used to go to 【the】 movies once a month or more, now only about half do this.
+1263 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for other activities—like going to 【the】 movies with friends or reading longer, more complicated texts.
+703 | People in France are keeping away from 【the】 narrow French stick loaf in favor of healthier, cheaper options, a millers association has said.
+1018 | 【The】 nation hopes to get 50 percent of its energy from renewable sources by 2030.
+849 | Nevertheless, it is speculated that they could either be handed over to 【the】 National Art Museum of Cologne or sold to 【the】 public by 【the】 local government.
+755 | 【The】 National Association of French Millers says bread consumption is on 【the】 decline, with French people eating nine grams less than in 【the】 previous year.    ?P:on the decline
+820 | 【The】 necessity of saving into a pension.
+768 | 【The】 need to learn important lessons from her elders.
+946 | researchers in 【the】 Netherlands.
+1128 | We could try Mario’s, 【the】 new Italian restaurant on 【the】 corner.
+1254 | 【The】 new market on 【the】 other side of town.
+1114 | It is unclear whether 【the】 new owners have 【the】 power to ban tourists from 【the】 island.
+854 | 【The】 new parents have yet to name 【the】 sixth baby but are considering either Lily or Rose.
+1082 | E) But some parents object to 【the】 new policy if 【the】 vigorous debate on 【the】 Facebook page of Anderson County school
+1070 | With demand for energy ___29___ at an annual rate of 7 percent, 【the】 new solar plant could be a ___30___ part of that goal.
+1047 | And I heard that 【the】 new supermarket offers some big discounts to attract customers.
+1194 | By taking it as 【the】 New Year resolution.
+786 | Questions 5 to 7 are based on 【the】 news report yon have just heard.
+998 | were able to get twice as much money within 【the】 next eight years as those who just missed out.
+876 | 【The】 noise was powerful enough to shake buildings and set off car alarms.
+914 | 【The】 Noor solar power station is ___26___ in 【the】 city of Ouarzazate and, once completed, will generate 580 million watts of electricity.
+961 | However, deviance can also describe a behavior that simply differs from 【the】 norm.
+1065 | Deviating from 【the】 norm can make us villains (恶棍), but it can also make us heroes.
+1083 | Emails in 【the】 normal format.
+1220 | He told 【The】 Northern Echo: “(7) It isn’t an affluent part of 【the】 world, so for them to find cash of that amount and instantly think about taking it to 【the】 police stations shows 【the】 community spirit there is.    ?X
+764 | Among his favorite haunts are a local hairdresser, two pubs, and 【the】 Nottingham Primary School.
+1219 | 【The】 number and quality of books parents read to them in infancy.
+1159 | That is triple 【the】 number from two decades ago.
+1115 | 【The】 number of books they have read by age four.
+739 | 【The】 number of ducks has declined sharply in recent years.
+810 | 【The】 number of immigrants to 【the】 U.S. is declining.
+1107 | G) Indeed, 【the】 number of senior high school students who said they had not read any books for pleasure in 【the】 last year was one out of three by 2016.
+1016 | To understand 【the】 obvious importance of napping.
+877 | 【The】 odds of becoming a professional sportsman someday.
+1120 | Many of his friends daydream in 【the】 office.
+690 | According to 【the】 official news agency, Russian authorities have recovered more than 170 gold bars weighing 20 kilograms each.
+1142 | It distinguishes itself as one of 【the】 oldest games.
+962 | It is 【the】 oldest theatre in London.
+705 | A Japanese mayor apologized Thursday for biting 【the】 Olympic gold medal of a softball player.
+1171 | M: 【The】 one at 10:12 sounds good.
+993 | But 【the】 one thing that can really make a difference?
+1025 | In fact, 【the】 online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to 【the】 world.
+1264 | Pain is 【the】 only feeling to which 【the】 nerves in that layer respond.
+773 | 【The】 opportunities of winning some championships.
+769 | That means no running red lights or traveling in 【the】 opposite direction of traffic on one-way streets.
+864 | Fong has been involved in 【the】 organization since he was 15 and began teaching lion dancing three years ago.
+795 | Thus, using more of one type of media does not necessarily mean less of 【the】 other.
+745 | 【The】 other is a painting of a boy by 【the】 17th-century Dutch artist Samuel van Hoogstraten, date unknown.
+1279 | They’re able to hear what 【the】 other person is saying and express their own feelings and thoughts effectively.
+995 | I think I might try that big new supermarket on 【the】 other side of town and see what they have.
+1068 | They are affected by 【the】 overuse of social media.
+1064 | 【The】 owner has two weeks to collect 【the】 cash, which is then returned to 【the】 finder if not claimed, according to Peterlee Police.
+811 | After two staffers returned to their share, there was $700 leftover according to Tarah Morris, 【the】 owner of 【the】 restaurant, so they decided to do something more by creating 【the】 board.
+713 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at 【the】 Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+1207 | She could have asked a friend for help with 【the】 paint job.
+1259 | Moving her furniture is harder than 【the】 paint job.
+1103 | How 【the】 paint job is to be done.
+855 | Doing 【the】 painting job all by themselves.
+1269 | Three of 【the】 papers _27_ loneliness, 18 looked at social isolation and two included both.
+1094 | M: Yes. [12] 【The】 part about overcoming jet lag was interesting.
+787 | M: (8-1) So what time do you think we should have 【the】 party on Saturday?
+996 | Both 【the】 passage and 【the】 questions will be spoken only once .
+1184 | Questions 19 to 21 are based on 【the】 passage you have just heard
+1272 | Birthdays can tap into a lot of things people worry about, including their achievements in life in 【the】 past decade, or their accomplishments of 【the】 past year.
+982 | M: Well, actually, I’ve stopped using online payments for 【the】 past three months now.
+1210 | 【The】 payment was made on Wednesday.
+1270 | Palmdor is 【the】 perfect place to retreat to, somewhere to get away from 【the】 city noise and relax in beautiful surroundings with zero stress.
+902 | Also, speak to 【the】 person you’re booking 【the】 villa with on a landline phone, as fraudsters tend to only use mobiles.
+1105 | Parents’ personalities can affect 【the】 personalities of their children.
+1091 | Staff did their best to discourage 【the】 pet from hanging around.
+772 | 【The】 phenomenon happens when thunder and lightning mix with a heavy snowstorm—[5] sometimes causing loud claps that can be confused with explosions.
+1154 | good explanation for 【the】 phenomenon in 【the】 book 【The】 Formula: 【The】 Universal Laws of Success by    ?X
+1102 | 【The】 phenomenon is often referred to as 【the】
+749 | She doesn’t want to reveal her card details over 【the】 phone.
+783 | Playing 【the】 piano from a young age.
+950 | Technical engineers who worked on 【the】 plane prior to take-off are reportedly going to be questioned by 【the】 police.
+742 | 【The】 plane was traveling from Yakutsk Airport in a major diamond-producing region to 【the】 city Krasnoyarsk in Siberia.
+689 | They will be questioned by 【the】 police.
+980 | 【The】 police assured everyone that it was just thunder and lightning rather than some military exercise.
+975 | In South Korea, six clones began working with 【the】 police in 2008.
+928 | 【The】 police were flooded with many calls from 【the】 public. [6] And they sent out a message asking people to remain calm.
+682 | It is helping 【the】 police with 【the】 investigation.
+945 | 【The】 policy has led to various other companies doing 【the】 same.
+1238 | But supporters of 【the】 policy say it means
+1031 | Only suitable for renting to 【the】 poor.
+918 | I personally feel sorry for 【the】 poor animals stuck in cages, but there’s no denying they are fun and educational for children.
+887 | Figuring out 【the】 positive properties of each food item.
+789 | While 【the】 positives are many, there are still some obstacles.
+721 | 【The】 possibilities of joining 【the】 school sports team.
+1156 | 【The】 post was shared about 5,000 times.
+952 | Doubts about 【the】 practicability of diversity are gradually disappearing.
+827 | Thomas Sterner, in his book 【The】 Practicing Mind,    ?X
+917 | They were influenced by 【the】 presence of someone from an outsider group.
+868 | “He’s been a regular visitor for most of this year,” she told 【the】 Press Association.
+845 | To inquire about 【the】 price of office chairs.
+1234 | To check 【the】 prices of his farm produce.
+727 | I’ve had 【the】 privilege of working with an exceptional team of individuals during 【the】 past 13 years with 【the】 agency. [4] It has been incredibly exciting and rewarding.
+1006 | “【The】 problem is that when 【the】 money leaves your account it’s in theirs straightaway and it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+1040 | E) Horn has been working on 【the】 problem of phantom traffic jams for years, and he has come up with a solution: By splitting
+894 | A 2018 study published in 【the】 Proceedings of 【the】 National Academy of Sciences, for example, followed
+850 | “They should be Googling 【the】 property, and looking on websites like Google Maps and StreetView to see if it’s there.
+733 | This mission is founded on 【the】 proposition that all people, regardless of race, gender,
+1036 | They were open to 【the】 public.
+1088 | To enable 【the】 public to watch animals close by.
+816 | Lesley Harper, who runs one of 【the】 pubs, said 【the】 cat has been a big hit with their customers.
+1271 | 【The】 quality and quantity of time parents spend playing with them.
+736 | 【The】 quality of food products.
+1084 | 【The】 rail service also announced potential disruptions to trains due to 【the】 deep snow.
+1101 | It makes life so much simpler—(13) no carrying heavy shopping bags in 【the】 rain, or trying to park 【the】 car on those huge supermarket car parks then not being able to find it again after you come out of 【the】 shops.
+869 | When Stanford University scholar Andrea Lunsford gathered data on 【the】 rates of errors in “freshman composition” papers going back to 1917, she found that they were virtually identical to today.
+765 | As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do in 【the】 real world.
+1278 | This is partly because of adequate sunlight and partly because technology has become more ___34___ in 【the】 region.
+788 | 【The】 replacement policy.
+826 | Video of 【the】 rescue operation shows how 【the】 team used a crane to lift up 【the】 huge animal out of 【the】 well and onto 【the】 back of a truck.
+1173 | W: Well, (11) 【the】 research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep can contribute to serious health problems like obesity and heart disease.
+1021 | When an experimenter from 【the】 research team took notice.
+969 | When they tried to make a positive impression on 【the】 researchers.
+777 | [6] 【The】 researchers put forth policy contributions, ranging from sustainable disposal of leftover stock to production tax to incentivize both manufacturers and consumers to be more waste conscious.
+1166 | But with their newfound luxury comes 【the】 responsibility for its protection and maintenance.
+1260 | 【The】 restaurant mailed 【the】 ring back to 【the】 happy couple.
+1052 | Recently, 【the】 restaurant manager Ryan Krivoy decided to replace 【the】 wooden deck and he found an old gold coin, some $100 bills and a silver wedding ring while replacing 【the】 deck.
+732 | There are others, however, who showed support for 【the】 restaurant’s decision. [4] They said it has 【the】 right to implement any rules it wants.
+1104 | 【The】 restaurant waitress Sasha Formica posted a picture of 【the】 ring on Facebook.
+896 | 【The】 restaurant was built on a wooden structure above 【the】 sea-water.
+1045 | These are 【the】 results from a new study
+897 | To get her money back for 【the】 returned chair.
+842 | In other words, 【the】 rich get
+797 | Authorities have not yet confirmed what will happen if 【the】 rightful owner is not found.
+1015 | Finally, 【the】 rising cost of bread is considered to be a factor, with 【the】 price of a French stick loaf increasing by nearly 25% in 【the】 last 10 years.
+1125 | 【The】 risk students face due to a history of mental health problems.
+1239 | Kids need to be aware of 【the】 risks in playing with dogs.
+925 | Cumber said, “People can have fun, but both drivers and riders are responsible for paying attention while on 【the】 road.
+780 | cars on 【the】 road, rather than driving so closely behind another vehicle that a collision is likely if that vehicle brakes
+779 | By assuming 【the】 role of an ambassador for human flights to space, I’ll continue to support 【the】 European and 【the】 UK space agencies.
+1178 | New research from America studies 【the】 role that 【the】 presence of individuals from different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in 【the】 presence of an observer of a different race, as opposed to an observer from their own race.
+1011 | Match 【the】 room’s ceiling with all 【the】 furniture in colour.
+1192 | It was part of 【the】 royal estate.
+898 | Police have sealed off 【the】 runway, and say it is unclear if it was an accident or an attempted robbery.
+1193 | And add to that 【the】 rush-hour crowds with strangers packed close together in 【the】 subway carriages, 【the】 whole thing is just horrible.
+1067 | M: (8) Well, after 【the】 rush hour, I think.
+910 | It shows movies from 【the】 1950s.
+1227 | M: It’s 【the】 same as conflicts.    ?P:the same as
+1175 | Their stress levels are actually 【the】 same as those experienced by 【the】 children who yell and scream.    ?P:the same as
+1121 | And it’s 【the】 same for most of my friends.
+1117 | Great benefit and great harm can come from 【the】 same human tendency.
+800 | A car ride for 【the】 same journey costs less than half as much.
+1086 | It seems like you’d have 【the】 same problems with cash.
+717 | [6] Electric bike riders have to follow all 【the】 same rules as you would if you were in an automobile.
+1135 | All companies in 【the】 same sector
+1204 | They must be of 【the】 same size.
+865 | They were readily shared among members of 【the】 same social or racial group.
+1230 | 【The】 same was true when they were with someone from a different university, compared to someone from their own.
+907 | Designing all window frames 【the】 same way.
+1277 | W: (12-2) It’s 【the】 same with me.
+972 | M: [9] What about 【the】 Sandwich Place on Camden Street?
+724 | He was remembered for 【the】 scar on his cheek.
+1017 | 【The】 scene broadcast on television prompted thousands of complaints to city hall.
+926 | many school boards have introduced policies which require students to work from home if 【the】 school is shut by snow or
+718 | Often, 【the】 school remains officially open even though buses do not run and classes are canceled.
+805 | Like 【the】 Scooby crew, we may find ourselves hunting for an easy fix, one word for people who do bad things.
+1014 | They have an English translation on 【the】 screen.
+837 | Ageism and long-term unemployment are most damaging for those in 【the】 second half of their careers.
+963 | 【The】 second reason, they say, is lifestyle changes in 【the】 country, (7) with people dedicating less time to breakfast when bread would traditionally be eaten with butter and jam.
+1130 | Watch 【the】 series together with 【the】 woman.
+806 | Pay an extra fee for 【the】 service.
+748 | 【The】 service, which claims to be 【the】 first of its kind in India, offers only one route, but Bangalore airport will add more once it gets approval.    ?P:the first of its kind
+1136 | Some roads were also closed because of 【the】 severe weather.
+886 | Last year, a German federal court said 【the】 shade of 【the】 gold wrapping was also protected.
+1039 | It just enjoyed visiting 【the】 shop.
+1074 | M: Thanks for having me on 【the】 show, Lisa.
+1182 | Check to see when 【the】 show starts.
+1026 | Find out 【the】 show's most interesting episodes.
+770 | Severe weather that causes cancellation or delay is more likely in regions that are less able to handle 【the】 situation.
+1019 | There have been no reports of anyone taking advantage of 【the】 situation.
+1123 | But other children simply shut down and try to deal with their emotions by ignoring 【the】 situation.
+1144 | That is, it can prevent 【the】 slow-down effect from being amplified by 【the】 cars that
+936 | 【the】 slowing action spreads backward through 【the】 lane of traffic like a wave, getting worse 【the】 farther it spreads, Eventually,
+1268 | But 【the】 software for electronic readers can be updated instantly without 【the】 need for buying a whole lot of new books.
+1007 | 【The】 software has to be constantly upgraded.
+711 | She has found 【the】 soup smells terrible.
+958 | For decades tourists have been flocking to Palmdor, which is located off 【the】 southeast coast of Spain.
+751 | He can see 【the】 speakers’ images.
+1167 | 【The】 speed of their brain development in infancy.
+1042 | He’s 【the】 spokesperson for his local animal rights group.
+1236 | To enjoy 【the】 sports to 【the】 full.    ?P:to the full
+699 | He can take notes on 【the】 spot.    ?P:on the spot
+707 | Anyone who is hungry and wants something to eat can take one, no questions asked and hand it to 【the】 staff for some food.
+1030 | could be rolled out across 【the】 state.
+1143 | They visit 【the】 store so much that [7] staff have been forced to put up signs, asking their customers not to feed them.
+1228 | While lions are not native to China, some versions of 【the】 story include 【the】 villagers creating a monster of their own in 【the】 shape of a lion to fight off 【the】 beast.
+856 | Bundles containing thousands of pounds in cash keep turning up on 【the】 streets of Blackhall Colliery in northern England, according to police.
+1217 | 【The】 studies included data from 181,006 men and women ages 18 and over.
+1198 | As I read an article on 【the】 subject in 【the】 past that suggested 【the】 opposite, it claimed that it was important not to miss meals and that taking a nap on 【the】 plane was 【the】 best way to adjust to a new time zone.
+1037 | W: [9] Well, for example, 【the】 subway system could have air conditioning.
+1141 | It gets so hot in 【the】 summer.
+883 | Regular shoppers at 【the】 supermarket are familiar with 【the】 sight of several cats settling down in 【the】 shop aisles.
+831 | 【The】 supermarket is known for its loyal customers, but now has a different kind of visitor that has appeared over 【the】 last year.
+943 | I’ll go to 【the】 supermarket to get some drinks.
+860 | Increase 【the】 supply of new plastic in 【the】 market.
+1055 | 【The】 survey allowed for reading materials on a digital device.
+730 | 【The】 Swiss manufacturer’s rabbit has a red bow and bell, while 【the】 German supermarket’s has a green bow and bell.
+781 | Compensate for 【the】 Swiss manufacturer's loss.
+1106 | I’m just looking on 【the】 system here.
+891 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather than getting everyone to sit down at 【the】 table to eat a meal.
+1137 | Many of 【the】 technologies to limit 【the】 impact of space travel on Earth.
+1189 | 【The】 technology for effectively protecting ozone from being destroyed.
+1085 | 【The】 technology for meeting 【the】 needs of commercial space travel.
+766 | 【The】 technology is too expensive.
+714 | 【The】 technology is yet to be accepted.
+1183 | It’s written by a Chinese science fiction writer. [9] I can’t remember his name, but he’s written three books in all, and *【The】 Three Body Problem* is 【the】 first in 【the】 series.    ?X
+997 | M: No, just 60 pounds between 【the】 three of us, but still a bit too much to just let go.
+858 | Give 【the】 ticket to 【the】 train guard.
+1237 | M: When 【the】 time is right, I’ll start talking to our children about investing and show them how 【the】 money saved for their further education has grown.
+691 | Let me emphasize that this is equal to 【the】 time most adults spend per week at work.
+1172 | You probably haven't taken 【the】 time to think of all 【the】 work that went into creating 【the】 shirt on your back.
+1160 | If we eat something too hot or too cold, or if 【the】 tooth is worn down enough where 【the】 tissue _29_ is exposed, all of those things cause pain, and then 【the】 pain causes 【the】 person not to use that tooth to try to protect it a little bit more.
+746 | Fraudsters also invest in pay-per-click advertising to feature at 【the】 top of search engines when people type in phrases such as “Spanish seaside villas”.
+1145 | 【The】 torture and distress dolphins suffer in parks.
+938 | He’s even written to his state senator about 【the】 torture of dolphins in sea parks.
+1223 | 【The】 total price is £36.50.
+853 | Rent a bike for him to get around 【the】 town.
+1245 | 【The】 trains here are too old.
+861 | “I’m really sorry that I hurt 【the】 treasure of 【the】 gold medalist,” Kawamura told reporters Thursday.
+1003 | F) But 【the】 trends related to movies are less disturbing compared with 【the】 change in how teens spend their time.
+903 | Choose one of 【the】 two types of cheese.
+940 | 【The】 type of snake was determined to be one of 【the】 world’s largest snake species.
+706 | Immigrants have been contributing to 【the】 U.S.
+758 | Another wave of immigrants is hitting 【the】 U.S.
+843 | Duck meat is not eaten in Australia, Canada and 【the】 U.S.
+808 | 【The】 U.S. federal government's regulations.
+871 | 【The】 ultimate goal of scientists is to produce clones of talented police dogs that can be trained in months instead of years. [7] However, this goal is not yet possible due to 【the】 current costs of 【the】 technology.
+1221 | 【The】 unethical behavior they chose was dishonesty.
+822 | are less common in more northern areas of 【the】 United States that are used to heavy winter snowfall because municipalities    ?P:the United States
+935 | 【The】 unusual situation started about 12 months ago, when one cat routinely started visiting 【the】 store. [6] Local newspapers reported that puzzled customers posted on Facebook groups to try to find out if 【the】 cat was lost.
+1249 | 【The】 urgency of joining an animal rights group.
+1050 | Others in 【the】 US have found similar effects with National Institutes of Health early-career fellowships
+964 | Take measures to promote 【the】 use of recycled plastic.
+1276 | Take a look at 【the】 video below from National Geographic for some more mind-blowing __29__ about cotton clothing production.
+694 | But a bit of a giveaway is that 【the】 villa will be cheaper than on other websites and there’s unlimited availability,” says Tipton.
+908 | Residents of 【the】 village have been coming across bundles of £20 notes—usually worth £2,000—in 【the】 former mining village in County Durham.
+1176 | 【The】 villagers finally banded together and scared 【the】 beast away with firecrackers and drums.
+909 | Evil is typically referred to when there is deviance from social norms; formal deviance is 【the】 violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.
+702 | In 【the】 waiting room.
+761 | It is 【the】 way to quit a job one hates.
+1076 | There’s that American style diner on 【the】 way to 【the】 mall.    ?P:on the way
+919 | Whether it might have any effect on 【the】 way we negotiate.    ?P:on the way
+1032 | 【The】 weather was 【the】 coldest it had been for 【the】 season, [7] so people were warned to be careful when traveling outside.
+798 | E) With such a degree of professionalism, how can consumers find out if 【the】 website they’re looking to book with is trustworthy?
+1099 | I wouldn’t need to use it every day, but I think it would be very convenient to have one for 【the】 weekends.
+704 | It satisfied consumer demands on 【the】 whole.    ?P:on the whole
+809 | However, it is only for 【the】 winners themselves, not others.
+875 | She regrets ignoring 【the】 woman’s advice.
+1000 | It fell through 【the】 wooden floorboards, apparently lost forever.
+1063 | Paint 【the】 wooden frameworks and walls 【the】 same colour.
+857 | But if we take a good look, 【the】 word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.
+1035 | Here 【the】 words “deliberate” and “intention”
+1155 | Oversee 【the】 work herself.
+1229 | 【The】 work universities are doing to help students succeed academically.
+1051 | How much 【the】 work will cost.
+999 | How long 【the】 work will take.
+1126 | W: But it’s not always easy to get back into 【the】 workforce after an extended absence.
+900 | People’s attitudes towards diversity at 【the】 workplace.
+1231 | A number of studies have looked at how family life can affect productivity and satisfaction in 【the】 workplace.
+941 | probably won’t be a good “fit,” their experience won’t be relevant to 【the】 workplace, and they’ll be unable or unwilling to
+893 | Still, cats in 【the】 workplace have been a tremendous success for 【the】 company.
+895 | Duck hunting remains legal in many parts of 【the】 world.
+1009 | Whether women’s rights are making good progress around 【the】 world.
+966 | 【The】 World Bank estimates it will serve 1.1 million people.
+1089 | I know many cities in 【the】 world have air conditioning in their subway, so why can’t we?
+731 | She is 【the】 world’s oldest individual.
+1174 | It could also be a forerunner for many other countries in 【the】 world that ___32___ on foreign imports of energy," said Ali Hajji, a solar energy specialist and engineering professor.
+833 | Change 【the】 wrapping of its commodities.
+1059 | 【The】 y may get distracted more easily.
+743 | Over 【the】 years, many scholars have insisted that time online does not necessarily take away time spent engaging with traditional media or on other activities.
+901 | 【The】 young girl braved 【the】 threat of bears, wolves and temperatures far below freezing.
+762 | I’m going to 【the】 zoo.
+814 | M: 【The】 zoo?
+792 | Sue Tygielski is 【the】 zoo’s director of zoological operations.
+866 | W: Yeah. [9] My little nephew turns six, and he loves 【the】 zoo, so 【the】 whole family is going.

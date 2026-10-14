@@ -1,0 +1,730 @@
+# 任务 C_r1_88：11 个词，572 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_88.labels.txt
+
+============================================================
+## 词：even    本段 88 句    模式：全标（每句都写）
+原释义：adv.甚至; 即使; 更. adj.平均的; 平滑的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 甚至，连…都（加强语气）    B 样本 51    例：Even the most
+  1  adv. （用在比较级前）更，还要    B 样本 15    例：It made him appear even more manly.
+  2  adj. 平的，平坦的；平稳的    B 样本 0
+  3  adj. 相等的，均等的    B 样本 0
+  4  adj. 偶数的    B 样本 0
+已标过的短语：even if（7）；even though（5）；even so（2）；even out（1）
+口径说明（照此执行）：
+  - even though / even if / even so（即便如此）/ even out（拉平，持平）按短语标；even when / even as / even with / even during / even after 按 0（甚至，即使）标，不算短语；even more / even worse / even better / even further 等修饰比较级按 1；even more + 形容词 + 名词（如 even more important choices，强调「甚至连更重要的选择」）按 0。get even（报复）、break even（不赔不赚）若出现按短语标。
+句子：
+104 | The logical question to ask is, “What happens 【even】
+141 | Wearing power clothing makes us feel more confident and 【even】
+153 | 【Even】 a few days lost in a year could be enough to
+134 | But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and 【even】 a shorter life.
+87 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, 【even】 after controlling for differences in baseline creative skills.
+86 | But 【even】 after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.
+81 | that 【even】 among those who are married, 30% of relationships are Ļ strained.
+96 | H) But 【even】 as error rates stayed stable, student essays have blossomed in size and complexity.
+161 | What is one thing that helps maintain the health of our brain 【even】 as it shrinks2
+137 | New pathways can strengthen our ever-changing mental structure, 【even】 as the brain shrinks.
+84 | The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or 【even】 awareness campaigns that alert students to the problem with using technology to find answers in a certain way.
+136 | But 【even】 back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+128 | would all struggle with 【even】 basic quantitative distinctions.
+151 | For many horses (and many trainers) this would mean the end of a racing career before it 【even】 began.
+114 | Some people 【even】 believe that not simply adopting your husband’s last name is a huge sign of disrespect and a lack of commitment.
+82 | But among those who stayed on, the close losers performed 【even】 better
+110 | well or 【even】 better.
+142 | Taking medicine at the wrong time can 【even】 cause harm.
+130 | But curiosity can also be dangerous, leading to setbacks or 【even】 downfalls.
+124 | We 【even】 evaluate people whom we have just met
+80 | They rate the post-45 job seekers lower on average on all three measures — 【even】 experience —
+157 | Actually my mother is terrified of airplanes to the point where she can’t 【even】 fly.
+164 | So they push 【even】 harder.
+159 | It’s 【even】 harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.
+150 | In other words, 【even】 if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.    ?P:even if
+92 | The challenges are enormous, 【even】 if everyone is pulling in the same direction.    ?P:even if
+97 | 【even】 if it is low-paid.    ?P:even if
+135 | “【Even】 if overall food production may be unaffected, food security can still be impacted,” says Margaret Walsh, a scientist at the US Department of Agriculture’s Climate Change Program Office.    ?P:even if
+90 | We should be helping our kids understand who they are, 【even】 if that means letting go of who we think they should be.    ?P:even if
+89 | If a new competitor emerges to threaten your business, you may need to change direction, 【even】 if that means straying from your original vision.    ?P:even if
+160 | But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, 【even】 if the data insists that it should?    ?P:even if
+95 | However, the study showed participants’ mental health improved 【even】 if their reported diet did not change after completing the program.    ?P:even if
+109 | remain in the can, 【even】 if there are only four or five in total.    ?P:even if
+139 | Given these limitations and concerns, 【even】 if this mode of obtaining consent is to move    ?P:even if
+131 | We did not know to ask—and the school did not readily point out—that 【even】 if tuition rises, my financial aid package will stay the same.    ?P:even if
+118 | We can never really please other people 【even】 if we try as hard as we can.    ?P:even if
+123 | 【Even】 if you    ?P:even if
+140 | 【Even】 if you haven’t mastered a skill, grit tells you that you can still succeed if you can transform your passion into action.    ?P:even if
+88 | Obviously you will still be you 【even】 if you’ve taken on your husband’s last name and omitted yours entirely.    ?P:even if
+85 | 【Even】 if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do not include extra fees for lab tests or prescription medications (药物).    ?P:even if
+120 | the species with a gene-editing technology, which will transform the seedlings into a species that survives 【even】 in a drier and
+155 | We should stay persistent 【even】 in face of failures.
+165 | It may sound surprising, but you don't have to be interested in fashion, or 【even】 in history, to enjoy Dress Codes: How
+116 | Despite these _35_, the study’s results are yet another indication of the power of physical activity, 【even】 in small amounts.
+102 | Maybe he could 【even】 join the school basketball team when he’s ready.
+163 | Working at home or in cafes, starting businesses of their own, and 【even】 launching business ventures
+133 | After all, intelligent people earn more money, accumulate more wealth, and 【even】 live longer.
+146 | They might 【even】 make us better at our jobs'.
+138 | school 【even】 more”, and someone else called snow days “a fun part of childhood”.
+103 | I) 【Even】 more importantly, practice is the only way to make a meaningful contribution with your knowledge.
+83 | When women don’t reach this ideal, they feel guilty; and 【even】 more stressed.
+167 | Richard Thompson Ford is a law professor, and you probably won't forget that for 【even】 one page.
+113 | 【Even】 Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism.
+98 | Whether that’s likely, or 【even】 possible, anytime soon, is anyone’s guess.
+149 | “They’re so used to being right and having quick answers that they don’t 【even】 realise when they’re making a mess by answering without thinking things through.
+111 | Harvard reports that women are “much more likely than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t 【even】 recognize the symptoms.
+154 | Recent evidence shows 【even】 relying on the information provided by the seller is
+145 | 【even】 share some basic instinctual quantitative reasoning with distant non-mammalian relatives like
+119 | In areas less accustomed to snow, 【even】 small snowfalls of an inch or two
+156 | 【Even】 so, it can be difficult for those who do not study music theory to see this as an indicator, since it is    ?P:even so
+152 | 【Even】 something as
+91 | The problem with this argument is that most children aren't playing outside or 【even】 spending time with other kids.
+122 | Research in human-vehicle interaction has shown 【even】 systems designed to automate driving are far from being error-
+112 | I) There is another depressing reality hidden within 【even】 the largest financial aid packages: Colleges often offer the most generous packages during freshman year as a way to attract new students.
+93 | 【Even】 the small group of people who got 10 times the amount of exercise recommended by the federal government had a 46% lower _32_ of death than the least active group.
+105 | Science says that the clothes we wear affect our behavior, our mood and 【even】 the way we interact with others because of the
+121 | 【Even】 their fine-motor skills can be utilised in taking care of a beloved animal.
+117 | I) When linguist Naomi Baron studied students’ instant messaging 【even】 there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.
+125 | Only a very few have shifted to cycling, and 【even】 those almost certainly won’t cycle in Boston’s snowy
+166 | For one, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate; 【even】 those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+115 | This implies that 【even】 though ambitious people are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?    ?P:even though
+148 | 【Even】 though animals in nursing homes were illegal at the time, Dr.    ?P:even though
+99 | Often, the school remains officially open 【even】 though buses do not run and classes are canceled.    ?P:even though
+144 | It was a worthwhile effort 【even】 though he was unsure of its success.    ?P:even though
+143 | Jet lag is a big problem for me and has been for the last few years, 【even】 though I never suffered from it before.    ?P:even though
+162 | What caused more disruption was when schools tried to stay open in bad weather 【even】 though many staff and pupils were    ?P:even though
+108 | This is true 【even】 though nearly nine managers in 10 also said their post-45 workers were as good    ?P:even though
+101 | Sales of bottled water in Britain hit a record high last year 【even】 though people are increasingly aware that plastics are    ?P:even though
+107 | It could be melted for use in other products. [7] It said 【even】 though there are some differences between the two products, there was still the possibility of confusion for consumers.    ?P:even though
+129 | 【Even】 though Wang tried to account for this by culling the weakest    ?P:even though
+132 | 【Even】 though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.    ?P:even though
+127 | Switching to a new career is difficult and getting reemployed after a layoff is 【even】 tougher.
+100 | It finds that sharing information about diversity makes job postings more attractive to job seekers, 【even】 when pay is lower.
+158 | It is difficult for anumeric people to keep track of the change in numbers 【even】 when the total is very small.
+106 | convinced, 【even】 when their own street performs.
+147 | Students’ financial aid remains unchanged 【even】 when tuition rises.
+94 | One study finds that 【even】 workers who claim to desire gender equality stick to traditional gender roles both at work and at home.
+126 | He’s 【even】 written to his state senator about the torture of dolphins in sea parks.
+
+============================================================
+## 词：into    本段 80 句    模式：全标（每句都写）
+原释义：prep.进入; 到…里面; 变成.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 进入，到…里面（也指进入某种状态、领域）    B 样本 43    例："I was born into it," Mr.
+  1  prep. 变成，成为（turn / change / cut / translate … into）    B 样本 23    例：It turns parks into picnic sites.
+  2  prep. （调查、了解）对…，深入…（investigation into, insight into）    B 样本 4    例：To speed up investigation into criminal cases.
+  3  prep. 撞上，碰到    B 样本 1    例：It was caused by a lorry running into a trailer.
+  4  prep. （时间）持续到，进入（某个时期）    B 样本 1    例：Numerous writers produce masterpieces well into their 70s and beyond.
+已标过的短语：check into（1）；tap into（1）；cut into（1）；get into the habit of（1）；look into（1）；be into sth（1）；take sth into consideration（1）；take sth into account（1）
+口径说明（照此执行）：
+  - turn/change/translate/classify/organize/cut … into 中 into 表「变成、分成」按 1 标，不算短语；get into / go into / fall into / get back into（进入、投入、陷入某处境）按 0；take sth into account / consideration、look into（调查）、tap into（利用）、cut into（占用）、check into（入住）、get into the habit of、be into sth（迷上）按短语标；delve into / investigation into / a window into / insight into 按 2；字面的撞上按 3，run into 表「偶遇、遇到（困难）」时按 P:run into。
+句子：
+91 | In an experiment, a researcher will place nuts 【into】 a can one at a time
+135 | Eventually these gestures turned 【into】 a full sign language.
+158 | Big houses are advertised as a reward for hard work and diligence, turning housing from a basic necessity 【into】 a luxury.
+121 | It is an effort to transform the restaurant 【into】 a luxury one.
+110 | 【into】 a mirror and see their aged selves looking back at them.
+149 | This one, in particular, was closed for 47 years before we transformed it 【into】 a movie theatre.
+82 | Many of us living in the most developed countries are buying 【into】 a myth of protein deficiency created by food companies    ?P:buy into
+89 | “We took the jump to transform Eleven Madison Park 【into】 a plant-based fine dining restaurant knowing in our hearts
+123 | Falling 【into】 a routine can turn a person 【into】 an utter bore.
+103 | I mean, how hard it could be to create fabric and __26__ it 【into】 a shirt shape.
+144 | the species with a gene-editing technology, which will transform the seedlings 【into】 a species that survives even in a drier and
+107 | What happened when the negative reciprocity variable was taken 【into】 account?    ?P:take sth into account ?P:take into account
+136 | Making treatments less complex by taking drug timing 【into】 account.    ?P:take sth into account
+119 | timing 【into】 account could help make treatments more effective and help more people worldwide.
+148 | A social aspect to health has not been taken 【into】 account in trying to provide the best medical care.    ?P:take sth into account ?P:take into account
+116 | Even if you haven’t mastered a skill, grit tells you that you can still succeed if you can transform your passion 【into】 action.
+105 | And these attachment styles carry on 【into】 adulthood.
+118 | It could not have come 【into】 being without classical music and opera as its foundation.    ?P:come into being
+104 | The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a "hypnoidal trance (催眠恍惚状态)," causing them to wander aisles bumping 【into】 boxes and "picking things off shelves at random.
+108 | [22] Taking risks in business does not mean going 【into】 business blindly and then expecting great results.
+120 | casual gamers 【into】 “conscious” ones, applying critical thinking to developing their skills.
+101 | Whether your future husband insisting on your adopting his last name is a red flag to you or not, it is still something that you should take 【into】 consideration.    ?P:take sth into consideration
+115 | What should people take 【into】 consideration in deciding on the most preferable protein intake?    ?P:take sth into consideration
+83 | Getting young minds 【into】 design
+111 | M: Well, [15] by increasing taxes or moving money from other areas of the budget 【into】 education.
+137 | Manufacturing costs come 【into】 effect, and commodities fluctuate in price based on demand and the distance to haul the    ?P:come into effect
+130 | They were regarded as an intrusion 【into】 employees' private lives.
+90 | Directions: For this part, you are allowed 30 minutes to translate a passage from Chinese 【into】 English.
+92 | Directions: For this part , you are allowed 30 minutes to translate a passage from Chinese 【into】 English .
+152 | Directions: For this part , you are allowed 30 minutes to translate a passage from Chinese 【into】 English.
+80 | Unless a far-reaching bottle ban does come 【into】 force, it will be up to consumers to not    ?P:come into force
+142 | Some people have said aging is more a slide 【into】 forgetfulness than a journey towards wisdom.
+147 | They are able to bring their potential 【into】 fuller play.
+106 | "Many people don't want to be forced 【into】 having fun or making friends, especially not on top of their busy jobs.
+153 | Astrid Natley, a secondary school math teacher, incorporates phones 【into】 her classroom.
+134 | It should be integrated 【into】 high school education.
+146 | K) Twelve years 【into】 his career, Mark Long, a radiotherapy physicist with the NHS in Surrey, doesn’t get as much gaming
+109 | In a new paper, Friedman tries to figure out why that increased productivity has not translated 【into】 increased leisure
+84 | Investigators reviewed videos of the collection boxes; the video showed the two men loading the stolen mail 【into】 Jax’s vehicle.
+87 | put people 【into】 layers of confusion, and the study confirms that music can sometimes ___30___ lift people out of the
+124 | Growing 【into】 living and breathing human beings.
+131 | It can translate women’s booking practice 【into】 men’s behavior.
+150 | But it is still somewhat restricted, particularly when the language moves away from stiffer commands 【into】 more human interactions.
+112 | preserved 【into】 older adulthood.
+122 | transform our quantitative reasoning as they are introduced 【into】 our cognitive experience by our
+114 | Hydrogen can be obtained sustainably by using solar power to break water down 【into】 oxygen and hydrogen.
+86 | I believe this fear could be tempered by putting decisions 【into】 perspective.
+159 | Finding ways to turn private spaces 【into】 public ones.
+140 | The gas turned 【into】 solid in just two years, much faster than the hundreds or thousands of years researchers had predicted.
+99 | The ability to overcome food shortages that must be built 【into】 some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+100 | Another interior designer commented that certain combinations can key 【into】 something on a deeper level, transporting you to a different moment in time.
+128 | F) Mr Dittoh says the idea of converting online weather reports 【into】 speech came from the farmers themselves, after a workshop in the village of Guabuligah.
+102 | This new method of burying carbon dioxide and turning it 【into】 stone is cheaper and more secure, The Guardian reports.
+127 | To turn carbon dioxide 【into】 stone, researchers with the Carbfix project pumped the gas 【into】 volcanic rock and sped up the natural process in which the volcanic rock reacts with gas and forms carbon minerals.
+141 | Even turning your voice 【into】 text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet.
+157 | It is extremely difficult to convert voice 【into】 text because of different pronunciations.
+156 | Children are getting more than enough screen time in their lives without the need to bring their phone 【into】 the classroom.
+138 | J) Cultures without numbers also off er insight 【into】 the cognitive influence of particular numeric
+94 | Make sure to bring the audience 【into】 the conversation so that it is not one-sided,” Pass says.
+113 | Diving headfirst 【into】 the crash course of starting university, I’ve quickly tried to get myself up to speed with the financial
+129 | They can offer insight 【into】 the evolution of their own experience and knowledge, presenting themselves as more approachable and then they are more likely to inspire others to want to know more.
+85 | research 【into】 the impact of clothes on behavior now suggests that there may actually be a grain of truth in these sayings.
+95 | My co-workers would all be friendly with one another, without ever falling 【into】 the office gossip trap.
+93 | The exercise is simple but important, since it brings these costs out of the realm of speculation 【into】 the realm of meaningful discussion.
+154 | Now they can dictate notes on a patient's health condition and treatment and a smart assistant automatically enters the information 【into】 the right fields on a web form.
+125 | He was the kind of trusted doctor you’d feel relieved to see and welcome 【into】 the room with a sick family member.
+88 | Those bringing eggs 【into】 the U.S. risk fines of up to $10,000.
+81 | It was then taken to an examining room for evaluation of any injuries. [7] The elephant was kept under close supervision for a few days before it was successfully released back 【into】 the wild.
+98 | While 92% of people believe others care most about fame and _26_, fewer than 10% factor those qualities 【into】 their own success.
+145 | Both scenarios are contributing to a big increase in the number of people in the US working 【into】 their 70s.
+155 | They are both committed to working 【into】 their 70s.
+151 | The share of Americans with bachelor's degrees who were working 【into】 their 70s reached nearly 20% in 2018.
+139 | George Engel, in treating his patients, not only looks 【into】 their symptoms but also 【into】 things like the emotional support they receive.    ?P:not only ... but also ?P:not only...but also ?P:look into
+126 | They put a lot of effort 【into】 their work.
+97 | By checking an agent’s name online before booking a villa, holidaymakers can avoid falling 【into】 traps.
+132 | 【into】 trouble is when our self-worth is dependent upon whether we win someone's approval or not.
+96 | Communication can essentially be divided 【into】 two categories: the written and the spoken.
+133 | Phyllis Moen split more than 1,000 employees at a Fortune 500 company 【into】 two groups, one that worked under a
+143 | underused public spaces 【into】 vegetable and fruit gardens.
+117 | Then over hundreds of thousands of years, those sounds turned 【into】 words that people began to learn as part of their language.
+
+============================================================
+## 词：over    本段 73 句    模式：全标（每句都写）
+原释义：prep.在…上方; 超过; 关于. adv.结束; 越过.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在…期间，在…过程中（over the years, over time）    B 样本 25    例：depression of any year over the lifespan.
+  1  prep. 超过，多于    B 样本 16    例：It is worth over 18 million euros.
+  2  prep. 遍及，到处（all over）    B 样本 7    例：Early zoos are found all over the world.
+  3  prep. （控制、优势等）对…，在…之上（control over, advantage over）    B 样本 4    例：They have control over their life and work schedules.
+  4  prep. （偏好、优先）胜过，而不是（prefer / prioritize A over B）    B 样本 6    例：practice over passive learning.
+  5  prep. 关于，因为（争论、担忧等）    B 样本 3    例：It matters little to the debate over obesity.
+  6  adj. 结束的，完了的    B 样本 3    例：They told them the military exercise was over.
+  7  prep. 在…上方，越过    B 样本 1    例：The dancers use the ribbons to pull themselves up over their partners' heads.
+  8  prep. 通过（电话等）    B 样本 2    例：She doesn’t want to reveal her card details over the phone.
+  9  adv. 在那边，到那边（over there, come over）    B 样本 3    例：L) Over at Game Academy, Mr.
+  10  adv. 翻转，倒下（turn over, fall over）    B 样本 1    例：At around half past nine this morning, a trailer attached to a lorry turned over at the crossing of High Street in Milton.
+  11  adv. 再，重复（over again）    B 样本 0
+已标过的短语：take over（3）；hand over（2）；go over（1）；watch over（1）；get over（1）；think sth over（1）
+口径说明（照此执行）：
+  - over time / over the years / over the next decade / over Christmas 按 0；all over 按 2，不算短语；go over（复习）、take over（接管）、hand over（交出）、get over（克服）、think sth over（仔细考虑）、watch over（照看）、look over（检查）按短语标；字面的 turn over / fall over（翻倒）按 10；ship it over、over there、Over at… 按 9；over 表「年龄、数量在…以上」按 1。
+句子：
+87 | Another cause is that the proportion of people who are trying to lose weight has been increasing 【over】
+93 | The studies included data from 181,006 men and women ages 18 and 【over】.
+116 | It ensures a balanced healthy diet for people the world 【over】.
+122 | They were less likely to quit their jobs; indeed, 【over】
+143 | “fit” than those 【over】 45.
+146 | F) Their biggest fears about hiring those 【over】 45?
+150 | training, is going to help resolve their worries about hiring someone 【over】 45.
+106 | While fats and sugar have taken the beating in turns since 【over】 a century ago, protein has managed to remain our red-hot
+139 | 【Over】 a decade or so, American teens’ social media use shifted from an occasional activity to a routine one.
+138 | past the age of 45, there’s nearly a two in three chance you’ll be out of work for 【over】 a year, they find.
+149 | I) Hiring managers said training was three times more likely to get them to hire applicants 【over】 age 45 than, say, government
+94 | For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all 【over】 Asia.    ?P:all over
+126 | Given that sort of mess, can political fights 【over】 bike lanes ever end?
+109 | The battle 【over】 bike lanes needs a mindset shift
+114 | More than half of the interviewees felt no sense of guilt 【over】 cheating.
+131 | Parents and kids had conflicting ideas 【over】 cheating.
+136 | our larger culture wars 【over】 climate change.
+128 | Those 【over】 45 comprise 【over】 40% of the long-term unemployed, for example.
+119 | Prioritize instincts 【over】 data.
+125 | Americans spend an average of 【over】 $722 each year on their
+96 | H) 【Over】 five experiments researchers gave participants tasks in which they could cheat.
+84 | My sister’s boyfriend is coming 【over】 for dinner.
+104 | tradition is now 【over】 for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana.
+101 | Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, but we don’t expect the men to take 【over】 for the women at home.    ?P:take over
+95 | In fact, in the United States, a little 【over】 half of children between the ages of three and five were read to every day in 2007, and 83% of children in that age group in the same country were read to three or more times per week in 2012.
+91 | 【Over】 half of the students interviewed were unaware they were cheating.
+81 | Right 【over】 here, we have dozens of puzzles for children of all ages.
+103 | Why do we allow what others think of us to have so much power 【over】 how we feel about ourselves?
+151 | Hiring managers believe unemployed workers 【over】 45 lack good skills and are less adaptable.
+110 | I found my way to user experience through graphic design, and slowly 【over】 many different roles and experiences that led me to become a user experience designer.
+82 | halt 【over】 nothing, Horn said.
+88 | 【Over】 70% of male educators who said they intended to stay in the early education workforce noted an increased salary was a major motivating factor for them to commit to the career long-term.
+86 | Hiring managers admit they are reluctant to hire those 【over】 40 or 45, arguing they
+99 | They prioritise some psychological aspects 【over】 others.
+124 | 【over】 our recommended calorie intake.
+137 | As annual inflation climbs 【over】 10 percent, many households are on tight budgets.
+123 | What do we learn about publicity 【over】 protein in America?
+112 | The final potential cause is an increase in snacking and eating out 【over】 recent decades-both in terms
+92 | Fears 【over】 screen-based technology represent the most recent panic in response to technological change.
+152 | People 【over】 45 stimulated by training suffer shorter periods of unemployment, get more job offers and have greater
+145 | modify can react differently to the medicine 【over】 the course of a 24-hour time period.
+113 | Large surveys conducted 【over】 the course of many years tell us that American youth are not going to the cinema nearly as often as they did in the past.
+129 | Calorie conswnption had fallen drastically 【over】 the decades.
+133 | A long-standing debate is going on 【over】 the impact of school absences on students’ academic performance.
+117 | Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors 【over】 the last 25 years.
+142 | Private rental prices in Britain rose 3.2 percent 【over】 the 12 months since July 2022—the largest jump since 2016, soaring energy bills have made things worse. [25] Lucinda May, mom of a Tavern student said that she had to ask her parents for £65 to buy her child the correct pair of shoes.
+100 | Jarvis and his colleagues also found that, 【over】 the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar than they were in 1961.
+98 | The typical supermarket layout has barely changed 【over】 the past 90 years.
+97 | From there you are going to have to legally change your name all 【over】 the place.    ?P:all over the place ?P:all over
+118 | Then there are the questions 【over】 the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.
+135 | They are well received by movie fans from all 【over】 the world.    ?P:all over
+120 | Just as height usually declines 【over】 the years,
+89 | 【Over】 the years, many scholars have insisted that time online does not necessarily take away time spent engaging with traditional media or on other activities.
+134 | But 【over】 the years, things have changed a lot.
+127 | [22] Dozens of British students arriving for their first day of school on Tuesday were sent home 【over】 their shoes.
+140 | skills can be learned and developed 【over】 time.
+141 | gain 【over】 time because food intake at night leads to increased fat storage.
+80 | 【Over】 time, this mechanism can
+108 | But when the robots are switched 【over】 to bilateral control (by flashing the lights in the room),
+102 | It was simply a hindrance they had to get 【over】 to excel.    ?P:get over
+144 | collaboration and teamwork 【over】 traditional organizational structures, no one likes to be told what to do or to be pushed
+85 | healthy snacks and drinks (such as fruit or water) more often 【over】 unhealthy options (like biscuits and soda).
+90 | W: We met 【over】 WeChat.
+83 | with their decision and feel more regretful 【over】 whatever choice they made.
+148 | Among those 【over】 45 who’d successfully switched careers, 74% said
+105 | average vocabulary size of 【over】 21,000 words.
+111 | employment, based on surveys of 【over】 5,000 workers and managers in seven countries.
+132 | Rid themselves of worries 【over】 worldly affairs.
+115 | At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition of $44,046 not including room and board, I receive 【over】 $57,000 yearly in financial aid.
+107 | more than 70,000 nurses 【over】 18 years.
+121 | The results of 10 million school students were examined 【over】 13 years
+130 | The number of senior high schoolers not reading books for pleasure in a year increased three times 【over】 20 years.
+147 | 【Over】 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels
+
+============================================================
+## 词：think    本段 76 句    模式：全标（每句都写）
+原释义：v.想; 认为; 思考.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 认为，觉得    B 样本 52    例：Researchers think yes.
+  1  v. 想，思考    B 样本 11    例：Think about it.
+  2  v. 想到，想起（think of / think about doing）    B 样本 5    例："When I think of motorsports in the U.S., what we all
+  3  v. 看待，觉得…怎么样（What do you think of …?）    B 样本 6    例：important part of how they think of themselves.
+已标过的短语：think of sth as（5）；think tank（1）
+口径说明（照此执行）：
+  - think (that) … / think it + 形容词 / what other people think / as … as we think 按 0；think about sth（思考某事）、think like / think in a … way 按 1；think of + 名词表「想到、想起」、think about doing（考虑做）按 2；what do you think of / how they think of themselves（怎么看待）按 3；think of A as B（把 A 看作 B）统一写 P:think of sth as；think tank（智库）、think sth over、think twice、think up 按短语标。
+句子：
+116 | I mean, getting rid of rush hour may be impossible, but it could be made more tolerable, don’t you 【think】?
+148 | What do you 【think】?
+81 | When we 【think】 about attaining success — whether it’s landing that job or learning that new skill —
+123 | As remote work is largely unobservable to supervisors, employers need to 【think】 about how they can objectively measure the quality of work in a way that is consistent for employees of similar rank.
+115 | 【Think】 about it: what’s something you’ve always wanted to do, but gave up
+147 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could also signal to potential friends or future employers that you are unlikely to 【think】 about the needs of others.
+89 | 【Think】 about the possible effects on their employees.
+98 | Learning and listening can help you 【think】 about things in a different way.
+103 | 【Think】 about when you're cooking, and you just want to know what the next step in the recipe is.
+137 | What does Branyas Morera 【think】 also contributes to a long life?
+129 | Failure will teach you how to 【think】 and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn from it and move forward.
+121 | What does the author 【think】 constitutes a key part of genuine education?
+124 | Left-handed people may 【think】 differently.
+134 | How does the author 【think】 grit can be helpful to us?
+113 | W: [12] Um, I don’t 【think】 he should be doing something so challenging with all his breathing issues.
+100 | It is morally wrong to 【think】 helping the poor is not our business.
+111 | Not to 【think】 highly of her qualifications when promoted or given a pay raise.    ?P:think highly of
+87 | With so much greenery and fresh air, I 【think】 his current breathing problems would probably disappear. [13] They did just open though, so I don’t 【think】 I feel comfortable having our son in the first class of a brand new school.
+155 | In fact, I 【think】 his family owns the business.
+107 | I 【think】 his wife made him soup.
+105 | Sometimes it’s because I actually am busy, but other times it’s because that’s what I 【think】 I’m supposed to say.
+120 | I 【think】 I might try that big new supermarket on the other side of town and see what they have.
+95 | M: (15-2) So you 【think】 I should arrange my notes using color and pictures in place of text.
+140 | Employers should 【think】 instead about the values and soft skills they want to emphasize in a remote work environment.
+92 | So, which supermarket do you 【think】 is the best to order from?
+142 | What kind of social system does the author 【think】 is unacceptable?
+112 | W: I still 【think】 it’s a bad idea to use a credit card for something you don’t need. [11] One of my colleagues bought a lot of things on credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.
+154 | I wouldn’t need to use it every day, but I 【think】 it would be very convenient to have one for the weekends.
+135 | Additionally, we’re the only animal that expresses thoughts in full sentences. [16] Researchers don’t 【think】 language was invented; instead, they 【think】 it evolved.
+126 | We must change the way we 【think】: living well does not need to mean having more private spaces; instead, it could mean having more public spaces.
+88 | “I 【think】 luxury companies have a real role to play and a responsibility,” says Humm.
+133 | W: But I 【think】 most of us want spacious homes.
+85 | That’s not to say that I 【think】 my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+125 | This shows participants three words at a time that appear to be unrelated, and the person has to 【think】 of a fourth word that is associated with all of them.
+149 | We can easily 【think】 of a number of foods and recipes that are both inexpensive and nutritious.
+145 | What do some people 【think】 of aging adults?
+83 | What does the author 【think】 of classical music and opera in today’s world?
+114 | What does the author 【think】 of continuing to ask buyers to sign end-user license agreements?
+132 | What does the author 【think】 of Ford's writing?
+119 | What did Daniel Humm 【think】 of his move to a meat-free menu?
+144 | We often 【think】 of it as an invisible bubble of space surrounding us that others can’t enter, without causing discomfort.    ?P:think of sth as
+150 | What does the author 【think】 of most entrepreneurs?
+94 | What does the author 【think】 of online course assignments?
+102 | We 【think】 of ourselves as “good people”, and even when we do morally wrong things, we understand the context of our decisions.    ?P:think of sth as
+136 | What do scientists 【think】 of REM?
+109 | What does the author 【think】 of research funded by industry or special interest groups?
+101 | I didn’t 【think】 of that.
+110 | What does the author 【think】 of the book Dress Codes: How the Laws of Fashion Made History?
+93 | Richard Pile 【think】 of the dictionary definition of disease?
+122 | What does the author 【think】 of the latest technology in education?
+127 | What does the author 【think】 of the traditional school year in the U.S. today?
+141 | He encourages residents to 【think】 of their age as an enriching new phase of life rather than the end of it.    ?P:think of sth as
+108 | Why do we allow what others 【think】 of us to have so much power over how we feel about ourselves?
+139 | What does the author 【think】 open debate can do?
+96 | Most employees 【think】 positively of it.
+118 | What does the man 【think】 really matters to people?
+97 | What does the author 【think】 schools should do to tackle cheating?
+86 | The man doesn't 【think】 she can be a millionaire.
+131 | make people 【think】 slower; as long as we are alive and functioning, we can alter our brains with new information and
+80 | We are inclined to 【think】 that a lack of knowledge prevents us from advancing to a better future.
+151 | Why do we tend to 【think】 that busy people are of high status?
+146 | M: Yes, [14] but I 【think】 that dream needs to change, considering the cost of housing.
+104 | "You can't help but be awed," he said, "and I 【think】 that feeling can be translated to the viewer.
+128 | In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to 【think】 that people who skip leisure and work all the time are of higher standing.
+90 | I 【think】 that’s a bit too formal.
+106 | M: While most financial planners do give numbers, I don’t 【think】 that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+99 | You may 【think】 that summer is the perfect time to go on a date or chat with an attractive boy or girl.
+82 | W: Well, I 【think】 the local government could help improve things.
+117 | “For now, I 【think】 the negative reputation around games means that telling someone
+152 | Researchers 【think】 the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+130 | But they could also indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter so that the other party would 【think】 they were losing interest.
+153 | I 【think】 those drinks will be enough.
+143 | Managers need to 【think】 twice about emailing their teams on the weekend and talking about how busy they are.    ?P:think twice
+91 | 【Think】 twice about new nutrition research findings.    ?P:think twice
+138 | I 【think】 we should get some beer and wine, and some fruit juice, and other soft drinks.
+84 | Many of us spend far too much time, energy, and money trying to polish an image of what we 【think】 will bring attention,
+
+============================================================
+## 词：use    本段 43 句    模式：全标（每句都写）
+原释义：v.使用; 利用. n.用途; 使用.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 使用，利用    B 样本 64    例：Use rail service.
+  1  n. 使用，运用    B 样本 10    例：The man’s use of the expression ‘fixed’.
+  2  n. 用处，用途    B 样本 2    例：It is of no use in understanding obesity.
+  3  v. （could use）需要，很想要    B 样本 1    例：But realistically, there are some elements of Americanization that the sport could use.
+已标过的短语：make use of（3）
+口径说明（照此执行）：
+  - make use of / make full use of / make the best use of 统一写 P:make use of；名词 use 表「使用这一行为」（the use of…、social media use、for use in…、in use）按 1，表「用处、实用性」（of no use、be of use、marry use and beauty）按 2；could use sth（需要）按 3；use up（用光）、no use doing（做…没用）若出现按短语标。id 5（答题说明，n=28）已标 0 但不计入首要义项。
+句子：
+89 | The software adapts to users' individual language usages, searches, and preferences, with continuing 【use】.
+97 | How serious their protein deficiency is and what remedies they 【use】.
+116 | According to Francis Dittoh, their speech-based weather information service was meant to be inexpensive and easy to 【use】.
+121 | Managers can also 【use】
+85 | They extensively rip off legitimate websites and 【use】 a different website name.
+98 | adults 【use】 a large variety of attributes to manage and create impressions, we don’t yet know whether children ___32___ and
+87 | It gives him a degree of hearing, and he can 【use】 a variety of communication methods depending on the situation.
+96 | Current spacecraft 【use】 a variety of fuels, but most are based on fossil fuels.
+115 | Also, once one bank account gets reported, they simply 【use】 another.
+101 | You may not 【use】 any of the
+114 | Learn to 【use】 appropriate body language first.
+122 | The UK government plans to tax companies which don’t 【use】 at least 30% recycled plastic in their products.
+82 | Economist Jason Murphy says that companies 【use】 customer satisfaction ratings· because a ŧ
+109 | They are forced to 【use】 e-commerce strategies.
+84 | Do they 【use】 formal, direct language?
+92 | F) This is not to say that kids always 【use】 good judgment.
+95 | It is harmful to mankind to 【use】 human-made materials.
+113 | In 2015, two Italian companies, collaborated on the construction of a similar type of spacecraft, which was the first coffee machine designed for 【use】 in space.
+112 | 【use】, including everything from helping to protect the lives of firefighters to keeping homes cool in
+107 | What 【use】 is written online content if you can't read?
+120 | experience mentally when they 【use】 IT.
+93 | need for immediate rewards, why not 【use】 it to your advantage?
+106 | Intelligent people are more prone to silly mistakes because of blind spots in how they 【use】 logic.
+105 | Also, speak to the person you’re booking the villa with on a landline phone, as fraudsters tend to only 【use】 mobiles.
+117 | Plastic packaging makers are being pressured to 【use】 more recycled plastic.
+90 | But now it is cheaper for major manufacturers to 【use】 new plastic.
+108 | Smaller manufacturers may also be forced to 【use】 new plastic to reduce costs.
+86 | My school charges an additional fee for the 【use】 of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to your bill.
+83 | I would argue that of all the changes brought about by the widespread 【use】 of digital devices, the huge decline in reading is likely to have the biggest negative impact on today’s teens because reading books and longer articles is one of the best ways to learn critical thinking.
+119 | Research has found the 【use】 of digital technology benefits not only teenagers’ social lives but also their studies.
+94 | Effective 【use】 of persuasion skills will not only help get your coworkers excited about your ideas, it’ll also help
+110 | They say that kids 【use】 overly casual language and text-speak in writing, and don’t have as much patience for long reading and complex arguments.
+103 | Over a decade or so, American teens’ social media 【use】 shifted from an occasional activity to a routine one.
+91 | Chase Carey believes greater 【use】 should be made of digital technology to make Formula One more accessible to its fans.
+80 | To be honest, I could 【use】 some help in deciding what type of vehicle would best suit my needs.
+99 | Horn has found that certain creatures 【use】 strategies similar to bilateral control to avoid hitting each other while moving in
+81 | What does the author 【use】 the example of his father· to illustrate?
+111 | 【use】 the fact that different attributes are valuable at different times to different ___33___.
+102 | The craft will 【use】 the heat of re-entry to roast coffee beans as they float inside it in a pressurised tank.
+88 | Learn to 【use】 the internet for research.
+100 | Teachers tend to still 【use】 this format because of either the need to control students or the belief that the teacher is the most important person in the room.
+104 | Simple questions like, “What three words would you 【use】 to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.
+118 | They 【use】 tricky strategies to promote their business.
+
+============================================================
+## 词：years    本段 62 句    模式：全标（每句都写）
+原释义：n.年; 岁(year 的复数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 年，年头（几年；多年）    B 样本 70    例：It was born 13 years ago.
+  1  n. 岁（… years old，表示年龄）    B 样本 7    例：When we are 3 or 4 years old.
+  2  n. （人生的某段）时期，岁月（school years, middle years）    B 样本 3    例：their post-work years.
+  3  n. 年度，学年    B 样本 0
+口径说明（照此执行）：
+  - in recent years / over the years / for years 都按义项「年」标，不算短语；years old、years of age 标「岁」。
+句子：
+89 | Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 【years】.
+90 | Cube Movie Theatre has been around now for 11 【years】.
+99 | They could become unavailable in less than 30 【years】.
+104 | This began a journey to transform our practice and challenge the ways of learning for a group of Year 6 students used to sitting in desks and rows for 【years】.
+107 | This is due to a lack of action from ministers, who’ve failed to take any meaningful action for 【years】.
+110 | The number of senior high schoolers not reading books for pleasure in a year increased three times over 20 【years】.
+119 | The collection stayed at that location for 600 【years】.
+129 | A former motorbike parts dealer led Formula One for the past forty 【years】.
+140 | The rate of wage increase in terms of purchasing power has slowed down for 【years】.
+141 | The typical supermarket layout has barely changed over the past 90 【years】.
+135 | There is some debate about which was the very first, but over the 【years】 a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+86 | M: Didn’t South Africa host the Football World Cup a few 【years】 ago?
+94 | F) “We did a study on paternity leave five 【years】 ago.
+127 | Most people spend much more time interacting with digital media than they did ten 【years】 ago.
+115 | Compared to five 【years】 ago, according to one researcher, many more people said their organisation gave the same support to men and women taking parental leave.
+120 | vegetable burger 【years】 ago and dismissed it as rubbery and flavorless, it’s a good time to give meatless meat another chance.
+92 | My friend brought me a pair from there five 【years】 ago, and they still look new.
+133 | Some five 【years】 ago, high school seniors in America generally spent more than six hours a day on electronic devices.
+100 | “Then when I changed schools four 【years】 ago, I introduced it here because it helps to develop so many
+88 | So it was when a recent letter came from Kelli Harding, a student 21 【years】 ago in my Peace Studies summer course in Washington.
+136 | Fifty 【years】 ago, it looked like that might change.
+121 | Over 50 【years】 ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels
+114 | "Lion dancing started 2,000 【years】 ago—that's incredible," she said.
+138 | For some 300 【years】, Americans had fed themselves from small stores and public markets.
+113 | Bear in mind, they will last me several 【years】 and they’re very fashionable too.
+112 | "I think they can build Formula One in the U.S.," said Patrick Crakes, an executive at In Vivo Media Group who spent 25 【years】 at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports.
+83 | He was 52 and had retired to Stratford three 【years】 before.
+111 | This one, in particular, was closed for 47 【years】 before we transformed it into a movie theatre.
+123 | “Many people ask me what diet I follow to live so many 【years】,” Branyas wrote.
+106 | She led an active lifestyle until her later 【years】 but has never followed a specific diet.
+98 | discussion around careers for 【years】—especially for working parents.
+82 | During the secondary school 【years】, extending what is learned at school is positively related to academic achievement, so the content of homework becomes more important.
+132 | Research published in recent 【years】 has shown that running changes your brain and mind in some fascinating ways, from increasing your brain function to regulating your emotions.
+118 | Winning entries in past 【years】 have
+125 | In a million words written over 20 【years】, he _34_ the full range of human emotions and conflicts with a _35_ that remains sharp today.
+108 | He did not go to university and at age 18 married Anne Hathaway, who was eight 【years】 his _32_.
+122 | K) Twelve 【years】 into his career, Mark Long, a radiotherapy physicist with the NHS in Surrey, doesn’t get as much gaming
+96 | Taken in a practical way, saving for post-work 【years】 is like giving money away to others.
+91 | At Fox Broadcasting Company, he was a top advisor for 【years】, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.
+130 | hit songs of the 1950s, researchers found, there was only slightly more than one 50 【years】 later.
+109 | Seven 【years】 later, they were proven wrong.
+126 | (19-2) The review concluded that on average runners live three 【years】 longer than non-runners and that running does more to extend life than any other form of exercise.
+102 | fight phantom jams within a few 【years】, maybe decades before an alternative solution, such as networked self-driving cars,
+105 | “If they say they want leadership — why can’t I point to my 【years】 of leading World of Warcraft raids?
+87 | In their first 18 【years】 of life, American children spend only 9% of their time in school.
+137 | considerations such as 【years】 of slow rise in real wages and a shift away from traditional pensions in the private sector are
+134 | One was with high school students and the other with more than 1,000 Australian adults aged between 24 and 60 【years】 old.
+95 | He was 12 【years】 old and not expected to place highly.
+101 | Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 【years】 old, and there are more images of animals than humans.
+128 | The fact that we have been open and in business for all these 【years】 proves that.
+93 | Chan, who has been involved with the club for nearly 50 【years】, said that passing the dance from one generation to the next was vital.
+124 | Studies in recent 【years】 show that left-handed children are more likely to suffer with learning difficulties and their scores are lower on IQ tests.
+85 | Many 【years】’ surveys reveal that young people in America are going to the cinema much less often than they used to.
+116 | Researchers found that participants who saw the images of their aged selves would save more for their later 【years】 than
+81 | “It’s been well documented in extensive research over the 【years】 that prevalence rates for the majority of the anxiety disorders are higher in women than men.
+84 | Over the 【years】, the family spotted her a few times.
+131 | the past 20 【years】, the share of Americans working in their 70s has risen from less than 10% to nearly 15%.
+117 | the next four 【years】, they were 40% less likely to quit than those who kept working under the old policies.
+139 | But over the 【years】, things have changed a lot.
+97 | and researchers found a “significant” link between 【years】 with extremely hot weather and lower results.
+103 | Department of Finance to give him a few 【years】’ worth of sales figures for that stretch of Skillman Ave.
+80 | three or four 【years】, you simply weren't getting ahead in your career.
+
+============================================================
+## 词：making    本段 7 句    模式：全标（每句都写）
+原释义：n.制造; 形成. v.制作; 使(make 的现在分词).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 做，作出，进行，制定（决定、选择、努力、准备、错误、计划等）    B 样本 42    例：before making your choices.
+  1  v. 使，让（make sb/sth + 形容词/名词/动词）    B 样本 17    例：By making it part of the job.
+  2  v. 制作，制造（东西）    B 样本 8    例：Making a shopping list.
+  3  v. 挣（钱）    B 样本 1    例：Universities today are in the business of making money, and mine is no exception.
+  4  v. 结交（朋友）    B 样本 2    例：People who are emotionally stressed may have trouble making friends.
+  5  n. 制作，制定（如 decision making 决策）    B 样本 3    例：J) Carey's background is in deal making and innovation.
+  6  v. 成为，适合当（make a good teacher）    B 样本 0
+已标过的短语：make up（2）；make a mess（2）；make a habit of（1）；make the most of（1）；make sure（1）
+已标 X：1 句，如：Answer the questions by making the corresponding letter on Answer Sheet 2.
+口径说明（照此执行）：
+  - make up（编造）、make sure、make the most of、make a habit of、make a mess (of sth) 按 P 标；make progress / make an effort / make a decision / make sounds 都按义项0标；decision-making 这类复合词里的 making 标义项5。id15「Answer the questions by making the corresponding letter」是卷面 marking 的错字，标 X。
+句子：
+85 | To discourage them from 【making】 complaints.
+83 | outdoor seating so much that cities are 【making】 it permanent: A New York City study of several streets closed during Covid    ?P:make it
+84 | found storeowners 【making】 more than before, and diners enjoying the outdoor lifestyle.
+80 | 【Making】 sounds helps one communicate with people they can’t see.
+82 | There’s a rising amount of data showing that installing bike lanes and 【making】 streets more pedestrian-friendly boosts the
+81 | infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by 【making】 towns more bike-friendly.
+86 | 【Making】 treatments less complex by taking drug timing into account.
+
+============================================================
+## 词：now    本段 47 句    模式：全标（每句都写）
+原释义：adv.现在; 目前; 立刻.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 现在，目前，如今    B 样本 68    例：There is now.
+  1  adv. 立刻，马上    B 样本 1    例：I’m going to go on the computer now and give it a try.
+  2  adv. （口语，引起注意或转换话题）好了，那么    B 样本 3    例：Now comes the part when you put on your detective hat and do a little digging.
+  3  adv. （叙述过去的事）这时，当时    B 样本 2    例：allowed to wear certain fabrics, colors and ornaments reflected the rise of the middle class, who were now able to imitate
+  4  n. 现在，此刻（until now, by now）    B 样本 0
+已标过的短语：now that（4）；for now（2）
+口径说明（照此执行）：
+  - now that（既然）、for now（暂时，目前）按 P 标；right now 表「此刻，目前」时按义项0标；作文指令「You are now to write…」按义项0标（这类答题说明约占十分之一）。
+句子：
+108 | However, that does not mean teens need to use electronic devices as often as they do 【now】.
+110 | I’ve been working from home for more than 10 years 【now】.
+113 | W: Oh, I understand 【now】.
+120 | It places increasing emphasis on fishing 【now】.
+123 | What have businesses come to recognize 【now】?
+124 | Why a Nobel Prize for the WFP, and why 【now】?
+125 | 【Now】 a large-scale study has tried an innovative approach to change teenagers’ attitudes towards healthy eating, and the
+122 | Junk food is 【now】 a staple of many Americans’ diets.
+107 | With obesity 【now】 affecting 29% of the population in England, and expected to rise to 35% by 2030, should we 【now】 recognise it as a disease?
+111 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors 【now】 and it’s a sport that could help him understand team spirit while cooperating with others.
+100 | But instead of leaving and never coming back, it invited its friends round. [5] There are 【now】 at least five different cats who come almost on a daily basis.
+114 | The age-long mystery has 【now】 been resolved as to how phantom traffic jams are caused.
+92 | Supermarkets may not feel cutting-edge 【now】, but they were a revolution in distribution at the time.
+86 | M) I have 【now】 come to realize that being boring, in actuality, is not only about who you are as a person, but also how you present yourself.
+91 | According to one recent business report, recycled plastic 【now】 costs an extra $72 a tonne compared with newly-made plastic.
+93 | How do most Los Angeles residents 【now】 feel about homelessness?
+81 | Basically, she miscalculated how fast she was burning through the money, and she’s 【now】 full of regret.
+103 | “For 【now】, I think the negative reputation around games means that telling someone    ?P:for now
+104 | W: If you have time right 【now】, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.    ?P:right now
+83 | And 【now】 I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather than getting everyone to sit down at the table to eat a meal.
+115 | restructured Zentech, once a taxation vehicle for his father’s business, and it is 【now】 in its fourth year helping international
+126 | Dreams 【now】 include multiple events strung together, one after the
+106 | What's needed 【now】 is a marketplace platform specifically designed to bring freelancers and
+98 | The state of your life right 【now】 is a result of the habits    ?P:right now
+121 | But if that resolution was to volunteer more, 【now】 is the best time to start.
+97 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more than what I had budgeted, and by 【now】 it’s just a habit.
+84 | Many companies 【now】 look to these "ultimate professionals" to solve
+82 | Owing to the internet, it is 【now】 more convenient than ever to receive training in new skills.
+89 | 【Now】, more than three-tenths are.
+112 | 【Now】 most people living in high-income nations are consuming enough protein.
+88 | They are 【now】 places that provide meals.
+109 | In fact, some 35 countries, including China, 【now】 produce more farmed than wild-caught fish.
+102 | 【Now】, she notes ironically, the lanes are so foil of activity that opponents
+119 | Survey analysis shows American teens 【now】 spend their leisure time on digital devices rather than reading printed books.
+90 | Colour is 【now】 spreading through our homes, up staircases, across wood frames and ceilings, filling in neutral spaces.
+99 | indicators that both opera and classical music are 【now】 still quite alive.
+96 | In fact, scientists 【now】 suspect accumulating novel experiences, facts, and skills can keep people’s minds more flexible.
+85 | And 【now】, the World Health Organization has recognized addiction to computer games as a disease.
+105 | 【Now】, this impressive new accomplishment validates Eleven Madison Park’s decision to take meat off the menu and
+118 | It is 【now】 too widespread to be neglected.
+87 | 【Now】, watching movies is something that most teens do alone.
+117 | What does the author say about people 【now】 working for several businesses at the same time?
+101 | Horn is 【now】 working with the car company Toyota to enable a form of bilateral control via modifications to existing
+95 | Students 【now】 write longer and more complex essays than their counterparts in previous decades while the error rates remain unchanged.
+80 | He’s 【now】 writing a book on the topic.
+116 | Playing the piano is among the things the world’s oldest person believes has contributed to her long life. [19] Branyas Morera is 【now】 115 years and 320 days old.
+94 | But for as long as you want to stay safe, and for as long as you are content with where your business is right 【now】, you will never find out.    ?P:right now
+
+============================================================
+## 词：why    本段 42 句    模式：全标（每句都写）
+原释义：adv.为什么; …的原因. n.原因; 理由.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 为什么，…的原因（引导从句：explain why；that's why 这就是…的原因）    B 样本 42    例：That is why
+  1  adv. 为什么（直接提问）    B 样本 36    例：But why not?
+  2  n. 原因，理由    B 样本 0
+  3  int. 咦，哎呀（表示惊讶）    B 样本 0
+已标过的短语：why not（2）
+口径说明（照此执行）：
+  - Why not…?（为什么不…，表建议）按 P:why not 标；字面问「为什么不呢」（如 But why not?）按义项1标。题目/标题里不带问号的「Why their numbers are so high.」这类名词性从句片段按义项0标，带问号的标题按义项1标。义项0和1在这80句里数量接近（约40比36），全量统计后首要义项可能对调。
+句子：
+103 | If that were the case, 【why】
+118 | If you are not aware as to 【why】
+98 | 【Why】 a Nobel Prize for the WFP, and 【why】 now?
+107 | 【Why】 are classical music pieces still used as background music in modern movies?
+113 | 【Why】 are immigrants doing so well?
+89 | 【Why】 are organizations and leaders advised to adopt powerful persuasion skills to bring about necessary changes?
+88 | 【Why】 are these sports becoming so popular?
+120 | That’s 【why】 brain scientist
+104 | 【Why】 can it be difficult for us to maintain self-control?
+95 | “If they say they want leadership — 【why】 can’t I point to my years of leading World of Warcraft raids?
+109 | “The engagement and powerful skills that people get playing a game — 【why】 can’t work be like
+112 | 【Why】 did America's traditional school year have a three-month summer vacation?
+81 | 【Why】 did Bill Thomas try something different in the nursing home?
+92 | W: Then 【why】 did he have the operation?
+114 | 【Why】 did the author and his colleagues launch the Out of Office Email Generator?
+108 | 【Why】 do doctors advise patients to take most drugs in the morning or in the evening?
+115 | from the increased productivity since Keynes's time — can afford to work less, 【why】 do they continue to work so much?
+119 | 【Why】 do we allow what others think of us to have so much power over how we feel about ourselves?
+102 | 【Why】 do we tend to think that busy people are of high status?
+93 | 【Why】 does the author mention the invention of the rock opera?
+80 | 【Why】 does the author say aquaculture is so important these days?
+97 | 【Why】 does the author say some experts’ anxiety seems misplaced?
+110 | 【Why】 does the woman feel uncomfortable about sending Jake to Lakeview School?
+96 | 【Why】 does the woman say she swears it?
+100 | 【Why】 friends break off contact all of a sudden.
+117 | Friedman believes inequality in the U.S. largely explains 【why】 increasing productivity has not resulted in reduced working
+82 | 【Why】 is the U.S.
+90 | 【Why】 it’s wrong to look at work-life balance as an achievement
+105 | Environmental campaigners are struggling to understand 【why】 nations blessed with clean tap water grow only fonder of the
+101 | I don’t see 【why】 not.    ?P:why not
+116 | them with tap water, 【why】 not add flavouring?    ?P:why not
+83 | 【Why】 people fail to respond to emails promptly.
+94 | This cycle is the reason 【why】 people rest at night
+87 | People often wonder 【why】 some entrepreneurs have greater success than others.
+86 | In a new paper, Friedman tries to figure out 【why】 that increased productivity has not translated into increased leisure
+106 | Researchers think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear 【why】 the Queen built the zoo, but it might have been to show off her wealth and power.
+111 | This is 【why】 the work of the WFP is so vital.
+121 | It's that maybe old dogs don't realize 【why】 they should.
+84 | W: (9-2) That explains 【why】 they suddenly disappear.
+99 | However, the research does not explain 【why】 this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+85 | That’s 【why】 we recently launched the Out of Office Email Generator, a free tool you can use before your next long weekend or trip.
+91 | If we care about plastic waste, 【why】 won’t we stop drinking bottled water?
+
+============================================================
+## 词：learn    本段 43 句    模式：全标（每句都写）
+原释义：v.学习; 学会; 得知.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 学习，学会（learn from 从…中学习，吸取教训）    B 样本 48    例：learn new skills.
+  1  v. 得知，了解到，认识到    B 样本 32    例：To learn how popular zoos could be.
+  2  v. 记住，背熟    B 样本 0
+口径说明（照此执行）：
+  - 题干「What do we learn from/about…?」很多，一律标义项1「得知」；learn about 侧重了解情况时标1，侧重学习知识技能（如 learn about budgeting and marketing）标0；learn a lesson、learn from mistakes 标0。learn by heart（背熟）按 P 标，learn one's lines 这类单独表「背」的标义项2。
+句子：
+95 | The role of teachers in motivating children to 【learn】.
+97 | They are unmotivated to 【learn】.
+110 | our thoughts are immediately burdened by all the things we must first 【learn】.
+89 | 【learn】 a foreign language.
+100 | Reading a book on how to 【learn】 a foreign language quickly allows you to feel like you are making
+115 | Knowing the best way to 【learn】 a foreign language will not enable you to speak it without actual practice.
+102 | What do we 【learn】 about advertising campaigns from the snack food companies?
+117 | What do we 【learn】 about Branyas Morera?
+90 | Students benefit from Design Ventura because they can 【learn】 about budgeting and marketing in addition to game design.
+81 | What do we 【learn】 about emotional intelligence from a number of studies?
+120 | What do we 【learn】 about extremely shy students sitting in the front row of the classroom?
+118 | What do we 【learn】 about genetic health tests from the passage?
+112 | What do we 【learn】 about Hannah from the conversation?
+105 | What do we 【learn】 about male teachers from their responses in the study?
+113 | What do we 【learn】 about New York’s Eleven Madison Park?
+122 | What do we 【learn】 about publicity over protein in America?
+96 | What do we 【learn】 about social customs in Arabian countries?
+85 | What do we 【learn】 about the culture of busyness from a recent study?
+82 | What do we 【learn】 about the WFP’s effort to eliminate hunger?
+91 | That’s not to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to 【learn】 and grow along the way.
+84 | To allow them to 【learn】 as many job skills as possible.
+107 | They can 【learn】 at their own pace.
+92 | “It also helps with meta-skills — learning how to 【learn】, experimentation, and
+99 | 【Learn】 from entrepreneurs.
+101 | What do we 【learn】 from new research about pandas?
+121 | What do we 【learn】 from research in human-vehicle interaction?
+83 | What can we 【learn】 from research on diets in developed countries?
+93 | What do we 【learn】 from the news report about the egg price in the U.S.?
+103 | What do we 【learn】 from the news report about the restaurant Net Ease House?
+86 | What do we 【learn】 from the passage about Red Rum the racehorse?
+108 | What do we 【learn】 from the passage about researchers like birdwatchers and rock collectors?
+119 | Learning can benefit you by itself but only practice can turn what you 【learn】 into meaningful contributions.
+88 | it is possible to not only 【learn】 it, but also strengthen it with constant exercise.    ?P:not only ... but also ?P:not only...but also
+111 | are in REM, it allows their brain to develop pathways, connections, and eventually, 【learn】 languages.
+104 | we can do to help ourselves is to go online and 【learn】 new, relevant skills.
+114 | Having a growth mindset of interest can help job seekers expand their interests and become more adaptable to different fields, and take the initiative to 【learn】 new skills.
+94 | J) If they think we’re too old to 【learn】 new skills after we’re 45, just learning some new skills may have an effect on its own.
+87 | Richard Kennedy says “It’s not that old dogs can't 【learn】 new tricks.
+109 | It is not the things we 【learn】 nor the dreams
+80 | You might 【learn】 something, but you don’t actually have to do anything.
+116 | If you want that new job, you have to 【learn】 the
+98 | 【Learn】 to cope with people’s negative feelings.
+106 | 【Learn】 to use appropriate body language first.
+
+============================================================
+## 词：any    本段 11 句    模式：全标（每句都写）
+原释义：adj.任何的; 一些. pron.任何; 无论哪个.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  det. 任何的，无论哪个（肯定句：哪一个都行）    B 样本 29    例：Remove any store signs.
+  1  det. （用于否定句）任何，一点（not any 一个也没有）    B 样本 24    例：It doesn't tell any stories.
+  2  det. （用于疑问句、条件句）一些，什么    B 样本 11    例：or any other behavior?
+  3  pron. 任何一个，任何一些（any of …）    B 样本 9    例：You may not use any of the
+  4  adv. （用在比较级前）一点，丝毫（any more, any less）    B 样本 2    例：And with four of us, it wouldn’t cost any more than living in the dorm.
+已标过的短语：at any rate（1）；at any cost（1）；not any more（1）；any minute（1）
+已标 X：1 句，如：It can get any where in the city within 15 minutes.
+口径说明（照此执行）：
+  - without / lack / prohibited / hard to / before 这类带否定意味的语境标义项1；evaluation of any injuries、identify any differences 这种「可能有的」标义项2；than any other 标义项0。not any more（不再）、at any rate、at any cost、any minute 按 P 标；wouldn't cost any more than 里的 any more 是「一点也」，标义项4。id11「any where」是 anywhere 被拆开，标 X。
+句子：
+88 | H) If you plan on paying off bills in your student account with a credit card, be aware of 【any】 additional costs.
+87 | In 【any】 case, it’s    ?P:in any case
+80 | Ford's thesis is that the best way to understand what particular fashions meant in 【any】 given era is to look at the restrictions
+89 | Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of 【any】 long-term break, students do not feel detached from the school environment.
+82 | She no longer has 【any】 money left.
+90 | featuring sports stars, send the message that we can neutralize 【any】 negative effects of consuming their products simply by
+85 | My financial aid did not anticipate 【any】 of these costs, and so it did not cover them.
+86 | And Formula One has that more than 【any】 other racing series.
+81 | Without organisational support, 【any】 personal effort to maintain work-life balance will be unsuccessful.
+83 | “I have always eaten little, but everything, and I have never followed 【any】 plan.
+84 | When debates in 【any】 sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.

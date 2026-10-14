@@ -17,6 +17,7 @@ from pathlib import Path
 import spacy
 
 from build_frequency import clean, WORD_RE, DROP_POS, ROMAN_JUNK
+import corpus_window
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "output"
@@ -37,7 +38,7 @@ def main():
     # group corpus files into exam sets
     sets: dict[str, list[Path]] = {}
     for sub in ("papers", "listening"):
-        for f in sorted((CORPUS / sub).glob("*.txt")):
+        for f in corpus_window.files(sub):          # only papers inside corpus/window.json
             sets.setdefault(set_key(f), []).append(f)
     print(f"exam sets: {len(sets)}")
 

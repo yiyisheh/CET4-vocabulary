@@ -1,0 +1,614 @@
+# 任务 C_r1_14：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_14.labels.txt
+
+============================================================
+## 词：a    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.一(个); 任一(个).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 一（个），一种（泛指）    B 样本 76    例：After you hear a
+  1  art. 每一（表示每个单位，如 twice a week）    B 样本 0
+  2  art. 任一（泛指一类事物，如 A dog is a loyal animal）    B 样本 0
+已标过的短语：a lot of（1）；a number of（1）；a few（1）
+已标 X：2 句，如：best answer from the four choices marked A), B), C) and D).
+口径说明（照此执行）：
+  - 选项字母 A)（marked A), B), C) and D)）标 X；a lot of / a number of / a few / a little / a variety of 等按 P 标；a dozen、a year、a month、a piece of 等普通数量用法按 0 标。
+句子：
+90 | Then mark the corresponding letter on Answer Sheet 1 with 【a】
+110 | fillX 2021 &f 6 【A】    ?X
+373 | Economist Jason Murphy says that companies use customer satisfaction ratings· because 【a】 ŧ
+377 | But instead, (3-2) the young sheep escaped into 【a】 200-acre forest near the farm.
+88 | best answer from the four choices marked 【A】), B), C) and D).Then mark the corresponding letter on Answer Sheet 1 with 【a】    ?X
+453 | from the four choices marked 【A】), B), C) and D).    ?X
+631 | must choose the best answer from the four choices marked 【A】 ) , B ) , C ) and D ) .    ?X
+663 | the four choices marked 【A】), B), C) and D).    ?X
+271 | Officials at Reid Park Zoo in Tucson Arizona are celebrating the birth of 【a】 baby elephant.
+301 | outside for some seasonal snowman-building and snowball throwing, against 【a】 background of joyful pop music.
+520 | It doesn't seem to be 【a】 balanced diet.
+434 | Treat her friends in 【a】 bar.
+591 | What type do you think would be suitable for 【a】 barbecue?
+539 | W: (8-1) Hi, I wish to buy some cheese for 【a】 barbecue this weekend.
+643 | For 【a】 barbecue, you could have any cheese you want.
+618 | and losing weight becoming 【a】 better parent, saving more money, and so on.
+220 | It got injured in 【a】 big bushfire.
+374 | She has 【a】 big family of six.
+399 | Lesley Harper, who runs one of the pubs, said the cat has been 【a】 big hit with their customers.
+536 | And there’s 【a】 big mountain that overlooks the city.
+265 | It is offering 【a】 big reward to anyone who helps.
+285 | It will allow Africans to play 【a】 bigger role in world trade.
+143 | It hit 【a】 bird shortly after takeoff.
+138 | Hold 【a】 birthday party for him.
+290 | Welcome to Frank’s restaurant where customers are paying for meals and leaving receipts on 【a】 board.
+554 | Go on 【a】 boat trip.
+674 | There’s 【a】 Bobo Man cartoon popular amongst young children, you see.
+190 | He is 【a】 bold and aggressive pet.
+416 | Pass 【a】 book to him.
+474 | He wants to provide 【a】 bridge for people to connect in an area that has been divided by class and wealth by providing affordable breakfasts.
+490 | 【A】 bundle containing thousands of pounds got stolen.
+629 | He is starting 【a】 business.
+592 | To sign 【a】 business contract.
+578 | W: Well, I had thought about baking 【a】 cake, and some biscuits.
+324 | They installed 【a】 camera to monitor sheep activity.
+330 | It costs more than twice as much as 【a】 car ride.
+331 | 【A】 car ride for the same journey costs less than half as much.
+533 | Tons of gold have fallen out of the sky in Russia after 【a】 cargo plane malfunctioned in midair this morning.
+476 | “Sometimes 【a】 cat will walk on 【a】 phone and cut off the call, or they shut down the computers by walking onto the off switch.
+107 | Environmental activism during the 1960s ___27___ Wisconsin Senator Gaylord Nelson to create 【a】 ___28___ celebration
+515 | It seemed to give him 【a】 certain uniqueness.
+672 | I can understand some scars and physical defects can be ugly and distracting, but not Johnny’s. [14] In fact, I thought it added character… like it gave him 【a】 certain uniqueness.
+341 | Have 【a】 chance of winning 【a】 $100 prize.
+313 | Event organizer Benjamin Kowalczyk says he’s excited that athletes will get 【a】 chance to come back and demonstrate their abilities.
+321 | We're _lQ_ to rate our apps when we've barely had 【a】 chance to use them.
+526 | It doesn’t take donations and doesn’t want to be seen as 【a】 charity.
+208 | Outside the office of 【a】 charity foundation.
+322 | Hire 【a】 charter jet to bring the pets back.
+115 | She was pierced by 【a】 chicken bone.
+169 | This special medical procedure revealed she had 【a】 chicken bone stuck in her lung.
+544 | As 【a】 child I used to love the Scooby-Doo cartoons.
+662 | It’s written by 【a】 Chinese science fiction writer. [9] I can’t remember his name, but he’s written three books in all, and *The Three Body Problem* is the first in the series.
+499 | "You want to play in 【a】 circle," Victor Fong, aged 24, told his students at the New York Chinese Freemasons Athletic Club.
+235 | She was accused of violating 【a】 city law.
+412 | But what else can you expect in 【a】 city this big?
+558 | This is not the first time 【a】 clone has been made of 【a】 star police dog.
+402 | Genetic researchers in China have made 【a】 clone of 【a】 star police dog.
+343 | 【A】 Club Where Lions Dance and Traditions Take Root
+381 | During the British winter, the thought of two weeks in 【a】 coastal villa (别墅) with soul-stirring views of the sea and 【a】 huge pool to enjoy is enough to offset (抵消) the labor until the holidays start.
+610 | M: [8] 【A】 colleague mentioned the book, but I’ve been so busy writing my thesis that I haven’t been able to read for pleasure in months.
+571 | cars on the road, rather than driving so closely behind another vehicle that 【a】 collision is likely if that vehicle brakes
+311 | Traffic jams are 【a】 common problem of most big cities, either in developed or in developing countries, but one kind of
+229 | 【A】 company spokesperson said the operations at the site had been halted while the investigation is ongoing and that the break had posed no safety threat to workers.
+383 | But Bangalore airport says it is 【a】 competitive alternative to 【a】 car ride for tech executives in 【a】 hurry.
+567 | When they wanted to have 【a】 competitive team member.
+315 | Not welcoming children under ten is 【a】 complete slap in the face to families.
+294 | There is to be 【a】 conference call.
+183 | She was involved in 【a】 conflict with bird lovers.
+522 | At 【a】 construction site.
+619 | When they were looking for 【a】 cooperative workmate.
+95 | They will have 【a】 costly bill to pay to heat their homes.
+534 | Compared with teens 【a】 couple of decades ago, the way they interact with traditional media like books and movies is fundamentally different.
+280 | They needed to stay in the hospital for 【a】 couple of months.
+479 | Three years ago, 【a】 couple was enjoying 【a】 meal at 【a】 beach restaurant.
+557 | He heard about it from 【a】 coworker.
+357 | Video of the rescue operation shows how the team used 【a】 crane to lift up the huge animal out of the well and onto the back of 【a】 truck.
+351 | It is condemned as 【a】 crazy idea.
+428 | It had 【a】 crew member fix the problem.
+118 | She has to face 【a】 criminal charge.
+283 | It’s like my brain decides to have 【a】 crisis.
+217 | Online purchases are Ť followed up by 【a】 customer satisfaction survey.
+159 | Then the person can abandon the eggs without consequence,” 【a】 Customs and Border Protection spokesperson said.
+414 | But instead of leaving and never coming back, it invited its friends round. [5] There are now at least five different cats who come almost on 【a】 daily basis.
+228 | They could go home together with their mother 【a】 day later.
+385 | The mother who is in stable condition could return home 【a】 day later if all physical tests came back normal.
+638 | Indeed, by 2016, the average American high school senior said they spent six hours 【a】 day writing text messages, on social media, and online during their free time.
+144 | 【A】 deadly snake, which had finally been tracked down after escaping 【a】 zoo, has slipped away for the second time.
+482 | Most of us spend much more time with digital media than we did 【a】 decade ago.
+105 | It has implemented 【a】 decision to expand business.
+309 | Make 【a】 decision within 【a】 few days.    ?P:a few
+441 | Almost all of them were operating at 【a】 deficit.
+595 | M: Oh, was there 【a】 delay?
+636 | Order 【a】 delivery.
+470 | In 【a】 deserted house.
+420 | But the one thing that can really make 【a】 difference?    ?P:make a difference
+254 | There are now dozens of criminal cases in which offenders have ___31___ themselves off as people of 【a】 different age, race
+362 | The supermarket is known for its loyal customers, but now has 【a】 different kind of visitor that has appeared over the last year.
+202 | When trial participants were asked to choose between photographs of faces of 【a】 different race from theirs, response times
+589 | They extensively rip off legitimate websites and use 【a】 different website name.
+540 | Offering existing members 【a】 discount off two new classes.
+488 | She is entitled to 【a】 discount on all the gym exercises.
+473 | Cook 【a】 dish for the party.
+465 | 【A】 display of 【a】 variety of products increases consumers’ interest.    ?P:a variety of
+633 | Small early career setbacks seem to have 【a】 disproportionate effect
+579 | Driving too long 【a】 distance.
+545 | She regards smartphones as 【a】 distraction.
+242 | He once bit 【a】 doctor’s receptionist.
+543 | Or I could perceive my birthday as an opportunity to do something for others like asking people to make 【a】 donation instead of buying 【a】 gift.
+445 | It originated from 【a】 donation to her staff.
+342 | The idea for the board of free meals started after 【a】 donor came in with $100 for each member of its staff.
+462 | Most people have 【a】 dream in life, 【a】 vision of who or what they’d like to be in the future.
+94 | Christian has been 【a】 driver for 25 years.
+179 | 【A】 Durham Police spokesperson said the money has been returned to the lucky finders in all cases except yesterday.
+668 | “This study ___28___ what we are learning about how manipulating vision can have 【a】 ___29___ effect on the ability of an
+154 | British astronaut Tim Peake is stepping down permanently from his role as 【a】 European astronaut.
+150 | which showed 【a】 ___26___ face and which showed 【a】 person wearing 【a】 mask.
+494 | Firstly, the association cited changing diets, (6) in particular the switch to those low in calories, as 【a】 factor in the reduction of bread consumption.
+546 | Finally, the rising cost of bread is considered to be 【a】 factor, with the price of 【a】 French stick loaf increasing by nearly 25% in the last 10 years.
+594 | They enjoyed 【a】 fairly affluent life.
+449 | I landed badly during 【a】 fall and twisted it 【a】 little, but it’s no big deal.
+249 | Snow days are 【a】 familiar theme in American film and TV shows, with children getting the good news and then running
+601 | He is 【a】 famous writer.
+541 | Although Palmdor is one of the most famous private islands in the world, its seafront is public land and is 【a】 favorite destination for famous people.
+323 | It is 【a】 female and she weighs nearly 130 kilograms.
+409 | It was then taken to an examining room for evaluation of any injuries. [7] The elephant was kept under close supervision for 【a】 few days before it was successfully released back into the wild.    ?P:a few
+575 | W: I’m not sure of the exact figure, but it’s 【a】 few million Euros, maybe five million Euros after tax.    ?P:a few
+525 | Prepare 【a】 few opening remarks.    ?P:a few
+481 | Over the years, the family spotted her 【a】 few times.    ?P:a few
+360 | In the absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced in high volumes that are worn only 【a】 few times and then discarded.    ?P:a few
+293 | Thus, he and his friends decided to grab 【a】 few trash bags and clean it all up.    ?P:a few
+259 | But 【a】 few years after his surgery, scientists found that he could ___33___ see.    ?P:a few
+588 | M: Didn’t South Africa host the Football World Cup 【a】 few years ago?    ?P:a few
+232 | 【A】 few years ago I found myself teaching 【a】 university class on evil.    ?P:a few
+292 | One should foresee 【a】 financial crisis.
+141 | Due to 【a】 fire alarm in their apartments.
+112 | performance on 【a】 five-star scale.
+86 | Instead, the officer discovered 【a】 five-year-old boy sat on the edge of the driver’s seat.
+327 | It has 【a】 flat surface at the top.
+171 | She was found in 【a】 forest after three days.
+603 | While that is not 【a】 formal requirement for being 【a】 member, everyone finds 【a】 way to participate in the Lunar New Year Parade, whether it's by dancing, carrying 【a】 flag or beating 【a】 drum.
+224 | 【A】 four-year-old girl has walked eight kilometers through 【a】 snowy forest to seek help for her sick grandmother who later died of 【a】 heart attack.
+446 | The drive has been going on for two weeks and Morris said just under 50 customers have picked up 【a】 free meal.
+393 | Get 【a】 free meal after answering some questions.
+286 | It also wants to establish 【a】 free-trade deal across the continent in the near future, as trade within the African continent costs more than any other region.
+128 | An agreement among 13 African countries to set up 【a】 free-trade zone.
+306 | In one recent case, an international gang used an ___32___ realistic mask to pose as 【a】 French minister, ___33___ business
+188 | He is going to visit 【a】 friend.
+582 | She could have asked 【a】 friend for help with the paint job.
+116 | Finally, the woman got 【a】 full body scan at 【a】 hospital in the city of Qingdao.
+100 | He was once 【a】 full-time ambassador.
+206 | He’s going to take up 【a】 full-time position as ambassador for science and space instead—work he’s been doing since 2019. [3] The former British Army Air Corps helicopter pilot was selected as 【a】 European Space Agency astronaut in 2009.
+561 | school even more”, and someone else called snow days “【a】 fun part of childhood”.
+364 | Children play in 【a】 fun tent and enjoy themselves fully.
+417 | There will also be 【a】 fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes with special needs triumph in the games.
+163 | Contribute to 【a】 fund for cat protection.
+439 | But I don’t like being the center of attention, receiving gifts and having 【a】 fuss made.
+248 | The staff believe he squeezed himself out of 【a】 gap located around new energy-saving bulbs installed inside the snake house.
+337 | Storing carbon dioxide underground as 【a】 gas.
+390 | Other carbon capture and storage methods store carbon dioxide as 【a】 gas, but problems include 【a】 high cost and concern about leaks.
+521 | [5] 【A】 German supermarket has been ordered to destroy its chocolate rabbits after it lost 【a】 court battle with the Swiss chocolate manufacturer.
+527 | He wanted to buy 【a】 gift for his mother's birthday.
+212 | In 1990, Hayes organized 【a】 global Earth Day, with more than 200 million participants in 140 countries.
+576 | They’ve just published 【a】 global survey on midcareer
+339 | He was asked to present 【a】 gold medal to Miu Goto.
+637 | Nine tons of gold on plane AN-12 belonged to 【a】 goldmine company.
+590 | It is 【a】 good choice for children.
+562 | It is available to office workers who have 【a】 good enough credit score.
+455 | Setting kids 【a】 good example by sharing chores.
+368 | probably won’t be 【a】 good “fit,” their experience won’t be relevant to the workplace, and they’ll be unable or unwilling to
+307 | Recommend to her 【a】 good house near his office.
+466 | I don’t know if that’s 【a】 good idea as your mother and I would worry about you living all by yourself in an apartment so far from home. [9] And then there’s the expense, too.
+214 | After combing through the security video outside 【a】 Gorbals shop, Kirsteen has now posted an image of 【a】 man suspected of stealing the dog.
+241 | The beach was not as nice or beautiful as it should be. [5] He felt so sad to see such 【a】 gorgeous place littered with so much trash.
+366 | In 【a】 government office.
+103 | At the gate of 【a】 grade school in Kent.
+160 | With the help of Denis Hayes, 【a】 graduate student at Harvard University, Nelson
+529 | Researchers concluded that those who just barely qualified for 【a】 grant
+213 | It is suffering 【a】 great deal from the incident.    ?P:a great deal
+205 | It has contributed 【a】 great deal to human flights to space.    ?P:a great deal
+516 | M: Well, I know 【a】 great housing agent.
+239 | It also provides 【a】 great opportunity to ___33___ with friends and family, far away from electronics and other ___34___ at home.
+555 | It’s 【a】 great place, but I think we go there too often.
+665 | days were proving 【a】 “great success”.
+517 | What kind of display attracts 【a】 greater crowd of customers.
+413 | One he can play either alone or in 【a】 group.
+87 | Each of these behaviors is important, of course, but they all _26_ on physical health—and 【a】 growing body of research suggests that social health is just as, if not more, important to _27_ well-being.
+433 | For 【a】 growing number of people, however, their yearly break is turning into 【a】 nightmare as they find that the property they have paid thousands for does not exist and the website through which they booked it has disappeared.
+262 | 【A】 grown-up snake.
+617 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more than what I had budgeted, and by now it’s just 【a】 habit.
+614 | She developed 【a】 habit of overspending.
+255 | He takes 【a】 half-hour bus ride to work.
+422 | The dog is six and 【a】 half years old and was last seen wearing 【a】 red collar.
+123 | It brought the mine’s operations to 【a】 halt.    ?P:bring sth to a halt
+111 | Police said that the car had come to 【a】 halt after hitting the sign, but did not appear to be seriously damaged, although an ambulance was called to check on the pensioner.    ?P:come to a halt
+363 | traffic crawls to 【a】 halt for no apparent reason at all.
+493 | It is located next to 【a】 hat factory.
+461 | Then, when I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get 【a】 healthier meal for half the price.
+606 | They can be easily seen among participants in 【a】 healthy weight range.
+411 | He received 【a】 heart operation 【a】 few days ago.    ?P:a few
+252 | They experienced 【a】 heartbreaking moment.
+253 | [5] It was 【a】 heartwarming moment that dozens of Indian rescuers rallied together to use 【a】 crane in order to save an elephant trapped at the bottom of 【a】 20-foot well.
+407 | The phenomenon happens when thunder and lightning mix with 【a】 heavy snowstorm—[5] sometimes causing loud claps that can be confused with explosions.
+153 | He used to be 【a】 helicopter pilot.
+155 | who underwent 【a】 hemispherectomy, 【a】 surgical procedure in which half of the brain is removed to treat illness.
+623 | Horn said phantom traffic jams are an emergent property of the flow of vehicles down 【a】 highway.
+500 | The risk students face due to 【a】 history of mental health problems.
+269 | for 【a】 hit of stars that if you delete the survey the company sends you another one.
+549 | He is 【a】 host for 【a】 TV program.
+394 | The board of free meals inside the restaurant shows 【a】 host of potential meals already paid for by customers, each costing about $10.
+679 | W: She bought 【a】 house for herself and her husband, 【a】 house for her parents, and then 【a】 house for each of her four brothers and sisters.
+634 | Painting 【a】 house involves more trouble than she thought.
+210 | 【A】 huge animal skin.
+506 | [6] If the clone continues to perform as well as expected, it could mean 【a】 huge reduction in the training time for police dogs, which usually takes about five years.
+284 | It was 【a】 huge success.
+492 | Calling someone evil is often similar to saying they cannot change, and perhaps aren’t even 【a】 human at all.
+382 | Customers in 【a】 hurry.
+320 | (5-1) 【A】 Japanese IT firm has officially introduced an “office cat” policy to combat the stressful environment of the workplace.
+236 | 【A】 Japanese mayor apologized Thursday for biting the Olympic gold medal of 【a】 softball player.
+316 | Looking for 【a】 job after 45
+344 | It is the way to quit 【a】 job one hates.
+148 | Predicted 【a】 10% jump in heating bills for most U.S. households this winter.
+600 | W: As 【a】 kid, did you know what job you wanted to do when you grew up?
+117 | You’re cold, but your heart is racing as if 【a】 killer just chased you down 【a】 dark street.
+570 | We’d have 【a】 kitchen, so we could cook ourselves.
+450 | He is expected to undergo 【a】 knee operation.
+173 | Both can be made in 【a】 lab by trained flavorists, but artificial flavors use chemicals to give 【a】 product 【a】 _30_ smell or taste.
+454 | The clone was born in 【a】 laboratory in Beijing in December.
+670 | where you are now and where you want to be in the future is caused by 【a】 lack of knowledge.
+273 | According to farmer Alice Gray, Prickles was only 【a】 lamb when she ran away.
+139 | He then drove three kilometers across town before getting on the highway. [2] The boy later told confused officers that he was planning to travel to California and buy 【a】 Lamborghini sports car.
+119 | One is 【a】 landscape painted by the Italian artist Pietro Bellotti dating to 1665.
+597 | She ordered 【a】 large number of dolls.
+435 | “【A】 large number of high-class travelers, including CEOs, have to spend more than three hours by road to get there—and that is 【a】 loss of time,” 【a】 Bangalore airport spokesperson said.
+325 | The bushfires that hit the area back then destroyed 【a】 large part of her family’s massive property.
+429 | Once the fires were over, (4) the family had to fix the damage done to the farm, as it was such 【a】 large property.
+135 | And the best way to get strong, healthy bones is by doing weight-bearing exercises like running, dancing and walking, according to 【a】 large study.
+268 | Speaking ahead of the All Energy Conference being held in Glasgow, ScottishPower chief executive Keith Anderson said: “We have 【a】 large supply of renewable energy on our doorstep and one of the only two low emission zones in action across the UK.
+193 | It plays 【a】 less important role in one's health than nutrient intake.
+613 | It will also bring to an end 【a】 less popular US high school tradition: the “make-up day”
+245 | It impacts people’s health to 【a】 lesser degree than sun exposure.
+655 | Alvin Chau, aged 26, is an environmental consultant by day and 【a】 lion dancer on weekends.
+238 | Explaining why she has kept up the videos, Andrea explained how nice it was to have 【a】 little bit of fun and craziness that made people smile.
+350 | In Poland, depressive symptoms fluctuated 【a】 little depending on birth month.
+501 | It’s just 【a】 little swollen and I should be fine for next Saturday if you still want to go for 【a】 jog then.
+502 | Visit 【a】 local art gallery.
+317 | It donates regularly to 【a】 local charity.
+347 | Among his favorite haunts are 【a】 local hairdresser, two pubs, and the Nottingham Primary School.
+85 | Ask 【a】 local pet shop to adopt him.
+83 | 【A】 local woman.
+418 | At 【a】 local zoo.
+81 | The snake may be taken to 【a】 local zoo for care if the owner does not come forward.
+226 | It is 【a】 location frequented by local traffic police.
+535 | 【A】 logical learner.
+587 | Restructure them in 【a】 logical way.
+659 | Their chips are great, but their service takes 【a】 long time. [10] And I need to get back by 2:30 for 【a】 conference call.
+104 | King’s wife said her husband had come “running in” and was “shouting for me to come have 【a】 look”.
+121 | It was caused by 【a】 lorry running into 【a】 trailer.
+661 | Collect 【a】 lot more data.
+498 | In fact, there are 【a】 lot more people giving tickets than receiving.
+537 | “When the fraudsters first started it was unsophisticated—the websites looked amateur and there wasn’t 【a】 lot of effort,” says Tipton.    ?P:a lot of
+666 | She enjoys buying 【a】 lot of fancy things.    ?P:a lot of
+564 | It does 【a】 lot of harm to the environment    ?P:a lot of
+518 | W: For 【a】 lot of reasons.    ?P:a lot of
+335 | Birthdays can tap into 【a】 lot of things people worry about, including their achievements in life in the past decade, or their accomplishments of the past year.    ?P:a lot of
+676 | She can spend 【a】 lot of time vacationing.    ?P:a lot of
+189 | One of the male tourists from Australia commented that although there was 【a】 lot of trash, nobody was doing anything.    ?P:a lot of
+174 | It is the spot that causes the local police 【a】 lot of worry.    ?P:a lot of
+580 | I heard he comes here 【a】 lot, so I thought I’d come in and check with you.
+640 | They must play football 【a】 lot then, right?
+569 | It has 【a】 lot to do with independent luxury food suppliers.
+215 | It has helped 【a】 lot to improve animals' well-being.
+282 | Contribute 【a】 lot to the local economy.
+459 | One person described it as 【a】 loud boom, similar to 【a】 plane crash.
+487 | “This is not 【a】 low cost option, but it is an option,” she added.
+585 | The plane was traveling from Yakutsk Airport in 【a】 major diamond-producing region to the city Krasnoyarsk in Siberia.
+586 | Analysis of surveys of over one million teens in the United States collected since 1976 reveals 【a】 major shift in how teens are spending their leisure time.
+318 | Kirsteen also believes the video obtained from the shop shows the dog being stolen by 【a】 man before driving off in 【a】 car which had been waiting nearby.
+266 | The image appears to show 【a】 man carrying the dog in his arms.
+237 | 【A】 man fell off his toilet seat.
+133 | 【A】 man kept 【a】 4-foot snake as 【a】 pet.
+345 | [6] 【A】 man passing by decided to video their good deed and put it on the internet.
+156 | Under the engine cover of 【a】 man’s car.
+80 | 【A】 man was bitten by 【a】 snake.
+185 | 【A】 man was taken to 【a】 hospital.
+287 | Build 【a】 Martian habitat in Houston.
+469 | For anyone who wants to help make this year’s games 【a】 massive success, there are still opportunities to volunteer for Fayetteville’s Special Olympics.
+184 | The requirements are strict, including 【a】 master’s degree in 【a】 science, engineering or math field or pilot experience.
+630 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather than getting everyone to sit down at the table to eat 【a】 meal.
+289 | Have 【a】 meal even if they have no money.
+340 | Biting 【a】 medal in front of journalists and photographers has become 【a】 common pose for Olympic medalists.
+443 | He attracted public attention at 【a】 media event.
+436 | She became 【a】 member of the gym two months ago.
+511 | The police were flooded with many calls from the public. [6] And they sent out 【a】 message asking people to remain calm.
+302 | They sent out 【a】 message to calm them down.
+395 | The first thing you notice in the staircase to the fourth-floor studio on Canal Street in Manhattan, New York, is the measured thumping coming from behind 【a】 metal door.
+593 | The island is less than two miles long and half 【a】 mile wide.
+442 | People in France are keeping away from the narrow French stick loaf in favor of healthier, cheaper options, 【a】 millers association has said.
+574 | The man doesn't think she can be 【a】 millionaire.
+514 | At 【a】 minimum, everyone has
+380 | She stands accused of leaving 【a】 minor in danger in the care of the elderly.
+598 | Just give me 【a】 minute.
+464 | It’s 【a】 30-minute ride and I don’t have to make any changes.
+158 | 【A】 missing pet.
+485 | The fake websites have authentic-sounding names involving 【a】 mix of keywords, typically including the place name, “summer”, “villas” or “rentals”.
+194 | Officials described the structure as 【a】 mixed-use building that features commercial businesses on the first floor and residential on the second and third floors.
+278 | Advertise it through 【a】 mobile app.
+279 | Customers can book their helicopter ride through 【a】 mobile app.
+596 | Arriving in their “Mystery Machine”, the gang would have to find 【a】 monster who was terrorizing 【a】 neighborhood.
+460 | Withdrawing cash only once 【a】 month.
+386 | It ended 【a】 month earlier than before.
+334 | It started 【a】 month earlier than usual.
+261 | [3] In less than 【a】 month, the Special Olympic Spring Games will make 【a】 return to Fayetteville.
+424 | He gives 5,000 yen, about 45 US dollars 【a】 month to those who rescue 【a】 cat.
+258 | He flew to the space station for 【a】 6-month tour in 2015.
+264 | income, or ___34___, have 【a】 moral right to 【a】 healthy, sustainable environment.
+626 | Buy her 【a】 more expensive model.
+440 | We need 【a】 more informed way of discussing behavior that at first we cannot, or should not, begin to understand.
+186 | It all started off when 【a】 movie star shared 【a】 photo of herself putting her trash bins out in 【a】 ball gown.
+467 | The exact cause of these phantom traffic jams has long remained 【a】 mystery.
+427 | The baby hasn’t been given 【a】 name yet.
+624 | Take 【a】 nap to adjust to 【a】 new time zone.
+379 | It is becoming 【a】 national sport.
+489 | Its natural beauty is protected as it lies inside 【a】 natural park.
+272 | It ran away into 【a】 nearby forest.
+611 | He has published 【a】 new bestseller.
+480 | She was issued 【a】 new card.
+484 | W: I’ve made 【a】 new friend recently.
+566 | These goals may include learning 【a】 new language, eating healthier
+403 | To add 【a】 new means of transport.
+495 | Pay for the cost of 【a】 new medal.
+644 | To open 【a】 new office.
+392 | The mayor said the medal was undamaged, though he offered to pay for the cost of 【a】 new one.
+354 | Why the man is so anxious to buy 【a】 new phone.
+406 | How the man could possibly afford 【a】 new phone.
+667 | W: No, [8] actually, I was wondering how you could possibly afford 【a】 new phone.
+458 | It enables him to buy 【a】 new phone at 【a】 more favorable price.
+615 | W: Didn’t you buy 【a】 new phone just two months ago?
+563 | M: I’m going to the city centre to buy 【a】 new phone today.
+472 | These are the results from 【a】 new study
+201 | That’s the main finding of 【a】 new study by researchers at the U.S.
+82 | Not only can walking make you less depressed, but according to 【a】 new study, depression sufferers who took 【a】 ___26___ walk showed just as much improvement in their ___27___ as people taking medicine.
+102 | This characteristic is ___26___ apparent in 【a】 new study, focusing on people
+246 | 【A】 new study has cast doubt on historic research suggesting that the season or month of someone’s birth is associated with an increased risk of certain mental health conditions.
+452 | But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of 【a】 new teenage sphere that is conducted digitally.
+338 | Researchers in Iceland found 【a】 new way of tackling climate change by pumping carbon dioxide underground and turning it into stone.
+161 | Enrolhim in 【a】 Newcastle football club.
+530 | Move into 【a】 newly-painted house.
+647 | M: That sounds like 【a】 nightmare.
+274 | Research is _28_, but some studies suggest that people who can master lucid dreaming—that is, the ability to be _29_ that 【a】 nightmare is happening and possibly even control it without waking up—may hold the _30_.
+170 | It was just 【a】 nightmare, you tell yourself; there’s nothing to be afraid of.
+305 | The army officers heard 【a】 noise coming from the well and realized an elephant was trapped deep inside. [6] The officers then threw in some food for the creature and called the local forest department for help.
+304 | They heard 【a】 noise from the bottom of 【a】 well.
+524 | by Generation, 【a】 nonprofit founded by former McKinsey consultants.
+126 | That means that not only is the ice melting very fast, it has more time to melt this summer than it would in 【a】 normal climate system.
+648 | It was always 【a】 normal person in 【a】 costume.
+565 | And I also have 【a】 notebook where I record my expenses.
+542 | They place 【a】 notice in The Northern Echo.
+463 | It gave him 【a】 noticeable smartness.
+257 | It might be 【a】 nuisance to the loyal shoppers.
+430 | To treat the disorder, there’re 【a】 number of medicines and therapies that are backed by _33_ research, according to the American Academy of Sleep Medicine, which analyzed the available research on the treatment of nightmare disorder in 【a】 recent _34_ published in the Journal of Clinical Sleep Medicine.    ?P:a number of
+298 | The study looks at symptoms of anxiety and depression among more than 70,000 older adults in Europe. [3] 【A】 number of past studies have found the link between season of birth and mental health diagnoses.    ?P:a number of
+98 | Broke 【a】 number of postal collection boxes.    ?P:a number of
+352 | Electric bikes have been the craze in downtown Jacksonville since they were first introduced earlier this month as 【a】 one-year pilot program. [5] But they’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.
+616 | Send would-be students 【a】 packet of information.
+172 | The other is 【a】 painting of 【a】 boy by the 17th-century Dutch artist Samuel van Hoogstraten, date unknown.
+165 | _J'J__ activities, such as calling Telstra or picking up 【a】 parcel from Australia Post, are followed by texts
+400 | As 【a】 parent of two boys at primary school, I worry about the issues associated with teenagers and social media.
+664 | She’s just started 【a】 part-time job and was thinking of not contributing to her pension.
+538 | Throw 【a】 party.
+106 | They also impose 【a】 $300 penalty.
+507 | The necessity of saving into 【a】 pension.
+612 | W: [11] I am always talking to my elder daughter about the importance of saving into 【a】 pension.
+384 | It is 【a】 perfect tourist destination.
+410 | characteristics of 【a】 person’s appearance to be ___35___ identified.
+140 | One recent study published in the journal PLOS ONE, for example, found that the strength of 【a】 person’s social circle was 【a】 better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep.
+166 | It found 【a】 pet dog on board 【a】 plane to 【a】 city in Texas.
+312 | It became 【a】 pet of Mr.
+675 | 【A】 phantom jam begins
+358 | Jet Sanders, who worked on the study while 【a】 PhD student at the University of York, said: “Failure to detect synthetic
+346 | She will have 【a】 photo taken with Brigette Clark.
+607 | There were crowds of people around her asking for 【a】 photo with her.
+660 | Or they post 【a】 photograph on Instagram, have 【a】 pleasant conversation with friends and then delete it so that no traces remain.
+270 | Give the two pets 【a】 physical checkup.
+114 | Buddy was given 【a】 physical checkup when he arrived at Tokyo’s International Airport.
+426 | Post 【a】 picture of his restaurant online.
+635 | The restaurant waitress Sasha Formica posted 【a】 picture of the ring on Facebook.
+243 | The result is 【a】 piece of bone like 【a】 horn that sticks out from the head by the neck.
+457 | 【A】 pilot programme in 【a】 school district in Anderson County, South Carolina, has supplied
+137 | He knew immediately that this was his best friend Alan, whose friends call him Robi and flew 737 airplanes when he was 【a】 pilot. [4] The pair were born to the same mother 15 months apart.
+230 | 【A】 pipe band contest.
+181 | 【A】 plan to invite all African countries to join the African Union.
+195 | It narrowly escaped 【a】 plane crash when turning around.
+225 | Because the Food and Drug Administration (FDA) has not _34_ the term, companies can use it to refer to pretty much anything derived from 【a】 plant or animal.
+599 | She covered its screen with 【a】 plastic sheet.
+496 | (8-2) It’s 【a】 plastic sheet that blocks blue light.
+175 | 【A】 police spokeswoman said that officers were currently in attendance at the scene.
+396 | When they tried to make 【a】 positive impression on the researchers.
+256 | [3] Jordan Jax and Tarod Goodman, both 23, were arrested after evidence gathered in an investigation showed the pair stole mail on multiple occasions using 【a】 postal key, according to 【a】 news release.
+291 | Even better, you set 【a】 powerful example because when they see you ___35___ the benefits of walking, they'll be encouraged to walk more, too.
+361 | Choosing 【a】 present for her nephew.
+622 | W: Good morning. [12] I’m looking for 【a】 present for my nephew, Lawrence.
+653 | He is 【a】 primary school teacher.
+167 | The dog was then sent back to the U.S. on 【a】 private charter jet.
+326 | Doctors _31_ don’t consider occasional nightmares 【a】 problem.
+548 | Poor sleep might be 【a】 problem for older people, but surely young people can handle late nights.
+349 | Cloning is too complicated 【a】 process.
+199 | However, this week, the City of Fayetteville issued 【a】 proclamation for the day to take place March 18th. [2] Officials said they want bus drivers to know how important they are to Fayetteville, serving almost 1.6 million riders 【a】 year.
+512 | The odds of becoming 【a】 professional sportsman someday.
+581 | narrow winners were 50 percent more likely to be given 【a】 professorship.
+497 | He is 【a】 psychologist.
+288 | Nagoya mayor Takashi Kawamura had praised athlete, Miu Goto, during 【a】 public media event.
+332 | It has been turned into 【a】 public park.
+649 | She checked if 【a】 purple doll was ordered.
+192 | There’s also 【a】 qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not _31_ in any of these measurements.
+401 | After you hear 【a】 question, you must choose the best answer
+389 | Wait in 【a】 queue for his turn.
+164 | The city’s council and ScottishPower have announced 【a】 range of strategies in an attempt to reduce carbon emissions ahead of the new national target of 2045.    ?P:a range of
+355 | 【A】 rare thundersnow event has taken place in Scotland.
+632 | Some other fellow came in asking for Jimmy just yesterday, (9) 【a】 real nervous, pushy type of fellow, saying he needed Jimmy for some study project they were working on.
+223 | She shows 【a】 real passion for taking photos.
+109 | Joe’s dad said Joe is 【a】 really talented little boy.
+447 | On 【a】 recent Friday evening, the teenagers made their way across the studio floor as they practiced Chinese lion dancing.
+120 | 【A】 recent study in the journal Appetite found that when the word “natural” appears on packaging, people _27_ that the food within is indeed healthier.
+551 | But the club also acts as 【a】 recreation center and safe haven for teenagers, with video games readily available.
+677 | The Swiss manufacturer’s rabbit has 【a】 red bow and bell, while the German supermarket’s has 【a】 green bow and bell.
+149 | But that represents 【a】 reduction from last year’s energy assistance package of over $8 billion.
+621 | To ensure 【a】 regular supply.
+456 | W: [8] You should make money 【a】 regular topic of discussion.
+451 | “He’s been 【a】 regular visitor for most of this year,” she told the Press Association.
+602 | When there is 【a】 relationship breakdown with their parents, children with an anxious attachment style scream and cry to get their parents to come back.
+387 | Many begin to search for the meaning of their existence, leading to behaviors such as ending or starting 【a】 relationship, or plans, like starting 【a】 vigorous diet or fitness program.
+645 | It is said to have 【a】 remarkable location that few other private islands of this size can match, according to estate agents.
+276 | She made the journey through 【a】 remote region in Siberia after waking up to find her grandmother motionless.
+444 | Goto, however, has accepted the International Olympic Committee’s offer of 【a】 replacement, according to Japanese media reports.
+130 | Write 【a】 report to the campus newspaper, summarizing its most important points.
+89 | Firefighters responded to the three-story building shortly after 1 p.m. for 【a】 reported structure fire, according to Norwalk Deputy Fire Chief Adam Markowitz.
+209 | I tried to reach it but it was too far down and there wasn’t any way I could get it out.” [2] Following 【a】 rescue by UK charity Cats Protection, the 4-year-old cat was later reunited with its owner, Mr.
+608 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, 【a】 research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+127 | Vicky Rideout, who runs 【a】 research firm that studies children’s interactions with media and technology, was not surprised by this finding.
+425 | 【a】 research grant or just barely made it.
+93 | You are to write 【a】 response about its recent development and its impact on people's lives.
+263 | [3] Net Ease House, 【a】 restaurant in America, has been hit with criticism after announcing on their website that children under the age of ten are no longer welcome.
+328 | As 【a】 result, the girl’s mother is facing 【a】 criminal case.    ?P:as a result
+370 | The family is now offering 【a】 £5,000 reward for the safe return of the dog after launching 【a】 social media campaign to find the thief.
+296 | 【A】 rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness _34_ rates.
+310 | The tour saw him control 【a】 robot on earth remotely from orbit.
+625 | Switzerland’s highest court agreed and overturned 【a】 ruling last year by the country’s commercial court that had sided with the supermarket.
+397 | W: Hello Benjamin, Dan and I will be going for 【a】 run along the canal Saturday morning.
+376 | The crash of 【a】 Russian cargo airplane.
+359 | He used to wear 【a】 sad face in school.
+547 | Keep them in 【a】 safe place.
+641 | They’ll have pictures of 【a】 sales team and it might be 【a】 poor actor in New York that is down as their head of sales.
+560 | We opened 【a】 savings account when they were young.
+620 | You can’t fix 【a】 scar.
+568 | M: Do you remember he had 【a】 scar on his face?
+508 | It’s best to start young, so it’s instinctive rather than 【a】 scary subject.
+147 | The Fayetteville native believes driving 【a】 school bus allows her to give back to her community.
+198 | She has been driving 【a】 school bus ever since 2009.
+509 | students with electronic tablets loaded with assignments to complete in the event of 【a】 school closure.
+84 | It’s reported that Alan Robinson and Walter MacDonald met in the 6th grade at 【a】 school in Hawaii.
+577 | Buy 【a】 second-hand car.
+299 | He has been caught 【a】 second time.
+124 | The damage to the dam wall was noticed in the late afternoon on Friday when workers found 【a】 section of the northern dam wall had collapsed into the southern dam.
+247 | He is now kept in 【a】 secure area.
+151 | 【A】 sentence for life.
+671 | It was 【a】 shelter for wild animals.
+408 | Making 【a】 shopping list.
+604 | Several recent studies have found that even low-intensity exercise, done for 【a】 short amount of time, can have 【a】 meaningful _26_ on health.
+348 | It’s 【a】 significant problem, _35_ since loneliness is emerging as 【a】 widespread public health problem in many countries.
+583 | Recently, the restaurant manager Ryan Krivoy decided to replace the wooden deck and he found an old gold coin, some $100 bills and 【a】 silver wedding ring while replacing the deck.
+573 | The Swiss firm had argued its gold-wrapped chocolate rabbit deserved copyright protection from 【a】 similar product sold by the budget supermarket.
+319 | He wanted to make 【a】 sincere apology to Jimmy.
+336 | I could see people’s views change within the course of 【a】 single lecture.
+505 | Then mark the corresponding letter on Answer Sheet 1 with 【a】 single line
+108 | the corresponding letter on Answer Sheet 1 with 【a】 single line through the centre.
+113 | Then mark the corresponding letter on Answer Sheet 1 with 【a】 single line through the centre.
+131 | Then mark the corresponding letter on Answer Sheet 1 with 【a】 single line through the center.
+378 | They can just be symptoms of 【a】 sleep disorder that can _32_ from an unpleasant experience, stress, or certain drugs.
+448 | When they were offered both candy and fruit as 【a】 snack.
+134 | But this was the first instance of 【a】 snake in recent years.
+314 | 【A】 snake specialist.
+353 | They are known as “e-learning days”, which certainly sounds less fun than 【a】 snow day.
+197 | The criterion for 【a】 snow day is primarily the inability of school buses to operate safely on their routes and danger to
+145 | “Even when unemployment results from the ___33___ of new technologies, people still judge it in 【a】 social context,”
+391 | He bit 【a】 softball player's Olympic gold medal.
+519 | and researchers may have come up with 【a】 solution for this frustrating traffic pattern: maintaining equal spacing between
+99 | This was after his online interview attracted millions of views and was made into 【a】 song.
+437 | 【A】 Spanish island called Palmdor has been bought by 【a】 family from Europe for 18 million euros.
+146 | She is making 【a】 special effort to be recognized.
+300 | He was only found the first time around because staff brought in 【a】 special machine to trace him inside 【a】 wall opening.
+510 | It is 【a】 special offer to recent college graduates working in offices.
+329 | The FDA doesn’t require companies to reveal what additional chemicals 【a】 specific item _35_.
+532 | Make 【a】 specific note on the company’s system.
+251 | [3] The Wilton School Board has proposed 【a】 5.99% spending increase.
+250 | Proposed 【a】 spending increase by 5.99 percent.
+91 | “It was like 【a】 split second of panic…that resulted in this nervous reaction on the plane,” said passenger Brian Healy. [2] “There was total quiet, and then there was relief when the plane came to 【a】 stop.
+219 | We will arrange to return the pets to them as soon as possible,” 【a】 spokesperson of United Airlines said.
+669 | What about getting him to join 【a】 sport, like soccer?
+125 | 【A】 sports competition.
+244 | Studies have shown that social support—whether it comes from friends, family members or 【a】 spouse—is _33_ associated with better mental and physical health.
+132 | That’s 【a】 1,700-square-foot Martian habitat inside 【a】 building in Houston.
+297 | It has become 【a】 star police dog in Beijing.
+231 | Policeman John Forster said in 【a】 statement: “The circumstances remain 【a】 mystery so we would welcome any information that will help us get to the bottom of these random incidents.
+136 | The number of tourists to the beach is on 【a】 steady decline.
+157 | So I gently pushed it with 【a】 stick to check it was breathing and saw it was 【a】 terrified little cat.
+651 | 【A】 stock broker.
+204 | Postal Service’s collection boxes in Marion County and for the possession of 【a】 stolen postal key, according to the Department of Justice.
+658 | It renders the acquaintance 【a】 stranger.
+152 | [3] The arrests were in connection with 【a】 string of mail thefts from U.S.
+678 | He does not have 【a】 strong academic record.
+646 | They had 【a】 strong community spirit.
+101 | He is 【a】 student at Marathon High School.
+388 | Over the past 13 years, as 【a】 student, lecturer and researcher, I’ve enjoyed discussing the science of evil with anyone willing to listen.
+97 | In 【a】 study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide
+431 | Prepare 【a】 study guide.
+371 | He wanted to invite her to join in 【a】 study project.
+267 | He was working on 【a】 study project with Jimmy.
+477 | 【A】 2018 study published in the Proceedings of the National Academy of Sciences, for example, followed
+367 | [5] Security officers were searching 【a】 suburb in Australia where an adult snake was believed to be wandering after the discovery of 【a】 huge, freshly shed snakeskin. [6] The skin was found at 【a】 construction site, and the government wrote to residents to warn them.
+559 | He is 【a】 successful businessman.
+333 | And then all of 【a】 sudden, it turned out there was another waiting to come out.    ?P:all of a sudden
+196 | After six days of desperate searching, he was eventually found and placed in 【a】 supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is 【a】 relative newcomer to the zoo but has already been frustrating its staff.
+168 | Through 【a】 surgical operation.
+369 | 【A】 surprise party for Paul's birthday.
+584 | Book 【a】 table.
+642 | Have 【a】 taste of both of the cheeses.
+142 | 【A】 team of about 25 firefighters then spent about 25 minutes extinguishing the flames.
+176 | It assigned 【a】 team of doctors for each expected baby.
+180 | “They are dealing with the same challenges that adults are, as far as they are living in the _32_ of 【a】 tech environment designed to suck as much of their time onto their devices as possible,” Rideout says.
+398 | He was involved in 【a】 terrible car accident last April.
+605 | Just send him 【a】 text message.
+650 | There’s one here at 9:47, then one at 10:12 and then 【a】 third at 10:26.
+177 | The company was unable to confirm whether the recent earthquakes had contributed to the dam’s wall collapse, but said it was conducting 【a】 thorough investigation.
+419 | This type of snake is classified as 【a】 threat to humans, especially small children as well as pets.
+92 | 【a】 threat to their feeling of self-worth.
+432 | Last year, 【a】 three-year-old boy survived alone for three days in 【a】 remote forest in the same region.
+423 | He got 【a】 ticket for speeding.
+203 | It produces clothes affordable only to 【a】 tiny minority.
+627 | Our friend Hannah won 【a】 ton of money.
+504 | So if you use 【a】 ton of social media, do you become unable, or unwilling, to engage in face-to-face contact?
+303 | The district will have 【a】 total enrollment of 3,742 students.
+372 | 【A】 total of nine furry friends freely wander around in the office and do whatever their little hearts desire.    ?P:a total of
+550 | They simply vanish without 【a】 trace.
+478 | They hunted ducks as 【a】 traditional sport.
+475 | He was involved in 【a】 traffic accident.
+415 | “When caught in such 【a】 traffic jam, it is common for drivers to assume that there must be an accident, or construction or
+122 | At around half past nine this morning, 【a】 trailer attached to 【a】 lorry turned over at the crossing of High Street in Milton.
+240 | To give her little nephew 【a】 treat.
+528 | Still, cats in the workplace have been 【a】 tremendous success for the company.
+572 | To follow 【a】 trendy lifestyle.
+486 | Take 【a】 trip to Washington.
+275 | She has 【a】 truly amazing appearance.
+471 | W: Didn’t you hear? [8] She won 【a】 TV competition and became 【a】 millionaire overnight.
+609 | He watched 【a】 TV series based on it.
+523 | She went on 【a】 TV show where they quiz on general knowledge and she won first prize.
+628 | past the age of 45, there’s nearly 【a】 two in three chance you’ll be out of work for over 【a】 year, they find.
+491 | It seems to trigger 【a】 type of social anxiety.
+96 | It’s projected to cost more than $2,300 to heat 【a】 typical home with heating oil this winter. [2] Last month, the federal government added $1 billion in funding to Low Income Home Energy Assistance Program, bringing the total to $4.8 billion.
+260 | It was placed in the care of 【a】 UK charity.
+673 | To maintain 【a】 unique menu.
+556 | Research by Amanda Lenhart of the Pew Research Centre, 【a】 US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person.
+277 | And natural flavors can also include 【a】 variety of chemical additives, such as preservatives.    ?P:a variety of
+365 | They will have 【a】 variety of events to choose from including running, throwing and jumping.    ?P:a variety of
+468 | Make 【a】 vegetable dish.
+652 | And we teach 【a】 very gloomy image of adulthood—that whatever our children’s future holds, it must be seen within the context of 【a】 job.
+654 | And it’s 【a】 very insecure attachment.
+503 | “He’s 【a】 very relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is 【a】 cat of expensive tastes who likes his high priced cat food.
+211 | Even so, there have been 【a】 very small number of cases recently when authorities discovered eggs during further inspections.
+216 | First Minister Nicola Sturgeon welcomed the pledge and said: “Today’s announcement between ScottishPower and Glasgow City Council—to make Glasgow the UK’s first net-zero city—is 【a】 very welcome step.
+200 | They may hold too optimistic 【a】 view about their diet.
+295 | [5] 【A】 village is going to throw 【a】 birthday party for an orange cat named Wilbur, who has become famous for making 【a】 regular appearance at local shops.
+438 | 【A】 villager was searching for his lost cash.
+405 | Teachers are also losing their snow days and instead will be expected to be on hand to take 【a】 virtual register and
+129 | These allow citizens to visit another country without 【a】 visa.
+233 | An important initiative to permit tourists to visit Africa without 【a】 visa.
+234 | The African Union, which represents 54 states, wants to abolish the requirement of 【a】 visa for Africans visiting other African countries.
+182 | In contrast, Americans are able to travel to 20 of the continent’s countries without 【a】 visa, or secure 【a】 visa on arrival.
+483 | 【A】 visual learner.
+187 | Taking 【a】 walk can be great for ___32___ your head or blowing off some steam.
+308 | [5] Recently, the clothing industry has come under attack for creating 【a】 waste problem with serious environmental consequences.
+222 | Given how unsettling and haunting nightmares can be, is there 【a】 way for dreamers to _27_, or even turn off, these bad dreams as they happen?
+191 | This shifts weight onto the muscles at the back of the head and causes the bone to grow in 【a】 way that is not normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing or pressure.    ?P:in a way
+404 | [7] City Council Member Anna Cumber was instrumental in introducing the electric bikes to Jacksonville as 【a】 way to bring new life into downtown.
+657 | He goes to the gym most days, plus tennis two or three times 【a】 week.
+513 | M: I go to the bank once 【a】 week, and the rest of the time I keep my bank card at home, so I can’t get more cash out.
+552 | Exercising for just 10 minutes 【a】 week is linked to 【a】 longer life, according to 【a】 new study published in The British Journal of Sports Medicine.
+656 | Still, the idea that exercising for just 10 minutes 【a】 week may be enough to increase your lifespan is novel.
+356 | They found an elephant wandering around 【a】 well.
+639 | Organize them into 【a】 well-connected story.
+227 | The crossing on High Street is 【a】 well-known accident blackspot.
+221 | (3-1) 【A】 white sheep named Prickles that ran away from an Australian farm during the 2013 bushfires, recently returned home.
+421 | It makes the hostess's job 【a】 whole lot easier.    ?P:a whole lot
+531 | The restaurant was built on 【a】 wooden structure above the sea-water.
+218 | It had one of its cargo planes land at 【a】 wrong airport.
+375 | Semba, her mother, is 【a】 30-year-old African elephant.
+162 | Kirsteen Marshall, 【a】 34-year-old mum of one, posted 【a】 tearful video on social media Wednesday, begging for the safe return of her beloved pet dog.
+178 | 【A】 yearly concert.
+207 | 【a】 young boy had 【a】 significant portion of his brain removed for medical reasons, which included the part of the brain ___32___
+281 | Two boys and four girls were born on Monday to the surprise of 【a】 young couple and doctors who had expected five babies.
+553 | I haven’t been to 【a】 zoo since I was 【a】 kid.

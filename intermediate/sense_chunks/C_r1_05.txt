@@ -1,0 +1,612 @@
+# 任务 C_r1_05：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_05.labels.txt
+
+============================================================
+## 词：the    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.这; 那. adv.更; 越发.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 这，那（特指）    B 样本 80    例：See the Pope.
+  1  adv. 越……越……（the more…the more…）    B 样本 0
+  2  adv. （与比较级连用）更加，越发（all the better）    B 样本 0
+口径说明（照此执行）：
+  - 专有名词里的 the（The World Pipe Band Championships、the Corn Kid）仍按 art. 标 0；the+比较级……the+比较级 标 1；all the better/more 一类标 2。
+句子：
+3171 | Now a large-scale study has tried an innovative approach to change teenagers’ attitudes towards healthy eating, and 【the】
+3232 | In contrast, 【the】
+3295 | What might surprise consumers is just how many present-day nutrition studies are still funded by 【the】
+3402 | Such planting is a small step for humanity — in 【the】
+3436 | Companies such as Impossible Foods and Beyond Meat — 【the】
+3484 | Even with an incredible amount of talent, without 【the】
+3519 | business that cities nationwide began allowing them to build curbside seating areas where people could sit, safely, in 【the】
+3546 | Customers loved 【the】
+3549 | students found that 50 percent of friendships among ninth graders changed from one month to 【the】
+3572 | They’re nutritious, inexpensive, and far more sustainable than any of 【the】
+3429 | Willpower is 【the】 ability to control yourself.
+3671 | What we call multitasking, therefore, is in reality 【the】 ability to move more or less quickly from one task to another.
+3511 | It is critical to create good habits and take 【the】 actions necessary to stick to those
+3289 | K) Plus, she adds, it’s not an ideal way to reach 【the】 advised ‘five a day’.
+3559 | Are we willing to accept a system in which an increase in amenities purchased by 【the】 affluent means a reduction in amenities for 【the】 poor?
+3269 | In 【the】 age of 【the】 internet, there’s no such thing as a private debate.
+3314 | What was 【the】 aim of 【the】 first laws passed regarding fashion in 【the】 1200s?
+3562 | We compared 【the】 airfare paid by employees in 【the】 same position within a company for 【the】 same class of travel and used a common statistical technique to account for other factors that might affect differences in airfares.
+3464 | current superstars of 【the】 alternative protein sector — are pursuing consumers who enjoy meat but want to reduce their meat
+3591 | Thus, though American incomes may have gone up since 1973, 【the】 amount
+3319 | “It’s also about reducing 【the】 amount of grain carbs
+3644 | For most scientists, 【the】 answer is no.
+3445 | 【The】 anxiety seems misplaced.
+3203 | To show 【the】 appeal of a plant-based menu.
+3245 | Try to remember that as you are staring at 【the】 application for your marriage license and filling out 【the】 portion that reads “name after you get married” (or whatever 【the】 legalese for that might be).
+3528 | Parents must also talk to their kids about 【the】 appropriate ways to find academic answers and alert them to unethical behaviours that may seem innocent in their own eyes.
+3168 | I) Another reason for fruit juice’s recent popularity is 【the】 argument that it can help to remove poisonous or harmful substances
+3593 | In order to learn 【the】 art of persuasion at 【the】 workplace, you need to understand how to handle conflicts and reach
+3458 | 【The】 art of persuasion means convincing others to agree with your point of view or to follow your course of action.
+3592 | 【The】 art of self-control is one that most successful individuals have mastered.
+3380 | 【The】 article also explained
+3545 | These new generations of alternate meat get all 【the】 attention, but don’t forget about whole grains and vegetables.
+3453 | What do such utterances as “I have limited access to email” sound like according to 【the】 author?
+3508 | Why did 【the】 author and his colleagues launch 【the】 Out of Office Email Generator?
+3112 | 【The】 author emphasizes being anumeric does not affect one's cognitive ability.
+3584 | What does 【the】 author imply by saying aquaculture is no silver bullet?
+3621 | What does 【the】 author propose people do?
+3390 | What does 【the】 author say about China in terms of aquatic food?
+3290 | What does 【the】 author say about outer beauty?
+3116 | What does 【the】 author say about students enrolled in online classes?
+3503 | Why does 【the】 author say aquaculture is so important these days?
+3113 | What does 【the】 author say boredom might indicate?
+3191 | What does 【the】 author say businesspeople often do?
+3244 | What does 【the】 author say is important in formulating policies to improve diets and health?
+3209 | What does 【the】 author say is one disadvantage of online classes?
+3243 | What does 【the】 author say is remarkable about 【the】 fish we eat?
+3430 | What does 【the】 author say is 【the】 greatest strength of Ford's book?
+3619 | What does 【the】 author say we need to do to strengthen our willpower?
+3391 | What does 【the】 author suggest disadvantaged people do to improve their health?
+3236 | What does 【the】 author suggest people do to get rid of boredom?
+3524 | What did 【the】 author suspect back in 2016?
+3180 | Kelli Harding was a participant in a summer course 【the】 author taught.
+3239 | What does 【the】 author think constitutes a key part of genuine education?
+3346 | What does 【the】 author think of continuing to ask buyers to sign end-user license agreements?
+3401 | What does 【the】 author think of Ford's writing?
+3179 | What does 【the】 author think of online course assignments?
+3194 | What does 【the】 author think of 【the】 book Dress Codes: How 【the】 Laws of Fashion Made History?
+3635 | What does 【the】 author think open debate can do?
+3663 | What does 【the】 author think schools should do to tackle cheating?
+3367 | What is a reason for 【the】 author to be in 【the】 habit of saying “busy” when asked how he is doing?    ?P:in the habit of
+3431 | What does 【the】 author want to emphasize in 【the】 first paragraph?
+3210 | 【The】 author was deeply moved by what Kelli Harding wrote about her current life.
+3661 | 【The】 authors also suggest that traditional recruitment approaches for early childhood educators “do not address 【the】 gender gap in 【the】 field.
+3404 | It likely won’t ensure that 【the】 automatic driving system functions properly.
+3502 | Compared with 【the】 average American, people in healthy societies _______.
+3641 | 【The】 average American student receives 13 weeks off from school each calendar year—with about 11 of those during 【the】 summer.
+3510 | According to Friedman, between 1947 and 1973, 【the】 average hourly wage
+3537 | But by 2013 【the】 average hourly wage for ordinary workers had fallen 5 percent from
+3364 | 【The】 average single-family home built in 【the】 United States before 1970 was less than 1,500 square feet in size.    ?P:the United States
+3393 | By 2016, 【the】 average size of a new, single-family home was 2,422 square feet.
+3381 | What does 【the】 awarding of three Michelin stars to Eleven Madison Park indicate?
+3154 | You’ll need to change your name at 【the】 bank, with social security, with your credit cards, on your driver’s license, at 【the】 gym … everywhere.
+3639 | They set 【the】 bar too high, and when people take too long or don’t get things quite right, they assume it’s due too lack of effort.
+3267 | “【The】 basics of adequate sleep, healthy diet and exercise are a good place to start,” Dr.
+3383 | organizations promoting a message that, in 【the】 battle against weight gain, people should pay more
+3597 | happiness can stop 【the】 bears from searching for new mates.
+3624 | Environmentalists have long believed that building roads or homes near 【the】 bears may threaten their survival by
+3650 | While fats and sugar have taken 【the】 beating in turns since over a century ago, protein has managed to remain our red-hot
+3396 | We hold 【the】 belief that hard work leads to success.
+3271 | 【The】 benefits of a traditional Mediterranean diet have been studied since 【the】 1970s, and researchers have found that living that olive oil life can help people lose weight, lower their heart disease risk and reverse diabetes.
+3406 | To increase 【the】 benefits of fruit juice to our health, we’d better choose ripe fruit to make juice.
+3655 | They usually feature sports stars to emphasize 【the】 benefits of their snack foods.
+3427 | What does it take for decisions to become 【the】 best according to 【the】 author?
+3443 | You should decide on 【the】 best choice and mark 【the】 corresponding letter on Answer Sheet 2 with a single line through 【the】 centre.
+3541 | “【The】 best example is five a
+3270 | A social aspect to health has not been taken into account in trying to provide 【the】 best medical care.
+3491 | “Maybe 【the】 best sign that Impossible Foods has
+3329 | If this trend spurs scientists to agree more quickly about 【the】 best solutions to our problems—and at 【the】 same time helps 【the】 public observe 【the】 process of scientific discourse more clearly—then this is good for everyone, including scientists.    ?P:at the same time
+3565 | 【The】 best way to create and stick to a habit is to have strong motivation.
+3196 | 【the】 biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were
+3261 | “For our business, 【the】 bike lanes are way worse than Covid
+3627 | Despite increased business activity on Skillman Ave, many store owners insisted 【the】 bike lanes were destroying their area.
+3139 | So why 【the】 blind
+3679 | While a good suit works wonders for our performance in 【the】 boardroom, wearing formal wear isn’t a great idea when
+3199 | from 【the】 body.
+3307 | 【The】 book 【The】 Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a "hypnoidal trance (催眠恍惚状态)," causing them to wander aisles bumping into boxes and "picking things off shelves at random.    ?X
+3460 | 【The】 bottle is reusable.
+3421 | No matter what name 【the】 bride adopts, it is most important that 【the】 newly-weds truly love each other.
+3449 | Legally speaking, 【the】 bride is free to choose whatever name she prefers.
+3305 | 【The】 bride should consider adopting her groom’s last name whether he feels strongly about it or not.
+3392 | Hyphenating names allows 【the】 bride to preserve her own identity while respecting tradition.
+3363 | 【The】 bride who adopts a hyphenated last name after marriage can maintain connections with their past achievements.
+3504 | 【The】 brightest people and strongest leaders sometimes make errors others don’t, especially in situations that require common sense.
+3649 | I’ve come to 【the】 brutal realisation that
+3287 | Waste no time keeping 【the】 car moving.
+3514 | L) As is so often 【the】 case, clever marketing can beat reason; awareness is rarely enough.
+3428 | as a whole, it is not at all 【the】 case for 【the】 median American worker.
+3098 | If that were 【the】 case, why
+3304 | A greater emphasis on studying 【the】 cause of obesity and chronic diseases.
+3642 | What is one of 【the】 causes for more and more people in Los Angeles to become homeless?
+3412 | Bonnie Liebman, director of nutrition at 【the】 Center for Science in 【the】 Public Interest.
+3308 | 【The】 challenges are enormous, even if everyone is pulling in 【the】 same direction.
+3160 | It reduces 【the】 chances of making mistakes, and has increasingly become a favorite approach to decision-making among leaders of today.
+3080 | It is difficult for anumeric people to keep track of 【the】 change in numbers even when 【the】 total is very small.
+3222 | this theory cannot explain 【the】 change in trend in 【the】 U.S. working week in 【the】 1970s.
+3226 | “【The】 choice is important.
+3395 | Why did 【the】 citizens of Los Angeles vote to raise their own taxes?
+3126 | 【The】 citizens of this county voted in November 2016 and again in March 2017 to raise their own taxes.
+3321 | frequently drivers who commute from other parts of 【the】 city by car, Grabar points out.
+3170 | when 【the】 city removed nearby parking to put in a bike lane.
+3350 | “They tend to be people with deep roots in 【the】 city, who have hung around since before 【the】 neighborhood became what it
+3377 | 【The】 claimed health benefits of fruit and vegetable juices have rendered 【the】 industry very profitable.
+3571 | Science says that 【the】 clothes we wear affect our behavior, our mood and even 【the】 way we interact with others because of 【the】
+3518 | cracked 【the】 code to realistic fake meat is that I couldn’t stand to take another bite,” she wrote.
+3636 | What did 【the】 Common Sense Media survey reveal?
+3432 | Last year, 【the】 company bought SodaStream (a drinks company that sells machines for making tap water bubbly and
+3487 | Not so much, and, yes, they are made of plastic, although 【the】 company invites
+3462 | One of Design Ventura’s judges says 【the】 competition adds vigour to 【the】 standard curriculum in schools.
+3198 | L) Another is television presenter and interior designer Naomi Cleaver, who is one of 【the】 competition’s judges.
+3251 | 【The】 complexity of circumstances.
+3590 | 【The】 concept does indeed come from 【the】 realms of technology, where it is used to refer to an operating system that can execute multiple tasks at 【the】 same time.    ?P:at the same time
+3643 | We found that only 【the】 concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+3175 | It takes great efforts for children to grasp 【the】 concept of number words.
+3237 | 【The】 concept of self-care, at its core, is quite simple.
+3342 | When making decisions, we give priority to our current frame of mind without thinking much of 【the】 consequences.
+3440 | 【The】 consequences of doing poorly in 【the】 ninth grade can impact more than students' ability to find a
+3667 | What is one of 【the】 consequences of living big?
+3114 | Stress is so normalized that it is easy for women to shrug off those symptoms as simply 【the】 consequences of stress.
+3538 | 【the】 correct habits are in place, you will automatically perform those tasks on a day-to-day basis.
+3184 | When researchers estimate 【the】 cost of diets people actually eat, higher-quality diets are typically more costly.
+3337 | That reality was driven home this month by a new Los Angeles Homeless Services Authority report showing that 【the】 county's homeless population is growing faster than 【the】 supply of new housing.
+3424 | To combat 【the】 county's homelessness.
+3452 | To reform 【the】 county's service system.
+3275 | As a compromise, a bride will in most cases adopt a name that combines 【the】 couple’s last names.
+3169 | us and appreciate us as we take 【the】 courageous risk to allow ourselves to be seen as we really are.
+3405 | During 【the】 course of preparing for Design Ventura, teachers receive training and support while students get tutoring from
+3148 | They rarely fulfil 【the】 course requirements.
+3087 | In addition to tuition, college students have to pay extra fees for 【the】 courses they take.
+3676 | Diving headfirst into 【the】 crash course of starting university, I’ve quickly tried to get myself up to speed with 【the】 financial
+3570 | According to an officer of 【the】 Creative Industries Federation, there is difficulty now in recruiting engineers in 【the】 UK.
+3410 | A greater responsibility for 【the】 culinary world to undertake.
+3425 | What do we learn about 【the】 culture of busyness from a recent study?
+3482 | They may be intently focused on winning at 【the】 current market level.
+3273 | What do we need to do if we keep consuming fish at 【the】 current rate?
+3228 | “Now that design education is limited in 【the】 curriculum, I’m all in favour of competitions
+3473 | Gone are 【the】 days of going to a conference and debating scientific issues, and that’s good because those gatherings were not diverse enough and excluded many important voices.
+3386 | It matters little to 【the】 debate over obesity.
+3527 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let 【the】 debates be transparent and vigorous, wherever they are held.
+3551 | Calorie conswnption had fallen drastically over 【the】 decades.
+3091 | Making 【the】 decision is just part of 【the】 process.
+3561 | They seldom meet 【the】 descriptions of homelessness.
+3434 | A visit to 【the】 Design Museum shop in London can reduce 【the】 designers’ fears about 【the】 future supply of talents educated
+3673 | Foreseeing 【the】 desired outcome it will yield.
+3416 | But some experts worried that such public speculation might lead people to believe that disagreement about 【the】 details meant a lack of adequate scientific consensus over 【the】 safety and efficiency of modern-day medicine.
+3480 | To fund 【the】 development of local infrastructure.
+3083 | Obesity, in which excess body fat has accumulated to such an extent that health may be adversely affected, meets 【the】 dictionary definition of disease, argues Professor John Wilding.
+3208 | He believes that 【the】 dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says 【the】 question is not whether we can, but whether we should, and to what end.
+3357 | Richard Pile think of 【the】 dictionary definition of disease?
+3281 | Resolve 【the】 dilemma with previous experience.
+3362 | What would help improve food security among 【the】 disadvantaged groups in Canada?
+3457 | willpower have 【the】 discipline to develop positive, successful habits.
+3479 | They revolutionized 【the】 distribution of goods.
+3669 | 【The】 divorce rate in 【the】 county has been on a steady rise.
+3575 | not written in 【the】 DNA.
+3092 | Previously, 【the】 doctors made voice recordings that were then transcribed by secretaries—a process that was costly and likely to cause delays.
+3130 | did 【the】 duration of 【the】 working week decline in 【the】 first place?    ?P:in the first place
+3277 | In 【the】 early days, as 【the】 supermarket multiplied, so did our suspicion of it.
+3580 | Low pay has long been acknowledged as a major issue in 【the】 early education field.
+3607 | Over 70% of male educators who said they intended to stay in 【the】 early education workforce noted an increased salary was a major motivating factor for them to commit to 【the】 career long-term.
+3341 | But since 【the】 early 1970s it has risen
+3399 | Although Keynes’s eight-fold figure holds up for 【the】 economy
+3105 | One way we can improve 【the】 effects of fruit juice on our health is making sure we select ripe
+3522 | turned to for support when they move from 【the】 eighth to 【the】 ninth grade.
+3414 | 【The】 emotional labor women do is noticed only when it is not done.
+3240 | George Engel, in treating his patients, not only looks into their symptoms but also into things like 【the】 emotional support they receive.
+3633 | This would be a form of expropriation (侵占), with employees absorbing production costs that have traditionally been paid by 【the】 employer.
+3215 | At 【the】 end of 【the】 day, whether you each keep your names, whether you come up with an entirely new name for 【the】 two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.    ?P:at the end of the day
+3223 | Other studies have shown a greater uptake of exercise in people who were told to think of 【the】 enjoyment of doing 【the】 exercise
+3626 | Most of them eat meatless meat to protect 【the】 environment
+3211 | They all seem to stick to 【the】 ethos (特质) of regional, seasonal produce.
+3192 | But Friedman argues that 【the】 evidence for this theory is far
+3579 | 【The】 exercise is simple but important, since it brings these costs out of 【the】 realm of speculation into 【the】 realm of meaningful discussion.
+3625 | means that 【the】 experience of wearing something affects our attitudes and our choice of behavior.
+3120 | 【The】 explanation is that 【the】 two brain spheres of left-handers are more strongly connected.
+3468 | It can also impact 【the】 extent to which they enjoy life.
+3163 | Consider 【the】 fact that a 1918 catalog insisted that boys and girls be dressed in 【the】
+3326 | We originally had this suspicion back in 2016, puzzled by 【the】 fact that national statistics showed
+3531 | “It’s hard for anyone to graciously accept 【the】 fact that they’re wrong.
+3589 | investigation allowed us to conclude that this gap is largely explained by 【the】 fact that women tended to book earlier than men, 1.8 days on average.
+3119 | To write his 2010 book, 【The】 5-Factor World Diet, nutritionist Harley Pasternak traveled to 【the】 healthiest countries around 【the】 world to learn more about what made their meals extra nourishing.    ?X
+3301 | Most other healthy eating cultures also make meals an event—say, multiple courses around 【the】 family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+3302 | Those that require 【the】 fastest reaction give left-handers 【the】 biggest advantage.
+3553 | Reich-Shapiro and fellow researchers made several recommendations to increase male representation in 【the】 field.
+3379 | 【The】 fierce divide between store owners and bike-lane advocates seems similar to
+3088 | This confirms 【the】 fighter theory.
+3442 | 【The】 final potential cause is an increase in snacking and eating out over recent decades-both in terms
+3263 | It was a mad gamble few chefs in 【the】 fine dining world would risk taking.
+3200 | What do we learn about American society from 【the】 first paragraph?
+3297 | It is important to understand what causes your stress in 【the】 first place.    ?P:in the first place
+3286 | people think they needed bottled water in 【the】 first place, fountains were an urban fixture.    ?P:in the first place
+3110 | It is 【the】 first restaurant in 【the】 city to remove meat from its menu.
+3620 | Good communication is 【the】 first step in effective persuasion, but logic and reasoning are just as important.
+3576 | E) In addition, studies find 【the】 first year of high school typically shows one of 【the】 greatest increases in
+3303 | Increase 【the】 fishing volume considerably.
+3296 | Questions 51 to 55 are based on 【the】 following passage.
+3441 | "When 【the】 food
+3577 | They depend on funding from 【the】 food industries.
+3292 | To do this, researchers had students read an article on 【the】 food industry.
+3631 | 【The】 food industry plays a major role in fighting obesity.
+3423 | What did supermarkets do by adopting 【the】 Fordist factory approach?
+3318 | One group presented their idea in 【the】 form of a puppet show and we see    ?P:in the form of
+3556 | In a study, psychologist Myriam Bechtoldt of 【the】 Frankfurt School of Finance and Management in Germany asked 166 male university students a series of questions to measure their emotional intelligence.
+3495 | Students lose many of 【the】 friends they
+3217 | Most stores open with flowers, fruit and vegetables at 【the】 front as a breath of freshness to arouse our appetite.
+3172 | What do we learn about extremely shy students sitting in 【the】 front row of 【the】 classroom?
+3310 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine 【the】 future of your venture.
+3252 | That is, American inequality means that 【the】 gains of
+3507 | To narrow 【the】 gap between 【the】 rich and 【the】 poor.
+3616 | None of these explained away 【the】 gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.
+3494 | how complex 【the】 genetics behind a trait is.
+3095 | It remains unsettled whether 【the】 global food supply problem can be solved by creating heat-tolerant crops through genetic engineering.
+3162 | two months after setting 【the】 goal far more than how important they rated their goal to be.
+3131 | K) “In one study, we asked people online about 【the】 goals they set at 【the】 beginning of 【the】 year.
+3207 | J) 【The】 good news is, women are more likely than men to take charge of their stress and manage it, 【the】 American Psychological Association reports.
+3193 | people ate 50% more of a healthy food when directed to focus on 【the】 good taste rather than 【the】 long-term health benefits.
+3560 | They apply corporate black magic to 【the】 goods on display.
+3653 | Why can 【the】 habit of eating a plant-based diet lead to better health?
+3299 | When debates in any sector move beyond 【the】 halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between 【the】 scientific community and 【the】 public.
+3408 | M) When Janette Sadik-Khan was 【the】 head of New York City’s Transportation Department back in 【the】 early 2000s, she
+3165 | adding to all 【the】 health dangers of obesity, diabetes and tooth decay”.
+3496 | They turned public attention away from 【the】 health risks of sugar to fat.
+3360 | Each of 【the】 healthy eating cultures has its own unique feature.
+3181 | Contrast that to 【the】 healthy Mediterranean, Nordic and Okinawan diets listed in Pasternak’s book.
+3389 | But Pasternak did take note of one unifying factor in all of 【the】 healthy societies he observed.
+3594 | It is still impacted by 【the】 hit songs of 【the】 1950s.
+3086 | He built a large consultation service to address 【the】 holistic (整体的) needs of hospitalized patients, including psychological and social factors.
+3470 | evidence that food conswned out of 【the】 home is one of 【the】 most poorly recorded categories in surveys.
+3327 | “Women working outside of 【the】 home should make an effort to have a conscious conversation with their partners about more equitable sharing of household and family responsibilities,” Dr.
+3534 | What do people tend to believe about 【the】 homeless?
+3640 | A luxury for 【the】 homeless.
+3248 | But contrary to popular belief, 【the】 homeless in Los Angeles are not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+3335 | Despite this, popular culture and 【the】 housing industry market happiness as living with both more space and more amenities (便利设施).
+3454 | They may be too eager to succeed while ignoring 【the】 huge labor cost.
+3513 | It is unwise to weaken 【the】 human connection to nature.
+3285 | 【The】 idea is for people to get back in touch with 【the】 soil — while
+3645 | 【the】 idea that less labor will be necessary because machines can do so much.
+3370 | G) Keynes's prediction of a shorter working week rests on 【the】 idea that 【the】 standard of living would continue rising for
+3601 | They convey 【the】 idea that their products are ok if consumers exercise more.
+3371 | Researchers found that participants who saw 【the】 images of their aged selves would save more for their later years than
+3212 | Left-handed people were more likely to prefer 【the】 images on 【the】 left.
+3544 | research into 【the】 impact of clothes on behavior now suggests that there may actually be a grain of truth in these sayings.
+3566 | persuasion skills, employees may not be as committed to or convinced of 【the】 importance of an organization's vision and long-
+3345 | J) Even if bottled water sales are growing slightly more slowly, 【the】 industry is racing to adapt to changing concerns and tastes.
+3272 | Researchers have looked at 【the】 influence of being left-handed on performance and interactive sports.
+3461 | Facilitating their access to 【the】 information provided by 【the】 seller.
+3656 | Utilizing 【the】 information they provide.
+3260 | They may neglect to cultivate 【the】 inner qualities that matter more.
+3417 | There are no formulas written on 【the】 insides of hands or students looking across 【the】 aisle, or whispering answers to their classmates.
+3420 | Make sure to purchase healthy foods on 【the】 internet.
+3214 | 【The】 internet is full of recipes for “eating well on a budget.
+3438 | After 【the】 intervention, participants associated healthy eating with autonomy and social justice.
+3609 | More than half of 【the】 interviewees felt no sense of guilt over cheating.
+3238 | But labelling obesity as a disease “risks reducing autonomy, disempowering and robbing people of 【the】 intrinsic (内在的) motivation that is such an important enabler of change.
+3186 | Your hands are covered with oil; you're not going to get on 【the】 iPad, so it's a lot more natural to talk.
+3517 | We hear sayings like “dress for 【the】 job you want, not 【the】 job you have”.
+3330 | A study by 【the】 Josephson Institute of Ethics interviewed 23,000 high school students and asked them a variety of questions about academic ethics.
+3288 | “And 【the】 judging day is terrific
+3400 | I believe 【the】 key to success is willpower.
+3467 | How accurate DNA tests are relies greatly upon 【the】 kind of test being taken, on 【the】 specific question you ask, and on
+3331 | above 【the】 kitchen sink and calling it dinner.
+3437 | Now, she notes ironically, 【the】 lanes are so foil of activity that opponents
+3521 | 【The】 large majority of our traits and diseases also depend upon non-genetic factors, such as lifestyle, 【the】 environment, and
+3334 | Hyphenating 【the】 last names could be a win-win solution should arguments arise about what name to adopt upon marriage.
+3106 | 【the】 lasting intimacy and spiritual connection for which we long.
+3501 | Teachers must stay on guard when it comes to what their students are doing in classrooms and how technology could be playing a negative role in 【the】 learning process.
+3103 | Self-driving car manufacturers are not aware of 【the】 legal matters involved.
+3564 | 【the】 1973 level in terms of actual purchasing Power.
+3347 | “I’m always impressed by 【the】 levels of confidence and 【the】 support 【the】 students get
+3603 | depression of any year over 【the】 lifespan.
+3411 | calculated that 【the】 lifetime benefit to 【the】 local economy for a single additional student who completes
+3221 | 【The】 likelihood of errors.
+3266 | Count 【the】 likes they get on their posts.
+3250 | One group of researchers, for example, examined 【the】 link between rivalry and unethical behavior.
+3111 | use, including everything from helping to protect 【the】 lives of firefighters to keeping homes cool in
+3533 | They are going to replace 【the】 local groceries entirely.
+3525 | Though employers are backed by a chorus of remote work advocates, others note 【the】 loneliness, reduced productivity and inefficiencies of extended remote work.
+3144 | In 【the】 long history of mankind, humans who use numbers are a very small minority.
+3486 | Economic growth benefits people little in 【the】 long run.    ?P:in the long run
+3283 | wanting 【the】 long-term benefits.
+3509 | Estimate 【the】 long-term consequences.
+3349 | Newer varieties imitate 【the】 look, flavor, and texture of meat.
+3280 | While outperforming your rivals may provide short-term benefits, 【the】 loss of your integrity will have long-term consequences.
+3618 | For most Americans, then, 【the】 magic of increasing
+3241 | For example, a traditional Mediterranean diet includes fruits, vegetables, whole grains, nuts and olive oil as 【the】 main components of nutritional intake.
+3615 | They account for 【the】 majority of drug addicts.
+3201 | 【The】 majority of her customers drive, with many coming from
+3096 | 【The】 majority of workers surveyed said parental leave policies had improved workplace culture.
+3526 | Despite mostly feeling supported by colleagues and family members, many of 【the】 male educators surveyed in 【the】 study reported facing social or cultural resistance in their careers as early education teachers.
+3322 | It revealed a secret about 【the】 manipulative and
+3660 | If savings are modest, then 【the】 many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve 【the】 idea of remote work and, like Yahoo in 2013, encourage employees to work most of 【the】 time from corporate office space.
+3332 | Enlarge 【the】 marine fish stocks effectively.
+3599 | processed meatless substitutes on 【the】 market today.    ?P:on the market
+3407 | soon; a 2021 report predicts 【the】 market will skyrocket to $74 billion by 2030 — a 957 percent surge.
+3256 | Before plastic and 【the】 marketing that made
+3373 | accessible fruit and vegetable gardens connect what we eat to where it comes from—【the】 means of production, if you will.
+3378 | Analysts don’t expect 【the】 meat-free movement to slow anytime
+3456 | H) This can be seen in 【the】 median workers income over this time period complete with a shift in 1973 that fits in precisely
+3328 | Obese people would not be able to afford 【the】 medical costs.
+3173 | Why did Daniel Humm decide to remove meat from 【the】 menu of his restaurant?
+3497 | So, what's 【the】 message conveyed?
+3628 | They send 【the】 message that bad diets are responsible for Americans’ obesity.
+3140 | featuring sports stars, send 【the】 message that we can neutralize any negative effects of consuming their products simply by
+3317 | Take note of 【the】 message though fatigued.
+3532 | Should Americans accept a system in which 【the】 middle and upper classes enjoy a luxurious lifestyle, using 【the】 low-wage labor of others?
+3141 | What did one study find about students seated in 【the】 middle of 【the】 classroom?
+3247 | Meanwhile, they keep 【the】 milk, eggs, and other daily basics all 【the】 way back so you'll travel through as much of 【the】 store as possible, and be tempted along 【the】 way.    ?P:along the way ?P:as...as
+3488 | likely among 【the】 millions of people in search of more protein-rich diets.
+3632 | 【The】 missing out of main meals leads to 【the】 habit of snacking.
+3602 | At 【the】 moment, 【the】 scientific bases for these applications are non-existent or incredibly weak.
+3647 | 【The】 more they achieve and 【the】 greater progress they
+3674 | make, 【the】 more they trust your judgement and strength.
+3189 | In other words, 【the】 more we believe that one has 【the】 opportunity for success based on hard work, 【the】 more we tend to think that people who skip leisure and work all 【the】 time are of higher standing.    ?P:all the time
+3623 | protein although 【the】 most desirable protein intake may vary depending on age and activity level.
+3542 | Many of us living in 【the】 most developed countries are buying into a myth of protein deficiency created by food companies
+3398 | Explore 【the】 most feasible options.
+3102 | rates are, at 【the】 most generous estimates, 56%, so 【the】 actual recycling rate will be lower than that,” Chetan-Walsh says.
+3249 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed to making 【the】 most of your time off.    ?P:make the most of
+3213 | Despite these problems, however, shrimp continues to be among 【the】 most popular seafoods worldwide.
+3136 | Among them are architect Asif Khan, a Design Museum trustee who has worked as designer-in-residence at 【the】 museum,
+3264 | This month, more than 4 million students across 【the】 nation will begin high school.
+3659 | 【The】 nation's obesity level has much to do with calorie intake.
+3596 | In fact, Americans currently consume almost twice 【the】 National Academy of Medicine’s recommended daily intake of
+3578 | 【The】 national statistics did not reflect 【the】 actual calorie conswnption.
+3540 | It is increasingly detached from 【the】 natural world.
+3164 | Simply being in 【the】 nearest
+3127 | A number of existing farming technologies could be used to reduce 【the】 negative effect of climate change on food production.
+3382 | In 【the】 new global economy, students who fail to finish 【the】 ninth grade with passing grades. in college
+3493 | Importantly, there were also some promising effects of 【the】 new intervention on actual
+3167 | He has recently been commissioned to design 【the】 new Museum of London building in
+3678 | But 【the】 new research suggests that a “modest degree of
+3124 | 【The】 new system means letters to patients now have more detail.
+3358 | A recent debate published in 【The】 New York Times discussed 【the】 question of how quickly medicine should be developed and produced.    ?X
+3354 | Last year, 【The】 New York Times revealed how Coca-Cola was funding well-known scientists and    ?X
+3220 | Finding someone you’re committed to outcompeting can be a great way to stay focused on your goals and push your venture to 【the】 next level.
+3155 | Think about when you're cooking, and you just want to know what 【the】 next step in 【the】 recipe is.
+3294 | Consider that nearly two-thirds of students will experience 【the】 "ninth-grade
+3353 | 【the】 ninth grade can have long-term consequences not only for 【the】 students themselves but for their
+3611 | In 2020, 【the】 Nobel Peace Prize was awarded to 【the】 World Food Programme (WFP).
+3254 | By looking at what 【the】 nobility were wearing.
+3608 | Let everyone see 【the】 noisy, messy deliberations that advance science and lead to decisions that benefit us all.
+3471 | Who will benefit if working from home becomes 【the】 norm?
+3150 | Pasternak also came away with some valuable observations about how different 【the】 North American way of life was, compared with many other countries.
+3118 | M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation on 【the】 number of Kelli Hardings 【the】 nation is blessed with.
+3450 | Second, once-public spaces, where people from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in 【the】 number of public facilities available to all, and a reduced quality of life for many.
+3128 | In spite of progress, 【the】 number of women in top positions of big companies remains extremely small.
+3355 | Now 【the】 Office for National Statistics has confirmed that we are consuming 50% more calories than
+3605 | What has 【the】 Office for National Statistics verified?
+3242 | Right-handed people preferred 【the】 ones on 【the】 right.
+3099 | achieve and 【the】 ones that fall to 【the】 wayside.
+3129 | 【The】 only feasible option is to rely on what your instincts tell you.
+3418 | “【The】 only overlapping feature in most of these healthy countries is that they all walk way more than 【the】 average American,” said Pasternak.
+3600 | A stretch of Skillman Ave witnessed not only a big increase in sales but also 【the】 opening of new businesses.
+3585 | They tend to undervalue 【the】 opinions of others, which means they have trouble believing that anyone is qualified to give them useful feedback.
+3282 | 【the】 other two explanations Friedman considers, this one fits chronologically .
+3279 | That’s why we recently launched 【the】 Out of Office Email Generator, a free tool you can use before your next long weekend or trip.
+3548 | genes, each contributing a little to 【the】 outcome, together with a bunch of environmental factors.
+3573 | found storeowners making more than before, and diners enjoying 【the】 outdoor lifestyle.
+3206 | It may make people feel that they ought to fit in with 【the】 outside world.
+3403 | K) As 【the】 owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental
+3174 | Identify 【the】 paragraph from which 【the】
+3143 | statement contains information given in one of 【the】 paragraphs.
+3388 | A Common Sense Media survey found that 35-percent of students had cheated via smartphone, though 【the】 parents surveyed in that particular study did not believe their kids had ever cheated.
+3231 | So while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees 【the】 parking loss as an existential
+3675 | Stand by 【the】 parliament in fighting social diseases.
+3182 | In one study, researchers showed 【the】 participants columns of abstract illustrations and asked them which ones they would prefer.
+3409 | Afterwards, 【the】 participants read a fictional survey of teens who wanted to “fight back against 【the】 companies by buying and
+3259 | “There are a lot of nutrients contained in 【the】 parts of 【the】 fruits,
+3145 | What do we learn about social media from 【the】 passage?
+3397 | How can competitive rivalry benefit entrepreneurs according to 【the】 passage?
+3646 | How are almost half of our daily actions performed according to 【the】 passage?
+3666 | What do we learn from 【the】 passage about 【the】 brightest people?
+3365 | What does 【the】 passage say about 【the】 idea of a self-service grocery?
+3629 | What does 【the】 passage say is of importance regarding genetic tests?
+3455 | Recalling what has actually worked in 【the】 past.
+3138 | 【The】 path toward cultivating inner beauty is really simple.
+3320 | What happens when we take 【the】 path toward cultivating inner beauty?
+3312 | 【the】 period following World War II, along with 【the】 duration of 【the】 working week.
+3268 | What’s more, making obesity a disease “may not benefit patients, but it will benefit healthcare providers and 【the】 pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+3230 | It places a high value on 【the】 physical fitness of stars.
+3123 | From there you are going to have to legally change your name all over 【the】 place.    ?P:all over the place
+3316 | 【the】 plastic for recycling.
+3298 | What is 【the】 popular view of obesity?
+3178 | Professor Wilding disagrees that labelling a high proportion of 【the】 population as having a disease removes personal responsibility or may overwhelm health services, pointing out that other common diseases, such as high blood pressure and diabetes, require people to take action to manage their condition.
+3469 | _GiveathisÜenv ironment,_consumeruhould-beskepticaL They raised public awareness of 【the】 possible causes of heart disease.
+3485 | some of us, persuasion is an instinctive quality and 【the】 power of influencing comes naturally.
+3539 | Besides, teamwork and leadership rely heavily on 【the】 power of persuasion to get things done.
+3369 | What should we do when facing various factors that limit 【the】 practicability of data?
+3097 | Absence of definitive criteria, and time and resource constraints, and novel situations are instances which limit 【the】 practicality of data.
+3315 | 【The】 practice of throwing seed bombs to turn vacant plots of land green took
+3529 | This and other research challenge 【the】 prevailing view that emotional intelligence is uniformly beneficial to its bearer.
+3481 | One is opposed to 【the】 prevailing work culture.
+3094 | At last, 【the】 problem became so acute—and so visible—that Los Angeles took extraordinary action.
+3465 | have turned to claiming 【the】 problem is 【the】 opposite: There are too many cyclists getting in 【the】 way of cars.    ?P:get in the way of ?P:get in the way
+3135 | What is 【the】 problem with requiring buyers to sign end-user license agreements?
+3081 | make you more effective in 【the】 process.
+3253 | M) These findings suggest that when it comes to achieving your goals, enjoying 【the】 process itself is more important than
+3313 | Research found that, as regards achievement of one’s goals, it is important to focus more on enjoying 【the】 process than 【the】
+3387 | Issues such as safety of 【the】 product and perception of 【the】 public were examined and considered.
+3351 | deceptive strategies used to make junk food more addictive and characterize 【the】 products as healthy.
+3084 | Most interaction with 【the】 professor has to be through email which is often impersonal.
+3413 | Another cause is that 【the】 proportion of people who are trying to lose weight has been increasing over
+3333 | Prioritizing 【the】 provision of better nutrition for lower classes.
+3498 | Unless employers are fully compensated, this could become a variant of parasitic (寄生的) capitalism, whereby corporate profits increasingly rely on extracting value from 【the】 public—and now personal—realm, rather than on generating new value.
+3500 | These days, 【the】 public can access debates about science regardless of where they take place.
+3658 | It runs counter to 【the】 public interest.
+3492 | N) Maybe bike lanes will always be charged with emotion, until enough of 【the】 public is finally concerned about climate
+3554 | If 【the】 public is to understand that science is an honorably self-correcting process, 【the】 idea that science is a fixed set of facts in a textbook needs to be dismissed.
+3662 | Help 【the】 public to better understand science.
+3515 | But contrary to all 【the】 publicity that everyone needs more protein, most
+3157 | 【The】 purpose of such action is to fund an enormous multibillion-dollar, 10-year program of housing and social services for 【the】 homeless.
+3604 | Nearly all of them serve 【the】 purpose of 【the】 funders.
+3291 | K) For others, 【the】 pushback is cultural, says Henry Grabar, a writer for 【the】 Slate Magazine.
+3451 | They improved 【the】 quality of 【the】 food they sold.
+3617 | However, 【the】 question is: can a person really be a multitasker?
+3101 | 【The】 question of how to achieve work-life balance has long been 【the】 main subject of discussion among workers.
+3204 | Answer 【the】 questions by marking 【the】 corresponding letter on Answer Sheet 2.
+3205 | That describes 【the】 reaction of many Americans this week following revelations that,
+3151 | No one understands 【the】 reason for this.
+3654 | This cycle is 【the】 reason why people rest at night
+3568 | day, 【the】 recommendation to have at least five portions of fruit and vegetables every day.
+3274 | A better understanding of 【the】 relationship between social class and health.
+3634 | 【The】 report suggests paying all early childhood educators 【the】 way elementary school teachers are paid.
+3090 | However, 【the】 research does not explain why this is 【the】 case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+3202 | 【The】 researchers argued that previous interventions have probably been unsuccessful because of a major
+3512 | For 【the】 rest of us, persuasion
+3352 | It is an effort to transform 【the】 restaurant into a luxury one.
+3293 | It elevates 【the】 restaurant’s cooking to an art form.
+3224 | By examining 【the】 restraints imposed on it.
+3122 | Are unhealthy diets really 【the】 result of poor choices, limited food skills and knowledge?
+3672 | In Keynes’s vision, 【the】 resulting unemployment
+3490 | Science now suggests 【the】 right dress may give ourselves 【the】 extra
+3652 | wear puts us in 【the】 right frame of mind to conduct business.
+3648 | Reconnect with nature through 【the】 right to grow.
+3384 | One is 【the】 rise in obesity levels
+3343 | To facilitate 【the】 rise of 【the】 middle class.
+3439 | An explicit recognition of 【the】 rising importance of restaurants serving vegan food
+3368 | One way you can overcome 【the】 risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+3536 | How can entrepreneurs overcome 【the】 risk-inducing effects of rivalry?
+3435 | Diets containing large amounts of fibre reduce 【the】 risk of heart disease, diabetes and other health hazards.
+3550 | They conducted large-scale research on 【the】 role of sugar in people's health.
+3446 | Since cheating through technology is not listed specifically as being against 【the】 rules in many school policies, students do not view 【the】 actions unethical.
+3255 | hit songs of 【the】 1950s, researchers found, there was only slightly more than one 50 years later.
+3677 | In 【the】 1970s through 【the】 1990s, protein products remained visible but moved back somewhat with 【the】 dietary spotlight
+3422 | What's more, homes built in 【the】 2000s were more likely than earlier models to have more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+3375 | It will probably not guarantee 【the】 safety of drivers in case of accidents.
+3338 | Leaders should take time off themselves and encourage employees to do 【the】 same.
+3348 | A lot of research comes to 【the】 same conclusion that fruit juice does harm to 【the】 human body when it leads to surplus
+3535 | Female employees consistently pay lower airfares than men do for 【the】 same flights because they tend to book earlier.
+3612 | They simply don’t understand how hard some people have to work to accomplish 【the】 same things, and because of that, they push people too hard.
+3478 | At 【the】 same time, public municipal pools were often closed, leaving low-income people nowhere to swim.    ?P:at the same time
+3563 | A multitasker is one who can perform two or more tasks effectively at 【the】 same time, which—apart from 【the】 obvious differences—is similar to what a computer does.    ?P:at the same time
+3606 | Rough calculations show that 【the】 savings made by employers when their staff works from home are of similar value to 【the】 compensation workers should receive for setting up offices at home.
+3361 | Expand 【the】 scale of fish-farming continuously.
+3543 | 【The】 schools don’t have to pay anything to take part in 【the】 Design Ventura competition.
+3104 | K) It costs 【the】 schools nothing to participate in Design Ventura; 【the】 professional designers provide their services for free.
+3637 | 【The】 scientists measured concentrations of stress hormones in 【the】 students’ saliva (唾液) before and after 【the】 talk.
+3339 | 【The】 sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.
+3188 | It is neither desirable nor morally acceptable nor practical for this county to tolerate 【the】 signs of deprivation more commonly associated with 【the】 slums of Rio de Janeiro.
+3100 | beliefs, to realize that we almost never do so, to understand that 【the】 simplest choices are charged with meaning, and yet that
+3595 | Judging from 【the】 slowing rate of sales growth, there is still hope to combat bottled water.
+3574 | What do we learn about advertising campaigns from 【the】 snack food companies?
+3108 | Advertising campaigns from 【the】 snack food companies, often
+3161 | personal connections and relationships, people may place more value on 【the】 socializing that happens at work.
+3552 | It also means having private space dedicated to work: 【the】 space must be heated, cleaned, maintained and paid for.
+3374 | Flavoured water is booming: sales of 【the】 sparkling variety shot up by 20%, according to 【the】 latest analyst data, Meanwhile,
+3109 | What is of great importance to students according to 【the】 speaker?
+3385 | Women are advised to identify 【the】 specific causes of their stress so that steps can be taken to deal with it.
+3276 | 【The】 spoken web is helpful when one's hands are occupied.
+3325 | "Roughly 90% of nearly 170 studies favored 【the】 sponsor's interest,"
+3265 | sugar's role in heart disease-and put 【the】 spotlight 0.i 1;€r?
+3415 | It may accelerate 【the】 spread of obesity.
+3258 | such as Design Ventura, which helps to bring 【the】 standard curriculum to life,” says Cleaver.    ?P:bring sth to life
+3234 | 【The】 start of high school doesn't have to be stressful
+3372 | To preserve 【the】 status of 【the】 nobles.
+3147 | Recognising obesity as a chronic disease with severe complications rather than a lifestyle choice “should help reduce 【the】 stigma (耻辱) and discrimination experienced by many people with obesity,” he adds.
+3477 | But there’s another side to 【the】 story.
+3278 | Today, a greater and greater proportion of people living on 【the】 streets are there because of bad luck or a series of mistakes, or because 【the】 economy forgot them—they lost a job or were evicted or fled an abusive marriage just as 【the】 housing market was growing increasingly unforgiving.
+3664 | In students who were rated more emotionally intelligent, 【the】 stress measures increased more during 【the】 experiment and took longer to go back to baseline.
+3082 | I) 【The】 stress problem extends beyond mental health when you consider 【the】 link between stress, anxiety and heart health.
+3153 | For example, low income is 【the】 strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.
+3582 | Over half of 【the】 students interviewed were unaware they were cheating.
+3583 | For example, they showed 【the】 students photographs of people’s faces and asked them to what extent feelings such as happiness or disgust were being expressed.
+3324 | 【the】 students themselves and society at large, because students' experience of transitioning (lii./t) to
+3610 | 【The】 students then had to give job talks in front of judges who displayed serious facial expressions.
+3520 | A day later 【the】 students were offered a choice of snacks and drinks in a seemingly unrelated context.
+3555 | What do we learn from 【the】 study by 【the】 Josephson Institute of Ethics?
+3523 | They placed 【the】 sugar industry in 【the】 spotlight with their new findings.
+3235 | 50 years ago, 【the】 sugar industry paid Harvard scientists for research that shifted 【the】 focus away from
+3093 | 【The】 supermarket imitated 【the】 Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place to buy food.
+3670 | 【The】 surveys showed men tend to exhibit more of these negative behaviors than women.
+3177 | Harvard reports that women are “much more likely than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize 【the】 symptoms.
+3433 | Familiarizing them with 【the】 systems through training,
+3567 | It is especially appealing to 【the】 taste of teenagers.
+3499 | “In our world and our society, we have very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in 【the】 teacher education department of 【the】 Borough of Manhattan Community College, and one of 【the】 authors of a recent study.
+3474 | 【The】 technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to 【the】 problem with using technology to find answers in a certain way.
+3466 | 【The】 teenagers also rated
+3547 | 【The】 teens chose
+3359 | Of 【the】 teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam but that they did not feel uneasy about 【the】 behaviour.
+3197 | Most end users sign them without bothering to read 【the】 terms.
+3257 | Most end users do not understand 【the】 terms after reading them through.
+3166 | End users, young and old alike, find 【the】 terms complex to interpret.
+3233 | To strive for 【the】 three-star Michelin rating.
+3125 | Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at 【the】 time.
+3132 | meaning can and does change all 【the】 time.    ?P:all the time
+3158 | So why are we so proud to talk about how busy we are all 【the】 time?    ?P:all the time
+3558 | It’s even harder for smart people because they grow so used to being right all 【the】 time that it becomes a part of their identity,” Bradberry wrote.    ?P:all the time
+3463 | up and feel guilty about taking 【the】 time to focus on clothes.
+3651 | “reducing or fragmenting their natural habitats”, 【The】 Times reported.    ?X
+3657 | greatest burden of disease worldwide, in terms of 【the】 total cost of treatment and 【the】 loss of
+3149 | May 【the】 totals be large and getting larger.
+3614 | 【The】 traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and 【the】 summer months were needed for farm work.
+3426 | What is one of 【the】 traps entrepreneurs may often fall into when competing with rivals?
+3190 | But before you go out and find an entrepreneur to outcompete, it’s important to understand and avoid 【the】 traps that often come with rivalry.
+3505 | 【The】 trend for bigger housing thus poses ethical questions.
+3376 | We find that if pupils take part in Design Ventura in Year Nine it can be 【the】 trigger which leads
+3107 | H) 【The】 truth is that in fairly dense areas, bikes are more efficient at moving people around.
+3340 | Figure out which of 【the】 two is more reliable.
+3185 | L) What matters, of course, is that 【the】 two of you are going to be happily married—hopefully for 【the】 of your lives.
+3311 | Combine 【the】 two together.
+3187 | 【The】 typical supermarket layout has barely changed over 【the】 past 90 years.
+3506 | What is 【the】 typical supermarket layout intended to do?
+3246 | No wonder using mobile phones while driving causes more crashes a year than drink driving, says 【the】 U.S.
+3444 | Nationwide, only about three percent of early childhood teachers are male in 【the】 U.S.
+3142 | It was famed throughout 【the】 U.S. for its fancy regional dishes.
+3569 | Physicians in 【the】 U.S. have never actually examined a patient with protein
+3668 | With 【the】 U.S. lagging behind other countries in academics, it's time to consider year-round schooling.
+3216 | In 【the】 U.S., 29% of drivers admit they surf behind 【the】 wheel, according to insurance firm State Farm.    ?P:behind the wheel
+3489 | Enrollment in Design and Technology decreased by nearly ten percent last year in 【the】 UK.
+3134 | year, 【the】 UK government set out plans to ban single-use plastic from its estate.
+3394 | It originated in 【the】 United States.    ?P:the United States
+3613 | What are big houses promoted to be in 【the】 United States?    ?P:the United States
+3156 | They were such strange marvels that, on her first official state visit to 【the】 United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour of a suburban-Maryland Giant Food.    ?P:the United States
+3306 | 【The】 United States is facing a housing crisis: Affordable housing is inadequate, while luxury homes abound (充裕), and homelessness remains a persistent problem.    ?P:the United States
+3137 | sciences at 【the】 University of Southern California.
+3356 | 【The】 unpaid housework done by women is triple that done by men.
+3284 | By doing a survey of 【the】 upper and middle classes.
+3344 | Apart from 【the】 urgent task of providing more healthy nutrients to those who increasingly can’t afford them.
+3085 | In 【the】 US, France and Germany, written contracts tend to be seen as something that must be strictly carried out.
+3159 | According to one estimate, less than one third of companies in 【the】 US provide paid parental leave.
+3323 | It proves 【the】 validity of ratings awarded by Michelin.
+3581 | With 【the】 validity of science coming under attack, there’s a need for scientific debates to be perceived as open and true to life.
+3262 | new intervention cleverly exploits teenagers’ instinct for rebelliousness and autonomy, and 【the】 value they place on social
+3588 | They are 【the】 victims of fast economic development.
+3218 | For as long as there are homeless people, there is a tendency to blame 【the】 victims themselves for their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+3089 | That’s because 【the】 volume of fish caught in 【the】 wild has leveled off since 【the】 1990s.
+3183 | That grain—and 【the】 water needed to grow it—could be consumed by people instead.
+3146 | Many women also do not experience chest pain before a heart attack 【the】 way men do, which leads to fewer women discovering problematic heart issues.
+3447 | What is typical of Americans in 【the】 way of eating?
+3176 | It may get in 【the】 way of enhancing one's social status.    ?P:get in the way of ?P:get in the way
+3300 | 【The】 way that cheating looks has changed over time, though, particularly now that technology has made it easier than ever.
+3598 | We also evaluate ourselves based on what we are wearing because of 【the】 way they make us feel.
+3336 | They are actually on 【the】 way to bankruptcy.    ?P:on the way
+3586 | We must change 【the】 way we think: living well does not need to mean having more private spaces; instead, it could mean having more public spaces.
+3133 | 【The】 weakening of 【the】 human connection to nature might be good for economic growth but is bad for people.
+3587 | They take advantage of 【the】 weaknesses of women shoppers.
+3309 | Managers need to think twice about emailing their teams on 【the】 weekend and talking about how busy they are.
+3622 | One city on 【the】 west coast of America has banned single-use bottles from its property and events.
+3638 | Why a Nobel Prize for 【the】 WFP, and why now?
+3665 | In 2019, 【the】 WFP assisted nearly 100 million people in 88 countries.
+3229 | However, “【the】 whole concept of a juice diet helping to remove poisonous or harmful substances from 【the】
+3475 | They get 【the】 whole family to eat at a table.
+3115 | Yet 【the】 widespread view is that obesity is self-induced and that it is entirely 【the】 individual’s responsibility to do something about it.
+3448 | It raises more fish than caught from 【the】 wild.
+3225 | Yet slipping from popular culture is 【the】 wonder and beauty of 【the】 natural world.
+3195 | wood has such health benefits that 【the】 Woodland Trust successfully lobbied for it to be prescribed by doctors.
+3227 | Many people are often confused by 【the】 wording of 【the】 terms.
+3483 | with when 【the】 working week stopped shrinking.
+3630 | 【The】 World Health Organization reports that depression has 【the】
+3557 | It ensures a balanced healthy diet for people 【the】 world over.
+3121 | A lot of that is coming from China, which produces 60% of 【the】 world’s farmed fish.
+3530 | It is a must for feeding 【the】 world’s fast-growing population.
+3476 | It supplies 60% of 【the】 world’s fish products.
+3419 | It boasts of 【the】 world’s largest fishing stocks.
+3152 | By 2050, 【the】 world will need to feed an estimated 9.7 billion people.
+3366 | In 【the】 world's richest nation, homelessness on this scale should be shameful and shocking.
+3516 | Design Ventura is welcomed by teachers because it helps to prove 【the】 worth of design as a school subject.
+3117 | Such differences in value that different working cultures place on 【the】 written word tend to cause many problems when it comes to business relationships.
+3219 | It sounds self-righteous (自以为是的) and sets 【the】 wrong tone.
+3459 | 【The】 year 2020 was a big turning point in human history.
+3472 | For 【the】 youngest learners, it means they are more likely to get exposed to different varieties of play and communication.

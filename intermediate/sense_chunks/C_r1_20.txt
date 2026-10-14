@@ -1,0 +1,616 @@
+# 任务 C_r1_20：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_20.labels.txt
+
+============================================================
+## 词：of    本段 600 句    模式：全标（每句都写）
+原释义：prep.…的; 属于; 由…组成的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. ……的（所属、关系、内容，如 the end of the day, the importance of）    B 样本 53    例：They were both 60 years of age.
+  1  prep. ……中的（部分、数量、种类，如 one of, a piece of, thousands of）    B 样本 18    例：Part of its dam wall collapsed.
+  2  prep. 关于，对（think of, afraid of, fond of）    B 样本 4    例：He is fond of luxury cat food.
+  3  prep. 由……制成，由……构成（made of）    B 样本 0
+  4  prep. （表示分离、原因）离，脱离，因（independent of, free of, die of）    B 样本 1    例：This is because other effects of red meat consumption could contribute to heart disease independent of cholesterol.
+  5  prep. （人名后）来自，住在（Vaclav Bursa, 15, of Florida）    B 样本 1    例：Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall.
+已标过的短语：ahead of（2）；on behalf of（1）；of course（1）；a number of（1）；make use of（1）；in the process of（1）；walks of life（1）；a variety of（1）
+口径说明（照此执行）：
+  - of 前后是名词的一般修饰/所属关系一律标 0（含 University of California、city of X 这类专名）；表数量、部分（one of、a piece of、part of、most of、a team of）标 1；形容词/动词后的 of（afraid of, fond of, think of, accuse of）标 2；a lot of / a number of / a variety of / of course / ahead of / on behalf of / make use of / in terms of / because of / instead of / out of 等按 P 标。
+句子：
+835 | A quarter 【of】
+947 | G) “By working with industry partners such as ABTA and Get Safe Online, we are able to issue alerts about the latest threats they should be aware 【of】.
+1180 | Children don’t just show up to the first day 【of】
+882 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class 【of】 a brand new school.
+1229 | Helping to look after a pet can facilitate numerous aspects 【of】 a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.
+790 | The findings suggest that, just as a parent’s personality can affect the personality 【of】 a child, the same is true for a cat and its owner.
+830 | A higher grade average among all students 【of】 a class.
+869 | Various aspects 【of】 a company’s workforce.
+916 | But it may also be an expression 【of】 a desire for going outdoors—a response to the months 【of】 lockdown.
+894 | Advantages and disadvantages 【of】 a diversified team.
+749 | This shows participants three words at a time that appear to be unrelated, and the person has to think 【of】 a fourth word that is associated with all 【of】 them.
+1191 | It has a population 【of】 a mere 49 souls.
+1158 | It all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director 【of】 a nursing home in upstate New York.
+897 | It is an objective evaluation 【of】 a person’s character.
+1122 | After all, if you can jump out 【of】 a plane or off a bridge, then you can face anything else easily.
+1046 | For today’s youth, books, newspapers and magazines have less and less 【of】 a presence in their daily lives.
+1242 | Each March, this tiny village swells up in numbers, because it is located in the middle 【of】 a race that takes place every year.
+758 | [19] For college students under pressure, a dog may be the best stress fighter around, according to the finding 【of】 a recent study.
+896 | Action Fraud says people should ensure the company renting the villa is a member 【of】 a recognized trade body such as ABTA.
+1015 | New research has studied the effects 【of】 a seven-week healthy cooking course.
+1140 | In 2015, two Italian companies, collaborated on the construction 【of】 a similar type 【of】 spacecraft, which was the first coffee machine designed for use in space.
+1225 | This differed from the findings 【of】 a study from Harvard
+755 | Every time I walk out 【of】 a superhero movie, I feel the same way.
+819 | M: I do talk about very small homes, but there’s no set definition 【of】 a tiny home.
+1111 | Instead 【of】 a touchscreen, they’re controlled with an old-school keypad.    ?P:instead of
+684 | M: No, duck hunting seemingly exists as the continuation 【of】 a tradition.
+891 | A house 【of】 a unique design.
+821 | There’s nothing like playing as part 【of】 a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many 【of】 the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating with others.
+1230 | hide behind information and use learning as an excuse to delay the more difficult and more important choice 【of】 actually doing
+1163 | This is partly because 【of】 adequate sunlight and partly because technology has become more ___34___ in the region.    ?P:because of
+753 | And we teach a very gloomy image 【of】 adulthood—that whatever our children’s future holds, it must be seen within the context 【of】 a job.
+680 | More than one-fifth 【of】 adults in both the United States and Britain said in a 2018 ____M_ that they
+1162 | They’re designed for 3G networks because 4G coverage doesn’t reach two thirds 【of】 Africa’s customers.
+1268 | “Even if overall food production may be unaffected, food security can still be impacted,” says Margaret Walsh, a scientist at the US Department 【of】 Agriculture’s Climate Change Program Office.
+855 | You probably haven't taken the time to think 【of】 all the work that went into creating the shirt on your back.
+1247 | Workers at Mexican oil company will receive a healthy incentive 【of】 almost $300 a year if they meet certain body weight standards.
+732 | More than half 【of】 American adults are unmarried, and researchers have found
+1255 | For the study, researchers compared teacher and parent evaluations 【of】 American children who started kindergarten in 1998, with those who began school in 2010.
+1177 | “This study ___28___ what we are learning about how manipulating vision can have a ___29___ effect on the ability 【of】 an
+1197 | As his great contemporary the poet and dramatist Ben Jonson said, “He was not 【of】 an age, but for all time.
+704 | The dancers move in harmony as they imitate the animal's natural movements in the wild, including the aggressiveness 【of】 an attack.
+1123 | G) There are also so-called “blizzard bags”, with assignments that children take home ahead 【of】 an expected snow closure.    ?P:ahead of
+1188 | The desire to be right is a major driver 【of】 analytical decision-making.
+874 | New findings suggest that the kinds 【of】 ___26___ and strategic self-presentation behaviour we    ?P:kind of
+919 | Tom Wilson, the superintendent 【of】 Anderson County school district said the
+747 | Books describing the lives 【of】 animals.
+772 | It was the first public exhibit 【of】 animals.
+1141 | Speakers 【of】 anumeric, or numberless, languages offer a window into how the invention 【of】 numbers
+841 | Owners—defined as individuals with high levels 【of】 anxiety, fear, anger, depression and loneliness—were more likely to have cats with behavioural issues.
+923 | [16] Lift-off is usually the most environmentally harmful stage 【of】 any space mission, with vast quantities 【of】 fuel burnt up in a matter 【of】 minutes.    ?P:in a matter of
+836 | And then, if you still wanted to give money as some sort 【of】 apology or something, he probably shouldn’t have to go around borrowing it from people.    ?P:sort of
+1089 | The spacecraft will reach a height 【of】 around 200 km.
+1275 | But this kind 【of】 artificial harmony isn’t the answer.    ?P:kind of
+960 | They say the films lack any form 【of】 artistry.
+1107 | Even though we are living in an age where growing old is thought 【of】 as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.    ?P:think of sth as
+920 | Kids and adults alike find in dogs a source 【of】 attachment.
+1278 | These include helping with social development, increasing physical activity, managing anxiety or serving as a source 【of】 attachment in the face 【of】 changing family structures.    ?P:in the face of
+1129 | adults use a large variety 【of】 attributes to manage and create impressions, we don’t yet know whether children ___32___ and
+837 | As expected, there was a much higher rate 【of】 attrition (g!) among
+711 | It’s about the vegetarian food festival you are holding on the 19th 【of】 August at the Newcastle City Hall.
+1220 | And it turns out that when they write for strangers, their sense 【of】 “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.
+979 | M: What do you think 【of】 Battleships, then? [15] It’s a total classic.
+1005 | We are all capable 【of】 behaving like outliers.
+1138 | Older workers who actively pursue more education and training have a good chance 【of】 being hired.
+771 | We make the mistake 【of】 being in motion
+1035 | They have a reputation 【of】 being overly strict with the students.
+1044 | This _28_ 【of】 biographical information is due primarily to his social _29_: he was not a noble, but the son 【of】 a leather trader.
+1058 | The internet is too easy and too unreliable a research tool, (18) so let’s leave phones and laptops at home, and show them a different world in their lessons—one 【of】 books and pens,” he says.
+1142 | A recent study found that 10 percent 【of】 British children suffer from math anxiety.
+1135 | [22] Dozens 【of】 British students arriving for their first day 【of】 school on Tuesday were sent home over their shoes.
+862 | W: We have bunches 【of】 brochures here. [15] I would recommend getting out on a boat trip.
+1245 | Research by social scientists on the effects 【of】 career setbacks has produced contradictory findings.
+827 | the difference between the cars in front and the cars behind, the spacing 【of】 cars in a stream 【of】 traffic can act as a damper
+703 | Do you typically spend that much on a pair 【of】 casual trousers?
+714 | school even more”, and someone else called snow days “a fun part 【of】 childhood”.
+1259 | In fact, in the United States, a little over half 【of】 children between the ages 【of】 three and five were read to every day in 2007, and 83% 【of】 children in that age group in the same country were read to three or more times per week in 2012.
+1216 | Lion dance should be handed down to future generations as part 【of】 Chinese culture.
+1132 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox 【of】 choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+838 | You are required to select one word for each blank from a list 【of】 choices given in a word bank following the passage.
+1017 | 【of】 choices given in a word bank following the passage.
+748 | I could take a change 【of】 clothes and jog to work.
+1277 | The researchers also studied a ___32___ 【of】 college students and found that
+1001 | This fall, thousands 【of】 college students from across the country will begin their undergraduate studies at colleges around the nation.
+955 | Lying just off the North Sea coast, it found itself _27_ by an invasion 【of】 colored plastic eggs—much to the _28_ 【of】 local children, because the eggs contained toys.
+1106 | That’s the power 【of】 colour.
+759 | So far, eight states and the District 【of】 Columbia have their own paid family leave laws.
+820 | The technology for meeting the needs 【of】 commercial space travel.
+1025 | These issues are growing more pressing with the emergence 【of】 commercial spaceflight.
+1047 | Using different forms 【of】 communication appropriately.
+996 | Changing one’s form 【of】 communication from time to time.
+1202 | “I Googled the agent’s name and there were lots 【of】 complaints about him being a fraudster.
+1093 | Humility can sometimes be 29 with a lack 【of】 confidence.
+1034 | put people into layers 【of】 confusion, and the study confirms that music can sometimes ___30___ lift people out 【of】 the
+1164 | (19-2) Good stories do more than create a sense 【of】 connection.
+1264 | This may be because 【of】 consumer demands.    ?P:because of
+898 | Printed textbooks that are not brand new, still contain the basic relevant information 【of】 core subjects.
+763 | M: Yes, 【of】 course.    ?P:of course
+773 | W: Yes, 【of】 course.    ?P:of course
+956 | M: 【Of】 course.    ?P:of course
+1077 | 【Of】 course not.    ?P:of course
+1097 | 【Of】 course, teens are still reading.    ?P:of course
+768 | W: 【Of】 course, those are great goals.    ?P:of course
+1081 | M: [15] 【Of】 course you did.    ?P:of course
+719 | 【Of】 course, you’re not actually practicing the action that would    ?P:of course
+933 | What about our local school then? [14] They have a wonderful arts program that would really challenge Jake in terms 【of】 creativity and imagination.    ?P:in terms of
+751 | Karen is the managing director 【of】 Cube Movie Theatre located on Underhill Road.
+691 | It does a lot 【of】 damage to the environment.    ?P:a lot of
+1215 | And stories are more engaging than the recital 【of】 data points or a discussion 【of】 abstract ideas.
+989 | They aren’t going to deliver you food that is out 【of】 date.    ?P:out of date
+993 | Shakespeare’s date 【of】 death is _27_ known, however: it was April 23, 1616.
+754 | Their level 【of】 debt is lower than that 【of】 native-born Americans.
+978 | He had a gift for creating stories that consisted 【of】 deceit, robbery, murder, corruption, and other criminal ___31___
+964 | These are both examples 【of】 deceptive strategies. [18] Participants were more willing to employ deceptive strategies when assigned an agent to negotiate on their behalf.
+1144 | But researchers have come to realize that being humble generally indicates the 30 【of】 deeply admirable personal qualities.
+778 | It had rows 【of】 desks with blue chairs and nameplates reminding each student where they should be sitting.
+879 | Adopting a variety 【of】 different seating options.    ?P:a variety of
+1033 | Now our students have a range 【of】 different seating options, including a floor desk, couches, stools, bean bags, and the traditional desk-and-chair.    ?P:a range of
+1063 | There are a number 【of】 different versions about the origin 【of】 the lion dance.    ?P:a number of
+794 | “The problem is that when the money leaves your account it’s in theirs straightaway and it’s very hard to track it,” says Barclays Bank head 【of】 digital safety, Jodie Gilbert.
+805 | M: But asking “What do you want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations and a high chance 【of】 disappointment.
+783 | They also harbor dozens 【of】 diseases that threaten both humans and farm animals.
+1094 | Make sure it’s free 【of】 distractions, and—for primary school children at least—somewhere near you, so you can answer questions and offer encouragement.
+843 | They have not quite grasped the concept 【of】 diversity.
+945 | Doubts about the practicability 【of】 diversity are gradually disappearing.
+1252 | Today, many large corporations stress the importance 【of】 diversity on their websites, but current statistics show that the typical manager in America still tends to be white and male.
+1022 | Taking care 【of】 dogs.    ?P:take care of
+1056 | It is time we realized that deviance may be capable 【of】 doing both good and harm to individuals and society.
+1139 | The consequences 【of】 doing poorly in the ninth grade can impact more than students' ability to find a
+799 | Books with pictures 【of】 dolls and toys.
+1160 | 15 minutes and a few clicks later, (20) with more than $350 worth 【of】 dolls in her cart, Kate placed the order and ran off to play.
+1211 | The next day, while checking on another online order, her mother noticed the long list 【of】 dolls on the way.
+812 | While there’s plenty 【of】 drama and messiness online, it is not, for most teens, a cycle 【of】 non-stop abuse: a Pew study found only 15% 【of】 teens said someone had bullied them online in the last 12 months.
+1166 | Last week, BBC Future explored one scientist’s efforts to help crops cope with the increased probability 【of】 droughts.
+858 | The plot 【of】 each superhero film has become relatively predictable: the world is in peril, the world needs a hero, the hero is in peril, the hero resolves the peril, the hero saves the world.
+1072 | Roth is concerned that e-learning days will offer a lower quality 【of】 education.
+1254 | This is according to the newly _27_ study by Harvard Graduate School 【of】 Education professor Todd Smith.
+902 | Being a deaf person in tech required a huge amount 【of】 effort in organization.
+982 | Teachers tend to still use this format because 【of】 either the need to control students or the belief that the teacher is the most important person in the room.    ?P:because of
+1065 | While about 75% 【of】 employees said both genders should give the same amount 【of】 care, the majority 【of】 men and nearly half 【of】 women admitted that in reality the female actually did most 【of】 it.
+1112 | It could also be a forerunner for many other countries in the world that ___32___ on foreign imports 【of】 energy," said Ali Hajji, a solar energy specialist and engineering professor.
+1235 | J) With the help 【of】 engineering students at high schools in Maine, Horn and Wang have also built a robot simulation    ?P:with the help of
+1258 | In reality, they’re not just opposite in meaning, but 【of】 entirely different magnitudes in commitment.
+936 | A pair 【of】 entrepreneurs are planning to build and launch a spacecraft that would carry and roast coffee beans in outer space.
+914 | When Stanford University scholar Andrea Lunsford gathered data on the rates 【of】 errors in “freshman composition” papers going back to 1917, she found that they were virtually identical to today.
+1038 | But if gravity is removed, the beans float around in a heated oven, received 360 degrees 【of】 evenly distributed heat and roast to near perfection.
+1227 | The findings are important because there is a growing body 【of】 evidence that dogs can help children in many ways.
+1149 | It has reached the highest level 【of】 evolution.
+1147 | (19-2) The review concluded that on average runners live three years longer than non-runners and that running does more to extend life than any other form 【of】 exercise.
+1068 | countries have ___26___ evidence-backed guidelines on the type and intensity 【of】 exercise ___27___ for various physical
+1272 | Beginning first with the influence 【of】 exercise intensity on the mood benefits 【of】 aerobic exercise, the researchers, led by
+962 | Contrary to some research that has found an _30_ limit to the amount 【of】 exercise that is healthy, the researchers found that there was _31_ no limit to the longevity (longevity) benefits 【of】 exercise.
+1101 | Following the advice 【of】 experts.
+1031 | G) Traffic jams are caused by a number 【of】 factors, such as roads that are poorly designed or over-capacity, localized factors    ?P:a number of
+1194 | These papers deal with a kind 【of】 failure people have little control    ?P:kind of
+715 | She enjoys buying a lot 【of】 fancy things.    ?P:a lot of
+912 | G) The previous study found that nearly three-quarters 【of】 fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.
+1154 | As a student from a family that is struggling to make ends meet, my financial aid package is a combination 【of】 federal grants and federal work study, university merit scholarships and financial aid awards, and about $8,000 yearly in federally subsidized (有补贴的) and unsubsidized loans.
+915 | Most adult children enjoy increasing sources 【of】 financial support.
+1273 | The most common types 【of】 financial support include cell phone plans, food, school costs and car expenses.
+884 | use, including everything from helping to protect the lives 【of】 firefighters to keeping homes cool in
+863 | Yet studies 【of】 first-year college papers suggest these anxieties may be partly based on misguided nostalgia (怀旧).
+756 | "Chinatown was much smaller then and it was a celebration with fireworks and firecrackers, which added a lot 【of】 flavor and meaning to it.    ?P:a lot of
+951 | I’ve checked the availability 【of】 flights from Beijing to London on the 22nd and you have a choice.
+913 | There’s also a great night market further into town that has all kinds 【of】 food and cool little shops selling souvenirs and local jewelry and clothing made by hand.    ?P:kind of
+1265 | For the past four decades, the leader 【of】 Formula One car racing, one 【of】 the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.
+870 | And you’d be surprised many families 【of】 four are happy living in houses that are under 30 square meters.
+767 | Only fit for families 【of】 four or less.
+1100 | “The public has to learn to be far more aware they are a target for these sort 【of】 frauds.    ?P:sort of
+789 | A house with a lot 【of】 free space.    ?P:a lot of
+1076 | Current spacecraft use a variety 【of】 fuels, but most are based on fossil fuels.    ?P:a variety of
+1208 | If you’re weary 【of】 full colour, test your tolerance with smaller spaces, such as the inside 【of】 a cupboard or a bright window frame.
+1256 | They hit me right out 【of】 gate with a $160 fee to attend my freshman orientation, a price which does not include the cost 【of】 travel to and from the District.
+742 | glasses,” says Tony Neate, chief executive 【of】 Get Safe Online.
+1159 | While being married is great and wonderful, the act 【of】 getting married can be quite stressful.
+968 | equivalent 【of】 giving money away to someone else entirely.
+701 | That’s the kind 【of】 goal-setting I like to see in children, springing from their boundless imaginations.    ?P:kind of
+775 | And we’d each have our own bedroom, where we could study instead 【of】 going to the library.    ?P:instead of
+849 | There are lots 【of】 great potential markets here in China.
+1248 | Humans are creatures 【of】 habit.
+782 | Could this reflective type 【of】 hair protect
+735 | They have a distinctive style 【of】 handwriting.
+743 | It emits huge amounts 【of】 harmful radiation.
+797 | The scientists found that loneliness and social isolation increased the _29_ risk 【of】 having a heart attack or a death from heart disease by 29 percent, and the risk 【of】 stroke by 32 percent.
+725 | The necessity 【of】 having zoos and eating meat.
+961 | By the age 【of】 14, he was fully enrolled in the athletic club's lion dance group.
+706 | There have been many attempts to help consumers make healthier choices, but consumers often struggle to maintain a healthy diet. [18] This research finds that one way to promote a healthy diet could be to advertise the social benefits 【of】 healthy choices.
+953 | It gives him a degree 【of】 hearing, and he can use a variety 【of】 communication methods depending on the situation.    ?P:a variety of
+833 | Willot says companies are interested in _lL these ants' method 【of】 heat protection for human
+926 | W: What? [15] That’s so superficial and selfish 【of】 her.
+1019 | In light 【of】 Hershfield’s study, one simple question arises: Is it possible to make our present selves give a damn about    ?P:in light of
+986 | The start 【of】 high school doesn't have to be stressful
+934 | Besides, the majority 【of】 hiring managers are under 45 — and seem
+985 | Three-quarters 【of】 hiring managers said they’d be more likely to hire an over-45 who had
+685 | He took a tour 【of】 his client’s old home.
+710 | The website 【of】 his company.
+1165 | One club member says he feels proud 【of】 his cultural tradition.
+804 | Many 【of】 his friends daydream in the office.
+875 | As you said, he had had it for most 【of】 his life.
+1080 | Most 【of】 his movies
+1043 | During the secondary school years, extending what is learned at school is positively related to academic achievement, so the content 【of】 homework becomes more important.
+1196 | If older children have more than an hour 【of】 homework, encourage them to schedule a short break to stretch.
+1086 | Not to mention the overwhelming amount 【of】 homework they assign, which would lead to a lot 【of】 pressure for Jake and me. [15] What if we send him to the place near your mother’s house?    ?P:a lot of
+692 | You can spread it on bread with a knife, and then add a tiny bit 【of】 honey on top.
+1023 | M: Yes, [14] but I think that dream needs to change, considering the cost 【of】 housing.
+1214 | "The last few years have seen a realization 【of】 ___35___ how competitive solar technologies can be," said Michael Taylor, a senior analyst at the International Renewable Energy Agency.
+1059 | The video from National Geographic was created to spread __32__ 【of】 how environmentally harmful cotton is.
+1192 | Responses suggest that anumeric people have some trouble keeping track 【of】 how many nuts    ?P:keep track of
+1099 | Namely, they help you treat others better, by using the way you yourself would want to be treated as a guide 【of】 how to behave.
+1146 | In a million words written over 20 years, he _34_ the full range 【of】 human emotions and conflicts with a _35_ that remains sharp today.
+928 | W: I like this sort 【of】 idea. [14] Lawrence has a sister who is slightly older, so maybe a game that they can play together would be good.    ?P:sort of
+859 | "But what makes you a competent lion dancer is that there's a sense 【of】 imagination involved.
+922 | Send would-be students a packet 【of】 information.
+705 | The effect 【of】 interacting with therapy dogs on students under pressure.
+694 | M: (10) The same discount 【of】 20% is being offered to everyone at the door on a “first come, first served” basis for the first month.
+831 | W: She wants to, but her husband refuses to get rid 【of】 it.    ?P:get rid of
+1253 | If only I’d Googled before but I never thought 【of】 it.
+1270 | We often think 【of】 it as an invisible bubble 【of】 space surrounding us that others can’t enter, without causing discomfort.    ?P:think of sth as
+826 | I’ve never heard 【of】 it, but I do know little Lawrence loves cartoons.    ?P:hear of
+1055 | He can just concentrate on how interesting the meeting might be and what he needs to get out 【of】 it in order to progress.
+1006 | Police _29_ the eggs came from a freighter that lost part 【of】 its cargo during an unusually _30_ storm, the worst to hit Germany’s northeastern coast since 2006.
+981 | A strengthened effect 【of】 its discipline.
+959 | The nation hopes to get 50 percent 【of】 its energy from renewable sources by 2030.
+1073 | When Toni Morrison died in 2019, the world lost one 【of】 its most influential authors.
+1018 | Similar action has been taken even in Scotland, where camping is usually permitted on most 【of】 its open land.
+722 | It pays special attention to the size and shape 【of】 its products.
+1234 | Then on another day, at that same food market, people were given only 6 different types 【of】 jam choices.
+1183 | On a regular day at a local food market, people would find a display table with 24 different kinds 【of】 jams.    ?P:kind of
+1000 | Consider how often you make this kind 【of】 judgment every day.    ?P:kind of
+865 | The postcode is NU 29 3LJ. [15] Remember that the closing date is next Tuesday, the 28th 【of】 June.
+1130 | At some point, they switched to mostly making sounds that became words instead 【of】 just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can’t see them.    ?P:instead of
+1060 | The body 【of】 KaiOS phones is as basic as it gets.
+1078 | will ___31___ their behaviour in order to appear moral or socially good in the eyes 【of】 key observers.
+1169 | Still, 15% or more 【of】 kids are found to be deeply bookish.
+1120 | They have been attracted by a patch 【of】 land this close to wilderness, and it is their responsibility to keep it that way.
+904 | That’s what happened on the German island 【of】 Langeoog this week.
+689 | I’ve been using one since the start 【of】 last semester, and it has really helped relieve a lot 【of】 study pressure.    ?P:a lot of
+688 | Failure to follow the golden rule may lead to violation 【of】 laws and ethics.
+844 | What kind 【of】 learner are you?    ?P:kind of
+1128 | In many cases, learning for the sake 【of】 learning can
+829 | This began a journey to transform our practice and challenge the ways 【of】 learning for a group 【of】 Year 6 students used to sitting in desks and rows for years.
+787 | Keep track 【of】 left-handed children’s school performance.    ?P:keep track of
+963 | H) Since then, there have been a number 【of】 legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.    ?P:a number of
+850 | This philosophy applies in many areas 【of】 life.
+1054 | Collaborating with others is an important element 【of】 life.
+1143 | K) In sports and many areas 【of】 life, we think 【of】 failures as evidence 【of】 something we could have done    ?P:think of sth as
+824 | It never occurred to me that he should have it taken care 【of】 like that.    ?P:take care of
+738 | A new study carried out by the University 【of】 Lincoln has found a link between the personalities 【of】 cat owners and the behaviour and wellbeing 【of】 their cats.
+1110 | Called "Better Cotton", this environmentally conscious product will save millions 【of】 liters 【of】 water a year simply from __34__ the demands 【of】 cotton production.
+853 | It’s eggs—thousands 【of】 little toy eggs.
+693 | Researchers, writing in the journal Heart, pooled data from 23 studies and found that social isolation or feelings 【of】 loneliness were tied to an increased risk 【of】 coronary heart disease (冠心病) and strokes.
+807 | I experience a sense 【of】 longing, realizing that there should be more in life.
+834 | On one particular United States island, wild pigs themselves became an attractive food source for a species 【of】 mainland eagle.
+1205 | Universities today are in the business 【of】 making money, and mine is no exception.
+1185 | They believe this will maximize their ___26___ 【of】 making the best
+764 | Hal Hershfield, a psychologist at the UCLA Anderson School 【of】 Management, wanted to know why people weren't
+842 | Large surveys conducted over the course 【of】 many years tell us that American youth are not going to the cinema nearly as often as they did in the past.
+1126 | New research from biologists at the University 【of】 Maryland ___26___ that sight
+1244 | The phenomenon 【of】 math anxiety is characterized as a general sense 【of】 feeling that the subject is hard compared with other subjects leading to a subsequent lack or loss 【of】 confidence.
+687 | Some people, they argue, are just more interested in certain kinds 【of】 media and entertainment.    ?P:kind of
+712 | abstractly does not reflect a ___34___ tendency 【of】 men or women but rather ___35___ within specific contexts.
+1014 | J) The vast majority 【of】 men, 97%, said one 【of】 the top reasons to take leave was to share caregiving with their partner.
+1269 | In comparison, 17% 【of】 men said their job satisfaction went down and 20% said it went up.
+1116 | A tiny fraction, 2%, 【of】 men said they did more 【of】 the childcare.
+796 | A lot 【of】 minerals are extracted from the earth to make electronic readers.    ?P:a lot of
+1041 | who," he said, suggesting that some more equal dividing up 【of】 money might be more productive and
+728 | But now that she ran out 【of】 money, she can’t.    ?P:run out of
+681 | Is this a lot 【of】 money we’re talking about here?    ?P:a lot of
+881 | If you're especially into a piece 【of】 music, your brain does something called Autonomous Sensory Meridian Response
+700 | To understand the obvious importance 【of】 napping.
+885 | The eagles began breeding on the island, and also feeding on a species 【of】 native fox.
+1119 | This is ___28___ due to a lack 【of】 necessary evidence.
+847 | But the software for electronic readers can be updated instantly without the need for buying a whole lot 【of】 new books.
+1241 | One study 【of】 ninth-grade
+1085 | Alzheimer’s haze and bring them back to (at least a likeness 【of】) normality... if only for a short while.
+1103 | At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition 【of】 $44,046 not including room and board, I receive over $57,000 yearly in financial aid.
+741 | My main problem is that my study folder is full 【of】 notes and worksheets, and is badly disorganized.
+950 | The authors _34_ that this was a review 【of】 observational studies and did not _35_ cause and effect.
+1004 | He can employ lip-reading and have meetings via video instead 【of】 on the phone.    ?P:instead of
+1195 | Thus, humility leads to an honest view 【of】 one’s own advantages and shortcomings.
+739 | Thus, using more 【of】 one type 【of】 media does not necessarily mean less 【of】 the other.
+707 | The US is one 【of】 only three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies are starting to take up the issue.
+1176 | There are plenty 【of】 other options such as imaginative play, non-competitive games, and gardening or nature experiences.
+949 | In social psychology, the term “person perception” refers to the mental processes that we use to form impressions 【of】 other people.
+908 | The Noor solar power station is ___26___ in the city 【of】 Ouarzazate and, once completed, will generate 580 million watts 【of】 electricity.
+1039 | For the bulk 【of】 our
+1121 | 【of】 our actions while someone else (namely: our future selves) suffers the hypothetical far-off consequences.
+941 | Most 【of】 our clients go through the same realization.
+808 | "You need to pass on the traditions and the culture, and this is a part 【of】 our culture," he said.
+1007 | Love them or hate them, smartphones have become an integral part 【of】 our daily lives.
+1251 | In spite 【of】 our _27_ discomfort, it turns out there’s a good reason our teeth are so sensitive.
+1008 | Given how large the __31__ and cotton industries are, they take up a lot 【of】 our fresh water demands across the world, according to The Huffington Post.    ?P:a lot of
+1274 | If the central problem is that we think 【of】 our future selves
+1172 | current mood over the consequences 【of】 our inaction for the future self.
+1175 | Some aspects 【of】 our language abilities, such as our knowledge 【of】 word
+1124 | as infants and continue on for the rest 【of】 our lives.
+943 | The study highlights an important relationship between our personalities and the wellbeing 【of】 our pets.
+909 | The elites 【of】 our society have rejected superhero films.
+1224 | [23] But too often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we can maintain the harmony 【of】 our workplace.
+1226 | average vocabulary size 【of】 over 21,000 words.
+892 | The majority 【of】 owners want to provide the best care for their pets and it’s therefore possible that pets could be affected by the way their owners interact with and manage them.
+972 | And that’s what people dream 【of】 owning.
+839 | M: That would depend on the quality 【of】 paint you choose.
+1213 | In total, KaiOS phones are made from about $15 worth 【of】 parts, while Apple’s top-of-the-line iPhone has $390 worth 【of】 stuff.
+845 | “We generally recommend other forms 【of】 payment, like credit card.
+828 | It affects twenty-five percent 【of】 people.
+708 | There were crowds 【of】 people around her asking for a photo with her.
+1203 | While 92% 【of】 people believe others care most about fame and _26_, fewer than 10% factor those qualities into their own success.
+716 | A lot 【of】 people don’t know about this movement.    ?P:a lot of
+1261 | This is where a lot 【of】 people have trouble.    ?P:a lot of
+969 | Honestly, I hear the same answer from the vast majority 【of】 people I meet.
+854 | There are lots 【of】 people interested in watching such movies.
+1118 | But even back then, a minority 【of】 people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+816 | A lot 【of】 people think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students more incentive to succeed.    ?P:a lot of
+861 | I did not expect 80% 【of】 people to say the organisation finds dads taking this leave acceptable and three-quarters to say it’s equally supportive 【of】 women and men taking leave,” Harrington said.
+791 | E) That may be true, but that still does not tell us much about what happens across a whole generation 【of】 people when time spent on digital media grows.
+1013 | Even the small group 【of】 people who got 10 times the amount 【of】 exercise recommended by the federal government had a 46% lower _32_ 【of】 death than the least active group.
+1237 | They cost parents an average 【of】 £337 per year for each secondary school child.
+1010 | With demand for energy ___29___ at an annual rate 【of】 7 percent, the new solar plant could be a ___30___ part 【of】 that goal.
+734 | He followed various measures 【of】 performance over the next decade.
+948 | It contributes to the formation 【of】 personal traits.
+1045 | It is possible that the wellbeing 【of】 pets is driven by the underlying nature 【of】 the owner, not simply by their conscious decisions and behaviours.
+776 | E) Horn has been working on the problem 【of】 phantom traffic jams for years, and he has come up with a solution: By splitting
+1125 | Children are more likely to develop a lifelong love 【of】 physical activity from frequent positive early experiences.
+1074 | Physical activity provides a positive outlet for frustration, anxiety, or anger and can become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important for our physical and mental health, and cultivating the habit 【of】 physical activity starts early.
+1209 | Based on a hunch (直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude 【of】 plants, a flower garden, and a vegetable patch.
+872 | It’s a team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds 【of】 possibly getting an athletic scholarship in the future.
+682 | According to Barabasi, it's easier and less risky for those in positions 【of】 power
+873 | Passive learning is not a form 【of】 practice
+1090 | species' approximately 200, OOO-year lifespan, we had no means 【of】 precisely representing quantities.
+932 | According to a ___28___ published study in The Journal 【of】 Prevention 【of】
+1012 | I have a lot 【of】 pride in that," he said.    ?P:a lot of
+1145 | You probably have to help younger children plan their session, but it’s important that by the end 【of】 primary school it’s second nature.
+822 | Learning is valuable until it becomes a form 【of】 procrastination .
+690 | E) With such a degree 【of】 professionalism, how can consumers find out if the website they’re looking to book with is trustworthy?
+846 | Engage in a variety 【of】 psychological activities.    ?P:a variety of
+762 | It leads to much waste 【of】 public money.
+877 | Right over here, we have dozens 【of】 puzzles for children 【of】 all ages.
+795 | It accelerates the exhaustion 【of】 rare minerals.
+987 | The craft will use the heat 【of】 re-entry to roast coffee beans as they float inside it in a pressurised tank.
+907 | Previously, the lowest price had been around $40, well out 【of】 reach for many people.    ?P:out of reach
+1009 | The KaiOS devices offer an alternative to the more expensive models that remain out 【of】 reach 【of】 many Africans and contribute to the digital divide.    ?P:out of reach
+1067 | J) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates 【of】 reading.
+1133 | models 【of】 real-world traffic conditions, showing how a typical U.S. freeway could benefit from cars using bilateral control.
+723 | W: For a lot 【of】 reasons.    ?P:a lot of
+717 | It often burns over three hundred tonnes 【of】 refined fuel.
+974 | For instance, SpaceX’s Falcon 9 gets through 112 tonnes 【of】 refined fuel, emitting about 336 tonnes 【of】 CO₂.
+780 | Basically, she miscalculated how fast she was burning through the money, and she’s now full 【of】 regret.
+784 | that even among those who are married, 30% 【of】 relationships are Ļ strained.
+811 | M: We were thinking 【of】 renting a car, but we will explore all the options available for sure. [14] So, yes, that would be very helpful in comparing prices.
+1231 | kindergarten and have the idea 【of】 reputation pop ___35___ into existence.
+931 | The use 【of】 rows and their minimal adaptations to “U” shape were traditionally intended to maximize on-task behavior and reduce distraction from the teacher.
+721 | I mean, getting rid 【of】 rush hour may be impossible, but it could be made more tolerable, don’t you think?    ?P:get rid of
+686 | I’m just not a fan 【of】 sauces.
+952 | But if the benefits 【of】 saying “no” are so obvious, then why do we say “yes” so often?
+727 | The first day 【of】 school.
+817 | children will miss fewer days 【of】 school.
+1032 | They arrived late for their first day 【of】 school.
+1174 | H) There is a long-running debate on whether missing days 【of】 school affects attainment.
+868 | F) Students in North Carolina already have several make-up days scheduled because 【of】 school closures during Hurricane    ?P:because of
+992 | Homework is an important part 【of】 schooling, but the purposes 【of】 giving children homework will change as they grow older.
+944 | In 1980, about 60 percent 【of】 senior high school students said they read a book, newspaper or magazine every day that was not assigned for school.
+995 | G) Indeed, the number 【of】 senior high school students who said they had not read any books for pleasure in the last year was one out 【of】 three by 2016.
+1201 | However, this issue with the golden rule can be dealt with in a general manner, by viewing this principle as one 【of】 several principles that we use to guide our behavior as individuals and as a society.
+1016 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage 【of】 short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.
+958 | It made every effort to keep the essential capabilities 【of】 smartphones, but strip out costs and preserve battery life for people who likely have inadequate access to electricity.
+1204 | Because 【of】 social categorization, you immediately judge the woman as harmless, and the man as threatening, leading to the loss 【of】 your wallet.    ?P:because of
+1199 | Research has shown that smartphones are currently American teens’ main form 【of】 social communication.
+752 | They are affected by the overuse 【of】 social media.
+1232 | This is the era 【of】 social media. [21] People can easily share their wealth and status to large audiences, but they need to consider the consequences.
+1050 | They are similar in terms 【of】 social skills.    ?P:in terms of
+925 | Research shows that a child’s awareness 【of】 social standing comes from adults.
+761 | One form 【of】 socialising doesn’t replace the other.
+1061 | "This makes Morocco a big ___31___ in the field 【of】 solar energy in the Arab region and the African continent.
+1011 | “Most young women want to be a part 【of】 something grand, something important.
+1084 | From our experience so far, flexible seating enhances student ownership 【of】 space and engagement in learning, while reducing rates 【of】 student disengagement and disciplinary actions. [21] It is a win for all concerned.
+769 | It proves to be the most complicated stage 【of】 space missions.
+900 | We’ve got a bit 【of】 spare time now.
+809 | Exercising for just 10 minutes a week is linked to a longer life, according to a new study published in The British Journal 【of】 Sports Medicine.
+1181 | Is it a good idea to display luxury brands and other signals 【of】 status?
+730 | The ants' method 【of】 staying cool is _l!_ among animals.
+975 | is a natural result 【of】 staying focused on the process 【of】 doing anything.
+1105 | The thought 【of】 straining the relationship outweighs the commitment 【of】 our time and energy.
+976 | reputation and the kinds 【of】 strategies that are effective for ___30___ a good reputation in their social environment.    ?P:kind of
+823 | Psychologists have long been interested in how we construct our identities and the sorts 【of】 strategies that we use to    ?P:sort of
+940 | Many people believe that passion and commitment are the foundations 【of】 strong romantic relationships.
+965 | Computers have vastly increased the ability 【of】 students to gather information, sample different points 【of】 view and write more fluidly.    ?P:point of view
+1037 | Consider that nearly two-thirds 【of】 students will experience the "ninth-grade
+1096 | The claim was based on a new review 【of】 studies about the effects 【of】 running.
+815 | To help explain this seemingly irrational behavior, Hershfield and his team scanned the brains 【of】 study participants
+786 | number 【of】 subsequent citations.
+1152 | Public perception 【of】 success in the U.S. might be totally misguided.
+1042 | Recent research has found that one trait in particular—humility (谦逊)—is an important indicator 【of】 successful relationships.
+802 | Authors, artists and children _26_ have dreamed 【of】 such a gift from the sea.
+1221 | weights—is 【of】 such ___32___ intensity that your body does not have time to use oxygen to create energy and so instead it
+825 | Famously ___26___ to as “The Master 【of】 Suspense”,
+1267 | A paper published this week by University 【of】 Sydney researchers in Social Networks has reported participants' feelings about team-building interventions, revealing ethical implications in forcing employees to take part.
+895 | I’m very much dependent on vision as a way 【of】 taking in information.
+1193 | Other emotions triggered by math include feelings 【of】 tension and frustration.
+946 | M: (15-2) So you think I should arrange my notes using color and pictures in place 【of】 text.    ?P:in place of
+893 | While 70 percent 【of】 8th and 10th grade students used to go to the movies once a month or more, now only about half do this.
+851 | I didn’t think 【of】 that.
+890 | I hadn’t considered any 【of】 that.
+1091 | W: I’ve never thought 【of】 that.
+793 | Whatever you’re reviewing, it’s important that it’s arranged for your particular needs 【of】 that subject, and in the most user-friendly way you can.
+770 | Besides, I could teach him some 【of】 the basics from my time as a badminton player.
+760 | It’s supposed to be one 【of】 the best Italian’s in town.
+713 | W: Welcome to Books in Review. [12] Our guest today is John Banks, the author 【of】 the best selling new book, Rewarding Success.
+1087 | One 【of】 the best things
+779 | They actually wanted a clear vision 【of】 the blackboard.
+1075 | part 【of】 the brain devoted to hearing.
+1279 | It was once thought that the sensory regions 【of】 the brain were not ___31___ after a critical period in childhood.
+918 | M: Well, [15] by increasing taxes or moving money from other areas 【of】 the budget into education.
+929 | technology that sets a maximum speed for vehicles and automatically slows the speed 【of】 the car when traffic is sensed in
+810 | E) Brad Harrington, executive director 【of】 the center and lead author 【of】 the study, estimates only 20% to 30% 【of】 companies in the US offer paid parental leave.
+1210 | There is the planning 【of】 the ceremony itself, the merging (合并) 【of】 two households and all 【of】 the details involved in that.
+1021 | He denies the decision is depriving children 【of】 the chance to
+798 | As you are already a member, the fee 【of】 the class will just be added to your monthly bill.
+1240 | “In view 【of】 the climate crisis, I didn’t want to open the same restaurant,” Humm told the Financial Times in an interview.    ?P:in view of
+939 | performance 【of】 the close losers was just as good.
+1057 | At any rate, what was lost now has been found, by many 【of】 the community’s littlest residents.
+1049 | I) For now the only way to stop fraudsters appears ultimately to lie in the hands 【of】 the consumer.    ?P:in the hands of
+1066 | They also reported improved mental health and subjective vitality immediately after the program. [19] These benefits remained six months after the completion 【of】 the course.
+967 | Most 【of】 the coverage 【of】 the boom in wild camping has been negative. [17] Camping in public parks has now been banned for August and the early part 【of】 September because campers dump litter, human waste, and even their tents on the grassland.
+840 | A house 【of】 the current fashion.
+774 | It tries to escape the constraints 【of】 the current food system.
+1040 | If anything is really wrong, you can just take photographs 【of】 the damage, and they will give you the money back or replace the item.
+1271 | Some 【of】 the dangers are emotional: hurting someone from a distance is not the same as hurting them face to face.
+1257 | Analysis 【of】 the data showed that countries with strong women’s rights had better health than those where women’s rights were not as respected.
+970 | Adam Baker 【of】 the Department 【of】 Education in Indiana said e-learning
+1222 | [22] In a new Merrill Lynch/Age Wave survey, a full 70% 【of】 the early adults said they received financial support from their parents in the past year and 58% said they couldn’t afford their current lifestyles without it.
+1212 | However, as water supplies __35__, farmers and consumers need to be more conscious 【of】 the effect that these products have on the environment as a whole.
+1082 | least some 【of】 the estimated $121 billion per year that traffic jams are estimated to cost the U.S. economy, Horn told Live
+1233 | Unlike whole fruit, fruit juice has most 【of】 the fibre removed.
+801 | J) For every one 【of】 the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task.
+1190 | Students lose many 【of】 the friends they
+997 | Different people tend to be exposed to different forms 【of】 the golden rule, based on factors such as the religion in their society.
+1150 | A notable criticism 【of】 the golden rule is that its application can lead to undesirable outcomes, when it conflicts with laws and ethical principles.
+1048 | However, all forms 【of】 the golden rule revolve around the same concept.
+781 | They are unemployed for much longer than the average, and their age is indeed one 【of】 the greatest barriers to
+924 | is one 【of】 the greatest forms 【of】 learning because the mistakes you make while practicing reveal important insights.
+927 | Hence, his movies are ___30___ 【of】 the guilt and innocence 【of】 the wrongdoer and the
+1249 | (22-1) Welcome to the tour 【of】 the Hill House.
+1170 | Before ___29___ into some 【of】 the key take-aways, an important ___30___ made in the review is between aerobic
+857 | Morocco is responding to increasing energy demands by setting up one 【of】 the largest solar plants in the world.
+683 | It has ignored campaigns on behalf 【of】 the left-handed.    ?P:on behalf of
+1114 | Some 50% 【of】 the members 【of】 a New York lion dance club are teenagers.
+1108 | However, the joy 【of】 the moment _31_ off soon.
+731 | In fact, as one 【of】 the most damaging invasive species on the continent, (17) wild pigs cause millions 【of】 dollars in crop damage yearly.
+1136 | One 【of】 the most famous examples 【of】 this
+876 | Hitchcock is one 【of】 the most influential filmmakers in the history 【of】 ___27___.
+1062 | Telling stories is one 【of】 the most powerful means leaders have to influence, teach and inspire.
+957 | Clean water is __30__ becoming one 【of】 the most sought-after resources in the world.
+1161 | after all, one 【of】 the most useful cash crops across the globe.
+745 | Three 【of】 the papers _27_ loneliness, 18 looked at social isolation and two included both.
+935 | statement contains information given in one 【of】 the paragraphs.
+1246 | Each statement contains information given in one 【of】 the paragraphs.
+1095 | Nothing is known 【of】 the period between the birth 【of】 the twins and Shakespeare’s _33_ as a dramatist in London
+709 | Research by Amanda Lenhart 【of】 the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person.
+867 | W: Okay, another criticism 【of】 the plan is the cash rewards themselves.
+699 | All you need to do is wait at the far end 【of】 the platform.
+766 | But supporters 【of】 the policy say it means
+1064 | Despite these _35_, the study’s results are yet another indication 【of】 the power 【of】 physical activity, even in small amounts.
+1223 | F) Understanding our procrastination through the lens 【of】 the present and future selves, we're left with three
+1070 | E) Seen through the lens 【of】 the present self versus the future self. our self-defeating actions — like choosing to watch
+1168 | At the end 【of】 the program, cooking confidence and skills were equal across both counterparts.
+1117 | At the start 【of】 the program, 77 per cent 【of】 female participants were confident about cooking, but just 23 per cent 【of】 males were confident.
+726 | It’s gained through experience on the job and learning what’s appropriate given the needs 【of】 the project.
+1167 | K) Men and women’s experiences 【of】 the return to work following parental leave were also considerably different.
+971 | Kids need to be aware 【of】 the risks in playing with dogs.
+1109 | The next day, Kate asked if she could check the shipping status, so her mom clicked on the web page and then walked out 【of】 the room.
+720 | It was part 【of】 the royal estate.
+1198 | The researchers said moderate exercise appears to have helped those participants to be less vulnerable to the impact 【of】 the sad movie.
+1134 | They enhanced the positive image 【of】 the school.
+1083 | They weren't informed 【of】 the school’s updated rules.
+905 | Furthermore, I might add, (15) all movies come with English text at the bottom 【of】 the screen.
+938 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then not being able to find it again after you come out 【of】 the shops.    ?P:come out of
+1171 | Although born gray, males 【of】 the species are easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result 【of】 scar tissue from dolphin fights—whether playfighting or a serious bid for a mate.
+903 | Even Philip Zimbardo, the author 【of】 the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future 【of】 deviance research may lie more in understanding extreme pro-social behavior, such as heroism.
+1228 | senior author 【of】 the study.
+697 | Participants were asked to self-report how well they did at the end 【of】 the study: 59% cheated by saying that they solved more matrixes than they actually had.
+1036 | bank is more likely ready, willing and able to be part 【of】 the team and do the job from day 1.
+1153 | One 【of】 the techniques we use in person perception is social categorization.
+1178 | Truly environmentally friendly space travel is still some way off. [18] But we already have many 【of】 the technologies needed to start limiting its impact on our planet.
+871 | Many 【of】 the technologies to limit the impact 【of】 space travel on Earth.
+1113 | When it comes to our countries, our communities, and our families, we understand instinctively that the stories we hold in common are an important part 【of】 the ties that bind.
+718 | M: I go to the bank once a week, and the rest 【of】 the time I keep my bank card at home, so I can’t get more cash out.
+880 | It is a shift in practice from being teacher-focused to student-focused learning. [20] For us, flexible seating has meant removing most 【of】 the traditional chairs and desks and introducing a variety 【of】 different seating options to promote student engagement.    ?P:a variety of
+746 | Which 【of】 the two classes are you thinking about?
+1217 | By using the genes from resurrection (复活) plants, Jill Farrant 【of】 the University 【of】 Cape Town is exploring whether she can design crops to survive for much longer periods without water.
+1186 | Harris, who became headteacher this year, said he notified parents 【of】 the updated rules in an email in June. [23] The price 【of】 school uniforms can spark panic among families struggling with a high cost 【of】 living.
+980 | front 【of】 the vehicle.
+1127 | Reusable rockets can cut down on some 【of】 the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and other components are treated as expendable.
+1276 | University in the US, which concluded that missing a few occasional days because 【of】 the weather did not damage learning.    ?P:because of
+888 | loser group and culled (J1J ) what he deemed the weakest members 【of】 the winner group.
+1092 | winners, it's impossible to know which 【of】 the winners would have quit had they found themselves on
+1218 | 【Of】 the women surveyed, 32% reported a downturn in their job satisfaction, while 14% said it increased.
+889 | You may not use any 【of】 the words in the bank more than once.
+1020 | Because “busy” is the state 【of】 the world.
+1115 | It’s clear that farmers in many parts 【of】 the world are going to find things harder in the coming decades.
+1155 | The researchers behind the study state that many parts 【of】 the world have made good economic progress, but women’s rights are often overlooked.
+1243 | While only a small portion 【of】 the world's languages are anumeric or nearly anumeric, they
+886 | branches 【of】 the world's largest river tree.
+966 | A full 70% 【of】 the young adults cannot afford to buy a car by themselves.
+1260 | He encourages residents to think 【of】 their age as an enriching new phase 【of】 life rather than the end 【of】 it.    ?P:think of sth as
+757 | Rid students 【of】 their anxiety.
+866 | As participants answered, Hershfield's team recorded which parts 【of】 their brains
+813 | Leave no trace 【of】 their camping.
+1052 | They will also carry with them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts 【of】 their families.
+1053 | Do you remember the capacity 【of】 their meeting room?
+1266 | They can offer insight into the evolution 【of】 their own experience and knowledge, presenting themselves as more approachable and then they are more likely to inspire others to want to know more.
+1027 | Five-year-olds aren’t just aware 【of】 their reputations, they also behave strategically to alter their outward image.
+1071 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, it’s not a reflection 【of】 their schedule; it’s a reflection 【of】 YOUR spot on their schedule.
+930 | A change to teachers’ opinion 【of】 their students.
+744 | Students may pay attention to apps, games and websites instead 【of】 their teachers.    ?P:instead of
+1069 | It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people to use small tents and leave no trace 【of】 their visit.
+818 | Take care 【of】 their well-being.    ?P:take care of
+973 | Inform prospective students 【of】 their yearly enrollment.
+901 | Many 【of】 them are not, and a simple “no” will be more productive than whatever work the most efficient person can cope with.
+1148 | Most 【of】 them are not reading long articles or books that explore deep themes and require critical thinking and reflection.
+702 | Nineteen percent 【of】 them borrow money from friends and family.
+1262 | She was able to cancel two 【of】 them, but it was too late to cancel the rest.
+740 | Many 【of】 them find it rather difficult to manage.
+792 | Many 【of】 them have an increasingly diversified staff.
+750 | They opened all 【of】 them one by one.
+698 | They took all 【of】 them to the children’s hospital.
+806 | Thirty-four percent 【of】 them use credit for their daily purchases.
+729 | past the age 【of】 45, there’s nearly a two in three chance you’ll be out 【of】 work for over a year, they find.    ?P:out of work
+1263 | Out 【of】 these assistants, Siri is the most well-known.
+1236 | But research shows that, when it comes to actually making a ___27___ from all 【of】 these choices, people can become
+1003 | Which 【of】 these other projects should I deprioritize to pay attention to this new project?
+736 | Nobody places much value on the lives 【of】 these poor birds or on their meat.
+887 | See, I did think it was a bit weird for him to be asking for money for that sort 【of】 thing.    ?P:sort of
+785 | W: Hmm, isn’t that sort 【of】 thing usually covered by insurance?    ?P:sort of
+814 | M: That’s exactly the type 【of】 thing we are looking for. [14] We’re getting close to the deadline, however.
+1239 | Leaders who use this style don’t want to make mistakes. [17] This commitment to one right way 【of】 thinking or doing things hinders the manager’s flexibility.
+883 | “Hiring managers have a strong perception bias against 45+ job candidates — they believe that members 【of】 this
+910 | Lion dancing teaches competence in leadership because 【of】 this.    ?P:because of
+1179 | That said, the main point 【of】 this article is that learning by itself does not lead to progress.
+1051 | When you meet with a new coworker, you immediately begin to develop an initial impression 【of】 this person.
+994 | Further research is needed to investigate the causal nature 【of】 this relationship and to look at how owners’ personalities are directly influencing their pets’ behaviour and wellbeing.
+832 | A substantial part 【of】 this, they report, is “widespread ageism” on the part 【of】 hiring managers.    ?P:on the part of
+696 | There are always several 【of】 those bikes out in front 【of】 our apartment complex.    ?P:in front of
+803 | So practically all 【of】 those factories had to close down.
+765 | W: You discuss three 【of】 those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But your ideas about education are the most controversial.
+1002 | I want to see if I can get one 【of】 those rental bicycles and ride to the office just for fun.
+1030 | W: Oh, yeah. [15] We had one 【of】 those when growing up.
+1079 | Then over hundreds 【of】 thousands 【of】 years, those sounds turned into words that people began to learn as part 【of】 their language.
+737 | A house made 【of】 timber and brick.
+1131 | have ___34___ the test 【of】 time and are considered to be masterpieces.
+990 | There's a huge amount 【of】 time and effort that goes into the process 【of】 selecting
+860 | Several recent studies have found that even low-intensity exercise, done for a short amount 【of】 time, can have a meaningful _26_ on health.
+999 | Both groups spend a lot 【of】 time on mobile devices.    ?P:a lot of
+695 | The quality and quantity 【of】 time parents spend playing with them.
+942 | Church records show he’s baptized (施洗礼) on April 26, and 3 days was a customary amount 【of】 time to wait before baptizing a newly born baby.
+777 | She can spend a lot 【of】 time vacationing.    ?P:a lot of
+977 | [17] The first theory is that language started with people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, and the sounds 【of】 tools.
+724 | the slowing action spreads backward through the lane 【of】 traffic like a wave, getting worse the farther it spreads, Eventually,
+1184 | “Under reasonable conditions today, you might get 1,800 cars per lane per hour throughput (the volume 【of】 traffic passing
+1088 | the students themselves and society at large, because students' experience 【of】 transitioning (lii./t) to
+1250 | Data connecting excessive digital media time to mental health issues suggests a limit 【of】 two hours a day 【of】 free time spent with screens, a restriction that will also allow time for other activities—like going to the movies with friends or reading longer, more complicated texts.
+991 | But a relationship is made 【of】 two 26 individuals.
+1098 | They are taken as memos 【of】 understanding.
+1189 | People over 45 stimulated by training suffer shorter periods 【of】 unemployment, get more job offers and have greater
+852 | Like other forms 【of】 unethical behavior, lying means breaking rules.
+1219 | This in turn could reduce consumption 【of】 unhealthy, high-calorie processed meals.
+1137 | Analytical decision-makers struggle with deadlines and a sense 【of】 urgency with decisions.
+954 | But Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary and available to all 【of】 us?
+733 | M: No, just 60 pounds between the three 【of】 us, but still a bit too much to just let go.
+984 | Being practically next door, one 【of】 us could take him to school every day before going to work.
+1173 | [22] Most 【of】 us have been in teams or organizations where we’ve had conflict with the people that we’re working with around the ideas or decisions that we’re discussing.
+1156 | But even after we have accounted for these social considerations, many 【of】 us still seem to do a poor job 【of】 managing the trade-off between yes and no.
+921 | W: But I think most 【of】 us want spacious homes.
+937 | Instead 【of】 using words for precise quantities, these people    ?P:instead of
+1238 | Jeff Anderson, associate professor in Radiology at the University 【of】 Utah and ___32___ author on the study, says “In
+1102 | Obviously, person perception is a very subjective process that can be affected by a number 【of】 variables, including the characteristics 【of】 the person you are observing, the context 【of】 the situation, your own personal traits, and your past experiences.    ?P:a number of
+878 | F) Horn calls this method 【of】 vehicle spacing bilateral control and he said it could be achieved with relatively simple
+1151 | Happy with the responses, O’Shaughnessy paid the full amount 【of】 £3,000 via bank transfer into the travel agent’s account and then forgot about it until a month before the booking.
+848 | “People have tended to focus from a policy point 【of】 view on _31_ lonely people to make them more _32_, ” said the lead author, Nicole K.    ?P:point of view
+911 | It’s also somewhat _27_, since the federal physical activity guidelines recommend getting at least 75 minutes 【of】 vigorous exercise or 150 minutes 【of】 _28_ exercise each week.
+998 | H) Nick Cooper, the founder and co-owner 【of】 villa booking company Villa Plus, estimates his company has uncovered more than 200 fake villa websites over the past two years, and doesn’t believe enough is being done.
+1024 | Scientists have known that depriving adult mice 【of】 vision can increase the sensitivity 【of】 individual neurons in the
+788 | I estimate you have between 210 and 240 square meters 【of】 walls and ceiling.
+906 | Well, creating fabric from cotton, which is the most __27__ clothing material, is actually a process that involves a lot 【of】 water, 2,700 liters per shirt to be __28__.    ?P:a lot of
+988 | As you read this, you are likely aware 【of】 what time it is, how old you are, your checking
+1182 | All 【of】 which, 【of】 course, has made it highly profitable.    ?P:of course
+856 | We should be helping our kids understand who they are, even if that means letting go 【of】 who we think they should be.    ?P:let go of
+1028 | Perhaps they made the sound 【of】 wind to comment on the weather or imitated the sound 【of】 a bird to tell a friend that there was a bird nearby.
+1104 | A new study has demonstrated the importance 【of】 women’s rights.
+1206 | Thus, they wanted to determine if there was a link between protection 【of】 women’s rights and public health.
+1029 | He was ___33___ productive and his amazing body 【of】 work is considered fascinating by the critics.    ?P:body of work
+1187 | is the story 【of】 92-year-old Henry Dryer, who comes out 【of】 dementia while listening to songs from his youth.    ?P:come out of
+800 | But at this time 【of】 year, the air pollution is a real problem.
+1207 | E) Perhaps one issue is how we think about the meaning 【of】 yes and no.
+899 | Valtorta, a research fellow at the University 【of】 York in England.
+864 | About 58% 【of】 young adults call parental support the new normal.
+983 | Alzheimer’s Disease, the part 【of】 your brain responsible for ASMR doesn’t get lost to Alzheimer’s.
+1026 | The state 【of】 your life right now is a result 【of】 the habits
+1157 | If you are thinking to try colour on some 【of】 your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.
+1200 | You might think 【of】 your teeth as tools, like built-in knives and forks, but if they are mere tools, why do they feel pain and wouldn’t it be better if they could just _26_ under any condition?    ?P:think of sth as
+917 | Put in practical terms, when thinking 【of】 yourself in a month or a year or a decade, your brain registers that person in

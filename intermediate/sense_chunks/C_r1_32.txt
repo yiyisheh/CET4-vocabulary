@@ -1,0 +1,614 @@
+# 任务 C_r1_32：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_32.labels.txt
+
+============================================================
+## 词：it    本段 600 句    模式：全标（每句都写）
+原释义：pron.它; 这; 那.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 它（指代前面提到的事物、机构、情况）    B 样本 60    例：It can be touching.
+  1  pron. （形式主语或形式宾语，无实义；It is …to do / that…）    B 样本 18    例：She says it’s hardly _31_ to teenagers.
+  2  pron. （指天气、时间、距离，如 It is raining）    B 样本 0
+  3  pron. （强调句 It is…that… 中的 it，无实义）    B 样本 2    例：It was this huge fencing that prevented Prickles from finding her way back.
+已标 X：2 句，如：However, you can't help butŨ if these companies are basing their business on fabrications (ũ:it
+口径说明（照此执行）：
+  - IT firm（信息技术）和 OCR 乱码里的 it 标 X；指代前文事物/机构/情况标 0；it is possible/important/reported/estimated that|to… 的形式主语、make/find it easier 的形式宾语标 1；天气时间距离标 2；It is/was X that… 强调句标 3。
+句子：
+110 | Iū that with online surveys 1 just click theŬ that's closest to my mouse cursor (【it】#)
+180 | She bought some new software for 【it】.
+199 | are key, because they define the difference between actively practicing something and passively learning 【it】.
+214 | a research grant or just barely made 【it】.    ?P:make it
+233 | Kawamura then bit into 【it】.
+255 | I’m not sure we can afford 【it】.
+271 | If serious reading dies, a lot will go with 【it】.
+289 | He is physically unfit for 【it】.
+317 | So we didn’t make a fuss about 【it】.
+359 | And if we move far enough from the city center, the rent is low enough for us to afford all of 【it】.
+364 | I swear 【it】!
+382 | Well, that’s obvious then, isn’t 【it】?
+389 | “I handle my own gold medal so gently that I would not scratch 【it】.
+397 | Clearly, teaching teens formal writing is still crucial, but texting probably isn’t destroying their ability to learn 【it】.
+409 | And I love 【it】.
+425 | She forgot where she had left 【it】.
+468 | M: I can’t believe 【it】.
+474 | reversed course and rejected 【it】.
+491 | So even if you don’t understand what the actors say, you can still read 【it】.
+536 | Children love 【it】.
+558 | He said technology has changed every profession, so 【it】
+565 | W: Oh, well, that’s ridiculous, isn’t 【it】?
+572 | Because that’s what matters, isn’t 【it】?
+591 | He is a deaf person working in 【IT】.    ?X
+597 | M: So blue light is harmful and that’s why you want to block 【it】.
+623 | W: She wants to, but her husband refuses to get rid of 【it】.
+647 | The capacity to mass produce 【it】.
+654 | But this was only the _29_ when they had a serious hobby that was dissimilar to their job, or when their hobby was similar to their work but they only did 【it】 _30_.
+659 | And “being busy” is the lie they tell themselves about why they can’t achieve 【it】.
+651 | "【It】's a great way to promote cultural understanding and exchange; we welcome that.
+392 | "【It】's almost like the dark night is ending and the sun is coming up," said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.
+288 | While that is not a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether 【it】's by dancing, carrying a flag or beating a drum.
+266 | According to Barabasi, 【it】's easier and less risky for those in positions of power
+444 | "【It】's hopeful that we're going to have a new day.
+370 | winners, 【it】's impossible to know which of the winners would have quit had they found themselves on
+132 | But as regards bones, 【it】's ___30___ use 【it】 or lose 【it】: To keep your bones strong you have to keep exercising.
+573 | embrace plant-based foods, with Michelin’s 2022 New York guide branding 【it】 a “bold vision of luxury dining”.
+602 | I landed badly during a fall and twisted 【it】 a little, but 【it】’s no big deal.
+552 | Only family, pets and one’s closest friends may enter 【it】. [23] A mere acquaintance entering our intimate space makes us uncomfortable.
+577 | I’m going to go on the computer now and give 【it】 a try.    ?P:give sth a try
+218 | I recently bought an office chair from your company, but I returned 【it】 about a week ago.
+477 | She lost 【it】 about three days ago.
+587 | Make 【it】 affordable to common folk.    ?P:make it
+234 | He wants to see 【it】 again.
+147 | 【It】 all comes down to the difference between learning and practicing.
+644 | 【It】 all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York.
+183 | 【It】 all started off when a movie star shared a photo of herself putting her trash bins out in a ball gown.
+213 | M: You think Jimmy’s just making 【it】 all up?    ?P:make it
+342 | Thus, he and his friends decided to grab a few trash bags and clean 【it】 all up.
+403 | 【It】 allows him to borrow money without paying interest for six months.
+212 | 【It】 allows workers to do whatever their hearts desire.
+443 | Besides, 【it】 also helps to remind people in the community to put out their trash bins each week.
+545 | W: (9) Blue light includes natural light, but 【it】 also includes light that isn’t natural, for example, from computers, phones, televisions and other electronic devices.
+184 | 【It】 also provides a great opportunity to ___33___ with friends and family, far away from electronics and other ___34___ at home.
+487 | Make 【it】 an occasion to collect donations.    ?P:make it
+354 | M: The first month I did withdraw extra cash twice, but I felt guilty about 【it】. [11] And after that I refused to spend more than what I had budgeted, and by now 【it】’s just a habit.
+287 | Her daughter filmed 【it】 and the whole family laughed, but 【it】 seemed to go down well.
+344 | The kids will love 【it】 and there are so many islands nearby to explore.
+301 | 【It】 appeals to both schoolgirls and schoolboys.
+497 | 【It】 argues for postponing retirement.
+435 | View 【it】 as a chance for people to socialize and have fun.
+92 | One person described 【it】 as a loud boom, similar to a plane crash.
+500 | We often think of 【it】 as an invisible bubble of space surrounding us that others can’t enter, without causing discomfort.    ?P:think of sth as
+655 | This is precisely why parents still need to set firm boundaries around 【it】, as with any other distraction.
+381 | 【It】 assigned a team of doctors for each expected baby.
+377 | W: Rugby is a sport with two teams and the players carry the ball in their arms and throw 【it】 at each other.
+274 | “A villa might cost £5,000 elsewhere and they will offer 【it】 at say £3,500.
+590 | Bacteria accumulate because there isn’t enough water in your mouth to wash 【it】 away.
+162 | Wouldn't 【it】 be nice if
+257 | 【It】 became a pet of Mr.
+628 | So the real danger here is that children who will completely able to do math at a normal level may keep away from 【it】 because they feel anxious.
+251 | Learning is valuable until 【it】 becomes a form of procrastination .
+360 | of slowdowns by cars in front of a given car, so that the slowing is not worsened until 【it】 becomes a phantom jam, the
+369 | I’ve never done 【it】 before and I know that you’ve been doing 【it】 for ages.
+399 | There are 24 episodes. [11] Well, maybe you could download an electronic copy of the book and try to read 【it】 before the show starts.
+114 | However, the aircraft made an emergency landing in Magan after 【it】 began losing some of its valuable cargo.
+661 | 【It】 begins early.
+551 | 【It】 brings the acquaintance closer to us.
+485 | 【It】 brought in the most advanced instruments.
+225 | 【It】 brought the mine’s operations to a halt.
+668 | I’ve never heard of 【it】, but I do know little Lawrence loves cartoons.
+404 | M: Well, I can see how that might happen to someone, and I’m sure she regrets 【it】, but I know 【it】 won’t happen to me.
+206 | I tried to reach 【it】 but 【it】 was too far down and there wasn’t any way I could get 【it】 out.” [2] Following a rescue by UK charity Cats Protection, the 4-year-old cat was later reunited with its owner, Mr.
+385 | Deviating from the norm can make us villains (恶棍), but 【it】 can also make us heroes.
+95 | 【It】 can be easy to assume that the gap between
+662 | 【It】 can encourage reluctant readers to read aloud.
+135 | Whether 【it】 can facilitate business transactions.
+598 | 【It】 can help connect people.
+612 | 【It】 can help unskilled readers feel more secure.
+494 | 【It】 can highlight leadership.
+521 | “If we can show the possibilities of eating plant-based food in this setting, 【it】 can open a lot of doors” for others to follow.
+204 | That is, 【it】 can prevent the slow-down effect from being amplified by the cars that
+187 | Whether 【it】 can speed up legal procedures.
+133 | 【It】 can work both ways.
+622 | 【It】 caters to the tastes of different customers.
+173 | 【It】 caused damage too heavy to assess.
+291 | 【It】 causes discomfort.
+603 | 【It】 causes the bubble around us to vanish.
+671 | As I read an article on the subject in the past that suggested the opposite, 【it】 claimed that 【it】 was important not to miss meals and that taking a nap on the plane was the best way to adjust to a new time zone.
+150 | 【It】 closed the city of Big Pine Key to traffic for three hours.
+321 | 【It】 contacted the goldmine company.
+231 | And will 【it】 cost extra?
+638 | 【It】 costs more than twice as much as a car ride.
+256 | F) Horn calls this method of vehicle spacing bilateral control and he said 【it】 could be achieved with relatively simple
+430 | “【It】 could be anyone.
+201 | I mean, getting rid of rush hour may be impossible, but 【it】 could be made more tolerable, don’t you think?
+414 | 【It】 could be melted for use in other products. [7] 【It】 said even though there are some differences between the two products, there was still the possibility of confusion for consumers.
+413 | 【It】 could be reshaped into animals other than rabbits.
+361 | 【It】 could be resold cheaper to avoid waste.
+309 | 【It】 could be reused in other products.
+465 | 【It】 could be rewrapped and sold by the budget supermarket.
+186 | This similarity was strong enough that 【it】 could be used to predict whether two people were already friends or not. [2] The relationship probably goes two ways.
+482 | 【It】 could be your next-door neighbor or organized crime in Russia.
+511 | 【it】 could represent a distraction.
+304 | 【It】 creates waste and severely impacts the environment.
+407 | People may find 【it】 demanding to create a goal which will take a long time to achieve.
+380 | M: Well, 【it】 depends.
+105 | Obviously 【it】 depends on the job.
+197 | 【It】 differs entirely from indoor volleyball.
+567 | W: Does 【it】 do anything?
+216 | W: 【It】 does.
+448 | Research indicates that 【it】 does.
+457 | 【It】 does a lot of harm to the environment
+583 | While cheek-kissing for Latin Americans is also a universal greeting form, 【it】 does not require such a high degree of relational closeness.
+262 | 【It】 does not supervise its employees.
+314 | 【It】 does not use volunteers.
+191 | M: 【It】 does sound like 【it】 would suit my taste, but if they are making a TV series based on 【it】 now, I don’t know if I should read the book or watch the show first.
+611 | 【It】 doesn’t appeal to average families.
+549 | 【It】 doesn’t need to be permanent.
+670 | 【It】 doesn't seem to be a balanced diet.
+517 | 【It】 doesn't sound practical for her.
+366 | 【It】 donates regularly to a local charity.
+235 | She was too embarrassed to do 【it】 during the day.
+320 | Creating an ideal working environment will make 【it】 easier for them to get down to their assignments quickly.    ?P:make it
+522 | 【It】 enables guests to walk around and chat freely.
+247 | 【It】 enables him to buy a new phone at a more favorable price.
+175 | 【It】 ended a month earlier than before.
+423 | 【It】 enjoyed great popularity
+440 | 【It】 ensured sustainable economic growth.
+200 | 【It】 escapes regulation and misleads consumers.
+97 | Tariq said, “Not everyone has to like corn, but everyone should definitely try 【it】, especially with butter.” [2] Tariq and his family were invited to South Dakota to attend the honorary ceremony at the state’s Corn Palace.
+159 | I wouldn’t need to use 【it】 every day, but I think 【it】 would be very convenient to have one for the weekends.
+137 | 【It】 expands 【it】.
+560 | 【It】 finds that sharing information about diversity makes job postings more attractive to job seekers, even when pay is lower.
+461 | M: Well, he had 【it】 fixed.
+630 | She sold 【it】 for two thousand dollars.
+139 | I don’t want to say too much and spoil 【it】 for you, but 【it】’s definitely got some amazing technological and sociological concepts in 【it】.
+548 | "If you want the good stuff, the quality, you have to see 【it】 for yourself," he said.
+161 | And then, if you still wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing 【it】 from people.
+408 | 【It】 gave him a noticeable smartness.
+120 | The service, which claims to be the first of its kind in India, offers only one route, but Bangalore airport will add more once 【it】 gets approval.
+253 | 【It】 gets so hot in the summer.
+157 | 【It】 gets us nowhere.
+160 | 【It】 gives 5,000 yen to employees who keep pet cats.
+419 | Surprisingly, the Space Roaster concept—should 【it】 go ahead—will not be the first attempt to take coffee into space.
+143 | 【It】 goes out of order frequently.
+113 | 【It】 got injured in a big bushfire.
+101 | 【It】 got reunited with its owner.
+373 | 【It】 had a crew member fix the problem.
+196 | The weather was the coldest 【it】 had been for the season, [7] so people were warned to be careful when traveling outside.
+267 | 【It】 had some complications.
+163 | 【It】 had two of its domestic flights mixed up.
+168 | 【It】 has a flat surface at the top.
+471 | 【It】 has a population of a mere 49 souls.
+588 | 【It】 has a very strong smell and a dry flavor.
+437 | Thinking creatively has given us modern medicine, technology and modern political structures, but 【it】 has also given us poison and nuclear weapons.
+415 | 【It】 has banned kids under 10 from dining there.
+554 | 【It】 has become a star police dog in Beijing.
+640 | 【It】 has been bought by an American.
+259 | 【It】 has been consumers’ concern.
+667 | 【It】 has been enjoyed by kids for decades.
+306 | 【It】 has been extraordinarily tough and demanding.
+207 | 【It】 has been fluctuating.
+124 | 【It】 has been held regularly in Glasgow since 1986.
+386 | 【It】 has been on the decline.
+327 | 【It】 has been the scene of several fatal accidents recently.
+589 | 【It】 has been turned into a public park.
+254 | 【It】 has been unbelievably exciting and rewarding.
+438 | 【It】 has caused nationwide concern.
+358 | 【It】 has contributed a great deal to human flights to space.
+264 | 【It】 has contributed tremendously to the firm's fame.
+118 | For a growing number of people, however, their yearly break is turning into a nightmare as they find that the property they have paid thousands for does not exist and the website through which they booked 【it】 has disappeared.
+606 | 【it】 has done better than naturally born dogs.
+410 | 【It】 has given him exceptional privilege as an ambassador.
+103 | 【It】 has gone up sharply.
+136 | M: No, I haven’t, but I’ve noticed that 【it】 has great reviews on the Internet.
+316 | 【It】 has helped a lot to improve animals' well-being.
+450 | 【It】 has helped solve several murder cases.
+467 | 【It】 has implemented a decision to expand business.
+466 | 【It】 has instructions for making a winter bean salad.
+368 | 【It】 has led some other companies to follow suit.
+176 | That means that not only is the ice melting very fast, 【it】 has more time to melt this summer than 【it】 would in a normal climate system.
+261 | And 【it】 has never been easier or cheaper to
+618 | 【It】 has no batteries, if that’s what you mean.
+636 | I’ve been using one since the start of last semester, and 【it】 has really helped relieve a lot of study pressure.
+420 | 【It】 has resulted in damage to office equipment.
+155 | 【It】 has risen because of bird flu.
+426 | Oh, (10) maybe 【it】 has something to do with my new card.
+502 | 【It】 has surpassed its mother in performance.
+156 | There are others, however, who showed support for the restaurant’s decision. [4] They said 【it】 has the right to implement any rules 【it】 wants.
+431 | 【It】 has witnessed several traffic accidents this year.
+673 | He says the car is the best thing that has ever happened to him, and [11] if she sells 【it】, he will divorce her.
+641 | But if 【it】 heats up to 40 to 41 degrees, you may find yourself getting heatstroke.
+130 | 【It】 helped to popularize her restaurant.
+219 | 【It】 helps people to understand complex issues and to separate fact from fiction.
+652 | 【It】 helps to reduce travel expenses.
+292 | Yes, we have 【it】 here.
+547 | The board has messages of kindness like, “If you want more kindness in the world, put 【it】 here.
+570 | Is 【it】 his religion, health condition or lifestyle?
+300 | But now that you mention 【it】, I do think getting another phone so soon is wasteful, regardless of the cost.
+252 | 【It】 ignores economically feasible recycling options.
+86 | 【It】 impacts people’s health to a lesser degree than sun exposure.
+315 | The craft will use the heat of re-entry to roast coffee beans as they float inside 【it】 in a pressurised tank.
+194 | “Even when unemployment results from the ___33___ of new technologies, people still judge 【it】 in a social context,”
+595 | If I am caught with 【it】 in my pocket, I will be subject to disciplinary procedure, which will impact on my career.
+96 | By growing 【it】 in South Dakota.
+600 | "I'll inspect the product before we put 【it】 in the container and ship 【it】 over.
+148 | By cooking 【it】 in vegetable oil.
+336 | 【It】 includes unnatural light.
+524 | 【It】 increases the joy of shopping.
+388 | 【It】 induces people to fall asleep.
+642 | Transformation in the 【IT】 industry.    ?X
+269 | 【It】 informed the local police at once.
+223 | 【It】 interrupted traffic for several hours running.
+387 | This one, in particular, was closed for 47 years before we transformed 【it】 into a movie theatre.
+127 | This new method of burying carbon dioxide and turning 【it】 into stone is cheaper and more secure, The Guardian reports.
+639 | You can cut 【it】 into thin slices and eat 【it】 on its own.
+203 | But instead of leaving and never coming back, 【it】 invited its friends round. [5] There are now at least five different cats who come almost on a daily basis.
+489 | 【It】 involves being deviant, going against the social principle that people should tell the truth.
+635 | 【It】 is a code of conduct based on laws and ethics.
+172 | But Bangalore airport says 【it】 is a competitive alternative to a car ride for tech executives in a hurry.
+483 | 【It】 is a location frequented by local traffic police.
+546 | 【It】 is a means to inspire creative thinking.
+575 | 【It】 is a seven-day race, called the Iditarod Trail and participants stop at Takotna for their obligatory 24-hour rest.
+299 | 【It】 is a special offer to recent college graduates working in offices.
+538 | 【It】 is also a development issue.
+324 | 【It】 is an extremely violent sport.
+649 | 【It】 is an intuitive way to solidify friendship.
+224 | “This is not a low cost option, but 【it】 is an option,” she added.
+116 | 【It】 is as famous as Cape Town.
+138 | 【It】 is associated with people’s mental health conditions.
+393 | 【It】 is attracting many people’s attention.
+351 | 【It】 is available to office workers who have a good enough credit score.
+376 | 【It】 is becoming a national sport.
+341 | 【It】 is being debated by hundreds of retirees.
+340 | E) 【It】 is believed that the lion dance began in the third century.
+158 | 【It】 is bringing the case to the local district court.
+129 | Nevertheless, while the woman’s intention was to feed birds, 【it】 is clear that rats were also benefiting.
+100 | “When caught in such a traffic jam, 【it】 is common for drivers to assume that there must be an accident, or construction or
+353 | 【It】 is completely different from other outdoor games.
+140 | 【It】 is condemned as a crazy idea.
+244 | 【It】 is enriching the city’s night life.
+571 | 【It】 is entitled to adopt any rules 【it】 wants.
+390 | 【It】 is extremely artistic.
+281 | With others, however, 【it】 is far easier to write them off.
+678 | 【It】 is found that people are more creative following the completion of a tedious task.
+519 | 【It】 is fully aware of frequent customers' feelings.
+296 | 【It】 is giving rise to safety concerns.
+220 | 【It】 is green and free from pollution.
+179 | The association is concerned about the effects this trend will have on their trade, and suggests three reasons why 【it】 is happening.
+81 | 【It】 is hard to predict.
+106 | 【It】 is helping the police with the investigation.
+149 | [7] In order to devise effective policies to curb the environmental impact of the clothing industry, 【it】 is important to identify the source of the problem in the supply chain.
+604 | 【It】 is important to keep in mind that personal space varies depending on culture and context.
+167 | This is a huge drop and 【it】 is important to note that this was not merely a decline in reading paper books, newspapers or magazines.
+246 | “【It】 is important to understand these ___34___ effects when trying to
+658 | 【It】 is instrumental.
+584 | 【It】 is interpreted differently in different times.
+249 | 【It】 is less popular than indoor sports in the country.
+627 | 【It】 is less time-consuming.
+190 | 【It】 is linked with older adult’s symptoms of depression.
+523 | Each March, this tiny village swells up in numbers, because 【it】 is located in the middle of a race that takes place every year.
+532 | 【It】 is mainly based on a society’s religion.
+104 | Responding to the post, one person commented that 【it】 is messed up beyond another level.
+284 | 【It】 is more harmful to young people.
+480 | 【It】 is more popular than football.
+531 | One common French custom of greetings is cheek-kissing, but 【it】 is mostly restricted to friends, close acquaintances and family members.
+556 | 【It】 is natural.
+490 | 【It】 is ninety grams daily on average.
+363 | 【It】 is no longer as noisy and crowded as before.
+311 | 【It】 is no longer critical of younger customers.
+91 | 【It】 is not as fancy as his colleagues’.
+367 | 【It】 is not clear how much they would charge for a cup.
+345 | While there’s plenty of drama and messiness online, 【it】 is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+581 | 【It】 is not healthy.
+312 | 【It】 is not poisonous but can still attack and kill its victims.
+529 | 【It】 is not tasty.
+303 | 【It】 is not the things we learn nor the dreams
+578 | 【It】 is not to the best interest of taxpayers to keep giving money to narrow winners.
+417 | Owing to the internet, 【it】 is now more convenient than ever to receive training in new skills.
+210 | 【It】 is offering a big reward to anyone who helps.
+202 | 【It】 is one of the most popular running events in the southeastern U.S.
+285 | However, 【it】 is only for the winners themselves, not others.
+418 | 【It】 is open round the clock.
+428 | 【It】 is originated in New Zealand.
+537 | 【It】 is owned by the local government.
+608 | 【It】 is personal
+412 | 【It】 is possible to nearly double the hourly throughput per lane by adopting bilateral control.
+449 | J) 【It】 is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading.
+192 | 【It】 is questioned by local residents.
+286 | 【It】 is rather unrealistic.
+442 | 【It】 is relatively predictable.
+278 | 【It】 is said to have a remarkable location that few other private islands of this size can match, according to estate agents.
+338 | 【It】 is somewhat complicated.
+350 | If 【it】 is successful, 【it】
+568 | describe in my book, The Authentic Heart, 【it】 is the courage to be authentic that connects us in a deeper way.
+674 | 【It】 is the first restaurant in the city to remove meat from its menu.
+624 | 【It】 is the first vegan restaurant to receive the highest Michelin rating.
+619 | While our initial attraction may be based in part on physical chemistry, 【it】 is the meeting of our inner worlds that creates
+645 | 【It】 is the oldest theatre in London.
+379 | 【It】 is the spot that causes the local police a lot of worry.
+669 | But if they don’t 【it】 is their
+593 | 【It】 is time we realized that deviance may be capable of doing both good and harm to individuals and society.
+427 | Have you ever wondered how acceptable 【it】 is to hug or touch someone?
+677 | Thus, they claim 【it】 is too early to call computer game addiction a disorder.
+632 | 【It】 is too oily.
+586 | ABTA says 【it】 is trying to combat the issue by running public awareness campaigns.
+166 | Police have sealed off the runway, and say 【it】 is unclear if 【it】 was an accident or an attempted robbery.
+226 | 【It】 is unclear whether the new owners have the power to ban tourists from the island.
+98 | 【It】 is watched live online by fans all over the world.
+228 | He told The Northern Echo: “(7) 【It】 isn’t an affluent part of the world, so for them to find cash of that amount and instantly think about taking 【it】 to the police stations shows the community spirit there is.
+559 | 【It】 isn’t easy to realize.
+648 | W: 【It】 isn’t that simple.
+250 | M: I tried that strategy, but 【it】 just didn’t work, because I’d be busy studying all day.
+151 | 【It】 just enjoyed visiting the shop.
+621 | Not all zoos and animal parks have the most favorable conditions, but [11] without them, 【it】 just wouldn’t be feasible to learn about animals and their environments.
+239 | 【It】 keeps others away.
+195 | 【It】 lacks functions office work requires.
+123 | 【It】 lasted three months.
+93 | 【It】 led him to spend more money than necessary.
+142 | the majority of workers find 【it】 less upsetting to see their own jobs go to robots than to other employees.
+122 | Its natural beauty is protected as 【it】 lies inside a natural park.
+80 | People with stronger bones avoid osteoporosis and all the problems that ___29___ with 【it】, like breaks and other disabilities.
+664 | 【It】 likely won’t ensure that the automatic driving system functions properly.
+563 | forward, 【it】 likely won’t fully protect automakers from their legal liability should the system malfunction or an
+84 | 【It】 looks all right.
+459 | 【It】 looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to
+310 | [5] A German supermarket has been ordered to destroy its chocolate rabbits after 【it】 lost a court battle with the Swiss chocolate manufacturer.
+433 | 【It】 made ample preparations for various possibilities.
+217 | 【It】 made an emergency landing.
+512 | 【It】 made him appear even more manly.
+421 | 【It】 makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car on those huge supermarket car parks then not being able to find 【it】 again after you come out of the shops.
+526 | And there 【it】 makes sense that
+470 | 【It】 makes the hostess's job a whole lot easier.
+447 | 【It】 makes us feel uncomfortable.
+115 | Why 【it】 matters that teens are reading less
+171 | 【It】 may affect the local supply of turkeys for Christmas.
+119 | 【It】 may have been due to the lorry driver’s drunk driving.
+232 | 【It】 may not be simply blue.
+453 | 【It】 may sound harsh, but the truth is, nobody cares.
+479 | While 【it】 may sound safe to avoid all physical contact so as not to offend anyone, the lack of touching might imply cold attitudes or indifference in interpersonal relationships.
+516 | 【It】 may sound trite , but beauty is only skin deep; 【it】’s not what brings love toward us.
+318 | 【It】 may yet be a selection effect.
+505 | In a busy world, “being busy” doesn’t stand out, nor does 【it】 mean productive, creative, accomplished, or professional.
+454 | But supporters of the policy say 【it】 means
+298 | the US, 【it】 means the chance of school children benefiting from the long-standing tradition of the “snow day”, when schools
+464 | of what 【it】 means to be beautiful.
+83 | Whether 【it】 might actually outperform human negotiators.
+462 | 【It】 might be a nuisance to the loyal shoppers.
+222 | They’ll have pictures of a sales team and 【it】 might be a poor actor in New York that is down as their head of sales.
+514 | 【It】 might be 12 months old.
+629 | One researcher suggests 【it】 might be more fruitful to distribute grants on a relatively equal basis.
+566 | 【It】 might have been abandoned by its owner.
+617 | 【It】 might have got lost.
+406 | I don’t want our son to spend his afternoons doing something he hates, even if 【it】 might prepare him for the future.
+580 | If you encourage them to tell you what they’ve learned, they’ll absorb the information more deeply and remember 【it】 more readily.
+88 | 【It】 narrowly escaped a plane crash when turning around.
+473 | Is 【it】 not more expensive to get everything delivered?
+576 | 【It】 offers more choice.
+675 | 【It】 offers some big discounts.
+509 | 【It】 often burns over three hundred tonnes of refined fuel.
+383 | Hold 【it】 on a modest scale to remove birthday anxieties.
+484 | You can spread 【it】 on bread with a knife, and then add a tiny bit of honey on top.
+394 | [6] A man passing by decided to video their good deed and put 【it】 on the internet.
+607 | W: I should be fine with doing 【it】 on your website, and I already have all my certificates, as we run a small farm shop too.
+481 | Is 【it】 only South Africa that plays 【it】?
+422 | recent paper he submitted to a journal, which accepted 【it】 only to request extensive editing, and then
+504 | Talk about 【it】 openly.
+634 | Therefore, if you are someone who loves to show physical affection, you should not be afraid to show 【it】 or drastically change your behaviors—just ask for consent beforehand!
+362 | 【It】 ordered that all the imitation rabbits be destroyed, [6] but suggested the chocolate needn’t be wasted.
+555 | Do you prefer to fill out an application on the web, or to print 【it】 out and fill 【it】 in by hand and then post 【it】 back to us?
+279 | They hand 【it】 over to the local government.
+445 | 【It】 partly records his own experience.
+108 | 【It】 permits employees to bring cats into their office.
+513 | He had an operation done on 【it】, plastic surgery, in order to cover 【it】 and make 【it】 less noticeable.    ?P:make it
+121 | 【It】 posed a safety threat to the miners.
+329 | 【It】 prepared beds for all the six new citizens.
+276 | 【It】 previously specialized in private charter flights for government officials.
+356 | 【It】 produces clothes affordable only to a tiny minority.
+561 | 【It】 proves to be the most complicated stage of space missions.
+165 | 【It】 ran away into a nearby forest.
+313 | Yes, 【it】 really can be difficult getting a new job after age 45, let alone changing careers.
+90 | This preference ___29___, however, when 【it】 refers to people’s own jobs.
+452 | Discuss 【it】 regularly.
+343 | 【It】 remains visible.
+499 | 【It】 renders the acquaintance a stranger.
+625 | 【It】 requires fewer tables and chairs.
+268 | Plus, 【it】 requires two people, which works out more expensive.
+185 | 【It】 resembles family ties.
+154 | 【It】 reversed even further into the engine and was stuck.
+631 | Some applaud the policy as fair, because 【it】 rewards both the individuals who maintain a healthy weight and those who are working towards achieving 【it】.
+374 | W: 【It】’s 389460.
+352 | W: I still think 【it】’s a bad idea to use a credit card for something you don’t need. [11] One of my colleagues bought a lot of things on credit during her first year of work, and 【it】 became a bad habit, and she accumulated a lot of debt.
+530 | 【It】’s a bit heavy, but 【it】’s great food for a cold night like this.
+416 | W: I’m not sure of the exact figure, but 【it】’s a few million Euros, maybe five million Euros after tax.
+637 | “【It】’s a growing problem and people can’t stop fraudsters being dishonest,” says Tipton.
+357 | 【It】’s a 30-minute ride and I don’t have to make any changes.
+493 | (8-2) 【It】’s a plastic sheet that blocks blue light.
+330 | 【It】’s a shame you missed out on the general discount.
+85 | 【It】’s a significant problem, _35_ since loneliness is emerging as a widespread public health problem in many countries.
+458 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now and 【it】’s a sport that could help him understand team spirit while cooperating with others.
+510 | 【It】’s a team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] 【It】’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+585 | 【It】’s a tool you can make yourself to take the stress out of studying.
+456 | Can you tell our audience what 【it】’s about?
+463 | W: [10] 【It】’s about an hour to campus, but there’s no reason I can’t study on the bus.
+451 | 【It】’s about the vegetarian food festival you are holding on the 19th of August at the Newcastle City Hall.
+193 | W: Indeed. [9] 【It】’s also essential to make money real for children through practical examples.
+533 | W: No, 【it】’s also popular in Britain and in other former British colonies like Australia and New Zealand.
+605 | 【It】’s also true that too much social networking and game playing can cut into schoolwork and sleep.
+322 | But 【it】’s been five working days and I haven’t received anything.
+540 | 【It】’s best to gradually face your birthday with people you trust.
+141 | 【It】’s best to start young, so 【it】’s instinctive rather than a scary subject.
+528 | 【It】’s best to take on the most difficult task second—once they’re settled, but before they get tired.
+107 | 【It】’s better to let people walk around and talk to each other, or sit where they like.
+243 | W: I think 【it】’s better to read the book first.
+515 | 【It】’s called Bobo Man, and 【it】’s incredibly popular.
+117 | W: (8-2) 【It】’s called Cape Town.
+164 | W: 【It】’s caused by both in fact.
+209 | And 【it】’s easy to forget that employers, like everyone else, are
+273 | The mountain is called Table Mountain because 【it】’s flat at the top.
+372 | Make sure 【it】’s free of distractions, and—for primary school children at least—somewhere near you, so you can answer questions and offer encouragement.
+349 | W: Your book has sold 2 million copies, but before we discuss why 【it】’s getting so much attention, let’s talk about your background.
+424 | You probably have to help younger children plan their session, but 【it】’s important that by the end of primary school 【it】’s second nature.
+396 | Another role that they are expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, 【it】’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+169 | 【It】’s in the southwest of South Africa.
+378 | “The problem is that when the money leaves your account 【it】’s in theirs straightaway and 【it】’s very hard to track 【it】,” says Barclays Bank head of digital safety, Jodie Gilbert.
+653 | 【It】’s just a little swollen and I should be fine for next Saturday if you still want to go for a jog then.
+609 | The reality is, nobody is too busy—【it】’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+633 | Oh, 【it】’s 15 kilometers away.
+332 | 【It】’s like my brain decides to have a crisis.
+335 | 【It】’s located in what used to be a hat factory.
+508 | M: [12] Well, 【it】’s mainly about increasing home ownership and protecting the environment.
+305 | M: Yeah, 【it】’s more convenient. [10] Bus No.
+283 | W: 【It】’s no extra cost.
+557 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, 【it】’s not a reflection of their schedule; 【it】’s a reflection of YOUR spot on their schedule.
+325 | W: (11) I think they play football, but 【it】’s not as popular as rugby.
+384 | W: 【It】’s not entirely unusual to feel anxious or sad around your birthday.
+592 | That would help you learn self-acceptance, or that 【it】’s okay to be the focus.
+432 | 【It】’s only $15, a very good price.
+308 | “If we can increase the throughput on major highways, even if 【it】’s only by 50
+245 | W: [10] We do that too, and 【it】’s paid according to their age.
+347 | 【It】’s pretty soon, and 【it】’s going to be quite long.
+295 | 【It】’s rare for the show or movie to be better than the book.
+582 | I know 【it】’s really tasty and great comfort food, but 【it】’s too fattening for me.
+650 | 【It】’s related to their attachment styles.
+189 | Early on, the web is their “third space”, but by the late teens, 【it】’s replaced in reaction to greater independence.
+238 | 【It】’s reported that Alan Robinson and Walter MacDonald met in the 6th grade at a school in Hawaii.
+258 | There will also be a fun tent for children. [4] Kowalczyk said 【it】’s rewarding to see athletes with special needs triumph in the games.
+441 | W: 【It】’s something I bought yesterday.
+297 | M: Yes, 【it】’s such an important lesson to learn.
+188 | 【It】’s supposed to be one of the best Italian’s in town.
+326 | “They should be Googling the property, and looking on websites like Google Maps and StreetView to see if 【it】’s there.
+541 | 【It】’s time for us to understand deviance, and realize its potential for good as well as for harm.
+125 | Rideout thus thinks 【it】’s up to parents to model good _34_: Kids tend to take note if their parents put their phone away at dinner or charge 【it】 in another room while they sleep.
+429 | I think 【it】’s very complicated.
+221 | She says 【it】’s very green and windy.
+543 | 【It】’s very popular.
+87 | 【It】’s written by a Chinese science fiction writer. [9] I can’t remember his name, but he’s written three books in all, and *The Three Body Problem* is the first in the series.
+280 | W: 【It】’s your birthday next week.
+596 | 【It】 satisfied consumer demands on the whole.
+574 | 【It】 saves considerable time and labor.
+472 | 【It】 saves money.
+270 | 【It】 says on your website that your company will pay back the money within three working days of you receiving the returned item.
+503 | W: [13] 【It】 says on your website that you are still looking for vendors, and I grow organic vegetables on my farm, as well as doing my own home baking.
+241 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about 【it】, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+460 | 【It】 seemed to give him a certain uniqueness.
+564 | 【It】 seemed to make up for his physical defects.
+476 | When there are several different assignments, make sure they begin with one they enjoy, so 【it】 seems easy to get started.
+302 | 【It】 seems like you’d have the same problems with cash.
+401 | 【It】 seems like you’re blaming them for not succeeding, when poor performance in school isn’t a child’s fault.
+599 | 【It】 seems people want to help and are driven by helping others.
+89 | After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But 【it】 seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.
+82 | Now 【it】 seems their brains are alike, too.
+436 | 【It】 seems to trigger a type of social anxiety.
+663 | The state attracts more undergraduate students than 【it】 sends to colleges out of state. [25] Many colleges and universities currently provide similar information on their websites.
+111 | 【It】 sent two dogs to the wrong destinations.
+550 | W: Oh dear, is 【it】 serious?
+348 | Take 【it】 seriously.
+339 | And before she knew 【it】, she had done 20 weeks.
+672 | 【It】 should announce its decisions online.
+455 | 【It】 should be changed.
+290 | The beach was not as nice or beautiful as 【it】 should be. [5] He felt so sad to see such a gorgeous place littered with so much trash.
+263 | W: Well, if you trust him, then, I guess 【it】 should be OK.
+601 | 【It】 shouldn’t be considered risky.
+542 | 【It】 shows foreign movies exclusively.
+594 | 【It】 shows movies from the 1950s.
+236 | "Take 【it】 slow and do 【it】 again.    ?P:take it slow
+402 | “When 【it】 snows, let the kids enjoy 【it】.” said one commenter.
+293 | Or they post a photograph on Instagram, have a pleasant conversation with friends and then delete 【it】 so that no traces remain.
+656 | He read 【it】 somewhere online.
+400 | Make 【it】 sound scary.    ?P:make it
+518 | W: 【It】 sounds a bit difficult, but he’s done his research, I suppose.
+411 | 【It】 sounds like you’ll be wasting several hours every day on the road instead of studying.
+152 | the slowing action spreads backward through the lane of traffic like a wave, getting worse the farther 【it】 spreads, Eventually,
+475 | 【It】 started business three years ago.
+626 | 【It】 started with one person, Jan Newton.
+439 | What is 【it】 that sets you apart from other theatres?
+535 | Advertise 【it】 through a mobile app.
+534 | If you believe you have fallen victim to fraud or cyber-crime, please report 【it】 to Action Fraud,” 【it】 adds.
+211 | I’d also like 【it】 to be small, so that 【it】’s easy to drive in the city.
+227 | They give 【it】 to charity.
+610 | makes sense to use 【it】 to “eliminate” make-up days.
+488 | Birthday reminders can be helpful, but I kind of worry I won’t be able to drum up my own day and show 【it】 to look as exciting as 【it】 is supposed to be.
+434 | Can you find a map that shows where the hotel is and send 【it】 to me online?
+331 | They return 【it】 to the finder.
+657 | Please address 【it】 to the Organic Organization, Vendor Applications, 112 Queens Road, Newcastle, Northumbria.
+679 | She took 【it】 to the restaurant manager.
+495 | Anyone who is hungry and wants something to eat can take one, no questions asked and hand 【it】 to the staff for some food.
+215 | 【It】 took 22 hours.
+520 | W: [9] Well, 【it】 turns out that she’s spent 【it】 all already.
+553 | And 【it】 turns out that when they write for strangers, their sense of “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.
+282 | Capturing carbon dioxide and burying 【it】 under the sea.
+486 | For the presentation, I’ll bring my own laptop and hook 【it】 up to their projector.
+405 | 【It】 usually requires years of preparations.
+395 | 【It】 varies in size.
+334 | 【It】 varies with the seasons.
+265 | See, I did think 【it】 was a bit weird for him to be asking for money for that sort of thing.
+496 | "Chinatown was much smaller then and 【it】 was a celebration with fireworks and firecrackers, which added a lot of flavor and meaning to 【it】.
+146 | [5] 【It】 was a heartwarming moment that dozens of Indian rescuers rallied together to use a crane in order to save an elephant trapped at the bottom of a 20-foot well.
+229 | 【It】 was a huge success.
+539 | 【It】 was absolutely exhausting.
+498 | Another mentioned that 【it】 was actually the natives who brought food and drinks then left trash all along the island.
+109 | But I can’t quite remember what 【it】 was all about.
+333 | 【It】 was always a normal person in a costume.
+240 | I think Jeremy has been there and said 【it】 was amazing.
+660 | He said most Indiana schools already use digital devices during lessons, so 【it】 was an
+579 | 【It】 was built above the sea-water.
+501 | But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and 【it】 was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+275 | 【It】 was caused by a lorry running into a trailer.
+525 | M: (15) I actually found that 【it】 was cheaper for me, as I live quite far away from my local supermarket.
+544 | 【It】 was cheaper than using fossil fuel plastic.
+643 | W: (12) No, but the train was so packed that I could barely move, and 【it】 was difficult to breathe too.
+337 | Some Olympians said they treat their medals as treasures and that 【it】 was disrespectful and unacceptable for Kawamura to bite one.
+134 | Some people might find a romantic scene touching, for instance, while others would feel 【it】 was embarrassing.
+277 | 【It】 was followed by two more earthquakes.
+177 | 【It】 was for third-year criminology students to help them contextualize theory and research within controversial current topics.
+375 | 【It】 was found that American youngsters today don’t socialize nearly as much as the earlier generations.
+527 | 【It】 was frequented by newly-weds.
+112 | 【It】 was from 1855 and worth as much as $2,000.
+242 | 【It】 was indefinite.
+205 | 【It】 was injured during the rescue.
+398 | 【It】 was insignificant.
+144 | The police assured everyone that 【it】 was just thunder and lightning rather than some military exercise.
+371 | 【It】 was monitored by Dr.
+208 | If 【it】 was moving, watch where 【it】 went.
+145 | 【It】 was much less secure than paying with cash.
+272 | 【It】 was named by European settlers.
+616 | 【It】 was noticeable, sure.
+174 | When the island was put up for sale, 【it】 was offered to the local government but proved too expensive for the local authorities.
+615 | 【It】 was part of the royal estate.
+153 | 【It】 was placed in the care of a UK charity.
+260 | 【It】 was recommended not to make contact with the animal.
+478 | 【It】 was sent to me on Tuesday.
+319 | 【It】 was smooth.
+294 | 【It】 was straightforward.
+492 | 【It】 was strongly opposed by manufacturers.
+182 | 【It】 was suggested by some of her customers.
+346 | 【It】 was systematic.
+665 | 【It】 was the kingdom’s best-equipped zoo.
+198 | 【It】 was then taken to an examining room for evaluation of any injuries. [7] The elephant was kept under close supervision for a few days before 【it】 was successfully released back into the wild.
+94 | Of more than 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet, and almost all overestimated how healthy 【it】 was. [4] Those who rated their diet as poor tended to be far more accurate.
+248 | M: 【It】 was three months ago, and I already know what you’re going to say.
+391 | Explaining why she has kept up the videos, Andrea explained how nice 【it】 was to have a little bit of fun and craziness that made people smile.
+646 | She was able to cancel two of them, but 【it】 was too late to cancel the rest.
+237 | 【It】 was tourists not natives who were cleaning up the beach.
+446 | 【It】 was unclear where the rest of the group was from, but they were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.
+131 | (2-2) 【It】 was unclear who the owner was.
+170 | “When the fraudsters first started 【it】 was unsophisticated—the websites looked amateur and there wasn’t a lot of effort,” says Tipton.
+99 | But its owner assured the concerned customers 【it】 was very much loved and fed at home.
+666 | But 【it】 wasn’t an ugly scar.
+469 | At the time, Humm acknowledged the move was risky, admitting that “【it】 wasn’t clear if guests would come”, but called
+365 | likely to take 【it】 — which raises a challenge for society as a whole.
+230 | 【It】 will allow Africans to play a bigger role in world trade.
+506 | 【It】 will also bring to an end a less popular US high school tradition: the “make-up day”
+323 | The author claims that 【it】 will be a great loss if we no longer read books and longer articles.
+328 | 【It】 will be very casual.
+507 | 【It】 will come true sooner or later.
+676 | 【It】 will gradually pass away without teachers' help.
+126 | 【It】 will help many African countries reduce trade deficits.
+614 | 【It】 will probably not guarantee the safety of drivers in case of accidents.
+178 | 【It】 will reduce the cost of trade between African countries.
+181 | He said 【it】 will take months to get the problem under control.
+102 | So I gently pushed 【it】 with a stick to check 【it】 was breathing and saw 【it】 was a terrified little cat.
+128 | She decorated 【it】 with colorful stickers.
+355 | Knowing the best way to learn a foreign language will not enable you to speak 【it】 without actual practice.
+562 | 【It】 would also include expected monthly loan payments and projected salary after college.
+620 | 【It】 would do harm to one's muscles.
+613 | He said 【it】 would give prospective students more information about what to expect once they graduate.
+569 | 【It】 would reduce one's protein intake.
+307 | And with four of us, 【it】 wouldn’t cost any more than living in the dorm.

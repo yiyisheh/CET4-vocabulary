@@ -1,0 +1,3641 @@
+[
+ {
+  "word": "is",
+  "def": "v.是(be 的第三人称单数现在式).",
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "是（连接主语和表语，说明身份、性质、状态）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "正在（构成进行时 is doing）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "被（构成被动语态 is done）"
+   },
+   {
+    "pos": "v.",
+    "zh": "有，存在（there is）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "要，应当（is to do，表示安排或指令）"
+   },
+   {
+    "pos": "v.",
+    "zh": "在，位于（某处）"
+   }
+  ],
+  "phrases_seen": [
+   "be going to",
+   "be used to"
+  ],
+  "notes": [
+   "80 句里约四分之一是作文题干「Suppose your university is organizing/seeking…」，进行时占比被题干抬高；is being spread（29）按被动标。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "It is hard to predict.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 81,
+    "text": "W: Oh dear, is it serious?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 82,
+    "text": "He is a bold and aggressive pet.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 83,
+    "text": "This shifts weight onto the muscles at the back of the head and causes the bone to grow in a way that is not normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing or pressure.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 84,
+    "text": "Each of these behaviors is important, of course, but they all _26_ on physical health—and a growing body of research suggests that social health is just as, if not more, important to _27_ well-being.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 85,
+    "text": "It is associated with people’s mental health conditions.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 86,
+    "text": "A new study has cast doubt on historic research suggesting that the season or month of someone’s birth is associated with an increased risk of certain mental health conditions.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 87,
+    "text": "He is now kept in a secure area.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 88,
+    "text": "After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 89,
+    "text": "When that is the case,",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 90,
+    "text": "She is making a special effort to be recognized.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 91,
+    "text": "[1] That driver is Sherry Christian.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 92,
+    "text": "He is not up to anything challenging.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 93,
+    "text": "Natural gas is used by nearly half of U.S. households for heat.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 94,
+    "text": "where you are now and where you want to be in the future is caused by a lack of knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 95,
+    "text": "The city’s rush-hour traffic is intolerable.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 96,
+    "text": "[7] In order to devise effective policies to curb the environmental impact of the clothing industry, it is important to identify the source of the problem in the supply chain.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 97,
+    "text": "It is watched live online by fans all over the world.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 98,
+    "text": "The run closed the span between the Middle and Lower Keys to traffic for 3 hours Saturday. [2] The April contest is one of the most popular running events in the southeastern United States.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 99,
+    "text": "This characteristic is ___26___ apparent in a new study, focusing on people",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 100,
+    "text": "“Parking here is already a nightmare,” one shouted at a protest rally.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 101,
+    "text": "My sister’s boyfriend is coming over for dinner.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 102,
+    "text": "It is no longer critical of younger customers.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 103,
+    "text": "Responding to the post, one person commented that it is messed up beyond another level.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 104,
+    "text": "Earth Day is an annual celebration that honors the achievements of the environmental movement and raises awareness",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 105,
+    "text": "It is suffering a great deal from the incident.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 106,
+    "text": "The family is now offering a £5,000 reward for the safe return of the dog after launching a social media campaign to find the thief.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 107,
+    "text": "Stricter regulation is needed in transforming Glasgow's economy.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 108,
+    "text": "First Minister Nicola Sturgeon welcomed the pledge and said: “Today’s announcement between ScottishPower and Glasgow City Council—to make Glasgow the UK’s first net-zero city—is a very welcome step.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 109,
+    "text": "In social sciences, this is known as examining \"near misses\" and",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 110,
+    "text": "Their meat is not that popular.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 111,
+    "text": "Sue Tygielski is the zoo’s director of zoological operations.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 112,
+    "text": "He is tired of cooking.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 113,
+    "text": "This is Michael speaking.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 114,
+    "text": "Research is _28_, but some studies suggest that people who can master lucid dreaming—that is, the ability to be _29_ that a nightmare is happening and possibly even control it without waking up—may hold the _30_.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 115,
+    "text": "She is of mixed blood.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 116,
+    "text": "The other is a painting of a boy by the 17th-century Dutch artist Samuel van Hoogstraten, date unknown.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 117,
+    "text": "But that does not _33_ make it easier to tell what is really in your food.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 118,
+    "text": "It is a location frequented by local traffic police.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 119,
+    "text": "This is because other effects of red meat consumption could contribute to heart disease independent of cholesterol.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 120,
+    "text": "It is worth over 18 million euros.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 121,
+    "text": "The island is often described as heaven on earth by holidaymakers.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 122,
+    "text": "He is a sign language interpreter.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 123,
+    "text": "The most significant concern here is how early this is all happening.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 124,
+    "text": "With others, however, it is far easier to write them off.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 125,
+    "text": "It is located next to a hat factory.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 126,
+    "text": "The National Association of French Millers says bread consumption is on the decline, with French people eating nine grams less than in the previous year.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 127,
+    "text": "It is more harmful to young people.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 128,
+    "text": "NASA is planning three experiments with the first one starting in the fall next year.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 129,
+    "text": "He is a host for a TV program.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 130,
+    "text": "(9-1) Our question today is why friends suddenly disappear.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 131,
+    "text": "And the best way to get strong, healthy bones is by doing weight-bearing exercises like running, dancing and walking, according to a large study.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 132,
+    "text": "The number of tourists to the beach is on a steady decline.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 133,
+    "text": "W: Yeah. [9] My little nephew turns six, and he loves the zoo, so the whole family is going.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 134,
+    "text": "He is fond of luxury cat food.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 135,
+    "text": "The result is a piece of bone like a horn that sticks out from the head by the neck.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 136,
+    "text": "There’s also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not _31_ in any of these measurements.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 137,
+    "text": "It is linked with older adult’s symptoms of depression.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 138,
+    "text": "The ultimate goal of scientists is to produce clones of talented police dogs that can be trained in months instead of years. [7] However, this goal is not yet possible due to the current costs of the technology.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 139,
+    "text": "It is condemned as a crazy idea.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 140,
+    "text": "This kind of snake is one of the most deadly and poisonous in the wild, and they can range from 3 to 5 meters in length.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 141,
+    "text": "“It is important to understand these ___34___ effects when trying to",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 142,
+    "text": "She is the longest-serving bus driver in Fayetteville.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 143,
+    "text": "She says that the best part of the job is watching the children who ride her bus grow up.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 144,
+    "text": "It is less popular than indoor sports in the country.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 145,
+    "text": "Heating oil is projected to be 27% higher and electricity 10% higher.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 146,
+    "text": "This is why we buy courses on",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 147,
+    "text": "The local government is inefficient.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 148,
+    "text": "W: [8] Rush hour in this city is killing me.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 149,
+    "text": "It is one of the most popular running events in the southeastern U.S.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 150,
+    "text": "British astronaut Tim Peake is stepping down permanently from his role as a European astronaut.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 151,
+    "text": "who underwent a hemispherectomy, a surgical procedure in which half of the brain is removed to treat illness.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 152,
+    "text": "The thing is, the actual merchants along Skillman?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 153,
+    "text": "Is it his religion, health condition or lifestyle?",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 154,
+    "text": "It is no longer as noisy and crowded as before.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 155,
+    "text": "Not welcoming children under ten is a complete slap in the face to families.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 156,
+    "text": "Earth Day is celebrated on April 22 in the United States",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 157,
+    "text": "It is helping the police with the investigation.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 158,
+    "text": "The dog is six and a half years old and was last seen wearing a red collar.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 159,
+    "text": "Find out where Jimmy is.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 160,
+    "text": "Employee Eri Ito is grateful for their animals’ comforting ways.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 161,
+    "text": "\"narrow wins\" in areas where merit is subjective.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 162,
+    "text": "It is not environmentally friendly.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 163,
+    "text": "W: (8) I can’t believe that duck hunting is still legal in so many parts of the world.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 164,
+    "text": "It is not tasty.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 165,
+    "text": "Before we continue, I just want to make you aware that this call is being recorded and may be used in the future for training purposes.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 166,
+    "text": "What we do know is that people _35_ to have different kinds of nightmares at different points during the sleep cycle.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 167,
+    "text": "It is an extremely violent sport.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 168,
+    "text": "Their combined worth is estimated to be around one million euros.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 169,
+    "text": "During the British winter, the thought of two weeks in a coastal villa (别墅) with soul-stirring views of the sea and a huge pool to enjoy is enough to offset (抵消) the labor until the holidays start.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 170,
+    "text": "It is gaining popularity among ordinary Indians.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 171,
+    "text": "It is reported that nobody was hurt in the incident, but police said it may affect traffic and Christmas dinners.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 172,
+    "text": "It is an ideal place to meet famous stars.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 173,
+    "text": "For decades tourists have been flocking to Palmdor, which is located off the southeast coast of Spain.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 174,
+    "text": "He is a deaf person working in IT.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 175,
+    "text": "That means that not only is the ice melting very fast, it has more time to melt this summer than it would in a normal climate system.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 176,
+    "text": "Calling someone evil is often similar to saying they cannot change, and perhaps aren’t even a human at all.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 177,
+    "text": "“At first, I thought this was a wonder, because everything was so _32_, but then we realized that this is a huge _33_ in the end,” said the mayor.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 178,
+    "text": "The association is concerned about the effects this trend will have on their trade, and suggests three reasons why it is happening.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 179,
+    "text": "Exposure to blue light is the chief cause of obesity.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 180,
+    "text": "Attitude is key, said former Canadian astronaut Chris Hadfield.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 181,
+    "text": "He is a famous writer.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 182,
+    "text": "When there is a relationship breakdown with their parents, children with an anxious attachment style scream and cry to get their parents to come back.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 183,
+    "text": "The first thing you notice in the staircase to the fourth-floor studio on Canal Street in Manhattan, New York, is the measured thumping coming from behind a metal door.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 184,
+    "text": "He is going to visit a friend.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 185,
+    "text": "M: That’s true. [10] Dan is extremely fit and healthy.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 186,
+    "text": "There is to be a conference call.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 187,
+    "text": "[5] A village is going to throw a birthday party for an orange cat named Wilbur, who has become famous for making a regular appearance at local shops.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 188,
+    "text": "This idea is supported by plenty of _32_ research.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 189,
+    "text": "Cloning is too complicated a process.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 190,
+    "text": "This is not the first time a clone has been made of a star police dog.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 191,
+    "text": "It is questioned by local residents.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 192,
+    "text": "That is increasing the probability of dangerous accidents.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 193,
+    "text": "The criterion for a snow day is primarily the inability of school buses to operate safely on their routes and danger to",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 194,
+    "text": "Why the man is so anxious to buy a new phone.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 195,
+    "text": "The $59 million is up from the $56.7 million budgeted for the current school year.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 196,
+    "text": "It is completely different from other outdoor games.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 197,
+    "text": "M: No, they are safe. [8] But paying online is too convenient and I spent too much money on things I didn’t need.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 198,
+    "text": "What I’m starting to realize, however, is that new knowledge does not necessarily drive new results.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 199,
+    "text": "The city is too big to move around easily.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 200,
+    "text": "Rush hour is terrible, especially in the morning between 8 and 9.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 201,
+    "text": "It is estimated at 11% of the UK’s total food supply.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 202,
+    "text": "[5] An Asda store in Wales is now home to five cats after they wandered in and made themselves comfortable.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 203,
+    "text": "This ___29___ that the brain is able to compensate for loss of certain brain structure.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 204,
+    "text": "H) The truth is that in fairly dense areas, bikes are more efficient at moving people around.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 205,
+    "text": "Jet lag is a big problem for me and has been for the last few years, even though I never suffered from it before.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 206,
+    "text": "It is fully aware of frequent customers' feelings.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 207,
+    "text": "It is not poisonous but can still attack and kill its victims.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 208,
+    "text": "This mission is founded on the proposition that all people, regardless of race, gender,",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 209,
+    "text": "It is bringing the case to the local district court.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 210,
+    "text": "The café is open in the mornings every day of the year and has two members of staff or supervisors on shift every day.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 211,
+    "text": "Ask Jimmy what is to be done.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 212,
+    "text": "Is this a lot of money we’re talking about here?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 213,
+    "text": "The phenomenon is often referred to as the",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 214,
+    "text": "It is not considered cost-effective.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 215,
+    "text": "M: But can anyone be sure if the decline is really caused by the hunting or by climate change?",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 216,
+    "text": "It is not healthy.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 217,
+    "text": "W: Hi, my name is Jean Seimon.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 218,
+    "text": "Compared with teens a couple of decades ago, the way they interact with traditional media like books and movies is fundamentally different.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 219,
+    "text": "It is becoming a national sport.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 220,
+    "text": "Authorities have not yet confirmed what will happen if the rightful owner is not found.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 221,
+    "text": "For a growing number of people, however, their yearly break is turning into a nightmare as they find that the property they have paid thousands for does not exist and the website through which they booked it has disappeared.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 222,
+    "text": "It is the best kind of hard cheese.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 223,
+    "text": "The crossing on High Street is a well-known accident blackspot.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 224,
+    "text": "She is entitled to a discount on all the gym exercises.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 225,
+    "text": "Its natural beauty is protected as it lies inside a natural park.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 226,
+    "text": "Choosing a colour because it is fashionable.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 227,
+    "text": "The owner has two weeks to collect the cash, which is then returned to the finder if not claimed, according to Peterlee Police.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 228,
+    "text": "But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 229,
+    "text": "While being married is great and wonderful, the act of getting married can be quite stressful.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 230,
+    "text": "This could explain why the difference in consumption between genders is so big.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 231,
+    "text": "It is a hotel for business people.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 232,
+    "text": "However, it is only for the winners themselves, not others.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 233,
+    "text": "He is a primary school teacher.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 234,
+    "text": "They’re able to hear what the other person is saying and express their own feelings and thoughts effectively.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 235,
+    "text": "\"The basic requirement for hanging out here is you have to learn how to lion dance,\" Mr.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 236,
+    "text": "He is physically unfit for it.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 237,
+    "text": "W: Our guest on today’s Book Talk is John Black, the author of the new bestseller, Retire Early.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 238,
+    "text": "He is expected to undergo a knee operation.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 239,
+    "text": "Wilbur is both bold and friendly. [6] He spends most of his time in shops and businesses around the village.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 240,
+    "text": "Studies have shown that social support—whether it comes from friends, family members or a spouse—is _33_ associated with better mental and physical health.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 241,
+    "text": "Cloning is ethically controversial.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 242,
+    "text": "W: Well, sounds like if you’re going to read anything for fun, this is the book.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 243,
+    "text": "It is enriching the city’s night life.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 244,
+    "text": "And never assume the driver is going to stop or see you.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 245,
+    "text": "Severe weather that causes cancellation or delay is more likely in regions that are less able to handle the situation.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 246,
+    "text": "Why the man is so fond of using his credit card.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 247,
+    "text": "One of those is total enrollment.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 248,
+    "text": "This is why",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 249,
+    "text": "The environment is easier to control, and he can still get a good workout, in addition to improving his hand-eye coordination.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 250,
+    "text": "something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 251,
+    "text": "He is fortunate to live very near to work.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 252,
+    "text": "And add to that the rush-hour crowds with strangers packed close together in the subway carriages, the whole thing is just horrible.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 253,
+    "text": "Hitchcock is one of the most influential filmmakers in the history of ___27___.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 254,
+    "text": "The supermarket is known for its loyal customers, but now has a different kind of visitor that has appeared over the last year.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 255,
+    "text": "___35___ the ability to smell, scientists believe it is possible that another part of the brain took on that task.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 256,
+    "text": "K) For others, the pushback is cultural, says Henry Grabar, a writer for the Slate Magazine.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 257,
+    "text": "My problem is I’m afraid to fly.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 258,
+    "text": "It is entitled to adopt any rules it wants.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 259,
+    "text": "This type of snake is classified as a threat to humans, especially small children as well as pets.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 260,
+    "text": "Changing careers is",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 261,
+    "text": "It is offering a big reward to anyone who helps.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 262,
+    "text": "But if gravity is removed, the beans float around in a heated oven, received 360 degrees of evenly distributed heat and roast to near perfection.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 263,
+    "text": "It is less time-consuming.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 264,
+    "text": "Anyway, Jimmy is a good guy.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 265,
+    "text": "E) This is bad news for the losers.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 266,
+    "text": "How the paint job is to be done.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 267,
+    "text": "Ducks are birds that feed and breed in areas where there is a lot of water, but their habitats have been shrinking in recent decades because of the droughts.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 268,
+    "text": "It is too oily.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 269,
+    "text": "The findings suggest that, just as a parent’s personality can affect the personality of a child, the same is true for a cat and its owner.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 270,
+    "text": "Let me emphasize that this is equal to the time most adults spend per week at work.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 271,
+    "text": "It is originated in New Zealand.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 272,
+    "text": "Nevertheless, it is speculated that they could either be handed over to the National Art Museum of Cologne or sold to the public by the local government.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 273,
+    "text": "Consumers have been warned to be aware of the potential for deception in this market, which is far from uncommon.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 274,
+    "text": "It is the most popular in Spain.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 275,
+    "text": "Helicopter taxi is not an affordable option for many travelers.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 276,
+    "text": "Whether a country’s educational level is linked to women’s rights.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 277,
+    "text": "Although Palmdor is one of the most famous private islands in the world, its seafront is public land and is a favorite destination for famous people.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 278,
+    "text": "Reading is a habit every child can develop.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 279,
+    "text": "He told The Northern Echo: “(7) It isn’t an affluent part of the world, so for them to find cash of that amount and instantly think about taking it to the police stations shows the community spirit there is.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 280,
+    "text": "Evil is typically referred to when there is deviance from social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 281,
+    "text": "There is the planning of the ceremony itself, the merging (合并) of two households and all of the details involved in that.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 282,
+    "text": "The second reason, they say, is lifestyle changes in the country, (7) with people dedicating less time to breakfast when bread would traditionally be eaten with butter and jam.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 283,
+    "text": "It is a nap research institute.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 284,
+    "text": "M: So blue light is harmful and that’s why you want to block it.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 285,
+    "text": "It is rather unrealistic.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 286,
+    "text": "What is it?",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 287,
+    "text": "While that is not a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 288,
+    "text": "He is keen on extreme sports.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 289,
+    "text": "W: [12] John, your book is getting a lot of attention, partly because you write that most people can retire by 40.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 290,
+    "text": "But if their hobby is quite different from their career, it may not _33_ in the same way but instead help them develop other knowledge and skills that can _34_ their confidence at work.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 291,
+    "text": "“He’s a very relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is a cat of expensive tastes who likes his high priced cat food.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 292,
+    "text": "Social isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 293,
+    "text": "The technology is yet to be accepted.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 294,
+    "text": "It’s written by a Chinese science fiction writer. [9] I can’t remember his name, but he’s written three books in all, and *The Three Body Problem* is the first in the series.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 295,
+    "text": "It is giving rise to safety concerns.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 296,
+    "text": "Working out how much we save using discount pizza coupons, for example, is much more relevant than abstract sums.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 297,
+    "text": "tradition is now over for pupils in several US states such as South Carolina, Nevada, Georgia and Indiana.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 298,
+    "text": "It is not in fashion any more.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 299,
+    "text": "But now that you mention it, I do think getting another phone so soon is wasteful, regardless of the cost.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 300,
+    "text": "which is devoted to hearing.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 301,
+    "text": "[16] Lift-off is usually the most environmentally harmful stage of any space mission, with vast quantities of fuel burnt up in a matter of minutes.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 302,
+    "text": "Let’s say your goal is to get stronger and more",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 303,
+    "text": "He is going to move closer to his office.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 304,
+    "text": "I tell you, my current commute is killing me.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 305,
+    "text": "He was ___33___ productive and his amazing body of work is considered fascinating by the critics.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 306,
+    "text": "And if we move far enough from the city center, the rent is low enough for us to afford all of it.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 307,
+    "text": "“When caught in such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 308,
+    "text": "is today,” he adds.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 309,
+    "text": "Actually my mother is terrified of airplanes to the point where she can’t even fly.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 310,
+    "text": "The man doesn't agree Hannah is poor.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 311,
+    "text": "M: Five million Euros—how is that even possible?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 312,
+    "text": "Getting back into work after you’ve been laid off is even harder.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 313,
+    "text": "It is open round the clock.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 314,
+    "text": "This is where the pair’s company is based.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 315,
+    "text": "It is related to a child's low intelligence.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 316,
+    "text": "The food is exactly the same as the stuff you buy in a conventional shop.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 317,
+    "text": "So is there any evidence that setbacks might actually",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 318,
+    "text": "Moving her furniture is harder than the paint job.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 319,
+    "text": "Their meat is hardly eaten in Western countries.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 320,
+    "text": "It is too spicy.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 321,
+    "text": "Further research is needed to investigate the causal nature of this relationship and to look at how owners’ personalities are directly influencing their pets’ behaviour and wellbeing.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 322,
+    "text": "More and more, watching a movie is something teens choose to do on their electronic devices.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 323,
+    "text": "It is more popular than football.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 324,
+    "text": "As a result, the girl’s mother is facing a criminal case.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 325,
+    "text": "They’ll have pictures of a sales team and it might be a poor actor in New York that is down as their head of sales.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 326,
+    "text": "It is more delicious than honey.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 327,
+    "text": "But Bangalore airport says it is a competitive alternative to a car ride for tech executives in a hurry.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 328,
+    "text": "Whether a country’s protection of women’s rights is related to its public health.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 329,
+    "text": "It is unclear whether the new owners have the power to ban tourists from the island.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 330,
+    "text": "Reading to their children is important.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 331,
+    "text": "Birthday reminders can be helpful, but I kind of worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 332,
+    "text": "Evil behavior is typically thought to embrace one or both forms.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 333,
+    "text": "This is where a lot of people have trouble.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 334,
+    "text": "Finally, the rising cost of bread is considered to be a factor, with the price of a French stick loaf increasing by nearly 25% in the last 10 years.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 335,
+    "text": "To feel how difficult it is to get his idea across.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 336,
+    "text": "M: I’m not so sure that sleep is nearly as important as people always say it is.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 337,
+    "text": "It is somewhat complicated.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 338,
+    "text": "But the end result is surely superior.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 339,
+    "text": "Alvin Chau, aged 26, is an environmental consultant by day and a lion dancer on weekends.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 340,
+    "text": "It is being debated by hundreds of retirees.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 341,
+    "text": "Is that realistic?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 342,
+    "text": "“Consider a scientist who is a keen rock climber,” says Kelly.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 343,
+    "text": "Sarah Godfrey, who is organizing Wilbur’s party, told the local newspaper, “Wilbur is part of our lives, as he is for everyone who lives in the village.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 344,
+    "text": "It’s a significant problem, _35_ since loneliness is emerging as a widespread public health problem in many countries.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 345,
+    "text": "The technology is too expensive.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 346,
+    "text": "M: When is the show supposed to start? [10] I’m a bit overwhelmed with the amount of data I still need to collect to finish my thesis.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 347,
+    "text": "He is a successful businessman.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 348,
+    "text": "M: [10] We also give our kids pocket money, and the amount they get is linked to chores, such as putting the bins out and emptying the dishwasher.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 349,
+    "text": "many school boards have introduced policies which require students to work from home if the school is shut by snow or",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 350,
+    "text": "It is not as fancy as his colleagues’.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 351,
+    "text": "M: Maybe you’re right, [9] but the thing is, everyone at the office has a nice, expensive phone, and I’m a little embarrassed by mine.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 352,
+    "text": "We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 353,
+    "text": "This is the equivalent produced by your average car driving almost 70 times around the world. [16] As well as greenhouse gases, rocket engines emit particles that destroy ozone.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 354,
+    "text": "You can research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 355,
+    "text": "A question to think about is, “What happens even earlier than age five?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 356,
+    "text": "Is he okay?",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 357,
+    "text": "He is also remembered by other filmmakers, for he",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 358,
+    "text": "But I’m not sure why you want to leave campus and go through all that trouble when the cost is the same.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 359,
+    "text": "cars on the road, rather than driving so closely behind another vehicle that a collision is likely if that vehicle brakes",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 360,
+    "text": "Driving around town in a car is so normal to them that cycling seems weird and unusual — despite its",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 361,
+    "text": "I just get anxious before I fly and feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic more than it did.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 362,
+    "text": "He is not outstanding in Science and Math.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 363,
+    "text": "He says the car is the best thing that has ever happened to him, and [11] if she sells it, he will divorce her.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 364,
+    "text": "They are unemployed for much longer than the average, and their age is indeed one of the greatest barriers to",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 365,
+    "text": "It is more spacious and less crowded.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 366,
+    "text": "It is not clear how much they would charge for a cup.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 367,
+    "text": "Social media addiction is a threat to our health.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 368,
+    "text": "They aren’t going to deliver you food that is out of date.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 369,
+    "text": "There is now.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 370,
+    "text": "To review what is learned in class.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 371,
+    "text": "The second is guaranteed to look great for about 10 years, whereas the cheaper one will start to dull after around six or seven years.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 372,
+    "text": "She is too concerned about money.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 373,
+    "text": "It is possible that the wellbeing of pets is driven by the underlying nature of the owner, not simply by their conscious decisions and behaviours.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 374,
+    "text": "Why is this a problem?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 375,
+    "text": "His study folder is badly disorganized.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 376,
+    "text": "Her name is Susan and she’s from South Africa.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 377,
+    "text": "But a bit of a giveaway is that the villa will be cheaper than on other websites and there’s unlimited availability,” says Tipton.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 378,
+    "text": "It is a good choice for children.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 379,
+    "text": "“A large number of high-class travelers, including CEOs, have to spend more than three hours by road to get there—and that is a loss of time,” a Bangalore airport spokesperson said.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 380,
+    "text": "Their brain is more powerful than that of right-handed people.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 381,
+    "text": "The island is less than two miles long and half a mile wide.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 382,
+    "text": "For example, there is no meeting that goes faster than not having a meeting at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 383,
+    "text": "But at this time of year, the air pollution is a real problem.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 384,
+    "text": "E) Perhaps this is where we can find the good side of our bad side.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 385,
+    "text": "Hopefully you have a supportive groom who understands why this idea is the most appealing to you.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 386,
+    "text": "M: Second class is fine.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 387,
+    "text": "Well, creating fabric from cotton, which is the most __27__ clothing material, is actually a process that involves a lot of water, 2,700 liters per shirt to be __28__.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 388,
+    "text": "W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep can contribute to serious health problems like obesity and heart disease.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 389,
+    "text": "It is extremely artistic.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 390,
+    "text": "Also, the fabric they use is of a higher quality and the dyes are natural.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 391,
+    "text": "E) It is believed that the lion dance began in the third century.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 392,
+    "text": "It is attracting many people’s attention.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 393,
+    "text": "M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 394,
+    "text": "“Since climbing is so far _35_ from their day-to-day work activities, they can still recover from the demands of their job with plenty of resources.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 395,
+    "text": "W: Poor Jeremy. [11] His wife is a terrible cook.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 396,
+    "text": "But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 397,
+    "text": "Access to official campsites is limited.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 398,
+    "text": "The postcode is NU 29 3LJ. [15] Remember that the closing date is next Tuesday, the 28th of June.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 399,
+    "text": "It is natural.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 400,
+    "text": "M: Teaching them to save is important.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 401,
+    "text": "If it is successful, it",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 402,
+    "text": "It is a special offer to recent college graduates working in offices.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 403,
+    "text": "W: I don’t think buying a phone on credit is a good idea.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 404,
+    "text": "Yet the bottled water market is livelier than ever.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 405,
+    "text": "One potentially greener option is liquid hydrogen and oxygen.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 406,
+    "text": "Let’s say your goal is to grow your startup.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 407,
+    "text": "The logical question to ask is, “What happens even",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 408,
+    "text": "If Johnny’s girlfriend doesn’t like him for who he is, then she does not deserve to be his girlfriend.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 409,
+    "text": "He is also ___35___ by people around the world for his",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 410,
+    "text": "And this toy is the lead character from the show.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 411,
+    "text": "That is, it can prevent the slow-down effect from being amplified by the cars that",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 412,
+    "text": "have turned to claiming the problem is the opposite: There are too many cyclists getting in the way of cars.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 413,
+    "text": "So the problem really is widespread and deserves attention.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 414,
+    "text": "He is not yet mature enough to live on his own.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 415,
+    "text": "I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough to live on his own at this point.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 416,
+    "text": "A substantial part of this, they report, is “widespread ageism” on the part of hiring managers.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 417,
+    "text": "It is quite close to her house.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 418,
+    "text": "Each March, this tiny village swells up in numbers, because it is located in the middle of a race that takes place every year.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 419,
+    "text": "Addiction to computer games is a disease.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 420,
+    "text": "If anything is really wrong, you can just take photographs of the damage, and they will give you the money back or replace the item.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 421,
+    "text": "G) One straightforward reason close losers might outperform narrow winners is that the two groups have",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 422,
+    "text": "Directions: In this section, there is a passage with ten blanks.",
+    "n": 28,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 423,
+    "text": "M: That is correct.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 424,
+    "text": "She is too weight-conscious.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 425,
+    "text": "This house built in 1904 is one of the most well-known works of Charles Hill, the famous architect.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 426,
+    "text": "One reason is that going to the cinema is generally a social activity.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 427,
+    "text": "It is mainly based on a society’s religion.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 428,
+    "text": "The mountain is called Table Mountain because it’s flat at the top.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 429,
+    "text": "E) With such a degree of professionalism, how can consumers find out if the website they’re looking to book with is trustworthy?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 430,
+    "text": "It is an objective evaluation of a person’s character.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 431,
+    "text": "“This is not a low cost option, but it is an option,” she added.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 432,
+    "text": "The left side of their brain is more powerful than its right side.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 433,
+    "text": "It is said to have a remarkable location that few other private islands of this size can match, according to estate agents.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 434,
+    "text": "This is not to say you should never attend another meeting, but the truth is that we say “yes” to too many things we don’t actually want to do.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 435,
+    "text": "New Tech coupled with improvements in hearing aid technology and medical advances means that Miller is able to focus far more on his work.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 436,
+    "text": "F) Creativity is also a deviation.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 437,
+    "text": "A lot of times, though, the act of keeping your name is still something that causes concern.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 438,
+    "text": "Is there any chance we could have a window seat for one of those?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 439,
+    "text": "Clean water is __30__ becoming one of the most sought-after resources in the world.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 440,
+    "text": "Nowhere is this challenge clearer than in Africa.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 441,
+    "text": "It is relatively predictable.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 442,
+    "text": "Either is fine.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 443,
+    "text": "The new year—according to the Chinese lunar calendar—will begin on Saturday and marks the Year of the Rooster, which is thought to be a symbol of positivity.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 444,
+    "text": "It is the way to quit a job one hates.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 445,
+    "text": "Executive function is a term for the skills one needs to plan, organize, motivate, concentrate and memorize.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 446,
+    "text": "The US is one of only three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies are starting to take up the issue.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 447,
+    "text": "W: [12] Now, all I need is to photocopy your passports and then I can get you all checked in and show you to your rooms.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 448,
+    "text": "This is true not just in terms of their social lives, but their education too.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 449,
+    "text": "It is strongly opposed by nearby residents.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 450,
+    "text": "It is also cheap, at a time when many are worried about what the economic future holds.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 451,
+    "text": "It is personal",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 452,
+    "text": "M: When the time is right, I’ll start talking to our children about investing and show them how the money saved for their further education has grown.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 453,
+    "text": "district is anything to go by.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 454,
+    "text": "It is available to office workers who have a good enough credit score.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 455,
+    "text": "I’ll be able to pay for the phone well before that period is over.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 456,
+    "text": "“Public awareness has never been higher, but the message is not quite reaching all the people it needs to.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 457,
+    "text": "Truly environmentally friendly space travel is still some way off. [18] But we already have many of the technologies needed to start limiting its impact on our planet.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 458,
+    "text": "to actually land customers is to practice making sales calls.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 459,
+    "text": "“It’s the taking part and doing the work which is important,” he says.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 460,
+    "text": "So he is insane to give in to her like that.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 461,
+    "text": "Is juicing actually good for you?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 462,
+    "text": "W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, so maybe a game that they can play together would be good.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 463,
+    "text": "Adaptive cruise control is a driver assistance",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 464,
+    "text": "N) Maybe bike lanes will always be charged with emotion, until enough of the public is finally concerned about climate",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 465,
+    "text": "[16] The most common question I’m asked always centers around how to get started in user experience design, to which my response is always that nothing can substitute real-world experience.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 466,
+    "text": "It is too far away.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 467,
+    "text": "Analytical decision-making is a decision-making approach where a manager makes important business decisions only with solid data.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 468,
+    "text": "This is true even though nearly nine managers in 10 also said their post-45 workers were as good",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 469,
+    "text": "He is starting a business.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 470,
+    "text": "It is a seven-day race, called the Iditarod Trail and participants stop at Takotna for their obligatory 24-hour rest.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 471,
+    "text": "They are unaware of the damage their behavior is doing to them.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 472,
+    "text": "Is it not more expensive to get everything delivered?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 473,
+    "text": "He said the new finding is apparently reasonable and worth some attention.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 474,
+    "text": "But a relationship is made of two 26 individuals.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 475,
+    "text": "(12-2) (15) I’m starting to realize that painting my house is far more troublesome than I had anticipated.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 476,
+    "text": "She is too picky about food.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 477,
+    "text": "The building style is radically different from what was the fashion of the period.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 478,
+    "text": "Now, watching movies is something that most teens do alone.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 479,
+    "text": "It is interpreted differently in different times.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 480,
+    "text": "W: Well, Susan says South Africa is very mixed.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 481,
+    "text": "Another potential red flag is being asked to pay by bank transfer.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 482,
+    "text": "It is a mental process influenced by many factors.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 483,
+    "text": "The company that owns and operates the service is called Thumby Aviation.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 484,
+    "text": "It is related to their genes.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 485,
+    "text": "Palmdor is the perfect place to retreat to, somewhere to get away from the city noise and relax in beautiful surroundings with zero stress.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 486,
+    "text": "Three days later, you’re overwhelmed by how much is on your to-do list.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 487,
+    "text": "Colour is now spreading through our homes, up staircases, across wood frames and ceilings, filling in neutral spaces.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 488,
+    "text": "This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 489,
+    "text": "Even if your groom is fine with it, his family (or your own) might not be so understanding.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 490,
+    "text": "The total price is £36.50.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 491,
+    "text": "The video from National Geographic was created to spread __32__ of how environmentally harmful cotton is.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 492,
+    "text": "The body of KaiOS phones is as basic as it gets.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 493,
+    "text": "It is a means to inspire creative thinking.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 494,
+    "text": "The desire for adventure is a human one.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 495,
+    "text": "\"It's almost like the dark night is ending and the sun is coming up,\" said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 496,
+    "text": "Exercising for just 10 minutes a week is linked to a longer life, according to a new study published in The British Journal of Sports Medicine.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 497,
+    "text": "Some risks may not work out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 498,
+    "text": "Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, which featured a record 33 female CEOs, but this still represents a tiny fraction of the total.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 499,
+    "text": "Another role that they are expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 500,
+    "text": "Early on, the web is their “third space”, but by the late teens, it’s replaced in reaction to greater independence.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 501,
+    "text": "choice in the bank is identified by a letter.",
+    "n": 12,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 502,
+    "text": "Similar action has been taken even in Scotland, where camping is usually permitted on most of its open land.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 503,
+    "text": "It is instrumental.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 504,
+    "text": "W: Welcome to Books in Review. [12] Our guest today is John Banks, the author of the best selling new book, Rewarding Success.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 505,
+    "text": "He denies the decision is depriving children of the chance to",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 506,
+    "text": "Kids’ attitude to dogs is influenced by adults.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 507,
+    "text": "Our guest today is a popular blog writer and a major figure in the tiny home community.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 508,
+    "text": "Where it is",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 509,
+    "text": "State Representative Adam Mathews is one of the two legislators who proposed the bill.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 510,
+    "text": "Let’s say your goal is to write a book.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 511,
+    "text": "G) Catherine Ritman Smith, head of learning at the Design Museum, is expecting around 10,000 participants aged 13 to 16",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 512,
+    "text": "W: What a fool he is.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 513,
+    "text": "global fruit and vegetable juices market was valued at $154 billion in 2016 and is expected to grow.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 514,
+    "text": "We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 515,
+    "text": "technology that sets a maximum speed for vehicles and automatically slows the speed of the car when traffic is sensed in",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 516,
+    "text": "This cycle is the reason why people rest at night",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 517,
+    "text": "Higher education is a great way to equip yourself with some core skills, but it will not prepare you for actual challenges you’ll face with clients’ work.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 518,
+    "text": "It is newly opened.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 519,
+    "text": "[16] A key flaw with analytical decision-making is that it takes time.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 520,
+    "text": "A bank is more likely to hire",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 521,
+    "text": "He is a successful car dealer.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 522,
+    "text": "Lucky for them, (23) Takotna is famous for its delicious fruit pies.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 523,
+    "text": "There is not enough evidence to classify it as a disease.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 524,
+    "text": "So, which supermarket do you think is the best to order from?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 525,
+    "text": "who gets grants, he said, and the latest research shows that the scientific establishment is not very",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 526,
+    "text": "Recent research has found that one trait in particular—humility (谦逊)—is an important indicator of successful relationships.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 527,
+    "text": "M: This is usually the case.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 528,
+    "text": "She is too eager to please.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 529,
+    "text": "This one, however, is made of concrete, a novel construction material in those days.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 530,
+    "text": "This is a huge drop and it is important to note that this was not merely a decline in reading paper books, newspapers or magazines.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 531,
+    "text": "It is a code of conduct based on laws and ethics.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 532,
+    "text": "Susan is white.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 533,
+    "text": "“The problem is that when the money leaves your account it’s in theirs straightaway and it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 534,
+    "text": "It is motivating.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 535,
+    "text": "M: Our school is replacing printed textbooks with e-textbooks next semester.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 536,
+    "text": "“Our study _33_ that if this is a risk factor, then we should be trying to prevent the risk factor in the first place.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 537,
+    "text": "My name is Carol Friedman.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 538,
+    "text": "Collaborating with others is an important element of life.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 539,
+    "text": "If you are thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 540,
+    "text": "Find online logic games and cheat at them, play Scrabble (拼字游戏) with a dictionary, or write a story about something that is untrue?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 541,
+    "text": "Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 542,
+    "text": "Is there anything else?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 543,
+    "text": "Cotton doesn't have to go, since it is,",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 544,
+    "text": "But now it is cheaper for major manufacturers to use new plastic.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 545,
+    "text": "It is an intuitive way to solidify friendship.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 546,
+    "text": "The plot of each superhero film has become relatively predictable: the world is in peril, the world needs a hero, the hero is in peril, the hero resolves the peril, the hero saves the world.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 547,
+    "text": "\"You need to pass on the traditions and the culture, and this is a part of our culture,\" he said.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 548,
+    "text": "Still, the idea that exercising for just 10 minutes a week may be enough to increase your lifespan is novel.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 549,
+    "text": "But for as long as you want to stay safe, and for as long as you are content with where your business is right now, you will never find out.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 550,
+    "text": "O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 551,
+    "text": "[22] What is personal space?",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 552,
+    "text": "F) This is not to say that kids always use good judgment.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 553,
+    "text": "It's well known that physical exercise is beneficial not just to physical health but also to mental health.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 554,
+    "text": "It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people to use small tents and leave no trace of their visit.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 555,
+    "text": "It is vital.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 556,
+    "text": "A lot of people think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students more incentive to succeed.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 557,
+    "text": "Roth is concerned that e-learning days will offer a lower quality of education.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 558,
+    "text": "eyesight may dim and our recall may weaken, but by comparison, our ability to produce and to ___29___ language is well",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 559,
+    "text": "The average new house in this area is 150 square meters.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 560,
+    "text": "heard, the message is causing concern.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 561,
+    "text": "selling author about writing, but the only way to become a better writer is to practice publishing consistently.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 562,
+    "text": "Born To Be — is the biggest event in the museum’s calendar.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 563,
+    "text": "Talking is unique to humans.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 564,
+    "text": "But is juicing really as healthy as we think?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 565,
+    "text": "So as you can see, when it comes to choices, less is more.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 566,
+    "text": "The technology is also known as autonomous cruise control.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 567,
+    "text": "This means that the specific proteins a drug is designed to",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 568,
+    "text": "That’s not to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 569,
+    "text": "It is within walking distance.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 570,
+    "text": "While this approach is beneficial when you have the time and the decision is important, it is problematic when time is crucial.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 571,
+    "text": "bank is more likely ready, willing and able to be part of the team and do the job from day 1.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 572,
+    "text": "It is the best time for sightseeing.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 573,
+    "text": "Weeks before the competitors arrive, the residents of Takotna start preparing for what is without question their biggest event of the year.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 574,
+    "text": "before making your choices. &eh choice in the bank is identified by a letter.",
+    "n": 2,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 575,
+    "text": "The phenomenon of math anxiety is characterized as a general sense of feeling that the subject is hard compared with other subjects leading to a subsequent lack or loss of confidence.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 576,
+    "text": "\"Maybe we should spend less money trying to figure out who is better than",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 577,
+    "text": "Perhaps it is not 34, then, that humility appears to be a huge asset to relationships.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 578,
+    "text": "Homework is an important part of schooling, but the purposes of giving children homework will change as they grow older.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 579,
+    "text": "Running is the best exercise for extending one’s life.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 580,
+    "text": "Most of the furniture you will see is original and in good condition.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 581,
+    "text": "That is triple the number from two decades ago.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 582,
+    "text": "It is a moral principle to guide people’s behavior.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 583,
+    "text": "W: Rugby is a sport with two teams and the players carry the ball in their arms and throw it at each other.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 584,
+    "text": "“There is no way to definitely know who they are,” says Neate.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 585,
+    "text": "It is passive.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 586,
+    "text": "W: Actually, manufacturing tablets is environmentally destructive and dangerous to human health.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 587,
+    "text": "As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study, university merit scholarships and financial aid awards, and about $8,000 yearly in federally subsidized (有补贴的) and unsubsidized loans.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 588,
+    "text": "So how much of a discount is there on these two new classes?",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 589,
+    "text": "E) Perhaps one issue is how we think about the meaning of yes and no.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 590,
+    "text": "Additionally, a painted ceiling is a magical thing without being too obvious and can affect how the space feels as well.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 591,
+    "text": "This is not a call to become a compulsive (强迫性的) liar, but a controlled liar.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 592,
+    "text": "For example, if your groom’s name is John Smith and your name is Kate Jones.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 593,
+    "text": "What is the arrangement for that?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 594,
+    "text": "Out of these assistants, Siri is the most well-known.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 595,
+    "text": "Meanwhile, new plastic is becoming cheaper.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 596,
+    "text": "Another wave of immigrants is hitting the U.S.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 597,
+    "text": "Telling stories is one of the most powerful means leaders have to influence, teach and inspire.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 598,
+    "text": "J) For Sara Pore, aged 17, another club member, lion dance is more than just tradition, it provides a creative outlet.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 599,
+    "text": "Contrary to some research that has found an _30_ limit to the amount of exercise that is healthy, the researchers found that there was _31_ no limit to the longevity (longevity) benefits of exercise.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 600,
+    "text": "P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 601,
+    "text": "Next is the bubble called “personal space”, extending from 1.5 feet to 4 feet away.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 602,
+    "text": "But working out how to behave online is a new social skill.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 603,
+    "text": "This is ___28___ due to a lack of necessary evidence.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 604,
+    "text": "They have been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 605,
+    "text": "What is the ___32___ of this effect?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 606,
+    "text": "Your proposal to pay cash rewards to students who get good grades is a particular problem.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 607,
+    "text": "Roth says it is not sufficient as a replacement.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 608,
+    "text": "Indeed, the latest research that has emerged on language and aging shows that language mastery is a ___30___ that we begin",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 609,
+    "text": "Physical activity provides a positive outlet for frustration, anxiety, or anger and can become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important for our physical and mental health, and cultivating the habit of physical activity starts early.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 610,
+    "text": "Numerous documentaries have shown how plastic is ultimately",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 611,
+    "text": "In many cases, learning is actually",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 612,
+    "text": "A single-word theme is announced in the summer.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 613,
+    "text": "[17] The first theory is that language started with people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, and the sounds of tools.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 614,
+    "text": "because the fibre found in whole fruits is intact, and the sugar is contained within the fruit’s cells.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 615,
+    "text": "But if that resolution was to volunteer more, now is the best time to start.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 616,
+    "text": "in new roads is very expensive, he said.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 617,
+    "text": "drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 618,
+    "text": "It is a shift in practice from being teacher-focused to student-focused learning. [20] For us, flexible seating has meant removing most of the traditional chairs and desks and introducing a variety of different seating options to promote student engagement.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 619,
+    "text": "It is helpful to Jake’s breathing problems.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 620,
+    "text": "The desire to be right is a major driver of analytical decision-making.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 621,
+    "text": "training, is going to help resolve their worries about hiring someone over 45.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 622,
+    "text": "It is when the villagers choose a queen.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 623,
+    "text": "Thep is that loneliness is a huge, if silent, risk",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 624,
+    "text": "Probably their math anxiety will go unnoticed because their performance is good.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 625,
+    "text": "But at the very least, the research is",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 626,
+    "text": "The study also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 627,
+    "text": "At the primary level, the main aim is to cultivate good habits, like learning to plan and exercising self-discipline.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 628,
+    "text": "Running is the easiest form of exercise for most people.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 629,
+    "text": "J) The latter is especially important.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 630,
+    "text": "The golden rule is often in conflict with certain laws and ethical principles.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 631,
+    "text": "The ball is not round and the players push each other.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 632,
+    "text": "Action Fraud says people should ensure the company renting the villa is a member of a recognized trade body such as ABTA.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 633,
+    "text": "It is incredible.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 634,
+    "text": "Obviously, person perception is a very subjective process that can be affected by a number of variables, including the characteristics of the person you are observing, the context of the situation, your own personal traits, and your past experiences.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 635,
+    "text": "Universities today are in the business of making money, and mine is no exception.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 636,
+    "text": "M: (10) The same discount of 20% is being offered to everyone at the door on a “first come, first served” basis for the first month.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 637,
+    "text": "“No” is a form of time credit.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 638,
+    "text": "Parents often hear that reading to their children is critical for supporting development, and the message is getting through to them.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 639,
+    "text": "But Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary and available to all of us?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 640,
+    "text": "E) The compromise is the biggest reason that so many women choose to hyphenate their last names.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 641,
+    "text": "All you need to do is wait at the far end of the platform.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 642,
+    "text": "What use is written online content if you can't read?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 643,
+    "text": "This is because of a boom in petroleum chemical production from the U.S.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 644,
+    "text": "The number of immigrants to the U.S. is declining.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 645,
+    "text": "Another key measure of financial strength is debt level.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 646,
+    "text": "\"But what makes you a competent lion dancer is that there's a sense of imagination involved.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 647,
+    "text": "By using the genes from resurrection (复活) plants, Jill Farrant of the University of Cape Town is exploring whether she can design crops to survive for much longer periods without water.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 648,
+    "text": "He said equal parental leave is an essential component to creating gender equality in the workplace.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 649,
+    "text": "Friends and acquaintances can comfortably occupy this zone, especially during informal conversations, but strangers are forbidden. [24] Extending from 4 to 12 feet away from us is “social space”.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 650,
+    "text": "While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 651,
+    "text": "Before ___29___ into some of the key take-aways, an important ___30___ made in the review is between aerobic",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 652,
+    "text": "The Amazon river dolphin is a giant among its species.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 653,
+    "text": "The researchers suggest that power differences between the genders — that is, men",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 654,
+    "text": "M: But my proposal is not just to reward students with good grades, but also students who show improvements.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 655,
+    "text": "H) There is a long-running debate on whether missing days of school affects attainment.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 656,
+    "text": "The concept is often presented as something to achieve,",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 657,
+    "text": "It finds that sharing information about diversity makes job postings more attractive to job seekers, even when pay is lower.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 658,
+    "text": "Walsh argues that bottled water is different because the alternatives are so obvious.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 659,
+    "text": "Learning is valuable until it becomes a form of procrastination .",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 660,
+    "text": "This year it is “Change”.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 661,
+    "text": "The other main theory, which is more recent, is that people started off by gesturing—pointing at things with their hands and imitating actions using their bodies.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 662,
+    "text": "But this is not the case with fruit juice.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 663,
+    "text": "The scale is small.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 664,
+    "text": "of slowdowns by cars in front of a given car, so that the slowing is not worsened until it becomes a phantom jam, the",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 665,
+    "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 666,
+    "text": "Teachers tend to still use this format because of either the need to control students or the belief that the teacher is the most important person in the room.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 667,
+    "text": "Thinking twice about what is best for Jake’s education next year.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 668,
+    "text": "What is the secret to living past 100?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 669,
+    "text": "we can do to help ourselves is to go online and learn new, relevant skills.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 670,
+    "text": "Directions: In this section , there is a passage with ten blanks.",
+    "n": 3,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 671,
+    "text": "He is now supporting \"_;g_ benches,\" which are public seating areas where people are encouraged to go",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 672,
+    "text": "But in the long term their performance is negatively affected.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 673,
+    "text": "It is not to the best interest of taxpayers to keep giving money to narrow winners.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 674,
+    "text": "Identify the paragraph from which the information is derived.",
+    "n": 28,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 675,
+    "text": "During the secondary school years, extending what is learned at school is positively related to academic achievement, so the content of homework becomes more important.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 676,
+    "text": "He is a tour guide.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 677,
+    "text": "I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely to have the biggest negative impact on today’s teens because reading books and longer articles is one of the best ways to learn critical thinking.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 678,
+    "text": "Observing the golden rule is the first step to becoming a responsible citizen.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 679,
+    "text": "Is it only South Africa that plays it?",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   }
+  ]
+ }
+]

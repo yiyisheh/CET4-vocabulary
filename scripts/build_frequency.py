@@ -14,6 +14,8 @@ from pathlib import Path
 
 import spacy
 
+import corpus_window
+
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "output"
 OUT.mkdir(exist_ok=True)
@@ -45,7 +47,7 @@ def clean(text: str) -> str:
 def load_corpus() -> str:
     parts: list[str] = []
     for sub in ("papers", "listening"):
-        for f in sorted((CORPUS / sub).glob("*.txt")):
+        for f in corpus_window.files(sub):          # only papers inside corpus/window.json
             parts.append(clean(f.read_text()))
     return "\n\n".join(parts)
 

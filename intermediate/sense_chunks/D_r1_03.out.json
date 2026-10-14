@@ -1,0 +1,962 @@
+{
+ "of no use": {
+  "canonical": "of no use",
+  "pos": "adj.",
+  "zh": "没有用处，无用",
+  "example": {
+   "id": 0,
+   "en": "It is of no use in understanding obesity.",
+   "zh": "它对理解肥胖毫无用处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "labor of love": {
+  "canonical": "a labor of love",
+  "pos": "n.",
+  "zh": "出于热爱而做的事（不图回报）",
+  "example": {
+   "id": 0,
+   "en": "earners, work is a labor of love.",
+   "zh": "对于收入高的人来说，工作是一件出于热爱的事。"
+  },
+  "valid": true,
+  "note": "句子残缺（earners 前被截断）；英式拼写 labour"
+ },
+ "in need of": {
+  "canonical": "in need of",
+  "pos": "adj.",
+  "zh": "需要，缺少",
+  "example": {
+   "id": 0,
+   "en": "But are we really in need of more protein?",
+   "zh": "但我们真的需要更多蛋白质吗？"
+  },
+  "valid": true,
+  "note": "与 in need 相关，in need 单列"
+ },
+ "in favour of": {
+  "canonical": "in favour of",
+  "pos": "prep.",
+  "zh": "赞成，支持；有利于",
+  "example": {
+   "id": 0,
+   "en": "Now that design education is limited in the curriculum, I’m all in favour of competitions.",
+   "zh": "既然设计教育在课程中受到限制，我完全支持举办竞赛。"
+  },
+  "valid": true,
+  "note": "例句为截断句，已补句号；美式拼写 in favor of"
+ },
+ "make sense of": {
+  "canonical": "make sense of",
+  "pos": "v.",
+  "zh": "弄懂，理解",
+  "example": {
+   "id": 0,
+   "en": "Strive to make sense of some unknown forces.",
+   "zh": "努力弄懂一些未知的力量。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hear of": {
+  "canonical": "hear of",
+  "pos": "v.",
+  "zh": "听说（到）",
+  "example": {
+   "id": 0,
+   "en": "I’ve never heard of it, but I do know little Lawrence loves cartoons.",
+   "zh": "我从没听说过它，但我知道小劳伦斯喜欢卡通片。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fall short of": {
+  "canonical": "fall short of",
+  "pos": "v.",
+  "zh": "达不到，不足以满足",
+  "example": {
+   "id": 0,
+   "en": "The increase in new housing falls short of the demand of the growing homeless population.",
+   "zh": "新增住房的数量满足不了不断增长的无家可归人口的需求。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of habit": {
+  "canonical": "out of habit",
+  "pos": "adv.",
+  "zh": "出于习惯",
+  "example": {
+   "id": 0,
+   "en": "Out of habit.",
+   "zh": "出于习惯。"
+  },
+  "valid": true,
+  "note": "仅1句，为答语"
+ },
+ "out of office": {
+  "canonical": "out of office",
+  "pos": "n.",
+  "zh": "（Out of Office 邮件生成器）外出，不在办公室",
+  "example": {
+   "id": 0,
+   "en": "Why did the author and his colleagues launch the Out of Office Email Generator?",
+   "zh": "为什么作者和同事推出了“外出邮件生成器”？"
+  },
+  "valid": false,
+  "note": "两句都是产品名 Out of Office Email Generator，不是在讲短语本义，建议作废（或仅在日后单独出现 out of office 时再收）"
+ },
+ "free of charge": {
+  "canonical": "free of charge",
+  "pos": "adv.",
+  "zh": "免费",
+  "example": {
+   "id": 0,
+   "en": "It provides refugees with a wide range of courses free of charge.",
+   "zh": "它免费向难民提供大量课程。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of luck": {
+  "canonical": "out of luck",
+  "pos": "adj.",
+  "zh": "没有运气，倒霉",
+  "example": {
+   "id": 0,
+   "en": "attitude, but those who aren't as genetically gifted aren't necessarily out of luck.",
+   "zh": "那些遗传上没那么有天赋的人不一定就没希望。"
+  },
+  "valid": true,
+  "note": "句子被截断"
+ },
+ "think highly of": {
+  "canonical": "think highly of",
+  "pos": "v.",
+  "zh": "高度评价，很看重",
+  "example": {
+   "id": 0,
+   "en": "Not to think highly of her qualifications when promoted or given a pay raise.",
+   "zh": "升职或加薪时不看重她的资历。"
+  },
+  "valid": true,
+  "note": "句子残缺"
+ },
+ "in face of": {
+  "canonical": "in the face of",
+  "pos": "prep.",
+  "zh": "面对，在…面前",
+  "example": {
+   "id": 0,
+   "en": "We should stay persistent even in face of failures.",
+   "zh": "即使面对失败，我们也应该坚持。"
+  },
+  "valid": true,
+  "note": "原写法 in face of 为缺 the 的写法，规范为 in the face of；此句也常见 in face of"
+ },
+ "more and more": {
+  "canonical": "more and more",
+  "pos": "adv.",
+  "zh": "越来越多；越来越",
+  "example": {
+   "id": 0,
+   "en": "More and more people are treating pet cats like their children.",
+   "zh": "越来越多的人把宠物猫当孩子对待。"
+  },
+  "valid": true,
+  "note": "形容词/副词比较级重复式，另 less and less 同类"
+ },
+ "and all that": {
+  "canonical": "and all that",
+  "pos": "adv.",
+  "zh": "诸如此类，等等",
+  "example": {
+   "id": 0,
+   "en": "What does he do to strengthen his muscles and all that?",
+   "zh": "他做什么来增强肌肉之类的？"
+  },
+  "valid": true,
+  "note": "口语"
+ },
+ "and so on": {
+  "canonical": "and so on",
+  "pos": "adv.",
+  "zh": "等等，诸如此类",
+  "example": {
+   "id": 1,
+   "en": "We consider some clothes to be powerful some to be fun, and so on.",
+   "zh": "我们认为有些衣服显得有力量，有些显得有趣，等等。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "room and board": {
+  "canonical": "room and board",
+  "pos": "n.",
+  "zh": "食宿",
+  "example": {
+   "id": 0,
+   "en": "At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition of $44,046 not including room and board, I receive over $57,000 yearly in financial aid.",
+   "zh": "我就读于华盛顿特区一所声誉很好的四年制私立大学，年学费高达44046美元（不含食宿），而我每年得到超过57000美元的助学金。"
+  },
+  "valid": true,
+  "note": "仅1句，较长"
+ },
+ "less and less": {
+  "canonical": "less and less",
+  "pos": "adv.",
+  "zh": "越来越少；越来越不",
+  "example": {
+   "id": 0,
+   "en": "They are less and less indifferent to it.",
+   "zh": "他们对此越来越不冷漠了。"
+  },
+  "valid": true,
+  "note": "句1中 less and less of a presence 为名词性用法（越来越少的存在感）"
+ },
+ "day in and day out": {
+  "canonical": "day in and day out",
+  "pos": "adv.",
+  "zh": "日复一日，天天",
+  "example": {
+   "id": 1,
+   "en": "better habits day-in and day-out, continual progress will be the logical outcome.",
+   "zh": "如果天天养成更好的习惯，持续的进步就是必然结果。"
+  },
+  "valid": true,
+  "note": "连字符写法 day-in and day-out 已并入；两句都是片段"
+ },
+ "one's nearest and dearest": {
+  "canonical": "one's nearest and dearest",
+  "pos": "n.",
+  "zh": "至亲好友，亲人",
+  "example": {
+   "id": 0,
+   "en": "I’ve read some financial education books, done some online learning, and have spoken to my nearest and dearest for",
+   "zh": "我读过一些理财书，做过一些线上学习，还和我的亲人们聊过。"
+  },
+  "valid": true,
+  "note": "原句被截断，结尾不完整"
+ },
+ "terms and conditions": {
+  "canonical": "terms and conditions",
+  "pos": "n.",
+  "zh": "条款；条件",
+  "example": {
+   "id": 0,
+   "en": "the terms and conditions that require agreement when using new software products.",
+   "zh": "使用新软件产品时需要同意的条款和条件。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on and on": {
+  "canonical": "on and on",
+  "pos": "adv.",
+  "zh": "不停地，滔滔不绝地",
+  "example": {
+   "id": 0,
+   "en": "Talking on and on about what’s interesting to you isn’t going to make you an interesting person, she says.",
+   "zh": "她说，不停地谈论你感兴趣的事并不会让你成为有趣的人。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "greater and greater": {
+  "canonical": "greater and greater",
+  "pos": "adj.",
+  "zh": "越来越大的",
+  "example": {
+   "id": 0,
+   "en": "Today, a greater and greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.",
+   "zh": "如今，越来越多的街头流浪者是因为运气不好或一连串失误。"
+  },
+  "valid": false,
+  "note": "只是「比较级 and 比较级」的普通重复结构（同 bigger and bigger），非固定短语；如需保留可统一并入「比较级 and 比较级」"
+ },
+ "take part in": {
+  "canonical": "take part in",
+  "pos": "v.",
+  "zh": "参加，参与",
+  "example": {
+   "id": 3,
+   "en": "The schools don’t have to pay anything to take part in the Design Ventura competition.",
+   "zh": "学校参加 Design Ventura 比赛不需要付任何费用。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in place": {
+  "canonical": "in place",
+  "pos": "adj.",
+  "zh": "就位，到位；就绪",
+  "example": {
+   "id": 2,
+   "en": "But the bike lanes were a done deal, and soon they were in place.",
+   "zh": "但自行车道已成定局，很快就建好了。"
+  },
+  "valid": true,
+  "note": "句0/1 为同一句被拆开"
+ },
+ "in principle": {
+  "canonical": "in principle",
+  "pos": "adv.",
+  "zh": "原则上，理论上",
+  "example": {
+   "id": 0,
+   "en": "The findings show: in principle, most people view it more ___28___ when workers are replaced by other people than by",
+   "zh": "研究结果显示：原则上，大多数人认为用其他人取代工人时更……（空格）"
+  },
+  "valid": true,
+  "note": "唯一例句是完形填空，含空格 ___28___ 且句子被截断；建议人工换句"
+ },
+ "in truth": {
+  "canonical": "in truth",
+  "pos": "adv.",
+  "zh": "事实上，说实话",
+  "example": {
+   "id": 0,
+   "en": "In truth, natural flavors do not _28_ much, at least chemically speaking, from their flavor-boosting _29_: artificial flavors.",
+   "zh": "说实话，天然香料与其增味的……人工香料，在化学上并没有太大区别。"
+  },
+  "valid": true,
+  "note": "唯一例句含完形空格 _28_ _29_"
+ },
+ "in addition": {
+  "canonical": "in addition",
+  "pos": "adv.",
+  "zh": "此外；另外（in addition to 意为除…之外）",
+  "example": {
+   "id": 2,
+   "en": "In addition to tuition, college students have to pay extra fees for the courses they take.",
+   "zh": "除了学费，大学生还要为所选课程额外付费。"
+  },
+  "valid": true,
+  "note": "含 in addition 与 in addition to 两种用法，合并在一条"
+ },
+ "bring in": {
+  "canonical": "bring in",
+  "pos": "v.",
+  "zh": "引进，带入；带来（收入等）",
+  "example": {
+   "id": 1,
+   "en": "It brought in the most advanced instruments.",
+   "zh": "它引进了最先进的仪器。"
+  },
+  "valid": true,
+  "note": "字面“带进来”与“引进”混用，整体按引申义收"
+ },
+ "in contrast": {
+  "canonical": "in contrast",
+  "pos": "adv.",
+  "zh": "相比之下，与此相反",
+  "example": {
+   "id": 2,
+   "en": "In contrast, they felt less judged by members of their own group.",
+   "zh": "相比之下，他们感觉自己群体的成员对他们的评判较少。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in fact": {
+  "canonical": "in fact",
+  "pos": "adv.",
+  "zh": "事实上，实际上",
+  "example": {
+   "id": 4,
+   "en": "In fact, we need blue light during the day to be healthy.",
+   "zh": "事实上，我们白天需要蓝光才能保持健康。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in connection with": {
+  "canonical": "in connection with",
+  "pos": "prep.",
+  "zh": "与…有关",
+  "example": {
+   "id": 1,
+   "en": "No injuries were reported in connection with the fire.",
+   "zh": "没有与这场火灾有关的人员受伤报告。"
+  },
+  "valid": true,
+  "note": "原句后接 [2] 另一句，已截取前半句"
+ },
+ "in the near future": {
+  "canonical": "in the near future",
+  "pos": "adv.",
+  "zh": "在不久的将来，近期",
+  "example": {
+   "id": 0,
+   "en": "They could become a rare treat in the near future.",
+   "zh": "它们在不久的将来可能变成稀罕的享受。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hand in": {
+  "canonical": "hand in",
+  "pos": "v.",
+  "zh": "上交，交出",
+  "example": {
+   "id": 0,
+   "en": "He later handed them in to the Cologne police.",
+   "zh": "他后来把它们交给了科隆警方。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in time": {
+  "canonical": "in time",
+  "pos": "adv.",
+  "zh": "及时；（for sth）来得及",
+  "example": {
+   "id": 0,
+   "en": "She didn’t sign up for membership in time.",
+   "zh": "她没有及时注册会员。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in total": {
+  "canonical": "in total",
+  "pos": "adv.",
+  "zh": "总共，合计",
+  "example": {
+   "id": 1,
+   "en": "Decided on this year’s energy assistance package of $8 billion in total.",
+   "zh": "今年决定的能源援助方案总共80亿美元。"
+  },
+  "valid": true,
+  "note": "例句为省略主语的片段"
+ },
+ "in common": {
+  "canonical": "in common",
+  "pos": "adj.",
+  "zh": "共有的，共同的",
+  "example": {
+   "id": 0,
+   "en": "They will find they have something in common.",
+   "zh": "他们会发现彼此有共同点。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in an attempt to": {
+  "canonical": "in an attempt to",
+  "pos": "prep.",
+  "zh": "试图，为了",
+  "example": {
+   "id": 0,
+   "en": "The city’s council and ScottishPower have announced a range of strategies in an attempt to reduce carbon emissions ahead of the new national target of 2045.",
+   "zh": "市议会和苏格兰电力公司宣布了一系列策略，试图在2045年新国家目标之前减少碳排放。"
+  },
+  "valid": true,
+  "note": "后接不定式；较长句"
+ },
+ "in short": {
+  "canonical": "in short",
+  "pos": "adv.",
+  "zh": "简言之，总之",
+  "example": {
+   "id": 0,
+   "en": "In short, natural flavors are _32_ from plants and animals to create specific flavors for processed foods.",
+   "zh": "总之，天然香料是从植物和动物中……（空格）出来的，用来为加工食品创造特定风味。"
+  },
+  "valid": true,
+  "note": "唯一例句含完形空格 _32_"
+ },
+ "in attendance": {
+  "canonical": "in attendance",
+  "pos": "adj.",
+  "zh": "在场，出席",
+  "example": {
+   "id": 0,
+   "en": "A police spokeswoman said that officers were currently in attendance at the scene.",
+   "zh": "警方发言人说，警员目前已在现场。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "send in": {
+  "canonical": "send in",
+  "pos": "v.",
+  "zh": "寄交，递交",
+  "example": {
+   "id": 0,
+   "en": "Send in applications before Friday.",
+   "zh": "周五前把申请寄来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come in": {
+  "canonical": "come in",
+  "pos": "v.",
+  "zh": "名列（第几）；（价格等）为；出现；到来",
+  "example": {
+   "id": 0,
+   "en": "In the following two years, Red Rum lost out on the title, coming in second both times.",
+   "zh": "在接下来两年里，赤朗姆没能夺冠，两次都屈居第二。"
+  },
+  "valid": true,
+  "note": "4句含义分散（位次/价格/进来/出现），其中“带着钱进来”接近字面方向，整体仍保留；拿不准是否过杂"
+ },
+ "in action": {
+  "canonical": "in action",
+  "pos": "adv.",
+  "zh": "在运转中，在活动中",
+  "example": {
+   "id": 0,
+   "en": "Begin seeing moving images and characters in action.",
+   "zh": "开始看到活动的影像和角色。"
+  },
+  "valid": true,
+  "note": "例句为去掉编号 “— 9” 的片段"
+ },
+ "in the presence of": {
+  "canonical": "in the presence of",
+  "pos": "prep.",
+  "zh": "在…面前，有…在场时",
+  "example": {
+   "id": 0,
+   "en": "When in the presence of an unknown student from their own university, only 12 per cent of students selected the healthier option.",
+   "zh": "当有来自本校的陌生学生在场时，只有12%的学生选择了更健康的选项。"
+  },
+  "valid": true,
+  "note": "原句后接 [17] 另一句，已截取前半句"
+ },
+ "in particular": {
+  "canonical": "in particular",
+  "pos": "adv.",
+  "zh": "尤其，特别",
+  "example": {
+   "id": 2,
+   "en": "In particular, dangerous conditions such as icy roads or wet ground could cause difficulty for drivers.",
+   "zh": "尤其是结冰的道路或潮湿的地面等危险状况，可能给司机带来困难。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a slap in the face": {
+  "canonical": "a slap in the face",
+  "pos": "n.",
+  "zh": "当面打脸，侮辱；严重的冒犯",
+  "example": {
+   "id": 0,
+   "en": "Not welcoming children under ten is a complete slap in the face to families.",
+   "zh": "不欢迎十岁以下的孩子，对家庭来说是彻头彻尾的侮辱。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in other words": {
+  "canonical": "in other words",
+  "pos": "adv.",
+  "zh": "换句话说",
+  "example": {
+   "id": 2,
+   "en": "In other words, we’re all really, really stressed.",
+   "zh": "换句话说，我们都压力很大。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in any case": {
+  "canonical": "in any case",
+  "pos": "adv.",
+  "zh": "无论如何，总之",
+  "example": {
+   "id": 0,
+   "en": "In any case, it’s",
+   "zh": "无论如何，它是……"
+  },
+  "valid": true,
+  "note": "唯一例句被截断，需人工确认；原卷 cet4_2025_12_2"
+ },
+ "log in": {
+  "canonical": "log in",
+  "pos": "v.",
+  "zh": "登录",
+  "example": {
+   "id": 0,
+   "en": "Just make sure you’re logged in.",
+   "zh": "只要确保你已登录。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in the eyes of": {
+  "canonical": "in the eyes of",
+  "pos": "prep.",
+  "zh": "在…看来，在…眼中",
+  "example": {
+   "id": 0,
+   "en": "To them, a difference, no matter how small in your eyes, signals the end of the relationship.",
+   "zh": "对他们来说，无论在你眼中多么微小的差别，都标志着关系的结束。"
+  },
+  "valid": true,
+  "note": "例句为 in your eyes 变体；另一句 in the eyes of key observers 含完形空格"
+ },
+ "in mind": {
+  "canonical": "in mind",
+  "pos": "adv.",
+  "zh": "在考虑中，心里想着",
+  "example": {
+   "id": 0,
+   "en": "Do you have anything in mind?",
+   "zh": "你心里有什么想法吗？"
+  },
+  "valid": true,
+  "note": "常见搭配 have sth in mind / bear in mind"
+ },
+ "in person": {
+  "canonical": "in person",
+  "pos": "adv.",
+  "zh": "亲自；当面",
+  "example": {
+   "id": 0,
+   "en": "Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person.",
+   "zh": "皮尤研究中心的阿曼达·伦哈特的研究发现，最热衷发短信的孩子也最可能当面和朋友相处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in fashion": {
+  "canonical": "in fashion",
+  "pos": "adj.",
+  "zh": "流行，时髦",
+  "example": {
+   "id": 0,
+   "en": "It is not in fashion any more.",
+   "zh": "它已经不流行了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in reaction to": {
+  "canonical": "in reaction to",
+  "pos": "prep.",
+  "zh": "作为对…的反应",
+  "example": {
+   "id": 0,
+   "en": "Early on, the web is their “third space”, but by the late teens, it’s replaced in reaction to greater independence.",
+   "zh": "网络起初是他们的“第三空间”，但到了十几岁后期，它因为更大的独立性而被取代。"
+  },
+  "valid": false,
+  "note": "in + reaction + to 意思可由字面推出，是普通搭配，非固定短语；建议作废"
+ },
+ "in advance": {
+  "canonical": "in advance",
+  "pos": "adv.",
+  "zh": "提前，预先",
+  "example": {
+   "id": 1,
+   "en": "But you can get 25% off if you sign up in advance.",
+   "zh": "但如果你提前报名，可以打七五折。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "tune in": {
+  "canonical": "tune in",
+  "pos": "v.",
+  "zh": "收听，收看；关注",
+  "example": {
+   "id": 0,
+   "en": "“It’s going to feel like a made-up conversation that people don’t necessarily want to tune in to.",
+   "zh": "这会让人觉得像是编造的对话，人们不一定想去收听。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "type in": {
+  "canonical": "type in",
+  "pos": "v.",
+  "zh": "键入，输入",
+  "example": {
+   "id": 0,
+   "en": "Fraudsters also invest in pay-per-click advertising to feature at the top of search engines when people type in phrases such as “Spanish seaside villas”.",
+   "zh": "骗子还投放按点击付费的广告，让人们输入“西班牙海滨别墅”等词语时，自己的广告排在搜索结果顶部。"
+  },
+  "valid": true,
+  "note": "type + in 接近字面方向，但 type in 在词典中作“输入”整体记忆，保留"
+ },
+ "in turn": {
+  "canonical": "in turn",
+  "pos": "adv.",
+  "zh": "反过来；依次，轮流",
+  "example": {
+   "id": 0,
+   "en": "This in turn helps us become better negotiators and abstract thinkers.",
+   "zh": "这反过来又帮助我们成为更好的谈判者和抽象思考者。"
+  },
+  "valid": true,
+  "note": "句3 为 in turns（轮流/交替），与前三句略异"
+ },
+ "in question": {
+  "canonical": "in question",
+  "pos": "adj.",
+  "zh": "正被讨论的，所涉及的",
+  "example": {
+   "id": 0,
+   "en": "How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.",
+   "zh": "这些减产将如何体现，取决于升温幅度和所涉作物，但总的来说……"
+  },
+  "valid": true,
+  "note": "例句较长；与 in general 在同一句出现"
+ },
+ "in general": {
+  "canonical": "in general",
+  "pos": "adv.",
+  "zh": "总的来说；一般而言",
+  "example": {
+   "id": 0,
+   "en": "compared to 3 percent for Queens in general.",
+   "zh": "而皇后区整体为3%。"
+  },
+  "valid": true,
+  "note": "句1 为“in general 对整体”用法；例句为片段"
+ },
+ "factor in": {
+  "canonical": "factor in",
+  "pos": "v.",
+  "zh": "把…考虑进去，把…计算在内",
+  "example": {
+   "id": 0,
+   "en": "Have you factored those in?",
+   "zh": "你把这些都考虑进去了吗？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in essence": {
+  "canonical": "in essence",
+  "pos": "adv.",
+  "zh": "本质上，基本上",
+  "example": {
+   "id": 0,
+   "en": "In essence, each driver would constantly make adjustments to keep their car roughly halfway",
+   "zh": "从本质上说，每位司机都会不断调整，让自己的车保持在大约中间的位置。"
+  },
+  "valid": true,
+  "note": "例句被截断"
+ },
+ "in part": {
+  "canonical": "in part",
+  "pos": "adv.",
+  "zh": "部分地，在一定程度上",
+  "example": {
+   "id": 3,
+   "en": "“Fathers may fare better than mothers in part due to how they spend time with their children,” said lead author Katherine Nelson-Coffey.",
+   "zh": "“父亲们比母亲们表现更好，部分是因为他们陪孩子的方式。”主要作者凯瑟琳·尼尔森-科菲说。"
+  },
+  "valid": true,
+  "note": "句0 被拆开，part 单独成行"
+ },
+ "bear in mind": {
+  "canonical": "bear in mind",
+  "pos": "v.",
+  "zh": "记住，牢记",
+  "example": {
+   "id": 1,
+   "en": "Please bear in mind that the price includes moving all the furniture, and the whole task would take two days.",
+   "zh": "请记住，价格包括搬所有家具，整个工作需要两天。"
+  },
+  "valid": true,
+  "note": "与 keep in mind 同义，各自单列"
+ },
+ "in all": {
+  "canonical": "in all",
+  "pos": "adv.",
+  "zh": "总共，一共",
+  "example": {
+   "id": 0,
+   "en": "I can’t remember his name, but he’s written three books in all.",
+   "zh": "我记不起他的名字，但他一共写了三本书。"
+  },
+  "valid": true,
+  "note": "例句截取原句前半，去掉了星号书名部分"
+ },
+ "take in": {
+  "canonical": "take in",
+  "pos": "v.",
+  "zh": "吸收，摄入；理解，接收（信息）",
+  "example": {
+   "id": 0,
+   "en": "I’m very much dependent on vision as a way of taking in information.",
+   "zh": "我非常依赖视觉来获取信息。"
+  },
+  "valid": true,
+  "note": "句1 为摄入热量，句0 为接收信息"
+ },
+ "in one's opinion": {
+  "canonical": "in one's opinion",
+  "pos": "adv.",
+  "zh": "在某人看来",
+  "example": {
+   "id": 0,
+   "en": "A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as \"a dictator.",
+   "zh": "一位说话毫无顾忌的幕后操盘手埃克莱斯顿常说，在他看来，这项运动在他能像“独裁者”一样行事时最好。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "check in": {
+  "canonical": "check in",
+  "pos": "v.",
+  "zh": "登记入住；办理登机手续",
+  "example": {
+   "id": 0,
+   "en": "Now, all I need is to photocopy your passports and then I can get you all checked in and show you to your rooms.",
+   "zh": "我现在只需要复印你们的护照，就可以帮你们办好入住并带你们去房间。"
+  },
+  "valid": true,
+  "note": "已去掉 W: [12]"
+ },
+ "fill in": {
+  "canonical": "fill in",
+  "pos": "v.",
+  "zh": "填写；填补",
+  "example": {
+   "id": 1,
+   "en": "Do you prefer to fill out an application on the web, or to print it out and fill it in by hand and then post it back to us?",
+   "zh": "你喜欢在网上填写申请表，还是打印出来手写填好再寄给我们？"
+  },
+  "valid": true,
+  "note": "句0 为“填补空白”，句1 为“填写”"
+ },
+ "a kick in the pants": {
+  "canonical": "a kick in the pants",
+  "pos": "n.",
+  "zh": "当头一棒，催促（促人行动的刺激）",
+  "example": {
+   "id": 0,
+   "en": "psychological boost, or the proverbial kick in the pants.",
+   "zh": "心理上的提振，或者说俗话讲的“当头一棒”。"
+  },
+  "valid": true,
+  "note": "例句为片段"
+ },
+ "in actuality": {
+  "canonical": "in actuality",
+  "pos": "adv.",
+  "zh": "实际上，事实上",
+  "example": {
+   "id": 0,
+   "en": "I have now come to realize that being boring, in actuality, is not only about who you are as a person, but also how you present yourself.",
+   "zh": "我现在意识到，无趣实际上不仅关乎你是怎样的人，也关乎你如何展现自己。"
+  },
+  "valid": true,
+  "note": "已去掉开头的 “M)”"
+ },
+ "go hand in hand": {
+  "canonical": "go hand in hand",
+  "pos": "v.",
+  "zh": "密切相关，齐头并进",
+  "example": {
+   "id": 0,
+   "en": "Willpower and habits go hand in hand.",
+   "zh": "意志力和习惯是相辅相成的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in need": {
+  "canonical": "in need",
+  "pos": "adj.",
+  "zh": "有需要的，处于困境的",
+  "example": {
+   "id": 1,
+   "en": "To help employees in need adapt to the new work environment.",
+   "zh": "帮助有需要的员工适应新的工作环境。"
+  },
+  "valid": true,
+  "note": "句0 实为 in need of，已在 in need of 条目；此条建议保留 those in need 类用法"
+ },
+ "in line with": {
+  "canonical": "in line with",
+  "pos": "prep.",
+  "zh": "与…一致，符合",
+  "example": {
+   "id": 1,
+   "en": "The position was completely in line with my degree.",
+   "zh": "这个职位与我的专业完全对口。"
+  },
+  "valid": true,
+  "note": "例句为原句中的一个分句（原句很长）"
+ },
+ "give in": {
+  "canonical": "give in",
+  "pos": "v.",
+  "zh": "让步，屈服",
+  "example": {
+   "id": 0,
+   "en": "So he is insane to give in to her like that.",
+   "zh": "所以他竟然那样向她让步，真是疯了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep in mind": {
+  "canonical": "keep in mind",
+  "pos": "v.",
+  "zh": "记住，牢记",
+  "example": {
+   "id": 0,
+   "en": "It is important to keep in mind that personal space varies depending on culture and context.",
+   "zh": "重要的是要记住，个人空间因文化和场合而异。"
+  },
+  "valid": true,
+  "note": "与 bear in mind 同义，各自单列"
+ },
+ "fall in love with": {
+  "canonical": "fall in love with",
+  "pos": "v.",
+  "zh": "爱上",
+  "example": {
+   "id": 0,
+   "en": "Fall in love with boredom and focus",
+   "zh": "爱上无聊，专注当下。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in that case": {
+  "canonical": "in that case",
+  "pos": "adv.",
+  "zh": "那样的话，既然如此",
+  "example": {
+   "id": 0,
+   "en": "In that case, then.",
+   "zh": "那样的话，那就这样吧。"
+  },
+  "valid": true,
+  "note": "已去掉 W:"
+ },
+ "in reality": {
+  "canonical": "in reality",
+  "pos": "adv.",
+  "zh": "实际上，事实上",
+  "example": {
+   "id": 1,
+   "en": "In reality, education does an aging brain good.",
+   "zh": "实际上，教育对衰老的大脑有益。"
+  },
+  "valid": true,
+  "note": "句0、3 为同一句被拆开"
+ },
+ "in the business of": {
+  "canonical": "be in the business of",
+  "pos": "v.",
+  "zh": "从事…行业；以…为业，致力于",
+  "example": {
+   "id": 0,
+   "en": "Universities today are in the business of making money, and mine is no exception.",
+   "zh": "如今的大学是在做赚钱的生意，我所在的大学也不例外。"
+  },
+  "valid": true,
+  "note": "常以 be in the business of doing 的形式出现"
+ }
+}

@@ -1,0 +1,1350 @@
+{
+ "situations": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "情况，局面，处境"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "There are situations where customers buy nothing.",
+   "zh": "在有些情况下，顾客什么也不买。"
+  },
+  "form": "situation 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "talk": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "谈论，讨论（talk about）"
+   },
+   {
+    "pos": "v.",
+    "zh": "说话，交谈（talk to / with）"
+   },
+   {
+    "pos": "n.",
+    "zh": "演讲，讲座，谈话节目"
+   },
+   {
+    "pos": "n.",
+    "zh": "谈话，交谈"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": "P:small talk",
+   "4": 0,
+   "5": 2,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 2,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 1,
+   "15": 1,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 1
+  },
+  "example": {
+   "id": 6,
+   "en": "Talk about future plans with friends.",
+   "zh": "和朋友谈谈未来的计划。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id12/13 的 talk to ... about 归入「说话，交谈」；id9 Book Talk 按节目名归入「谈话节目」"
+ },
+ "anyone": {
+  "senses": [
+   {
+    "pos": "pron.",
+    "zh": "任何人；（疑问、否定句中）有人，谁"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": "P:be anyone's guess",
+   "20": 0
+  },
+  "example": {
+   "id": 15,
+   "en": "And anyone, anywhere, can do it.",
+   "zh": "无论是谁，无论在哪里，都能做到。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "asking": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "问，询问"
+   },
+   {
+    "pos": "v.",
+    "zh": "要求，请求（ask for / ask sb to do）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 1,
+   "15": 0,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 1,
+   "20": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "It's worth asking if things are necessary.",
+   "zh": "值得问一问这些东西是否必要。"
+  },
+  "form": "ask 的现在分词",
+  "irregular": false,
+  "note": "id0 asking for Jimmy（找某人）归入「要求，请求」"
+ },
+ "event": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "活动，盛会，比赛"
+   },
+   {
+    "pos": "n.",
+    "zh": "事件，大事"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": "P:in the event of",
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 16,
+   "en": "The event is free.",
+   "zh": "这个活动是免费的。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "parts": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "地区，地方（parts of the world）"
+   },
+   {
+    "pos": "n.",
+    "zh": "部分"
+   },
+   {
+    "pos": "n.",
+    "zh": "零件"
+   },
+   {
+    "pos": "n.",
+    "zh": "角色"
+   },
+   {
+    "pos": "v.",
+    "zh": "分开，分手"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 2,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 2,
+   "13": 1,
+   "14": 1,
+   "15": 0,
+   "16": 2,
+   "17": 1,
+   "18": 1,
+   "19": 1
+  },
+  "example": {
+   "id": 0,
+   "en": "Duck hunting remains legal in many parts of the world.",
+   "zh": "在世界上的许多地方，猎鸭仍然是合法的。"
+  },
+  "form": "part 的复数",
+  "irregular": false,
+  "note": "原 def 把 parts of the world 的『地区』义项漏了"
+ },
+ "types": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "种类，类型"
+   },
+   {
+    "pos": "v.",
+    "zh": "打字，键入"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Choose one of the two types of cheese.",
+   "zh": "在这两种奶酪中选一种。"
+  },
+  "form": "type 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "aware": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "意识到的，知道的（be aware of / that）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Kids need to be aware of the risks in playing with dogs.",
+   "zh": "孩子们需要意识到和狗玩耍的风险。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "expect": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "预料，预计，料想"
+   },
+   {
+    "pos": "v.",
+    "zh": "期待，期望，指望"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 1,
+   "17": 1,
+   "18": 1,
+   "19": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "But what else can you expect in a city this big?",
+   "zh": "在这么大的城市里，你还能指望什么呢？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "『预料』与『期望』的界线较模糊，id3/5/17 等句偏『期望』"
+ },
+ "happy": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "高兴的，快乐的，幸福的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "满意的，满足的（happy with / about）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "乐意的（be happy to do）"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 2,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "The restaurant mailed the ring back to the happy couple.",
+   "zh": "餐厅把戒指寄还给了那对幸福的夫妻。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "require": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "需要"
+   },
+   {
+    "pos": "v.",
+    "zh": "要求，规定（require sb to do）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0,
+   "19": 1
+  },
+  "example": {
+   "id": 9,
+   "en": "As soon as two tasks require our attention, productivity suffers.",
+   "zh": "只要有两项任务同时需要我们的注意力，效率就会下降。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "story": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "故事"
+   },
+   {
+    "pos": "n.",
+    "zh": "（新闻）报道"
+   },
+   {
+    "pos": "n.",
+    "zh": "说法，情况（the story）"
+   },
+   {
+    "pos": "n.",
+    "zh": "楼层"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 2,
+   "2": 2,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Organize them into a well-connected story.",
+   "zh": "把它们组织成一个前后连贯的故事。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "healthier": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "更有益健康的（healthier food / choice）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "更健康的（身体）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 1
+  },
+  "example": {
+   "id": 3,
+   "en": "White meat may be healthier than red meat.",
+   "zh": "白肉可能比红肉更健康。"
+  },
+  "form": "healthy 的比较级",
+  "irregular": false,
+  "note": ""
+ },
+ "understanding": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "理解，了解，认识"
+   },
+   {
+    "pos": "adj.",
+    "zh": "体谅的，通情达理的"
+   },
+   {
+    "pos": "v.",
+    "zh": "理解（understand 的现在分词）"
+   },
+   {
+    "pos": "n.",
+    "zh": "谅解，协议（memos of understanding）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": 3,
+   "5": 2,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 3,
+   "16": 2,
+   "17": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "What is the general understanding of curiosity?",
+   "zh": "人们对好奇心的普遍认识是什么？"
+  },
+  "form": "understand 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "situation": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "情况，形势，处境"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "It depends on the situation.",
+   "zh": "这要看情况。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "learned": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "学到，学会，学习"
+   },
+   {
+    "pos": "v.",
+    "zh": "得知，获悉（learn that）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "One lion dancer learned how to perform from his elders.",
+   "zh": "一位舞狮人从长辈那里学会了表演。"
+  },
+  "form": "learn 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "prevent": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "防止，预防，阻止"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Prevent them from feeling lonely.",
+   "zh": "防止他们感到孤独。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "related": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "有关的，相关的（be related to）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有亲属关系的"
+   },
+   {
+    "pos": "v.",
+    "zh": "与…相处，与…有联系"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "It is related to their genes.",
+   "zh": "这与他们的基因有关。"
+  },
+  "form": "relate 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "remain": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "保持，仍然是（remain + 形容词）"
+   },
+   {
+    "pos": "v.",
+    "zh": "剩下，仍然存在"
+   },
+   {
+    "pos": "v.",
+    "zh": "留在原处，停留"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 2,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Remain optimistic even in difficulty.",
+   "zh": "即使身处困境也要保持乐观。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "rise": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "上升，增加，增长"
+   },
+   {
+    "pos": "v.",
+    "zh": "上升，增加，增长"
+   },
+   {
+    "pos": "n.",
+    "zh": "兴起，崛起（the rise of）"
+   },
+   {
+    "pos": "v.",
+    "zh": "起床，升起"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": "P:give rise to",
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": "P:give rise to",
+   "9": 2,
+   "10": 0,
+   "11": 2,
+   "12": 1,
+   "13": 0,
+   "14": 1,
+   "15": 2,
+   "16": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "The divorce rate in the county has been on a steady rise.",
+   "zh": "该县的离婚率一直在稳步上升。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "third": {
+  "senses": [
+   {
+    "pos": "num.",
+    "zh": "第三（的）"
+   },
+   {
+    "pos": "n.",
+    "zh": "三分之一"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "Bursa won third place in the 2022 race.",
+   "zh": "布尔萨在2022年的比赛中获得第三名。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "necessary": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "必要的，必需的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "It proves necessary for big achievements.",
+   "zh": "事实证明，这对取得大成就是必要的。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "studied": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "研究，调查"
+   },
+   {
+    "pos": "v.",
+    "zh": "学习，攻读"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It studied the effects of exercise on sleep.",
+   "zh": "它研究了运动对睡眠的影响。"
+  },
+  "form": "study 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "definitely": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "肯定地，当然，无疑"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "That's definitely up to you.",
+   "zh": "那完全由你决定。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "biggest": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "最重要的，最严重的，最主要的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "最大的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Those that require the fastest reaction give left-handers the biggest advantage.",
+   "zh": "需要最快反应的那些活动，让左撇子拥有最大的优势。"
+  },
+  "form": "big 的最高级",
+  "irregular": false,
+  "note": "『最大的』与『最重要的』在 biggest impact/challenge 等句里界线模糊"
+ },
+ "influence": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "影响"
+   },
+   {
+    "pos": "n.",
+    "zh": "影响，作用"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 1
+  },
+  "example": {
+   "id": 4,
+   "en": "Phones influence all aspects of teenage life.",
+   "zh": "手机影响着青少年生活的方方面面。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "leading": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "导致，通向（leading to）"
+   },
+   {
+    "pos": "v.",
+    "zh": "带领，领导，引导"
+   },
+   {
+    "pos": "adj.",
+    "zh": "领先的，主要的，一流的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": "P:lead up to",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 1,
+   "13": 1
+  },
+  "example": {
+   "id": 1,
+   "en": "But curiosity can also be dangerous, leading to setbacks or even downfalls.",
+   "zh": "但好奇心也可能是危险的，会导致挫折甚至垮台。"
+  },
+  "form": "lead 的现在分词",
+  "irregular": false,
+  "note": "id7 leading up to the event 按短语 lead up to 标"
+ },
+ "particularly": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "特别，尤其"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Opinions vary, particularly because viewing habits among consumers continue to evolve.",
+   "zh": "意见不一，尤其是因为消费者的观看习惯在不断变化。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "rest": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "其余部分（the rest of）"
+   },
+   {
+    "pos": "n.",
+    "zh": "休息"
+   },
+   {
+    "pos": "v.",
+    "zh": "休息，歇息"
+   },
+   {
+    "pos": "v.",
+    "zh": "倚靠"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 2
+  },
+  "example": {
+   "id": 6,
+   "en": "She was able to cancel two of them, but it was too late to cancel the rest.",
+   "zh": "她取消了其中两个，但剩下的已经来不及取消了。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "meanwhile": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "同时，与此同时"
+   },
+   {
+    "pos": "adv.",
+    "zh": "（句中）而，另一方面（表对比）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Meanwhile, new plastic is becoming cheaper.",
+   "zh": "与此同时，新塑料正变得越来越便宜。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "leave": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "休假，假期"
+   },
+   {
+    "pos": "v.",
+    "zh": "离开"
+   },
+   {
+    "pos": "v.",
+    "zh": "留下，遗留"
+   },
+   {
+    "pos": "v.",
+    "zh": "使处于（某种状态）"
+   },
+   {
+    "pos": "v.",
+    "zh": "把…留在原处，搁下"
+   }
+  ],
+  "labels": {
+   "0": 3,
+   "1": 2,
+   "2": 1,
+   "3": 1,
+   "4": 2,
+   "5": 3,
+   "6": 3,
+   "7": 4,
+   "8": 0,
+   "9": 2,
+   "10": 2,
+   "11": 2,
+   "12": 1,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "More fathers are taking paternity leave, but mothers are still doing all the work",
+   "zh": "越来越多的父亲在休陪产假，但母亲仍然承担着所有的工作。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "n. 休假 占 27/40，几乎全来自 2023_12_2 一篇文章及其题干，需确认首要义项=休假是否合理"
+ },
+ "decisions": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "决定，决策"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0,
+   "28": 0,
+   "29": 0,
+   "30": 0,
+   "31": 0,
+   "32": 0,
+   "33": 0,
+   "34": 0,
+   "35": 0,
+   "36": 0,
+   "37": 0,
+   "38": 0,
+   "39": 0,
+   "40": 0,
+   "41": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "It should announce its decisions online.",
+   "zh": "它应当在网上公布它的决定。"
+  },
+  "form": "decision 的复数",
+  "irregular": false,
+  "note": ""
+ }
+}

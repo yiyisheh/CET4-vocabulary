@@ -1,0 +1,616 @@
+# 任务 C_r1_28：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_28.labels.txt
+
+============================================================
+## 词：in    本段 600 句    模式：全标（每句都写）
+原释义：prep.在…内; 在…中. adv.在里面.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在……里，在……（地点、范围）    B 样本 46    例：In a government office.
+  1  prep. 在……（时间）；……之内，……之后（in recent years, in 41 minutes）    B 样本 8    例：That’s the fastest pace in four decades.
+  2  prep. 以……方式，处于……状态；穿着（in harmony, in a ball gown）    B 样本 9    例：Their brains work in harmony.
+  3  prep. 在……方面（increase in violence, advancement in high-tech）    B 样本 6    例：technology in assisting learning.
+  4  adv. 在里面；进来（come in）    B 样本 0
+  5  prep. （接在 involved, interested, participate, join, result 等词后）引出所涉及的对象或结果    B 样本 6    例：Enrolhim in a Newcastle football club.
+已标过的短语：take part in（1）；in place（1）；in principle（1）；in the process of（1）；in truth（1）；in addition（1）；bring in（1）；in contrast（1）；in fact（1）
+口径说明（照此执行）：
+  - take part in / in fact / in addition / in contrast / in place / in principle / in the process of / in terms of / in case of / in charge of 等按 P 标；bring in 这类动词+in 的引申义按 P 标，仅表字面进出才标 4；常规地点标 0；involved/interested/participate/join/result/enrol in 标 5；increase/rise/improvement/advancement in 标 3。id71 的 in their phones 原文有空格 _30_，我按 absorbed in 之类标 5，不确定。
+句子：
+200 | He became an astronaut 【in】 2015.
+205 | Asking Jake which school he himself prefers to enroll 【in】.
+206 | The Department of Agriculture banned eggs from Mexico 【in】 2012.
+305 | He’s going to take up a full-time position as ambassador for science and space instead—work he’s been doing since 2019. [3] The former British Army Air Corps helicopter pilot was selected as a European Space Agency astronaut 【in】 2009.
+348 | When snowy weather arrives 【in】
+357 | He flew to the space station for a 6-month tour 【in】 2015.
+424 | Just make sure you’re logged 【in】.
+463 | The gloomy environments animals are kept 【in】.
+550 | He has brought his own lunch today, so he will stay 【in】.
+669 | Have you factored those 【in】?
+221 | Treat her friends 【in】 a bar.
+383 | An employee 【in】 a big tech company deviates when they expose its wrongdoings.
+540 | It’s a fantasy that goes back centuries: a message 【in】 a bottle, carried ashore from far-off lands.
+209 | Kirsteen also believes the video obtained from the shop shows the dog being stolen by a man before driving off 【in】 a car which had been waiting nearby.
+182 | "You want to play 【in】 a circle," Victor Fong, aged 24, told his students at the New York Chinese Freemasons Athletic Club.
+511 | But what else can you expect 【in】 a city this big?
+324 | During the British winter, the thought of two weeks 【in】 a coastal villa (别墅) with soul-stirring views of the sea and a huge pool to enjoy is enough to offset (抵消) the labor until the holidays start.
+560 | But guiding them back to Earth 【in】 a controlled manner opens new possibilities—most components from the Falcon 9 can be reused up to 100 times.
+679 | The food is exactly the same as the stuff you buy 【in】 a conventional shop.
+279 | It was always a normal person 【in】 a costume.
+431 | It may result 【in】 a crowded beach.
+101 | 【In】 a deserted house.
+166 | She was found 【in】 a forest after three days.
+203 | Children play 【in】 a fun tent and enjoy themselves fully.
+115 | (3-2) Police said a 64-year-old man found the paintings 【in】 a garbage pile at a highway rest stop last month.
+180 | Jeans are available 【in】 a greater variety 【in】 America.
+460 | One he can play either alone or 【in】 a group.
+341 | They can be easily seen among participants 【in】 a healthy weight range.
+606 | They found that participants 【in】 a high-power interviewer role were more likely to give abstract
+169 | Customers 【in】 a hurry.
+430 | But Bangalore airport says it is a competitive alternative to a car ride for tech executives 【in】 a hurry.
+116 | Both can be made 【in】 a lab by trained flavorists, but artificial flavors use chemicals to give a product a _30_ smell or taste.
+449 | The clone was born 【in】 a laboratory 【in】 Beijing 【in】 December.
+322 | Restructure them 【in】 a logical way.
+658 | descriptions of behaviors than were participants 【in】 a low-power interviewee role.
+268 | The plane was traveling from Yakutsk Airport 【in】 a major diamond-producing region to the city Krasnoyarsk 【in】 Siberia.
+456 | [16] Lift-off is usually the most environmentally harmful stage of any space mission, with vast quantities of fuel burnt up 【in】 a matter of minutes.    ?P:in a matter of
+371 | 【In】 a million words written over 20 years, he _34_ the full range of human emotions and conflicts with a _35_ that remains sharp today.
+590 | That means that not only is the ice melting very fast, it has more time to melt this summer than it would 【in】 a normal climate system.
+384 | Wait 【in】 a queue for his turn.
+375 | Last year, a three-year-old boy survived alone for three days 【in】 a remote forest 【in】 the same region.
+435 | G) 【In】 a research paper, Evil Genius, published 【in】 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically 【in】 one task are more creative than others on a subsequent task, even after controlling for differences 【in】 baseline creative skills.
+282 | Keep them 【in】 a safe place.
+660 | A pilot programme 【in】 a school district 【in】 Anderson County, South Carolina, has supplied
+439 | The requirements are strict, including a master’s degree 【in】 a science, engineering or math field or pilot experience.
+244 | “Even when unemployment results from the ___33___ of new technologies, people still judge it 【in】 a social context,”
+139 | He was only found the first time around because staff brought 【in】 a special machine to trace him inside a wall opening.    ?P:bring in
+418 | He wanted to invite her to join 【in】 a study project.
+87 | After six days of desperate searching, he was eventually found and placed 【in】 a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.
+289 | He was involved 【in】 a terrible car accident last April.
+470 | He was involved 【in】 a traffic accident.
+429 | Engage 【in】 a variety of psychological activities.
+598 | "【In】 a way," she said, the rooster "stands for 'We The People.'"    ?P:in a way
+238 | This shifts weight onto the muscles at the back of the head and causes the bone to grow 【in】 a way that is not normal. [4] This process can be compared to the way the skin hardens 【in】 response to constant rubbing or pressure.    ?P:in response to ?P:in a way
+448 | of choices given 【in】 a word bank following the passage.    ?P:give in
+629 | You are required to select one word for each blank from a list of choices given 【in】 a word bank following the passage.    ?P:give in
+369 | Workers who can lose 30 pounds 【in】 a year.
+352 | The environment is easier to control, and he can still get a good workout, 【in】 addition to improving his hand-eye coordination.    ?P:in addition
+406 | see 【in】 adults appear at a much younger age than ___27___ known.
+536 | M: But you can get 25% off if you sign up 【in】 advance.
+640 | (11-1) Would you prefer to pay 【in】 advance?
+623 | This is true even though nearly nine managers 【in】 10 also said their post-45 workers were as good
+546 | "It's almost like the dark night is ending and the sun is coming up," said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese 【in】 America.
+311 | unemployed, 【in】 America and elsewhere.
+258 | [3] Net Ease House, a restaurant 【in】 America, has been hit with criticism after announcing on their website that children under the age of ten are no longer welcome.
+521 | You see 【in】 America, many cities don’t have good public transport.
+556 | Snow days are a familiar theme 【in】 American film and TV shows, with children getting the good news and then running
+513 | I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself 【in】 an apartment so far from home. [9] And then there’s the expense, too.
+261 | He wants to provide a bridge for people to connect 【in】 an area that has been divided by class and wealth by providing affordable breakfasts.
+211 | The city’s council and ScottishPower have announced a range of strategies 【in】 an attempt to reduce carbon emissions ahead of the new national target of 2045.
+475 | But sharing our experiences 【in】 an authentic way to connect with other people is what makes us interesting, says associate professor Michael Pirson.
+347 | [6] Electric bike riders have to follow all the same rules as you would if you were 【in】 an automobile.
+126 | Work 【in】 an environment resembling Mars.
+231 | The paid volunteers will work 【in】 an environment similar to Mars.
+554 | a sample of 300 students, the researchers ___33___ power dynamics 【in】 an interpersonal setting to see if this would influence
+199 | [3] Jordan Jax and Tarod Goodman, both 23, were arrested after evidence gathered 【in】 an investigation showed the pair stole mail on multiple occasions using a postal key, according to a news release.
+523 | I heard he comes here a lot, so I thought I’d come 【in】 and check with you.    ?P:come in
+476 | W: I am logged 【in】, and I’ll give that a go.
+528 | W: Well, I think we should stay 【in】 and save some cash.
+342 | “He’s a very relaxed cat, happy for customers and villagers young and old to come 【in】 and say hello.” [7] She also said he is a cat of expensive tastes who likes his high priced cat food.    ?P:come in
+100 | King’s wife said her husband had come “running 【in】” and was “shouting for me to come have a look”.
+314 | Volunteer to help 【in】 animal shelters.
+581 | 【In】 another analysis, researchers found that today’s teens go out with their friends much less often than previous generations did.
+175 | Rideout thus thinks it’s up to parents to model good _34_: Kids tend to take note if their parents put their phone away at dinner or charge it 【in】 another room while they sleep.
+413 | 【In】 any case, it’s    ?P:in any case
+135 | There’s also a qualified self, which is who I am, what are my activities, my social network, and all of these aspects are not _31_ 【in】 any of these measurements.
+230 | Send 【in】 applications before Friday.    ?P:send in
+504 | 【In】 areas less accustomed to snow, even small snowfalls of an inch or two
+160 | "narrow wins" 【in】 areas where merit is subjective.
+578 | Ducks are birds that feed and breed 【in】 areas where there is a lot of water, but their habitats have been shrinking 【in】 recent decades because of the droughts.
+318 | She even texted pictures of her and her husband eating there 【in】 2017 as proof.
+575 | Some other fellow came 【in】 asking for Jimmy just yesterday, (9) a real nervous, pushy type of fellow, saying he needed Jimmy for some study project they were working on.    ?P:come in
+222 | A police spokeswoman said that officers were currently 【in】 attendance at the scene.
+109 | Duck meat is not eaten 【in】 Australia, Canada and the U.S.
+414 | [5] Security officers were searching a suburb 【in】 Australia where an adult snake was believed to be wandering after the discovery of a huge, freshly shed snakeskin. [6] The skin was found at a construction site, and the government wrote to residents to warn them.
+113 | Rachel Salas, an expert on sleep disorders and an associate professor at Johns Hopkins Medicine 【in】 Baltimore.
+432 | Palmdor is the perfect place to retreat to, somewhere to get away from the city noise and relax 【in】 beautiful surroundings with zero stress.
+240 | It has become a star police dog 【in】 Beijing.
+617 | M: Are you sure about that? [9] Rents 【in】 big cities are high, and then there’s the cost of electricity and gas.
+583 | W: No, it’s also popular 【in】 Britain and 【in】 other former British colonies like Australia and New Zealand.
+336 | More of them expect their children to succeed 【in】 business.    ?P:in business
+652 | [22] Taking risks 【in】 business does not mean going into business blindly and then expecting great results.    ?P:in business
+508 | There were 114 space launches 【in】 2020, but there may be up to 1,000 per year 【in】 future.
+198 | To cut consumers’ expenses 【in】 buying quality clothes.
+252 | They are brought 【in】 by the store’s customers.    ?P:bring in
+131 | To see some rare animals 【in】 cages.
+184 | I personally feel sorry for the poor animals stuck 【in】 cages, but there’s no denying they are fun and educational for children.
+176 | They favor diets lower 【in】 calories.
+106 | Scotland will reach the national target 【in】 carbon emissions reduction ahead of schedule.
+247 | Pay either 【in】 cash or with his phone.    ?P:either ... or
+477 | Some people, they argue, are just more interested 【in】 certain kinds of media and entertainment.
+114 | She works 【in】 childcare services.
+611 | It was once thought that the sensory regions of the brain were not ___31___ after a critical period 【in】 childhood.
+389 | M: The answer may lie 【in】 childhood, the way the person related to their mom and dad.
+397 | Genetic researchers 【in】 China have made a clone of a star police dog.
+265 | To review what is learned 【in】 class.
+548 | These are skills students need to succeed 【in】 college.
+537 | Match the room’s ceiling with all the furniture 【in】 colour.
+483 | They are more likely to win 【in】 combat sports.
+208 | They will find they have something 【in】 common.    ?P:have something in common ?P:have sth in common ?P:in common
+417 | And whatever their financial background, or their educational background, most people will have something 【in】 common with each other.    ?P:have something in common ?P:have sth in common with ?P:have sth in common
+455 | It can boost children’s interest 【in】 communication.
+388 | Find employment 【in】 competitive businesses.
+426 | The golden rule is often 【in】 conflict with certain laws and ethical principles.
+95 | [3] The arrests were 【in】 connection with a string of mail thefts from U.S.    ?P:in connection with
+137 | No injuries were reported 【in】 connection with the fire. [2] The Norwalk Fire Marshal is investigating the cause and origin of the fire.    ?P:in connection with
+541 | This could explain why the difference 【in】 consumption between genders is so big.
+340 | 【In】 contrast, they felt less judged by members of their own group.    ?P:in contrast
+646 | Through better water management and farming practices, water usage 【in】 cotton production can be cut down by __33__ 40 percent.
+526 | We see more droughts 【in】 countries like Australia.
+207 | Today, the Earth Day Network, which rallies more than 20,000 ___33___ and organizations 【in】 190 countries, supports
+366 | It has resulted 【in】 damage to office equipment.
+271 | She stands accused of leaving a minor 【in】 danger 【in】 the care of the elderly.
+102 | That’s more than double their $1.78 price 【in】 December 2023.
+677 | To be honest, I could use some help 【in】 deciding what type of vehicle would best suit my needs.
+566 | when a car 【in】 dense traffic slows down even slightly, which causes the car behind that vehicle to slow even more — and
+214 | “And an error occurred during the connections 【in】 Denver.
+242 | Describe our schedule 【in】 detail.
+358 | Traffic jams are a common problem of most big cities, either 【in】 developed or 【in】 developing countries, but one kind of    ?P:either ... or
+393 | They should be attributed to participants’ change 【in】 diet behaviors.
+236 | M: While most financial planners do give numbers, I don’t think that’s useful, as people are living 【in】 different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+377 | Encounter people 【in】 different places.
+374 | It is interpreted differently 【in】 different times.
+235 | Remain optimistic even 【in】 difficulty.
+284 | Stimulate them to engage 【in】 discussions.
+243 | Electric bikes have been the craze 【in】 downtown Jacksonville since they were first introduced earlier this month as a one-year pilot program. [5] But they’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.
+624 | They set up a branch 【in】 Dubai to manufacture coffee roasters.
+486 | But this year, the melting season began 【in】 early May.
+190 | To give students incentive to excel 【in】 economics.
+122 | The first World Pipe Band Championships were held 【in】 Edinburgh 【in】 1947.
+91 | Assured U.S. citizens of an increase 【in】 energy supplies by the end of this year.
+670 | 【In】 essence, each driver would constantly make adjustments to keep their car roughly halfway
+189 | The study looks at symptoms of anxiety and depression among more than 70,000 older adults 【in】 Europe. [3] A number of past studies have found the link between season of birth and mental health diagnoses.
+600 | The researchers found that students who were most at risk had the most improvements 【in】 executive functioning after interacting with therapy dogs.
+395 | So if you use a ton of social media, do you become unable, or unwilling, to engage 【in】 face-to-face contact?
+474 | W: It’s caused by both 【in】 fact.    ?P:in fact
+625 | 【In】 fact, I think his family owns the business.    ?P:in fact
+509 | 【In】 fact, learning    ?P:in fact
+534 | 【In】 fact, research suggests that people who read printed text comprehend more, remember more and learn 30% more than those who read digital text.    ?P:in fact
+150 | 【In】 fact, researchers found that connections — and thus communication    ?P:in fact
+337 | 【In】 fact, there are a lot more people giving tickets than receiving.    ?P:in fact
+603 | 【In】 fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces.    ?P:in fact
+595 | 【In】 fact, we need blue light during the day to be healthy.    ?P:in fact
+453 | It is not 【in】 fashion any more.    ?P:in fashion
+217 | Paper books are being ignored, 【in】 favor of screens.
+141 | She is the longest-serving bus driver 【in】 Fayetteville.
+256 | Organizers expect about 100 athletes will come out to compete 【in】 Fayetteville.
+89 | She has been living 【in】 Fayetteville for 25 years.
+323 | The journey took place 【in】 February when temperatures average negative 26 degrees Celsius.
+297 | Reduction 【in】 federal and state funding.
+251 | [4] Jax and Goodman each face up to five years 【in】 federal prison 【in】 the mail thefts and up to ten years for possession of the postal key.
+385 | People 【in】 France are keeping away from the narrow French stick loaf 【in】 favor of healthier, cheaper options, a millers association has said.
+618 | the difference between the cars 【in】 front and the cars behind, the spacing of cars 【in】 a stream of traffic can act as a damper
+543 | Biting a medal 【in】 front of journalists and photographers has become a common pose for Olympic medalists.    ?P:in front of
+134 | But we already know this. [3] What we have not yet understood is the way the tiny machines 【in】 front of us are changing our skeletons, possibly altering not just the way we behave but even the very shape of our bodies.    ?P:in front of
+144 | It’s projected to cost more than $2,300 to heat a typical home with heating oil this winter. [2] Last month, the federal government added $1 billion 【in】 funding to Low Income Home Energy Assistance Program, bringing the total to $4.8 billion.
+587 | They have more disadvantages 【in】 getting ahead.
+174 | The event first took place 【in】 Glasgow 【in】 1948.
+263 | Speaking ahead of the All Energy Conference being held 【in】 Glasgow, ScottishPower chief executive Keith Anderson said: “We have a large supply of renewable energy on our doorstep and one of the only two low emission zones 【in】 action across the UK.    ?P:in action
+226 | It has been held regularly 【in】 Glasgow since 1986.
+121 | Surprising rise 【in】 global sea levels.
+491 | Applicants must be between 30 and 55 and 【in】 good physical health.
+630 | M: And I guess with fewer places to inhabit, they concentrate 【in】 greater numbers 【in】 few areas, which surely makes them easier targets for the hunters.
+225 | Dangerous ice melts 【in】 Greenland.
+278 | Summer doesn’t begin for two more days, but scientists are already sounding the alarm about dangerous ice melts going on right now 【in】 Greenland.
+650 | The dancers move 【in】 harmony as they imitate the animal's natural movements 【in】 the wild, including the aggressiveness of an attack.
+155 | 【In】 1990, Hayes organized a global Earth Day, with more than 200 million participants 【in】 140 countries.
+224 | The doctor said the babies were 【in】 healthy condition, but could not go home immediately.
+143 | Predicted a 10% jump 【in】 heating bills for most U.S. households this winter.
+423 | Routines can be incredibly useful 【in】 helping you get things done.
+129 | (3-2) The following weeks, she found other outfits 【in】 her dressing-up box, and dressed up as different characters and famous people, sharing her exploits on social media.
+112 | This special medical procedure revealed she had a chicken bone stuck 【in】 her lung.
+156 | Help eliminate class difference 【in】 his area.
+157 | The image appears to show a man carrying the dog 【in】 his arms.
+561 | Thomas Sterner, 【in】 his book The Practicing Mind,
+668 | The principal characters 【in】 his movies were often ordinary people ___32___ 【in】
+522 | He found the 60 pounds 【in】 his pocket missing.
+82 | Although he only had three dollars 【in】 his wallet, at least he was driving 【in】 the right direction.
+104 | Forbid him to draw 【in】 his workbook.
+379 | They need to invest more 【in】 hospital staff and facilities.
+223 | She wasn’t so much interested 【in】 hot yoga.
+588 | W: Well, I guess I am only really interested 【in】 hot yoga.
+402 | And you’d be surprised many families of four are happy living 【in】 houses that are under 30 square meters.
+178 | Build a Martian habitat 【in】 Houston.
+179 | That’s a 1,700-square-foot Martian habitat inside a building 【in】 Houston.
+633 | F) But the trends related to movies are less disturbing compared with the change 【in】 how teens spend their time.
+302 | Psychologists have long been interested 【in】 how we construct our identities and the sorts of strategies that we use to
+177 | Researchers 【in】 Iceland found a new way of tackling climate change by pumping carbon dioxide underground and turning it into stone.
+333 | Already, the project 【in】 Iceland has been increased 【in】 scale to bury 10,000 tons of carbon dioxide each year.
+218 | She grew up 【in】 India.
+378 | The service, which claims to be the first of its kind 【in】 India, offers only one route, but Bangalore airport will add more once it gets approval.
+589 | The speed of their brain development 【in】 infancy.
+641 | The number and quality of books parents read to them 【in】 infancy.
+288 | New research from America studies the role that the presence of individuals from different social or racial groups has 【in】 influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food 【in】 the presence of an observer of a different race, as opposed to an observer from their own race.
+481 | It can result 【in】 instant losses.
+451 | [7] City Council Member Anna Cumber was instrumental 【in】 introducing the electric bikes to Jacksonville as a way to bring new life into downtown.
+381 | He is a deaf person working 【in】 IT.
+330 | The vast island usually locks away enough fresh water 【in】 its ice sheet, which if melted can raise global sea levels by six meters.
+365 | The café doesn’t use volunteers, but pays its staff to ensure consistency 【in】 its service.
+253 | The race field filled within minutes after online registration opened 【in】 January.
+649 | But make double certain they are made 【in】 Japan.
+295 | As the night goes on, groups of riders are often seen traveling 【in】 just about every direction 【in】 the streets and on pedestrian paths.
+281 | The gas turned into solid 【in】 just two years, much faster than the hundreds or thousands of years researchers had predicted.
+142 | Almost all of these students will be 【in】 kindergarten through high school, but 66 will be 【in】 prekindergarten and other programs.
+518 | What about enrolling him 【in】 Lakeview School?
+478 | Initiatives to achieve diversity 【in】 large corporations.
+213 | They poisoned wild ducks 【in】 large numbers.
+277 | It began 【in】 late May.
+471 | M: (8-1) Has Jimmy been coming 【in】 lately?    ?P:come in
+317 | To stimulate interest 【in】 learning.
+473 | They tend to have more difficulties 【in】 learning.
+597 | M: I have a 34 waist and size 30 or 32 【in】 length.
+327 | Whether women’s rights are more often overlooked 【in】 less-developed countries.
+152 | [3] 【In】 less than a month, the Special Olympic Spring Games will make a return to Fayetteville.
+96 | They completed the race 【in】 less than 40 minutes.
+232 | He desires more 【in】 life.
+301 | Most people have a dream 【in】 life, a vision of who or what they’d like to be 【in】 the future.
+628 | schools or universities do just as well later 【in】 life as those who just manage to get accepted.    ?P:as...as
+390 | He has been a club member for 10 years and joined because of an interest 【in】 lion dance.
+408 | Changes 【in】 living conditions.
+490 | Reduce the amount of plastic pollution 【in】 local areas.
+267 | Nothing is known of the period between the birth of the twins and Shakespeare’s _33_ as a dramatist 【in】 London
+436 | It is the oldest theatre 【in】 London.
+320 | However, the aircraft made an emergency landing 【in】 Magan after it began losing some of its valuable cargo.
+234 | About 100 current and past members of the dance group—which has been performing since 1956—will be among the 220 groups marching through Chinatown 【in】 Manhattan for the 18th Lunar New Year Parade on February 5.
+665 | 【In】 many cases, learning is actually
+187 | It’s a significant problem, _35_ since loneliness is emerging as a widespread public health problem 【in】 many countries.
+415 | “Older midcareer workers...make up the bulk of the long-term unemployed 【in】 many countries,” Generation’s analysts write
+161 | Duck hunting remains legal 【in】 many parts of the world.
+547 | It’s clear that farmers 【in】 many parts of the world are going to find things harder 【in】 the coming decades.
+147 | Postal Service’s collection boxes 【in】 Marion County and for the possession of a stolen postal key, according to the Department of Justice.
+334 | A boom 【in】 market demand for clear plastic bottles.
+127 | To prepare for eventually sending astronauts to Mars, NASA began taking applications Friday for four people to live for a year 【in】 Mars Dune Alpha.
+154 | Meanwhile, 30 eggs 【in】 Mexico sell for just $3.40.
+312 | For getting around 【in】 Miami.
+469 | W: No, I actually owned a car for a little while when I lived 【in】 Miami.
+118 | At around half past nine this morning, a trailer attached to a lorry turned over at the crossing of High Street 【in】 Milton.
+446 | Do you have anything 【in】 mind?    ?P:have sth in mind
+326 | India launched its helicopter taxi service on Monday, promising to ferry customers the 40 miles between Bangalore’s Electronic City tech hub and the International Airport terminal 【in】 15 minutes.
+149 | Joanna Stephens, 28, of Atlanta, completed the course 【in】 41 minutes and 12 seconds.
+657 | M: [8] A colleague mentioned the book, but I’ve been so busy writing my thesis that I haven’t been able to read for pleasure 【in】 months.
+647 | I haven’t slept enough 【in】 months because I have too much work to do, and I feel fine.
+553 | The ultimate goal of scientists is to produce clones of talented police dogs that can be trained 【in】 months instead of years. [7] However, this goal is not yet possible due to the current costs of the technology.
+452 | are less common 【in】 more northern areas of the United States that are used to heavy winter snowfall because municipalities
+512 | What kind of display results 【in】 more sales.
+631 | Who built that interesting building 【in】 my city?
+609 | It lies 【in】 nature experiences.
+210 | Glasgow needs to invest 【in】 new technologies to reach its goal.
+532 | They’ll have pictures of a sales team and it might be a poor actor 【in】 New York that is down as their head of sales.
+270 | It is originated 【in】 New Zealand.
+105 | A restaurant named “Number 4” 【in】 Newcastle contacted Joe’s teacher to ask if the 9-year-old could come and decorate its dining-room with his drawings.
+434 | This month, as temperatures 【in】 northwestern Greenland approach all-time highs, researchers are encountering unusual, surprising levels of melting ice 【in】 the region.
+527 | The hesitation I felt 【in】 not sharing the ordinary things that were happening 【in】 my life, and the wild mental search for something more interesting, may have backfired and made me seem less interesting.
+525 | How they can be reduced 【in】 number.
+505 | It is a special offer to recent college graduates working 【in】 offices.
+392 | 【In】 one experiment, participants were offered the choice between candy and fruit as a snack.
+93 | Surprisingly, participants made the wrong call 【in】 one-in-five cases.
+249 | 【In】 one recent case, an international gang used an ___32___ realistic mask to pose as a French minister, ___33___ business
+539 | 【In】 one study, they were given matrixes (矩阵) and had to find two numbers that added up to 10.
+136 | It plays a less important role 【in】 one's health than nutrient intake.
+257 | Knowing how to remember major events 【in】 one's life.
+510 | will ___31___ their behaviour 【in】 order to appear moral or socially good 【in】 the eyes of key observers.    ?P:in order to ?P:in order
+355 | [7] 【In】 order to devise effective policies to curb the environmental impact of the clothing industry, it is important to identify the source of the problem 【in】 the supply chain.    ?P:in order to ?P:in order
+591 | 【In】 order to find the linking words (“Hole” for the first, “Bowl” for the second) you need to be creative.    ?P:in order to ?P:in order
+248 | [5] It was a heartwarming moment that dozens of Indian rescuers rallied together to use a crane 【in】 order to save an elephant trapped at the bottom of a 20-foot well.    ?P:in order to ?P:in order
+269 | More and more, young people choose spending time on their electronic devices over engaging 【in】 other activities, regardless of the type.
+359 | It could be reused 【in】 other products.
+360 | It could be melted for use 【in】 other products. [7] It said even though there are some differences between the two products, there was still the possibility of confusion for consumers.
+672 | 【In】 other words, being proficient with a design tool and a few methods doesn’t make you a user experience designer.    ?P:in other words
+599 | 【In】 other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.    ?P:in other words
+316 | 【In】 other words, the rich get    ?P:in other words
+403 | It can strengthen children’s confidence 【in】 others.
+659 | And then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level about problems 【in】 our country.
+503 | M: 【In】 our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how to shop around for the best deals.
+555 | 【In】 our house, we have transparent money boxes for them to put small change 【in】, so they can see their savings grow.
+353 | We all have goals that we want to achieve 【in】 our lives.
+351 | They are burnt up 【in】 outer space.
+468 | Taste coffee while 【in】 outer space.
+520 | Roast coffee beans 【in】 outer space.
+346 | To arrive at this ___28___, the researchers examined the linguistic patterns of men and women 【in】 over 600,000
+411 | The torture and distress dolphins suffer 【in】 parks.
+410 | traffic jams 【in】 particular can be especially frustrating.    ?P:in particular
+298 | 【In】 particular, dangerous conditions such as icy roads or wet ground could cause difficulty for drivers.    ?P:in particular
+489 | Firstly, the association cited changing diets, (6) 【in】 particular the switch to those low 【in】 calories, as a factor 【in】 the reduction of bread consumption.    ?P:in particular
+92 | The pain will be especially acute 【in】 parts of the country that heavily rely on heating oil to keep homes warm.    ?P:in part
+584 | Fraudsters also invest 【in】 pay-per-click advertising to feature at the top of search engines when people type 【in】 phrases such as “Spanish seaside villas”.
+202 | — between parts of different brain networks are actually stronger 【in】 people who had hemispherectomies than 【in】 people with
+188 | It has surpassed its mother 【in】 performance.
+447 | Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends 【in】 person.    ?P:in person
+497 | 【In】 personal space.
+356 | Bring 【in】 pets with them.    ?P:bring in
+558 | These experiences have been shown to build children’s confidence and pleasure 【in】 physical activities, develop their motor skills, and even improve emotional well-being.
+391 | dietary habits and changes 【in】 physical activity over time.
+673 | The gaming industry is larger than films and music combined, yet few of us are likely to list our achievements 【in】 playing
+293 | 【In】 Poland, depressive symptoms fluctuated a little depending on birth month.
+576 | According to Barabasi, it's easier and less risky for those 【in】 positions of power
+111 | They are well preserved and 【in】 pretty good shape.
+642 | Longer melt seasons like this one seem to lead to much greater contributions to sea-level rise than 【in】 previous decades.
+586 | But tablets contain many technological features that are not found 【in】 printed textbooks.
+146 | Up to fifteen years 【in】 prison.
+482 | It previously specialized 【in】 private charter flights for government officials.
+186 | New scientific research at the University of the Sunshine Coast 【in】 Queensland, Australia, suggests that young people are developing extra pieces of bone at the backs of their heads.
+651 | How those decreases will be felt will depend on the degree of warming and the crop 【in】 question, but 【in】 general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.    ?P:in question ?P:in general
+621 | Jeff Anderson, associate professor 【in】 Radiology at the University of Utah and ___32___ author on the study, says “【In】
+499 | Early on, the web is their “third space”, but by the late teens, it’s replaced 【in】 reaction to greater independence.
+632 | Research published 【in】 recent years has shown that running changes your brain and mind 【in】 some fascinating ways, from increasing your brain function to regulating your emotions.
+382 | And research shows that 【in】 recent years its ice has melted faster than ever before.
+158 | Glasgow has pledged to take the lead 【in】 reducing carbon emissions 【in】 the UK.
+80 | The activity of friends’ brains was more similar than that of people who didn’t know each other, particularly 【in】 regions involved 【in】 attention, emotion and language.
+400 | Severe weather that causes cancellation or delay is more likely 【in】 regions that are less able to handle the situation.
+607 | W: Welcome to Books 【in】 Review. [12] Our guest today is John Banks, the author of the best selling new book, Rewarding Success.
+216 | Tons of gold have fallen out of the sky 【in】 Russia after a cargo plane malfunctioned 【in】 midair this morning.
+644 | There was just one problem for the German children who received them: They were written 【in】 Russian.
+245 | Decrease 【in】 salaries for school administrators.
+250 | He used to wear a sad face 【in】 school.
+331 | A child deviates from social pressures when they stand up for another child being bullied 【in】 school.
+153 | He is not outstanding 【in】 Science and Math.
+466 | I admit that their academic record is very strong, with many outstanding awards for achievements 【in】 Science and Math. [12] But he is just not mature enough to live on his own at this point.
+194 | A rare thundersnow event has taken place 【in】 Scotland.
+292 | Look for open land 【in】 Scotland.
+412 | He’s even written to his state senator about the torture of dolphins 【in】 sea parks.
+396 | Swimming along 【in】 seasonal floods.
+86 | The delight 【in】 seeing their savings grow.
+274 | Thankfully, none of these accidents have resulted 【in】 serious injury.
+363 | employment, based on surveys of over 5,000 workers and managers 【in】 seven countries.
+138 | He has worked 【in】 several banks.
+608 | tradition is now over for pupils 【in】 several US states such as South Carolina, Nevada, Georgia and Indiana.
+290 | Wilbur is both bold and friendly. [6] He spends most of his time 【in】 shops and businesses around the village.
+220 | 【In】 short, natural flavors are _32_ from plants and animals to create specific flavors for processed foods.    ?P:in short
+637 | It results 【in】 short-term excitement.
+219 | She made the journey through a remote region 【in】 Siberia after waking up to find her grandmother motionless.
+433 | Big advances 【in】 sign language.
+495 | Earlier this year, scientists warned that one 【in】 six animal species could go extinct (灭绝的) due to climate change.
+445 | It varies 【in】 size.
+443 | Despite these _35_, the study’s results are yet another indication of the power of physical activity, even 【in】 small amounts.
+370 | W: (8) I can’t believe that duck hunting is still legal 【in】 so many parts of the world.
+638 | 【In】 social psychology, the term “person perception” refers to the mental processes that we use to form impressions of other people.
+108 | 【In】 social sciences, this is known as examining "near misses" and
+549 | 【In】 social space.
+354 | present ourselves 【in】 society.
+502 | having more power 【in】 society — might be a key determinant .For instance, 【in】 a follow-up study conducted with
+241 | There was some variability 【in】 some countries.
+300 | The army officers heard a noise coming from the well and realized an elephant was trapped deep inside. [6] The officers then threw 【in】 some food for the creature and called the local forest department for help.
+168 | Natural flavors come from plant or animal _31_, like fruit, vegetable, meat, fish or milk that is then processed or refined 【in】 some way.
+479 | Many languages are spoken 【in】 South Africa, but she only speaks English.
+605 | 【In】 South Korea, six clones began working with the police 【in】 2008.
+676 | They abandoned the attempt to roast coffee beans 【in】 space.
+273 | It is the most popular 【in】 Spain.
+465 | ___26___ to say that music moves people 【in】 special ways.
+425 | One out of ten American 8th grade students 【in】 2016 spent 40 hours a week or more playing video games.
+328 | The mother who is 【in】 stable condition could return home a day later if all physical tests came back normal.
+196 | Department of Agriculture 【in】 Stoneville, Mississippi.
+163 | It is commonly believed that the great English dramatist and poet William Shakespeare was born 【in】 Stratford-on-Avon on April 23, 1564.
+215 | Shakespeare _30_ attended the grammar school 【in】 Stratford, where he would have studied Latin and read _31_ literature.
+666 | figures revealed a drop of almost 10 percent 【in】 students studying Design and Technology.
+656 | The former ___31___ such things as walking, jogging and cycling and means exercising 【in】 such a
+514 | “When caught 【in】 such a traffic jam, it is common for drivers to assume that there must be an accident, or construction or
+173 | Changing weather patterns 【in】 summer.
+567 | Pursue roles 【in】 teams.
+674 | What about our local school then? [14] They have a wonderful arts program that would really challenge Jake 【in】 terms of creativity and imagination.    ?P:in terms of
+585 | They are similar 【in】 terms of social skills.    ?P:in terms of
+343 | This is true not just 【in】 terms of their social lives, but their education too.    ?P:in terms of
+580 | There’s also very hot pepper 【in】 that.
+559 | Scientists have known that depriving adult mice of vision can increase the sensitivity of individual neurons 【in】 the
+613 | He says: “When we practice something, we are involved 【in】 the
+303 | 【In】 the absence of environmentally and economically feasible recycling options, fast-fashion manufacturers pump out low-quality clothes produced 【in】 high volumes that are worn only a few times and then discarded.
+294 | likely to speak 【in】 the abstract than were women.
+568 | I just get anxious before I fly and feel nervous the whole time we’re 【in】 the air, which is why I was hoping the television program would cover that topic more than it did.
+574 | Searching 【in】 the aisles.
+344 | They truly exist 【in】 the Amazon region.
+663 | depriving adult mice of vision for a short period increased the sensitivity of individual neurons 【in】 the auditory cortex ,
+500 | choice 【in】 the bank is identified by a letter.
+602 | He should throw that soup 【in】 the bin and join us.
+422 | The scientific evidence from countries like Australia, Canada and the USA clearly indicates a decline 【in】 the birds’ numbers.
+524 | good explanation for the phenomenon 【in】 the book The Formula: The Universal Laws of Success by
+306 | missing the region 【in】 the brain that processes information about smells.
+287 | Exercising for just 10 minutes a week is linked to a longer life, according to a new study published 【in】 The British Journal of Sports Medicine.
+84 | Rescuing he businessmen trapped 【in】 the building.
+85 | Town records list four apartments 【in】 the building. [1] Due to smoke and heat damage, the four apartments were declared uninhabitable, and the six residents had to move to another place, officials said.
+99 | It was placed 【in】 the care of a UK charity.
+193 | The number of riders they serve 【in】 the city.
+573 | I’d also like it to be small, so that it’s easy to drive 【in】 the city.
+492 | The Noor solar power station is ___26___ 【in】 the city of Ouarzazate and, once completed, will generate 580 million watts of electricity.
+117 | It can get any where 【in】 the city within 15 minutes.
+309 | Where they sit 【in】 the classroom.
+181 | Besides, it also helps to remind people 【in】 the community to put out their trash bins each week.
+264 | 【In】 the competitive game of
+299 | It is less popular than indoor sports 【in】 the country.
+593 | The second reason, they say, is lifestyle changes 【in】 the country, (7) with people dedicating less time to breakfast when bread would traditionally be eaten with butter and jam.
+307 | Defend itself 【in】 the country's commercial court.
+345 | 【In】 the Czech Republic, the same was true of anxiety symptoms.
+610 | Participants 【in】 the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those 【in】 the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.
+565 | And with four of us, it wouldn’t cost any more than living 【in】 the dorm.
+319 | 【in】 the early 1590s.
+592 | “At first, I thought this was a wonder, because everything was so _32_, but then we realized that this is a huge _33_ 【in】 the end,” said the mayor.    ?P:in the end
+398 | used words 【in】 the English language.
+362 | He felt so disappointed 【in】 the establishment.
+237 | 【In】 the expensive Italian style diner.
+310 | Not welcoming children under ten is a complete slap 【in】 the face to families.
+283 | NASA is planning three experiments with the first one starting 【in】 the fall next year.
+544 | "This makes Morocco a big ___31___ 【in】 the field of solar energy 【in】 the Arab region and the African continent.
+164 | They thought Prickles had died 【in】 the fire.
+570 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son 【in】 the first class of a brand new school.
+643 | J) For every one of the five studies, they found the same thing—participants who cheated 【in】 the first task did better on the creativity task.
+664 | A child’s physical development can benefit greatly from taking pets for walks 【in】 the fresh air.
+404 | It’s a team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship 【in】 the future.
+372 | Before we continue, I just want to make you aware that this call is being recorded and may be used 【in】 the future for training purposes.
+405 | where you are now and where you want to be 【in】 the future is caused by a lack of knowledge.
+255 | Athletes with special needs triumph 【in】 the Game.
+308 | There will also be a fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes with special needs triumph 【in】 the games.
+571 | “People age 45+ face persistent and rising pressure 【in】 the global
+183 | He spends most of his time 【in】 the gym.
+275 | Reserve a meeting room 【in】 the head office.
+538 | That’s a month earlier than normal and something that’s happened only once before 【in】 the historical record 【in】 2016.
+564 | Hitchcock is one of the most influential filmmakers 【in】 the history of ___27___.
+119 | They needed to stay 【in】 the hospital for a couple of months.
+276 | They needed to stay 【in】 the hospital for two to three months for medical supervision.
+170 | It is reported that nobody was hurt 【in】 the incident, but police said it may affect traffic and Christmas dinners.
+485 | Transformation 【in】 the IT industry.
+639 | Researchers, writing 【in】 the journal Heart, pooled data from 23 studies and found that social isolation or feelings of loneliness were tied to an increased risk of coronary heart disease (冠心病) and strokes.
+569 | According to a ___28___ published study 【in】 The Journal of Prevention of
+83 | One recent study published 【in】 the journal PLOS ONE, for example, found that the strength of a person’s social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data on physical activity, heart rate and sleep.
+90 | The 5.99% request more than doubles the highest previous year-over-year increase 【in】 the last eight years, which was 2.99% for the 2021-2022 school year.
+655 | While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online 【in】 the last 12 months.
+645 | Finally, the rising cost of bread is considered to be a factor, with the price of a French stick loaf increasing by nearly 25% 【in】 the last 10 years.
+480 | The problem has ballooned 【in】 the last 10 years, with frauds becoming more and more sophisticated.
+88 | 【In】 the long term,    ?P:in the long term
+338 | While that is not a formal requirement for being a member, everyone finds a way to participate 【in】 the Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.
+438 | Increase the supply of new plastic 【in】 the market.
+678 | They need extra help to catch up 【in】 the math class.
+254 | There are many other cases 【in】 the medical ___30___ that document the brain’s amazing ability to ___31___.
+246 | Another person was woken up 【in】 the middle of the night by what he thought was early construction work starting.
+280 | 【In】 the middle of the platform.
+401 | They usually happen 【in】 the middle of the night.
+535 | They are 【in】 the minority among the population.
+228 | Early 【in】 the morning.
+459 | Rush hour is terrible, especially 【in】 the morning between 8 and 9.
+557 | Audience participation 【in】 The Morning Show.
+120 | The doctors prepared from early 【in】 the morning to help deliver five tiny citizens.
+313 | The café is open 【in】 the mornings every day of the year and has two members of staff or supervisors on shift every day.
+335 | Some plants will be grown, but not potatoes like 【in】 the movie The Martian.
+339 | The study was based on data from more than 88,000 U.S. adults who _29_ 【in】 the National Health Interview Survey between 1997 and 2008.
+125 | It also wants to establish a free-trade deal across the continent 【in】 the near future, as trade within the African continent costs more than any other region.    ?P:in the near future
+420 | researchers 【in】 the Netherlands.
+484 | W: I’m only interested 【in】 the new classes.
+151 | The first important political event 【in】 the next five years.
+661 | Emails 【in】 the normal format.
+329 | They place a notice 【in】 The Northern Echo.
+123 | “They are dealing with the same challenges that adults are, as far as they are living 【in】 the _32_ of a tech environment designed to suck as much of their time onto their devices as possible,” Rideout says.
+103 | organized the first Earth Day on April 22, 1970, educating participants 【in】 the ___29___ of environmental protection.
+542 | Many of his friends daydream 【in】 the office.
+367 | A total of nine furry friends freely wander around 【in】 the office and do whatever their little hearts desire.
+172 | They were 【in】 the operating room with five teams of doctors, one for each baby.
+399 | That means no running red lights or traveling 【in】 the opposite direction of traffic on one-way streets.
+286 | Fong has been involved 【in】 the organization since he was 15 and began teaching lion dancing three years ago.
+572 | They float around 【in】 the oven.
+488 | To find causes for differences 【in】 the participants’ performance.
+515 | The part about air travel 【in】 the past.
+529 | Large surveys conducted over the course of many years tell us that American youth are not going to the cinema nearly as often as they did 【in】 the past.
+516 | As I read an article on the subject 【in】 the past that suggested the opposite, it claimed that it was important not to miss meals and that taking a nap on the plane was the best way to adjust to a new time zone.
+444 | When 【in】 the presence of an unknown student from their own university, only 12 per cent of students selected the healthier option. [17] However, this number was 31 per cent when 【in】 the presence of an unknown student from another university.
+437 | The National Association of French Millers says bread consumption is on the decline, with French people eating nine grams less than 【in】 the previous year.
+368 | A 2018 study published 【in】 the Proceedings of the National Academy of Sciences, for example, followed
+97 | Bursa won third place 【in】 the 2022 race.
+627 | It makes life so much simpler—(13) no carrying heavy shopping bags 【in】 the rain, or trying to park the car on those huge supermarket car parks then not being able to find it again after you come out of the shops.
+551 | As they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, as they do 【in】 the real world.
+648 | This is partly because of adequate sunlight and partly because technology has become more ___34___ 【in】 the region.
+604 | Before ___29___ into some of the key take-aways, an important ___30___ made 【in】 the review is between aerobic
+635 | Well, the main thing is to have everything 【in】 the right place.
+239 | 【In】 the 1930s, parents worried that radio was gaining “an irresistible hold of their children”.
+291 | 【In】 the 80s, the great danger was the Sony Walkman (随身听).
+675 | as or better than younger employees 【in】 the same jobs.
+321 | Online time has doubled since 2006, and social media use has moved from a periodic activity to a daily one 【in】 the same period.
+622 | M: Yeah, the classrooms would probably smell like paint, making the air 【in】 the school all stuffy.
+349 | They often take place 【in】 the Scottish Highlands.
+259 | Ageism and long-term unemployment are most damaging for those 【in】 the second half of their careers.
+494 | While lions are not native to China, some versions of the story include the villagers creating a monster of their own 【in】 the shape of a lion to fight off the beast.
+304 | Sit 【in】 the shop aisles.
+461 | Regular shoppers at the supermarket are familiar with the sight of several cats settling down 【in】 the shop aisles.
+185 | 【In】 the shopping center nearby.
+148 | It is one of the most popular running events 【in】 the southeastern U.S.
+201 | The run closed the span between the Middle and Lower Keys to traffic for 3 hours Saturday. [2] The April contest is one of the most popular running events 【in】 the southeastern United States.
+162 | But when they arrived at the United Airlines cargo facility 【in】 the southern U.S. state, they found a stranger’s dog waiting 【in】 Buddy’s place.
+427 | It’s 【in】 the southwest of South Africa.
+130 | The first thing you notice 【in】 the staircase to the fourth-floor studio on Canal Street 【in】 Manhattan, New York, is the measured thumping coming from behind a metal door.
+616 | with incredible plot twists 【in】 the storyline.
+496 | [20] The researchers measured executive functioning 【in】 the students involved 【in】 the study.
+145 | The 20% error rate ___27___ 【in】 the study likely underestimates the extent to which people would struggle to tell an ___28___
+667 | And add to that the rush-hour crowds with strangers packed close together 【in】 the subway carriages, the whole thing is just horrible.
+615 | It gets so hot 【in】 the summer.
+315 | Now, we need to invest 【in】 the technologies and programmes that transform the rest of Glasgow’s economy and make us net zero before anyone else.
+132 | It’s reported that Alan Robinson and Walter MacDonald met 【in】 the 6th grade at a school 【in】 Hawaii.
+373 | By 2016, nearly nine out of ten young women 【in】 the 12th grade said they visited social media sites every day.
+442 | E) It is believed that the lion dance began 【in】 the third century.
+350 | Our guest today is a popular blog writer and a major figure 【in】 the tiny home community.
+421 | Workers who’re 【in】 the top 10% of the slimmest.
+501 | [6] If the clone continues to perform as well as expected, it could mean a huge reduction 【in】 the training time for police dogs, which usually takes about five years.
+507 | They appeal most to students from other states 【in】 the U.S.
+159 | Glasgow has pledged to become the first carbon neutral city 【in】 the UK.
+107 | The man, who lives 【in】 the UK and is originally Italian, might have been confused by the fact that Rome is written “Roma” 【in】 Italian and “Rom” 【in】 German.
+614 | Recently, a leading design federation 【in】 the UK warned that the UK could face a creative skills shortage, after the latest
+165 | Analysis of surveys of over one million teens 【in】 the United States collected since 1976 reveals a major shift 【in】 how teens are spending their leisure time.
+472 | Others 【in】 the US have found similar effects with National Institutes of Health early-career fellowships
+133 | He knows everybody 【in】 the village.
+394 | Sarah Godfrey, who is organizing Wilbur’s party, told the local newspaper, “Wilbur is part of our lives, as he is for everyone who lives 【in】 the village.
+332 | 【In】 the waiting room.
+191 | This kind of snake is one of the most deadly and poisonous 【in】 the wild, and they can range from 3 to 5 meters 【in】 length.
+416 | Many got killed 【in】 the wild when searching for food.
+140 | however, the same people see machines as more threatening to their future role 【in】 the workforce.
+296 | manage the massive changes 【in】 the working world to minimize ___35___ 【in】 society.
+601 | A number of studies have looked at how family life can affect productivity and satisfaction 【in】 the workplace.
+419 | Still, cats 【in】 the workplace have been a tremendous success for the company.
+128 | America has the best weaving tools 【in】 the world.
+440 | Morocco is responding to increasing energy demands by setting up one of the largest solar plants 【in】 the world.
+493 | M: Well, (12) I just love good jeans and Japan happens to make the best 【in】 the world.
+545 | They have a denser weave, and are more durable than any other jeans 【in】 the world.
+594 | Clean water is __30__ becoming one of the most sought-after resources 【in】 the world.
+563 | I know many cities 【in】 the world have air conditioning 【in】 their subway, so why can’t we?
+380 | Although Palmdor is one of the most famous private islands 【in】 the world, its seafront is public land and is a favorite destination for famous people.
+285 | The board has messages of kindness like, “If you want more kindness 【in】 the world, put it here.
+596 | It could also be a forerunner for many other countries 【in】 the world that ___32___ on foreign imports of energy," said Ali Hajji, a solar energy specialist and engineering professor.
+653 | The researchers found that when participants spent longer than _28_ on their leisure activity, their belief 【in】 their ability to perform their job was strengthened.
+619 | To allow students more freedom 【in】 their academic work.
+531 | W: Rugby is a sport with two teams and the players carry the ball 【in】 their arms and throw it at each other.
+450 | found that men used ___31___ more abstract language 【in】 their blog posts.
+361 | They obtained the highest grade average 【in】 their class.
+662 | [22][23] A new study from Oregon State University found that dogs tend to match their behavior with the children 【in】 their family.
+671 | To engage students more 【in】 their learning.
+227 | Arriving 【in】 their “Mystery Machine”, the gang would have to find a monster who was terrorizing a neighborhood.
+110 | They were meant to be reunited with the pet 【in】 their new home city 【in】 Texas.
+530 | Employers differ from employees 【in】 their perspectives on diversity.
+467 | 【in】 their report.
+458 | reputation and the kinds of strategies that are effective for ___30___ a good reputation 【in】 their social environment.
+192 | were being replaced by other employees who relied on technological abilities such as artificial intelligence 【in】 their work.
+636 | “The problem is that when the money leaves your account it’s 【in】 theirs straightaway and it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+387 | “We want to understand how humans perform 【in】 them,” said lead scientists Grace Douglas.
+428 | 【In】 2017 there were 1,632 cases of reported “villa fraud (诈骗)”, with victims losing an average of £2,052, according to Action Fraud, the national center for reporting such frauds.
+552 | However, a new systematic review brings us usefully up-to-date on the current findings 【in】 this area.
+212 | Studies 【in】 this area have found conflicting results.
+454 | The average new house 【in】 this area is 150 square meters.
+407 | W: [8] Rush hour 【in】 this city is killing me.
+506 | 【In】 this city, the average home costs $200,000, and a tiny home costs just $50,000.
+376 | Consumers have been warned to be aware of the potential for deception 【in】 this market, which is far from uncommon.
+562 | consider where 【in】 this process children succeed 【in】 controlling their reputation and where they ___34___.
+577 | Directions: 【In】 this section, there is a passage with ten blanks.
+260 | Directions: 【In】 this section, you will hear two long conversations.
+364 | Directions: 【In】 this section , you will hear three passages.
+626 | Directions: 【In】 this section, you will hear three passages.
+519 | past the age of 45, there’s nearly a two 【in】 three chance you’ll be out of work for over a year, they find.
+457 | how to start a business or how to lose weight fast or how to learn a new language 【in】 three months.
+171 | She didn’t sign up for membership 【in】 time.    ?P:in time
+579 | “It’s going to feel like a made-up conversation that people don’t necessarily want to tune 【in】 to.
+167 | He later handed them 【in】 to the Cologne police.
+195 | Decided on this year’s energy assistance package of $8 billion 【in】 total.    ?P:in total
+498 | It’s supposed to be one of the best Italian’s 【in】 town.
+262 | Stricter regulation is needed 【in】 transforming Glasgow's economy.
+266 | Officials at Reid Park Zoo 【in】 Tucson Arizona are celebrating the birth of a baby elephant.
+612 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, which will 【in】 turn boost their self-confidence.    ?P:in turn
+386 | A rapid increase 【in】 U.S. petroleum chemical production.
+620 | [16] The most common question I’m asked always centers around how to get started 【in】 user experience design, to which my response is always that nothing can substitute real-world experience.
+325 | It can develop their skills 【in】 using electronic devices.
+533 | They are equally competent 【in】 using new technology.
+94 | By cooking it 【in】 vegetable oil.
+634 | It has seen a decline 【in】 verbal agreements.
+81 | He likes to stay 【in】 villagers’ houses.
+409 | [5] An Asda store 【in】 Wales is now home to five cats after they wandered 【in】 and made themselves comfortable.
+462 | These are generally known as “phantom” traffic jams, 【in】 which dense
+98 | who underwent a hemispherectomy, a surgical procedure 【in】 which half of the brain is removed to treat illness.
+197 | There are now dozens of criminal cases 【in】 which offenders have ___31___ themselves off as people of a different age, race
+229 | To turn carbon dioxide into stone, researchers with the Carbfix project pumped the gas into volcanic rock and sped up the natural process 【in】 which the volcanic rock reacts with gas and forms carbon minerals.
+487 | H) Over five experiments researchers gave participants tasks 【in】 which they could cheat.
+233 | The idea for the board of free meals started after a donor came 【in】 with $100 for each member of its staff.    ?P:come in
+124 | It will allow Africans to play a bigger role 【in】 world trade.
+582 | They are to be confirmed 【in】 written form.
+204 | The games are coming back for the first time 【in】 5 years.
+517 | (ASMR), which ___27___ to you like a sting 【in】 your brain.
+441 | To them, a difference, no matter how small 【in】 your eyes, signals the end of the relationship.
+272 | But that does not _33_ make it easier to tell what is really 【in】 your food.
+654 | They are right next to each other on the ground floor, since you mentioned 【in】 your message that they have trouble with stairs.
+464 | He says that keeping animals 【in】 zoos and parks causes them great distress.

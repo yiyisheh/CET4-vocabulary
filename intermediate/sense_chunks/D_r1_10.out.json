@@ -1,0 +1,962 @@
+{
+ "shop around": {
+  "canonical": "shop around",
+  "pos": "v.",
+  "zh": "货比三家，到处比较",
+  "example": {
+   "id": 1,
+   "en": "In our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how to shop around for the best deals.",
+   "zh": "在我们家，我们会坦率地谈论假期预算、税如何减少收入、怎样货比三家找到最优惠的价格这类事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "the more..., the better": {
+  "canonical": "the more..., the better",
+  "pos": "conj.",
+  "zh": "越……越好",
+  "example": {
+   "id": 0,
+   "en": "The more calories, the better.",
+   "zh": "热量越多越好。"
+  },
+  "valid": true,
+  "note": "变体含 the simpler the better 一类，统一为 the more..., the better 结构"
+ },
+ "had better": {
+  "canonical": "had better",
+  "pos": "v.",
+  "zh": "最好（做某事）",
+  "example": {
+   "id": 0,
+   "en": "To increase the benefits of fruit juice to our health, we’d better choose ripe fruit to make juice.",
+   "zh": "为了让果汁对健康更有益，我们最好选熟透的水果来榨汁。"
+  },
+  "valid": true,
+  "note": "情态用法，常缩写为 'd better"
+ },
+ "make history": {
+  "canonical": "make history",
+  "pos": "v.",
+  "zh": "创造历史；影响历史进程",
+  "example": {
+   "id": 1,
+   "en": "What does the author think of the book Dress Codes: How the Laws of Fashion Made History?",
+   "zh": "作者怎么评价《着装规范：时尚法则如何塑造了历史》这本书？"
+  },
+  "valid": true,
+  "note": "两句均出自书名 Dress Codes: How the Laws of Fashion Made History，义偏「塑造历史」"
+ },
+ "make headlines": {
+  "canonical": "make headlines",
+  "pos": "v.",
+  "zh": "成为头条新闻，登上报纸头条",
+  "example": {
+   "id": 0,
+   "en": "Two years ago, a Glasgow University study made headlines for suggesting gaming could make students more successful.",
+   "zh": "两年前，格拉斯哥大学的一项研究因提出玩游戏可能让学生更成功而登上了头条。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make friends": {
+  "canonical": "make friends",
+  "pos": "v.",
+  "zh": "交朋友",
+  "example": {
+   "id": 0,
+   "en": "Make friends with Jimmy.",
+   "zh": "和吉米交朋友吧。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "let me see": {
+  "canonical": "let me see",
+  "pos": "int.",
+  "zh": "让我想想，我看看",
+  "example": {
+   "id": 0,
+   "en": "Let me see.",
+   "zh": "让我想想。"
+  },
+  "valid": true,
+  "note": "口语套话，说话时的思考停顿"
+ },
+ "high school": {
+  "canonical": "high school",
+  "pos": "n.",
+  "zh": "高中",
+  "example": {
+   "id": 12,
+   "en": "Cheating was getting more and more difficult for high school students.",
+   "zh": "作弊对高中生来说变得越来越难了。"
+  },
+  "valid": true,
+  "note": "复合名词，学习者应整体记；Marathon High School 等校名同义"
+ },
+ "have something in common": {
+  "canonical": "have something in common",
+  "pos": "v.",
+  "zh": "有共同之处，有共同点",
+  "example": {
+   "id": 0,
+   "en": "They will find they have something in common.",
+   "zh": "他们会发现彼此有共同之处。"
+  },
+  "valid": true,
+  "note": "with sb 引出对象"
+ },
+ "something like": {
+  "canonical": "something like",
+  "pos": "adv.",
+  "zh": "大约，差不多",
+  "example": {
+   "id": 0,
+   "en": "something like 15% of us achieve it.",
+   "zh": "大约百分之十五的人能做到。"
+  },
+  "valid": true,
+  "note": "后接数字表约数"
+ },
+ "get in the way": {
+  "canonical": "get in the way",
+  "pos": "v.",
+  "zh": "挡道，妨碍",
+  "example": {
+   "id": 0,
+   "en": "have turned to claiming the problem is the opposite: There are too many cyclists getting in the way of cars.",
+   "zh": "骑车的人太多，挡了汽车的路。"
+  },
+  "valid": true,
+  "note": "句子被截断，译文取后半句"
+ },
+ "last name": {
+  "canonical": "last name",
+  "pos": "n.",
+  "zh": "姓，姓氏",
+  "example": {
+   "id": 1,
+   "en": "There are a lot of reasons to want to keep your own last name.",
+   "zh": "想保留自己的姓有很多理由。"
+  },
+  "valid": true,
+  "note": "复合名词，学习者应整体记"
+ },
+ "every last": {
+  "canonical": "every last",
+  "pos": "adj.",
+  "zh": "每一个，最后一点也不放过",
+  "example": {
+   "id": 0,
+   "en": "to every last detail.",
+   "zh": "直到每一个细节。"
+  },
+  "valid": true,
+  "note": "固定搭配 every last detail；仅1句且被截断，拿不准是否值得单列"
+ },
+ "among others": {
+  "canonical": "among others",
+  "pos": "adv.",
+  "zh": "除其他之外，其中包括",
+  "example": {
+   "id": 0,
+   "en": "Greenpeace, among others, is also",
+   "zh": "绿色和平组织等也……"
+  },
+  "valid": true,
+  "note": "句子被截断"
+ },
+ "feel free to do sth": {
+  "canonical": "feel free to do sth",
+  "pos": "v.",
+  "zh": "随意做某事，请随便做某事",
+  "example": {
+   "id": 0,
+   "en": "Please feel free to call me for any further questions.",
+   "zh": "如有其他问题，请随时打电话给我。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "feel like doing sth": {
+  "canonical": "feel like doing sth",
+  "pos": "v.",
+  "zh": "想要（做某事）；想吃（某物）",
+  "example": {
+   "id": 0,
+   "en": "I don’t feel like sandwiches today.",
+   "zh": "我今天不想吃三明治。"
+  },
+  "valid": true,
+  "note": "真题中两句均为 feel like + 食物，义为想吃"
+ },
+ "no one": {
+  "canonical": "no one",
+  "pos": "pron.",
+  "zh": "没有人，谁也不",
+  "example": {
+   "id": 1,
+   "en": "No one understands the reason for this.",
+   "zh": "没人理解其中的原因。"
+  },
+  "valid": false,
+  "note": "no + one 字面相加即「没有人」，零基础可由义项读懂，不属需整体记的固定短语；若想保留作代词词条可改为 true"
+ },
+ "one another": {
+  "canonical": "one another",
+  "pos": "pron.",
+  "zh": "互相，彼此",
+  "example": {
+   "id": 0,
+   "en": "and chat with one another.",
+   "zh": "并且彼此聊天。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "set back": {
+  "canonical": "set back",
+  "pos": "v.",
+  "zh": "使延误，使倒退；（使）花费",
+  "example": {
+   "id": 0,
+   "en": "They can screw us up and set us back.",
+   "zh": "它们可能把我们搞砸，让我们倒退。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "back off": {
+  "canonical": "back off",
+  "pos": "v.",
+  "zh": "退后；（别）干涉，别插手",
+  "example": {
+   "id": 0,
+   "en": "When people ask my son what he wants to be when he grows up, I have to swallow the urge to say, “Hey, back off my kid’s dreams!",
+   "zh": "当人们问我儿子长大后想做什么时，我得忍住不说：“嘿，别干涉我孩子的梦想！"
+  },
+  "valid": true,
+  "note": "此处是比喻义「别插手」，非字面退后；句末引号未闭合为原文截断"
+ },
+ "cut back": {
+  "canonical": "cut back",
+  "pos": "v.",
+  "zh": "削减，减少",
+  "example": {
+   "id": 0,
+   "en": "cutting back on family time?”, for example.",
+   "zh": "比如，减少陪伴家人的时间？"
+  },
+  "valid": true,
+  "note": "常接 on"
+ },
+ "give back": {
+  "canonical": "give back",
+  "pos": "v.",
+  "zh": "回馈（社会）；归还，退还",
+  "example": {
+   "id": 0,
+   "en": "I want to contribute and give back to the community.",
+   "zh": "我想为社区做贡献并回馈社区。"
+  },
+  "valid": true,
+  "note": "去掉了开头引号；give sb sth back 也属此条"
+ },
+ "pay back": {
+  "canonical": "pay back",
+  "pos": "v.",
+  "zh": "偿还，还钱；报答",
+  "example": {
+   "id": 0,
+   "en": "I’ll pay you back, of course.",
+   "zh": "当然，我会还你钱的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fight back": {
+  "canonical": "fight back",
+  "pos": "v.",
+  "zh": "反击，回击",
+  "example": {
+   "id": 0,
+   "en": "Afterwards, the participants read a fictional survey of teens who wanted to “fight back against the companies by buying and",
+   "zh": "之后，参与者读了一份虚构的调查，其中的青少年想通过购买……来反击这些公司。"
+  },
+  "valid": true,
+  "note": "句子被截断"
+ },
+ "enjoy oneself": {
+  "canonical": "enjoy oneself",
+  "pos": "v.",
+  "zh": "玩得开心，过得愉快",
+  "example": {
+   "id": 0,
+   "en": "Play outdoors and enjoy themselves.",
+   "zh": "在户外玩耍，玩得开心。"
+  },
+  "valid": true,
+  "note": "themselves 等还原为 oneself"
+ },
+ "pass oneself off as": {
+  "canonical": "pass oneself off as",
+  "pos": "v.",
+  "zh": "冒充，假扮成",
+  "example": {
+   "id": 0,
+   "en": "There are now dozens of criminal cases in which offenders have passed themselves off as people of a different age, race",
+   "zh": "现在有数十起刑事案件，罪犯冒充成不同年龄、不同种族的人。"
+  },
+  "valid": true,
+  "note": "原句有空格 ___31___，此处按答案补为 passed；句子被截断。与 pass off as 为同一短语，已合并"
+ },
+ "pay for itself": {
+  "canonical": "pay for itself",
+  "pos": "v.",
+  "zh": "物有所值，自行回本（收益足以抵偿成本）",
+  "example": {
+   "id": 0,
+   "en": "So, in the end, the rewards will pay for themselves.",
+   "zh": "所以，到头来这些回报自然会抵消成本。"
+  },
+  "valid": true,
+  "note": "原写法 themselves 还原为 itself"
+ },
+ "go without": {
+  "canonical": "go without",
+  "pos": "v.",
+  "zh": "没有……也行，不要……也能过",
+  "example": {
+   "id": 0,
+   "en": "To see how many people can go without napping.",
+   "zh": "看看有多少人可以不午睡。"
+  },
+  "valid": true,
+  "note": "第2句 go without 单独使用，意为什么也不要"
+ },
+ "show off": {
+  "canonical": "show off",
+  "pos": "v.",
+  "zh": "炫耀，显摆",
+  "example": {
+   "id": 0,
+   "en": "To show off her riches and power.",
+   "zh": "为了炫耀她的财富和权力。"
+  },
+  "valid": true,
+  "note": "例句选 id0；id1 含方括号编号故不选"
+ },
+ "as far back as": {
+  "canonical": "as far back as",
+  "pos": "adv.",
+  "zh": "早在……（时候）",
+  "example": {
+   "id": 0,
+   "en": "Transit Driver Appreciation Day has been celebrated across the country as far back as 2009.",
+   "zh": "交通司机感谢日早在2009年就已在全国庆祝。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "walk of life": {
+  "canonical": "walk of life",
+  "pos": "n.",
+  "zh": "社会阶层，各行各业",
+  "example": {
+   "id": 0,
+   "en": "Its participants came from various walks of life.",
+   "zh": "参加者来自各行各业。"
+  },
+  "valid": true,
+  "note": "常用复数 walks of life"
+ },
+ "life jacket": {
+  "canonical": "life jacket",
+  "pos": "n.",
+  "zh": "救生衣",
+  "example": {
+   "id": 0,
+   "en": "the financial seas with no skills and no life jacket!",
+   "zh": "在金融的大海里，既没有技能，也没有救生衣！"
+  },
+  "valid": true,
+  "note": "复合名词；此处为比喻用法"
+ },
+ "for life": {
+  "canonical": "for life",
+  "pos": "adv.",
+  "zh": "终身，一辈子",
+  "example": {
+   "id": 0,
+   "en": "A sentence for life.",
+   "zh": "终身监禁。"
+  },
+  "valid": true,
+  "note": "仅1句，且 for + life 偏透明，拿不准是否值得单列"
+ },
+ "one day": {
+  "canonical": "one day",
+  "pos": "adv.",
+  "zh": "有一天，总有一天",
+  "example": {
+   "id": 0,
+   "en": "They worry assistants will one day be used to deliver advertising directly to us.",
+   "zh": "他们担心助手有一天会被用来直接向我们投放广告。"
+  },
+  "valid": true,
+  "note": "此处指将来某天"
+ },
+ "day off": {
+  "canonical": "day off",
+  "pos": "n.",
+  "zh": "休息日，休假日",
+  "example": {
+   "id": 0,
+   "en": "are forced to close and students get an unexpected day off.",
+   "zh": "被迫关闭，学生意外得到一天假。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "without question": {
+  "canonical": "without question",
+  "pos": "adv.",
+  "zh": "毫无疑问，无疑",
+  "example": {
+   "id": 0,
+   "en": "Weeks before the competitors arrive, the residents of Takotna start preparing for what is without question their biggest event of the year.",
+   "zh": "在塔科特纳的居民们在选手到来前几周就开始为他们无疑是一年中最盛大的活动做准备。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "public relations": {
+  "canonical": "public relations",
+  "pos": "n.",
+  "zh": "公共关系，公关",
+  "example": {
+   "id": 0,
+   "en": "Of course, it’s possible to be a fountain of knowledge and a boring person, says public relations consultant Andrea Pass.",
+   "zh": "公关顾问安德烈娅·帕斯说，当然，一个人可以学识渊博却很无趣。"
+  },
+  "valid": true,
+  "note": "去掉了题号 J)"
+ },
+ "cut off": {
+  "canonical": "cut off",
+  "pos": "v.",
+  "zh": "切断，中断；挂断（电话）",
+  "example": {
+   "id": 0,
+   "en": "Sometimes a cat will walk on a phone and cut off the call, or they shut down the computers by walking onto the off switch.",
+   "zh": "有时猫会踩到电话上把通话切断，或者踩到关机键把电脑关掉。"
+  },
+  "valid": true,
+  "note": "去掉了开头引号"
+ },
+ "shrug off": {
+  "canonical": "shrug off",
+  "pos": "v.",
+  "zh": "对……满不在乎，不当回事",
+  "example": {
+   "id": 0,
+   "en": "Stress is so normalized that it is easy for women to shrug off those symptoms as simply the consequences of stress.",
+   "zh": "压力太常态化了，女性很容易把这些症状当成压力的正常后果而不当回事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "seal off": {
+  "canonical": "seal off",
+  "pos": "v.",
+  "zh": "封锁，封闭",
+  "example": {
+   "id": 0,
+   "en": "Police have sealed off the runway, and say it is unclear if it was an accident or an attempted robbery.",
+   "zh": "警方已封锁跑道，并表示尚不清楚这是一场事故还是一起未遂抢劫。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "turn off": {
+  "canonical": "turn off",
+  "pos": "v.",
+  "zh": "关掉，关闭；使停止",
+  "example": {
+   "id": 0,
+   "en": "Given how unsettling and haunting nightmares can be, is there a way for dreamers to control, or even turn off, these bad dreams as they happen?",
+   "zh": "噩梦令人不安又挥之不去，做梦的人有没有办法在噩梦出现时控制甚至关掉它？"
+  },
+  "valid": true,
+  "note": "此处 turn off 引申为让梦停止；原句空格 _27_ 按语义补为 control（推测，请核对原卷答案）"
+ },
+ "rip off": {
+  "canonical": "rip off",
+  "pos": "v.",
+  "zh": "仿冒，抄袭；敲诈",
+  "example": {
+   "id": 0,
+   "en": "They extensively rip off legitimate websites and use a different website name.",
+   "zh": "他们大量仿冒正规网站，并使用不同的网站名称。"
+  },
+  "valid": true,
+  "note": "真题义为仿冒；敲诈（宰客）为该短语另一常用义"
+ },
+ "drop off": {
+  "canonical": "drop off",
+  "pos": "v.",
+  "zh": "下降，减少；（开车）送到",
+  "example": {
+   "id": 0,
+   "en": "Those between the ages of 18 and 34 prioritized it most, and that prioritization dropped off as respondents’ ages went up.",
+   "zh": "18至34岁的人最看重它，而这种重视程度随着受访者年龄增长而下降。"
+  },
+  "valid": true,
+  "note": "id1 为 drop sb off（送人到），含方括号编号故不选"
+ },
+ "start off": {
+  "canonical": "start off",
+  "pos": "v.",
+  "zh": "开始，起步",
+  "example": {
+   "id": 0,
+   "en": "It all started off when a movie star shared a photo of herself putting her trash bins out in a ball gown.",
+   "zh": "这一切始于一位电影明星分享了自己穿着晚礼服倒垃圾桶的照片。"
+  },
+  "valid": true,
+  "note": "常见 start off by doing"
+ },
+ "blow off steam": {
+  "canonical": "blow off steam",
+  "pos": "v.",
+  "zh": "发泄情绪，宣泄压力",
+  "example": {
+   "id": 0,
+   "en": "Taking a walk can be great for clearing your head or blowing off some steam.",
+   "zh": "散步非常适合让头脑清醒，或者发泄一下情绪。"
+  },
+  "valid": true,
+  "note": "原句空格 ___32___ 按语义补为 clearing（推测，请核对原卷答案）"
+ },
+ "take off": {
+  "canonical": "take off",
+  "pos": "v.",
+  "zh": "起飞；流行起来，迅速发展",
+  "example": {
+   "id": 2,
+   "en": "No injuries were reported on the plane, and the flight took off once again 7.5 hours after the first attempt.",
+   "zh": "飞机上无人受伤，航班在首次尝试7.5小时后又一次起飞。"
+  },
+  "valid": true,
+  "note": "id0 与 id1 是被断成两行的同一句（took / off in 1970s...，义为流行起来）"
+ },
+ "set off": {
+  "canonical": "set off",
+  "pos": "v.",
+  "zh": "出发，动身；触发，引响",
+  "example": {
+   "id": 0,
+   "en": "They set off to inspect the site of the plane crash.",
+   "zh": "他们出发去查看飞机失事现场。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "off base": {
+  "canonical": "off base",
+  "pos": "adj.",
+  "zh": "完全错误，大错特错",
+  "example": {
+   "id": 0,
+   "en": "Of more than 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet.",
+   "zh": "在9700多人中，约85%的人在被要求给自己的饮食质量打分时都大错特错。"
+  },
+  "valid": true,
+  "note": "原句后接方括号编号及下一句，已截去"
+ },
+ "pass off as": {
+  "canonical": "pass oneself off as",
+  "pos": "v.",
+  "zh": "冒充，假扮成",
+  "example": {
+   "id": 0,
+   "en": "There are now dozens of criminal cases in which offenders have passed themselves off as people of a different age, race",
+   "zh": "现在有数十起刑事案件，罪犯冒充成不同年龄、不同种族的人。"
+  },
+  "valid": true,
+  "note": "与 pass oneself off as 为同一条（同一句），合并到该写法；原句空格按答案补为 passed"
+ },
+ "lay off": {
+  "canonical": "lay off",
+  "pos": "v.",
+  "zh": "解雇，裁员",
+  "example": {
+   "id": 0,
+   "en": "Getting back into work after you’ve been laid off is even harder.",
+   "zh": "被裁员之后再重返职场更难。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "level off": {
+  "canonical": "level off",
+  "pos": "v.",
+  "zh": "趋于平稳，不再上升或下降",
+  "example": {
+   "id": 0,
+   "en": "That’s because the volume of fish caught in the wild has leveled off since the 1990s.",
+   "zh": "这是因为野生捕捞的鱼量自20世纪90年代以来趋于平稳。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wear off": {
+  "canonical": "wear off",
+  "pos": "v.",
+  "zh": "（效果、感觉）逐渐消失",
+  "example": {
+   "id": 0,
+   "en": "However, the joy of the moment wears off soon.",
+   "zh": "然而，一时的喜悦很快就会消退。"
+  },
+  "valid": true,
+  "note": "原句空格 _31_ 按语义补为 wears（推测，请核对原卷答案）"
+ },
+ "break off": {
+  "canonical": "break off",
+  "pos": "v.",
+  "zh": "中断，断绝（关系）",
+  "example": {
+   "id": 0,
+   "en": "Why friends break off contact all of a sudden.",
+   "zh": "为什么朋友会突然断绝联系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fight off": {
+  "canonical": "fight off",
+  "pos": "v.",
+  "zh": "击退，抵御",
+  "example": {
+   "id": 0,
+   "en": "While lions are not native to China, some versions of the story include the villagers creating a monster of their own in the shape of a lion to fight off the beast.",
+   "zh": "虽然狮子并非原产中国，但有些版本的故事说村民照着狮子的样子造出自己的怪物来对付那头野兽。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pay off": {
+  "canonical": "pay off",
+  "pos": "v.",
+  "zh": "取得成功，有回报；还清（债务）",
+  "example": {
+   "id": 0,
+   "en": "These closer bonds and greater attachment pay off.",
+   "zh": "这些更紧密的联系和更深的依恋会带来回报。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "tear down": {
+  "canonical": "tear down",
+  "pos": "v.",
+  "zh": "拆毁，拆除",
+  "example": {
+   "id": 0,
+   "en": "something, tearing it down, then building it up again.",
+   "zh": "把某物拆掉，再重新建起来。"
+  },
+  "valid": true,
+  "note": "down 表毁坏而非字面向下"
+ },
+ "shut down": {
+  "canonical": "shut down",
+  "pos": "v.",
+  "zh": "关闭，停止运转；（情感上）封闭自己",
+  "example": {
+   "id": 0,
+   "en": "They simply shut themselves down.",
+   "zh": "他们干脆把自己关闭了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pass down": {
+  "canonical": "pass down",
+  "pos": "v.",
+  "zh": "传下去，传给后代",
+  "example": {
+   "id": 0,
+   "en": "momentary thoughts were represented in words and passed down across generations.",
+   "zh": "一时的想法被用文字表达出来，并代代相传。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pin down": {
+  "canonical": "pin down",
+  "pos": "v.",
+  "zh": "确定，明确指出",
+  "example": {
+   "id": 0,
+   "en": "While pinning down a definition has proven tricky, the general consensus is it’s some means of information gathering.",
+   "zh": "尽管要确定一个定义很棘手，但大家普遍认为它是某种收集信息的方式。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "shoot down": {
+  "canonical": "shoot down",
+  "pos": "v.",
+  "zh": "击落，射下",
+  "example": {
+   "id": 0,
+   "en": "They use new types of guns, and birds could easily be shot down in flight.",
+   "zh": "他们用新型枪支，鸟在飞行中很容易被击落。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "slow down": {
+  "canonical": "slow down",
+  "pos": "v.",
+  "zh": "减速，放慢；减缓",
+  "example": {
+   "id": 0,
+   "en": "Slowing down their ageing process.",
+   "zh": "减缓他们的衰老过程。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wear down": {
+  "canonical": "wear down",
+  "pos": "v.",
+  "zh": "磨损，磨薄",
+  "example": {
+   "id": 0,
+   "en": "If we eat something too hot or too cold, or if the tooth is worn down enough where the tissue is exposed, all of those things cause pain, and then the pain causes the person not to use that tooth to try to protect it a little bit more.",
+   "zh": "如果我们吃了太烫或太凉的东西，或者牙齿磨损到暴露出组织的程度，这些都会引起疼痛，而疼痛又让人不去用那颗牙，以便多保护它一点。"
+  },
+  "valid": true,
+  "note": "原句有空格 _29_（tissue 后一个词），例句中已删去该空格词；只有这1句，句子偏长"
+ },
+ "be down as": {
+  "canonical": "be down as",
+  "pos": "v.",
+  "zh": "被登记为，被列为",
+  "example": {
+   "id": 0,
+   "en": "They’ll have pictures of a sales team and it might be a poor actor in New York that is down as their head of sales.",
+   "zh": "他们会放上销售团队的照片，而被列为销售主管的可能是纽约的一个蹩脚演员。"
+  },
+  "valid": true,
+  "note": "较少见，仅1句；若觉得是 down as 的临时用法可考虑作废"
+ },
+ "cut down": {
+  "canonical": "cut down",
+  "pos": "v.",
+  "zh": "减少，削减；砍倒",
+  "example": {
+   "id": 3,
+   "en": "Remind people to cut down on snacking.",
+   "zh": "提醒人们少吃零食。"
+  },
+  "valid": true,
+  "note": "常接 on；真题中以「减少」为主，砍树仅1句"
+ },
+ "wolf down": {
+  "canonical": "wolf down",
+  "pos": "v.",
+  "zh": "狼吞虎咽地吃",
+  "example": {
+   "id": 0,
+   "en": "Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal",
+   "zh": "其他大多数健康饮食文化也把用餐当成一件大事，比如全家围坐一桌吃好几道菜，或者在漫长的午餐中喝一两杯红酒，而不是匆匆忙忙狼吞虎咽地吃下几把麦片。"
+  },
+  "valid": true,
+  "note": "句子被截断，较长；仅1句"
+ },
+ "let down": {
+  "canonical": "let down",
+  "pos": "v.",
+  "zh": "使失望，辜负",
+  "example": {
+   "id": 0,
+   "en": "As such, they’re more likely to be “let down” by the experience.",
+   "zh": "因此，他们更可能对这次经历感到失望。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "cool down": {
+  "canonical": "cool down",
+  "pos": "v.",
+  "zh": "（使）冷却，降温",
+  "example": {
+   "id": 0,
+   "en": "Cooling down volcanic rock with sea water.",
+   "zh": "用海水使火山岩冷却。"
+  },
+  "valid": true,
+  "note": "down 表降温而非字面向下"
+ },
+ "track down": {
+  "canonical": "track down",
+  "pos": "v.",
+  "zh": "追踪到，找到",
+  "example": {
+   "id": 0,
+   "en": "A deadly snake, which had finally been tracked down after escaping a zoo, has slipped away for the second time.",
+   "zh": "一条致命的蛇逃出动物园后终于被找到，却又第二次溜走了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "close down": {
+  "canonical": "close down",
+  "pos": "v.",
+  "zh": "关闭，倒闭",
+  "example": {
+   "id": 0,
+   "en": "Nearly all of them closed down decades ago.",
+   "zh": "他们中几乎所有的几十年前就倒闭了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "calm down": {
+  "canonical": "calm down",
+  "pos": "v.",
+  "zh": "（使）平静下来",
+  "example": {
+   "id": 0,
+   "en": "They sent out a message to calm them down.",
+   "zh": "他们发出一条消息让他们平静下来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "break down": {
+  "canonical": "break down",
+  "pos": "v.",
+  "zh": "分解；出故障",
+  "example": {
+   "id": 0,
+   "en": "breaks down glucose in your blood or muscles.",
+   "zh": "分解你血液或肌肉中的葡萄糖。"
+  },
+  "valid": true,
+  "note": "真题3句均为「分解」"
+ },
+ "step down": {
+  "canonical": "step down",
+  "pos": "v.",
+  "zh": "辞职，下台，退位",
+  "example": {
+   "id": 0,
+   "en": "British astronaut Tim Peake is stepping down permanently from his role as a European astronaut.",
+   "zh": "英国宇航员蒂姆·皮克将永久卸任欧洲宇航员一职。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go down in": {
+  "canonical": "go down in",
+  "pos": "v.",
+  "zh": "被记入，被载入",
+  "example": {
+   "id": 0,
+   "en": "ranking in Overwatch should go down in your resume?",
+   "zh": "在《守望先锋》中的排名该不该写进你的简历？"
+  },
+  "valid": true,
+  "note": "此处为 go down in your resume，类似 go down in history（载入史册）；仅1句且被截断，拿不准"
+ },
+ "turn down": {
+  "canonical": "turn down",
+  "pos": "v.",
+  "zh": "拒绝；调小（音量等）",
+  "example": {
+   "id": 0,
+   "en": "And it’s true; turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority.",
+   "zh": "确实，当你有权力、金钱和权威构成的安全网可依靠时，拒绝机会会容易得多。"
+  },
+  "valid": true,
+  "note": "真题义为拒绝"
+ },
+ "be down to": {
+  "canonical": "be down to",
+  "pos": "v.",
+  "zh": "归因于，是……造成的",
+  "example": {
+   "id": 0,
+   "en": "This is down to climate change, he believes.",
+   "zh": "他认为这是气候变化造成的。"
+  },
+  "valid": true,
+  "note": "英式用法；还有「轮到某人」「只剩下」等义，真题仅归因义"
+ },
+ "hand down": {
+  "canonical": "hand down",
+  "pos": "v.",
+  "zh": "把……传给后代，传承",
+  "example": {
+   "id": 0,
+   "en": "Lion dance should be handed down to future generations as part of Chinese culture.",
+   "zh": "狮舞应作为中华文化的一部分传给子孙后代。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go down": {
+  "canonical": "go down",
+  "pos": "v.",
+  "zh": "下降，降低",
+  "example": {
+   "id": 1,
+   "en": "And yet, savings rates in the U.S. have gone down in recent decades, not up.",
+   "zh": "然而，美国的储蓄率近几十年来一直在下降，而不是上升。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "settle down": {
+  "canonical": "settle down",
+  "pos": "v.",
+  "zh": "定居，安顿下来",
+  "example": {
+   "id": 0,
+   "en": "To enable them to settle down in host countries.",
+   "zh": "让他们能在东道国安顿下来。"
+  },
+  "valid": true,
+  "note": "第2句 settle down 义为安顿下来（猫窝下）"
+ },
+ "pull down": {
+  "canonical": "pull down",
+  "pos": "v.",
+  "zh": "拆除，削弱；拉下",
+  "example": {
+   "id": 0,
+   "en": "They try hard to pull down the safeguards for research.",
+   "zh": "他们拼命想拆掉对研究的保障措施。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "look down on": {
+  "canonical": "look down on",
+  "pos": "v.",
+  "zh": "看不起，轻视",
+  "example": {
+   "id": 0,
+   "en": "Looked down upon by male colleagues.",
+   "zh": "被男同事看不起。"
+  },
+  "valid": true,
+  "note": "句中为 look down upon，同义"
+ }
+}

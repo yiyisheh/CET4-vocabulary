@@ -1,0 +1,641 @@
+# 任务 C_r1_94：7 个词，548 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_94.labels.txt
+
+============================================================
+## 词：say    本段 53 句    模式：全标（每句都写）
+原释义：v.说; 讲; 表明.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 说，讲    B 样本 63    例：Learning to say no
+  1  v. （文章、报告、研究等）写着，表明    B 样本 7    例：What does the passage say about people born with natural talents?
+  2  adv. 比如说，大约（插入语：at, say, £3,500）    B 样本 6    例：“A villa might cost £5,000 elsewhere and they will offer it at say £3,500.
+  3  v. 假设（句首 Say…：Say you lose your job）    B 样本 0
+  4  n. 发言权，决定权（have a say）    B 样本 0
+已标过的短语：let's say（3）；that is to say（1）
+口径说明（照此执行）：
+  - 口径：人（含 author、experts、researchers、officials）说标0；文章/passage/报告/新闻/科学/消息「写着、表明」标1；插入语 say（比如说、大约）标2；let's say 标 P:let's say（含「就算…吧」）；that is to say 标 P；not to say、say hello、say no、have to say 按0；it goes without saying、to say nothing of、needless to say 若出现标 P。题干 What does the author say… 很多，属材料不是答题说明。
+句子：
+84 | That’s what people who get promoted 【say】.
+131 | What does the author 【say】 about China in terms of aquatic food?
+87 | What does the author 【say】 about companies and special interest groups?
+98 | What does the author 【say】 about curiosity?
+116 | What does the passage 【say】 about DNA tests to predict personality or talents?
+96 | What does Michelin’s 2022 New York guide 【say】 about Eleven Madison Park’s decision?
+107 | What does the passage 【say】 about health education?
+124 | What does the man 【say】 about Jake?
+92 | What does the passage 【say】 about people doing manual work?
+97 | What does the author 【say】 about people now working for several businesses at the same time?
+106 | What does the passage 【say】 about people thinking of attaining success?
+111 | What does the author 【say】 about science in the last paragraph?
+91 | What does Duckworth 【say】 about talent?
+88 | What does the author 【say】 about the ability to be persuasive in the first paragraph?
+110 | What does the author 【say】 about the gig economy?
+126 | What does the man 【say】 about their local school?
+132 | Why does the author 【say】 aquaculture is so important these days?
+105 | a way to avoid taking action on the goals and interests that we 【say】 are important to us.
+113 | What does the author 【say】 businesspeople often do?
+82 | What does the author 【say】 causes refugees’ difficulty in taking online courses?
+122 | What does Hannah’s husband 【say】 he’ll do if she sells the new car?
+102 | M: When people ask my son what he wants to be when he grows up, I have to swallow the urge to 【say】, “Hey, back off my kid’s dreams!
+95 | What do supporters 【say】 in response to the restaurant’s new policy?
+128 | What does the passage 【say】 is a major flaw of analytical decision-making?
+109 | What does the passage 【say】 is of importance regarding genetic tests?
+130 | What does the author 【say】 is remarkable about the fish we eat?
+117 | Do whatever favors you can, and be warm-hearted and direct when you have to 【say】 no.
+127 | You still need to 【say】 “no” to distractions, but you also need to learn to 【say】 “no” to opportunities that were previously good uses of time, so you can make space for better uses of time.
+129 | It’s no easy job learning to 【say】 “no” to opportunities that were once considered worth grasping.
+125 | You need to 【say】 “no” to whatever isn’t leading you toward your goals.
+119 | When you 【say】 “no”, you’re only saying “no” to one option.
+85 | Companies cannot do all these things to enhance women’s advancement and then turn around and 【say】, ‘Oh, but we don’t expect the men to take over for the women at home.
+104 | What does the author 【say】 Red Rum did with his power, speed and jumping ability?
+108 | What does the report 【say】 security officers were searching for?
+120 | Why does the woman 【say】 she swears it?
+83 | When she was much younger, my daughter used to 【say】 she wanted to be Queen of the Clouds, which I loved.
+100 | Why does the author 【say】 some experts’ anxiety seems misplaced?
+80 | What does the author 【say】 teachers are expected to do?
+103 | This isn’t to 【say】 that all men engage in these behaviors—or that booking relatively late is a sign of abnormal behavior.
+93 | That’s not to 【say】 that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+86 | Teachers 【say】 that kids’ writing is too casual, using language characteristic of text messages.
+94 | “I would love to 【say】 that my gaming skills allow me to destroy cancer using linear accelerators like
+99 | They 【say】 that these prison numbers are unusually high and ask why it is the case.
+115 | Where does the report 【say】 the discovery was made?
+89 | What does one survey taker 【say】 was her greatest challenge?
+118 | What did the government 【say】 would be done if security officers found what they were searching for?
+101 | But if the benefits of saying “no” are so obvious, then why do we 【say】 “yes” so often?
+123 | I like how economist Tim Harford put it, “Every time we 【say】 ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.
+112 | We 【say】 “yes” to many requests not because we want to do them, but because we don’t want to be seen as rude or unhelpful.
+121 | When you 【say】 “yes”, you’re saying “no” to every other option.
+81 | This is not to 【say】 you should never attend another meeting, but the truth is that we 【say】 “yes” to too many things we don’t actually want to do.
+114 | For example, let’s 【say】 you want to
+90 | Let’s 【say】 your goal is to write a book.
+
+============================================================
+## 词：going    本段 9 句    模式：全标（每句都写）
+原释义：v.去; 前往; 进行(go 的现在分词). adj.现有的; 现行的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. （be going to）将要，打算（表示将来）    B 样本 43    例：It’s not going to be as
+  1  v. 去，前往    B 样本 22    例：I’m going to the zoo.
+  2  v. 变得，转为（going extinct；go from A to B）    B 样本 2    例：Imagine going from reading texts as short as one or two sentences to trying to read entire books written in complex language and containing sophisticated ideas.
+  3  v. （车辆等）行驶，移动    B 样本 1    例：A police officer in the U.S. stopped a large SUV car that was going very slowly and drifting across lanes on a highway. [1] He expected to find a driver who was either very drunk or having a medical emergency.
+  4  adj. 现行的，现有的（the going rate）    B 样本 0
+  5  n. 进展，进行情况    B 样本 0
+已标过的短语：go on（5）；go through（2）；go against（1）；go off（1）；go back to（1）；go on sale（1）；go by（1）
+口径说明（照此执行）：
+  - 口径：be going to do 一律标0（作语法义项，不标 P）；be going to + 地点 是「去」标1；go on（发生/继续/持续，含 what's going on）、go through（经历；逐一过一遍）、go off（爆炸；响起）、go against（违背）、go by（以…名字称呼）、go back to（追溯到）、go on sale 标 P；go to、go for a run、go on (a) holiday、go outdoors 标1；go + 形容词（going extinct）和 go from A to B（从A转到B）标2。
+句子：
+83 | [22] Taking risks in business does not mean 【going】 into business blindly and then expecting great results.
+85 | Personal teaching is about teachers showing students a higher path, and about young people 【going】 through the process together.
+86 | L) What matters, of course, is that the two of you are 【going】 to be happily married—hopefully for the of your lives.
+88 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are 【going】 to be joining your lives together.
+81 | After 【going】 to DirecTV, he positioned the satellite provider as a mainstream option in millions of households.
+80 | From there you are 【going】 to have to legally change your name all over the place.
+87 | They are 【going】 to replace the local groceries entirely.
+82 | Personally, I’m 【going】 to stop saying “busy” when people ask me how I am.
+84 | Many years’ surveys reveal that young people in America are 【going】 to the cinema much less often than they used to.
+
+============================================================
+## 词：while    本段 34 句    模式：全标（每句都写）
+原释义：conj.当…的时候; 尽管; 然而.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 当…的时候，在…期间；与此同时    B 样本 31    例：Taste coffee while in outer space.
+  1  conj. 而，然而（对比两件事）    B 样本 20    例：What’s more, that section of road saw new businesses open, while Queens
+  2  conj. 虽然，尽管    B 样本 25    例：While we know that
+  3  n. 一会儿，一段时间（a while）    B 样本 4    例：W: No, I actually owned a car for a little while when I lived in Miami.
+  4  v. （while away）消磨（时间）    B 样本 0
+口径说明（照此执行）：
+  - 口径：表时间/同时标0（while doing、while in/on…、while a student，以及补充另一件同时发生之事的「与此同时」，如 …, while reducing…）；两件并列事实对比（多为句中「, while」，也包括句首 While 引出的纯对比，如 While 70% used to…, now only half…）标1；句首 While 让步、可换成 although 且主句与之相反（While this may seem…, pink dolphins do exist）标2；a while / for a (little/short) while / take a while 标3。1 与 2 边界本身模糊，请按「能否换成 although 且主句转折」判断。
+句子：
+103 | 【While】 a good suit works wonders for our performance in the boardroom, wearing formal wear isn’t a great idea when
+81 | It is a way of you keeping your own identity 【while】 also making your future husband happy.
+106 | At the same time, your name is associated with the identity you’ve built up and hyphenation allows you to respect that 【while】 also respecting tradition and your husband’s family’s identity.
+98 | Similar percentages of men and women said they enjoyed their careers and that it gave them a sense of achievement, 【while】 around half of women and 44% of men said it was a key part of their identity.
+89 | 【while】 bottles may be recyclable, very few are made of recycled plastic.
+104 | But exactly what kids see 【while】 dreaming
+109 | 【While】 fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot
+91 | So 【while】 fruit juice is better than no fruit at all, there
+99 | 【While】 genes can encourage an interest in
+94 | Unfortunately, 【while】 health education has shown some
+101 | 【while】 I was researching, I still kept wishing that I didn’t have to play catch-up with the money world.
+112 | They may be too eager to succeed 【while】 ignoring the huge labor cost.
+83 | 【While】 in 1950, only 2,500 U.S. families owned pools, by 1999 this number was 4 million.
+87 | For a 【while】, it looked like Keynes was right.
+86 | Half of the women said they used flexible work arrangements after becoming a parent, 【while】 just 27% of men did.
+97 | M: 【While】 most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+92 | 【While】 our initial attraction may be based in part on physical chemistry, it is the meeting of our inner worlds that creates
+107 | 【While】 outperforming your rivals may provide short-term benefits, the loss of your integrity will have long-term consequences.
+111 | Hyphenating names allows the bride to preserve her own identity 【while】 respecting tradition.
+82 | 【While】 risk-taking can be considered a negative attribute, it’s also a characteristic of successful people, including athletes, political leaders and entrepreneurs.
+110 | So, if your baby seems to be in a stressful state 【while】 sleeping or is upset upon waking, there may be other factors at
+84 | 【While】 some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.
+100 | of our actions 【while】 someone else (namely: our future selves) suffers the hypothetical far-off consequences.
+108 | 【While】 the two tactics above can be effective in making better long-term choices, in the end, you're
+90 | Or, if the message is presented 【while】 the vehicle is in motion,
+95 | In contrast, in certain Arabian, African, and Asian countries, men can publicly hold hands or show physical affection as signs of brotherhood or friendship 【while】 these behaviors may suggest a romantic relationship in other parts of the world.
+88 | resembled their brain activity 【while】 thinking about a current other rather than the current self.
+80 | 【While】 this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.
+93 | those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, 【while】 those
+113 | 【While】 those visions of our future selves can be
+105 | Those with a growth mindset of interest tend to believe that interests can be developed and cultivated, 【while】 those with a fixed mindset of interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘found.
+102 | Rest a 【while】 to avoid fatigue driving.
+96 | F) 【While】 tradition is one thing, there isn’t any logical reason to completely change your name.
+85 | W: So, what have you been doing to stay busy 【while】 you’ve had that swollen ankle?
+
+============================================================
+## 词：often    本段 33 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：adv.经常; 时常.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 经常，常常；往往    B 样本 76    例：These are often very
+已标过的短语：how often（3）；as is often the case（1）
+口径说明（照此执行）：
+  - 口径：how often（多久一次、多频繁，含间接问句 consider how often…）标 P:how often；as is (so) often the case 标 P:as is often the case；every so often、more often than not 若出现标 P；too often、as often as、more/less often 按0。
+句子：
+87 | Advertising campaigns from the snack food companies, 【often】
+92 | Fish, chicken and red wine make moderate appearances, while red meat, salt and sugar are used much less 【often】.
+88 | And what it pays for is 【often】 a pro-industry
+96 | What are entrepreneurs advised to do to avoid traps that 【often】 accompany rivalry?
+80 | I) Siri has 【often】 been praised for its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.
+99 | Why did people 【often】 change jobs when the author started his career?
+106 | At the same time, public municipal pools were 【often】 closed, leaving low-income people nowhere to swim.
+101 | But curiosity 【often】 comes with a cost.
+97 | What does the author say businesspeople 【often】 do?
+95 | African farmers unable to read 【often】 don't have access to important information conveyed online.
+90 | One study showed that women managers 【often】 expressed positive emotions that they didn’t really feel.
+81 | What is one of the traps entrepreneurs may 【often】 fall into when competing with rivals?
+103 | People who look at the dark side of life 【often】 feel depressed.
+94 | Public-health initiatives to promote healthy diets 【often】 focus on providing nutrition education and recipes (食谱).
+107 | It is a rare skill 【often】 found in fluid organisations.
+100 | What 【often】 goes unnoticed in surveys on food conswnption?
+104 | People 【often】 grant a request just because they want to appear polite and helpful.
+86 | It 【often】 happens that people can lack reason when faced with skillful marketing.
+108 | They occur 【often】 in people with an active imagination.
+83 | People in business 【often】 make decisions based on their own personal feelings or instincts.
+111 | However, gender matters more for them because cheek-kissing 【often】 only happens between women or a man and a woman but not two men.
+98 | healthy snacks and drinks (such as fruit or water) more 【often】 over unhealthy options (like biscuits and soda).
+105 | These approaches, however, 【often】 presume less food literacy (i.e. food knowledge and skills) among low-income people.
+109 | They are 【often】 regarded as most treasured talents.
+84 | Without conflict, we’re 【often】 stuck in this artificial harmony where people don’t express potentially innovative ideas for fear that they may start conflict with others.
+102 | Haptics in communication 【often】 suggest the level of intimacy.
+85 | But the problem is that we 【often】 tell ourselves: “I'm going to put in eight hours’ worth of work, and then I'm going to put
+91 | Many years’ surveys reveal that young people in America are going to the cinema much less 【often】 than they used to.
+82 | As we all know, cultural or individual differences in personal bubble diameters are all too 【often】 the cause of discomfort.
+110 | It is 【often】 the major cause for human failures.
+89 | of how 【often】 they happen and how much they contribute to our overall energy intake.    ?P:how often
+93 | The words “yes” and “no” get so 【often】 used in comparison with each other that it feels like they carry equal weight in conversation.
+112 | with heavy conditions attached, like loan repayment or food for resources, it 【often】 widens the gap between rich and poor and sustains the old world order.
+
+============================================================
+## 词：our    本段 188 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：pron.我们的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 我们的    B 样本 79    例：It takes our digestive
+已标过的短语：spin one's wheels（1）
+口径说明（照此执行）：
+  - 口径：泛指「我们人类/大家的」（our health, our society）也标0；书名/栏目名中的 Our（Economic Possibilities for Our Grandchildren）意思透明，按0；含 one's 的习语（spin one's wheels 白费力气）标对应 P。
+句子：
+90 | Failures can help us learn and overcome 【our】
+123 | The exact numbers we think with impact everything in 【our】
+151 | For the bulk of 【our】
+210 | We believe that we will be different tomorrow, but in doing so, we prioritize 【our】
+86 | The gaming industry is larger than films and music combined, yet few of us are likely to list 【our】 achievements in playing
+183 | of 【our】 actions while someone else (namely: 【our】 future selves) suffers the hypothetical far-off consequences.
+242 | Add to 【our】 advantage in work and life.    ?P:to one's advantage
+192 | 【Our】 always-on world of social media may result in more connections, but they are superficial and can
+223 | 【Our】 analysis suggests early booking by women can translate into savings of $1 million a year for a large multinational company with 20,000 regular travelers.
+222 | European was decimally oriented because, as in so many cultures, 【our】 ancestors' hands served as the
+100 | We have long feared that this "revolution in distribution" uses corporate black magic on 【our】 appetite.
+176 | For the first time in human history, most of 【our】 aquatic (水产的) food now comes from farming rather than fishing.
+186 | It focuses 【our】 attention on what we do.
+180 | As soon as two tasks require 【our】 attention, productivity suffers.
+146 | If we redirect 【our】 attention toward cultivating inner qualities,
+234 | means that the experience of wearing something affects 【our】 attitudes and 【our】 choice of behavior.
+137 | moment we restrain 【our】 authentic selves in an effort to be liked.
+181 | Another role that they are expected to take over is negotiating on 【our】 behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+230 | Science says that the clothes we wear affect 【our】 behavior, 【our】 mood and even the way we interact with others because of the
+118 | What do we learn from the passage about the timing of 【our】 behaviors?
+264 | By enabling us to alter 【our】 behaviors constantly.
+83 | There’s nothing wrong with trying to look 【our】 best but excessive focus on physical appearance misses the soulful aspects    ?P:look one's best
+82 | M: [13] For that age group, 【our】 biggest seller this year has been this action figure.
+144 | wonderful job of removing and eliminating anything harmful from 【our】 bodies.
+115 | “We consume compounds every day that may be poisonous and 【our】 bodies do a
+197 | The smallest zone, called “intimate space”, extends outward from 【our】 bodies 18 inches in every direction.
+170 | What does the author say about the proteins in 【our】 body?
+202 | Some people believe a juice diet helps to rid 【our】 body of harmful or poisonous substances.
+266 | What is one thing that helps maintain the health of 【our】 brain even as it shrinks2
+245 | 【Our】 brains are genetically determined to satisfy immediate desires.
+237 | 【Our】 brains are hardwired for instant gratification.
+91 | And when we’re doing so, 【our】 brains are more engaged.
+160 | So much so that, according to experts in neuroscience (神经系统科学), 【our】 brains do not handle multitasking situations well.
+96 | Such tasks can get 【our】 brains thinking flexibly, beyond 【our】 normal comfort zone.
+260 | make people think slower; as long as we are alive and functioning, we can alter 【our】 brains with new information and
+206 | It is morally wrong to think helping the poor is not 【our】 business.
+124 | improve 【our】 career prospects?
+161 | They’re even beginning to drive 【our】 cars.
+98 | I) Siri has often been praised for its ability to interpret 【our】 casual language and deliver very specific and accurate results, sometimes even providing additional information.
+164 | M: When the time is right, I’ll start talking to 【our】 children about investing and show them how the money saved for their further education has grown.
+99 | And we teach a very gloomy image of adulthood—that whatever 【our】 children’s future holds, it must be seen within the context of a job.
+111 | single-use plastics of all types are polluting 【our】 cities and seas.
+243 | how much 【our】 cognitive lives differ cross-culturally, we must continually explore the depths of 【our】
+178 | When it comes to 【our】 countries, 【our】 communities, and 【our】 families, we understand instinctively that the stories we hold in common are an important part of the ties that bind.
+200 | And then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level about problems in 【our】 country.
+102 | Could the same thing happen to 【our】 crops and other foodstuffs too?
+252 | When making decisions, we give priority to 【our】 current frame of mind without thinking much of the consequences.
+265 | It cannot outcompete classical music and opera in its impact on 【our】 current society.
+259 | they have had on 【our】 current society, it is without doubt that we can expect them to continue to remain important for centuries
+116 | We assume that if we offer 【our】 customers more choices, then they’ll be more likely to buy 【our】 products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+255 | Almost half of 【our】 daily actions are part of 【our】 habits and not decisions, so once
+261 | How are almost half of 【our】 daily actions performed according to the passage?
+221 | A lot of research has demonstrated that drinking fruit juice does not reduce 【our】 daily consumption of other foods.
+97 | Love them or hate them, smartphones have become an integral part of 【our】 daily lives.
+134 | I) Another potential climate change-induced problem is 【our】 dependence on commodity crops—wheat, soybeans, corn and rice—which currently provide humanity with 75% of its calories, either directly or indirectly through the animals we raise on those crops.
+169 | we might find a magnetic attraction that moves us from something superficial to something that connects us to 【our】 depths.
+209 | 【Our】 desire to be loved will be fulfilled.
+236 | 【Our】 desperate longing for interactions with others.
+168 | and protein and fats in 【our】 diet, and increasing fibre.
+159 | L) Finally, diversifying 【our】 diet away from heat-sensitive wheat, corn, rice and other crops could also help.
+248 | 【Our】 early childhood fear of being deserted.
+193 | There’s a social dimension to health that we’ve completely overlooked in 【our】 efforts to find the best and most cutting-edge medical care....
+133 | They may block us on their social media accounts and stop responding to 【our】 emails.
+246 | How do the clothes we wear sway 【our】 evaluation of ourselves?
+263 | New pathways can strengthen 【our】 ever-changing mental structure, even as the brain shrinks.
+189 | From 【our】 experience so far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It is a win for all concerned.
+254 | See 【our】 experiences as assets.
+201 | It opens 【our】 eyes to new opportunities.
+185 | also, of course, 【our】 first defense against species loss and climate change.
+138 | 【our】 future selves?
+229 | If the central problem is that we think of 【our】 future selves
+249 | Regarding 【our】 future selves as still being ourselves will help us make better long-term decisions.
+241 | While those visions of 【our】 future selves can be
+233 | as other people, it follows that trying to identify more closely with 【our】 future selves will encourage us to make better long-
+150 | more beautiful and delicious 【our】 future will be.
+172 | Ancestry tests claim to reveal 【our】 genetic identities.
+167 | Grit allows us to redefine 【our】 goals.
+128 | Instead, it is through the process of active inspiration—the act of creating things, applying new ideas to 【our】 goals, and making mistakes—that we discover who we are and what is important to us.
+212 | We can never expect to reach 【our】 goals without passion.
+184 | W: Welcome to Books in Review. [12] 【Our】 guest today is John Banks, the author of the best selling new book, Rewarding Success.
+122 | grateful to 【our】 guests and partners who believed in 【our】 vision and encouraged us to push harder?.
+231 | 【our】 hands and fingers.
+147 | It has a considerable impact on 【our】 health.
+205 | Ultimately, what affects 【our】 health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+81 | One way we can improve the effects of fruit juice on 【our】 health is making sure we select ripe
+213 | To increase the benefits of fruit juice to 【our】 health, we’d better choose ripe fruit to make juice.
+153 | J) “The rabbit effect,” she explains, means that “when it comes to 【our】 health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.
+88 | “We took the jump to transform Eleven Madison Park into a plant-based fine dining restaurant knowing in 【our】 hearts
+130 | Some say we should never meet 【our】 heroes, lest they disappoint us when we find out how normal they are.
+157 | This is reflected in 【our】 homes.
+139 | In 【our】 house, we have transparent money boxes for them to put small change in, so they can see their savings grow.
+218 | 【Our】 identity as social beings will be affected.
+94 | It includes not just how we form these impressions, but the conclusions we make about other people based on 【our】 impressions.
+219 | current mood over the consequences of 【our】 inaction for the future self.
+227 | the by-product of two key factors: the human capacity for language and 【our】 inclination for focusing on
+217 | According to research, we begin to develop 【our】 individual sense of personal space around age 3 or 4. [25] The sizes of 【our】 bubbles are fixed by 【our】 teens.
+117 | While 【our】 initial attraction may be based in part on physical chemistry, it is the meeting of 【our】 inner worlds that creates
+105 | Resort to 【our】 inner wisdom.
+253 | By influencing 【our】 interpretation of symbolic messages.
+208 | Only family, pets and one’s closest friends may enter it. [23] A mere acquaintance entering 【our】 intimate space makes us uncomfortable.
+152 | They might even make us better at 【our】 jobs'.
+108 | M: [10] We also give 【our】 kids pocket money, and the amount they get is linked to chores, such as putting the bins out and emptying the dishwasher.
+132 | We should be helping 【our】 kids understand who they are, even if that means letting go of who we think they should be.
+240 | 【Our】 knowledge about the pain of abandonment.
+140 | Some aspects of 【our】 language abilities, such as 【our】 knowledge of word
+84 | 【our】 larger culture wars over climate change.
+177 | Distinguish between conventional success and 【our】 life goal.
+224 | 【Our】 life will be unfruitful and exhausting
+109 | as infants and continue on for the rest of 【our】 lives.
+136 | [16] Artificial intelligence agents play ever more influential roles in 【our】 lives.
+154 | Too often we spend 【our】 lives consuming the world around us instead of creating it.
+247 | Every aspect of 【our】 lives is affected by numbers.
+80 | We’ve been told all 【our】 lives that if you work hard, you too can succeed.
+191 | In the absence of the cultural traditions that fill 【our】 lives with numbers from infancy, we
+121 | What about 【our】 local school then? [14] They have a wonderful arts program that would really challenge Jake in terms of creativity and imagination.
+267 | Avoiding worrying about 【our】 mental durability.
+235 | They reside in 【our】 minds, numerical artifacts (A..I.!Ö ×) that not all humans inherit
+262 | What do we learn about 【our】 modern music?
+256 | Classical music and opera are the very foundation of what 【our】 modern music is based upon.
+211 | W: You discuss three of those problems in the book, improving public education, reducing 【our】 nation’s healthcare burden, and increasing personal savings. [13] But your ideas about education are the most controversial.
+204 | 【our】 national statistics claim.
+232 | 48 What may account for 【our】 need to be liked or approved of?
+175 | The designs of 【our】 neighborhoods, schools, and workplaces.
+173 | This "successor principle" is part of the foundation of 【our】 numerical (
+214 | H) Compared with other mammals, 【our】 numerical instincts are not as remarkable as many assume.
+194 | Only a tenth of 【our】 oceans’ fish stocks could sustain heavier fishing than current levels.
+215 | of how often they happen and how much they contribute to 【our】 overall energy intake.
+182 | We should care about other peoples’ view as much as they care about 【our】 own.
+166 | the need for a ‘catch up’ phase once we’re out on 【our】 own after graduation.    ?P:on one's own
+179 | They found busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by 【our】 own beliefs about social mobility.
+155 | We find ourselves over-committed to things that don’t meaningfully improve or support those around us, and certainly don’t improve 【our】 own lives.
+89 | rely exclusively on terms similar to "a few" or "some. " In contrast, 【our】 own lives are governed by
+207 | 【Our】 own opportunity for success never comes easily.
+196 | Being quicker and more efficient increases 【our】 performance and the number of tasks completed.
+238 | While a good suit works wonders for 【our】 performance in the boardroom, wearing formal wear isn’t a great idea when
+92 | The study highlights an important relationship between 【our】 personalities and the wellbeing of 【our】 pets.
+156 | Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide on how to shift 【our】 perspectives on aging and growth.
+131 | 【Our】 phones are always near us and they are collecting data about us all the time.
+110 | Physical activity provides a positive outlet for frustration, anxiety, or anger and can become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important for 【our】 physical and mental health, and cultivating the habit of physical activity starts early.
+251 | Strengthen 【our】 power of imagination.
+250 | By exerting an effect on 【our】 power of judgment.
+148 | This began a journey to transform 【our】 practice and challenge the ways of learning for a group of Year 6 students used to sitting in desks and rows for years.
+107 | In light of Hershfield’s study, one simple question arises: Is it possible to make 【our】 present selves give a damn about
+199 | result, the decisions we make for 【our】 present selves often look very different from 【our】 decisions for 【our】 future selves.
+85 | [19] When planning for this year, 【our】 principal asked what needed to change to engage students more in their learning.
+225 | F) Understanding 【our】 procrastination through the lens of the present and future selves, we're left with three
+165 | likely all play important roles in how we balance 【our】 professional and personal lives.
+226 | edge in 【our】 professional and personal lives.
+203 | transform 【our】 quantitative reasoning as they are introduced into 【our】 cognitive experience by 【our】
+101 | (9-1) 【Our】 question today is why friends suddenly disappear.
+187 | over 【our】 recommended calorie intake.
+142 | While fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain 【our】 red-hot
+113 | we visualize that determine 【our】 results, but rather the habits that we practice each day.
+216 | 【Our】 results show another way these negative behaviors can manifest themselves, like in airline bookings, and add to evidence that women are less likely to engage in them.
+120 | computer games as work experience in 【our】 resume.
+149 | “Why can’t we put in 【our】 resume 【our】 gaming victories and achievements?” he
+104 | M: Good afternoon. [12] Yes, we reserved 【our】 rooms yesterday morning on your website for three nights.
+141 | financial education in 【our】 schooling system that is leaving high schoolers seriously behind in the modern world of money.
+112 | “Putting that information in front of them will give them the best opportunity to match their skills and their dreams to what 【our】 schools can provide,” said Mathews. [23] He notes that the state can only regulate public institutions in this way, but he hopes private institutions in Ohio follow the lead of the state and post similar information.
+93 | “Despite 【our】 scientific progress,” she writes, “Americans are remarkably unhealthy.
+163 | E) Seen through the lens of the present self versus the future self. 【our】 self-defeating actions — like choosing to watch
+106 | into trouble is when 【our】 self-worth is dependent upon whether we win someone's approval or not.
+198 | What will happen if we base 【our】 self-worth on other people’s approval?
+228 | 【Our】 sense of self will be sharpened and enhanced.
+143 | Grit lifts the unreasonable expectations off 【our】 shoulders.
+103 | They have begun to affect 【our】 social behavior.
+158 | The elites of 【our】 society have rejected superhero films.
+87 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having 【our】 son in the first class of a brand new school.
+239 | K) Research on the language of numbers shows, more and more, that one of 【our】 species' key
+195 | 【Our】 status can be attributed to 【our】 social mobility.
+174 | In 【our】 stimulation-rich world, it seems unrealistic that boredom could occur at all.
+171 | Now 【our】 students have a range of different seating options, including a floor desk, couches, stools, bean bags, and the traditional desk-and-chair.
+95 | Saying “no” to 【our】 superiors at work
+135 | When we enter 【our】 teens.
+119 | I responded in a whisper “flexible seating”, thinking about 【our】 then-current classroom.
+114 | 【our】 thoughts are immediately burdened by all the things we must first learn.
+129 | The thought of straining the relationship outweighs the commitment of 【our】 time and energy.
+145 | Researchers have found donating 【our】 time and talent to others can lower blood pressure, boost happiness and improve mental and physical health.
+126 | (22-3) Let’s begin 【our】 tour, starting from the rooms.
+190 | The large majority of 【our】 traits and diseases also depend upon non-genetic factors, such as lifestyle, the environment, and
+188 | We will be discouraged from revealing 【our】 true selves.
+244 | 【Our】 understanding of the workings of the world.
+258 | What does the author say we need to do to strengthen 【our】 willpower?
+127 | G) Enter the rabbits—not those running around in 【our】 woodlands but ones serving in two month-long medical experiments to test the effects of eating a high-fat diet and the connections between cholesterol and heart disease.
+220 | [23] But too often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we can maintain the harmony of 【our】 workplace.
+125 | “In 【our】 world and 【our】 society, we have very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department of the Borough of Manhattan Community College, and one of the authors of a recent study.
+257 | Base 【our】 worth on others' opinions.
+162 | If we base 【our】 worth on the opinions of others, we cheat ourselves of the power to shape 【our】 experiences and embrace
+
+============================================================
+## 词：work    本段 172 句    模式：全标（每句都写）
+原释义：n.工作; 职业; 作品. v.工作; 运转; 起作用.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 工作，活儿（要做的事；职业）    B 样本 34    例：Commitment to work.
+  1  v. 工作，干活    B 样本 12    例：He has to work late.
+  2  n. 上班；工作单位（go to work 去上班，at work 在上班）    B 样本 16    例：For commuting to work.
+  3  v. 起作用，奏效，行得通    B 样本 5    例：It can work both ways.
+  4  n. 作品；（研究）成果    B 样本 4    例：Once he’s all done, the work will remain there permanently.
+  5  v. 努力（work toward/for 为…而努力）    B 样本 3    例：How to better work towards long-term goals
+  6  v. （机器、大脑等）运转，运作    B 样本 1    例：Their brains work in harmony.
+  7  v. 锻炼，使活动（肌肉等）    B 样本 1    例：It’s great to stay fit and healthy, but standard exercise routines and sports only work the same muscles repeatedly. [21] With extreme sports, you’ll be working entirely different muscles, and that means you get an all-over workout.
+已标过的短语：work-study（1）；work on（1）；work through（1）；body of work（1）；out of work（1）
+口径说明（照此执行）：
+  - 口径：名词「工作、任务、活儿、职业」及作定语（work schedules, work experience, work colleagues, academic work, construction work）标0；动词工作/干活/共事（work with sb, work together, work from home, work hard/harder）标1；上班、在岗、工作单位（go/walk/commute/jog to work, at work, on my way to work, near to work, get back into work, bring cats to work）标2；起作用/行得通/好用（didn't work, work better, work both ways, bottles that work with tap water）标3；作品、研究成果（his work showed…, posted his work online）标4；work toward(s)/for + 目标 标5；out of work、work out、work on（修理；致力于）、work through（处理、解决）、body of work、work-study（勤工助学）标 P。
+句子：
+87 | Employers typically worry that social media is a productivity killer; more than half of U.S. employers reportedly block access to social media at 【work】.
+88 | Organizations should reconsider the appropriateness of their performance evaluation procedures in light of the shift to remote 【work】.
+90 | W: Well, that’s an expensive way to get to 【work】.
+91 | Too much concern about their 【work】.
+94 | The traditional school year, with three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm 【work】.
+97 | M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, they can go back to 【work】.
+98 | When their hobby was both serious and similar to their job, then spending more time on it actually decreased their 【work】 _31_.
+105 | continues to inspire them to be passionate about their 【work】.
+108 | “But ask them the same about their 【work】,
+118 | New Tech coupled with improvements in hearing aid technology and medical advances means that Miller is able to focus far more on his 【work】.
+119 | They put a lot of effort into their 【work】.
+122 | Students needed to help with farm 【work】.
+124 | On the contrary, taking risks in entrepreneurship involves careful planning and hard 【work】.
+126 | Over the next century, he predicted, the economy would become so productive that people would barely need to 【work】
+127 | However, if you 【work】
+131 | H) So how does the competition 【work】?
+146 | But if their hobby is quite different from their career, it may not _33_ in the same way but instead help them develop other knowledge and skills that can _34_ their confidence at 【work】.
+147 | personal connections and relationships, people may place more value on the socializing that happens at 【work】.
+154 | Businesses are beginning to realise gaining skills are applicable to their employees’ 【work】.
+156 | technological issues at 【work】.
+157 | Why some people are more passionate about 【work】.
+159 | Live sessions are infrequent and are often scheduled during the middle of the day when students have to attend other classes or 【work】.
+174 | He thinks everyone should be devoted to 【work】.
+175 | More fathers are taking paternity leave, but mothers are still doing all the 【work】
+178 | They seem to outdo others without hard 【work】.
+180 | Most employees rely heavily on IT in their 【work】.
+187 | mentally we still may be processing things that happened at 【work】.
+188 | They differ in their reasons for continuing to 【work】.
+197 | What does the passage say about people doing manual 【work】?
+198 | Employees become more confident in their 【work】.
+199 | Like domestic labor, emotional labor is generally dismissed and not labeled 【work】.
+201 | The purpose of performance evaluation is ultimately to determine how to reward employees for their 【work】.
+202 | One is simply enjoying their time off 【work】.
+207 | But research shows it can be just as exhausting as paid 【work】.
+208 | It kills employees’ motivation for 【work】.
+214 | What problem was found with employees using social media for 【work】?
+215 | What does the author say companies should do in the context of remote 【work】?
+219 | Li said “We often chalk up our stress to broad experiences like 【work】.
+220 | What should be prioritized in assessing employees’ remote 【work】?
+237 | Employers argue they make considerable savings on real estate when workers shift from office to home 【work】.
+238 | The ability to produce quality 【work】.
+239 | You may not actually experience emotional wellbeing at home if you remain occupied with what happened at 【work】.
+243 | If working from home becomes permanent, employees will have to dedicate part of their private space to 【work】.
+164 | “Since climbing is so far _35_ from their day-to-day 【work】 activities, they can still recover from the demands of their job with plenty of resources.
+240 | Though employers are backed by a chorus of remote 【work】 advocates, others note the loneliness, reduced productivity and inefficiencies of extended remote 【work】.
+228 | According to a management expert, work-life balance is not as simple as giving equal amounts of time to 【work】 and
+245 | stated, “Young women engineers are on an equal footing until they have children, then they struggle to balance 【work】 and
+221 | One study finds that even workers who claim to desire gender equality stick to traditional gender roles both at 【work】 and at home.
+173 | Big houses are advertised as a reward for hard 【work】 and diligence, turning housing from a basic necessity into a luxury.
+248 | Their ability to balance 【work】 and family.
+229 | For a time an app developer in America was so busy attending to 【work】 and family that she suffered from sleeplessness.
+158 | Some people may argue that this is merely reported data, and they say many men feel the same pressures as women in terms of fulfilling responsibilities at 【work】 and home.
+213 | K) Disconnecting from 【work】 and home responsibilities is also obviously important.
+166 | of your emotional state is essential in order to determine the changes you want to make in your 【work】 and in your life,” says
+152 | Add to our advantage in 【work】 and life.
+212 | is not how the two pieces of 【work】 and life come together.
+249 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote 【work】 and, like Yahoo in 2013, encourage employees to 【work】 most of the time from corporate office space.
+196 | professor of 【work】 and organisation studies at MIT, shows companies and managers can play a key role in creating a better
+111 | 【work】 and play, and who 【work】 at what they are passionate about, are more focused and productive,
+153 | in less labor-intensive occupations also has contributed to the trend, says Abraham, who researches 【work】 and retirement
+103 | But the problem is that we often tell ourselves: “I'm going to put in eight hours’ worth of 【work】, and then I'm going to put
+82 | To meet the new definition for addiction, the behavior must damage a person’s relationships or performance at school or 【work】, and this must last for at least a year.
+233 | Research found that those who are given greater flexibility at 【work】 are less stressed and more likely to stay in their jobs.
+171 | These findings present a dilemma for managers: employees using social media at 【work】 are more engaged and more productive, but they are also more likely to leave your company.
+210 | Half of the women said they used flexible 【work】 arrangements after becoming a parent, while just 27% of men did.
+170 | For example, the United Nations reported that women do nearly three times as much unpaid domestic 【work】 as men.    ?P:as...as
+162 | "They tell us the methods their forefathers used to predict the weather don't seem to 【work】 as well these days.
+134 | “The engagement and powerful skills that people get playing a game — why can’t 【work】 be like
+116 | Respondents were then asked about their 【work】 behaviors, including whether they felt motivated in their jobs and showed initiative at 【work】.
+133 | First, many physicians are not aware that some drugs 【work】 better during a specific time of the day.
+216 | P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to 【work】, but I think the research is showing that’s starting to change.
+234 | As many office workers adapt to remote 【work】, cities may undergo fundamental change if offices remain under-utilized.
+160 | When I examined how respondents expressed openness to new careers and employers, I found that they engaged in some key activities including researching new organizations and making new 【work】 connections.
+117 | This requires a fundamental rethinking of what organizations expect from employees and what companies would look for in a model employee in a remote 【work】 context.
+235 | What quality in the employees would be of great importance in a remote 【work】 context?
+193 | One is opposed to the prevailing 【work】 culture.
+132 | business casuals on a Friday, since colleagues are most likely to take out time to socialize on the last 【work】 day of the week.
+139 | Well, I could come and go as I please, as long as I was getting the 【work】 done.
+182 | It improves employees’ 【work】 efficiency.
+189 | There is a big boost in employees' 【work】 efficiency.
+241 | The ability to maximize 【work】 efficiency.
+172 | Employers should think instead about the values and soft skills they want to emphasize in a remote 【work】 environment.
+192 | This allows managers to both keep an eye on struggling employees and provide ongoing feedback on how employees are adapting to their new 【work】 environment.
+247 | To help employees in need adapt to the new 【work】 environment.
+100 | Is it habits, connections, luck, 【work】 ethic
+181 | The problem is, housework is often overlooked as 【work】, even though it is often as laborious (or in some cases, more so) as any paid job.
+136 | employees' overall 【work】 experience.
+135 | has some 【work】 experience in the industry than a college graduate who took the “right” degree.
+101 | We all bring different life and 【work】 experiences to the table.
+185 | Research by the Boston College Center for 【Work】 & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become more acceptable.    ?X
+110 | The experience of using IT penetrates almost the entire 【work】 field.
+203 | K) Men and women’s experiences of the return to 【work】 following parental leave were also considerably different.
+109 | past the age of 45, there’s nearly a two in three chance you’ll be out of 【work】 for over a year, they find.    ?P:out of work
+114 | So yes, you can definitely ask your interviewer about what it’s like to 【work】 for that particular organization.
+102 | “You can't get that with a blizzard bag or doing the 【work】 from home like that.
+165 | Many workers report that they would like to spend more time with family, rather than at 【work】 Furthermore,
+86 | In other words, when a person’s own 【work】 group is involved, they tend to prefer team members who are similar to themselves.
+123 | 【Work】 hard and plan carefully.
+167 | We’ve been told all our lives that if you 【work】 hard, you too can succeed.
+226 | One reason having a rival can enhance your venture’s performance is that it creates a level of excitement that drives you to 【work】 harder.
+107 | More recent 【work】 has shown roughly the same.
+83 | Oversee the 【work】 herself.
+120 | Many office workers nap during 【work】 hours.
+99 | How will we all keep busy when we only have to 【work】 15 hours a week?
+106 | By allowing employees to donate their time during 【work】 hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. [21] In one survey, 89% of employees perceived companies that sponsored volunteer activities as creating a better working environment, and 75% said volunteering was critical to their well-being.
+93 | And the quality and quantity of 【work】 I can do emerges directly from my ability to concentrate.
+231 | 【Work】 in a flexible way.
+251 | They 【work】 in conjunction with the environment.
+143 | The friends I have who still 【work】 in offices inform me their bosses insist that they take the second option, and that napping is associated with laziness.
+113 | Taking measures to attract prospective male teachers to 【work】 in the field.
+129 | In order to sustain those relationships, you must be able to 【work】 in their best interests as well.
+149 | When they are convinced you 【work】 in their interests while sacrificing your own.
+148 | They can do amateur 【work】 in their own fields
+223 | For millions of people, 【work】 is
+217 | earners, 【work】 is a labor of love.
+227 | These top earners derive meaning from their jobs and 【work】 is an
+161 | As remote 【work】 is largely unobservable to supervisors, employers need to think about how they can objectively measure the quality of 【work】 in a way that is consistent for employees of similar rank.
+232 | As ordinary American workers’ average hourly pay had decreased despite increasing productivity, they had to 【work】 just as
+184 | We hold the belief that hard 【work】 leads to success.
+176 | In other words, most Americans are too poor to 【work】 less.
+204 | from the increased productivity since Keynes's time — can afford to 【work】 less, why do they continue to 【work】 so much?
+205 | my 【work】 life’”, says Kelly.
+179 | occupations where they tend to enjoy their 【work】 more.
+200 | It influences employees’ 【work】 negatively.
+89 | This is why the 【work】 of the WFP is so vital.
+145 | Some risks may not 【work】 out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.    ?P:work out
+236 | More female professionals reported being reluctant to 【work】 overtime than their male counterparts.
+92 | To find out creative people's 【work】 performance.
+169 | employees' 【work】, rather than adjust their 【work】 to fit in with the company's IT limitations.
+190 | As the scholar Silvia Federici put it in 1975, the unpaid nature of domestic 【work】 reinforces the assumption that “housework is not 【work】, thus preventing women from struggling against it.
+95 | They redesigned the staff's 【work】 schedules.
+137 | They have control over their life and 【work】 schedules.
+209 | For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible 【work】 schedules.
+230 | The flexibility of their 【work】 schedules.
+115 | People who are not directly involved in the group’s daily 【work】 should also take part.
+141 | This means that 【work】 should be measured in terms of the quality of the 【work】, not just the quality of the process.
+218 | on the 【work】 side.
+224 | But 【work】 stress can take many different forms.
+150 | Fourth, they considered their alternatives: is there anything at 【work】 that could be
+138 | “After I became a first-time mother, I quickly realized I was so busy caring for other people and 【work】 that I felt like I’d lost myself,” she said.
+142 | You probably haven't taken the time to think of all the 【work】 that went into creating the shirt on your back.
+177 | the hours in your day between 【work】, the gym, kids and chores.
+163 | In other words, the more we believe that one has the opportunity for success based on hard 【work】, the more we tend to think that people who skip leisure and 【work】 all the time are of higher standing.
+211 | (Indeed, research has shown that the highest earners in America tend to 【work】 the most.
+246 | It also means having private space dedicated to 【work】: the space must be heated, cleaned, maintained and paid for.
+85 | However, figuring out what a company is like before you actually 【work】 there can be a bit of a challenge.
+186 | education — are seeking whatever poorly paid 【work】 they can get.
+222 | They are doing 【work】 they care about and are interested in, and doing more of it is not
+125 | To maintain a serious hobby, people need to invest significant psychological resources, say the authors—so if the activity has the same kinds of demands as their 【work】, they may be left _32_ and unable to perform well at their job.
+225 | The length of their 【work】 time.
+191 | Employees spend much of their 【work】 time on it.
+155 | The enormous 【work】 to identify the hundreds of genes involved.
+206 | By adjusting their 【work】 to suit the IT system.
+250 | There is no point in transferring office 【work】 to working from home.
+128 | This could be because some people want to avoid conflict at all costs, after all they still have to 【work】 together.
+80 | 【Work】 together with companies to improve their teaching facilities.
+195 | of hourly workers, their top concern is not that they 【work】 too much but that they 【work】 too little.
+140 | In the second part of the study I found 76% of employees using social media for 【work】 took an interest in other organizations they found on social media.
+242 | And you have to 【work】 twice as hard!
+183 | Qualities like flexibility and the ability to 【work】 under minimal supervision might become critical.
+96 | The 【work】 universities are doing to help students succeed academically.
+121 | Every day at about 1 p.m., everyone faces the same choice: sleep until 2 p.m. and then 【work】 until 5, or daydream and drift around social media and attend pointless meetings until 7 p.m.
+112 | “I used to 【work】 very hard.
+194 | I) However, the study also shows how traditional gender roles endure both at 【work】, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.
+104 | “It’s the taking part and doing the 【work】 which is important,” he says.
+84 | They recommend providing young men opportunities to 【work】 with children through training and volunteer programs, targeting groups of men who are considering a career change, such as fathers.
+151 | 【work】 with groups to produce imaginative design ideas for a product in simple materials that could sell for £10 in the Design
+144 | Like Farrant’s 【work】 with resurrection crops, a number of companies, organisations and researchers are aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.
+81 | Indeed, 【work】 with some other species suggests they too can refine their quantitative thought if
+244 | The ability to 【work】 with the least supervision.
+130 | First, they paused and reconsidered beliefs such as “I'm a professional, so I should 【work】, 【work】, 【work】”, and asked
+168 | “Which matters more depends on what your history up until that point has been in the type of 【work】 you’re doing,”
+
+============================================================
+## 词：then    本段 59 句    模式：全标（每句都写）
+原释义：adv.然后; 那时; 那么.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 然后，接着，后来    B 样本 49    例：Then mark the
+  1  adv. 那么，那样的话，这样一来（表推论或结果，常接在 if 从句后）    B 样本 21    例：M: Okay, then.
+  2  adv. 那时，当时    B 样本 5    例：She has to meet with her boss then.
+  3  adv. 而且，另外（and then there's…）    B 样本 5    例：Then you should also account for non-genetic factors that are
+  4  adj. 当时的（the then president）    B 样本 0
+口径说明（照此执行）：
+  - 给C的口径：back then / since then / by then / until then / just then 按2（那时）；if/when…, then… 以及 OK then、What about…, then?、None of us, then, is… 这类推论语气按1；and then 表时间先后按0，表追加理由（And then there's the expense, too. / Then you should also account for…）按3；now and then / every now and then 标 P:now and then；but then (again)（不过话说回来）标 P:but then，表「但后来」仍按0。卷面说明 Then mark the corresponding letter… 按0。0 与 1 的边界（and then 引出结果，如 id 22、77）有主观成分。
+句子：
+86 | M: All right, 【then】.
+87 | Do you feel like Vietnamese food 【then】?
+93 | It’s just a little swollen and I should be fine for next Saturday if you still want to go for a jog 【then】.
+105 | After all, I did that during high school and my commute was even longer 【then】.
+114 | M: Oh, okay 【then】.
+130 | W: Well, what do you do now 【then】?
+133 | That’s decided 【then】.
+106 | W: She bought a house for herself and her husband, a house for her parents, and 【then】 a house for each of her four brothers and sisters.
+83 | Most number systems, 【then】, are
+112 | Respondents were 【then】 asked about their work behaviors, including whether they felt motivated in their jobs and showed initiative at work.
+92 | The agricultural society 【then】 attached less importance to academics.
+82 | The beans would 【then】 be roasted in the heat generated by the craft’s 20-minute re-entry into Earth’s atmosphere.
+126 | Such platforms 【then】 become a place to feature the most experienced, professional, and
+125 | something, tearing it down, 【then】 building it up again.
+116 | Participants 【then】 completed a survey indicating how tough, deceptive and pleasant or otherwise they wanted to be, or wanted their agent to be, in the negotiations.
+110 | 【Then】 encourage them to establish an order in which they do work.
+128 | [22] Taking risks in business does not mean going into business blindly and 【then】 expecting great results.
+88 | Happy with the responses, O’Shaughnessy paid the full amount of £3,000 via bank transfer into the travel agent’s account and 【then】 forgot about it until a month before the booking.
+101 | These farms will 【then】 have to be shifted to cooler mountainous areas,
+95 | W: [12] Now, all I need is to photocopy your passports and 【then】 I can get you all checked in and show you to your rooms.
+109 | But back 【then】, if you were a
+89 | Well, that’s obvious 【then】, isn’t it?
+123 | M: What do you think of Battleships, 【then】? [15] It’s a total classic.
+81 | We 【then】 looked at high school students'
+96 | the four choices marked A), B), C) and D).【Then】 mark the corresponding letter on Answer Sheet 1 with a single line through
+97 | And 【then】, maybe we can watch the series together.
+138 | 【Then】 on another day, at that same food market, people were given only 6 different types of jam choices.
+132 | 【Then】 over hundreds of thousands of years, those sounds turned into words that people began to learn as part of their language.
+119 | Participants were 【then】 placed in a virtual reality setting where they could look
+118 | Do you prefer to fill out an application on the web, or to print it out and fill it in by hand and 【then】 post it back to us?
+124 | And 【then】 she bought her husband a ridiculously expensive sports car.
+122 | If Johnny’s girlfriend doesn’t like him for who he is, 【then】 she does not deserve to be his girlfriend.
+113 | Kate saw that her doll would be arriving the next afternoon, but 【then】 she noticed something else: suggestions about other dolls and toys she could order.
+127 | Kate was depressed at first, but 【then】 she sat with some girl patients and they opened up all the boxes together, laughing and playing.
+111 | In another study, researchers asked volunteers to jog for 30 minutes and 【then】 showed them clips from a sad movie.
+117 | But 【then】 something changed.
+108 | Proud residents 【then】 started to refer to Jan as Queen of Takotna.
+135 | As a child matures, they can 【then】 take on more of the daily responsibilities, boosting their sense of independence.
+102 | It was 【then】 taken to an examining room for evaluation of any injuries. [7] The elephant was kept under close supervision for a few days before it was successfully released back into the wild.
+121 | job skills, 【then】 the interview skills, 【then】 the dress part — and you must be perfect at all of them.
+129 | For most Americans, 【then】, the magic of increasing
+85 | If savings are modest, 【then】 the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.
+90 | 【Then】 there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.
+94 | H) Since 【then】, there have been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.
+107 | 【Then】 they gave worse speeches and made more mistakes in
+134 | What about our local school 【then】? [14] They have a wonderful arts program that would really challenge Jake in terms of creativity and imagination.
+136 | We assume that if we offer our customers more choices, 【then】 they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+100 | stated, “Young women engineers are on an equal footing until they have children, 【then】 they struggle to balance work and
+103 | 【Then】 they worked with the
+131 | If at first you fail, 【then】 try one more time with grit.
+115 | Companies cannot do all these things to enhance women’s advancement and 【then】 turn around and say, ‘Oh, but we don’t expect the men to take over for the women at home.
+98 | He and his team took photos of study participants, and 【then】 used
+91 | The next day, Kate asked if she could check the shipping status, so her mom clicked on the web page and 【then】 walked out of the room.
+137 | 【Then】, what is the best seat in the classroom?
+120 | 【Then】, when I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.
+104 | W: 【Then】 why did he have the operation?
+80 | 【Then】 why were you saying “poor Hannah”?
+84 | If you aren’t driving your own car, 【then】 you are saving on fuel.
+99 | After all, if you can jump out of a plane or off a bridge, 【then】 you can face anything else easily.

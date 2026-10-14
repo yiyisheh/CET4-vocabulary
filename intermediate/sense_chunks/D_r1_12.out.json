@@ -1,0 +1,914 @@
+{
+ "a body of": {
+  "canonical": "a body of",
+  "pos": "adj.",
+  "zh": "大量的，一批（研究、证据、作品等）",
+  "example": {
+   "id": 3,
+   "en": "The findings are important because there is a growing body of evidence that dogs can help children in many ways.",
+   "zh": "这些发现很重要，因为越来越多的证据表明狗能在许多方面帮助孩子。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stay away from": {
+  "canonical": "stay away from",
+  "pos": "v.",
+  "zh": "远离；避免（接触）",
+  "example": {
+   "id": 1,
+   "en": "Have meals as usual to stay away from hunger.",
+   "zh": "照常吃饭以免挨饿。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "side effect": {
+  "canonical": "side effect",
+  "pos": "n.",
+  "zh": "副作用",
+  "example": {
+   "id": 1,
+   "en": "They can reduce unwanted side effects of certain medicines.",
+   "zh": "它们能减少某些药物不必要的副作用。"
+  },
+  "valid": true,
+  "note": "与 side effects 合并，规范写单数"
+ },
+ "side effects": {
+  "canonical": "side effect",
+  "pos": "n.",
+  "zh": "副作用",
+  "example": {
+   "id": 1,
+   "en": "They can reduce unwanted side effects of certain medicines.",
+   "zh": "它们能减少某些药物不必要的副作用。"
+  },
+  "valid": true,
+  "note": "合并到 side effect"
+ },
+ "cause and effect": {
+  "canonical": "cause and effect",
+  "pos": "n.",
+  "zh": "因果（关系）",
+  "example": {
+   "id": 0,
+   "en": "Observational studies like this one cannot prove cause and effect.",
+   "zh": "这样的观察性研究无法证明因果关系。"
+  },
+  "valid": true,
+  "note": "例句为原句截取前半句"
+ },
+ "look for": {
+  "canonical": "look for",
+  "pos": "v.",
+  "zh": "寻找；寻求",
+  "example": {
+   "id": 5,
+   "en": "I’m looking for a present for my nephew, Lawrence.",
+   "zh": "我在给我的侄子劳伦斯找一份礼物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "the united states": {
+  "canonical": "the United States",
+  "pos": "n.",
+  "zh": "美国",
+  "example": {
+   "id": 0,
+   "en": "It originated in the United States.",
+   "zh": "它起源于美国。"
+  },
+  "valid": false,
+  "note": "专有名词（国名），不是固定短语；states 任务中应标 X"
+ },
+ "compare with": {
+  "canonical": "compare with",
+  "pos": "v.",
+  "zh": "与……相比",
+  "example": {
+   "id": 4,
+   "en": "Compared with other racing series, Formula One focuses more on speed and involves more danger.",
+   "zh": "与其他赛车系列赛相比，一级方程式更注重速度，也更危险。"
+  },
+  "valid": true,
+  "note": "与 compare to 合并（compared with/to 在真题里同义），规范写 compare with"
+ },
+ "compare to": {
+  "canonical": "compare with",
+  "pos": "v.",
+  "zh": "与……相比",
+  "example": {
+   "id": 4,
+   "en": "Those who are relatively old compared to their classmates have certain advantages over them.",
+   "zh": "年龄比同班同学相对大的人比他们有一些优势。"
+  },
+  "valid": true,
+  "note": "合并到 compare with"
+ },
+ "come true": {
+  "canonical": "come true",
+  "pos": "v.",
+  "zh": "成为现实，实现",
+  "example": {
+   "id": 0,
+   "en": "It will come true sooner or later.",
+   "zh": "它迟早会实现。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "under control": {
+  "canonical": "under control",
+  "pos": "adj.",
+  "zh": "受到控制，得到控制",
+  "example": {
+   "id": 0,
+   "en": "Keep it under control.",
+   "zh": "把它控制住。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "real estate": {
+  "canonical": "real estate",
+  "pos": "n.",
+  "zh": "房地产，不动产",
+  "example": {
+   "id": 0,
+   "en": "It can reduce companies’ real estate costs.",
+   "zh": "它可以降低公司的房地产成本。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "action figure": {
+  "canonical": "action figure",
+  "pos": "n.",
+  "zh": "（可动的）人偶玩具",
+  "example": {
+   "id": 0,
+   "en": "For that age group, our biggest seller this year has been this action figure.",
+   "zh": "对这个年龄段来说，我们今年卖得最好的就是这款人偶玩具。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "move forward": {
+  "canonical": "move forward",
+  "pos": "v.",
+  "zh": "向前发展，取得进展；继续前进",
+  "example": {
+   "id": 0,
+   "en": "Expect future success so as to move forward.",
+   "zh": "期待未来的成功，以便不断前进。"
+  },
+  "valid": true,
+  "note": "真题里均为引申义（向前推进），不是单纯位置移动"
+ },
+ "take to heart": {
+  "canonical": "take sth to heart",
+  "pos": "v.",
+  "zh": "把……放在心上，十分在意",
+  "example": {
+   "id": 0,
+   "en": "We can never be truly free if taking to heart others’ opinion of us.",
+   "zh": "如果总把别人对我们的看法放在心上，我们就永远无法真正自由。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be seen as": {
+  "canonical": "be seen as",
+  "pos": "v.",
+  "zh": "被视为，被看作",
+  "example": {
+   "id": 1,
+   "en": "It doesn’t take donations and doesn’t want to be seen as a charity.",
+   "zh": "它不接受捐款，也不想被看作慈善机构。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be known as": {
+  "canonical": "be known as",
+  "pos": "v.",
+  "zh": "被称为，被叫作",
+  "example": {
+   "id": 0,
+   "en": "The technology is also known as autonomous cruise control.",
+   "zh": "这项技术也被称为自动巡航控制。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be known for": {
+  "canonical": "be known for",
+  "pos": "v.",
+  "zh": "以……而闻名",
+  "example": {
+   "id": 0,
+   "en": "They are known for their loyalty to their owners.",
+   "zh": "它们以对主人忠诚而闻名。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "generally speaking": {
+  "canonical": "generally speaking",
+  "pos": "adv.",
+  "zh": "一般来说，大体上",
+  "example": {
+   "id": 0,
+   "en": "Generally speaking, soft cheeses are creamy and go well with sweet things like honey and jam.",
+   "zh": "一般来说，软奶酪质地绵滑，很适合搭配蜂蜜、果酱之类的甜食。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by chance": {
+  "canonical": "by chance",
+  "pos": "adv.",
+  "zh": "偶然，碰巧",
+  "example": {
+   "id": 0,
+   "en": "To make sure this wasn't by chance, Wang conducted additional tests.",
+   "zh": "为确保这不是偶然，王进行了额外的测试。"
+  },
+  "valid": true,
+  "note": "例句为原句截取"
+ },
+ "long term": {
+  "canonical": "long term",
+  "pos": "adj.",
+  "zh": "长期的",
+  "example": {
+   "id": 0,
+   "en": "Researchers have previously found a link between eating more fruits and vegetables, and improved longer term mental health.",
+   "zh": "研究人员此前发现，多吃水果蔬菜与长期心理健康的改善之间存在关联。"
+  },
+  "valid": true,
+  "note": "真题中为 longer term（比较级），常写作 long-term"
+ },
+ "special effects": {
+  "canonical": "special effects",
+  "pos": "n.",
+  "zh": "特效",
+  "example": {
+   "id": 0,
+   "en": "Skills shortages in many jobs such as animation and special effects.",
+   "zh": "动画和特效等许多工作都存在技能人才短缺。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "per cent": {
+  "canonical": "per cent",
+  "pos": "n.",
+  "zh": "百分之……，百分比",
+  "example": {
+   "id": 0,
+   "en": "It’s estimated at less than one per cent of the UK’s food waste total.",
+   "zh": "据估计，它占英国食物浪费总量的不到百分之一。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "set one's mind on": {
+  "canonical": "set one's mind on",
+  "pos": "v.",
+  "zh": "决心要，一心想要",
+  "example": {
+   "id": 0,
+   "en": "So have you got your mind set on a specific model?",
+   "zh": "那么你心里有看中的具体型号了吗？"
+  },
+  "valid": true,
+  "note": "真题为被动式 have one's mind set on"
+ },
+ "virtual reality": {
+  "canonical": "virtual reality",
+  "pos": "n.",
+  "zh": "虚拟现实",
+  "example": {
+   "id": 0,
+   "en": "Participants were then placed in a virtual reality setting.",
+   "zh": "随后参与者被置于一个虚拟现实的环境中。"
+  },
+  "valid": true,
+  "note": "例句为原句截取"
+ },
+ "beyond one's means": {
+  "canonical": "beyond one's means",
+  "pos": "adv.",
+  "zh": "超出自己的经济能力",
+  "example": {
+   "id": 0,
+   "en": "Living beyond her means.",
+   "zh": "过着超出自己经济能力的生活。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "new york": {
+  "canonical": "New York",
+  "pos": "n.",
+  "zh": "纽约",
+  "example": {
+   "id": 0,
+   "en": "What do we learn about New York’s Eleven Madison Park?",
+   "zh": "关于纽约的麦迪逊十一号公园餐厅，我们了解到什么？"
+  },
+  "valid": false,
+  "note": "专有名词（地名），不是固定短语；york 任务中应标 X"
+ },
+ "follow suit": {
+  "canonical": "follow suit",
+  "pos": "v.",
+  "zh": "效仿，跟着做",
+  "example": {
+   "id": 0,
+   "en": "It has led some other companies to follow suit.",
+   "zh": "这促使其他一些公司也效仿。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "near miss": {
+  "canonical": "near miss",
+  "pos": "n.",
+  "zh": "差一点成功（的尝试）；险些发生的事故",
+  "example": {
+   "id": 0,
+   "en": "There’s sometimes no penalty to a near miss.",
+   "zh": "有时差一点成功并不会受到惩罚。"
+  },
+  "valid": true,
+  "note": "原句被截断；主旨“差一点成功”"
+ },
+ "nowhere near": {
+  "canonical": "nowhere near",
+  "pos": "adv.",
+  "zh": "远远不及，远没有",
+  "example": {
+   "id": 0,
+   "en": "They are nowhere near as popular as they used to be when we were children.",
+   "zh": "它们远不如我们小时候那么受欢迎了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be anyone's guess": {
+  "canonical": "be anyone's guess",
+  "pos": "v.",
+  "zh": "谁也说不准，没人知道",
+  "example": {
+   "id": 0,
+   "en": "Whether that’s likely, or even possible, anytime soon, is anyone’s guess.",
+   "zh": "这在短期内是否有可能、甚至是否可行，谁也说不准。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "red flag": {
+  "canonical": "red flag",
+  "pos": "n.",
+  "zh": "危险信号，警示信号",
+  "example": {
+   "id": 0,
+   "en": "Another potential red flag is being asked to pay by bank transfer.",
+   "zh": "另一个潜在的危险信号是被要求通过银行转账付款。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sign language": {
+  "canonical": "sign language",
+  "pos": "n.",
+  "zh": "手语",
+  "example": {
+   "id": 1,
+   "en": "He is a sign language interpreter.",
+   "zh": "他是一名手语翻译。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "ahead of schedule": {
+  "canonical": "ahead of schedule",
+  "pos": "adv.",
+  "zh": "提前，比计划提前",
+  "example": {
+   "id": 0,
+   "en": "Scotland will reach the national target in carbon emissions reduction ahead of schedule.",
+   "zh": "苏格兰将提前实现国家碳减排目标。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "by itself": {
+  "canonical": "by itself",
+  "pos": "adv.",
+  "zh": "单独；本身",
+  "example": {
+   "id": 3,
+   "en": "Learning can benefit you by itself but only practice can turn what you learn into meaningful contributions.",
+   "zh": "学习本身对你有益，但只有实践才能把所学变成有意义的贡献。"
+  },
+  "valid": true,
+  "note": "同 by oneself 系列；真题含 Not by itself（单靠这个不行）"
+ },
+ "go into": {
+  "canonical": "go into",
+  "pos": "v.",
+  "zh": "（时间、精力等）投入，花费在",
+  "example": {
+   "id": 1,
+   "en": "You probably haven't taken the time to think of all the work that went into creating the shirt on your back.",
+   "zh": "你多半没花时间想过，你身上这件衬衫在制作中投入了多少工作。"
+  },
+  "valid": true,
+  "note": "真题均为 effort/work goes into sth 的引申义"
+ },
+ "rush hour": {
+  "canonical": "rush hour",
+  "pos": "n.",
+  "zh": "高峰时段，上下班高峰",
+  "example": {
+   "id": 2,
+   "en": "Rush hour in this city is killing me.",
+   "zh": "这座城市的高峰时段快把我折磨死了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "run a red light": {
+  "canonical": "run a red light",
+  "pos": "v.",
+  "zh": "闯红灯",
+  "example": {
+   "id": 0,
+   "en": "That means no running red lights or traveling in the opposite direction of traffic on one-way streets.",
+   "zh": "这意味着不能闯红灯，也不能在单行道上逆行。"
+  },
+  "valid": true,
+  "note": "真题为 running red lights（复数）"
+ },
+ "run into": {
+  "canonical": "run into",
+  "pos": "v.",
+  "zh": "撞上；偶然遇到",
+  "example": {
+   "id": 0,
+   "en": "It was caused by a lorry running into a trailer.",
+   "zh": "事故是一辆货车撞上一辆拖车造成的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "air conditioning": {
+  "canonical": "air conditioning",
+  "pos": "n.",
+  "zh": "空调",
+  "example": {
+   "id": 1,
+   "en": "Well, for example, the subway system could have air conditioning.",
+   "zh": "比如说，地铁系统可以装上空调。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pay regard to": {
+  "canonical": "pay regard to",
+  "pos": "v.",
+  "zh": "重视，关注，考虑",
+  "example": {
+   "id": 0,
+   "en": "He said the people who should be paying regard to the Wang paper are the funding agents.",
+   "zh": "他说，应该重视王这篇论文的是出资机构。"
+  },
+  "valid": true,
+  "note": "例句为原句截取（原句被截断）；更常见写法为 pay regard to / have regard to"
+ },
+ "natural history": {
+  "canonical": "natural history",
+  "pos": "n.",
+  "zh": "博物学，自然史",
+  "example": {
+   "id": 0,
+   "en": "that teenagers will be able to take a natural history test",
+   "zh": "青少年将能参加博物学测验。"
+  },
+  "valid": true,
+  "note": "原句被截断，example 为截取简化，建议复核"
+ },
+ "moving forward": {
+  "canonical": "moving forward",
+  "pos": "adv.",
+  "zh": "今后，从现在起",
+  "example": {
+   "id": 0,
+   "en": "There are some factors that could affect the budget moving forward.",
+   "zh": "有一些因素今后可能会影响预算。"
+  },
+  "valid": true,
+  "note": "与 move forward（向前发展）意思不同，不合并"
+ },
+ "move ahead": {
+  "canonical": "move ahead",
+  "pos": "v.",
+  "zh": "向前移动",
+  "example": {
+   "id": 0,
+   "en": "Barely capable of moving ahead.",
+   "zh": "几乎无法向前移动。"
+  },
+  "valid": false,
+  "note": "ahead 只表示字面的方向，move + 方向，不算固定短语"
+ },
+ "turn over": {
+  "canonical": "turn over",
+  "pos": "v.",
+  "zh": "翻倒，翻转",
+  "example": {
+   "id": 0,
+   "en": "At around half past nine this morning, a trailer attached to a lorry turned over at the crossing of High Street in Milton.",
+   "zh": "今天上午九点半左右，一辆货车挂着的拖车在米尔顿高街的路口翻倒了。"
+  },
+  "valid": true,
+  "note": "只有一句，turn over 偏字面翻转，但“翻车”义学习者不易推出，保留；可复核"
+ },
+ "in turns": {
+  "canonical": "in turns",
+  "pos": "adv.",
+  "zh": "轮流，依次",
+  "example": {
+   "id": 0,
+   "en": "Fats and sugar have taken the beating in turns since over a century ago.",
+   "zh": "一个多世纪以来，脂肪和糖轮番遭到抨击。"
+  },
+  "valid": true,
+  "note": "例句为原句截取前半；标准写法常为 in turn / in turns"
+ },
+ "work wonders": {
+  "canonical": "work wonders",
+  "pos": "v.",
+  "zh": "创造奇迹，产生奇效",
+  "example": {
+   "id": 0,
+   "en": "A good suit works wonders for our performance in the boardroom.",
+   "zh": "一套好西装对我们在会议室的表现有奇效。"
+  },
+  "valid": true,
+  "note": "例句为原句截取"
+ },
+ "hold sth in common": {
+  "canonical": "have sth in common",
+  "pos": "v.",
+  "zh": "共有，有共同点",
+  "example": {
+   "id": 0,
+   "en": "We understand instinctively that the stories we hold in common are an important part of the ties that bind.",
+   "zh": "我们本能地明白，我们共有的故事是维系彼此的纽带的重要组成部分。"
+  },
+  "valid": true,
+  "note": "规范写法 have sth in common（真题里动词为 hold）；例句为原句截取"
+ },
+ "get sb nowhere": {
+  "canonical": "get sb nowhere",
+  "pos": "v.",
+  "zh": "对某人毫无帮助，徒劳无功",
+  "example": {
+   "id": 0,
+   "en": "It gets us nowhere.",
+   "zh": "这对我们毫无帮助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go back": {
+  "canonical": "go back",
+  "pos": "v.",
+  "zh": "追溯到，可追溯至",
+  "example": {
+   "id": 1,
+   "en": "Human fascination with animals goes back as far as humans do.",
+   "zh": "人类对动物的迷恋可以追溯到人类诞生之初。"
+  },
+  "valid": true,
+  "note": "真题均为引申义“追溯到”（不是“回去”），若为字面义才不算短语；例句为原句截取"
+ },
+ "go both ways": {
+  "canonical": "go both ways",
+  "pos": "v.",
+  "zh": "双向的",
+  "example": {
+   "id": 0,
+   "en": "The relationship probably goes two ways.",
+   "zh": "这种关系很可能是双向的。"
+  },
+  "valid": false,
+  "note": "真题原文是 goes two ways，普通搭配（go + 数量），不是固定短语"
+ },
+ "fall asleep": {
+  "canonical": "fall asleep",
+  "pos": "v.",
+  "zh": "入睡，睡着",
+  "example": {
+   "id": 0,
+   "en": "It induces people to fall asleep.",
+   "zh": "它会让人入睡。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fall by the wayside": {
+  "canonical": "fall by the wayside",
+  "pos": "v.",
+  "zh": "半途而废；被淘汰",
+  "example": {
+   "id": 0,
+   "en": "The ones that fall to the wayside.",
+   "zh": "那些半途而废的。"
+  },
+  "valid": true,
+  "note": "真题原文为 fall to the wayside（疑为 OCR 或变体），规范写 fall by the wayside"
+ },
+ "for ages": {
+  "canonical": "for ages",
+  "pos": "adv.",
+  "zh": "很长时间，好久",
+  "example": {
+   "id": 0,
+   "en": "I’ve never done it before and I know that you’ve been doing it for ages.",
+   "zh": "我以前从没做过，而我知道你已经做了很久了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "human race": {
+  "canonical": "human race",
+  "pos": "n.",
+  "zh": "人类",
+  "example": {
+   "id": 0,
+   "en": "It is a unique trait specific to the human race.",
+   "zh": "这是人类特有的独特特征。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "digital divide": {
+  "canonical": "digital divide",
+  "pos": "n.",
+  "zh": "数字鸿沟",
+  "example": {
+   "id": 0,
+   "en": "The KaiOS devices offer an alternative to the more expensive models that remain out of reach of many Africans and contribute to the digital divide.",
+   "zh": "KaiOS 设备为许多非洲人买不起的较贵机型提供了替代选择，而这些机型加剧了数字鸿沟。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "head office": {
+  "canonical": "head office",
+  "pos": "n.",
+  "zh": "总部，总公司",
+  "example": {
+   "id": 1,
+   "en": "I’ve never been to the head office, you know.",
+   "zh": "你知道的，我从没去过总部。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "nursing home": {
+  "canonical": "nursing home",
+  "pos": "n.",
+  "zh": "养老院，疗养院",
+  "example": {
+   "id": 0,
+   "en": "Nursing homes should be strictly limited in size.",
+   "zh": "养老院的规模应当受到严格限制。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hot dog": {
+  "canonical": "hot dog",
+  "pos": "n.",
+  "zh": "热狗",
+  "example": {
+   "id": 0,
+   "en": "Besides, I don’t think I could ever give up a good hot dog at a baseball game.",
+   "zh": "再说，我觉得我永远没法在棒球赛上放弃一份好吃的热狗。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "safety net": {
+  "canonical": "safety net",
+  "pos": "n.",
+  "zh": "安全网，保障（措施）",
+  "example": {
+   "id": 0,
+   "en": "It is the safety net for those who fall off the edge of existence.",
+   "zh": "它是为那些掉出生存边缘的人准备的安全网。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "behind closed doors": {
+  "canonical": "behind closed doors",
+  "pos": "adv.",
+  "zh": "私下里；在不公开的场合",
+  "example": {
+   "id": 0,
+   "en": "These questions can reveal what it’s really like behind closed doors.",
+   "zh": "这些问题能揭示内部实际是什么样子。"
+  },
+  "valid": true,
+  "note": "例句为原句截取并简化"
+ },
+ "hold hands": {
+  "canonical": "hold hands",
+  "pos": "v.",
+  "zh": "牵手",
+  "example": {
+   "id": 0,
+   "en": "In certain countries, men can publicly hold hands as signs of brotherhood or friendship.",
+   "zh": "在某些国家，男性可以公开牵手，以表示兄弟情或友谊。"
+  },
+  "valid": true,
+  "note": "例句为原句截取并简化；字面义较明显，但属固定搭配，可复核"
+ },
+ "shake hands": {
+  "canonical": "shake hands",
+  "pos": "v.",
+  "zh": "握手",
+  "example": {
+   "id": 0,
+   "en": "He was shaking hands with other members as they walked through the door.",
+   "zh": "他在其他成员走进门时和他们一一握手。"
+  },
+  "valid": true,
+  "note": "例句为原句截取并改写，建议复核"
+ },
+ "heart attack": {
+  "canonical": "heart attack",
+  "pos": "n.",
+  "zh": "心脏病发作",
+  "example": {
+   "id": 0,
+   "en": "For example, women are more likely to experience disturbed sleep, anxiety and unusual fatigue before a heart attack.",
+   "zh": "例如，女性在心脏病发作前更可能出现睡眠紊乱、焦虑和异常疲劳。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "under attack": {
+  "canonical": "under attack",
+  "pos": "adj.",
+  "zh": "受到攻击，受到抨击",
+  "example": {
+   "id": 0,
+   "en": "Recently, the clothing industry has come under attack for creating a waste problem with serious environmental consequences.",
+   "zh": "最近，服装业因制造出带来严重环境后果的浪费问题而受到抨击。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "eye contact": {
+  "canonical": "eye contact",
+  "pos": "n.",
+  "zh": "眼神交流",
+  "example": {
+   "id": 0,
+   "en": "Make eye contact or assess a student’s level of engagement.",
+   "zh": "进行眼神交流，或评估学生的参与程度。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "fine dining": {
+  "canonical": "fine dining",
+  "pos": "n.",
+  "zh": "高档餐饮，精致餐饮",
+  "example": {
+   "id": 0,
+   "en": "It shows a daring foresight regarding future fine dining.",
+   "zh": "它显示出对未来高档餐饮的大胆远见。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "labor force": {
+  "canonical": "labor force",
+  "pos": "n.",
+  "zh": "劳动力，劳动人口",
+  "example": {
+   "id": 1,
+   "en": "More men than women are likely to stay in the labor force until their late seventies.",
+   "zh": "留在劳动力队伍中直到七十多岁的男性可能比女性更多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be created equal": {
+  "canonical": "be created equal",
+  "pos": "v.",
+  "zh": "生而平等；（引申）都一样",
+  "example": {
+   "id": 0,
+   "en": "Not all books are created equal, so parents need to choose the books they share with their children with great care.",
+   "zh": "并非所有书都一样好，所以父母要非常用心地挑选与孩子共读的书。"
+  },
+  "valid": true,
+  "note": "真题用法是否定式 not all ... are created equal（并非都一样）"
+ },
+ "bring sb up to date": {
+  "canonical": "bring sb up to date",
+  "pos": "v.",
+  "zh": "让某人了解最新情况",
+  "example": {
+   "id": 0,
+   "en": "A new systematic review brings us usefully up-to-date on the current findings in this area.",
+   "zh": "一项新的系统性综述让我们切实了解了该领域的最新发现。"
+  },
+  "valid": true,
+  "note": "例句为原句截取"
+ },
+ "bring together": {
+  "canonical": "bring together",
+  "pos": "v.",
+  "zh": "使聚集，把……汇集起来",
+  "example": {
+   "id": 0,
+   "en": "Design brings together other subjects such as literature and art.",
+   "zh": "设计把文学、艺术等其他学科汇集在一起。"
+  },
+  "valid": true,
+  "note": "例句为原句截取并简化"
+ },
+ "sweet spot": {
+  "canonical": "sweet spot",
+  "pos": "n.",
+  "zh": "最佳点，最佳平衡点",
+  "example": {
+   "id": 0,
+   "en": "Their conclusions about what The Guardian described as this “sweet spot” are in line with the so-called Goldilocks",
+   "zh": "他们关于这个“最佳点”的结论与所谓的“金发姑娘原则”相符。"
+  },
+  "valid": true,
+  "note": "原句被截断（只有一句），example 保留残句，建议复核"
+ },
+ "place an order": {
+  "canonical": "place an order",
+  "pos": "v.",
+  "zh": "下订单",
+  "example": {
+   "id": 0,
+   "en": "Kate placed the order and ran off to play.",
+   "zh": "凯特下了单，跑去玩了。"
+  },
+  "valid": true,
+  "note": "例句为原句截取"
+ },
+ "artificial intelligence": {
+  "canonical": "artificial intelligence",
+  "pos": "n.",
+  "zh": "人工智能",
+  "example": {
+   "id": 0,
+   "en": "Artificial intelligence just isn't smart enough yet.",
+   "zh": "人工智能还不够聪明。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "grade school": {
+  "canonical": "grade school",
+  "pos": "n.",
+  "zh": "小学（美）",
+  "example": {
+   "id": 0,
+   "en": "At the gate of a grade school in Kent.",
+   "zh": "在肯特郡一所小学的门口。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "bring sth to the light of day": {
+  "canonical": "bring sth to light",
+  "pos": "v.",
+  "zh": "揭示，使公之于众",
+  "example": {
+   "id": 0,
+   "en": "David Foulkes studies children to bring the secrets of their dreams to the light of day.",
+   "zh": "大卫·福克斯研究儿童，以揭开他们梦境的秘密。"
+  },
+  "valid": true,
+  "note": "规范写法 bring sth to light；真题为 to the light of day；例句为原句截取（去掉括号）"
+ }
+}

@@ -23,7 +23,7 @@ OFF = int(sys.argv[2]) if len(sys.argv) > 2 else 0
 tpl = (ROOT / "web" / "template.html").read_text()
 data = json.loads((ROOT / "intermediate" / "entries_full.json").read_text())
 slim = [{k: e[k] for k in
-         ("rank", "word", "syl", "uk", "us", "def", "ex_label", "ex", "root", "core")}
+         ("rank", "word", "syl", "uk", "us", "def", "ex_label", "ex", "root", "core", "phr")}
         for e in data[OFF:OFF + N]]
 
 html = (tpl

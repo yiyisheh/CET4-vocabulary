@@ -1,0 +1,447 @@
+# 任务 C_r1_89：3 个词，407 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_89.labels.txt
+
+============================================================
+## 词：such    本段 30 句    模式：全标（每句都写）
+原释义：adj.这样的; 如此的. pron.这样的人/事物.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  det. 这样的，这种（指前面说过的）    B 样本 23    例：Such ___27___ accomplishments
+  1  det. 如此的，这么（加强语气：such a + 形容词 + 名词）    B 样本 8    例：M: Yes, it’s such an important lesson to learn.
+  2  pron. 这样的人或事物    B 样本 0
+已标过的短语：such as（45）；such ... that（4）；as such（1）；no such thing as（1）
+口径说明（照此执行）：
+  - such as（例如）按 P 标，such + 名词 + as…（像…这样的）也统一标 P:such as；such…that（如此…以至于，含 to such an extent that、in such a way that）标 P:such ... that；as such（因此；作为这样的）标 P:as such；no such thing as 标 P:no such thing as。see such exercises as harmful 里的 as 属于 see…as，按义项0标。
+句子：
+95 | E) With 【such】 a degree of professionalism, how can consumers find out if the website they’re looking to book with is trustworthy?
+89 | “I don’t think it’s 【such】 a simple formula.
+83 | The purpose of 【such】 action is to fund an enormous multibillion-dollar, 10-year program of housing and social services for the homeless.
+103 | Action Fraud says people should ensure the company renting the villa is a member of a recognized trade body 【such】 as ABTA.    ?P:such as
+107 | G) “By working with industry partners 【such】 as ABTA and Get Safe Online, we are able to issue alerts about the latest threats they should be aware of.    ?P:such as
+90 | 【such】 as Design Ventura, which helps to bring the standard curriculum to life,” says Cleaver.    ?P:such as
+98 | However, research shows that authorised absences from school 【such】 as during extreme    ?P:such as
+93 | They recommend providing young men opportunities to work with children through training and volunteer programs, targeting groups of men who are considering a career change, 【such】 as fathers.    ?P:such as
+99 | First, they paused and reconsidered beliefs 【such】 as “I'm a professional, so I should work, work, work”, and asked    ?P:such as
+82 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, 【such】 as if she had family pictures up in her hospital room or flowers delivered.    ?P:such as
+106 | Companies 【such】 as Impossible Foods and Beyond Meat — the    ?P:such as
+101 | The large majority of our traits and diseases also depend upon non-genetic factors, 【such】 as lifestyle, the environment, and    ?P:such as
+86 | In contrast, anaerobic exercise—【such】 as lifting heavy    ?P:such as
+91 | fight phantom jams within a few years, maybe decades before an alternative solution, 【such】 as networked self-driving cars,    ?P:such as
+96 | None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, 【such】 as patience and risk avoidance.    ?P:such as
+100 | G) Traffic jams are caused by a number of factors, 【such】 as roads that are poorly designed or over-capacity, localized factors    ?P:such ... that ?P:such as
+80 | Issues 【such】 as safety of the product and perception of the public were examined and considered.    ?P:such as
+88 | tradition is now over for pupils in several US states 【such】 as South Carolina, Nevada, Georgia and Indiana.    ?P:such as
+81 | Fraudsters also invest in pay-per-click advertising to feature at the top of search engines when people type in phrases 【such】 as “Spanish seaside villas”.    ?P:such as
+104 | We found that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, 【such】 as spending their company’s money less carefully—explains these differences.    ?P:such as
+105 | point was reached in 2020 when human-made materials — 【such】 as steel, concrete and plastic — were found to weigh more    ?P:such as
+84 | We wanted to determine what was causing these gender differences in booking business trips so we tested a variety of possible explanations, 【such】 as women choosing to plan ahead or male frequent travelers being inclined to book late.    ?P:such as
+102 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding 【such】 conversations, let the debates be transparent and vigorous, wherever they are held.
+87 | 【Such】 corporate sponsorship is widespread in some fields.
+85 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how 【such】 feelings are affecting your decision-making.
+108 | wood has 【such】 health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.    ?P:such ... that
+97 | weights—is of 【such】 ___32___ intensity that your body does not have time to use oxygen to create energy and so instead it    ?P:such ... that
+92 | Although 【such】 managers
+109 | 【Such】 planting is a small step for humanity — in the
+94 | But some experts worried that 【such】 public speculation might lead people to believe that disagreement about the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+
+============================================================
+## 词：before    本段 5 句    模式：全标（每句都写）
+原释义：prep./conj./adv.在…以前; 之前.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 在…之前（后接从句）    B 样本 29    例：Finish them before they get tired.
+  1  prep. 在…之前（时间）    B 样本 30    例：before making your choices.
+  2  adv. 以前，之前，曾经    B 样本 18    例：She has had babies before.
+  3  prep. 在…前面（位置、次序）；在…面前    B 样本 1    例：number coming before it.
+已标过的短语：before long（1）；before one knows it（1）
+口径说明（照此执行）：
+  - 口径：后接从句标 conj.(0)；后接名词/动名词标 prep.(1)；单独使用（句末、than/as before、ever before、three years before）标 adv.(2)；表位置或次序（the number coming before it）标 3。before long（不久）、before one knows it（不知不觉，转眼间）标 P。
+句子：
+81 | Many women also do not experience chest pain 【before】 a heart attack the way men do, which leads to fewer women discovering problematic heart issues.
+82 | After all, it’s a good thing to know 【before】 actually accepting an offer.
+80 | Fountains could be seen in cities 【before】 bottled water became popular
+84 | It’s what motivates non-human animals, human infants and probably human adults to explore and seek out new things 【before】 growing less interested in them after continued exposure.
+83 | It is important to talk through these issues 【before】 they come to a head.
+
+============================================================
+## 词：was    本段 372 句    模式：全标（每句都写）
+原释义：v.是; 存在(be 的第一和第三人称单数过去式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 是（连接主语和表语，说明身份、性质、状态）    B 样本 42    例：It was smooth.
+  1  aux. 被（构成被动语态：was + 过去分词）    B 样本 31    例：She was brought from Africa.
+  2  aux. 正在（构成过去进行时：was + 动词-ing）    B 样本 7    例：She was coughing all the time.
+  3  v. 有，存在（there was…）    B 样本 3    例：There was some variability in some countries.
+  4  v. 在，位于（某处、某时）    B 样本 1    例：The latest discovery was on Monday, meaning four of these cash bundles have been handed in this year and 13 since 2014.
+  5  aux. （was to do）按安排要做，注定要    B 样本 0
+口径说明（照此执行）：
+  - 口径：was + 过去分词表示动作（有或可补 by 施动者）标被动(1)；表情绪/状态的分词形容词（surprised、shocked、puzzled、tired、involved、closed 表持续关闭等）标「是」(0)；was able to / was likely to / was due to 标 0；there was 标 3；was going to 标 P:be going to；was meant to（本应）标 P:be meant to。
+句子：
+236 | Like other outsiders, I 【was】
+288 | What their favorite cartoon character 【was】.
+388 | In 1979, that number 【was】 9%.
+422 | less qualified and not as smart as I 【was】.
+352 | The year 2020 【was】 a big turning point in human history.
+268 | Perhaps they made the sound of wind to comment on the weather or imitated the sound of a bird to tell a friend that there 【was】 a bird nearby.
+237 | And his story 【was】 a bit vague to begin with.
+195 | See, I did think it 【was】 a bit weird for him to be asking for money for that sort of thing.
+416 | This 【was】 a claim made by The Times last week.
+313 | Church records show he’s baptized (施洗礼) on April 26, and 3 days 【was】 a customary amount of time to wait before baptizing a newly born baby.
+382 | There 【was】 a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.
+359 | My grandfather 【was】 a duck hunter.
+91 | [5] It 【was】 a heartwarming moment that dozens of Indian rescuers rallied together to use a crane in order to save an elephant trapped at the bottom of a 20-foot well.
+317 | He needed a sign language interpreter for every meeting, but it 【was】 a huge effort to coordinate.
+119 | It 【was】 a huge success.
+349 | Similar percentages of men and women said they enjoyed their careers and that it gave them a sense of achievement, while around half of women and 44% of men said it 【was】 a key part of their identity.
+386 | I haven’t been to a zoo since I 【was】 a kid.
+126 | "I started lion dancing when I 【was】 a kid," he said.
+284 | Thus, they wanted to determine if there 【was】 a link between protection of women’s rights and public health.
+294 | One of the male tourists from Australia commented that although there 【was】 a lot of trash, nobody 【was】 doing anything.
+309 | It 【was】 a mad gamble few chefs in the fine dining world would risk taking.
+435 | Over 70% of male educators who said they intended to stay in the early education workforce noted an increased salary 【was】 a major motivating factor for them to commit to the career long-term.
+108 | Her uncontrollable coughing 【was】 a mystery.
+394 | Kelli Harding 【was】 a participant in a summer course the author taught.
+421 | He often led pre-race parades at Aintree Racecourse and 【was】 a popular guest at charity benefits and public events.
+433 | W: [15] Actually, it 【was】 a quarter of people.
+424 | It 【was】 a response to the changing job market.
+115 | The authors _34_ that this 【was】 a review of observational studies and did not _35_ cause and effect.
+186 | It 【was】 a shelter for wild animals.
+163 | There 【was】 a terrible smell.
+396 | At Fox Broadcasting Company, he 【was】 a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.
+351 | I) What Keynes predicted 【was】 a very optimistic version of what economists call technological unemployment.
+414 | It 【was】 a way to advance in their career.
+120 | “At first, I thought this 【was】 a wonder, because everything 【was】 so _32_, but then we realized that this is a huge _33_ in the end,” said the mayor.
+315 | It 【was】 a world apart from her undergraduate days at the University of California–Berkeley majoring in political science.
+273 | It 【was】 a worthwhile effort even though he 【was】 unsure of its success.
+168 | She 【was】 accused of violating a city law.
+445 | It 【was】 actually the end of a racing career that had just begun.
+368 | Another mentioned that it 【was】 actually the natives who brought food and drinks then left trash all along the island.
+153 | It 【was】 Alice Gray’s lovely pet.
+145 | “We weren’t even sure it 【was】 alive.
+279 | But while they knew Prickles 【was】 alive, they couldn’t find her and never expected her to return by herself.
+149 | But I can’t quite remember what it 【was】 all about.
+204 | “They came back with believable answers; it 【was】 all very friendly and professional,” she says.
+369 | Derek Rotondo, 35, filed the discrimination charge against his company after he 【was】 allegedly told by his HR department that mothers were considered primary caregivers.
+451 | The interior of the house, including fittings and furniture, 【was】 also designed by the same person.
+334 | Last year, a German federal court said the shade of the gold wrapping 【was】 also protected.
+210 | It 【was】 always a normal person in a costume.
+296 | I think Jeremy has been there and said it 【was】 amazing.
+361 | Police have sealed off the runway, and say it is unclear if it 【was】 an accident or an attempted robbery.
+320 | Thus this sustainable option 【was】 an economic option too.
+231 | Sir Alfred Hitchcock 【was】 an English movie director and producer.
+269 | He 【was】 an extraordinary director who
+188 | It 【was】 an outlet for their personal fulfillment.
+276 | Joyce said 【was】 an unattainable ideal.
+360 | He 【was】 52 and had retired to Stratford three years before.
+162 | And then all of a sudden, it turned out there 【was】 another waiting to come out.
+338 | Shakespeare’s date of death is _27_ known, however: it 【was】 April 23, 1616.
+251 | He 【was】 asked to present a gold medal to Miu Goto.
+219 | Walter 【was】 astonished to find that he matched with website user Robi737.
+415 | Recently, I 【was】 at a gathering of colleagues when someone turned to me and asked, “So, what’s new with you?
+321 | A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport 【was】 at its best when he 【was】 allowed to act as "a dictator.
+285 | In 2020, the Nobel Peace Prize 【was】 awarded to the World Food Programme (WFP).
+426 | The claim 【was】 based on a new review of studies about the effects of running.
+293 | The study 【was】 based on data from more than 88,000 U.S. adults who _29_ in the National Health Interview Survey between 1997 and 2008.
+420 | Researchers say this 【was】 because participants anticipated more negative judgment from an outsider group.
+417 | Cheating 【was】 becoming a way of life for a majority of high school teens.
+171 | It 【was】 being treated for an outer skin infection.
+146 | [5] Security officers were searching a suburb in Australia where an adult snake 【was】 believed to be wandering after the discovery of a huge, freshly shed snakeskin. [6] The skin 【was】 found at a construction site, and the government wrote to residents to warn them.
+316 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals and doctors 【was】 below average, health outcomes were still better than in countries rated as moderate or poor.
+290 | For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, 【was】 Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially on his own.
+278 | But it is impossible to know the _26_ day on which he 【was】 born.
+179 | The clone 【was】 born in a laboratory in Beijing in December.
+240 | It is commonly believed that the great English dramatist and poet William Shakespeare 【was】 born in Stratford-on-Avon on April 23, 1564.
+357 | Branyas 【was】 born in the United States on April 4, 1907, but her family moved to Spain, where they were originally from when she 【was】 a young child.
+255 | "I 【was】 born into it," Mr.
+106 | Zoo officials say the baby 【was】 born on Monday.
+107 | It 【was】 born 13 years ago.
+258 | When their hobby 【was】 both serious and similar to their job, then spending more time on it actually decreased their work _31_.
+191 | So I gently pushed it with a stick to check it 【was】 breathing and saw it 【was】 a terrified little cat.
+215 | It 【was】 brought up by two staffers.
+197 | It 【was】 built above the sea-water.
+203 | The city 【was】 built by European settlers.
+239 | The restaurant 【was】 built on a wooden structure above the sea-water.
+335 | Basically, she miscalculated how fast she 【was】 burning through the money, and she’s now full of regret.
+305 | His fascination with crime began at an early age when he 【was】 ___29___ by his father who made him spend a few minutes
+113 | Smith says he 【was】 _28_ by how past studies on success “assumed what people will care about.
+177 | But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it 【was】 cable TV, not the internet, that struck a blow at that culture in the 1980s.
+103 | Police said that the car had come to a halt after hitting the sign, but did not appear to be seriously damaged, although an ambulance 【was】 called to check on the pensioner.
+124 | How the snake 【was】 captured.
+161 | My family 【was】 careful to ask about the chances of financial aid being taken away after my freshman year.
+314 | The aircraft 【was】 carrying 265 million pounds worth of gold and diamonds, when the door flew open—sending the precious metal back to earth.
+347 | We wanted to determine what 【was】 causing these gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.
+190 | Katharine Abraham, an economics professor, 【was】 chatting with her hairdresser about retirement plans.
+252 | For years, using recycled plastic to make plastic products 【was】 cheap.
+275 | M: (15) I actually found that it 【was】 cheaper for me, as I live quite far away from my local supermarket.
+343 | It 【was】 cheaper than using fossil fuel plastic.
+152 | Zoo officials said during this pregnancy, she 【was】 closely monitored through physical exams and blood tests.
+245 | Pasternak also came away with some valuable observations about how different the North American way of life 【was】, compared with many other countries.
+112 | “I 【was】 comparing prices online and found one that came in a bit cheaper than others,” says O’Shaughnessy.
+202 | On paper, the job seemed perfect for me: The position 【was】 completely in line with my degree, the duties and responsibilities were compatible with my interests, and the office maintained a well-stocked kitchen that would satisfy my every snack desire.
+374 | The research 【was】 conducted by scientists from Michigan State University.
+403 | It 【was】 considered a fashion at that time.
+250 | The act of keeping her own last name 【was】 considered taboo (禁忌) and people’s eyebrows would raise right off their faces when they found out that the bride 【was】 even considering something so radical.
+400 | One survey taker explained, “The greatest challenge for me 【was】 continuing to believe in myself, when all the messages
+407 | Previously, the doctors made voice recordings that were then transcribed by secretaries—a process that 【was】 costly and likely to cause delays.
+364 | The video from National Geographic 【was】 created to spread __32__ of how environmentally harmful cotton is.
+306 | By allowing employees to donate their time during work hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. [21] In one survey, 89% of employees perceived companies that sponsored volunteer activities as creating a better working environment, and 75% said volunteering 【was】 critical to their well-being.
+274 | decimal language because an ancestral tongue, proto-Indo-European, 【was】 decimally based.
+310 | European 【was】 decimally oriented because, as in so many cultures, our ancestors' hands served as the
+429 | Chase Carey 【was】 deeply impressed by the ceremony preceding last year's Monaco race.
+406 | The author 【was】 deeply moved by what Kelli Harding wrote about her current life.
+121 | Kate 【was】 depressed at first, but then she sat with some girl patients and they opened up all the boxes together, laughing and playing.
+442 | It 【was】 designed and built for a local entrepreneur and his family.
+383 | The service 【was】 designed to be cheap and easy to run, says Mr Dittoh.
+318 | The math task in one experiment 【was】 designed to test participants’ tendency to cheat.
+272 | The type of snake 【was】 determined to be one of the world’s largest snake species.
+303 | Well you’d expect the Design Museum to commission and make some interesting items, but this one 【was】 different.
+434 | It 【was】 difficult to keep a job for long.
+244 | The weekly tuition-free class, in a roomy space that Ralph Nader and his Public Citizen nonprofit group provided, 【was】 discussion-based and required no useless homework or exams.
+249 | The unethical behavior they chose 【was】 dishonesty.
+169 | Some Olympians said they treat their medals as treasures and that it 【was】 disrespectful and unacceptable for Kawamura to bite one.
+225 | All of this 【was】 done in the name of increasing job satisfaction and giving workers greater flexibility,
+397 | From 1996 to 2016, the pace at which immigrants started businesses 【was】 double that of U.S.-born individuals.
+363 | The change 【was】 dramatic.
+346 | That reality 【was】 driven home this month by a new Los Angeles Homeless Services Authority report showing that the county's homeless population is growing faster than the supply of new housing.
+221 | Although he only had three dollars in his wallet, at least he 【was】 driving in the right direction.
+167 | But the Australian researchers wanted to discover what 【was】 driving these differences.
+441 | Roger Harris confirmed that this 【was】 due to a change in the school’s uniform policy.
+392 | He did not go to university and at age 18 married Anne Hathaway, who 【was】 eight years his _32_.
+409 | Over 40% of Fortune 500 companies had a founder who 【was】 either an immigrant or the child of one.
+198 | Three years ago, a couple 【was】 enjoying a meal at a beach restaurant.
+295 | Of those surveyed, 62% of fathers took the maximum amount of time off compared to 93% of mothers, and around three-quarters of workers said their employer 【was】 equally supportive of mothers and fathers taking parental leave and over half said leave policies had made workplace culture better.
+235 | It 【was】 established as a three-star Michelin restaurant in 2011.
+189 | After all, I did that during high school and my commute 【was】 even longer then.
+125 | The snake 【was】 eventually captured by the local animal handlers and taken to an animal hospital afterward.
+134 | After six days of desperate searching, he 【was】 eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.
+299 | The reply 【was】 exactly the same.
+85 | As 【was】 expected, when people thought of their present selves, their brains were observed to become more active.
+99 | The fine dining establishment received its first three-star Michelin rating in 2011 when the menu 【was】 famed for its fancy
+193 | It 【was】 famed throughout the U.S. for its fancy regional dishes.
+196 | People's calorie intake 【was】 far from accurately reported.
+419 | He 【was】 fascinated.
+110 | She 【was】 finally rescued by her relatives.
+450 | The traditional school year, with three months of vacation every summer, 【was】 first implemented when America 【was】 an agricultural society and the summer months were needed for farm work.
+201 | It 【was】 found that American youngsters today don’t socialize nearly as much as the earlier generations.
+389 | The ideal level of perfectly livable habitat 【was】 found to be only 80% of an area,
+281 | What problem 【was】 found with employees using social media for work?
+385 | The U.S. 【was】 founded by successive waves of immigrants, and immigrants are still contributing to America today—statistics prove it.
+365 | John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States 【was】 framing itself in a way that had lasting appeal.
+151 | It 【was】 frequented by newly-weds.
+337 | It 【was】 from 1855 and worth as much as $2,000.
+158 | She emailed the company via its website, asking how far the villa 【was】 from the airport and about local restaurants.
+292 | By the age of 14, he 【was】 fully enrolled in the athletic club's lion dance group.
+336 | Last year, The New York Times revealed how Coca-Cola 【was】 funding well-known scientists and
+82 | In the 1930s, parents worried that radio 【was】 gaining “an irresistible hold of their children”.
+440 | Not to take seriously all the messages she 【was】 getting.
+427 | Cheating 【was】 getting more and more difficult for high school students.
+280 | Well, I could come and go as I please, as long as I 【was】 getting the work done.
+412 | I 【was】 getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly
+174 | Alan 【was】 given away for adoption soon after he 【was】 born, and Walter never knew his father. [3] So recently, they made separate attempts on DNA matching websites to discover more about their ancestry.
+90 | The elephant 【was】 given medical treatment for many days.
+398 | I 【was】 given three books over Christmas, and I’m only now getting around to reading them.
+267 | It 【was】 good fun,
+323 | Today, a greater and greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market 【was】 growing increasingly unforgiving.
+425 | If labelling obesity as a disease 【was】 harmless then it wouldn’t really matter.
+399 | Red Rum 【was】 headed for the Grand National once again in 1978 but suffered an injury in one of his heels shortly before the race.
+432 | What does one survey taker say 【was】 her greatest challenge?
+257 | He knew immediately that this 【was】 his best friend Alan, whose friends call him Robi and flew 737 airplanes when he 【was】 a pilot. [4] The pair were born to the same mother 15 months apart.
+413 | I just get anxious before I fly and feel nervous the whole time we’re in the air, which is why I 【was】 hoping the television program would cover that topic more than it did.
+298 | In 1930 the average working week 【was】 47 hours in the United States.
+160 | But overall, the study found little evidence that time spent on screens 【was】 hurting social skills for most children.
+402 | As I read an article on the subject in the past that suggested the opposite, it claimed that it 【was】 important not to miss meals and that taking a nap on the plane 【was】 the best way to adjust to a new time zone.
+247 | At around 20 kilograms per person global fish consumption is now more than twice what it 【was】 in the 1960s.
+282 | The course attracted mostly congressional interns (实习生), with a few exceptions like Kelli who 【was】 in Washington as an AmeriCorps volunteer.
+170 | Whether the snake 【was】 infected.
+96 | It 【was】 injured during the rescue.
+178 | It 【was】 insignificant.
+224 | [7] City Council Member Anna Cumber 【was】 instrumental in introducing the electric bikes to Jacksonville as a way to bring new life into downtown.
+287 | The research published by two scientists 【was】 intended to examine the relationship between dishonesty and creativity.
+356 | M: Yes. [12] The part about overcoming jet lag 【was】 interesting.
+395 | In one example, the phrase "Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant" 【was】 interpreted as sending a message to Jason only, containing the text "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant".
+230 | Additionally, we’re the only animal that expresses thoughts in full sentences. [16] Researchers don’t think language 【was】 invented; instead, they think it evolved.
+129 | He 【was】 involved in a terrible car accident last April.
+194 | He 【was】 involved in a traffic accident.
+199 | She 【was】 issued a new card.
+327 | For Ginger and Red Rum, though, it 【was】 just an obstacle to greatness that had to be overcome.
+150 | performance of the close losers 【was】 just as good.
+211 | Once upon a time, it 【was】 just customary for a bride to take her groom’s last name as her own and abandon her maiden name completely.
+166 | There 【was】 just one problem for the German children who received them: They were written in Russian.
+183 | The police assured everyone that it 【was】 just thunder and lightning rather than some military exercise.
+362 | It 【was】 kindness.
+370 | When he returned in 1977 to try again, he 【was】 largely regarded as past his prime.
+345 | After two staffers returned to their share, there 【was】 $700 leftover according to Tarah Morris, the owner of the restaurant, so they decided to do something more by creating the board.
+436 | But crucially, this 【was】 less so if they had completed the 30-minute jog.
+372 | In 1970, the percentage of women majoring in engineering 【was】 less than 1%.
+428 | The average single-family home built in the United States before 1970 【was】 less than 1,500 square feet in size.
+86 | “It 【was】 like a split second of panic…that resulted in this nervous reaction on the plane,” said passenger Brian Healy. [2] “There 【was】 total quiet, and then there 【was】 relief when the plane came to a stop.
+375 | collected between 1986 and 2009 and found that fruit juice consumption 【was】 linked with increased risk of type 2 diabetes.
+341 | An Italian study found that for simple arithmetic there 【was】 little difference between right- and left-handed performance, (24) but for more difficult problem-solving, left-handers won out.
+95 | The unusual situation started about 12 months ago, when one cat routinely started visiting the store. [6] Local newspapers reported that puzzled customers posted on Facebook groups to try to find out if the cat 【was】 lost.
+377 | Where does the report say the discovery 【was】 made?
+393 | The payment 【was】 made on Wednesday.
+418 | According to Francis Dittoh, their speech-based weather information service 【was】 meant to be inexpensive and easy to use.
+443 | While in 1950, only 2,500 U.S. families owned pools, by 1999 this number 【was】 4 million.
+105 | It 【was】 monitored by Dr.
+289 | By contrast, fossil fuel plastic 【was】 more expensive.
+354 | F) The theme for last year’s competition 【was】 “Move”, and Hourican began with three groups working in lunch breaks and
+192 | If it 【was】 moving, watch where it went.
+138 | It 【was】 much less secure than paying with cash.
+243 | Although she found another villa in time for their holiday, she admits she 【was】 much more cautious.
+172 | "Chinatown 【was】 much smaller then and it 【was】 a celebration with fireworks and firecrackers, which added a lot of flavor and meaning to it.
+214 | When she 【was】 much younger, my daughter used to say she wanted to be Queen of the Clouds, which I loved.
+156 | It 【was】 named by European settlers.
+344 | After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan—【was】 named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.
+130 | The child had taken the keys to the family car while his teenage sister 【was】 napping.
+248 | Because there 【was】 no email or text message service, everything had to be done face to face, or by telephone.
+324 | Contrary to some research that has found an _30_ limit to the amount of exercise that is healthy, the researchers found that there 【was】 _31_ no limit to the longevity (longevity) benefits of exercise.
+80 | He found there 【was】 no one sitting at the wheel.
+133 | But on the whole, there 【was】 no systematic pattern.
+182 | And Morrison 【was】 not ___26___
+379 | This _28_ of biographical information is due primarily to his social _29_: he 【was】 not a noble, but the son of a leather trader.
+88 | But Morrison 【was】 not an early success.
+325 | The beach 【was】 not as nice or beautiful as it should be. [5] He felt so sad to see such a gorgeous place littered with so much trash.
+401 | “Most large animals that eat meat live in increasingly fragmented landscapes,” said Sillero, who 【was】 not involved in the
+109 | This is a huge drop and it is important to note that this 【was】 not merely a decline in reading paper books, newspapers or magazines.
+173 | The tourists’ good deed 【was】 not noticed by the locals.
+404 | As his great contemporary the poet and dramatist Ben Jonson said, “He 【was】 not of an age, but for all time.
+136 | Her first novel 【was】 not published until she 【was】 39, and her last appeared when she 【was】 84.
+438 | The new leader of Formula One admitted he 【was】 not super interested in car racing.
+213 | The woman 【was】 not to blame for the situation.
+408 | L) That is what hooked Carey, and he said he thought his experience 【was】 not unusual.
+141 | It 【was】 noticeable, sure.
+122 | She 【was】 on bad terms with her neighbors.
+331 | They were as keen as he 【was】 on financial matters.
+358 | Success 【was】 once defined as being able to stay at a company for a long time and move up the corporate
+227 | It 【was】 once thought that the sensory regions of the brain were not ___31___ after a critical period in childhood.
+114 | There 【was】 one exception: Social skills were slightly lower for children who accessed online games and social networking sites many times a day.
+155 | G) Indeed, the number of senior high school students who said they had not read any books for pleasure in the last year 【was】 one out of three by 2016.
+259 | There 【was】 one time when the doctor’s receptionist came back and he 【was】 sitting on her chair.
+154 | According to farmer Alice Gray, Prickles 【was】 only a lamb when she ran away.
+180 | He 【was】 only found the first time around because staff brought in a special machine to trace him inside a wall opening.
+81 | His feet could barely reach the brake, and his head 【was】 only just high enough to see out of the windows.
+242 | There 【was】 only one small problem: I simply didn’t get along with the company culture.
+111 | The journey 【was】 only recently confirmed by authorities.
+329 | hit songs of the 1950s, researchers found, there 【was】 only slightly more than one 50 years later.
+220 | But this 【was】 only the _29_ when they had a serious hobby that 【was】 dissimilar to their job, or when their hobby 【was】 similar to their work but they only did it _30_.
+92 | It 【was】 part of the royal estate.
+260 | Red Rum 【was】 passed around to several owners before being purchased for Noel Le Mar.
+430 | When in the presence of an unknown student from their own university, only 12 per cent of students selected the healthier option. [17] However, this number 【was】 31 per cent when in the presence of an unknown student from another university.
+308 | You see, she 【was】 planning to quit the job she hates and retire early.
+176 | He then drove three kilometers across town before getting on the highway. [2] The boy later told confused officers that he 【was】 planning to travel to California and buy a Lamborghini sports car.
+137 | The noise 【was】 powerful enough to shake buildings and set off car alarms.
+127 | The kilometer-long beach 【was】 practically deserted.
+256 | When an unknown student from another university 【was】 present.
+333 | He 【was】 ___33___ productive and his amazing body of work is considered fascinating by the critics.
+447 | It 【was】 put forward by King Kullen.
+207 | When the island 【was】 put up for sale, it 【was】 offered to the local government but proved too expensive for the local authorities.
+246 | M: Well, I think that 【was】 quite a successful trip in the end.
+232 | I have fond memories playing Battleships when it 【was】 raining outside and we had to stay indoors.
+300 | point 【was】 reached in 2020 when human-made materials — such as steel, concrete and plastic — were found to weigh more
+448 | It 【was】 really a major obstacle hard to overcome on their own.
+380 | And according to our records, the chair you returned 【was】 received by our warehouse on Friday morning.
+234 | It 【was】 recommended not to make contact with the animal.
+265 | while I 【was】 researching, I still kept wishing that I didn’t have to play catch-up with the money world.
+411 | He 【was】 retired soon after, but his public life and fame by no means decreased with the end of his career.
+261 | For a while, it looked like Keynes 【was】 right.
+371 | Keynes 【was】 right in predicting that technology would make the economy much more productive.
+147 | At the time, Humm acknowledged the move 【was】 risky, admitting that “it wasn’t clear if guests would come”, but called
+302 | I felt that L 【was】 sailing
+373 | What 【was】 scientists’ recent assertion about chocolates?
+405 | It 【was】 sent to me on Tuesday.
+222 | The reading culture 【was】 seriously affected by cable television some four decades ago.
+277 | The post 【was】 shared about 5,000 times.
+97 | King’s wife said her husband had come “running in” and 【was】 “shouting for me to come have a look”.
+431 | It 【was】 simply a hindrance they had to get over to excel.
+311 | For a time an app developer in America 【was】 so busy attending to work and family that she suffered from sleeplessness.
+238 | “After I became a first-time mother, I quickly realized I 【was】 so busy caring for other people and work that I felt like I’d lost myself,” she said.
+228 | I’ve definitely bought clothes and shoes I didn’t need because they were on sale, and paying with my phone 【was】 so easy.
+164 | W: (12) No, but the train 【was】 so packed that I could barely move, and it 【was】 difficult to breathe too.
+263 | and to assure workers that it 【was】 something management 【was】 committed to.
+94 | He 【was】 soon to retire from the army.
+437 | By 2016, the average size of a new, single-family home 【was】 2,422 square feet.
+304 | Researchers think the zoo 【was】 started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+307 | It could be melted for use in other products. [7] It said even though there are some differences between the two products, there 【was】 still the possibility of confusion for consumers.
+83 | It 【was】 straightforward.
+175 | The researchers found that when participants spent longer than _28_ on their leisure activity, their belief in their ability to perform their job 【was】 strengthened.
+128 | This similarity 【was】 strong enough that it could be used to predict whether two people were already friends or not. [2] The relationship probably goes two ways.
+319 | It 【was】 strongly opposed by manufacturers.
+233 | It reversed even further into the engine and 【was】 stuck.
+200 | Once the fires were over, (4) the family had to fix the damage done to the farm, as it 【was】 such a large property.
+206 | So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I 【was】 suddenly responsible for an additional $1,200 for the next year.
+157 | But though she 【was】 suffering from the effects of extreme cold, the child reportedly suffered no life-threatening effects.
+253 | It 【was】 suggested by some of her customers.
+439 | It 【was】 surely a disadvantage though not considered fatal.
+376 | I 【was】 surprised that the expert recommended not eating for the entire journey and avoiding sleeping on the plane.
+159 | As a scientist, Smith _30_ studied individuality for a living, and even he 【was】 surprised to find younger respondents cared more about having a _31_ in life.
+132 | It 【was】 systematic.
+367 | What happened when the negative reciprocity variable 【was】 taken into account?
+165 | Arriving in their “Mystery Machine”, the gang would have to find a monster who 【was】 terrorizing a neighborhood.
+181 | What 【was】 the aim of the first laws passed regarding fashion in the 1200s?
+226 | The weather 【was】 the coldest it had been for the season, [7] so people were warned to be careful when traveling outside.
+449 | The building style is radically different from what 【was】 the fashion of the period.
+101 | In 2015, two Italian companies, collaborated on the construction of a similar type of spacecraft, which 【was】 the first coffee machine designed for use in space.
+350 | He 【was】 the first horse to take successive firsts since Reynoldstown in 1935-1936.
+254 | But this 【was】 the first instance of a snake in recent years.
+229 | It 【was】 the first public exhibit of animals.
+116 | This 【was】 the first record of six babies being born at the same time in that region.
+144 | M) When Janette Sadik-Khan 【was】 the head of New York City’s Transportation Department back in the early 2000s, she
+381 | He 【was】 the kind of trusted doctor you’d feel relieved to see and welcome into the room with a sick family member.
+140 | It 【was】 the kingdom’s best-equipped zoo.
+104 | H) Utrecht University sociologist Arnout van de Rijt 【was】 the lead author on the 2018 paper showing the
+297 | The agent who made the purchase 【was】 the now-legendary horse trainer Donald “Ginger” McCain.
+283 | What 【was】 the purpose of psychologist Myriam Bechtoldt’s experiment?
+223 | That 【was】 the question that worried the
+131 | In the 80s, the great danger 【was】 the Sony Walkman (随身听).
+444 | There is some debate about which 【was】 the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+332 | Designed by a group of six Year 9 and Year 10 boys from Finchley Catholic High School, the toy 【was】 the winning entry in
+330 | Information 【was】 then gathered on whether the email 【was】 opened, and which job listings were clicked on by each user.
+185 | It 【was】 then taken to an examining room for evaluation of any injuries. [7] The elephant 【was】 kept under close supervision for a few days before it 【was】 successfully released back into the wild.
+118 | M: Oh, 【was】 there a delay?
+262 | She’s just started a part-time job and 【was】 thinking of not contributing to her pension.
+241 | It 【was】 this huge fencing that prevented Prickles from finding her way back.
+184 | animal to hear long after the window for auditory learning 【was】 thought to have ___30___ said Patrick Kanold,
+135 | The status of the upper classes 【was】 threatened: fashion 【was】 a tool to preserve it.
+264 | M: It 【was】 three months ago, and I already know what you’re going to say.
+98 | They decided that it 【was】 time to take control.
+266 | Then, when I 【was】 tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.
+353 | The schooling system 【was】 to blame for his trouble.
+446 | The client’s main desire 【was】 to have a home with the unique design, so the architect 【was】 given complete freedom.
+322 | Explaining why she has kept up the videos, Andrea explained how nice it 【was】 to have a little bit of fun and craziness that made people smile.
+378 | The goal 【was】 to reach the top, accumulate wealth and retire to a life of ease.
+326 | J) The vast majority of men, 97%, said one of the top reasons to take leave 【was】 to share caregiving with their partner.
+270 | But if that resolution 【was】 to volunteer more, now is the best time to start.
+390 | W: I 【was】 too.
+423 | That segment 【was】 too brief, especially as so many people have that problem.
+291 | She 【was】 too embarrassed to do it during the day.
+271 | I tried to reach it but it 【was】 too far down and there wasn’t any way I could get it out.” [2] Following a rescue by UK charity Cats Protection, the 4-year-old cat 【was】 later reunited with its owner, Mr.
+117 | There 【was】 too long a delay.
+209 | Once I did get out, I 【was】 totally exhausted.
+187 | He 【was】 totally fine with his scar.
+218 | It 【was】 tourists not natives who were cleaning up the beach.
+342 | It all started in 1991 when the Harvard-educated physician 【was】 transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York.
+139 | The army officers heard a noise coming from the well and realized an elephant 【was】 trapped deep inside. [6] The officers then threw in some food for the creature and called the local forest department for help.
+339 | The plane 【was】 traveling from Yakutsk Airport in a major diamond-producing region to the city Krasnoyarsk in Siberia.
+84 | In the Czech Republic, the same 【was】 true of anxiety symptoms.
+410 | The same 【was】 true when they were with someone from a different university, compared to someone from their own.
+348 | It 【was】 unclear where the rest of the group 【was】 from, but they were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.
+216 | (2-2) It 【was】 unclear who the owner 【was】.
+123 | The mayor said the medal 【was】 undamaged, though he offered to pay for the cost of a new one.
+102 | He 【was】 unsure what kind of fellow Jimmy 【was】.
+93 | Investigators were also able to recover the key that 【was】 used to open the collection boxes.
+355 | global fruit and vegetable juices market 【was】 valued at $154 billion in 2016 and is expected to grow.
+286 | Communicating in meetings 【was】 very difficult.
+142 | It 【was】 very important to their well-being.
+384 | While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated there 【was】 very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.
+143 | But its owner assured the concerned customers it 【was】 very much loved and fed at home.
+312 | Meanwhile, Krivoy discovered that the gold coin 【was】 very rare.
+217 | Chan, who has been involved with the club for nearly 50 years, said that passing the dance from one generation to the next 【was】 vital.
+340 | Instead of receiving the standard care given to lab animals, the 60% group 【was】 watched over by a newcomer to the lab who, Kelli writes, “handled the animals differently.
+100 | The topic of the speech 【was】 what makes one popular in high school.
+205 | So it 【was】 when a recent letter came from Kelli Harding, a student 21 years ago in my Peace Studies summer course in Washington.
+328 | 5 times what it 【was】 when Keynes 【was】 writing.
+87 | What caused more disruption 【was】 when schools tried to stay open in bad weather even though many staff and pupils were
+212 | One 【was】 with high school students and the other with more than 1,000 Australian adults aged between 24 and 60 years old.
+208 | Across all three, parenthood 【was】 27 with more positive wellbeing outcomes for dads than for mums.
+89 | Another person 【was】 woken up in the middle of the night by what he thought 【was】 early construction work starting.
+301 | W: No, [8] actually, I 【was】 wondering how you could possibly afford a new phone.
+366 | M: I 【was】 wondering if you could get me some jeans while you’re there.
+148 | He 【was】 working on a study project with Jimmy.
+391 | consultant or freelancer ( ro lb JfR 3k *) , people would wonder what 【was】 wrong with you.
+387 | He 【was】 12 years old and not expected to place highly.

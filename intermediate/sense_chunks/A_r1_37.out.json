@@ -1,0 +1,1455 @@
+{
+ "regular": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "经常的，定期的（regular exercise / regular visitor 常客）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "平常的，普通的，常规的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "稳定的，固定不变的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有规律的，规则的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 2,
+   "17": 1,
+   "18": 2,
+   "19": 2
+  },
+  "example": {
+   "id": 12,
+   "en": "They are regular visitors to the store.",
+   "zh": "他们是这家店的常客。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "security": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "安全，安保（如保安、监控、防伪）"
+   },
+   {
+    "pos": "n.",
+    "zh": "保障，安全感（food security 粮食安全，financial security 经济保障）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 1,
+   "16": 0,
+   "17": 1,
+   "18": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "One possible solution to the food security problem is diversification of diet.",
+   "zh": "解决粮食安全问题的一个可行办法是让饮食多样化。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "food security / retirement security / social security / financial security 统一标为「保障」义，与安保义分开；如认为 food security 应归「安全」，首要义项会变。"
+ },
+ "whatever": {
+  "senses": [
+   {
+    "pos": "pron.",
+    "zh": "任何…的事物，凡是…的（do whatever you want）"
+   },
+   {
+    "pos": "pron.",
+    "zh": "无论什么，不管什么（引导让步）"
+   },
+   {
+    "pos": "det.",
+    "zh": "任何…的，无论什么样的（后接名词）"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 2,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 1,
+   "6": 2,
+   "7": 0,
+   "8": 2,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 2,
+   "13": 0,
+   "14": 2,
+   "15": 1,
+   "16": 1,
+   "17": 2,
+   "18": 2,
+   "19": 1,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 18,
+   "en": "Legally speaking, the bride is free to choose whatever name she prefers.",
+   "zh": "从法律上讲，新娘可以自由选择她喜欢的任何姓氏。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "added": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "添加的，额外的（added sugar 添加糖）"
+   },
+   {
+    "pos": "v.",
+    "zh": "补充说，又说"
+   },
+   {
+    "pos": "v.",
+    "zh": "添加，加上"
+   },
+   {
+    "pos": "v.",
+    "zh": "增加，增添（add to sth；给…增添某种色彩）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 2,
+   "5": 2,
+   "6": "P:add up to",
+   "7": 1,
+   "8": 1,
+   "9": 3,
+   "10": 2,
+   "11": 1,
+   "12": 3,
+   "13": 2,
+   "14": 1,
+   "15": 0,
+   "16": 3,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "A new study finds that beverages containing added sugar might be harmful.",
+   "zh": "一项新研究发现，含添加糖的饮料可能有害。"
+  },
+  "form": "add 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "center": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "中心（机构、场所，如健康中心、购物中心、研究中心）"
+   },
+   {
+    "pos": "n.",
+    "zh": "中心，中央（位置）"
+   },
+   {
+    "pos": "n.",
+    "zh": "焦点，核心（the center of attention）"
+   },
+   {
+    "pos": "v.",
+    "zh": "以…为中心；把…放在中央"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 0,
+   "13": 1,
+   "14": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "But the club also acts as a recreation center and safe haven for teenagers, with video games readily available.",
+   "zh": "但这个俱乐部也是青少年的娱乐中心和安全港湾，那里随时有电子游戏可玩。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "earlier": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "更早地，提早"
+   },
+   {
+    "pos": "adv.",
+    "zh": "早些时候，之前（earlier this year）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "较早的，以前的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": 0,
+   "5": 2,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 2,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 2,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 2,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It started a month earlier than usual.",
+   "zh": "它比往常提早了一个月开始。"
+  },
+  "form": "early 的比较级",
+  "irregular": false,
+  "note": ""
+ },
+ "run": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "跑，奔跑"
+   },
+   {
+    "pos": "v.",
+    "zh": "经营，管理，运营"
+   },
+   {
+    "pos": "v.",
+    "zh": "（车辆）运行，行驶"
+   },
+   {
+    "pos": "n.",
+    "zh": "跑步；赛跑"
+   },
+   {
+    "pos": "v.",
+    "zh": "进行，做（计算、测试等）"
+   },
+   {
+    "pos": "n.",
+    "zh": "（固定路线的）一趟（school run 接送孩子上下学）"
+   },
+   {
+    "pos": "n.",
+    "zh": "（游戏的）一局，一轮"
+   },
+   {
+    "pos": "v.",
+    "zh": "运转，运行（机器、程序）"
+   }
+  ],
+  "labels": {
+   "0": 4,
+   "1": 3,
+   "2": 2,
+   "3": 0,
+   "4": 1,
+   "5": 3,
+   "6": 1,
+   "7": 2,
+   "8": "P:in the long run",
+   "9": 0,
+   "10": "X",
+   "11": "X",
+   "12": 1,
+   "13": 5,
+   "14": 1,
+   "15": 4,
+   "16": 2,
+   "17": 1,
+   "18": 3,
+   "19": 6
+  },
+  "example": {
+   "id": 17,
+   "en": "Residences for seniors should be run independently.",
+   "zh": "老年人住所应当独立经营。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "approach": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "方法，途径"
+   },
+   {
+    "pos": "v.",
+    "zh": "接近，靠近（也指数值接近）"
+   },
+   {
+    "pos": "v.",
+    "zh": "处理，对待（问题）"
+   },
+   {
+    "pos": "n.",
+    "zh": "接近，靠近"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 2,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "These experts argue that focusing on wage is the wrong approach.",
+   "zh": "这些专家认为，只关注工资是错误的方法。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "giving": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "给，给予"
+   },
+   {
+    "pos": "v.",
+    "zh": "带来，使具有（某种效果或特征）"
+   },
+   {
+    "pos": "n.",
+    "zh": "给予，捐赠"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": "P:give rise to",
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": "P:give out",
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 0,
+   "17": 0,
+   "18": "P:give away",
+   "19": "P:give away"
+  },
+  "example": {
+   "id": 5,
+   "en": "Instead of sending back the dolls, her father suggested giving them to the local children's hospital.",
+   "zh": "她父亲建议不要把玩偶寄回去，而是把它们送给当地的儿童医院。"
+  },
+  "form": "give 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "adapt": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "适应（adapt to）"
+   },
+   {
+    "pos": "v.",
+    "zh": "使适应，调整"
+   },
+   {
+    "pos": "v.",
+    "zh": "改编"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It might take some time for students to adapt.",
+   "zh": "学生们可能需要一些时间来适应。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "ahead": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "在前面，向前"
+   },
+   {
+    "pos": "adv.",
+    "zh": "提前，预先（plan ahead）"
+   },
+   {
+    "pos": "adv.",
+    "zh": "领先"
+   }
+  ],
+  "labels": {
+   "0": "P:go ahead",
+   "1": "P:ahead of schedule",
+   "2": "P:ahead of",
+   "3": "P:ahead of",
+   "4": "P:get ahead",
+   "5": "P:ahead of",
+   "6": 0,
+   "7": "P:ahead of",
+   "8": "P:get ahead",
+   "9": "P:get ahead",
+   "10": "P:ahead of",
+   "11": "P:ahead of",
+   "12": 0,
+   "13": 0,
+   "14": "P:get ahead",
+   "15": "P:ahead of",
+   "16": 1,
+   "17": 0,
+   "18": 1
+  },
+  "example": {
+   "id": 6,
+   "en": "Learn from our failure and forge ahead.",
+   "zh": "从我们的失败中吸取教训，继续前进。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "ahead of 一律按短语标（含时间义「在…之前」和空间/领先义，如 25 lengths ahead of the nearest horse）；ahead of schedule、get ahead、go ahead 单独成短语。"
+ },
+ "consequences": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "后果，结果"
+   },
+   {
+    "pos": "n.",
+    "zh": "重要性"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "Focusing on output alone can have unintended consequences.",
+   "zh": "只关注产出可能会带来意想不到的后果。"
+  },
+  "form": "consequence 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "critical": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "关键的，至关重要的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "批判性的（critical thinking 批判性思维）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "批评的，挑剔的（be critical of）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "危急的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 2,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 1,
+   "16": 0,
+   "17": 1
+  },
+  "example": {
+   "id": 17,
+   "en": "Game Academy proposes to help gamers develop their skills using critical thinking.",
+   "zh": "“游戏学院”提议帮助玩家运用批判性思维提升技能。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "「批判性的」9 句、「关键的」8 句，首要义项只差 1 句。"
+ },
+ "offers": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "提供"
+   },
+   {
+    "pos": "n.",
+    "zh": "（工作）录用通知，聘用机会（job offer）"
+   },
+   {
+    "pos": "n.",
+    "zh": "优惠，特价商品"
+   },
+   {
+    "pos": "v.",
+    "zh": "主动提出"
+   },
+   {
+    "pos": "n.",
+    "zh": "提议；出价"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 1
+  },
+  "example": {
+   "id": 2,
+   "en": "It offers more choice.",
+   "zh": "它提供更多选择。"
+  },
+  "form": "offer 的第三人称单数；offer 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "stick": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "坚持，遵守（stick to / stick with）"
+   },
+   {
+    "pos": "n.",
+    "zh": "棍，棒；棍状物（French stick 法式长棍面包）"
+   },
+   {
+    "pos": "v.",
+    "zh": "粘贴，粘住"
+   },
+   {
+    "pos": "v.",
+    "zh": "刺，插"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 1,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "We love to establish a routine and stick with it.",
+   "zh": "我们喜欢建立一套固定的习惯并坚持下去。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "video": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "视频，录像（video game 电子游戏）"
+   },
+   {
+    "pos": "v.",
+    "zh": "给…录像，拍视频"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "Can playing video games help you get a better job?",
+   "zh": "玩电子游戏能帮你找到更好的工作吗？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "add": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "添加，加上（把…加进去）"
+   },
+   {
+    "pos": "v.",
+    "zh": "增加，加剧（add to sth）"
+   },
+   {
+    "pos": "v.",
+    "zh": "补充说，又说"
+   },
+   {
+    "pos": "v.",
+    "zh": "合计（add up to）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "You can spread it on bread with a knife, and then add a tiny bit of honey on top.",
+   "zh": "你可以用刀把它抹在面包上，然后在上面加一点点蜂蜜。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "assume": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "认为，以为，假定"
+   },
+   {
+    "pos": "v.",
+    "zh": "承担（责任）"
+   },
+   {
+    "pos": "v.",
+    "zh": "呈现，具有（某种形式）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "And never assume the driver is going to stop or see you.",
+   "zh": "而且永远不要以为司机会停车或看见你。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "boost": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "提高，增强，促进"
+   },
+   {
+    "pos": "n.",
+    "zh": "提高，增强；推动"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 0,
+   "15": 1
+  },
+  "example": {
+   "id": 7,
+   "en": "It can boost children's interest in communication.",
+   "zh": "它能提高孩子对交流的兴趣。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "complex": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "复杂的，难懂的"
+   },
+   {
+    "pos": "n.",
+    "zh": "建筑群，综合大楼（apartment complex 公寓楼群）"
+   },
+   {
+    "pos": "n.",
+    "zh": "情结"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "It is too complex for non-scientists to understand.",
+   "zh": "它太复杂了，非科学人士难以理解。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "interested": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "感兴趣的（be interested in）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有利害关系的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "I'm only interested in the new classes.",
+   "zh": "我只对新课程感兴趣。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "itself": {
+  "senses": [
+   {
+    "pos": "pron.",
+    "zh": "它自己（反身代词，作宾语）"
+   },
+   {
+    "pos": "pron.",
+    "zh": "本身（强调）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": "P:in itself",
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": "P:by itself",
+   "8": 0,
+   "9": "P:by itself",
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": "P:by itself",
+   "14": 1,
+   "15": "P:in itself",
+   "16": "P:by itself"
+  },
+  "example": {
+   "id": 1,
+   "en": "Red meat itself does not cause heart diseases.",
+   "zh": "红肉本身并不会导致心脏病。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "keeping": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "保持，使处于（某种状态）"
+   },
+   {
+    "pos": "v.",
+    "zh": "保留，保有（不放弃）"
+   },
+   {
+    "pos": "v.",
+    "zh": "饲养（动物）"
+   },
+   {
+    "pos": "v.",
+    "zh": "遵守（诺言等）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:keep track of",
+   "2": 1,
+   "3": "P:keep away from",
+   "4": 0,
+   "5": 0,
+   "6": "P:keep an eye out for",
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 2,
+   "13": 1,
+   "14": "P:keep sth in check",
+   "15": 1,
+   "16": 1
+  },
+  "example": {
+   "id": 11,
+   "en": "They are vital to keeping a dominant position in business transactions.",
+   "zh": "它们对于在商业往来中保持主导地位至关重要。"
+  },
+  "form": "keep 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "okay": {
+  "senses": [
+   {
+    "pos": "int.",
+    "zh": "好，行（表示同意、应答或转换话题）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "没问题的，可以的，还好的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "Okay, well, there's a place that does salads.",
+   "zh": "好吧，有个地方卖沙拉。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "options": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "选择，可选的东西（方案）"
+   },
+   {
+    "pos": "n.",
+    "zh": "选项"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Yes, there were cheaper options.",
+   "zh": "是的，有更便宜的选择。"
+  },
+  "form": "option 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "search": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "搜索，寻找，查找（search for）"
+   },
+   {
+    "pos": "n.",
+    "zh": "搜索，寻找（job search 求职，search engine 搜索引擎）"
+   },
+   {
+    "pos": "v.",
+    "zh": "搜查（某地）"
+   }
+  ],
+  "labels": {
+   "0": "P:in search of",
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 1,
+   "12": 0,
+   "13": 1,
+   "14": "P:in search of",
+   "15": "P:in search of",
+   "16": 0,
+   "17": "P:in search of"
+  },
+  "example": {
+   "id": 12,
+   "en": "Students have to search for the information.",
+   "zh": "学生们必须自己查找信息。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "动词、名词各 7 句打平，按义项表顺序取动词为首要义项。"
+ },
+ "significant": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "显著的，相当大的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "重要的，重大的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Course participants saw significant improvements in general health.",
+   "zh": "课程参与者的总体健康状况有了显著改善。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "unique": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "独特的，与众不同的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "独有的，特有的（be unique to）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "唯一的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Each of the healthy eating cultures has its own unique feature.",
+   "zh": "每一种健康饮食文化都有其独特之处。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "worked": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "工作"
+   },
+   {
+    "pos": "v.",
+    "zh": "起作用，奏效"
+   },
+   {
+    "pos": "v.",
+    "zh": "运转，运作"
+   },
+   {
+    "pos": "adj.",
+    "zh": "经过加工的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "He has worked in several banks.",
+   "zh": "他曾在好几家银行工作过。"
+  },
+  "form": "work 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "allowed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "允许，准许（be allowed to）"
+   },
+   {
+    "pos": "v.",
+    "zh": "使能够，让"
+   },
+   {
+    "pos": "v.",
+    "zh": "给予（时间等）"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 0,
+   "2": 2,
+   "3": 2,
+   "4": "P:allow for",
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 2,
+   "14": 1,
+   "15": 2,
+   "16": 2
+  },
+  "example": {
+   "id": 9,
+   "en": "Thus, they were allowed to take 16 weeks of paid parental leave.",
+   "zh": "因此，他们获准休 16 周带薪育儿假。"
+  },
+  "form": "allow 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "believes": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "认为，相信"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": "P:believe in",
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "He believes busyness ensures accomplishments.",
+   "zh": "他认为忙碌能确保有所成就。"
+  },
+  "form": "believe 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "difficulty": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "困难，难处，难题（have difficulty doing）"
+   },
+   {
+    "pos": "n.",
+    "zh": "困境"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "He has difficulty taking notes quickly.",
+   "zh": "他很难快速记笔记。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "ensure": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "确保，保证"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Ensure the safety of pedestrians.",
+   "zh": "确保行人的安全。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ }
+}

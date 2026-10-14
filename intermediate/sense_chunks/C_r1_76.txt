@@ -1,0 +1,439 @@
+# 任务 C_r1_76：2 个词，413 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_76.labels.txt
+
+============================================================
+## 词：than    本段 290 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：conj./prep.比; 比较.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 比（用于比较级之后）    B 样本 74    例：than 180 words.
+已标过的短语：rather than（4）；other than（1）；more than（1）
+口径说明（照此执行）：
+  - 给C的口径：more/less than + 数字（超过/不到）、no more than 180 words、more than double、than ever 均按0标；rather than、other than 标P；more than 表「不仅仅是」（more than just tradition）标 P:more than；no sooner/hardly…than 标 P:no sooner…than。题干 no more than 180 words 出现极多。
+句子：
+83 | the tendency of people to use “abstract speech that focuses on the broader picture and ___26___ purpose of action rather 【than】    ?P:rather than
+190 | "Maybe we should spend less money trying to figure out who is better 【than】
+239 | by 1970, the number of hours Americans worked on average had fallen to slightly less 【than】 39.
+276 | Now the Office for National Statistics has confirmed that we are consuming 50% more calories 【than】
+304 | In 1970, the percentage of women majoring in engineering was less 【than】 1%.
+334 | M) These findings suggest that when it comes to achieving your goals, enjoying the process itself is more important 【than】
+350 | Researchers found that participants who saw the images of their aged selves would save more for their later years 【than】
+361 | nutrition research sponsored by the food industry is more likely to end up favoring the food under consideration 【than】
+290 | A person who has grit is more likely to succeed 【than】 a
+235 | This means individuals must save more in order to achieve their goals, or they borrow money from friends and family rather 【than】 a bank.    ?P:rather than
+90 | What foods have been largely out of favor for more 【than】 a century?    ?P:more than
+329 | has some work experience in the industry 【than】 a college graduate who took the “right” degree.
+234 | For more 【than】 a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.    ?P:more than
+279 | K) In more 【than】 a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.    ?P:more than a few ?P:more than
+336 | a literature graduate who spent their summers working in their local bank 【than】 a finance or economics graduate who spent
+316 | Some people have said aging is more a slide into forgetfulness 【than】 a journey towards wisdom.
+107 | Recognising obesity as a chronic disease with severe complications rather 【than】 a lifestyle choice “should help reduce the stigma (耻辱) and discrimination experienced by many people with obesity,” he adds.    ?P:rather than
+241 | His writing is more 【than】 a little dense — dense with research, clauses, and precise adjectives and nouns.    ?P:more than
+293 | Dreams of very small kids are usually just snapshots , looking much more like a slideshow 【than】 a movie, when
+175 | They are known as “e-learning days”, which certainly sounds less fun 【than】 a snow day.
+342 | Some analysts find age 45+ jobless workers are most likely to be unemployed for more 【than】 a year.    ?P:more than
+209 | weather are less problematic for students 【than】 absences that are not authorised.
+84 | Working out how much we save using discount pizza coupons, for example, is much more relevant 【than】 abstract sums.
+274 | employees' work, rather 【than】 adjust their work to fit in with the company's IT limitations.    ?P:rather than
+212 | children learn languages much more ___32___ 【than】 adults.
+354 | They are far more curious 【than】 adults.
+357 | They have different interests 【than】 adults.
+245 | A question to think about is, “What happens even earlier 【than】 age five?
+286 | for normal workers (those who were not in management roles) in private industries other 【than】 agriculture nearly doubled in    ?P:other than
+210 | 【than】 all life on Earth.
+106 | If older children have more 【than】 an hour of homework, encourage them to schedule a short break to stretch.    ?P:more than
+146 | Today, the Earth Day Network, which rallies more 【than】 20,000 ___33___ and organizations in 190 countries, supports    ?P:more than
+138 | Fewer images of buildings 【than】 animals.
+247 | They’re nutritious, inexpensive, and far more sustainable 【than】 any of the
+145 | That means she’s been alive longer 【than】 any other living individual.
+202 | And Formula One has that more 【than】 any other racing series.    ?P:more than
+257 | However, taking action and applying a new idea to your life will inspire you more 【than】 anything someone else can say.    ?P:more than
+225 | A more disturbing trend in America today is that teens are spending far less time reading 【than】 around four decades ago.
+262 | The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather 【than】 asking a clerk to fetch items from behind a counter, first came about in America.    ?P:rather than
+265 | Many workers report that they would like to spend more time with family, rather 【than】 at work Furthermore,    ?P:rather than
+260 | One was with high school students and the other with more 【than】 1,000 Australian adults aged between 24 and 60 years old.    ?P:more than
+144 | those more 【than】 average.    ?P:more than
+226 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather 【than】 avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.    ?P:rather than
+217 | Meatless meats are generally a healthier choice 【than】 beef because they are cholesterol-free, plus they're a good source of
+184 | found storeowners making more 【than】 before, and diners enjoying the outdoor lifestyle.    ?P:more than
+305 | analysts show that last year the British consumed more 【than】 2.2 billion litres of bottled water, including “take-home” and “on-    ?P:more than
+283 | A better goal 【than】 building bigger houses for some is to create more publicly accessible spaces and amenities for all.
+366 | For example, pound for pound, beef requires 15 times more feed to raise 【than】 carp, a freshwater fish farmed all over Asia.
+368 | It raises more fish 【than】 caught from the wild.
+307 | It caters to society’s taste in music in a more subtle way 【than】 classical music.
+93 | It drew competitors from more 【than】 40 countries.    ?P:more than
+143 | “For our business, the bike lanes are way worse 【than】 Covid
+348 | But walking is faster 【than】 crawling, so this motivates expert crawlers to transition to walking.
+124 | (19-2) Good stories do more 【than】 create a sense of connection.    ?P:more than
+278 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather 【than】 creating majors that drew from only one of those areas, like computational chemistry.    ?P:rather than
+193 | However, they fail to provide a genuine education with an emphasis on convenience rather 【than】 critical thinking.    ?P:rather than
+185 | Prevention is better 【than】 cure because obesity is so difficult to treat.
+364 | Only a tenth of our oceans’ fish stocks could sustain heavier fishing 【than】 current levels.
+313 | They suspect that mums may be less happy 【than】 dads because they’re more likely to have higher expectations about parenthood.
+275 | Exercise is more important to good health 【than】 diet.
+330 | L) Ideally, your spouse or partner will be supportive, rather 【than】 dismissive, of your stress.    ?P:rather than
+324 | Not doing something will always be faster 【than】 doing it.
+112 | Spend no more 【than】 30 dollars.    ?P:no more than ?P:more than
+322 | But it’s much easier said 【than】 done.    ?P:easier said than done
+169 | But on opportunity for promotion, more 【than】 double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.    ?P:more than
+272 | But scientists believe REM serves a completely different purpose for newborns and infants 【than】 dreaming.
+320 | They have been affected by something other 【than】 dreaming.    ?P:other than
+200 | No wonder using mobile phones while driving causes more crashes a year 【than】 drink driving, says the U.S.
+142 | cars on the road, rather 【than】 driving so closely behind another vehicle that a collision is likely if that vehicle brakes    ?P:rather than
+218 | when taken at night rather 【than】 during the day.    ?P:rather than
+261 | What's more, homes built in the 2000s were more likely 【than】 earlier models to have more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+148 | They can also harm other wild species through indirect competition, rather 【than】 eating them or shrinking their food supply.    ?P:rather than
+157 | It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other 【than】 emergency care.    ?P:other than
+86 | Phyllis Moen split more 【than】 1,000 employees at a Fortune 500 company into two groups, one that worked under a    ?P:more than
+162 | Children are getting more 【than】 enough screen time in their lives without the need to bring their phone into the classroom.    ?P:more than
+289 | Yet the bottled water market is livelier 【than】 ever.
+312 | The way that cheating looks has changed over time, though, particularly now that technology has made it easier 【than】 ever.
+161 | They may commit more errors 【than】 ever before.
+355 | We’re eating more fish 【than】 ever these days.
+347 | Owing to the internet, it is now more convenient 【than】 ever to receive training in new skills.
+195 | While 92% of people believe others care most about fame and _26_, fewer 【than】 10% factor those qualities into their own success.
+244 | worse 【than】 fill a bottle with water and sell it.
+98 | The gaming industry is larger 【than】 films and music combined, yet few of us are likely to list our achievements in playing
+360 | For the first time in human history, most of our aquatic (水产的) food now comes from farming rather 【than】 fishing.    ?P:rather than
+271 | to stay in the labor force more for social benefits 【than】 for financial reasons.
+231 | Across all three, parenthood was 27 with more positive wellbeing outcomes for dads 【than】 for mums.
+249 | It promises immediate rather 【than】 future benefit    ?P:rather than
+327 | now rather 【than】 future health gains.    ?P:rather than
+140 | by the World Health Organisation that adults have no more 【than】 30g of added sugar, the equivalent of 150ml of fruit juice,    ?P:no more than ?P:more than
+110 | First of all, students lack the desire to learn, and they simply complete their assignments to receive credit for a passing grade rather 【than】 genuinely engage with the course material.    ?P:rather than
+102 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather 【than】 getting everyone to sit down at the table to eat a meal.    ?P:rather than
+240 | television rather 【than】 go to the gym — suddenly make perfect sense.    ?P:rather than
+299 | In fact, in some cases, extreme ambition may end up doing more harm 【than】 good.
+268 | 【than】 half a penny.
+222 | More 【than】 half of American adults are unmarried, and researchers have found    ?P:more than
+221 | More 【than】 half of students will find their academic performance declining sharply when they enter the    ?P:more than
+323 | More 【than】 half of the interviewees felt no sense of guilt over cheating.    ?P:more than
+362 | People ate around 73 million tonnes of farmed fish—just more 【than】 half of the volume of fish that humans consumed—in 2014.    ?P:more than
+154 | Employers typically worry that social media is a productivity killer; more 【than】 half of U.S. employers reportedly block access to social media at work.    ?P:more than
+351 | It does people more good 【than】 harm.
+302 | even more brilliantly 【than】 he expected.
+282 | In the first study, more 【than】 600 high school students were surveyed about their tendency to take risks and feel confident.    ?P:more than
+116 | He enjoys celebrating others’ birthdays rather 【than】 his own.    ?P:rather than
+155 | It is more delicious 【than】 honey.
+303 | two months after setting the goal far more 【than】 how important they rated their goal to be.    ?P:more than
+139 | Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals 【than】 humans.
+180 | More images of animals 【than】 humans.
+367 | They have a longer history 【than】 humans.
+345 | Researchers found that enjoyment rather 【than】 importance enabled people to persist in their goals.    ?P:rather than
+309 | It performs a different function in babies 【than】 in adults.
+164 | Nowhere is this challenge clearer 【than】 in Africa.
+115 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals and doctors was below average, health outcomes were still better 【than】 in countries rated as moderate or poor.
+95 | — between parts of different brain networks are actually stronger in people who had hemispherectomies 【than】 in people with
+159 | Longer melt seasons like this one seem to lead to much greater contributions to sea-level rise 【than】 in previous decades.
+141 | The study found that while the bigger display table created more interest, people were almost 10 times less likely to purchase a jar of jam 【than】 in the case of the smaller display.
+96 | by the third year sales grew faster on five of the streets 【than】 in the district overall, on average — up to five times faster, in
+120 | The National Association of French Millers says bread consumption is on the decline, with French people eating nine grams less 【than】 in the previous year.
+178 | It is less popular 【than】 indoor sports in the country.
+349 | More effort is wasted doing things that don’t matter 【than】 is wasted doing things inefficiently.
+236 | They find it no more scary 【than】 it appears.
+97 | I just get anxious before I fly and feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic more 【than】 it did.    ?P:more than
+158 | Parenting brings fathers more joy 【than】 it does mothers, according to a new study.
+251 | Educators and business leaders have more in common 【than】 it may seem.
+213 | The state attracts more undergraduate students 【than】 it sends to colleges out of state. [25] Many colleges and universities currently provide similar information on their websites.
+117 | That means that not only is the ice melting very fast, it has more time to melt this summer 【than】 it would in a normal climate system.
+108 | But there’s more to running 【than】 its health benefits.
+215 | Juices containing vegetables can provide more nutrients and less sugar 【than】 juices made up of just fruit — but they still
+125 | The question is how to apply them effectively to strengthen an entire collective, which is more 【than】 just the sum of individual relationships," said Dr Matous.    ?P:more than
+331 | Remote work is about more 【than】 just working from home—it means working differently.    ?P:more than
+214 | see in adults appear at a much younger age 【than】 ___27___ known.
+194 | Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets 【than】 learning.
+269 | The most recent count of pandas found that there were more 【than】 1,800 left in the wild, putting them on the list of    ?P:more than
+99 | Database technology enables business leaders to look to hard evidence in analyzing target markets and promotional strategies rather 【than】 making assumptions or guesses on what works.    ?P:rather than
+277 | Research from Nova Southeastern University found that female managers were more likely 【than】 male managers to display “surface acting,” or forcing emotions that are not wholly felt.
+204 | Los Angeles' homeless condition is deteriorating faster 【than】 many people predict.
+254 | “It’s been well documented in extensive research over the years that prevalence rates for the majority of the anxiety disorders are higher in women 【than】 men.
+301 | It is largely attributed to women booking earlier 【than】 men.
+337 | It is reported that women consistently suffer more from severe stress 【than】 men.
+263 | investigation allowed us to conclude that this gap is largely explained by the fact that women tended to book earlier 【than】 men, 1.8 days on average.
+224 | It’s a common story—one we frequently ridicule and readily dismiss, for example, by claiming that women tend to complain more 【than】 men, despite the growing sum of research that underlines the problem.    ?P:more than
+205 | Female employees consistently pay lower airfares 【than】 men do for the same flights because they tend to book earlier.
+127 | I) However, the study also shows how traditional gender roles endure both at work, where more women 【than】 men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.
+296 | Harvard reports that women are “much more likely 【than】 men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize the symptoms.
+311 | J) The good news is, women are more likely 【than】 men to take charge of their stress and manage it, the American Psychological Association reports.
+298 | Fathers also did better 【than】 men without kids, reporting greater happiness, life satisfaction, and fewer 31 symptoms.
+100 | In 1990, Hayes organized a global Earth Day, with more 【than】 200 million participants in 140 countries.    ?P:more than
+147 | This month, more 【than】 4 million students across the nation will begin high school.    ?P:more than
+291 | It particularly comes with risks when we consume more 【than】 150ml of free sugars per day, or when it puts us    ?P:more than
+369 | One American philosopher stated that addressing the needs of the poor and vulnerable is about more 【than】 money—it is mostly about creating conditions under which prosperity and opportunity can thrive.    ?P:more than
+82 | More recent studies have suggested that factors such as social class or economic background have more to do with these diagnoses 【than】 month of birth.
+287 | thinking about your deadline in terms of days rather 【than】 months or years can help you wrap your mind around how close the    ?P:rather than
+339 | They have more positive qualities 【than】 most of us.
+259 | So why are fathers happier 【than】 mothers?
+281 | “Fathers may fare better 【than】 mothers in part due to how they spend time with their children,” said lead author Katherine Nelson-Coffey.
+203 | This results in significantly lower levels of debt 【than】 native-born Americans.
+171 | it has done better 【than】 naturally born dogs.
+88 | It led him to spend more money 【than】 necessary.
+183 | So far, it's a winning strategy: More 【than】 nine out of ten    ?P:more than
+137 | Their rating match that of the researchers more 【than】 nine times out of ten.    ?P:more than
+270 | So while fruit juice is better 【than】 no fruit at all, there
+332 | For example, there is no meeting that goes faster 【than】 not having a meeting at all.
+181 | more 【than】 70,000 nurses over 18 years.    ?P:more than
+81 | It plays a less important role in one's health 【than】 nutrient intake.
+149 | Social isolation poses more health risks 【than】 obesity or smoking 15 cigarettes a day, according to
+343 | Unless employers are fully compensated, this could become a variant of parasitic (寄生的) capitalism, whereby corporate profits increasingly rely on extracting value from the public—and now personal—realm, rather 【than】 on generating new value.    ?P:rather than
+219 | It has placed much more emphasis on cure 【than】 on prevention.
+335 | Bottled water manufacturers base their arguments against bans of plastic bottles on health concerns rather 【than】 on profits. 、    ?P:rather than
+151 | You may not use any of the words in the bank more 【than】 once.    ?P:more than
+191 | You may choose a paragraph more 【than】 once.    ?P:more than
+207 | paragraph more 【than】 once.    ?P:more than
+101 | You may choose a paragraph more 【than】 once. &eh paragraph is marked with a    ?P:more than
+118 | The reasons for people’s evil behaviors can be explained in more ways 【than】 one.
+189 | More 【than】 one-fifth of adults in both the United States and Britain said in a 2018 ____M_ that they    ?P:more than
+216 | It’s estimated at less 【than】 one per cent of the UK’s food waste total.
+264 | A skilled worker executing more 【than】 one task at the same time.    ?P:more than
+238 | According to one estimate, less 【than】 one third of companies in the US provide paid parental leave.
+356 | It is a behavior we are born with more 【than】 one we learn.    ?P:more than
+267 | hit songs of the 1950s, researchers found, there was only slightly more 【than】 one 50 years later.    ?P:more than
+352 | And if that is the case, elimination is a more useful skill 【than】 optimization.
+333 | They are more ambitious 【than】 ordinary people.
+103 | They appear more formal 【than】 other passports.
+174 | Extreme sports also burn a lot more calories 【than】 other sports.
+353 | People often wonder why some entrepreneurs have greater success 【than】 others.
+111 | “I was comparing prices online and found one that came in a bit cheaper 【than】 others,” says O’Shaughnessy.
+253 | bigger 【than】 ourselves.
+198 | The research examined three studies 26 more 【than】 18,000 participants.    ?P:more than
+136 | It was much less secure 【than】 paying with cash.
+230 | For starters, Americans eat much bigger portions 【than】 people in other countries.
+89 | Of more 【than】 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet, and almost all overestimated how healthy it was. [4] Those who rated their diet as poor tended to be far more accurate.    ?P:more than
+132 | One thing that extreme sports do better 【than】 perhaps anything else is to help you stop being afraid. [19] It may sound strange to say that their main function is to reduce fear.
+228 | Perhaps this is because older people had fewer options when they were starting their careers, at a time when values focused more on stable incomes 【than】 _32_ personal missions.
+328 | But they raise concerns about health rather 【than】 profit margins.    ?P:rather than
+152 | Survey analysis shows American teens now spend their leisure time on digital devices rather 【than】 reading printed books.    ?P:rather than
+242 | Continuing to grow concrete forests rather 【than】 real ones is shortsighted.    ?P:rather than
+114 | They tend to be a lot more aggressive 【than】 right-handed people.
+321 | I) Hiring managers said training was three times more likely to get them to hire applicants over age 45 【than】, say, government
+104 | tracked more 【than】 1 , 100 scientists who were on the border between getting a grant and missing out    ?P:more than
+284 | Few other countries have more 【than】 seven weeks off in a school calendar.    ?P:more than
+91 | Making sounds proves markedly easier 【than】 sign languages.
+227 | Moreover, schools should be more 【than】 simple institutions of traditional learning.    ?P:more than
+122 | W: We can’t dismiss the idea that teenagers have to plan to do something after they finish school, and parents are entitled to hope it’s more 【than】 simply spending 10 hours a day playing computer games.    ?P:more than
+255 | Some five years ago, high school seniors in America generally spent more 【than】 six hours a day on electronic devices.    ?P:more than
+135 | The police assured everyone that it was just thunder and lightning rather 【than】 some military exercise.    ?P:rather than
+233 | The average single-family home built in the United States before 1970 was less 【than】 1,500 square feet in size.
+344 | G) Nobody embodied this idea better 【than】 Steve Jobs, who said, “People think focus means saying ‘yes’ to the thing you’ve got to focus on.
+153 | As online courses tend to have more 【than】 100 students, most of the assignments are short and simple.    ?P:more than
+188 | The consequences of doing poorly in the ninth grade can impact more 【than】 students' ability to find a    ?P:more than
+359 | favoring the drug under consideration 【than】 studies sponsored by government grants or charitable organizations.
+129 | It impacts people’s health to a lesser degree 【than】 sun exposure.
+121 | J) Using voice interaction feels far more intimate 【than】 surfing the net the old-fashioned way.
+341 | Bottled water is considerably more expensive 【than】 tap water.
+318 | rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower 【than】 that,” Chetan-Walsh says.
+123 | Their level of debt is lower 【than】 that of native-born Americans.
+246 | But we have a higher risk of consuming more 【than】 the    ?P:more than
+252 | time, they start to understand that a given number represents a quantity greater by one 【than】 the
+340 | Research found that, as regards achievement of one’s goals, it is important to focus more on enjoying the process 【than】 the
+258 | “The only overlapping feature in most of these healthy countries is that they all walk way more 【than】 the average American,” said Pasternak.    ?P:more than
+187 | They are unemployed for much longer 【than】 the average, and their age is indeed one of the greatest barriers to
+172 | It’s rare for the show or movie to be better 【than】 the book.
+266 | more of their salary for retirement 【than】 the control group.
+208 | resembled their brain activity while thinking about a current other rather 【than】 the current self.    ?P:rather than
+87 | This represents 47 fewer students 【than】 the current year. [4] Fewer students mean less federal and state funding.
+94 | M: [11] I’m not convinced that the benefits are greater 【than】 the disadvantages, but I’ll discuss this with your mother.
+160 | He encourages residents to think of their age as an enriching new phase of life rather 【than】 the end of it.    ?P:rather than
+317 | people ate 50% more of a healthy food when directed to focus on the good taste rather 【than】 the long-term health benefits.    ?P:rather than
+206 | Most fathers admitted that even during their paternity leave they actually did much less childcare 【than】 the mother.
+150 | 【than】 the narrow winners.
+105 | Moving her furniture is harder 【than】 the paint job.
+166 | And stories are more engaging 【than】 the recital of data points or a discussion of abstract ideas.
+182 | In the study, the bigger display of jams leads to lower customer satisfaction 【than】 the smaller display.
+167 | That reality was driven home this month by a new Los Angeles Homeless Services Authority report showing that the county's homeless population is growing faster 【than】 the supply of new housing.
+197 | All things considered, I am paying significantly less 【than】 the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have had anywhere else.
+170 | Students now write longer and more complex essays 【than】 their counterparts in previous decades while the error rates remain unchanged.
+297 | According to Kelli Harding, rabbits’ health had more to do with humans’ kindness to them 【than】 their diet or genetics.
+325 | However, they're only slightly happier 【than】 their less-ambitious counterparts, and tend to live significantly shorter lives.
+237 | We found that women paid on average $18 less per ticket 【than】 their male colleagues.
+176 | More female professionals reported being reluctant to work overtime 【than】 their male counterparts.
+314 | Ambitious people tend to be more materialistically successful 【than】 their non-ambitious counterparts.
+232 | They suspected older, more mature students obtained more self-confidence 【than】 their peers because they achieved better grades.
+310 | reluctant to hire people older 【than】 themselves.
+196 | Students are able to highlight and edit text, write notes and search for information much more quickly 【than】 they can with printed textbooks.
+192 | Most people spend much more time interacting with digital media 【than】 they did ten years ago.
+300 | Teachers and students experience a closer relationship in year-round schools 【than】 they do in traditional schools and, in the absence of any long-term break, students do not feel detached from the school environment.
+295 | They cannot help eating more 【than】 they should.    ?P:more than
+109 | Many years’ surveys reveal that young people in America are going to the cinema much less often 【than】 they used to.
+119 | They eat more fruit 【than】 they used to.
+126 | Jarvis and his colleagues also found that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar 【than】 they were in 1961.
+165 | "Other 【than】 they're both cars, the NASCAR fan base is a very different fan base," Carey said.    ?P:other than
+223 | Scientists who persisted in research without receiving a grant made greater achievements 【than】 those
+273 | 【than】 those ages 18 to 34.
+229 | The health impacts from making one electronic reader are 70 times greater 【than】 those from making a single printed book.
+211 | Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores 【than】 those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.
+250 | “fit” 【than】 those over 45.
+186 | In one study, students who sat in the front and center of the classroom received a higher grade average and scored higher on tests 【than】 those sitting towards the back of the classroom.
+92 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent 【than】 those who do not. [19] But new research found that people believe someone who shows off their social status cares more about benefiting themselves 【than】 helping others.
+292 | Those who have more job satisfaction tend to retire later 【than】 those who have less.
+134 | the next four years, they were 40% less likely to quit 【than】 those who kept working under the old policies.
+156 | In fact, research suggests that people who read printed text comprehend more, remember more and learn 30% more 【than】 those who read digital text.    ?P:more than
+113 | “A large number of high-class travelers, including CEOs, have to spend more 【than】 three hours by road to get there—and that is a loss of time,” a Bangalore airport spokesperson said.    ?P:more than
+363 | Now, more 【than】 three-tenths are.    ?P:more than
+315 | It can do more harm to the workplace 【than】 to employees.
+248 | the past 20 years, the share of Americans working in their 70s has risen from less 【than】 10% to nearly 15%.
+85 | the majority of workers find it less upsetting to see their own jobs go to robots 【than】 to other employees.
+130 | The mother dog helped solve multiple murders and many other crimes. [5] The clone has already performed better 【than】 traditionally bred dogs on several tests.
+358 | At around 20 kilograms per person global fish consumption is now more 【than】 twice what it was in the 1960s.    ?P:more than
+163 | Doctors completing online forms about their patients by speech, for example, can dictate 150 words a minute, three times faster 【than】 typing on a keyboard.
+306 | Grit tells us that the door is open wider 【than】 we first thought
+326 | Brain power weakens slower 【than】 we imagine.
+173 | descriptions of behaviors 【than】 were participants in a low-power interviewee role.
+131 | likely to speak in the abstract 【than】 were women.
+179 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more 【than】 what I had budgeted, and by now it’s just a habit.    ?P:more than
+168 | People around the world are eating foods more similar 【than】 what they used to eat.
+243 | “One interesting thing we have observed is that dogs are matching children’s behavior, but less frequently 【than】 what we have seen between dogs and adults.
+338 | Many of them are not, and a simple “no” will be more productive 【than】 whatever work the most efficient person can cope with.
+365 | In fact, some 35 countries, including China, now produce more farmed 【than】 wild-caught fish.
+288 | game characters 【than】 wildlife species.
+256 | Ultimately, what affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human 【than】 with anything that happens in the doctor’s office.
+133 | themselves less with machines 【than】 with other people.
+80 | New technologies always provoke generational panic, which usually has more to do with adult fears 【than】 with the lives of teenagers.
+285 | The surveys showed men tend to exhibit more of these negative behaviors 【than】 women.
+308 | More men 【than】 women are likely to stay in the labor force until their late seventies.
+199 | 15 minutes and a few clicks later, (20) with more 【than】 $350 worth of dolls in her cart, Kate placed the order and ran off to play.    ?P:more than
+346 | They could become unavailable in less 【than】 30 years.
+201 | I’ve been working from home for more 【than】 10 years now.    ?P:more than
+280 | “So really, regardless of what you’re eating, if someone’s walking four miles more 【than】 you each day, they’re going to be a lot thinner and live a lot longer 【than】 you.    ?P:more than
+128 | When you look at today’s digital activity, the facts are much more positive 【than】 you might expect.
+294 | as or better 【than】 younger employees in the same jobs.
+220 | admit that post-45 hires turn out on average to be just as good as or better 【than】 younger workers, they still don’t want to
+319 | Effort means more 【than】 your natural ability.    ?P:more than
+177 | People understand that you are a recent graduate, and I doubt anyone cares about your phone other 【than】 yourself.    ?P:other than
+
+============================================================
+## 词：just    本段 123 句    模式：全标（每句都写）
+原释义：adv.仅仅; 刚刚; 正好. adj.公正的; 合理的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 只，仅仅    B 样本 30    例：This isn't just my opinion.
+  1  adv. 刚刚，刚才    B 样本 13    例：She has just returned from her hometown.
+  2  adv. 正好，恰好，就（在）    B 样本 13    例：M: Sounds like just what I need.
+  3  adv. 就，直接（表示简单地做，或缓和语气）    B 样本 14    例：Just read about the
+  4  adv. 简直，真是（加强语气）    B 样本 7    例：G) just O) scheduled
+  5  adj. 公正的，合理的    B 样本 0
+已标过的短语：just about（3）
+口径说明（照此执行）：
+  - 给C的口径：not just…but (also) 按0（只）标；just + 数量（just 10 minutes、just a few days after）按0；just as…(as)「同样」、just under/below（稍低于）、just off/beside、only just、just yesterday 按2；I just want to / I'm just calling / why not just / just give me 等缓和或「直接做」按3；just how little/complicated 及 just horrible 等强调按4；just about（几乎）标P；just now 按1。题干 the news report you have just heard 出现极多。0/3/4 之间有主观成分。
+句子：
+119 | Young women engineers are more accepted mostly because there are 【just】
+154 | In this city, the average home costs $200,000, and a tiny home costs 【just】 $50,000.
+181 | Online classes began to be popularized 【just】 a few decades ago.
+155 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more than what I had budgeted, and by now it’s 【just】 a habit.
+176 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus 【just】 a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+98 | It was 【just】 a nightmare, you tell yourself; there’s nothing to be afraid of.
+121 | It shouldn’t be 【just】 a one-day event but a course integrated
+100 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not 【just】 a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.
+166 | O) Keep these tips in mind to figure out whether you and a potential employer are a perfect match or 【just】 a recipe (方案) for disaster.
+193 | Thus, the researchers argued that gender equality is not 【just】 a women’s rights issue.
+109 | But year-round schooling isn't 【just】 about academics.    ?P:just about
+146 | It’s not 【just】 about being entertained, but also being inspired.    ?P:just about
+87 | per day and don’t realise this isn’t 【just】 about getting vitamins,” she says.    ?P:just about
+139 | He’d sit down to talk with the patient not 【just】 about medical problems, but about her life and priorities.    ?P:just about
+175 | The reality is, nobody is too busy—it’s 【just】 about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.    ?P:just about
+173 | For Ginger and Red Rum, though, it was 【just】 an obstacle to greatness that had to be overcome.
+188 | As ordinary American workers’ average hourly pay had decreased despite increasing productivity, they had to work 【just】 as
+202 | taxpayers are not getting the maximum bang for their buck if the close losers are performing 【just】 as
+191 | The findings suggest that, 【just】 as a parent’s personality can affect the personality of a child, the same is true for a cat and its owner.
+201 | performance of the close losers was 【just】 as good.
+92 | admit that post-45 hires turn out on average to be 【just】 as good as or better than younger workers, they still don’t want to
+199 | 【Just】 as height usually declines over the years,
+105 | Research suggests that adults in food-insecure households are 【just】 as likely as those in food-secure households to adjust recipes to make them more healthy.
+174 | productivity stopped working around 1973.Thus, they had to keep working 【just】 as much in order to maintain their
+116 | Why are people working 【just】 as much today as
+127 | And kids enjoy it 【just】 as much today as you and I did when we were young.
+144 | They are also 【just】 as proficient in food preparation and cooking skills.
+186 | Today, a greater and greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage 【just】 as the housing market was growing increasingly unforgiving.
+197 | schools or universities do 【just】 as well later in life as those who 【just】 manage to get accepted.
+198 | Participants who usually struggled to handle negative emotions were more intensely affected by the sad clips, 【just】 as you’d expect.
+192 | Therefore, if you are someone who loves to show physical affection, you should not be afraid to show it or drastically change your behaviors—【just】 ask for consent beforehand!
+135 | a research grant or 【just】 barely made it.
+163 | Researchers concluded that those who 【just】 barely qualified for a grant
+101 | (8-2) We will 【just】 be a small group of friends gathering together at Washington Park.
+102 | As you are already a member, the fee of the class will 【just】 be added to your monthly bill.
+137 | They can 【just】 be symptoms of a sleep disorder that can _32_ from an unpleasant experience, stress, or certain drugs.
+128 | However, 【just】 because it’s plant-based doesn’t mean it’s health food.
+169 | People often grant a request 【just】 because they want to appear polite and helpful.
+80 | A chemical engineer who worked in manufacturing agreed, “You have to prove yourself 【just】 because you are female.
+171 | Immigrants aren’t 【just】 becoming entrepreneurs more frequently.
+187 | It was actually the end of a racing career that had 【just】 begun.
+111 | 【Just】 beyond the entrance, large lion masks were twisting and turning to the drum-beat.
+123 | Americans can get sufficient protein 【just】 by eating adequate foods daily.
+112 | “Many places could benefit a great deal 【just】 by using technologies that already exist,” Walsh says.
+143 | He can 【just】 concentrate on how interesting the meeting might be and what he needs to get out of it in order to progress.
+106 | Once upon a time, it was 【just】 customary for a bride to take her groom’s last name as her own and abandon her maiden name completely.
+83 | M: I tried that strategy, but it 【just】 didn’t work, because I’d be busy studying all day.
+125 | But when I told him, he said he loves her and would 【just】 do what she wants him to.
+90 | M: [11] Honestly, I agree, but 【just】 don’t let him hear you say that.
+142 | At first, you 【just】 eliminate the obvious distractions and explore the rest.
+148 | He 【just】 follows successful people’s example.
+141 | I want to see if I can get one of those rental bicycles and ride to the office 【just】 for fun.
+89 | Plant-based meats are no longer 【just】 for vegetarians.
+129 | I 【just】 get anxious before I fly and feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic more than it did.
+164 | Let’s 【just】 go out somewhere close to eat.
+122 | W: But what prevents you from 【just】 going to the bank and getting more money, if you want to buy something?
+194 | This shift toward aquaculture isn’t 【just】 good for ensuring salmon (三文鱼) on your plate; it’s also crucial to ensuring food security and sustainability.
+120 | I 【just】 got a credit card, so I thought I might as well buy a new phone.
+88 | We 【just】 have more space and privacy.
+93 | Questions 5 to 7 are based on the news report yon have 【just】 heard.
+94 | Questions 5 to 7 are based on the news report you have 【just】 heard.
+132 | Questions 8 to 11 are based on the conversation you have 【just】 heard.
+161 | Questions 12 to 15 are based on the conversation you have 【just】 heard.
+177 | Questions 16 to 18 are based on the passage you have 【just】 heard.
+189 | Questions 19 to 21 are based on the passage you have 【just】 heard.
+196 | Questions 22 to 25 are based on the passage you have 【just】 heard.
+200 | Which is why managers should appreciate 【just】 how influential the IT user experience is to their
+133 | What might surprise consumers is 【just】 how many present-day nutrition studies are still funded by the
+140 | It includes not 【just】 how we form these impressions, but the conclusions we make about other people based on our impressions.
+84 | continuous warnings, could decide to 【just】 ignore the message.
+151 | 【Just】 last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU has considered similar legislation.
+195 | Small children are not 【just】 learning how to walk and communicate, they are also trying to learn how the world works.
+131 | J) If they think we’re too old to learn new skills after we’re 45, 【just】 learning some new skills may have an effect on its own.
+117 | Willpower is 【just】 like a muscle, to keep it strong you need to constantly exercise it.
+108 | 【Just】 look at the world around you at 2:30 in the afternoon.
+97 | I’m 【just】 looking on the system here.
+110 | M: Well, (12) I 【just】 love good jeans and Japan happens to make the best in the world.
+136 | 【Just】 make sure you’re logged in.
+134 | M: You think Jimmy’s 【just】 making it all up?
+126 | We even evaluate people whom we have 【just】 met
+190 | Students who 【just】 miss getting into top high
+96 | These scientists, for reasons that are mostly arbitrary, either 【just】 missed getting
+178 | were able to get twice as much money within the next eight years as those who 【just】 missed out.
+180 | Some people, they argue, are 【just】 more interested in certain kinds of media and entertainment.
+184 | People ate around 73 million tonnes of farmed fish—【just】 more than half of the volume of fish that humans consumed—in 2014.
+152 | Perhaps people 【just】 never feel materially satisfied, always wanting more money to buy the next new thing.
+159 | Some games 【just】 never get old.
+179 | I’m 【just】 not a fan of sauces.
+91 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is 【just】 not mature enough to live on his own at this point.
+185 | This can be compared to 【just】 19% of the general population.
+124 | Each participating school may submit 【just】 one
+168 | M: 【Just】 one more thing.
+130 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did 【just】 open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+103 | In reality, they’re not 【just】 opposite in meaning, but of entirely different magnitudes in commitment.
+145 | Making the decision is 【just】 part of the process.
+150 | At the start of the program, 77 per cent of female participants were confident about cooking, but 【just】 23 per cent of males were confident.
+95 | M: No, 【just】 60 pounds between the three of us, but still a bit too much to 【just】 let go.
+149 | Failure will teach you how to think and plan strategically. [24] But 【just】 remember that not all risks are good ones, and when you fail, learn from it and move forward.
+183 | 【Just】 remember to keep all your receipts.
+113 | 【Just】 send him a text message.
+85 | Children don’t 【just】 show up to the first day of
+158 | subtle and 【just】 shows the impact symphonic orchestras have had on society’s taste in music.
+138 | You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you 【just】 stare across the table blankly with your mouth hanging open?
+118 | She’s 【just】 started a part-time job and was thinking of not contributing to her pension.
+114 | He’ll 【just】 take himself into any shop, anywhere.
+162 | If anything is really wrong, you can 【just】 take photographs of the damage, and they will give you the money back or replace the item.
+86 | 【Just】 tell him exactly what you are looking for and I’m sure he will find something good.
+182 | This means that work should be measured in terms of the quality of the work, not 【just】 the quality of the process.
+156 | principle: that there can be 【just】 the right amount of something.
+82 | A financial education subject should do 【just】 the same.
+172 | The question is how to apply them effectively to strengthen an entire collective, which is more than 【just】 the sum of individual relationships," said Dr Matous.
+170 | It’s easy to get overwhelmed 【just】 thinking about it.
+165 | And that covers 【just】 three activities, and if other digital media activities were included, that estimate would no doubt rise.
+153 | M: But my proposal is not 【just】 to reward students with good grades, but also students who show improvements.
+115 | In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not 【just】 to their friends, but to the world.
+147 | J) For Sara Pore, aged 17, another club member, lion dance is more than 【just】 tradition, it provides a creative outlet.
+160 | under time pressure and are 【just】 trying to solve problems.
+81 | W: Didn’t you buy a new phone 【just】 two months ago?
+157 | At some point, they switched to mostly making sounds that became words instead of 【just】 using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can’t see them.
+104 | M: Or you could 【just】 walk to work.
+107 | Think about when you're cooking, and you 【just】 want to know what the next step in the recipe is.
+99 | To put it plainly, we 【just】 weren’t on the same page.
+167 | Remote work is about more than 【just】 working from home—it means working differently.

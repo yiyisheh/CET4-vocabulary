@@ -1,0 +1,623 @@
+# 任务 C_r1_47：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_47.labels.txt
+
+============================================================
+## 词：on    本段 600 句    模式：全标（每句都写）
+原释义：prep.在…上; 关于. adv.向前; 继续.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在…上（接触表面）    B 样本 6    例：the corresponding letter on Answer Sheet 1 with a single line through the centre.
+  1  prep. 关于，论及    B 样本 23    例：A few years ago I found myself teaching a university class on evil.
+  2  prep. 在（某天、某日期）    B 样本 4    例：The World Pipe Band Championships will take place in Glasgow on Saturday.
+  3  prep. 对…（产生作用），对于（effect on 对…的影响）    B 样本 5    例：It studied the effects of exercise on sleep.
+  4  prep. 依靠，根据，以…为基础（rely on, based on）    B 样本 9    例：performance on a five-star scale.
+  5  prep. 在（电视、网站、社交媒体等）上，通过（媒介、设备）    B 样本 10    例：Make a specific note on the company’s system.
+  6  prep. 乘（车、船、飞机），在（交通工具）上    B 样本 4    例：Nine tons of gold on plane AN-12 belonged to a goldmine company.
+  7  prep. 在（街道、校园、地球等某处）    B 样本 4    例：The tour saw him control a robot on earth remotely from orbit.
+  8  prep. 处于…状态或过程中（on the decline 在下降；on a trip 在旅途中）    B 样本 3    例：It has been on the decline.
+  9  prep. （作为成员）在（某团体）中    B 样本 1    例：The City of Fayetteville is making a special effort to recognize its bus drivers ahead of the newly proclaimed Transit Driver Appreciation Day happening Saturday. [1] As part of the event, the city is celebrating its longest-serving driver on the force.
+  10  prep. 一…就（on arrival 一到达就）    B 样本 1    例：Some countries offer visas on arrival.
+  11  adv. 继续，向前    B 样本 0
+  12  adv. 穿上，戴上；（电器等）开着    B 样本 0
+已标过的短语：put on（2）；hold on to（1）；on board（1）；work on（1）；on behalf of（1）；call on（1）；descend on（1）；on average（1）；be on good terms with（1）
+口径说明（照此执行）：
+  - 「根据，以…为基础」按 n 加权居首，几乎全靠题干「Questions 1 and 2 are based on…」（n=31/30）；其次是题干「mark the letter on Answer Sheet 1」（n=27）。全量统计后首要义项建议人工确认。descend on（72，涌向）、work on（61，维修）标成 P，可能被判为普通搭配。
+句子：
+147 | and losing weight becoming a better parent, saving more money, and so 【on】.    ?P:and so on
+197 | The chances of getting an athletic scholarship later 【on】.
+199 | This is why we buy courses 【on】
+264 | Some other fellow came in asking for Jimmy just yesterday, (9) a real nervous, pushy type of fellow, saying he needed Jimmy for some study project they were working 【on】.    ?P:work on
+366 | M: Oh, come 【on】.    ?P:come on
+407 | H) New research by Horn and MIT postdoctoral associate Liang Wang, published in the journal IEEE Transactions 【on】
+415 | account balance, your weight and so 【on】.    ?P:and so on
+430 | G) Nobody embodied this idea better than Steve Jobs, who said, “People think focus means saying ‘yes’ to the thing you’ve got to focus 【on】.
+508 | the by-product of two key factors: the human capacity for language and our inclination for focusing 【on】
+510 | winners, it's impossible to know which of the winners would have quit had they found themselves 【on】
+515 | H) This might present problems for young people later 【on】.
+534 | If we’re lucky, the legal environment will change to make teenagers’ online lives less likely to haunt them later 【on】.
+544 | We consider some clothes to be powerful some to be fun, and so 【on】.    ?P:and so on
+545 | Drivers caught up in phantom traffic jams are likely to think an accident has happened or some construction is going 【on】.
+561 | It can prove a challenge to Western businesses if your business partner wants to renegotiate terms that you thought were already agreed 【on】.
+528 | Mr Meteo takes the online weather forecast, converts it to a short recording in the appropriate language and makes it available 【on】 a basic phone.
+183 | Welcome to Frank’s restaurant where customers are paying for meals and leaving receipts 【on】 a board.
+187 | Go 【on】 a boat trip.    ?P:go on
+575 | W: We have bunches of brochures here. [15] I would recommend getting out 【on】 a boat trip.
+670 | The platform currently offers professor-led lectures 【on】 a broad range of topics, from data science to fashion design.
+607 | The internet is full of recipes for “eating well 【on】 a budget.
+520 | Imagine that you are getting 【on】 a bus.
+349 | While research has found dogs can have a lot of positive impacts 【on】 a child’s life, there are also risks associated with the dog-child relationship.
+151 | But instead of leaving and never coming back, it invited its friends round. [5] There are now at least five different cats who come almost 【on】 a daily basis.
+522 | You may think that summer is the perfect time to go 【on】 a date or chat with an attractive boy or girl.    ?P:go on
+606 | Another interior designer commented that certain combinations can key into something 【on】 a deeper level, transporting you to a different moment in time.
+470 | The survey allowed for reading materials 【on】 a digital device.
+428 | The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person 【on】 a dorm floor, or even the entire building if they do not know who caused the damage.
+328 | M: (10) The same discount of 20% is being offered to everyone at the door 【on】 a “first come, first served” basis for the first month.
+474 | She lives in Lower Manhattan with her husband, Padraic, whom she met 【on】 a flight to London, and their three boys.
+547 | flaw: they focused 【on】 a future, healthier you and assumed that this would be enough motivation for teenagers.
+605 | It is preventing starvation occurring 【on】 a global scale.
+674 | “Depending 【on】 a greater number of plant species creates a more vigorous and less risky food system—and one that provides a broader range of nutritional requirements.
+331 | Based 【on】 a hunch (直觉), he brought in two dogs, four cats, hens, rabbits, 100 birds, a multitude of plants, a flower garden, and a vegetable patch.
+671 | Doctors completing online forms about their patients by speech, for example, can dictate 150 words a minute, three times faster than typing 【on】 a keyboard.
+170 | Also, speak to the person you’re booking the villa with 【on】 a landline phone, as fraudsters tend to only use mobiles.
+227 | Hold it 【on】 a modest scale to remove birthday anxieties.
+514 | The claim was based 【on】 a new review of studies about the effects of running.
+387 | Do you typically spend that much 【on】 a pair of casual trousers?
+540 | you attempt to make toward it 【on】 a personal level will be in vain.
+213 | “Sometimes a cat will walk 【on】 a phone and cut off the call, or they shut down the computers by walking onto the off switch.
+184 | 【On】 a recent Friday evening, the teenagers made their way across the studio floor as they practiced Chinese lion dancing.
+305 | 【On】 a regular day at a local food market, people would find a display table with 24 different kinds of jams.
+594 | One researcher suggests it might be more fruitful to distribute grants 【on】 a relatively equal basis.
+667 | In many cases, students did not realize that strategies like looking up answers 【on】 a smartphone were actually cheating at all.
+262 | So have you got your mind set 【on】 a specific model?
+313 | I’ve heard that German cars are very reliable, but I haven’t decided 【on】 a specific model yet.
+81 | The number of tourists to the beach is 【on】 a steady decline.
+212 | He was working 【on】 a study project with Jimmy.    ?P:work on
+125 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others 【on】 a subsequent task, even after controlling for differences in baseline creative skills.
+104 | She went 【on】 a TV show where they quiz 【on】 general knowledge and she won first prize.
+164 | The restaurant was built 【on】 a wooden structure above the sea-water.    ?P:build on
+659 | Importantly, there were also some promising effects of the new intervention 【on】 actual
+622 | protein although the most desirable protein intake may vary depending 【on】 age and activity level.
+480 | Shifting people’s perspective 【on】 aging.
+102 | W: Did you see that television program 【on】 air travel last night?
+635 | Of the teens surveyed, 51 percent said that they had knowingly cheated at some point 【on】 an exam but that they did not feel uneasy about the behaviour.
+420 | Talking 【on】 and 【on】 about what’s interesting to you isn’t going to make you an interesting person, she says.
+299 | By taking children to the library to borrow books 【on】 animals.
+356 | Then 【on】 another day, at that same food market, people were given only 6 different types of jam choices.
+434 | The next day, while checking 【on】 another online order, her mother noticed the long list of dolls 【on】 the way.    ?P:on the way
+435 | Answer the questions by making the corresponding letter 【on】 Answer Sheet 2.
+535 | 【on】 Answer Sheet 2.
+86 | best answer from the four choices marked A), B), C) and D).Then mark the corresponding letter 【on】 Answer Sheet 1 with a
+88 | Then mark the corresponding letter 【on】 Answer Sheet 1 with a
+138 | Then mark the corresponding letter 【on】 Answer Sheet 1 with a single line
+243 | Then mark the corresponding letter 【on】 Answer Sheet 1 with a single line through
+292 | the four choices marked A), B), C) and D).Then mark the corresponding letter 【on】 Answer Sheet 1 with a single line through
+343 | Please mark the corresponding letter for each item 【on】 Answer Sheet 2 with a single
+418 | Please mark the corresponding letter for each item 【on】 Answer Sheet 2 with a single line through the centre.
+506 | corresponding letter 【on】 Answer Sheet 1 with a single line through the centre.
+113 | It is commonly believed that the great English dramatist and poet William Shakespeare was born in Stratford-on-Avon 【on】 April 23, 1564.
+217 | Church records show he’s baptized (施洗礼) 【on】 April 26, and 3 days was a customary amount of time to wait before baptizing a newly born baby.
+361 | Branyas was born in the United States 【on】 April 4, 1907, but her family moved to Spain, where they were originally from when she was a young child.
+209 | organized the first Earth Day 【on】 April 22, 1970, educating participants in the ___29___ of environmental protection.
+105 | Earth Day is celebrated 【on】 April 22 in the United States
+127 | In contrast, Americans are able to travel to 20 of the continent’s countries without a visa, or secure a visa 【on】 arrival.
+268 | Then we often put ourselves 【on】 auto-pilot.
+270 | Meanwhile, time spent playing video games rose from under an hour a day to an hour and a half 【on】 average.    ?P:on average
+577 | by 1970, the number of hours Americans worked 【on】 average had fallen to slightly less than 39.    ?P:on average ?P:work on
+505 | They rate the post-45 job seekers lower 【on】 average 【on】 all three measures — even experience —    ?P:on average
+660 | 【On】 average, post-45 job switchers with higher incomes participate in 2.5 training programs each.    ?P:on average
+558 | (19-2) The review concluded that 【on】 average runners live three years longer than non-runners and that running does more to extend life than any other form of exercise.    ?P:on average
+460 | admit that post-45 hires turn out 【on】 average to be just as good as or better than younger workers, they still don’t want to    ?P:on average
+317 | It has ignored campaigns 【on】 behalf of the left-handed.    ?P:on behalf of
+500 | research into the impact of clothes 【on】 behavior now suggests that there may actually be a grain of truth in these sayings.
+134 | It was unclear where the rest of the group was from, but they were most likely traveling together. [7] One local woman commented 【on】 being embarrassed that tourists were cleaning up their beach.
+182 | They are 【on】 better terms with friends and romantic partners.
+502 | business — but you gain shoppers who now can arrive more easily 【on】 bikes.
+191 | In Poland, depressive symptoms fluctuated a little depending 【on】 birth month.
+253 | F) He found negative effects 【on】 blood sugar and insulin levels when food provided excess calories from sugars, including
+101 | The part about not eating 【on】 board the plane.    ?P:on board
+426 | Kelli’s letter, a literate update 【on】 both her personal and professional life, touched my heart, and especially so when saying that two decades later she still has the course text, “Solutions to Violence,” and that “it remains one of my favorite possessions.
+527 | In the second study, those born 【on】 both sides of the cut-off date for starting school, were asked to complete online math questions and rate their performance.
+582 | This would mean tax 【on】 bottled water would be refunded to customers who returned
+126 | They put jam instead of butter 【on】 bread.
+326 | You can spread it 【on】 bread with a knife, and then add a tiny bit of honey 【on】 top.
+314 | They are a shade of red bordering 【on】 brown.
+661 | They collaborated 【on】 building the first spacC;! coffee machine.
+294 | To call 【on】 busy people to take care of themselves.    ?P:call on
+360 | They may feel helpless when called 【on】 by the instructor.    ?P:call on
+135 | At the Sandwich Place 【on】 Camden Street.
+290 | M: [9] What about the Sandwich Place 【on】 Camden Street?
+150 | Lived 【on】 campus.
+521 | It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid 【on】 campus for anything other than emergency care.
+132 | The first thing you notice in the staircase to the fourth-floor studio 【on】 Canal Street in Manhattan, New York, is the measured thumping coming from behind a metal door.
+108 | Glasgow City Council has made a deal with ScottishPower 【on】 carbon emissions.
+597 | What does Mindi Reich-Shapiro emphasize in her comment 【on】 childhood education?
+454 | up and feel guilty about taking the time to focus 【on】 clothes.
+573 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, for example, while climate change will likely have “great impacts” 【on】 cocoa (可可粉) production in West Africa.
+679 | Many of the parents have taken 【on】 college loans for the kids, too, sometimes at the expense of their own finances.    ?P:take on
+612 | I) Another potential climate change-induced problem is our dependence 【on】 commodity crops—wheat, soybeans, corn and rice—which currently provide humanity with 75% of its calories, either directly or indirectly through the animals we raise 【on】 those crops.
+475 | In this process, we mentally categorize people into different groups based 【on】 common characteristics.
+446 | A team of researchers led by Priyanka Joshi examined the degree to which men and women relied 【on】 “communicative
+646 | M) Harrington said culture change depends 【on】 companies putting more focus 【on】 men and their responsibilities.
+532 | H) Since then, there have been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure 【on】 companies to make their parental leave policies gender neutral.
+405 | According to a research paper, drinking fruit juice is beneficial 【on】 condition that it is consumed in reasonable amounts.    ?P:on condition that
+200 | Recognizing the impact 【on】 consumers.
+676 | Academics measured the program’s effect 【on】 cooking confidence and self-perceived mental health.
+144 | W: I still think it’s a bad idea to use a credit card for something you don’t need. [11] One of my colleagues bought a lot of things 【on】 credit during her first year of work, and it became a bad habit, and she accumulated a lot of debt.
+92 | W: I don’t think buying a phone 【on】 credit is a good idea.
+389 | The study was based 【on】 data from more than 88,000 U.S. adults who _29_ in the National Health Interview Survey between 1997 and 2008.
+383 | Congratulations 【on】 deciding to get married!
+503 | Manufacturing costs come into effect, and commodities fluctuate in price based 【on】 demand and the distance to haul the
+537 | concrete speech focusing 【on】 details and the means of ___27___ action.
+630 | 4' 1\>') squarely 【on】 dietary fat.
+640 | What can we learn from research 【on】 diets in developed countries?
+633 | Survey analysis shows American teens now spend their leisure time 【on】 digital devices rather than reading printed books.
+372 | E) That may be true, but that still does not tell us much about what happens across a whole generation of people when time spent 【on】 digital media grows.
+207 | Depend 【on】 digital technology.
+168 | Employers differ from employees in their perspectives 【on】 diversity.
+248 | Many of the technologies to limit the impact of space travel 【on】 Earth.
+653 | than all life 【on】 Earth.
+658 | All living organisms 【on】 Earth are exposed to a 24-hour day-night cycle.
+551 | The businessmen say that 【on】 Earth, beans can easily break apart and get burned in the roaster.
+174 | The island is often described as heaven 【on】 earth by holidaymakers.
+591 | Once back 【on】 Earth, the planet’s first space-roasted beans would be used to make coffee that would be sold for the first time in Dubai.
+225 | Their positive effect 【on】 economic development.
+571 | The supermarket imitated the Fordist factory, with its emphasis 【on】 efficiency and standardization, and reimagined it as a place to buy food.
+157 | and 【on】 either April 22 or the day the spring equinox occurs throughout the ___26___ of the world.
+665 | Many scholars claim that spending time 【on】 electronic devices doesn’t necessarily mean a decrease of
+455 | With so much emphasis 【on】 employee wellness these days, company volunteer programs could be the perfect 2025 resolution.
+449 | But organisations need to examine the demands they’re placing 【on】 employees.
+399 | flexibility, or deciding not to take 【on】 every project that comes their way.    ?P:take on
+570 | To cover multiple domains and to be able to have a conversation with users 【on】 every single topic is still a long way off.
+133 | He is keen 【on】 extreme sports.
+110 | However, you can't help butŨ if these companies are basing their business 【on】 fabrications (ũ:it
+163 | She posted its picture 【on】 Facebook.
+216 | The restaurant waitress Sasha Formica posted a picture of the ring 【on】 Facebook.
+99 | The unusual situation started about 12 months ago, when one cat routinely started visiting the store. [6] Local newspapers reported that puzzled customers posted 【on】 Facebook groups to try to find out if the cat was lost.
+342 | They have to be 【on】 Facebook, to know what’s going 【on】 among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+169 | Different people tend to be exposed to different forms of the golden rule, based 【on】 factors such as the religion in their society.
+259 | Despite its restrictions, analytical decision-making does have several key strengths. [18] By relying 【on】 facts and data, you minimize your potential for a wrong decision.
+348 | cutting back 【on】 family time?”, for example.
+286 | About 100 current and past members of the dance group—which has been performing since 1956—will be among the 220 groups marching through Chinatown in Manhattan for the 18th Lunar New Year Parade 【on】 February 5.
+523 | It places increasing emphasis 【on】 fishing now.
+457 | by the third year sales grew faster 【on】 five of the streets than in the district overall, 【on】 average — up to five times faster, in    ?P:on average
+662 | industry-funded studies 【on】 food.
+195 | as infants and continue 【on】 for the rest of our lives.
+234 | The drive has been going 【on】 for two weeks and Morris said just under 50 customers have picked up a free meal.
+233 | It could also be a forerunner for many other countries in the world that ___32___ 【on】 foreign imports of energy," said Ali Hajji, a solar energy specialist and engineering professor.
+249 | Current spacecraft use a variety of fuels, but most are based 【on】 fossil fuels.
+218 | And according to our records, the chair you returned was received by our warehouse 【on】 Friday morning.
+464 | If you aren’t driving your own car, then you are saving 【on】 fuel.
+495 | miss out 【on】 getting a good exam grade, the DFE’s research concluded.
+483 | Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed 【on】 grass.
+244 | As the night goes 【on】, groups of riders are often seen traveling in just about every direction in the streets and 【on】 pedestrian paths.
+245 | Teachers are also losing their snow days and instead will be expected to be 【on】 hand to take a virtual register and    ?P:on hand
+338 | Several recent studies have found that even low-intensity exercise, done for a short amount of time, can have a meaningful _26_ 【on】 health.
+621 | K) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges 【on】 health and environmental
+654 | Bottled water manufacturers base their arguments against bans of plastic bottles 【on】 health concerns rather than 【on】 profits. 、
+467 | For example, companies can give workers gym memberships, or encourage participation in lectures 【on】 healthy eating and living.
+94 | The pain will be especially acute in parts of the country that heavily rely 【on】 heating oil to keep homes warm.
+239 | There was one time when the doctor’s receptionist came back and he was sitting 【on】 her chair.
+610 | They were such strange marvels that, 【on】 her first official state visit to the United States in 1957, Queen Elizabeth II insisted 【on】 an impromptu (即兴的) tour of a suburban-Maryland Giant Food.
+172 | The crossing 【on】 High Street is a well-known accident blackspot.
+283 | They depend 【on】 his ability to concentrate.
+432 | He is currently traveling through North America performing with his guitar and his enthusiasm 【on】 his Age of Disruption Tour.
+201 | I’ve known him since primary school, and I always remember him having that 【on】 his cheek.
+251 | He was remembered for the scar 【on】 his cheek.
+149 | M: Do you remember he had a scar 【on】 his face?
+103 | He is not yet mature enough to live 【on】 his own.    ?P:on one's own
+284 | For the past four decades, the leader of Formula One car racing, one of the biggest annual sporting series in the world, was Bernie Ecclestone, a former motorcycle parts dealer who built it into an international presence essentially 【on】 his own.    ?P:on one's own
+156 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough to live 【on】 his own at this point.    ?P:on one's own
+530 | The room's ceilings are too low to wear the lion heads for jumping practice, so once up 【on】 his partner's head, Mr.
+145 | He wanted to be less dependent 【on】 his phone.
+562 | It’s like fixing up an airplane engine and ignoring that the pilot is 【on】 his third drink at the bar and a massive storm is overhead....
+431 | New Tech coupled with improvements in hearing aid technology and medical advances means that Miller is able to focus far more 【on】 his work.
+139 | A new study has cast doubt 【on】 historic research suggesting that the season or month of someone’s birth is associated with an increased risk of certain mental health conditions.
+546 | Perhaps it’s that attention focuses 【on】 horror stories — and some merchants do get hit when bike lanes come in.
+298 | Yet, very little research has focused 【on】 how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.
+567 | He can just concentrate 【on】 how interesting the meeting might be and what he needs to get out of it in order to progress.
+494 | We’re not all going to have the same ideas 【on】 how to approach policies, programs or problems.
+352 | Reading a book 【on】 how to learn a foreign language quickly allows you to feel like you are making
+382 | Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and More Connected Life, a guide 【on】 how to shift our perspectives 【on】 aging and growth.
+423 | Company culture can have a big impact 【on】 how you feel about your work, so you want to make sure you sign an offer letter with an organization you’re truly excited about.
+563 | Results showed both groups of children were rated similarly 【on】 important social skills.
+368 | Lay more emphasis 【on】 improving children’s mental health.
+675 | “By that I mean companies need to give men paternity leave and encourage men to take time off to be with their kids early 【on】 in the kids’ life.    ?P:early on
+424 | (22-1) How the balance is struck between these two forms of communication—the point at which one needs to be exchanged for another—really depends 【on】 individual cultures.
+644 | They place too much stress 【on】 individual relationships.
+316 | He examined how many times people were first authors 【on】 influential
+393 | Or they post a photograph 【on】 Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.
+336 | And these attachment styles carry 【on】 into adulthood.    ?P:carry on
+556 | Studies in recent years show that left-handed children are more likely to suffer with learning difficulties and their scores are lower 【on】 IQ tests.
+96 | By slapping some butter 【on】 it.
+190 | He watched a TV series based 【on】 it.
+473 | Employees spend much of their work time 【on】 it.
+441 | When their hobby was both serious and similar to their job, then spending more time 【on】 it actually decreased their work _31_.
+395 | M: It does sound like it would suit my taste, but if they are making a TV series based 【on】 it now, I don’t know if I should read the book or watch the show first.
+252 | He had an operation done 【on】 it, plastic surgery, in order to cover it and make it less noticeable.
+80 | You are to write an essay 【on】 its benefits and the service you can provide to the community.
+263 | There will never be agreement 【on】 its harm to people.
+549 | turn this pretty much 【on】 its head.    ?P:turn sth on its head
+377 | You can cut it into thin slices and eat it 【on】 its own.    ?P:on one's own
+627 | J) If they think we’re too old to learn new skills after we’re 45, just learning some new skills may have an effect 【on】 its own.    ?P:on one's own
+406 | The New Year has come and gone, and many may have already forgotten what they had resolved to do 【on】 January 1st.
+247 | Participants in the diversity condition tended to click 【on】 job listings from companies with slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click 【on】 the listing.
+390 | M: Too many people spend their lives working 【on】 jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, they can go back to work.    ?P:work on
+497 | The introduction of the “sugar tax” 【on】 juices and soda drinks has pushed more people to bottled water, while health awareness
+188 | Wilbur has his own Internet pages as he approaches his 10th birthday 【on】 July, 7.
+143 | Indeed, the latest research that has emerged 【on】 language and aging shows that language mastery is a ___30___ that we begin
+141 | An email from JetBlue read, “Our team is working to accommodate customers 【on】 later flights.
+116 | It is a code of conduct based 【on】 laws and ethics.
+634 | Send a quick message to a current or previous company employee 【on】 LinkedIn or by email and ask if they would be willing to have a quick conversation with you about the organization in general.
+327 | “People have tended to focus from a policy point of view 【on】 _31_ lonely people to make them more _32_, ” said the lead author, Nicole K.
+618 | When most of us set goals, we focus 【on】 long-term results We
+655 | firmly fixed 【on】 low-calorie, low-fat, sugar-free snack foods and beverages following the publication of studies linking sugar
+456 | “If we can increase the throughput 【on】 major highways, even if it’s only by 50
+202 | 【on】 making (and perhaps even chewing) their food without missing out 【on】 nutrients.
+276 | Social isolation and loneliness were determined with questionnaires; the researchers depended 【on】 medical records and death _28_ for
+311 | They’ve just published a global survey 【on】 midcareer
+443 | Yet studies of first-year college papers suggest these anxieties may be partly based 【on】 misguided nostalgia (怀旧).
+119 | Both groups spend a lot of time 【on】 mobile devices.
+112 | Zoo officials say the baby was born 【on】 Monday.
+279 | The latest discovery was 【on】 Monday, meaning four of these cash bundles have been handed in this year and 13 since 2014.
+224 | India launched its helicopter taxi service 【on】 Monday, promising to ferry customers the 40 miles between Bangalore’s Electronic City tech hub and the International Airport terminal in 15 minutes.
+122 | Two boys and four girls were born 【on】 Monday to the surprise of a young couple and doctors who had expected five babies.
+548 | But when you sit in the front row, you may be called 【on】 more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.    ?P:call on
+401 | As a child matures, they can then take 【on】 more of the daily responsibilities, boosting their sense of independence.    ?P:take on
+650 | Similar action has been taken even in Scotland, where camping is usually permitted 【on】 most of its open land.
+148 | Attacked postmen 【on】 multiple occasions.
+97 | [3] Jordan Jax and Tarod Goodman, both 23, were arrested after evidence gathered in an investigation showed the pair stole mail 【on】 multiple occasions using a postal key, according to a news release.
+330 | I often feel strange 【on】 my birthday.
+333 | If I am caught with it in my pocket, I will be subject to disciplinary procedure, which will impact 【on】 my career.
+181 | I’m 【on】 my computer very late most nights, and that’s probably why I don’t sleep enough.
+469 | I’ll use that food delivery app 【on】 my phone.
+370 | What is that roadside monument I see 【on】 my way to work every day?    ?P:on one's way
+463 | gateway to the realization that "five fingers 【on】 one hand is the same as five fingers 【on】 the other. " Such
+462 | 【On】 one particular United States island, wild pigs themselves became an attractive food source for a species of mainland eagle.
+295 | That means no running red lights or traveling in the opposite direction of traffic 【on】 one-way streets.
+613 | But 【on】 opportunity for promotion, more than double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.
+321 | Over the years, many scholars have insisted that time online does not necessarily take away time spent engaging with traditional media or 【on】 other activities.
+643 | We have long feared that this "revolution in distribution" uses corporate black magic 【on】 our appetite.
+614 | Another role that they are expected to take over is negotiating 【on】 our behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+161 | Speaking ahead of the All Energy Conference being held in Glasgow, ScottishPower chief executive Keith Anderson said: “We have a large supply of renewable energy 【on】 our doorstep and one of the only two low emission zones in action across the UK.
+355 | One way we can improve the effects of fruit juice 【on】 our health is making sure we select ripe
+427 | It includes not just how we form these impressions, but the conclusions we make about other people based 【on】 our impressions.
+351 | Truly environmentally friendly space travel is still some way off. [18] But we already have many of the technologies needed to start limiting its impact 【on】 our planet.
+371 | M: Well, (11) you’ll need to update your card details directly 【on】 our website.
+652 | A long-standing debate is going 【on】 over the impact of school absences 【on】 students’ academic performance.
+453 | It needs to be confirmed by more studies 【on】 pandas.
+378 | 【On】 paper, my expenses and my financial aid just about even out.    ?P:on paper
+322 | 【On】 paper, the job seemed perfect for me: The position was completely in line with my degree, the duties and responsibilities were compatible with my interests, and the office maintained a well-stocked kitchen that would satisfy my every snack desire.    ?P:on paper
+476 | E) An Internet search of “hidden costs” of college turns up a host of articles 【on】 parent-centered websites 【on】 the college application process.
+488 | F) “We did a study 【on】 paternity leave five years ago.
+564 | H) If you plan 【on】 paying off bills in your student account with a credit card, be aware of any additional costs.
+100 | This characteristic is ___26___ apparent in a new study, focusing 【on】 people
+590 | They often make sudden attacks 【on】 people.
+91 | You are to write a response about its recent development and its impact 【on】 people's lives.
+416 | So with the deliveries, I’m actually saving 【on】 petrol.
+306 | 【on】 phantom traffic jams.
+501 | L) Since starting his research 【on】 phantom traffic jams, Horn has learned that schools of fish and flocks of birds and bats use
+186 | He’s always keen 【on】 physical activities.
+137 | One recent study published in the journal PLOS ONE, for example, found that the strength of a person’s social circle was a better _28_ of self-reported stress, happiness and well-being levels than fitness tracker data 【on】 physical activity, heart rate and sleep.
+657 | There’s nothing wrong with trying to look our best but excessive focus 【on】 physical appearance misses the soulful aspects
+586 | Our society places a high value 【on】 physical beauty.
+85 | Each of these behaviors is important, of course, but they all _26_ 【on】 physical health—and a growing body of research suggests that social health is just as, if not more, important to _27_ well-being.
+192 | He reviews books 【on】 political affairs.
+325 | Higher education institutions tend to focus 【on】 preparing students for high-paying jobs.
+568 | Public-health initiatives to promote healthy diets often focus 【on】 providing nutrition education and recipes (食谱).
+484 | M) Then, 【on】 race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene.
+440 | Other experiments showed similar results based 【on】 racial group.
+185 | Concentrating 【on】 reading.
+256 | Concentrate 【on】 reading articles recommended by experts.
+189 | But even when these accounts touch 【on】 real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+664 | Employers argue they make considerable savings 【on】 real estate when workers shift from office to home work.
+448 | that missing any days at school could have a negative impact 【on】 results.
+176 | Summer doesn’t begin for two more days, but scientists are already sounding the alarm about dangerous ice melts going 【on】 right now in Greenland.
+198 | I’ve definitely bought clothes and shoes I didn’t need because they were 【on】 sale, and paying with my phone was so easy.
+353 | product is going 【on】 sale for real and the boys had to learn about budgeting and marketing, as well as designing their game.
+302 | see their design 【on】 sale in the spring of the following year.
+159 | M: (8-1) So what time do you think we should have the party 【on】 Saturday?
+235 | The dance group, made up of 60 members, performs throughout the year but was now preparing for its biggest events, Chinese Lunar New Year celebrations, which will begin 【on】 Saturday and conclude 【on】 February 15.
+388 | The new year—according to the Chinese lunar calendar—will begin 【on】 Saturday and marks the Year of the Rooster, which is thought to be a symbol of positivity.
+124 | James Playing Fields in Glasgow 【on】 Saturday, 18 May from 10:00 am until 7:00 pm.
+397 | M: If students do better, we’ll spend less 【on】 schooling.
+162 | biomedical science, research has been done 【on】 scientists who narrowly lost or won grant money.
+636 | But overall, the study found little evidence that time spent 【on】 screens was hurting social skills for most children.
+519 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, have two very different courses based 【on】 seemingly irrelevant factors, such as their family relationships or their educational levels.
+602 | They were also rated similarly 【on】 self-control, such as the ability to regulate their temper.
+293 | The mother dog helped solve multiple murders and many other crimes. [5] The clone has already performed better than traditionally bred dogs 【on】 several tests.
+107 | The café is open in the mornings every day of the year and has two members of staff or supervisors 【on】 shift every day.
+541 | Chetan-Walsh believes in a ban 【on】 single-use bottles.
+625 | Local business owners 【on】 Skillman Ave argued that their businesses would be ruined when parking spots were replaced
+587 | Despite increased business activity 【on】 Skillman Ave, many store owners insisted the bike lanes were destroying their area.
+358 | In the year after the bike lanes arrived, businesses 【on】 Skillman saw sales rise by 12 percent,
+115 | Rachel Salas, an expert 【on】 sleep disorders and an associate professor at Johns Hopkins Medicine in Baltimore.
+580 | There is a time-honoured tradition in the US for school kids to stay at home 【on】 “snow days”.
+588 | new intervention cleverly exploits teenagers’ instinct for rebelliousness and autonomy, and the value they place 【on】 social
+130 | Posting her daughter's photos 【on】 social media.
+131 | (3-2) The following weeks, she found other outfits in her dressing-up box, and dressed up as different characters and famous people, sharing her exploits 【on】 social media.
+175 | He prefers to have them shown 【on】 social media.
+261 | Post pictures of her pet dog 【on】 social media.
+309 | Being always active 【on】 social media.
+425 | In the second part of the study I found 76% of employees using social media for work took an interest in other organizations they found 【on】 social media.
+518 | Encourage employees to increase their visibility 【on】 social media.
+219 | Indeed, by 2016, the average American high school senior said they spent six hours a day writing text messages, 【on】 social media, and online during their free time.
+375 | These beliefs contribute to a majority of workers connecting with colleagues 【on】 social media, even during work hours.
+411 | The 115-year-old is active 【on】 social media, regularly sharing aspects of her life. [20] She also shares some of her secrets to living so long.
+619 | Debates 【on】 social media show some parents are opposed to ending the “snow day” tradition.
+240 | Indeed, as they get older and are given more freedom, they often ease up 【on】 social networking.
+178 | They wear hats 【on】 social occasions.
+173 | Their potential impact 【on】 social progress.
+513 | Its impact 【on】 society is expected to rise.
+155 | It relies too much 【on】 solid data.
+486 | In other words, even if a certain food is still grown 【on】 some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.
+319 | F) The most interesting people aren’t those who’ve gone 【on】 some Eat, Pray, Love journey to find themselves.
+208 | In situations where you need more timely action, decisions based 【on】 some information and instinct may work better.
+300 | Reusable rockets can cut down 【on】 some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and other components are treated as expendable.    ?P:cut down on
+639 | If you are thinking to try colour 【on】 some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.
+237 | M: [11] I’ve been catching up 【on】 some reading.
+529 | Compared with other racing series, Formula One focuses more 【on】 speed and involves more danger.
+223 | Perhaps this is because older people had fewer options when they were starting their careers, at a time when values focused more 【on】 stable incomes than _32_ personal missions.
+140 | Its crew members went 【on】 strike.
+511 | “I didn’t really care about my mind and my body until they decided to go 【on】 strike.    ?P:go on strike ?P:go on
+637 | Today, many Americans have to go to college 【on】 student loans.
+539 | The level of impact 【on】 students’ educational performance is all to do
+287 | The effect of interacting with therapy dogs 【on】 students under pressure.
+171 | Smith says he was _28_ by how past studies 【on】 success “assumed what people will care about.
+362 | employment, based 【on】 surveys of over 5,000 workers and managers in seven countries.
+120 | She stated that the driver of the lorry had been arrested 【on】 suspicion of dangerous driving.
+398 | focus 【on】 tackling absenteeism from school.
+246 | ___34___ better than participants in their youth or middle years 【on】 tasks that required them to determine the meaning of
+538 | It can lead to increased innovation and greater trust 【on】 teams.
+142 | were being replaced by other employees who relied 【on】 technological abilities such as artificial intelligence in their work.
+365 | rely exclusively 【on】 terms similar to "a few" or "some. " In contrast, our own lives are governed by
+459 | In one study, students who sat in the front and center of the classroom received a higher grade average and scored higher 【on】 tests than those sitting towards the back of the classroom.
+620 | “If we’re reflecting, maybe we should also reflect 【on】 that.
+471 | Luckily, there are a few things you can do to determine whether or not a company is a good fit for you—before you ever sign your name 【on】 that dotted line.
+307 | businesses 【on】 that street fared?
+152 | ___35___ the ability to smell, scientists believe it is possible that another part of the brain took 【on】 that task.    ?P:take on
+400 | “This study ___28___ what we are learning about how manipulating vision can have a ___29___ effect 【on】 the ability of an
+111 | Expand his business 【on】 the beach.
+542 | Your current situation in life is built 【on】 the beliefs and habits you have been practicing daily.    ?P:build on
+632 | You should decide 【on】 the best choice and mark the corresponding letter 【on】 Answer Sheet 2 with a single line through the centre.
+408 | And emotions ran hot: Someone scattered tacks 【on】 the bike lane.
+344 | W: Tom, did you see the article online about the new TV series based 【on】 the book *The Three Body Problem*?
+214 | tracked more than 1 , 100 scientists who were 【on】 the border between getting a grant and missing out
+493 | the tendency of people to use “abstract speech that focuses 【on】 the broader picture and ___26___ purpose of action rather than
+98 | Studied 【on】 the bus.
+254 | W: [10] It’s about an hour to campus, but there’s no reason I can’t study 【on】 the bus.
+631 | Minor setbacks in their early career may have a strong negative effect 【on】 the career of close losers.
+265 | But among those who stayed 【on】, the close losers performed even better    ?P:stay on
+509 | I’m going to go 【on】 the computer now and give it a try.    ?P:go on
+499 | Shed light 【on】 the conservation of most large meat-eating animals.    ?P:shed light on
+629 | In 2015, two Italian companies, collaborated 【on】 the construction of a similar type of spacecraft, which was the first coffee machine designed for use in space.
+642 | The benefits of using voice instead of tapping fingers obviously depend 【on】 the context.
+364 | In fact, as one of the most damaging invasive species 【on】 the continent, (17) wild pigs cause millions of dollars in crop damage yearly.
+525 | 【On】 the contrary, economically disadvantaged people report diets that are nutrient-poor and energy-dense.
+487 | 【On】 the contrary, taking risks in entrepreneurship involves careful planning and hard work.
+363 | Questions 8 to 11 are based 【on】 the conversation you have just heard.
+461 | Questions 12 to 15 are based 【on】 the conversation you have just heard.
+392 | We could try Mario’s, the new Italian restaurant 【on】 the corner.
+229 | J) For every one of the five studies, they found the same thing—participants who cheated in the first task did better 【on】 the creativity task.
+444 | However, a new systematic review brings us usefully up-to-date 【on】 the current findings in this area.
+438 | A lion head figure weighs under 10 pounds and sits squarely 【on】 the dancer's shoulders.
+304 | recommended daily number of calories (around 2,000 for women and 2,500 for men) 【on】 the days we drink juice, according
+374 | The actual value they attribute to diversity depends 【on】 the decision-making perspective.
+179 | The National Association of French Millers says bread consumption is 【on】 the decline, with French people eating nine grams less than in the previous year.    ?P:on the decline
+531 | How those decreases will be felt will depend 【on】 the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+84 | Instead, the officer discovered a five-year-old boy sat 【on】 the edge of the driver’s seat.
+554 | Research by social scientists 【on】 the effects of career setbacks has produced contradictory findings.
+385 | However, as water supplies __35__, farmers and consumers need to be more conscious of the effect that these products have 【on】 the environment as a whole.
+296 | E) But some parents object to the new policy if the vigorous debate 【on】 the Facebook page of Anderson County school
+241 | To seek the man's help with her work 【on】 the farm.    ?P:work on
+87 | Officials described the structure as a mixed-use building that features commercial businesses 【on】 the first floor and residential 【on】 the second and third floors.
+466 | Questions 26 to 35 are based 【on】 the following passage.
+468 | Questions 46 and 50 are based 【on】 the following passage.
+626 | To do this, researchers had students read an article 【on】 the food industry.
+379 | It’s a shame you missed out 【on】 the general discount.
+281 | That’s what happened 【on】 the German island of Langeoog this week.
+301 | a way to avoid taking action 【on】 the goals and interests that we say are important to us.
+617 | Most of the coverage of the boom in wild camping has been negative. [17] Camping in public parks has now been banned for August and the early part of September because campers dump litter, human waste, and even their tents 【on】 the grassland.
+533 | They are right next to each other 【on】 the ground floor, since you mentioned in your message that they have trouble with stairs.
+121 | She missed out 【on】 the gym’s general discount.
+83 | He likes to sit 【on】 the hairdresser’s chair.
+136 | He then drove three kilometers across town before getting 【on】 the highway. [2] The boy later told confused officers that he was planning to travel to California and buy a Lamborghini sports car.
+324 | It is suggested that people not going 【on】 the holiday might help detect website frauds.
+222 | He also suggests asking someone not going 【on】 the holiday to have a look at the website.
+678 | G) Keynes's prediction of a shorter working week rests 【on】 the idea that the standard of living would continue rising for
+274 | Other trends included an emphasis 【on】 the importance of parenting.
+289 | However, there has been _26_ little research 【on】 the influence of leisure activities.
+583 | Recent evidence shows even relying 【on】 the information provided by the seller is
+504 | This study gathered that students had a clearer vision of the blackboard, and were able to focus more attention 【on】 the instructor.
+82 | [6] A man passing by decided to video their good deed and put it 【on】 the internet.
+442 | M: No, I haven’t, but I’ve noticed that it has great reviews 【on】 the Internet.
+555 | The essay sparked a massive thread 【on】 the internet community blog MetaFilter.
+507 | The eagles began breeding 【on】 the island, and also feeding 【on】 a species of native fox.
+332 | He also noted the plastic bags and other materials that have washed ashore 【on】 the island can cause serious problems for _34_.
+433 | There are a couple of ways to compromise 【on】 the issue.
+589 | Obviously it depends 【on】 the job.    ?P:on the job
+308 | It’s gained through experience 【on】 the job and learning what’s appropriate given the needs of the project.    ?P:on the job
+592 | K) Research 【on】 the language of numbers shows, more and more, that one of our species' key
+604 | Left-handed people were more likely to prefer the images 【on】 the left.
+403 | The most recent count of pandas found that there were more than 1,800 left in the wild, putting them 【on】 the list of
+267 | Nobody places much value 【on】 the lives of these poor birds or 【on】 their meat.
+215 | Climate change has little effect 【on】 the lives of wild ducks.
+193 | After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out 【on】 the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.
+491 | Beginning first with the influence of exercise intensity 【on】 the mood benefits of aerobic exercise, the researchers, led by
+369 | It’s best to take 【on】 the most difficult task second—once they’re settled, but before they get tired.    ?P:take on
+266 | Focus 【on】 the most important ones.
+465 | After all, by continuing to pile riches 【on】 the narrow winners, the
+477 | I’ve checked the availability of flights from Beijing to London 【on】 the 22nd and you have a choice.
+106 | Questions 1 and 2 are based 【on】 the news report yon have just heard.
+158 | Questions 3 and 4 are based 【on】 the news report yon have just heard.
+312 | Questions 5 to 7 are based 【on】 the news report yon have just heard.
+128 | Questions 3 and 4 are based 【on】 the news report you have just heard,
+160 | Questions 5 to 7 are based 【on】 the news report you have just heard.
+601 | M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation 【on】 the number of Kelli Hardings the nation is blessed with.
+272 | 【On】 the one hand, many see value in diversity, which can contribute a variety of perspectives, encourage new ideas, and generate innovative solutions.    ?P:on the one hand
+656 | 【On】 the other hand, a casual dress helps us become more friendly and creative.    ?P:on the other hand
+645 | “【On】 the other hand, scientists at the USDA who I’ve spoken with are much more cautious.    ?P:on the other hand
+323 | 【On】 the other hand, they assume that it might be difficult to work with someone who has completely different views, speaks a different language, or has a different style of work.    ?P:on the other hand
+211 | I think I might try that big new supermarket 【on】 the other side of town and see what they have.
+413 | The new market 【on】 the other side of town.
+417 | H) Utrecht University sociologist Arnout van de Rijt was the lead author 【on】 the 2018 paper showing the
+412 | A substantial part of this, they report, is “widespread ageism” 【on】 the part of hiring managers.    ?P:on the part of
+396 | Questions 19 to 21 are based 【on】 the passage you have just heard
+550 | Questions 16 to 18 are based 【on】 the passage you have just heard.
+628 | Questions 19 to 21 are based 【on】 the passage you have just heard.
+109 | Police said that the car had come to a halt after hitting the sign, but did not appear to be seriously damaged, although an ambulance was called to check 【on】 the pensioner.
+524 | He can employ lip-reading and have meetings via video instead of 【on】 the phone.
+153 | The part about avoiding sleeping 【on】 the plane.
+154 | I was surprised that the expert recommended not eating for the entire journey and avoiding sleeping 【on】 the plane.
+89 | “It was like a split second of panic…that resulted in this nervous reaction 【on】 the plane,” said passenger Brian Healy. [2] “There was total quiet, and then there was relief when the plane came to a stop.
+609 | Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are people 【on】 the planet.
+566 | Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of people 【on】 the planet (about 820 million people) are suffering daily undernourishment.
+255 | E) Horn has been working 【on】 the problem of phantom traffic jams for years, and he has come up with a solution: By splitting    ?P:work on
+402 | J) The last important point to consider is that practice focuses your energy 【on】 the process.
+498 | your energy 【on】 the process, not the product.
+452 | is a natural result of staying focused 【on】 the process of doing anything.
+260 | This mission is founded 【on】 the proposition that all people, regardless of race, gender,
+318 | M: That would depend 【on】 the quality of paint you choose.
+490 | When Stanford University scholar Andrea Lunsford gathered data 【on】 the rates of errors in “freshman composition” papers going back to 1917, she found that they were virtually identical to today.
+177 | I) After each task, the researchers measured participants’ performance 【on】 the Remote Associates Test.
+236 | When they tried to make a positive impression 【on】 the researchers.
+638 | Right-handed people preferred the ones 【on】 the right.
+346 | Cumber said, “People can have fun, but both drivers and riders are responsible for paying attention while 【on】 the road.
+203 | It sounds like you’ll be wasting several hours every day 【on】 the road instead of studying.
+204 | cars 【on】 the road, rather than driving so closely behind another vehicle that a collision is likely if that vehicle brakes
+357 | becomes a reality 【on】 the roads.
+380 | And it’s true; turning down opportunities is easier when you can fall back 【on】 the safety net provided by power, money, and authority.    ?P:fall back on
+373 | To put it plainly, we just weren’t 【on】 the same page.    ?P:on the same page
+230 | They have an English translation 【on】 the screen.
+210 | Identify the suspect 【on】 the security video.
+572 | The study found that team-building exercises which focused 【on】 the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections with colleagues.
+205 | Try following the advice given by the expert 【on】 the show.
+257 | M: [13] Well, the expert 【on】 the show did cite research supporting her recommendations.
+339 | M: Thanks for having me 【on】 the show, Lisa.
+354 | It depends 【on】 the situation.
+479 | It gives him a degree of hearing, and he can use a variety of communication methods depending 【on】 the situation.
+595 | It’s an enduring responsibility based 【on】 the socialized gender role of women.
+649 | personal connections and relationships, people may place more value 【on】 the socializing that happens at work.
+472 | Many cultures place a much greater value 【on】 the spoken word than the American working culture does.
+278 | He can take notes 【on】 the spot.    ?P:on the spot
+673 | Today, a greater and greater proportion of people living 【on】 the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.
+228 | Bundles containing thousands of pounds in cash keep turning up 【on】 the streets of Blackhall Colliery in northern England, according to police.
+603 | bureaucracies, have limited English language skills, or are not contributing financially to their child’s education, the burden of self-advocacy will fall 【on】 the student.
+410 | Jeff Anderson, associate professor in Radiology at the University of Utah and ___32___ author 【on】 the study, says “In
+95 | Jet Sanders, who worked 【on】 the study while a PhD student at the University of York, said: “Failure to detect synthetic    ?P:work on
+593 | Some argue that there’s not enough research 【on】 the subject.
+206 | As I read an article 【on】 the subject in the past that suggested the opposite, it claimed that it was important not to miss meals and that taking a nap 【on】 the plane was the best way to adjust to a new time zone.
+574 | L) 【On】 the subject of career advancement, 59% of women and 49% of men said leave could be limiting and both genders said they feared it would have an impact 【on】 their progress long-term.
+421 | M: I’ll make a note here 【on】 the system for you, so that the payment will be made tomorrow morning.
+166 | I’m just looking 【on】 the system here.
+581 | about being able to put food 【on】 the table.    ?P:put food on the table
+445 | It’s about the vegetarian food festival you are holding 【on】 the 19th of August at the Newcastle City Hall.
+615 | In the following two years, Red Rum lost out 【on】 the title, coming in second both times.
+666 | Focus 【on】 the top spots 【on】 your priority list, and
+458 | He’s now writing a book 【on】 the topic.
+485 | "You need to pass 【on】 the traditions and the culture, and this is a part of our culture," he said.
+394 | countries have ___26___ evidence-backed guidelines 【on】 the type and intensity of exercise ___27___ for various physical
+672 | They are actually 【on】 the way to bankruptcy.    ?P:on the way
+341 | There’s that American style diner 【on】 the way to the mall.    ?P:on the way
+238 | Whether it might have any effect 【on】 the way we negotiate.    ?P:on the way
+303 | Perhaps they made the sound of wind to comment 【on】 the weather or imitated the sound of a bird to tell a friend that there was a bird nearby.
+576 | Contrary to parents’ belief, kids try hard to leave as few traces as possible 【on】 the web.
+291 | Early 【on】, the web is their “third space”, but by the late teens, it’s replaced in reaction to greater independence.    ?P:early on
+536 | Do you prefer to fill out an application 【on】 the web, or to print it out and fill it in by hand and then post it back to us?
+384 | The next day, Kate asked if she could check the shipping status, so her mom clicked 【on】 the web page and then walked out of the room.
+232 | It satisfied consumer demands 【on】 the whole.    ?P:on the whole
+242 | But 【on】 the whole, there was no systematic pattern.    ?P:on the whole
+496 | 【on】 the work side.
+517 | Western working culture tends to place a high value 【on】 the written word, and this reaches its highest level of intensity when it comes to contracts.
+600 | Such differences in value that different working cultures place 【on】 the written word tend to cause many problems when it comes to business relationships.
+297 | Second, after identifying the cause, they zeroed in 【on】 their
+624 | Americans spend an average of over $722 each year 【on】 their
+647 | These are both examples of deceptive strategies. [18] Participants were more willing to employ deceptive strategies when assigned an agent to negotiate 【on】 their behalf.
+436 | "People don't work 【on】 their cars anymore.    ?P:work on
+585 | based 【on】 their clothes.
+543 | a way, Duckworth is giving new hope to people who have shut the doors 【on】 their dreams.
+422 | More and more, watching a movie is something teens choose to do 【on】 their electronic devices.
+167 | More and more, young people choose spending time 【on】 their electronic devices over engaging in other activities, regardless of the type.
+512 | These are much better and much more productive ways for companies to move forward 【on】 their employees’ wellbeing.
+275 | The helicopters ferried around eight customers to the airport 【on】 their first day.
+651 | were still working 【on】 their goals two months after setting them.    ?P:work on
+340 | So Ciara Kelly and colleagues recruited 129 hobbyists to look at how the time spent 【on】 their hobbies _27_ their work life.
+669 | People’s choice of food depends 【on】 their individual taste.
+180 | Impose their own dreams 【on】 their kids.
+391 | The researchers found that when participants spent longer than _28_ 【on】 their leisure activity, their belief in their ability to perform their job was strengthened.
+482 | The researchers found that the time when a person starts school has an enduring impact 【on】 their lives.
+668 | Both groups disliked stuff 【on】 their opposite side.
+648 | It was really a major obstacle hard to overcome 【on】 their own.    ?P:on one's own
+641 | Refugees who settle in other countries often find themselves unable to continue 【on】 their previous career path due to a new set of employer standards or skills requirements.
+194 | The criterion for a snow day is primarily the inability of school buses to operate safely 【on】 their routes and danger to
+447 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of YOUR spot 【on】 their schedule.
+404 | These findings suggest that people should change how they present themselves depending 【on】 their social goal.
+285 | They may block us 【on】 their social media accounts and stop responding to our emails.
+231 | The association is concerned about the effects this trend will have 【on】 their trade, and suggests three reasons why it is happening.
+345 | Reflect 【on】 their true purpose.
+350 | Update regularly all information 【on】 their websites.
+451 | The state attracts more undergraduate students than it sends to colleges out of state. [25] Many colleges and universities currently provide similar information 【on】 their websites.
+221 | Today, many large corporations stress the importance of diversity 【on】 their websites, but current statistics show that the typical manager in America still tends to be white and male.
+123 | Look back 【on】 their years at school.    ?P:look back on
+226 | I’m just wondering if I can get a discount 【on】 them.
+90 | academic ___26___ 【on】 these developments, there has been little study 【on】 how workers ___27___ to being replaced through
+277 | So how much of a discount is there 【on】 these two new classes?
+146 | M: No, they are safe. [8] But paying online is too convenient and I spent too much money 【on】 things I didn’t need.
+258 | Lay emphasis 【on】 thinking flexibly.
+596 | They don’t understand why successive governments have failed to act 【on】 this.
+439 | Fortunately, there is some good news 【on】 this front.
+93 | Decided 【on】 this year’s energy assistance package of $8 billion in total.
+315 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying to park the car 【on】 those huge supermarket car parks then not being able to find it again after you come out of the shops.
+553 | These experts claim there is not sufficient data to indicate that people’s reliance 【on】 those other activities is an addiction.
+429 | Can you sign me up for the 10-week course 【on】 Thursday evenings?
+409 | As annual inflation climbs over 10 percent, many households are 【on】 tight budgets.
+559 | When high school students go 【on】 to college, their past and current reading habits will influence their academic performance.    ?P:go on
+273 | K) “I tried logging 【on】 to the website and couldn’t,” she recalls.
+288 | W: Our guest 【on】 today’s Book Talk is John Black, the author of the new bestseller, Retire Early.
+598 | I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely to have the biggest negative impact 【on】 today’s teens because reading books and longer articles is one of the best ways to learn critical thinking.
+367 | persevering losers still came out 【on】 top.    ?P:come out on top
+611 | "Many people don't want to be forced into having fun or making friends, especially not 【on】 top of their busy jobs.    ?P:on top of
+616 | an economist at Harvard, the U.S. economy is right 【on】 track to reach Keynes’s eightfold multiple by 2029.
+386 | Formula One teams race far more technologically advanced vehicles around tracks all over the world—in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and 【on】 tradition-rich tracks like Silverstone in England and Monza in Italy too.
+414 | In addition to either eating other animals or their food supply, wild pigs damage native habitats by rooting up grasses and rubbing 【on】 trees.
+320 | It was sent to me 【on】 Tuesday.
+335 | Among the goals, Carey said in an interview 【on】 Tuesday, is one that just about every global sport seems interested in chasing: increasing interest in the United States.
+359 | [22] Dozens of British students arriving for their first day of school 【on】 Tuesday were sent home over their shoes.
+437 | 【On】 two key measures of financial performance, immigrants outperform native-born Americans.
+552 | This manual fixation-an indirect by-product of walking upright 【on】 two legs­
+282 | Karen is the managing director of Cube Movie Theatre located 【on】 Underhill Road.
+677 | He lived 【on】 various charity benefits.
+117 | I’m very much dependent 【on】 vision as a way of taking in information.
+419 | These experts argue that focusing 【on】 wage is the wrong approach.
+579 | blog posts written 【on】 websites.
+118 | “They should be Googling the property, and looking 【on】 websites like Google Maps and StreetView to see if it’s there.
+269 | The payment was made 【on】 Wednesday.
+337 | Alvin Chau, aged 26, is an environmental consultant by day and a lion dancer 【on】 weekends.
+250 | You can research the best instructions 【on】 weight lifting technique, but the only way to build strength is to practice lifting
+280 | The depressing and regimented (严格管制的) environment got him thinking 【on】 what exactly could improve the residents’ conditions.
+516 | So before you can determine whether you and a specific company would be compatible together, it’s important to have a solid handle 【on】 what exactly you want from your employer.
+450 | frequencies based 【on】 what they are used to hearing.
+623 | We also evaluate ourselves based 【on】 what we are wearing because of the way they make us feel.
+584 | It focuses our attention 【on】 what we do.
+310 | Database technology enables business leaders to look to hard evidence in analyzing target markets and promotional strategies rather than making assumptions or guesses 【on】 what works.
+376 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update 【on】 where their journey has taken them and what resiliencies (韧性) have been the pavement 【on】 which they’ve traveled.
+347 | H) There is a long-running debate 【on】 whether missing days of school affects attainment.
+196 | Information was then gathered 【on】 whether the email was opened, and which job listings were clicked 【on】 by each user.
+165 | But it is impossible to know the _26_ day 【on】 which he was born.
+220 | Laying equal stress 【on】 written and spoken communication.
+271 | It places a high value 【on】 written contracts.
+557 | Experts say this can have an impact 【on】 young children whose understanding of gender roles and identity are rapidly forming.
+569 | Whether your future husband insisting 【on】 your adopting his last name is a red flag to you or not, it is still something that you should take into consideration.
+334 | You probably haven't taken the time to think of all the work that went into creating the shirt 【on】 your back.
+565 | However, the sun can have a positive influence 【on】 your body by raising your energy levels.
+129 | M: (8-1) What’s that orange thing 【on】 your computer screen?
+599 | Now comes the part when you put 【on】 your detective hat and do a little digging.    ?P:put on
+608 | You’ll need to change your name at the bank, with social security, with your credit cards, 【on】 your driver’s license, at the gym … everywhere.
+481 | Obviously you will still be you even if you’ve taken 【on】 your husband’s last name and omitted yours entirely.    ?P:take on
+560 | There’s no wrong answer here—so from big things to small details, write them all down 【on】 your list.
+526 | H) If you care about outside opinions 【on】 your name, you should know that a large portion of today’s society is annoyed by the hyphenated name.
+478 | This shift toward aquaculture isn’t just good for ensuring salmon (三文鱼) 【on】 your plate; it’s also crucial to ensuring food security and sustainability.
+663 | matter how many likes you get 【on】 your post.
+381 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time 【on】 your smartphone or laptop, and sign language into text as well.
+329 | Three days later, you’re overwhelmed by how much is 【on】 your to-do list.
+578 | W: I should be fine with doing it 【on】 your website, and I already have all my certificates, as we run a small farm shop too.
+489 | M: Good afternoon. [12] Yes, we reserved our rooms yesterday morning 【on】 your website for three nights.
+492 | W: [13] It says 【on】 your website that you are still looking for vendors, and I grow organic vegetables 【on】 my farm, as well as doing my own home baking.
+114 | It says 【on】 your website that your company will pay back the money within three working days of you receiving the returned item.

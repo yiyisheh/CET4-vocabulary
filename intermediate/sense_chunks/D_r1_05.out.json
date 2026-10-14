@@ -1,0 +1,962 @@
+{
+ "for one's own good": {
+  "canonical": "for one's own good",
+  "pos": "adv.",
+  "zh": "对自己不利地（too…for one's own good：太…以致反受其害）；为了自己好",
+  "example": {
+   "id": 0,
+   "en": "The findings suggest that some people may be too emotionally clever for their own good, says Bechtoldt.",
+   "zh": "贝希托尔特说，研究结果表明，有些人情商太高，反而对自己不利。"
+  },
+  "valid": true,
+  "note": "真题里是 too ... for one's own good（过于…以致自己吃亏）；字面义「为了某人好」也可记"
+ },
+ "for one": {
+  "canonical": "for one",
+  "pos": "adv.",
+  "zh": "首先，其一（列举理由时，常与 for another 连用）",
+  "example": {
+   "id": 0,
+   "en": "For one, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate.",
+   "zh": "首先，开启新的职业道路并不像看几个视频、拿一个在线证书那么简单。"
+  },
+  "valid": true,
+  "note": "例句末尾后半句已删去以求简短；与 for another 成对使用"
+ },
+ "for another": {
+  "canonical": "for another",
+  "pos": "adv.",
+  "zh": "其二，另外（列举理由时，接在 for one 之后）",
+  "example": {
+   "id": 0,
+   "en": "For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.",
+   "zh": "其次，Coursera 上的大多数课程是英文的，尽管有增加翻译的计划，语言障碍仍可能是个大障碍。"
+  },
+  "valid": true,
+  "note": "与 for one 成对使用，也可考虑合并为「for one ... for another」"
+ },
+ "put on": {
+  "canonical": "put on",
+  "pos": "v.",
+  "zh": "穿上，戴上；拉上，装上（如手刹）",
+  "example": {
+   "id": 1,
+   "en": "Now comes the part when you put on your detective hat and do a little digging.",
+   "zh": "现在到了你戴上侦探帽、稍微深入挖掘一下的环节。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on board": {
+  "canonical": "on board",
+  "pos": "prep.",
+  "zh": "在（飞机、船、车）上",
+  "example": {
+   "id": 1,
+   "en": "It found a pet dog on board a plane to a city in Texas.",
+   "zh": "它在一架飞往得克萨斯州某城市的飞机上发现了一只宠物狗。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "work on": {
+  "canonical": "work on",
+  "pos": "v.",
+  "zh": "从事，致力于；研究，处理；修理",
+  "example": {
+   "id": 1,
+   "en": "He was working on a study project with Jimmy.",
+   "zh": "他正和吉米一起做一个学习项目。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "call on": {
+  "canonical": "call on",
+  "pos": "v.",
+  "zh": "点名（让某人发言）；号召，呼吁；拜访",
+  "example": {
+   "id": 2,
+   "en": "They may feel helpless when called on by the instructor.",
+   "zh": "被老师点名时，他们可能会感到无助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "descend on": {
+  "canonical": "descend on",
+  "pos": "v.",
+  "zh": "蜂拥而至，突然涌向",
+  "example": {
+   "id": 0,
+   "en": "Over 4,000 pipers and drummers are expected to descend on the city for the annual event.",
+   "zh": "预计将有 4000 多名风笛手和鼓手涌入这座城市参加一年一度的盛会。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on average": {
+  "canonical": "on average",
+  "pos": "adv.",
+  "zh": "平均，平均而言",
+  "example": {
+   "id": 1,
+   "en": "It is ninety grams daily on average.",
+   "zh": "平均每天九十克。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on one's own": {
+  "canonical": "on one's own",
+  "pos": "adv.",
+  "zh": "独自，靠自己；单独（本身）",
+  "example": {
+   "id": 1,
+   "en": "He is not yet mature enough to live on his own.",
+   "zh": "他还不够成熟，不能独立生活。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on suspicion of": {
+  "canonical": "on suspicion of",
+  "pos": "prep.",
+  "zh": "因涉嫌…",
+  "example": {
+   "id": 0,
+   "en": "She stated that the driver of the lorry had been arrested on suspicion of dangerous driving.",
+   "zh": "她说这辆卡车的司机因涉嫌危险驾驶被逮捕了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "miss out on": {
+  "canonical": "miss out on",
+  "pos": "v.",
+  "zh": "错过（机会、好处）",
+  "example": {
+   "id": 1,
+   "en": "It's a shame you missed out on the general discount.",
+   "zh": "你错过了普通折扣，真可惜。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "look back on": {
+  "canonical": "look back on",
+  "pos": "v.",
+  "zh": "回顾，回想",
+  "example": {
+   "id": 0,
+   "en": "Look back on their years at school.",
+   "zh": "回顾他们的学生时代。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take on": {
+  "canonical": "take on",
+  "pos": "v.",
+  "zh": "承担，接下（任务、责任）；呈现（特征）；采用",
+  "example": {
+   "id": 2,
+   "en": "It's best to take on the most difficult task second—once they're settled, but before they get tired.",
+   "zh": "最好把最难的任务排在第二个——等他们安顿下来之后、疲劳之前。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go on": {
+  "canonical": "go on",
+  "pos": "v.",
+  "zh": "发生，进行；继续；接着（做）（go on to do）",
+  "example": {
+   "id": 1,
+   "en": "A long-standing debate is going on over the impact of school absences on students' academic performance.",
+   "zh": "关于缺课对学生学业表现的影响，一场长期的争论仍在进行。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "later on": {
+  "canonical": "later on",
+  "pos": "adv.",
+  "zh": "后来，以后",
+  "example": {
+   "id": 1,
+   "en": "This might present problems for young people later on.",
+   "zh": "这可能会在以后给年轻人带来问题。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "catch up on": {
+  "canonical": "catch up on",
+  "pos": "v.",
+  "zh": "补上（落下的事）；了解最新情况",
+  "example": {
+   "id": 0,
+   "en": "I've been catching up on some reading.",
+   "zh": "我一直在补一些阅读。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "ease up on": {
+  "canonical": "ease up on",
+  "pos": "v.",
+  "zh": "对…放松，减少（做某事）",
+  "example": {
+   "id": 0,
+   "en": "Indeed, as they get older and are given more freedom, they often ease up on social networking.",
+   "zh": "确实，随着年龄增长、获得更多自由，他们常常会减少社交网络的使用。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on hand": {
+  "canonical": "on hand",
+  "pos": "adj.",
+  "zh": "在场的，在手边的",
+  "example": {
+   "id": 0,
+   "en": "Teachers are also losing their snow days and instead will be expected to be on hand to take a virtual register and",
+   "zh": "教师们的雪天假也没有了，而是要随时在线做虚拟点名，并且"
+  },
+  "valid": true,
+  "note": "原句被截断，仅此一句"
+ },
+ "stay on": {
+  "canonical": "stay on",
+  "pos": "v.",
+  "zh": "继续留下，继续留任；留在原处",
+  "example": {
+   "id": 1,
+   "en": "But among those who stayed on, the close losers performed even better",
+   "zh": "但在留下来的人当中，险些落败者表现得更好。"
+  },
+  "valid": true,
+  "note": "原句缺句号，已不影响理解"
+ },
+ "log on": {
+  "canonical": "log on",
+  "pos": "v.",
+  "zh": "登录",
+  "example": {
+   "id": 0,
+   "en": "I tried logging on to the website and couldn't, she recalls.",
+   "zh": "她回忆说：“我试着登录那个网站，但登不上。”"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "early on": {
+  "canonical": "early on",
+  "pos": "adv.",
+  "zh": "在早期，在初期",
+  "example": {
+   "id": 0,
+   "en": "Early on, the web is their “third space”, but by the late teens, it’s replaced in reaction to greater independence.",
+   "zh": "早期，网络是他们的“第三空间”，但到了十几岁后期，随着更加独立，它就被取代了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "cut down on": {
+  "canonical": "cut down on",
+  "pos": "v.",
+  "zh": "减少（消费、摄入）",
+  "example": {
+   "id": 0,
+   "en": "Remind people to cut down on snacking.",
+   "zh": "提醒人们少吃零食。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "border on": {
+  "canonical": "border on",
+  "pos": "v.",
+  "zh": "近乎，接近（某种状态）",
+  "example": {
+   "id": 0,
+   "en": "They are a shade of red bordering on brown.",
+   "zh": "它们是一种近乎棕色的红色。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on paper": {
+  "canonical": "on paper",
+  "pos": "adv.",
+  "zh": "理论上，从纸面上看",
+  "example": {
+   "id": 1,
+   "en": "On paper, my expenses and my financial aid just about even out.",
+   "zh": "从账面上看，我的开销和助学金基本持平。"
+  },
+  "valid": true,
+  "note": "第一句 Off paper 是对比用法，意思是「不在纸面上」"
+ },
+ "carry on": {
+  "canonical": "carry on",
+  "pos": "v.",
+  "zh": "继续；延续",
+  "example": {
+   "id": 0,
+   "en": "And these attachment styles carry on into adulthood.",
+   "zh": "而且这些依恋类型会延续到成年期。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on the way": {
+  "canonical": "on the way",
+  "pos": "adv.",
+  "zh": "在途中，在…路上；即将到来；正走向（on the way to）",
+  "example": {
+   "id": 1,
+   "en": "There’s that American style diner on the way to the mall.",
+   "zh": "去商场的路上有那家美式餐馆。"
+  },
+  "valid": true,
+  "note": "近乎字面义（路上），拿不准是否算固定短语，作为常用搭配保留；on one's way 已并入"
+ },
+ "come on": {
+  "canonical": "come on",
+  "pos": "int.",
+  "zh": "加油；得了吧；快点",
+  "example": {
+   "id": 0,
+   "en": "Oh, come on.",
+   "zh": "哦，得了吧。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come out on top": {
+  "canonical": "come out on top",
+  "pos": "v.",
+  "zh": "获胜，居于首位，成为赢家",
+  "example": {
+   "id": 0,
+   "en": "persevering losers still came out on top.",
+   "zh": "坚持不懈的落败者仍然最终胜出。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on one's way": {
+  "canonical": "on the way",
+  "pos": "prep.",
+  "zh": "在…路上，在去…的途中",
+  "example": {
+   "id": 0,
+   "en": "What is that roadside monument I see on my way to work every day?",
+   "zh": "我每天上班路上看到的那座路边纪念碑是什么？"
+  },
+  "valid": true,
+  "note": "与 on the way 同属一个短语（on the way to = on one's way to），合并到 on the way"
+ },
+ "fall back on": {
+  "canonical": "fall back on",
+  "pos": "v.",
+  "zh": "求助于，依靠（作为后备）",
+  "example": {
+   "id": 0,
+   "en": "And it’s true; turning down opportunities is easier when you can fall back on the safety net provided by power, money, and authority.",
+   "zh": "确实如此；当你能依靠权力、金钱和权威提供的安全网时，拒绝机会会更容易。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pass on": {
+  "canonical": "pass on",
+  "pos": "v.",
+  "zh": "传递，传给；转嫁；传承",
+  "example": {
+   "id": 1,
+   "en": "\"You need to pass on the traditions and the culture, and this is a part of our culture,\" he said.",
+   "zh": "他说：“你们需要把传统和文化传承下去，这也是我们文化的一部分。”"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "shed light on": {
+  "canonical": "shed light on",
+  "pos": "v.",
+  "zh": "阐明，使…得到解释，为…提供线索",
+  "example": {
+   "id": 0,
+   "en": "It has shed light on teens’ instinct for rebellion and autonomy.",
+   "zh": "它揭示了青少年追求叛逆和自主的本能。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "turn sth on its head": {
+  "canonical": "turn sth on its head",
+  "pos": "v.",
+  "zh": "彻底颠覆，使完全颠倒",
+  "example": {
+   "id": 0,
+   "en": "turn this pretty much on its head.",
+   "zh": "几乎把这一点彻底颠覆。"
+  },
+  "valid": true,
+  "note": "原句被截断，仅此一句"
+ },
+ "lose out on": {
+  "canonical": "lose out on",
+  "pos": "v.",
+  "zh": "错失，失去（机会、好处）",
+  "example": {
+   "id": 0,
+   "en": "In the following two years, Red Rum lost out on the title, coming in second both times.",
+   "zh": "在接下来的两年里，红朗姆都与冠军失之交臂，两次都获得第二名。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "build on": {
+  "canonical": "build on",
+  "pos": "v.",
+  "zh": "在…的基础上发展，以…为基础",
+  "example": {
+   "id": 0,
+   "en": "Building on these findings, the latest research examined how a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.",
+   "zh": "在这些发现的基础上，最新研究考察了兴趣上的成长型思维如何促进跨越传统文理学科界限的综合思维。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on time": {
+  "canonical": "on time",
+  "pos": "adv.",
+  "zh": "准时，按时",
+  "example": {
+   "id": 0,
+   "en": "preparatory coursework are very unlikely to graduate on time and go on to get jobs.",
+   "zh": "预备课程……很不可能按时毕业并接着找到工作。"
+  },
+  "valid": true,
+  "note": "原句被截断；on time = 准时，学习者宜整体记"
+ },
+ "keep an eye on": {
+  "canonical": "keep an eye on",
+  "pos": "v.",
+  "zh": "留意，照看，密切关注",
+  "example": {
+   "id": 1,
+   "en": "This allows managers to both keep an eye on struggling employees and provide ongoing feedback on how employees are adapting to their new work environment.",
+   "zh": "这让管理者既能留意那些吃力的员工，又能就员工适应新工作环境的情况持续给予反馈。"
+  },
+  "valid": true,
+  "note": "另一句用的是 keep a watchful eye on（变体）"
+ },
+ "draw on": {
+  "canonical": "draw on",
+  "pos": "v.",
+  "zh": "利用，借鉴，动用（经验、知识等）",
+  "example": {
+   "id": 0,
+   "en": "Draw on a vast wealth of past experience.",
+   "zh": "借鉴大量过往经验。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep the lights on": {
+  "canonical": "keep the lights on",
+  "pos": "v.",
+  "zh": "维持运转，勉强维持经营",
+  "example": {
+   "id": 0,
+   "en": "For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.",
+   "zh": "对于因疫情而勉强维持运转的机构来说，这可能意味着要想出非金钱的方式来奖励员工，比如无薪休假或弹性工作安排。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "improve on": {
+  "canonical": "improve on",
+  "pos": "v.",
+  "zh": "改进，超越（已有的东西）",
+  "example": {
+   "id": 0,
+   "en": "To improve on traditional organizational structures",
+   "zh": "改进传统的组织结构"
+  },
+  "valid": false,
+  "note": "improve + on 属于动词固定搭配，on 只引出对象，意思就是 improve（改进）；按动词义项标即可，不当作短语"
+ },
+ "compared with": {
+  "canonical": "compared with",
+  "pos": "prep.",
+  "zh": "与…相比",
+  "example": {
+   "id": 1,
+   "en": "Compared with those findings, these numbers were shocking to me.",
+   "zh": "与那些发现相比，这些数字令我震惊。"
+  },
+  "valid": true,
+  "note": "部分句子（如 compared teacher ... with ...）只是 compare...with 的普通用法，不是该短语"
+ },
+ "charge sb with sth": {
+  "canonical": "charge sb with sth",
+  "pos": "v.",
+  "zh": "指控，控告某人（罪名）；使充满（情感），赋予；让某人负责（be charged with）",
+  "example": {
+   "id": 0,
+   "en": "She was charged with mistreating animals.",
+   "zh": "她被控虐待动物。"
+  },
+  "valid": true,
+  "note": "真题里有三种意思：指控（最多）、be charged with emotion/meaning 充满、be charged with doing 负责"
+ },
+ "in harmony with": {
+  "canonical": "in harmony with",
+  "pos": "prep.",
+  "zh": "与…和谐一致，协调",
+  "example": {
+   "id": 0,
+   "en": "It may be because your brains operate in harmony with each other.",
+   "zh": "这可能是因为你们的大脑彼此协调运作。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have sth in common with": {
+  "canonical": "have sth in common",
+  "pos": "v.",
+  "zh": "与…有共同之处",
+  "example": {
+   "id": 1,
+   "en": "And whatever their financial background, or their educational background, most people will have something in common with each other.",
+   "zh": "无论经济背景还是教育背景如何，大多数人彼此都会有些共同之处。"
+  },
+  "valid": true,
+  "note": "并入 have sth in common（with 引出对象）"
+ },
+ "make friends with": {
+  "canonical": "make friends with",
+  "pos": "v.",
+  "zh": "与…交朋友",
+  "example": {
+   "id": 0,
+   "en": "Make friends with Jimmy.",
+   "zh": "和吉米交朋友。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "provide sb with sth": {
+  "canonical": "provide sb with sth",
+  "pos": "v.",
+  "zh": "向某人提供某物",
+  "example": {
+   "id": 3,
+   "en": "It should provide students with some basic knowledge.",
+   "zh": "它应该给学生提供一些基础知识。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come up with": {
+  "canonical": "come up with",
+  "pos": "v.",
+  "zh": "想出，提出（主意、办法）",
+  "example": {
+   "id": 0,
+   "en": "\"They came up with this,\" he says.",
+   "zh": "他说：“是他们想出来的。”"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go well with": {
+  "canonical": "go well with",
+  "pos": "v.",
+  "zh": "与…相配，与…搭配得好",
+  "example": {
+   "id": 0,
+   "en": "But generally speaking, soft cheeses are creamy and go well with sweet things like honey and jam.",
+   "zh": "但总的来说，软奶酪口感绵滑，与蜂蜜、果酱这类甜味食物很搭。"
+  },
+  "valid": true,
+  "note": "也可视为 go with（搭配）加副词 well，但 go well with 常整体记，保留"
+ },
+ "together with": {
+  "canonical": "together with",
+  "pos": "prep.",
+  "zh": "连同，和…一起",
+  "example": {
+   "id": 1,
+   "en": "Watch the series together with the woman.",
+   "zh": "和那位女士一起看这部剧。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stick with": {
+  "canonical": "stick with",
+  "pos": "v.",
+  "zh": "坚持（使用、做），继续做；不离开",
+  "example": {
+   "id": 1,
+   "en": "We love to establish a routine and stick with it.",
+   "zh": "我们喜欢建立一套常规并坚持下去。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go with": {
+  "canonical": "go with",
+  "pos": "v.",
+  "zh": "伴随，随之而来；与…相配；选择，接受",
+  "example": {
+   "id": 0,
+   "en": "If serious reading dies, a lot will go with it.",
+   "zh": "如果严肃阅读消亡，许多东西也会随之消失。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get along with": {
+  "canonical": "get along with",
+  "pos": "v.",
+  "zh": "与…相处；与…合得来",
+  "example": {
+   "id": 0,
+   "en": "Emotional intelligence helps people get along with others.",
+   "zh": "情商帮助人们与他人相处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be met with": {
+  "canonical": "be met with",
+  "pos": "v.",
+  "zh": "遭到，得到（某种回应）",
+  "example": {
+   "id": 0,
+   "en": "Nobody can really be sure if risks will be met with success, no matter how calculated they may be.",
+   "zh": "无论风险经过多么周密的计算，没有人能真正确定它们是否会成功。"
+  },
+  "valid": true,
+  "note": "be met with success 的 met with 为被动式，意思为「得到/遇到」"
+ },
+ "along with": {
+  "canonical": "along with",
+  "pos": "prep.",
+  "zh": "连同，与…一起；伴随着",
+  "example": {
+   "id": 2,
+   "en": "This theory guesses that after developing sign languages, people eventually started making sounds along with their gestures.",
+   "zh": "这一理论推测，在发展出手语之后，人们最终开始在做手势的同时发出声音。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come away with": {
+  "canonical": "come away with",
+  "pos": "v.",
+  "zh": "带着（印象、收获）离开；获得",
+  "example": {
+   "id": 0,
+   "en": "Pasternak also came away with some valuable observations about how different the North American way of life was, compared with many other countries.",
+   "zh": "帕斯捷尔纳克也得出了一些有价值的观察，了解到北美的生活方式与许多其他国家相比有多么不同。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go along with": {
+  "canonical": "go along with",
+  "pos": "v.",
+  "zh": "同意，赞同；遵从",
+  "example": {
+   "id": 0,
+   "en": "She has walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.",
+   "zh": "她在医院走廊里走了太多路，探视过太多病入膏肓的病人，见过太多医疗失误，因此无法认同传统的思维。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get in touch with": {
+  "canonical": "get in touch with",
+  "pos": "v.",
+  "zh": "与…取得联系；接触，亲近",
+  "example": {
+   "id": 0,
+   "en": "The idea is for people to get back in touch with the soil",
+   "zh": "这个想法是让人们重新亲近土壤"
+  },
+  "valid": true,
+  "note": "原句被截断；真题里是 get back in touch with（重新接触）"
+ },
+ "with the times": {
+  "canonical": "with the times",
+  "pos": "adv.",
+  "zh": "与时俱进，跟上时代",
+  "example": {
+   "id": 0,
+   "en": "Funding for science has changed with the times.",
+   "zh": "科学经费随着时代而变化。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep up with": {
+  "canonical": "keep up with",
+  "pos": "v.",
+  "zh": "跟上，赶上；了解最新情况",
+  "example": {
+   "id": 0,
+   "en": "They feel pressured to keep up with female colleagues.",
+   "zh": "他们感到有压力，要跟上女同事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "do away with": {
+  "canonical": "do away with",
+  "pos": "v.",
+  "zh": "废除，去掉",
+  "example": {
+   "id": 0,
+   "en": "It has done away with many of the traditional ways of thinking.",
+   "zh": "它已经摒弃了许多传统的思维方式。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in comparison with": {
+  "canonical": "in comparison with",
+  "pos": "prep.",
+  "zh": "与…相比",
+  "example": {
+   "id": 0,
+   "en": "The words “yes” and “no” get so often used in comparison with each other that it feels like they carry equal weight in conversation.",
+   "zh": "“是”和“不”经常被相互比较着使用，感觉它们在对话中分量相当。"
+  },
+  "valid": true,
+  "note": "意思与 compared with 相同，但写法不同，不合并"
+ },
+ "with open arms": {
+  "canonical": "with open arms",
+  "pos": "adv.",
+  "zh": "张开双臂，热烈地（欢迎、接受）",
+  "example": {
+   "id": 0,
+   "en": "Embrace it with open arms.",
+   "zh": "张开双臂拥抱它。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "not only...but also": {
+  "canonical": "not only...but also",
+  "pos": "conj.",
+  "zh": "不但…而且…",
+  "example": {
+   "id": 11,
+   "en": "Research has found the use of digital technology benefits not only teenagers’ social lives but also their studies.",
+   "zh": "研究发现，使用数字技术不仅有益于青少年的社交生活，也有益于他们的学习。"
+  },
+  "valid": true,
+  "note": "含 not just...but also、not only...but 等变体写法，视为同一结构"
+ },
+ "whether or not": {
+  "canonical": "whether or not",
+  "pos": "conj.",
+  "zh": "是否；无论…与否",
+  "example": {
+   "id": 2,
+   "en": "He no longer has to worry about whether or not he can understand.",
+   "zh": "他不用再担心自己能不能听懂了。"
+  },
+  "valid": true,
+  "note": "部分句子是 whether...or not 拆开的形式，视为同一结构"
+ },
+ "if not": {
+  "canonical": "if not",
+  "pos": "conj.",
+  "zh": "即使不是…也（至少）；如果不",
+  "example": {
+   "id": 0,
+   "en": "If you have too much ambition, you'll find this hard, if not impossible.",
+   "zh": "如果你野心太大，你会觉得这很难，即便不是不可能的话。"
+  },
+  "valid": true,
+  "note": "真题用法是插入语 hard, if not impossible（即使不是…也…）"
+ },
+ "not any more": {
+  "canonical": "not...any more",
+  "pos": "adv.",
+  "zh": "不再",
+  "example": {
+   "id": 0,
+   "en": "It is not in fashion any more.",
+   "zh": "它不再流行了。"
+  },
+  "valid": true,
+  "note": "拿不准：基本是 not + any more 的组合，与 no longer 同义，保留作常见搭配"
+ },
+ "why not": {
+  "canonical": "why not",
+  "pos": "adv.",
+  "zh": "为什么不（提出建议）；为什么不呢",
+  "example": {
+   "id": 2,
+   "en": "Why not just pay with your phone?",
+   "zh": "为什么不直接用手机付款呢？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "not really": {
+  "canonical": "not really",
+  "pos": "adv.",
+  "zh": "不太，并不真的；其实不是（委婉否定）",
+  "example": {
+   "id": 0,
+   "en": "Not really.",
+   "zh": "不见得。/并不是。"
+  },
+  "valid": true,
+  "note": "拿不准：字面可推出，但口语应答时整体记更有用"
+ },
+ "not at all": {
+  "canonical": "not at all",
+  "pos": "adv.",
+  "zh": "一点也不，根本不；（回应感谢）不客气",
+  "example": {
+   "id": 0,
+   "en": "No, not at all.",
+   "zh": "不，一点也不。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have yet to do": {
+  "canonical": "have yet to do",
+  "pos": "v.",
+  "zh": "还没有做，尚未做",
+  "example": {
+   "id": 0,
+   "en": "The new parents have yet to name the sixth baby but are considering either Lily or Rose.",
+   "zh": "这对新晋父母还没给第六个孩子起名，不过在考虑叫莉莉或罗斯。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have sth in mind": {
+  "canonical": "have sth in mind",
+  "pos": "v.",
+  "zh": "心里有…想法，想到某事",
+  "example": {
+   "id": 0,
+   "en": "Do you have anything in mind?",
+   "zh": "你心里有什么想法吗？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have sth in common": {
+  "canonical": "have sth in common",
+  "pos": "v.",
+  "zh": "有共同之处，有共同点",
+  "example": {
+   "id": 1,
+   "en": "What do people in most healthy eating cultures have in common?",
+   "zh": "大多数健康饮食文化中的人有什么共同点？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have sth to do with": {
+  "canonical": "have sth to do with",
+  "pos": "v.",
+  "zh": "与…有关",
+  "example": {
+   "id": 1,
+   "en": "Their chances of finding new mates have a lot to do with their habitat.",
+   "zh": "它们找到新配偶的机会与其栖息地大有关系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "play one's part": {
+  "canonical": "play one's part",
+  "pos": "v.",
+  "zh": "尽自己的一份力，发挥作用",
+  "example": {
+   "id": 0,
+   "en": "Reaching our goals will need exactly this kind of partnership approach—with government, business, local authorities and citizens all playing their part.",
+   "zh": "实现我们的目标正需要这种合作模式——政府、企业、地方当局和公民都尽自己的一份力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "find one's way": {
+  "canonical": "find one's way",
+  "pos": "v.",
+  "zh": "找到路；设法到达，进入",
+  "example": {
+   "id": 2,
+   "en": "Over the years, other creatures like frogs and fish have found their way into toilets.",
+   "zh": "多年来，青蛙和鱼之类的其他生物也曾设法进入马桶。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "do one's best": {
+  "canonical": "do one's best",
+  "pos": "v.",
+  "zh": "尽力，尽最大努力",
+  "example": {
+   "id": 0,
+   "en": "So how can you help your child do their best?",
+   "zh": "那么，你怎样才能帮助孩子尽力而为呢？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make one's way": {
+  "canonical": "make one's way",
+  "pos": "v.",
+  "zh": "前往，行进，朝…走去",
+  "example": {
+   "id": 0,
+   "en": "On a recent Friday evening, the teenagers made their way across the studio floor as they practiced Chinese lion dancing.",
+   "zh": "最近的一个周五晚上，青少年们一边练习中国舞狮，一边走过工作室的地板。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "mind one's own business": {
+  "canonical": "mind one's own business",
+  "pos": "v.",
+  "zh": "管好自己的事，不多管闲事",
+  "example": {
+   "id": 0,
+   "en": "They usually mind their own business.",
+   "zh": "他们通常不管别人的闲事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come one's way": {
+  "canonical": "come one's way",
+  "pos": "v.",
+  "zh": "降临到某人身上，落到某人头上",
+  "example": {
+   "id": 0,
+   "en": "Deciding not to take on every project that comes their way.",
+   "zh": "决定不接手落到自己头上的每一个项目。"
+  },
+  "valid": true,
+  "note": "原句被截断，已去掉开头残片"
+ }
+}

@@ -1,0 +1,962 @@
+{
+ "more than a few": {
+  "canonical": "more than a few",
+  "pos": "adj.",
+  "zh": "不少，相当多",
+  "example": {
+   "id": 0,
+   "en": "In more than a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.",
+   "zh": "在不少段落中，她讲述了一些男女的经历，他们遭遇了流水线式的医疗，病人几乎被当作一块块肉来对待。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "easier said than done": {
+  "canonical": "easier said than done",
+  "pos": "adj.",
+  "zh": "说起来容易做起来难",
+  "example": {
+   "id": 0,
+   "en": "But it’s much easier said than done.",
+   "zh": "但这说起来容易做起来难。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wrap one's mind around": {
+  "canonical": "wrap one's mind around",
+  "pos": "v.",
+  "zh": "理解，弄懂（难以理解的事）",
+  "example": {
+   "id": 0,
+   "en": "thinking about your deadline in terms of days rather than months or years can help you wrap your mind around how close the",
+   "zh": "用几天而不是几个月或几年来考虑截止日期，能帮你弄明白它有多近。"
+  },
+  "valid": true,
+  "note": "例句在原文中被截断"
+ },
+ "there is no denying": {
+  "canonical": "there is no denying",
+  "pos": "v.",
+  "zh": "无可否认，不可否认",
+  "example": {
+   "id": 0,
+   "en": "I personally feel sorry for the poor animals stuck in cages, but there’s no denying they are fun and educational for children.",
+   "zh": "我个人为关在笼子里的可怜动物感到难过，但不可否认，它们对孩子既有趣又有教育意义。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "each other": {
+  "canonical": "each other",
+  "pos": "pron.",
+  "zh": "互相，彼此",
+  "example": {
+   "id": 0,
+   "en": "Help people connect with each other.",
+   "zh": "帮助人们彼此联系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "what's new": {
+  "canonical": "what's new",
+  "pos": "int.",
+  "zh": "有什么新鲜事；近来怎么样（打招呼用语）",
+  "example": {
+   "id": 0,
+   "en": "Recently, I was at a gathering of colleagues when someone turned to me and asked, “So, what’s new with you?",
+   "zh": "最近我在一次同事聚会上，有人转向我问道：“你最近怎么样？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "most of the time": {
+  "canonical": "most of the time",
+  "pos": "adv.",
+  "zh": "大多数时候，通常",
+  "example": {
+   "id": 0,
+   "en": "Most of the time, though, the most popular compromise is to hyphenate your last name and the last name of your groom.",
+   "zh": "不过大多数时候，最常见的折中办法是把你的姓和新郎的姓用连字符连起来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for all time": {
+  "canonical": "for all time",
+  "pos": "adv.",
+  "zh": "永远，千秋万代",
+  "example": {
+   "id": 0,
+   "en": "He was not of an age, but for all time.",
+   "zh": "他不只属于一个时代，而是属于千秋万代。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have an easier time": {
+  "canonical": "have an easier time",
+  "pos": "v.",
+  "zh": "（做某事）更轻松，更容易",
+  "example": {
+   "id": 0,
+   "en": "Many of us have an easier time identifying the things that we absolutely don’t want.",
+   "zh": "我们很多人更容易分辨出自己绝对不想要的东西。"
+  },
+  "valid": false,
+  "note": "have a hard time / have a good time 的比较级变体，each word 按 time（过程，经历）义项标即可；若要保留可视作 have a hard time 的反义用法，拿不准"
+ },
+ "take time off": {
+  "canonical": "take time off",
+  "pos": "v.",
+  "zh": "休假，请假；抽出时间休息",
+  "example": {
+   "id": 0,
+   "en": "Leaders should take time off themselves and encourage employees to do the same.",
+   "zh": "领导者自己应该休假，并鼓励员工也这样做。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have a hard time": {
+  "canonical": "have a hard time",
+  "pos": "v.",
+  "zh": "（做某事）很困难，吃力",
+  "example": {
+   "id": 1,
+   "en": "Smart people also have a hard time accepting feedback.",
+   "zh": "聪明人也很难接受反馈。"
+  },
+  "valid": true,
+  "note": "含 have a tough time 变体"
+ },
+ "of all time": {
+  "canonical": "of all time",
+  "pos": "adv.",
+  "zh": "有史以来，历来",
+  "example": {
+   "id": 0,
+   "en": "Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.",
+   "zh": "如今，他退役三十年后，仍是有史以来最著名、最受喜爱的赛马之一。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "time off": {
+  "canonical": "time off",
+  "pos": "n.",
+  "zh": "休息时间，休假",
+  "example": {
+   "id": 0,
+   "en": "One is simply enjoying their time off work.",
+   "zh": "一种是单纯享受他们的下班休息时间。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as time goes by": {
+  "canonical": "as time goes by",
+  "pos": "adv.",
+  "zh": "随着时间的推移",
+  "example": {
+   "id": 0,
+   "en": "Their wisdom grows as time goes by.",
+   "zh": "他们的智慧随时间增长。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "so...that": {
+  "canonical": "so...that",
+  "pos": "conj.",
+  "zh": "如此……以至于……",
+  "example": {
+   "id": 1,
+   "en": "I handle my own gold medal so gently that I would not scratch it.",
+   "zh": "我对待自己的金牌非常轻柔，以免刮伤它。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "even so": {
+  "canonical": "even so",
+  "pos": "adv.",
+  "zh": "即使如此，尽管如此",
+  "example": {
+   "id": 2,
+   "en": "Even so, there have been a very small number of cases recently when authorities discovered eggs during further inspections.",
+   "zh": "即便如此，最近仍有极少数案例，当局在进一步检查中发现了虫卵。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "so far": {
+  "canonical": "so far",
+  "pos": "adv.",
+  "zh": "到目前为止，迄今",
+  "example": {
+   "id": 1,
+   "en": "So far, eight states and the District of Columbia have their own paid family leave laws.",
+   "zh": "到目前为止，已有八个州和哥伦比亚特区制定了自己的带薪家庭假法律。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "even if": {
+  "canonical": "even if",
+  "pos": "conj.",
+  "zh": "即使，哪怕",
+  "example": {
+   "id": 2,
+   "en": "Have a meal even if they have no money.",
+   "zh": "即使没有钱，也能吃上一顿饭。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "if only": {
+  "canonical": "if only",
+  "pos": "conj.",
+  "zh": "要是……就好了；只要",
+  "example": {
+   "id": 0,
+   "en": "If only I’d Googled before but I never thought of it.",
+   "zh": "要是我以前上网搜过就好了，可我从没想到过。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "after all": {
+  "canonical": "after all",
+  "pos": "adv.",
+  "zh": "毕竟，别忘了；终究，到底",
+  "example": {
+   "id": 4,
+   "en": "After all, it’s a good thing to know before actually accepting an offer.",
+   "zh": "毕竟，在真正接受录用前了解这些是件好事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all right": {
+  "canonical": "all right",
+  "pos": "adj.",
+  "zh": "好吧，行（表同意）；还不错，没问题",
+  "example": {
+   "id": 2,
+   "en": "It looks all right.",
+   "zh": "看起来还不错。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all over": {
+  "canonical": "all over",
+  "pos": "prep.",
+  "zh": "遍及，到处",
+  "example": {
+   "id": 0,
+   "en": "Early zoos are found all over the world.",
+   "zh": "早期的动物园遍布世界各地。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all year round": {
+  "canonical": "all year round",
+  "pos": "adv.",
+  "zh": "一年到头，全年",
+  "example": {
+   "id": 0,
+   "en": "It has beautiful weather all year round.",
+   "zh": "那里全年天气宜人。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all kinds of": {
+  "canonical": "all kinds of",
+  "pos": "adj.",
+  "zh": "各种各样的",
+  "example": {
+   "id": 0,
+   "en": "It is filled with all kinds of video game characters.",
+   "zh": "里面到处都是各种电子游戏角色。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all things considered": {
+  "canonical": "all things considered",
+  "pos": "adv.",
+  "zh": "总的来说，全面考虑后",
+  "example": {
+   "id": 1,
+   "en": "All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have had anywhere else.",
+   "zh": "总的来说，我付的钱比我大学的学费低得多，却在华盛顿特区获得了别处得不到的教育经历。"
+  },
+  "valid": true,
+  "note": "含变体 all of this considered；例句较长，另一句被截断"
+ },
+ "at all costs": {
+  "canonical": "at all costs",
+  "pos": "adv.",
+  "zh": "不惜一切代价，无论如何",
+  "example": {
+   "id": 0,
+   "en": "This could be because some people want to avoid conflict at all costs, after all they still have to work together.",
+   "zh": "这可能是因为有些人想不惜一切代价避免冲突，毕竟他们还得一起工作。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "answer sheet": {
+  "canonical": "answer sheet",
+  "pos": "n.",
+  "zh": "答题卡",
+  "example": {
+   "id": 6,
+   "en": "Answer the questions by marking the corresponding letter on Answer Sheet 2.",
+   "zh": "在答题卡2上涂黑相应字母来回答问题。"
+  },
+  "valid": true,
+  "note": "复合名词；全部出现在卷面答题说明里，无正文用法"
+ },
+ "for one's part": {
+  "canonical": "for one's part",
+  "pos": "adv.",
+  "zh": "就某人而言，至于某人",
+  "example": {
+   "id": 0,
+   "en": "For his part, Wang said that in his own experience, losing did light a motivating fire.",
+   "zh": "就他而言，王说根据他自己的经验，失败确实点燃了他奋进的火焰。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "try one's best": {
+  "canonical": "try one's best",
+  "pos": "v.",
+  "zh": "尽力，竭尽全力",
+  "example": {
+   "id": 0,
+   "en": "Try his best to persuade his wife.",
+   "zh": "尽力说服他的妻子。"
+  },
+  "valid": true,
+  "note": "例句是残缺的标题式短句"
+ },
+ "comb through": {
+  "canonical": "comb through",
+  "pos": "v.",
+  "zh": "仔细搜查，仔细翻查",
+  "example": {
+   "id": 0,
+   "en": "After combing through the security video outside a Gorbals shop, Kirsteen has now posted an image of a man suspected of stealing the dog.",
+   "zh": "在仔细查看了戈尔巴尔斯一家商店外的监控视频后，柯尔斯汀贴出了一张涉嫌偷狗男子的照片。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go through": {
+  "canonical": "go through",
+  "pos": "v.",
+  "zh": "经历，经受；仔细检查，逐一过一遍；办理（手续）",
+  "example": {
+   "id": 2,
+   "en": "What Kelli Harding went through in Washington changed her life.",
+   "zh": "凯莉·哈丁在华盛顿的经历改变了她的人生。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "work through": {
+  "canonical": "work through",
+  "pos": "v.",
+  "zh": "逐步处理，逐步解决",
+  "example": {
+   "id": 0,
+   "en": "They’re able to work through situations in a way that’s risk free.",
+   "zh": "他们能够以零风险的方式逐步应对各种情形。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pull through": {
+  "canonical": "pull through",
+  "pos": "v.",
+  "zh": "渡过难关，挺过来",
+  "example": {
+   "id": 0,
+   "en": "Help students with mental issues pull through.",
+   "zh": "帮助有心理问题的学生渡过难关。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get through": {
+  "canonical": "get through",
+  "pos": "v.",
+  "zh": "用完，耗尽；通过；渡过（难关）",
+  "example": {
+   "id": 0,
+   "en": "For instance, SpaceX’s Falcon 9 gets through 112 tonnes of refined fuel, emitting about 336 tonnes of CO₂.",
+   "zh": "例如，太空探索技术公司的猎鹰9号要消耗112吨精炼燃料，排放约336吨二氧化碳。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "read through": {
+  "canonical": "read through",
+  "pos": "v.",
+  "zh": "通读，从头读到尾",
+  "example": {
+   "id": 3,
+   "en": "Most end users do not understand the terms after reading them through.",
+   "zh": "大多数终端用户读完这些条款后也不理解。"
+  },
+  "valid": true,
+  "note": "大部分出现在卷面说明 Read the passage through carefully"
+ },
+ "burn through": {
+  "canonical": "burn through",
+  "pos": "v.",
+  "zh": "很快花光，耗尽",
+  "example": {
+   "id": 0,
+   "en": "Basically, she miscalculated how fast she was burning through the money, and she’s now full of regret.",
+   "zh": "说到底，她算错了钱花得有多快，现在悔恨不已。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "through rose-colored glasses": {
+  "canonical": "through rose-colored glasses",
+  "pos": "adv.",
+  "zh": "带着美化的眼光（看），过于乐观地",
+  "example": {
+   "id": 0,
+   "en": "When people book holiday villas they are doing so through rose-colored",
+   "zh": "人们预订度假别墅时，往往是戴着玫瑰色眼镜在看。"
+  },
+  "valid": true,
+  "note": "原句被截断，glasses 缺失；习语 see/look at sth through rose-colored glasses"
+ },
+ "think through": {
+  "canonical": "think through",
+  "pos": "v.",
+  "zh": "想透，通盘考虑",
+  "example": {
+   "id": 0,
+   "en": "They’re so used to being right and having quick answers that they don’t even realise when they’re making a mess by answering without thinking things through.",
+   "zh": "他们太习惯于自己正确、快速作答，甚至没意识到自己没想透就回答而搞砸了事情。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "talk through": {
+  "canonical": "talk through",
+  "pos": "v.",
+  "zh": "把……谈清楚，详细讨论",
+  "example": {
+   "id": 0,
+   "en": "It is important to talk through these issues before they come to a head.",
+   "zh": "在这些问题激化之前把它们谈清楚很重要。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "follow through": {
+  "canonical": "follow through",
+  "pos": "v.",
+  "zh": "贯彻到底，坚持完成",
+  "example": {
+   "id": 0,
+   "en": "through day-to-day, make sure your present self knows what's in it for her too.",
+   "zh": "把它贯彻到日常中，要确保现在的你也知道这对她有什么好处。"
+  },
+  "valid": true,
+  "note": "原句开头残缺，follow 缺失"
+ },
+ "see through": {
+  "canonical": "see through",
+  "pos": "v.",
+  "zh": "看穿，识破",
+  "example": {
+   "id": 0,
+   "en": "We should see through other peoples’ attempt to make a prisoner of us.",
+   "zh": "我们应该看穿别人想把我们困住的企图。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "most likely": {
+  "canonical": "most likely",
+  "pos": "adv.",
+  "zh": "很可能，十有八九；最有可能（be most likely to）",
+  "example": {
+   "id": 2,
+   "en": "Some analysts find age 45+ jobless workers are most likely to be unemployed for more than a year.",
+   "zh": "一些分析人士发现，45岁以上的失业工人最有可能失业超过一年。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "break up": {
+  "canonical": "break up",
+  "pos": "v.",
+  "zh": "打破，拆散；分解；（关系）破裂，分手",
+  "example": {
+   "id": 0,
+   "en": "They break up nature's food supply chain.",
+   "zh": "它们破坏了自然界的食物供应链。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "end up": {
+  "canonical": "end up",
+  "pos": "v.",
+  "zh": "最终成为，结果是，落得",
+  "example": {
+   "id": 1,
+   "en": "He ended up in the wrong place.",
+   "zh": "他最后到了错误的地方。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pick up": {
+  "canonical": "pick up",
+  "pos": "v.",
+  "zh": "取，领取；接（人）；拿起；学会",
+  "example": {
+   "id": 1,
+   "en": "The drive has been going on for two weeks and Morris said just under 50 customers have picked up a free meal.",
+   "zh": "这项活动已进行两周，莫里斯说有近50位顾客领取了免费餐。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "mix up": {
+  "canonical": "mix up",
+  "pos": "v.",
+  "zh": "弄混，搞混",
+  "example": {
+   "id": 0,
+   "en": "It had two of its domestic flights mixed up.",
+   "zh": "它把两个国内航班搞混了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "wake up": {
+  "canonical": "wake up",
+  "pos": "v.",
+  "zh": "醒来；唤醒",
+  "example": {
+   "id": 1,
+   "en": "When she did sleep, she experienced “problem-solving dreams,” which left her feeling unrested when she woke up.",
+   "zh": "她真睡着时，会做“解决问题的梦”，这让她醒来时感觉没休息好。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "grow up": {
+  "canonical": "grow up",
+  "pos": "v.",
+  "zh": "长大，成长",
+  "example": {
+   "id": 0,
+   "en": "She grew up in India.",
+   "zh": "她在印度长大。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "turn up": {
+  "canonical": "turn up",
+  "pos": "v.",
+  "zh": "出现，到场；被找到，冒出来",
+  "example": {
+   "id": 0,
+   "en": "Bundles of £20 notes kept turning up.",
+   "zh": "一捆捆20英镑的钞票不断冒出来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go up": {
+  "canonical": "go up",
+  "pos": "v.",
+  "zh": "上涨，上升",
+  "example": {
+   "id": 0,
+   "en": "It has gone up sharply.",
+   "zh": "它大幅上涨了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sign up": {
+  "canonical": "sign up",
+  "pos": "v.",
+  "zh": "报名，注册",
+  "example": {
+   "id": 2,
+   "en": "Volunteers visit the Games’ website to sign up.",
+   "zh": "志愿者访问运动会的网站报名。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "put up for sale": {
+  "canonical": "put sth up for sale",
+  "pos": "v.",
+  "zh": "把……挂牌出售",
+  "example": {
+   "id": 0,
+   "en": "When the island was put up for sale, it was offered to the local government but proved too expensive for the local authorities.",
+   "zh": "这座岛出售时，曾先向当地政府推荐，但当地政府觉得太贵了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "set up": {
+  "canonical": "set up",
+  "pos": "v.",
+  "zh": "建立，设立；安排，搭建",
+  "example": {
+   "id": 2,
+   "en": "They set up a branch in Dubai to manufacture coffee roasters.",
+   "zh": "他们在迪拜设立了一个分公司，生产咖啡烘焙机。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "speed up": {
+  "canonical": "speed up",
+  "pos": "v.",
+  "zh": "加快，加速",
+  "example": {
+   "id": 1,
+   "en": "To speed up investigation into criminal cases.",
+   "zh": "加快对刑事案件的调查。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stay up": {
+  "canonical": "stay up",
+  "pos": "v.",
+  "zh": "熬夜，不睡",
+  "example": {
+   "id": 0,
+   "en": "He has stayed up playing computer games.",
+   "zh": "他一直熬夜玩电脑游戏。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "bring up": {
+  "canonical": "bring up",
+  "pos": "v.",
+  "zh": "提出（话题）；抚养，养育",
+  "example": {
+   "id": 2,
+   "en": "Here, at this point in the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.",
+   "zh": "论证到这里，按惯例我该提出所有说明午睡好处的研究了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "dress up": {
+  "canonical": "dress up",
+  "pos": "v.",
+  "zh": "打扮，盛装；装扮成",
+  "example": {
+   "id": 0,
+   "en": "This inspired Andrea to get dressed up to take out the trash.",
+   "zh": "这启发安德莉亚打扮得漂漂亮亮去倒垃圾。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give up": {
+  "canonical": "give up",
+  "pos": "v.",
+  "zh": "放弃；（把孩子）送养",
+  "example": {
+   "id": 4,
+   "en": "Poor people may have to give up eating certain foods because of their high prices.",
+   "zh": "穷人可能因为某些食物价格高而不得不放弃吃它们。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "ease up": {
+  "canonical": "ease up",
+  "pos": "v.",
+  "zh": "放松，减少，减轻",
+  "example": {
+   "id": 0,
+   "en": "Indeed, as they get older and are given more freedom, they often ease up on social networking.",
+   "zh": "确实，随着年龄增长、获得更多自由，他们往往会减少使用社交网络。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "cover up": {
+  "canonical": "cover up",
+  "pos": "v.",
+  "zh": "掩盖，掩饰；盖住",
+  "example": {
+   "id": 2,
+   "en": "They help each other to cover up their acts.",
+   "zh": "他们互相帮忙掩盖自己的行为。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "save up": {
+  "canonical": "save up",
+  "pos": "v.",
+  "zh": "攒钱，积蓄",
+  "example": {
+   "id": 0,
+   "en": "They help to save up for larger houses.",
+   "zh": "它们有助于为买更大的房子攒钱。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "soak up": {
+  "canonical": "soak up",
+  "pos": "v.",
+  "zh": "吸收（知识、信息）",
+  "example": {
+   "id": 0,
+   "en": "Not to mention that soaking up new information can help you make more informed decisions when you",
+   "zh": "更不用说吸收新信息能帮助你在……时做出更明智的决定。"
+  },
+  "valid": true,
+  "note": "例句在原文中被截断"
+ },
+ "curl up": {
+  "canonical": "curl up",
+  "pos": "v.",
+  "zh": "蜷缩，蜷起身子",
+  "example": {
+   "id": 0,
+   "en": "The black cat was found curled up under the engine cover of David King’s car when he decided to do an oil check after dropping his grandson off at school in Kent.",
+   "zh": "大卫·金把孙子送到肯特郡的学校后想检查机油，发现那只黑猫正蜷缩在他汽车的引擎盖下。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "swell up": {
+  "canonical": "swell up",
+  "pos": "v.",
+  "zh": "膨胀，肿起；（数量）激增",
+  "example": {
+   "id": 0,
+   "en": "Each March, this tiny village swells up in numbers, because it is located in the middle of a race that takes place every year.",
+   "zh": "每年三月，这个小村子的人数都会激增，因为它正处在每年举行的一场比赛的赛道中间。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "catch up": {
+  "canonical": "catch up",
+  "pos": "v.",
+  "zh": "赶上，追上；补上（落下的）；（catch up on）补做",
+  "example": {
+   "id": 1,
+   "en": "They need extra help to catch up in the math class.",
+   "zh": "他们需要额外帮助才能赶上数学课的进度。"
+  },
+  "valid": true,
+  "note": "含 be caught up in（被卷入）一例"
+ },
+ "follow up": {
+  "canonical": "follow up",
+  "pos": "v.",
+  "zh": "跟进，追踪调查；紧接着做",
+  "example": {
+   "id": 0,
+   "en": "These results remained when researchers followed up six weeks later.",
+   "zh": "六周后研究人员再次跟进时，这些结果依然存在。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "open up": {
+  "canonical": "open up",
+  "pos": "v.",
+  "zh": "打开；敞开心扉，坦率说出",
+  "example": {
+   "id": 0,
+   "en": "Kate was depressed at first, but then she sat with some girl patients and they opened up all the boxes together, laughing and playing.",
+   "zh": "凯特起初很沮丧，但后来她和几位女孩患者坐在一起，大家一起打开所有盒子，又笑又玩。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "speak up": {
+  "canonical": "speak up",
+  "pos": "v.",
+  "zh": "大声说；勇敢发声，直言",
+  "example": {
+   "id": 0,
+   "en": "That’s the perfect opportunity to speak up and get your burning company culture questions answered!",
+   "zh": "那是直言发问、让你对公司文化的迫切疑问得到解答的绝佳机会！"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come up against": {
+  "canonical": "come up against",
+  "pos": "v.",
+  "zh": "遭遇，面对（困难、对手）",
+  "example": {
+   "id": 0,
+   "en": "In more than a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.",
+   "zh": "在不少段落中，她讲述了一些男女的经历，他们遭遇了流水线式的医疗，病人几乎被当作一块块肉来对待。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "build up": {
+  "canonical": "build up",
+  "pos": "v.",
+  "zh": "逐步建立，增强；积累",
+  "example": {
+   "id": 0,
+   "en": "It enables people to build up endurance.",
+   "zh": "它能使人增强耐力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "drum up": {
+  "canonical": "drum up",
+  "pos": "v.",
+  "zh": "设法获得，招揽（支持、兴趣）",
+  "example": {
+   "id": 0,
+   "en": "Birthday reminders can be helpful, but I kind of worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.",
+   "zh": "生日提醒也许有用，但我有点担心自己没法把自己的生日办得像应有的那样热闹精彩。"
+  },
+  "valid": true,
+  "note": "此句 drum up 用法略不典型，释义按「鼓动，招来」推断"
+ },
+ "load up": {
+  "canonical": "load up",
+  "pos": "v.",
+  "zh": "装满，装载",
+  "example": {
+   "id": 0,
+   "en": "So the next week, Kate’s family loaded up their car and took all the dolls to the playroom at the children’s hospital.",
+   "zh": "于是下一周，凯特一家把车装满，带着所有娃娃去了儿童医院的游戏室。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "show up": {
+  "canonical": "show up",
+  "pos": "v.",
+  "zh": "出现，到场",
+  "example": {
+   "id": 0,
+   "en": "As many as 20 students show up after school.",
+   "zh": "放学后多达20名学生会出现。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "hold up": {
+  "canonical": "hold up",
+  "pos": "v.",
+  "zh": "经得起检验，站得住脚；举起；耽搁；（举例）称赞",
+  "example": {
+   "id": 0,
+   "en": "Although Keynes’s eight-fold figure holds up for the economy",
+   "zh": "尽管凯恩斯的八倍数字对经济而言站得住脚"
+  },
+  "valid": true,
+  "note": "两句用法不同（站得住脚 / 举出来表扬）；例句为残缺句"
+ },
+ "burn up": {
+  "canonical": "burn up",
+  "pos": "v.",
+  "zh": "烧尽，烧毁",
+  "example": {
+   "id": 0,
+   "en": "They are burnt up in outer space.",
+   "zh": "它们在外太空被烧尽。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "match up": {
+  "canonical": "match up",
+  "pos": "v.",
+  "zh": "吻合，相符",
+  "example": {
+   "id": 0,
+   "en": "Then, the researchers compared answers to see how well responses to the two exercises matched up.",
+   "zh": "然后，研究人员比较答案，看两个练习的回答吻合得有多好。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "blend up": {
+  "canonical": "blend up",
+  "pos": "v.",
+  "zh": "搅拌，打成糊",
+  "example": {
+   "id": 0,
+   "en": "Do you ever blend up a protein drink for breakfast or grab a protein bar following an afternoon workout?",
+   "zh": "你是否会在早餐时打一杯蛋白饮料，或在下午锻炼后随手拿一根蛋白棒？"
+  },
+  "valid": false,
+  "note": "blend 的普通用法，up 只是随附，不是固定短语，按 blend 的「搅拌」义项标；拿不准"
+ },
+ "put up": {
+  "canonical": "put up",
+  "pos": "v.",
+  "zh": "张贴，挂起；提供（资金）；搭建",
+  "example": {
+   "id": 1,
+   "en": "They visit the store so much that staff have been forced to put up signs, asking their customers not to feed them.",
+   "zh": "它们来这家店太频繁，以至于店员不得不贴出告示，请顾客不要喂它们。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "screw up": {
+  "canonical": "screw up",
+  "pos": "v.",
+  "zh": "搞砸，弄糟；使陷入困境",
+  "example": {
+   "id": 0,
+   "en": "They can screw us up and set us back.",
+   "zh": "它们可能会毁了我们，让我们倒退。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "clear up": {
+  "canonical": "clear up",
+  "pos": "v.",
+  "zh": "澄清，消除（疑惑）；整理；（天气）放晴",
+  "example": {
+   "id": 0,
+   "en": "Clear up confusion in the scientific community.",
+   "zh": "消除科学界的困惑。"
+  },
+  "valid": true,
+  "note": ""
+ }
+}

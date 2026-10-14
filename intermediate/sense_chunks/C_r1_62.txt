@@ -1,0 +1,612 @@
+# 任务 C_r1_62：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_62.labels.txt
+
+============================================================
+## 词：people    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.人; 人们; 民族.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 人，人们    B 样本 78    例：To amuse people.
+  1  n. 人民，国民（某国、某地的全体人）    B 样本 2    例：Their people tend to attach importance to women’s rights.
+  2  n. 民族（可数：a people / peoples）    B 样本 0
+口径说明（照此执行）：
+  - people 作「人们」时是 person 的不规则复数，同时也是独立名词（民族，复数 peoples）；form 是否保留请复核。
+句子：
+86 | They are a good choice for many 【people】.
+100 | They often make sudden attacks on 【people】.
+144 | W: [15] Actually, it was a quarter of 【people】.
+150 | There will never be agreement on its harm to 【people】.
+154 | Running is the easiest form of exercise for most 【people】.
+168 | It is a hotel for business 【people】.
+172 | G) The lion head and tail are operated by two 【people】.
+176 | Each of these bubbles applies to a different set of 【people】.
+188 | In 2013, researchers analysed the health data of 100,000 【people】
+206 | It can cause mistrust among 【people】.
+217 | It can help connect 【people】.
+219 | The lion dancers perform from door to door to bring New Year wishes to business 【people】.
+224 | He won enormous fame and love from British 【people】.
+229 | The weakening of the human connection to nature might be good for economic growth but is bad for 【people】.
+239 | What does the man think really matters to 【people】?
+253 | In social psychology, the term “person perception” refers to the mental processes that we use to form impressions of other 【people】.
+262 | More of them are successful business 【people】.
+272 | themselves less with machines than with other 【people】.
+277 | “We started Design Ventura with around 800 young 【people】
+296 | Their brain is more powerful than that of right-handed 【people】.
+303 | The World Bank estimates it will serve 1.1 million 【people】.
+304 | (19-1) Storytelling forges connections among 【people】.
+317 | Driverless vehicles are likely to be misused by some 【people】.
+326 | Instead of using words for precise quantities, these 【people】
+336 | They tend to be a lot more aggressive than right-handed 【people】.
+341 | Previously, the lowest price had been around $40, well out of reach for many 【people】.
+409 | Physically attending school has hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills to cultivate in young 【people】.
+427 | What would financial literacy do to young 【people】?
+445 | It is an essential aspect of life to cooperate with other 【people】.
+471 | Refusing a request is sometimes seen as a privilege not enjoyed by ordinary 【people】.
+481 | Fishbach of the University of Chicago have made a career out of studying the differences between the goals that 【people】
+488 | Yet numberless 【people】
+507 | not real in any physical sense and are nonexistent to numberless 【people】.
+513 | By 2050, the world will need to feed an estimated 9.7 billion 【people】.
+541 | They attach great importance to close ties among 【people】.
+557 | These dietary differences are often accompanied by higher rates of obesity and diabetes among lower-income 【people】.
+563 | What do doctors do when prescribing medicine for 【people】?
+570 | These approaches, however, often presume less food literacy (i.e. food knowledge and skills) among low-income 【people】.
+584 | What do we learn from the passage about the brightest 【people】?
+601 | Who are these 【people】?
+607 | Dietary recommendations are not fit for underprivileged 【people】.
+641 | What is said about those working with or under overachieving 【people】?
+642 | They are more ambitious than ordinary 【people】.
+124 | "In a way," she said, the rooster "stands for 'We The 【People】.'"    ?X
+661 | 【People】's calorie intake was far from accurately reported.
+674 | Þ- D)_【People】's chanßg diet ove!Jhà-áârs.    ?X
+564 | They conducted large-scale research on the role of sugar in 【people】's health.
+671 | 【People】's home energy consumption.
+418 | 【People】's opinions differ as to whether Formula One can be promoted in the U.S.
+454 | Many economists assume 【people】's thirst for material things has prevented them from enjoying more leisure time.
+215 | To find out creative 【people】's work performance.
+152 | Van de Rijt said he's not convinced that losing out gives 【people】 a psychological boost;
+624 | How 【people】 accumulated wealth in his father's time.
+377 | Travis Bradberry, president at TalentSmart, explained Bradberry in his post Why Smart 【People】 Act so Stupid that “rational thinking and intelligence don’t tend to go hand in hand”.    ?X
+583 | When researchers estimate the cost of diets 【people】 actually eat, higher-quality diets are typically more costly.
+402 | of schools and for which kinds of students these growth mindset ideas help young 【people】 adapt to the
+522 | What are 【people】 advised to do when they want to socialize?
+113 | It protects 【people】 against bacteria.
+147 | “【People】 age 45+ face persistent and rising pressure in the global
+413 | 【People】 agree to do too many things they are in fact unwilling to do.
+232 | A 2017 study shows 91 percent of 【people】 agree to them without
+519 | can't please all 【people】 all of the time, wouldn't it make sense to stop trying?
+531 | Smart 【people】 also have a hard time accepting feedback.
+121 | M: I’m not so sure that sleep is nearly as important as 【people】 always say it is.
+117 | We think of ourselves as “good 【people】”, and even when we do morally wrong things, we understand the context of our decisions.
+339 | The brightest 【people】 and strongest leaders sometimes make errors others don’t, especially in situations that require common sense.
+290 | After all, it’s literally my job to talk to 【people】 and tell their stories or share their advice.
+157 | There are black 【people】 and white 【people】 and Indian 【people】.
+153 | “After I became a first-time mother, I quickly realized I was so busy caring for other 【people】 and work that I felt like I’d lost myself,” she said.
+308 | A recent study concluded that regardless of whether 【people】 are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+102 | Too many 【people】 are addicted to smartphones.    ?P:too...to
+96 | She said twenty percent of 【people】 are afraid to fly.
+566 | Interesting 【people】 are always full of curiosity.
+616 | This is a pressing issue because many 【people】 are becoming unemployed due to the COVID-19 pandemic.
+536 | Some 【people】 are beginning to wonder whether opera and classical music are still relevant to the modern world of
+328 | When 【people】 are bored, they have an increase in "associative thought"-the process of making new
+404 | When 【people】 are bored, they're more likely to feel less meaning in their lives.
+436 | E) It is worth stressing that these anumeric 【people】 are cognitively (,1£ R -jj" i:1) normal, well-adapted to
+474 | Some 【people】 are concerned about privacy because their phones are constantly collecting their personal information.
+648 | 【People】 are divided about the nature of interest.
+243 | He is now supporting "_;g_ benches," which are public seating areas where 【people】 are encouraged to go
+275 | Sales of bottled water in Britain hit a record high last year even though 【people】 are increasingly aware that plastics are
+487 | With genetic testing becoming increasingly popular, many 【people】 are left wondering exactly how accurate it is.
+319 | This means 【people】 are less willing to collaborate with them.
+307 | M: While most financial planners do give numbers, I don’t think that’s useful, as 【people】 are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that 【people】 aim for financial independence.
+350 | Across the board, 【people】 are living longer.
+288 | It is found that 【people】 are more creative following the completion of a tedious task.
+632 | This implies that even though ambitious 【people】 are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?
+673 | Why some 【people】 are more passionate about work.
+247 | To tell the truth, interesting 【people】 are more popular among their friends.
+415 | Intelligent 【people】 are more prone to silly mistakes because of blind spots in how they use logic.
+491 | “Many 【people】 are ‘not boring’ in the way that they can carry a conversation or can be good at a social gathering, etc.
+560 | Why do we tend to think that busy 【people】 are of high status?
+356 | Many 【people】 are often confused by the wording of the terms.
+499 | They found busy 【people】 are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.
+88 | F) But even if large numbers of 【people】 are quitting bottled water because of care for the environment, others are taking it up.
+241 | 【people】 are stuck one way forever, or whether 【people】 can change their personalities and abilities-are
+597 | Few 【people】 are successful when they try to build their first brand.
+271 | More and more 【people】 are taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many more.
+324 | all benefit if more 【people】 are working and fewer are unemployed
+406 | F) The most interesting 【people】 aren’t those who’ve gone on some Eat, Pray, Love journey to find themselves.
+322 | H) The truth is that in fairly dense areas, bikes are more efficient at moving 【people】 around.
+460 | Clothes largely determine one’s likability by 【people】 around.
+128 | There were crowds of 【people】 around her asking for a photo with her.
+306 | 【People】 around the world are eating foods more similar than what they used to eat.
+140 | He is also ___35___ by 【people】 around the world for his
+596 | They are admired by 【people】 around them.
+280 | We may be appreciated more by 【people】 around us.
+540 | Because when you are enjoying, 【people】 around you will begin to enjoy as well.
+193 | What does the news report say about most 【people】 arriving at American borders with eggs?
+98 | Officials said most 【people】 arriving at international borders with eggs are truthful about their purchases. [2] They simply don’t know bringing eggs is not allowed.
+420 | One of my bad habits is saying “busy” when 【people】 ask me how I’m doing.
+533 | Personally, I’m going to stop saying “busy” when 【people】 ask me how I am.
+146 | “Many 【people】 ask me what diet I follow to live so many years,” Branyas wrote.
+261 | M: When 【people】 ask my son what he wants to be when he grows up, I have to swallow the urge to say, “Hey, back off my kid’s dreams!
+115 | How often do 【people】 ask you to do something and you just reply, “Sure.
+216 | And I’m tired of 【people】 asking that question of my 10-year-old daughter.
+120 | Sleep may be more important than 【people】 assumed.
+220 | “The 【people】 at Monsanto who I’ve talked to are much more optimistic that they’ll be able to engineer heat-tolerant crops,” Schlenker says.
+412 | He noted that Japanese 【people】 ate a wonderful variety of seaweeds, and that Chinese 【people】 tried to include at least five different colors in every meal.
+494 | 【People】 ate around 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014.
+549 | 【people】 ate 50% more of a healthy food when directed to focus on the good taste rather than the long-term health benefits.
+599 | 43 【People】 ate more of a healthy food when they focused on its good taste instead of its long-term benefits.    ?X
+159 | Judge 【people】 based on our first impressions.
+295 | It includes not just how we form these impressions, but the conclusions we make about other 【people】 based on our impressions.
+496 | It’s even harder for smart 【people】 because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.
+578 | Under-reporting rates are much higher for obese 【people】, because they simply consume more food,
+91 | Then over hundreds of thousands of years, those sounds turned into words that 【people】 began to learn as part of their language.
+165 | However, when you actually go monster-hunting, and you look deeply at the 【people】 behind shocking behavior, you may be surprised.
+348 | It is quite horrifying to see 【people】 being guided by some unknown force.
+588 | In addition to 【people】 being healthier and living much longer, economists say that a combination of financial
+515 | “For smart 【people】, being wrong can feel like a personal attack, and being right, a necessity.
+279 | Some 【people】 believe a juice diet helps to rid our body of harmful or poisonous substances.
+458 | What do 【people】 believe chocolates can do?
+448 | Some 【people】 believe online interaction would soon depend mainly on voice.
+252 | While 92% of 【people】 believe others care most about fame and _26_, fewer than 10% factor those qualities into their own success.
+246 | Some 【people】 believe that there may not exist a stress gap between men and women.
+467 | What social class 【people】 belong to.
+390 | How can 【people】 best understand a particular fashion in an era, according to Ford?
+158 | “When 【people】 book holiday villas they are doing so through rose-colored
+293 | “When 【people】 book their holidays they get so emotionally involved, and when they find that villa at a good price with availability in peak season, they are an easy target,” says Cooper.
+395 | What does the passage say about 【people】 born with natural talents?
+340 | The local language Dagbani is spoken by 1.2 million 【people】 but is not served by any online translation applications.
+169 | Poor sleep might be a problem for older 【people】, but surely young 【people】 can handle late nights.
+666 | How 【people】 can be more focused and productive.
+191 | But research shows that, when it comes to actually making a ___27___ from all of these choices, 【people】 can become
+325 | I) Experiment results showed that students who were not taught that 【people】 can change showed poor
+364 | But when students were taught that 【people】 can change, they had better responses to stress, in
+670 | What kind of 【people】 can contribute more to them.
+396 | This is the era of social media. [21] 【People】 can easily share their wealth and status to large audiences, but they need to consider the consequences.
+260 | To see how many 【people】 can go without napping.
+500 | 【People】 can improve their capabilities by handling multitasking situations.
+196 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that 【people】 can just help themselves, rather than getting everyone to sit down at the table to eat a meal.
+316 | It often happens that 【people】 can lack reason when faced with skillful marketing.
+177 | In fact, the online world offers kids remarkable opportunities to become literate and creative because young 【people】 can now publish ideas not just to their friends, but to the world.
+221 | W: [12] John, your book is getting a lot of attention, partly because you write that most 【people】 can retire by 40.
+421 | W: Maybe, but how can anyone save enough to retire by 40 when most 【people】 can’t retire at 60?
+251 | “It’s a growing problem and 【people】 can’t stop fraudsters being dishonest,” says Tipton.
+284 | 【people】 cannot change and a "growth mindset" referring to the belief that 【people】 can change.
+238 | how advertising campaigns specifically target very young and poor 【people】, causing harm for these vulnerable groups.
+281 | Research shows that when 【people】 choose from many options, they ___29___ more in the decision,
+107 | More and more, young 【people】 choose spending time on their electronic devices over engaging in other activities, regardless of the type.
+151 | But many 【people】 choose to spend their time playing computer games.
+189 | Why such a disconnect? [20] Most 【people】 cite time and conflicting work schedules as major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job.
+492 | What family background 【people】 come from.
+222 | They found that when 【people】 compete against their rivals, they are more willing to behave unethically to win.
+227 | [16] So I’m launching a campaign to stop 【people】 complaining about being “busy.
+485 | They may help 【people】 concentrate on their business.
+437 | It helps 【people】 connect with others.
+595 | After all, not all socioeconomically disadvantaged 【people】 consume poor diets.
+449 | The revolutionary idea of a self-service grocery, where 【people】 could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America.
+432 | business that cities nationwide began allowing them to build curbside seating areas where 【people】 could sit, safely, in the
+119 | The second reason, they say, is lifestyle changes in the country, (7) with 【people】 dedicating less time to breakfast when bread would traditionally be eaten with butter and jam.
+600 | some of the reasons 【people】 delay retirement.
+659 | What is the general trend in 【people】 delaying retirement?
+545 | Smart 【people】 develop overachieving personalities because things come so easily to them.
+654 | Most 【people】 did not include snacks when reporting their calorie intake.
+226 | Respond as most busy 【people】 do.
+353 | What does the author propose 【people】 do?
+386 | What should 【people】 do in a decision-making process if instincts disagree with data?
+625 | 【people】 do not know how much they are eating, it can be really hard for them to stick to a diet.
+466 | Why do 【people】 do things that way?
+525 | What should 【people】 do to enhance their sense of meaning?
+508 | What does the author suggest 【people】 do to get rid of boredom?
+640 | What does the author suggest disadvantaged 【people】 do to improve their health?
+503 | What should 【people】 do to learn the art of persuasion at the workplace?
+665 | What does the passage say about 【people】 doing manual work?
+389 | Without conflict, we’re often stuck in this artificial harmony where 【people】 don’t express potentially innovative ideas for fear that they may start conflict with others.
+183 | A lot of 【people】 don’t know about this movement.
+368 | “It’s going to feel like a made-up conversation that 【people】 don’t necessarily want to tune in to.
+320 | Most 【people】 don’t really believe in them, but
+457 | 【People】 don’t refer to a man as a ‘man engineer’ — he’s an engineer.
+214 | I would have thought that in London most 【people】 don’t speak foreign languages.
+305 | "Many 【people】 don't want to be forced into having fun or making friends, especially not on top of their busy jobs.
+380 | "【People】 don't work on their cars anymore.
+483 | They could calm 【people】 down a bit in times of crisis.
+274 | And that’s what 【people】 dream of owning.
+299 | After all, intelligent 【people】 earn more money, accumulate more wealth, and even live longer.
+678 | Make sure 【people】 eat non-fattening food.
+636 | should be looking for new ways to ensure what 【people】 eat wouldn't have much impact on their waistlines.
+362 | They heavily feature animals and other familiar sights, like images of 【people】 eating.
+213 | Some 【people】 even believe that not simply adopting your husband’s last name is a huge sign of disrespect and a lack of commitment.
+534 | We can never really please other 【people】 even if we try as hard as we can.
+234 | This theory guesses that after developing sign languages, 【people】 eventually started making sounds along with their gestures.
+435 | The number of 【people】 experiencing depression shows a sharp increase in the first year of high school.
+527 | They are sensitive to the way 【people】 express their emotions
+170 | Why 【people】 fail to respond to emails promptly.
+605 | Remember, as Bechtoldt says, “you are not responsible for how other 【people】 feel.
+223 | Here 【people】 feel comfortable conducting routine social interactions with new acquaintances or total strangers.
+452 | The study found that 【people】 feel judged to a larger extent by members of other groups.
+489 | It may make 【people】 feel that they ought to fit in with the outside world.
+237 | Even worse, when 【people】 finally do decide, they are generally less satisfied
+166 | Some 【people】 find it “snobby” (势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first.
+352 | It is read by 【people】 for entirely different reasons
+398 | It frees 【people】 from any known link to cancer.
+83 | To prevent 【people】 from complaining about being “busy”.
+464 | It may prevent 【people】 from developing a genuine sense of community.
+619 | 【People】 from different social groups vary in their dietary habits.
+532 | 【People】 from diverse backgrounds no longer socialize.
+497 | Second, once-public spaces, where 【people】 from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life for many.
+504 | They could prevent 【people】 from getting heartbroken.
+363 | 【People】 from poor neighborhoods tend to have the least interest in retraining.
+667 | What do we learn about obese 【people】 from the passage?
+407 | 【People】 from the rest of the world, such as Latin America, are considered to be in high-contact cultures, where they tend to expect touching in social interactions and feel more comfortable with physical closeness.
+148 | 【People】 from the state of Idaho.
+441 | The power of the classroom is rooted in the humanity of the 【people】 gathered in the same place, at the same time.
+268 | What did 【people】 generally think of Red Rum when he returned to the racecourse in 1977?
+617 | Emotional intelligence helps 【people】 get along with others.
+192 | “The engagement and powerful skills that 【people】 get playing a game — why can’t work be like
+469 | To properly care for patients, we also need to care about the lives of the 【people】 getting the care.
+218 | In fact, there are a lot more 【people】 giving tickets than receiving.
+468 | Personal teaching is about teachers showing students a higher path, and about young 【people】 going through the process together.
+372 | Perhaps this is because older 【people】 had fewer options when they were starting their careers, at a time when values focused more on stable incomes than _32_ personal missions.
+644 | The number of jobs suitable for older 【people】 has increased in the private sector.
+137 | Most 【people】 have a dream in life, a vision of who or what they’d like to be in the future.
+538 | A conclusion has been drawn from many experiments that anumeric 【people】 have a hard time
+198 | The organization explains that this decision reflects general agreement among experts around the world that some 【people】 have a problem with these games.
+332 | They found that 【people】 have a wide range of opinions concerning diversity.
+122 | More 【people】 have been giving than taking.
+301 | Blind and partially sighted 【people】 have been using text-to-speech converters for decades.
+417 | I don’t understand how 【people】 have creative careers without napping.
+346 | Shouldn’t 【people】 have extra cash for emergencies?
+80 | Indeed, social scientists who study young 【people】 have found that their digital use can be inventive and even beneficial.
+199 | These papers deal with a kind of failure 【people】 have little control
+130 | 【People】 have more time during the summer.
+461 | When 【people】 have no way out in crises, they are more likely to embrace changes.
+416 | Some 【people】 have other concerns.
+561 | Some 【people】 have said aging is more a slide into forgetfulness than a journey towards wisdom.
+342 | "【People】 have said we're going to 'Americanize' it," Carey said.
+392 | M: Well, if 【people】 have smaller homes, they use less land and fewer resources to build them.
+403 | Responses suggest that anumeric 【people】 have some trouble keeping track of how many nuts
+634 | More and more 【people】 have switched to less intellectually challenging jobs.
+355 | More 【people】 have taken to bottled water because of their health awareness.
+374 | “【People】 have tended to focus from a policy point of view on _31_ lonely 【people】 to make them more _32_, ” said the lead author, Nicole K.
+558 | They simply don’t understand how hard some 【people】 have to work to accomplish the same things, and because of that, they push 【people】 too hard.
+592 | Professor O’Keefe established in earlier studies that 【people】 hold different beliefs about the nature of interest.
+180 | Honestly, I hear the same answer from the vast majority of 【people】 I meet.
+442 | In my practice, the sickest 【people】 I see often share similar backgrounds: loneliness, abuse, poverty, or discrimination.
+343 | Because 【people】 identify so closely with stories, they can imagine how they would have acted in similar circumstances.
+245 | Suffering early setbacks might help 【people】 improve their job performance.
+92 | The principal characters in his movies were often ordinary 【people】 ___32___ in
+331 | Many years’ surveys reveal that young 【people】 in America are going to the cinema much less often than they used to.
+309 | 【People】 in business often make decisions based on their own personal feelings or instincts.
+556 | In 2019, the WFP assisted nearly 100 million 【people】 in 88 countries.
+484 | What does the author imply 【people】 in developed countries should do to keep healthy?
+111 | Encounter 【people】 in different places.
+512 | Compared with the average American, 【people】 in healthy societies _______.
+511 | What do we learn about 【people】 in high-contact cultures?
+344 | There are close to 58,000 homeless 【people】 in Los Angeles county.
+498 | What is one of the causes for more and more 【people】 in Los Angeles to become homeless?
+493 | What do 【people】 in most healthy eating cultures have in common?
+446 | “You know why most 【people】 in nursing homes use wheelchairs?
+444 | For starters, Americans eat much bigger portions than 【people】 in other countries.
+394 | likely among the millions of 【people】 in search of more protein-rich diets.
+171 | Besides, it also helps to remind 【people】 in the community to put out their trash bins each week.
+410 | For such institutions, from universities to workplaces, to better _35_ 【people】 in the U.S., they’ll need to understand “what the American public highly prioritizes,” Smith says.
+576 | Both scenarios are contributing to a big increase in the number of 【people】 in the US working into their 70s.
+652 | More and more 【people】 in the workplace find it hard to rely on traditional pensions.
+382 | That's a shocking and tragic number for a region that's home to some of the richest 【people】 in the world.
+594 | More and more 【people】 in the world are suffering from starvation.
+431 | mean, who wants to hang out with 【people】 in their suits?
+230 | And other 【people】 include homes that are much larger, say, 60 square meters.
+300 | While risk-taking can be considered a negative attribute, it’s also a characteristic of successful 【people】, including athletes, political leaders and entrepreneurs.
+529 | That grain—and the water needed to grow it—could be consumed by 【people】 instead.
+138 | With 【people】 interacting with animals close by.
+259 | There are lots of 【people】 interested in watching such movies.
+335 | In this process, we mentally categorize 【people】 into different groups based on common characteristics.
+97 | put 【people】 into layers of confusion, and the study confirms that music can sometimes ___30___ lift 【people】 out of the
+95 | A win for all 【people】 involved
+554 | Physical contact between unfamiliar 【people】 is negatively perceived.
+330 | But sharing our experiences in an authentic way to connect with other 【people】 is what makes us interesting, says associate professor Michael Pirson.
+286 | that leave 【people】 isolated.
+424 | as other 【people】, it follows that trying to identify more closely with our future selves will encourage us to make better long-
+269 | Perhaps 【people】 just never feel materially satisfied, always wanting more money to buy the next new thing.
+248 | H) This might present problems for young 【people】 later on.
+240 | The 【people】 least interested in retraining are more likely to come from historically disadvantaged
+365 | But, in a historical sense, number-conscious 【people】 like us are the unusual ones.
+314 | Economic growth benefits 【people】 little in the long run.
+201 | Nevertheless, many 【people】 live lives that are boringly predictable, or live a life where everything is outlined or planned.
+428 | Now most 【people】 living in high-income nations are consuming enough protein.
+302 | 【People】 living in rural areas, however, lag behind in online use, which limits their access to government services, banking and job opportunities.
+450 | Today, a greater and greater proportion of 【people】 living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.
+475 | What have 【people】 long feared about supermarkets?
+470 | The benefits of a traditional Mediterranean diet have been studied since the 1970s, and researchers have found that living that olive oil life can help 【people】 lose weight, lower their heart disease risk and reverse diabetes.
+244 | Such 【people】 make computer games a priority over their responsibilities.
+370 | But when 【people】 make decisions for others, they typically put together a more diverse team.
+422 | 【People】 make greater achievements by maintaining whatever they are doing is multitasking.
+200 | Some 【people】 may argue that this is merely reported data, and they say many men feel the same pressures as women in terms of fulfilling responsibilities at work and home.
+376 | 【People】 may be simply considered evil if their behaviors are morally unacceptable to us.
+555 | The findings suggest that some 【people】 may be too emotionally clever for their own good, says Bechtoldt.
+456 | 【People】 may cither be born with it or be able to cultivate it.
+185 | 【People】 may find it demanding to create a goal which will take a long time to achieve.
+506 | 【People】 may find it more pleasant to wander around streets redesigned for cycling and walking.
+383 | Poor 【people】 may have to give up eating certain foods because of their high prices.
+677 | Some 【people】 may lack it and are easily manipulated by others.
+651 | Ambitious 【people】 may not have a greater chance of success.
+265 | One consequence of climate change is that some 【people】 may not have adequate access to certain foods.
+658 | Ambitious 【people】 may not have more positive qualities.
+310 | personal connections and relationships, 【people】 may place more value on the socializing that happens at work.
+125 | And some 【people】 may struggle to get the same access to certain foods.
+664 | 【People】 may suffer from having a high emotional intelligence.
+675 | Some 【people】 may take advantage of it and benefit themselves.
+114 | Left-handed 【people】 may think differently.
+482 | 【People】 may view it as both a means to convince others and an art of communication.
+568 | A study published in 2002 in Personality and Individual Differences suggested that emotionally perceptive 【people】 might be particularly influenced by feelings of depression and hopelessness.
+405 | It does 【people】 more good than harm.
+381 | That means more 【people】 must become entrepreneurs.
+285 | So, most 【people】 need their own car to get around.
+546 | 【People】 no longer have access to public swimming pools.
+333 | It is suggested that 【people】 not going on the holiday might help detect website frauds.
+660 | What does the author say about 【people】 now working for several businesses at the same time?
+516 | At the same time, public municipal pools were often closed, leaving low-income 【people】 nowhere to swim.
+89 | There are now dozens of criminal cases in which offenders have ___31___ themselves off as 【people】 of a different age, race
+567 | 【People】 of different ages and genders show affection in different ways.
+581 | More research is needed to see how exactly the relation between emotional intelligence and stress would play out in women and in 【people】 of different ages and education levels.
+656 | 【People】 of different ages have different mindsets.
+440 | It might prompt different responses from 【people】 of different social backgrounds
+573 | We find few 【people】 of high status have time for leisure.
+329 | For instance, the Inuit 【people】 of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of 【people】 that tried and failed to make it in those challenging landscapes.
+509 | What does the example of the Inuit 【people】 of the Arctic regions illustrate?
+615 | But labelling obesity as a disease “risks reducing autonomy, disempowering and robbing 【people】 of the intrinsic (内在的) motivation that is such an important enabler of change.
+521 | To allow for the preferences of most 【people】 of today
+653 | Why did 【people】 often change jobs when the author started his career?
+297 | 【People】 often grant a request just because they want to appear polite and helpful.
+366 | Similar to the need for belonging, bored 【people】 often report that they feel a limited sense of
+622 | 【People】 often wonder why some entrepreneurs have greater success than others.
+194 | reluctant to hire 【people】 older than themselves.
+378 | Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are 【people】 on the planet.
+569 | Despite decades of effort to eliminate hunger, the latest estimate is that about 11% of 【people】 on the planet (about 820 million 【people】) are suffering daily undernourishment.
+502 | K) “In one study, we asked 【people】 online about the goals they set at the beginning of the year.
+289 | Why do some 【people】 oppose working from home?
+626 | Why are some 【people】 opposed to labelling obesity as a disease?
+462 | 【People】 over 45 stimulated by training suffer shorter periods of unemployment, get more job offers and have greater
+276 | Among young 【people】, 97 percent agree without reviewing the terms.
+129 | But even back then, a minority of 【people】—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+606 | It is hazardous to leave millions of 【people】 poor and vulnerable.
+517 | Los Angeles' homeless condition is deteriorating faster than many 【people】 predict.
+425 | A vast majority of 【people】 prefer
+108 | 【People】 prefer to work with team members similar to themselves.
+209 | Right-handed 【people】 preferred the ones on the right.
+620 | How do smart 【people】 react when they are found to be wrong?
+385 | Why can’t 【people】 really be multitaskers according to neuroscientists?
+315 | W: Housing costs are high, but do 【people】 really save that much by having a smaller home?
+334 | In this study, his team “went the _29_ direction” by spending years carrying out individual interviews and group surveys to see what 【people】 really talk about when they talk about success.
+99 | This mission is founded on the proposition that all 【people】, regardless of race, gender,
+544 | On the contrary, economically disadvantaged 【people】 report diets that are nutrient-poor and energy-dense.
+523 | This cycle is the reason why 【people】 rest at night
+256 | According to one interior designer, when 【people】 return home, they want to see colours that cheer them up and give them a hug.
+479 | 【People】’s active mental processes exert a positive effect on their multitasking.
+548 | What will happen if we base our self-worth on other 【people】’s approval?
+292 | A team of researchers from the University of Basel published their new study about 【people】’s attitudes towards diversity at work.
+438 | What do we learn about how genes shape 【people】’s behavior?
+208 | It accelerates 【people】’s blood circulation.
+574 | Throughout life, 【people】’s brains constantly renovate themselves.
+388 | Unsurprisingly, 【people】’s brains were most active when thinking about their current selves and least active when thinking
+630 | 【People】’s choice of food depends on their individual taste.
+426 | Enhance 【people】’s community spirit.
+391 | Raise 【people】’s environmental awareness.
+414 | The reasons for 【people】’s evil behaviors can be explained in more ways than one.
+547 | He just follows successful 【people】’s example.
+118 | The act of keeping her own last name was considered taboo (禁忌) and 【people】’s eyebrows would raise right off their faces when they found out that the bride was even considering something so radical.
+399 | O) Crises, after all, have a way of opening 【people】’s eyes to possibilities.
+542 | For example, they showed the students photographs of 【people】’s faces and asked them to what extent feelings such as happiness or disgust were being expressed.
+528 | But a new study suggests that being sensitive to 【people】’s feelings may sometimes come with an extra dose of stress.
+535 | We found that enjoyment predicted 【people】’s goal persistence
+663 | Hi-tech products can boost 【people】’s integrative thinking.
+638 | 【People】’s interests determine their mindsets.
+627 | 【People】’s interests tend to change with age.
+575 | Savings rates in America have dropped in recent decades even though 【people】’s life expectancy has increased.
+472 | Transforming 【people】’s lifestyle.
+608 | What accounts for the existence of intelligent 【people】’s logical blind spots?
+81 | It is associated with 【people】’s mental health conditions.
+486 | In a war of culture, data does not help much in changing 【people】’s minds.
+598 | In fact, scientists now suspect accumulating novel experiences, facts, and skills can keep 【people】’s minds more flexible.
+679 | Learn to cope with 【people】’s negative feelings.
+85 | This preference ___29___, however, when it refers to 【people】’s own jobs.
+453 | 【People】’s performance benefits from the perception of what they are doing as multitasking.
+514 | Shifting 【people】’s perspective on aging.
+495 | Changing 【people】’s philosophy of life.
+580 | Take other 【people】’s preference into consideration.    ?P:take sth into consideration
+657 | 【People】’s psychological wellbeing is related to various factors.
+668 | It may affect obese 【people】’s quality of life.
+327 | These experts claim there is not sufficient data to indicate that 【people】’s reliance on those other activities is an addiction.
+593 | For example, some sensitive individuals may assume responsibility for other 【people】’s sadness or anger, which ultimately stresses them out.
+323 | It emphasizes 【people】’s sense of social responsibility.
+236 | We may find a route toward other 【people】’s souls.
+443 | Hearing about other 【people】’s success isn’t the same as creating your own.
+160 | That will offer you a good variety to suit different 【people】’s tastes.
+287 | According to the World Health Organization experts, 【people】’s use of computer games is different from their use of the Internet, social media and online shopping.
+465 | They determine 【people】’s way of thinking.
+175 | Compared to five years ago, according to one researcher, many more 【people】 said their organisation gave the same support to men and women taking parental leave.
+451 | That’s what important 【people】 say.
+133 | however, the same 【people】 see machines as more threatening to their future role in the workforce.
+264 | "Many 【people】 see team-building activities as a waste of time, so we decided to look in more depth at what's behind this," said the paper's lead researcher, Dr Peter Matous.
+520 | Most 【people】 set goals to
+318 | keen to encourage young 【people】,” she says, observing that design brings together other subjects such as literature, art,
+358 | These findings suggest that 【people】 should change how they present themselves depending on their social goal.
+205 | Action Fraud says 【people】 should ensure the company renting the villa is a member of a recognized trade body such as ABTA.
+106 | 【People】 should exercise at least 60 minutes every day.
+551 | organizations promoting a message that, in the battle against weight gain, 【people】 should pay more
+298 | It involves being deviant, going against the social principle that 【people】 should tell the truth.
+90 | With 【people】 showing each other things nearby.
+371 | Online classes do not require buildings and each class can host hundreds of 【people】 simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+123 | Explaining why she has kept up the videos, Andrea explained how nice it was to have a little bit of fun and craziness that made 【people】 smile.
+337 | 【People】 sometimes struggle to do things that are simply a waste of time.
+103 | 【People】 spend a lot of time using phones and computers.
+369 | Most 【people】 spend much more time interacting with digital media than they did ten years ago.
+384 | M: Too many 【people】 spend their lives working on jobs they hate because they’re afraid, so I counsel 【people】 to take risks. [14] Retirement doesn’t have to be permanent, and if 【people】 need to, they can go back to work.
+211 | At every station, more 【people】 squeezed in and I got pushed further and further inside.
+187 | The other main theory, which is more recent, is that 【people】 started off by gesturing—pointing at things with their hands and imitating actions using their bodies.
+139 | At some point, 【people】 started stringing the words together to form sentences.
+643 | What will help 【people】 stick to doing something constructive automatically?
+313 | “Even when unemployment results from the ___33___ of new technologies, 【people】 still judge it in a social context,”
+167 | But fashion changed and most 【people】 stopped wearing hats.
+190 | What happens when 【people】 strive to look better?
+572 | Ambitious 【people】 strongly desire accomplishments and are willing to take more risks and spend more effort to get them.
+649 | Emotional intelligence helps 【people】 succeed in job interviews.
+669 | 【People】 suffering from depression are emotionally immature.
+433 | They occur in 【people】 suffering from emotional stress.
+629 | By building self-respect in 【people】 suffering from undernutrition.
+646 | Most 【people】 surveyed were reluctant to reveal what they ate.
+459 | What should 【people】 take into consideration in deciding on the most preferable protein intake?
+571 | They set the bar too high, and when 【people】 take too long or don’t get things quite right, they assume it’s due too lack of effort.
+650 | In 2015, a joint study found 72% of 【people】 taking MOOCs saw career benefits afterward.
+228 | The researchers were able to identify the causes behind these ___30___ paradoxica results, too: 【People】 tend to ___31___
+478 | [25] Since most 【people】 tend to avoid risk, businesses that are brave enough to take risks already have a competitive advantage.
+250 | Different 【people】 tend to be exposed to different forms of the golden rule, based on factors such as the religion in their society.
+397 | Studies have found that 【people】 tend to be less open and less able to relax when they wear formal clothes.
+621 | Ambitious 【people】 tend to be more materialistically successful than their non-ambitious counterparts.
+447 | These blind spots exist because smart 【people】 tend to be overconfident in their reasoning abilities.
+476 | What do 【people】 tend to believe about the homeless?
+530 | Research shows that in developed countries, more affluent and educated 【people】 tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.
+105 | One study found that 【people】 tend to rate this quality 35 in their spouse.
+143 | 【People】 tend to want as many choices as possible.
+145 | calm under pressure are often attributes of 【people】 that are good at gaming,” according to a Royal Air Force spokesperson.
+312 | [22] Most of us have been in teams or organizations where we’ve had conflict with the 【people】 that we’re working with around the ideas or decisions that we’re discussing.
+393 | Giving young 【people】 the opportunity to become familiar with the world of money would provide them with a great
+463 | 【people】, the Piraha who live along the banks of the black Maici River.
+543 | It ensures a balanced healthy diet for 【people】 the world over.
+401 | Hiring managers who are not yet 45 years old seem unwilling to hire 【people】 their senior.
+419 | For as long as there are homeless 【people】, there is a tendency to blame the victims themselves for their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+109 | What are the 【people】 there like?
+155 | Some 【people】, they argue, are just more interested in certain kinds of media and entertainment.
+233 | Making sounds helps one communicate with 【people】 they can’t see.
+537 | When doctors prescribe medicine for 【people】, they rarely consider the best time to take it.
+501 | Lao Zi once said, “Care about what other 【people】 think and you will always be their prisoner.
+255 | G) Nobody embodied this idea better than Steve Jobs, who said, “【People】 think focus means saying ‘yes’ to the thing you’ve got to focus on.
+84 | A lot of 【people】 think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students more incentive to succeed.
+134 | K) “Work-life balance is understood to be an individual’s response, so 【people】 think ‘it’s up to me to manage the craziness of
+610 | What do some 【people】 think of aging adults?
+586 | make 【people】 think slower; as long as we are alive and functioning, we can alter our brains with new information and
+231 | 【people】 think they needed bottled water in the first place, fountains were an urban fixture.
+429 | What does the passage say about 【people】 thinking of attaining success?
+173 | But for poorer 【people】, those same price jumps will likely cause certain foods to go extinct from their diets.
+387 | Americans now have a labor market in which millions of 【people】 — those with fewer skills and less
+611 | As was expected, when 【people】 thought of their present selves, their brains were observed to become more active.
+195 | schools and families can help young 【people】 thrive.
+249 | But some experts worried that such public speculation might lead 【people】 to believe that disagreement about the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+136 | The introduction of the “sugar tax” on juices and soda drinks has pushed more 【people】 to bottled water, while health awareness
+161 | It enables 【people】 to build up endurance.
+149 | W: How about inviting 【people】 to come at 6:00 p.m.?
+676 | Remind 【people】 to cut down on snacking.
+375 | It is especially difficult for 【people】 to decline to do what their superiors ask them to do.
+623 | What is one of the reasons for 【people】 to delay retirement?
+473 | A lifetime of praise leads smart 【people】 to develop too much faith in their intelligence and abilities.
+614 | For policy, we need to focus on options that make it easy for 【people】 to eat fewer calories.
+273 | The idea is for 【people】 to get back in touch with the soil — while
+505 | They may enable 【people】 to have the right mentality for doing business.
+524 | It is difficult for anumeric 【people】 to keep track of the change in numbers even when the total is very small.
+559 | What does the author advocate for 【people】 to live well?
+116 | Or I could perceive my birthday as an opportunity to do something for others like asking 【people】 to make a donation instead of buying a gift.
+587 | Researchers found that enjoyment rather than importance enabled 【people】 to persist in their goals.
+455 | selves and encourage 【people】 to save more for retirement.
+127 | I did not expect 80% of 【people】 to say the organisation finds dads taking this leave acceptable and three-quarters to say it’s equally supportive of women and men taking leave,” Harrington said.
+367 | It motivates 【people】 to seek information.
+179 | To help busy 【people】 to sort out their priorities.
+591 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing out that other common diseases, such as high blood pressure and diabetes, require 【people】 to take action to manage their condition.
+131 | To call on busy 【people】 to take care of themselves.
+204 | For example, if you want 【people】 to treat you with respect, you should treat them with respect.
+291 | It helps 【people】 to understand complex issues and to separate fact from fiction.
+490 | They enable 【people】 to undertake massive tasks.
+270 | the tendency of 【people】 to use “abstract speech that focuses on the broader picture and ___26___ purpose of action rather than
+82 | It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for 【people】 to use small tents and leave no trace of their visit.
+132 | I met three different 【people】 today, and each time, when I asked, “How are you?
+373 | Despite smartphones and social media, young 【people】 today are as socially competent as those from the previous generation.
+349 | Many 【people】 today consider colleagues as friends.
+258 | Many 【people】 today still find name hyphenation upon marriage unacceptable.
+164 | Or even simply see your birthday as an opportunity to bring 【people】 together for them to have fun.
+613 | How long 【people】 took to reach the top of their career.
+235 | “【People】 try to get five servings of fruit and vegetables
+585 | Overall, this is a positive quality, especially for 【people】 trying to build their own businesses.
+186 | With 【people】 trying to string sounds together.
+110 | Fraudsters also invest in pay-per-click advertising to feature at the top of search engines when 【people】 type in phrases such as “Spanish seaside villas”.
+135 | 【People】 understand that you are a recent graduate, and I doubt anyone cares about your phone other than yourself.
+582 | This ability will be built upon self-confident 【people】 using open and shared scientific knowledge to pull themselves out of their misery.
+553 | Interesting 【people】 usually possess certain unique qualities, according to a TV program producer.
+645 | How long 【people】 usually stayed in a company.
+423 | Some 【people】 view socializing at the workplace as a chance to develop personal relationships.
+635 | How 【people】 viewed success in his father's time.
+526 | These are the 【people】 viewers most relate to and find interesting.
+242 | It’s better to let 【people】 walk around and talk to each other, or sit where they like.
+351 | This could be because some 【people】 want to avoid conflict at all costs, after all they still have to work together.
+263 | It seems 【people】 want to help and are driven by helping others.
+565 | We found reliable evidence that 【people】 were
+141 | The study found that while the bigger display table created more interest, 【people】 were almost 10 times less likely to purchase a jar of jam than in the case of the smaller display.
+126 | This similarity was strong enough that it could be used to predict whether two 【people】 were already friends or not. [2] The relationship probably goes two ways.
+184 | the biggest bottled water manufacturers, cites a survey in which 【people】 were asked what they would do if bottled water were
+93 | Then on another day, at that same food market, 【people】 were given only 6 different types of jam choices.
+162 | Left-handed 【people】 were more likely to prefer the images on the left.
+87 | The weather was the coldest it had been for the season, [7] so 【people】 were warned to be careful when traveling outside.
+311 | Hal Hershfield, a psychologist at the UCLA Anderson School of Management, wanted to know why 【people】 weren't
+202 | E) That may be true, but that still does not tell us much about what happens across a whole generation of 【people】 when time spent on digital media grows.
+278 | Studies have shown that 【people】 who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] But new research found that 【people】 believe someone who shows off their social status cares more about benefiting themselves than helping others.
+338 | Like evil, we often view heroism as only a possibility for outliers—for 【people】 who are abnormal.
+628 | 【People】 who are aware of others’ feelings may experience more stress.
+411 | These included their ability to form and maintain friendships and get along with 【people】 who are different.
+639 | 【People】 who are emotionally stressed may have trouble making friends.
+439 | 【People】 who are interesting are persistently curious, she says.
+408 | 【People】 who are not directly involved in the group’s daily work should also take part.
+510 | “The best entertainment and storytelling comes from 【people】 who are relatable—those who don’t shy away from opening up but freely share who they are and what they care about.
+347 | Indeed, many companies look for 【people】 who are skilled in multitasking to improve their productivity.
+590 | Another cause is that the proportion of 【people】 who are trying to lose weight has been increasing over
+589 | Most important, there is a growing recognition that 【people】 who balance
+257 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether 【people】 who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+354 | Many 【people】 who can only afford to rent a large home are able to buy a tiny home.
+142 | Another study involved 【people】 who could smell despite
+360 | been linked to cancer, but studies show that 【people】 who ditch meat have lower blood pressure, lower average blood sugar,
+212 | Like the Scooby crew, we may find ourselves hunting for an easy fix, one word for 【people】 who do bad things.
+631 | What may happen to smart 【people】 who find it difficult to accept suggestions?
+477 | That’s what 【people】 who get promoted say.
+94 | — between parts of different brain networks are actually stronger in 【people】 who had hemispherectomies than in 【people】 with
+434 | 【People】 who had succeeded in career change after 45 told a nonprofit organization they owed a great deal to the education
+181 | observed among 【people】 who have recently become unemployed.
+357 | a way, Duckworth is giving new hope to 【people】 who have shut the doors on their dreams.
+379 | It made every effort to keep the essential capabilities of smartphones, but strip out costs and preserve battery life for 【people】 who likely have inadequate access to electricity.
+197 | Second, 【people】 who live alone are less likely to go to the doctor _E_, to
+672 | 【People】 who look at the dark side of life often feel depressed.
+267 | However, on the other side of the coin there are 【people】 who maintain that it is possible to be, or at least seem to be, multitasking.
+430 | This makes things tricky for 【people】 who may want to impress others while also demonstrating that they are a team player.
+283 | Sadly, the 【people】 who most need the help are least
+207 | In fact, research suggests that 【people】 who read printed text comprehend more, remember more and learn 30% more than those who read digital text.
+266 | When researching this book, I interviewed hundreds of 【people】 who retired by 40.
+104 | I) He said the 【people】 who should be paying regard to the Wang paper are the funding agents who
+518 | In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that 【people】 who skip leisure and work all the time are of higher standing.
+174 | We are drawn to 【people】 who think like us; we then influence their thoughts over time, which may push their brain activity into more closely resembling our own.
+321 | We will meet 【people】 who value us for who we are.
+602 | 【People】 who want to lose weight are more likely to under-report their eating-regardless of whether
+562 | Other studies have shown a greater uptake of exercise in 【people】 who were told to think of the enjoyment of doing the exercise
+359 | We even evaluate 【people】 whom we have just met
+539 | If asked, most 【people】 will be able to give a vague
+618 | More 【people】 will be willing to join in the effort.
+294 | Smith says he was _28_ by how past studies on success “assumed what 【people】 will care about.
+552 | Most 【people】 will have a feeling that they've missed
+101 | And whatever their financial background, or their educational background, most 【people】 will have something in common with each other.
+112 | I imagine there will be different foods and 【people】 will just help themselves and eat at their own pace, right?
+163 | Even worse, 【people】 will occasionally fight to do things that waste time.
+210 | As investor Pedro Sorrentino put it, “If you don’t guard your time, 【people】 will steal it from you.
+633 | 【People】 with a great amount of
+604 | After coding and analyzing the ideas they generated, the team found that 【people】 with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.
+400 | They occur often in 【people】 with an active imagination.
+203 | They are advertised as a way for adults to finish their education and students to learn the material at their own pace—it is far more compatible for 【people】 with busy schedules.
+361 | “They tend to be 【people】 with deep roots in the city, who have hung around since before the neighborhood became what it
+254 | It provides 【people】 with extra energy.    ?P:provide sb with sth
+480 | In the U.S. labor market. the primary concern of 【people】 with less schooling and fewer skills is to secure any employment
+609 | For 【people】 with limited ambition, however, failure is viewed as something closer to reality.
+579 | Recognising obesity as a chronic disease with severe complications rather than a lifestyle choice “should help reduce the stigma (耻辱) and discrimination experienced by many 【people】 with obesity,” he adds.
+603 | He suggests that most 【people】 with obesity will eventually develop complications.
+156 | Whereas 【people】 with tooth sensitivity may complain, for example, of tooth pain _34_ by heat or cold, the nerves in the inner layer don’t sense temperature.
+345 | 【People】 wonder if certain crops and foodstuffs could disappear like some animal species due to climate change.
+182 | For millions of 【people】, work is
+612 | The decline of manufacturing and the increase in the number of 【people】 working
+225 | Why are 【people】 working just as much today as
+550 | timing into account could help make treatments more effective and help more 【people】 worldwide.
+178 | Over the next century, he predicted, the economy would become so productive that 【people】 would barely need to work
+662 | Obese 【people】 would be discriminated against.
+655 | Obese 【people】 would be overwhelmed with anxiety.
+647 | Obese 【people】 would not be able to afford the medical costs.
+637 | Obese 【people】 would not feel responsible to take any action.
+282 | They focused on the benefits young 【people】 would reap in the future.
+577 | consultant or freelancer ( ro lb JfR 3k *) , 【people】 would wonder what was wrong with you.

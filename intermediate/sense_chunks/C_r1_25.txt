@@ -1,0 +1,613 @@
+# 任务 C_r1_25：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_25.labels.txt
+
+============================================================
+## 词：and    本段 600 句    模式：全标（每句都写）
+原释义：conj.和; 与; 以及; 而且.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 和，与，以及（并列名词、形容词、同类动作）    B 样本 54    例：He is a bold and aggressive pet.
+  1  conj. 然后，并且，而且（连接先后发生的动作或分句，补充说明）    B 样本 25    例：It escapes regulation and misleads consumers.
+  2  conj. 去……，来……（go and see, try and do）    B 样本 0
+  3  conj. 而（表对比，常省略重复成分）    B 样本 1    例：Heating oil is projected to be 27% higher and electricity 10% higher.
+口径说明（照此执行）：
+  - and 连接名词/形容词/同类短语或动作的并列标 0（含 Customs and Border Protection 等专名中的 and）；连接先后动作、谓语、分句（句首的 And 也算）标 1；go/come/try and do 标 2；省略重复成分的对比标 3。0 与 1 边界模糊时，能译成「和」就标 0，更像「然后/并且」就标 1。
+句子：
+682 | who," he said, suggesting that some more equal dividing up of money might be more productive 【and】
+888 | Without numbers, healthy human adults struggle to precisely distinguish 【and】
+901 | Almost every class has an associated fee not included in the cost of tuition, most between $40 【and】 $100.
+1039 | E) “There are plenty of soft skills that gamers can utilise in a professional setting, such as teamwork, problem solving 【and】
+1081 | Last year, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly 【and】
+757 | example, statistical studies that he 【and】 a colleague built of corn 【and】 soybean (大豆) production in the US show a steep decline after crossing the 30°C temperature threshold (临界点).
+1179 | Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out for alarmingly large snakes—【and】 a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins do exist in the Amazon region.
+692 | It has a very strong smell 【and】 a dry flavor.
+1063 | 15 minutes 【and】 a few clicks later, (20) with more than $350 worth of dolls in her cart, Kate placed the order 【and】 ran off to play.
+1038 | In other words, being proficient with a design tool 【and】 a few methods doesn’t make you a user experience designer.
+1221 | M: But asking “What do you want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations 【and】 a high chance of disappointment.
+1166 | Some people even believe that not simply adopting your husband’s last name is a huge sign of disrespect 【and】 a lack of commitment.
+1259 | Thus, deep reading is crucial for being a good citizen, a successful college student 【and】 a productive employee.
+1196 | Analytical decision-makers struggle with deadlines 【and】 a sense of urgency with decisions.
+695 | Many of them are not, 【and】 a simple “no” will be more productive than whatever work the most efficient person can cope with.
+896 | So before you can determine whether you 【and】 a specific company would be compatible together, it’s important to have a solid handle on what exactly you want from your employer.
+976 | In this city, the average home costs $200,000, 【and】 a tiny home costs just $50,000.
+1236 | Taking healthy risks through physical movement builds children’s confidence 【and】 ability to solve problems 【and】 persist through frustration.
+1054 | She emailed the company via its website, asking how far the villa was from the airport 【and】 about local restaurants.
+1131 | 【And】, according to new findings, it may not be.
+1091 | “Why can’t we put in our resume our gaming victories 【and】 achievements?” he
+819 | Indeed, the latest research that has emerged on language 【and】 aging shows that language mastery is a ___30___ that we begin
+953 | Fees for lab science classes are the highest, 【and】 all students at my university are required to take at least one lab before they graduate.
+753 | 【And】 all the artificial blue light from electronic devices means we have to try harder to sleep well.
+725 | choices, 【and】 also make you more confident about your ability to make the right decision.
+859 | There are two different attachment styles; an anxious attachment style 【and】 an avoidant attachment style.
+1230 | People-pleasing, or seeking self-worth through others' approval, is unproductive 【and】 an exhausting way to go through
+1086 | collected between 1986 【and】 2009 【and】 found that fruit juice consumption was linked with increased risk of type 2 diabetes.
+891 | Women are twice as likely to suffer from severe stress 【and】 anxiety as men, according to a 2016 study published in The Journal of Brain & Behavior.
+946 | Such cats displayed more aggressive 【and】 anxious behavioural styles as well as more stress-related sickness.
+824 | Many other designers 【and】 architects have expressed concern over the future supply of home-grown talent for UK firms,
+848 | Besides that, tablet prices continue to drop 【and】 are becoming increasingly affordable.
+762 | They are doing work they care about 【and】 are interested in, 【and】 doing more of it is not
+1041 | for less time, receive more job offers, 【and】 are more satisfied by the job offers they receive.
+918 | 【And】, as a result, neither
+1157 | However, this issue with the golden rule can be dealt with in a general manner, by viewing this principle as one of several principles that we use to guide our behavior as individuals 【and】 as a society.    ?P:as...as
+1073 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, 【and】 as students got older, they began to write in more grammatical sentences.    ?P:as...as
+732 | Americans now live alone, 【and】 as the song says, one is the loneliest number.
+1208 | Send a quick message to a current or previous company employee on LinkedIn or by email 【and】 ask if they would be willing to have a quick conversation with you about the organization in general.
+1101 | Recently, I was at a gathering of colleagues when someone turned to me 【and】 asked, “So, what’s new with you?
+851 | For example, if your manager comes to you 【and】 asks you to do X, you can respond with ‘Yes, I’m happy to make this the priority.
+737 | He did not go to university 【and】 at age 18 married Anne Hathaway, who was eight years his _32_.
+915 | I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, 【and】 at home—even among workers who claim to have a strong desire for equality.
+697 | Evil is typically referred to when there is deviance from social norms; formal deviance is the violation of laws, like theft, murder, 【and】 attacks, while informal deviance involves violations of social norms, like lying.
+1188 | 【and】 attracts hundreds of entries nationwide.
+1061 | But Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary 【and】 available to all of us?
+726 | I was surprised that the expert recommended not eating for the entire journey 【and】 avoiding sleeping on the plane.
+806 | These are machines that shock 【and】 awe you.
+868 | Research partners Kaitlin Woolley of Cornell University 【and】 Ayelet
+998 | They were also more likely to have an ongoing medical condition 【and】 be overweight.
+955 | Do whatever favors you can, 【and】 be warm-hearted 【and】 direct when you have to say no.
+782 | Many escaped from farms 【and】 became wild.
+1271 | They are also more likely to attend university 【and】 become professional athletes, chief executives 【and】 even important politicians.
+974 | reflect patterns 【and】 behaviours of student disengagement or the possible negative attitudes of parents towards education that
+1077 | 【And】 “being busy” is the lie they tell themselves about why they can’t achieve it.
+1118 | He recalled attending Formula One's Monaco race last year 【and】 being overwhelmed by the ceremony leading up to the event, the way the race charmed the city for days ahead of the start.
+1031 | 【and】 beliefs that you have been practicing each day, When you realize this 【and】 begin to direct your focus toward practicing
+736 | W: They use new types of guns, 【and】 birds could easily be shot down in flight.
+1052 | Read through their copy 【and】 blog.
+1029 | K) As the owner of multiple sugary drink brands 【and】 bottled water, PepsiCo is facing challenges on health 【and】 environmental
+1098 | Our always-on world of social media may result in more connections, but they are superficial 【and】 can
+1026 | students adopt 【and】 carry with them through schooling.
+1112 | Colour is now spreading through our homes, up staircases, across wood frames 【and】 ceilings, filling in neutral spaces.
+1059 | We find ourselves over-committed to things that don’t meaningfully improve or support those around us, 【and】 certainly don’t improve our own lives.
+802 | For example, many women who choose to hyphenate do so partially because they have earned higher educational degrees 【and】 certifications under their maiden names.
+1237 | between concern, intent 【and】 changed behaviour,” says Giles Quick an analyst of bottled water.
+1009 | Find online logic games 【and】 cheat at them, play Scrabble (拼字游戏) with a dictionary, or write a story about something that is untrue?
+860 | Roosters 【and】 chickens are not particularly strong creatures, Ms.
+713 | After birthdays 【and】 Christmas, they would go to the branch 【and】 deposit their gift money.
+700 | Some think voice could soon take over from typing 【and】 clicking as the main way to interact online.
+1016 | Inside, the dancer manipulates strings that open 【and】 close the lion's eyes, shake its ears 【and】 open its mouth to reveal a fire-orange tongue.
+846 | H) Nick Cooper, the founder 【and】 co-owner of villa booking company Villa Plus, estimates his company has uncovered more than 200 fake villa websites over the past two years, 【and】 doesn’t believe enough is being done.
+1136 | challenging them to develop a new creative, sustainable 【and】 commercially feasible product for the Design Museum shop
+986 | Building the skills required of a user experience designer takes time, patience 【and】 commitment.
+1194 | It took time 【and】 commitment to continue to pursue roles within teams that I knew could teach 【and】 challenge me.
+1143 | Manufacturing costs come into effect, 【and】 commodities fluctuate in price based on demand 【and】 the distance to haul the
+1109 | The costs of any damage to the dorm, including elevators, bathrooms, 【and】 common areas, are billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage.
+917 | H) But even as error rates stayed stable, student essays have blossomed in size 【and】 complexity.
+1051 | Reading 【and】 comprehending longer books 【and】 chapters takes practice, 【and】 American teens are no longer getting that practice.
+1201 | People spend a lot of time using phones 【and】 computers.
+1247 | EVE teaches skills like creativity, leadership, organisation, 【and】 conflict resolution, he
+893 | In a million words written over 20 years, he _34_ the full range of human emotions 【and】 conflicts with a _35_ that remains sharp today.
+1192 | love, 【and】 connection.
+999 | Imagine going from reading texts as short as one or two sentences to trying to read entire books written in complex language 【and】 containing sophisticated ideas.
+871 | as infants 【and】 continue on for the rest of our lives.
+968 | There’s also a great night market further into town that has all kinds of food 【and】 cool little shops selling souvenirs 【and】 local jewelry 【and】 clothing made by hand.
+987 | “The ability to absorb information, react swiftly 【and】 coordinate actions whilst remaining
+861 | Other studies, including studies of wheat in India 【and】 corn in Africa, also found that there is a threshold above which yields sharply decline: crops can adapt 【and】 move, but only to a point.
+818 | I) The Harvard study examined seven years of school results data 【and】 could not find any impact from snow closures.
+1210 | K) “I tried logging on to the website 【and】 couldn’t,” she recalls.
+943 | “The difference is not really news to me, as a clinical psychologist,” said Erin Joyce, a women 【and】 couples therapist in Los Angeles.
+1229 | In fact, the online world offers kids remarkable opportunities to become literate 【and】 creative because young people can now publish ideas not just to their friends, but to the world.
+1165 | The research published by two scientists was intended to examine the relationship between dishonesty 【and】 creativity.
+911 | When there is a relationship breakdown with their parents, children with an anxious attachment style scream 【and】 cry to get their parents to come back.
+947 | When high school students go on to college, their past 【and】 current reading habits will influence their academic performance.
+748 | I’m saving up to buy something reasonably small 【and】 cute, but it’s still a bit expensive for me, 【and】 it’ll take a while before I have enough money.
+730 | must choose the best answer from the four choices marked A ) , B) , C) 【and】 D) .
+1074 | each of them there are four choices marked A), B), C) 【and】 D).
+807 | M: The answer may lie in childhood, the way the person related to their mom 【and】 dad.
+1108 | W: Actually, manufacturing tablets is environmentally destructive 【and】 dangerous to human health.
+1083 | better habits day-in 【and】 day-out, continual progress will be the logical outcome.
+1128 | habits day in 【and】 day out for greater success.    ?P:day in and day out
+864 | We’re also wondering what tours 【and】 day trips are available.
+1064 | I) Siri has often been praised for its ability to interpret our casual language 【and】 deliver very specific 【and】 accurate results, sometimes even providing additional information.
+691 | Her year-long service included comforting AIDS patients at a free health clinic 【and】 delivering meals to the homebound.
+933 | When Coburn spoke to them 【and】 described what
+934 | So the problem really is widespread 【and】 deserves attention.
+1186 | Having a companion to talk to about their feelings can also help children feel secure 【and】 develop communication skills.
+1242 | pressure 【and】 diabetes, 【and】 it’s recommended adults consume 30g per day.
+1176 | Researchers also measured participants’ overall satisfaction around cooking 【and】 diet-related behaviors.
+938 | two Belgian universities, who spent a month in the  heat tracking the ants 【and】 digging out their
+1211 | Factors like love, friendship, 【and】 dignity.
+832 | W: If you have time right now, I think we need to sit down 【and】 discuss what exactly we are going to do for Jake’s education next year.
+948 | Now comes the part when you put on your detective hat 【and】 do a little digging.
+1214 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals 【and】 doctors was below average, health outcomes were still better than in countries rated as moderate or poor.
+1270 | K) 【And】 don’t forget the legal stuff!
+760 | M: That’s wonderful. [13] My father-in-law has had terrible problems getting up 【and】 down stairs since his knee operation last April.
+945 | As his great contemporary the poet 【and】 dramatist Ben Jonson said, “He was not of an age, but for all time.
+1117 | W: How utterly overwhelming 【and】 dull!
+1025 | I met three different people today, 【and】 each time, when I asked, “How are you?
+1044 | must be handed the cognitive tools of numbers before we can consistently 【and】 easily recognize higher
+804 | The service was designed to be cheap 【and】 easy to run, says Mr Dittoh.
+744 | You can cut it into thin slices 【and】 eat it on its own.
+1273 | Greater Internet access correlates directly with improved health care, education 【and】 economic development.
+1004 | Students are able to highlight 【and】 edit text, write notes 【and】 search for information much more quickly than they can with printed textbooks.
+758 | I personally feel sorry for the poor animals stuck in cages, but there’s no denying they are fun 【and】 educational for children.
+796 | What about the cost, not only buying all those tablets, but the software 【and】 electronic infrastructure that goes with it, not to mention retraining all the teachers 【and】 administration staff?
+985 | 【And】 emotions ran hot: Someone scattered tacks on the bike lane.
+1130 | I happen to be interested in both, 【and】 ended up enjoying the book for completely different
+903 | The thought of straining the relationship outweighs the commitment of our time 【and】 energy.
+1256 | But critics say the policy contradicts recommendations by many health experts, who warn that a person’s weight is influenced by genetic 【and】 environmental factors.
+863 | H) Since then, there have been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase 【and】 Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.
+1105 | A notable criticism of the golden rule is that its application can lead to undesirable outcomes, when it conflicts with laws 【and】 ethical principles.
+724 | like city traffic-lighting patterns, 【and】 events like accidents 【and】 construction.
+944 | So including labor costs, taxes, 【and】 everything, this job would come to $3,000.
+1224 | "It's a great way to promote cultural understanding 【and】 exchange; we welcome that.
+1048 | At the primary level, the main aim is to cultivate good habits, like learning to plan 【and】 exercising self-discipline.
+1275 | They’re able to hear what the other person is saying 【and】 express their own feelings 【and】 thoughts effectively.
+709 | They have to be on Facebook, to know what’s going on among friends 【and】 family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+1203 | Emotional labor can lead to difficulty in sleeping 【and】 family conflict.
+1251 | They also harbor dozens of diseases that threaten both humans 【and】 farm animals.
+1276 | Le said, noting that his uncle 【and】 father were club members.
+693 | As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants 【and】 federal work study, university merit scholarships 【and】 financial aid awards, 【and】 about $8,000 yearly in federally subsidized (有补贴的) 【and】 unsubsidized loans.
+882 | I just get anxious before I fly 【and】 feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic more than it did.
+1218 | Some men, regardless of how you might feel about some things, are traditionalists 【and】 feel that it is simply “right” for the woman to take the man’s last name as her own.
+1028 | M: Well, if people have smaller homes, they use less land 【and】 fewer resources to build them.
+970 | In the U.S. labor market. the primary concern of people with less schooling 【and】 fewer skills is to secure any employment
+867 | Do you prefer to fill out an application on the web, or to print it out 【and】 fill it in by hand 【and】 then post it back to us?
+950 | “A family will turn up at a villa 【and】 find out it doesn’t exist or the owner doesn’t know who you are,” says Tipton.
+1088 | M) Unlike bats, birds 【and】 fish, however, humans have difficulty judging distances behind them.
+1133 | It also launched a range of fancy bottles that work with tap water 【and】 flavour
+1036 | L) Since starting his research on phantom traffic jams, Horn has learned that schools of fish 【and】 flocks of birds 【and】 bats use
+1255 | They want to reach the top of the corporate ladder 【and】 fly like supermom,” she said.
+1135 | Fall in love with boredom 【and】 focus
+982 | system a while to break these cells down 【and】 for fructose to enter the bloodstream.
+688 | If teeth didn’t feel pain, we might _30_ to use them in situations that damage them, 【and】 for humans, damaging _31_ teeth is a problem because, unlike crocodiles, we can’t _32_ them.
+827 | W: We’ve budgeted for those, 【and】 for Internet 【and】 transportation.
+1100 | Make sure it’s free of distractions, 【and】—for primary school children at least—somewhere near you, so you can answer questions 【and】 offer encouragement.
+799 | He writes, “Remind your superiors what you would be neglecting if you said ‘yes’ 【and】 force them to deal with the trade-off.
+1102 | The researchers explained that “Many owners regard their pets as a family member, 【and】 form close social bonds with them.
+1014 | 【And】 Formula One has that more than any other racing series.
+1002 | “I was comparing prices online 【and】 found one that came in a bit cheaper than others,” says O’Shaughnessy.
+975 | The researchers also studied a ___32___ of college students 【and】 found that
+1193 | The city analyzed the data for businesses along those routes 【and】 found that
+990 | Back in Belgium, the scientists looked at the ants under an electronic microscope 【and】 found that their
+988 | With so much greenery 【and】 fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+747 | Often, we have to consider saying “no” to someone we will interact with again in the future—our co-worker, our spouse, our family 【and】 friends.
+931 | M: What’s about the commute to 【and】 from campus?
+849 | They hit me right out of gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to 【and】 from the District.
+1122 | In one experiment, participants were offered the choice between candy 【and】 fruit as a snack.
+878 | 【and】 fruit juices — don’t seem to have harmful effects as long as they’re not contributing to excess daily calories.
+1045 | Other emotions triggered by math include feelings of tension 【and】 frustration.
+727 | 【And】 Game Academy reckons its belief is backed up by hard data.
+742 | G) “By working with industry partners such as ABTA 【and】 Get Safe Online, we are able to issue alerts about the latest threats they should be aware of.
+993 | I’m going to go on the computer now 【and】 give it a try.
+1164 | According to one interior designer, when people return home, they want to see colours that cheer them up 【and】 give them a hug.
+1035 | But I’m not sure why you want to leave campus 【and】 go through all that trouble when the cost is the same.
+838 | He submitted the unedited version to a more respected journal 【and】 got
+686 | I know it’s really tasty 【and】 great comfort food, but it’s too fattening for me.
+801 | Great benefit 【and】 great harm can come from the same human tendency.
+1024 | Willpower 【and】 habits go hand in hand.
+905 | In one study, they were given matrixes (矩阵) 【and】 had to find two numbers that added up to 10.
+1217 | It is time we realized that deviance may be capable of doing both good 【and】 harm to individuals 【and】 society.
+830 | Jet lag is a big problem for me 【and】 has been for the last few years, even though I never suffered from it before.
+914 | M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, 【and】 have different needs 【and】 wants, which is why I suggest that people aim for financial independence.
+1008 | He can employ lip-reading 【and】 have meetings via video instead of on the phone.
+770 | The environment is easier to control, 【and】 he can still get a good workout, in addition to improving his hand-eye coordination.
+956 | It gives him a degree of hearing, 【and】 he can use a variety of communication methods depending on the situation.
+939 | He’s a really nice guy, 【and】 he knows a lot about cars.
+1095 | He’s a lovely guy, 【and】 he’ll be happy to help.
+706 | W: Yeah. [9] My little nephew turns six, 【and】 he loves the zoo, so the whole family is going.
+1066 | L) That is what hooked Carey, 【and】 he said he thought his experience was not unusual.
+1043 | He’s a good friend of mine, 【and】 he would never try to pressure you or cheat you.
+1050 | The research also found that mentally well-adjusted owners had calmer, happier 【and】 healthier cats.
+847 | Last month, Atria Books published her book The Rabbit Effect: Live Longer, Happier, 【and】 Healthier with the Groundbreaking Science of Kindness.
+810 | M: That’s true. [10] Dan is extremely fit 【and】 healthy.
+1238 | A household pet can also cultivate a child’s sense of responsibility as their parent explains the necessary processes of keeping their pet happy 【and】 healthy.
+1260 | If you get a yes to your request for a chat, you’ll be armed with some pretty powerful 【and】 helpful information heading into your interview!
+886 | Jan Newton 【and】 her friends.
+1266 | Sunshine 【and】 high temperatures can mean picnics 【and】 parks 【and】 trips to beaches, but they can make your body react in some strange ways.
+1121 | Jarvis 【and】 his colleagues also found that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar than they were in 1961.
+913 | Researcher Andrew Jarvis 【and】 his colleagues found that 80% of coffee-growing zones in Central America 【and】 Brazil could become unsuitable by 2050, for example, while climate change will likely have “great impacts” on cocoa (可可粉) production in West Africa.
+733 | 【And】 his story was a bit vague to begin with.
+712 | He 【and】 his team took photos of study participants, 【and】 then used
+855 | Richard Stone, an English teacher, thinks there should be a clear separation between school 【and】 home.
+902 | For the presentation, I’ll bring my own laptop 【and】 hook it up to their projector.
+1240 | F) The theme for last year’s competition was “Move”, 【and】 Hourican began with three groups working in lunch breaks 【and】
+967 | But when they were asked about how caregiving 【and】 household tasks were divided, their answers painted a different picture.
+1078 | with the length of time that a student is absent from school 【and】 how regularly this occurs.
+1030 | Hydrogen can be obtained sustainably by using solar power to break water down into oxygen 【and】 hydrogen.
+1062 | At the same time, your name is associated with the identity you’ve built up 【and】 hyphenation allows you to respect that while also respecting tradition 【and】 your husband’s family’s identity.
+971 | W: I should be fine with doing it on your website, 【and】 I already have all my certificates, as we run a small farm shop too.
+877 | I’ve known him since primary school, 【and】 I always remember him having that on his cheek.
+1119 | W: 【And】 I assume both might be termed insecure.
+884 | I’ve been thinking it over, 【and】 I’d like to send him to Westwood Elementary.
+721 | It’s a 30-minute ride 【and】 I don’t have to make any changes.
+857 | (12-1) 【And】 I got sick every time adults asked me what I wanted to be when I grew up.
+763 | W: [13] It says on your website that you are still looking for vendors, 【and】 I grow organic vegetables on my farm, as well as doing my own home baking.
+835 | 【And】 I heard that the new supermarket offers some big discounts to attract customers.
+837 | I’ve never done it before 【and】 I know that you’ve been doing it for ages.
+954 | 【And】 I’ll submit my claims form afterwards.
+773 | 【And】 I love it.
+862 | I was given three books over Christmas, 【and】 I’m only now getting around to reading them.
+825 | Just tell him exactly what you are looking for 【and】 I’m sure he will find something good.
+909 | 【And】 I’m tired of people asking that question of my 10-year-old daughter.
+1222 | "You can't help but be awed," he said, "【and】 I think that feeling can be translated to the viewer.
+1277 | “We’ve seen profound changes in the last decades in what we eat largely as a result of international trade, 【and】 I think that trend toward more diversification will continue,” Jarvis says.
+1018 | M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, 【and】 if people need to, they can go back to work.
+780 | He says the car is the best thing that has ever happened to him, 【and】 [11] if she sells it, he will divorce her.
+879 | 【And】 if we move far enough from the city center, the rent is low enough for us to afford all of it.
+1181 | You’ll be pushed to your limits, 【and】 if you aren’t focused you’ll make dangerous mistakes.
+889 | 【And】 if you get a broken egg, well, that could happen in a conventional shop, too.
+977 | 【And】 if you must fill
+812 | 【And】 if you need any help to find transportation for the whole family, we can definitely recommend someone for you.
+965 | “High quality chocolate will be less available in the future, 【and】 if you want it, you’ll have to pay a lot more for it,” Jarvis says.
+1040 | What about our local school then? [14] They have a wonderful arts program that would really challenge Jake in terms of creativity 【and】 imagination.
+1241 | The other main theory, which is more recent, is that people started off by gesturing—pointing at things with their hands 【and】 imitating actions using their bodies.
+699 | The fact that we have been open 【and】 in business for all these years proves that.
+829 | parking spots, as they argued at protests 【and】 in letters to the city council, would ruin stores 【and】 restaurants along Skillman.
+788 | 【And】 in such great numbers, their commercial hunting of ducks 【and】 geese became an industry.
+793 | Whatever you’re reviewing, it’s important that it’s arranged for your particular needs of that subject, 【and】 in the most user-friendly way you can.
+1254 | you want to reduce boredom 【and】 increase your sense of meaning, seek work where you can make a unique
+973 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, 【and】 increasing personal savings. [13] But your ideas about education are the most controversial.
+926 | M: As I’ve said many times before, [15] beach volleyball 【and】 indoor volleyball are completely different.
+876 | 【and】 industry bodies have pointed out that there has been a lack of roots-level support.
+858 | J) Carey's background is in deal making 【and】 innovation.
+1046 | Studies point to how boredom is good for creativity 【and】 innovation, as
+702 | G) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers 【and】 innovation in areas like virtual reality—what is it like to speed around a track inside a Ferrari?—are among the possibilities.
+1033 | He must have felt self-conscious 【and】 insecure, perhaps.
+1248 | In situations where you need more timely action, decisions based on some information 【and】 instinct may work better.
+771 | Here the words “deliberate” 【and】 “intention”
+979 | a way to avoid taking action on the goals 【and】 interests that we say are important to us.
+751 | London is a very large 【and】 international city.
+689 | I’ve been using one since the start of last semester, 【and】 it has really helped relieve a lot of study pressure.
+791 | This is a huge drop 【and】 it is important to note that this was not merely a decline in reading paper books, newspapers or magazines.
+1195 | restructured Zentech, once a taxation vehicle for his father’s business, 【and】 it is now in its fourth year helping international
+1127 | They have been attracted by a patch of land this close to wilderness, 【and】 it is their responsibility to keep it that way.
+822 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now 【and】 it’s a sport that could help him understand team spirit while cooperating with others.
+1171 | 【And】 it’s a very insecure attachment.
+1191 | It’s called Bobo Man, 【and】 it’s incredibly popular.
+696 | W: The bus takes twice as long 【and】 it’s just as crowded.    ?P:as...as
+1154 | The majority of owners want to provide the best care for their pets 【and】 it’s therefore possible that pets could be affected by the way their owners interact with 【and】 manage them.
+1215 | 【And】 it’s true; turning down opportunities is easier when you can fall back on the safety net provided by power, money, 【and】 authority.
+690 | “The problem is that when the money leaves your account it’s in theirs straightaway 【and】 it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+1068 | "Chinatown was much smaller then 【and】 it was a celebration with fireworks 【and】 firecrackers, which added a lot of flavor 【and】 meaning to it.
+1177 | But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, 【and】 it was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+815 | Would I be able to sell both the vegetables 【and】 items baked from them at the festival?
+842 | The findings suggest that, just as a parent’s personality can affect the personality of a child, the same is true for a cat 【and】 its owner.
+800 | I could take a change of clothes 【and】 jog to work.
+958 | Keeping your name 【and】 joining it to your husband’s through hyphenation is as legal as simply adopting his name or as simply keeping your own 【and】 leaving his out of the picture entirely.
+789 | They had four children, including the twins, Hamnet 【and】 Judith.
+785 | So he’d rather come to us 【and】 keep things quiet.
+923 | meanings, ___31___ improve during middle 【and】 late adulthood.
+707 | E) Brad Harrington, executive director of the center 【and】 lead author of the study, estimates only 20% to 30% of companies in the US offer paid parental leave.
+952 | In fact, research suggests that people who read printed text comprehend more, remember more 【and】 learn 30% more than those who read digital text.
+715 | Our capacity to speak, write 【and】 learn new vocabulary does not seem to ___28___ with age.
+1219 | She had a lot of fun 【and】 learned a really good lesson.
+719 | explains the key difference between practicing 【and】 learning.
+1090 | It’s gained through experience on the job 【and】 learning what’s appropriate given the needs of the project.
+1075 | It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people to use small tents 【and】 leave no trace of their visit.
+1116 | In one example, the phrase "Send a text to Jason, Clint, Sam, 【and】 Lee saying we're having dinner at Silver Cloud restaurant" was interpreted as sending a message to Jason only, containing the text "Clint Sam 【and】 Lee saying we're having dinner at Silver Cloud restaurant".
+710 | Americans now have a labor market in which millions of people — those with fewer skills 【and】 less
+1190 | Juices containing vegetables can provide more nutrients 【and】 less sugar than juices made up of just fruit — but they still
+1162 | The health indicators studied included disease prevention, reproductive health, death rates, 【and】 life expectancy.
+1268 | While painting the kitchen counters, a bold colour can make everything feel more open 【and】 lighter.
+1013 | M: Yes, we grown-ups can be tedious 【and】 limiting in our need for reality.
+1199 | This practice also allowed many pigs to escape from farms 【and】 live in the wild, which became a problem.
+894 | Owners—defined as individuals with high levels of anxiety, fear, anger, depression 【and】 loneliness—were more likely to have cats with behavioural issues.
+1155 | I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely to have the biggest negative impact on today’s teens because reading books 【and】 longer articles is one of the best ways to learn critical thinking.
+928 | elastic -band-powered mechanism, minimal parts, all 100 percent recycled 【and】 lots of stickers.
+1022 | Many of the highest earners have a keen interest in 【and】 love for what they are doing.
+833 | age group have poor skills 【and】 low adaptability,” Generation’s analysts report.
+843 | For today’s youth, books, newspapers 【and】 magazines have less 【and】 less of a presence in their daily lives.    ?P:less and less
+929 | He had an operation done on it, plastic surgery, in order to cover it 【and】 make it less noticeable.
+949 | W: (15-1) Well, I suggest reorganizing your notes using color-coded sections in your study guides, or using idea mapping to lay out the information 【and】 make it more quickly accessible.
+1032 | Well you’d expect the Design Museum to commission 【and】 make some interesting items, but this one was different.
+752 | Mr Meteo takes the online weather forecast, converts it to a short recording in the appropriate language 【and】 makes it available on a basic phone.
+1089 | There’s a rising amount of data showing that installing bike lanes 【and】 making streets more pedestrian-friendly boosts the
+1261 | Today, many large corporations stress the importance of diversity on their websites, but current statistics show that the typical manager in America still tends to be white 【and】 male.
+1175 | Meanwhile, more women reported an increase in their responsibilities 【and】 manager expectations after childbirth.
+890 | K) In sports 【and】 many areas of life, we think of failures as evidence of something we could have done
+992 | This 【and】 many otherexiteriments hav-e led toa simpleļconclusionĽJ\lheľpeoplĿdQD.QtJ1av-eŀumber
+845 | W: Well, visual learners prefer using images, pictures, colors, 【and】 maps to organize information.
+1126 | You should decide on the best choice 【and】 mark the corresponding
+756 | The new year—according to the Chinese lunar calendar—will begin on Saturday 【and】 marks the Year of the Rooster, which is thought to be a symbol of positivity.
+1146 | experience a hopelessness that results in failing their core classes, such as English, science 【and】 math.
+936 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science 【and】 Math. [12] But he is just not mature enough to live on his own at this point.
+1104 | Or is it casual, conversational, 【and】 maybe even a little humorous?
+1235 | Researchers Ioana Lupu 【and】 Mayra Ruiz-Castro
+1057 | Renting a mini-fridge for my dorm room costs my roommates 【and】 me about $140 a year.
+1092 | Not to mention the overwhelming amount of homework they assign, which would lead to a lot of pressure for Jake 【and】 me. [15] What if we send him to the place near your mother’s house?
+1244 | fulfillment, 【and】 meaning.
+904 | New Tech coupled with improvements in hearing aid technology 【and】 medical advances means that Miller is able to focus far more on his work.
+1174 | Executive function is a term for the skills one needs to plan, organize, motivate, concentrate 【and】 memorize.
+813 | While there’s plenty of drama 【and】 messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+1213 | These articles are almost always geared towards upper- 【and】 middle-class families.
+797 | Universities today are in the business of making money, 【and】 mine is no exception.
+828 | H) New research by Horn 【and】 MIT postdoctoral associate Liang Wang, published in the journal IEEE Transactions on
+749 | Thinking creatively has given us modern medicine, technology 【and】 modern political structures, but it has also given us poison 【and】 nuclear weapons.
+1140 | Many of us spend far too much time, energy, 【and】 money trying to polish an image of what we think will bring attention,
+927 | Let’s say your goal is to get stronger 【and】 more
+880 | I) The main alternative to increasing traffic throughput per lane has been to build more lanes 【and】 more highways, 【and】 putting
+1129 | More 【and】 more people are taking up extreme sports, like snowboarding, skateboarding, mountain biking, 【and】 many more.    ?P:more and more
+1239 | Spend less time passively learning 【and】 more time actively practicing.
+1272 | This enables them to spend less time on administration 【and】 more time with patients.
+739 | More 【and】 more, watching a movie is something teens choose to do on their electronic devices.    ?P:more and more
+972 | discipline 【and】 motivation to create positive habits, it can be difficult to achieve success.
+735 | “I didn’t really care about my mind 【and】 my body until they decided to go on strike.
+983 | After all, I did that during high school 【and】 my commute was even longer then.
+1257 | Still, the only “new-to-me” topics that came to mind were my daughter’s basketball tournament (锦标赛) 【and】 my feelings about that morning’s political headlines—neither amusing nor appropriate topics at that moment.
+745 | On paper, my expenses 【and】 my financial aid just about even out.
+803 | “I’m banned from mobile use at work, 【and】 my phone must be handed in.
+1019 | While about 75% of employees said both genders should give the same amount of care, the majority of men 【and】 nearly half of women admitted that in reality the female actually did most of it.
+966 | What if an accident happens or you get ill 【and】 need medical treatment?
+740 | Teeth have three layers, only one of which—the innermost layer of the tooth—can hurt, as that layer of the tooth _33_ both blood vessels 【and】 nerves.
+1007 | But even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes 【and】 no.
+1111 | E) Perhaps one issue is how we think about the meaning of yes 【and】 no.
+1163 | The words “yes” 【and】 “no” get so often used in comparison with each other that it feels like they carry equal weight in conversation.
+1134 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal 【and】 nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.
+1180 | Almost half of our daily actions are part of our habits 【and】 not decisions, so once
+1151 | Like domestic labor, emotional labor is generally dismissed 【and】 not labeled work.
+866 | 【And】, of course, they are compensated for it at a level that makes it worth their
+1279 | L) On the subject of career advancement, 59% of women 【and】 49% of men said leave could be limiting 【and】 both genders said they feared it would have an impact on their progress long-term.
+831 | Game Academy's idea is simple: analyse gamers’ habits from their online gaming profile, 【and】 offer courses in valuable
+1010 | Obviously you will still be you even if you’ve taken on your husband’s last name 【and】 omitted yours entirely.
+1027 | 【And】 once you’ve reached it, congratulations: you've made it; you're a successful human being of the 21st
+844 | They favored a more rigid, closed-door, corporate atmosphere, while I would have preferred something more collaborative 【and】 open.
+1234 | allowed to wear certain fabrics, colors 【and】 ornaments reflected the rise of the middle class, who were now able to imitate
+1082 | Reusable rockets can cut down on some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks 【and】 other components are treated as expendable.
+1225 | L) Finally, diversifying our diet away from heat-sensitive wheat, corn, rice 【and】 other crops could also help.
+820 | 【And】 other people include homes that are much larger, say, 60 square meters.
+1114 | Some people find it “snobby” (势利的) 【and】 others simply find it irritating because they have a hard time remembering which last name they are supposed to say first.
+767 | eyesight may dim 【and】 our recall may weaken, but by comparison, our ability to produce 【and】 to ___29___ language is well
+978 | One potentially greener option is liquid hydrogen 【and】 oxygen.
+1169 | W: We can’t dismiss the idea that teenagers have to plan to do something after they finish school, 【and】 parents are entitled to hope it’s more than simply spending 10 hours a day playing computer games.
+1141 | Removing cars 【and】 parking spots works.
+1252 | momentary thoughts were represented in words 【and】 passed down across generations.
+823 | are key, because they define the difference between actively practicing something 【and】 passively learning it.
+1245 | G) Beyond New York, a survey of research from 23 cities found that bike lanes 【and】 pedestrian-friendly design didn’t hurt
+794 | “It’s a growing problem 【and】 people can’t stop fraudsters being dishonest,” says Tipton.
+722 | on making (【and】 perhaps even chewing) their food without missing out on nutrients.
+1003 | When she fed her rabbits she talked to them 【and】 petted them.
+981 | I can understand some scars 【and】 physical defects can be ugly 【and】 distracting, but not Johnny’s. [14] In fact, I thought it added character… like it gave him a certain uniqueness.
+1001 | M: (15-2) So you think I should arrange my notes using color 【and】 pictures in place of text.
+836 | the Munduruku 【and】 Piraha in Amazonia.
+1080 | Kids need time every day to run, jump, stretch 【and】 play.
+1012 | H) So although many computer assistants can answer simple questions about the weather 【and】 play music for us, anything resembling a wide-ranging human conversation is decades away.
+1072 | Participants then completed a survey indicating how tough, deceptive 【and】 pleasant or otherwise they wanted to be, or wanted their agent to be, in the negotiations.
+1132 | These experiences have been shown to build children’s confidence 【and】 pleasure in physical activities, develop their motor skills, 【and】 even improve emotional well-being.
+684 | They were easily found 【and】 plentifully available food source in farming areas, especially for poor immigrants.
+1198 | This should matter a great deal to parents, teachers 【and】 policymakers.
+1110 | They were high, moderate, 【and】 poor.
+875 | E) Learning something new 【and】 practicing something new may seem very similar but these two methods can have profoundly
+1212 | Problems with this technique include the fact that it can lead to errors 【and】 prejudice.
+694 | So I’m sure that the head office in London will be pleased once we get back 【and】 present our research.
+1139 | We just have more space 【and】 privacy.
+1156 | Or are their social media accounts strictly reserved for company-related announcements 【and】 product launches?
+743 | Kelli’s letter, a literate update on both her personal 【and】 professional life, touched my heart, 【and】 especially so when saying that two decades later she still has the course text, “Solutions to Violence,” 【and】 that “it remains one of my favorite possessions.
+906 | Hyphenating your last name can help you bridge the gap between your personal 【and】 professional lives.
+1106 | “They came back with believable answers; it was all very friendly 【and】 professional,” she says.
+1042 | t), giving them a metallic reflection 【and】 protecting
+716 | M: [12] Well, it’s mainly about increasing home ownership 【and】 protecting the environment.
+1006 | Thus, they wanted to determine if there was a link between protection of women’s rights 【and】 public health.
+870 | What caused more disruption was when schools tried to stay open in bad weather even though many staff 【and】 pupils were
+910 | It's about technology 【and】 pushing the limits.
+1094 |  knife 【and】 put it under a heat lamp, its temperature jumped.
+685 | Shakespeare _30_ attended the grammar school in Stratford, where he would have studied Latin 【and】 read _31_ literature.
+839 | It’s a common story—one we frequently ridicule 【and】 readily dismiss, for example, by claiming that women tend to complain more than men, despite the growing sum of research that underlines the problem.
+1113 | It’s time for us to understand deviance, 【and】 realize its potential for good as well as for harm.
+1053 | As an emotional learner, I organize my notes into a story that I can connect to 【and】 recite to myself.
+883 | skills that reflect their aptitudes — skills they can practise 【and】 refine in-game.
+1269 | The depressing 【and】 regimented (严格管制的) environment got him thinking on what exactly could improve the residents’ conditions.
+786 | reversed course 【and】 rejected it.
+703 | W: Welcome to our program, Friends 【and】 Relationships.
+1152 | If you encourage them to tell you what they’ve learned, they’ll absorb the information more deeply 【and】 remember it more readily.
+777 | Ave — 【and】 removing 116 parking spots.
+895 | Most of them are not reading long articles or books that explore deep themes 【and】 require critical thinking 【and】 reflection.
+1173 | Like Farrant’s work with resurrection crops, a number of companies, organisations 【and】 researchers are aiming to create drought- 【and】 temperature-resistant crops through genetic engineering 【and】 conventional breeding.
+922 | 【and】 researchers found a “significant” link between years with extremely hot weather 【and】 lower results.
+680 | More than half of American adults are unmarried, 【and】 researchers have found
+779 | But if you prefer Civilization, Total War, or X-Com, where strategy 【and】 resource management
+792 | On paper, the job seemed perfect for me: The position was completely in line with my degree, the duties 【and】 responsibilities were compatible with my interests, 【and】 the office maintained a well-stocked kitchen that would satisfy my every snack desire.
+1069 | I) Another potential climate change-induced problem is our dependence on commodity crops—wheat, soybeans, corn 【and】 rice—which currently provide humanity with 75% of its calories, either directly or indirectly through the animals we raise on those crops.
+850 | I want to see if I can get one of those rental bicycles 【and】 ride to the office just for fun.
+729 | “People age 45+ face persistent 【and】 rising pressure in the global
+962 | It's about speed, danger 【and】 risk.
+1223 | W: How does an insecure attachment affect relationships between friends, co-workers 【and】 romantic relationships?
+834 | They were hunted by Spanish 【and】 Russian explorers.
+1147 | They were first introduced to California by Spanish 【and】 Russian explorers 【and】 settlers many centuries ago.
+1123 | In comparison, 17% of men said their job satisfaction went down 【and】 20% said it went up.
+769 | “Forty-four per cent would buy another drink which is not great, 14% would go without, 【and】 4.5% said they
+811 | G) The previous study found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave 【and】 76% said they would prefer not to take all their time off at once.
+704 | The villagers finally banded together 【and】 scared the beast away with firecrackers 【and】 drums.
+899 | F) With a blending of free-flowing confessional prose 【and】 scholarly research found in 461 notes, Kelli met my expectations that her ideas 【and】 ideals would be sound 【and】 singular.
+1148 | parents, peers 【and】 school teachers.
+714 | “Many have PE 【and】 science assignments
+1047 | E) “The difference, however, is in the nature 【and】 scope of these responsibilities in the home environment in particular,” Dr.
+853 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino 【and】 Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+1067 | Their stress levels are actually the same as those experienced by the children who yell 【and】 scream.
+1097 | Math anxiety can severely disrupt students’ performance in the subject in both primary 【and】 secondary school.
+764 | into a mirror 【and】 see their aged selves looking back at them.
+731 | I think I might try that big new supermarket on the other side of town 【and】 see what they have.
+1159 | She has walked too many miles in the halls of hospitals visiting too many far-gone patients 【and】 seeing too many medical mistakes to go along with conventional thinking.
+937 | Besides, the majority of hiring managers are under 45 — 【and】 seem
+1124 | Academics measured the program’s effect on cooking confidence 【and】 self-perceived mental health.
+1085 | W: What? [15] That’s so superficial 【and】 selfish of her.
+798 | Can you find a map that shows where the hotel is 【and】 send it to me online?
+841 | Nothing is known of the period between the birth of the twins 【and】 Shakespeare’s _33_ as a dramatist in London
+728 | Basically, she miscalculated how fast she was burning through the money, 【and】 she’s now full of regret.
+1120 | "I'll inspect the product before we put it in the container 【and】 ship it over.
+765 | M: When the time is right, I’ll start talking to our children about investing 【and】 show them how the money saved for their further education has grown.
+852 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on your smartphone or laptop, 【and】 sign language into text as well.
+964 | A lion head figure weighs under 10 pounds 【and】 sits squarely on the dancer's shoulders.
+1142 | I found my way to user experience through graphic design, 【and】 slowly over many different roles 【and】 experiences that led me to become a user experience designer.
+1161 | My financial aid did not anticipate any of these costs, 【and】 so it did not cover them.
+784 | account balance, your weight 【and】 so on.    ?P:and so on
+1253 | Much of that time is devoted to text messages 【and】 social media.
+1058 | Countries were classified according to the respect they gave to women’s economic 【and】 social rights.
+1209 | Specifically, in the example described above, (18) most individuals 【and】 societies choose to place laws 【and】 ethical principles above the golden rule.
+1250 | the students themselves 【and】 society at large, because students' experience of transitioning (lii./t) to
+683 | I love to create things, grow them 【and】 solve problems,” said Meng Li, a successful app developer in San Francisco.
+881 | But the bike lanes were a done deal, 【and】 soon they were in place.
+809 | F) In the US—the world’s largest producer of corn 【and】 soybeans—farms can move north to some degree, Schlenker says.
+887 | M: (11) Maybe we should ask Paul to bring his computer 【and】 speakers, so that we can play some music.
+720 | skills shortages in many jobs such as animation 【and】 special effects.
+1037 | infrastructure — to clean up the air, reduce greenhouse emissions, 【and】 speed up travel by making towns more bike-friendly.
+869 | You’re an economist 【and】 spent two decades teaching at universities?
+840 | I estimate you have between 210 【and】 240 square meters of walls 【and】 ceiling.
+774 | claims that it can help you both lose weight 【and】 stay healthy.
+1232 | The best way to create 【and】 stick to a habit is to have strong motivation.
+997 | We love to establish a routine 【and】 stick with it.
+755 | They may block us on their social media accounts 【and】 stop responding to our emails.
+1228 | They also reported improved mental health 【and】 subjective vitality immediately after the program. [19] These benefits remained six months after the completion of the course.
+1267 | H) Over time, as you continue to improve 【and】 succeed, your strategy needs to change.
+766 | They fear that students without internet access at home will be disadvantaged by the policy, 【and】 superintendent Tom
+1149 | But importantly—【and】 surprisingly—this new study suggests that the majority of students experiencing math anxiety have normal to high math ability.
+1099 | “They expressed optimism, calmness 【and】 sympathy even when these were not the emotions that they were actually feeling,” the study said.
+912 | G) The lion head 【and】 tail are operated by two people.
+1184 | [16] To begin with, children seem to have a natural desire to overcome challenges 【and】 take risks.
+1076 | It is critical to create good habits 【and】 take the actions necessary to stick to those
+821 | I) What if fountains were more numerous, 【and】 tap water more clearly available in cafes, restaurants 【and】 elsewhere?
+925 | J) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns 【and】 tastes.
+1103 | Should parents 【and】 teachers take away teens’ smartphones 【and】 replace them with paper books?
+772 | a similar mix of creative 【and】 technical skills, also has recruitment problems.
+1153 | After all, it’s literally my job to talk to people 【and】 tell their stories or share their advice.
+865 | They say that kids use overly casual language 【and】 text-speak in writing, 【and】 don’t have as much patience for long reading 【and】 complex arguments.
+687 | While 70 percent of 8th 【and】 10th grade students used to go to the movies once a month or more, now only about half do this.
+1005 | Buying a laptop proved a necessity 【and】, thankfully, a relative bought me one as a gift.
+1249 | a big help — 【and】 that included in-person, on-the-job training, “'informal learning,” 【and】 online courses — with or without
+701 | W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, 【and】 that not having enough sleep can contribute to serious health problems like obesity 【and】 heart disease.
+1205 | 【And】 that’s not exactly an unexpected question.
+805 | I’m on my computer very late most nights, 【and】 that’s probably why I don’t sleep enough.
+924 | 【And】 that’s what people dream of owning.
+778 | As I read an article on the subject in the past that suggested the opposite, it claimed that it was important not to miss meals 【and】 that taking a nap on the plane was the best way to adjust to a new time zone.
+961 | Adults love that last one, as it’s the perfect mix of the sensible 【and】 the ambitious.
+790 | A new study carried out by the University of Lincoln has found a link between the personalities of cat owners 【and】 the behaviour 【and】 wellbeing of their cats.
+951 | G) Enter the rabbits—not those running around in our woodlands but ones serving in two month-long medical experiments to test the effects of eating a high-fat diet 【and】 the connections between cholesterol 【and】 heart disease.
+705 | How those decreases will be felt will depend on the degree of warming 【and】 the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international 【and】 public affairs at Columbia University.
+1172 | "You need to pass on the traditions 【and】 the culture, 【and】 this is a part of our culture," he said.
+1144 | While this approach is beneficial when you have the time 【and】 the decision is important, it is problematic when time is crucial.
+1023 | Most of the coverage of the boom in wild camping has been negative. [17] Camping in public parks has now been banned for August 【and】 the early part of September because campers dump litter, human waste, 【and】 even their tents on the grassland.
+1150 | of community 【and】 the feeling that you fit in with others around you.
+1017 | “The more you reduce, the shorter the supply, 【and】 the higher the price will jump,” Schlenker says.
+698 | Most of the time, though, the most popular compromise is to hyphenate your last name 【and】 the last name of your groom.
+1264 | Because of social categorization, you immediately judge the woman as harmless, 【and】 the man as threatening, leading to the loss of your wallet.    ?P:as...as
+873 | Before plastic 【and】 the marketing that made
+984 | each autonomous robot tries to keep itself halfway between the robot in front 【and】 the one behind; the phantom jams
+920 | achieve 【and】 the ones that fall to the wayside.
+892 | One costs 60 cents every square meter, 【and】 the other 90 cents.
+957 | This shows participants three words at a time that appear to be unrelated, 【and】 the person has to think of a fourth word that is associated with all of them.
+776 | 【And】 the researchers in the new study have calculated that solving phantom jams could save at
+1265 | We did not know to ask—【and】 the school did not readily point out—that even if tuition rises, my financial aid package will stay the same.
+1189 | [17] The first theory is that language started with people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, 【and】 the sounds of tools.
+930 | because the fibre found in whole fruits is intact, 【and】 the sugar is contained within the fruit’s cells.
+1034 | fructose in fruit juices counts as ‘free sugars’ — which also include honey 【and】 the sugars added to foods.
+808 | "It's almost like the dark night is ending 【and】 the sun is coming up," said Ya Yung Teng, the digital collections coordinator for the Museum of Chinese in America.
+754 | The goal in this is to make the fans connect to the live experience as much as possible, 【and】 the tools you have to do that, we're not using at all.
+856 | G) The spoken web could also help the one-in-five adults in Europe 【and】 the U.S. with poor reading skills.
+1216 | In the kitchen, painting the overhead cupboards 【and】 the walls in the same colour can make it feel more spacious.
+1206 | The study highlights an important relationship between our personalities 【and】 the wellbeing of our pets.
+996 | M: Please bear in mind that the price includes moving all the furniture, 【and】 the whole task would take two days.
+781 | They are unemployed for much longer than the average, 【and】 their age is indeed one of the greatest barriers to
+795 | She lives in Lower Manhattan with her husband, Padraic, whom she met on a flight to London, 【and】 their three boys.
+1096 | Number words 【and】 their written forms
+734 | recent paper he submitted to a journal, which accepted it only to request extensive editing, 【and】 then
+761 | Or they post a photograph on Instagram, have a pleasant conversation with friends 【and】 then delete it so that no traces remain.
+921 | 【And】 then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level about problems in our country.
+1158 | Happy with the responses, O’Shaughnessy paid the full amount of £3,000 via bank transfer into the travel agent’s account 【and】 then forgot about it until a month before the booking.
+1020 | W: [12] Now, all I need is to photocopy your passports 【and】 then I can get you all checked in 【and】 show you to your rooms.
+1079 | But the problem is that we often tell ourselves: “I'm going to put in eight hours’ worth of work, 【and】 then I'm going to put
+681 | 【And】 then, if you still wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing it from people.
+711 | 【And】 then, maybe we can watch the series together.
+940 | 【and】 then remove them one by one.
+775 | M: Are you sure about that? [9] Rents in big cities are high, 【and】 then there’s the cost of electricity 【and】 gas.
+959 | The next day, Kate asked if she could check the shipping status, so her mom clicked on the web page 【and】 then walked out of the room.
+916 | The kids will love it 【and】 there are so many islands nearby to explore.
+935 | 【And】 there is already a growing acceptance
+942 | 【And】 there it makes sense that
+1262 | “I Googled the agent’s name 【and】 there were lots of complaints about him being a fraudster.
+1015 | 【And】 these attachment styles carry on into adulthood.
+1278 | They often talk about ways to get more sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that these are really important topics 【and】 these workshops help typical students succeed.
+1220 | Our phones are always near us 【and】 they are collecting data about us all the time.
+1125 | That is because they want to appear more adult, 【and】 they know how adults are expected to write.
+919 | Remember that you will have to have all your certificates to hand when you are filling out the forms, as the standards are high 【and】 they’ll be carefully checked before anyone will be able to sell their produce at the event.
+874 | It’s a team sport 【and】 they often have mixed-gender teams so he could socialize with both girls 【and】 boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+1167 | Kate was depressed at first, but then she sat with some girl patients 【and】 they opened up all the boxes together, laughing 【and】 playing.
+995 | Some people may argue that this is merely reported data, 【and】 they say many men feel the same pressures as women in terms of fulfilling responsibilities at work 【and】 home.
+941 | If anything is really wrong, you can just take photographs of the damage, 【and】 they will give you the money back or replace the item.
+1107 | I) Amid the political noise about Obamacare, Medicare, Medicaid, health insurance 【and】 thieving pharmaceutical (医药的) companies, Kelli Harding stands apart from the crowd calling for quick fixes, the simpler the better.
+1243 | 【And】 this toy is the lead character from the show.
+1204 | Some applaud the policy as fair, because it rewards both the individuals who maintain a healthy weight 【and】 those who are working towards achieving it.
+759 | I did not expect 80% of people to say the organisation finds dads taking this leave acceptable 【and】 three-quarters to say it’s equally supportive of women 【and】 men taking leave,” Harrington said.
+1200 | language, as evidenced by words like 14 ("four"+ "10") 【and】 31 ("three" X "10" +"one").
+1145 | These things cost money, 【and】 time.
+1183 | never-ending exercise that requires self-awareness 【and】 timely adjustments.
+960 | To cover multiple domains 【and】 to be able to have a conversation with users on every single topic is still a long way off.
+1202 | It's a fundamental human need to have a larger purpose 【and】 to feel like we're part of something
+1258 | Further research is needed to investigate the causal nature of this relationship 【and】 to look at how owners’ personalities are directly influencing their pets’ behaviour 【and】 wellbeing.
+1207 | It helps people to understand complex issues 【and】 to separate fact from fiction.
+907 | The internet is too easy 【and】 too unreliable a research tool, (18) so let’s leave phones 【and】 laptops at home, 【and】 show them a different world in their lessons—one of books 【and】 pens,” he says.
+1115 | So the next week, (21) Kate’s family loaded up their car 【and】 took all the dolls to the playroom at the children’s hospital.
+717 | adding to all the health dangers of obesity, diabetes 【and】 tooth decay”.
+1011 | Kate saw that her doll would be arriving the next afternoon, but then she noticed something else: suggestions about other dolls 【and】 toys she could order.
+1197 | Those who had successfully changed careers after 45 told Generation that education 【and】 training had been
+718 | From all the running 【and】 training, he could become quite athletic.
+989 | Older workers who’ve actively engaged in more education 【and】 training relevant to their jobs
+1070 | M: Simple, by cutting housing, food, 【and】 transport expenses, [15] 【and】 investing half your monthly income.
+963 | But other children simply shut down 【and】 try to deal with their emotions by ignoring the situation.
+1138 | Another study found a relationship between fruit juice 【and】 type 2 diabetes after following the diets 【and】 diabetes status of
+1233 | Learning to be this focused when enjoying extreme sports will help you to be focused at work, keeping you more productive 【and】 ultimately more successful.
+969 | They are now six times longer 【and】, unlike older “what I did this summer” essays, they offer arguments supported by evidence.
+1187 | hide behind information 【and】 use learning as an excuse to delay the more difficult 【and】 more important choice of actually doing
+816 | I) The third solution is to forget about your future self 【and】 use your present self’s love of instant gratification
+826 | global fruit 【and】 vegetable juices market was valued at $154 billion in 2016 【and】 is expected to grow.
+980 | simple, eye-catching 【and】 very original.
+908 | But building the spoken web—web-to-voice 【and】 voice-to-web—isn't straightforward.
+932 | J) With the help of engineering students at high schools in Maine, Horn 【and】 Wang have also built a robot simulation
+854 | They might have also had things published or publicized 【and】 want to stay connected to that identity.
+817 | She’s just started a part-time job 【and】 was thinking of not contributing to her pension.
+738 | It’s healthy, 【and】 we can afford it.
+1087 | 【And】 we’d each have our own bedroom, where we could study instead of going to the library.
+1274 | N) He added: "The broader sport is a little too inward-looking, 【and】 we need to be more open.    ?P:too...to
+1065 | 【And】 we teach a very gloomy image of adulthood—that whatever our children’s future holds, it must be seen within the context of a job.
+900 | Students may pay attention to apps, games 【and】 websites instead of their teachers.
+1231 | It can measure up to 2 meters long 【and】 weigh around 204 kilograms.
+1170 | M) Then, on race day, he watched as the cars rocketed out of a tunnel 【and】 went screaming toward a tight turn with the city's harbor 【and】 the Mediterranean Sea in the background framing the scene.
+1056 | 【And】 what about all those trees that are cut down to make printed books?
+1060 | He can just concentrate on how interesting the meeting might be 【and】 what he needs to get out of it in order to progress.
+898 | “When people book their holidays they get so emotionally involved, 【and】 when they find that villa at a good price with availability in peak season, they are an easy target,” says Cooper.
+1000 | 【And】 where exactly should you look for these culture clues?
+1055 | It wasn’t diet or genetics that made a difference in which rabbits got sick 【and】 which stayed healthy.
+994 | Others determine who wins 【and】 who loses.
+885 | technologies, 【and】 will be unable to learn new skills.
+783 | I think we should get some beer 【and】 wine, 【and】 some fruit juice, 【and】 other soft drinks.
+723 | 【And】 with four of us, it wouldn’t cost any more than living in the dorm.
+1071 | K) Men 【and】 women’s experiences of the return to work following parental leave were also considerably different.
+1227 | Similar percentages of men 【and】 women said they enjoyed their careers 【and】 that it gave them a sense of achievement, while around half of women 【and】 44% of men said it was a key part of their identity.
+814 | These top earners derive meaning from their jobs 【and】 work is an
+787 | “After I became a first-time mother, I quickly realized I was so busy caring for other people 【and】 work that I felt like I’d lost myself,” she said.
+1263 | The designs of our neighborhoods, schools, 【and】 workplaces.
+741 | My main problem is that my study folder is full of notes 【and】 worksheets, 【and】 is badly disorganized.
+1226 | Many universities provide academic stress management programs 【and】 workshops.
+1137 | But when I told him, he said he loves her 【and】 would just do what she wants him to.
+897 | Logical learners have a linear mind 【and】 would rather use logic, reasoning 【and】 systems.
+1021 | Computers have vastly increased the ability of students to gather information, sample different points of view 【and】 write more fluidly.
+1084 | Designed by a group of six Year 9 【and】 Year 10 boys from Finchley Catholic High School, the toy was the winning entry in
+1093 | 【And】, yes, managers are most likely
+1185 | Not so much, 【and】, yes, they are made of plastic, although the company invites
+1049 | But that doesn’t mean your life has ended 【and】 you can’t do anything to change it.
+1246 | That’s not to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal 【and】 you commit to actively pursuing opportunities to learn 【and】 grow along the way.
+991 | I could give you his phone number if you want, 【and】 you could call him 【and】 ask him questions.
+872 | 【And】 you’d be surprised many families of four are happy living in houses that are under 30 square meters.
+746 | I’ve checked the availability of flights from Beijing to London on the 22nd 【and】 you have a choice.
+1182 | Richard Thompson Ford is a law professor, 【and】 you probably won't forget that for even one page.
+1168 | It has also been noted that Siri lacks a proper editing function, as saying "Edit message to say: we're at Silver Cloud restaurant 【and】 you should come find us" generates "Clint Sam 【and】 Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant 【and】 you should come find us".
+1178 | Lao Zi once said, “Care about what other people think 【and】 you will always be their prisoner.
+768 | But I’ve seen your blog, 【and】 you write about houses that are as small as 20 square meters. [13] That’s not a realistic size for families.
+750 | For example, if your groom’s name is John Smith 【and】 your name is Kate Jones.
+1160 | Obviously, person perception is a very subjective process that can be affected by a number of variables, including the characteristics of the person you are observing, the context of the situation, your own personal traits, 【and】 your past experiences.
+708 | So we have a family room for you 【and】 your wife 【and】 the kids, 【and】 another double room for your parents-in-law.

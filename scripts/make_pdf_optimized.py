@@ -71,6 +71,9 @@ def entry_block(e):
                              ST["ipa"]))
     if e["def"]:
         blk.append(Paragraph(esc(e["def"]), ST["field"]))
+    if e.get("phr"):
+        blk.append(Paragraph("短语 " + "；".join(f'<b>{esc(p["p"])}</b> {esc(p["zh"])}' for p in e["phr"]),
+                             ST["root"]))
     if e["ex"]:
         blk.append(Paragraph(f'<b>{e["ex_label"]}</b>: {esc(e["ex"])}',
                              ST["field"]))
@@ -96,9 +99,11 @@ INTRO = (
     "在 英语四级高频单词彩色背诵版.pdf 基础上——\n"
     "· 去掉了「释义:」标签与「变形」行，更简洁；\n"
     "· 词头改用音节点划分（如 com·po·si·tion），便于拼读；\n"
-    "· 为可拆解的单词补充了「词根/词缀」助记块。\n"
+    "· 为可拆解的单词补充了「词根/词缀」助记块；\n"
+    "· 释义只列真题里出现过的义项，最核心、最常用的排在前面；另列真题常见短语；\n"
+    "· 有「核心意象」的多义词，释义只列前 5 个义项，全部义项见核心意象。\n"
     "\n"
-    "绝大部分例句均取自四级试卷原文，其中“(自编)”标志区分出非原文。\n"
+    "绝大部分例句均取自四级试卷原文（用的是该词的第一个义项），其中“(自编)”标志区分出非原文。\n"
     "词根拆解与多义小词的「核心意象」由 AI 生成，仅供助记参考。\n"
     "\n"
     "作者：yiyisheh@outlook.com\n"

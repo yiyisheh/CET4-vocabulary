@@ -1,0 +1,1629 @@
+[
+ {
+  "word": "of",
+  "def": "prep.…的; 属于; 由…组成的.",
+  "senses": [
+   {
+    "pos": "prep.",
+    "zh": "……的（所属、关系、内容，如 the end of the day, the importance of）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "……中的（部分、数量、种类，如 one of, a piece of, thousands of）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "关于，对（think of, afraid of, fond of）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "由……制成，由……构成（made of）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（表示分离、原因）离，脱离，因（independent of, free of, die of）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "（人名后）来自，住在（Vaclav Bursa, 15, of Florida）"
+   }
+  ],
+  "phrases_seen": [
+   "ahead of",
+   "a number of",
+   "make use of",
+   "in the process of",
+   "walks of life",
+   "a variety of"
+  ],
+  "notes": [
+   "of 前后是名词的一般修饰/所属关系一律标 0（含 University of California、city of X 这类专名）；表数量、部分（one of、a piece of、part of、most of、a team of）标 1；形容词/动词后的 of（afraid of, fond of, think of, accuse of）标 2；a lot of / a number of / a variety of / of course / ahead of / on behalf of / make use of / in terms of / because of / instead of / out of 等按 P 标。"
+  ],
+  "sents": [
+   {
+    "id": 2480,
+    "text": "In order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2481,
+    "text": "It is still impacted by the hit songs of the 1950s.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2482,
+    "text": "One city on the west coast of America has banned single-use bottles from its property and events.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2483,
+    "text": "The concept has been applied to a wide range of disciplines,",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2484,
+    "text": "One expert claims that juicing wastes a lot of nutrients contained in fruits.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2485,
+    "text": "They tell patients to comply with the directions of drug manufacturers.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2486,
+    "text": "It takes advantage of teenagers’ natural inclination.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2487,
+    "text": "transformation project gone wrong, where swollen expectations have been popped and a long list of",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2488,
+    "text": "Working at home or in cafes, starting businesses of their own, and even launching business ventures",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2489,
+    "text": "Hundreds of studies show that infants prefer novelty.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2490,
+    "text": "They find it hard to meet the expectations of kids’ parents.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2491,
+    "text": "In the age of the internet, there’s no such thing as a private debate.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2492,
+    "text": "It is likely that the “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution to the organization.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2493,
+    "text": "More research is needed to see how exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2494,
+    "text": "It is hazardous to leave millions of people poor and vulnerable.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2495,
+    "text": "The new program aims to aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2496,
+    "text": "None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2497,
+    "text": "Our knowledge about the pain of abandonment.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2498,
+    "text": "A vast majority of people prefer",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2499,
+    "text": "It has been popularized worldwide with the increasing influence of social media.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2500,
+    "text": "Manufacturing and shipping of plastic water bottles consume a tremendous amount of fossil fuels.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2501,
+    "text": "Claudio Sillero, a professor of conservation biology at Oxford University, told the newspaper that the new findings could",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2502,
+    "text": "A lot of research has demonstrated that drinking fruit juice does not reduce our daily consumption of other foods.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2503,
+    "text": "To guarantee the maximum effect of the drugs.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2504,
+    "text": "Adults dream during REM (rapid eye movement) sleep and infants have loads of REM.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2505,
+    "text": "little consideration of how those changes will impact the end user.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2506,
+    "text": "They are artists, writers, programmers, providers of office services and",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2507,
+    "text": "In some situations, the stakes are low and failure is a healthy part of growth.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2508,
+    "text": "Many of them feel prejudiced against socially and culturally.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2509,
+    "text": "When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2510,
+    "text": "This means that work should be measured in terms of the quality of the work, not just the quality of the process.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2511,
+    "text": "What is the finding of the new study?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2512,
+    "text": "What message does the author try to convey at the end of the passage?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 2513,
+    "text": "For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2514,
+    "text": "We found that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2515,
+    "text": "Our understanding of the workings of the world.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2516,
+    "text": "It proves crucial in making others follow one's course of action.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2517,
+    "text": "Add to the great variety of plant species.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2518,
+    "text": "More people have taken to bottled water because of their health awareness.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2519,
+    "text": "“It may well be that the messy nature of their relationship with human efforts induces more animals to scatter or",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2520,
+    "text": "But most of us have conflicting feelings about dressing",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2521,
+    "text": "What does the author suggest near the end of the passage?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2522,
+    "text": "that babies have tons of dreams.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2523,
+    "text": "What is the finding of a recent survey on employees who have a job reliant on IT support?",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2524,
+    "text": "This is where they conduct business, where a sense of community reinforces the culture",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2525,
+    "text": "A study of 12- to 19-month-olds learning how to walk documented that these children fell down a lot.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2526,
+    "text": "What do the authors of the study recommend to bridge the gender gap in early childhood education?",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2527,
+    "text": "If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2528,
+    "text": "As remote work is largely unobservable to supervisors, employers need to think about how they can objectively measure the quality of work in a way that is consistent for employees of similar rank.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2529,
+    "text": "People who are aware of others’ feelings may experience more stress.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2530,
+    "text": "Then there are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2531,
+    "text": "The surveys showed men tend to exhibit more of these negative behaviors than women.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2532,
+    "text": "Our early childhood fear of being deserted.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2533,
+    "text": "It refers to the natural and instinctive power of influencing one’s coworkers.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2534,
+    "text": "In 1970, the percentage of women majoring in engineering was less than 1%.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2535,
+    "text": "Diving headfirst into the crash course of starting university, I’ve quickly tried to get myself up to speed with the financial",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2536,
+    "text": "The most recent count of pandas found that there were more than 1,800 left in the wild, putting them on the list of",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2537,
+    "text": "research into the impact of clothes on behavior now suggests that there may actually be a grain of truth in these sayings.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2538,
+    "text": "Both scenarios are contributing to a big increase in the number of people in the US working into their 70s.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2539,
+    "text": "Since your baby doesn’t dream at this stage of brain development, it’s safe to assume babies do not have nightmares,",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2540,
+    "text": "Consider the various expectations of their customers.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2541,
+    "text": "and values of the gig economy (-* .:c. *\") , and where success is rewarded with good reviews that",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2542,
+    "text": "For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2543,
+    "text": "A recent debate published in The New York Times discussed the question of how quickly medicine should be developed and produced.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2544,
+    "text": "Much has been written about the importance of timely feedback.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2545,
+    "text": "What was the purpose of psychologist Myriam Bechtoldt’s experiment?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2546,
+    "text": "But it’s still early days and there are signs of hope.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2547,
+    "text": "This isn’t to say that all men engage in these behaviors—or that booking relatively late is a sign of abnormal behavior.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2548,
+    "text": "Strengthen our power of imagination.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2549,
+    "text": "People may view it as both a means to convince others and an art of communication.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2550,
+    "text": "Today, only 21% of engineering",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2551,
+    "text": "terms of the modern era to help manage my personal finances.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2552,
+    "text": "They are losing habitat due to the building of roads and houses.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2553,
+    "text": "Science says that the clothes we wear affect our behavior, our mood and even the way we interact with others because of the",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2554,
+    "text": "the past 20 years, the share of Americans working in their 70s has risen from less than 10% to nearly 15%.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2555,
+    "text": "Nightmares stem from exposure to trauma ，an overactive imagination, and the normal stresses of everyday life.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2556,
+    "text": "Draw up a list of the efficiencies to be promised.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2557,
+    "text": "other massive change, the gig economy will itself become an engine of economic and social",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2558,
+    "text": "What is the general understanding of curiosity?",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2559,
+    "text": "Issues such as safety of the product and perception of the public were examined and considered.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2560,
+    "text": "In the context of a global pandemic (大流行病), firms may want to provide additional support to employees by providing more frequent communication.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2561,
+    "text": "To define different types of human feelings.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2562,
+    "text": "In 2015, a joint study found 72% of people taking MOOCs saw career benefits afterward.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2563,
+    "text": "Companies spend significant sums of money on business travel.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2564,
+    "text": "body of research suggests that late-in-life learning is possible.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2565,
+    "text": "They enable employees to be convinced of their long-term gains.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2566,
+    "text": "one of the groups.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2567,
+    "text": "their pearls of financial wisdom.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2568,
+    "text": "They may not adapt to the fragmentation of their habitat.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2569,
+    "text": "symbolic meaning that we assign to different types of clothing.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2570,
+    "text": "In addition to people being healthier and living much longer, economists say that a combination of financial",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2571,
+    "text": "The general consensus is that they start dreaming around the age of two.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2572,
+    "text": "Assess the swollen cost of training the employees.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 2573,
+    "text": "What does the author use the example of his father· to illustrate?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2574,
+    "text": "They determine people’s way of thinking.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2575,
+    "text": "But some experts worried that such public speculation might lead people to believe that disagreement about the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2576,
+    "text": "The purpose of performance evaluation is ultimately to determine how to reward employees for their work.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2577,
+    "text": "To assess the impacts of being emotionally clever.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2578,
+    "text": "It provides refugees with a wide range of courses free of charge.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2579,
+    "text": "Our analysis suggests early booking by women can translate into savings of $1 million a year for a large multinational company with 20,000 regular travelers.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2580,
+    "text": "Raisman spied growth in damaged brain regions of rats through an electron microscope; their brains were forging new",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2581,
+    "text": "What should people do to learn the art of persuasion at the workplace?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2582,
+    "text": "more of them.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2583,
+    "text": "There are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, but",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2584,
+    "text": "They may cease to exist as a result of enjoying too good a life.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2585,
+    "text": "We also evaluate ourselves based on what we are wearing because of the way they make us feel.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2586,
+    "text": "considerations such as years of slow rise in real wages and a shift away from traditional pensions in the private sector are",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2587,
+    "text": "David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of day.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2588,
+    "text": "How long people took to reach the top of their career.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2589,
+    "text": "What does the example of the Inuit people of the Arctic regions illustrate?",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2590,
+    "text": "Gone are the days of going to a conference and debating scientific issues, and that’s good because those gatherings were not diverse enough and excluded many important voices.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2591,
+    "text": "This means that pay structures need to adapt to the reality of working from home.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2592,
+    "text": "What does the finding of Myriam Bechtoldt’s study indicate?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2593,
+    "text": "It supplies refugees with a great variety of job opportunities.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2594,
+    "text": "What did the researchers want to determine by testing a variety of possible explanations?",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2595,
+    "text": "Of course, that doesn't mean the brain isn't affected by the effects of time.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2596,
+    "text": "When they become aware of the potential strength of the judgements you make.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2597,
+    "text": "Many women engineers hailed the benefits of their chosen career.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2598,
+    "text": "However, after talking to my friends who felt the same, I quickly realised that it wasn’t my ignorance but the lack of",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2599,
+    "text": "The increased panda population is attributed to the fragmentation of their habitat.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2600,
+    "text": "means that the experience of wearing something affects our attitudes and our choice of behavior.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2601,
+    "text": "some of the reasons people delay retirement.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2602,
+    "text": "Dreams of very small kids are usually just snapshots , looking much more like a slideshow than a movie, when",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2603,
+    "text": "They feel proud of being outstanding problem solver.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2604,
+    "text": "The cost of humans’ curiosity to explore.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2605,
+    "text": "These days, the public can access debates about science regardless of where they take place.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2606,
+    "text": "However, organizations also need to be honest with employees about the financial impact of COVID-19.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2607,
+    "text": "What do we learn about emotional intelligence from a number of studies?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2608,
+    "text": "What does the passage say is a consequence of the global migrant crisis?",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2609,
+    "text": "It proves to be counterproductive in a number of ways.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 2610,
+    "text": "shows improved function and memory as well as a reduced risk of mental disease.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2611,
+    "text": "When they become aware of the meaningful relationships you keep with them.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2612,
+    "text": "also satisfying to see the effects of what you have done.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2613,
+    "text": "financial education in our schooling system that is leaving high schoolers seriously behind in the modern world of money.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2614,
+    "text": "Their chances of finding new mates have a lot to do with their habitat.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2615,
+    "text": "wear puts us in the right frame of mind to conduct business.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2616,
+    "text": "The decline of manufacturing and the increase in the number of people working",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2617,
+    "text": "compared to the dreams of adults.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2618,
+    "text": "Who is capable of solving problems with ease.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2619,
+    "text": "The incredible harshness of cold weather.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2620,
+    "text": "If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts in a textbook needs to be dismissed.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2621,
+    "text": "For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2622,
+    "text": "People who look at the dark side of life often feel depressed.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2623,
+    "text": "Lack of language skills.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2624,
+    "text": "attitude, but those who aren't as genetically gifted aren't necessarily out of luck.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2625,
+    "text": "To convince employees of the value of collaboration.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2626,
+    "text": "It has experienced the gradual weakening of male dominance.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2627,
+    "text": "throughout the whole of high school that would allow students to gradually expand their financial literacy, and would prevent",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2628,
+    "text": "It applies to the preservation of pandas too.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2629,
+    "text": "These findings support the idea of wearing",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2630,
+    "text": "decisions of older Americans.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2631,
+    "text": "They heavily feature animals and other familiar sights, like images of people eating.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2632,
+    "text": "What kind of people can contribute more to them.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2633,
+    "text": "The importance of learning from past failures.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2634,
+    "text": "With the validity of science coming under attack, there’s a need for scientific debates to be perceived as open and true to life.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2635,
+    "text": "Employers can also consider how to bundle different types of compensation to help employees cope with their unique situations.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2636,
+    "text": "Some people may take advantage of it and benefit themselves.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2637,
+    "text": "They benefited most of the learners.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 2638,
+    "text": "What do some people think of aging adults?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2639,
+    "text": "To allow for the preferences of most people of today",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 2640,
+    "text": "It boasted the largest number of engineering majors in 2000.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2641,
+    "text": "gradually accumulate bits and pieces of knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2642,
+    "text": "Help discover new ways for the conservation of pandas.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2643,
+    "text": "business casuals on a Friday, since colleagues are most likely to take out time to socialize on the last work day of the week.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2644,
+    "text": "“Which matters more depends on what your history up until that point has been in the type of work you’re doing,”",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2645,
+    "text": "REM sleep, 25% of the kids in Foulkes’ studies had no recollection of dreaming, a trend that continues through age 9.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2646,
+    "text": "It might add to the difficulty of getting research funds.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2647,
+    "text": "What does the author say companies should do in the context of remote work?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2648,
+    "text": "Rid themselves of worries over worldly affairs.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 2649,
+    "text": "What is one thing that helps maintain the health of our brain even as it shrinks2",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2650,
+    "text": "Not to think highly of her qualifications when promoted or given a pay raise.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2651,
+    "text": "Giving young people the opportunity to become familiar with the world of money would provide them with a great",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2652,
+    "text": "Help remove pandas from the list of endangered species.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2653,
+    "text": "Different types of clothing markedly reflect different personalities.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2654,
+    "text": "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2655,
+    "text": "What do scientists think of REM?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2656,
+    "text": "It is a collection of facts and established rules.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 2657,
+    "text": "The quantity of their output.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2658,
+    "text": "Imitating old dogs’ way of learning new tricks",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2659,
+    "text": "What can we conclude about many female engineers from the statement of a mechanical engineer?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2660,
+    "text": "Barely capable of moving ahead.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2661,
+    "text": "Shed light on the conservation of most large meat-eating animals.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2662,
+    "text": "Different types of clothing convey different messages symbolically.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2663,
+    "text": "The share of Americans with bachelor's degrees who were working into their 70s reached nearly 20% in 2018.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2664,
+    "text": "It is a sign of dreaming in adults and infants alike.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2665,
+    "text": "The length of their work time.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2666,
+    "text": "What does the author say can contribute to the improvement of brain function?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2667,
+    "text": "They have reaped the benefits of being flexible.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2668,
+    "text": "Ignorant of financial literature.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2669,
+    "text": "Show the complexity of interactions between humans and animals.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2670,
+    "text": "How do the clothes we wear sway our evaluation of ourselves?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2671,
+    "text": "those with a high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2672,
+    "text": "It determines the formation of connections in the brain.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2673,
+    "text": "The quality of their contribution.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2674,
+    "text": "What is the finding of the 2012 study in the journal Psychology and Aging?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 2675,
+    "text": "They have proved capable of doing almost anything.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 2676,
+    "text": "What is the author’s idea of a financial education course?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2677,
+    "text": "But what about those of us who don’t",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2678,
+    "text": "By exerting an effect on our power of judgment.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2679,
+    "text": "lead to feelings of isolation and loneliness, particularly for men.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2680,
+    "text": "They vary in different stages of brain development.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2681,
+    "text": "The flexibility of their work schedules.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2682,
+    "text": "Render them confident and secure in terms of money management.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2683,
+    "text": "But with the release of Angela",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2684,
+    "text": "By influencing our interpretation of symbolic messages.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2685,
+    "text": "What is one of the reasons for people to delay retirement?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2686,
+    "text": "They appear in the sleep of both adults and infants.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2687,
+    "text": "What quality in the employees would be of great importance in a remote work context?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2688,
+    "text": "Help them become familiar with the world of money.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2689,
+    "text": "overrated, and if you want real success, what you need is grit the perfect combination of passion and persistence.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2690,
+    "text": "With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away from the",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2691,
+    "text": "The number of jobs suitable for older people has increased in the private sector.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2692,
+    "text": "What is the aim of psychologist David Foulkes’ study?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2693,
+    "text": "To evaluate their employees of similar rank in a consistent way.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2694,
+    "text": "They comfort us in times of trouble, calming down",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2695,
+    "text": "job skills, then the interview skills, then the dress part — and you must be perfect at all of them.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2696,
+    "text": "Some people are beginning to wonder whether opera and classical music are still relevant to the modern world of",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2697,
+    "text": "The rate of wage increase in terms of purchasing power has slowed down for years.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 2698,
+    "text": "To reveal the secrets of children's dreams.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2699,
+    "text": "What is the author’s suggestion to employers who experience the financial impact of the pandemic?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 2700,
+    "text": "scientists made the statement about the death of this wonderful thing, let us tell you the facts.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2701,
+    "text": "The real workings of grit are to have sustainable passion and continue to try.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2702,
+    "text": "The most major indicator of classical music’s importance in society today is the fact that much of the popular music that",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2703,
+    "text": "To solve the mystery of dreaming and brain growth.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2704,
+    "text": "Now, fifty percent of the world’s cocoa beans come from two countries in West Africa: Cote d’Ivoire and Ghana.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2705,
+    "text": "What does the passage say about people thinking of attaining success?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2706,
+    "text": "is currently being produced uses similar beats, harmonies, and melodies as those that were used in some of classical",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2707,
+    "text": "They have trouble recollecting the images of their dreams.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 2708,
+    "text": "Scientists believe that both of these countries will experience a 3.8F temperature increase by 2050 due to global warming,",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2709,
+    "text": "They are burdened by their expectation of perfection.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2710,
+    "text": "A better example for the relevance of opera and classical music can be seen in the invention of the rock opera.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2711,
+    "text": "which are the natural habitat of wildlife.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2712,
+    "text": "We should stay persistent even in face of failures.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 2713,
+    "text": "The art of telling a story using music has not faded in the least",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2714,
+    "text": "Unfortunately, the crisis of global warming has already had a serious negative impact on cacao farms’ yields, leading to",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2715,
+    "text": "In fact, sometimes actual orchestras are used for major parts of the opera itself.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2716,
+    "text": "the prices of chocolates skyrocketing.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2717,
+    "text": "Some of the world’s greatest hits have",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2718,
+    "text": "According to a report by The Business Insider, in the University of California’s new bio-sciences building, tiny green",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2719,
+    "text": "been parts of rock operas.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2720,
+    "text": "manipulating the DNA of plants, this technology is already being used across the world to make plants tougher and cheaper.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2721,
+    "text": "Fans of classical music can also tell you that there are few types of music that are more expressive.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2722,
+    "text": "Similarly, in this unconventional experiment, scientists will make tiny, precise changes to the DNA of the seedlings to make",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2723,
+    "text": "compositions have also been created solely for the purpose of being included in major motion pictures.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2724,
+    "text": "Relieve them of heart trouble.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2725,
+    "text": "Classical music and opera are the very foundation of what our modern music is based upon.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2726,
+    "text": "They could calm people down a bit in times of crisis.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2727,
+    "text": "What does the author think of classical music and opera in today’s world?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2728,
+    "text": "The natural habitat of wildlife there would be ruined.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2729,
+    "text": "What do we learn about much of the popular music currently produced?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2730,
+    "text": "The quality of cocoa beans would suffer greatly.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2731,
+    "text": "It can be seen as an indicator of refinement on classical music.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2732,
+    "text": "What do we learn about the cacao farms in the crisis of global warming?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2733,
+    "text": "It contains elements similar to those in some masterpieces of classical music.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2734,
+    "text": "They have benefited by raising prices of cocoa beans.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2735,
+    "text": "Why does the author mention the invention of the rock opera?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2736,
+    "text": "What are scientists trying to do in the University of California’s new bio-sciences building?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2737,
+    "text": "To present the simplest definition of opera.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2738,
+    "text": "Build rows of refrigerated greenhouses for research on cacao seedlings.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2739,
+    "text": "To show the relevance of opera and classical music.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2740,
+    "text": "Transplant the genes of tougher plants to cacao seedlings.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 2741,
+    "text": "To justify the necessity of using orchestras in opera.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2742,
+    "text": "There are few types of music for movie producers to choose from.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 2743,
+    "text": "They are considered to be the most expressive type of music.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   }
+  ]
+ }
+]

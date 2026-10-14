@@ -1,0 +1,962 @@
+{
+ "check into": {
+  "canonical": "check into",
+  "pos": "v.",
+  "zh": "办理入住（酒店）",
+  "example": {
+   "id": 0,
+   "en": "I would have to stay with a friend or check into a hotel.",
+   "zh": "我只能住在朋友家，或者去酒店办理入住。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "tap into": {
+  "canonical": "tap into",
+  "pos": "v.",
+  "zh": "利用，开发（资源）；触及（情感、话题）",
+  "example": {
+   "id": 0,
+   "en": "Birthdays can tap into a lot of things people worry about, including their achievements in life in the past decade, or their accomplishments of the past year.",
+   "zh": "生日会触及人们担心的很多事情，包括过去十年的人生成就，或过去一年的成绩。"
+  },
+  "valid": true,
+  "note": "例句偏长，仅此一句"
+ },
+ "cut into": {
+  "canonical": "cut into",
+  "pos": "v.",
+  "zh": "侵占，缩减（时间、利润等）",
+  "example": {
+   "id": 0,
+   "en": "It’s also true that too much social networking and game playing can cut into schoolwork and sleep.",
+   "zh": "过多的社交网络和游戏确实也会挤占学业和睡眠时间。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "look into": {
+  "canonical": "look into",
+  "pos": "v.",
+  "zh": "调查，研究",
+  "example": {
+   "id": 1,
+   "en": "George Engel, in treating his patients, not only looks into their symptoms but also into things like the emotional support they receive.",
+   "zh": "乔治·恩格尔在治疗病人时，不仅研究他们的症状，也研究他们得到的情感支持之类的事。"
+  },
+  "valid": true,
+  "note": "两句都是「调查，研究」义；id 0 为残缺句"
+ },
+ "be into sth": {
+  "canonical": "be into sth",
+  "pos": "v.",
+  "zh": "对……着迷，热衷于",
+  "example": {
+   "id": 0,
+   "en": "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response",
+   "zh": "如果你特别喜欢某段音乐，大脑就会产生一种叫自发性知觉经络反应的现象。"
+  },
+  "valid": true,
+  "note": "仅此一句，句子无句号"
+ },
+ "take sth into consideration": {
+  "canonical": "take sth into consideration",
+  "pos": "v.",
+  "zh": "考虑到，把……考虑在内",
+  "example": {
+   "id": 0,
+   "en": "Take other people’s preference into consideration.",
+   "zh": "要考虑别人的喜好。"
+  },
+  "valid": true,
+  "note": "与 take sth into account 意思相同，但保留为两条写法"
+ },
+ "take sth into account": {
+  "canonical": "take sth into account",
+  "pos": "v.",
+  "zh": "考虑到，把……考虑在内",
+  "example": {
+   "id": 1,
+   "en": "What should we take into account in order to make informed decisions?",
+   "zh": "为了做出明智的决定，我们应该考虑哪些因素？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come into force": {
+  "canonical": "come into force",
+  "pos": "v.",
+  "zh": "（法律、规定）生效，开始实施",
+  "example": {
+   "id": 0,
+   "en": "Unless a far-reaching bottle ban does come into force, it will be up to consumers to not",
+   "zh": "除非影响深远的瓶装禁令真正生效，否则就要靠消费者自己不去……"
+  },
+  "valid": true,
+  "note": "句子残缺，需自行补全译文"
+ },
+ "buy into": {
+  "canonical": "buy into",
+  "pos": "v.",
+  "zh": "相信，接受（观点、说法）",
+  "example": {
+   "id": 0,
+   "en": "Many of us living in the most developed countries are buying into a myth of protein deficiency created by food companies",
+   "zh": "我们许多生活在最发达国家的人，都信了食品公司制造的蛋白质缺乏的神话。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "key into": {
+  "canonical": "key into",
+  "pos": "v.",
+  "zh": "与……契合，触动",
+  "example": {
+   "id": 0,
+   "en": "Another interior designer commented that certain combinations can key into something on a deeper level, transporting you to a different moment in time.",
+   "zh": "另一位室内设计师说，某些搭配能在更深的层面触动人心，把你带回另一个时刻。"
+  },
+  "valid": true,
+  "note": "较生僻，仅一句；释义按语境推断"
+ },
+ "come into being": {
+  "canonical": "come into being",
+  "pos": "v.",
+  "zh": "产生，形成，诞生",
+  "example": {
+   "id": 0,
+   "en": "It could not have come into being without classical music and opera as its foundation.",
+   "zh": "没有古典音乐和歌剧作为基础，它不可能诞生。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come into effect": {
+  "canonical": "come into effect",
+  "pos": "v.",
+  "zh": "开始起作用，生效",
+  "example": {
+   "id": 0,
+   "en": "Manufacturing costs come into effect, and commodities fluctuate in price based on demand and the distance to haul the",
+   "zh": "制造成本开始产生影响，商品价格随需求和运输距离而波动。"
+  },
+  "valid": true,
+  "note": "句子残缺；此处意为（成本）开始起作用"
+ },
+ "go over": {
+  "canonical": "go over",
+  "pos": "v.",
+  "zh": "复习，检查；仔细查看",
+  "example": {
+   "id": 0,
+   "en": "Go over his notes regularly.",
+   "zh": "要定期复习他的笔记。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "watch over": {
+  "canonical": "watch over",
+  "pos": "v.",
+  "zh": "照看，看护",
+  "example": {
+   "id": 0,
+   "en": "Instead of receiving the standard care given to lab animals, the 60% group was watched over by a newcomer to the lab who, Kelli writes, “handled the animals differently.",
+   "zh": "60%那组没有得到实验动物的标准照料，而是由实验室的一名新人看护，凯莉写道，他对待动物的方式不同。"
+  },
+  "valid": true,
+  "note": "句子较长且引号未闭合，例句不理想"
+ },
+ "hand over": {
+  "canonical": "hand over",
+  "pos": "v.",
+  "zh": "移交，交出",
+  "example": {
+   "id": 0,
+   "en": "They hand it over to the local government.",
+   "zh": "他们把它移交给当地政府。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take over": {
+  "canonical": "take over",
+  "pos": "v.",
+  "zh": "接管，接替；取代",
+  "example": {
+   "id": 1,
+   "en": "Some think voice could soon take over from typing and clicking as the main way to interact online.",
+   "zh": "有人认为语音很快会取代打字和点击，成为网上互动的主要方式。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get over": {
+  "canonical": "get over",
+  "pos": "v.",
+  "zh": "克服；从（疾病、不快）中恢复",
+  "example": {
+   "id": 0,
+   "en": "The part about getting over jetlag.",
+   "zh": "关于克服时差反应的部分。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "think sth over": {
+  "canonical": "think sth over",
+  "pos": "v.",
+  "zh": "仔细考虑",
+  "example": {
+   "id": 0,
+   "en": "I’ve been thinking it over, and I’d like to send him to Westwood Elementary.",
+   "zh": "我一直在考虑，我想送他去威斯特伍德小学。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "think tank": {
+  "canonical": "think tank",
+  "pos": "n.",
+  "zh": "智库，思想库",
+  "example": {
+   "id": 0,
+   "en": "Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person.",
+   "zh": "美国智库皮尤研究中心的阿曼达·伦哈特的研究发现，最爱发短信的孩子也最可能当面和朋友相处。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "think twice": {
+  "canonical": "think twice",
+  "pos": "v.",
+  "zh": "三思，慎重考虑",
+  "example": {
+   "id": 0,
+   "en": "Thinking twice before buying something.",
+   "zh": "买东西前要三思。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make sure": {
+  "canonical": "make sure",
+  "pos": "v.",
+  "zh": "确保，务必；查明",
+  "example": {
+   "id": 0,
+   "en": "Just make sure you’re logged in.",
+   "zh": "只要确保你已经登录。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "bottom line": {
+  "canonical": "bottom line",
+  "pos": "n.",
+  "zh": "底线；要点，结论",
+  "example": {
+   "id": 0,
+   "en": "Bottom line?",
+   "zh": "总之呢？"
+  },
+  "valid": true,
+  "note": "仅一句选项式短句，例句无实质内容，建议人工复核另选"
+ },
+ "any minute": {
+  "canonical": "any minute",
+  "pos": "adv.",
+  "zh": "随时，马上",
+  "example": {
+   "id": 0,
+   "en": "She might have to cancel her registration any minute.",
+   "zh": "她随时可能不得不取消注册。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "such ... that": {
+  "canonical": "such ... that",
+  "pos": "conj.",
+  "zh": "如此……以致",
+  "example": {
+   "id": 1,
+   "en": "Wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.",
+   "zh": "木材有如此多的健康益处，以至于林地信托成功游说让医生把它开进处方。"
+  },
+  "valid": true,
+  "note": "id 0 是 such as 义的 such things as，不是此短语；id 1 句首残缺"
+ },
+ "before long": {
+  "canonical": "before long",
+  "pos": "adv.",
+  "zh": "不久，很快",
+  "example": {
+   "id": 0,
+   "en": "Before long, people started offering up their own fancy dresses for her to wear.",
+   "zh": "不久，人们就开始拿出自己的华服给她穿。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "before one knows it": {
+  "canonical": "before one knows it",
+  "pos": "adv.",
+  "zh": "不知不觉，转眼间",
+  "example": {
+   "id": 0,
+   "en": "And before she knew it, she had done 20 weeks.",
+   "zh": "不知不觉，她已经坚持了二十周。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give away": {
+  "canonical": "give away",
+  "pos": "v.",
+  "zh": "送出，赠送；泄露",
+  "example": {
+   "id": 2,
+   "en": "Alan was given away for adoption soon after he was born, and Walter never knew his father.",
+   "zh": "艾伦出生后不久就被送给别人收养，沃尔特则从未见过自己的父亲。"
+  },
+  "valid": true,
+  "note": "id 0/1 为「（白白）送出」，id 2 为「送人收养」"
+ },
+ "give birth": {
+  "canonical": "give birth",
+  "pos": "v.",
+  "zh": "生孩子，分娩（常用 give birth to）",
+  "example": {
+   "id": 0,
+   "en": "Semba has given birth before.",
+   "zh": "桑巴以前生过孩子。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "write off": {
+  "canonical": "write off",
+  "pos": "v.",
+  "zh": "认为……无价值而放弃；注销",
+  "example": {
+   "id": 0,
+   "en": "With others, however, it is far easier to write them off.",
+   "zh": "但对另一些人，把他们一笔勾销要容易得多。"
+  },
+  "valid": true,
+  "note": "例句偏长；id 0 句更短但缺上下文"
+ },
+ "write down": {
+  "canonical": "write down",
+  "pos": "v.",
+  "zh": "写下，记下",
+  "example": {
+   "id": 1,
+   "en": "Start by writing down the things you didn’t like about previous employers, as well as the parts you really valued.",
+   "zh": "先写下你不喜欢前任雇主的地方，以及你真正看重的方面。"
+  },
+  "valid": true,
+  "note": "down 有「记录」引申义，按 P 处理"
+ },
+ "as one pleases": {
+  "canonical": "as one pleases",
+  "pos": "adv.",
+  "zh": "随心所欲，想怎样就怎样",
+  "example": {
+   "id": 0,
+   "en": "Well, I could come and go as I please, as long as I was getting the work done.",
+   "zh": "嗯，只要把工作完成，我可以随意来去。"
+  },
+  "valid": true,
+  "note": "真题为 as I please"
+ },
+ "be meant to": {
+  "canonical": "be meant to",
+  "pos": "v.",
+  "zh": "本应，本打算（做某事）",
+  "example": {
+   "id": 0,
+   "en": "They were meant to be reunited with the pet in their new home city in Texas.",
+   "zh": "他们本应在得克萨斯州的新家城市与宠物团聚。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make the best use of": {
+  "canonical": "make the best use of",
+  "pos": "v.",
+  "zh": "充分利用",
+  "example": {
+   "id": 0,
+   "en": "Directions: Suppose your university is organizing a forum on how students can make the best use of on-campus resources for",
+   "zh": "指示：假设你们大学正在举办一场论坛，讨论学生如何充分利用校内资源……"
+  },
+  "valid": true,
+  "note": "仅出现在答题说明中"
+ },
+ "make full use of": {
+  "canonical": "make full use of",
+  "pos": "v.",
+  "zh": "充分利用",
+  "example": {
+   "id": 0,
+   "en": "Make full use of electronic devices.",
+   "zh": "要充分利用电子设备。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make sense": {
+  "canonical": "make sense",
+  "pos": "v.",
+  "zh": "有道理，说得通；讲得通",
+  "example": {
+   "id": 4,
+   "en": "And speech obviously makes sense when you're driving.",
+   "zh": "开车时使用语音显然是合理的。"
+  },
+  "valid": true,
+  "note": "id 2 为 make sense of（弄懂）"
+ },
+ "make ends meet": {
+  "canonical": "make ends meet",
+  "pos": "v.",
+  "zh": "使收支相抵，勉强维持生计",
+  "example": {
+   "id": 0,
+   "en": "As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study.",
+   "zh": "作为一个来自勉强维持生计家庭的学生，我的助学金由联邦补助和联邦勤工俭学组成。"
+  },
+  "valid": true,
+  "note": "句子被截断，例句不佳"
+ },
+ "look after": {
+  "canonical": "look after",
+  "pos": "v.",
+  "zh": "照顾，照看",
+  "example": {
+   "id": 1,
+   "en": "Look after her grandfather.",
+   "zh": "照顾她的祖父。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "one after another": {
+  "canonical": "one after another",
+  "pos": "adv.",
+  "zh": "一个接一个地，接连不断地",
+  "example": {
+   "id": 1,
+   "en": "In a phantom traffic jam, the cars in the same lane slow down one after another, creating a wave-like effect.",
+   "zh": "在幽灵式堵车中，同一车道上的车辆一辆接一辆地减速，形成波浪效应。"
+  },
+  "valid": true,
+  "note": "id 0 句残缺"
+ },
+ "how much": {
+  "canonical": "how much",
+  "pos": "adv.",
+  "zh": "多少；多么",
+  "example": {
+   "id": 0,
+   "en": "How much did she win?",
+   "zh": "她赢了多少？"
+  },
+  "valid": false,
+  "note": "不是固定短语：how + much，按 much 义项标即可"
+ },
+ "much to one's delight": {
+  "canonical": "much to one's delight",
+  "pos": "adv.",
+  "zh": "令某人非常高兴的是",
+  "example": {
+   "id": 0,
+   "en": "Lying just off the North Sea coast, it found itself _27_ by an invasion of colored plastic eggs—much to the _28_ of local children, because the eggs contained toys.",
+   "zh": "它位于北海海岸边，被一大批彩色塑料蛋入侵，当地孩子们非常高兴，因为蛋里有玩具。"
+  },
+  "valid": true,
+  "note": "真题为填空题（delight 被挖空），例句含空格，不适合直接使用；也可视为 to one's delight 的变体"
+ },
+ "much less": {
+  "canonical": "much less",
+  "pos": "conj.",
+  "zh": "更不用说（常接否定）",
+  "example": {
+   "id": 2,
+   "en": "Being effective requires adaptability—something you don’t really learn in school, much less in a 6-month training camp.",
+   "zh": "要做到高效需要适应能力，这是你在学校里都学不到的，更不用说六个月的培训营了。"
+  },
+  "valid": true,
+  "note": "仅 id 2 是「更不用说」；id 0、1 只是 much + less（少得多），不算短语。例句为截取后半句"
+ },
+ "pretty much": {
+  "canonical": "pretty much",
+  "pos": "adv.",
+  "zh": "几乎，差不多",
+  "example": {
+   "id": 1,
+   "en": "The toughness of the race allows for racers to eat pretty much whatever they want.",
+   "zh": "比赛的艰苦让选手几乎可以想吃什么就吃什么。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "could do worse than": {
+  "canonical": "could do worse than",
+  "pos": "v.",
+  "zh": "不妨，做……也不错",
+  "example": {
+   "id": 0,
+   "en": "For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot",
+   "zh": "尽管食品和饮料行业创新众多、选择丰富，但如果你想赚钱，不妨……"
+  },
+  "valid": true,
+  "note": "句子被截断（could do a lot worse than 的结构），例句不完整；仅此一句，释义按习惯用法"
+ },
+ "find oneself": {
+  "canonical": "find oneself",
+  "pos": "v.",
+  "zh": "发现自己处于（某种状态、境地）",
+  "example": {
+   "id": 1,
+   "en": "A few years ago I found myself teaching a university class on evil.",
+   "zh": "几年前，我发现自己在大学里教一门关于邪恶的课。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "help oneself": {
+  "canonical": "help oneself",
+  "pos": "v.",
+  "zh": "随便吃（拿）；自己动手；自助",
+  "example": {
+   "id": 1,
+   "en": "I imagine there will be different foods and people will just help themselves and eat at their own pace, right?",
+   "zh": "我想会有各种食物，大家自己取用，按自己的节奏吃，对吧？"
+  },
+  "valid": true,
+  "note": "id 0 为「自助，靠自己」义"
+ },
+ "can't help doing": {
+  "canonical": "can't help doing",
+  "pos": "v.",
+  "zh": "忍不住做某事，禁不住",
+  "example": {
+   "id": 0,
+   "en": "They cannot help eating more than they should.",
+   "zh": "他们忍不住吃得过多。"
+  },
+  "valid": true,
+  "note": "真题为 cannot help doing"
+ },
+ "work study": {
+  "canonical": "work-study",
+  "pos": "n.",
+  "zh": "勤工俭学",
+  "example": {
+   "id": 0,
+   "en": "As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study.",
+   "zh": "作为一个来自勉强维持生计家庭的学生，我的助学金由联邦补助和联邦勤工俭学组成。"
+  },
+  "valid": true,
+  "note": "与 work-study 合并（canonical 为 work-study）"
+ },
+ "get around": {
+  "canonical": "get around",
+  "pos": "v.",
+  "zh": "四处走动，出行；绕过",
+  "example": {
+   "id": 1,
+   "en": "So, most people need their own car to get around.",
+   "zh": "所以大多数人需要自己的车出行。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get away from": {
+  "canonical": "get away from",
+  "pos": "v.",
+  "zh": "摆脱，远离，逃离",
+  "example": {
+   "id": 0,
+   "en": "You also get away from the habit of making guesses or following instincts.",
+   "zh": "你也就摆脱了凭猜测或直觉行事的习惯。"
+  },
+  "valid": true,
+  "note": "例句偏长；id 0 为「摆脱（习惯）」"
+ },
+ "get married": {
+  "canonical": "get married",
+  "pos": "v.",
+  "zh": "结婚",
+  "example": {
+   "id": 0,
+   "en": "Congratulations on deciding to get married!",
+   "zh": "祝贺你决定结婚！"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get dressed up": {
+  "canonical": "get dressed up",
+  "pos": "v.",
+  "zh": "盛装打扮，穿得漂亮",
+  "example": {
+   "id": 0,
+   "en": "This inspired Andrea to get dressed up to take out the trash.",
+   "zh": "这启发安德莉亚盛装打扮去倒垃圾。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get ahead": {
+  "canonical": "get ahead",
+  "pos": "v.",
+  "zh": "取得进步，出人头地，领先",
+  "example": {
+   "id": 0,
+   "en": "It hinders them from getting ahead.",
+   "zh": "这阻碍了他们出人头地。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get sth right": {
+  "canonical": "get sth right",
+  "pos": "v.",
+  "zh": "做对，弄对",
+  "example": {
+   "id": 0,
+   "en": "The more you get right, the more creative you are thought to be because you have come up with uncommon associations.",
+   "zh": "你答对的越多，就越被认为有创造力，因为你想到了不常见的联想。"
+  },
+  "valid": true,
+  "note": "get + 宾语 + right 属较松的搭配，勉强算短语；id 0 的 get right 省略了宾语"
+ },
+ "get sth across": {
+  "canonical": "get sth across",
+  "pos": "v.",
+  "zh": "把……讲清楚，使被理解",
+  "example": {
+   "id": 0,
+   "en": "To feel how difficult it is to get his idea across.",
+   "zh": "体会让别人理解他的想法有多难。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get up to speed": {
+  "canonical": "get up to speed",
+  "pos": "v.",
+  "zh": "尽快了解情况，迅速赶上",
+  "example": {
+   "id": 0,
+   "en": "Diving headfirst into the crash course of starting university, I’ve quickly tried to get myself up to speed with the financial",
+   "zh": "一头扎进大学入学的速成课程，我迅速努力让自己了解财务方面的情况。"
+  },
+  "valid": true,
+  "note": "句子被截断"
+ },
+ "get one's way": {
+  "canonical": "get one's way",
+  "pos": "v.",
+  "zh": "如愿以偿，为所欲为",
+  "example": {
+   "id": 0,
+   "en": "This way neither of you gets “your” way and you both have to deal with the legalities of going through a name change.",
+   "zh": "这样你们俩都不能随心所欲，还得去处理改名的法律手续。"
+  },
+  "valid": true,
+  "note": "真题中 your 加了引号，例句偏长"
+ },
+ "in the way of": {
+  "canonical": "in the way of",
+  "pos": "prep.",
+  "zh": "在……方面，关于",
+  "example": {
+   "id": 0,
+   "en": "What is typical of Americans in the way of eating?",
+   "zh": "美国人在饮食方面有什么典型特点？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all the way": {
+  "canonical": "all the way",
+  "pos": "adv.",
+  "zh": "一路，自始至终；一直",
+  "example": {
+   "id": 0,
+   "en": "Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.",
+   "zh": "同时，他们把牛奶、鸡蛋等日常必需品放在最里面，让你尽可能多地逛过整个商店，沿途受到诱惑。"
+  },
+  "valid": true,
+  "note": "例句偏长，仅此一句；此处 all the way back 为「一直在最里面」"
+ },
+ "good afternoon": {
+  "canonical": "good afternoon",
+  "pos": "int.",
+  "zh": "下午好",
+  "example": {
+   "id": 0,
+   "en": "Hello, good afternoon.",
+   "zh": "你好，下午好。"
+  },
+  "valid": true,
+  "note": "问候语，pos 用 int.（不在规定列表内）；可视为不必收入短语表"
+ },
+ "good morning": {
+  "canonical": "good morning",
+  "pos": "int.",
+  "zh": "早上好",
+  "example": {
+   "id": 0,
+   "en": "Good morning.",
+   "zh": "早上好。"
+  },
+  "valid": true,
+  "note": "问候语，pos 用 int.（不在规定列表内）；可视为不必收入短语表"
+ },
+ "a good deal": {
+  "canonical": "a good deal",
+  "pos": "n.",
+  "zh": "划算的交易；大量",
+  "example": {
+   "id": 0,
+   "en": "Carla O’Shaughnessy from Sydenham was searching last year for a good deal to book a villa in Majorca for a summer break for the family.",
+   "zh": "来自锡德纳姆的卡拉·奥肖内西去年在找划算的价格，为家人的暑假预订马略卡岛的一栋别墅。"
+  },
+  "valid": true,
+  "note": "真题仅「划算的交易」义（good deal=优惠）"
+ },
+ "take away": {
+  "canonical": "take away",
+  "pos": "v.",
+  "zh": "拿走，夺走；减去，占去",
+  "example": {
+   "id": 0,
+   "en": "Should parents and teachers take away teens’ smartphones and replace them with paper books?",
+   "zh": "家长和老师应该拿走青少年的智能手机，换成纸质书吗？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take place": {
+  "canonical": "take place",
+  "pos": "v.",
+  "zh": "发生，举行",
+  "example": {
+   "id": 3,
+   "en": "The event will take place at Methodist University.",
+   "zh": "活动将在卫理公会大学举行。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take note": {
+  "canonical": "take note",
+  "pos": "v.",
+  "zh": "注意，留意（常用 take note of）",
+  "example": {
+   "id": 0,
+   "en": "Take note of the message though fatigued.",
+   "zh": "尽管疲倦，也要留意这条信息。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take root": {
+  "canonical": "take root",
+  "pos": "v.",
+  "zh": "扎根，生根",
+  "example": {
+   "id": 0,
+   "en": "A Club Where Lions Dance and Traditions Take Root",
+   "zh": "狮子起舞、传统生根的俱乐部"
+  },
+  "valid": true,
+  "note": "仅此一句，为标题，例句不完整"
+ },
+ "take control": {
+  "canonical": "take control",
+  "pos": "v.",
+  "zh": "掌控，控制",
+  "example": {
+   "id": 0,
+   "en": "They decided that it was time to take control.",
+   "zh": "他们决定是时候掌控局面了。"
+  },
+  "valid": false,
+  "note": "普通动宾搭配（take + control），按 take 义项标即可"
+ },
+ "let's say": {
+  "canonical": "let's say",
+  "pos": "v.",
+  "zh": "假设，比如说",
+  "example": {
+   "id": 2,
+   "en": "Let’s say your goal is to write a book.",
+   "zh": "比如说，你的目标是写一本书。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go against": {
+  "canonical": "go against",
+  "pos": "v.",
+  "zh": "违背，反对；与……相反",
+  "example": {
+   "id": 0,
+   "en": "It involves being deviant, going against the social principle that people should tell the truth.",
+   "zh": "它涉及离经叛道，违背了人应当说真话的社会准则。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go off": {
+  "canonical": "go off",
+  "pos": "v.",
+  "zh": "爆炸；（警报）响起",
+  "example": {
+   "id": 0,
+   "en": "And alarmed locals contacted police, thinking they had heard bombs going off.",
+   "zh": "受惊的当地人联系了警方，以为自己听到了炸弹爆炸。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go back to": {
+  "canonical": "go back to",
+  "pos": "v.",
+  "zh": "追溯到；回到",
+  "example": {
+   "id": 0,
+   "en": "When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in “freshman composition” papers going back to 1917, she found that they were virtually identical to today.",
+   "zh": "斯坦福大学学者安德莉亚·伦斯福德收集了可追溯到1917年的“大一作文”错误率数据，发现与今天几乎相同。"
+  },
+  "valid": true,
+  "note": "此处为「追溯到」引申义；例句偏长"
+ },
+ "go on sale": {
+  "canonical": "go on sale",
+  "pos": "v.",
+  "zh": "开始出售，上市",
+  "example": {
+   "id": 0,
+   "en": "product is going on sale for real and the boys had to learn about budgeting and marketing, as well as designing their game.",
+   "zh": "产品真的要上市了，男孩们不得不学习预算和营销，以及设计他们的游戏。"
+  },
+  "valid": true,
+  "note": "句首残缺"
+ },
+ "how often": {
+  "canonical": "how often",
+  "pos": "adv.",
+  "zh": "多久一次",
+  "example": {
+   "id": 0,
+   "en": "How often he does shopping.",
+   "zh": "他多久购物一次。"
+  },
+  "valid": false,
+  "note": "不是固定短语：how + often，按 often 义项标即可"
+ },
+ "as is often the case": {
+  "canonical": "as is often the case",
+  "pos": "adv.",
+  "zh": "情况常常如此，往往如此",
+  "example": {
+   "id": 0,
+   "en": "As is so often the case, clever marketing can beat reason; awareness is rarely enough.",
+   "zh": "情况常常如此：巧妙的营销能战胜理性，光有意识往往不够。"
+  },
+  "valid": true,
+  "note": "真题为 as is so often the case；例句含选项字母 L)，去掉后可用，但带分号"
+ },
+ "spin one's wheels": {
+  "canonical": "spin one's wheels",
+  "pos": "v.",
+  "zh": "白费力气，原地空转",
+  "example": {
+   "id": 0,
+   "en": "allow us to feel like we are moving forward when we are merely spinning our wheels.",
+   "zh": "让我们在只是原地空转时，却觉得自己在前进。"
+  },
+  "valid": true,
+  "note": "句首残缺"
+ },
+ "work-study": {
+  "canonical": "work-study",
+  "pos": "n.",
+  "zh": "勤工俭学",
+  "example": {
+   "id": 0,
+   "en": "As a student from a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study.",
+   "zh": "作为一个来自勉强维持生计家庭的学生，我的助学金由联邦补助和联邦勤工俭学组成。"
+  },
+  "valid": true,
+  "note": "与 work study 合并"
+ },
+ "year after year": {
+  "canonical": "year after year",
+  "pos": "adv.",
+  "zh": "年复一年",
+  "example": {
+   "id": 0,
+   "en": "The American Psychological Association reports a gender gap year after year showing that women consistently report higher stress levels.",
+   "zh": "美国心理学会年复一年地报告存在性别差距，显示女性一直报告更高的压力水平。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go down well": {
+  "canonical": "go down well",
+  "pos": "v.",
+  "zh": "受欢迎，被接受",
+  "example": {
+   "id": 0,
+   "en": "Her daughter filmed it and the whole family laughed, but it seemed to go down well.",
+   "zh": "她女儿把它拍了下来，全家人都笑了，但它似乎很受欢迎。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "well-being": {
+  "canonical": "well-being",
+  "pos": "n.",
+  "zh": "幸福，健康安乐",
+  "example": {
+   "id": 0,
+   "en": "“If someone is making up some conversation that might be interesting, it’s probably not going to land well,” says Pirson, whose expertise includes trust and well-being, mindfulness, and humanistic management.",
+   "zh": "“如果有人编造一段可能有趣的对话，多半效果不会好，”皮尔森说，他的专长包括信任与幸福感、正念和人本管理。"
+  },
+  "valid": false,
+  "note": "复合名词（单个词），不是短语，词表里按 well-being 单词处理"
+ },
+ "hang around": {
+  "canonical": "hang around",
+  "pos": "v.",
+  "zh": "逗留，徘徊；闲逛",
+  "example": {
+   "id": 0,
+   "en": "Staff did their best to discourage the pet from hanging around.",
+   "zh": "工作人员尽力阻止这只宠物在附近逗留。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pass around": {
+  "canonical": "pass around",
+  "pos": "v.",
+  "zh": "传递，转手",
+  "example": {
+   "id": 0,
+   "en": "Red Rum was passed around to several owners before being purchased for Noel Le Mar.",
+   "zh": "红朗姆在被诺埃尔·勒马尔买下之前，几经易主。"
+  },
+  "valid": true,
+  "note": ""
+ }
+}

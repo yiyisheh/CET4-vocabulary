@@ -15,6 +15,7 @@ import matplotlib.pyplot as plt
 import spacy
 
 from build_frequency import clean, cumulative_cutoff, DROP_POS, WORD_RE
+import corpus_window
 
 ROOT = Path(__file__).parent.parent
 OUT = ROOT / "output"
@@ -57,7 +58,7 @@ def main():
     surf_top = set(list(surf_counter)[:surf_cut])
     print(f"Global 80% lists: lemma top-{lemma_cut}, surface top-{surf_cut}")
 
-    files = sorted(CORPUS.glob("papers/*.txt")) + sorted(CORPUS.glob("listening/*.txt"))
+    files = corpus_window.files("papers") + corpus_window.files("listening")
     names, lemma_cov, surf_cov, kinds = [], [], [], []
     for f in files:
         text = f.read_text()

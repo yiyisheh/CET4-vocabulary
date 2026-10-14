@@ -1,0 +1,157 @@
+{
+  "after": {
+    "senses": [
+      {"pos": "prep.", "zh": "在……之后（时间，后接名词或动名词）"},
+      {"pos": "conj.", "zh": "在……之后（引导从句）"},
+      {"pos": "adv.", "zh": "以后，后来（soon after 单用）"},
+      {"pos": "prep.", "zh": "在……后面，跟在……之后（位置、顺序）"},
+      {"pos": "prep.", "zh": "仿照，以……命名（name sth after sb）"},
+      {"pos": "prep.", "zh": "追赶，寻找（run after, be after sth）"}
+    ],
+    "labels": {
+      "0": 1, "1": 0, "2": "P:after all", "3": 0, "4": 1, "5": 1, "6": 0, "7": "P:after all", "8": 1, "9": 0,
+      "10": "P:look after", "11": 1, "12": 0, "13": 1, "14": 0, "15": "P:look after", "16": "P:look after", "17": 0, "18": 0, "19": 0,
+      "20": 0, "21": 1, "22": 0, "23": 1, "24": 0, "25": 0, "26": 1, "27": 4, "28": 0, "29": 0,
+      "30": 1, "31": 1, "32": 0, "33": 1, "34": 0, "35": 1, "36": 0, "37": 0, "38": 1, "39": 1,
+      "40": 0, "41": 1, "42": 0, "43": 1, "44": 0, "45": 0, "46": 0, "47": 0, "48": 1, "49": 0,
+      "50": 0, "51": "P:after all", "52": 1, "53": 1, "54": 0, "55": 0, "56": 1, "57": 1, "58": 1, "59": 0,
+      "60": "P:look after", "61": "P:after all", "62": 1, "63": 1, "64": 0, "65": 1, "66": 0, "67": 2, "68": 1, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": "P:look after", "74": "P:after all", "75": 0, "76": 1, "77": 1, "78": "P:one after another", "79": "P:after all"
+    },
+    "example": {"id": 54, "en": "She was found in a forest after three days.", "zh": "三天后，她在一片森林里被找到了。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：after + 名词/动名词（after school, after doing, three days after the surgery, shortly after 1 p.m., after that）标0；after + 从句标1（含 even after / soon after / long after / It wasn't until after + 从句）；soon after / shortly after 单独作状语、后面不带宾语标2；after all、look after、one after another 标P；name sth after sb 标4；day after day / year after year 标3；the day after tomorrow 标 P:the day after tomorrow。题干 After you hear a question 出现极多（按1标）。"
+  },
+  "much": {
+    "senses": [
+      {"pos": "adj.", "zh": "许多的，大量的（修饰不可数名词）"},
+      {"pos": "adv.", "zh": "……得多（修饰比较级，如 much more, much better）"},
+      {"pos": "adv.", "zh": "很，非常；（程度上）多（修饰动词、形容词或 too，如 very much, much too）"},
+      {"pos": "pron.", "zh": "许多，大量（作名词用，如 too much, much of）"}
+    ],
+    "labels": {
+      "0": 0, "1": "P:how much", "2": 2, "3": 3, "4": 0, "5": "P:how much", "6": "P:as much as", "7": 3, "8": 2, "9": 1,
+      "10": 0, "11": 0, "12": 2, "13": 3, "14": 2, "15": 2, "16": "P:how much", "17": "P:how much", "18": 1, "19": 3,
+      "20": "P:much to one's delight", "21": 1, "22": 0, "23": 0, "24": 3, "25": "P:how much", "26": 0, "27": 1, "28": 0, "29": 2,
+      "30": 1, "31": 0, "32": 3, "33": 3, "34": ["P:how much", 1], "35": 2, "36": 1, "37": 0, "38": 0, "39": 2,
+      "40": 0, "41": 2, "42": 0, "43": 2, "44": 0, "45": 2, "46": "P:much less", "47": 2, "48": "P:how much", "49": 1,
+      "50": "P:pretty much", "51": "P:how much", "52": 1, "53": 1, "54": 1, "55": 0, "56": "P:have much to do with", "57": 0, "58": 1, "59": 2,
+      "60": "P:pretty much", "61": 1, "62": 3, "63": 3, "64": 0, "65": 0, "66": 0, "67": 0, "68": 2, "69": 3,
+      "70": 1, "71": 1, "72": "P:how much", "73": 0, "74": 0, "75": 2, "76": 2, "77": 1, "78": 0, "79": 0
+    },
+    "example": {"id": 0, "en": "They cause much environmental pollution.", "zh": "它们造成大量环境污染。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：how much 一律标 P:how much（多少钱/多少/多大程度）；as much as + 数量（多达）标 P:as much as，其余 as much (n.) as 比较结构按 much 在句中的作用标（修饰名词0、作名词3、修饰动词2）；too much / so much / that much 不算P，按作用标；much + 比较级（much more, much less accessible, much higher）标1；much too + 形容词、very much、much like 标2；much of + n.、think much of 标3；much less 表「更不用说」标 P:much less；pretty much、have much to do with 标P；much to sb's delight/surprise 标 P:much to one's delight / P:much to one's surprise；not so much…as 标 P:not so much…as。2 和 3 的边界（say too much 标3，relies too much 标2）以 much 作宾语还是状语区分。"
+  },
+  "could": {
+    "senses": [
+      {"pos": "modal v.", "zh": "可能，也许（表推测或可能性）"},
+      {"pos": "modal v.", "zh": "能，能够（表能力或客观上做得到，can 的过去式）"},
+      {"pos": "modal v.", "zh": "可以，被允许（表许可，多指过去）"},
+      {"pos": "modal v.", "zh": "能否，可以……吗（委婉请求，Could you…?）"},
+      {"pos": "modal v.", "zh": "可以，不妨（提出建议或提议，You could…）"},
+      {"pos": "modal v.", "zh": "本来可以，本来可能（could have done，与过去事实相反）"}
+    ],
+    "labels": {
+      "0": 0, "1": 3, "2": 0, "3": 5, "4": 5, "5": 0, "6": 0, "7": 1, "8": 0, "9": 1,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 2, "15": 2, "16": 1, "17": 4, "18": 1, "19": 4,
+      "20": 1, "21": 0, "22": 0, "23": 0, "24": 3, "25": 1, "26": 0, "27": 1, "28": 0, "29": 1,
+      "30": 0, "31": 1, "32": 0, "33": 1, "34": 0, "35": 1, "36": 1, "37": 0, "38": "P:could do worse than", "39": 1,
+      "40": 0, "41": 0, "42": 4, "43": 5, "44": 1, "45": 1, "46": 0, "47": 1, "48": 0, "49": 1,
+      "50": 1, "51": 4, "52": 1, "53": 5, "54": 0, "55": 2, "56": 0, "57": 0, "58": 2, "59": 0,
+      "60": 0, "61": 4, "62": 2, "63": 2, "64": 1, "65": 1, "66": 1, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 3, "73": 0, "74": 0, "75": 2, "76": 0, "77": 0, "78": 1, "79": 0
+    },
+    "example": {"id": 11, "en": "It could be anyone.", "zh": "那可能是任何人。"},
+    "form": "can 的过去式",
+    "irregular": true,
+    "note": "给C的口径：0（推测/可能性）与1（能力、客观上能做到）最难分——说话人推测某事「可能发生/可能是」标0（could affect, could be a win-win solution, It could be reused 这类选项）；陈述「有能力或条件做到」标1（could barely move, could be easily visualized, where I could get a meal, tasks in which they could cheat）。could have done / could not have done 标5；Could I/you…? 以及 ask/wonder if you could… 委婉请求标3；You could… / I could give you… 提建议或提议标4；表允许（could go home, could not use my Medicaid）标2；could do worse than 标P；How could I ever forget? 这类反问按0。0/1 边界有主观成分。"
+  },
+  "found": {
+    "senses": [
+      {"pos": "v.", "zh": "发现，得出（某个情况或研究结论，常接 that 从句）"},
+      {"pos": "v.", "zh": "找到，（偶然）发现（某物、某人）"},
+      {"pos": "v.", "zh": "觉得，认为（find sth/it + 形容词）"},
+      {"pos": "v.", "zh": "（be found）存在于，见于"},
+      {"pos": "v.", "zh": "创建，创办（found 作原形时）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 1, "6": 1, "7": 2, "8": 0, "9": 0,
+      "10": 1, "11": 0, "12": 0, "13": 3, "14": 3, "15": 0, "16": 0, "17": 0, "18": "P:find oneself", "19": "P:find oneself",
+      "20": 1, "21": "P:find one's way", "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 0, "31": 1, "32": 0, "33": 0, "34": 0, "35": 1, "36": 0, "37": 3, "38": 2, "39": 1,
+      "40": 3, "41": 0, "42": 0, "43": 0, "44": 1, "45": 0, "46": 1, "47": 0, "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 0, "53": 1, "54": 0, "55": 0, "56": 0, "57": 1, "58": 1, "59": 2,
+      "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 1, "67": 0, "68": 1, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 1, "78": 0, "79": 0
+    },
+    "example": {"id": 4, "en": "Studies in this area have found conflicting results.", "zh": "这一领域的研究得出了相互矛盾的结果。"},
+    "form": "find 的过去式和过去分词",
+    "irregular": true,
+    "note": "原形 found（创建）在这80句里未出现，C 遇到 found a company 之类时标4。给C的口径：研究发现/发现某情况（found that…, found a link, found the money missing, it was found that）标0；找到具体的人或物（found a dog, was found lying in the snow, found a new way）标1；find sth/it + 形容词（found it easy）标2；be found in/everywhere「存在于、见于」标3；find oneself、find one's way 标P。"
+  },
+  "help": {
+    "senses": [
+      {"pos": "v.", "zh": "帮助，帮忙；有助于（help sb (to) do sth, help with sth）"},
+      {"pos": "n.", "zh": "帮助，援助"}
+    ],
+    "labels": {
+      "0": 0, "1": "P:help oneself", "2": 0, "3": "P:can't help but", "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": 1, "11": 0, "12": 0, "13": "P:help oneself", "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+      "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 1, "29": 0,
+      "30": 1, "31": 1, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 1, "38": 1, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": 1, "45": 0, "46": 0, "47": "P:with the help of", "48": 1, "49": 1,
+      "50": 1, "51": 0, "52": 1, "53": 0, "54": 0, "55": 0, "56": 1, "57": 0, "58": 1, "59": 0,
+      "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": "P:can't help but", "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 60, "en": "How can I help you?", "zh": "我能帮您什么忙？"},
+    "form": null,
+    "irregular": false,
+    "note": "动词「帮助」与「有助于」（事物作主语：help reduce, help ensure）没有拆开——中文都能说「帮助」，拆开后边界很难一致；原 def 的「改善」并入此义。给C的口径：动词一律标0，名词标1（seek help, for help, your help, could use some help, medical help）；help oneself (to) 标 P:help oneself；can't help but 标 P:can't help but，can't help doing 标 P:can't help doing；with the help of 标P；help out 标 P:help out。第50句有 OCR 乱码，按 medical help 标1。"
+  },
+  "its": {
+    "senses": [
+      {"pos": "det.", "zh": "它的，其（it 的所有格，指物、动物、机构、国家等）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+      "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": "P:turn sth on its head", "46": 0, "47": 0, "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": "P:the first of its kind", "58": 0, "59": 0,
+      "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": "P:at one's best", "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 79, "en": "It got reunited with its owner.", "zh": "它和主人重聚了。"},
+    "form": null,
+    "irregular": false,
+    "note": "只有一个义项；80句中约15句是作文题干（its aim / its service / its coming edition）。给C的口径：turn sth on its head、the first of its kind、at its best（P:at one's best）、on its own（P:on one's own）、in its own right（P:in one's own right）标P，其余均标0。"
+  },
+  "study": {
+    "senses": [
+      {"pos": "n.", "zh": "研究，（一项）研究"},
+      {"pos": "v.", "zh": "学习，读书"},
+      {"pos": "n.", "zh": "学习（多作定语，如 study habits, study guide）"},
+      {"pos": "v.", "zh": "研究，调查"},
+      {"pos": "n.", "zh": "书房"}
+    ],
+    "labels": {
+      "0": 0, "1": 2, "2": 2, "3": 0, "4": 2, "5": 0, "6": 0, "7": 0, "8": 2, "9": 0,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 2, "19": 0,
+      "20": 1, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 0, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 1, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 2, "46": 0, "47": 0, "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 2, "53": 0, "54": 0, "55": 0, "56": 0, "57": "P:work study", "58": 0, "59": 0,
+      "60": 0, "61": 0, "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 3, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 1, "79": 1
+    },
+    "example": {"id": 16, "en": "A new study has investigated this question.", "zh": "一项新研究调查了这个问题。"},
+    "form": null,
+    "irregular": false,
+    "note": "给C的口径：可数名词「一项研究」（a new study, the study found, study participants, the study of touching, little study on…）标0；动词「学习」（study on the bus, study music theory）标1；作定语表「学习」（study habits / guide / project / folder / environment）标2；动词「研究」（social scientists who study young people）标3；书房标4；work study（勤工助学）标 P:work study。"
+  }
+}

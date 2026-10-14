@@ -1,0 +1,25 @@
+# 任务 C_r1_13：1 个词，6 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_13.labels.txt
+
+============================================================
+## 词：to    本段 6 句    模式：全标（每句都写）
+原释义：prep.向; 到; 对. (用于动词不定式前).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0   不定式符号，后接动词原形（want to go）    B 样本 36    例：He noticed the driver was too young to drive.
+  1   （不定式）为了    B 样本 3    例：To introduce their corn to tourists.
+  2   （be to do）按要求或安排要做    B 样本 16    例：You are now to write an essay for submission.
+  3  prep. 向，到，往（方向、目的地）    B 样本 9    例：Travel to Germany.
+  4  prep. 对，给（引出对象，如 say to, send to, open to）    B 样本 15    例：To introduce their corn to tourists.
+  5  prep. 到，至（终点、范围、程度，如 from 1 to 10, up to）    B 样本 3    例：Those bringing eggs into the U.S. risk fines of up to $10,000.
+  6  prep. 与……相比，与……相同（similar to, compared to）    B 样本 1    例：Have you noticed how similar you are to your friends? [1] It may be because your brains operate in harmony with each other.
+  7  prep. （接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果    B 样本 13    例：Contribute a lot to the local economy.
+  8  prep. （时间）差（ten to six）    B 样本 0
+已标过的短语：have to（4）；be going to（3）
+口径说明（照此执行）：
+  - 1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。
+句子：
+3681 | What do other scientists have 【to】    ?P:have to
+3680 | Meanwhile, it pays 【to】 examine studies funded by industry or special interest
+3682 | They have little access 【to】 government funding.
+3684 | They try hard 【to】 pull down the safeguards for research.
+3685 | They make extra efforts 【to】 research their own products.
+3683 | What would scientific studies look like in a perfect world according 【to】 the author?    ?P:according to

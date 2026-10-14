@@ -1,0 +1,1417 @@
+{
+ "middle": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "中间，中部（in the middle of 在…中间）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "中间的，中部的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "中等的，中层的（middle class 中产阶级）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "中年的（middle age/years）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 2,
+   "6": 0,
+   "7": 1,
+   "8": 2,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 2,
+   "15": 3,
+   "16": 0,
+   "17": 2,
+   "18": 3,
+   "19": 2
+  },
+  "example": {
+   "id": 9,
+   "en": "They usually happen in the middle of the night.",
+   "zh": "它们通常发生在半夜。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Middle East（中东）、Middle Keys（中礁群岛）按 adj.「中间的，中部的」标，未标 X，请复核"
+ },
+ "owner": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "主人，物主，所有者"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "She returned it to its owner right away.",
+   "zh": "她马上把它还给了失主。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "succeed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "成功"
+   },
+   {
+    "pos": "v.",
+    "zh": "继承，接替"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "Emotional intelligence helps people succeed in job interviews.",
+   "zh": "情商有助于人们在求职面试中取得成功。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "included": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "包括，包含"
+   },
+   {
+    "pos": "v.",
+    "zh": "把…包括在内，列入（be included in）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 1
+  },
+  "example": {
+   "id": 18,
+   "en": "His collection included tigers and lions.",
+   "zh": "他收集的动物里有老虎和狮子。"
+  },
+  "form": "include 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "teacher": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "教师，老师"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "He is a primary school teacher.",
+   "zh": "他是一名小学老师。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "claim": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "声称，宣称"
+   },
+   {
+    "pos": "n.",
+    "zh": "说法，声称"
+   },
+   {
+    "pos": "v.",
+    "zh": "认领，索要（属于自己的东西或权利）"
+   },
+   {
+    "pos": "n.",
+    "zh": "认领，索赔（baggage claim 行李认领）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 2,
+   "5": 1,
+   "6": 0,
+   "7": 3,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 2,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "They claim that lack of exercise is to blame for the increasing obesity rates.",
+   "zh": "他们声称，肥胖率上升要归咎于缺乏锻炼。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "medicine": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "医学，医疗"
+   },
+   {
+    "pos": "n.",
+    "zh": "药"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": [
+    0,
+    1
+   ],
+   "2": 0,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "It might breed public distrust in modern medicine.",
+   "zh": "这可能会引发公众对现代医学的不信任。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "本词真题里「医学」（含机构名 Academy/Journal of ... Medicine）次数多于「药」，首要义项按统计排成医学；id 12 modern-day medicine 的安全性（疫苗语境）按医学标，也可理解为药物"
+ },
+ "send": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "发送，寄"
+   },
+   {
+    "pos": "v.",
+    "zh": "派，送（某人去某处）；派遣"
+   },
+   {
+    "pos": "v.",
+    "zh": "传达（信息、观念）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": "P:send in",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 2,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 2,
+   "18": 1,
+   "19": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "Just send him a text message.",
+   "zh": "给他发条短信就行。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "supply": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "供应（量），供给"
+   },
+   {
+    "pos": "v.",
+    "zh": "供应，提供"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 15,
+   "en": "It has ensured a sufficient food supply to millions.",
+   "zh": "它保障了数百万人充足的粮食供应。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "total": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "总的，全部的"
+   },
+   {
+    "pos": "n.",
+    "zh": "总数，总额"
+   },
+   {
+    "pos": "adj.",
+    "zh": "完全的，十足的"
+   },
+   {
+    "pos": "v.",
+    "zh": "总计达"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:in total",
+   "2": "P:a total of",
+   "3": 0,
+   "4": 0,
+   "5": "P:in total",
+   "6": 1,
+   "7": 2,
+   "8": 2,
+   "9": 0,
+   "10": "P:in total",
+   "11": 1,
+   "12": 0,
+   "13": 2,
+   "14": "X",
+   "15": 1,
+   "16": 0,
+   "17": 1,
+   "18": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "The total price is £36.50.",
+   "zh": "总价是36.5英镑。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id 14 Total War 是游戏名，标 X"
+ },
+ "towards": {
+  "senses": [
+   {
+    "pos": "prep.",
+    "zh": "对于，对待（态度、感情）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "向，朝，面向"
+   },
+   {
+    "pos": "prep.",
+    "zh": "为了，有助于（朝着目标努力）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "接近（某时间）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 2,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": [
+    2,
+    0
+   ],
+   "16": 2,
+   "17": 0,
+   "18": "P:go a long way towards"
+  },
+  "example": {
+   "id": 0,
+   "en": "They have strong negative emotions towards math.",
+   "zh": "他们对数学有强烈的负面情绪。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "became": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "变成，成为，变得"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": "P:become of",
+   "18": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "He became an astronaut in 2015.",
+   "zh": "他在2015年成为了一名宇航员。"
+  },
+  "form": "become 的过去式",
+  "irregular": true,
+  "note": ""
+ },
+ "designed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "设计"
+   },
+   {
+    "pos": "v.",
+    "zh": "（be designed to/for）旨在，专门用于"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有计划的，故意的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 1,
+   "16": 1
+  },
+  "example": {
+   "id": 15,
+   "en": "The math task in one experiment was designed to test participants’ tendency to cheat.",
+   "zh": "其中一项实验里的数学题旨在测试参与者的作弊倾向。"
+  },
+  "form": "design 的过去式和过去分词",
+  "irregular": false,
+  "note": "把「设计」和「（be designed to/for）旨在，专门用于」分成两个义项，后者在真题中更多；如觉得过细可合并"
+ },
+ "general": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "总体的，大致的，普遍的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "一般的，普通的，大众的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "总的（职位，general manager 总经理）"
+   },
+   {
+    "pos": "n.",
+    "zh": "将军"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": "P:in general",
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": "P:in general",
+   "8": 0,
+   "9": 2,
+   "10": 1,
+   "11": "P:in general",
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "The general consensus is that they start dreaming around the age of two.",
+   "zh": "普遍的共识是，孩子大约两岁开始做梦。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "late": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "晚，迟"
+   },
+   {
+    "pos": "adj.",
+    "zh": "晚的，迟的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "后期的，晚期的（late May 五月下旬）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "已故的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 2,
+   "4": 2,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 2,
+   "9": 2,
+   "10": 2,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 2,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "He has to work late.",
+   "zh": "他得工作到很晚。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "adv.「晚，迟」与 adj.「后期的」各 7 次并列，按义项表顺序取 adv."
+ },
+ "mistakes": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "错误，过失"
+   },
+   {
+    "pos": "v.",
+    "zh": "弄错，误认"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "It helps us avoid making mistakes.",
+   "zh": "它帮助我们避免犯错。"
+  },
+  "form": "mistake 的复数（也可作动词第三人称单数）",
+  "irregular": false,
+  "note": ""
+ },
+ "prices": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "价格"
+   },
+   {
+    "pos": "n.",
+    "zh": "代价"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "They help to lower housing prices.",
+   "zh": "它们有助于降低房价。"
+  },
+  "form": "price 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "wants": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "想要，希望"
+   },
+   {
+    "pos": "n.",
+    "zh": "想要的东西（needs and wants 需要的和想要的）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "He wants to try Asian foods.",
+   "zh": "他想尝尝亚洲菜。"
+  },
+  "form": "want 的第三人称单数（也可作名词复数）",
+  "irregular": false,
+  "note": ""
+ },
+ "department": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "部门，（政府的）部"
+   },
+   {
+    "pos": "n.",
+    "zh": "（大学的）系"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "The Department of Agriculture banned eggs from Mexico in 2012.",
+   "zh": "农业部在2012年禁止了来自墨西哥的鸡蛋。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "fit": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "适合，符合"
+   },
+   {
+    "pos": "n.",
+    "zh": "合适的人或物（a good fit 很合适）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "健康的，强健的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "适合的，合格的（be fit for）"
+   },
+   {
+    "pos": "v.",
+    "zh": "装得下，放得进"
+   },
+   {
+    "pos": "v.",
+    "zh": "安装，嵌入"
+   }
+  ],
+  "labels": {
+   "0": "P:fit in with",
+   "1": "P:fit in with",
+   "2": 1,
+   "3": 4,
+   "4": 5,
+   "5": 3,
+   "6": 2,
+   "7": 2,
+   "8": 3,
+   "9": 1,
+   "10": "P:fit in with",
+   "11": "P:fit in with",
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 1,
+   "16": 1
+  },
+  "example": {
+   "id": 2,
+   "en": "How to determine if a company is a good fit for you",
+   "zh": "如何判断一家公司是否适合你"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "真题里 n.「a good fit 合适的人或物」最多（几乎都来自 2022_06_1 一篇），例句只能取该篇标题，不是完整句；v.「适合」本身只以 fit in with 短语出现"
+ },
+ "history": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "历史"
+   },
+   {
+    "pos": "n.",
+    "zh": "经历，（个人的）既往史（a history of）"
+   },
+   {
+    "pos": "n.",
+    "zh": "历史学，历史课"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": "P:natural history",
+   "7": 2,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "They have a longer history than humans.",
+   "zh": "它们的历史比人类更悠久。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "product": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "产品"
+   },
+   {
+    "pos": "n.",
+    "zh": "产物，成果"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "I'll inspect the product before we put it in the container and ship it over.",
+   "zh": "我会在装箱运走之前检查产品。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "response": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "反应，回应"
+   },
+   {
+    "pos": "n.",
+    "zh": "回答，答复"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:in response to",
+   "2": 0,
+   "3": 1,
+   "4": "P:in response to",
+   "5": 0,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": "P:in response to",
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "It was a response to the changing job market.",
+   "zh": "这是对不断变化的就业市场的一种应对。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "size": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "大小，尺寸，规模"
+   },
+   {
+    "pos": "n.",
+    "zh": "（衣服鞋子的）尺码，号"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "They must be of the same size.",
+   "zh": "它们必须一样大。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "vegetables": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "蔬菜"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "He only eats vegetables?",
+   "zh": "他只吃蔬菜？"
+  },
+  "form": "vegetable 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "walking": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "步行，走路（作为活动）"
+   },
+   {
+    "pos": "v.",
+    "zh": "走，步行"
+   },
+   {
+    "pos": "adj.",
+    "zh": "步行的（walking distance 步行可到的距离）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 2,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "People should do more running than mere walking.",
+   "zh": "人们应该多跑步，而不只是走走路。"
+  },
+  "form": "walk 的现在分词（也作动名词）",
+  "irregular": false,
+  "note": ""
+ },
+ "allows": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "允许，使能够（allow sb to do）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "It allows us to know what we are good at.",
+   "zh": "它让我们知道自己擅长什么。"
+  },
+  "form": "allow 的第三人称单数",
+  "irregular": false,
+  "note": "id 0 allows for racers to eat 按「允许，使能够」标，未标 P:allow for"
+ },
+ "kinds": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "种类，类型"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "It is filled with all kinds of video game characters.",
+   "zh": "里面满是各种各样的电子游戏角色。"
+  },
+  "form": "kind 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "pressure": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "（精神上的）压力"
+   },
+   {
+    "pos": "n.",
+    "zh": "（物理的）压力，压强（blood pressure 血压）"
+   },
+   {
+    "pos": "v.",
+    "zh": "向…施压，逼迫"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 1,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "They are under increasing pressure.",
+   "zh": "他们承受着越来越大的压力。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "raise": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "提高，增加（价格、水平、意识等）"
+   },
+   {
+    "pos": "v.",
+    "zh": "抚养，饲养"
+   },
+   {
+    "pos": "v.",
+    "zh": "引起，提出（担忧、问题）"
+   },
+   {
+    "pos": "v.",
+    "zh": "举起，抬起"
+   },
+   {
+    "pos": "v.",
+    "zh": "筹集（资金）"
+   },
+   {
+    "pos": "n.",
+    "zh": "增加；加薪（pay raise）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 5,
+   "3": 1,
+   "4": 0,
+   "5": 3,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 2,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 5
+  },
+  "example": {
+   "id": 0,
+   "en": "It helps raise children’s awareness of gender roles.",
+   "zh": "它有助于提高孩子们对性别角色的认识。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "replace": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "取代，代替，接替"
+   },
+   {
+    "pos": "v.",
+    "zh": "更换，替换（replace A with B 用 B 换掉 A）"
+   },
+   {
+    "pos": "v.",
+    "zh": "放回原处"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 0,
+   "16": 1
+  },
+  "example": {
+   "id": 12,
+   "en": "You’re thinking I shouldn’t replace my phone this soon.",
+   "zh": "你是觉得我不该这么快就换手机吧。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id 6 是选词填空词库里的 replace（原文 we can't replace them 指牙齿不能再生替换），按「更换」标"
+ },
+ "friendly": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "友好的，友善的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "（用于复合词）对…无害的，适合…的（environmentally friendly 环保的）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Wilbur is both bold and friendly.",
+   "zh": "威尔伯既大胆又友好。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "heavy": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "大量的，猛烈的，严重的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "重的，沉的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "繁重的，苛刻的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "（食物）油腻难消化的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "（读物）沉闷费力的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 3,
+   "3": 2,
+   "4": 0,
+   "5": 2,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 4
+  },
+  "example": {
+   "id": 11,
+   "en": "It has caused heavy losses to many airlines.",
+   "zh": "它给许多航空公司造成了重大损失。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ }
+}

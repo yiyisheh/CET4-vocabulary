@@ -1,0 +1,619 @@
+# 任务 C_r1_51：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_51.labels.txt
+
+============================================================
+## 词：with    本段 600 句    模式：全标（每句都写）
+原释义：prep.和…在一起; 具有; 用; 随着.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 和，跟，与（一起；表示共同参与或交往的对象）    B 样本 32    例：Bring in pets with them.
+  1  prep. 用（工具、材料、手段）    B 样本 14    例：Pay with his credit card.
+  2  prep. 带有，具有；带着    B 样本 10    例：or emails with surveys asking, "How did we do?
+  3  prep. 对于，在…方面（表示涉及的对象，如 deal with、wrong with）    B 样本 8    例：It is helping the police with the investigation.
+  4  prep. 在…的情况下（with + 名词 + 分词等，表示伴随状况）    B 样本 5    例：They argue we should replace them with other drinks, with water being the best choice.
+  5  prep. 随着；伴随    B 样本 3    例：It varies with the seasons.
+  6  prep. 因为，由于    B 样本 2    例：The sheets are damp with sweat.
+  7  prep. 属于，在…工作（如 researchers with a project）    B 样本 2    例：I’ve had the privilege of working with an exceptional team of individuals during the past 13 years with the agency. [4] It has been incredibly exciting and rewarding.
+  8  prep. 赞成，支持    B 样本 0
+已标过的短语：compared with（1）；charge sb with sth（1）；in harmony with（1）；in connection with（1）；have sth in common with（1）；with the help of（1）；make friends with（1）；provide sb with sth（1）
+口径说明（照此执行）：
+  - 「用」义的高频主要来自试卷说明套话 with a single line through the centre（n 很大）；扣掉套话后「和，跟，与」更常用，最终首要义项请留意。
+句子：
+108 | And his story was a bit vague to begin 【with】.    ?P:to begin with
+142 | Dogs pay much attention to the kids they live 【with】.
+191 | having more power in society — might be a key determinant .For instance, in a follow-up study conducted 【with】
+258 | Instead, he credits old-school games like Palace of Magic 【with】
+397 | The rate of growth has begun to ease (sales were up 7% in the year, compared 【with】 8%    ?P:compared with ?P:compare with
+536 | Some students cope 【with】
+627 | Many of them are not, and a simple “no” will be more productive than whatever work the most efficient person can cope 【with】.
+647 | M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation is blessed 【with】.
+410 | the hair from an ant 【with】 a
+499 | You may choose a paragraph more than once. &eh paragraph is marked 【with】 a
+421 | F) 【With】 a blending of free-flowing confessional prose and scholarly research found in 461 notes, Kelli met my expectations that her ideas and ideals would be sound and singular.
+296 | “You can't get that 【with】 a blizzard bag or doing the work from home like that.
+498 | genes, each contributing a little to the outcome, together 【with】 a bunch of environmental factors.    ?P:together with
+418 | The Internet will be your best friend when you’re trying to familiarize yourself 【with】 a company’s culture before ever walking through their office doors.
+642 | But curiosity often comes 【with】 a cost.
+120 | Their link 【with】 a country’s public health.
+423 | H) If you plan on paying off bills in your student account 【with】 a credit card, be aware of any additional costs.
+453 | In other words, being proficient 【with】 a design tool and a few methods doesn’t make you a user experience designer.
+472 | Find online logic games and cheat at them, play Scrabble (拼字游戏) 【with】 a dictionary, or write a story about something that is untrue?
+512 | There was a 50% drop in medical prescriptions along 【with】 a dramatic decrease in death rates—but most importantly, the residents were simply happier.    ?P:along with
+375 | They hit me right out of gate 【with】 a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and from the District.
+274 | The course attracted mostly congressional interns (实习生), 【with】 a few exceptions like Kelli who was in Washington as an AmeriCorps volunteer.
+595 | has called these beliefs "mindsets ( ,'i if!:tlj)," 【with】 a "fixed mindset" referring to the belief that
+215 | I would have to stay 【with】 a friend or check into a hotel.
+505 | However, remember to take the reviews you read 【with】 a grain of salt—many of them are written by scorned (被鄙视的) employees.
+440 | People 【with】 a great amount of
+628 | It supplies refugees 【with】 a great variety of job opportunities.
+644 | Those 【with】 a growth mindset of interest tend to believe that interests can be developed and cultivated, while those 【with】 a fixed mindset of interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘found.
+665 | After coding and analyzing the ideas they generated, the team found that people 【with】 a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.
+523 | Having a valuable outcome associated 【with】 a habit will help you stick to that habit permanently.
+534 | Harris, who became headteacher this year, said he notified parents of the updated rules in an email in June. [23] The price of school uniforms can spark panic among families struggling 【with】 a high cost of living.
+265 | These papers deal 【with】 a kind of failure people have little control
+171 | You can spread it on bread 【with】 a knife, and then add a tiny bit of honey on top.
+317 | Humility can sometimes be 29 【with】 a lack of confidence.
+328 | This confirms that even 【with】 a lack of resources, if a country has strong women’s rights, the health outcomes are better.
+365 | Each paragraph is marked 【with】 a letter.
+582 | 【With】 a literacy rate in some parts of Africa at only 22.6%, farmers are often "underpaid for their produce because they might be unaware of the prevailing prices," says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.
+540 | But 【with】 a little effort, you can definitely improve.
+164 | A house 【with】 a lot of free space.
+506 | This means that they strive to implement the golden rule whenever possible, as long as it doesn’t clash 【with】 a more important concept.
+422 | When you meet 【with】 a new coworker, you immediately begin to develop an initial impression of this person.
+333 | She covered its screen 【with】 a plastic sheet.
+446 | When we replace meals 【with】 a protein
+182 | So if you have a disagreement 【with】 a securely attached person, they’re not going to panic.
+556 | H) This can be seen in the median workers income over this time period complete 【with】 a shift in 1973 that fits in precisely
+602 | He was the kind of trusted doctor you’d feel relieved to see and welcome into the room 【with】 a sick family member.
+384 | There are extra benefits for leaders: (21) 【with】 a simple personal story, they can convey fundamental values.
+391 | Please mark the corresponding letter for each item on Answer Sheet 2 【with】 a single
+189 | Then mark the corresponding letter on Answer Sheet 1 【with】 a single line
+139 | Then mark the corresponding letter on Answer Sheet 1 【with】 a single line through
+209 | corresponding letter on Answer Sheet 1 【with】 a single line through the centre.
+266 | Please mark the corresponding letter for each item on Answer Sheet 2 【with】 a single line through the centre.
+343 | the four choices marked A), B), C) and D).Then mark the corresponding letter on Answer Sheet 1 【with】 a single line through
+362 | letter for each item on Answer Sheet 2 【with】 a single line through the centre.
+597 | You should decide on the best choice and mark the corresponding letter on Answer Sheet 2 【with】 a single line through the centre.
+661 | best choice and mark the corresponding letter on Answer Sheet 2 【with】 a single line through the centre.
+151 | E) Horn has been working on the problem of phantom traffic jams for years, and he has come up 【with】 a solution: By splitting    ?P:come up with
+99 | and researchers may have come up 【with】 a solution for this frustrating traffic pattern: maintaining equal spacing between    ?P:come up with
+643 | Richard Pile, a physician 【with】 a special interest in diabetes, argues that adopting this approach “could actually result in worse outcomes for individuals and society.
+96 | [3] The arrests were in connection 【with】 a string of mail thefts from U.S.    ?P:in connection with
+216 | In a million words written over 20 years, he _34_ the full range of human emotions and conflicts 【with】 a _35_ that remains sharp today.
+173 | (13-1) There’s a flight arriving the following morning, 【with】 a two-hour stopover in Dubai, or a flight arriving at 11:30 in the evening, 【with】 a five-hour stopover in Amsterdam.
+666 | Oh, and they’d give me two months of paid vacation 【with】 a very generous salary.
+606 | It provides refugees 【with】 a wide range of courses free of charge.    ?P:provide sb with sth
+630 | The average American student receives 13 weeks off from school each calendar year—【with】 about 11 of those during the summer.
+116 | The study found only an association: It did not prove that drinks 【with】 added sugar cause early death.
+188 | New technologies always provoke generational panic, which usually has more to do 【with】 adult fears than 【with】 the lives of teenagers.
+649 | Often, we have to consider saying “no” to someone we will interact 【with】 again in the future—our co-worker, our spouse, our family and friends.
+297 | Our capacity to speak, write and learn new vocabulary does not seem to ___28___ 【with】 age.
+395 | Thus, language seems to be a skill that, contrary to what many might ___35___, does not weaken 【with】 age.
+454 | They grow and evolve 【with】 age.
+641 | instincts that are refined 【with】 age, but these instincts are very limited.
+252 | The government should definitely invest in new ones 【with】 air conditioning. [10] I guess I’m fortunate I take the bus instead.
+350 | W: [12] Um, I don’t think he should be doing something so challenging 【with】 all his breathing issues.
+613 | It is filled 【with】 all kinds of video game characters.
+378 | This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated 【with】 all of them.
+657 | may not be the most popular subject, but it’s consistently on the schedule throughout high school, 【with】 all students graduating
+174 | Match the room’s ceiling 【with】 all the furniture in colour.
+407 | They occur often in people 【with】 an active imagination.
+376 | You may think that summer is the perfect time to go on a date or chat 【with】 an attractive boy or girl.
+347 | In another study, older adults, 【with】 an average age of 75,
+427 | At the end of the day, whether you each keep your names, whether you come up 【with】 an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.    ?P:come up with
+578 | But a new study suggests that being sensitive to people’s feelings may sometimes come 【with】 an extra dose of stress.
+86 | A new study has cast doubt on historic research suggesting that the season or month of someone’s birth is associated 【with】 an increased risk of certain mental health conditions.
+483 | Even 【with】 an incredible amount of talent, without the
+284 | Instead of a touchscreen, they’re controlled 【with】 an old-school keypad.
+581 | The State Department will announce a partnership 【with】 an online education platform called Coursera.
+298 | To conduct the study, the team partnered 【with】 an online job listings platform which emails postings relevant to individuals and their job search criteria.
+370 | Company culture can have a big impact on how you feel about your work, so you want to make sure you sign an offer letter 【with】 an organization you’re truly excited about.
+222 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later 【with】 an update on where their journey has taken them and what resiliencies (韧性) have been the pavement on which they’ve traveled.
+455 | [16] A key flaw 【with】 analytical decision-making is that it takes time.
+439 | “Financial independence is something they were struggling 【with】 and challenged by.
+449 | entertained his audience 【with】 ___28___ and gripping suspense movies.
+416 | The majority of owners want to provide the best care for their pets and it’s therefore possible that pets could be affected by the way their owners interact 【with】 and manage them.
+352 | Little proof of human fascination 【with】 animals.
+358 | He’s always been very sensitive and sympathizes 【with】 animals.
+592 | Researchers think the zoo was started 【with】 animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+564 | Human fascination 【with】 animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals than humans.
+458 | As a child, I spent some time living 【with】 anumeric
+537 | F) This conclusion is echoed by work 【with】 anumeric children in industrialized societies.
+437 | This is precisely why parents still need to set firm boundaries around it, as 【with】 any other distraction.
+176 | Over the past 13 years, as a student, lecturer and researcher, I’ve enjoyed discussing the science of evil 【with】 anyone willing to listen.
+478 | “On the other hand, scientists at the USDA who I’ve spoken 【with】 are much more cautious.
+530 | “We started Design Ventura 【with】 around 800 young people
+245 | G) There are also so-called “blizzard bags”, 【with】 assignments that children take home ahead of an expected snow closure.
+231 | Communicate 【with】 astronauts in Mars Dune Alpha.
+442 | employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all 【with】 at least
+309 | After the intervention, participants associated healthy eating 【with】 autonomy and social justice.
+372 | “When people book their holidays they get so emotionally involved, and when they find that villa at a good price 【with】 availability in peak season, they are an easy target,” says Cooper.
+660 | The share of Americans 【with】 bachelor's degrees who were working into their 70s reached nearly 20% in 2018.
+195 | Not every child enjoys competitive sports or playing 【with】 balls and that’s OK.
+550 | Of the endless troubles that come 【with】 being driven from one’s home country, losing educational certificates may seem small.
+420 | “They came back 【with】 believable answers; it was all very friendly and professional,” she says.
+533 | According to one survey, city design 【with】 bike lanes and pedestrian space did not negatively impact local businesses.
+255 | “But 【with】 bilateral control you could almost double that.
+496 | It had rows of desks 【with】 blue chairs and nameplates reminding each student where they should be sitting.
+146 | Fall in love 【with】 boredom and focus    ?P:fall in love with
+445 | It’s a team sport and they often have mixed-gender teams so he could socialize 【with】 both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+233 | They are popular 【with】 boys.
+134 | She will have a photo taken 【with】 Brigette Clark.
+571 | The nation's obesity level has much to do 【with】 calorie intake.    ?P:have much to do with
+300 | It seems like you’d have the same problems 【with】 cash.
+477 | "【With】 caution, many relational methods to improve teams and organisations can be borrowed from other fields.
+619 | Human brains come equipped 【with】 certain quantitative
+561 | One large beverage company has adapted its operations when confronted 【with】 challenges from health and environmental
+170 | It may hurt their relations 【with】 children.
+141 | Snow days are a familiar theme in American film and TV shows, 【with】 children getting the good news and then running
+143 | [16] To begin 【with】, children seem to have a natural desire to overcome challenges and take risks.    ?P:to begin with
+526 | Yet, very little research has focused on how dogs perceive and socially engage 【with】 children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live 【with】,” said Monique Udell, the lead author of the study.
+125 | The relationship 【with】 classmates.
+349 | Environmental campaigners are struggling to understand why nations blessed 【with】 clean tap water grow only fonder of the
+307 | situations 【with】 clear guidelines and ideas of what you want from the ___35___ of options, which can narrow the possible
+601 | I found employees who engage in online social interactions 【with】 co-workers through social media blogs tend to be more motivated and come up 【with】 innovative ideas.    ?P:come up with
+432 | The study found that team-building exercises which focused on the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections 【with】 colleagues.
+544 | These beliefs contribute to a majority of workers connecting 【with】 colleagues on social media, even during work hours.
+429 | She decorated it 【with】 colorful stickers.
+393 | it is possible to not only learn it, but also strengthen it 【with】 constant exercise.
+93 | That comes against inflation rates that accelerated last month 【with】 consumer prices growing 6.6%.
+551 | The software adapts to users' individual language usages, searches, and preferences, 【with】 continuing use.
+638 | looking into the effects of fructose-containing sugars 【with】 control diets free from or lower in these sugars.
+508 | She has walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along 【with】 conventional thinking.    ?P:go along with ?P:along with
+211 | They will regain confidence 【with】 counselling.
+269 | Spaghetti 【with】 creamy sauce?
+492 | His fascination 【with】 crime began at an early age when he was ___29___ by his father who made him spend a few minutes
+103 | [3] Net Ease House, a restaurant in America, has been hit 【with】 criticism after announcing on their website that children under the age of ten are no longer welcome.
+652 | What should people do in a decision-making process if instincts disagree 【with】 data?
+497 | Analytical decision-makers struggle 【with】 deadlines and a sense of urgency 【with】 decisions.
+452 | “They tend to be people 【with】 deep roots in the city, who have hung around since before the neighborhood became what it
+210 | The exhausted and hungry racers are greeted 【with】 delightful pies of all kinds, such as apple, orange, lemon or banana.
+335 | 【With】 demand for energy ___29___ at an annual rate of 7 percent, the new solar plant could be a ___30___ part of that goal.
+615 | Kin Design Studio in Shoreditch, met designers at their school and attended a lunch 【with】 Deutsche Bank employees.
+237 | M: While most financial planners do give numbers, I don’t think that’s useful, as people are living in different areas 【with】 different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+355 | On a regular day at a local food market, people would find a display table 【with】 24 different kinds of jams.
+270 | Teens did not always spend that much time 【with】 digital media.
+574 | Most people spend much more time interacting 【with】 digital media than they did ten years ago.
+114 | Most of us spend much more time 【with】 digital media than we did a decade ago.
+456 | 【With】 distant relatives, results become hazier.
+194 | Kids need to be aware of the risks in playing 【with】 dogs.
+246 | Associating 【with】 dogs.
+294 | W: I should be fine 【with】 doing it on your website, and I already have all my certificates, as we run a small farm shop too.
+198 | There is a long way to go before humans can interact 【with】 driverless vehicles.
+664 | What’s more, making obesity a disease “may not benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment 【with】 drugs and surgery,” he warns.
+223 | M: Our school is replacing printed textbooks 【with】 e-textbooks next semester.
+105 | Help people connect 【with】 each other.
+106 | And whatever their financial background, or their educational background, most people will have something in common 【with】 each other.    ?P:have sth in common with
+122 | He can understand 【with】 ease.
+568 | What does the news report say about most people arriving at American borders 【with】 eggs?
+193 | students 【with】 electronic tablets loaded 【with】 assignments to complete in the event of a school closure.
+495 | N) Maybe bike lanes will always be charged 【with】 emotion, until enough of the public is finally concerned about climate    ?P:charge sb with sth
+413 | Hundreds of women spoke up about their own experience 【with】 emotional labor: the duties that are expected of them, but go unnoticed.
+603 | Nevertheless, emotional intelligence is a useful skill to have, as long as you learn to also properly cope 【with】 emotions—both others’ and your own, says Bechtoldt.
+620 | This would be a form of expropriation (侵占), 【with】 employees absorbing production costs that have traditionally been paid by the employer.
+576 | In my research 【with】 277 employees of a healthcare organization I found these concerns to be misguided.
+304 | By linking it 【with】 employees’ salary.
+332 | Furthermore, I might add, (15) all movies come 【with】 English text at the bottom of the screen.
+580 | The 56-year-old doctor’s methods have been adopted in Australia, Japan, Canada, and America 【with】 enormous success.
+596 | would all struggle 【with】 even basic quantitative distinctions.
+674 | According to Keynes, there would be a shorter working week 【with】 everyone’s standard of living continuing to rise.
+558 | arguments, packed 【with】 examples, sound almost like reading a court opinion, only maybe wordier.
+475 | He has been burdened 【with】 excessive work.
+654 | groups 【with】 extra care.
+172 | It provides people 【with】 extra energy.    ?P:provide sb with sth
+140 | It’s great to stay fit and healthy, but standard exercise routines and sports only work the same muscles repeatedly. [21] 【With】 extreme sports, you’ll be working entirely different muscles, and that means you get an all-over workout.
+346 | and researchers found a “significant” link between years 【with】 extremely hot weather and lower results.
+482 | Many workers report that they would like to spend more time 【with】 family, rather than at work Furthermore,
+163 | W: (11) Well, ducks have never been popular 【with】 farmers like my grandfather anyway because they sometimes destroy crops.
+111 | M: And I guess 【with】 fewer places to inhabit, they concentrate in greater numbers in few areas, which surely makes them easier targets for the hunters.
+632 | Americans now have a labor market in which millions of people — those 【with】 fewer skills and less
+235 | The villagers finally banded together and scared the beast away 【with】 firecrackers and drums.
+287 | "Chinatown was much smaller then and it was a celebration 【with】 fireworks and firecrackers, which added a lot of flavor and meaning to it.
+157 | Provide customers 【with】 first-class service.    ?P:provide sb with sth
+583 | Most stores open 【with】 flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite.
+202 | And 【with】 four of us, it wouldn’t cost any more than living in the dorm.
+383 | After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive 【with】 Fox Broadcasting Company and DirecTV who by his own admission is not a fierce racing fan—was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.
+169 | The problem has ballooned in the last 10 years, 【with】 frauds becoming more and more sophisticated.
+126 | The National Association of French Millers says bread consumption is on the decline, 【with】 French people eating nine grams less than in the previous year.
+97 | Sharing her room 【with】 friends.
+129 | They are on better terms 【with】 friends and romantic partners.
+342 | Or they post a photograph on Instagram, have a pleasant conversation 【with】 friends and then delete it so that no traces remain.
+240 | Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time 【with】 friends in person.
+136 | Newspapers are constantly filled 【with】 frightening accounts of drug addiction and aggressive behaviour supposedly caused by violent videogames.
+565 | But this is not the case 【with】 fruit juice.
+656 | Cover public spaces 【with】 fruit trees and vegetable plants.
+361 | 【With】 genetic testing becoming increasingly popular, many people are left wondering exactly how accurate it is.
+637 | included a make-your-own cloth kit called Dove Bunting and a threefold, wallet-sized travel game 【with】 goals at each end,
+88 | M: But my proposal is not just to reward students 【with】 good grades, but also students who show improvements.
+563 | work 【with】 groups to produce imaginative design ideas for a product in simple materials that could sell for £10 in the Design
+554 | The sense of eagerness that comes 【with】 having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.
+102 | strategic planning,” says Ryan Gardner, a regional director 【with】 Hays recruitment.
+145 | It’s projected to cost more than $2,300 to heat a typical home 【with】 heating oil this winter. [2] Last month, the federal government added $1 billion in funding to Low Income Home Energy Assistance Program, bringing the total to $4.8 billion.
+83 | There were crowds of people around her asking for a photo 【with】 her.
+82 | She has to meet 【with】 her boss then.
+168 | Named locally as Karla, she lives alone 【with】 her elderly grandmother and her blind grandfather.
+639 | Katharine Abraham, an economics professor, was chatting 【with】 her hairdresser about retirement plans.
+313 | Jan moved from Idaho 【with】 her husband in 1972 and opened a restaurant.
+325 | She lives in Lower Manhattan 【with】 her husband, Padraic, whom she met on a flight to London, and their three boys.
+179 | She was on bad terms 【with】 her neighbors.
+381 | She connected it 【with】 her smartphone.
+220 | She also faces investigation from childcare services, who will also be asking why Karla was left alone 【with】 her vulnerable relatives.
+293 | To seek the man's help 【with】 her work on the farm.
+308 | He eats a variety of different vegetables and nuts, especially those 【with】 high amounts of protein.
+320 | Owners—defined as individuals 【with】 high levels of anxiety, fear, anger, depression and loneliness—were more likely to have cats 【with】 behavioural issues.
+264 | In fact, more than three quarters of children 【with】 high levels of math anxiety are normal to high achievers.
+514 | One was 【with】 high school students and the other 【with】 more than 1,000 Australian adults aged between 24 and 60 years old.
+208 | On average, post-45 job switchers 【with】 higher incomes participate in 2.5 training programs each.
+605 | He is currently traveling through North America performing 【with】 his guitar and his enthusiasm on his Age of Disruption Tour.
+144 | Pay either in cash or 【with】 his phone.
+521 | What does the author say Red Rum did 【with】 his power, speed and jumping ability?
+303 | He was totally fine 【with】 his scar.
+201 | Helping the man 【with】 his shopping.
+253 | One he can play together 【with】 his sister    ?P:together with
+87 | Paying their kids to help 【with】 housework.
+545 | Ultimately, what affects our health in the most meaningful ways has more to do 【with】 how we treat one another, how we live, and how we think about what it means to be human than 【with】 anything that happens in the doctor’s office.
+668 | According to Kelli Harding, rabbits’ health had more to do 【with】 humans’ kindness to them than their diet or genetics.
+363 | The exact numbers we think 【with】 impact everything in our
+232 | Greater Internet access correlates directly 【with】 improved health care, education and economic development.
+123 | New Tech coupled 【with】 improvements in hearing aid technology and medical advances means that Miller is able to focus far more on his work.
+587 | Associating it 【with】 improving health.
+616 | collected between 1986 and 2009 and found that fruit juice consumption was linked 【with】 increased risk of type 2 diabetes.
+532 | 【with】 incredible plot twists in the storyline.
+354 | It has a lot to do 【with】 independent luxury food suppliers.
+624 | But when employees interact 【with】 individuals outside the organization, they are less motivated and show less initiative.
+324 | G) “By working 【with】 industry partners such as ABTA and Get Safe Online, we are able to issue alerts about the latest threats they should be aware of.
+585 | Data and analysis have long been associated 【with】 informed decisions.
+634 | It is filled 【with】 interesting episodes to spare readers intolerable boredom.
+268 | We love to establish a routine and stick 【with】 it.
+541 | If serious reading dies, a lot will go 【with】 it.    ?P:go with
+572 | Women are advised to identify the specific causes of their stress so that steps can be taken to deal 【with】 it.
+229 | Even if your groom is fine 【with】 it, his family (or your own) might not be so understanding.
+380 | If I am caught 【with】 it in my pocket, I will be subject to disciplinary procedure, which will impact on my career.
+392 | During heavy rains, rivers along the Amazon rainforest turn a pink shade, and 【with】 it male dolphins are harder to detect. [21] The Amazon wetland system, fed by the Amazon River, is a crucial place for pink dolphins to breed, and since 2018 has been granted internationally protected status.
+275 | What about the cost, not only buying all those tablets, but the software and electronic infrastructure that goes 【with】 it, not to mention retraining all the teachers and administration staff?
+552 | The supermarket imitated the Fordist factory, 【with】 its emphasis on efficiency and standardization, and reimagined it as a place to buy food.
+609 | But 【with】 its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?
+101 | I tried to reach it but it was too far down and there wasn’t any way I could get it out.” [2] Following a rescue by UK charity Cats Protection, the 4-year-old cat was later reunited 【with】 its owner, Mr.
+234 | But what’s wrong 【with】 jeans here?
+107 | He was working on a study project 【with】 Jimmy.
+480 | N) In May, the American Civil Liberties Union (ACLU) and Outten & Golden LLP announced a historic class-action $5m settlement 【with】 JPMorgan Chase on behalf of male employees who claim they were illegally denied access to paid parental leave.
+90 | Dogs match their behavior 【with】 kids as much as 【with】 adults.
+419 | A notable criticism of the golden rule is that its application can lead to undesirable outcomes, when it conflicts 【with】 laws and ethical principles.
+430 | The friends I have who still work in offices inform me their bosses insist that they take the second option, and that napping is associated 【with】 laziness.
+515 | Some bosses associate napping 【with】 laziness.
+414 | Studies in recent years show that left-handed children are more likely to suffer 【with】 learning difficulties and their scores are lower on IQ tests.
+92 | Eat healthier food 【with】 less money.
+653 | In the U.S. labor market. the primary concern of people 【with】 less schooling and fewer skills is to secure any employment
+292 | As they gain experience 【with】 living online, they begin to adjust their behaviour, struggling 【with】 new communication skills, as they do in the real world.
+402 | It cooperates closely 【with】 local producers.
+493 | Talking 【with】 local producers I learned that a small part of the production is sometimes wasted due to problems 【with】 size or shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, but to provide a high-quality product.
+260 | Those 【with】 lower incomes: 0.9 programs on average.
+396 | And the team also found that participants were willing to look at listings 【with】 lower salaries if they came from companies 【with】 a higher diversity score.
+247 | [19] A new study finds that job seekers are even willing to explore jobs 【with】 lower salaries when companies are more diverse.
+316 | who got one 【with】 luck, as suggested in one study.
+89 | themselves less 【with】 machines than 【with】 other people.
+431 | K) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he is charged 【with】 making the investment pay off.    ?P:charge sb with sth
+91 | The police were flooded 【with】 many calls from the public. [6] And they sent out a message asking people to remain calm.
+405 | The majority of her customers drive, 【with】 many coming from
+207 | I admit that their academic record is very strong, 【with】 many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough to live on his own at this point.
+150 | Three of my friends from the dormitory would share the place 【with】 me.
+180 | W: (12-2) It’s the same 【with】 me.
+612 | beliefs, to realize that we almost never do so, to understand that the simplest choices are charged 【with】 meaning, and yet that    ?P:charge sb with sth
+236 | Help students 【with】 mental issues pull through.
+154 | “It also helps 【with】 meta-skills — learning how to learn, experimentation, and
+311 | embrace plant-based foods, 【with】 Michelin’s 2022 New York guide branding it a “bold vision of luxury dining”.
+127 | She was charged 【with】 mistreating animals.    ?P:charge sb with sth
+213 | We regard these disappointments as a fate we could have avoided 【with】 more careful
+256 | In other words, when we are ___30___ 【with】 more choices, making the
+408 | This style contrasts 【with】 more instinctive leadership styles where managers make many decisions using instinct or opinion.
+425 | Across all three, parenthood was 27 【with】 more positive wellbeing outcomes for dads than for mums.
+403 | Studies have also linked employee volunteer programs 【with】 more productive employees.
+104 | In 1990, Hayes organized a global Earth Day, 【with】 more than 200 million participants in 140 countries.
+345 | It is a behavior we are born 【with】 more than one we learn.
+428 | 15 minutes and a few clicks later, (20) 【with】 more than $350 worth of dolls in her cart, Kate placed the order and ran off to play.
+271 | On paper, the job seemed perfect for me: The position was completely in line 【with】 my degree, the duties and responsibilities were compatible 【with】 my interests, and the office maintained a well-stocked kitchen that would satisfy my every snack desire.    ?P:in line with
+217 | Oh, (10) maybe it has something to do 【with】 my new card.    ?P:have something to do with
+225 | I’ll pay everything 【with】 my own card, right?
+249 | I’ve definitely bought clothes and shoes I didn’t need because they were on sale, and paying 【with】 my phone was so easy.
+374 | W: I’ll stick 【with】 my printed books.
+161 | Others in the US have found similar effects 【with】 National Institutes of Health early-career fellowships
+285 | Collaborate 【with】 native-born Americans.
+635 | Reconnect 【with】 nature through the right to grow.
+436 | Here people feel comfortable conducting routine social interactions 【with】 new acquaintances or total strangers.
+519 | They are the ones setting the standard 【with】 new ideas, fresh offers and bold inventions.
+479 | Some risks may not work out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment 【with】 new ideas is key to business growth.
+617 | To comply 【with】 new research findings strictly.
+334 | According to one recent business report, recycled plastic now costs an extra $72 a tonne compared 【with】 newly-made plastic.    ?P:compared with ?P:compare with
+524 | There is objection to e-learning days owing to fear that students 【with】 no access to the Internet at home will suffer.
+636 | the financial seas 【with】 no skills and no life jacket!
+288 | Being willing to experiment 【with】 novel ideas.
+570 | In the absence of the cultural traditions that fill our lives 【with】 numbers from infancy, we
+573 | 【With】 obesity now affecting 29% of the population in England, and expected to rise to 35% by 2030, should we now recognise it as a disease?
+621 | He suggests that most people 【with】 obesity will eventually develop complications.
+386 | I) Another potential climate change-induced problem is our dependence on commodity crops—wheat, soybeans, corn and rice—which currently provide humanity 【with】 75% of its calories, either directly or indirectly through the animals we raise on those crops.    ?P:provide sb with sth
+388 | But on opportunity for promotion, more than double the number of women, 30% compared 【with】 15% of men, believed their chances to be lower after becoming a parent.    ?P:compared with ?P:compare with
+137 | It is linked 【with】 older adult’s symptoms of depression.
+273 | Also, speak to the person you’re booking the villa 【with】 on a landline phone, as fraudsters tend to only use mobiles.
+263 | and chat 【with】 one another.
+196 | deprivation also changes the way brain cells ___27___ 【with】 one another, shifting the mice’s sensitivity to different frequencies.
+645 | My co-workers would all be friendly 【with】 one another, without ever falling into the office gossip trap.
+262 | It started 【with】 one person, Jan Newton.
+132 | By keeping close contact 【with】 one’s employers.
+267 | When there are several different assignments, make sure they begin 【with】 one they enjoy, so it seems easy to get started.
+411 | Otltures without nwnbers, or 【with】 only one or two precise numbers, include
+513 | What is said about those working 【with】 or under overachieving people?
+156 | a big help — and that included in-person, on-the-job training, “'informal learning,” and online courses — 【with】 or without
+356 | control to reduce the likelihood of collisions 【with】 other bats in the densely packed swarm , Hom said.
+675 | Are the results consistent 【with】 other independently funded studies?
+662 | H) Compared 【with】 other mammals, our numerical instincts are not as remarkable as many assume.    ?P:compared with ?P:compare with
+183 | "We're a big family," he said, shaking hands 【with】 other members as they walked through the door.
+377 | Share experience 【with】 other parents.
+367 | But sharing our experiences in an authentic way to connect 【with】 other people is what makes us interesting, says associate professor Michael Pirson.
+516 | Compared 【with】 other racing series, Formula One focuses more on speed and involves more danger.    ?P:compared with ?P:compare with
+212 | The phenomenon of math anxiety is characterized as a general sense of feeling that the subject is hard compared 【with】 other subjects leading to a subsequent lack or loss of confidence.    ?P:compared with ?P:compare with
+181 | They attach more value to their relationships 【with】 others.
+244 | Without conflict, we’re often stuck in this artificial harmony where people don’t express potentially innovative ideas for fear that they may start conflict 【with】 others.
+398 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating 【with】 others.
+501 | It helps people connect 【with】 others.
+547 | Recognizing when a friend or colleague feels sad, angry or surprised is key to getting along 【with】 others.    ?P:get along with ?P:along with
+626 | Emotional intelligence helps people get along 【with】 others.    ?P:get along with ?P:along with
+364 | of community and the feeling that you fit in 【with】 others around you.    ?P:fit in with
+648 | Avoid burdening themselves 【with】 others’ feelings.
+280 | 【With】 others, however, it is far easier to write them off.
+415 | To be interesting means that you have lived life, taken risks, traveled, sought out experience to learn for yourself and share 【with】 others,” she says.
+409 | There are tools to compare one’s DNA 【with】 others’ to
+295 | as other people, it follows that trying to identify more closely 【with】 our future selves will encourage us to make better long-
+611 | Self-control tends to be associated 【with】 pains.
+464 | Should parents and teachers take away teens’ smartphones and replace them 【with】 paper books?
+569 | In the new global economy, students who fail to finish the ninth grade 【with】 passing grades. in college
+382 | A 45-minute session in a darkened enclosure 【with】 peace and quiet costs $25.
+118 | Their relations 【with】 peers were badly strained.
+178 | The second reason, they say, is lifestyle changes in the country, (7) 【with】 people dedicating less time to breakfast when bread would traditionally be eaten 【with】 butter and jam.
+95 | 【With】 people imitating sounds around them.
+199 | 【With】 people interacting 【with】 animals close by.
+353 | [17] The first theory is that language started 【with】 people making different sounds, mostly imitating the things around them, like animal calls, nature sounds, and the sounds of tools.
+85 | It is associated 【with】 people’s mental health conditions.
+669 | Learn to cope 【with】 people’s negative feelings.
+147 | 【With】 people showing each other things nearby.
+302 | Making sounds helps one communicate 【with】 people they can’t see.
+251 | 【With】 people trying to string sounds together.
+546 | These included their ability to form and maintain friendships and get along 【with】 people who are different.    ?P:get along with ?P:along with
+484 | Research indicates absences from school 【with】 permission do not cause as many problems as those without permission.
+542 | J) Finally, you can never fail 【with】 personal connections.
+676 | Employers place a great value on employees 【with】 persuasion skills because they can impact several aspects of job
+599 | People from the rest of the world, such as Latin America, are considered to be in high-contact cultures, where they tend to expect touching in social interactions and feel more comfortable 【with】 physical closeness.
+329 | Books 【with】 pictures of dolls and toys.
+238 | “Since climbing is so far _35_ from their day-to-day work activities, they can still recover from the demands of their job 【with】 plenty of resources.
+650 | G) The spoken web could also help the one-in-five adults in Europe and the U.S. 【with】 poor reading skills.
+673 | Resolve the dilemma 【with】 previous experience.
+326 | Students are able to highlight and edit text, write notes and search for information much more quickly than they can 【with】 printed textbooks.
+351 | Physicians in the U.S. have never actually examined a patient 【with】 protein
+529 | Replace meals 【with】 protein bars.
+489 | Why have physicians in the U.S. never actually examined a patient 【with】 protein deficiency?
+276 | Social isolation and loneliness were determined 【with】 questionnaires; the researchers depended on medical records and death _28_ for
+462 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them 【with】 questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me about your favorite book,” or “Have you ever been to that attraction?
+459 | struggling 【with】 real boredom and the emptiness it provokes, consider whether you might seek new
+518 | Our analysis suggests early booking by women can translate into savings of $1 million a year for a large multinational company 【with】 20,000 regular travelers.
+203 | F) Horn calls this method of vehicle spacing bilateral control and he said it could be achieved 【with】 relatively simple
+250 | What is the problem 【with】 requiring buyers to sign end-user license agreements?
+588 | His writing is more than a little dense — dense 【with】 research, clauses, and precise adjectives and nouns.
+371 | For example, if you want people to treat you 【with】 respect, you should treat them 【with】 respect.
+433 | Like Farrant’s work 【with】 resurrection crops, a number of companies, organisations and researchers are aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.
+520 | But before you go out and find an entrepreneur to outcompete, it’s important to understand and avoid the traps that often come 【with】 rivalry.
+584 | What is one of the traps entrepreneurs may often fall into when competing 【with】 rivals?
+219 | Rather, they feel pain, which may be _35_ 【with】, say, drinking something very cold.
+228 | What I like most is destroying the cliche (陈词滥调) of good and evil, and replacing them 【with】 scientific insight.
+504 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent 【with】 screens, a restriction that will also allow time for other activities—like going to the movies 【with】 friends or reading longer, more complicated texts.
+557 | Because there is a delayed satisfaction associated 【with】 self-control, it can be easy to get off track.
+148 | [5] Recently, the clothing industry has come under attack for creating a waste problem 【with】 serious environmental consequences.
+598 | Recognising obesity as a chronic disease 【with】 severe complications rather than a lifestyle choice “should help reduce the stigma (耻辱) and discrimination experienced by many people 【with】 obesity,” he adds.
+468 | 【With】 similar diets, the expectations
+527 | It often happens that people can lack reason when faced 【with】 skillful marketing.
+348 | Participants in the diversity condition tended to click on job listings from companies 【with】 slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.
+175 | If you’re weary of full colour, test your tolerance 【with】 smaller spaces, such as the inside of a cupboard or a bright window frame.
+166 | But today’s teens have grown up 【with】 smartphones.
+450 | 【With】 so much emphasis on employee wellness these days, company volunteer programs could be the perfect 2025 resolution.
+259 | 【With】 so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+133 | The beach was not as nice or beautiful as it should be. [5] He felt so sad to see such a gorgeous place littered 【with】 so much trash.
+486 | These include helping 【with】 social development, increasing physical activity, managing anxiety or serving as a source of attachment in the face of changing family structures.
+379 | You’ll need to change your name at the bank, 【with】 social security, 【with】 your credit cards, on your driver’s license, at the gym … everywhere.
+360 | Analytical decision-making is a decision-making approach where a manager makes important business decisions only 【with】 solid data.
+406 | Higher education is a great way to equip yourself 【with】 some core skills, but it will not prepare you for actual challenges you’ll face 【with】 clients’ work.
+474 | Kate was depressed at first, but then she sat 【with】 some girl patients and they opened up all the boxes together, laughing and playing.
+600 | If you get a yes to your request for a chat, you’ll be armed 【with】 some pretty powerful and helpful information heading into your interview!
+451 | Horn said 【with】 some simple modifications to the existing equipment in new vehicles, their spacing bilateral control could
+470 | Pasternak also came away 【with】 some valuable observations about how different the North American way of life was, compared 【with】 many other countries.    ?P:come away with ?P:compared with ?P:compare with
+491 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate 【with】 someone even when you can’t see them.
+339 | The same was true when they were 【with】 someone from a different university, compared to someone from their own.
+543 | On the other hand, they assume that it might be difficult to work 【with】 someone who has completely different views, speaks a different language, or has a different style of work.
+162 | Start 【with】 something they enjoy.
+562 | Reusable rockets can cut down on some of the waste associated 【with】 spaceflight. [17] Traditionally, boosters, fuel tanks and other components are treated as expendable.
+100 | Athletes 【with】 special needs triumph in the Game.
+153 | There will also be a fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes 【with】 special needs triumph in the games.
+227 | It followed infants across the second six months of life and found that when parents showed babies books that had faces or objects 【with】 specific labels, they learned more.
+278 | Books 【with】 specifically labeled images.
+291 | They are right next to each other on the ground floor, since you mentioned in your message that they have trouble 【with】 stairs.
+336 | Because people identify so closely 【with】 stories, they can imagine how they would have acted in similar circumstances.
+200 | And add to that the rush-hour crowds 【with】 strangers packed close together in the subway carriages, the whole thing is just horrible.
+357 | 【with】 Streetsblog New York — wondered whether those predictions of economic collapse came true.
+277 | Analysis of the data showed that countries 【with】 strong women’s rights had better health than those where women’s rights were not as respected.
+434 | Nobody can really be sure if risks will be met 【with】 success, no matter how calculated they may be.    ?P:be met with
+221 | E) 【With】 such a degree of professionalism, how can consumers find out if the website they’re looking to book 【with】 is trustworthy?
+659 | 【with】 sugary water 【with】 some vitamins.
+119 | But generally speaking, soft cheeses are creamy and go well 【with】 sweet things like honey and jam.    ?P:go well with
+622 | These factors could definitely affect the degree to which someone is comfortable 【with】 tactile (触觉的) communication and physical intimacy.
+629 | 【with】 Tamale's Savanna Agricultural Research Institute.
+487 | It also launched a range of fancy bottles that work 【with】 tap water and flavour
+444 | them 【with】 tap water, why not add flavouring?
+500 | struggle 【with】 tasks that require precise discrimination between quantities.
+115 | People prefer to work 【with】 team members similar to themselves.
+124 | The way parents interact 【with】 technology can _33_ the way they interact 【with】 their kids.
+84 | As a parent of two boys at primary school, I worry about the issues associated 【with】 teenagers and social media.
+359 | associating a healthy diet 【with】 teenagers’ own values seems to be a promising avenue to prevent obesity.
+218 | Compared 【with】 teens a couple of decades ago, the way they interact 【with】 traditional media like books and movies is fundamentally different.    ?P:compared with ?P:compare with
+214 | Directions: In this section, there is a passage 【with】 ten blanks.
+312 | Directions: In this section , there is a passage 【with】 ten blanks.
+314 | Directions: In this section, you are going to read a passage 【with】 ten statements attached to it.
+457 | Directions: In this section, you are going to reaa a passage 【with】 ten statements attached to it. &eh
+591 | Then they worked 【with】 the
+507 | “I paid through a secure third-party site and had phone conversations 【with】 the agent.
+385 | All this is done 【with】 the aim of improving workplace efficiency, collaboration and cohesion.
+242 | M: When is the show supposed to start? [10] I’m a bit overwhelmed 【with】 the amount of data I still need to collect to finish my thesis.
+155 | It was recommended not to make contact 【with】 the animal.
+510 | Compared 【with】 the average American, people in healthy societies _______.    ?P:compared with ?P:compare with
+404 | Horn is now working 【with】 the car company Toyota to enable a form of bilateral control via modifications to existing
+640 | It is beneficial to explore ways to cope 【with】 the challenges facing students entering high school.
+663 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal 【with】 the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.
+417 | F) But the trends related to movies are less disturbing compared 【with】 the change in how teens spend their time.    ?P:compared with ?P:compare with
+443 | [22][23] A new study from Oregon State University found that dogs tend to match their behavior 【with】 the children in their family.
+476 | M) Then, on race day, he watched as the cars rocketed out of a tunnel and went screaming toward a tight turn 【with】 the city's harbor and the Mediterranean Sea in the background framing the scene.
+337 | Chan, who has been involved 【with】 the club for nearly 50 years, said that passing the dance from one generation to the next was vital.
+322 | There was only one small problem: I simply didn’t get along 【with】 the company culture.    ?P:get along with ?P:along with
+160 | So 【with】 the deliveries, I’m actually saving on petrol.
+618 | part because they felt like they had the resources to deal 【with】 the demanding situation.
+399 | In the 1970s through the 1990s, protein products remained visible but moved back somewhat 【with】 the dietary spotlight
+594 | They tell patients to comply 【with】 the directions of drug manufacturers.
+560 | While research has found dogs can have a lot of positive impacts on a child’s life, there are also risks associated 【with】 the dog-child relationship.
+522 | the period following World War II, along 【with】 the duration of the working week.    ?P:along with
+528 | These issues are growing more pressing 【with】 the emergence of commercial spaceflight.
+389 | But they could also indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction 【with】 the encounter so that the other party would think they were losing interest.
+481 | He was retired soon after, but his public life and fame by no means decreased 【with】 the end of his career.
+593 | The problem is that, 【with】 the fibre removed, fruit juice’s fructose is absorbed more quickly.
+590 | Diving headfirst into the crash course of starting university, I’ve quickly tried to get myself up to speed 【with】 the financial
+128 | NASA is planning three experiments 【with】 the first one starting in the fall next year.
+466 | However, this issue 【with】 the golden rule can be dealt 【with】 in a general manner, by viewing this principle as one of several principles that we use to guide our behavior as individuals and as a society.
+373 | Last month, Atria Books published her book The Rabbit Effect: Live Longer, Happier, and Healthier 【with】 the Groundbreaking Science of Kindness.
+306 | J) 【With】 the help of engineering students at high schools in Maine, Horn and Wang have also built a robot simulation    ?P:with the help of
+567 | May said that the school’s uniform policy showed the lack of regard for parents dealing 【with】 the high cost of living.
+331 | At the same time, your name is associated 【with】 the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and your husband’s family’s identity.
+503 | So one strategy to leave others 【with】 the impression that you’re a sparkling conversation partner is to get others to talk about themselves.
+338 | Last week, BBC Future explored one scientist’s efforts to help crops cope 【with】 the increased probability of droughts.
+677 | It has been popularized worldwide 【with】 the increasing influence of social media.
+438 | Beginning first 【with】 the influence of exercise intensity on the mood benefits of aerobic exercise, the researchers, led by
+566 | common sedative used in surgical procedures worldwide, might interfere 【with】 the internal clock that protects the
+109 | Often the star rating I give has far more to do 【with】 the kind of day
+631 | They are about combining your inner wisdom 【with】 the knowledge of systematic data to make the best decisions.
+555 | He had lost his charm 【with】 the leagues of Grand National fans.
+281 | This way neither of you gets “your” way and you both have to deal 【with】 the legalities of going through a name change.
+441 | 【with】 the length of time that a student is absent from school and how regularly this occurs.
+614 | while I was researching, I still kept wishing that I didn’t have to play catch-up 【with】 the money world.
+490 | after school before selecting the group 【with】 the most innovative idea.
+465 | Start 【with】 the most obvious place first: the company’s website.
+206 | K) Twelve years into his career, Mark Long, a radiotherapy physicist 【with】 the NHS in Surrey, doesn’t get as much gaming
+283 | Have another picture taken 【with】 the Olympic medalist.
+538 | It may make people feel that they ought to fit in 【with】 the outside world.    ?P:fit in with
+625 | He’d sit down to talk 【with】 the patient not just about medical problems, but about her life and priorities.
+192 | [22] Most of us have been in teams or organizations where we’ve had conflict 【with】 the people that we’re working 【with】 around the ideas or decisions that we’re discussing.
+646 | It tends to vary 【with】 the platform used.
+190 | In South Korea, six clones began working 【with】 the police in 2008.
+230 | Finally, the rising cost of bread is considered to be a factor, 【with】 the price of a French stick loaf increasing by nearly 25% in the last 10 years.
+658 | 【with】 the remainder either too harsh or too affected by human activity.
+467 | Happy 【with】 the responses, O’Shaughnessy paid the full amount of £3,000 via bank transfer into the travel agent’s account and then forgot about it until a month before the booking.
+577 | “Clinically,” she writes, “it’s common to see two patients 【with】 the same condition, such as recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+318 | Some experts say the policy is inconsistent 【with】 the science of what we know about body weight regulation.
+98 | Regular shoppers at the supermarket are familiar 【with】 the sight of several cats settling down in the shop aisles.
+517 | It is neither desirable nor morally acceptable nor practical for this county to tolerate the signs of deprivation more commonly associated 【with】 the slums of Rio de Janeiro.
+679 | Their conclusions about what The Guardian described as this “sweet spot” are in line 【with】 the so-called Goldilocks    ?P:in line with
+589 | The idea is for people to get back in touch 【with】 the soil — while
+310 | They have a reputation of being overly strict 【with】 the students.
+535 | By sitting front and center, students were able to hear better too. [24] The instructors said that they also formed a better connection 【with】 the students who sat in front.
+257 | Switzerland’s highest court agreed and overturned a ruling last year by the country’s commercial court that had sided 【with】 the supermarket.
+205 | [5] A German supermarket has been ordered to destroy its chocolate rabbits after it lost a court battle 【with】 the Swiss chocolate manufacturer.
+301 | Familiarizing them 【with】 the systems through training,
+633 | Funding for science has changed 【with】 the times.    ?P:with the times
+670 | He writes, “Remind your superiors what you would be neglecting if you said ‘yes’ and force them to deal 【with】 the trade-off.
+286 | But it turns out Japan still has some very old mills 【with】 the traditional weaving tools used to make jeans the original way.
+159 | Dealing 【with】 the traffic.
+651 | 【With】 the U.S. lagging behind other countries in academics, it's time to consider year-round schooling.
+463 | The client’s main desire was to have a home 【with】 the unique design, so the architect was given complete freedom.
+241 | Watch the series together 【with】 the woman.    ?P:together with
+149 | Discuss the matter 【with】 the woman’s mother.
+678 | Giving young people the opportunity to become familiar 【with】 the world of money would provide them 【with】 a great    ?P:provide sb with sth
+548 | “Playing 【with】 their children likely offers parents opportunities to experience positive feelings and 30 closeness 【with】 their children,” they say.
+604 | “This difference suggests that how mothers and fathers spend time 【with】 their children might have important 35 for their wellbeing,” the authors write.
+471 | “Fathers may fare better than mothers in part due to how they spend time 【with】 their children,” said lead author Katherine Nelson-Coffey.
+279 | Not all books are created equal, so parents need to choose the books they share 【with】 their children 【with】 great care.
+204 | 【with】 their decision and feel more regretful over whatever choice they made.
+130 | But other children simply shut down and try to deal 【with】 their emotions by ignoring the situation.
+369 | In another analysis, researchers found that today’s teens go out 【with】 their friends much less often than previous generations did.
+448 | This theory guesses that after developing sign languages, people eventually started making sounds along 【with】 their gestures.    ?P:along with
+401 | The other main theory, which is more recent, is that people started off by gesturing—pointing at things 【with】 their hands and imitating actions using their bodies.
+511 | and spending time 【with】 their kids.
+579 | Mums reported happier moods while interacting 【with】 their kids, compared to other experiences, but not while engaging 34 in childcare.
+435 | “By that I mean companies need to give men paternity leave and encourage men to take time off to be 【with】 their kids early on in the kids’ life.
+610 | that American workers can actually buy 【with】 their money has gone down.
+186 | Sympathize 【with】 their opponent.
+341 | They could also choose to express sympathy 【with】 their opponent to appear pleasant.
+549 | Thomas, now a speaker and author of several books, also created small, independently-run residences 【with】 their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.
+340 | J) The vast majority of men, 97%, said one of the top reasons to take leave was to share caregiving 【with】 their partner.
+539 | “Women working outside of the home should make an effort to have a conscious conversation 【with】 their partners about more equitable sharing of household and family responsibilities,” Dr.
+473 | The bride who adopts a hyphenated last name after marriage can maintain connections 【with】 their past achievements.
+112 | Interact 【with】 their pets in novel ways.
+224 | Teach them how to perform tasks 【with】 their right hand.
+152 | To enable teachers to interact more 【with】 their students.
+344 | There’s also a theory that this color helps the dolphins more readily blend in 【with】 their surroundings.
+177 | Still, all these little eggs contained an extra treat 【with】 their toys.
+110 | Discuss their academic achievements 【with】 them.
+226 | The quality and quantity of time parents spend playing 【with】 them.
+368 | The researchers explained that “Many owners regard their pets as a family member, and form close social bonds 【with】 them.
+531 | This means people are less willing to collaborate 【with】 them.
+327 | They will also carry 【with】 them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts of their families.
+394 | students adopt and carry 【with】 them through schooling.
+387 | The researchers found that students who were most at risk had the most improvements in executive functioning after interacting 【with】 therapy dogs.
+184 | The effect of interacting 【with】 therapy dogs on students under pressure.
+138 | More recent studies have suggested that factors such as social class or economic background have more to do 【with】 these diagnoses than month of birth.
+315 | The organization explains that this decision reflects general agreement among experts around the world that some people have a problem 【with】 these games.
+366 | It is feared that a failure to address early-year challenges, such as poor handwriting, leads to much more serious problems down the line—【with】 these pupils facing reduced career prospects.
+330 | We need to be careful 【with】 this.
+461 | Educators don’t know how to deal 【with】 this.
+672 | The problem 【with】 this argument is that most children aren't playing outside or even spending time 【with】 other kids.
+607 | "They came up 【with】 this," he says.    ?P:come up with
+460 | After her own struggle 【with】 this, Ms.
+323 | I’m really struggling 【with】 this semester’s workload.
+469 | Problems 【with】 this technique include the fact that it can lead to errors and prejudice.
+290 | Compared 【with】 those findings, these numbers were shocking to me.    ?P:compared with ?P:compare with
+509 | For the study, researchers compared teacher and parent evaluations of American children who started kindergarten in 1998, 【with】 those who began school in 2010.
+243 | F) Understanding our procrastination through the lens of the present and future selves, we're left 【with】 three
+447 | F) The theme for last year’s competition was “Move”, and Hourican began 【with】 three groups working in lunch breaks and
+608 | The traditional school year, 【with】 three months of vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work.
+400 | 【With】 £10 to spend, they could
+113 | What can I help you 【with】 today?
+305 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented 【with】 too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+167 | Whereas people 【with】 tooth sensitivity may complain, for example, of tooth pain _34_ by heat or cold, the nerves in the inner layer don’t sense temperature.
+321 | Over the years, many scholars have insisted that time online does not necessarily take away time spent engaging 【with】 traditional media or on other activities.
+494 | There’s nothing wrong 【with】 trying to look our best but excessive focus on physical appearance misses the soulful aspects
+390 | J) It is probably true that fewer kids are heavy readers compared 【with】 two generations ago, when cheap paperbacks boosted rates of reading.    ?P:compared with ?P:compare with
+272 | W: Rugby is a sport 【with】 two teams and the players carry the ball in their arms and throw it at each other.
+426 | The more you get right, the more creative you are thought to be because you have come up 【with】 uncommon associations.    ?P:come up with
+135 | Have you asked Jeremy if he would like to come 【with】 us?
+282 | M: Yes, actually, we’ll be taking our bicycles 【with】 us.
+187 | How are you today? [12] Do you have a reservation 【with】 us already?
+671 | To cover multiple domains and to be able to have a conversation 【with】 users on every single topic is still a long way off.
+488 | [16] Lift-off is usually the most environmentally harmful stage of any space mission, 【with】 vast quantities of fuel burnt up in a matter of minutes.
+117 | In 2017 there were 1,632 cases of reported “villa fraud (诈骗)”, 【with】 victims losing an average of £2,052, according to Action Fraud, the national center for reporting such frauds.
+131 | But the club also acts as a recreation center and safe haven for teenagers, 【with】 video games readily available.
+299 | worse than fill a bottle 【with】 water and sell it.
+81 | Walter was astonished to find that he matched 【with】 website user Robi737.
+559 | You may not actually experience emotional wellbeing at home if you remain occupied 【with】 what happened at work.
+502 | “Get really specific 【with】 what’s stressing you out,” Ms.
+248 | “We ___35___ that it may have to do 【with】 what the mice    ?P:have to do with
+586 | 【with】 when the working week stopped shrinking.
+553 | But for as long as you want to stay safe, and for as long as you are content 【with】 where your business is right now, you will never find out.
+667 | It has much to do 【with】 whom employees interact 【with】.    ?P:have much to do with
+261 | They lived peacefully 【with】 wild pigs.
+158 | Forest patches 【with】 wild pigs have been found to have considerably reduced plant and animal diversity.
+185 | M: I’d love to, [8][11] but I hurt my ankle last weekend playing football 【with】 work colleagues.
+80 | He has to play football 【with】 workmates.
+319 | Recently, I was at a gathering of colleagues when someone turned to me and asked, “So, what’s new 【with】 you?
+575 | Send a quick message to a current or previous company employee on LinkedIn or by email and ask if they would be willing to have a quick conversation 【with】 you about the organization in general.
+239 | You brought the whole family 【with】 you, I see.
+165 | But this seems to be a problem 【with】 your card number.
+424 | Therefore, I suggest you spend more time in the park 【with】 your friends, but make sure you apply lots of skin protection and fill up those water bottles, too.
+94 | I) Even more importantly, practice is the only way to make a meaningful contribution 【with】 your knowledge.
+254 | M: [11] I’m not convinced that the benefits are greater than the disadvantages, but I’ll discuss this 【with】 your mother.
+623 | You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you just stare across the table blankly 【with】 your mouth hanging open?
+525 | can help you shift and adapt your professional life to something that will better harmonise 【with】 your personal one.
+197 | W: Why not just pay 【with】 your phone?
+655 | The art of persuasion means convincing others to agree 【with】 your point of view or to follow your course of action.
+289 | M: True, but if you keep current 【with】 your skills, you will be attracted to employers.
+412 | contribution, or find a cause you can support 【with】 your time and talent.
+485 | Going through the steps, and constantly checking in 【with】 yourself
+121 | Palmdor is the perfect place to retreat to, somewhere to get away from the city noise and relax in beautiful surroundings 【with】 zero stress.

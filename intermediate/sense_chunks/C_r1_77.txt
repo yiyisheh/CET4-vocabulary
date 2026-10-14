@@ -1,0 +1,585 @@
+# 任务 C_r1_77：2 个词，561 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_77.labels.txt
+
+============================================================
+## 词：has    本段 330 句    模式：全标（每句都写）
+原释义：v.有; 拥有(have 的第三人称单数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. （构成现在完成时）已经，曾经（has done）    B 样本 60    例：One study has
+  1  v. 有，拥有；患有（疾病）    B 样本 11    例：He has breathing problems.
+  2  modal v. 不得不，必须（has to do）    B 样本 6    例：He has to work late.
+  3  v. 让，使，请人（has sb do / has sth done）    B 样本 0
+  4  v. 吃，喝；进行（has lunch / has a look）    B 样本 0
+已标过的短语：have to do with（3）
+口径说明（照此执行）：
+  - 给C的口径：has + 过去分词（含 has had、has been doing、there has been）一律按0；has to 按2（不作P）；has got 表「有」按1；has (something/more/little) to do with 标 P:have to do with。
+句子：
+379 | “Maybe the best sign that Impossible Foods 【has】
+374 | It 【has】 a beautiful campus.
+233 | It 【has】 a considerable impact on our health.
+144 | The supermarket is known for its loyal customers, but now 【has】 a different kind of visitor that 【has】 appeared over the last year.
+160 | It 【has】 a flat surface at the top.
+152 | He 【has】 a great collection of different stuff.
+298 | It 【has】 a lot to do with independent luxury food suppliers.
+354 | Job satisfaction 【has】 a lot to do with company culture.
+226 | M: Maybe you’re right, [9] but the thing is, everyone at the office 【has】 a nice, expensive phone, and I’m a little embarrassed by mine.
+196 | It 【has】 a population of a mere 49 souls.
+318 | A recent study concluded that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking 【has】 a positive effect on their performance.
+147 | The Swiss manufacturer’s rabbit 【has】 a red bow and bell, while the German supermarket’s 【has】 a green bow and bell.
+293 | Vegetable planting 【has】 a respectable tradition.
+268 | W: I like this sort of idea. [14] Lawrence 【has】 a sister who is slightly older, so maybe a game that they can play together would be good.
+280 | Their brain 【has】 a stronger connection between its two sides.
+112 | She 【has】 a truly amazing appearance.
+263 | M: Maybe you’re right, [10] but the credit card 【has】 a very good special offer, where I don’t pay any interest for six months.
+380 | It 【has】 a wonderful arts program.
+109 | Obesity, in which excess body fat 【has】 accumulated to such an extent that health may be adversely affected, meets the dictionary definition of disease, argues Professor John Wilding.
+258 | Recalling what 【has】 actually worked in the past.
+377 | One large beverage company 【has】 adapted its operations when confronted with challenges from health and environmental
+142 | Modesty may be key when cooperation is essential, but the researchers also found that in some cases, status signaling 【has】 advantages.
+319 | There’s also a great night market further into town that 【has】 all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.
+87 | After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but 【has】 already been frustrating its staff.
+388 | Unfortunately, the crisis of global warming 【has】 already had a serious negative impact on cacao farms’ yields, leading to
+133 | The mother dog helped solve multiple murders and many other crimes. [5] The clone 【has】 already performed better than traditionally bred dogs on several tests.
+284 | This 【has】 already raised privacy concerns.
+251 | It 【has】 also been noted that Siri lacks a proper editing function, as saying "Edit message to say: we're at Silver Cloud restaurant and you should come find us" generates "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us".
+223 | Donna Lynn Hope 【has】 also remarked, “Busy doesn’t mean better.
+97 | brain 【has】 an almost magical ability to change.
+125 | F) The series 【has】 an annual race in Austin, Texas.
+311 | Almost every class 【has】 an associated fee not included in the cost of tuition, most between $40 and $100.
+286 | Each film 【has】 an attractive lead, several expensive explosions, a few jokes to lighten the mood, and numerous punches that land unrealistically well.
+250 | The researchers found that the time when a person starts school 【has】 an enduring impact on their lives.
+333 | But she does eat yogurt every day, which she said 【has】 “an infinite number of positive properties” for the body. [21] She 【has】 also said that the secret to a long life is “knowing how to choose” what to forget.
+116 | It 【has】 an unmatched location.
+303 | She no longer 【has】 any money left.
+396 | One veteran player 【has】 applied his gaming skills to his real-world business and owes his success partly to a game company.
+114 | The problem 【has】 ballooned in the last 10 years, with frauds becoming more and more sophisticated.
+235 | It 【has】 banned kids under 10 from dining there.
+370 | One city on the west coast of America 【has】 banned single-use bottles from its property and events.
+361 | San Francisco 【has】 banned them from city property and events.
+315 | The typical supermarket layout 【has】 barely changed over the past 90 years.
+164 | It 【has】 beautiful weather all year round.
+327 | Freshly juiced fruit 【has】 become a basic dietary item — especially for busy, health-conscious consumers who can save time
+195 | It 【has】 become a crucial part of
+132 | It 【has】 become a star police dog in Beijing.
+297 | M) Ritman Smith adds: “Design technology 【has】 become a tricky subject to make a case for, and we’ve heard of departments
+341 | Many Americans' quality of life 【has】 become lower.
+256 | Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% of the 1,240 employees surveyed said the notion of fathers taking leave 【has】 become more acceptable.
+253 | The plot of each superhero film 【has】 become relatively predictable: the world is in peril, the world needs a hero, the hero is in peril, the hero resolves the peril, the hero saves the world.
+150 | New York's Eleven Madison Park 【has】 become the first vegan restaurant to be awarded three
+199 | Boredom 【has】 become trendy.
+182 | In England. there 【has】 been a
+130 | Lesley Harper, who runs one of the pubs, said the cat 【has】 been a big hit with their customers.
+127 | He 【has】 been a club member for 10 years and joined because of an interest in lion dance.
+141 | and industry bodies have pointed out that there 【has】 been a lack of roots-level support.
+359 | It 【has】 been abandoned as a battleground for male dolphins.
+344 | It 【has】 been appealing to both freshwater and sea dolphins.
+326 | The concept 【has】 been applied to a wide range of disciplines,
+211 | Cube Movie Theatre 【has】 been around now for 11 years.
+118 | The WFP 【has】 been around since 1961 and 【has】 been the global coordinator of nationally based efforts to avoid disasters with food aid.
+299 | It 【has】 been around since the 1930s.
+206 | She 【has】 been attending some group classes.
+332 | She 【has】 been betrayed by her family.
+170 | He 【has】 been burdened with excessive work.
+90 | Transit Driver Appreciation Day 【has】 been celebrated across the country as far back as 2009.
+120 | Even though we are living in an age where growing old is thought of as an inevitable misery, this doctor 【has】 been changing the game for seniors over the last 25 years.
+193 | It 【has】 been consumers’ concern.
+348 | Their environment for survival 【has】 been continuously worsening.
+302 | Flexible seating 【has】 been defined as movable furniture to create an engaging learning environment.
+107 | biomedical science, research 【has】 been done on scientists who narrowly lost or won grant money.
+305 | A conclusion 【has】 been drawn from many experiments that anumeric people have a hard time
+89 | She 【has】 been driving a school bus ever since 2009.
+230 | It 【has】 been enjoyed by kids for decades.
+95 | It 【has】 been extraordinarily tough and demanding.
+148 | It 【has】 been fluctuating.
+271 | Jet lag is a big problem for me and 【has】 been for the last few years, even though I never suffered from it before.
+121 | At any rate, what was lost now 【has】 been found, by many of the community’s littlest residents.
+325 | It 【has】 been funded by food companies and health experts.
+172 | The drive 【has】 been going on for two weeks and Morris said just under 50 customers have picked up a free meal.
+291 | During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins are harder to detect. [21] The Amazon wetland system, fed by the Amazon River, is a crucial place for pink dolphins to breed, and since 2018 【has】 been granted internationally protected status.
+340 | Their food literacy 【has】 been improving.
+330 | “Which matters more depends on what your history up until that point 【has】 been in the type of work you’re doing,”
+122 | Already, the project in Iceland 【has】 been increased in scale to bury 10,000 tons of carbon dioxide each year.
+275 | Another cause is that the proportion of people who are trying to lose weight 【has】 been increasing over
+96 | I’ve had the privilege of working with an exceptional team of individuals during the past 13 years with the agency. [4] It 【has】 been incredibly exciting and rewarding.
+173 | Chan, who 【has】 been involved with the club for nearly 50 years, said that passing the dance from one generation to the next was vital.
+321 | Historically, science 【has】 been largely supported through private
+349 | Fruit juice also 【has】 been linked to
+175 | However, there 【has】 been _26_ little research on the influence of leisure activities.
+179 | This is not the first time a clone 【has】 been made of a star police dog.
+85 | However, evidence 【has】 been mixed.
+221 | Most of the coverage of the boom in wild camping 【has】 been negative. [17] Camping in public parks 【has】 now been banned for August and the early part of September because campers dump litter, human waste, and even their tents on the grassland.
+357 | Many Americans' private life 【has】 been negatively affected.
+317 | The divorce rate in the county 【has】 been on a steady rise.
+99 | [5] A German supermarket 【has】 been ordered to destroy its chocolate rabbits after it lost a court battle with the Swiss chocolate manufacturer.
+320 | It 【has】 been placed under international protection.
+267 | It 【has】 been played both indoors and outdoors.
+360 | It 【has】 been popularized worldwide with the increasing influence of social media.
+210 | Thomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he 【has】 been preaching a singular message that getting old is not a bad thing.
+207 | But excessive heat can cause you to lose water, which 【has】 been proven to have a pretty unattractive side effect—bad breath.
+209 | A Durham Police spokesperson said the money 【has】 been returned to the lucky finders in all cases except yesterday.
+322 | off in 1970s New York, and 【has】 been revived by green-thumbed social media influencers who defy
+352 | She 【has】 been robbed of 5 million Euros.
+386 | This phenomenon 【has】 been ___31___ several times but rarely studied properly.
+254 | The method is well-tested and 【has】 been shown to increase interpersonal closeness.
+290 | It 【has】 been shrinking at an astonishing pace.
+139 | A litre of bottled water can cost well over a pound, especially for something fancy that 【has】 been sucked
+260 | Similar action 【has】 been taken even in Scotland, where camping is usually permitted on most of its open land.
+218 | I think Jeremy 【has】 been there and said it was amazing.
+189 | M: [13] For that age group, our biggest seller this year 【has】 been this action figure.
+269 | I) The main alternative to increasing traffic throughput per lane 【has】 been to build more lanes and more highways, and putting
+192 | The chocolate company 【has】 been to court before to protect its popular chocolate treat.
+342 | It 【has】 been under constant debate.
+232 | E) Horn 【has】 been working on the problem of phantom traffic jams for years, and he 【has】 come up with a solution: By splitting
+355 | Much 【has】 been written about the importance of timely feedback.
+264 | The rate of growth 【has】 begun to ease (sales were up 7% in the year, compared with 8%
+248 | He 【has】 benefited to a great extent from a tiny hearing device in his ear.
+249 | What 【has】 Bill Thomas been doing for a quarter of a century?
+282 | What 【has】 Bill Thomas been persistently advocating?
+324 | 【has】 boosted its desirability.
+202 | She 【has】 British ancestors.
+257 | He 【has】 brought his own lunch today, so he will stay in.
+285 | There is some debate about which was the very first, but over the years a consensus 【has】 built around King Kullen Supermarket, founded in New York in 1930.
+151 | 【has】 called these beliefs "mindsets ( ,'i if!:tlj)," with a "fixed mindset" referring to the belief that
+220 | It 【has】 caused environmental concerns.
+146 | It 【has】 caused heavy losses to many airlines.
+136 | He said technology 【has】 changed every profession, so it
+358 | The U.S. 【has】 changed from a farming economy to a knowledge- and innovation-based economy, so it makes sense for the school year to change as well.
+337 | The way that cheating looks 【has】 changed over time, though, particularly now that technology 【has】 made it easier than ever.
+292 | Funding for science 【has】 changed with the times.
+171 | "The sport 【has】 clearly been underserved," Carey said.
+328 | The New Year 【has】 come and gone, and many may have already forgotten what they had resolved to do on January 1st.
+94 | [5] Recently, the clothing industry 【has】 come under attack for creating a waste problem with serious environmental consequences.
+203 | On the other hand, they assume that it might be difficult to work with someone who 【has】 completely different views, speaks a different language, or 【has】 a different style of work.
+240 | Now the Office for National Statistics 【has】 confirmed that we are consuming 50% more calories than
+131 | Just last week, California passed a law allowing minors to demand that internet firms erase their digital past and the EU 【has】 considered similar legislation.
+143 | It 【has】 contributed a great deal to human flights to space.
+407 | It 【has】 contributed little to the campaigns against obesity.
+236 | Playing the piano is among the things the world’s oldest person believes 【has】 contributed to her long life. [19] Branyas Morera is now 115 years and 320 days old.
+398 | A physicist admits gaming 【has】 contributed to his computer knowledge and skills of solving problems.
+301 | in less labor-intensive occupations also 【has】 contributed to the trend, says Abraham, who researches work and retirement
+105 | It 【has】 contributed tremendously to the firm's fame.
+259 | It 【has】 created conflicts among campers.
+108 | The number of ducks 【has】 declined sharply in recent years.
+384 | A lot of research 【has】 demonstrated that drinking fruit juice does not reduce our daily consumption of other foods.
+243 | He 【has】 difficulty taking notes quickly.
+183 | The quest to attain this mysterious state 【has】 dominated
+247 | It 【has】 done a good job in combating natural disasters.
+159 | It 【has】 done away with many of the traditional ways of thinking.
+178 | it 【has】 done better than naturally born dogs.
+168 | Thomas’s approach, named the Eden Alternative, 【has】 driven nursing homes to allow a more autonomous (自主的) and creative living space for their elderly.
+137 | Indeed, the latest research that 【has】 emerged on language and aging shows that language mastery is a ___30___ that we begin
+208 | It 【has】 ensured a sufficient food supply to millions.
+86 | He 【has】 escaped the zoo once again.
+149 | He says the car is the best thing that 【has】 ever happened to him, and [11] if she sells it, he will divorce her.
+382 | It 【has】 experienced the gradual weakening of male dominance.
+294 | Yet, very little research 【has】 focused on how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.
+110 | A new study carried out by the University of Lincoln 【has】 found a link between the personalities of cat owners and the behaviour and wellbeing of their cats.
+174 | Contrary to some research that 【has】 found an _30_ limit to the amount of exercise that is healthy, the researchers found that there was _31_ no limit to the longevity (longevity) benefits of exercise.
+323 | While research 【has】 found dogs can have a lot of positive impacts on a child’s life, there are also risks associated with the dog-child relationship.
+283 | Previous research 【has】 found older students achieve better results.
+312 | In fact, recent research 【has】 found that both the quality and quantity of shared book reading in infancy predicted later childhood vocabulary and reading skills.
+364 | Horn 【has】 found that certain creatures use strategies similar to bilateral control to avoid hitting each other while moving in
+201 | Research 【has】 found that having access to diverse teachers is beneficial for children.
+390 | The team 【has】 found that IT workers play
+335 | Recent research 【has】 found that one trait in particular—humility (谦逊)—is an important indicator of successful relationships.
+190 | But now, new research 【has】 found the cause
+81 | She 【has】 found the soup smells terrible.
+177 | Research 【has】 found the use of digital technology benefits not only teenagers’ social lives but also their studies.
+237 | Takotna 【has】 gained a reputation for its dessert-based hospitality since the 1970s.
+188 | It 【has】 given him exceptional privilege as an ambassador.
+393 | that American workers can actually buy with their money 【has】 gone down.
+128 | He 【has】 got some books to read.
+176 | M: No, I haven’t, but I’ve noticed that it 【has】 great reviews on the Internet.
+371 | A person who 【has】 grit is more likely to succeed than a
+135 | M: When the time is right, I’ll start talking to our children about investing and show them how the money saved for their further education 【has】 grown.
+397 | After all, the economy as a whole 【has】 grown
+187 | in 2010 and it 【has】 grown steadily since,” she says.
+289 | M: That’s wonderful. [13] My father-in-law 【has】 had terrible problems getting up and down stairs since his knee operation last April.
+391 | But Friedman says that this is not what 【has】 happened.
+350 | Drivers caught up in phantom traffic jams are likely to think an accident 【has】 happened or some construction is going on.
+198 | 【Has】 he been causing any trouble?
+153 | It 【has】 helped a lot to improve animals' well-being.
+265 | It 【has】 helped Americans in search of protein-rich diets.
+228 | It 【has】 helped to create the myth of protein deficiency.
+274 | 【has】 helped yield numbers in most cultures, but not all.
+309 | Physically attending school 【has】 hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills to cultivate in young people.
+82 | Wilbur 【has】 his own Internet pages as he approaches his 10th birthday on July, 7.
+307 | It 【has】 ignored campaigns on behalf of the left-handed.
+272 | It 【has】 implemented a decision to expand business.
+362 | It 【has】 implications for future panda research.
+80 | New research from America studies the role that the presence of individuals from different social or racial groups 【has】 in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence of an observer of a different race, as opposed to an observer from their own race.
+261 | Savings rates in America have dropped in recent decades even though people’s life expectancy 【has】 increased.
+338 | Students may no longer be qualified for financial aid if they perform poorly in school or if their family income 【has】 increased.
+351 | The number of jobs suitable for older people 【has】 increased in the private sector.
+219 | It reduces the chances of making mistakes, and 【has】 increasingly become a favorite approach to decision-making among leaders of today.
+234 | It 【has】 instructions for making a winter bean salad.
+83 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who 【has】 interviewed about 200 British teenagers over three years.
+339 | A new study 【has】 investigated this question.
+287 | As a result, Los Angeles now 【has】 its best chance in decades to combat homelessness.
+356 | Each of the healthy eating cultures 【has】 its own unique feature.
+154 | M: (8-1) 【Has】 Jimmy been coming in lately?
+408 | It 【has】 largely failed to turn teens away from junk food.
+300 | L) Since starting his research on phantom traffic jams, Horn 【has】 learned that schools of fish and flocks of birds and bats use
+197 | It 【has】 led some other companies to follow suit.
+106 | The policy 【has】 led to various other companies doing the same.
+156 | Climate change 【has】 little effect on the lives of wild ducks.
+273 | She 【has】 lived there ever since.
+369 | Engineering in the U.S. 【has】 long been a male-dominated profession.
+242 | Low pay 【has】 long been acknowledged as a major issue in the early education field.
+98 | It 【has】 long been ignored by many experts.
+225 | The question of how to achieve work-life balance 【has】 long been the main subject of discussion among workers.
+346 | It 【has】 long been used to increase food supply and improve urban landscape.
+145 | The exact cause of these phantom traffic jams 【has】 long remained a mystery.
+363 | All of which, of course, 【has】 made it highly profitable.
+375 | Keynes got that right: Technology 【has】 made the economy massively more productive.
+392 | H) There are already plenty of gamers out there who know that their hobby 【has】 made them who they are.
+186 | While fats and sugar have taken the beating in turns since over a century ago, protein 【has】 managed to remain our red-hot
+345 | Furthermore, science 【has】 many safeguards in
+331 | It is a shift in practice from being teacher-focused to student-focused learning. [20] For us, flexible seating 【has】 meant removing most of the traditional chairs and desks and introducing a variety of different seating options to promote student engagement.
+316 | One author 【has】 mentioned that women desire to play an irreplaceable role in a great adventure.
+126 | The board 【has】 messages of kindness like, “If you want more kindness in the world, put it here.
+378 | G) So while we know that fruit juice can cause diabetes if it’s part of a diet that 【has】 more calories overall, it's less clear how
+119 | That means that not only is the ice melting very fast, it 【has】 more time to melt this summer than it would in a normal climate system.
+279 | Ultimately, what affects our health in the most meaningful ways 【has】 more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+372 | Unlike whole fruit, fruit juice 【has】 most of the fibre removed.
+129 | He 【has】 much difficulty getting up and down stairs.
+157 | It 【has】 much to do with one’s genes.    ?P:have much to do with
+278 | It 【has】 much to do with whom employees interact with.    ?P:have much to do with
+334 | The nation's obesity level 【has】 much to do with calorie intake.    ?P:have much to do with
+102 | And it 【has】 never been easier or cheaper to
+227 | “Public awareness 【has】 never been higher, but the message is not quite reaching all the people it needs to.
+304 | She led an active lifestyle until her later years but 【has】 never followed a specific diet.
+231 | It 【has】 no batteries, if that’s what you mean.
+310 | A social aspect to health 【has】 not been taken into account in trying to provide the best medical care.
+276 | It 【has】 not built facilities specially for the left-handed.
+399 | American workers’ average weekly working time 【has】 not changed for nearly half a century.
+200 | It 【has】 not done enough to help left-handed children.
+389 | The art of telling a story using music 【has】 not faded in the least
+401 | Friedman believes inequality in the U.S. largely explains why increasing productivity 【has】 not resulted in reduced working
+161 | Obviously, the desire to bring about diversity 【has】 not translated into corporate reality.
+381 | In a new paper, Friedman tries to figure out why that increased productivity 【has】 not translated into increased leisure
+329 | The age-long mystery 【has】 now been resolved as to how phantom traffic jams are caused.
+212 | I) Siri 【has】 often been praised for its ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.
+165 | They note that the value of women’s rights 【has】 often been questioned from an economic standpoint.
+406 | It 【has】 placed much more emphasis on cure than on prevention.
+347 | Another 【has】 pledged to use only recycled plastic across its range by 2025.
+403 | Many economists assume people's thirst for material things 【has】 prevented them from enjoying more leisure time.
+155 | Research by social scientists on the effects of career setbacks 【has】 produced contradictory findings.
+138 | [3] The Wilton School Board 【has】 proposed a 5.99% spending increase.
+353 | While pinning down a definition 【has】 proven tricky, the general consensus is it’s some means of information gathering.
+134 | He 【has】 published a new bestseller.
+295 | The introduction of the “sugar tax” on juices and soda drinks 【has】 pushed more people to bottled water, while health awareness
+296 | It 【has】 raised a lot of health concerns among the public.
+277 | It 【has】 reached the highest level of evolution.
+113 | I’ve been using one since the start of last semester, and it 【has】 really helped relieve a lot of study pressure.
+266 | He 【has】 recently been commissioned to design the new Museum of London building in
+239 | And now, the World Health Organization 【has】 recognized addiction to computer games as a disease.
+93 | a similar mix of creative and technical skills, also 【has】 recruitment problems.
+385 | Not only 【has】 red meat
+246 | She 【has】 registered for two new gym classes.
+215 | A paper published this week by University of Sydney researchers in Social Networks 【has】 reported participants' feelings about team-building interventions, revealing ethical implications in forcing employees to take part.
+238 | It 【has】 resulted in damage to office equipment.
+387 | But since the early 1970s it 【has】 risen
+100 | It 【has】 risen because of bird flu.
+270 | the past 20 years, the share of Americans working in their 70s 【has】 risen from less than 10% to nearly 15%.
+169 | People in France are keeping away from the narrow French stick loaf in favor of healthier, cheaper options, a millers association 【has】 said.
+376 | It 【has】 seen a change in attitude towards women engineers since 1979.
+308 | It 【has】 seen a decline in verbal agreements.
+216 | Jarvis and his colleagues also found that, over the past five decades, the world 【has】 seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar than they were in 1961.
+140 | The issue is that, unlike using a smartphone app, operating a car 【has】 serious safety risks, whether the driver is human or
+400 | Many gamers know their passion for playing games 【has】 shaped their identity.
+405 | It 【has】 shed light on teens’ instinct for rebellion and autonomy.
+92 | Research in human-vehicle interaction 【has】 shown even systems designed to automate driving are far from being error-
+191 | More recent work 【has】 shown roughly the same.
+402 | Unfortunately, while health education 【has】 shown some
+244 | Research 【has】 shown that 82% of employees think social media can improve work relationships and 60% believe it can support decision-making processes.
+158 | Research published in recent years 【has】 shown that running changes your brain and mind in some fascinating ways, from increasing your brain function to regulating your emotions.
+111 | Research 【has】 shown that smartphones are currently American teens’ main form of social communication.
+395 | (Indeed, research 【has】 shown that the highest earners in America tend to work the most.
+313 | However, the research does not explain why this is the case—a question that 【has】 significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+365 | The rate of wage increase in terms of purchasing power 【has】 slowed down for years.
+181 | W: Your book 【has】 sold 2 million copies, but before we discuss why it’s getting so much attention, let’s talk about your background.
+194 | While analytical decision-makers benefit from a deliberate, thoughtful approach, this style also 【has】 some shortcomings.
+214 | But it turns out Japan still 【has】 some very old mills with the traditional weaving tools used to make jeans the original way.
+314 | The American Civil Liberties Union 【has】 stated that digital assistants create a threat to privacy from hackers.
+368 | 【has】 stayed at just below 40 hours for nearly five decades.
+123 | He 【has】 stayed up playing computer games.
+166 | Progress at reducing undernourishment 【has】 stopped despite gains through the 1990s and 2000s.
+117 | This confirms that even with a lack of resources, if a country 【has】 strong women’s rights, the health outcomes are better.
+213 | John Bloom, a professor at Shippensburg University who 【has】 studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal.
+343 | New research 【has】 studied the effects of a seven-week healthy cooking course.
+262 | wood 【has】 such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.
+88 | A pilot programme in a school district in Anderson County, South Carolina, 【has】 supplied
+84 | It 【has】 surpassed its mother in performance.
+184 | A rare thundersnow event 【has】 taken place in Scotland.
+163 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update on where their journey 【has】 taken them and what resiliencies (韧性) have been the pavement on which they’ve traveled.
+252 | And Formula One 【has】 that more than any other racing series.
+103 | The World Health Organization reports that depression 【has】 the
+383 | What 【has】 the author come to realise since entering university?
+205 | Kelli’s letter, a literate update on both her personal and professional life, touched my heart, and especially so when saying that two decades later she still 【has】 the course text, “Solutions to Violence,” and that “it remains one of my favorite possessions.
+224 | It's hot weather that 【has】 the negative impact.
+306 | What 【has】 the Office for National Statistics verified?
+255 | In other words, the more we believe that one 【has】 the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.
+101 | There are others, however, who showed support for the restaurant’s decision. [4] They said it 【has】 the right to implement any rules it wants.
+217 | To maintain a serious hobby, people need to invest significant psychological resources, say the authors—so if the activity 【has】 the same kinds of demands as their work, they may be left _32_ and unable to perform well at their job.
+222 | Who says instant gratification 【has】 to    ?P:have to
+336 | It 【has】 to be carried out to the letter.    ?P:have to
+115 | The software 【has】 to be constantly upgraded.    ?P:have to
+409 | An effective intervention 【has】 to be found to persuade teenagers to switch to a healthier lifestyle.    ?P:have to
+394 | If you want to build a new spaceship, the raw material 【has】 to be mined by another player.    ?P:have to
+367 | Most interaction with the professor 【has】 to be through email which is often impersonal.    ?P:have to
+185 | environment and a broader, growing sense that something 【has】 to change.    ?P:have to
+204 | “The public 【has】 to learn to be far more aware they are a target for these sort of frauds.    ?P:have to
+91 | He 【has】 to prepare for the future.    ?P:have to
+281 | He no longer 【has】 to worry about whether or not he can understand.    ?P:have to
+366 | It 【has】 too few first-class teachers.
+241 | It 【has】 treated left-handed children as being disabled.
+404 | Now a large-scale study 【has】 tried an innovative approach to change teenagers’ attitudes towards healthy eating, and the
+373 | One in ten Americans 【has】 tried to look like a star.
+104 | The café is open in the mornings every day of the year and 【has】 two members of staff or supervisors on shift every day.
+167 | The owner 【has】 two weeks to collect the cash, which is then returned to the finder if not claimed, according to Peterlee Police.
+162 | H) Nick Cooper, the founder and co-owner of villa booking company Villa Plus, estimates his company 【has】 uncovered more than 200 fake villa websites over the past two years, and doesn’t believe enough is being done.
+245 | She 【has】 walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.
+288 | O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he 【has】 witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.
+229 | Among them are architect Asif Khan, a Design Museum trustee who 【has】 worked as designer-in-residence at the museum,
+180 | He 【has】 worked in several banks.
+124 | In total, KaiOS phones are made from about $15 worth of parts, while Apple’s top-of-the-line iPhone 【has】 $390 worth of stuff.
+
+============================================================
+## 词：your    本段 231 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：pron.你的; 你们的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 你的，你们的    B 样本 80    例：Thank you for your help.
+口径说明（照此执行）：
+  - 泛指的 your（increase your lifespan、your heart is racing）也按0标；题干 Suppose your university… 出现很多。
+句子：
+137 | The answer is, literally, at 【your】
+207 | This is problematic because it hinders 【your】 ability to adapt to new circumstances, which is vital if you want to be a successful entrepreneur.
+231 | Successful persuasion skills are based on 【your】 ability to have positive interactions and maintain meaningful relationships
+194 | Studies report that where you sit in the classroom can impact 【your】 ability to learn and the way 【your】 teacher perceives you.
+95 | choices, and also make you more confident about 【your】 ability to make the right decision.
+143 | “The problem is that when the money leaves 【your】 account it’s in theirs straightaway and it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+202 | And what matters is the power 【your】 actions have to inspire you.
+243 | to 【your】 advantage.    ?P:to one's advantage
+263 | need for immediate rewards, why not use it to 【your】 advantage?    ?P:to one's advantage
+99 | should write 【your】 answer on Answer Sheet 2.
+258 | H) Next, turn 【your】 attention toward their social media outlets.
+89 | This is the equivalent produced by 【your】 average car driving almost 70 times around the world. [16] As well as greenhouse gases, rocket engines emit particles that destroy ozone.
+257 | Since 【your】 baby doesn’t dream at this stage of brain development, it’s safe to assume babies do not have nightmares,
+266 | So, if 【your】 baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at
+248 | The Internet will be 【your】 best friend when you’re trying to familiarize yourself with a company’s culture before ever walking through their office doors.
+146 | My school charges an additional fee for the use of a credit card to settle outstanding charges, which can add upwards of 3% of the balance to 【your】 bill.
+149 | Or even simply see 【your】 birthday as an opportunity to bring people together for them to have fun.
+113 | It’s best to gradually face 【your】 birthday with people you trust.
+88 | But I’ve seen 【your】 blog, and you write about houses that are as small as 20 square meters. [13] That’s not a realistic size for families.
+186 | breaks down glucose in 【your】 blood or muscles.
+259 | However, the sun can have a positive influence on 【your】 body by raising 【your】 energy levels.
+158 | weights—is of such ___32___ intensity that 【your】 body does not have time to use oxygen to create energy and so instead it
+124 | way that 【your】 body is able to use oxygen to burn fat for energy.
+178 | Sunshine and high temperatures can mean picnics and parks and trips to beaches, but they can make 【your】 body react in some strange ways.
+275 | And vitamin D from sunshine can help 【your】 body to absorb certain minerals, which are linked to building stronger bones.
+118 | But as regards bones, it's ___30___ use it or lose it: To keep 【your】 bones strong you have to keep exercising.
+85 | W: 【Your】 book has sold 2 million copies, but before we discuss why it’s getting so much attention, let’s talk about 【your】 background.
+134 | (ASMR), which ___27___ to you like a sting in 【your】 brain.
+236 | Research published in recent years has shown that running changes 【your】 brain and mind in some fascinating ways, from increasing 【your】 brain function to regulating 【your】 emotions.
+96 | If you're especially into a piece of music, 【your】 brain does something called Autonomous Sensory Meridian Response
+84 | Put in practical terms, when thinking of yourself in a month or a year or a decade, 【your】 brain registers that person in
+166 | Alzheimer’s Disease, the part of 【your】 brain responsible for ASMR doesn’t get lost to Alzheimer’s.
+203 | First, sunshine can actually affect 【your】 breath.
+280 | That’s the perfect opportunity to speak up and get 【your】 burning company culture questions answered!
+208 | But for as long as you want to stay safe, and for as long as you are content with where 【your】 business is right now, you will never find out.
+246 | knowledge is unproductive unless you actually launch 【your】 business or donate to those in need.
+106 | It can prove a challenge to Western businesses if 【your】 business partner wants to renegotiate terms that you thought were already agreed on.
+184 | But this should not stop you from taking risks, as risks are necessary if you want 【your】 business to succeed.
+226 | If a new competitor emerges to threaten 【your】 business, you may need to change direction, even if that means straying from 【your】 original vision.
+234 | bar in 【your】 car, or every handful of nuts at 【your】 desk?
+173 | M: Well, (11) you’ll need to update 【your】 card details directly on our website.
+141 | But this seems to be a problem with 【your】 card number.
+195 | three or four years, you simply weren't getting ahead in 【your】 career.
+223 | Saying “no” is an important skill to develop at any stage of 【your】 career because it retains the most important asset in life: 【your】 time.
+247 | G) Playing games casually is unlikely to help 【your】 career prospects.
+83 | Remember that you will have to have all 【your】 certificates to hand when you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+233 | you’re a determined gamer is more likely to harm 【your】 chances of getting a job.
+145 | As the organizer of the activity, you are now to write an invitation letter to the invited speakers on behalf of 【your】 class.
+109 | Directions: Suppose 【your】 class plans to invite some former graduates to share their job experiences with the students.
+167 | Yes! [22] It does matter where you sit in 【your】 classroom, so choose and choose carefully!
+204 | You have to pay back 【your】 commitment at some point.
+201 | These findings present a dilemma for managers: employees using social media at work are more engaged and more productive, but they are also more likely to leave 【your】 company.
+255 | When are you more likely to succeed in persuading 【your】 coworkers?
+128 | Effective use of persuasion skills will not only help get 【your】 coworkers excited about 【your】 ideas, it’ll also help
+290 | 【Your】 current situation in life is built on the beliefs and habits you have been practicing daily.
+104 | What’s 【your】 customer reference number, please?
+163 | the hours in 【your】 day between work, the gym, kids and chores.
+169 | 【Your】 day is ruled by minutes and seconds, but these concepts are
+219 | Is a boss undermining 【your】 day-to-day control over decision making?
+268 | You might feel like the sun is giving you extra energy for 【your】 day, which is actually happening.
+212 | thinking about 【your】 deadline in terms of days rather than months or years can help you wrap 【your】 mind around how close the    ?P:wrap one's mind around
+102 | Being humble means you have the ability to accurately 31 【your】 deficiencies without denying 【your】 skills and strengths.
+218 | If 【your】 definition of boredom is being quiet, mindful, and reflective, keep it up.
+215 | deliver 【your】 desired outcome (speaking the foreign language).
+159 | But can you give me 【your】 details anyway?
+237 | Now comes the part when you put on 【your】 detective hat and do a little digging.
+129 | of 【your】 emotional state is essential in order to determine the changes you want to make in 【your】 work and in 【your】 life,” says
+174 | So before you can determine whether you and a specific company would be compatible together, it’s important to have a solid handle on what exactly you want from 【your】 employer.
+265 | J) The last important point to consider is that practice focuses 【your】 energy on the process.
+285 | 【your】 energy on the process, not the product.
+98 | you are taking a DNA test to build 【your】 extended DNA family tree, or want precise information on inborn health
+172 | Be a better listener yourself, and give others opportunities to participate in the conversation by inviting them with questions or requests to share their own experiences or thoughts. (e.g., “Now, tell me about 【your】 favorite book,” or “Have you ever been to that attraction?
+291 | Simple questions like, “What three words would you use to describe the culture here?” or “What’s 【your】 favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.
+117 | So next time you see 【your】 favorite superhero film, be entertained, but also be inspired.
+213 | But after a time, 【your】 fear response to other things in life will be dramatically reduced.
+279 | and beliefs that you have been practicing each day, When you realize this and begin to direct 【your】 focus toward practicing
+281 | Therefore, I suggest you spend more time in the park with 【your】 friends, but make sure you apply lots of skin protection and fill up those water bottles, too.
+303 | Whether 【your】 future husband insisting on 【your】 adopting his last name is a red flag to you or not, it is still something that you should take into consideration.
+302 | I) It is possible that 【your】 future husband will find this choice offensive.
+229 | I) The third solution is to forget about 【your】 future self and use 【your】 present self’s love of instant gratification
+278 | By all means, set ambitious long-term goals for 【your】 future self, but when it comes to actually following
+126 | possible solutions: The first is to force 【your】 future self to do whatever 【your】 present self doesn't want to do.
+282 | When you decline a request, you are saving 【your】 future time.
+179 | You retain the ability to spend 【your】 future time however you want.
+130 | Let’s say 【your】 goal is to get stronger and more
+164 | Let’s say 【your】 goal is to grow 【your】 startup.
+90 | something new can actually be a waste of time if 【your】 goal is to make progress and not simply gain additional knowledge.
+192 | Let’s say 【your】 goal is to write a book.
+162 | you can get somebody on-board with 【your】 goal, you should help them understand why they should pursue it.
+250 | You need to say “no” to whatever isn’t leading you toward 【your】 goals.
+121 | Finding someone you’re committed to outcompeting can be a great way to stay focused on 【your】 goals and push 【your】 venture to the next level.
+272 | M) These findings suggest that when it comes to achieving 【your】 goals, enjoying the process itself is more important than
+107 | So if you want to know for certain what you’re getting with 【your】 groceries, you might want to stick to the farmer’s market.
+181 | Even if 【your】 groom is fine with it, his family (or 【your】 own) might not be so understanding.
+240 | For example, if 【your】 groom’s name is John Smith and 【your】 name is Kate Jones.
+299 | Once a reward is achieved, it is much easier to continue sticking to 【your】 habits.
+289 | It's easier to change 【your】 habits to lose weight if
+152 | M) Using voice also makes sense when you're doing other things with 【your】 hands.
+182 | 【Your】 hands are covered with oil; you're not going to get on the iPad, so it's a lot more natural to talk.
+153 | Taking a walk can be great for ___32___ 【your】 head or blowing off some steam.
+133 | behaviors like exercise or food intake can significantly influence 【your】 health.
+249 | At that point, 【your】 heat regulatory system can essentially quit, which stops you from sweating as 【your】 body tries to keep water around 【your】 vital organs.
+111 | Thanks for 【your】 help.
+187 | Thank you so much for 【your】 help.
+165 | “Which matters more depends on what 【your】 history up until that point has been in the type of work you’re doing,”
+295 | Obviously you will still be you even if you’ve taken on 【your】 husband’s last name and omitted yours entirely.
+301 | Some people even believe that not simply adopting 【your】 husband’s last name is a huge sign of disrespect and a lack of commitment.
+139 | Thus, a humble partner might be 【your】 ideal partner.
+127 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But 【your】 ideas about education are the most controversial.
+214 | come to a logical choice and become fully committed to 【your】 ideas and plans.
+190 | aids to back up 【your】 ideas can help communicate 【your】 ideas better and make compelling arguments so 【your】 listeners will
+288 | G) Probably the most important reason to consider hyphenation is 【your】 identity.
+123 | They are about combining 【your】 inner wisdom with the knowledge of systematic data to make the best decisions.
+81 | Decisions are not about making the choice and braving the consequences because you want to blindly trust 【your】 instincts.
+157 | The only feasible option is to rely on what 【your】 instincts tell you.
+286 | So yes, you can definitely ask 【your】 interviewer about what it’s like to work for that particular organization.
+245 | make, the more they trust 【your】 judgement and strength.
+293 | you have a health issue and you want to be around longer for 【your】 kids, or if 【your】 business is something you're passionate
+232 | I) Even more importantly, practice is the only way to make a meaningful contribution with 【your】 knowledge.
+256 | valuable for you but if you want to be valuable to others, then you have to express 【your】 knowledge in some way.
+225 | Most of the time, though, the most popular compromise is to hyphenate 【your】 last name and the last name of 【your】 groom.
+270 | Hyphenating 【your】 last name can help you bridge the gap between 【your】 personal and professional lives.
+220 | (19-1) “One 60-minute run can add seven hours to 【your】 life.
+228 | start to vanish, leaving you stronger, more confident, and yes, happier in 【your】 life.
+151 | Can the date you were born affect how successful 【your】 life is?
+273 | The state of 【your】 life right now is a result of the habits
+176 | However, taking action and applying a new idea to 【your】 life will inspire you more than anything someone else can say.
+183 | You're constantly forced to push yourself past 【your】 limit.
+230 | You’ll be pushed to 【your】 limits, and if you aren’t focused you’ll make dangerous mistakes.
+200 | There’s no wrong answer here—so from big things to small details, write them all down on 【your】 list.
+308 | L) What matters, of course, is that the two of you are going to be happily married—hopefully for the of 【your】 lives.
+188 | H) Whatever 【your】 long-term goals may be—getting in better shape, launching 【your】 own business, writing a book —
+112 | For example, if 【your】 manager comes to you and asks you to do X, you can respond with ‘Yes, I’m happy to make this the priority.
+310 | Try to remember that as you are staring at the application for 【your】 marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that might be).
+122 | They are right next to each other on the ground floor, since you mentioned in 【your】 message that they have trouble with stairs.
+154 | M: Simple, by cutting housing, food, and transport expenses, [15] and investing half 【your】 monthly income.
+93 | M: [11] I’m not convinced that the benefits are greater than the disadvantages, but I’ll discuss this with 【your】 mother.
+241 | Clearly, some amount of ambition is good for 【your】 motivation.
+222 | When you are lacking water, 【your】 mouth becomes dry.
+274 | You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you just stare across the table blankly with 【your】 mouth hanging open?
+238 | Bacteria accumulate because there isn’t enough water in 【your】 mouth to wash it away.
+277 | F) While tradition is one thing, there isn’t any logical reason to completely change 【your】 name.
+305 | The basis for each of these things, however, is whether or not you are willing to make a compromise when it comes to changing 【your】 name.
+306 | From there you are going to have to legally change 【your】 name all over the place.
+283 | Keeping 【your】 name and joining it to 【your】 husband’s through hyphenation is as legal as simply adopting his name or as simply keeping 【your】 own and leaving his out of the picture entirely.
+307 | You’ll need to change 【your】 name at the bank, with social security, with 【your】 credit cards, on 【your】 driver’s license, at the gym … everywhere.
+298 | At the same time, 【your】 name is associated with the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and 【your】 husband’s family’s identity.
+150 | A lot of times, though, the act of keeping 【your】 name is still something that causes concern.
+142 | Luckily, there are a few things you can do to determine whether or not a company is a good fit for you—before you ever sign 【your】 name on that dotted line.
+304 | J) There are all sorts of reasons to hyphenate 【your】 name or not to hyphenate 【your】 name.
+300 | H) If you care about outside opinions on 【your】 name, you should know that a large portion of today’s society is annoyed by the hyphenated name.
+309 | At the end of the day, whether you each keep 【your】 names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate 【your】 current last names, what matters is that you love each other and are going to be joining 【your】 lives together.
+91 | Effort means more than 【your】 natural ability.
+210 | As you become more capable of providing yourself with the approval you seek, 【your】 need for external validation will
+205 | If you are thinking to try colour on some of 【your】 neutral walls, the advice is refreshingly simple: Choose a colour you actually like.
+175 | It could be 【your】 next-door neighbor or organized crime in Russia.
+119 | That’s why we recently launched the Out of Office Email Generator, a free tool you can use before 【your】 next long weekend or trip.
+92 | J) And juice isn’t a cure-all for getting 【your】 nutrients, either.
+103 | Share 【your】 observations about the world around you—interesting stories you heard or things you noticed—and you may be surprised by the universal connection they inspire.
+144 | Hearing about other people’s success isn’t the same as creating 【your】 own.
+264 | When they are convinced you work in their interests while sacrificing 【your】 own.
+211 | Imagine boating down the Amazon River, minding 【your】 own business—calmly keeping an eye out for alarmingly large snakes—and a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins do exist in the Amazon region.    ?P:mind one's own business
+252 | Without any ambition, you wouldn't start 【your】 own business, set or achieve goals and get far in life.
+261 | It is a way of you keeping 【your】 own identity while also making 【your】 future husband happy.
+114 | There are a lot of reasons to want to keep 【your】 own last name.
+251 | This allows you to keep going by 【your】 own last name while legally adopting 【your】 husband’s last name at the same time.
+177 | Nevertheless, emotional intelligence is a useful skill to have, as long as you learn to also properly cope with emotions—both others’ and 【your】 own, says Bechtoldt.
+198 | One strategy to be a good conversationalist is to motivate 【your】 partner to tell their own stories.
+131 | Even if you haven’t mastered a skill, grit tells you that you can still succeed if you can transform 【your】 passion into action.
+156 | W: [12] Now, all I need is to photocopy 【your】 passports and then I can get you all checked in and show you to 【your】 rooms.
+168 | Tests that offer to find 【your】 perfect romantic match and those claiming to predict personality or talents based on 【your】
+199 | And then under the description of 【your】 personal information, you should see an option for updating payment methods.
+132 | Plant-based meats are coming soon to a dinner table near you, but do they deserve a spot on 【your】 plate?
+287 | This shift toward aquaculture isn’t just good for ensuring salmon (三文鱼) on 【your】 plate; it’s also crucial to ensuring food security and sustainability.
+86 | The art of persuasion means convincing others to agree with 【your】 point of view or to follow 【your】 course of action.
+138 | matter how many likes you get on 【your】 post.
+97 | Despite its restrictions, analytical decision-making does have several key strengths. [18] By relying on facts and data, you minimize 【your】 potential for a wrong decision.
+284 | through day-to-day, make sure 【your】 present self knows what's in it for her too.
+254 | Instead of fighting 【your】 present self’s
+160 | convince 【your】 present self that 【your】 future self is, in fact, still you.
+297 | Focus on the top spots on 【your】 priority list, and
+87 | can help you shift and adapt 【your】 professional life to something that will better harmonise with 【your】 personal one.
+161 | 【Your】 proposal to pay cash rewards to students who get good grades is a particular problem.
+136 | 【your】 real ancestry.
+147 | Just remember to keep all 【your】 receipts.
+185 | But such behavior may stain 【your】 reputation and strain relationships important to 【your】 success.
+267 | If you get a yes to 【your】 request for a chat, you’ll be armed with some pretty powerful and helpful information heading into 【your】 interview!
+221 | G) Make sure to do 【your】 research.
+148 | For this reason, it can be helpful to be gracious in 【your】 response.
+216 | ranking in Overwatch should go down in 【your】 resume?
+209 | While outperforming 【your】 rivals may provide short-term benefits, the loss of 【your】 integrity will have long-term consequences.
+155 | But when you’re intently focused on outperforming 【your】 rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore how you achieve success.
+101 | You'll find depth that you won't get from 【your】 screen no
+244 | When you find that you can overcome the physical or mental challenges involved in extreme sports, you’ll feel superhuman and 【your】 self-confidence will be at an all-time high.
+170 | you want to reduce boredom and increase 【your】 sense of meaning, seek work where you can make a unique
+140 | K) “If the listener is not paying attention, it’s 【your】 sign to shorten the story or change direction.
+276 | As 【your】 skills improve and you learn to separate what works from what doesn’t, you have to continually increase 【your】 threshold for saying “yes”.
+120 | M: True, but if you keep current with 【your】 skills, you will be attracted to employers.
+180 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on 【your】 smartphone or laptop, and sign language into text as well.
+189 | Steve Maraboli once said, “When someone tells you they are too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of 【YOUR】 spot on their schedule.    ?X
+235 | L) Ideally, 【your】 spouse or partner will be supportive, rather than dismissive, of 【your】 stress.
+260 | H) Over time, as you continue to improve and succeed, 【your】 strategy needs to change.
+171 | It is important to understand what causes 【your】 stress in the first place.
+110 | H) If you plan on paying off bills in 【your】 student account with a credit card, be aware of any additional costs.
+296 | that don't contribute to 【your】 success and adopt those that do.
+217 | But when you sit in the front row, you may be called on more by 【your】 teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+135 | It’s the first day of school, and 【your】 teacher tells you to find a seat in the classroom.
+115 | I hear there’s something else that makes 【your】 theatre special.
+197 | Is a colleague being disrespectful of 【your】 time?
+196 | contribution, or find a cause you can support with 【your】 time and talent.
+269 | The opportunity cost of 【your】 time increases as you become more successful.
+239 | As investor Pedro Sorrentino put it, “If you don’t guard 【your】 time, people will steal it from you.
+224 | If you’re weary of full colour, test 【your】 tolerance with smaller spaces, such as the inside of a cupboard or a bright window frame.
+193 | But does that really mean 【your】 top 100
+294 | L) Prioritize 【your】 values.
+253 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of 【your】 venture.
+262 | The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put 【your】 venture in peril.
+227 | One reason having a rival can enhance 【your】 venture’s performance is that it creates a level of excitement that drives you to work harder.
+271 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger 【your】 venture’s success is to remain attentive to 【your】 emotional state and actively monitor how such feelings are affecting 【your】 decision-making.
+242 | But this eagerness to win may also hurt 【your】 venture’s success, particularly when it causes you to make impulsive, insensible decisions.
+82 | You are now to write an essay to express 【your】 view.
+94 | are now to write an essay to express 【your】 view.
+116 | Even turning 【your】 voice into text—automatic speech recognition—is one of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet.
+108 | Because of social categorization, you immediately judge the woman as harmless, and the man as threatening, leading to the loss of 【your】 wallet.
+206 | This way neither of you gets “【your】” way and you both have to deal with the legalities of going through a name change.
+125 | W: I should be fine with doing it on 【your】 website, and I already have all my certificates, as we run a small farm shop too.
+100 | account balance, 【your】 weight and so on.
+292 | You’ve spent 【your】 whole life building 【your】 identity under a certain name.
+80 | So we have a family room for you and 【your】 wife and the kids, and another double room for 【your】 parents-in-law.
+105 | Company culture can have a big impact on how you feel about 【your】 work, so you want to make sure you sign an offer letter with an organization you’re truly excited about.
+191 | If 【your】 workplace isn’t an environment where work-life balance is possible in the first place, any effort

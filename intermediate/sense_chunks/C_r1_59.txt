@@ -1,0 +1,616 @@
+# 任务 C_r1_59：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_59.labels.txt
+
+============================================================
+## 词：more    本段 600 句    模式：全标（每句都写）
+原释义：adj.更多的; 附加的. adv.更; 再; 而且(many/much的比较级).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 更，更加（构成比较级：more expensive）    B 样本 23    例：More convincing explanation.
+  1  adj. 更多的，较多的    B 样本 19    例：Get approval to add more routes.
+  2  adv. 更多地，更大程度地（修饰动词：walk more）    B 样本 3    例：And with four of us, it wouldn’t cost any more than living in the dorm.
+  3  pron. 更多的人或事物    B 样本 2    例：Find out more about their ancestry.
+  4  adj. 另外的，再…（数词 + more：one more thing）    B 样本 4    例：M: Just one more thing.
+  5  adv. 再，又（once more）    B 样本 0
+已标过的短语：more than（13）；no more than（9）；more and more（3）；the more...the more（2）；not any more（1）；have to do with（1）
+口径说明（照此执行）：
+  - 原 def 的「而且」其实是 what's more 的短语义，没单列义项；no more than（不超过，大量来自写作字数要求套话）单独标 P，与 more than 分开。
+句子：
+85 | Interestingly, they found that men were far 【more】
+92 | Let’s say your goal is to get stronger and 【more】
+197 | They may neglect to cultivate the inner qualities that matter 【more】.
+210 | If we eat something too hot or too cold, or if the tooth is worn down enough where the tissue _29_ is exposed, all of those things cause pain, and then the pain causes the person not to use that tooth to try to protect it a little bit 【more】.
+271 | Even though we basically know what will happen, we keep coming back for 【more】.
+288 | So as you can see, when it comes to choices, less is 【more】.
+294 | high school is half a million dollars or 【more】.
+322 | This suggests that communicating 【more】
+323 | [24] Productive conflict is a vital part of teams and organizations that want to push forward and do 【more】.
+325 | point was reached in 2020 when human-made materials — such as steel, concrete and plastic — were found to weigh 【more】
+424 | It followed infants across the second six months of life and found that when parents showed babies books that had faces or objects with specific labels, they learned 【more】.
+445 | organizations promoting a message that, in the battle against weight gain, people should pay 【more】
+497 | This includes tuition, fees, graduation rates and 【more】.
+526 | Researchers found through experiments that students could be taught to respond to stress in a 【more】
+562 | It is mainly accounted for by male employees’ readiness to pay 【more】.
+570 | Focusing on STEM skills is important, but the reality is that SIBM skills are enhanced and 【more】
+587 | They convey the idea that their products are ok if consumers exercise 【more】.
+632 | Some people have said aging is 【more】 a slide into forgetfulness than a journey towards wisdom.
+420 | Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned 【more】 about budgets than learning.
+347 | As a scientist, Smith _30_ studied individuality for a living, and even he was surprised to find younger respondents cared 【more】 about having a _31_ in life.
+180 | Alan was given away for adoption soon after he was born, and Walter never knew his father. [3] So recently, they made separate attempts on DNA matching websites to discover 【more】 about their ancestry.
+581 | It is due to the fact that women care 【more】 about their company’s money.
+484 | To write his 2010 book, The 5-Factor World Diet, nutritionist Harley Pasternak traveled to the healthiest countries around the world to learn 【more】 about what made their meals extra nourishing.
+185 | found that men used ___31___ 【more】 abstract language in their blog posts.
+319 | Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become 【more】 acceptable.
+574 | It is becoming 【more】 acceptable to many who used to think it offensive
+467 | Young women engineers are 【more】 accepted mostly because there are just
+521 | What probably makes young women engineers 【more】 accepted nowadays?
+578 | Enabling them to have 【more】 access to nutritious foods.
+489 | Chase Carey believes greater use should be made of digital technology to make Formula One 【more】 accessible to its fans.
+647 | For statistics, we should invest in 【more】 accurate measurement
+633 | As was expected, when people thought of their present selves, their brains were observed to become 【more】 active.
+659 | This is because the liver enzyme these drugs target is 【more】 active at night.
+648 | Having a growth mindset of interest can help job seekers expand their interests and become 【more】 adaptable to different fields, and take the initiative to learn new skills.
+524 | deceptive strategies used to make junk food 【more】 addictive and characterize the products as healthy.
+320 | That is because they want to appear 【more】 adult, and they know how adults are expected to write.
+596 | Develop 【more】 advanced fishing technology.
+486 | Research shows that in developed countries, 【more】 affluent and educated people tend to consume higher-quality diets—including 【more】 fruits and vegetables, fish and whole grains.
+110 | Such cats displayed 【more】 aggressive and anxious behavioural styles as well as 【more】 stress-related sickness.
+349 | They tend to be a lot 【more】 aggressive than right-handed people.
+679 | They are 【more】 ambitious than ordinary people.
+97 | when a car in dense traffic slows down even slightly, which causes the car behind that vehicle to slow even 【more】 — and
+375 | “right” or “correct” decision begins to feel 【more】 ___31___ and, at the same time, 【more】 difficult to do.
+212 | 【More】 and 【more】 British holidaymakers find the seaside villas they booked online actually nonexistent.    ?P:more and more
+534 | Cheating was getting 【more】 and 【more】 difficult for high school students.    ?P:more and more
+137 | 【More】 and 【more】 people are taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many 【more】.    ?P:more and more
+272 | What is one of the causes for 【more】 and 【more】 people in Los Angeles to become homeless?    ?P:more and more
+640 | 【More】 and 【more】 people in the world are suffering from starvation.    ?P:more and more
+413 | K) Research on the language of numbers shows, 【more】 and 【more】, that one of our species' key    ?P:more and more
+301 | 【More】 and 【more】, watching a movie is something teens choose to do on their electronic devices.    ?P:more and more
+310 | Over time, though, 【more】 and 【more】 women are deciding to keep their last names.    ?P:more and more
+235 | school even 【more】”, and someone else called snow days “a fun part of childhood”.
+285 | “It may well be that the messy nature of their relationship with human efforts induces 【more】 animals to scatter or
+547 | healthy eating as being 【more】 appealing.
+515 | One of Chase Carey's goals is to make Formula One 【more】 appealing to Americans.
+429 | They can offer insight into the evolution of their own experience and knowledge, presenting themselves as 【more】 approachable and then they are 【more】 likely to inspire others to want to know 【more】.
+200 | This study gathered that students had a clearer vision of the blackboard, and were able to focus 【more】 attention on the instructor.
+576 | pay 【more】 attention to body shape
+545 | Enable us to look a lot 【more】 attractive.
+184 | The deeper the pink, the 【more】 attractive the males are believed to be, and the older the male, the 【more】 pink it will have.
+189 | It finds that sharing information about diversity makes job postings 【more】 attractive to job seekers, even when pay is lower.
+391 | Thomas’s approach, named the Eden Alternative, has driven nursing homes to allow a 【more】 autonomous (自主的) and creative living space for their elderly.
+114 | “The public has to learn to be far 【more】 aware they are a target for these sort of frauds.
+653 | 【more】 beautiful and delicious our future will be.
+422 | The university administration will likely vote to raise costs at least once 【more】 before my graduation.
+395 | G) Increased digital access for fans, a 【more】 behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality—what is it like to speed around a track inside a Ferrari?—are among the possibilities.
+499 | infrastructure — to clean up the air, reduce greenhouse emissions, and speed up travel by making towns 【more】 bike-friendly.
+444 | pumped 【more】 blood-both of which contributed to 【more】 oxygen getting to the brain, and, ultimately,
+172 | They bake 【more】 bread at home.
+519 | even 【more】 brilliantly than he expected.
+527 | encourage 【more】 business.
+385 | K) Learn 【more】 by asking questions.
+245 | We may be appreciated 【more】 by people around us.
+292 | But when you sit in the front row, you may be called on 【more】 by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+408 | G) So while we know that fruit juice can cause diabetes if it’s part of a diet that has 【more】 calories overall, it's less clear how
+591 | Now the Office for National Statistics has confirmed that we are consuming 50% 【more】 calories than
+279 | Extreme sports also burn a lot 【more】 calories than other sports.
+583 | As you become 【more】 capable of providing yourself with the approval you seek, your need for external validation will
+380 | We regard these disappointments as a fate we could have avoided with 【more】 careful
+191 | M: I go to the bank once a week, and the rest of the time I keep my bank card at home, so I can’t get 【more】 cash out.
+164 | Although she found another villa in time for their holiday, she admits she was much 【more】 cautious.
+359 | “On the other hand, scientists at the USDA who I’ve spoken with are much 【more】 cautious.
+104 | It offers 【more】 choice.
+95 | Customers given 【more】 choices are 【more】 likely to get confused.
+334 | In other words, when we are ___30___ with 【more】 choices, making the
+147 | We assume that if we offer our customers 【more】 choices, then they’ll be 【more】 likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+401 | But the team found that participants' brain activity while considering their future selves 【more】 closely
+130 | We are drawn to people who think like us; we then influence their thoughts over time, which may push their brain activity into 【more】 closely resembling our own.
+434 | as other people, it follows that trying to identify 【more】 closely with our future selves will encourage us to make better long-
+641 | One in which the affluent enjoy a 【more】 comfortable life at the expense of the poor.
+481 | People from the rest of the world, such as Latin America, are considered to be in high-contact cultures, where they tend to expect touching in social interactions and feel 【more】 comfortable with physical closeness.
+226 | It is neither desirable nor morally acceptable nor practical for this county to tolerate the signs of deprivation 【more】 commonly associated with the slums of Rio de Janeiro.
+419 | They are advertised as a way for adults to finish their education and students to learn the material at their own pace—it is far 【more】 compatible for people with busy schedules.
+437 | He believes giving out this information will help Ohio’s colleges and universities to be 【more】 competitive.
+399 | Students now write longer and 【more】 complex essays than their counterparts in previous decades while the error rates remain unchanged.
+508 | Despite the classification, there are 【more】 complex factors such as relational closeness, gender, age, and context that can affect how someone views physical contact.
+344 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for other activities—like going to the movies with friends or reading longer, 【more】 complicated texts.
+454 | Fill out a 【more】 comprehensive checklist, and be wary of listed prices that seem too low.
+441 | choices, and also make you 【more】 confident about your ability to make the right decision.
+498 | Wearing power clothing makes us feel 【more】 confident and even
+602 | start to vanish, leaving you stronger, 【more】 confident, and yes, happier in your life.
+646 | Employees become 【more】 confident in their work.
+425 | Last year he published Second Wind: Navigating the Passage to a Slower, Deeper, and 【More】 Connected Life, a guide on how to shift our perspectives on aging and growth.    ?X
+504 | Our always-on world of social media may result in 【more】 connections, but they are superficial and can
+268 | However, as water supplies __35__, farmers and consumers need to be 【more】 conscious of the effect that these products have on the environment as a whole.
+105 | Simply put, countries stick to darker and 【more】 conservative colors because they appear 【more】 official.
+93 | To incentivize manufacturers to be 【more】 consumer-friendly.
+145 | M: Yeah, it’s 【more】 convenient. [10] Bus No.
+622 | Owing to the internet, it is now 【more】 convenient than ever to receive training in new skills.
+473 | In 【more】 conventional views, gaming is a time-wasting activity pursued by young boys.
+433 | F) A third possibility proves 【more】 convincing for Friedman.
+122 | They do 【more】 cooking than men.
+537 | When researchers estimate the cost of diets people actually eat, higher-quality diets are typically 【more】 costly.
+538 | No wonder using mobile phones while driving causes 【more】 crashes a year than drink driving, says the U.S.
+477 | It is found that people are 【more】 creative following the completion of a tedious task.
+121 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are 【more】 creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+645 | “The 【more】 creative we are, the
+265 | To be 【more】 creative, we could try lying in a controlled environment.
+625 | They are far 【more】 curious than adults.
+660 | To encourage 【more】 customers to be vegan.
+261 | It does far 【more】 damage to the environment.
+83 | Collect a lot 【more】 data.
+159 | Collection of 【more】 data.
+151 | Alzheimer’s disease, but it might make the symptoms 【more】 ___34___ , decrease the cost of care and improve a patient’s
+382 | If you encourage them to tell you what they’ve learned, they’ll absorb the information 【more】 deeply and remember it 【more】 readily.
+213 | It is 【more】 delicious than honey.
+636 | Employees become 【more】 dependent on machines.
+674 | “Which matters 【more】 depends on what your history up until that point has been in the type of work you’re doing,”
+128 | "Many people see team-building activities as a waste of time, so we decided to look in 【more】 depth at what's behind this," said the paper's lead researcher, Dr Peter Matous.
+488 | The new system means letters to patients now have 【more】 detail.
+284 | hide behind information and use learning as an excuse to delay the 【more】 difficult and 【more】 important choice of actually doing
+168 | An Italian study found that for simple arithmetic there was little difference between right- and left-handed performance, (24) but for 【more】 difficult problem-solving, left-handers won out.
+487 | Refugees find it 【more】 difficult to get a job.
+107 | They tend to have 【more】 difficulties in learning.
+215 | They have 【more】 disadvantages in getting ahead.
+555 | Have 【more】 discussions about it.
+280 | What caused 【more】 disruption was when schools tried to stay open in bad weather even though many staff and pupils were
+418 | A 【more】 disturbing trend in America today is that teens are spending far less time reading than around four decades ago.
+140 | [19] A new study finds that job seekers are even willing to explore jobs with lower salaries when companies are 【more】 diverse.
+211 | These findings could help organizations become 【more】 diverse.
+475 | 11itJ) these findings in 【more】 diverse school communities.
+163 | But when people make decisions for others, they typically put together a 【more】 diverse team.
+509 | Recent open debates on scientific research, health, and policy have aroused greater public attention and encouraged 【more】 diverse voices.
+430 | “We’ve seen profound changes in the last decades in what we eat largely as a result of international trade, and I think that trend toward 【more】 diversification will continue,” Jarvis says.
+177 | They have a denser weave, and are 【more】 durable than any other jeans in the world.
+255 | They were 【more】 eager to enjoy a movie.
+304 | The y may get distracted 【more】 easily.
+586 | business — but you gain shoppers who now can arrive 【more】 easily on bikes.
+201 | 【More】 education and training.
+588 | Older workers who actively pursue 【more】 education and training have a good chance of being hired.
+606 | A new study finds that 【more】 education and training helps midcareer individuals find a new job.
+249 | Older workers who’ve actively engaged in 【more】 education and training relevant to their jobs
+668 | timing into account could help make treatments 【more】 effective and help 【more】 people worldwide.
+556 | Develop 【more】 effective anti-cheating strategies.
+652 | Over 50 years ago, researchers found that the cholesterol drug simvastatin is 【more】 effective at lowering cholesterol levels
+572 | make you 【more】 effective in the process.
+597 | Taking 【more】 effective measures to increase food supplies.
+520 | inspiring, when it comes to actually doing the day-to-day work, it may be 【more】 effective to reframe activities in terms of their
+567 | H) The truth is that in fairly dense areas, bikes are 【more】 efficient at moving people around.
+601 | Being quicker and 【more】 efficient increases our performance and the number of tasks completed.
+389 | 【More】 effort is wasted doing things that don’t matter than is wasted doing things inefficiently.
+613 | In students who were rated 【more】 emotionally intelligent, the stress measures increased 【more】 during the experiment and took longer to go back to baseline.
+605 | It has placed much 【more】 emphasis on cure than on prevention.
+157 | Lay 【more】 emphasis on improving children’s mental health.
+449 | And when we’re doing so, our brains are 【more】 engaged.
+346 | These findings present a dilemma for managers: employees using social media at work are 【more】 engaged and 【more】 productive, but they are also 【more】 likely to leave your company.
+396 | And stories are 【more】 engaging than the recital of data points or a discussion of abstract ideas.
+599 | Enable customers to have a 【more】 enjoyable shopping experience.
+296 | who," he said, suggesting that some 【more】 equal dividing up of money might be 【more】 productive and
+552 | “Women working outside of the home should make an effort to have a conscious conversation with their partners about 【more】 equitable sharing of household and family responsibilities,” Dr.
+426 | They may commit 【more】 errors than ever before.
+611 | For example, in one task, research participants were instructed to create new college majors by combining two or 【more】 existing academic Arts or Science programs at their university.
+206 | Plus, it requires two people, which works out 【more】 expensive.
+269 | By contrast, fossil fuel plastic was 【more】 expensive.
+266 | She ordered a 【more】 expensive doll instead.
+174 | They are 【more】 expensive models.
+223 | The KaiOS devices offer an alternative to the 【more】 expensive models that remain out of reach of many Africans and contribute to the digital divide.
+559 | While this may be so, it does not, in itself, prove that healthy diets are necessarily 【more】 expensive or cost-prohibitive.
+367 | Bottled water is considerably 【more】 expensive than tap water.
+193 | Making sounds enables one to express their ideas 【more】 explicitly.
+566 | Fans of classical music can also tell you that there are few types of music that are 【more】 expressive.
+109 | 【More】 extensive sampling.
+618 | Receive 【more】 external validation.
+558 | In fact, some 35 countries, including China, now produce 【more】 farmed than wild-caught fish.
+229 | 【More】 fathers are taking paternity leave, but mothers are still doing all the work
+275 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years as 【more】 fathers feel comfortable taking extended time off, but gender bias persists when it comes to career prospects and the home, according to a new study of working parents.
+100 | A 【more】 favorable atmosphere for effective classroom learning.
+88 | It enables him to buy a new phone at a 【more】 favorable price.
+577 | For example, pound for pound, beef requires 15 times 【more】 feed to raise than carp, a freshwater fish farmed all over Asia.
+281 | 【More】 female professionals reported being reluctant to work overtime than their male counterparts.
+397 | K) Until genetic engineering comes to fruition, other strategies might also help in some places, including applying 【more】 fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster or installing storage facilities to delay spoilage.
+614 | It raises 【more】 fish than caught from the wild.
+455 | We’re eating 【more】 fish than ever these days.
+642 | In fact, scientists now suspect accumulating novel experiences, facts, and skills can keep people’s minds 【more】 flexible.
+345 | They were complete clock watchers, while I would have liked a 【more】 flexible schedule.
+230 | Computers have vastly increased the ability of students to gather information, sample different points of view and write 【more】 fluidly.
+414 | preparation, different training, a better strategy, or 【more】 focus.
+492 | M) Harrington said culture change depends on companies putting 【more】 focus on men and their responsibilities.
+186 | [20] When doing extreme sports, you have to become 【more】 focused.
+503 | work and play, and who work at what they are passionate about, are 【more】 focused and productive,
+571 | How people can be 【more】 focused and productive.
+609 | Under-reporting rates are much higher for obese people, because they simply consume 【more】 food,
+661 | By setting up 【more】 food research programs in developing countries.
+656 | 【More】 food will be made available to the needy.
+129 | “High quality chocolate will be less available in the future, and if you want it, you’ll have to pay a lot 【more】 for it,” Jarvis says.
+465 | selves and encourage people to save 【more】 for retirement.
+676 | to stay in the labor force 【more】 for social benefits than for financial reasons.
+643 | Researchers found that participants who saw the images of their aged selves would save 【more】 for their later years than
+532 | However, gender matters 【more】 for them because cheek-kissing often only happens between women or a man and a woman but not two men.
+155 | They appear 【more】 formal than other passports.
+305 | The introduction of telephones, automobiles and radio all led to moral panic among adults of the time, because the technology allowed children to enjoy 【more】 freedom.
+98 | To allow students 【more】 freedom in their academic work.
+182 | Indeed, as they get older and are given 【more】 freedom, they often ease up on social networking.
+612 | In the context of a global pandemic (大流行病), firms may want to provide additional support to employees by providing 【more】 frequent communication.
+490 | Immigrants aren’t just becoming entrepreneurs 【more】 frequently.
+522 | On the other hand, a casual dress helps us become 【more】 friendly and creative.
+573 | It is reported that women consistently suffer 【more】 from severe stress than men.
+220 | They eat 【more】 fruit than they used to.
+446 | One researcher suggests it might be 【more】 fruitful to distribute grants on a relatively equal basis.
+131 | They actually result from eating 【more】 fruits and vegetables.
+132 | Researchers have previously found a link between eating 【more】 fruits and vegetables, and improved longer term mental health.
+666 | Rich countries should be 【more】 generous in providing food aid.
+610 | It does people 【more】 good than harm.
+276 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in 【more】 grammatical sentences.
+670 | In fact, in some cases, extreme ambition may end up doing 【more】 harm than good.
+600 | It can do 【more】 harm to the workplace than to employees.
+251 | Social isolation poses 【more】 health risks than obesity or smoking 15 cigarettes a day, according to
+513 | Research suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them 【more】 healthy.
+436 | Apart from the urgent task of providing 【more】 healthy nutrients to those who increasingly can’t afford them.
+598 | What's 【more】, homes built in the 2000s were 【more】 likely than earlier models to have 【more】 of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+650 | Building 【more】 houses affordable to those less affluent.
+355 | But it is still somewhat restricted, particularly when the language moves away from stiffer commands into 【more】 human interactions.
+241 | 【More】 images of animals than humans.
+371 | Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are 【more】 images of animals than humans.
+298 | During the secondary school years, extending what is learned at school is positively related to academic achievement, so the content of homework becomes 【more】 important.
+550 | Perhaps 【more】 important, as the global economy continues to be disrupted by technology and
+409 | that, even 【more】 important choices, like accepting a new job, can ___33___ be changed.
+113 | This means that they strive to implement the golden rule whenever possible, as long as it doesn’t clash with a 【more】 important concept.
+162 | The golden rule must sometimes give way to 【more】 important principles.
+80 | They play increasingly 【more】 important roles.
+584 | M) These findings suggest that when it comes to achieving your goals, enjoying the process itself is 【more】 important than
+476 | Exercise is 【more】 important to good health than diet.
+623 | 【More】 importantly, IT practitioners need to understand what employees
+192 | I) Even 【more】 importantly, practice is the only way to make a meaningful contribution with your knowledge.
+549 | Educators and business leaders have 【more】 in common than it may seem.    ?P:have sth in common
+247 | are key, then you might have 【more】 in common with managers.    ?P:have sth in common with ?P:have sth in common
+117 | They need to invest 【more】 in hospital staff and facilities.
+126 | He desires 【more】 in life.
+225 | I experience a sense of longing, realizing that there should be 【more】 in life.
+540 | This means individuals must save 【more】 in order to achieve their goals, or they borrow money from friends and family rather than a bank.
+290 | Research shows that when people choose from many options, they ___29___ 【more】 in the decision,
+179 | H) This means that, for those who can afford it, some foods will simply cost them 【more】 in the future.
+314 | This is partly because of adequate sunlight and partly because technology has become 【more】 ___34___ in the region.
+150 | [19] When planning for this year, our principal asked what needed to change to engage students 【more】 in their learning.
+198 | To engage students 【more】 in their learning.
+309 | Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie 【more】 in understanding extreme pro-social behavior, such as heroism.
+86 | A lot of people think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students 【more】 incentive to succeed.
+405 | He said it would give prospective students 【more】 information about what to expect once they graduate.
+240 | Not to mention that soaking up new information can help you make 【more】 informed decisions when you
+101 | This style contrasts with 【more】 instinctive leadership styles where managers make many decisions using instinct or opinion.
+286 | Studies have shown that people who appear to be wealthy tend to be considered 【more】 intelligent, disciplined, and competent than those who do not. [19] But new research found that people believe someone who shows off their social status cares 【more】 about benefiting themselves than helping others.
+300 | Participants who usually struggled to handle negative emotions were 【more】 intensely affected by the sad clips, just as you’d expect.
+248 | Perhaps the connection is made because of eye contact and visibility and 【more】 interaction.
+336 | What can eye contact, visibility and 【more】 interaction probably bring about?
+195 | What kind of display creates 【more】 interest.
+244 | The study found that while the bigger display table created 【more】 interest, people were almost 10 times less likely to purchase a jar of jam than in the case of the smaller display.
+161 | Some people, they argue, are just 【more】 interested in certain kinds of media and entertainment.
+343 | If you find yourself searching for something to say beyond small talk, try these tactics to find 【more】 interesting approaches to conversation.
+291 | applying for, or how it makes you 【more】 interesting as a potential employee,” Mr.
+383 | The hesitation I felt in not sharing the ordinary things that were happening in my life, and the wild mental search for something 【more】 interesting, may have backfired and made me seem less interesting.
+393 | J) Using voice interaction feels far 【more】 intimate than surfing the net the old-fashioned way.
+337 | for less time, receive 【more】 job offers, and are 【more】 satisfied by the job offers they receive.
+635 | People over 45 stimulated by training suffer shorter periods of unemployment, get 【more】 job offers and have greater
+148 | I) The main alternative to increasing traffic throughput per lane has been to build 【more】 lanes and 【more】 highways, and putting
+543 | Many economists assume people's thirst for material things has prevented them from enjoying 【more】 leisure time.
+621 | Dreams of very small kids are usually just snapshots , looking much 【more】 like a slideshow than a movie, when
+138 | Severe weather that causes cancellation or delay is 【more】 likely in regions that are less able to handle the situation.
+525 | bank is 【more】 likely ready, willing and able to be part of the team and do the job from day 1.
+415 | Research from Nova Southeastern University found that female managers were 【more】 likely than male managers to display “surface acting,” or forcing emotions that are not wholly felt.
+505 | Harvard reports that women are “much 【more】 likely than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize the symptoms.
+529 | J) The good news is, women are 【more】 likely than men to take charge of their stress and manage it, the American Psychological Association reports.
+675 | This implies that even though ambitious people are 【more】 likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?
+402 | are 【more】 likely to agree with you when they succeed alongside you.
+221 | They are also 【more】 likely to attend university and become professional athletes, chief executives and even important politicians.
+460 | First, they are 【more】 likely to be entrepreneurs.
+106 | narrow winners were 50 percent 【more】 likely to be given a professorship.
+678 | They’re also 【more】 likely to be in professional
+263 | As such, they’re 【more】 likely to be “let down” by the experience.
+237 | For example, other studies have found dogs are 【more】 likely to bite children versus adults.
+626 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were 【more】 likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.
+228 | New research from America studies the role that the presence of individuals from different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were 【more】 likely to choose healthy food in the presence of an observer of a different race, as opposed to an observer from their own race.
+330 | Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] But participants were 【more】 likely to choose that person when they’re looking for a competitive team member.
+386 | They can create social media groups in which employees will be 【more】 likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.
+411 | The people least interested in retraining are 【more】 likely to come from historically disadvantaged
+89 | Children are 【more】 likely to develop a lifelong love of physical activity from frequent positive early experiences.
+638 | Employees with a growth mindset may be 【more】 likely to devise innovative ideas that bridge multiple areas of knowledge to achieve better solutions.
+634 | When people have no way out in crises, they are 【more】 likely to embrace changes.
+658 | Drug research sponsored by the pharmaceutical industry is 【more】 likely to end up
+663 | nutrition research sponsored by the food industry is 【more】 likely to end up favoring the food under consideration than
+478 | For example, women are 【more】 likely to experience disturbed sleep, anxiety and unusual fatigue before a heart attack.
+528 | When people are bored, they're 【more】 likely to feel less meaning in their lives.
+531 | For the youngest learners, it means they are 【more】 likely to get exposed to different varieties of play and communication.
+377 | I) Hiring managers said training was three times 【more】 likely to get them to hire applicants over age 45 than, say, government
+278 | They found that participants in a high-power interviewer role were 【more】 likely to give abstract
+376 | you’re a determined gamer is 【more】 likely to harm your chances of getting a job.
+160 | They were also 【more】 likely to have an ongoing medical condition and be overweight.
+217 | They suspect that mums may be less happy than dads because they’re 【more】 likely to have higher expectations about parenthood.
+443 | communities, 【more】 likely to have low incomes, and are 【more】 likely to have the least schooling after getting their high-
+501 | A bank is 【more】 likely to hire
+474 | K) Many years ago, I wrote about a study which found that employers are much 【more】 likely to hire a college graduate who
+293 | Three-quarters of hiring managers said they’d be 【more】 likely to hire an over-45 who had
+253 | The study also found that someone who is humble is 【more】 likely to initiate a romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.
+216 | Left-handed people were 【more】 likely to prefer the images on the left.
+236 | Research found that those who are given greater flexibility at work are less stressed and 【more】 likely to stay in their jobs.
+495 | When are you 【more】 likely to succeed in persuading your coworkers?
+407 | A person who has grit is 【more】 likely to succeed than a
+530 | Studies in recent years show that left-handed children are 【more】 likely to suffer with learning difficulties and their scores are lower on IQ tests.
+169 | In one study, the authors 28 that dads were 【more】 likely to take “playing” as an 29 activity both when caring for their kids
+637 | People who want to lose weight are 【more】 likely to under-report their eating-regardless of whether
+167 | They are 【more】 likely to win in combat sports.
+507 | What’s 【more】, making obesity a disease “may not benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+144 | It made him appear even 【more】 manly.
+673 | Ambitious people tend to be 【more】 materialistically successful than their non-ambitious counterparts.
+171 | Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved 【more】 matrixes than they actually had.
+267 | They suspected older, 【more】 mature students obtained 【more】 self-confidence than their peers because they achieved better grades.
+222 | Take a look at the video below from National Geographic for some 【more】 mind-blowing __29__ about cotton clothing production.
+617 | But having to pay attention to several things at once means that the powers of concentration are reduced and that can lead to 【more】 mistakes.
+412 | Then they gave worse speeches and made 【more】 mistakes in
+353 | After all, intelligent people earn 【more】 money, accumulate 【more】 wealth, and even live longer.
+239 | W: But what prevents you from just going to the bank and getting 【more】 money, if you want to buy something?
+252 | work showed that although the narrow winners did get much 【more】 money in the near future, the actual
+321 | Perhaps people just never feel materially satisfied, always wanting 【more】 money to buy the next new thing.
+364 | Logically, they'll need 【more】 money to live comfortably in
+303 | I found employees who engage in online social interactions with co-workers through social media blogs tend to be 【more】 motivated and come up with innovative ideas.
+514 | Your hands are covered with oil; you're not going to get on the iPad, so it's a lot 【more】 natural to talk.
+667 | Apparently, if you're 【more】 naturally driven to set goals, you are 【more】 likely to succeed.
+274 | Researchers say this was because participants anticipated 【more】 negative judgment from an outsider group.
+554 | Although men’s touching is 【more】 normal in these cultures, physical contact between persons of opposite sexes who are not family members is negatively perceived in Arabian countries.
+187 | are less common in 【more】 northern areas of the United States that are used to heavy winter snowfall because municipalities
+324 | In 【more】 northern regions of the US, school is less likely to be affected by snowy weather.
+332 | But if that resolution was to volunteer 【more】, now is the best time to start.
+257 | While 70 percent of 8th and 10th grade students used to go to the movies once a month or 【more】, now only about half do this.
+282 | I) What if fountains were 【more】 numerous, and tap water 【more】 clearly available in cafes, restaurants and elsewhere?
+372 | Juices containing vegetables can provide 【more】 nutrients and less sugar than juices made up of just fruit — but they still
+378 | students believed that intelligence could improve-that is to say, when they held 【more】 of a growth
+565 | people ate 50% 【more】 of a healthy food when directed to focus on the good taste rather than the long-term health benefits.
+619 | 43 People ate 【more】 of a healthy food when they focused on its good taste instead of its long-term benefits.
+139 | Instead, they suggest it may be 【more】 of a lifelong process—a continuous,
+493 | They are doing work they care about and are interested in, and doing 【more】 of it is not
+362 | Still, 15% or 【more】 of kids are found to be deeply bookish.
+209 | Thus, using 【more】 of one type of media does not necessarily mean less of the other.
+398 | A tiny fraction, 2%, of men said they did 【more】 of the childcare.
+368 | As a child matures, they can then take on 【more】 of the daily responsibilities, boosting their sense of independence.
+494 | 【more】 of their salary for retirement than the control group.
+496 | 【more】 of them.
+270 | 【More】 of them are successful business people.
+224 | 【More】 of them expect their children to succeed in business.
+541 | The surveys showed men tend to exhibit 【more】 of these negative behaviors than women.
+203 | They look 【more】 official.
+374 | They 【more】 often appeal to meat-eaters.
+568 | healthy snacks and drinks (such as fruit or water) 【more】 often over unhealthy options (like biscuits and soda).
+603 | Research found that, as regards achievement of one’s goals, it is important to focus 【more】 on enjoying the process than the
+218 | New Tech coupled with improvements in hearing aid technology and medical advances means that Miller is able to focus far 【more】 on his work.
+539 | Compared with other racing series, Formula One focuses 【more】 on speed and involves 【more】 danger.
+387 | Perhaps this is because older people had fewer options when they were starting their careers, at a time when values focused 【more】 on stable incomes than _32_ personal missions.
+459 | N) He added: "The broader sport is a little too inward-looking, and we need to be 【more】 open.
+308 | While painting the kitchen counters, a bold colour can make everything feel 【more】 open and lighter.
+593 | They tend to be 【more】 open in interpersonal relationships.
+176 | Make them 【more】 open to learning.
+358 | They allow the listener to enter the story, making them 【more】 open to learning.
+553 | Providing male teachers with 【more】 opportunities for advancement.
+317 | “The people at Monsanto who I’ve talked to are much 【more】 optimistic that they’ll be able to engineer heat-tolerant crops,” Schlenker says.
+464 | would be distributed 【more】 or less evenly across society in the form of increased leisure.
+582 | What we call multitasking, therefore, is in reality the ability to move 【more】 or less quickly from one task to another.
+595 | consume a lot 【more】 organic food
+608 | Why some people are 【more】 passionate about work.
+523 | There’s a rising amount of data showing that installing bike lanes and making streets 【more】 pedestrian-friendly boosts the
+548 | all benefit if 【more】 people are working and fewer are unemployed
+127 | In fact, there are a lot 【more】 people giving tickets than receiving.
+404 | 【More】 people have taken to bottled water because of their health awareness.
+516 | That means 【more】 people must become entrepreneurs.
+518 | Compared to five years ago, according to one researcher, many 【more】 people said their organisation gave the same support to men and women taking parental leave.
+170 | At every station, 【more】 people squeezed in and I got pushed further and further inside.
+238 | The introduction of the “sugar tax” on juices and soda drinks has pushed 【more】 people to bottled water, while health awareness
+649 | 【More】 people will be willing to join in the effort.
+427 | K) But digital voices need 【more】 personality to make them popular.
+500 | getting 【more】 physical exercise.
+111 | One out of ten American 8th grade students in 2016 spent 40 hours a week or 【more】 playing video games.
+456 | He wanted to make it 【more】 pleasant for seniors.
+604 | Plus, streets redesigned for bikes and pedestrians tend to become 【more】 pleasant places to
+644 | People may find it 【more】 pleasant to wander around streets redesigned for cycling and walking.
+299 | To tell the truth, interesting people are 【more】 popular among their friends.
+112 | It is 【more】 popular than football.
+133 | When you look at today’s digital activity, the facts are much 【more】 positive than you might expect.
+119 | Across all three, parenthood was 27 with 【more】 positive wellbeing outcomes for dads than for mums.
+233 | having 【more】 power in society — might be a key determinant .For instance, in a follow-up study conducted with
+607 | They are also the ones who know there are systems that are 【more】 powerful,
+124 | They are 【more】 powerful and capable.
+175 | Most companies are trying to make phones ever 【more】 powerful and capable.
+306 | The left side of their brain is 【more】 powerful than its right side.
+262 | Their brain is 【more】 powerful than that of right-handed people.
+327 | These issues are growing 【more】 pressing with the emergence of commercial spaceflight.
+615 | We must change the way we think: living well does not need to mean having 【more】 private spaces; instead, it could mean having 【more】 public spaces.
+277 | Keynes got that right: Technology has made the economy massively 【more】 productive.
+564 | Keynes was right in predicting that technology would make the economy much 【more】 productive.
+234 | Learning to be this focused when enjoying extreme sports will help you to be focused at work, keeping you 【more】 productive and ultimately 【more】 successful.
+373 | Studies have also linked employee volunteer programs with 【more】 productive employees.
+416 | A 【more】 productive method of encouraging health among employees is to promote healthy behaviors.
+307 | Many of them are not, and a simple “no” will be 【more】 productive than whatever work the most efficient person can cope with.
+479 | These are much better and much 【more】 productive ways for companies to move forward on their employees’ wellbeing.
+392 | Intelligent people are 【more】 prone to silly mistakes because of blind spots in how they use logic.
+438 | But are we really in need of 【more】 protein?
+406 | But contrary to all the publicity that everyone needs 【more】 protein, most
+369 | likely among the millions of people in search of 【more】 protein-rich diets.
+657 | 【More】 public spaces created for everyone to enjoy.
+120 | I think social media too can intensify things as birthdays now play out 【more】 publicly.
+629 | A better goal than building bigger houses for some is to create 【more】 publicly accessible spaces and amenities for all.
+442 | One who enjoys playing games that require management skills to win might possess 【more】 qualities of a manager.
+417 | Use what you find to ask 【more】 questions and learn 【more】 about the world around you.
+287 | The problem is that, with the fibre removed, fruit juice’s fructose is absorbed 【more】 quickly.
+533 | If this trend spurs scientists to agree 【more】 quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse 【more】 clearly—then this is good for everyone, including scientists.
+214 | Students are able to highlight and edit text, write notes and search for information much 【more】 quickly than they can with printed textbooks.
+432 | On the other hand, there is a 【more】 rational approach to making decisions.
+232 | There’s also a theory that this color helps the dolphins 【more】 readily blend in with their surroundings.
+143 | Let’s consider a couple 【more】 reasons to prioritize active
+242 | The other main theory, which is 【more】 recent, is that people started off by gesturing—pointing at things with their hands and imitating actions using their bodies.
+84 | 【More】 recent studies have suggested that factors such as social class or economic background have 【more】 to do with these diagnoses than month of birth.
+546 | 【More】 recent work has shown roughly the same.
+356 | Plastic packaging makers are being pressured to use 【more】 recycled plastic.
+313 | They are pushing for 【more】 recycled plastics in new products.
+134 | Read 【more】 reference books.
+457 | A lot 【more】 refugees die during migration.
+246 | with their decision and feel 【more】 regretful over whatever choice they made.
+463 | Figure out which of the two is 【more】 reliable.
+672 | 【more】 reliable results, because you can see whether a disease-causing trait is present.
+166 | In fact, research suggests that people who read printed text comprehend 【more】, remember 【more】 and learn 30% 【more】 than those who read digital text.    ?P:more than
+627 | 【More】 research is needed to see how exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+664 | 【More】 research is needed to determine the best times to administer treatments for different diseases.
+340 | He submitted the unedited version to a 【more】 respected journal and got
+665 | It would set a model for many 【more】 restaurants to follow.
+669 | A strong incentive for 【more】 restaurants to offer healthier foods to their customers.
+135 | It would make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far 【more】 restrictive. [18] It would be common sense for people to use small tents and leave no trace of their visit.
+302 | They favored a 【more】 rigid, closed-door, corporate atmosphere, while I would have preferred something 【more】 collaborative and open.
+662 | Ambitious people strongly desire accomplishments and are willing to take 【more】 risks and spend 【more】 effort to get them.
+207 | People should do 【more】 running than mere walking.
+388 | “People have tended to focus from a policy point of view on _31_ lonely people to make them 【more】 _32_, ” said the lead author, Nicole K.
+146 | What kind of display results in 【more】 sales.
+196 | Guess which display table led to 【more】 sales?
+316 | They find it no 【more】 scary than it appears.
+90 | It can help unskilled readers feel 【more】 secure.
+630 | Research shows that students in year-round schools are 【more】 self-confident and feel 【more】 positive about their schooling experience.
+506 | It is feared that a failure to address early-year challenges, such as poor handwriting, leads to much 【more】 serious problems down the line—with these pupils facing reduced career prospects.
+551 | connections and 【more】 significant challenges.
+273 | Jarvis and his colleagues also found that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% 【more】 similar than they were in 1961.
+491 | People around the world are eating foods 【more】 similar than what they used to eat.
+318 | They often talk about ways to get 【more】 sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that these are really important topics and these workshops help typical students succeed.
+326 | J) Even if bottled water sales are growing slightly 【more】 slowly, the industry is racing to adapt to changing concerns and tastes.
+381 | The problem is, housework is often overlooked as work, even though it is often as laborious (or in some cases, 【more】 so) as any paid job.
+579 | Despite this, popular culture and the housing industry market happiness as living with both 【more】 space and 【more】 amenities (便利设施).
+96 | We just have 【more】 space and privacy.
+264 | In the kitchen, painting the overhead cupboards and the walls in the same colour can make it feel 【more】 spacious.
+103 | It is 【more】 spacious and less crowded.
+639 | People who are aware of others’ feelings may experience 【more】 stress.
+360 | Pendry believes those students may experience the programs as another lecture and feel even 【more】 stressed.
+447 | When women don’t reach this ideal, they feel guilty; and even 【more】 stressed.
+118 | The explanation is that the two brain spheres of left-handers are 【more】 strongly connected.
+482 | 【More】 students may find it easy to be absent from them.
+370 | It needs to be confirmed by 【more】 studies on pandas.
+671 | Conducting 【more】 studies to find out the best timing for treating different diseases.
+585 | It caters to society’s taste in music in a 【more】 subtle way than classical music.
+335 | F) Two years ago, a Glasgow University study made headlines for suggesting gaming could make students 【more】 successful.
+350 | The opportunity cost of your time increases as you become 【more】 successful.
+333 | They’re nutritious, inexpensive, and far 【more】 sustainable than any of the
+563 | A multitasker is one who can perform two or 【more】 tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does.
+357 | Formula One teams race far 【more】 technologically advanced vehicles around tracks all over the world—in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy too.
+469 | What foods have been largely out of favor for 【more】 than a century?    ?P:more than
+561 | For 【more】 than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.    ?P:more than
+453 | K) In 【more】 than a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.    ?P:more than a few ?P:more than
+365 | His writing is 【more】 than a little dense — dense with research, clauses, and precise adjectives and nouns.    ?P:more than
+569 | Some analysts find age 45+ jobless workers are most likely to be unemployed for 【more】 than a year.    ?P:more than
+141 | children learn languages much 【more】 ___32___ than adults.
+342 | If older children have 【more】 than an hour of homework, encourage them to schedule a short break to stretch.    ?P:more than
+153 | Today, the Earth Day Network, which rallies 【more】 than 20,000 ___33___ and organizations in 190 countries, supports    ?P:more than
+428 | And Formula One has that 【more】 than any other racing series.    ?P:more than
+258 | So it’s really a protective mechanism 【more】 than anything else.    ?P:more than
+348 | However, taking action and applying a new idea to your life will inspire you 【more】 than anything someone else can say.    ?P:more than
+311 | One was with high school students and the other with 【more】 than 1,000 Australian adults aged between 24 and 60 years old.    ?P:more than
+199 | those 【more】 than average.    ?P:more than
+620 | found storeowners making 【more】 than before, and diners enjoying the outdoor lifestyle.    ?P:more than
+190 | analysts show that last year the British consumed 【more】 than 2.2 billion litres of bottled water, including “take-home” and “on-    ?P:more than
+315 | (19-2) Good stories do 【more】 than create a sense of connection.    ?P:more than
+165 | Spend no 【more】 than 30 dollars.    ?P:no more than ?P:more than
+462 | But on opportunity for promotion, 【more】 than double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.    ?P:more than
+188 | Phyllis Moen split 【more】 than 1,000 employees at a Fortune 500 company into two groups, one that worked under a    ?P:more than
+123 | Children are getting 【more】 than enough screen time in their lives without the need to bring their phone into the classroom.    ?P:more than
+243 | by the World Health Organisation that adults have no 【more】 than 30g of added sugar, the equivalent of 150ml of fruit juice,    ?P:no more than ?P:more than
+480 | He points out that 【more】 than 200 genes influence weight.    ?P:more than
+339 | 【More】 than half of American adults are unmarried, and researchers have found    ?P:more than
+502 | 【More】 than half of students will find their academic performance declining sharply when they enter the    ?P:more than
+510 | 【More】 than half of the interviewees felt no sense of guilt over cheating.    ?P:more than
+512 | People ate around 73 million tonnes of farmed fish—just 【more】 than half of the volume of fish that humans consumed—in 2014.    ?P:more than
+259 | Employers typically worry that social media is a productivity killer; 【more】 than half of U.S. employers reportedly block access to social media at work.    ?P:more than
+354 | In the first study, 【more】 than 600 high school students were surveyed about their tendency to take risks and feel confident.    ?P:more than
+544 | two months after setting the goal far 【more】 than how important they rated their goal to be.    ?P:more than
+108 | W: (13) Um, to be perfectly honest, that’s 【more】 than I expected.    ?P:more than
+99 | I just get anxious before I fly and feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic 【more】 than it did.    ?P:more than
+178 | The question is how to apply them effectively to strengthen an entire collective, which is 【more】 than just the sum of individual relationships," said Dr Matous.    ?P:more than
+594 | Remote work is about 【more】 than just working from home—it means working differently.    ?P:more than
+329 | The most recent count of pandas found that there were 【more】 than 1,800 left in the wild, putting them on the list of    ?P:more than
+341 | It’s a common story—one we frequently ridicule and readily dismiss, for example, by claiming that women tend to complain 【more】 than men, despite the growing sum of research that underlines the problem.    ?P:more than
+102 | In 1990, Hayes organized a global Earth Day, with 【more】 than 200 million participants in 140 countries.    ?P:more than
+250 | This month, 【more】 than 4 million students across the nation will begin high school.    ?P:more than
+471 | It particularly comes with risks when we consume 【more】 than 150ml of free sugars per day, or when it puts us    ?P:more than
+628 | One American philosopher stated that addressing the needs of the poor and vulnerable is about 【more】 than money—it is mostly about creating conditions under which prosperity and opportunity can thrive.    ?P:more than
+289 | So far, it's a winning strategy: 【More】 than nine out of ten    ?P:more than
+142 | Their rating match that of the researchers 【more】 than nine times out of ten.    ?P:more than
+331 | 【more】 than 70,000 nurses over 18 years.    ?P:more than
+154 | words in the bank 【more】 than once .    ?P:more than
+205 | You may not use any of the words in the bank 【more】 than once.    ?P:more than
+231 | paragraph 【more】 than once.    ?P:more than
+297 | You may choose a paragraph 【more】 than once.    ?P:more than
+202 | You may choose a paragraph 【more】 than once. &eh paragraph is marked with a    ?P:more than
+295 | 【More】 than one-fifth of adults in both the United States and Britain said in a 2018 ____M_ that they    ?P:more than
+631 | A skilled worker executing 【more】 than one task at the same time.    ?P:more than
+651 | It is a behavior we are born with 【more】 than one we learn.    ?P:more than
+366 | hit songs of the 1950s, researchers found, there was only slightly 【more】 than one 50 years later.    ?P:more than
+91 | Of 【more】 than 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet, and almost all overestimated how healthy it was. [4] Those who rated their diet as poor tended to be far 【more】 accurate.    ?P:more than
+204 | tracked 【more】 than 1 , 100 scientists who were on the border between getting a grant and missing out    ?P:more than
+616 | Few other countries have 【more】 than seven weeks off in a school calendar.    ?P:more than
+452 | Moreover, schools should be 【more】 than simple institutions of traditional learning.    ?P:more than
+125 | W: We can’t dismiss the idea that teenagers have to plan to do something after they finish school, and parents are entitled to hope it’s 【more】 than simply spending 10 hours a day playing computer games.    ?P:more than
+450 | Some five years ago, high school seniors in America generally spent 【more】 than six hours a day on electronic devices.    ?P:more than
+451 | As online courses tend to have 【more】 than 100 students, most of the assignments are short and simple.    ?P:more than
+338 | The consequences of doing poorly in the ninth grade can impact 【more】 than students' ability to find a    ?P:more than
+440 | But we have a higher risk of consuming 【more】 than the    ?P:more than
+511 | “The only overlapping feature in most of these healthy countries is that they all walk way 【more】 than the average American,” said Pasternak.    ?P:more than
+654 | They cannot help eating 【more】 than they should.    ?P:more than
+116 | “A large number of high-class travelers, including CEOs, have to spend 【more】 than three hours by road to get there—and that is a loss of time,” a Bangalore airport spokesperson said.    ?P:more than
+536 | Now, 【more】 than three-tenths are.    ?P:more than
+115 | It costs 【more】 than twice as much as a car ride.    ?P:more than
+485 | At around 20 kilograms per person global fish consumption is now 【more】 than twice what it was in the 1960s.    ?P:more than
+283 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend 【more】 than what I had budgeted, and by now it’s just a habit.    ?P:more than
+194 | An animal might make 10 different sounds, but an adult human knows 【more】 than 20,000 words.    ?P:more than
+173 | 15 minutes and a few clicks later, (20) with 【more】 than $350 worth of dolls in her cart, Kate placed the order and ran off to play.    ?P:more than
+394 | I’ve been working from home for 【more】 than 10 years now.    ?P:more than
+535 | “So really, regardless of what you’re eating, if someone’s walking four miles 【more】 than you each day, they’re going to be a lot thinner and live a lot longer than you.    ?P:more than
+439 | Effort means 【more】 than your natural ability.    ?P:more than
+472 | What’s 【more】, that section of road saw new businesses open, while Queens
+379 | What's 【more】, the 7 ,OOO or so languages that exist today vary dramatically in how they utilize numbers.
+435 | The 【more】 they achieve and the greater progress they
+466 | make, the 【more】 they trust your judgement and strength.
+87 | however, the same people see machines as 【more】 threatening to their future role in the workforce.
+158 | So that takes 【more】 time.
+328 | Spend less time passively learning and 【more】 time actively practicing.
+183 | People have 【more】 time during the summer.
+448 | Or they can give employees 【more】 time during their lunch break to exercise.
+384 | Most people spend much 【more】 time interacting with digital media than they did ten years ago.
+181 | When their hobby was both serious and similar to their job, then spending 【more】 time on it actually decreased their work _31_.
+390 | In other words, the 【more】 time parents spend reading, the greater the developmental benefits in their four-year-old children.
+589 | Spend 【more】 time playing games with them.
+560 | Using voice instead of typing enables doctors to spend 【more】 time taking care of patients.
+400 | Many workers report that they would like to spend 【more】 time with family, rather than at work Furthermore,
+470 | If at first you fail, then try one 【more】 time with grit.
+458 | This enables them to spend less time on administration and 【more】 time with patients.
+152 | In situations where you need 【more】 timely action, decisions based on some information and instinct may work better.
+351 | In fact, in the United States, a little over half of children between the ages of three and five were read to every day in 2007, and 83% of children in that age group in the same country were read to three or 【more】 times per week in 2012.
+82 | New technologies always provoke generational panic, which usually has 【more】 to do with adult fears than with the lives of teenagers.
+421 | Ultimately, what affects our health in the most meaningful ways has 【more】 to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+483 | According to Kelli Harding, rabbits’ health had 【more】 to do with humans’ kindness to them than their diet or genetics.
+208 | (19-2) The review concluded that on average runners live three years longer than non-runners and that running does 【more】 to extend life than any other form of exercise.
+624 | and thus have 【more】 to remember.
+256 | But there’s 【more】 to running than its health benefits.
+592 | For instance, many babies are perfectly proficient crawlers, but they decide to try walking because there’s 【more】 to see and do when they stand upright.
+590 | What kind of people can contribute 【more】 to them.
+136 | Words that were 【more】 ___30___ to visualize, for example, “justice” or “morality” were considered to be 【more】 abstract.
+94 | I mean, getting rid of rush hour may be impossible, but it could be made 【more】 tolerable, don’t you think?
+410 | J) Digital entrepreneur and business consultant Mia Bennett says: “In 【more】 traditional settings, gaming is still imagined to be
+254 | (12-2) (15) I’m starting to realize that painting my house is far 【more】 troublesome than I had anticipated.
+468 | The state attracts 【more】 undergraduate students than it sends to colleges out of state. [25] Many colleges and universities currently provide similar information on their websites.
+580 | Induce customers to make 【more】 unplanned purchases.
+312 | We're growing 【more】 used to chatting to our computers, phones and smart speakers through voice assistants like Amazon's Alexa, Apple's Siri and Microsoft's Cortana.
+423 | And if that is the case, elimination is a 【more】 useful skill than optimization.
+363 | personal connections and relationships, people may place 【more】 value on the socializing that happens at work.
+655 | It faces problems that are getting 【more】 varied and complicated.
+403 | that teenagers will be able to take a natural history test given that for decades children have been able to name 【more】 video
+461 | “Depending on a greater number of plant species creates a 【more】 vigorous and less risky food system—and one that provides a broader range of nutritional requirements.
+557 | do considerably 【more】 walking
+352 | The reasons for people’s evil behaviors can be explained in 【more】 ways than one.
+575 | Find 【more】 ways to curb students’ unethical acts.
+517 | In other words, the 【more】 we believe that one has the opportunity for success based on hard work, the 【more】 we tend to think that people who skip leisure and work all the time are of higher standing.
+156 | Matthew effect fosp1red-6y ilie Bible's-wisdom diaf fo -those who have, 【more】 will be -given: There's-a -
+542 | They found that when people compete against their rivals, they are 【more】 willing to behave unethically to win.
+81 | These are both examples of deceptive strategies. [18] Participants were 【more】 willing to employ deceptive strategies when assigned an agent to negotiate on their behalf.
+677 | They are 【more】 willing to risk their own lives.
+260 | It can help them to interact 【more】 with teachers.
+149 | To enable teachers to interact 【more】 with their students.
+431 | Meanwhile, 【more】 women reported an increase in their responsibilities and manager expectations after childbirth.
+361 | I) However, the study also shows how traditional gender roles endure both at work, where 【more】 women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.
+219 | The 【more】 you get right, the 【more】 creative you are thought to be because you have come up with uncommon associations.    ?P:the more...the more
+227 | “The 【more】 you reduce, the shorter the supply, and the higher the price will jump,” Schlenker says.

@@ -1,0 +1,3713 @@
+[
+ {
+  "rank": 262,
+  "word": "suppose",
+  "def": "v.假设; 认为; 猜想.",
+  "total": 32,
+  "uniq": 32,
+  "sents": [
+   {
+    "id": 0,
+    "text": "Directions: Suppose your school is organizing an orientation program to help the freshmen adapt to the new environment and academic studies.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 1,
+    "text": "Directions: Suppose your university student union is planning to hold a speech contest.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 2,
+    "text": "Directions: Suppose you have just participated in a school project of collecting used books on campus.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 3,
+    "text": "Directions: Suppose you are going to write a proposal to your school library for improving its service.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 4,
+    "text": "Directions: Suppose you are going to write a proposal to your student union for enriching students’ extracurricular activities.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 5,
+    "text": "Directions: Suppose you are going to write a proposal to your school clinic for improving its service.",
+    "n": 1,
+    "src": "cet4_2022_06_3"
+   },
+   {
+    "id": 6,
+    "text": "Directions: Suppose your university is selecting some students to teach kids in remote rural areas during the coming vacation.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 7,
+    "text": "Directions: Suppose your class has just finished celebrating the Teachers’ Day.",
+    "n": 1,
+    "src": "cet4_2022_09_2-3"
+   },
+   {
+    "id": 8,
+    "text": "Directions: Suppose you have taken part in a career planning seminar.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 9,
+    "text": "Directions: Suppose you have read a book recently and intend to recommend it to other members of your book club via an online forum.",
+    "n": 1,
+    "src": "cet4_2023_03_2-3"
+   },
+   {
+    "id": 10,
+    "text": "Directions: Suppose your university is conducting a survey to collect students' opinions of online classes.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 11,
+    "text": "Directions: Suppose the student union of your university is organizing an online discussion on interpersonal relationships.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 12,
+    "text": "Directions: Suppose the student union of your university is organizing an online discussion on college students doing community service.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 13,
+    "text": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on a campus event that has impressed them most.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 14,
+    "text": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on the recent development in their hometown.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 15,
+    "text": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on what in their university impresses them most.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 16,
+    "text": "Directions: Suppose your university is seeking students' opinions on whether university libraries should be open to the public.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 17,
+    "text": "Directions: Suppose your university is seeking students' opinions on whether university sports facilities should be open to the",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 18,
+    "text": "Directions: Suppose your university is seeking students' opinions on whether university canteens should be open to the public.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 19,
+    "text": "Directions: Suppose the business school of your university is conducting a survey to collect students’ opinions on the express",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 20,
+    "text": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on how to enrich",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 21,
+    "text": "Directions: Suppose the university newspaper is inviting submissions from the students for its coming edition on how the",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 22,
+    "text": "Directions: Suppose your university is seeking students’ opinions on the necessity of making College Chinese a compulsory",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 23,
+    "text": "Directions: Suppose your university is conducting a survey to collect students’ opinions on the appropriate use of AI",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 24,
+    "text": "W: I suppose you are right.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 25,
+    "text": "Suppose your university is organizing a forum on the development of students’ cross-cultural communication abilities.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 26,
+    "text": "Directions: Suppose the student union of your university is collecting opinions on improving its work for the coming year.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 27,
+    "text": "W: It sounds a bit difficult, but he’s done his research, I suppose.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 28,
+    "text": "Directions: Suppose it is proposed that all university students should be required to learn academic writing.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 29,
+    "text": "Directions: Suppose your university is organizing a forum on how students can make the best use of on-campus resources for",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 30,
+    "text": "Directions: Suppose your class plans to invite some former graduates to share their job experiences with the students.",
+    "n": 1,
+    "src": "cet4_2022_09_2-3"
+   },
+   {
+    "id": 31,
+    "text": "Directions: Suppose you have attended a lecture delivered by a famous scholar.",
+    "n": 1,
+    "src": "cet4_2023_03_2-3"
+   }
+  ]
+ },
+ {
+  "rank": 263,
+  "word": "news",
+  "def": "n.新闻; 消息.",
+  "total": 214,
+  "uniq": 37,
+  "sents": [
+   {
+    "id": 0,
+    "text": "Directions: In this section, you will hear three news reports.",
+    "n": 21,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "And finally in tonight’s news, a 9-year-old boy named Joe, told not to draw in class, wins a job decorating a restaurant with his drawings.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2,
+    "text": "Questions 1 and 2 are based on the news report you have just heard.",
+    "n": 31,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 3,
+    "text": "E) This is bad news for the losers.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 4,
+    "text": "At the end of each news report, you will hear two or three questions.",
+    "n": 11,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 5,
+    "text": "According to the official news agency, Russian authorities have recovered more than 170 gold bars weighing 20 kilograms each.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 6,
+    "text": "You can find incredible videos, articles and news stories about the success of others.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 7,
+    "text": "This is good news, because reading to young children helps their language and brain development.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 8,
+    "text": "News Report One",
+    "n": 11,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 9,
+    "text": "Questions 3 and 4 are based on the news report you have just heard,",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 10,
+    "text": "At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 11,
+    "text": "(2-1) The police officer interviewed told news reporters the snake didn’t belong to the man and it was unclear how it got into the apartment.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 12,
+    "text": "Fortunately, there is some good news on this front.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 13,
+    "text": "At the end of each news report, you will hear two or three",
+    "n": 8,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 14,
+    "text": "Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 15,
+    "text": "Yet, very little research has focused on how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 16,
+    "text": "have some happy news for you.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 17,
+    "text": "[3] Jordan Jax and Tarod Goodman, both 23, were arrested after evidence gathered in an investigation showed the pair stole mail on multiple occasions using a postal key, according to a news release.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 18,
+    "text": "What do we learn from the news report about the egg price in the U.S.?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 19,
+    "text": "G) But here's the good news.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 20,
+    "text": "At the end of each news report, you will hear",
+    "n": 2,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 21,
+    "text": "Questions 3 and 4 are based on the news report you have just heard.",
+    "n": 30,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 22,
+    "text": "“The difference is not really news to me, as a clinical psychologist,” said Erin Joyce, a women and couples therapist in Los Angeles.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 23,
+    "text": "News Report Two",
+    "n": 11,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 24,
+    "text": "But that doesn’t mean it’s all good news for future food.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 25,
+    "text": "What does the news report say about most people arriving at American borders with eggs?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 26,
+    "text": "Both the news report and the questions will be spoken only once.",
+    "n": 21,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 27,
+    "text": "Questions 5 to 7 are based on the news report you have just heard.",
+    "n": 31,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 28,
+    "text": "J) The good news is, women are more likely than men to take charge of their stress and manage it, the American Psychological Association reports.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 29,
+    "text": "News Report Three",
+    "n": 11,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 30,
+    "text": "A recent news report talked about scientific efforts to help crops survive droughts through genetic engineering.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 31,
+    "text": "What do we learn from the news report about the restaurant Net Ease House?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 32,
+    "text": "Questions 1 and 2 are based on the news report yon have just heard.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 33,
+    "text": "Ignore irrelevant information on their news feed.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 34,
+    "text": "Questions 3 and 4 are based on the news report yon have just heard.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 35,
+    "text": "Questions 5 to 7 are based on the news report yon have just heard.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 36,
+    "text": "If play and building are critical to 21st-century skill development, that's really good news for two",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   }
+  ]
+ },
+ {
+  "rank": 265,
+  "word": "participants",
+  "def": "n.参与者; 参加者(participant的复数).",
+  "total": 76,
+  "uniq": 74,
+  "sents": [
+   {
+    "id": 0,
+    "text": "It is a seven-day race, called the Iditarod Trail and participants stop at Takotna for their obligatory 24-hour rest.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1,
+    "text": "You are now to write a proposal, which may include its aim, duration, participants and activities.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 2,
+    "text": "Participants who usually struggled to handle negative emotions were more intensely affected by the sad clips, just as you’d expect.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 3,
+    "text": "You are now to write a report about the project, which may include its aim, organizers, participants and activities.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 4,
+    "text": "Its participants came from various walks of life.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 5,
+    "text": "Participants worked in the health profession.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 6,
+    "text": "Its participants all had high blood cholesterol levels.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 7,
+    "text": "The participants ate three different diets.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 8,
+    "text": "In one study, researchers showed the participants columns of abstract illustrations and asked them which ones they would prefer.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 9,
+    "text": "The research examined three studies 26 more than 18,000 participants.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 10,
+    "text": "H) Over five experiments researchers gave participants tasks in which they could cheat.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 11,
+    "text": "To find causes for differences in the participants’ performance.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 12,
+    "text": "He said the participants need to be super competent, resourceful, and not relying on other people to feel comfortable.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 13,
+    "text": "In fact, 60-70 percent of the participants in the study could no longer even be ___28___ as depressed.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 14,
+    "text": "Researchers say this was because participants anticipated more negative judgment from an outsider group.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 15,
+    "text": "They varied greatly among the course participants.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 16,
+    "text": "In a new study, participants were told to imagine that they were negotiating for something important to them, like a house.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 17,
+    "text": "[4] Overall, the new study found no significant relationship between participants’ month of birth and symptoms of depression or anxiety.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 18,
+    "text": "They found that participants in a high-power interviewer role were more likely to give abstract",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 19,
+    "text": "This reduced self-threat could even be observed when participants assumed that they",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 20,
+    "text": "___34___ better than participants in their youth or middle years on tasks that required them to determine the meaning of",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 21,
+    "text": "Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 22,
+    "text": "For the study, the researchers asked participants to rate their diet as excellent, very good, good, fair or poor.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 23,
+    "text": "In a study by the Universities of York and Kyoto, researchers asked participants to look at pairs of photographs and decide",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 24,
+    "text": "G) Catherine Ritman Smith, head of learning at the Design Museum, is expecting around 10,000 participants aged 13 to 16",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 25,
+    "text": "Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] But participants were more likely to choose that person when they’re looking for a competitive team member.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 26,
+    "text": "The findings showed that, despite missing half of this critical ___27___, participants could function well.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 27,
+    "text": "Afterwards, the participants read a fictional survey of teens who wanted to “fight back against the companies by buying and",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 28,
+    "text": "organized the first Earth Day on April 22, 1970, educating participants in the ___29___ of environmental protection.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 29,
+    "text": "The researchers said moderate exercise appears to have helped those participants to be less vulnerable to the impact of the sad movie.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 30,
+    "text": "For example, in one task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 31,
+    "text": "Being a parent _33_ very high across the priorities of all study participants.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 32,
+    "text": "Between the diet periods, participants had a break, during which they ate their regular foods.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 33,
+    "text": "Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrixes than they actually had.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 34,
+    "text": "A paper published this week by University of Sydney researchers in Social Networks has reported participants' feelings about team-building interventions, revealing ethical implications in forcing employees to take part.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 35,
+    "text": "In one experiment, participants were offered the choice between candy and fruit as a snack.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 36,
+    "text": "They can be easily seen among participants in a healthy weight range.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 37,
+    "text": "Participants then completed a survey indicating how tough, deceptive and pleasant or otherwise they wanted to be, or wanted their agent to be, in the negotiations.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 38,
+    "text": "descriptions of behaviors than were participants in a low-power interviewee role.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 39,
+    "text": "And the team also found that participants were willing to look at listings with lower salaries if they came from companies with a higher diversity score.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 40,
+    "text": "Surprisingly, participants made the wrong call in one-in-five cases.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 41,
+    "text": "Participants in Design Ventura are challenged to create sustainable and marketable products.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 42,
+    "text": "After the intervention, participants associated healthy eating with autonomy and social justice.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 43,
+    "text": "In 1990, Hayes organized a global Earth Day, with more than 200 million participants in 140 countries.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 44,
+    "text": "In addition, participants had blood tests at the start and finish of each new diet.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 45,
+    "text": "I) After each task, the researchers measured participants’ performance on the Remote Associates Test.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 46,
+    "text": "\"Some participants were against team-building exercises because they were implicitly compulsory.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 47,
+    "text": "They should be attributed to participants’ change in diet behaviors.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 48,
+    "text": "For example, participants could choose to be tough by making an opening demand far greater than what they’d be willing to accept.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 49,
+    "text": "To help explain this seemingly irrational behavior, Hershfield and his team scanned the brains of study participants",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 50,
+    "text": "The researchers collected data from participants from both the UK and Japan to ___29___ any differences according to race.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 51,
+    "text": "This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 52,
+    "text": "In this study the researchers recommended a self-disclosure (表露) approach where participants were guided through a series of questions that allowed them to increasingly disclose personal information and values.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 53,
+    "text": "The researchers found that when participants spent longer than _28_ on their leisure activity, their belief in their ability to perform their job was strengthened.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 54,
+    "text": "These are both examples of deceptive strategies. [18] Participants were more willing to employ deceptive strategies when assigned an agent to negotiate on their behalf.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 55,
+    "text": "As participants answered, Hershfield's team recorded which parts of their brains",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 56,
+    "text": "When trial participants were asked to choose between photographs of faces of a different race from theirs, response times",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 57,
+    "text": "J) For every one of the five studies, they found the same thing—participants who cheated in the first task did better on the creativity task.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 58,
+    "text": "By allowing participants freedom to express themselves.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 59,
+    "text": "Researchers also measured participants’ overall satisfaction around cooking and diet-related behaviors.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 60,
+    "text": "But the team found that participants' brain activity while considering their future selves more closely",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 61,
+    "text": "Various experiments found that participants who cheated in the initial task performed better in the creativity test.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 62,
+    "text": "By arranging in proper order the questions participants face.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 63,
+    "text": "Course participants saw significant improvements in general health.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 64,
+    "text": "He and his team took photos of study participants, and then used",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 65,
+    "text": "The researchers tested the participants’ creativity by asking them to play a word game.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 66,
+    "text": "This would imply that the participants in the current study may have felt better due to improved diet.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 67,
+    "text": "Participants were then placed in a virtual reality setting where they could look",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 68,
+    "text": "The math task in one experiment was designed to test participants’ tendency to cheat.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 69,
+    "text": "However, the study showed participants’ mental health improved even if their reported diet did not change after completing the program.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 70,
+    "text": "Participants who saw their aged selves said they would save 30%",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 71,
+    "text": "Also, the mental health benefits were equal among participants who were overweight or obese, and those in a healthy weight range. [20] This suggests a link between cooking confidence and satisfaction around cooking, and mental health benefits.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 72,
+    "text": "Researchers found that participants who saw the images of their aged selves would save more for their later years than",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 73,
+    "text": "At the start of the program, 77 per cent of female participants were confident about cooking, but just 23 per cent of males were confident.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   }
+  ]
+ },
+ {
+  "rank": 266,
+  "word": "right",
+  "def": "adv.立即; 正好; 正确地; 在右边. adj.正确的; 右边的. n.权利; 正确; 右边.",
+  "total": 66,
+  "uniq": 66,
+  "sents": [
+   {
+    "id": 0,
+    "text": "They are the ones who, right in",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "Right, you’ve convinced me.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2,
+    "text": "She returned it to its owner right away.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 3,
+    "text": "M: All right, then.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 4,
+    "text": "Let’s order Vietnamese right away.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 5,
+    "text": "Sounds like my dream job, right?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 6,
+    "text": "They must play football a lot then, right?",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 7,
+    "text": "I imagine there will be different foods and people will just help themselves and eat at their own pace, right?",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 8,
+    "text": "The left side of their brain is more powerful than its right side.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 9,
+    "text": "M: (13-2) Right.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 10,
+    "text": "Summer doesn’t begin for two more days, but scientists are already sounding the alarm about dangerous ice melts going on right now in Greenland.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 11,
+    "text": "The more you get right, the more creative you are thought to be because you have come up with uncommon associations.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 12,
+    "text": "The act of keeping her own last name was considered taboo (禁忌) and people’s eyebrows would raise right off their faces when they found out that the bride was even considering something so radical.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 13,
+    "text": "W: All right.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 14,
+    "text": "Now they can dictate notes on a patient's health condition and treatment and a smart assistant automatically enters the information into the right fields on a web form.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 15,
+    "text": "M: Maybe you’re right.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 16,
+    "text": "W: Yes, that’s right.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 17,
+    "text": "But for as long as you want to stay safe, and for as long as you are content with where your business is right now, you will never find out.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 18,
+    "text": "P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 19,
+    "text": "Although he only had three dollars in his wallet, at least he was driving in the right direction.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 20,
+    "text": "Simply “feeling” that something is right or should be done is highly subjective and can drown you.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 21,
+    "text": "For a while, it looked like Keynes was right.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 22,
+    "text": "M: When the time is right, I’ll start talking to our children about investing and show them how the money saved for their further education has grown.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 23,
+    "text": "Part of remedying this social disease would be for parliament to pass a “right to grow” law, allowing anyone to turn",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 24,
+    "text": "M: Maybe you’re right, [9] but the thing is, everyone at the office has a nice, expensive phone, and I’m a little embarrassed by mine.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 25,
+    "text": "The state of your life right now is a result of the habits",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 26,
+    "text": "principle: that there can be just the right amount of something.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 27,
+    "text": "M: Ah, yes, you are completely right.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 28,
+    "text": "Science now suggests the right dress may give ourselves the extra",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 29,
+    "text": "Right over here, we have dozens of puzzles for children of all ages.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 30,
+    "text": "“right” or “correct” decision begins to feel more ___31___ and, at the same time, more difficult to do.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 31,
+    "text": "There are others, however, who showed support for the restaurant’s decision. [4] They said it has the right to implement any rules it wants.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 32,
+    "text": "income, or ___34___, have a moral right to a healthy, sustainable environment.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 33,
+    "text": "Well, the main thing is to have everything in the right place.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 34,
+    "text": "Teach them how to perform tasks with their right hand.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 35,
+    "text": "I’ll pay everything with my own card, right?",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 36,
+    "text": "Some men, regardless of how you might feel about some things, are traditionalists and feel that it is simply “right” for the woman to take the man’s last name as her own.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 37,
+    "text": "What movie are you showing right now?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 38,
+    "text": "It looks all right.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 39,
+    "text": "Keynes got that right: Technology has made the economy massively more productive.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 40,
+    "text": "Reconnect with nature through the right to grow.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 41,
+    "text": "M: Maybe you’re right, [10] but the credit card has a very good special offer, where I don’t pay any interest for six months.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 42,
+    "text": "It can be used to locate the right spot for pandas.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 43,
+    "text": "M: [15] You are right.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 44,
+    "text": "wear puts us in the right frame of mind to conduct business.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 45,
+    "text": "W: I suppose you are right.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 46,
+    "text": "choices, and also make you more confident about your ability to make the right decision.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 47,
+    "text": "W: If you have time right now, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 48,
+    "text": "has some work experience in the industry than a college graduate who took the “right” degree.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 49,
+    "text": "They hit me right out of gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and from the District.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 50,
+    "text": "Right-handed people preferred the ones on the right.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 51,
+    "text": "“They’re so used to being right and having quick answers that they don’t even realise when they’re making a mess by answering without thinking things through.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 52,
+    "text": "They are right next to each other on the ground floor, since you mentioned in your message that they have trouble with stairs.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 53,
+    "text": "an economist at Harvard, the U.S. economy is right on track to reach Keynes’s eightfold multiple by 2029.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 54,
+    "text": "What does science suggest the right dress may do?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 55,
+    "text": "Who knew, right?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 56,
+    "text": "The desire to be right is a major driver of analytical decision-making.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 57,
+    "text": "It would prove a right step to take in today’s catering business.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 58,
+    "text": "If something does not look right, ask about it.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 59,
+    "text": "It’s even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 60,
+    "text": "Keynes was right in predicting that technology would make the economy much more productive.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 61,
+    "text": "They may enable people to have the right mentality for doing business.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 62,
+    "text": "Leaders who use this style don’t want to make mistakes. [17] This commitment to one right way of thinking or doing things hinders the manager’s flexibility.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 63,
+    "text": "If it still doesn’t look right, negotiate it.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 64,
+    "text": "“For smart people, being wrong can feel like a personal attack, and being right, a necessity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 65,
+    "text": "They set the bar too high, and when people take too long or don’t get things quite right, they assume it’s due too lack of effort.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   }
+  ]
+ },
+ {
+  "rank": 267,
+  "word": "keep",
+  "def": "v.保持; 保留; 继续; 饲养.",
+  "total": 63,
+  "uniq": 61,
+  "sents": [
+   {
+    "id": 0,
+    "text": "students keep their ongoing academic or social difficulties in perspective.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "It gives 5,000 yen to employees who keep pet cats.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2,
+    "text": "So he’d rather come to us and keep things quiet.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 3,
+    "text": "It is not to the best interest of taxpayers to keep giving money to narrow winners.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 4,
+    "text": "Keep track of left-handed children’s school performance.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 5,
+    "text": "They feel pressured to keep up with female colleagues.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 6,
+    "text": "I’m trying to keep a slim figure, you know.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 7,
+    "text": "But, it’s important to keep in mind that the employer isn’t the only one who needs to identify a good match—you should be looking for that same exact thing.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 8,
+    "text": "Fraudsters keep changing their bank accounts to avoid being tracked.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 9,
+    "text": "The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to find answers in a certain way.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 10,
+    "text": "Keep all his receipts.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 11,
+    "text": "Just remember to keep all your receipts.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 12,
+    "text": "To keep eating fish at the current rate, we’re definitely going to need to keep aquaculture (水产养殖) developing.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 13,
+    "text": "Bundles containing thousands of pounds in cash keep turning up on the streets of Blackhall Colliery in northern England, according to police.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 14,
+    "text": "They discussed where to keep them.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 15,
+    "text": "Keep them in a safe place.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 16,
+    "text": "It made every effort to keep the essential capabilities of smartphones, but strip out costs and preserve battery life for people who likely have inadequate access to electricity.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 17,
+    "text": "Keep their traditional values and old habits.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 18,
+    "text": "Even though we basically know what will happen, we keep coming back for more.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 19,
+    "text": "But as regards bones, it's ___30___ use it or lose it: To keep your bones strong you have to keep exercising.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 20,
+    "text": "M: True, but if you keep current with your skills, you will be attracted to employers.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 21,
+    "text": "Having a rival can keep you committed to achieving your goals and enhance your overall performance.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 22,
+    "text": "It is important to keep in mind that personal space varies depending on culture and context.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 23,
+    "text": "How will we all keep busy when we only have to work 15 hours a week?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 24,
+    "text": "They have been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 25,
+    "text": "Willpower is just like a muscle, to keep it strong you need to constantly exercise it.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 26,
+    "text": "When they become aware of the meaningful relationships you keep with them.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 27,
+    "text": "They will have insufficient heating oil to keep warm.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 28,
+    "text": "The pain will be especially acute in parts of the country that heavily rely on heating oil to keep homes warm.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 29,
+    "text": "What does the author imply people in developed countries should do to keep healthy?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 30,
+    "text": "them to opt for it at General Certificate of Secondary Education, so we are helping to keep alive something which is crucial",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 31,
+    "text": "In essence, each driver would constantly make adjustments to keep their car roughly halfway",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 32,
+    "text": "Keep cats off the street.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 33,
+    "text": "So the real danger here is that children who will completely able to do math at a normal level may keep away from it because they feel anxious.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 34,
+    "text": "If your definition of boredom is being quiet, mindful, and reflective, keep it up.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 35,
+    "text": "O) Keep these tips in mind to figure out whether you and a potential employer are a perfect match or just a recipe (方案) for disaster.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 36,
+    "text": "But online education does not allow a teacher to keep a struggling student after class and offer help.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 37,
+    "text": "They keep changing their ways of cheating.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 38,
+    "text": "At that point, your heat regulatory system can essentially quit, which stops you from sweating as your body tries to keep water around your vital organs.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 39,
+    "text": "What do we need to do if we keep consuming fish at the current rate?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 40,
+    "text": "You also have to take the time to apply for your marriage license and then decide whether or not you are going to keep your last name or change it.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 41,
+    "text": "First, large houses take time to maintain, so cleaners and other low-wage service workers are required to keep these houses in order.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 42,
+    "text": "Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 43,
+    "text": "productivity stopped working around 1973.Thus, they had to keep working just as much in order to maintain their",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 44,
+    "text": "Keep it under control.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 45,
+    "text": "M: I go to the bank once a week, and the rest of the time I keep my bank card at home, so I can’t get more cash out.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 46,
+    "text": "each autonomous robot tries to keep itself halfway between the robot in front and the one behind; the phantom jams",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 47,
+    "text": "It is difficult for anumeric people to keep track of the change in numbers even when the total is very small.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 48,
+    "text": "They usually keep their eating habits a secret.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 49,
+    "text": "This allows managers to both keep an eye on struggling employees and provide ongoing feedback on how employees are adapting to their new work environment.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 50,
+    "text": "Over time, though, more and more women are deciding to keep their last names.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 51,
+    "text": "many hours as before to keep their living standards.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 52,
+    "text": "It was difficult to keep a job for long.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 53,
+    "text": "For organizations that have struggled to keep the lights on due to the pandemic, this might mean thinking of non-financial ways to reward employees, like unpaid time off or flexible work schedules.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 54,
+    "text": "There are a lot of reasons to want to keep your own last name.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 55,
+    "text": "In fact, scientists now suspect accumulating novel experiences, facts, and skills can keep people’s minds more flexible.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 56,
+    "text": "To keep a watchful eye on those employees who perform poorly.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 57,
+    "text": "This allows you to keep going by your own last name while legally adopting your husband’s last name at the same time.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 58,
+    "text": "simple as taking a different route to the grocery store or going somewhere new on vacation can keep the brain healthy.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 59,
+    "text": "Many women who opt to simply keep their own names do so because they don’t want to give up all that they have accomplished professionally.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 60,
+    "text": "At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   }
+  ]
+ },
+ {
+  "rank": 268,
+  "word": "young",
+  "def": "adj.年轻的; 年幼的. n.年轻人.",
+  "total": 59,
+  "uniq": 58,
+  "sents": [
+   {
+    "id": 0,
+    "text": "schools and families can help young people thrive.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "research published by Brigham Young University.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2,
+    "text": "Experts say this can have an impact on young children whose understanding of gender roles and identity are rapidly forming.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 3,
+    "text": "But instead, (3-2) the young sheep escaped into a 200-acre forest near the farm.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 4,
+    "text": "More and more, young people choose spending time on their electronic devices over engaging in other activities, regardless of the type.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 5,
+    "text": "The young girl braved the threat of bears, wolves and temperatures far below freezing.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 6,
+    "text": "Physically attending school has hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills to cultivate in young people.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 7,
+    "text": "From a young age, students learn that answers exist conveniently at their fingertips through search engines and expert websites.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 8,
+    "text": "Despite smartphones and social media, young people today are as socially competent as those from the previous generation.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 9,
+    "text": "Two boys and four girls were born on Monday to the surprise of a young couple and doctors who had expected five babies.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 10,
+    "text": "This is good news, because reading to young children helps their language and brain development.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 11,
+    "text": "Good health is not just a privilege of the young.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 12,
+    "text": "They attract large crowds of young Londoners.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 13,
+    "text": "It is more harmful to young people.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 14,
+    "text": "Poor sleep might be a problem for older people, but surely young people can handle late nights.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 15,
+    "text": "“Most young women want to be a part of something grand, something important.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 16,
+    "text": "He noticed the driver was too young to drive.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 17,
+    "text": "New scientific research at the University of the Sunshine Coast in Queensland, Australia, suggests that young people are developing extra pieces of bone at the backs of their heads.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 18,
+    "text": "Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 19,
+    "text": "About 58% of young adults call parental support the new normal.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 20,
+    "text": "[23] But 64% of the young adults surveyed said parents’ financial support to children age 25 to 34 is “a bad thing”, because it makes those kids dependent.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 21,
+    "text": "It’s best to start young, so it’s instinctive rather than a scary subject.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 22,
+    "text": "stated, “Young women engineers are on an equal footing until they have children, then they struggle to balance work and",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 23,
+    "text": "Young brains wire themselves according to the sounds they hear frequently, assigning areas of the auditory cortex to ___33___",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 24,
+    "text": "Among young people, 97 percent agree without reviewing the terms.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 25,
+    "text": "Getting young minds into design",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 26,
+    "text": "They are young teenagers from Atlanta.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 27,
+    "text": "There’s a Bobo Man cartoon popular amongst young children, you see.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 28,
+    "text": "a young boy had a significant portion of his brain removed for medical reasons, which included the part of the brain ___32___",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 29,
+    "text": "She moved to the U.S. at a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 30,
+    "text": "I thought we agreed that we would not be sending him away at such a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 31,
+    "text": "of schools and for which kinds of students these growth mindset ideas help young people adapt to the",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 32,
+    "text": "They recommend providing young men opportunities to work with children through training and volunteer programs, targeting groups of men who are considering a career change, such as fathers.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 33,
+    "text": "By 2016, nearly nine out of ten young women in the 12th grade said they visited social media sites every day.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 34,
+    "text": "Personal teaching is about teachers showing students a higher path, and about young people going through the process together.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 35,
+    "text": "“He’s a very relaxed cat, happy for customers and villagers young and old to come in and say hello.” [7] She also said he is a cat of expensive tastes who likes his high priced cat food.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 36,
+    "text": "In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, but to the world.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 37,
+    "text": "A full 70% of the young adults cannot afford to buy a car by themselves.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 38,
+    "text": "Dychtwald believes the young women and men surveyed were saying that by 25, younger adults ought to be financially independent. [24] In fact, the respondents said, financial independence defines adulthood.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 39,
+    "text": "We opened a savings account when they were young.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 40,
+    "text": "Young women engineers are more accepted mostly because there are just",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 41,
+    "text": "Giving young people the opportunity to become familiar with the world of money would provide them with a great",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 42,
+    "text": "End users, young and old alike, find the terms complex to interpret.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 43,
+    "text": "“We started Design Ventura with around 800 young people",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 44,
+    "text": "And kids enjoy it just as much today as you and I did when we were young.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 45,
+    "text": "Playing the piano from a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 46,
+    "text": "Branyas was born in the United States on April 4, 1907, but her family moved to Spain, where they were originally from when she was a young child.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 47,
+    "text": "Recruiting young men who have a passion for education young children.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 48,
+    "text": "H) This might present problems for young people later on.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 49,
+    "text": "What probably makes young women engineers more accepted nowadays?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 50,
+    "text": "What would financial literacy do to young people?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 51,
+    "text": "keen to encourage young people,” she says, observing that design brings together other subjects such as literature, art,",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 52,
+    "text": "In more conventional views, gaming is a time-wasting activity pursued by young boys.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 53,
+    "text": "These include playing the piano from a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 54,
+    "text": "Many years’ surveys reveal that young people in America are going to the cinema much less often than they used to.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 55,
+    "text": "success among young children, teens have been harder to reach.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 56,
+    "text": "how advertising campaigns specifically target very young and poor people, causing harm for these vulnerable groups.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 57,
+    "text": "They focused on the benefits young people would reap in the future.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   }
+  ]
+ },
+ {
+  "rank": 269,
+  "word": "greater",
+  "def": "adj.更大的; 更伟大的(great 的比较级).",
+  "total": 53,
+  "uniq": 51,
+  "sents": [
+   {
+    "id": 0,
+    "text": "time, they start to understand that a given number represents a quantity greater by one than the",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 1,
+    "text": "Scientists who persisted in research without receiving a grant made greater achievements than those",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 2,
+    "text": "M: And I guess with fewer places to inhabit, they concentrate in greater numbers in few areas, which surely makes them easier targets for the hunters.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 3,
+    "text": "Recent open debates on scientific research, health, and policy have aroused greater public attention and encouraged more diverse voices.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 4,
+    "text": "The more beverages containing added sugar that people drank, the greater their risk of death was during the study period.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 5,
+    "text": "Online classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 6,
+    "text": "It is bound to help us achieve greater success.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 7,
+    "text": "The health impacts from making one electronic reader are 70 times greater than those from making a single printed book.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 8,
+    "text": "Greater emotional cleverness means less trouble in one’s life.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 9,
+    "text": "Fathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer 31 symptoms.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 10,
+    "text": "Longer melt seasons like this one seem to lead to much greater contributions to sea-level rise than in previous decades.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 11,
+    "text": "A greater emphasis on studying the cause of obesity and chronic diseases.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 12,
+    "text": "The researchers found that older students displayed greater risk-taking tendencies.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 13,
+    "text": "They achieve greater nonconventional success.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 14,
+    "text": "Greater Internet access correlates directly with improved health care, education and economic development.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 15,
+    "text": "Jeans are available in a greater variety in America.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 16,
+    "text": "Today, a greater and greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 17,
+    "text": "“Depending on a greater number of plant species creates a more vigorous and less risky food system—and one that provides a broader range of nutritional requirements.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 18,
+    "text": "M: Having investment income that’s greater than monthly expenses.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 19,
+    "text": "The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 20,
+    "text": "For example, participants could choose to be tough by making an opening demand far greater than what they’d be willing to accept.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 21,
+    "text": "Early on, the web is their “third space”, but by the late teens, it’s replaced in reaction to greater independence.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 22,
+    "text": "Other studies have shown a greater uptake of exercise in people who were told to think of the enjoyment of doing the exercise",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 23,
+    "text": "It can lead to increased innovation and greater trust on teams.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 24,
+    "text": "The more they achieve and the greater progress they",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 25,
+    "text": "When companies embrace greater diversity",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 26,
+    "text": "month one chief executive of a water bottling company said that bans would “result in greater consumption of sugary drinks,",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 27,
+    "text": "travel further, and might result in greater genetic connectivity and enhanced population persistence.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 28,
+    "text": "What kind of display attracts a greater crowd of customers.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 29,
+    "text": "M: [11] I’m not convinced that the benefits are greater than the disadvantages, but I’ll discuss this with your mother.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 30,
+    "text": "They also start developing greater ability to remember dreams.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 31,
+    "text": "People over 45 stimulated by training suffer shorter periods of unemployment, get more job offers and have greater",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 32,
+    "text": "delivering greater value to their clients.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 33,
+    "text": "Feeling bored may signal the desire for a greater sense",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 34,
+    "text": "Doubts about the practicability of diversity have a greater weight if a person is directly affected.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 35,
+    "text": "They also reported greater connectedness and autonomy (自主).",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 36,
+    "text": "In other words, the more time parents spend reading, the greater the developmental benefits in their four-year-old children.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 37,
+    "text": "Ambitious people may not have a greater chance of success.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 38,
+    "text": "Chase Carey believes greater use should be made of digital technology to make Formula One more accessible to its fans.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 39,
+    "text": "People make greater achievements by maintaining whatever they are doing is multitasking.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 40,
+    "text": "People often wonder why some entrepreneurs have greater success than others.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 41,
+    "text": "And finally, they implemented changes, like asking their supervisor for greater",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 42,
+    "text": "What kind of display leads to greater customer satisfaction.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 43,
+    "text": "A greater responsibility for the culinary world to undertake.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 44,
+    "text": "Many cultures place a much greater value on the spoken word than the American working culture does.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 45,
+    "text": "Mums reported greater autonomy, but also “greater trouble” and fewer positive 33.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 46,
+    "text": "Books that named different characters also promoted greater learning.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 47,
+    "text": "These closer bonds and greater attachment pay off.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 48,
+    "text": "habits day in and day out for greater success.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 49,
+    "text": "All of this was done in the name of increasing job satisfaction and giving workers greater flexibility,",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 50,
+    "text": "Research found that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   }
+  ]
+ },
+ {
+  "rank": 270,
+  "word": "shows",
+  "def": "n.表演; 展览(show 的复数). v.显示; 展示(show 的第三人称单数).",
+  "total": 44,
+  "uniq": 44,
+  "sents": [
+   {
+    "id": 0,
+    "text": "E) In addition, studies find the first year of high school typically shows one of the greatest increases in",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "Kirsteen also believes the video obtained from the shop shows the dog being stolen by a man before driving off in a car which had been waiting nearby.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2,
+    "text": "K) Research on the language of numbers shows, more and more, that one of our species' key",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 3,
+    "text": "who gets grants, he said, and the latest research shows that the scientific establishment is not very",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 4,
+    "text": "But research shows it can be just as exhausting as paid work.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 5,
+    "text": "Survey analysis shows American teens now spend their leisure time on digital devices rather than reading printed books.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 6,
+    "text": "She shows a real passion for taking photos.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 7,
+    "text": "Can you find a map that shows where the hotel is and send it to me online?",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 8,
+    "text": "And research shows that in recent years its ice has melted faster than ever before.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 9,
+    "text": "This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 10,
+    "text": "It shows foreign movies exclusively.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 11,
+    "text": "W: (13) We’re the only movie theatre in the whole country that only shows foreign movies.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 12,
+    "text": "W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep can contribute to serious health problems like obesity and heart disease.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 13,
+    "text": "Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 14,
+    "text": "The board of free meals inside the restaurant shows a host of potential meals already paid for by customers, each costing about $10.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 15,
+    "text": "I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 16,
+    "text": "Research shows, however, that we actually have bubbles of different sizes.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 17,
+    "text": "shows improved function and memory as well as a reduced risk of mental disease.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 18,
+    "text": "Snow days are a familiar theme in American film and TV shows, with children getting the good news and then running",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 19,
+    "text": "Indeed, the latest research that has emerged on language and aging shows that language mastery is a ___30___ that we begin",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 20,
+    "text": "Video of the rescue operation shows how the team used a crane to lift up the huge animal out of the well and onto the back of a truck.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 21,
+    "text": "A 2017 study shows 91 percent of people agree to them without",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 22,
+    "text": "Research shows that a child’s awareness of social standing comes from adults.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 23,
+    "text": "Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] But new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 24,
+    "text": "subtle and just shows the impact symphonic orchestras have had on society’s taste in music.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 25,
+    "text": "Intelligent Transportation Systems, shows how bilateral control can fight the problem.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 26,
+    "text": "But research shows that, when it comes to actually making a ___27___ from all of these choices, people can become",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 27,
+    "text": "It shows a daring foresight regarding future fine dining.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 28,
+    "text": "pumped less blood through the body-both responses that the body shows when it is preparing for",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 29,
+    "text": "He told The Northern Echo: “(7) It isn’t an affluent part of the world, so for them to find cash of that amount and instantly think about taking it to the police stations shows the community spirit there is.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 30,
+    "text": "Research shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 31,
+    "text": "It shows movies from the 1950s.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 32,
+    "text": "Research shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 33,
+    "text": "However, research shows that authorised absences from school such as during extreme",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 34,
+    "text": "professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 35,
+    "text": "Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 36,
+    "text": "Recent evidence shows even relying on the information provided by the seller is",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 37,
+    "text": "that shows how bilateral control can suppress phantom traffic jams.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 38,
+    "text": "Research shows that when people choose from many options, they ___29___ more in the decision,",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 39,
+    "text": "The number of people experiencing depression shows a sharp increase in the first year of high school.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 40,
+    "text": "Through this lens, he shows us that the first laws passed in the 1200s to ensure that only the nobility were",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 41,
+    "text": "K) A video from the project shows a train of autonomous robots running along a track without bilateral control: they eventually",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 42,
+    "text": "Research shows that given 15 minutes of free play,",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 43,
+    "text": "Ford shows us it’s not.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   }
+  ]
+ },
+ {
+  "rank": 271,
+  "word": "ago",
+  "def": "adv.以前; 之前.",
+  "total": 45,
+  "uniq": 45,
+  "sents": [
+   {
+    "id": 0,
+    "text": "They were first introduced to California by Spanish and Russian explorers and settlers many centuries ago.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1,
+    "text": "50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away from",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2,
+    "text": "It started business three years ago.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 3,
+    "text": "Three years ago, a couple was enjoying a meal at a beach restaurant.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 4,
+    "text": "It was born 13 years ago.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 5,
+    "text": "I recently bought an office chair from your company, but I returned it about a week ago.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 6,
+    "text": "Most of us spend much more time with digital media than we did a decade ago.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 7,
+    "text": "Online classes began to be popularized just a few decades ago.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 8,
+    "text": "M: Didn’t South Africa host the Football World Cup a few years ago?",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 9,
+    "text": "So it was when a recent letter came from Kelli Harding, a student 21 years ago in my Peace Studies summer course in Washington.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 10,
+    "text": "She became a member of the gym two months ago.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 11,
+    "text": "W: (8-2) Yes, I signed up two months ago, but I haven’t been to any of the group classes yet.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 12,
+    "text": "A few years ago I found myself teaching a university class on evil.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 13,
+    "text": "Nearly all of them closed down decades ago.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 14,
+    "text": "My friend brought me a pair from there five years ago, and they still look new.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 15,
+    "text": "Fong has been involved in the organization since he was 15 and began teaching lion dancing three years ago.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 16,
+    "text": "F) “We did a study on paternity leave five years ago.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 17,
+    "text": "J) It is probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 18,
+    "text": "He finally disappeared six days ago.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 19,
+    "text": "Fifty years ago, it looked like that might change.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 20,
+    "text": "W: Didn’t you buy a new phone just two months ago?",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 21,
+    "text": "I also believe you were a beach volleyball athlete yourself not so long ago.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 22,
+    "text": "While fats and sugar have taken the beating in turns since over a century ago, protein has managed to remain our red-hot",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 23,
+    "text": "He received a heart operation a few days ago.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 24,
+    "text": "The unusual situation started about 12 months ago, when one cat routinely started visiting the store. [6] Local newspapers reported that puzzled customers posted on Facebook groups to try to find out if the cat was lost.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 25,
+    "text": "vegetable burger years ago and dismissed it as rubbery and flavorless, it’s a good time to give meatless meat another chance.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 26,
+    "text": "Five years ago, the city of Queens, New York, announced that it would be putting bike lanes onto a stretch of Skillman",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 27,
+    "text": "F) Two years ago, a Glasgow University study made headlines for suggesting gaming could make students more successful.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 28,
+    "text": "Unfortunately, she had to give up the practice seven years ago at 108.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 29,
+    "text": "K) Many years ago, I wrote about a study which found that employers are much more likely to hire a college graduate who",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 30,
+    "text": "She lost it about three days ago.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 31,
+    "text": "Compared with teens a couple of decades ago, the way they interact with traditional media like books and movies is fundamentally different.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 32,
+    "text": "And you signed up two months ago.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 33,
+    "text": "What did the joint study find about the MOOCs several years ago?",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 34,
+    "text": "\"Lion dancing started 2,000 years ago—that's incredible,\" she said.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 35,
+    "text": "Compared to five years ago, according to one researcher, many more people said their organisation gave the same support to men and women taking parental leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 36,
+    "text": "The reading culture was seriously affected by cable television some four decades ago.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 37,
+    "text": "M: It was three months ago, and I already know what you’re going to say.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 38,
+    "text": "“Then when I changed schools four years ago, I introduced it here because it helps to develop so many",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 39,
+    "text": "Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 40,
+    "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 41,
+    "text": "That is triple the number from two decades ago.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 42,
+    "text": "Most people spend much more time interacting with digital media than they did ten years ago.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 43,
+    "text": "A more disturbing trend in America today is that teens are spending far less time reading than around four decades ago.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 44,
+    "text": "Some five years ago, high school seniors in America generally spent more than six hours a day on electronic devices.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   }
+  ]
+ },
+ {
+  "rank": 272,
+  "word": "done",
+  "def": "adj.完成的; 煮熟的. v.做(do 的过去分词).",
+  "total": 45,
+  "uniq": 43,
+  "sents": [
+   {
+    "id": 0,
+    "text": "done to meet the academic, social and emotional challenges of the transition to high school.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "Once he’s all done, the work will remain there permanently.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 2,
+    "text": "Ask Jimmy what is to be done.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 3,
+    "text": "I’ve never done it before and I know that you’ve been doing it for ages.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 4,
+    "text": "biomedical science, research has been done on scientists who narrowly lost or won grant money.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 5,
+    "text": "How the paint job is to be done.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 6,
+    "text": "Routines can be incredibly useful in helping you get things done.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 7,
+    "text": "Once the fires were over, (4) the family had to fix the damage done to the farm, as it was such a large property.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 8,
+    "text": "It has done away with many of the traditional ways of thinking.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 9,
+    "text": "Well, I could come and go as I please, as long as I was getting the work done.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 10,
+    "text": "H) Nick Cooper, the founder and co-owner of villa booking company Villa Plus, estimates his company has uncovered more than 200 fake villa websites over the past two years, and doesn’t believe enough is being done.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 11,
+    "text": "Jobs had another great quote about saying “no”: “I’m actually as proud of the things we haven’t done as the things I have done.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 12,
+    "text": "Because there was no email or text message service, everything had to be done face to face, or by telephone.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 13,
+    "text": "They take less time to get things done.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 14,
+    "text": "According to recent research done in Australia, the answer is yes.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 15,
+    "text": "This is done in hopes of reducing the enormous amount of plastic pollution in the oceans.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 16,
+    "text": "We can't do that because it's never been done that way.'\"",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 17,
+    "text": "And before she knew it, she had done 20 weeks.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 18,
+    "text": "All this is done with the aim of improving workplace efficiency, collaboration and cohesion.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 19,
+    "text": "Several recent studies have found that even low-intensity exercise, done for a short amount of time, can have a meaningful _26_ on health.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 20,
+    "text": "Simply “feeling” that something is right or should be done is highly subjective and can drown you.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 21,
+    "text": "it has done better than naturally born dogs.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 22,
+    "text": "to have this article done.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 23,
+    "text": "Besides, teamwork and leadership rely heavily on the power of persuasion to get things done.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 24,
+    "text": "All of this was done in the name of increasing job satisfaction and giving workers greater flexibility,",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 25,
+    "text": "Australia’s youth are being done a great disservice by not receiving any consistent financial education.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 26,
+    "text": "What should be done to help drivers fully understand system capabilities and limitations?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 27,
+    "text": "He had some plastic surgery done.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 28,
+    "text": "M: [12] He had some plastic surgery done.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 29,
+    "text": "But the bike lanes were a done deal, and soon they were in place.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 30,
+    "text": "W: It sounds a bit difficult, but he’s done his research, I suppose.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 31,
+    "text": "What did the government say would be done if security officers found what they were searching for?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 32,
+    "text": "K) In sports and many areas of life, we think of failures as evidence of something we could have done",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 33,
+    "text": "It has not done enough to help left-handed children.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 34,
+    "text": "I’m reminded of the famous Peter Drucker quote, “There is nothing so useless as doing efficiently that which should not be done at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 35,
+    "text": "But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 36,
+    "text": "also satisfying to see the effects of what you have done.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 37,
+    "text": "I’ve read some financial education books, done some online learning, and have spoken to my nearest and dearest for",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 38,
+    "text": "He had an operation done on it, plastic surgery, in order to cover it and make it less noticeable.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 39,
+    "text": "But it’s much easier said than done.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 40,
+    "text": "It has done a good job in combating natural disasters.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 41,
+    "text": "The unpaid housework done by women is triple that done by men.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 42,
+    "text": "The emotional labor women do is noticed only when it is not done.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   }
+  ]
+ },
+ {
+  "rank": 273,
+  "word": "yet",
+  "def": "adv.还; 仍然; 然而. conj.然而; 但是.",
+  "total": 37,
+  "uniq": 37,
+  "sents": [
+   {
+    "id": 0,
+    "text": "I’ve heard that German cars are very reliable, but I haven’t decided on a specific model yet.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1,
+    "text": "Yet numberless people",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2,
+    "text": "It may yet be a selection effect.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 3,
+    "text": "The baby hasn’t been given a name yet.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 4,
+    "text": "Yet the widespread view is that obesity is self-induced and that it is entirely the individual’s responsibility to do something about it.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 5,
+    "text": "Yet solving problems like these requires new approaches that extend beyond traditional ways of thinking.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 6,
+    "text": "When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 7,
+    "text": "Authorities have not yet confirmed what will happen if the rightful owner is not found.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 8,
+    "text": "Yet teachers are expected to prepare them to be responsible citizens, cultivate their social skills, encourage successful time management, and enhance their capacity to flourish in an increasingly harsh labor market.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 9,
+    "text": "Yet one group had 60% fewer of them.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 10,
+    "text": "The new parents have yet to name the sixth baby but are considering either Lily or Rose.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 11,
+    "text": "She hasn’t passed the driving test yet.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 12,
+    "text": "Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed on grass.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 13,
+    "text": "Yet now the dictator is gone.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 14,
+    "text": "Despite these _35_, the study’s results are yet another indication of the power of physical activity, even in small amounts.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 15,
+    "text": "But we already know this. [3] What we have not yet understood is the way the tiny machines in front of us are changing our skeletons, possibly altering not just the way we behave but even the very shape of our bodies.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 16,
+    "text": "Yet studies of first-year college papers suggest these anxieties may be partly based on misguided nostalgia (怀旧).",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 17,
+    "text": "The technology is yet to be accepted.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 18,
+    "text": "The ultimate goal of scientists is to produce clones of talented police dogs that can be trained in months instead of years. [7] However, this goal is not yet possible due to the current costs of the technology.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 19,
+    "text": "And yet, savings rates in the U.S. have gone down in recent decades, not up.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 20,
+    "text": "After six days of desperate searching, he was eventually found and placed in a supposedly secure area. [3] But it seems the animal is no fan of the zoo, because yet again he is out on the loose. [4] The snake is a relative newcomer to the zoo but has already been frustrating its staff.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 21,
+    "text": "beliefs, to realize that we almost never do so, to understand that the simplest choices are charged with meaning, and yet that",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 22,
+    "text": "Yet slipping from popular culture is the wonder and beauty of the natural world.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 23,
+    "text": "Yet, very little research has focused on how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 24,
+    "text": "Yet the bottled water market is livelier than ever.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 25,
+    "text": "adults use a large variety of attributes to manage and create impressions, we don’t yet know whether children ___32___ and",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 26,
+    "text": "He is not yet mature enough to live on his own.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 27,
+    "text": "Hiring managers who are not yet 45 years old seem unwilling to hire people their senior.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 28,
+    "text": "Yet, there are",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 29,
+    "text": "Yet, there’s no commercial farming of these birds nowadays.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 30,
+    "text": "W: (8-2) Yes, I signed up two months ago, but I haven’t been to any of the group classes yet.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 31,
+    "text": "Artificial intelligence just isn't smart enough yet.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 32,
+    "text": "Yet whereas most",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 33,
+    "text": "The gaming industry is larger than films and music combined, yet few of us are likely to list our achievements in playing",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 34,
+    "text": "Robots are not yet witty, Siri is boring.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 35,
+    "text": "health benefits, such guidelines do not yet exist for exercise and mood.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 36,
+    "text": "But “the research hasn’t really changed minds, at least not yet,” says one of the authors of the study, Dr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   }
+  ]
+ },
+ {
+  "rank": 274,
+  "word": "anything",
+  "def": "pron.任何事物; 任何东西.",
+  "total": 36,
+  "uniq": 35,
+  "sents": [
+   {
+    "id": 0,
+    "text": "Wild pigs will eat almost anything containing calories.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 1,
+    "text": "If anything is really wrong, you can just take photographs of the damage, and they will give you the money back or replace the item.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 2,
+    "text": "Nowadays you can't buy anything without then being asked to provide a rating of a company's",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 3,
+    "text": "But that doesn’t mean your life has ended and you can’t do anything to change it.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 4,
+    "text": "But it’s been five working days and I haven’t received anything.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 5,
+    "text": "So it’s really a protective mechanism more than anything else.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 6,
+    "text": "Because the Food and Drug Administration (FDA) has not _34_ the term, companies can use it to refer to pretty much anything derived from a plant or animal.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 7,
+    "text": "Ultimately, what affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 8,
+    "text": "You might learn something, but you don’t actually have to do anything.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 9,
+    "text": "It wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other than emergency care.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 10,
+    "text": "I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re also saying ‘no’ to anything else we might accomplish with the time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 11,
+    "text": "Is there anything else?",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 12,
+    "text": "H) So although many computer assistants can answer simple questions about the weather and play music for us, anything resembling a wide-ranging human conversation is decades away.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 13,
+    "text": "\"It doesn't do anything digitally.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 14,
+    "text": "How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 15,
+    "text": "One of the male tourists from Australia commented that although there was a lot of trash, nobody was doing anything.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 16,
+    "text": "Do you have anything in mind?",
+    "n": 2,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 17,
+    "text": "W: Well, sounds like if you’re going to read anything for fun, this is the book.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 18,
+    "text": "The answers are anything but simple.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 19,
+    "text": "One thing that extreme sports do better than perhaps anything else is to help you stop being afraid. [19] It may sound strange to say that their main function is to reduce fear.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 20,
+    "text": "district is anything to go by.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 21,
+    "text": "Fourth, they considered their alternatives: is there anything at work that could be",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 22,
+    "text": "He is not up to anything challenging.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 23,
+    "text": "is a natural result of staying focused on the process of doing anything.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 24,
+    "text": "The schools don’t have to pay anything to take part in the Design Ventura competition.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 25,
+    "text": "wonderful job of removing and eliminating anything harmful from our bodies.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 26,
+    "text": "W: Does it do anything?",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 27,
+    "text": "drive and drive and drive... and there isn’t anything there.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 28,
+    "text": "If we’ve learned anything about culture wars, it’s that data isn’t much good at",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 29,
+    "text": "He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says the question is not whether we can, but whether we should, and to what end.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 30,
+    "text": "However, taking action and applying a new idea to your life will inspire you more than anything someone else can say.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 31,
+    "text": "After all, if you can jump out of a plane or off a bridge, then you can face anything else easily.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 32,
+    "text": "A mechanical engineer said, “It will give you the flexibility to do almost anything.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 33,
+    "text": "can accomplish anything.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 34,
+    "text": "They have proved capable of doing almost anything.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   }
+  ]
+ },
+ {
+  "rank": 275,
+  "word": "essay",
+  "def": "n.短文; 散文; 论说文.",
+  "total": 33,
+  "uniq": 16,
+  "sents": [
+   {
+    "id": 0,
+    "text": "Directions: For this pa.rt, you are allowed 30 minutes to write an essay titled ''Are people becoming addicted",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 1,
+    "text": "Directions: For this part, you are allowed 80 minutes to write an essay titled \"Is technology making people",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 2,
+    "text": "Directions: For this part, you are allowed 30 minutes to write an essay titled \"Do violent video games lead to",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 3,
+    "text": "G) Surface acting is a prime example of “emotional labor,” a concept that the writer Jess Zimmerman made familiar in a 2015 essay.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 4,
+    "text": "Directions: In this task, you are to write an essay on the role of physical exercise in achieving success at college.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 5,
+    "text": "Directions: In this task, you are to write an essay on the importance of developing a healthy lifestyle among college students.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 6,
+    "text": "Directions: In this task, you are to write an essay on the necessity of developing social skills for college students.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 7,
+    "text": "You are to write an essay on ways to maintain a warm and friendly relationship with your classmates and on the benefits of such a relationship.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 8,
+    "text": "You are to write an essay on its benefits and the service you can provide to the community.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 9,
+    "text": "You are now to write an essay for submission.",
+    "n": 5,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 10,
+    "text": "You are now to write an essay to express your view.",
+    "n": 6,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 11,
+    "text": "write the essay.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 12,
+    "text": "are now to write an essay to express your view.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 13,
+    "text": "The essay sparked a massive thread on the internet community blog MetaFilter.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 14,
+    "text": "You will have 30 minutes to write the essay.",
+    "n": 9,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 15,
+    "text": "British economist John Maynard Keynes when he wrote his short essay “Economic Possibilities for Our Grandchildren” in",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   }
+  ]
+ }
+]

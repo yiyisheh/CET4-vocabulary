@@ -1,0 +1,962 @@
+{
+ "blend in with": {
+  "canonical": "blend in with",
+  "pos": "v.",
+  "zh": "与…融为一体，与…混在一起而不显眼",
+  "example": {
+   "id": 0,
+   "en": "There’s also a theory that this color helps the dolphins more readily blend in with their surroundings.",
+   "zh": "还有一种说法是，这种颜色能帮助海豚更好地融入周围环境。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in comparison": {
+  "canonical": "in comparison",
+  "pos": "adv.",
+  "zh": "相比之下；（in comparison with）与…相比",
+  "example": {
+   "id": 0,
+   "en": "In comparison, 17% of men said their job satisfaction went down and 20% said it went up.",
+   "zh": "相比之下，17%的男性说他们的工作满意度下降了，20%的说上升了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in business": {
+  "canonical": "in business",
+  "pos": "adv.",
+  "zh": "营业中，在做生意",
+  "example": {
+   "id": 0,
+   "en": "The fact that we have been open and in business for all these years proves that.",
+   "zh": "我们这些年一直营业，这一事实就证明了这一点。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in hopes of": {
+  "canonical": "in hopes of",
+  "pos": "prep.",
+  "zh": "怀着…的希望，希望能…",
+  "example": {
+   "id": 0,
+   "en": "This is done in hopes of reducing the enormous amount of plastic pollution in the oceans.",
+   "zh": "这样做是希望减少海洋中大量的塑料污染。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take an interest in": {
+  "canonical": "take an interest in",
+  "pos": "v.",
+  "zh": "对…产生兴趣，关注",
+  "example": {
+   "id": 0,
+   "en": "In the second part of the study I found 76% of employees using social media for work took an interest in other organizations they found on social media.",
+   "zh": "在研究的第二部分，我发现76%用社交媒体工作的员工，对自己在社交媒体上发现的其他组织产生了兴趣。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "put in": {
+  "canonical": "put in",
+  "pos": "v.",
+  "zh": "安装；投入（时间、精力）",
+  "example": {
+   "id": 0,
+   "en": "when the city removed nearby parking to put in a bike lane.",
+   "zh": "当市里拆掉附近的停车位来修一条自行车道时。"
+  },
+  "valid": true,
+  "note": "例句为截断句；id1/2 是被切开的同一句（投入时间）"
+ },
+ "in real time": {
+  "canonical": "in real time",
+  "pos": "adv.",
+  "zh": "实时地",
+  "example": {
+   "id": 0,
+   "en": "Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on your smartphone or laptop, and sign language into text as well.",
+   "zh": "语音识别技术的巨大进步，使沟通工具能在你的智能手机或笔记本电脑上把现场讲话实时转成文字，也能把手语转成文字。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in order": {
+  "canonical": "in order",
+  "pos": "adj.",
+  "zh": "井然有序，整齐；（证件等）符合规定",
+  "example": {
+   "id": 0,
+   "en": "First, large houses take time to maintain, so cleaners and other low-wage service workers are required to keep these houses in order.",
+   "zh": "首先，大房子需要花时间维护，所以需要清洁工和其他低薪服务人员来保持这些房子整洁有序。"
+  },
+  "valid": true,
+  "note": "与 in order to（为了）不是同一条"
+ },
+ "fit in with": {
+  "canonical": "fit in with",
+  "pos": "v.",
+  "zh": "与…相适应，与…合得来",
+  "example": {
+   "id": 1,
+   "en": "It may make people feel that they ought to fit in with the outside world.",
+   "zh": "这可能让人觉得自己应该融入外面的世界。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "chip in": {
+  "canonical": "chip in",
+  "pos": "v.",
+  "zh": "凑钱帮忙；出一份力",
+  "example": {
+   "id": 0,
+   "en": "The whole village chips in to help, including the kids, who end up developing their baking skills at an early age.",
+   "zh": "整个村子都来帮忙，包括孩子们，他们最后从小就练出了烘焙的本事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stand in one's way": {
+  "canonical": "stand in sb's way",
+  "pos": "v.",
+  "zh": "妨碍某人，挡住某人的路",
+  "example": {
+   "id": 0,
+   "en": "of self-awareness and regularly took steps to adjust the things standing in their way to work-life balance.",
+   "zh": "并定期采取措施调整那些妨碍他们实现工作与生活平衡的因素。"
+  },
+  "valid": true,
+  "note": "代词位置写 sb's"
+ },
+ "in that": {
+  "canonical": "in that",
+  "pos": "conj.",
+  "zh": "因为；在于…这一点上",
+  "example": {
+   "id": 0,
+   "en": "Fruit juice is different from whole fruit in that it contains much less fibre.",
+   "zh": "果汁和整个水果的不同在于，它含的纤维少得多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "believe in": {
+  "canonical": "believe in",
+  "pos": "v.",
+  "zh": "相信…的存在；信任，信奉；赞成",
+  "example": {
+   "id": 1,
+   "en": "Chetan-Walsh believes in a ban on single-use bottles.",
+   "zh": "Chetan-Walsh 赞成禁止一次性瓶子。"
+  },
+  "valid": true,
+  "note": "介词固定搭配，但意思有引申，保留"
+ },
+ "what's in it for sb": {
+  "canonical": "what's in it for sb",
+  "pos": "phr.",
+  "zh": "这对某人有什么好处",
+  "example": {
+   "id": 0,
+   "en": "through day-to-day, make sure your present self knows what's in it for her too.",
+   "zh": "在日常忙碌中，要让现在的自己知道，这对她也有好处。"
+  },
+  "valid": true,
+  "note": "整句习语，pos 取 phr.（非标准列表）"
+ },
+ "in a row": {
+  "canonical": "in a row",
+  "pos": "adv.",
+  "zh": "连续地",
+  "example": {
+   "id": 0,
+   "en": "the 11th year in a row.",
+   "zh": "连续第11年。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "zero in on": {
+  "canonical": "zero in on",
+  "pos": "v.",
+  "zh": "把注意力集中在，锁定",
+  "example": {
+   "id": 0,
+   "en": "Second, after identifying the cause, they zeroed in on their",
+   "zh": "其次，找出原因之后，他们把注意力集中在自己的……上"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "check in with": {
+  "canonical": "check in with",
+  "pos": "v.",
+  "zh": "与…联系，向…汇报情况；（check in with yourself）自我检视",
+  "example": {
+   "id": 0,
+   "en": "Going through the steps, and constantly checking in with yourself",
+   "zh": "按步骤做，并不断自我检视"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep sth in check": {
+  "canonical": "keep sth in check",
+  "pos": "v.",
+  "zh": "控制住，抑制某事",
+  "example": {
+   "id": 0,
+   "en": "By keeping their emotions in check to avoid making poor decisions.",
+   "zh": "通过控制住自己的情绪，以避免做出糟糕的决定。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "there is no point in": {
+  "canonical": "there is no point in",
+  "pos": "phr.",
+  "zh": "做…没有意义",
+  "example": {
+   "id": 0,
+   "en": "There is no point in transferring office work to working from home.",
+   "zh": "把办公室工作转到在家办公是没有意义的。"
+  },
+  "valid": true,
+  "note": "后接 doing；pos 取 phr."
+ },
+ "in itself": {
+  "canonical": "in itself",
+  "pos": "adv.",
+  "zh": "本身，就其本身而言",
+  "example": {
+   "id": 0,
+   "en": "If meatless meat can help you stick to a plant-based diet, that in itself can lead to better health.",
+   "zh": "如果人造肉能帮你坚持植物性饮食，那本身就可能带来更好的健康。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "plug in": {
+  "canonical": "plug in",
+  "pos": "v.",
+  "zh": "插上电源；把…代入、输入",
+  "example": {
+   "id": 0,
+   "en": "It only means that the gender gap disappears when we plug in the negative reciprocity variable.",
+   "zh": "这只意味着，当我们把负面互惠变量代入模型时，性别差距就消失了。"
+  },
+  "valid": true,
+  "note": "此处是统计中的‘代入’，非插电"
+ },
+ "in public": {
+  "canonical": "in public",
+  "pos": "adv.",
+  "zh": "在公共场合，当众",
+  "example": {
+   "id": 0,
+   "en": "Men can show friendship in public through physical affection.",
+   "zh": "男性可以在公共场合通过肢体亲昵来表达友情。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in vain": {
+  "canonical": "in vain",
+  "pos": "adv.",
+  "zh": "徒劳地，白费",
+  "example": {
+   "id": 0,
+   "en": "you attempt to make toward it on a personal level will be in vain.",
+   "zh": "你为此在个人层面做出的任何尝试都将是徒劳的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "join in": {
+  "canonical": "join in",
+  "pos": "v.",
+  "zh": "加入，参与",
+  "example": {
+   "id": 0,
+   "en": "More people will be willing to join in the effort.",
+   "zh": "更多人会愿意参与这项努力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in conjunction with": {
+  "canonical": "in conjunction with",
+  "pos": "prep.",
+  "zh": "与…一起，与…协同；（in conjunction）结合起来",
+  "example": {
+   "id": 1,
+   "en": "They work in conjunction with the environment.",
+   "zh": "它们与环境协同作用。"
+  },
+  "valid": true,
+  "note": "也有不带 with 的 in conjunction（id0、2）"
+ },
+ "in sb's best interests": {
+  "canonical": "in sb's best interests",
+  "pos": "adv.",
+  "zh": "符合某人的最大利益",
+  "example": {
+   "id": 1,
+   "en": "In order to sustain those relationships, you must be able to work in their best interests as well.",
+   "zh": "为了维持这些关系，你也必须能为他们的最大利益而工作。"
+  },
+  "valid": true,
+  "note": "id0 为 to the best interest of，单数写法，合并到此"
+ },
+ "in the least": {
+  "canonical": "in the least",
+  "pos": "adv.",
+  "zh": "丝毫，一点也（多用于否定句）",
+  "example": {
+   "id": 0,
+   "en": "The art of telling a story using music has not faded in the least",
+   "zh": "用音乐讲故事的艺术丝毫没有衰退"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in touch": {
+  "canonical": "in touch",
+  "pos": "adj.",
+  "zh": "保持联系；接触",
+  "example": {
+   "id": 0,
+   "en": "The idea is for people to get back in touch with the soil — while",
+   "zh": "这个想法是让人们重新接触土壤"
+  },
+  "valid": true,
+  "note": "get back in touch with = 重新接触/恢复联系"
+ },
+ "in perspective": {
+  "canonical": "in perspective",
+  "pos": "adv.",
+  "zh": "客观地看待，正确地权衡",
+  "example": {
+   "id": 0,
+   "en": "students keep their ongoing academic or social difficulties in perspective.",
+   "zh": "学生们能客观看待自己持续存在的学业或社交困难。"
+  },
+  "valid": true,
+  "note": "keep sth in perspective"
+ },
+ "in the wild": {
+  "canonical": "in the wild",
+  "pos": "adv.",
+  "zh": "在野外，在野生状态下",
+  "example": {
+   "id": 0,
+   "en": "The most recent count of pandas found that there were more than 1,800 left in the wild, putting them on the list of",
+   "zh": "最近一次统计发现，野外还剩下1800多只大熊猫，……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in the spotlight": {
+  "canonical": "in the spotlight",
+  "pos": "adv.",
+  "zh": "受到公众关注，成为焦点",
+  "example": {
+   "id": 0,
+   "en": "They placed the sugar industry in the spotlight with their new findings.",
+   "zh": "他们的新发现让糖业成为了公众关注的焦点。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make up": {
+  "canonical": "make up",
+  "pos": "v.",
+  "zh": "构成，占（比例）；弥补（时间）；编造",
+  "example": {
+   "id": 1,
+   "en": "Those over 45 make up the bulk of the long-term",
+   "zh": "45岁以上的人占长期失业者的大部分"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make it": {
+  "canonical": "make it",
+  "pos": "v.",
+  "zh": "成功；做到，赶上",
+  "example": {
+   "id": 0,
+   "en": "a research grant or just barely made it.",
+   "zh": "一笔科研经费，或者只是勉强做到了"
+  },
+  "valid": true,
+  "note": "例句为截断句"
+ },
+ "take it slow": {
+  "canonical": "take it slow",
+  "pos": "v.",
+  "zh": "慢慢来，不要着急",
+  "example": {
+   "id": 0,
+   "en": "\"Take it slow and do it again.",
+   "zh": "“慢慢来，再做一遍。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "clean up": {
+  "canonical": "clean up",
+  "pos": "v.",
+  "zh": "打扫干净，清理；净化",
+  "example": {
+   "id": 0,
+   "en": "It was tourists not natives who were cleaning up the beach.",
+   "zh": "是游客，而不是当地人，在清理海滩。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "think over": {
+  "canonical": "think over",
+  "pos": "v.",
+  "zh": "仔细考虑",
+  "example": {
+   "id": 0,
+   "en": "I’ve been thinking it over, and I’d like to send him to Westwood Elementary.",
+   "zh": "我一直在考虑这件事，我想送他去威斯特伍德小学。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep up": {
+  "canonical": "keep up",
+  "pos": "v.",
+  "zh": "坚持，继续做；保持",
+  "example": {
+   "id": 1,
+   "en": "Explaining why she has kept up the videos, Andrea explained how nice it was to have a little bit of fun and craziness that made people smile.",
+   "zh": "解释自己为什么一直坚持发那些视频时，安德烈娅说，有一点乐趣和疯狂劲儿让人们微笑，是件很美好的事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as ... as it gets": {
+  "canonical": "as ... as it gets",
+  "pos": "phr.",
+  "zh": "再…不过了，已经是最…的了",
+  "example": {
+   "id": 0,
+   "en": "The body of KaiOS phones is as basic as it gets.",
+   "zh": "KaiOS 手机的机身已经是再基础不过了。"
+  },
+  "valid": true,
+  "note": "形如 as basic as it gets"
+ },
+ "take up": {
+  "canonical": "take up",
+  "pos": "v.",
+  "zh": "开始从事（爱好、活动）；占用（空间、时间）；接手，处理（问题）；担任（职位）",
+  "example": {
+   "id": 0,
+   "en": "More and more people are taking up extreme sports, like snowboarding, skateboarding, mountain biking, and many more.",
+   "zh": "越来越多的人开始从事极限运动，比如单板滑雪、滑板、山地自行车等。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "figure out": {
+  "canonical": "figure out",
+  "pos": "v.",
+  "zh": "弄明白，想出，搞清楚",
+  "example": {
+   "id": 1,
+   "en": "Figure out which of the two is more reliable.",
+   "zh": "搞清楚这两个中哪个更可靠。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "that is": {
+  "canonical": "that is",
+  "pos": "adv.",
+  "zh": "也就是说，即",
+  "example": {
+   "id": 0,
+   "en": "That is, American inequality means that the gains of",
+   "zh": "也就是说，美国的不平等意味着……的收益"
+  },
+  "valid": true,
+  "note": "含 that is to say（id4）；例句为截断句"
+ },
+ "mind you": {
+  "canonical": "mind you",
+  "pos": "adv.",
+  "zh": "请注意，说真的（插入语，补充说明）",
+  "example": {
+   "id": 0,
+   "en": "Nothing serious, mind you, but he damaged someone’s car and wanted to get some money together to make up for the damage he’d caused.",
+   "zh": "不过说真的，事情不严重，但他弄坏了别人的车，想凑点钱赔偿他造成的损失。"
+  },
+  "valid": true,
+  "note": "例句较长，唯一一句"
+ },
+ "see you": {
+  "canonical": "see you",
+  "pos": "int.",
+  "zh": "回头见，再见",
+  "example": {
+   "id": 0,
+   "en": "See you Thursday.",
+   "zh": "周四见。"
+  },
+  "valid": true,
+  "note": "pos 取 int.；口语告别语"
+ },
+ "if you will": {
+  "canonical": "if you will",
+  "pos": "adv.",
+  "zh": "可以这么说，如果你愿意这么称呼的话",
+  "example": {
+   "id": 0,
+   "en": "accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will.",
+   "zh": "可以这么说，容易获得的水果蔬菜园把我们吃的东西与它的来源——生产方式——联系起来。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "you know": {
+  "canonical": "you know",
+  "pos": "int.",
+  "zh": "你知道的（口语插入语）",
+  "example": {
+   "id": 1,
+   "en": "I’ve never been to the head office, you know.",
+   "zh": "你知道的，我从没去过总部。"
+  },
+  "valid": true,
+  "note": "pos 取 int."
+ },
+ "there you are": {
+  "canonical": "there you are",
+  "pos": "int.",
+  "zh": "你在这儿啊；给你（递东西时）",
+  "example": {
+   "id": 0,
+   "en": "There you are.",
+   "zh": "你在这儿啊。"
+  },
+  "valid": true,
+  "note": "听力口语，上下文可能是‘找到你了’或‘给你’"
+ },
+ "be on good terms with": {
+  "canonical": "be on good terms with",
+  "pos": "v.",
+  "zh": "与…关系好；（on bad terms）关系不好",
+  "example": {
+   "id": 0,
+   "en": "She was on bad terms with her neighbors.",
+   "zh": "她和邻居们关系不好。"
+  },
+  "valid": true,
+  "note": "变体 on better/bad terms 合并"
+ },
+ "chances are": {
+  "canonical": "chances are",
+  "pos": "phr.",
+  "zh": "很可能，十有八九",
+  "example": {
+   "id": 0,
+   "en": "If you’ve ever looked at the ingredients list while grocery shopping, chances are you’ve seen the term “natural flavors”.",
+   "zh": "如果你买菜时看过配料表，很可能见过“天然香料”这个词。"
+  },
+  "valid": true,
+  "note": "pos 取 phr."
+ },
+ "be supposed to": {
+  "canonical": "be supposed to",
+  "pos": "v.",
+  "zh": "应该，被期望（做）",
+  "example": {
+   "id": 0,
+   "en": "Some people find it “snobby” and others simply find it irritating because they have a hard time remembering which last name they are supposed to say first.",
+   "zh": "有些人觉得这很“势利”，还有些人只是觉得烦，因为他们很难记住应该先说哪个姓。"
+  },
+  "valid": true,
+  "note": "例句已删括号内的中文注释"
+ },
+ "now that": {
+  "canonical": "now that",
+  "pos": "conj.",
+  "zh": "既然，由于现在",
+  "example": {
+   "id": 0,
+   "en": "But now that she ran out of money, she can’t.",
+   "zh": "但既然她的钱花光了，她就不能了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "so that": {
+  "canonical": "so that",
+  "pos": "conj.",
+  "zh": "以便，为了；因此（结果）",
+  "example": {
+   "id": 0,
+   "en": "I’d also like it to be small, so that it’s easy to drive in the city.",
+   "zh": "我还想要它小一点，这样在城里开起来方便。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on condition that": {
+  "canonical": "on condition that",
+  "pos": "conj.",
+  "zh": "条件是，只要",
+  "example": {
+   "id": 0,
+   "en": "According to a research paper, drinking fruit juice is beneficial on condition that it is consumed in reasonable amounts.",
+   "zh": "根据一篇研究论文，只要适量饮用，喝果汁是有益的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "given that": {
+  "canonical": "given that",
+  "pos": "conj.",
+  "zh": "考虑到，鉴于",
+  "example": {
+   "id": 0,
+   "en": "that teenagers will be able to take a natural history test given that for decades children have been able to name more video",
+   "zh": "青少年能够参加自然历史测验，因为几十年来孩子们……"
+  },
+  "valid": true,
+  "note": "例句为截断句"
+ },
+ "that said": {
+  "canonical": "that said",
+  "pos": "adv.",
+  "zh": "话虽如此",
+  "example": {
+   "id": 0,
+   "en": "That said, curiosity does have a genetic component.",
+   "zh": "话虽如此，好奇心确实有遗传成分。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for instance": {
+  "canonical": "for instance",
+  "pos": "adv.",
+  "zh": "例如，比如",
+  "example": {
+   "id": 1,
+   "en": "For instance, they may drop difficult coursework.",
+   "zh": "例如，他们可能会放弃难的课程。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "mistake sth for sth": {
+  "canonical": "mistake sth for sth",
+  "pos": "v.",
+  "zh": "把某物错当成某物，误认为",
+  "example": {
+   "id": 1,
+   "en": "Women tend to mistake signs of heart attacks for symptoms of stress.",
+   "zh": "女性往往把心脏病发作的迹象误当作压力的症状。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for example": {
+  "canonical": "for example",
+  "pos": "adv.",
+  "zh": "例如，比如",
+  "example": {
+   "id": 0,
+   "en": "Take smartphones for example.",
+   "zh": "以智能手机为例。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make up for": {
+  "canonical": "make up for",
+  "pos": "v.",
+  "zh": "弥补，补偿",
+  "example": {
+   "id": 1,
+   "en": "It seemed to make up for his physical defects.",
+   "zh": "这似乎弥补了他身体上的缺陷。"
+  },
+  "valid": true,
+  "note": "make up for 与 make up 分开统计"
+ },
+ "allow for": {
+  "canonical": "allow for",
+  "pos": "v.",
+  "zh": "考虑到，顾及；使…成为可能",
+  "example": {
+   "id": 2,
+   "en": "The toughness of the race allows for racers to eat pretty much whatever they want.",
+   "zh": "比赛的艰苦让参赛者几乎想吃什么就吃什么。"
+  },
+  "valid": true,
+  "note": "例句为‘使可能/允许’义，id0 为‘考虑到’"
+ },
+ "for certain": {
+  "canonical": "for certain",
+  "pos": "adv.",
+  "zh": "确切地，肯定地",
+  "example": {
+   "id": 0,
+   "en": "So if you want to know for certain what you’re getting with your groceries, you might want to stick to the farmer’s market.",
+   "zh": "所以，如果你想确切知道买的食品里有什么，最好坚持去农贸市场。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "account for": {
+  "canonical": "account for",
+  "pos": "v.",
+  "zh": "解释（原因）；占（比例）；考虑到",
+  "example": {
+   "id": 3,
+   "en": "What accounted for the gender gap in airfares.",
+   "zh": "是什么造成了航班票价的性别差距。"
+  },
+  "valid": true,
+  "note": "例句是‘解释/造成’义，占比义见 id2"
+ },
+ "wait for": {
+  "canonical": "wait for",
+  "pos": "v.",
+  "zh": "等待",
+  "example": {
+   "id": 0,
+   "en": "There will be crowds of people waiting for her.",
+   "zh": "会有一群人在等她。"
+  },
+  "valid": false,
+  "note": "动词+介词的普通搭配，意思可直接推出，不是固定短语"
+ },
+ "care for": {
+  "canonical": "care for",
+  "pos": "v.",
+  "zh": "照顾，照料；关心",
+  "example": {
+   "id": 0,
+   "en": "To properly care for patients, we also need to care about the lives of the people getting the care.",
+   "zh": "为了好好照顾病人，我们还需要关心那些接受护理的人的生活。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stand up for": {
+  "canonical": "stand up for",
+  "pos": "v.",
+  "zh": "支持，维护",
+  "example": {
+   "id": 0,
+   "en": "A child deviates from social pressures when they stand up for another child being bullied in school.",
+   "zh": "当孩子为另一个被欺负的孩子挺身而出时，他会偏离社会压力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "call for": {
+  "canonical": "call for",
+  "pos": "v.",
+  "zh": "需要，要求；呼吁",
+  "example": {
+   "id": 0,
+   "en": "It calls for due assistance.",
+   "zh": "这需要得当的帮助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "control for": {
+  "canonical": "control for",
+  "pos": "v.",
+  "zh": "（统计中）控制变量，排除…的影响",
+  "example": {
+   "id": 0,
+   "en": "In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.",
+   "zh": "在一篇2014年发表的论文《邪恶天才》中，行为科学家弗朗西斯卡·吉诺和斯科特·威尔特穆斯想检验：在一项任务中行为不道德的人，是否在随后的任务中比别人更有创造力，即使在排除了基础创造力差异的影响之后。"
+  },
+  "valid": true,
+  "note": "唯一一句，很长；去掉了前面的字母编号 G)"
+ },
+ "be up for": {
+  "canonical": "be up for",
+  "pos": "v.",
+  "zh": "愿意参加，乐意做",
+  "example": {
+   "id": 0,
+   "en": "I’m up for that.",
+   "zh": "我愿意。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for now": {
+  "canonical": "for now",
+  "pos": "adv.",
+  "zh": "目前，暂时",
+  "example": {
+   "id": 0,
+   "en": "For now, the jury is still out as to how successful those endeavours will be.",
+   "zh": "目前，这些努力能有多成功还不好说。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sign up for": {
+  "canonical": "sign up for",
+  "pos": "v.",
+  "zh": "报名参加，注册",
+  "example": {
+   "id": 0,
+   "en": "She didn’t sign up for membership in time.",
+   "zh": "她没有及时报名成为会员。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go for": {
+  "canonical": "go for",
+  "pos": "v.",
+  "zh": "选择；争取",
+  "example": {
+   "id": 0,
+   "en": "Don’t go for a colour because it’s in fashion, or you’ve seen it in a magazine.",
+   "zh": "不要因为一种颜色流行，或者你在杂志上见过，就选它。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "stand for": {
+  "canonical": "stand for",
+  "pos": "v.",
+  "zh": "代表，象征",
+  "example": {
+   "id": 0,
+   "en": "\"In a way,\" she said, the rooster \"stands for 'We The People.'\"",
+   "zh": "“在某种意义上，”她说，这只公鸡代表“我们人民”。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for sure": {
+  "canonical": "for sure",
+  "pos": "adv.",
+  "zh": "肯定地，确定地",
+  "example": {
+   "id": 0,
+   "en": "We were thinking of renting a car, but we will explore all the options available for sure.",
+   "zh": "我们本来想租辆车，但我们一定会把所有可选方案都看一遍。"
+  },
+  "valid": true,
+  "note": "去掉了后面带方括号的句子"
+ },
+ "for free": {
+  "canonical": "for free",
+  "pos": "adv.",
+  "zh": "免费地",
+  "example": {
+   "id": 0,
+   "en": "The platform will allow refugees worldwide to take thousands of online courses for free.",
+   "zh": "这个平台将让全世界的难民免费学习数千门在线课程。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep an eye out for": {
+  "canonical": "keep an eye out for",
+  "pos": "v.",
+  "zh": "留心，留意寻找",
+  "example": {
+   "id": 0,
+   "en": "Imagine boating down the Amazon River, minding your own business—calmly keeping an eye out for alarmingly large snakes—and a curious pink dolphin appears to swim alongside.",
+   "zh": "想象你在亚马孙河上划船，不管闲事，平静地留意着特别大的蛇，这时一只好奇的粉红海豚游到你身边。"
+  },
+  "valid": true,
+  "note": "去掉了后面带方括号的句子"
+ },
+ "opt for": {
+  "canonical": "opt for",
+  "pos": "v.",
+  "zh": "选择",
+  "example": {
+   "id": 0,
+   "en": "Makers of clear plastic bottles may also opt for new fossil-fuel based plastic to save money.",
+   "zh": "透明塑料瓶的制造商也可能为了省钱而选择新的化石燃料塑料。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "pound for pound": {
+  "canonical": "pound for pound",
+  "pos": "adv.",
+  "zh": "按重量计算，同等重量下",
+  "example": {
+   "id": 0,
+   "en": "For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia.",
+   "zh": "例如，同等重量下，养牛所需的饲料是养鲤鱼的15倍，鲤鱼是一种在亚洲各地养殖的淡水鱼。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for real": {
+  "canonical": "for real",
+  "pos": "adv.",
+  "zh": "真的，当真",
+  "example": {
+   "id": 1,
+   "en": "product is going on sale for real and the boys had to learn about budgeting and marketing, as well as designing their game.",
+   "zh": "产品真的要上市销售了，男孩们不得不学习预算和营销，以及设计他们的游戏。"
+  },
+  "valid": true,
+  "note": "id0 是 for real success（形容 success），不是该短语，标注有误一条"
+ },
+ "except for": {
+  "canonical": "except for",
+  "pos": "prep.",
+  "zh": "除了…之外",
+  "example": {
+   "id": 0,
+   "en": "We were assured that, except for low grades or a raise in family income, no money would be taken away.",
+   "zh": "我们得到保证，除了成绩低或家庭收入增加之外，不会取消任何资助。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for sale": {
+  "canonical": "for sale",
+  "pos": "adj.",
+  "zh": "待售，出售的",
+  "example": {
+   "id": 0,
+   "en": "At the Dreamery, a business in Manhattan, naps are for sale.",
+   "zh": "在曼哈顿的一家企业 Dreamery，小睡是出售的服务。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "for starters": {
+  "canonical": "for starters",
+  "pos": "adv.",
+  "zh": "首先，一开始",
+  "example": {
+   "id": 0,
+   "en": "For starters, Americans eat much bigger portions than people in other countries.",
+   "zh": "首先，美国人吃的份量比其他国家的人大得多。"
+  },
+  "valid": true,
+  "note": ""
+ }
+}

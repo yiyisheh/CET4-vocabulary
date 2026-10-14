@@ -1,0 +1,551 @@
+# 任务 C_r1_61：1 个词，533 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_61.labels.txt
+
+============================================================
+## 词：from    本段 533 句    模式：全标（每句都写）
+原释义：prep.从; 来自; 由于.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 从，自（起点：地点、时间、数量变化；从…中选取）    B 样本 21    例：She was brought from Africa.
+  1  prep. 来自，从…那里（来源、出处、出身）    B 样本 42    例：Borrow money from Jimmy.
+  2  prep. 离，脱离，远离（away from、escape from 等表示分开）    B 样本 8    例：Have meals as usual to stay away from hunger.
+  3  prep. （阻止、禁止）使免于，不让（prevent/ban…from）    B 样本 3    例：Prevent them from feeling lonely.
+  4  prep. 与…（不同、区别）（differ from）    B 样本 2    例：If their actions deviate (偏离) substantially from what we consider acceptable, we may label them evil.
+  5  prep. 由于，因为（原因）    B 样本 1    例：They can just be symptoms of a sleep disorder that can _32_ from an unpleasant experience, stress, or certain drugs.
+  6  prep. 由（原料）制成（made from）    B 样本 1    例：Well, creating fabric from cotton, which is the most __27__ clothing material, is actually a process that involves a lot of water, 2,700 liters per shirt to be __28__.
+  7  prep. 根据，从…来看（judging from）    B 样本 0
+已标过的短语：suffer from（3）
+口径说明（照此执行）：
+  - 「从…中选」并入义项0；题干 choose the best answer from the four choices 权重很大。suffer from 标为短语。id19 第二个 from 原卷为 _29_ from their phones（填空词可能是 inseparable），按「分开」义标。
+句子：
+101 | Figuring out where it came 【from】.
+187 | After you hear a question, you must choose the best answer 【from】
+222 | What’s really remarkable, though, is where that fish comes 【from】.
+239 | Where will the money come 【from】?
+305 | So, which supermarket do you think is the best to order 【from】?
+414 | During the course of preparing for Design Ventura, teachers receive training and support while students get tutoring 【from】
+418 | The majority of her customers drive, with many coming 【from】
+422 | In 2015 these ants were joined in the desert by scientists 【from】
+460 | What family background people come 【from】.
+486 | 50 years ago, the sugar industry paid Harvard scientists for research that shifted the focus away 【from】
+519 | This will help you immediately identify what you’re looking for in an organization, as well as the things you’re trying to stay far, far away 【from】.
+548 | But by 2013 the average hourly wage for ordinary workers had fallen 5 percent 【from】
+571 | Unfortunately, for the most ambitious entrepreneurs, a failure is seen as disastrous, and impossible to recover 【from】.
+585 | There are few types of music for movie producers to choose 【from】.
+469 | Big houses are advertised as a reward for hard work and diligence, turning housing 【from】 a basic necessity into a luxury.
+136 | He heard about it 【from】 a coworker.
+154 | While analytical decision-makers benefit 【from】 a deliberate, thoughtful approach, this style also has some shortcomings.
+183 | The same was true when they were with someone 【from】 a different university, compared to someone 【from】 their own.
+135 | Some of the dangers are emotional: hurting someone 【from】 a distance is not the same as hurting them face to face.
+464 | As a low-income student 【from】 a down-and-out Rust Belt community, these educational experiences have enormous potential to brighten my future—and my family’s future.
+314 | As a student 【from】 a family that is struggling to make ends meet, my financial aid package is a combination of federal grants and federal work study, university merit scholarships and financial aid awards, and about $8,000 yearly in federally subsidized (有补贴的) and unsubsidized loans.
+247 | Researchers think the zoo was started with animals brought home 【from】 a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+560 | The U.S. has changed 【from】 a farming economy to a knowledge- and innovation-based economy, so it makes sense for the school year to change as well.
+272 | Police _29_ the eggs came 【from】 a freighter that lost part of its cargo during an unusually _30_ storm, the worst to hit Germany’s northeastern coast since 2006.
+437 | For if you nap properly, it’s like waking up 【from】 a full night’s sleep and you can double your day’s worth of concentration.
+267 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering 【from】 a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+308 | It results 【from】 a lack of self-control.
+376 | A recent study tackles the issue of over-trusting drivers and the resulting system misuse 【from】 a legal
+473 | You are required to select one word for each blank 【from】 a list
+109 | You are required to select one word for each blank 【from】 a list of choices given in a word bank following the passage.
+346 | blank 【from】 a list of choices given in a word bank following the passage.
+444 | A retired vice president 【from】 a major chemical company
+515 | They must be made 【from】 a material that bends.
+103 | These are the results 【from】 a new study
+521 | What do we learn about emotional intelligence 【from】 a number of studies?
+167 | Because the Food and Drug Administration (FDA) has not _34_ the term, companies can use it to refer to pretty much anything derived 【from】 a plant or animal.
+220 | “People have tended to focus 【from】 a policy point of view on _31_ lonely people to make them more _32_, ” said the lead author, Nicole K.
+532 | It provides us with vitamins — but fruit juice is far 【from】 a quick fix.    ?P:far from
+304 | They must be made 【from】 a rare material.
+525 | What do we learn about the culture of busyness 【from】 a recent study?
+459 | In another study, researchers asked volunteers to jog for 30 minutes and then showed them clips 【from】 a sad movie.
+100 | The Swiss firm had argued its gold-wrapped chocolate rabbit deserved copyright protection 【from】 a similar product sold by the budget supermarket.
+173 | He has benefited to a great extent 【from】 a tiny hearing device in his ear.
+492 | But moving away 【from】 a traditional classroom in which a living, breathing human being teaches and interacts with students daily would be a disaster.
+153 | Playing the piano 【from】 a young age.
+301 | These include playing the piano 【from】 a young age.
+356 | 【From】 a young age, students learn that answers exist conveniently at their fingertips through search engines and expert websites.
+275 | In total, KaiOS phones are made 【from】 about $15 worth of parts, while Apple’s top-of-the-line iPhone has $390 worth of stuff.
+259 | People's calorie intake was far 【from】 accurately reported.    ?P:far from
+268 | This fall, thousands of college students 【from】 across the country will begin their undergraduate studies at colleges around the nation.
+197 | Research shows that a child’s awareness of social standing comes 【from】 adults.
+89 | Kids differ 【from】 adults in their behavior towards dogs.
+293 | We are inclined to think that a lack of knowledge prevents us 【from】 advancing to a better future.
+318 | They _35_ notes 【from】 afar.
+364 | The revolutionary idea of a self-service grocery, where people could hunt and gather food 【from】 aisles rather than asking a clerk to fetch items 【from】 behind a counter, first came about in America.
+251 | But research shows that, when it comes to actually making a ___27___ 【from】 all of these choices, people can become
+591 | They are well received by movie fans 【from】 all over the world.
+244 | 【From】 all the running and training, he could become quite athletic.
+132 | New research 【from】 America studies the role that the presence of individuals 【from】 different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence of an observer of a different race, as opposed to an observer 【from】 their own race.
+111 | The loss of gold 【from】 an airplane.
+485 | the hair 【from】 an ant with a
+163 | (3-1) A white sheep named Prickles that ran away 【from】 an Australian farm during the 2013 bushfires, recently returned home.
+358 | They note that the value of women’s rights has often been questioned 【from】 an economic standpoint.
+353 | Over a decade or so, American teens’ social media use shifted 【from】 an occasional activity to a routine one.
+232 | Researchers say this was because participants anticipated more negative judgment 【from】 an outsider group.
+131 | When an unknown student 【from】 another university was present.
+510 | It frees people 【from】 any known link to cancer.
+198 | In Egypt, researchers have found buildings 【from】 around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.
+393 | Fraudsters often steal villa-booking information 【from】 authentic holiday websites.
+236 | Ask for permission 【from】 authorities.
+221 | I’ve checked the availability of flights 【from】 Beijing to London on the 22nd and you have a choice.
+347 | The minister is also _lL to stop public transportation 【from】 being cut in ways
+243 | The technology for effectively protecting ozone 【from】 being destroyed.
+336 | Research in human-vehicle interaction has shown even systems designed to automate driving are far 【from】 being error-    ?P:far from
+238 | To prevent themselves 【from】 being isolated.
+203 | It is a shift in practice 【from】 being teacher-focused to student-focused learning. [20] For us, flexible seating has meant removing most of the traditional chairs and desks and introducing a variety of different seating options to promote student engagement.
+326 | By refraining 【from】 being too excited about their successes.
+570 | Prevent information 【from】 being used incorrectly by the public.
+491 | There’s no wrong answer here—so 【from】 big things to small details, write them all down on your list.
+334 | New research 【from】 biologists at the University of Maryland ___26___ that sight
+225 | Nick Gibb, minister for school standards in England, believes schools should ban their pupils 【from】 bringing in smartphones.
+217 | She says her ancestors were 【from】 Britain.
+283 | He won enormous fame and love 【from】 British people.
+130 | F) Today, the dancers travel across Chinatown going 【from】 business to business to bring good luck for the coming year.
+80 | It was unclear where the rest of the group was 【from】, but they were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.
+416 | M: What’s about the commute to and 【from】 campus?
+98 | models of real-world traffic conditions, showing how a typical U.S. freeway could benefit 【from】 cars using bilateral control.
+201 | studies of millions of bats emerging at dusk 【from】 caves in Southeast Asia showed that each bat used a form of bilateral
+186 | When kids switch 【from】 chat to music to homework, they are indeed likely to have trouble doing each task well.
+316 | A lot of that is coming 【from】 China, which produces 60% of the world’s farmed fish.
+349 | Directions: For this part , you are allowed 30 minutes to translate a passage 【from】 Chinese into English .
+555 | Directions: For this part , you are allowed 30 minutes to translate a passage 【from】 Chinese into English.
+593 | Directions: For this part, you are allowed 30 minutes to translate a passage 【from】 Chinese into English.
+381 | G) Beyond New York, a survey of research 【from】 23 cities found that bike lanes and pedestrian-friendly design didn’t hurt
+477 | San Francisco has banned them 【from】 city property and events.
+490 | 【From】 climate change to the ongoing pandemic (大流行病) and beyond, the issues facing today’s world are increasingly complex and dynamic.
+410 | I am a historian who, along with my colleagues, surveyed 251 women engineers who graduated 【from】 college in the
+471 | In 2016, researchers 【from】 Columbia, Harvard, and Georgetown conducted a study to figure it out.
+281 | O) The father of two 【from】 Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.
+242 | And the team also found that participants were willing to look at listings with lower salaries if they came 【from】 companies with a higher diversity score.
+193 | Participants in the diversity condition tended to click on job listings 【from】 companies with slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.
+138 | To prevent people 【from】 complaining about being “busy”.
+603 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time 【from】 corporate office space.
+315 | The researchers analyzed databases which held information 【from】 162 countries for the period 2004 to 2010.
+110 | The scientific evidence 【from】 countries like Australia, Canada and the USA clearly indicates a decline in the birds’ numbers.
+257 | They vary in color 【from】 country to country.
+483 | boost 【from】 Covid, when bike sales exploded by 75 percent.
+534 | According to a magazine writer, some small business owners’ resistance to bike lanes arises 【from】 cultural factors.
+611 | The innovative ideas stemming 【from】 curiosity.
+468 | The platform currently offers professor-led lectures on a broad range of topics, 【from】 data science to fashion design.
+206 | bank is more likely ready, willing and able to be part of the team and do the job 【from】 day 1.
+538 | They should be able to be read by a machine at temperatures ranging 【from】 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air can be extremely dry or moist.
+542 | People suffering 【from】 depression are emotionally immature.    ?P:suffer from
+448 | Students benefit 【from】 Design Ventura because they can learn about budgeting and marketing in addition to game design.
+337 | there is training and support for teachers and tutoring for students 【from】 designers.
+210 | It may prevent people 【from】 developing a genuine sense of community.
+531 | 【from】 developmental psychology to economics and engineering.
+516 | These are different causes of stress and can benefit 【from】 different kinds of self-care.
+543 | People 【from】 different social groups vary in their dietary habits.
+523 | People 【from】 diverse backgrounds no longer socialize.
+497 | Second, once-public spaces, where people 【from】 diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life for many.
+354 | Innovative ideas and solutions resulting 【from】 diversity.
+285 | Although born gray, males of the species are easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue 【from】 dolphin fights—whether playfighting or a serious bid for a mate.
+284 | Scar tissue 【from】 dolphins' fighting.
+230 | The lion dancers perform 【from】 door to door to bring New Year wishes to business people.
+583 | Scientists can still help save chocolates 【from】 dying out!
+321 | For more than a decade, they have been under attack 【from】 e-commerce giants, blamed for making Americans fat, and accused of contributing to climate change.
+451 | Most of them refrain 【from】 eating meat for health reasons.
+81 | They actually result 【from】 eating more fruits and vegetables.
+441 | It results 【from】 education.
+127 | And all the artificial blue light 【from】 electronic devices means we have to try harder to sleep well.
+578 | They occur in people suffering 【from】 emotional stress.    ?P:suffer from
+462 | It differs 【from】 employee to employee.
+493 | This requires a fundamental rethinking of what organizations expect 【from】 employees and what companies would look for in a model employee in a remote work context.
+392 | Employers differ 【from】 employees in their perspectives on diversity.
+602 | This represents a considerable transfer of value 【from】 employees to employers.
+582 | Many economists assume people's thirst for material things has prevented them 【from】 enjoying more leisure time.
+371 | Learn 【from】 entrepreneurs.
+454 | The difficulty of telling genetic factors 【from】 environmental ones.
+292 | Not to mention the great physical benefits 【from】 exercising outside every day.
+330 | L) This pattern held true across a wide variety of goals 【from】 exercising to studying to eating healthier foods.
+360 | Similarly, being creative involves “thinking outside the box”, deviating 【from】 expectations.
+535 | Nightmares stem 【from】 exposure to trauma ，an overactive imagination, and the normal stresses of everyday life.
+161 | Campaigners have warned that the British government is not doing enough to prevent left-handed pupils 【from】 falling behind their peers.
+429 | It is holidaymakers that can protect themselves 【from】 falling victim to frauds.
+175 | It’s a fantasy that goes back centuries: a message in a bottle, carried ashore 【from】 far-off lands.
+270 | For the first time in human history, most of our aquatic (水产的) food now comes 【from】 farming rather than fishing.
+256 | Many escaped 【from】 farms and became wild.
+234 | Next is the bubble called “personal space”, extending 【from】 1.5 feet to 4 feet away.
+310 | It helps people to understand complex issues and to separate fact 【from】 fiction.
+128 | Borrow money 【from】 financial institutions.
+294 | Designed by a group of six Year 9 and Year 10 boys 【from】 Finchley Catholic High School, the toy was the winning entry in
+214 | It was this huge fencing that prevented Prickles 【from】 finding her way back.
+93 | Super realistic masks are made 【from】 flexible materials such as silicone and are designed to imitate real human face — down
+142 | Children are more likely to develop a lifelong love of physical activity 【from】 frequent positive early experiences.
+322 | This means individuals must save more in order to achieve their goals, or they borrow money 【from】 friends and family rather than a bank.
+83 | Studies have shown that social support—whether it comes 【from】 friends, family members or a spouse—is _33_ associated with better mental and physical health.
+599 | They try to seek help 【from】 gene-editing scientists.
+598 | What can we conclude 【from】 Geoffrey Raisman’s finding?
+407 | It hinders them 【from】 getting ahead.
+596 | They could prevent people 【from】 getting heartbroken.
+162 | “Having that sort of curiosity is almost like a protective gear 【from】 getting into boredom,” she says.
+189 | To show their achievements resulted 【from】 great efforts.
+400 | The American Civil Liberties Union has stated that digital assistants create a threat to privacy 【from】 hackers.
+249 | Staff did their best to discourage the pet 【from】 hanging around.
+494 | People may suffer 【from】 having a high emotional intelligence.    ?P:suffer from
+563 | One large beverage company has adapted its operations when confronted with challenges 【from】 health and environmental
+170 | The scientists found that loneliness and social isolation increased the _29_ risk of having a heart attack or a death 【from】 heart disease by 29 percent, and the risk of stroke by 32 percent.
+439 | L) Finally, diversifying our diet away 【from】 heat-sensitive wheat, corn, rice and other crops could also help.
+513 | use, including everything 【from】 helping to protect the lives of firefighters to keeping homes cool in
+86 | The need to learn important lessons 【from】 her elders.
+202 | Borrow £65 【from】 her friend.
+216 | She has just returned 【from】 her hometown.
+112 | With the bone finally removed 【from】 her lung, the woman is very happy that she no longer suffers 【from】 that annoying cough.    ?P:suffer from
+168 | It was a world apart 【from】 her undergraduate days at the University of California–Berkeley majoring in political science.    ?P:apart from
+158 | We haven’t heard 【from】 him since.    ?P:hear from
+278 | One lion dancer learned how to perform 【from】 his elders.
+156 | Seek advice 【from】 his friend.
+149 | British astronaut Tim Peake is stepping down permanently 【from】 his role as a European astronaut.
+300 | is the story of 92-year-old Henry Dryer, who comes out of dementia while listening to songs 【from】 his youth.
+155 | The people least interested in retraining are more likely to come 【from】 historically disadvantaged
+520 | This means that pay structures need to adapt to the reality of working 【from】 home.
+604 | What does the author say about working 【from】 home?
+605 | Why do some people oppose working 【from】 home?
+607 | There is no point in transferring office work to working 【from】 home.
+610 | What is the author’s opinion on working 【from】 home?
+296 | I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself in an apartment so far 【from】 home. [9] And then there’s the expense, too.    ?P:far from
+601 | Rough calculations show that the savings made by employers when their staff works 【from】 home are of similar value to the compensation workers should receive for setting up offices at home.
+600 | If working 【from】 home becomes permanent, employees will have to dedicate part of their private space to work.
+580 | Who will benefit if working 【from】 home becomes the norm?
+363 | I’ve been working 【from】 home for more than 10 years now.
+191 | many school boards have introduced policies which require students to work 【from】 home if the school is shut by snow or
+463 | Remote work is about more than just working 【from】 home—it means working differently.
+288 | “You can't get that with a blizzard bag or doing the work 【from】 home like that.
+122 | W: Well, it’s five kilometers 【from】 home to the office.
+105 | Jan moved 【from】 Idaho with her husband in 1972 and opened a restaurant.
+413 | But this is far 【from】 ideal.    ?P:far from
+179 | Morocco's current energy comes ___28___ 【from】 imports.
+417 | tried a dish 【from】 Impossible Foods, she felt so sick that she couldn’t finish it.
+436 | This is up 【from】 13% in 2009.
+426 | Research published in recent years has shown that running changes your brain and mind in some fascinating ways, 【from】 increasing your brain function to regulating your emotions.
+143 | It differs entirely 【from】 indoor volleyball.
+386 | In the absence of the cultural traditions that fill our lives with numbers 【from】 infancy, we
+446 | When responsibilities are well paced and communicated, a child can benefit greatly 【from】 involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit 【from】 all of the above when visiting a friend who does.
+367 | Failure will teach you how to think and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn 【from】 it and move forward.
+457 | So the real danger here is that children who will completely able to do math at a normal level may keep away 【from】 it because they feel anxious.    ?P:keep away from
+152 | Jet lag is a big problem for me and has been for the last few years, even though I never suffered 【from】 it before.    ?P:suffer from
+505 | year, the UK government set out plans to ban single-use plastic 【from】 its estate.
+466 | It is still far 【from】 its goal despite the progress made.    ?P:far from
+345 | It is the first restaurant in the city to remove meat 【from】 its menu.
+549 | One city on the west coast of America has banned single-use bottles 【from】 its property and events.
+139 | An email 【from】 JetBlue read, “Our team is working to accommodate customers on later flights.
+482 | What can we conclude about Impossible Foods’ products 【from】 Joan Solsman’s remark?
+453 | It has largely failed to turn teens away 【from】 junk food.
+484 | They motivated teens to stay away 【from】 junk food only temporarily.    ?P:stay away from
+195 | W: But what prevents you 【from】 just going to the bank and getting more money, if you want to buy something?
+117 | So it was when a recent letter came 【from】 Kelli Harding, a student 21 years ago in my Peace Studies summer course in Washington.
+237 | It would make sense that wild campers need to ask for permission to camp 【from】 landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people to use small tents and leave no trace of their visit.
+589 | What can we conclude 【from】 Lao Zi's quotation?
+595 | They can benefit 【from】 late-in-life learning.
+134 | [21] Who benefits most 【from】 learning to cook?
+530 | It will probably not provide manufacturers adequate protection 【from】 legal responsibilities.
+577 | the past 20 years, the share of Americans working in their 70s has risen 【from】 less than 10% to nearly 15%.
+544 | What questions arise 【from】 living big?
+397 | The ability to overcome food shortages that must be built into some of the poorest countries will not come 【from】 loans 【from】 wealthy countries, which may have food problems of their own, or world economic institutions.
+566 | To discourage them 【from】 making complaints.
+456 | A conclusion has been drawn 【from】 many experiments that anumeric people have a hard time
+298 | Research shows that when people choose 【from】 many options, they ___29___ more in the decision,
+574 | Chocolates save us 【from】 many things, especially emotional distress.
+348 | A recent study found that 10 percent of British children suffer 【from】 math anxiety.    ?P:suffer from
+424 | There’s a widespread misunderstanding that only low performing children suffer 【from】 math anxiety.    ?P:suffer from
+102 | The Department of Agriculture banned eggs 【from】 Mexico in 2012.
+507 | The research was conducted by scientists 【from】 Michigan State University.
+212 | This is due to a lack of action 【from】 ministers, who’ve failed to take any meaningful action for years.
+547 | Learn 【from】 mistakes.
+273 | “I’m banned 【from】 mobile use at work, and my phone must be handed in.
+96 | It drew competitors 【from】 more than 40 countries.
+279 | The study was based on data 【from】 more than 88,000 U.S. adults who _29_ in the National Health Interview Survey between 1997 and 2008.
+401 | And the quality and quantity of work I can do emerges directly 【from】 my ability to concentrate.
+395 | J) Yes, I chose to attend an expensive university far 【from】 my hometown.    ?P:far from
+147 | 36 goes straight 【from】 my house to the office.
+258 | M: (15) I actually found that it was cheaper for me, as I live quite far away 【from】 my local supermarket.
+335 | Besides, I could teach him some of the basics 【from】 my time as a badminton player.
+126 | Take a look at the video below 【from】 National Geographic for some more mind-blowing __29__ about cotton clothing production.
+177 | The video 【from】 National Geographic was created to spread __32__ of how environmentally harmful cotton is.
+550 | What do we learn 【from】 new research about pandas?
+350 | Research 【from】 Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” or forcing emotions that are not wholly felt.
+558 | To maintain connections with their employees away 【from】 office.
+588 | Employers argue they make considerable savings on real estate when workers shift 【from】 office to home work.
+133 | Over 2 feet away 【from】 one another.
+181 | Chan, who has been involved with the club for nearly 50 years, said that passing the dance 【from】 one generation to the next was vital.
+568 | students found that 50 percent of friendships among ninth graders changed 【from】 one month to the
+435 | Of the endless troubles that come with being driven 【from】 one’s home country, losing educational certificates may seem small.    ?P:drive sth home
+440 | What we call multitasking, therefore, is in reality the ability to move more or less quickly 【from】 one task to another.
+518 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew 【from】 only one of those areas, like computational chemistry.
+338 | looking into the effects of fructose-containing sugars with control diets free 【from】 or lower in these sugars.
+200 | The tour saw him control a robot on earth remotely 【from】 orbit.
+290 | [22][23] A new study 【from】 Oregon State University found that dogs tend to match their behavior with the children in their family.
+411 | Separate data 【from】 other
+287 | M: Well, [15] by increasing taxes or moving money 【from】 other areas of the budget into education.
+97 | There were also runners 【from】 other countries, including Canada, the UK and Switzerland.
+323 | "With caution, many relational methods to improve teams and organisations can be borrowed 【from】 other fields.
+365 | What does Matous think of the various psychological methods borrowed 【from】 other fields for strengthening relationships?
+194 | It is completely different 【from】 other outdoor games.
+452 | frequently drivers who commute 【from】 other parts of the city by car, Grabar points out.
+266 | Details of legitimate (合法的) villas are often stolen 【from】 other sites.
+291 | They appeal most to students 【from】 other states in the U.S.
+125 | What is it that sets you apart 【from】 other theatres?    ?P:apart from
+508 | wonderful job of removing and eliminating anything harmful 【from】 our bodies.
+185 | The smallest zone, called “intimate space”, extends outward 【from】 our bodies 18 inches in every direction.
+286 | result, the decisions we make for our present selves often look very different 【from】 our decisions for our future selves.
+299 | 【From】 our experience so far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It is a win for all concerned.
+231 | Learn 【from】 our failure and forge ahead.
+107 | Not only does Fukuda encourage bringing cats to the job, but he also encourages his employees to rescue cats 【from】 overpopulated shelters or streets.
+430 | Prevent students 【from】 overusing electronic devices.
+176 | W: This week, we’re showing a musical 【from】 Pakistan.
+87 | The flight 【from】 Palm Beach International Airport to LaGuardia Airport turned around just minutes after takeoff following the strike.
+196 | The researchers collected data 【from】 participants 【from】 both the UK and Japan to ___29___ any differences according to race.
+594 | However, these savings result 【from】 passing costs on to workers.
+612 | The importance of learning 【from】 past failures.
+209 | And then, if you still wanted to give money as some sort of apology or something, he probably shouldn’t have to go around borrowing it 【from】 people.
+427 | It might prompt different responses 【from】 people of different social backgrounds
+261 | “The best entertainment and storytelling comes 【from】 people who are relatable—those who don’t shy away 【from】 opening up but freely share who they are and what they care about.    ?P:shy away from
+160 | They can 33 mistakes, see value in things that are far 【from】 perfect and identify areas for improvement.    ?P:far from
+116 | In short, natural flavors are _32_ 【from】 plants and animals to create specific flavors for processed foods.
+311 | It is green and free 【from】 pollution.
+157 | It exists mostly among children 【from】 poor families.
+255 | People 【from】 poor neighborhoods tend to have the least interest in retraining.
+141 | Yet slipping 【from】 popular culture is the wonder and beauty of the natural world.
+146 | To introduce to Egyptians animals 【from】 Punt.
+387 | This means they have overwhelming negative emotions towards the subject, ranging 【from】 rage to despair.
+215 | Imagine going 【from】 reading texts as short as one or two sentences to trying to read entire books written in complex language and containing sophisticated ideas.
+501 | John Chan at Shenzhen University, found ___33___ results 【from】 19 relevant studies.
+608 | Employees can benefit as much 【from】 remote working as their employers.    ?P:as...as
+609 | Employers’ gain 【from】 remote working should go to employees as compensation.
+228 | The nation hopes to get 50 percent of its energy 【from】 renewable sources by 2030.
+478 | What do we learn 【from】 research in human-vehicle interaction?
+522 | What can we learn 【from】 research on diets in developed countries?
+511 | oversaw a rollout of bike lanes — and got angry blowback 【from】 residents and business owners who claimed there
+324 | By using the genes 【from】 resurrection (复活) plants, Jill Farrant of the University of Cape Town is exploring whether she can design crops to survive for much longer periods without water.
+380 | We will be discouraged 【from】 revealing our true selves.
+405 | Risk-takers are best at adapting in difficult times. [25] Simply put, when most individuals stay away 【from】 risk, it means less competition for risk-takers.    ?P:stay away from
+94 | He suffers 【from】 rush-hour crowding too.    ?P:suffer from
+332 | focus on tackling absenteeism 【from】 school.
+470 | One benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off 【from】 school.
+475 | with the length of time that a student is absent 【from】 school and how regularly this occurs.
+438 | The average American student receives 13 weeks off 【from】 school each calendar year—with about 11 of those during the summer.
+545 | Some childhood development experts believe that time off 【from】 school is vital to healthy development as kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+443 | However, research shows that authorised absences 【from】 school such as during extreme
+503 | Research indicates absences 【from】 school with permission do not cause as many problems as those without permission.
+528 | They reap the most benefits 【from】 scientific research
+479 | happiness can stop the bears 【from】 searching for new mates.
+569 | Joyce suggests that apart 【from】 self-care, women should seek professional support if they experience severe stress.    ?P:apart from
+408 | We may not get immediate rewards 【from】 self-control.
+327 | He suffered 【from】 severe pain in a heel.    ?P:suffer from
+260 | Women are twice as likely to suffer 【from】 severe stress and anxiety as men, according to a 2016 study published in The Journal of Brain & Behavior.    ?P:suffer from
+539 | It is reported that women consistently suffer more 【from】 severe stress than men.
+445 | Moves against various plastics have gathered pace, 【from】 shopping bags to straws and plastic-lined coffee cups.
+99 | Learning 【from】 skilled designers.
+556 | For a time an app developer in America was so busy attending to work and family that she suffered 【from】 sleeplessness.    ?P:suffer from
+402 | For some 300 years, Americans had fed themselves 【from】 small stores and public markets.
+328 | Unhealed wounds 【from】 snake bites.
+409 | I) The Harvard study examined seven years of school results data and could not find any impact 【from】 snow closures.
+240 | change away 【from】 snow days makes practical and financial sense.
+123 | Evil is typically referred to when there is deviance 【from】 social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.
+271 | A child deviates 【from】 social pressures when they stand up for another child being bullied in school.
+297 | we might find a magnetic attraction that moves us 【from】 something superficial to something that connects us to our depths.
+166 | Her name is Susan and she’s 【from】 South Africa.
+533 | Everything 【from】 specialist cheeses to sought-after coffee beans gets thrown away every day in the current food system.
+144 | But I’ve found that if I review my spending every night, that keeps me 【from】 spending too much.
+579 | One study showed that friendships among ninth graders were far 【from】 stable.    ?P:far from
+366 | E) Overall, the yields of many foods, 【from】 staples to life-enhancing extras such as coffee and chocolate, will likely be impacted by climate change too.
+433 | More and more people in the world are suffering 【from】 starvation.    ?P:suffer from
+362 | But it is still somewhat restricted, particularly when the language moves away 【from】 stiffer commands into more human interactions.
+307 | As the scholar Silvia Federici put it in 1975, the unpaid nature of domestic work reinforces the assumption that “housework is not work, thus preventing women 【from】 struggling against it.
+431 | But there are promising students 【from】 struggling families across the nation who should not rule out their dream schools entirely.
+388 | Worse, most of what we know about heart disease comes 【from】 studies involving men.
+527 | “This argument is, at best, far 【from】 sufficient,” he writes.    ?P:far from
+415 | F) He found negative effects on blood sugar and insulin levels when food provided excess calories 【from】 sugars, including
+82 | They do everything 【from】 suggesting new friends to recommending purchases.
+465 | And vitamin D 【from】 sunshine can help your body to absorb certain minerals, which are linked to building stronger bones.
+199 | It mostly comes 【from】 supermarkets.
+481 | [22] The vast majority of the UK’s 200,000 tonnes of retail sectors annual food waste comes 【from】 supermarkets.
+561 | None of these explained away the gender gap, so we applied data collected 【from】 surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.
+95 | [6] The researchers put forth policy contributions, ranging 【from】 sustainable disposal of leftover stock to production tax to incentivize both manufacturers and consumers to be more waste conscious.
+432 | At that point, your heat regulatory system can essentially quit, which stops you 【from】 sweating as your body tries to keep water around your vital organs.
+396 | Sunshine can stop you 【from】 sweating, too.
+312 | J) Carla O’Shaughnessy 【from】 Sydenham was searching last year for a good deal to book a villa in Majorca for a summer break for the family.
+412 | A child’s physical development can benefit greatly 【from】 taking pets for walks in the fresh air.
+325 | But this should not stop you 【from】 taking risks, as risks are necessary if you want your business to succeed.
+546 | To stop managers 【from】 talking about how busy their teams usually are.
+342 | About 30 students were turned away 【from】 Tavern High School in Norfolk, England.
+587 | They seek advice 【from】 technology companies to achieve teaching goals.
+480 | However, “the whole concept of a juice diet helping to remove poisonous or harmful substances 【from】 the
+565 | With the rise of pop music, jazz, and electronic music, both opera and classical music started to fade away 【from】 the
+309 | Reports suggest some bars of gold were scattered up to 15 miles away 【from】 the airport.
+355 | She emailed the company via its website, asking how far the villa was 【from】 the airport and about local restaurants.
+169 | The best inspiration comes 【from】 the application of ideas, not the consumption of them.
+148 | He was soon to retire 【from】 the army.
+606 | What can we conclude 【from】 the author’s calculations?
+449 | 【from】 the body.
+91 | They heard a noise 【from】 the bottom of a well.
+248 | It recycles waste food 【from】 the city.
+379 | And if we move far enough 【from】 the city center, the rent is low enough for us to afford all of it.
+171 | Palmdor is the perfect place to retreat to, somewhere to get away 【from】 the city noise and relax in beautiful surroundings with zero stress.    ?P:get away from
+264 | She comes 【from】 the city of Cape Town.
+500 | What do we learn 【from】 the conclusion of a recent study on multitasking?
+420 | What do we learn about Hannah 【from】 the conversation?
+219 | I) Amid the political noise about Obamacare, Medicare, Medicaid, health insurance and thieving pharmaceutical (医药的) companies, Kelli Harding stands apart 【from】 the crowd calling for quick fixes, the simpler the better.    ?P:apart from
+226 | Called "Better Cotton", this environmentally conscious product will save millions of liters of water a year simply 【from】 __34__ the demands of cotton production.
+357 | They hit me right out of gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and 【from】 the District.
+339 | Three of my friends 【from】 the dormitory would share the place with me.
+115 | But though she was suffering 【from】 the effects of extreme cold, the child reportedly suffered no life-threatening effects.    ?P:suffer from
+378 | isolate the effects of consuming too many calories 【from】 the effects of foods containing different sugars.
+165 | She suffered 【from】 the effects of severe cold.    ?P:suffer from
+554 | turned to for support when they move 【from】 the eighth to the ninth grade.
+375 | But guiding them back to Earth in a controlled manner opens new possibilities—most components 【from】 the Falcon 9 can be reused up to 100 times.
+319 | F) Mr Dittoh says the idea of converting online weather reports into speech came 【from】 the farmers themselves, after a workshop in the village of Guabuligah.
+372 | This differed 【from】 the findings of a study 【from】 Harvard
+340 | What do we learn about American society 【from】 the first paragraph?
+351 | What do we learn 【from】 the first paragraph about early childhood education in the U.S.?
+537 | They depend on funding 【from】 the food industries.
+84 | 【from】 the four choices marked A), B), C) and D).
+106 | must choose the best answer 【from】 the four choices marked A ) , B ) , C ) and D ) .
+207 | must choose the best answer 【from】 the four choices marked A ) , B) , C) and D) .
+227 | These devices are powered by software 【from】 the giant electronics company, KaiOS Technologies Limited.
+496 | It is winning approval 【from】 the government.
+476 | Excluded 【from】 the group.
+205 | You also get away 【from】 the habit of making guesses or following instincts.    ?P:get away from
+514 | They turned public attention away 【from】 the health risks of sugar to fat.
+104 | It is suffering a great deal 【from】 the incident.
+562 | 【from】 the increased productivity since Keynes's time — can afford to work less, why do they continue to work so much?
+253 | They may receive extra attention 【from】 the instructor.
+204 | They often received close attention 【from】 the instructors.
+581 | It's a clear departure 【from】 the intended plan toward the intended goal.
+120 | It is unclear whether the new owners have the power to ban tourists 【from】 the island.
+390 | W: Oh, can we stay away 【from】 the junk food?    ?P:stay away from
+295 | E) Aside 【from】 the link to type 2 diabetes, many studies agree that fruit juice is harmful if it contributes to an excess in calories.
+584 | Help remove pandas 【from】 the list of endangered species.
+140 | the US, it means the chance of school children benefiting 【from】 the long-standing tradition of the “snow day”, when schools
+374 | this past year, an increase of 7%, according to the latest figures 【from】 the market analyst Kantar.
+241 | accessible fruit and vegetable gardens connect what we eat to where it comes 【from】—the means of production, if you will.
+302 | 【from】 the menu, citing our unsustainable food system.
+384 | Why did Daniel Humm decide to remove meat 【from】 the menu of his restaurant?
+289 | It is increasingly detached 【from】 the natural world.
+403 | What do we learn 【from】 the new Los Angeles Homeless Services Authority report?
+512 | What conclusion can be drawn 【from】 the new research?
+564 | What can we conclude 【from】 the new research by scientists at Michigan State University?
+344 | What do we learn 【from】 the news report about the egg price in the U.S.?
+383 | What do we learn 【from】 the news report about the restaurant Net Ease House?
+174 | However, deviance can also describe a behavior that simply differs 【from】 the norm.
+223 | Deviating 【from】 the norm can make us villains (恶棍), but it can also make us heroes.
+368 | A multitasker is one who can perform two or more tasks effectively at the same time, which—apart 【from】 the obvious differences—is similar to what a computer does.    ?P:apart from
+88 | “Even when unemployment results 【from】 the ___33___ of new technologies, people still judge it in a social context,”
+341 | situations with clear guidelines and ideas of what you want 【from】 the ___35___ of options, which can narrow the possible
+269 | I’ve booked a room in a hotel about a mile 【from】 the office.
+276 | In some ways, I'm glad to be coming 【from】 the outside.
+159 | What do we learn about social media 【from】 the passage?
+306 | What do we learn about obese people 【from】 the passage?
+421 | What do we learn about genetic health tests 【from】 the passage?
+567 | What can we infer about nightmares 【from】 the passage?
+235 | What do we learn 【from】 the passage about Red Rum the racehorse?
+502 | What do we learn 【from】 the passage about researchers like birdwatchers and rock collectors?
+399 | What do we learn 【from】 the passage about the brightest people?
+552 | What do we learn 【from】 the passage about the timing of our behaviors?
+575 | What can we infer 【from】 the passage about the Goldilocks principle?
+592 | What do we learn 【from】 the passage about the economics professor and her hairdresser?
+333 | What do we learn 【from】 the passage about vegetable planting?
+526 | People’s performance benefits 【from】 the perception of what they are doing as multitasking.
+118 | Despite smartphones and social media, young people today are as socially competent as those 【from】 the previous generation.
+150 | K) A video 【from】 the project shows a train of autonomous robots running along a track without bilateral control: they eventually
+597 | Unless employers are fully compensated, this could become a variant of parasitic (寄生的) capitalism, whereby corporate profits increasingly rely on extracting value 【from】 the public—and now personal—realm, rather than on generating new value.
+90 | The police were flooded with many calls 【from】 the public. [6] And they sent out a message asking people to remain calm.
+576 | They will not fade away 【from】 the public eye.
+145 | face 【from】 the real thing outside of the lab.
+406 | The concept does indeed come 【from】 the realms of technology, where it is used to refer to an operating system that can execute multiple tasks at the same time.
+182 | When an experimenter 【from】 the research team took notice.
+391 | People 【from】 the rest of the world, such as Latin America, are considered to be in high-contact cultures, where they tend to expect touching in social interactions and feel more comfortable with physical closeness.
+517 | (22-3) Let’s begin our tour, starting 【from】 the rooms.
+124 | It shows movies 【from】 the 1950s.
+317 | Great benefit and great harm can come 【from】 the same human tendency.
+524 | Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence of any long-term break, students do not feel detached 【from】 the school environment.
+224 | Authors, artists and children _26_ have dreamed of such a gift 【from】 the sea.
+85 | Markowitz said crews encountered heavy smoke coming 【from】 the second floor when they arrived.
+450 | And this toy is the lead character 【from】 the show.
+529 | Judging 【from】 the slowing rate of sales growth, there is still hope to combat bottled water.
+382 | Advertising campaigns 【from】 the snack food companies, often
+419 | What do we learn about advertising campaigns 【from】 the snack food companies?
+467 | He won instant support 【from】 the state authorities.
+303 | People 【from】 the state of Idaho.
+504 | What can we conclude about many female engineers 【from】 the statement of a mechanical engineer?
+394 | What do we learn 【from】 the study by the Josephson Institute of Ethics?
+455 | them 【from】 the sun's awful heat.
+252 | The use of rows and their minimal adaptations to “U” shape were traditionally intended to maximize on-task behavior and reduce distraction 【from】 the teacher.
+114 | Flee 【from】 the threat of bears.
+320 | This is because of a boom in petroleum chemical production 【from】 the U.S.
+265 | A team of researchers 【from】 the University of Basel published their new study about people’s attitudes towards diversity at work.
+213 | A 2012 study 【from】 the University of California, Santa Barbara, found that roughly 40% of the time we are talking, we’re disclosing subjective information about our experience.
+192 | Apart 【from】 the urgent task of providing more healthy nutrients to those who increasingly can’t afford them.    ?P:apart from
+331 | Honestly, I hear the same answer 【from】 the vast majority of people I meet.
+92 | The army officers heard a noise coming 【from】 the well and realized an elephant was trapped deep inside. [6] The officers then threw in some food for the creature and called the local forest department for help.
+359 | It raises more fish than caught 【from】 the wild.
+423 | word"five" in many languages is derived 【from】 the word for "hand.
+178 | That’s the kind of goal-setting I like to see in children, springing 【from】 their boundless imaginations.
+184 | But if their hobby is quite different 【from】 their career, it may not _33_ in the same way but instead help them develop other knowledge and skills that can _34_ their confidence at work.
+233 | “Since climbing is so far _35_ 【from】 their day-to-day work activities, they can still recover 【from】 the demands of their job with plenty of resources.
+404 | But for poorer people, those same price jumps will likely cause certain foods to go extinct 【from】 their diets.
+572 | What did the author’s team conclude about the gender difference in airfares 【from】 their further investigation?
+540 | To begin with, job applicants should be clear what they expect 【from】 their future employer.
+573 | These top earners derive meaning 【from】 their jobs and work is an
+447 | forward, it likely won’t fully protect automakers 【from】 their legal liability should the system malfunction or an
+343 | Game Academy's idea is simple: analyse gamers’ habits 【from】 their online gaming profile, and offer courses in valuable
+277 | The values and habits they bring 【from】 their own homelands help explain some of the success.
+280 | When in the presence of an unknown student 【from】 their own university, only 12 per cent of students selected the healthier option. [17] However, this number was 31 per cent when in the presence of an unknown student 【from】 another university.
+329 | [22] In a new Merrill Lynch/Age Wave survey, a full 70% of the early adults said they received financial support 【from】 their parents in the past year and 58% said they couldn’t afford their current lifestyles without it.
+263 | This means that, without a smartphone, teens are likely to feel isolated 【from】 their peers.
+373 | What can publicly accessible fruit and vegetable gardens do apart 【from】 their practical functions?    ?P:apart from
+389 | What do we learn about male teachers 【from】 their responses in the study?
+208 | Most of them get timely help 【from】 their teachers.
+377 | 【from】 their teachers.
+385 | for the Saharan silver ant, ___1L 【from】 their underground nests into the sun's brutal rays to _JJ__ for
+487 | According to the World Health Organization experts, people’s use of computer games is different 【from】 their use of the Internet, social media and online shopping.
+245 | When trial participants were asked to choose between photographs of faces of a different race 【from】 theirs, response times
+557 | More students may find it easy to be absent 【from】 them.
+180 | Stories about professional mistakes and what leaders learned 【from】 them are another great avenue for learning.
+188 | Would I be able to sell both the vegetables and items baked 【from】 them at the festival?
+129 | My friend brought me a pair 【from】 there five years ago, and they still look new.
+361 | 【From】 there you are going to have to legally change your name all over the place.
+509 | But the quality 【from】 these suppliers is high.
+398 | Can we learn 【from】 this?
+472 | 【From】 this different perspective, you can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+442 | As a society, we reap the rewards 【from】 this science but we also help pay for it.
+313 | Kelli Harding differs 【from】 those seeking quick and simple solutions to America’s medical problems.
+119 | There were 4,628 coronary events and 3,002 strokes in follow-up periods _26_ 【from】 three to 21 years.
+428 | Changing one’s form of communication 【from】 time to time.    ?P:from time to time
+282 | Friends and acquaintances can comfortably occupy this zone, especially during informal conversations, but strangers are forbidden. [24] Extending 【from】 4 to 12 feet away 【from】 us is “social space”.
+246 | number of pupils that sat exams in Design and Technology fell 10 percent 【from】 204,788 to 185,279 last year.
+190 | This kind of snake is one of the most deadly and poisonous in the wild, and they can range 【from】 3 to 5 meters in length.
+229 | 【From】 1996 to 2016, the pace at which immigrants started businesses was double that of U.S.-born individuals.
+498 | Decades of research shows that it can take 【from】 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.
+586 | considerations such as years of slow rise in real wages and a shift away 【from】 traditional pensions in the private sector are
+151 | Shifting 【from】 traditional teaching to task-based learning.
+425 | “Support 【from】 trusted relationships is vital.
+369 | Refraining 【from】 trusting instincts arbitrarily.
+590 | Now, fifty percent of the world’s cocoa beans come 【from】 two countries in West Africa: Cote d’Ivoire and Ghana.
+164 | That is triple the number 【from】 two decades ago.
+274 | Some think voice could soon take over 【from】 typing and clicking as the main way to interact online.
+218 | Consumers have been warned to be aware of the potential for deception in this market, which is far 【from】 uncommon.    ?P:far from
+113 | Meanwhile, time spent playing video games rose 【from】 under an hour a day to an hour and a half on average.
+495 | By building self-respect in people suffering 【from】 undernutrition.    ?P:suffer from
+474 | by a mix of grants 【from】 various government agencies, institutions, and foundations.
+458 | This includes professional support 【from】 various health and wellness providers if stress is becoming increasingly overwhelming.
+137 | Researchers have suggested that such links could arise 【from】 various things.
+553 | David Foulkes studies children (【from】 very small kids to teens) to bring the secrets of their dreams to the light of day.
+506 | What would drivers do when they suffer 【from】 “warning fatigue”?    ?P:suffer from
+370 | Skin infection 【from】 water pollution.
+250 | Trying to look like the magazine pictures can take us on a long ride away 【from】 what beauty
+172 | As your skills improve and you learn to separate what works 【from】 what doesn’t, you have to continually increase your threshold for saying “yes”.
+489 | The building style is radically different 【from】 what was the fashion of the period.
+254 | Branyas was born in the United States on April 4, 1907, but her family moved to Spain, where they were originally 【from】 when she was a young child.
+536 | Identify the paragraph 【from】 which the
+211 | Identify the paragraph 【from】 which the information is derived.
+551 | Fruit juice is different 【from】 whole fruit in that it contains much less fibre.
+488 | K) Disconnecting 【from】 work and home responsibilities is also obviously important.
+499 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will 【from】 working as opposed to making the most of your time off.
+434 | It all started in 1991 when the Harvard-educated physician was transferred 【from】 working in a stressful emergency room to being the medical director of a nursing home in upstate New York.
+541 | Reflect on its differences 【from】 working in the office.
+262 | The plane was traveling 【from】 Yakutsk Airport in a major diamond-producing region to the city Krasnoyarsk in Siberia.
+121 | As investor Pedro Sorrentino put it, “If you don’t guard your time, people will steal it 【from】 you.
+352 | I recently bought an office chair 【from】 your company, but I returned it about a week ago.
+461 | So before you can determine whether you and a specific company would be compatible together, it’s important to have a solid handle on what exactly you want 【from】 your employer.
+559 | If a new competitor emerges to threaten your business, you may need to change direction, even if that means straying 【from】 your original vision.
+108 | You'll find depth that you won't get 【from】 your screen no

@@ -1,0 +1,619 @@
+# 任务 C_r1_12：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_12.labels.txt
+
+============================================================
+## 词：to    本段 600 句    模式：全标（每句都写）
+原释义：prep.向; 到; 对. (用于动词不定式前).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0   不定式符号，后接动词原形（want to go）    B 样本 36    例：He noticed the driver was too young to drive.
+  1   （不定式）为了    B 样本 3    例：To introduce their corn to tourists.
+  2   （be to do）按要求或安排要做    B 样本 16    例：You are now to write an essay for submission.
+  3  prep. 向，到，往（方向、目的地）    B 样本 9    例：Travel to Germany.
+  4  prep. 对，给（引出对象，如 say to, send to, open to）    B 样本 15    例：To introduce their corn to tourists.
+  5  prep. 到，至（终点、范围、程度，如 from 1 to 10, up to）    B 样本 3    例：Those bringing eggs into the U.S. risk fines of up to $10,000.
+  6  prep. 与……相比，与……相同（similar to, compared to）    B 样本 1    例：Have you noticed how similar you are to your friends? [1] It may be because your brains operate in harmony with each other.
+  7  prep. （接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果    B 样本 13    例：Contribute a lot to the local economy.
+  8  prep. （时间）差（ten to six）    B 样本 0
+已标过的短语：have to（4）；be going to（3）
+口径说明（照此执行）：
+  - 1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。
+句子：
+3091 | Most people set goals 【to】
+3215 | In the same way that learning a language or new skills takes time, building financial skills requires practice and years 【to】
+3260 | Who says instant gratification has 【to】    ?P:have to
+3512 | What does a “multitasker” originally refer 【to】?
+3567 | Unfortunately, the crisis of global warming has already had a serious negative impact on cacao farms’ yields, leading 【to】
+3386 | Both scenarios are contributing 【to】 a big increase in the number of people in the US working into their 70s.
+3178 | Gone are the days of going 【to】 a conference and debating scientific issues, and that’s good because those gatherings were not diverse enough and excluded many important voices.
+3646 | They have suffered a lot due 【to】 a decrease in produce.    ?P:due to
+3208 | The U.S. has changed from a farming economy 【to】 a knowledge- and innovation-based economy, so it makes sense for the school year 【to】 change as well.
+3514 | People don’t refer 【to】 a man as a ‘man engineer’ — he’s an engineer.
+3346 | Restrain it 【to】 a rational degree.
+3643 | According 【to】 a recent survey, employees who have a job reliant on IT support consider IT a major    ?P:according to
+3599 | According 【to】 a report by The Business Insider, in the University of California’s new bio-sciences building, tiny green    ?P:according to
+3121 | The concept has been applied 【to】 a wide range of disciplines,
+3352 | It will enable them 【to】 absorb what they have learned.
+3280 | The agricultural society then attached less importance 【to】 academics.
+3526 | We compared the airfare paid by employees in the same position within a company for the same class of travel and used a common statistical technique 【to】 account for other factors that might affect differences in airfares.
+3635 | It lets us reconsider the goals 【to】 achieve.
+3494 | This implies that even though ambitious people are more likely 【to】 achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?
+3430 | They seek advice from technology companies 【to】 achieve teaching goals.
+3174 | How can they work together 【to】 achieve these goals?
+3236 | M) These findings suggest that when it comes 【to】 achieving your goals, enjoying the process itself is more important than    ?P:when it comes to
+3284 | By all means, set ambitious long-term goals for your future self, but when it comes 【to】 actually following    ?P:when it comes to
+3628 | The cacao farmers would have a tough time 【to】 adapt.
+3461 | The business perspective offers a different view: multitasking is understood as the ability 【to】 adapt 【to】 all types of environment within a company and effectively undertake different activities within a set time frame.
+3463 | 【To】 adapt 【to】 employees’ ever-changing working styles.
+3351 | This is problematic because it hinders your ability 【to】 adapt 【to】 new circumstances, which is vital if you want 【to】 be a successful entrepreneur.
+3562 | Being able 【to】 adapt 【to】 new situations.
+3413 | Urging their employees 【to】 adapt 【to】 the new situation.
+3082 | This means that pay structures need 【to】 adapt 【to】 the reality of working from home.
+3538 | For another, most of the classes on Coursera are in English, and though there are plans 【to】 add translations, language barriers can be a big obstacle.
+3380 | Why are organizations and leaders advised 【to】 adopt powerful persuasion skills 【to】 bring about necessary changes?
+3602 | They are unsurprising 【to】 adults.
+3343 | It was a way 【to】 advance in their career.
+3130 | If this trend spurs scientists 【to】 agree more quickly about the best solutions 【to】 our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.
+3493 | The new program aims 【to】 aid refugees by offering “important skills that will help them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+3098 | It holds the key 【to】 all human body functions.
+3312 | But contrary 【to】 all the publicity that everyone needs more protein, most
+3422 | 【To】 allow for the preferences of most people of today
+3561 | 【To】 allow them 【to】 learn as many job skills as possible.
+3665 | By enabling us 【to】 alter our behaviors constantly.
+3636 | What is the chief reason for college-educated workers delaying retirement according 【to】 an economist?    ?P:according to
+3654 | They tend 【to】 anticipate retirement.
+3218 | as no surprise 【to】 anyone that classical music pieces are still used as background music in modern movies.
+3305 | It compels some 20% of employees 【to】 appear always busy.
+3314 | It can be difficult for many classical music fans 【to】 appreciate.
+3101 | Questions 46 【to】 50 are based on the following passage.
+3468 | those with a high school degree or less, the proportion of those working in their 70s had risen 【to】 around 10%, while those
+3216 | What does the author think of continuing 【to】 ask buyers 【to】 sign end-user license agreements?
+3474 | 【To】 assess the impacts of being emotionally clever.
+3364 | So, it might be fair 【to】 assume
+3408 | Since your baby doesn’t dream at this stage of brain development, it’s safe 【to】 assume babies do not have nightmares,
+3454 | Taking measures 【to】 attract prospective male teachers 【to】 work in the field.
+3606 | Self-control enables you 【to】 avoid behaviors
+3253 | The WFP has been around since 1961 and has been the global coordinator of nationally based efforts 【to】 avoid disasters with food aid.
+3192 | Rest a while 【to】 avoid fatigue driving.
+3306 | By keeping their emotions in check 【to】 avoid making poor decisions.
+3667 | By allowing us 【to】 avoid taking risks.
+3170 | Granted, you will not typically see today's teenagers lending their ears 【to】 Bach anytime soon, but there are some major
+3529 | stated, “Young women engineers are on an equal footing until they have children, then they struggle 【to】 balance work and
+3614 | Their ability 【to】 balance work and family.
+3140 | two months after setting the goal far more than how important they rated their goal 【to】 be.
+3198 | This combination is proving 【to】 be
+3099 | associating a healthy diet with teenagers’ own values seems 【to】 be a promising avenue 【to】 prevent obesity.
+3100 | Genetic health tests claim 【to】 be able 【to】 detect certain hereditary diseases, or other health conditions.
+3080 | More students may find it easy 【to】 be absent from them.
+3133 | Despite these problems, however, shrimp continues 【to】 be among the most popular seafoods worldwide.
+3587 | you have a health issue and you want 【to】 be around longer for your kids, or if your business is something you're passionate
+3671 | Self-control tends 【to】 be associated with pains.
+3420 | This requires two essential conditions: that one of the tasks needs 【to】 be automatic, like walking or eating, and that they both need different mental processes.
+3221 | What kind of genetic tests tend 【to】 be comparatively reliable?
+3081 | Prepare students 【to】 be competitive in the future.
+3361 | It needs 【to】 be confirmed by more studies on pandas.
+3213 | They enable employees 【to】 be convinced of their long-term gains.
+3660 | It proves 【to】 be counterproductive in a number of ways.
+3271 | Perhaps more important, as the global economy continues 【to】 be disrupted by technology and
+3344 | Seventeen times per hour, 【to】 be exact.
+3264 | Training them 【to】 be experts in vehicle automation.
+3311 | It requires consistent education 【to】 be financially independent.
+3316 | An effective intervention has 【to】 be found 【to】 persuade teenagers 【to】 switch 【to】 a healthier lifestyle.    ?P:have to
+3185 | He is actually proud 【to】 be fully occupied.
+3673 | Today, researchers are likely 【to】 be funded
+3107 | However, organizations also need 【to】 be honest with employees about the financial impact of COVID-19.
+3533 | So, if your baby seems 【to】 be in a stressful state while sleeping or is upset upon waking, there may be other factors at
+3518 | They’re also more likely 【to】 be in professional
+3161 | What is a reason for the author 【to】 be in the habit of saying “busy” when asked how he is doing?
+3593 | Train students 【to】 be makers 【to】 meet future market demands.
+3458 | Ambitious people tend 【to】 be more materialistically successful than their non-ambitious counterparts.
+3441 | However, on the other side of the coin there are people who maintain that it is possible 【to】 be, or at least seem 【to】 be, multitasking.
+3226 | With the validity of science coming under attack, there’s a need for scientific debates 【to】 be perceived as open and true 【to】 life.    ?P:true to life
+3117 | What does the author say about the ability 【to】 be persuasive in the first paragraph?
+3672 | Draw up a list of the efficiencies 【to】 be promised.
+3544 | These farms will then have 【to】 be shifted 【to】 cooler mountainous areas,    ?P:have to
+3485 | They are considered 【to】 be the most expressive type of music.
+3105 | When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information 【to】 be used incorrectly, leading 【to】 public confusion; yet, open debate can also promote communication between the scientific community and the public.
+3302 | How do smart people react when they are found 【to】 be wrong?
+3340 | An innovative way 【to】 beat obesity is 【to】 expose food companies’ manipulative and deceptive practices
+3539 | What does the author say is of extreme importance for one 【to】 become a successful entrepreneur?
+3239 | Giving young people the opportunity 【to】 become familiar with the world of money would provide them with a great
+3421 | As was expected, when people thought of their present selves, their brains were observed 【to】 become more active.
+3502 | They are essential for movies 【to】 become the world’s greatest hits.
+3134 | It’s even harder for smart people because they grow so used 【to】 being right all the time that it becomes a part of their identity,” Bradberry wrote.    ?P:used to
+3464 | One survey taker explained, “The greatest challenge for me was continuing 【to】 believe in myself, when all the messages
+3154 | But some experts worried that such public speculation might lead people 【to】 believe that disagreement about the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+3274 | Help the public 【to】 better understand science.
+3403 | The schooling system was 【to】 blame for his trouble.
+3148 | They claim that lack of exercise is 【to】 blame for the increasing obesity rates.
+3156 | pay more attention 【to】 body shape
+3632 | What motivated women 【to】 book cheaper flights.
+3511 | Female employees consistently pay lower airfares than men do for the same flights because they tend 【to】 book earlier.
+3433 | What do the authors of the study recommend 【to】 bridge the gender gap in early childhood education?
+3092 | Therefore, organizations and leaders should adopt powerful persuasion skills 【to】 bring about necessary changes.
+3246 | technology companies are partnering with educators 【to】 bring back good, old-fashioned play.
+3223 | What's needed now is a marketplace platform specifically designed 【to】 bring freelancers and
+3410 | They are able 【to】 bring their potential into fuller play.
+3285 | They help an organization 【to】 broaden its vision effectively.
+3396 | Few people are successful when they try 【to】 build their first brand.
+3279 | Overall, this is a positive quality, especially for people trying 【to】 build their own businesses.
+3155 | Employers can also consider how 【to】 bundle different types of compensation 【to】 help employees cope with their unique situations.
+3637 | reliable and faster, but their employer simply will not put up the funds 【to】 buy them.
+3662 | Transplant the genes of tougher plants 【to】 cacao seedlings.
+3679 | place 【to】 catch instances of bias that affect research outcomes.
+3576 | It's easier 【to】 change your habits 【to】 lose weight if
+3377 | One is too busy 【to】 check all emails in time.    ?P:too...to
+3467 | There are few types of music for movie producers 【to】 choose from.
+3292 | A totally different approach could be adopted 【to】 combat advertising campaigns for snack food.
+3412 | What is needed for men 【to】 commit 【to】 early childhood education?
+3664 | It can duly contribute 【to】 companies’ business performance.
+3267 | 【To】 comply with new research findings strictly.
+3195 | They tell patients 【to】 comply with the directions of drug manufacturers.
+3495 | It makes students addicted 【to】 computer games.
+3540 | investigation allowed us 【to】 conclude that this gap is largely explained by the fact that women tended 【to】 book earlier than men, 1.8 days on average.
+3592 | 【To】 confirm the general consensus on when kids dream.
+3473 | Persuading prospective fathers 【to】 consider a change in their career.
+3087 | With the U.S. lagging behind other countries in academics, it's time 【to】 consider year-round schooling.
+3336 | For example, if you’re a dedicated athlete you might need 【to】 consume higher quantities of protein.
+3395 | Refugees who settle in other countries often find themselves unable 【to】 continue on their previous career path due 【to】 a new set of employer standards or skills requirements.    ?P:due to
+3524 | For one, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate; even those looking 【to】 continue previous careers can’t simply rely on an online lecture 【to】 get them up-to-date on standards, policies, and practices.    ?P:look to
+3633 | Once a reward is achieved, it is much easier 【to】 continue sticking 【to】 your habits.
+3242 | they have had on our current society, it is without doubt that we can expect them 【to】 continue 【to】 remain important for centuries
+3363 | economist said she plans 【to】 continue working because she wants 【to】.
+3462 | Willpower is the ability 【to】 control yourself.
+3523 | What message does the author try 【to】 convey at the end of the passage?
+3641 | What message does Duckworth try 【to】 convey in her book Grit?
+3401 | 【To】 convince employees of the value of collaboration.
+3189 | People may view it as both a means 【to】 convince others and an art of communication.
+3622 | What would happen if the cacao farms were shifted 【to】 cooler mountainous areas?
+3536 | Learn 【to】 cope with people’s negative feelings.
+3457 | They can apply for fully funded access 【to】 Coursera’s course catalog, which means they can take all of the platform’s classes and obtain professional certificates for free.
+3565 | The best way 【to】 create and stick 【to】 a habit is 【to】 have strong motivation.
+3554 | It is critical 【to】 create good habits and take the actions necessary 【to】 stick 【to】 those
+3542 | discipline and motivation 【to】 create positive habits, it can be difficult 【to】 achieve success.
+3404 | It has helped 【to】 create the myth of protein deficiency.
+3294 | technologies or subject matter, but 【to】 creativity; skills like imagination, problem-finding and problem­
+3141 | People may cither be born with it or be able 【to】 cultivate it.
+3411 | For instance, the Inuit people of the Arctic regions have created incredible modes 【to】 deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed 【to】 make it in those challenging landscapes.
+3549 | Help people 【to】 deal with their troubles in life.
+3250 | Let everyone see the noisy, messy deliberations that advance science and lead 【to】 decisions that benefit us all.
+3200 | Given curiosity’s complexity, scientists have found it hard 【to】 define.
+3455 | 【To】 define different types of human feelings.
+3580 | What is one of the reasons for people 【to】 delay retirement?
+3610 | The higher their earnings, the more likely they are tempted 【to】 delay retirement.
+3630 | The higher their educational level, the more likely they are 【to】 delay retirement.
+3483 | We all have faith in chocolates 【to】 delight us in an instant!
+3491 | 【To】 demonstrate how 【to】 distinguish different feelings.
+3469 | lab, he lets kids fall asleep and then wakes them 3 times a night and asks them 【to】 describe what they recall.
+3619 | What did the researchers want 【to】 determine by testing a variety of possible explanations?
+3552 | We wanted 【to】 determine what was causing these gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing 【to】 plan ahead or male frequent travelers being inclined 【to】 book late.
+3387 | are in REM, it allows their brain 【to】 develop pathways, connections, and eventually, learn languages.
+3528 | willpower have the discipline 【to】 develop positive, successful habits.
+3301 | Developed countries sometimes offer food and aid 【to】 developing ones, but at a price.
+3297 | It exposes children 【to】 different ways of interaction.
+3390 | Sometimes, however, testing out a new idea can lead 【to】 disaster.
+3243 | 【To】 discourage them from making complaints.
+3129 | Research has found that having access 【to】 diverse teachers is beneficial for children.
+3582 | What does the author advise disadvantaged schools and communities 【to】 do?
+3543 | A mechanical engineer said, “It will give you the flexibility 【to】 do almost anything.
+3516 | Think about it: what’s something you’ve always wanted 【to】 do, but gave up
+3595 | What does the author advise us 【to】 do concerning ambition?
+3157 | What do we need 【to】 do if we keep consuming fish at the current rate?
+3115 | What does the author advise us 【to】 do in the last paragraph?
+3652 | What are scientists trying 【to】 do in the University of California’s new bio-sciences building?
+3509 | “What we don’t want 【to】 do is not act,” added Coursera chief operations officer Lila Ibrahim.
+3675 | of us can’t afford 【to】 do nuclear research as a private hobby, but bird watchers, rock collectors, and others can do real research
+3481 | determination that allows you 【to】 do something difficult.
+3137 | Leaders should take time off themselves and encourage employees 【to】 do the same.
+3234 | What are entrepreneurs advised 【to】 do 【to】 avoid traps that often accompany rivalry?
+3639 | What does the author say we need 【to】 do 【to】 strengthen our willpower?
+3097 | What are people advised 【to】 do when they want 【to】 socialize?
+3086 | Questions having 【to】 do with labor cost.    ?P:have to do with ?P:have to
+3337 | Their chances of finding new mates have a lot 【to】 do with their habitat.
+3651 | What will help people stick 【to】 doing something constructive automatically?
+3102 | Follow their intuition in deciding what 【to】 eat.
+3108 | They get the whole family 【to】 eat at a table.
+3083 | They tend 【to】 eat quite a lot.
+3145 | from developmental psychology 【to】 economics and engineering.
+3266 | They have given way 【to】 electronic music.    ?P:give way to
+3456 | What do we learn about the WFP’s effort 【to】 eliminate hunger?
+3277 | Despite decades of effort 【to】 eliminate hunger, the latest estimate is that about 11% of people on the planet (about 820 million people) are suffering daily undernourishment.
+3088 | Phrases like “I have limited access 【to】 email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed 【to】 making the most of your time off.
+3353 | What do such utterances as “I have limited access 【to】 email” sound like according 【to】 the author?    ?P:according to
+3262 | What does the author want 【to】 emphasize in the first paragraph?
+3124 | They usually feature sports stars 【to】 emphasize the benefits of their snack foods.
+3128 | Employers’ gain from remote working should go 【to】 employees as compensation.
+3392 | What is the author’s suggestion 【to】 employers who experience the financial impact of the pandemic?
+3440 | 【To】 enable busy employees 【to】 spend less time checking emails.
+3550 | 【To】 enable them 【to】 settle down in host countries.
+3655 | Adequate and timely IT support should also be available 【to】 enable users 【to】 cope with
+3496 | 【To】 encourage both employers and employees 【to】 answer emails promptly.
+3677 | Drug research sponsored by the pharmaceutical industry is more likely 【to】 end up
+3678 | nutrition research sponsored by the food industry is more likely 【to】 end up favoring the food under consideration than
+3282 | By taking steps that stand 【to】 endanger their rivals’ success.
+3638 | Both men and women were found 【to】 engage in negative behaviors.
+3409 | simple way 【to】 engage those important "maker" skills.
+3451 | They partner with technology companies 【to】 enhance teaching efficiency.
+3207 | More public spaces created for everyone 【to】 enjoy.
+3642 | They are eager 【to】 enjoy life after retiring.
+3532 | occupations where they tend 【to】 enjoy their work more.
+3460 | 【To】 ensure employees as well as employers truly have time off.
+3647 | We should perfect ourselves 【to】 ensure success.
+3358 | Take measures 【to】 ensure sustainable food development
+3291 | 【To】 ensure they take the drugs as instructed.
+3263 | advantage 【to】 enter adulthood with confidence and security so that they are able 【to】 manage their own money and look after
+3445 | Allow them 【to】 enter adulthood with financial security.
+3444 | women would continue 【to】 enter the field at the same rate.
+3299 | 【To】 evaluate their employees of similar rank in a consistent way.
+3585 | Our results show another way these negative behaviors can manifest themselves, like in airline bookings, and add 【to】 evidence that women are less likely 【to】 engage in them.
+3590 | They are bound 【to】 excel effortlessly.
+3563 | The surveys showed men tend 【to】 exhibit more of these negative behaviors than women.
+3241 | They may cease 【to】 exist as a result of enjoying too good a life.
+3318 | solving, teamwork, optimism, patience and the ability 【to】 experiment and take risks.
+3378 | So much so that, according 【to】 experts in neuroscience (神经系统科学), our brains do not handle multitasking situations well.    ?P:according to
+3535 | The cost of humans’ curiosity 【to】 explore.
+3272 | It’s what motivates non-human animals, human infants and probably human adults 【to】 explore and seek out new things before growing less interested in them after continued exposure.
+3122 | With the rise of pop music, jazz, and electronic music, both opera and classical music started 【to】 fade away from the
+3476 | The platform currently offers professor-led lectures on a broad range of topics, from data science 【to】 fashion design.
+3247 | Such platforms then become a place 【to】 feature the most experienced, professional, and
+3566 | Not 【to】 feel superior 【to】 less qualified male engineers.
+3486 | lead 【to】 feelings of isolation and loneliness, particularly for men.
+3578 | Scientists, however, are trying 【to】 find a long-term and eco-friendly solution 【to】 this problem!
+3339 | Conducting more studies 【to】 find out the best timing for treating different diseases.
+3197 | Tests that offer 【to】 find your perfect romantic match and those claiming 【to】 predict personality or talents based on your
+3227 | The ability 【to】 finish tasks in a timely manner.
+3666 | employees' work, rather than adjust their work 【to】 fit in with the company's IT limitations.
+3356 | Research found that, as regards achievement of one’s goals, it is important 【to】 focus more on enjoying the process than the
+3586 | What does the author imply we should do if we have 【to】 focus on some task and do it well?    ?P:have to
+3188 | people ate 50% more of a healthy food when directed 【to】 focus on the good taste rather than the long-term health benefits.
+3327 | One major side effect of excessive ambition is the tendency 【to】 focus too determinedly on one particular vision or end goal.
+3321 | It clearly aims 【to】 form children’s identity through play.
+3388 | doesn't take 21st-century technology 【to】 foster 21st-century skills.
+3603 | Engage students with challenging tasks 【to】 foster their creativity.
+3504 | According 【to】 Foulkes, “Children’s dream life...seems 【to】 be similar 【to】 their waking imagination and narration.    ?P:according to
+3604 | Refugees find it more difficult 【to】 get a job.
+3142 | The idea is for people 【to】 get back in touch with the soil — while
+3153 | For the youngest learners, it means they are more likely 【to】 get exposed 【to】 different varieties of play and communication.
+3620 | Because there is a delayed satisfaction associated with self-control, it can be easy 【to】 get off track.
+3374 | They take less time 【to】 get things done.
+3180 | Recognizing when a friend or colleague feels sad, angry or surprised is key 【to】 getting along with others.
+3335 | It is unrealistic 【to】 give all Australian youth a financial education.
+3300 | The students then had 【to】 give job talks in front of judges who displayed serious facial expressions.    ?P:have to
+3530 | Scientists believe that both of these countries will experience a 3.8F temperature increase by 2050 due 【to】 global warming,    ?P:due to
+3521 | They prefer 【to】 go after all that is novel.
+3324 | In students who were rated more emotionally intelligent, the stress measures increased more during the experiment and took longer 【to】 go back 【to】 baseline.    ?P:go back to
+3095 | There is a long way 【to】 go before humans can interact with driverless vehicles.
+3110 | “It’s hard for anyone 【to】 graciously accept the fact that they’re wrong.
+3191 | throughout the whole of high school that would allow students 【to】 gradually expand their financial literacy, and would prevent
+3381 | Reconnect with nature through the right 【to】 grow.
+3084 | That grain—and the water needed 【to】 grow it—could be consumed by people instead.
+3150 | STEM (science, technology, engineering and math) skills needed 【to】 grow the company and advance the
+3315 | 【To】 guarantee the maximum effect of the drugs.
+3670 | What is said 【to】 happen when IT is functioning properly?
+3182 | Not only does this tendency hinder their growth and performance, it can lead 【to】 harmful relationships, both personally and professionally.
+3414 | Nevertheless, emotional intelligence is a useful skill 【to】 have, as long as you learn 【to】 also properly cope with emotions—both others’ and your own, says Bechtoldt.
+3648 | They are likely 【to】 have financial troubles.
+3187 | They are likely 【to】 have mental health issues.
+3531 | The real workings of grit are 【to】 have sustainable passion and continue 【to】 try.
+3184 | Some childhood development experts believe that time off from school is vital 【to】 healthy development as kids are not designed 【to】 spend so much of their time inside classrooms and the summer break provides a perfect opportunity 【to】 get outside.
+3383 | and saturated fat consumption 【to】 heart disease.
+3548 | What can we do 【to】 help children learn the basics of math and geometry?
+3488 | By inviting business leaders 【to】 help design curriculums.
+3240 | What should be done 【to】 help drivers fully understand system capabilities and limitations?
+3347 | 【To】 help employees in need adapt 【to】 the new work environment.
+3220 | What is a major flaw in previous interventions 【to】 help reduce junk food consumption?
+3583 | 【To】 help them 【to】 meet new employment standards.
+3232 | Students needed 【to】 help with farm work.
+3166 | In April 1649, locals responded 【to】 high prices and food shortages by cultivating
+3668 | It does not appeal 【to】 him.
+3382 | What did the author realise after talking 【to】 his friends?
+3201 | And they had been advised by colleagues or other staff not 【to】 hug children.
+3547 | It is essential 【to】 human beings’ language learning.
+3269 | They are unable 【to】 identify certain hereditary diseases by themselves.
+3507 | 【To】 identify gender differences in emotional intelligence.
+3341 | The enormous work 【to】 identify the hundreds of genes involved.
+3295 | What does the author use the example of his father· 【to】 illustrate?
+3385 | 【To】 illustrate how 【to】 tell a story using music.
+3443 | 【To】 improve on traditional organizational structures
+3094 | There are undoubtedly hundreds of great resources out there for those wishing 【to】 improve their financial literacy, but
+3480 | Indeed, many companies look for people who are skilled in multitasking 【to】 improve their productivity.
+3611 | Work together with companies 【to】 improve their teaching facilities.
+3304 | What benefit will year-round schooling bring students in addition 【to】 improving their learning?
+3402 | It has long been used 【to】 increase food supply and improve urban landscape.    ?P:used to
+3225 | Reich-Shapiro and fellow researchers made several recommendations 【to】 increase male representation in the field.
+3625 | the middle of a critical meeting, are expected 【to】 instantly fix the projector that's no longer working.
+3125 | Genetic tests for multi-factorial traits are often very tricky 【to】 interpret.
+3144 | End users, young and old alike, find the terms complex 【to】 interpret.
+3317 | What makes genetic tests for multi-factorial traits tricky 【to】 interpret?
+3228 | This and other research challenge the prevailing view that emotional intelligence is uniformly beneficial 【to】 its bearer.
+3435 | Emotional intelligence is generally beneficial 【to】 its bearer.
+3492 | More people will be willing 【to】 join in the effort.
+3448 | 【To】 justify the necessity of using orchestras in opera.
+3389 | It was difficult 【to】 keep a job for long.
+3323 | 【To】 keep a watchful eye on those employees who perform poorly.
+3446 | What does the author imply people in developed countries should do 【to】 keep healthy?
+3513 | Willpower is just like a muscle, 【to】 keep it strong you need 【to】 constantly exercise it.
+3131 | For organizations that have struggled 【to】 keep the lights on due 【to】 the pandemic, this might mean thinking of non-financial ways 【to】 reward employees, like unpaid time off or flexible work schedules.    ?P:due to
+3369 | They feel pressured 【to】 keep up with female colleagues.
+3579 | They appear 【to】 know all the secrets 【to】 success.
+3623 | It allows us 【to】 know what we are good at.
+3609 | They will try hard 【to】 land a job that fits their skills best.
+3345 | The role of teachers in motivating children 【to】 learn.
+3584 | It is a lesson they have 【to】 learn.    ?P:have to
+3397 | It enables students 【to】 learn about the outside world.
+3248 | Regardless of their genetic makeup, infants have 【to】 learn an incredible amount of information in a short time, and curiosity is one of the tools humans have found 【to】 accomplish that gigantic task.    ?P:have to
+3520 | By showing students the best way 【to】 learn is through play.
+3256 | Students needed time 【to】 learn necessary farming skills.
+3484 | If you want that new job, you have 【to】 learn the    ?P:have to
+3309 | What should people do 【to】 learn the art of persuasion at the workplace?
+3415 | It is hazardous 【to】 leave millions of people poor and vulnerable.
+3591 | More and more people have switched 【to】 less intellectually challenging jobs.
+3370 | It is what proves valid and true 【to】 life.    ?P:true to life
+3235 | Rising 【to】 life's challenges and avoiding risks.
+3477 | However, they're only slightly happier than their less-ambitious counterparts, and tend 【to】 live significantly shorter lives.
+3135 | What does the author advocate for people 【to】 live well?
+3405 | It can be used 【to】 locate the right spot for pandas.    ?P:be used to ?P:used to
+3465 | Enable them 【to】 look after themselves without worrying about money.
+3434 | Allowing their employees 【to】 look for part-time jobs.
+3546 | Workers in more physical jobs, meanwhile, may be more likely 【to】 look forward 【to】 retiring, Baily says, suggesting those    ?P:look forward to
+3598 | Not 【to】 lose self-confidence though constantly discouraged or unfairly treated.
+3371 | 【To】 maintain connections with their employees away from office.
+3669 | Why can it be difficult for us 【to】 maintain self-control?
+3181 | It is essential 【to】 maintaining both mental and physical health.
+3515 | are used 【to】 make chocolate, grow in the tropical plant world and require very specific weather conditions 【to】 prosper.    ?P:used to
+3608 | manipulating the DNA of plants, this technology is already being used across the world 【to】 make plants tougher and cheaper.
+3089 | By enabling them 【to】 make their venture a success.
+3560 | Encourage them 【to】 make things with hands.
+3372 | Furthermore, several studies have implied that emotional intelligence can be used 【to】 manipulate others for personal gains.    ?P:be used to ?P:used to
+3310 | It is harmful 【to】 mankind 【to】 use human-made materials.
+3329 | It does much harm 【to】 many busy employees’ well-being.
+3109 | In some southeast Asian countries, shrimp farming does disastrous damage 【to】 marine ecosystems.
+3203 | The ability 【to】 maximize work efficiency.
+3252 | In a study, psychologist Myriam Bechtoldt of the Frankfurt School of Finance and Management in Germany asked 166 male university students a series of questions 【to】 measure their emotional intelligence.
+3564 | They are not comparable 【to】 mechanical operating systems.
+3147 | Their design determines how differently they react 【to】 medicines.
+3123 | Their reaction 【to】 medicines changes during the day-night cycle.
+3391 | They find it hard 【to】 meet the expectations of kids’ parents.
+3139 | Conventional fixes like word puzzles and brain-training apps can contribute 【to】 mental durability.
+3475 | It has ensured a sufficient food supply 【to】 millions.
+3589 | They are trying 【to】 modify
+3320 | A study of 12- 【to】 19-month-olds learning how 【to】 walk documented that these children fell down a lot.
+3459 | It does little good 【to】 most students.
+3152 | Effective measures should be taken 【to】 motivate employees 【to】 set up offices at home.    ?P:take to
+3399 | What we call multitasking, therefore, is in reality the ability 【to】 move more or less quickly from one task 【to】 another.
+3640 | They decide 【to】 move 【to】 cooler mountainous areas.
+3575 | Their brains do not allow them 【to】 multitask.
+3553 | They are not sufficiently exposed 【to】 multitasking situations.
+3143 | However, after talking 【to】 my friends who felt the same, I quickly realised that it wasn’t my ignorance but the lack of
+3644 | The gender gap tended 【to】 narrow 【to】 a significant degree.
+3407 | the past 20 years, the share of Americans working in their 70s has risen from less than 10% 【to】 nearly 15%.
+3478 | It leads students 【to】 neglect their studies.
+3541 | Why can’t people really be multitaskers according 【to】 neuroscientists?    ?P:according to
+3629 | It opens our eyes 【to】 new opportunities.
+3498 | it is possible 【to】 not only learn it, but also strengthen it with constant exercise.
+3594 | It allows refugees 【to】 obtain degrees in various academic fields.
+3572 | 【To】 offer them a platform 【to】 pursue advanced degrees.
+3355 | Learning new tricks should not be confined 【to】 old dogs only.
+3551 | Holding on 【to】 one's original vision.    ?P:hold on to
+3326 | They shit the blame 【to】 others.
+3332 | Taken in a practical way, saving for post-work years is like giving money away 【to】 others.
+3400 | When making decisions, we give priority 【to】 our current frame of mind without thinking much of the consequences.    ?P:give priority to
+3257 | Our status can be attributed 【to】 our social mobility.
+3557 | They seem 【to】 outdo others without hard work.
+3373 | The ability 【to】 overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have food problems of their own, or world economic institutions.
+3118 | Part of remedying this social disease would be for parliament 【to】 pass a “right 【to】 grow” law, allowing anyone 【to】 turn
+3259 | Being eager 【to】 pass brain tests at an old age.
+3104 | It may do little good 【to】 patients.
+3497 | But having 【to】 pay attention 【to】 several things at once means that the powers of concentration are reduced and that can lead 【to】 more mistakes.    ?P:pay attention to ?P:have to
+3605 | It is mainly accounted for by male employees’ readiness 【to】 pay more.
+3428 | In addition 【to】 people being healthier and living much longer, economists say that a combination of financial
+3204 | But a new study suggests that being sensitive 【to】 people’s feelings may sometimes come with an extra dose of stress.
+3545 | a way, Duckworth is giving new hope 【to】 people who have shut the doors on their dreams.
+3527 | An efficient person able 【to】 perform multiple tasks at the same time.
+3379 | Researchers found that enjoyment rather than importance enabled people 【to】 persist in their goals.
+3106 | It cannot cater 【to】 personal needs.
+3626 | What caused women 【to】 plan ahead in booking business trips.
+3119 | while I was researching, I still kept wishing that I didn’t have 【to】 play catch-up with the money world.    ?P:have to
+3366 | as simple as giving kids room 【to】 play, tinker and try things out, even as they grow older.
+3349 | By sharing knowledge of agriculture and climate with peers in countries most vulnerable 【to】 poverty and hunger, scientists can help reduce these problems.
+3173 | at once, but it’s difficult 【to】 predict how they will play together.
+3365 | What does the passage say about DNA tests 【to】 predict personality or talents?
+3126 | Teachers want 【to】 prepare
+3222 | the best way 【to】 prepare today's children 【to】 be the makers and builders of tomorrow.
+3406 | 【To】 present the simplest definition of opera.
+3600 | They are puzzled how 【to】 present their best 【to】 the employer.
+3313 | It is very important 【to】 preserve their genetic diversity.
+3425 | Americans can rely on food supplements 【to】 prevent protein deficiency.
+3348 | Indeed, the study adds 【to】 previous research hinting at a dark side of emotional intelligence.
+3179 | The ability 【to】 produce quality work.
+3426 | What can the new findings do according 【to】 Professor Sillero?    ?P:according to
+3111 | Questions about what lifestyle 【to】 promote.
+3482 | A chemical engineer who worked in manufacturing agreed, “You have 【to】 prove yourself just because you are female.    ?P:have to
+3289 | It is urgent 【to】 provide an ideal habitat for them 【to】 thrive.
+3090 | What can we do when we become better able 【to】 provide ourselves with the desired approval?
+3275 | Why is it important for firms 【to】 provide timely feedback during the pandemic?
+3394 | This ability will be built upon self-confident people using open and shared scientific knowledge 【to】 pull themselves out of their misery.
+3116 | individuals how enjoyable it was 【to】 pursue their goal, as well as how important their goal was.
+3114 | By helping them 【to】 reach long-term goals.
+3653 | We can never expect 【to】 reach our goals without passion.
+3151 | The goal was 【to】 reach the top, accumulate wealth and retire 【to】 a life of ease.
+3319 | How long people took 【to】 reach the top of their career.    ?P:take to
+3168 | Most end users sign them without bothering 【to】 read the terms.
+3287 | What has the author come 【to】 realise since entering university?
+3438 | For people with limited ambition, however, failure is viewed as something closer 【to】 reality.
+3573 | It will awaken them 【to】 reality.
+3085 | They often fail 【to】 recognise when they need help, and when they do recognise it, they tend 【to】 believe that no one else is capable of providing it.
+3431 | What have businesses come 【to】 recognize now?
+3417 | Unfortunately, for the most ambitious entrepreneurs, a failure is seen as disastrous, and impossible 【to】 recover from.
+3501 | Grit allows us 【to】 redefine our goals.
+3354 | The concept does indeed come from the realms of technology, where it is used 【to】 refer 【to】 an operating system that can execute multiple tasks at the same time.    ?P:used to
+3471 | It may force companies 【to】 reform their business practice.
+3160 | But don't kids need time 【to】 relax?
+3601 | More and more people in the workplace find it hard 【to】 rely on traditional pensions.
+3657 | By allowing us 【to】 remain clear-headed permanently.
+3360 | While fats and sugar have taken the beating in turns since over a century ago, protein has managed 【to】 remain our red-hot
+3519 | They also start developing greater ability 【to】 remember dreams.
+3331 | Desiring new experiences can help 【to】 renovate the brain.
+3617 | Those who have more job satisfaction tend 【to】 retire later than those who have less.
+3245 | Those complex enough 【to】 reveal the genetics behind a trait.
+3559 | 【To】 reveal the secrets of children's dreams.
+3510 | They are more willing 【to】 risk their own lives.
+3517 | It might not be able 【to】 rival classical music and opera in importance for centuries 【to】 come.
+3162 | They may adopt strategies that are bound 【to】 ruin their venture.
+3308 | Our brains are genetically determined 【to】 satisfy immediate desires.
+3574 | This isn’t 【to】 say that all men engage in these behaviors—or that booking relatively late is a sign of abnormal behavior.
+3169 | “It may well be that the messy nature of their relationship with human efforts induces more animals 【to】 scatter or
+3393 | More research is needed 【to】 see how exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+3570 | 【To】 see if children start dreaming at age two.
+3177 | “It’s important for children 【to】 see other possibilities and other paths they can take.
+3555 | also satisfying 【to】 see the effects of what you have done.
+3194 | Even so, it can be difficult for those who do not study music theory 【to】 see this as an indicator, since it is
+3634 | They try 【to】 seek help from gene-editing scientists.
+3472 | It motivates people 【to】 seek information.
+3293 | They are generally unable 【to】 separate genetic and non-genetic factors.
+3283 | Boosting immunity 【to】 serious mental diseases.
+3303 | Apparently, if you're more naturally driven 【to】 set goals, you are more likely 【to】 succeed.
+3663 | Therefore, businesses need 【to】 set up their IT infrastructure so that it is designed 【to】 fit in with their
+3176 | But curiosity can also be dangerous, leading 【to】 setbacks or even downfalls.
+3224 | Genes and the environment interact in many complex ways 【to】 shape individuals and guide their behavior, including their curiosity.
+3427 | 【To】 show the relevance of opera and classical music.
+3120 | What is the problem with requiring buyers 【to】 sign end-user license agreements?
+3350 | What may happen 【to】 smart people who find it difficult 【to】 accept suggestions?
+3338 | It caters 【to】 society’s taste in music in a more subtle way than classical music.
+3534 | By playing with things 【to】 solve problems on their own.
+3307 | Wishing 【to】 solve puzzles enhances one's reasoning power.
+3581 | 【To】 solve the mystery of dreaming and brain growth.
+3537 | Poor nations should enhance their own ability 【to】 solve their food shortages.
+3416 | 【To】 solve this problem, the U.S.
+3229 | It is a response 【to】 solving the problem of food instability.
+3556 | This will lead 【to】 some tough decisions: whether 【to】 grow chocolate or save wildlife.
+3270 | In fact many experts argue that the most important 21st-century skills aren't related 【to】 specific
+3618 | Questions 51 【to】 SS are based on the following passage.
+3342 | If play and building are critical 【to】 21st-century skill development, that's really good news for two
+3127 | Success was once defined as being able 【to】 stay at a company for a long time and move up the corporate
+3244 | They motivated teens 【to】 stay away from junk food only temporarily.
+3138 | By helping them 【to】 stay goal-oriented.
+3249 | Over 70% of male educators who said they intended 【to】 stay in the early education workforce noted an increased salary was a major motivating factor for them 【to】 commit 【to】 the career long-term.
+3503 | 【to】 stay in the labor force more for social benefits than for financial reasons.
+3624 | More men than women are likely 【to】 stay in the labor force until their late seventies.
+3418 | It satisfies students' desire 【to】 stay longer at home.
+3479 | 【To】 stop managers from talking about how busy their teams usually are.
+3419 | One is forced by circumstances 【to】 stop working.
+3261 | They help motivate coworkers 【to】 strive for a common goal.
+3439 | It contributes 【to】 students' healthy growth.
+3376 | It meets students' need 【to】 study on their own.
+3164 | L) This pattern held true across a wide variety of goals from exercising 【to】 studying 【to】 eating healthier foods.
+3568 | They feel it only too logical 【to】 succeed.    ?P:too...to
+3357 | When are you more likely 【to】 succeed in persuading your coworkers?
+3466 | A person who has grit is more likely 【to】 succeed than a
+3210 | They may be too eager 【to】 succeed while ignoring the huge labor cost.    ?P:too...to
+3281 | We hold the belief that hard work leads 【to】 success.
+3447 | Duckworth’s Grit, we are given a new key 【to】 success.
+3525 | Entrepreneurs are more naturally driven 【to】 success.
+3442 | I believe the key 【to】 success is willpower.
+3674 | By adjusting their work 【to】 suit the IT system.
+3359 | Badly equipped 【to】 survive.
+3093 | that teenagers will be able 【to】 take a natural history test given that for decades children have been able 【to】 name more video
+3255 | Ambitious people strongly desire accomplishments and are willing 【to】 take more risks and spend more effort 【to】 get them.
+3219 | Why do doctors advise patients 【to】 take most drugs in the morning or in the evening?
+3661 | By enabling us 【to】 take positive actions
+3577 | Not 【to】 take seriously all the messages she was getting.
+3437 | The platform will allow refugees worldwide 【to】 take thousands of online courses for free.
+3290 | They are no longer relevant 【to】 teenagers’ lives.
+3268 | They were incapable of appealing 【to】 teens’ instinct for rebelliousness.
+3450 | David Foulkes studies children (from very small kids 【to】 teens) 【to】 bring the secrets of their dreams 【to】 the light of day.
+3597 | Having a valuable outcome associated with a habit will help you stick 【to】 that habit permanently.
+3470 | How can educators better develop students' SIBM skills, according 【to】 the author?    ?P:according to
+3621 | They enjoy doing engineering 【to】 the best degree.
+3193 | They are losing habitat due 【to】 the building of roads and houses.    ?P:due to
+3172 | It has contributed little 【to】 the campaigns against obesity.
+3367 | It was a response 【to】 the changing job market.
+3298 | It might add 【to】 the difficulty of getting research funds.
+3615 | Similarly, in this unconventional experiment, scientists will make tiny, precise changes 【to】 the DNA of the seedlings 【to】 make
+3487 | compared 【to】 the dreams of adults.    ?P:compare to
+3612 | It is due 【to】 the fact that women care more about their company’s money.    ?P:due to
+3217 | They may not adapt 【to】 the fragmentation of their habitat.
+3265 | The increased panda population is attributed 【to】 the fragmentation of their habitat.
+3423 | Add 【to】 the great variety of plant species.
+3163 | simple as taking a different route 【to】 the grocery store or going somewhere new on vacation can keep the brain healthy.
+3453 | It is a unique trait specific 【to】 the human race.
+3211 | What does the author say can contribute 【to】 the improvement of brain function?
+3288 | Facilitating their access 【to】 the information provided by the seller.
+3656 | It contributes 【to】 the male-female divide in the workplace.
+3165 | It refers 【to】 the natural and instinctive power of influencing one’s coworkers.
+3508 | More food will be made available 【to】 the needy.
+3149 | genes, each contributing a little 【to】 the outcome, together with a bunch of environmental factors.
+3645 | How are almost half of our daily actions performed according 【to】 the passage?    ?P:according to
+3384 | It applies 【to】 the preservation of pandas too.
+3398 | One is opposed 【to】 the prevailing work culture.
+3322 | Debates about science are accessible 【to】 the public anyway.
+3231 | All amenities made accessible 【to】 the rich and the poor alike.
+3167 | Let’s compare a theoretical financial education subject 【to】 the standard compulsory English class.
+3112 | One benefit of this change is that students will not fall victim 【to】 the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too much time is taken off from school.    ?P:fall victim to
+3334 | It is especially appealing 【to】 the taste of teenagers.
+3171 | They give little thought 【to】 the time of taking it for maximum effect.
+3449 | in less labor-intensive occupations also has contributed 【to】 the trend, says Abraham, who researches work and retirement
+3607 | How do women engineers frequently feel according 【to】 the two civil engineers?    ?P:according to
+3325 | The scientific community, however, can provide a helping hand 【to】 the WFP.
+3650 | It can do more harm 【to】 the workplace than 【to】 employees.
+3205 | In 2020, the Nobel Peace Prize was awarded 【to】 the World Food Programme (WFP).
+3649 | Which is why managers should appreciate just how influential the IT user experience is 【to】 their
+3199 | delivering greater value 【to】 their clients.
+3258 | By paying close attention 【to】 their current performance.
+3333 | Commit themselves fully 【to】 their ideas and plans
+3132 | They attach great importance 【to】 their meals.
+3254 | They usually turn a blind eye 【to】 their own weaknesses.    ?P:turn a blind eye to
+3206 | Smart people develop overachieving personalities because things come so easily 【to】 them.
+3452 | What kind of people can contribute more 【to】 them.
+3175 | Many companies now look 【to】 these "ultimate professionals" 【to】 solve    ?P:look to
+3278 | Too much faith in their ability 【to】 think.
+3436 | It is morally wrong 【to】 think helping the poor is not our business.
+3588 | Not 【to】 think highly of her qualifications when promoted or given a pay raise.
+3505 | By enhancing students' ability 【to】 think in a critical way.
+3212 | Other studies have shown a greater uptake of exercise in people who were told 【to】 think of the enjoyment of doing the exercise
+3233 | Why do we tend 【to】 think that busy people are of high status?
+3113 | Managers need 【to】 think twice about emailing their teams on the weekend and talking about how busy they are.
+3362 | It contains elements similar 【to】 those in some masterpieces of classical music.
+3183 | Building more houses affordable 【to】 those less affluent.
+3627 | on sticking 【to】 those small positive habits one day at a time, it becomes easier 【to】 stay strong and achieve that delayed reward.
+3214 | Apart from the urgent task of providing more healthy nutrients 【to】 those who increasingly can’t afford them.
+3375 | If a new competitor emerges 【to】 threaten your business, you may need 【to】 change direction, even if that means straying from your original vision.
+3096 | The experts concluded that pandas should ideally “be happy enough 【to】 thrive, but not so content that they don’t want 【to】
+3571 | Allow them 【to】 tinker freely with calculators.
+3631 | have 【to】 tolerate the bad tempers of colleagues frustrated at the number of times they've had 【to】 call the help    ?P:have to
+3490 | It is destined 【to】 transform human genes.
+3368 | But walking is faster than crawling, so this motivates expert crawlers 【to】 transition 【to】 walking.
+3489 | Directions: For this part , you are allowed 30 minutes 【to】 translate a passage from Chinese into English.
+3676 | Directions: For this part, you are allowed 30 minutes 【to】 translate a passage from Chinese into English.
+3429 | Nightmares stem from exposure 【to】 trauma ，an overactive imagination, and the normal stresses of everyday life.
+3237 | They enable employees 【to】 trust their leaders unconditionally.
+3296 | For instance, many babies are perfectly proficient crawlers, but they decide 【to】 try walking because there’s more 【to】 see and do when they stand upright.
+3159 | Finding ways 【to】 turn private spaces into public ones.
+3196 | It has largely failed 【to】 turn teens away from junk food.
+3190 | The practice of throwing seed bombs 【to】 turn vacant plots of land green took
+3432 | It is too complex for non-scientists 【to】 understand.    ?P:too...to
+3202 | If the public is 【to】 understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts in a textbook needs 【to】 be dismissed.
+3659 | More importantly, IT practitioners need 【to】 understand what employees
+3506 | They enable people 【to】 undertake massive tasks.
+3158 | They tend 【to】 undervalue the opinions of others, which means they have trouble believing that anyone is qualified 【to】 give them useful feedback.
+3186 | They may resort 【to】 unethical means 【to】 outperform their rivals.
+3616 | How does the author think grit can be helpful 【to】 us?
+3522 | People’s psychological wellbeing is related 【to】 various factors.
+3286 | It is unwise 【to】 weaken the human connection 【to】 nature.
+3136 | Decades of research shows that it can take from 8 【to】 13 weeks at the beginning of every school year for students 【to】 get back 【to】 where they were before the summer holiday.
+3330 | A multitasker is one who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar 【to】 what a computer does.
+3276 | For example, they showed the students photographs of people’s faces and asked them 【to】 what extent feelings such as happiness or disgust were being expressed.
+3238 | accessible fruit and vegetable gardens connect what we eat 【to】 where it comes from—the means of production, if you will.
+3328 | It will help them get back 【to】 where their lessons started.
+3500 | If you are not aware as 【to】 why
+3658 | Gene-edit cacao seedlings for them 【to】 withstand a drier, warmer climate.
+3596 | It is largely attributed 【to】 women booking earlier than men.
+3146 | Some people are beginning 【to】 wonder whether opera and classical music are still relevant 【to】 the modern world of
+3209 | He thinks everyone should be devoted 【to】 work.
+3558 | They differ in their reasons for continuing 【to】 work.
+3230 | They simply don’t understand how hard some people have 【to】 work 【to】 accomplish the same things, and because of that, they push people too hard.    ?P:have to
+3499 | And you have 【to】 work twice as hard!    ?P:have to
+3273 | They recommend providing young men opportunities 【to】 work with children through training and volunteer programs, targeting groups of men who are considering a career change, such as fathers.
+3251 | The ability 【to】 work with the least supervision.
+3103 | There is no point in transferring office work 【to】 working from home.
+3569 | They are both committed 【to】 working into their 70s.
+3424 | What would financial literacy do 【to】 young people?
+3613 | that don't contribute 【to】 your success and adopt those that do.

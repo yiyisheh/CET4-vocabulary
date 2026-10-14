@@ -1,0 +1,737 @@
+# 任务 C_r1_95：11 个词，584 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_95.labels.txt
+
+============================================================
+## 词：research    本段 98 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.研究; 调查. v.做研究; 调查.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 研究，调查    B 样本 76    例：Research by Erin Kelly,
+  1  v. 研究，调查，查资料    B 样本 2    例：To research new markets.
+已标 X：2 句，如：with Tamale's Savanna Agricultural Research Institute.
+口径说明（照此执行）：
+  - 给C的口径：作定语（research team / grant / firm / fellow / partners、非专名的 research institute）按0；do one's research 按0；Pew Research Center、Savanna Agricultural Research Institute 这类机构专名里的 research 标 X。
+句子：
+83 | It might hinder the progress in medical 【research】.
+139 | Being a close loser could greatly motivate one to persevere in their 【research】.
+145 | Finding out the most effective drugs for treating diseases through further 【research】.
+146 | What does Liebman say about industry-funded 【research】?
+152 | It has implications for future panda 【research】.
+156 | What is the focus of Professor O’Keefe’s recent 【research】?
+160 | Hi-tech products are needed in interdisciplinary 【research】.
+162 | independently funded 【research】.
+167 | These groups provide invaluable funding for scientific 【research】.
+169 | say about this 【research】?
+170 | What does the passage mainly discuss regarding scientific 【research】?
+172 | They have no means for large-scale 【research】.
+173 | They try hard to pull down the safeguards for 【research】.
+175 | They provide valuable resources for scientific 【research】.
+176 | They reap the most benefits from scientific 【research】
+93 | 【Research】 about aging adults who take on new enterprises
+136 | What do we learn from new 【research】 about pandas?
+84 | What does previous 【research】 about social media reveal?
+142 | of us can’t afford to do nuclear 【research】 as a private hobby, but bird watchers, rock collectors, and others can do real 【research】
+92 | 【Research】 by Amanda Lenhart of the Pew 【Research】 Centre, a US think tank, found that the most passionate texters are also the kids most likely to spend time with friends in person.    ?X
+144 | What can we conclude from the new 【research】 by scientists at Michigan State University?
+147 | 【Research】 by social scientists on the effects of career setbacks has produced contradictory findings.
+85 | This and other 【research】 challenge the prevailing view that emotional intelligence is uniformly beneficial to its bearer.
+151 | His writing is more than a little dense — dense with 【research】, clauses, and precise adjectives and nouns.
+157 | However, the 【research】 does not explain why this is the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+97 | “We still have a lot to learn about the dog-child relationship,” Udell said. [25] “But 【research】 does show that kids are very capable of training dogs.”
+113 | According to recent 【research】 done in Australia, the answer is yes.
+127 | Building on these findings, the latest 【research】 examined how a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.
+134 | According to some 【research】, extreme hot weather negatively affects students’ performance.
+117 | They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a 【research】 fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+110 | What did the author’s own 【research】 find about social media?
+154 | Think twice about new nutrition 【research】 findings.
+90 | He feels the 【research】 findings reflect an obvious change in corporate attitudes to new fathers taking time off.
+137 | To comply with new 【research】 findings strictly.
+96 | 【Research】 found that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.
+104 | G) Beyond New York, a survey of 【research】 from 23 cities found that bike lanes and pedestrian-friendly design didn’t hurt
+107 | 【Research】 from Nova Southeastern University found that female managers were more likely than male managers to display “surface acting,” or forcing emotions that are not wholly felt.
+165 | Should we ignore any 【research】 funded by companies or special interest groups?
+177 | What does the author think of 【research】 funded by industry or special interest groups?
+109 | It might add to the difficulty of getting 【research】 funds.
+163 | According to one recent study, narrow winners of 【research】 grants had better chances to be promoted
+102 | A lot of 【research】 has demonstrated that drinking fruit juice does not reduce our daily consumption of other foods.
+130 | Previous 【research】 has found older students achieve better results.
+132 | 【Research】 has found the use of digital technology benefits not only teenagers’ social lives but also their studies.
+82 | 【Research】 has revealed an enormous decline in reading.
+108 | 【Research】 has shown that smartphones are currently American teens’ main form of social communication.
+91 | New 【research】 has studied the effects of a seven-week healthy cooking course.
+111 | Indeed, the study adds to previous 【research】 hinting at a dark side of emotional intelligence.
+135 | Later 【research】 in 2003, however, suggested high-protein diets could aid in weight loss, and protein quickly regained its
+100 | 【Research】 in human-vehicle interaction has shown even systems designed to automate driving are far from being error-
+120 | What do we learn from 【research】 in human-vehicle interaction?
+105 | "It's certainly a problem that so much 【research】 in nutrition and health is funded by industry," says
+143 | 【Research】 indicates absences from school with permission do not cause as many problems as those without permission.
+122 | 【research】 into the impact of clothes on behavior now suggests that there may actually be a grain of truth in these sayings.
+125 | But at the very least, the 【research】 is
+94 | Today, most scientific 【research】 is funded by government grants, companies doing 【research】 and development and non-
+133 | Other 【research】 is funded by private
+123 | More 【research】 is needed to determine the best times to administer treatments for different diseases.
+128 | More 【research】 is needed to see how exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+115 | P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the 【research】 is showing that’s starting to change.
+124 | industry pays for 【research】, it often gets what it pays for.
+129 | Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance 【research】 may lie more in understanding extreme pro-social behavior, such as heroism.
+98 | Build rows of refrigerated greenhouses for 【research】 on cacao seedlings.
+164 | What can we learn from 【research】 on diets in developed countries?
+89 | Prior 【research】 on negative reciprocity among workers found that it can result in lower employee motivation, business performance and workplace morale (士气) and culture.
+114 | What did prior 【research】 on negative reciprocity among workers find?
+103 | L) Since starting his 【research】 on phantom traffic jams, Horn has learned that schools of fish and flocks of birds and bats use
+138 | They conducted large-scale 【research】 on the role of sugar in people's health.
+168 | place to catch instances of bias that affect 【research】 outcomes.
+80 | “It’s been well documented in extensive 【research】 over the years that prevalence rates for the majority of the anxiety disorders are higher in women than men.
+112 | G) In a 【research】 paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted to examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+159 | A 【research】 paper rejected by one journal may get accepted by another.
+140 | For example, in one task, 【research】 participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.
+153 | Martin Neil Baily, an economist who is leading a 【research】 project on retirement security, notes that quitting a career can
+148 | As Professor O’Keefe pointed out, “This 【research】 provides a useful direction for organizations whose products and services call for integrated and creative solutions.
+141 | The 【research】 published by two scientists was intended to examine the relationship between dishonesty and creativity.
+81 | 【Research】 published in recent years has shown that running changes your brain and mind in some fascinating ways, from increasing your brain function to regulating your emotions.
+95 | But weather can make a difference to school results, according to another piece of Harvard 【research】 published last
+166 | What does 【research】 reveal about adults in food-insecure households?
+116 | 【Research】 shows, however, that we actually have bubbles of different sizes.
+126 | But 【research】 shows it can be just as exhausting as paid work.
+119 | However, 【research】 shows that authorised absences from school such as during extreme
+149 | 【Research】 shows that in developed countries, more affluent and educated people tend to consume higher-quality diets—including more fruits and vegetables, fish and whole grains.
+88 | 【Research】 shows that students in year-round schools are more self-confident and feel more positive about their schooling experience.
+106 | who gets grants, he said, and the latest 【research】 shows that the scientific establishment is not very
+158 | nutrition 【research】 sponsored by the food industry is more likely to end up favoring the food under consideration than
+150 | Drug 【research】 sponsored by the pharmaceutical industry is more likely to end up
+101 | But the new 【research】 suggests that a “modest degree of
+161 | 【Research】 suggests that adults in food-insecure households are just as likely as those in food-secure households to adjust recipes to make them more healthy.
+99 | Parents can encourage their child to 【research】 their favourite pets at the library or during a supervised internet search.
+174 | They make extra efforts to 【research】 their own products.
+87 | The internet is too easy and too unreliable a 【research】 tool, (18) so let’s leave phones and laptops at home, and show them a different world in their lessons—one of books and pens,” he says.
+121 | The 【research】 was conducted by scientists from Michigan State University.
+131 | According to 【research】, we begin to develop our individual sense of personal space around age 3 or 4. [25] The sizes of our bubbles are fixed by our teens.
+171 | They can do 【research】 with limited resources.
+86 | It was for third-year criminology students to help them contextualize theory and 【research】 within controversial current topics.
+155 | Scientists who persisted in 【research】 without receiving a grant made greater achievements than those
+118 | patronage , church sponsorship or simply paying for the 【research】 yourself.
+
+============================================================
+## 词：had    本段 91 句    模式：全标（每句都写）
+原释义：v.有; 持有; 经历(have 的过去式和过去分词).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. 构成过去完成时（had done，表示在过去某时之前已经）    B 样本 31    例：How had the
+  1  v. 有，拥有，具有    B 样本 23    例：I had no idea Japan made jeans.
+  2  v. 不得不，必须（had to do）    B 样本 9    例：They had to undergo 2-3 physical checkups.
+  3  v. 进行，从事；经历，遭受（had a break / had an operation / had trouble）    B 样本 7    例：He had an operation for his injury.
+  4  v. 让，使，请（人做某事）（had sb do / had sth done）    B 样本 6    例：He had some plastic surgery done.
+  5  v. 患（病），出现（症状）    B 样本 3    例：He has had some sort of health problems.
+  6  v. 吃，喝（had lunch）    B 样本 0
+  7  v. 生（孩子）    B 样本 0
+已标过的短语：have sth in common（1）
+口径说明（照此执行）：
+  - 给C的口径：had + 过去分词（含 had been doing、倒装 had they found…、省略的 than they actually had）按0；has/have had 里的 had 按实义标（have had concerns 按1）；had to 按2（不作P）；had better 标 P:had better；have sth in common 标 P:have sth in common；have to do with 标 P:have to do with；had no idea、had a chance、had the privilege of、had an impact 按1；had an operation / hemispherectomies / blood tests / a break / phone conversations / trouble / conflict 按3；had a disease / health problems / a swollen ankle 按5；had sb do、had sth done（含选项里的 had its planes land、had two flights mixed up、had things published）按4，但 had a chicken bone lodged in her lung 这类「身上有」按1。
+句子：
+80 | However, if these designers 【had】
+88 | This study gathered that students 【had】 a clearer vision of the blackboard, and were able to focus more attention on the instructor.
+106 | Over 40% of Fortune 500 companies 【had】 a founder who was either an immigrant or the child of one.
+82 | He 【had】 a gift for creating stories that consisted of deceit, robbery, murder, corruption, and other criminal ___31___
+104 | She 【had】 a lot of fun and learned a really good lesson.
+161 | Some also reported that there were parents surprised or concerned that their child 【had】 a male teacher.
+85 | overall 【had】 a net loss.
+81 | M: Do you remember he 【had】 a scar on his face?
+84 | a young boy 【had】 a significant portion of his brain removed for medical reasons, which included the part of the brain ___32___
+132 | They 【had】 a tendency to reflect and question assumptions in the name
+110 | century after the last data Keynes would have 【had】 access to.
+159 | These pioneers reflected on the challenges they faced — and 【had】 advice for women entering the field today.
+130 | Red Rum’s spirit and grace 【had】 already begun to charm the leagues of Grand National fans.
+164 | He 【had】 already passed the peak of his racing life.
+156 | The babies’ mother commented that they 【had】 already prepared room for five babies at home, so they will have to rearrange things for their happy surprise.
+149 | He 【had】 an operation done on it, plastic surgery, in order to cover it and make it less noticeable.
+127 | All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have 【had】 anywhere else.
+86 | The Swiss firm 【had】 argued its gold-wrapped chocolate rabbit deserved copyright protection from a similar product sold by the budget supermarket.
+94 | She has 【had】 babies before.
+166 | And they 【had】 been advised by colleagues or other staff not to hug children.
+126 | She stated that the driver of the lorry 【had】 been arrested on suspicion of dangerous driving.
+128 | A company spokesperson said the operations at the site 【had】 been halted while the investigation is ongoing and that the break 【had】 posed no safety threat to workers.
+101 | Back in 1974, only 10% of marine fish stocks 【had】 been overfished.
+93 | According to one recent study, narrow winners of research grants 【had】 better chances to be promoted    ?P:had better
+168 | Analysis of the data showed that countries with strong women’s rights 【had】 better health than those where women’s rights were not as respected.    ?P:had better
+148 | F) Lupu and Ruiz-Castro identified five steps that the respondents in the study who 【had】 better work-life balance used in their    ?P:had better
+142 | The research also found that mentally well-adjusted owners 【had】 calmer, happier and healthier cats.
+162 | A Common Sense Media survey found that 35-percent of students 【had】 cheated via smartphone, though the parents surveyed in that particular study did not believe their kids 【had】 ever cheated.
+92 | Police said that the car 【had】 come to a halt after hitting the sign, but did not appear to be seriously damaged, although an ambulance was called to check on the pensioner.
+154 | But crucially, this was less so if they 【had】 completed the 30-minute jog.
+167 | Parents and kids 【had】 conflicting ideas over cheating.
+100 | The company was unable to confirm whether the recent earthquakes 【had】 contributed to the dam’s wall collapse, but said it was conducting a thorough investigation.
+158 | As ordinary American workers’ average hourly pay 【had】 decreased despite increasing productivity, they 【had】 to work just as    ?P:have to
+96 | They thought Prickles 【had】 died in the fire.
+145 | Two boys and four girls were born on Monday to the surprise of a young couple and doctors who 【had】 expected five babies.
+139 | Calorie conswnption 【had】 fallen drastically over the decades.
+131 | But by 2013 the average hourly wage for ordinary workers 【had】 fallen 5 percent from
+125 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she 【had】 family pictures up in her hospital room or flowers delivered.
+129 | For some 300 years, Americans 【had】 fed themselves from small stores and public markets.
+97 | Yet one group 【had】 60% fewer of them.
+153 | They 【had】 four children, including the twins, Hamnet and Judith.
+160 | As you said, he 【had】 【had】 it for most of his life.
+116 | he’d found, only a few store owners admitted the lanes 【had】 helped.
+170 | Left-handed fighters also 【had】 higher chances to win.
+107 | The majority of workers surveyed said parental leave policies 【had】 improved workplace culture.
+150 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they 【had】 in surplus just a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+140 | “The realizations I 【had】 in that process helped me gain insights and ultimately got me ready to integrate self-care into my daily life,” she said.
+105 | While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research 【had】 indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.
+136 | F) In 2013, researchers at New York City’s Department of Transportation studied seven stretches of road that 【had】 installed
+133 | M: Well, he 【had】 it fixed.
+157 | It was actually the end of a racing career that 【had】 just begun.
+155 | Of the teens surveyed, 51 percent said that they 【had】 knowingly cheated at some point on an exam but that they did not feel uneasy about the behaviour.
+163 | You remember the trouble you 【had】 last time.
+123 | She forgot where she 【had】 left it.
+169 | He 【had】 lost his charm with the leagues of Grand National fans.
+143 | According to Kelli Harding, rabbits’ health 【had】 more to do with humans’ kindness to them than their diet or genetics.
+118 | REM sleep, 25% of the kids in Foulkes’ studies 【had】 no recollection of dreaming, a trend that continues through age 9.
+134 | they have 【had】 on our current society, it is without doubt that we can expect them to continue to remain important for centuries
+114 | subtle and just shows the impact symphonic orchestras have 【had】 on society’s taste in music.
+83 | W: Oh, yeah. [15] We 【had】 one of those when growing up.
+91 | assume you 【had】 problems getting a job.
+138 | and training they 【had】 received.
+135 | The New Year has come and gone, and many may have already forgotten what they 【had】 resolved to do on January 1st.
+141 | He was 52 and 【had】 retired to Stratford three years before.
+151 | those with a high school degree or less, the proportion of those working in their 70s 【had】 risen to around 10%, while those
+137 | It 【had】 rows of desks with blue chairs and nameplates reminding each student where they should be sitting.
+165 | They probably 【had】 short lives, and their remains show evidence of severe injuries.
+117 | Switzerland’s highest court agreed and overturned a ruling last year by the country’s commercial court that 【had】 sided with the supermarket.
+122 | It 【had】 some complications.
+111 | E) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually 【had】 strikingly
+87 | To do this, researchers 【had】 students read an article on the food industry.
+119 | People who 【had】 succeeded in career change after 45 told a nonprofit organization they owed a great deal to the education
+89 | Those who 【had】 successfully changed careers after 45 told Generation that education and training 【had】 been
+108 | M: That’s wonderful. [13] My father-in-law has 【had】 terrible problems getting up and down stairs since his knee operation last April.
+113 | He always 【had】 that.
+90 | part because they felt like they 【had】 the resources to deal with the demanding situation.
+98 | The results showed that white and red meat diets 【had】 the same effects on blood cholesterol levels.
+102 | This is in contrast to books that did not name images, or books that 【had】 the same label under each image.
+121 | We originally 【had】 this suspicion back in 2016, puzzled by the fact that national statistics showed
+152 | Private rental prices in Britain rose 3.2 percent over the 12 months since July 2022—the largest jump since 2016, soaring energy bills have made things worse. [25] Lucinda May, mom of a Tavern student said that she 【had】 to ask her parents for £65 to buy her child the correct pair of shoes.    ?P:have to
+109 | For Ginger and Red Rum, though, it was just an obstacle to greatness that 【had】 to be overcome.    ?P:have to
+120 | have to tolerate the bad tempers of colleagues frustrated at the number of times they've 【had】 to call the help    ?P:have to
+124 | Once the fires were over, (4) the family 【had】 to fix the damage done to the farm, as it was such a large property.    ?P:have to
+146 | It was simply a hindrance they 【had】 to get over to excel.    ?P:have to
+144 | The students then 【had】 to give job talks in front of judges who displayed serious facial expressions.    ?P:have to
+147 | productivity stopped working around 1973.Thus, they 【had】 to keep working just as much in order to maintain their    ?P:have to
+112 | product is going on sale for real and the boys 【had】 to learn about budgeting and marketing, as well as designing their game.    ?P:have to
+99 | After my freshman year, I 【had】 to opt for the school’s insurance plan, which costs around $2,000 a year.    ?P:have to
+103 | “Within six weeks, they 【had】 to send a truck around to pick up all the wheelchairs,” Thomas told the Washington Post.    ?P:have to
+115 | I have fond memories playing Battleships when it was raining outside and we 【had】 to stay indoors.    ?P:have to
+95 | She 【had】 to update its information.    ?P:have to
+
+============================================================
+## 词：year    本段 46 句    模式：全标（每句都写）
+原释义：n.年; 年度.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 年，一年    B 样本 70    例：Earlier this year,
+  1  n. 学年，年级；年度（school year / freshman year）    B 样本 7    例：This academic year,
+  2  n. 岁（…-year-old：…岁的）    B 样本 1    例：Last year, a three-year-old boy survived alone for three days in a remote forest in the same region.
+已标过的短语：all year round（1）；year after year（1）
+已标 X：2 句，如：While that is not a formal requirement for being a member, everyone finds a way to participate in the Lunar New Year Parade, whether it's by dancing, carrying a flag or beating a drum.
+口径说明（照此执行）：
+  - 给C的口径：school / academic / freshman year、the first year of high school 按1；…-year-old 按2；all year round 标 P:all year round；year after year 标 P:year after year；year-over-year、a year、per year、the year 2020 按0；泛指节日的 New Year / Lunar New Year（含 New Year resolution）按0，Lunar New Year Parade 这类活动专名标 X。
+句子：
+81 | The $59 million is up from the $56.7 million budgeted for the current school 【year】.
+94 | F) Today, the dancers travel across Chinatown going from business to business to bring good luck for the coming 【year】.
+109 | My family was careful to ask about the chances of financial aid being taken away after my freshman 【year】.
+112 | in the previous 【year】).
+119 | see their design on sale in the spring of the following 【year】.
+87 | Last 【year】, a German federal court said the shade of the gold wrapping was also protected.
+103 | The new 【year】—according to the Chinese lunar calendar—will begin on Saturday and marks the 【Year】 of the Rooster, which is thought to be a symbol of positivity.    ?X
+98 | In the 【year】 after the bike lanes arrived, businesses on Skillman saw sales rise by 12 percent,
+82 | this past 【year】, an increase of 7%, according to the latest figures from the market analyst Kantar.
+106 | to take part this 【year】 and says that the project — funded by Deutsche Bank as part of its youth engagement programme
+83 | Designed by a group of six 【Year】 9 and 【Year】 10 boys from Finchley Catholic High School, the toy was the winning entry in    ?X
+101 | I) There is another depressing reality hidden within even the largest financial aid packages: Colleges often offer the most generous packages during freshman 【year】 as a way to attract new students.
+105 | The rate of growth has begun to ease (sales were up 7% in the 【year】, compared with 8%
+124 | Sales of bottled water in Britain hit a record high last 【year】 even though people are increasingly aware that plastics are
+95 | This represents 47 fewer students than the current 【year】. [4] Fewer students mean less federal and state funding.
+80 | Our analysis suggests early booking by women can translate into savings of $1 million a 【year】 for a large multinational company with 20,000 regular travelers.
+120 | They cost parents an average of £337 per 【year】 for each secondary school child.
+102 | Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school 【year】 for students to get back to where they were before the summer holiday.
+84 | The New 【Year】 has come and gone, and many may have already forgotten what they had resolved to do on January 1st.    ?X
+116 | Why did America's traditional school 【year】 have a three-month summer vacation?
+88 | restructured Zentech, once a taxation vehicle for his father’s business, and it is now in its fourth 【year】 helping international
+91 | After my freshman 【year】, I had to opt for the school’s insurance plan, which costs around $2,000 a 【year】.
+100 | the 11th 【year】 in a row.
+121 | What does the author think of the traditional school 【year】 in the U.S. today?
+125 | Enrollment in Design and Technology decreased by nearly ten percent last 【year】 in the UK.
+113 | This 【year】 it is “Change”.
+86 | Early this 【year】, Jesse Coburn — an investigative writer
+115 | So when my university voted to raise tuition costs 3% at the end of my freshman 【year】, my financial aid package remained the same and I was suddenly responsible for an additional $1,200 for the next 【year】.
+123 | We find that if pupils take part in Design Ventura in 【Year】 Nine it can be the trigger which leads    ?X
+104 | W: I still think it’s a bad idea to use a credit card for something you don’t need. [11] One of my colleagues bought a lot of things on credit during her first 【year】 of work, and it became a bad habit, and she accumulated a lot of debt.
+85 | Americans spend an average of over $722 each 【year】 on their
+99 | [19] When planning for this 【year】, our principal asked what needed to change to engage students more in their learning.
+97 | F) The theme for last 【year】’s competition was “Move”, and Hourican began with three groups working in lunch breaks and
+114 | Harris, who became headteacher this 【year】, said he notified parents of the updated rules in an email in June. [23] The price of school uniforms can spark panic among families struggling with a high cost of living.
+107 | by the third 【year】 sales grew faster on five of the streets than in the district overall, on average — up to five times faster, in
+108 | This began a journey to transform our practice and challenge the ways of learning for a group of 【Year】 6 students used to sitting in desks and rows for years.    ?X
+92 | But at this time of 【year】, the air pollution is a real problem.
+96 | analysts show that last 【year】 the British consumed more than 2.2 billion litres of bottled water, including “take-home” and “on-
+122 | Last 【year】, the company bought SodaStream (a drinks company that sells machines for making tap water bubbly and
+89 | However, last 【year】, the restaurant’s co-owner and famous chef, Daniel Humm, made the bold decision to remove meat
+118 | 【year】, the UK government set out plans to ban single-use plastic from its estate.
+110 | The U.S. has changed from a farming economy to a knowledge- and innovation-based economy, so it makes sense for the school 【year】 to change as well.
+90 | They took her a full 【year】 to track and analyze.
+111 | Chan buys a new lion head each 【year】 when he travels to China.
+117 | The lion dancers perform from door to door to bring New 【Year】 wishes to business people.    ?X
+93 | The average American student receives 13 weeks off from school each calendar 【year】—with about 11 of those during the summer.
+
+============================================================
+## 词：too    本段 70 句    模式：全标（每句都写）
+原释义：adv.太; 也; 过于.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 太，过于    B 样本 43    例：It is too oily.
+  1  adv. 也，还    B 样本 25    例：W: Yes, me too.
+  2  adv. 很，非常（口语：not too bad / You're too kind）    B 样本 0
+已标过的短语：too...to（11）；not a moment too soon（1）
+口径说明（照此执行）：
+  - 给C的口径：too + 形容词/副词 + to do（含 too much/many…to do、too…for sb to do、a bit too much to let go）标 P:too...to；not a moment too soon（早该如此）标 P:not a moment too soon；me too、I think so too、句中 X, too, … 按1；much too、a bit too、too many/much、too often、too + 形容词 + a + 名词 按0；not too / only too 表「很」按2。注意 we say yes to too many things we don't want to do 这类 to do 属于从句，不算 too...to，按0。
+句子：
+84 | W: I was 【too】.
+91 | Therefore, I suggest you spend more time in the park with your friends, but make sure you apply lots of skin protection and fill up those water bottles, 【too】.
+97 | Formula One teams race far more technologically advanced vehicles around tracks all over the world—in magnificent events in places like Malaysia, Monaco, Singapore and the United Arab Emirates, and on tradition-rich tracks like Silverstone in England and Monza in Italy 【too】.
+98 | Bear in mind, they will last me several years and they’re very fashionable 【too】.
+100 | E) Overall, the yields of many foods, from staples to life-enhancing extras such as coffee and chocolate, will likely be impacted by climate change 【too】.
+107 | W: [9] Oh, impulse purchases can be an issue for me, 【too】.
+110 | But it’s a problem that impacts independent luxury food suppliers 【too】.
+111 | Many drug targets in the body follow a 24-hour cycle, 【too】.
+116 | Fish-farming may cause serious problems 【too】.
+119 | Thus this sustainable option was an economic option 【too】.
+130 | So the menus remain regular 【too】.
+131 | As children develop and grow, their dreams do 【too】.
+135 | Immigrants do better in this area 【too】.
+145 | It applies to the preservation of pandas 【too】.
+112 | That segment was 【too】 brief, especially as so many people have that problem.
+106 | The reality is, nobody is 【too】 busy—it’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that they’re not actually accomplishing their real purpose.
+123 | One is 【too】 busy to check all emails in time.    ?P:too...to
+86 | Indeed, work with some other species suggests they 【too】 can refine their quantitative thought if
+147 | We’ve been told all our lives that if you work hard, you 【too】 can succeed.
+125 | Teachers say that kids’ writing is 【too】 casual, using language characteristic of text messages.
+108 | New research suggests that pandas may be at risk of dying out because they are 【too】 comfortable.
+138 | search of new mates if they find their habitat 【too】 comfortable, resulting in a lack of vital genetic diversity.
+88 | She is 【too】 concerned about money.
+136 | They find these exercises 【too】 demanding.
+104 | improving mood is ___35___ intensity, perhaps because low intensity is 【too】 dull while high intensity is 【too】 unpleasant.
+139 | She is 【too】 eager to please.    ?P:too...to
+101 | They may be 【too】 eager to succeed while ignoring the huge labor cost.    ?P:too...to
+87 | Thus, they claim it is 【too】 early to call computer game addiction a disorder.    ?P:too...to
+115 | The findings suggest that some people may be 【too】 emotionally clever for their own good, says Bechtoldt.
+124 | By refraining from being 【too】 excited about their successes.
+89 | M: That’s a bit 【too】 far away.
+85 | It has 【too】 few first-class teachers.
+143 | They may cease to exist as a result of enjoying 【too】 good a life.
+141 | with the remainder either 【too】 harsh or 【too】 affected by human activity.    ?P:either ... or
+99 | The study found that team-building exercises which focused on the sharing of and intervening into personal attitudes and relationships between team members were considered 【too】 heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections with colleagues.
+95 | They set the bar 【too】 high, and when people take 【too】 long or don’t get things quite right, they assume it’s due 【too】 lack of effort.
+146 | It is 【too】 inclusive and thus lacks clarity.
+120 | N) He added: "The broader sport is a little 【too】 inward-looking, and we need to be more open.    ?P:too...to
+148 | They feel it only 【too】 logical to succeed.    ?P:too...to
+90 | Fill out a more comprehensive checklist, and be wary of listed prices that seem 【too】 low.
+80 | isolate the effects of consuming 【too】 many calories from the effects of foods containing different sugars.
+109 | But when they do lead to 【too】 many calories, they risk raising
+81 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with 【too】 many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+83 | have turned to claiming the problem is the opposite: There are 【too】 many cyclists getting in the way of cars.
+93 | But honestly, I’ve just seen 【too】 many horrible accidents involving those dangerous monsters.
+92 | People agree to do 【too】 many things they are in fact unwilling to do.
+128 | But I’ve found that if I review my spending every night, that keeps me from spending 【too】 much.
+129 | Experts say 【too】 much
+137 | of hourly workers, their top concern is not that they work 【too】 much but that they work 【too】 little.
+133 | 【Too】 much concern about their work.
+118 | 【Too】 much faith in their ability to think.
+142 | However, 【too】 much of a routine can also make you incredibly boring.
+113 | It relies 【too】 much on solid data.
+103 | It’s also true that 【too】 much social networking and game playing can cut into schoolwork and sleep.
+140 | They place 【too】 much stress on individual relationships.
+82 | Many of us spend far 【too】 much time, energy, and money trying to polish an image of what we think will bring attention,
+134 | One benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when 【too】 much time is taken off from school.
+96 | I haven’t slept enough in months because I have 【too】 much work to do, and I feel fine.    ?P:too...to
+122 | They feel management is being 【too】 nosy or trying to control their lives 【too】 much.    ?P:too...to
+117 | Additionally, a painted ceiling is a magical thing without being 【too】 obvious and can affect how the space feels as well.
+102 | As we all know, cultural or individual differences in personal bubble diameters are all 【too】 often the cause of discomfort.
+127 | [23] But 【too】 often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we can maintain the harmony of our workplace.
+149 | It is a new concept much 【too】 overrated.
+132 | She is 【too】 picky about food.
+126 | In other words, most Americans are 【too】 poor to work less.    ?P:too...to
+121 | These movies are criticized as being 【too】 simple.
+105 | Many of the parents have taken on college loans for the kids, 【too】, sometimes at the expense of their own finances.
+94 | Here, 【too】, things are complex.
+114 | She is 【too】 weight-conscious.
+144 | It is now 【too】 widespread to be neglected.    ?P:too...to
+
+============================================================
+## 词：well    本段 47 句    模式：全标（每句都写）
+原释义：adv.好地; 令人满意地. adj.健康的; 良好的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 好，令人满意地（do well / sleep well）    B 样本 17    例：Many will do well.
+  1  int. 嗯，好吧，那么（口语开头或停顿）    B 样本 29    例：M: Well, it depends.
+  2  adv. 充分地，很（用在过去分词或形容词前：well known / well prepared）    B 样本 11    例：To enter a house well looked after.
+  3  adv. 远远地，大大地（well before / well into）    B 样本 2    例：I’ll be able to pay for the phone well before that period is over.
+  4  adj. 健康的，身体好的    B 样本 0
+  5  n. 井    B 样本 3    例：They heard a noise from the bottom of a well.
+  6  adj. 良好的，令人满意的（All is well.）    B 样本 0
+已标过的短语：as well as（14）；as well（2）；go down well（1）；might as well（1）；well-being（1）；go well with（1）
+口径说明（照此执行）：
+  - 给C的口径：as well as（以及）标 P:as well as，但 do/perform (just) as well as… 表「和…一样好」的比较按0；句末 as well（也）标 P:as well；might/may as well 标 P:might as well；go down well（受欢迎）标 P:go down well；go well with（与…相配）标 P:go well with；well-being 标 P:well-being；well + 过去分词/形容词（well known / documented / preserved / protected / received / treated / equipped / prepared / looked after）一律按2；well 修饰动词（do / perform / sleep / cook / land well、how well）按0；well before / into / above 按3；口语 Well, … 及句中插入的 well, 按1。0 与 2 按语法形式划界，不再按语义细分。听力原文里口语 Well 极多，首要义项可能因此是 int.，请复核是否合适。
+句子：
+81 | Because when you are enjoying, people around you will begin to enjoy as 【well】.    ?P:as well
+91 | Each film has an attractive lead, several expensive explosions, a few jokes to lighten the mood, and numerous punches that land unrealistically 【well】.
+92 | So much so that, according to experts in neuroscience (神经系统科学), our brains do not handle multitasking situations 【well】.
+94 | In order to sustain those relationships, you must be able to work in their best interests as 【well】.    ?P:as well
+98 | The elephant wandered out of the jungle and fell into the 【well】.
+103 | The office hours of the professor may also be during inconvenient times for many students as 【well】.    ?P:as well
+107 | It seems clear that this principle applies to men, as 【well】.    ?P:as well
+108 | What does the author imply we should do if we have to focus on some task and do it 【well】?
+116 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on your smartphone or laptop, and sign language into text as 【well】.    ?P:as well
+117 | What does the author advocate for people to live 【well】?
+118 | Why are immigrants doing so 【well】?
+122 | Additionally, a painted ceiling is a magical thing without being too obvious and can affect how the space feels as 【well】.    ?P:as well
+123 | M: 【Well】, actually, I’ve stopped using online payments for the past three months now.
+120 | Video of the rescue operation shows how the team used a crane to lift up the huge animal out of the 【well】 and onto the back of a truck.
+112 | The army officers heard a noise coming from the 【well】 and realized an elephant was trapped deep inside. [6] The officers then threw in some food for the creature and called the local forest department for help.
+111 | international water brands, as 【well】 as a range of new companies, are selling high-end reusable bottles.    ?P:as well as ?P:as...as ?P:as well
+109 | W: [13] It says on your website that you are still looking for vendors, and I grow organic vegetables on my farm, as 【well】 as doing my own home baking.    ?P:as well as ?P:as...as ?P:as well
+125 | This is the equivalent produced by your average car driving almost 70 times around the world. [16] As 【well】 as greenhouse gases, rocket engines emit particles that destroy ozone.    ?P:as well as ?P:as...as ?P:as well
+95 | They can make unlovely spaces lovely, and marry use and beauty as 【well】 as help promote a sense of community.    ?P:as well as ?P:as...as ?P:as well
+115 | Such cats displayed more aggressive and anxious behavioural styles as 【well】 as more stress-related sickness.    ?P:as well as ?P:as...as ?P:as well
+99 | “It may 【well】 be that the messy nature of their relationship with human efforts induces more animals to scatter or
+106 | We must change the way we think: living 【well】 does not need to mean having more private spaces; instead, it could mean having more public spaces.
+113 | M: 【Well】, he had it fixed.
+96 | M: 【Well】, I can see how that might happen to someone, and I’m sure she regrets it, but I know it won’t happen to me.
+83 | 【Well】, I could come and go as I please, as long as I was getting the work done.
+100 | M: 【Well】, I know a great housing agent.
+85 | M: 【Well】, I’m looking forward to the change.
+104 | W: (15-1) 【Well】, I suggest reorganizing your notes using color-coded sections in your study guides, or using idea mapping to lay out the information and make it more quickly accessible.
+119 | M: 【Well】, if people have smaller homes, they use less land and fewer resources to build them.
+87 | W: 【Well】, it’s five kilometers from home to the office.
+110 | M: [12] 【Well】, it’s mainly about increasing home ownership and protecting the environment.
+101 | Quite 【well】, it turns out.
+93 | There are 24 episodes. [11] 【Well】, maybe you could download an electronic copy of the book and try to read it before the show starts.
+88 | The internet is full of recipes for “eating 【well】 on a budget.
+90 | Previously, the lowest price had been around $40, 【well】 out of reach for many people.
+97 | A litre of bottled water can cost 【well】 over a pound, especially for something fancy that has been sucked
+126 | When responsibilities are 【well】 paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above when visiting a friend who does.
+114 | It greatly reduced parking — but because, 【well】, shop owners didn’t see any way around it.
+80 | W: Oh 【well】, that changes everything, I’m afraid.
+105 | W: 【Well】, that’s an expensive way to get to work.
+86 | 【Well】, that’s obvious then, isn’t it?
+121 | W: Oh, 【well】, that’s ridiculous, isn’t it?
+102 | 【Well】, there’s a nice Chinese restaurant that delivers.
+82 | M: Okay, 【well】, there’s a place that does salads.
+89 | "They tell us the methods their forefathers used to predict the weather don't seem to work as 【well】 these days.    ?P:as well
+84 | W: 【Well】, visual learners prefer using images, pictures, colors, and maps to organize information.
+124 | W: 【Well】, what do you do now then?
+
+============================================================
+## 词：different    本段 48 句    模式：全标（每句都写）
+原释义：adj.不同的; 有区别的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 不同的，有区别的；各种不同的    B 样本 69    例：Buy different kinds of cheese.
+  1  adj. 另一个，别的（a different + 单数名词）    B 样本 11    例：That's a different matter.
+  2  adj. 与众不同的，特别的    B 样本 2    例：Why did Bill Thomas try something different in the nursing home?
+口径说明（照此执行）：
+  - 给C的口径：「不同的」与「各种的」合并为0（different kinds of、different people、be different from 都按0）；a/an different + 单数名词表「另一个、别的」（a different route / world / race / language / matter / picture）按1，但 each … a different … 表「各不相同」按0；表「与众不同、新花样」（this one was different、try something different）按2。0/2 的边界有主观成分。
+句子：
+82 | K) Men and women’s experiences of the return to work following parental leave were also considerably 【different】.
+83 | believe that tomorrow will be 【different】.
+120 | These included their ability to form and maintain friendships and get along with people who are 【different】.
+95 | People of 【different】 ages and genders show affection in 【different】 ways.
+124 | People of 【different】 ages have 【different】 mindsets.
+93 | A totally 【different】 approach could be adopted to combat advertising campaigns for snack food.
+88 | Grit is 【different】 because it
+103 | Walsh argues that bottled water is 【different】 because the alternatives are so obvious.
+109 | Professor O’Keefe established in earlier studies that people hold 【different】 beliefs about the nature of interest.
+110 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, have two very 【different】 courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+91 | More research is needed to determine the best times to administer treatments for 【different】 diseases.
+115 | Conducting more studies to find out the best timing for treating 【different】 diseases.
+85 | It uses comparison and contrast in describing fashions of 【different】 eras
+112 | To demonstrate how to distinguish 【different】 feelings.
+118 | Having a growth mindset of interest can help job seekers expand their interests and become more adaptable to 【different】 fields, and take the initiative to learn new skills.
+86 | the ___34___ of space to 【different】 frequencies.
+117 | It performs a 【different】 function in babies than in adults.
+111 | In this process, we mentally categorize people into 【different】 groups based on common characteristics.
+94 | They have 【different】 interests than adults.
+90 | On a regular day at a local food market, people would find a display table with 24 【different】 kinds of jams.
+126 | The overall trend is hitting Americans of all 【different】 levels of educational attainment, although the percentages vary by
+84 | We all bring 【different】 life and work experiences to the table.
+100 | This requires two essential conditions: that one of the tasks needs to be automatic, like walking or eating, and that they both need 【different】 mental processes.
+87 | Learning and practicing seem to be very much alike, but the two processes can lead to quite 【different】 outcomes.
+98 | That will offer you a good variety to suit 【different】 people’s tastes.
+102 | We all have 【different】 personality preferences and tendencies.
+121 | From this 【different】 perspective, you can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+80 | Supermarkets can technically be defined as giants housing 15,000 to 60,000 【different】 products.
+108 | But scientists believe REM serves a completely 【different】 purpose for newborns and infants than dreaming.
+122 | The hairdresser agreed but for a 【different】 reason: She
+92 | I found my way to user experience through graphic design, and slowly over many 【different】 roles and experiences that led me to become a user experience designer.
+116 | Now our students have a range of 【different】 seating options, including a floor desk, couches, stools, bean bags, and the traditional desk-and-chair.
+107 | It is a shift in practice from being teacher-focused to student-focused learning. [20] For us, flexible seating has meant removing most of the traditional chairs and desks and introducing a variety of 【different】 seating options to promote student engagement.
+97 | It varies greatly among 【different】 social groups.
+123 | They vary in 【different】 stages of brain development.
+101 | We believe that we will be 【different】 tomorrow, but in doing so, we prioritize our
+89 | symbolic meaning that we assign to 【different】 types of clothing.
+114 | 【Different】 types of clothing convey 【different】 messages symbolically.
+104 | 【Different】 types of clothing markedly reflect 【different】 personalities.
+119 | Employers can also consider how to bundle 【different】 types of compensation to help employees cope with their unique situations.
+99 | To define 【different】 types of human feelings.
+105 | Then on another day, at that same food market, people were given only 6 【different】 types of jam choices.
+81 | The same was true when they were with someone from a 【different】 university, compared to someone from their own.
+113 | The business perspective offers a 【different】 view: multitasking is understood as the ability to adapt to all types of environment within a company and effectively undertake 【different】 activities within a set time frame.
+127 | They hold 【different】 views about postponing retirement.
+125 | Learning and listening can help you think about things in a 【different】 way.
+106 | They can modify the effects of medicines in 【different】 ways.
+96 | Such differences in value that 【different】 working cultures place on the written word tend to cause many problems when it comes to business relationships.
+
+============================================================
+## 词：did    本段 16 句    模式：全标（每句都写）
+原释义：v.做; 干(do 的过去式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. 构成过去时的疑问句、否定句（Did you…? / did not）    B 样本 54    例：How did we get here?
+  1  v. 做，干    B 样本 6    例：F) “We did a study on paternity leave five years ago.
+  2  aux. 代替前文提到的动词，避免重复（than we did / so did I）    B 样本 6    例：M: [15] Of course you did.
+  3  aux. 用在动词原形前加强语气：确实，的确    B 样本 10    例：Once I did get out, I was totally exhausted.
+  4  v. 表现，进展（did well / did better）    B 样本 3    例：Fathers also did better than men without kids, reporting greater happiness, life satisfaction, and fewer 31 symptoms.
+已标过的短语：do one's best（1）
+口径说明（照此执行）：
+  - 口径：疑问句/否定句里的 did 标 0（即使句中另有 do 作实义动词，如 What did they do 也只标 0）；肯定句里 did + 动词原形 标 3（强调）；than/as/so did、Of course you did 这类替代前文动词的标 2；did well/better、how well they did 标 4；did a study / did it / what I did 等实义「做」标 1；do one's best 按 P。
+句子：
+86 | I just get anxious before I fly and feel nervous the whole time we’re in the air, which is why I was hoping the television program would cover that topic more than it 【did】.
+89 | By 2016, only 16 percent 【did】.
+93 | Half of the women said they used flexible work arrangements after becoming a parent, while just 27% of men 【did】.
+90 | A tiny fraction, 2%, of men said they 【did】 more of the childcare.
+83 | While about 75% of employees said both genders should give the same amount of care, the majority of men and nearly half of women admitted that in reality the female actually 【did】 most of it.
+95 | Most fathers admitted that even during their paternity leave they actually 【did】 much less childcare than the mother.
+91 | Most people 【did】 not include snacks when reporting their calorie intake.
+88 | The national statistics 【did】 not reflect the actual calorie conswnption.
+87 | What 【did】 one study find about students seated in the middle of the classroom?
+84 | What 【did】 people generally think of Red Rum when he returned to the racecourse in 1977?
+82 | What 【did】 prior research on negative reciprocity among workers find?
+94 | What 【did】 Professor O’Keefe find in his earlier studies?
+80 | He 【did】 something all professionals would do.
+92 | Most people spend much more time interacting with digital media than they 【did】 ten years ago.
+81 | Why 【did】 the citizens of Los Angeles vote to raise their own taxes?
+85 | And kids enjoy it just as much today as you and I 【did】 when we were young.
+
+============================================================
+## 词：first    本段 41 句    模式：全标（每句都写）
+原释义：adj.第一的; 最初的; 最重要的. adv.首先; 首次.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 第一的，最早的    B 样本 46    例：His first book.
+  1  adv. 首先，先；（列举时）第一    B 样本 10    例：Tackle the most difficult task first.
+  2  adv. 首次，最初    B 样本 5    例：He’s explained this to me when we first met.
+  3  n. 第一个（人或事物）；第一名    B 样本 5    例：In order to find the linking words (“Hole” for the first, “Bowl” for the second) you need to be creative.
+  4  adj. 首要的，最重要的；首席的    B 样本 2    例：First Minister Nicola Sturgeon urged ScottishPower to reduce carbon emissions.
+  5  adv. （名次）第一    B 样本 1    例：Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall.
+已标过的短语：at first（5）；in the first place（4）；for the first time（1）；first of all（1）；at first sight（1）
+口径说明（照此执行）：
+  - 口径：first class/floor/prize/authors、the first time（这不是第一次）按 0；句首 First, 和「先做某事」（do X first）标 1；first started/came about/met 等「第一次、最初」标 2；the first is…、the first of its kind、the very first、the first to arrive 标 3；First Minister（首席大臣）标 4；finished first 标 5；at first、in the first place、first of all、for the first time、at first sight 按 P。
+句子：
+88 | Some people find it “snobby” (势利的) and others simply find it irritating because they have a hard time remembering which last name they are supposed to say 【first】.
+106 | Wealthy nations should solve their own food problems 【first】.
+108 | M: It does sound like it would suit my taste, but if they are making a TV series based on it now, I don’t know if I should read the book or watch the show 【first】.
+116 | W: I think it’s better to read the book 【first】.
+103 | Surprisingly, the Space Roaster concept—should it go ahead—will not be the 【first】 attempt to take coffee into space.
+100 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the 【first】 class of a brand new school.
+115 | In 2015, two Italian companies, collaborated on the construction of a similar type of spacecraft, which was the 【first】 coffee machine designed for use in space.
+85 | M: (10) The same discount of 20% is being offered to everyone at the door on a “【first】 come, 【first】 served” basis for the 【first】 month.
+112 | It’s the 【first】 day of school, and your teacher tells you to find a seat in the classroom.
+99 | [22] Dozens of British students arriving for their 【first】 day of school on Tuesday were sent home over their shoes.
+120 | Act as the 【first】 defense against natural disasters.
+110 | also, of course, our 【first】 defense against species loss and climate change.
+80 | 【first】 emerge in aaolescence ( -t $-J.Jl) .
+91 | He won his 【first】 Grand National title at 12.
+107 | The traditional school year, with three months of vacation every summer, was 【first】 implemented when America was an agricultural society and the summer months were needed for farm work.
+93 | It’s written by a Chinese science fiction writer. [9] I can’t remember his name, but he’s written three books in all, and *The Three Body Problem* is the 【first】 in the series.
+94 | Electric bikes have been the craze in downtown Jacksonville since they were 【first】 introduced earlier this month as a one-year pilot program. [5] But they’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.
+102 | 【First】, le are working to
+97 | our thoughts are immediately burdened by all the things we must 【first】 learn.
+98 | 【First】, many physicians are not aware that some drugs work better during a specific time of the day.
+104 | 【First】 of all, students lack the desire to learn, and they simply complete their assignments to receive credit for a passing grade rather than genuinely engage with the course material.    ?P:first of all
+90 | They were such strange marvels that, on her 【first】 official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour of a suburban-Maryland Giant Food.
+109 | What does the author say about the ability to be persuasive in the 【first】 paragraph?
+117 | What does the author want to emphasize in the 【first】 paragraph?
+82 | I) So, how did we ever invent "unnatural" numbers in the 【first】 place?    ?P:in the first place
+92 | did the duration of the working week decline in the 【first】 place?    ?P:in the first place
+96 | If your workplace isn’t an environment where work-life balance is possible in the 【first】 place, any effort    ?P:in the first place
+119 | It is the 【first】 restaurant in the city to remove meat from its menu.
+81 | Once back on Earth, the planet’s 【first】 space-roasted beans would be used to make coffee that would be sold for the 【first】 time in Dubai.    ?P:for the first time
+95 | Good communication is the 【first】 step in effective persuasion, but logic and reasoning are just as important.
+89 | In the 【first】 study, more than 600 high school students were surveyed about their tendency to take risks and feel confident.
+105 | 【First】, sunshine can actually affect your breath.
+87 | J) For every one of the five studies, they found the same thing—participants who cheated in the 【first】 task did better on the creativity task.
+83 | Start with the most obvious place 【first】: the company’s website.
+111 | Grit tells us that the door is open wider than we 【first】 thought
+101 | The fine dining establishment received its 【first】 three-star Michelin rating in 2011 when the menu was famed for its fancy
+86 | For the 【first】 time in human history, most of our aquatic (水产的) food now comes from farming rather than fishing.    ?P:for the first time
+113 | It is the 【first】 vegan restaurant to receive the highest Michelin rating.
+114 | The number of people experiencing depression shows a sharp increase in the 【first】 year of high school.
+84 | In their 【first】 18 years of life, American children spend only 9% of their time in school.
+118 | If at 【first】 you fail, then try one more time with grit.    ?P:at first
+
+============================================================
+## 词：around    本段 50 句    模式：全标（每句都写）
+原释义：adv.在四周; 到处; 大约. prep.围绕; 在…附近.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 在…周围，环绕；在…附近    B 样本 21    例：Consuming the world around us.
+  1  adv. 大约，左右    B 样本 19    例：Around lunch time.
+  2  adv. 到处，四处；在四周    B 样本 12    例：For getting around in Miami.
+  3  prep. 遍及，在…各处    B 样本 10    例：Rent a bike for him to get around the town.
+  4  prep. 关于，围绕（某话题、中心）    B 样本 6    例：discussion around careers for years—especially for working parents.
+  5  adv. 转过来，朝相反方向（turn around）    B 样本 3    例：It narrowly escaped a plane crash when turning around.
+  6  adv. 在附近，在场；存在    B 样本 3    例：W: No, I haven’t seen him around.
+  7  adv. 过来，到（某处）    B 样本 1    例：“Within six weeks, they had to send a truck around to pick up all the wheelchairs,” Thomas told the Washington Post.
+已标过的短语：hang around（2）；get around to（1）；pass around（1）；shop around（1）
+口径说明（照此执行）：
+  - 口径：数字、时间、年龄前的 around 一律标 1（含 around lunch time / around your birthday / around 1973）；the world/people/things around us 及绕脖子、绕赛道、绕地球 70 圈都标 0；around the world/nation/village/Italy、run around the restaurant、get around the town 这类「在某范围内各处」标 3；不带宾语的 walk/run/move/look around、all around 标 2；rules/discussion around、centers/revolve around 标 4；turn around 标 5；be around（在、存在）标 6；hang around、shop around、get around to、pass around（辗转易手）按 P。
+句子：
+92 | Clothes largely determine one’s likability by people 【around】.
+96 | So, most people need their own car to get 【around】.    ?P:get around
+129 | with some college education were in the middle at 【around】 15%.
+100 | After my freshman year, I had to opt for the school’s insurance plan, which costs 【around】 $2,000 a year.
+84 | [19] For college students under pressure, a dog may be the best stress fighter 【around】, according to the finding of a recent study.
+115 | According to research, we begin to develop our individual sense of personal space 【around】 age 3 or 4. [25] The sizes of our bubbles are fixed by our teens.
+117 | move 【around】 and find new mates”.
+114 | Companies cannot do all these things to enhance women’s advancement and then turn 【around】 and say, ‘Oh, but we don’t expect the men to take over for the women at home.    ?P:turn around
+108 | The first public exhibit of animals may have been created by Egypt’s Queen Hatshepsut 【around】 1480 B.C.
+118 | In China, Emperor Wenwang is said to have built a “Garden of Intelligence” 【around】 1060 B.C.
+91 | In Egypt, researchers have found buildings from 【around】 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.
+106 | He was only found the first time 【around】 because staff brought in a special machine to trace him inside a wall opening.
+126 | Temperatures in the pressurised tank will be kept to 【around】 200°C.
+86 | Researchers also measured participants’ overall satisfaction 【around】 cooking and diet-related behaviors.
+104 | Also, the mental health benefits were equal among participants who were overweight or obese, and those in a healthy weight range. [20] This suggests a link between cooking confidence and satisfaction 【around】 cooking, and mental health benefits.
+116 | M: In our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how to shop 【around】 for the best deals.    ?P:shop around
+121 | It also helps them develop healthy ideas 【around】 gender.
+103 | Similar percentages of men and women said they enjoyed their careers and that it gave them a sense of achievement, while 【around】 half of women and 44% of men said it was a key part of their identity.
+88 | thinking about your deadline in terms of days rather than months or years can help you wrap your mind 【around】 how close the    ?P:wrap one's mind around
+110 | But if gravity is removed, the beans float 【around】 in a heated oven, received 360 degrees of evenly distributed heat and roast to near perfection.
+95 | They float 【around】 in the oven.
+124 | Basketball burns 【around】 300 in the same time.
+119 | It greatly reduced parking — but because, well, shop owners didn’t see any way 【around】 it.
+101 | At 【around】 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s.
+83 | There is some debate about which was the very first, but over the years a consensus has built 【around】 King Kullen Supermarket, founded in New York in 1930.
+120 | The spacecraft will reach a height of 【around】 200 km.
+105 | you have a health issue and you want to be 【around】 longer for your kids, or if your business is something you're passionate
+113 | People ate 【around】 73 million tonnes of farmed fish—just more than half of the volume of fish that humans consumed—in 2014.
+89 | The staff believe he squeezed himself out of a gap located 【around】 new energy-saving bulbs installed inside the snake house.
+90 | G) Catherine Ritman Smith, head of learning at the Design Museum, is expecting 【around】 10,000 participants aged 13 to 16
+123 | The WFP has been 【around】 since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with food aid.
+94 | “They tend to be people with deep roots in the city, who have hung 【around】 since before the neighborhood became what it    ?P:hang around
+93 | It has been 【around】 since the 1930s.
+102 | Every day at about 1 p.m., everyone faces the same choice: sleep until 2 p.m. and then work until 5, or daydream and drift 【around】 social media and attend pointless meetings until 7 p.m.
+125 | People may find it more pleasant to wander 【around】 streets redesigned for cycling and walking.
+122 | Most other healthy eating cultures also make meals an event—say, multiple courses 【around】 the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+127 | [22] Most of us have been in teams or organizations where we’ve had conflict with the people that we’re working with 【around】 the ideas or decisions that we’re discussing.
+81 | There used to be many hat factories in Britain until 【around】 the 1950s.
+80 | It offers free online data services for refugees 【around】 the world.
+97 | The organization explains that this decision reflects general agreement among experts 【around】 the world that some people have a problem with these games.
+112 | To write his 2010 book, The 5-Factor World Diet, nutritionist Harley Pasternak traveled to the healthiest countries 【around】 the world to learn more about what made their meals extra nourishing.
+87 | He surprised sporting fans 【around】 the world when he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win.
+85 | Of those surveyed, 62% of fathers took the maximum amount of time off compared to 93% of mothers, and 【around】 three-quarters of workers said their employer was equally supportive of mothers and fathers taking parental leave and over half said leave policies had made workplace culture better.
+109 | Driving 【around】 town in a car is so normal to them that cycling seems weird and unusual — despite its
+99 | Too often we spend our lives consuming the world 【around】 us instead of creating it.
+128 | those with a high school degree or less, the proportion of those working in their 70s had risen to 【around】 10%, while those
+98 | Use what you find to ask more questions and learn more about the world 【around】 you.
+82 | Just look at the world 【around】 you at 2:30 in the afternoon.
+111 | Because when you are enjoying, people 【around】 you will begin to enjoy as well.
+107 | “We started Design Ventura with 【around】 800 young people
+
+============================================================
+## 词：find    本段 42 句    模式：全标（每句都写）
+原释义：v.找到; 发现; 认为.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 找到，寻得    B 样本 25    例：would find a fountain.” she says.
+  1  v. 发现，得知    B 样本 22    例：To find pure white walls shining.
+  2  v. 觉得，认为（find sth + 形容词）    B 样本 16    例：I genuinely find it odd.
+  3  v. （find oneself）发觉自己（处于某种状态）    B 样本 5    例：But if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.
+  4  n. 发现物    B 样本 0
+已标过的短语：find out（13）
+口径说明（照此执行）：
+  - 口径：find + 具体东西/人（找到、寻得、找工作）标 0；find that… / 研究发现 / 醒来发现 / find + 宾语 + doing（发现某人某物处于某状态）标 1；find + 宾语 + 形容词/名词/to be（觉得）标 2；find oneself doing/处于某处境标 3，但 find themselves（寻找自我）按 0；find out 一律按 P。0 和 1 的边界：句意偏「搜寻后得到」标 0，偏「意识到、看到某情况」标 1。
+句子：
+120 | What did prior research on negative reciprocity among workers 【find】?
+80 | Scientists, however, are trying to 【find】 a long-term and eco-friendly solution to this problem!
+84 | A new study finds that more education and training helps midcareer individuals 【find】 a new job.
+82 | We may 【find】 a route toward other people’s souls.
+112 | What did the author’s own research 【find】 about social media?
+119 | What did the joint study 【find】 about the MOOCs several years ago?
+106 | Parents must also talk to their kids about the appropriate ways to 【find】 academic answers and alert them to unethical behaviours that may seem innocent in their own eyes.
+97 | “The problem then is you have to 【find】 accommodation at short notice.
+98 | The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to 【find】 answers in a certain way.
+94 | 【find】 distant relatives based on their genetic identification.
+116 | We 【find】 few people of high status have time for leisure.
+117 | What did the author 【find】 in his study about the effect of online social interactions?
+96 | These are the people viewers most relate to and 【find】 interesting.
+104 | Some of them 【find】 it awkward when hugging children.
+100 | What may happen to smart people who 【find】 it difficult to accept suggestions?
+121 | Low-income households report that they 【find】 it difficult to adopt dietary guidelines because food prices are a barrier to improving their diets.
+111 | They 【find】 it hard to meet the expectations of kids’ parents.
+83 | More and more people in the workplace 【find】 it hard to rely on traditional pensions.
+91 | They 【find】 it increasingly difficult to afford a place to live.
+115 | Refugees 【find】 it more difficult to get a job.
+101 | They 【find】 it no more scary than it appears.
+109 | They no longer 【find】 it shocking.
+113 | 【Find】 more ways to curb students’ unethical acts.
+90 | Many people today still 【find】 name hyphenation upon marriage unacceptable.
+81 | move around and 【find】 new mates”.
+114 | 【Find】 online logic games and cheat at them, play Scrabble (拼字游戏) with a dictionary, or write a story about something that is untrue?
+118 | Some say we should never meet our heroes, lest they disappoint us when we 【find】 out how normal they are.    ?P:find out
+87 | “A family will turn up at a villa and 【find】 out it doesn’t exist or the owner doesn’t know who you are,” says Tipton.    ?P:find out
+88 | There’s a social dimension to health that we’ve completely overlooked in our efforts to 【find】 the best and most cutting-edge medical care....
+89 | E) Perhaps this is where we can 【find】 the good side of our bad side.
+107 | In order to 【find】 the linking words (“Hole” for the first, “Bowl” for the second) you need to be creative.
+105 | More and more British holidaymakers 【find】 the seaside villas they booked online actually nonexistent.
+85 | More than half of students will 【find】 their academic performance declining sharply when they enter the
+95 | Through no fault of their own, they can suddenly 【find】 their productivity
+93 | They will 【find】 themselves lacking in all the skills they need.
+108 | Refugees who settle in other countries often 【find】 themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements.
+92 | It’s clear that farmers in many parts of the world are going to 【find】 things harder in the coming decades.
+86 | And when you 【find】 things that are truly interesting to you, share them.
+99 | In one study, they were given matrixes (矩阵) and had to 【find】 two numbers that added up to 10.
+102 | But if we can’t 【find】 ways to protect other foods, will they survive climate change?
+110 | employees to 【find】 work-life balance.
+103 | Tests that offer to 【find】 your perfect romantic match and those claiming to predict personality or talents based on your
+
+============================================================
+## 词：author    本段 35 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.作者; 作家.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 作者（书、文章、研究报告的）    B 样本 77    例：senior author of the study.
+  1  n. 作家    B 样本 2    例：One author has mentioned that women desire to play an irreplaceable role in a great adventure.
+  2  n. 创始人，发起人    B 样本 1    例：Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism.
+  3  v. 撰写，编写    B 样本 0
+口径说明（照此执行）：
+  - 绝大多数是阅读题干 the author（本文作者），以及 lead/senior author of the study（研究报告的第一/资深作者），都标 0；不带「某作品」、泛指以写作为职业的人（a best-selling author、one author has mentioned）标 1；the author of the Stanford prison experiment（实验的发起人）标 2。
+句子：
+111 | What does the 【author】 advise us to do concerning ambition?
+103 | What does the 【author】 emphasize about their analysis in the last paragraph?
+100 | What does the 【author】 imply by saying aquaculture is no silver bullet?
+88 | What does the 【author】 imply by saying "this isn't always the case" (Line 1, Para.
+92 | What did the 【author】 realise after talking to his friends?
+104 | What is the 【author】’s idea of a financial education course?
+80 | What is the 【author】’s opinion on working from home?
+109 | What is the 【author】’s suggestion to employers who experience the financial impact of the pandemic?
+106 | What is the 【author】’s suggestion to those who are seeking employment?
+89 | What did the 【author】’s team conclude about the gender difference in airfares from their further investigation?
+95 | What does the 【author】 say about curiosity?
+93 | What does the 【author】 say about people now working for several businesses at the same time?
+114 | What does the 【author】 say about science in the last paragraph?
+91 | What does the 【author】 say about the ability to be persuasive in the first paragraph?
+105 | What does the 【author】 say about the gig economy?
+81 | What does the 【author】 say about the world today?
+86 | Why does the 【author】 say aquaculture is so important these days?
+99 | What does the 【author】 say companies should do in the context of remote work?
+87 | What does the 【author】 say is important in formulating policies to improve diets and health?
+102 | What does the 【author】 say is of extreme importance for one to become a successful entrepreneur?
+82 | What does the 【author】 say is one disadvantage of online classes?
+83 | What does the 【author】 say is one possible benefit of students attending school physically?
+112 | Why does the 【author】 say some experts’ anxiety seems misplaced?
+108 | What does the 【author】 say teachers are expected to do?
+101 | What does the 【author】 suggest disadvantaged people do to improve their health?
+94 | What does the 【author】 suggest policymakers do about obesity?
+113 | What does the 【author】 suggest scientists do about public debate?
+85 | What does the 【author】 suggest sensitive individuals do?
+84 | What does the 【author】 suggest teachers do in the classroom?
+97 | What does the 【author】 think constitutes a key part of genuine education?
+90 | What does the 【author】 think of research funded by industry or special interest groups?
+98 | What does the 【author】 think of the latest technology in education?
+107 | What does the 【author】 think open debate can do?
+110 | What message does the 【author】 try to convey at the end of the passage?
+96 | What does the 【author】 want to illustrate with the example of smartphones?

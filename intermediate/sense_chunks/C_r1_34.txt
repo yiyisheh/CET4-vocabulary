@@ -1,0 +1,463 @@
+# 任务 C_r1_34：1 个词，449 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_34.labels.txt
+
+============================================================
+## 词：it    本段 449 句    模式：全标（每句都写）
+原释义：pron.它; 这; 那.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 它（指代前面提到的事物、机构、情况）    B 样本 60    例：It can be touching.
+  1  pron. （形式主语或形式宾语，无实义；It is …to do / that…）    B 样本 18    例：She says it’s hardly _31_ to teenagers.
+  2  pron. （指天气、时间、距离，如 It is raining）    B 样本 0
+  3  pron. （强调句 It is…that… 中的 it，无实义）    B 样本 2    例：It was this huge fencing that prevented Prickles from finding her way back.
+已标 X：2 句，如：However, you can't help butŨ if these companies are basing their business on fabrications (ũ:it
+口径说明（照此执行）：
+  - IT firm（信息技术）和 OCR 乱码里的 it 标 X；指代前文事物/机构/情况标 0；it is possible/important/reported/estimated that|to… 的形式主语、make/find it easier 的形式宾语标 1；天气时间距离标 2；It is/was X that… 强调句标 3。
+句子：
+1286 | Employees spend much of their work time on 【it】.
+1297 | you can get somebody on-board with your goal, you should help them understand why they should pursue 【it】.
+1304 | And anyone, anywhere, can do 【it】.
+1311 | If something does not look right, ask about 【it】.
+1325 | When doctors prescribe medicine for people, they rarely consider the best time to take 【it】.
+1364 | weights—is of such ___32___ intensity that your body does not have time to use oxygen to create energy and so instead 【it】
+1373 | And there's little they can do about 【it】.
+1435 | Women are advised to identify the specific causes of their stress so that steps can be taken to deal with 【it】.
+1469 | They generally don't enjoy doing 【it】.
+1485 | Grit is different because 【it】
+1519 | because you “don’t have the skills for 【it】”?
+1556 | experience mentally when they use 【IT】.    ?X
+1600 | As a society, we reap the rewards from this science but we also help pay for 【it】.
+1605 | What does the author say about working in 【IT】?    ?X
+1670 | Have more discussions about 【it】.
+1677 | Formulate new rules for 【it】.
+1681 | Many employees are deeply frustrated by 【IT】.    ?X
+1704 | How can a business help improve its employees' experience in using 【IT】?    ?X
+1452 | But if there's one thing that triggers widespread employee frustration, 【it】's an 【IT】    ?X
+1328 | "【It】's certainly a problem that so much research in nutrition and health is funded by industry," says
+1427 | 【It】's easier to change your habits to lose weight if
+1614 | love yourself as 【it】's highly doubtful that you'll regret 【it】.
+1636 | 【It】's that maybe old dogs don't realize why they should.
+1361 | With the U.S. lagging behind other countries in academics, 【it】's time to consider year-round schooling.
+1341 | 【It】's well known that physical exercise is beneficial not just to physical health but also to mental health.
+1339 | While that $18 difference per ticket may seem small, 【it】 adds up.
+1378 | 【It】 affects employers’ decision-making.
+1391 | 【It】 aims to provide high-quality products.
+1466 | 【It】 all started in 1649 in Southern England.
+1581 | 【It】 allows refugees to obtain degrees in various academic fields.
+1639 | are in REM, 【it】 allows their brain to develop pathways, connections, and eventually, learn languages.
+1627 | 【It】 allows us to know what we are good at.
+1642 | 【It】 also helps them develop healthy ideas around gender.
+1432 | “【It】 also helps with meta-skills — learning how to learn, experimentation, and
+1473 | 【It】 also means having private space dedicated to work: the space must be heated, cleaned, maintained and paid for.
+1475 | Is 【it】 an open communication style or a flexible schedule?
+1459 | Some people may lack 【it】 and are easily manipulated by others.
+1440 | Some people may take advantage of 【it】 and benefit themselves.
+1369 | 【It】 applies to the preservation of pandas too.
+1387 | People may view 【it】 as both a means to convince others and an art of communication.
+1451 | the radiation dose to the tumour and restrict 【it】 as much as possible to healthy surrounding tissues and organs,” he says.
+1533 | And, of course, they are compensated for 【it】 at a level that makes 【it】 worth their    ?P:make it
+1689 | Some of them find 【it】 awkward when hugging children.
+1468 | blood sugar cause the release of insulin to bring 【it】 back down to a stable level.
+1584 | Why can 【it】 be difficult for us to maintain self-control?
+1465 | on sticking to those small positive habits one day at a time, 【it】 becomes easier to stay strong and achieve that delayed reward.
+1541 | 【It】 benefits employers at the expense of employees.
+1582 | 【It】 benefits few students playing outside.
+1616 | 【It】 boasted the largest number of engineering majors in 2000.
+1422 | 【It】 boasts of the world’s largest fishing stocks.
+1624 | 【It】 breeds long-term passion and enthusiasm.
+1490 | The exercise is simple but important, since 【it】 brings these costs out of the realm of speculation into the realm of meaningful discussion.
+1672 | Even so, 【it】 can be difficult for those who do not study music theory to see this as an indicator, since 【it】 is
+1692 | 【It】 can be difficult for many classical music fans to appreciate.
+1386 | discipline and motivation to create positive habits, 【it】 can be difficult to achieve success.
+1509 | 【It】 can be difficult to know the real situation in a company until you become part of 【it】.
+1446 | Because there is a delayed satisfaction associated with self-control, 【it】 can be easy to get off track.
+1577 | 【It】 can be harder for students to create study groups and form relationships with their peers.
+1698 | 【It】 can be seen as an indicator of refinement on classical music.
+1410 | 【It】 can be used to locate the right spot for pandas.
+1400 | 【It】 can cause mistrust among people.
+1444 | 【It】 can do more harm to the workplace than to employees.
+1532 | 【It】 can duly contribute to companies’ business performance.
+1566 | 【It】 can enhance large multinational companies’ competitiveness.
+1439 | 【It】 can give rise to gender bias.
+1515 | 【It】 can help companies increase their savings significantly.
+1554 | I) Another reason for fruit juice’s recent popularity is the argument that 【it】 can help to remove poisonous or harmful substances
+1411 | claims that 【it】 can help you both lose weight and stay healthy.
+1461 | Not only does this tendency hinder their growth and performance, 【it】 can lead to harmful relationships, both personally and professionally.
+1379 | 【It】 can lead to incorrect judgments.
+1651 | 【It】 can reduce companies’ real estate costs.
+1498 | 【It】 can result in increasing labor-management conflicts.
+1420 | 【It】 can result in instant losses.
+1316 | Prior research on negative reciprocity among workers found that 【it】 can result in lower employee motivation, business performance and workplace morale (士气) and culture.
+1383 | Decades of research shows that 【it】 can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.
+1549 | 【It】 can translate women’s booking practice into men’s behavior.
+1594 | 【It】 cannot cater to personal needs.
+1716 | 【It】 cannot outcompete classical music and opera in its impact on our current society.
+1578 | 【It】 cannot track students’ growth.
+1398 | Or is 【it】 casual, conversational, and maybe even a little humorous?
+1703 | 【It】 caters to society’s taste in music in a more subtle way than classical music.
+1415 | 【It】 causes confusion among consumers.
+1421 | “Sometimes you can be so good at something that 【it】 causes trouble,” she notes.
+1683 | 【It】 clearly aims to form children’s identity through play.
+1588 | 【It】 cleverly exploits teenagers’ personal weaknesses.
+1321 | accessible fruit and vegetable gardens connect what we eat to where 【it】 comes from—the means of production, if you will.
+1308 | When 【it】 comes to looking for a new job, you already know that a big part of the interview process involves the company evaluating whether or not you’re a good fit for their open role.    ?P:when it comes to
+1707 | J) “The rabbit effect,” she explains, means that “when 【it】 comes to our health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.    ?P:when it comes to
+1725 | Teachers must stay on guard when 【it】 comes to what their students are doing in classrooms and how technology could be playing a negative role in the learning process.    ?P:when it comes to
+1392 | 【It】 confines us to a 24-hour day-night cycle.
+1708 | 【It】 contains elements similar to those in some masterpieces of classical music.
+1628 | Fruit juice is different from whole fruit in that 【it】 contains much less fibre.
+1517 | Apply 【it】 continuously.
+1503 | E) Aside from the link to type 2 diabetes, many studies agree that fruit juice is harmful if 【it】 contributes to an excess in calories.
+1548 | 【It】 contributes to students' healthy growth.
+1333 | 【It】 contributes to the formation of personal traits.
+1463 | 【It】 contributes to the male-female divide in the workplace.
+1370 | 【It】 cooperates closely with local producers.
+1381 | That grain—and the water needed to grow 【it】—could be consumed by people instead.
+1713 | 【It】 could not have come into being without classical music and opera as its foundation.
+1318 | 【It】 defines adulthood.
+1673 | 【It】 determines the formation of connections in the brain.
+1399 | 【It】 differs from employee to employee.
+1496 | What may happen to smart people who find 【it】 difficult to accept suggestions?
+1401 | above the kitchen sink and calling 【it】 dinner.
+1575 | 【It】 discourages team spirit.
+1565 | 【It】 does little good to most students.
+1332 | 【It】 does much harm to employee loyalty.
+1640 | 【It】 does not appeal to him.
+1650 | 【It】 does not match his abilities.
+1720 | 【It】 does people more good than harm.
+1281 | something, tearing 【it】 down, then building 【it】 up again.
+1724 | The way that cheating looks has changed over time, though, particularly now that technology has made 【it】 easier than ever.    ?P:make it
+1609 | More students may find 【it】 easy to be absent from them.
+1572 | 【It】 emphasizes people’s sense of social responsibility.
+1514 | 【It】 enables students to learn about the outside world.
+1529 | 【It】 ensures a balanced healthy diet for people the world over.
+1669 | 【It】 exposes children to different ways of interaction.
+1429 | With those born with natural talents, 【it】 feels as if they excel without really trying.
+1637 | 【It】 focuses our attention on what we do.
+1393 | Eventually, he realised he could transfer his skills to real-life business — instead of doing 【it】 for free.
+1431 | They give little thought to the time of taking 【it】 for maximum effect.
+1668 | Given curiosity’s complexity, scientists have found 【it】 hard to define.
+1695 | They find 【it】 hard to meet the expectations of kids’ parents.
+1450 | More and more people in the workplace find 【it】 hard to rely on traditional pensions.
+1348 | 【It】 has a considerable impact on our health.
+1414 | 【It】 has become a crucial part of
+1518 | 【It】 has been popularized worldwide with the increasing influence of social media.
+1292 | 【It】 has been under constant debate.
+1538 | 【It】 has contributed little to the campaigns against obesity.
+1655 | 【It】 has done a good job in combating natural disasters.
+1635 | 【It】 has ensured a sufficient food supply to millions.
+1601 | 【It】 has experienced the gradual weakening of male dominance.
+1390 | 【It】 has implications for future panda research.
+1555 | 【It】 has largely failed to turn teens away from junk food.
+1501 | 【It】 has long been used to increase food supply and improve urban landscape.
+1438 | 【It】 has much to do with whom employees interact with.
+1474 | 【It】 has much to do with one’s genes.
+1521 | 【It】 has placed much more emphasis on cure than on prevention.
+1426 | But since the early 1970s 【it】 has risen
+1569 | 【It】 has seen a change in attitude towards women engineers since 1979.
+1504 | 【It】 has shed light on teens’ instinct for rebellion and autonomy.
+1330 | “But unless we accept that obesity is a disease, we are not going to be able to tackle 【it】,” he concludes.
+1667 | 【IT】 helps boost productivity.
+1674 | 【IT】 helps improve quality control.
+1542 | 【It】 helps little to solve patients’ problems.
+1661 | 【It】 helps raise children’s awareness of gender roles.
+1610 | 【It】 helps us avoid making mistakes.
+1430 | All of which, of course, has made 【it】 highly profitable.    ?P:make it
+1412 | 【It】 holds the key to all human body functions.
+1728 | Why is 【it】 important for firms to provide timely feedback during the pandemic?
+1687 | Most employees rely heavily on 【IT】 in their work.    ?X
+1688 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but what we forget about are the tens of thousands of people that tried and failed to make 【it】 in those challenging landscapes.    ?P:make it
+1309 | 【It】 influences employees’ work negatively.
+1573 | Therefore, businesses need to set up their 【IT】 infrastructure so that 【it】 is designed to fit in with their    ?X
+1699 | What should business leaders do before implementing new 【IT】 initiatives?    ?X
+1471 | This occurs when business leaders implement 【IT】 initiatives with    ?X
+1591 | 【It】 invades employees’ privacy.
+1319 | 【It】 is a behavior we are born with more than one we learn.
+1711 | 【It】 is a collection of facts and established rules.
+1340 | 【It】 is a desirable ability that can be developed.
+1701 | 【It】 is a dynamic and self-improving process.
+1617 | 【It】 is a guarantee for real success in life.
+1314 | 【It】 is a lesson they have to learn.
+1310 | 【It】 is a mental process influenced by many factors.
+1455 | 【It】 is a modern disease.
+1478 | 【It】 is a must for feeding the world’s fast-growing population.
+1570 | 【It】 is a new concept much too overrated.
+1563 | 【It】 is a response to solving the problem of food instability.
+1658 | 【It】 is a sign of dreaming in adults and infants alike.
+1296 | 【It】 is a strong
+1705 | 【It】 is a unique trait specific to the human race.
+1691 | 【It】 is also by far the world’s most expensive place to get sick.
+1294 | 【It】 is an adaptable capability required of all workers.
+1312 | 【It】 is an essential aspect of life to cooperate with other people.
+1317 | 【It】 is an essential quality many employees lack.
+1287 | 【It】 is an objective evaluation of a person’s character.
+1482 | Rather, we can assume 【it】 is because they need the money.
+1634 | 【It】 is bound to help us achieve greater success.
+1648 | According to a research paper, drinking fruit juice is beneficial on condition that 【it】 is consumed in reasonable amounts.
+1407 | 【It】 is critical to create good habits and take the actions necessary to stick to those
+1717 | 【It】 is destined to transform human genes.
+1380 | Though 【it】 is difficult and embarrassing, students should make inquiries about what fees they have to pay and why.
+1436 | 【It】 is difficult to define.
+1425 | 【It】 is due to the fact that women care more about their company’s money.
+1306 | Stress is so normalized that 【it】 is easy for women to shrug off those symptoms as simply the consequences of stress.
+1537 | H) As 【it】 is easy to consume large amounts of fruit juice quite quickly, extra calories are taken in.
+1307 | Yet the widespread view is that obesity is self-induced and that 【it】 is entirely the individual’s responsibility to do something about 【it】.
+1620 | 【It】 is envied by many.
+1428 | 【It】 is especially appealing to the taste of teenagers.
+1289 | 【It】 is especially difficult for people to decline to do what their superiors ask them to do.
+1666 | 【It】 is essential to human beings’ language learning.
+1512 | 【It】 is essential to maintaining both mental and physical health.
+1543 | They are advertised as a way for adults to finish their education and students to learn the material at their own pace—【it】 is far more compatible for people with busy schedules.
+1408 | 【It】 is filled with all kinds of video game characters.
+1630 | 【It】 is financially rewarding.
+1593 | Not all students have access to these types of resources, whether 【it】 is for financial or other reasons, and some students can be put at a disadvantage.
+1693 | What is said to happen when 【IT】 is functioning properly?    ?X
+1457 | 【It】 is hard to measure when employees interact with outsiders.
+1367 | 【It】 is harmful to mankind to use human-made materials.
+1611 | 【It】 is hazardous to leave millions of people poor and vulnerable.
+1396 | 【It】 is important to talk through these issues before they come to a head.
+1375 | 【It】 is important to understand what causes your stress in the first place.
+1526 | 【It】 is impossible for a job applicant to have every expectation met.
+1579 | 【It】 is impracticable.
+1388 | 【It】 is increasingly detached from the natural world.
+1562 | 【It】 is incredible.
+1362 | 【It】 is largely attributed to women booking earlier than men.
+1384 | 【It】 is largely explained by women’s choosing cheaper flights.
+1727 | 【It】 is likely that the “first to arrive and last to leave” mentality is no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution to the organization.
+1550 | even if 【it】 is low-paid.
+1405 | 【It】 is mainly accounted for by male employees’ readiness to pay more.
+1625 | 【It】 is morally wrong to think helping the poor is not our business.
+1359 | No matter what name the bride adopts, 【it】 is most important that the newly-weds truly love each other.
+1580 | One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—【it】 is mostly about creating conditions under which prosperity and opportunity can thrive.
+1528 | 【It】 is motivating.
+1483 | Once a reward is achieved, 【it】 is much easier to continue sticking to your habits.
+1560 | 【It】 is nearly impossible for students to build a relationship with their professor.
+1357 | But 【it】 is necessary.
+1676 | 【It】 is negatively impacted by a lack of male teachers.
+1499 | They are doing work they care about and are interested in, and doing more of 【it】 is not
+1298 | 【It】 is not a moment too soon
+1284 | “Thus body weight is strongly influenced by biology—【it】 is not an individual’s fault if they develop obesity.
+1445 | as a whole, 【it】 is not at all the case for the median American worker.
+1454 | The emotional labor women do is noticed only when 【it】 is not done.
+1413 | restructured Zentech, once a taxation vehicle for his father’s business, and 【it】 is now in its fourth year helping international
+1397 | 【It】 is now too widespread to be neglected.
+1508 | 【It】 is of no use in understanding obesity.
+1710 | 【It】 is often the major cause for human failures.
+1641 | 【It】 is only a temporary measure.
+1433 | When 【IT】 is operating as 【it】 should, employee self-confidence swells.    ?X
+1545 | 【It】 is passive.
+1536 | She is saying 【it】 is possible that you
+1342 | 【it】 is possible to not only learn 【it】, but also strengthen 【it】 with constant exercise.    ?P:not only ... but also ?P:not only...but also
+1664 | 【It】 is preventing starvation occurring on a global scale.
+1484 | 【It】 is protected by US government regulations.
+1416 | 【It】 is reported that women consistently suffer more from severe stress than men.
+1645 | 【It】 is still far from its goal despite the progress made.
+1561 | 【It】 is still immature.
+1447 | 【It】 is still impacted by the hit songs of the 1950s.
+1470 | 【It】 is suggested that gaming skills be included in a resume if they enhance a job applicant’s appeal.
+1302 | drug can differ depending on the time 【it】 is taken, 【it】 logically follows that taking medicines at specific times could help increase
+1700 | 【It】 is the force that pushes human society forward.
+1546 | 【It】 is the safety net for those who fall off the edge of existence.
+1406 | productivity, which he thought would lead to a standard of living “between four and eight times as high as 【it】 is today.
+1694 | 【It】 is too complex for non-scientists to understand.
+1525 | 【It】 is too inclusive and thus lacks clarity.
+1696 | 【It】 is transmitted through textbooks.
+1322 | 【It】 is unrealistic to give all Australian youth a financial education.
+1344 | 【It】 is unwise to weaken the human connection to nature.
+1300 | 【It】 is urgent to provide an ideal habitat for them to thrive.
+1323 | 【It】 is very important to preserve their genetic diversity.
+1706 | 【It】 is what proves valid and true to life.
+1686 | they have had on our current society, 【it】 is without doubt that we can expect them to continue to remain important for centuries
+1513 | But 【it】 isn’t.
+1355 | 【It】 kills employees’ motivation for work.
+1606 | -l=-¼t (brew)¢ at Ii]½ *½¾11¿il O 【it】$ À11Á-l=-¢A..JGµ$>tk.µÂMt¢Ã11 o Ä o {t£lf--l=--*¾ j :#¾
+1544 | 【It】 lacks humanity.
+1598 | 【It】 leads students to neglect their studies.
+1638 | A lot of research comes to the same conclusion that fruit juice does harm to the human body when 【it】 leads to surplus
+1656 | 【It】 lets us reconsider the goals to achieve.
+1589 | employees' work, rather than adjust their work to fit in with the company's 【IT】 limitations.    ?X
+1385 | For a while, 【it】 looked like Keynes was right.
+1535 | Fifty years ago, 【it】 looked like that might change.
+1583 | can't please all people all of the time, wouldn't 【it】 make sense to stop trying?
+1404 | The U.S. has changed from a farming economy to a knowledge- and innovation-based economy, so 【it】 makes sense for the school year to change as well.
+1613 | 【It】 makes students addicted to computer games.
+1372 | applying for, or how 【it】 makes you more interesting as a potential employee,” Mr.
+1559 | 【It】 matters little to the debate over obesity.
+1592 | 【It】 may accelerate the spread of obesity.
+1510 | 【It】 may add to students’ financial burden.
+1660 | 【It】 may affect employees’ corporate loyalty.
+1576 | 【It】 may affect obese people’s quality of life.
+1477 | 【It】 may affect society’s traditional values.
+1608 | 【It】 may cause a shortage of doctors.
+1511 | 【It】 may change their children’s ethical values.
+1622 | 【It】 may do little good to patients.
+1516 | For them, 【it】 may even be a pleasure.
+1623 | For many scientists, public debate is a new frontier and 【it】 may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+1540 | 【It】 may force companies to reform their business practice.
+1476 | 【It】 may have potential disadvantages.
+1494 | 【It】 may hurt their relations with children.
+1458 | 【It】 may pose a threat to their children’s safety.
+1493 | 【It】 may render many teachers jobless.
+1527 | 【It】 may revolutionize classroom teaching.
+1557 | 【It】 may soon replace the traditional economic model.
+1337 | 【It】 means the end of their career.
+1632 | For the youngest learners, 【it】 means they are more likely to get exposed to different varieties of play and communication.
+1712 | Ultimately, what affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what 【it】 means to be human than with anything that happens in the doctor’s office.
+1726 | Remote work is about more than just working from home—【it】 means working differently.
+1497 | 【It】 meets students' need to study on their own.
+1653 | 【It】 might add to the difficulty of getting research funds.
+1629 | So, 【it】 might be fair to assume
+1643 | 【It】 might breed public distrust in modern medicine.
+1633 | 【It】 might hinder the progress in medical research.
+1303 | Alzheimer’s disease, but 【it】 might make the symptoms more ___34___ , decrease the cost of care and improve a patient’s
+1722 | 【It】 might not be able to rival classical music and opera in importance for centuries to come.
+1662 | 【It】 might prevent medical scientists reaching consensus.
+1612 | Refugees find 【it】 more difficult to get a job.
+1644 | Those between the ages of 18 and 34 prioritized 【it】 most, and that prioritization dropped off as respondents’ ages went up.
+1714 | 【It】 motivates people to seek information.
+1346 | 【It】 needs to be confirmed by more studies on pandas.
+1621 | 【It】 negatively impacts productivity.
+1564 | 【It】 offers free online data services for refugees around the world.
+1351 | industry pays for research, 【it】 often gets what 【it】 pays for.
+1596 | with heavy conditions attached, like loan repayment or food for resources, 【it】 often widens the gap between rich and poor and sustains the old world order.
+1534 | Practising 【it】 on a day-to-day basis.
+1293 | 【It】 only means that the gender gap disappears when we plug in the negative reciprocity variable.
+1553 | They feel 【it】 only too logical to succeed.
+1647 | 【It】 opens our eyes to new opportunities.
+1320 | People may cither be born with 【it】 or be able to cultivate 【it】.
+1313 | The bride should consider adopting her groom’s last name whether he feels strongly about 【it】 or not.
+1315 | 【It】 originated in the United States.
+1603 | 【It】 particularly comes with risks when we consume more than 150ml of free sugars per day, or when 【it】 puts us
+1374 | And what 【it】 pays for is often a pro-industry
+1324 | 【It】 pays special attention to the size and shape of its products.
+1615 | Meanwhile, 【it】 pays to examine studies funded by industry or special interest
+1394 | The experience of using 【IT】 penetrates almost the entire work field.    ?X
+1680 | 【It】 performs a different function in babies than in adults.
+1402 | 【It】 places increasing emphasis on fishing now.
+1285 | To put 【it】 plainly, we just weren’t on the same page.
+1586 | 【It】 plays a lesser role in one’s success.
+1539 | More importantly, 【IT】 practitioners need to understand what employees    ?X
+1619 | 【It】 promises immediate rather than future benefit
+1495 | 【It】 proves a reliable source of protein for humans and animals.
+1343 | 【It】 proves crucial in making others follow one's course of action.
+1602 | 【It】 proves necessary for big achievements.
+1338 | 【It】 proves revolutionary even today.
+1481 | 【It】 proves to be counterproductive in a number of ways.
+1547 | 【It】 provides refugees with a wide range of courses free of charge.
+1618 | 【It】 provides us with vitamins — but fruit juice is far from a quick fix.
+1441 | 【It】 raises more fish than caught from the wild.
+1434 | 【It】 rarely results in objective findings.
+1301 | 【It】 recycles waste food from the city.
+1366 | 【It】 refers to the natural and instinctive power of influencing one’s coworkers.
+1678 | Kelli’s letter, a literate update on both her personal and professional life, touched my heart, and especially so when saying that two decades later she still has the course text, “Solutions to Violence,” and that “【it】 remains one of my favorite possessions.
+1299 | 【It】 requires consistent education to be financially independent.
+1524 | 【It】 requires employees to adapt promptly.
+1371 | 【It】 requires us to follow a particular rhythm.
+1491 | 【It】 results from a lack of self-control.
+1295 | 【It】 results from education.
+1595 | 【It】 results in short-term excitement.
+1487 | 【It】 revealed a secret about the manipulative and
+1453 | 【It】 runs counter to the public interest.
+1492 | After all, 【it】’s a good thing to know before actually accepting an offer.
+1721 | M) 【It】’s a guess how many George Engels in their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation is blessed with.
+1349 | “【It】’s about how you either make 【it】 relevant to the job you are    ?P:make it
+1587 | “【It】’s also about reducing the amount of grain carbs
+1358 | This shift toward aquaculture isn’t just good for ensuring salmon (三文鱼) on your plate; 【it】’s also crucial to ensuring food security and sustainability.
+1685 | E) If Kelli stands out, 【it】’s because she is also a gifted writer.
+1599 | want someone to approve of us, 【it】’s being driven by that little kid part of us that is still terrified of abandonment.
+1715 | “Clinically,” she writes, “【it】’s common to see two patients with the same condition, such as recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+1283 | However, “there are many reasons to think that 【it】’s different in women,” Harvard Medical School reported.
+1479 | They set the bar too high, and when people take too long or don’t get things quite right, they assume 【it】’s due too lack of effort.
+1290 | 【It】’s easy to get overwhelmed just thinking about 【it】.
+1442 | 【It】’s even harder for smart people because they grow so used to being right all the time that 【it】 becomes a part of their identity,” Bradberry wrote.
+1382 | 【It】’s good to be smart.
+1423 | “【It】’s hard for anyone to graciously accept the fact that they’re wrong.
+1354 | 【It】’s hard to make any decisions when you don’t really know what you’re looking for.
+1652 | “【It】’s important for children to see other possibilities and other paths they can take.
+1377 | So before you can determine whether you and a specific company would be compatible together, 【it】’s important to have a solid handle on what exactly you want from your employer.
+1331 | But, 【it】’s important to keep in mind that the employer isn’t the only one who needs to identify a good match—you should be looking for that same exact thing.
+1467 | When we think about attaining success — whether 【it】’s landing that job or learning that new skill —
+1718 | 【It】’s like fixing up an airplane engine and ignoring that the pilot is on his third drink at the bar and a massive storm is overhead....
+1418 | So yes, you can definitely ask your interviewer about what 【it】’s like to work for that particular organization.
+1352 | But 【it】’s much easier said than done.
+1571 | K) Plus, she adds, 【it】’s not an ideal way to reach the advised ‘five a day’.
+1626 | Richard Kennedy says “【It】’s not that old dogs can't learn new tricks.
+1448 | have natural talent 【it】’s nothing without grit.
+1520 | G) So while we know that fruit juice can cause diabetes if 【it】’s part of a diet that has more calories overall, 【it】's less clear how
+1437 | Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what 【it】’s really like behind closed doors.
+1486 | pressure and diabetes, and 【it】’s recommended adults consume 30g per day.
+1649 | Since your baby doesn’t dream at this stage of brain development, 【it】’s safe to assume babies do not have nightmares,
+1456 | This is why 【it】’s so important to know which aspects of a company’s culture you value most.
+1675 | While pinning down a definition has proven tricky, the general consensus is 【it】’s some means of information gathering.
+1530 | But 【it】’s still early days and there are signs of hope.
+1567 | If 【it】’s true that you
+1682 | 【It】’s what motivates non-human animals, human infants and probably human adults to explore and seek out new things before growing less interested in them after continued exposure.
+1531 | 【It】 satisfies students' desire to stay longer at home.
+1665 | 【It】 seems that wearing formal office
+1631 | 【It】 should be avoided if possible.
+1409 | 【It】 should be integrated into high school education.
+1417 | 【It】 should be regarded as a genetic disease.
+1389 | 【It】 should be taught the same way as English is taught.
+1679 | So, 【it】 should come
+1345 | 【It】 should foresee students’ needs after graduation.
+1368 | 【It】 should provide students with some basic knowledge.
+1646 | What is one thing that helps maintain the health of our brain even as 【it】 shrinks2
+1395 | 【It】 simply focuses on nutrition and health.
+1334 | If 【it】 still doesn’t look right, negotiate 【it】.
+1365 | Willpower is just like a muscle, to keep 【it】 strong you need to constantly exercise 【it】.
+1460 | 【It】 supplies 60% of the world’s fish products.
+1597 | 【It】 supplies refugees with a great variety of job opportunities.
+1659 | What is the finding of a recent survey on employees who have a job reliant on 【IT】 support?    ?X
+1350 | According to a recent survey, employees who have a job reliant on 【IT】 support consider 【IT】 a major    ?X
+1522 | Adequate and timely 【IT】 support should also be available to enable users to cope with    ?X
+1709 | By adjusting their work to suit the 【IT】 system.    ?X
+1604 | 【It】 takes advantage of teenagers’ natural inclination.
+1282 | 【It】 takes great efforts for children to grasp the concept of number words.
+1449 | 【It】 takes our digestive
+1657 | 【It】 takes some time for fruit’s cells to be digested and for fructose to be absorbed.
+1505 | employees, and exert substantial effort in ensuring their 【IT】 team eliminates programming errors and    ?X
+1419 | 【It】 tends to vary with the platform used.
+1305 | concluded, as a Daily Mail story put 【it】, that "hot oatmeal ( Ø !: Ù) breakfast keeps you full for longer. "
+1329 | J) The good news is, women are more likely than men to take charge of their stress and manage 【it】, the American Psychological Association reports.
+1403 | They often fail to recognise when they need help, and when they do recognise 【it】, they tend to believe that no one else is capable of providing 【it】.
+1690 | Restrain 【it】 to a rational degree.
+1663 | And do 【it】 today, tomorrow is too late.
+1347 | 【It】 tries to escape the constraints of the current food system.
+1280 | 【It】 turns out that ASMR is pretty special.
+1500 | Keep 【it】 under control.
+1723 | 【It】 underlies all human behaviors.
+1607 | 【It】 undermines traditional values.
+1336 | 【It】 used to be considered socially unacceptable for a bride to retain her maiden name.
+1488 | Which is why managers should appreciate just how influential the 【IT】 user experience is to their    ?X
+1356 | 【It】 varies greatly among different social groups.
+1506 | 【It】 was a response to the changing job market.
+1489 | 【It】 was a way to advance in their career.
+1671 | 【It】 was a world apart from her undergraduate days at the University of California–Berkeley majoring in political science.
+1472 | 【It】 was considered a fashion at that time.
+1523 | 【It】 was difficult to keep a job for long.
+1335 | At around 20 kilograms per person global fish consumption is now more than twice what 【it】 was in the 1960s.
+1702 | 【It】 was kindness.
+1654 | So 【it】 was when a recent letter came from Kelli Harding, a student 21 years ago in my Peace Studies summer course in Washington.
+1464 | 5 times what 【it】 was when Keynes was writing.
+1697 | 【It】 wasn’t diet or genetics that made a difference in which rabbits got sick and which stayed healthy.
+1288 | 【It】 wasn’t until after I had accepted admission to an out-of-state school that I learned that I could not use my Ohio Medicaid on campus for anything other than emergency care.
+1363 | What does the author imply we should do if we have to focus on some task and do 【it】 well?
+1502 | Think about 【it】: what’s something you’ve always wanted to do, but gave up
+1291 | 【It】 will awaken them to reality.
+1507 | 【It】 will become the norm sooner or later.
+1376 | What’s more, making obesity a disease “may not benefit patients, but 【it】 will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+1590 | 【It】 will bring about radical economic and social changes.
+1574 | 【It】 will drive technological progress on a global scale.
+1443 | 【It】 will enable them to absorb what they have learned.
+1462 | 【It】 will familiarize them with the school environment.
+1558 | 【It】 will force cities to transform their infrastructure.
+1552 | A mechanical engineer said, “【It】 will give you the flexibility to do almost anything.
+1424 | 【It】 will help them get back to where their lessons started.
+1719 | 【It】 will not enjoy as much popularity as classical music and opera among music fans.
+1360 | 【It】 will result in a slow recovery.
+1480 | 【It】 will strengthen their relationship with teachers.
+1568 | Foreseeing the desired outcome 【it】 will yield.
+1551 | Associating 【it】 with improving health.
+1684 | Embrace 【it】 with open arms.
+1585 | 【It】 witnessed a significant increase in women engineers in the 1970s.
+1327 | Being an information technology, or 【IT】, worker is not a job I envy.    ?X
+1326 | The team has found that 【IT】 workers play    ?X
+1353 | If labelling obesity as a disease was harmless then 【it】 wouldn’t really matter.

@@ -1,0 +1,3346 @@
+[
+ {
+  "word": "if",
+  "def": "conj.如果; 是否; 即使.",
+  "senses": [
+   {
+    "pos": "conj.",
+    "zh": "如果，假如"
+   },
+   {
+    "pos": "conj.",
+    "zh": "是否（= whether）"
+   },
+   {
+    "pos": "conj.",
+    "zh": "虽然，即使（让步，如 a huge, if silent, risk）"
+   }
+  ],
+  "phrases_seen": [
+   "even if",
+   "as if",
+   "if not"
+  ],
+  "notes": [
+   "C 任务口径：even if（即使）、as if（好像）、if not（A, if not B：即使不是 B 也是 A）、what if（要是…怎么办）、only if 按 P。ask/know/see/check/wonder/be sure/unclear if 这类「是否」标 1（选项里 If their percentage keeps increasing 这种是问「是否」，也标 1）。if possible、if approved、if not claimed 等省略式仍标 0。OCR 乱码里冒出来的 if（如 ( 1if t k)）标 X。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "If that were the case, why",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 81,
+    "text": "W: Well, sounds like if you’re going to read anything for fun, this is the book.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 82,
+    "text": "If the central problem is that we think of our future selves",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 83,
+    "text": "M: If students do better, we’ll spend less on schooling.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 84,
+    "text": "If it is successful, it",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 85,
+    "text": "If your workplace isn’t an environment where work-life balance is possible in the first place, any effort",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 86,
+    "text": "M: Well, if people have smaller homes, they use less land and fewer resources to build them.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 87,
+    "text": "For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 88,
+    "text": "W: But what prevents you from just going to the bank and getting more money, if you want to buy something?",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 89,
+    "text": "We assume that if we knew",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 90,
+    "text": "We find that if pupils take part in Design Ventura in Year Nine it can be the trigger which leads",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 91,
+    "text": "Sciences, set out to understand if the associations between sugary soft drinks and health — including risk of diabetes and",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 92,
+    "text": "I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself in an apartment so far from home. [9] And then there’s the expense, too.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 93,
+    "text": "“If we can increase the throughput on major highways, even if it’s only by 50",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 94,
+    "text": "If data won’t change minds,",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 95,
+    "text": "Alzheimer’s haze and bring them back to (at least a likeness of) normality... if only for a short while.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 96,
+    "text": "If it was moving, watch where it went.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 97,
+    "text": "J) If they think we’re too old to learn new skills after we’re 45, just learning some new skills may have an effect on its own.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 98,
+    "text": "intelligence is fixed-that you are stuck being \"not smart\" if you struggle in school-showed higher",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 99,
+    "text": "W: Well, if you trust him, then, I guess it should be OK.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 100,
+    "text": "Indeed, work with some other species suggests they too can refine their quantitative thought if",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 101,
+    "text": "If anything is really wrong, you can just take photographs of the damage, and they will give you the money back or replace the item.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 102,
+    "text": "Wouldn't it be nice if",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 103,
+    "text": "Some career women who aim high tend to feel guilty if they fail to achieve their goals.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 104,
+    "text": "If you encourage them to tell you what they’ve learned, they’ll absorb the information more deeply and remember it more readily.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 105,
+    "text": "E) “If someone is making up some conversation that might be interesting, it’s probably not going to land well,” says Pirson, whose expertise includes trust and well-being, mindfulness, and humanistic management.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 106,
+    "text": "If teens are spending so much time using electronic devices, does that mean they have to give up some other activities?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 107,
+    "text": "If teeth didn’t feel pain, we might _30_ to use them in situations that damage them, and for humans, damaging _31_ teeth is a problem because, unlike crocodiles, we can’t _32_ them.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 108,
+    "text": "For example, if someone breaks the law, the golden rule would suggest that we should let them go, because we would not want to be punished ourselves.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 109,
+    "text": "Fraudsters target popular seaside destinations for British tourists visiting Spain where prices can soar if demand exceeds supply.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 110,
+    "text": "The costs of any damage to the dorm, including elevators, bathrooms, and common areas, are billed to every person on a dorm floor, or even the entire building if they do not know who caused the damage.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 111,
+    "text": "M: But you can get 25% off if you sign up in advance.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 112,
+    "text": "He writes, “Remind your superiors what you would be neglecting if you said ‘yes’ and force them to deal with the trade-off.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 113,
+    "text": "You take a taxi if you really have to.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 114,
+    "text": "But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 115,
+    "text": "For example, if your groom’s name is John Smith and your name is Kate Jones.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 116,
+    "text": "If we stop children using phones, we are rejecting something they care about.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 117,
+    "text": "Apparently, if you're more naturally driven to set goals, you are more likely to succeed.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 118,
+    "text": "For if you nap properly, it’s like waking up from a full night’s sleep and you can double your day’s worth of concentration.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 119,
+    "text": "So if you have a disagreement with a securely attached person, they’re not going to panic.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 120,
+    "text": "The challenges are enormous, even if everyone is pulling in the same direction.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 121,
+    "text": "In other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 122,
+    "text": "What if an accident happens or you get ill and need medical treatment?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 123,
+    "text": "What does the author imply we should do if we have to focus on some task and do it well?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 124,
+    "text": "However, the study showed participants’ mental health improved even if their reported diet did not change after completing the program.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 125,
+    "text": "If we’re lucky, the legal environment will change to make teenagers’ online lives less likely to haunt them later on.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 126,
+    "text": "If the very rich — the workers who have reaped above-average gains",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 127,
+    "text": "M: It does sound like it would suit my taste, but if they are making a TV series based on it now, I don’t know if I should read the book or watch the show first.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 128,
+    "text": "It's easier to change your habits to lose weight if",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 129,
+    "text": "After all, if you can jump out of a plane or off a bridge, then you can face anything else easily.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 130,
+    "text": "E) But some parents object to the new policy if the vigorous debate on the Facebook page of Anderson County school",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 131,
+    "text": "And if it seems like finding that perfect",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 132,
+    "text": "And the team also found that participants were willing to look at listings with lower salaries if they came from companies with a higher diversity score.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 133,
+    "text": "“If a product that is so nakedly unnecessary",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 134,
+    "text": "I don’t want our son to spend his afternoons doing something he hates, even if it might prepare him for the future.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 135,
+    "text": "something new can actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 136,
+    "text": "search of new mates if they find their habitat too comfortable, resulting in a lack of vital genetic diversity.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 137,
+    "text": "G) So while we know that fruit juice can cause diabetes if it’s part of a diet that has more calories overall, it's less clear how",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 138,
+    "text": "And if we move far enough from the city center, the rent is low enough for us to afford all of it.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 139,
+    "text": "If we redirect our attention toward cultivating inner qualities,",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 140,
+    "text": "But if you prefer Civilization, Total War, or X-Com, where strategy and resource management",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 141,
+    "text": "He says the car is the best thing that has ever happened to him, and [11] if she sells it, he will divorce her.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 142,
+    "text": "all benefit if more people are working and fewer are unemployed",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 143,
+    "text": "happen if schools helped to make beliefs about the potential for change and improvement a larger",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 144,
+    "text": "But if gravity is removed, the beans float around in a heated oven, received 360 degrees of evenly distributed heat and roast to near perfection.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 145,
+    "text": "If we are to truly understand",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 146,
+    "text": "If you aren’t driving your own car, then you are saving on fuel.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 147,
+    "text": "taxpayers are not getting the maximum bang for their buck if the close losers are performing just as",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 148,
+    "text": "Joyce suggests that apart from self-care, women should seek professional support if they experience severe stress.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 149,
+    "text": "Workers at Mexican oil company will receive a healthy incentive of almost $300 a year if they meet certain body weight standards.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 150,
+    "text": "K) “If the listener is not paying attention, it’s your sign to shorten the story or change direction.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 151,
+    "text": "If serious reading dies, a lot will go with it.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 152,
+    "text": "How to determine if a company is a good fit for you",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 153,
+    "text": "Doubts about the practicability of diversity have a greater weight if a person is directly affected.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 154,
+    "text": "E) With such a degree of professionalism, how can consumers find out if the website they’re looking to book with is trustworthy?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 155,
+    "text": "G) If you are a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such as the Supplemental Nutrition Assistance Program, or SNAP.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 156,
+    "text": "I want to see if I can get one of those rental bicycles and ride to the office just for fun.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 157,
+    "text": "For example, if your manager comes to you and asks you to do X, you can respond with ‘Yes, I’m happy to make this the priority.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 158,
+    "text": "M: (15-1) Not if you use a ride sharing app.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 159,
+    "text": "But Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary and available to all of us?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 160,
+    "text": "Obviously you will still be you even if you’ve taken on your husband’s last name and omitted yours entirely.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 161,
+    "text": "If I am caught with it in my pocket, I will be subject to disciplinary procedure, which will impact on my career.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 162,
+    "text": "This is problematic because it hinders your ability to adapt to new circumstances, which is vital if you want to be a successful entrepreneur.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 163,
+    "text": "M: I was wondering if you could get me some jeans while you’re there.",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 164,
+    "text": "“If predictions for the end of the century are true, though, I think a lot of agricultural areas in the US will see significant hits.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 165,
+    "text": "M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, they can go back to work.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 166,
+    "text": "But with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 167,
+    "text": "even if it is low-paid.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 168,
+    "text": "And then, you just end up ruining the book for yourself, if the show isn’t very good.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 169,
+    "text": "you have a health issue and you want to be around longer for your kids, or if your business is something you're passionate",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 170,
+    "text": "You’ll be pushed to your limits, and if you aren’t focused you’ll make dangerous mistakes.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 171,
+    "text": "“If we’re reflecting, maybe we should also reflect on that.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 172,
+    "text": "F) But even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 173,
+    "text": "When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above when visiting a friend who does.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 174,
+    "text": "valuable for you but if you want to be valuable to others, then you have to express your knowledge in some way.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 175,
+    "text": "With those born with natural talents, it feels as if they excel without really trying.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 176,
+    "text": "It has no batteries, if that’s what you mean.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 177,
+    "text": "But if they don’t it is their",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 178,
+    "text": "But if someone can explain how they’ve",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 179,
+    "text": "W: If you have time right now, I think we need to sit down and discuss what exactly we are going to do for Jake’s education next year.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 180,
+    "text": "At the time, Humm acknowledged the move was risky, admitting that “it wasn’t clear if guests would come”, but called",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 181,
+    "text": "If play and building are critical to 21st-century skill development, that's really good news for two",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 182,
+    "text": "If you weren't changing companies every",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 183,
+    "text": "If your definition of boredom is being quiet, mindful, and reflective, keep it up.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 184,
+    "text": "As many office workers adapt to remote work, cities may undergo fundamental change if offices remain under-utilized.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 185,
+    "text": "For those who are overweight or obese, they could receive the bonus if they reduce their weight by 10% during the year.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 186,
+    "text": "If you are a very reserved person, this could be a little difficult at first.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 187,
+    "text": "The author claims that it will be a great loss if we no longer read books and longer articles.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 188,
+    "text": "If those are the only things you can think of, don’t worry!",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 189,
+    "text": "It can prove a challenge to Western businesses if your business partner wants to renegotiate terms that you thought were already agreed on.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 190,
+    "text": "“They should be Googling the property, and looking on websites like Google Maps and StreetView to see if it’s there.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 191,
+    "text": "Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do not include extra fees for lab tests or prescription medications (药物).",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 192,
+    "text": "Thus, they wanted to determine if there was a link between protection of women’s rights and public health.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 193,
+    "text": "As investor Pedro Sorrentino put it, “If you don’t guard your time, people will steal it from you.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 194,
+    "text": "If you are thinking to try colour on some of your neutral walls, the advice is refreshingly simple: Choose a colour you actually like.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 195,
+    "text": "People may be simply considered evil if their behaviors are morally unacceptable to us.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 196,
+    "text": "H) If you care about outside opinions on your name, you should know that a large portion of today’s society is annoyed by the hyphenated name.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 197,
+    "text": "The next day, Kate asked if she could check the shipping status, so her mom clicked on the web page and then walked out of the room.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 198,
+    "text": "If a new competitor emerges to threaten your business, you may need to change direction, even if that means straying from your original vision.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 199,
+    "text": "“High quality chocolate will be less available in the future, and if you want it, you’ll have to pay a lot more for it,” Jarvis says.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 200,
+    "text": "M: True, but if you keep current with your skills, you will be attracted to employers.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 201,
+    "text": "What should people do in a decision-making process if instincts disagree with data?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 202,
+    "text": "If it’s true that you",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 203,
+    "text": "However, if you work",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 204,
+    "text": "[25] But if you’re in a place where you have a basis of trust, conflict can be extremely productive.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 205,
+    "text": "You may not actually experience emotional wellbeing at home if you remain occupied with what happened at work.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 206,
+    "text": "the biggest bottled water manufacturers, cites a survey in which people were asked what they would do if bottled water were",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 207,
+    "text": "Or, if the message is presented while the vehicle is in motion,",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 208,
+    "text": "We’ve been told all our lives that if you work hard, you too can succeed.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 209,
+    "text": "We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 210,
+    "text": "If you tried a",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 211,
+    "text": "“If they say they want leadership — why can’t I point to my years of leading World of Warcraft raids?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 212,
+    "text": "Not to mention the overwhelming amount of homework they assign, which would lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 213,
+    "text": "“If we can show the possibilities of eating plant-based food in this setting, it can open a lot of doors” for others to follow.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 214,
+    "text": "But if there's one thing that triggers widespread employee frustration, it's an IT",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 215,
+    "text": "But back then, if you were a",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 216,
+    "text": "But if you're",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 217,
+    "text": "Who will benefit if working from home becomes the norm?",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 218,
+    "text": "“Thus body weight is strongly influenced by biology—it is not an individual’s fault if they develop obesity.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 219,
+    "text": "Therefore, if you are someone who loves to show physical affection, you should not be afraid to show it or drastically change your behaviors—just ask for consent beforehand!",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 220,
+    "text": "Send a quick message to a current or previous company employee on LinkedIn or by email and ask if they would be willing to have a quick conversation with you about the organization in general.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 221,
+    "text": "(25-2) For example, a Japanese firm may have signed a contract, but they may not feel bound by every detail of it—particularly if circumstances later change.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 222,
+    "text": "If you believe you have fallen victim to fraud or cyber-crime, please report it to Action Fraud,” it adds.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 223,
+    "text": "H) If you plan on paying off bills in your student account with a credit card, be aware of any additional costs.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 224,
+    "text": "This confirms that even with a lack of resources, if a country has strong women’s rights, the health outcomes are better.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 225,
+    "text": "And if that is the case, elimination is a more useful skill than optimization.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 226,
+    "text": "If you’re weary of full colour, test your tolerance with smaller spaces, such as the inside of a cupboard or a bright window frame.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 227,
+    "text": "If you have too much ambition, you'll find this hard, if not impossible.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 228,
+    "text": "People wonder if certain crops and foodstuffs could disappear like some animal species due to climate change.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 229,
+    "text": "Nobody can really be sure if risks will be met with success, no matter how calculated they may be.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 230,
+    "text": "We learn about who we are and what is expected of us based on interactions with others so, to a four-year-old, if Mommy or",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 231,
+    "text": "accessible fruit and vegetable gardens connect what we eat to where it comes from—the means of production, if you will.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 232,
+    "text": "I) What if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 233,
+    "text": "Given these limitations and concerns, even if this mode of obtaining consent is to move",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 234,
+    "text": "overrated, and if you want real success, what you need is grit the perfect combination of passion and persistence.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 235,
+    "text": "But if that resolution was to volunteer more, now is the best time to start.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 236,
+    "text": "If meatless meat can help you stick to a plant-based diet, that in itself can lead to better health.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 237,
+    "text": "Matthew Ricci told gaming site Kotaku: “If you're playing EVE Online you basically already have an MBA.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 238,
+    "text": "“Life would be impossible if we remembered everything,” she said.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 239,
+    "text": "lm#i 2021 !if:: 6 A",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 240,
+    "text": "If asked, most people will be able to give a vague",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 241,
+    "text": "If working from home becomes permanent, employees will have to dedicate part of their private space to work.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 242,
+    "text": "If labelling obesity as a disease was harmless then it wouldn’t really matter.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 243,
+    "text": "If you get a yes to your request for a chat, you’ll be armed with some pretty powerful and helpful information heading into your interview!",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 244,
+    "text": "If only I’d Googled before but I never thought of it.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 245,
+    "text": "We did not know to ask—and the school did not readily point out—that even if tuition rises, my financial aid package will stay the same.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 246,
+    "text": "But if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 247,
+    "text": "What do we need to do if we keep consuming fish at the current rate?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 248,
+    "text": "If it gives you joy every time you open the cupboard, you can start to take it further.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 249,
+    "text": "This implies that even though ambitious people are more likely to achieve conventional \"success,\" such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 250,
+    "text": "That’s why we feel like we have to appear busy, and there’s a real perception that if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 251,
+    "text": "But this should not stop you from taking risks, as risks are necessary if you want your business to succeed.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 252,
+    "text": "If we base our worth on the opinions of others, we cheat ourselves of the power to shape our experiences and embrace",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 253,
+    "text": "J) Even if bottled water sales are growing slightly more slowly, the industry is racing to adapt to changing concerns and tastes.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 254,
+    "text": "If so, you are",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 255,
+    "text": "Even if you",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 256,
+    "text": "Why such a disconnect? [20] Most people cite time and conflicting work schedules as major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 257,
+    "text": "If you want to build a new spaceship, the raw material has to be mined by another player.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 258,
+    "text": "What did the government say would be done if security officers found what they were searching for?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 259,
+    "text": "If this works, it won't matter if they can't remember what they ate yesterday.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 260,
+    "text": "If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 261,
+    "text": "You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you just stare across the table blankly with your mouth hanging open?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 262,
+    "text": "If something does not look right, ask about it.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 263,
+    "text": "So if you have a left-handed child, you should encourage them to play table tennis, baseball and tennis.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 264,
+    "text": "We don’t know if you’ll achieve what these risk-takers have achieved.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 265,
+    "text": "We can never really please other people even if we try as hard as we can.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 266,
+    "text": "And if you must fill",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 267,
+    "text": "For example, if you’re a dedicated athlete you might need to consume higher quantities of protein.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 268,
+    "text": "If you want that new job, you have to learn the",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 269,
+    "text": "It is suggested that gaming skills be included in a resume if they enhance a job applicant’s appeal.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 270,
+    "text": "What does Hannah’s husband say he’ll do if she sells the new car?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 271,
+    "text": "\"1f ? %,&\"€r9:#ë ,,f}:.1f ? \b* *--it a9 >t.bfe.,,fJ;.ifg:5'r,ikJlJ a9 A..:if?..:M!*-:M! j O 1£-J!=-&:ii 1*'\"+ .:r.tJ 1t' -:it--Ytì",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 272,
+    "text": "It should be avoided if possible.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 273,
+    "text": "What problem may arise if classes go online?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 274,
+    "text": "If it still doesn’t look right, negotiate it.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 275,
+    "text": "We can never be truly free if taking to heart others’ opinion of us.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 276,
+    "text": "If you are not aware as to why",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 277,
+    "text": "Even if you haven’t mastered a skill, grit tells you that you can still succeed if you can transform your passion into action.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 278,
+    "text": "They convey the idea that their products are ok if consumers exercise more.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 279,
+    "text": "If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 280,
+    "text": "Students may no longer be qualified for financial aid if they perform poorly in school or if their family income has increased.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 281,
+    "text": "What will happen if we base our self-worth on other people’s approval?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 282,
+    "text": "What would happen if the cacao farms were shifted to cooler mountainous areas?",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 283,
+    "text": "If at first you fail, then try one more time with grit.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 284,
+    "text": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 285,
+    "text": "If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts in a textbook needs to be dismissed.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 286,
+    "text": "“So really, regardless of what you’re eating, if someone’s walking four miles more than you each day, they’re going to be a lot thinner and live a lot longer than you.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 287,
+    "text": "To see if children start dreaming at age two.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   }
+  ]
+ },
+ {
+  "word": "all",
+  "def": "adj.所有的; 全部的. pron.一切; 全部. adv.完全地.",
+  "senses": [
+   {
+    "pos": "det.",
+    "zh": "所有的，全部的（后接名词）"
+   },
+   {
+    "pos": "pron.",
+    "zh": "全部，一切，大家；（放在主语后）都"
+   },
+   {
+    "pos": "adv.",
+    "zh": "完全，十分（加强语气，如 all by oneself、all done）"
+   }
+  ],
+  "phrases_seen": [
+   "all over",
+   "all right",
+   "at all",
+   "all of a sudden",
+   "after all",
+   "all the time",
+   "in all",
+   "for all time",
+   "all sorts of"
+  ],
+  "notes": [
+   "C 任务口径：all right（好的；不错）、after all、at all（根本，完全；含 not at all）、all of a sudden、in all（总共）、all over（遍及，如 all over the world）、all the time（一直）、all sorts of（各种各样的）、for all time（永远）、above all、all in all、all the same 按 P。all (the/his) + 名词、all this/those 标 0；all of、we/they/it all、do it all、All you need to do is... 这类代词用法标 1；修饰形容词/副词/介词短语加强语气（all by yourself、all done、all around、is all to do with）标 2。会议名 All Energy Conference 标 X。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "as a whole, it is not at all the case for the median American worker.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 81,
+    "text": "Remember that you will have to have all your certificates to hand when you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 82,
+    "text": "Give way to automobiles at all times.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 83,
+    "text": "A lot of people think I’m trying to punish students who aren’t doing well, [14] when actually my goal is to give all students more incentive to succeed.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 84,
+    "text": "and personality, which, he assumes, influenced all innovations in fashion in the past and which continue to influence us today.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 85,
+    "text": "employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 86,
+    "text": "Supervise all schools consistently.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 87,
+    "text": "M: I tried that strategy, but it just didn’t work, because I’d be busy studying all day.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 88,
+    "text": "It all comes down to the difference between learning and practicing.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 89,
+    "text": "elastic -band-powered mechanism, minimal parts, all 100 percent recycled and lots of stickers.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 90,
+    "text": "All of which, of course, has made it highly profitable.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 91,
+    "text": "And if we move far enough from the city center, the rent is low enough for us to afford all of it.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 92,
+    "text": "But phantom traffic jams can make all those",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 93,
+    "text": "But research shows that, when it comes to actually making a ___27___ from all of these choices, people can become",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 94,
+    "text": "What does he do to strengthen his muscles and all that?",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 95,
+    "text": "A higher grade average among all students of a class.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 96,
+    "text": "M: Wow! [10] Are they all happy?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 97,
+    "text": "They rate the post-45 job seekers lower on average on all three measures — even experience —",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 98,
+    "text": "F) Given all that's riding on having a successful ninth grade experience, it pays to explore what can be",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 99,
+    "text": "Hungry customers can pay whatever amount they can afford to eat at the café, or nothing at all.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 100,
+    "text": "After all, without counting, how can someone tell whether there are, say, seven or eight",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 101,
+    "text": "But I can’t quite remember what it was all about.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 102,
+    "text": "It underlies all human behaviors.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 103,
+    "text": "M: Well, we can’t paint the walls without clearing all the furniture first.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 104,
+    "text": "After all, it’s literally my job to talk to people and tell their stories or share their advice.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 105,
+    "text": "E) First of all, know what you want.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 106,
+    "text": "Being a parent _33_ very high across the priorities of all study participants.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 107,
+    "text": "And what about all those trees that are cut down to make printed books?",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 108,
+    "text": "It has beautiful weather all year round.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 109,
+    "text": "The mother who is in stable condition could return home a day later if all physical tests came back normal.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 110,
+    "text": "Designing all window frames the same way.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 111,
+    "text": "W: (13-2) I’ve got a driver’s license, but that’s all.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 112,
+    "text": "But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and they are all marvelously different.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 113,
+    "text": "Almost all of them were operating at a deficit.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 114,
+    "text": "So practically all of those factories had to close down.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 115,
+    "text": "Don't machines do all that?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 116,
+    "text": "And all the artificial blue light from electronic devices means we have to try harder to sleep well.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 117,
+    "text": "The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 118,
+    "text": "This is an opportunity that surely all can agree must not be wasted.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 119,
+    "text": "So why are we so proud to talk about how busy we are all the time?",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 120,
+    "text": "Another mentioned that it was actually the natives who brought food and drinks then left trash all along the island.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 121,
+    "text": "Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, but we don’t expect the men to take over for the women at home.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 122,
+    "text": "There’s also a great night market further into town that has all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 123,
+    "text": "G) But surely all this short-form writing is affecting literacy?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 124,
+    "text": "After all, the economy as a whole has grown",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 125,
+    "text": "W: I should be fine with doing it on your website, and I already have all my certificates, as we run a small farm shop too.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 126,
+    "text": "To motivate all students to be successful.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 127,
+    "text": "So you being busy doesn’t make me sympathetic at all.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 128,
+    "text": "meaning can and does change all the time.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 129,
+    "text": "The other respondents, meanwhile, all worked long hours because they",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 130,
+    "text": "We have all seen the damage plastic waste is doing around the world, but sales of bottled water have continued to grow.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 131,
+    "text": "From all the running and training, he could become quite athletic.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 132,
+    "text": "K) What does this all mean?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 133,
+    "text": "“Teachers like it because the skills are all transferable and it helps to",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 134,
+    "text": "Most foods containing fructose—a naturally occurring sugar found in all fruits",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 135,
+    "text": "After all, I did that during high school and my commute was even longer then.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 136,
+    "text": "These new generations of alternate meat get all the attention, but don’t forget about whole grains and vegetables.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 137,
+    "text": "L) Psychology beats all!",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 138,
+    "text": "Not all zoos and animal parks have the most favorable conditions, but [11] without them, it just wouldn’t be feasible to learn about animals and their environments.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 139,
+    "text": "W: They do have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting him to try.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 140,
+    "text": "L) We can rail against “ageism” all we like.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 141,
+    "text": "The effect would be to roast the beans all over, and produce perfect coffee.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 142,
+    "text": "would all struggle with even basic quantitative distinctions.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 143,
+    "text": "M: You think Jimmy’s just making it all up?",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 144,
+    "text": "They prefer to go after all that is novel.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 145,
+    "text": "“Often, the ‘boring things’ may not be boring at all.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 146,
+    "text": "There’s no wrong answer here—so from big things to small details, write them all down on your list.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 147,
+    "text": "were that all the rabbits would have similar cloggings of their arteries (动脉堵塞).",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 148,
+    "text": "The introduction of telephones, automobiles and radio all led to moral panic among adults of the time, because the technology allowed children to enjoy more freedom.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 149,
+    "text": "She is entitled to a discount on all the gym exercises.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 150,
+    "text": "Just remember to keep all your receipts.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 151,
+    "text": "Hang landscape paintings all around.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 152,
+    "text": "Not all books are created equal, so parents need to choose the books they share with their children with great care.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 153,
+    "text": "This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 154,
+    "text": "They have all been turned into movie theatres.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 155,
+    "text": "The fact that we have been open and in business for all these years proves that.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 156,
+    "text": "after all, one of the most useful cash crops across the globe.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 157,
+    "text": "Here, at this point in the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 158,
+    "text": "\"When I think of motorsports in the U.S., what we all",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 159,
+    "text": "In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 160,
+    "text": "M: No, not at all.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 161,
+    "text": "After all, competitive rivalry can also hinder effective decision-making and increase your willingness to take risks, behaviors that can ultimately hurt your venture’s success.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 162,
+    "text": "M: That all sounds marvelous.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 163,
+    "text": "Today, three decades after his retirement, he is still one of the best-known and most beloved racehorses of all time.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 164,
+    "text": "can't please all people all of the time, wouldn't it make sense to stop trying?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 165,
+    "text": "By all means, set ambitious long-term goals for your future self, but when it comes to actually following",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 166,
+    "text": "After all, if you can jump out of a plane or off a bridge, then you can face anything else easily.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 167,
+    "text": "All of this was done in the name of increasing job satisfaction and giving workers greater flexibility,",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 168,
+    "text": "For all the innovation and choice that define the food and drink industries, if you want to make money, you could do a lot",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 169,
+    "text": "W: [12] Um, I don’t think he should be doing something so challenging with all his breathing issues.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 170,
+    "text": "All of this considered, the road forward for self-driving cars is not going to be a smooth",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 171,
+    "text": "“Now that design education is limited in the curriculum, I’m all in favour of competitions",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 172,
+    "text": "So while fruit juice is better than no fruit at all, there",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 173,
+    "text": "But I’m not sure why you want to leave campus and go through all that trouble when the cost is the same.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 174,
+    "text": "It provides all the nutrients for staying healthy.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 175,
+    "text": "O) Crises, after all, have a way of opening people’s eyes to possibilities.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 176,
+    "text": "From our experience so far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It is a win for all concerned.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 177,
+    "text": "M: Yeah, the classrooms would probably smell like paint, making the air in the school all stuffy.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 178,
+    "text": "Any and all “training,” including inexpensive and informal",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 179,
+    "text": "The exhausted and hungry racers are greeted with delightful pies of all kinds, such as apple, orange, lemon or banana.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 180,
+    "text": "has helped yield numbers in most cultures, but not all.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 181,
+    "text": "Otherwise, we’ll be here all day.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 182,
+    "text": "The report suggests paying all early childhood educators the way elementary school teachers are paid.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 183,
+    "text": "My boss would genuinely listen to and value all of my ideas and suggestions.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 184,
+    "text": "In many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 185,
+    "text": "It’s easy to spend all day searching for inspiration.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 186,
+    "text": "Keep all his receipts.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 187,
+    "text": "Match the room’s ceiling with all the furniture in colour.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 188,
+    "text": "But Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary and available to all of us?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 189,
+    "text": "Nearly all of them closed down decades ago.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 190,
+    "text": "Furthermore, I might add, (15) all movies come with English text at the bottom of the screen.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 191,
+    "text": "Our phones are always near us and they are collecting data about us all the time.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 192,
+    "text": "Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 193,
+    "text": "One is too busy to check all emails in time.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 194,
+    "text": "Failure will teach you how to think and plan strategically. [24] But just remember that not all risks are good ones, and when you fail, learn from it and move forward.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 195,
+    "text": "The business perspective offers a different view: multitasking is understood as the ability to adapt to all types of environment within a company and effectively undertake different activities within a set time frame.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 196,
+    "text": "W: [12] Now, all I need is to photocopy your passports and then I can get you all checked in and show you to your rooms.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 197,
+    "text": "Red Rum traveled all over the country for various engagements.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 198,
+    "text": "In a perfect world, money wouldn’t matter — all scientific studies would be completely objective.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 199,
+    "text": "We all bring different life and work experiences to the table.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 200,
+    "text": "likely all play important roles in how we balance our professional and personal lives.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 201,
+    "text": "“Public awareness has never been higher, but the message is not quite reaching all the people it needs to.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 202,
+    "text": "When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above when visiting a friend who does.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 203,
+    "text": "ride after all.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 204,
+    "text": "We’ve been told all our lives that if you work hard, you too can succeed.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 205,
+    "text": "We all take a little extra effort to look nice for special occasions.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 206,
+    "text": "Right over here, we have dozens of puzzles for children of all ages.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 207,
+    "text": "All living organisms on Earth are exposed to a 24-hour day-night cycle.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 208,
+    "text": "Nearly all British schools have uniforms.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 209,
+    "text": "all benefit if more people are working and fewer are unemployed",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 210,
+    "text": "They reside in our minds, numerical artifacts (A..I.!Ö ×) that not all humans inherit",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 211,
+    "text": "Still not all behavior experts agree.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 212,
+    "text": "My co-workers would all be friendly with one another, without ever falling into the office gossip trap.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 213,
+    "text": "Fees for lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 214,
+    "text": "Across all three, parenthood was 27 with more positive wellbeing outcomes for dads than for mums.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 215,
+    "text": "We are all capable of behaving like outliers.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 216,
+    "text": "They took all of them to the children’s hospital.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 217,
+    "text": "So the next week, (21) Kate’s family loaded up their car and took all the dolls to the playroom at the children’s hospital.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 218,
+    "text": "What's more, homes built in the 2000s were more likely than earlier models to have more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 219,
+    "text": "This isn’t to say that all men engage in these behaviors—or that booking relatively late is a sign of abnormal behavior.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 220,
+    "text": "It is an adaptable capability required of all workers.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 221,
+    "text": "As we all know, cultural or individual differences in personal bubble diameters are all too often the cause of discomfort.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 222,
+    "text": "He spent almost all his time traveling.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 223,
+    "text": "So what should we make of all this?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 224,
+    "text": "We all have different personality preferences and tendencies.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 225,
+    "text": "than all life on Earth.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 226,
+    "text": "single-use plastics of all types are polluting our cities and seas.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 227,
+    "text": "But contrary to all the publicity that everyone needs more protein, most",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 228,
+    "text": "our thoughts are immediately burdened by all the things we must first learn.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 229,
+    "text": "They are well received by movie fans from all over the world.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 230,
+    "text": "Consequently, all human body functions also follow this daily rhythm, and the timing of",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 231,
+    "text": "Nearly all of them serve the purpose of the funders.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 232,
+    "text": "M) What are my chances of finding all of those things with one employer?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 233,
+    "text": "All things considered, I am paying significantly less than the ticket price of my university, and having an educational experience in Washington, D.C., that I would not have had anywhere else.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 234,
+    "text": "For example, there is no meeting that goes faster than not having a meeting at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 235,
+    "text": "It all started in 1991 when the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 236,
+    "text": "They opened all of them one by one.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 237,
+    "text": "Kate was depressed at first, but then she sat with some girl patients and they opened up all the boxes together, laughing and playing.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 238,
+    "text": "Second, once-public spaces, where people from diverse backgrounds used to come together, have increasingly become privatized, leading to a reduction in the number of public facilities available to all, and a reduced quality of life for many.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 239,
+    "text": "Assessing all factors when making a choice.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 240,
+    "text": "We’re not all going to have the same ideas on how to approach policies, programs or problems.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 241,
+    "text": "It is filled with all kinds of video game characters.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 242,
+    "text": "The industry is quick to point out that all its bottles are recyclable.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 243,
+    "text": "job skills, then the interview skills, then the dress part — and you must be perfect at all of them.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 244,
+    "text": "It holds the key to all human body functions.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 245,
+    "text": "that eventually may fail, all indicate \"initiative,\" \"creativity,\" and \"adaptability,\" which are desirable",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 246,
+    "text": "After all, it’s a good thing to know before actually accepting an offer.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 247,
+    "text": "The financial aid the author receives is supposed to cover all her college expenses.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 248,
+    "text": "But that’s not what it means at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 249,
+    "text": "“Within six weeks, they had to send a truck around to pick up all the wheelchairs,” Thomas told the Washington Post.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 250,
+    "text": "Still, all these little eggs contained an extra treat with their toys.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 251,
+    "text": "A better goal than building bigger houses for some is to create more publicly accessible spaces and amenities for all.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 252,
+    "text": "This could be because some people want to avoid conflict at all costs, after all they still have to work together.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 253,
+    "text": "It all started in 1649 in Southern England.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 254,
+    "text": "adding to all the health dangers of obesity, diabetes and tooth decay”.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 255,
+    "text": "They appear to know all the secrets to success.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 256,
+    "text": "The overall trend is hitting Americans of all different levels of educational attainment, although the percentages vary by",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 257,
+    "text": "First of all, students lack the desire to learn, and they simply complete their assignments to receive credit for a passing grade rather than genuinely engage with the course material.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 258,
+    "text": "They all seem to stick to the ethos (特质) of regional, seasonal produce.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 259,
+    "text": "I’m reminded of the famous Peter Drucker quote, “There is nothing so useless as doing efficiently that which should not be done at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 260,
+    "text": "He did something all professionals would do.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 261,
+    "text": "There is the planning of the ceremony itself, the merging (合并) of two households and all of the details involved in that.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 262,
+    "text": "All amenities made accessible to the rich and the poor alike.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 263,
+    "text": "One survey taker explained, “The greatest challenge for me was continuing to believe in myself, when all the messages",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 264,
+    "text": "may not be the most popular subject, but it’s consistently on the schedule throughout high school, with all students graduating",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 265,
+    "text": "They will find themselves lacking in all the skills they need.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 266,
+    "text": "Not all students have access to these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 267,
+    "text": "But Pasternak did take note of one unifying factor in all of the healthy societies he observed.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 268,
+    "text": "For example, pound for pound, beef requires 15 times more feed to raise than carp, a freshwater fish farmed all over Asia.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 269,
+    "text": "After all, not all socioeconomically disadvantaged people consume poor diets.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 270,
+    "text": "Many women who opt to simply keep their own names do so because they don’t want to give up all that they have accomplished professionally.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 271,
+    "text": "Not to take seriously all the messages she was getting.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 272,
+    "text": "It is unrealistic to give all Australian youth a financial education.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 273,
+    "text": "Let everyone see the noisy, messy deliberations that advance science and lead to decisions that benefit us all.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 274,
+    "text": "“The only overlapping feature in most of these healthy countries is that they all walk way more than the average American,” said Pasternak.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 275,
+    "text": "Its Nobel Prize reminds us all of the moral hazard in imagining that the poor and vulnerable are somebody else’s problem.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 276,
+    "text": "J) There are all sorts of reasons to hyphenate your name or not to hyphenate your name.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 277,
+    "text": "We all have faith in chocolates to delight us in an instant!",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 278,
+    "text": "All of us can be affected by food instability one way or another.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 279,
+    "text": "From there you are going to have to legally change your name all over the place.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 280,
+    "text": "After all, intelligent people earn more money, accumulate more wealth, and even live longer.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 281,
+    "text": "It’s even harder for smart people because they grow so used to being right all the time that it becomes a part of their identity,” Bradberry wrote.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 282,
+    "text": "They can apply for fully funded access to Coursera’s course catalog, which means they can take all of the platform’s classes and obtain professional certificates for free.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   }
+  ]
+ },
+ {
+  "word": "does",
+  "def": "v.做; 干(第三人称单数现在式).",
+  "senses": [
+   {
+    "pos": "aux.",
+    "zh": "构成疑问句（也用于倒装，如 Not only does…）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "构成否定（does not / doesn't）"
+   },
+   {
+    "pos": "v.",
+    "zh": "做，干"
+   },
+   {
+    "pos": "aux.",
+    "zh": "代替前面出现的动词（避免重复）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "确实，的确（加强语气，如 does have）"
+   },
+   {
+    "pos": "v.",
+    "zh": "造成，带来（does harm / damage / good）"
+   }
+  ],
+  "phrases_seen": [],
+  "notes": [
+   "原 def 只写了实义动词「做」，助动词义项是补的。C 任务口径：疑问句（含题干 What does the author say...）及 Not only does / nor does 倒装标 0；does not / doesn't 标 1；作实义动词（does shopping、a place that does salads、what a computer does、does more to...）标 2；单独作谓语代替前文动词（as red meat does、than it does mothers、Research indicates that it does、a friend who does）标 3；肯定句中 does + 动词原形表强调（does have / does show / can and does change）标 4；does harm/damage/good (to)、does little good 标 5。irregular 按拼写规则（-es）写 false，请复核是否要因读音 /dʌz/ 改 true。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "person who does not.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 81,
+    "text": "A lot of research has demonstrated that drinking fruit juice does not reduce our daily consumption of other foods.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 82,
+    "text": "What does the author recommend we eat at the end of the passage?",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 83,
+    "text": "She does not have any problem flying.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 84,
+    "text": "He does not like Westwood Elementary School.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 85,
+    "text": "But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing how to choose” what to forget.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 86,
+    "text": "What does the awarding of three Michelin stars to Eleven Madison Park indicate?",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 87,
+    "text": "What does the author say about educators?",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 88,
+    "text": "What does Marion Nestle say about present-day nutrition studies?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 89,
+    "text": "What does the author suggest people do to get rid of boredom?",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 90,
+    "text": "That said, curiosity does have a genetic component.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 91,
+    "text": "What does Mindi Reich-Shapiro emphasize in her comment on childhood education?",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 92,
+    "text": "Thus, using more of one type of media does not necessarily mean less of the other.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 93,
+    "text": "What does the author think of online course assignments?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 94,
+    "text": "What does previous research about social media reveal?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 95,
+    "text": "What does the author think schools should do to tackle cheating?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 96,
+    "text": "What does the finding of Myriam Bechtoldt’s study indicate?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 97,
+    "text": "In some southeast Asian countries, shrimp farming does disastrous damage to marine ecosystems.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 98,
+    "text": "While this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 99,
+    "text": "What does the author say causes refugees’ difficulty in taking online courses?",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 100,
+    "text": "What does the author advocate for people to live well?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 101,
+    "text": "What does the author think of the traditional school year in the U.S. today?",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 102,
+    "text": "W: How does an insecure attachment affect relationships between friends, co-workers and romantic relationships?",
+    "n": 1,
+    "src": "cet4_2023_06_2·听力"
+   },
+   {
+    "id": 103,
+    "text": "What does a “multitasker” originally refer to?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 104,
+    "text": "What does it take for decisions to become the best according to the author?",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 105,
+    "text": "In reality, education does an aging brain good.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 106,
+    "text": "How does the art of self-control help us succeed?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 107,
+    "text": "What does the author think of Ford's writing?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 108,
+    "text": "What does the author want to emphasize in the first paragraph?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 109,
+    "text": "Unless a far-reaching bottle ban does come into force, it will be up to consumers to not",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 110,
+    "text": "That said, the main point of this article is that learning by itself does not lead to progress.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 111,
+    "text": "What does the passage say about people born with natural talents?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 112,
+    "text": "What does science suggest the right dress may do?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 113,
+    "text": "Why does this happen?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 114,
+    "text": "If you're especially into a piece of music, your brain does something called Autonomous Sensory Meridian Response",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 115,
+    "text": "Does it matter?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 116,
+    "text": "What does the passage say is of importance regarding genetic tests?",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 117,
+    "text": "What does the author advise disadvantaged schools and communities to do?",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 118,
+    "text": "Drinking Coca-Cola does not contribute to weight gain.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 119,
+    "text": "What does the author suggest policymakers do about obesity?",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 120,
+    "text": "What does the author say about curiosity?",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 121,
+    "text": "E) That may be true, but that still does not tell us much about what happens across a whole generation of people when time spent on digital media grows.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 122,
+    "text": "What does the author say is one disadvantage of online classes?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 123,
+    "text": "It does much harm to employee loyalty.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 124,
+    "text": "What does the author suggest teachers do in the classroom?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 125,
+    "text": "What does the author suggest sensitive individuals do?",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 126,
+    "text": "What does the author say is remarkable about the fish we eat?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 127,
+    "text": "What does the author say is important in formulating policies to improve diets and health?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 128,
+    "text": "What does the author think of most entrepreneurs?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 129,
+    "text": "How does the business world view multitasking?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 130,
+    "text": "so does brain volume: Humans lose about 4 percent every decade starting in their 40s.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 131,
+    "text": "What does the passage mainly discuss regarding scientific research?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 132,
+    "text": "What does the author say is the greatest strength of Ford's book?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 133,
+    "text": "What does the author propose people do?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 134,
+    "text": "What does the author think of continuing to ask buyers to sign end-user license agreements?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 135,
+    "text": "What does Duckworth say about talent?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 136,
+    "text": "Why does science say the clothes one wears may affect their interaction with others?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 137,
+    "text": "In a war of culture, data does not help much in changing people’s minds.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 138,
+    "text": "But does that really mean your top 100",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 139,
+    "text": "Yes! [22] It does matter where you sit in your classroom, so choose and choose carefully!",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 140,
+    "text": "What does the passage say about DNA tests to predict personality or talents?",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 141,
+    "text": "What does the author say about working in IT?",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 142,
+    "text": "What does Liebman say about industry-funded research?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 143,
+    "text": "It does people more good than harm.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 144,
+    "text": "However, that does not mean teens need to use electronic devices as often as they do now.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 145,
+    "text": "What does the author think constitutes a key part of genuine education?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 146,
+    "text": "What does the author suggest managers do to neutralize the retention risk?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 147,
+    "text": "What does the author say companies should do in the context of remote work?",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 148,
+    "text": "What does the author say about China in terms of aquatic food?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 149,
+    "text": "What does research reveal about adults in food-insecure households?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 150,
+    "text": "What does the author imply by saying \"this isn't always the case\" (Line 1, Para.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 151,
+    "text": "What does the author imply we should do if we have to focus on some task and do it well?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 152,
+    "text": "What does the author say can contribute to the improvement of brain function?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 153,
+    "text": "What does the author say about companies and special interest groups?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 154,
+    "text": "What does the author say about the ability to be persuasive in the first paragraph?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 155,
+    "text": "What does the passage say about the engineering profession in the United States?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 156,
+    "text": "What does the author imply people in developed countries should do to keep healthy?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 157,
+    "text": "What does the passage say about people thinking of attaining success?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 158,
+    "text": "Why does the author say tailored jackets are associated with being “dressed for success”?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 159,
+    "text": "What does the author say about the proteins in our body?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 160,
+    "text": "What does the passage say about health education?",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 161,
+    "text": "What does the news report say about most people arriving at American borders with eggs?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 162,
+    "text": "It does not appeal to him.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 163,
+    "text": "What does the author use the example of his father· to illustrate?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 164,
+    "text": "What does the example of the Inuit people of the Arctic regions illustrate?",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 165,
+    "text": "While cheek-kissing for Latin Americans is also a universal greeting form, it does not require such a high degree of relational closeness.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 166,
+    "text": "What does the author think open debate can do?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 167,
+    "text": "But online education does not allow a teacher to keep a struggling student after class and offer help.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 168,
+    "text": "Why does the author say aquaculture is so important these days?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 169,
+    "text": "What does the author suggest disadvantaged people do to improve their health?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 170,
+    "text": "Entrepreneurs' ambition does as much good as harm.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 171,
+    "text": "What does the author think of research funded by industry or special interest groups?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 172,
+    "text": "What does one survey taker say was her greatest challenge?",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 173,
+    "text": "How does the author think grit can be helpful to us?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 174,
+    "text": "What does the author think of classical music and opera in today’s world?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 175,
+    "text": "What does the author suggest near the end of the passage?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 176,
+    "text": "What does the report say security officers were searching for?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 177,
+    "text": "It does not match his abilities.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 178,
+    "text": "What does the author say about people now working for several businesses at the same time?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 179,
+    "text": "What does the author say in the first paragraph about physical contact?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 180,
+    "text": "Why does the author say some experts’ anxiety seems misplaced?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 181,
+    "text": "What does the author say is one possible benefit of students attending school physically?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 182,
+    "text": "What does the author imply by saying aquaculture is no silver bullet?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 183,
+    "text": "What does the author say is of extreme importance for one to become a successful entrepreneur?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 184,
+    "text": "What message does Duckworth try to convey in her book Grit?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 185,
+    "text": "Why does the author mention the invention of the rock opera?",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 186,
+    "text": "What does the passage say about people doing manual work?",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 187,
+    "text": "Where does the report say the discovery was made?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 188,
+    "text": "What does the author say about the gig economy?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 189,
+    "text": "What does physical contact in communication suggest?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 190,
+    "text": "What does the author suggest scientists do about public debate?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 191,
+    "text": "What does the author think of the latest technology in education?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 192,
+    "text": "What does the WFP’s winning of the Nobel Peace Prize make us realize?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 193,
+    "text": "What does the author advise us to do concerning ambition?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 194,
+    "text": "Why does the woman say she swears it?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 195,
+    "text": "What does the author tell us to do concerning tactile communication?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 196,
+    "text": "What does the author say about science in the last paragraph?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 197,
+    "text": "What does the author say teachers are expected to do?",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 198,
+    "text": "What message does the author try to convey at the end of the passage?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 199,
+    "text": "What does the man think really matters to people?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 200,
+    "text": "What does the author say about the world today?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 201,
+    "text": "What does Hannah’s husband say he’ll do if she sells the new car?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 202,
+    "text": "What does the author want to illustrate with the example of smartphones?",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 203,
+    "text": "What does the man say about Jake?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 204,
+    "text": "Why does the woman feel uncomfortable about sending Jake to Lakeview School?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 205,
+    "text": "What does the man say about their local school?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 206,
+    "text": "What does the woman suggest at the end of the conversation?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 207,
+    "text": "What does the passage say is a major flaw of analytical decision-making?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 208,
+    "text": "What does a leader tend to do when they’re committed to analytical decision-making?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 209,
+    "text": "What does Branyas Morera think also contributes to a long life?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   }
+  ]
+ }
+]

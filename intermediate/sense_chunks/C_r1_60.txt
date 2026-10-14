@@ -1,0 +1,585 @@
+# 任务 C_r1_60：2 个词，552 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_60.labels.txt
+
+============================================================
+## 词：more    本段 13 句    模式：全标（每句都写）
+原释义：adj.更多的; 附加的. adv.更; 再; 而且(many/much的比较级).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 更，更加（构成比较级：more expensive）    B 样本 23    例：More convincing explanation.
+  1  adj. 更多的，较多的    B 样本 19    例：Get approval to add more routes.
+  2  adv. 更多地，更大程度地（修饰动词：walk more）    B 样本 3    例：And with four of us, it wouldn’t cost any more than living in the dorm.
+  3  pron. 更多的人或事物    B 样本 2    例：Find out more about their ancestry.
+  4  adj. 另外的，再…（数词 + more：one more thing）    B 样本 4    例：M: Just one more thing.
+  5  adv. 再，又（once more）    B 样本 0
+已标过的短语：more than（13）；no more than（9）；more and more（3）；the more...the more（2）；not any more（1）；have to do with（1）
+口径说明（照此执行）：
+  - 原 def 的「而且」其实是 what's more 的短语义，没单列义项；no more than（不超过，大量来自写作字数要求套话）单独标 P，与 more than 分开。
+句子：
+680 | occupations where they tend to enjoy their work 【more】.
+686 | 【More】 and 【more】 people have switched to less intellectually challenging jobs.    ?P:more and more
+687 | 【More】 and 【more】 people in the workplace find it hard to rely on traditional pensions.    ?P:more and more
+689 | Those who have 【more】 job satisfaction tend to retire later than those who have less.
+684 | who stay on are 【more】 likely doing so for financial reasons.
+688 | The higher their earnings, the 【more】 likely they are tempted to delay retirement.
+691 | The higher their educational level, the 【more】 likely they are to delay retirement.
+690 | 【More】 men than women are likely to stay in the labor force until their late seventies.
+685 | Entrepreneurs are 【more】 naturally driven to success.
+682 | Workers in 【more】 physical jobs, meanwhile, may be 【more】 likely to look forward to retiring, Baily says, suggesting those
+683 | Ambitious people may not have 【more】 positive qualities.
+681 | They have 【more】 positive qualities than most of us.
+692 | Contributing 【more】 professionally.
+
+============================================================
+## 词：as    本段 539 句    模式：全标（每句都写）
+原释义：prep.作为; 如同. conj.当…时; 因为; 虽然. adv.同样地.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. 作为，以…身份（或形式）    B 样本 17    例：They flew 737 airplanes as pilots.
+  1  prep. 当作，看作（view / treat / describe A as B；be known as）    B 样本 15    例：Treat them as treasures.
+  2  conj. 当…时，随着    B 样本 5    例：Wilbur has his own Internet pages as he approaches his 10th birthday on July, 7.
+  3  conj. 因为，由于    B 样本 3    例：Its natural beauty is protected as it lies inside a natural park.
+  4  conj. 正如，按照（…的方式）    B 样本 3    例：The color of the wrapper is similar as are the illustrations of the features.
+  5  adv. 同样地（as…as 中的第一个 as）    B 样本 0
+  6  prep. 像，如同    B 样本 0
+  7  conj. 虽然，尽管（用于倒装：Young as he is）    B 样本 0
+已标过的短语：as...as（12）；such as（9）；the same as（5）；as soon as possible（4）；as long as（1）；as if（1）；come as a surprise（1）；as usual（1）；as well as（1）；as a result（1）；as far as（1）
+口径说明（照此执行）：
+  - 「作为（身份）」与「当作，看作（A as B）」拆成两个义项，两者次数接近（本批 17:15），最终首要义项可能翻转。14 同句有 such as 和 as much as、72 同句有 as far as 和 as much…as，只能各标一个短语。
+句子：
+374 | It’s not going to be 【as】
+389 | taxpayers are not getting the maximum bang for their buck if the close losers are performing just 【as】
+508 | Studies point to how boredom is good for creativity and innovation, 【as】
+613 | Even something 【as】
+348 | The process seems so normal that we sometimes think of it 【as】 a    ?P:think of sth as
+585 | Neither men nor women viewed booking late 【as】 a bad behavior.
+195 | Besides, I could teach him some of the basics from my time 【as】 a badminton player.
+592 | Most stores open with flowers, fruit and vegetables at the front 【as】 a breath of freshness to arouse our appetite.
+470 | Some people view socializing at the workplace 【as】 a chance to develop personal relationships.
+106 | It doesn’t take donations and doesn’t want to be seen 【as】 a charity.    ?P:be seen as
+257 | 【As】 a child, I spent some time living with anumeric
+225 | 【As】 a child I used to love the Scooby-Doo cartoons.
+502 | 【As】 a child matures, they can then take on more of the daily responsibilities, boosting their sense of independence.
+391 | Recognising obesity 【as】 a chronic disease with severe complications rather than a lifestyle choice “should help reduce the stigma (耻辱) and discrimination experienced by many people with obesity,” he adds.
+309 | “The difference is not really news to me, 【as】 a clinical psychologist,” said Erin Joyce, a women and couples therapist in Los Angeles.
+362 | 【As】 a compromise, a bride will in most cases adopt a name that combines the couple’s last names.
+338 | Recent evidence points to drivers’ limited understanding of what these systems can and cannot do 【as】 a contributing
+484 | They take touching 【as】 a cultural norm in social interactions.    ?P:take sth as
+530 | concluded, 【as】 a Daily Mail story put it, that "hot oatmeal ( Ø !: Ù) breakfast keeps you full for longer. "
+99 | the difference between the cars in front and the cars behind, the spacing of cars in a stream of traffic can act 【as】 a damper
+229 | A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act 【as】 "a dictator.
+258 | And now, the World Health Organization has recognized addiction to computer games 【as】 a disease.
+352 | With obesity now affecting 29% of the population in England, and expected to rise to 35% by 2030, should we now recognise it 【as】 a disease?
+553 | Why are some people opposed to labelling obesity 【as】 a disease?
+569 | Richard Pile’s concern about classifying obesity 【as】 a disease?
+455 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything 【as】 a disease” and says the question is not whether we can, but whether we should, and to what end.
+510 | But labelling obesity 【as】 a disease “risks reducing autonomy, disempowering and robbing people of the intrinsic (内在的) motivation that is such an important enabler of change.
+483 | If labelling obesity 【as】 a disease was harmless then it wouldn’t really matter.
+125 | She regards smartphones 【as】 a distraction.
+447 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such 【as】 a dog or cat, can encourage reluctant readers to read aloud, which will in turn boost their self-confidence.    ?P:such as
+126 | Firstly, the association cited changing diets, (6) in particular the switch to those low in calories, 【as】 a factor in the reduction of bread consumption.
+214 | The researchers explained that “Many owners regard their pets 【as】 a family member, and form close social bonds with them.
+453 | We regard these disappointments 【as】 a fate we could have avoided with more careful
+146 | In one recent case, an international gang used an ___32___ realistic mask to pose 【as】 a French minister, ___33___ business
+159 | The phenomenon of math anxiety is characterized 【as】 a general sense of feeling that the subject is hard compared with other subjects leading to a subsequent lack or loss of confidence.
+533 | It should be regarded 【as】 a genetic disease.
+183 | W: Okay, but how much money does a person need to retire? [13] I’ve read articles recommending one million dollars 【as】 a good figure for retirement.
+355 | Namely, they help you treat others better, by using the way you yourself would want to be treated 【as】 a guide of how to behave.
+128 | W: 【As】 a kid, did you know what job you wanted to do when you grew up?
+466 | Le comes by the dance 【as】 a legacy.
+143 | One person described it 【as】 a loud boom, similar to a plane crash.
+221 | 【As】 a low-income student from a down-and-out Rust Belt community, these educational experiences have enormous potential to brighten my future—and my family’s future.
+318 | Saying “no” is sometimes seen 【as】 a luxury that only those in power can afford.
+437 | After going to DirecTV, he positioned the satellite provider 【as】 a mainstream option in millions of households.
+591 | Low pay has long been acknowledged 【as】 a major issue in the early education field.
+601 | People don’t refer to a man 【as】 a ‘man engineer’ — he’s an engineer.
+209 | Researchers said they investigated individuals’ attitudes towards mathematics because of what could be referred to 【as】 a ‘mathematics crisis’ in the UK.
+607 | Since then, we've completely changed 【as】 a nation.
+539 | Unfortunately many employees resent compulsory bonding and often regard these exercises 【as】 a nuisance.
+136 | 【As】 a parent of two boys at primary school, I worry about the issues associated with teenagers and social media.
+213 | M) I have now come to realize that being boring, in actuality, is not only about who you are 【as】 a person, but also how you present yourself.
+493 | The New York dance club also serves 【as】 a place for entertainment where youngsters can enjoy themselves safely.
+583 | The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it 【as】 a place to buy food.
+332 | And then, for the last 10 years, I’ve worked 【as】 a political consultant, advising politicians at the national level about problems in our country.
+253 | applying for, or how it makes you more interesting 【as】 a potential employee,” Mr.
+554 | In the age of the internet, there’s no such thing 【as】 a private debate.    ?P:no such thing as
+543 | of us can’t afford to do nuclear research 【as】 a private hobby, but bird watchers, rock collectors, and others can do real research
+536 | Refusing a request is sometimes seen 【as】 a privilege not enjoyed by ordinary people.
+288 | M: I spent 25 years 【as】 a professor, actually.
+231 | But the club also acts 【as】 a recreation center and safe haven for teenagers, with video games readily available.
+333 | Roth says it is not sufficient 【as】 a replacement.
+302 | “We see gameplay 【as】 a resource
+347 | Her rich and filling-fruit pies quickly got the racers’ attention, and the village gained some fame 【as】 a result.    ?P:as a result
+299 | disappear 【as】 a result, Horn said.    ?P:as a result
+593 | 【As】 a result, Los Angeles now has its best chance in decades to combat homelessness.    ?P:as a result
+442 | And, 【as】 a result, neither    ?P:as a result
+503 | They may cease to exist 【as】 a result of enjoying too good a life.    ?P:as a result of ?P:as a result
+439 | “We’ve seen profound changes in the last decades in what we eat largely 【as】 a result of international trade, and I think that trend toward more diversification will continue,” Jarvis says.    ?P:as a result of ?P:as a result
+464 | Big houses are advertised 【as】 a reward for hard work and diligence, turning housing from a basic necessity into a luxury.
+448 | Design Ventura is welcomed by teachers because it helps to prove the worth of design 【as】 a school subject.
+118 | 【As】 a scientist, Smith _30_ studied individuality for a living, and even he was surprised to find younger respondents cared more about having a _31_ in life.
+465 | "I think they can build Formula One in the U.S.," said Patrick Crakes, an executive at In Vivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 【as】 a senior manager at Fox Sports.
+132 | When they were offered both candy and fruit 【as】 a snack.
+326 | In one experiment, participants were offered the choice between candy and fruit 【as】 a snack.
+522 | 【As】 a society, we reap the rewards from this science but we also help pay for it.
+376 | These include helping with social development, increasing physical activity, managing anxiety or serving 【as】 a source of attachment in the face of changing family structures.
+590 | The human thirst for knowledge is the driving force behind our successful development 【as】 a species.
+345 | fun of in gaming circles 【as】 a “spreadsheet simulator ”, the economy of the fictional EVE universe is
+124 | Over the past 13 years, 【as】 a student, lecturer and researcher, I’ve enjoyed discussing the science of evil with anyone willing to listen.
+147 | validate the value of design 【as】 a subject,” she explains, telling me that nearly 600 schools have taken part so far.
+103 | This type of snake is classified 【as】 a threat to humans, especially small children 【as】 well 【as】 pets.    ?P:as well as ?P:as...as ?P:as well
+386 | It was established 【as】 a three-star Michelin restaurant in 2011.
+517 | Chase Carey used to serve 【as】 a top advisor for a major broadcasting company.
+472 | think of fashion 【as】 a trifle again.    ?P:think of sth as
+336 | 【As】 a university student I've come to realise just how little I know about money.
+558 | "Many people see team-building activities 【as】 a waste of time, so we decided to look in more depth at what's behind this," said the paper's lead researcher, Dr Peter Matous.
+485 | They are advertised 【as】 a way for adults to finish their education and students to learn the material at their own pace—it is far more compatible for people with busy schedules.
+217 | I’m very much dependent on vision 【as】 a way of taking in information.
+171 | I) There is another depressing reality hidden within even the largest financial aid packages: Colleges often offer the most generous packages during freshman year 【as】 a way to attract new students.
+190 | [7] City Council Member Anna Cumber was instrumental in introducing the electric bikes to Jacksonville 【as】 a way to bring new life into downtown.
+346 | likely to take it — which raises a challenge for society 【as】 a whole.    ?P:as a whole
+409 | After all, the economy 【as】 a whole has grown    ?P:as a whole
+329 | 【as】 a whole, it is not at all the case for the median American worker.    ?P:as a whole
+84 | It’s a significant problem, _35_ since loneliness is emerging 【as】 a widespread public health problem in many countries.
+267 | Action Fraud says people should ensure the company renting the villa is a member of a recognized trade body such 【as】 ABTA.    ?P:such as
+315 | G) “By working with industry partners such 【as】 ABTA and Get Safe Online, we are able to issue alerts about the latest threats they should be aware of.    ?P:such as
+139 | To prove they stand out 【as】 accomplished professionals.
+98 | He’s going to take up a full-time position 【as】 ambassador for science and space instead—work he’s been doing since 2019. [3] The former British Army Air Corps helicopter pilot was selected 【as】 a European Space Agency astronaut in 2009.
+334 | Why it’s wrong to look at work-life balance 【as】 an achievement
+445 | balance 【as】 an achievement that you either hit or don’t.
+122 | In one study, the authors 28 that dads were more likely to take “playing” 【as】 an 29 activity both when caring for their kids    ?P:take sth as
+268 | The course attracted mostly congressional interns (实习生), with a few exceptions like Kelli who was in Washington 【as】 an AmeriCorps volunteer.
+134 | G) The previous study found that nearly three-quarters of fathers saw two to four weeks 【as】 an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.
+184 | O) The father of two from Columbus, Ohio, who still works at the company 【as】 an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.
+266 | 【As】 an emotional learner, I organize my notes into a story that I can connect to and recite to myself.
+462 | He encourages residents to think of their age 【as】 an enriching new phase of life rather than the end of it.    ?P:think of sth as
+294 | hide behind information and use learning 【as】 an excuse to delay the more difficult and more important choice of actually doing
+300 | So while Hughes supports bike lanes — “cyclists deserve to be safe” — she sees the parking loss 【as】 an existential
+588 | It can be seen 【as】 an indicator of refinement on classical music.    ?P:be seen as
+547 | Even so, it can be difficult for those who do not study music theory to see this 【as】 an indicator, since it is
+434 | Even though we are living in an age where growing old is thought of 【as】 an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.    ?P:think of sth as
+584 | They were regarded 【as】 an intrusion into employees' private lives.
+135 | We often think of it 【as】 an invisible bubble of space surrounding us that others can’t enter, without causing discomfort.    ?P:think of sth as
+273 | Or even simply see your birthday 【as】 an opportunity to bring people together for them to have fun.
+224 | Or I could perceive my birthday 【as】 an opportunity to do something for others like asking people to make a donation instead of buying a gift.
+440 | Some risks may not work out, but an optimistic risk-taker will always look at failure 【as】 an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.
+344 | 【As】 annual inflation climbs over 10 percent, many households are on tight budgets.
+367 | Pendry believes those students may experience the programs 【as】 another lecture and feel even more stressed.
+256 | The exhausted and hungry racers are greeted with delightful pies of all kinds, such 【as】 apple, orange, lemon or banana.    ?P:such as
+89 | were being replaced by other employees who relied on technological abilities such 【as】 artificial intelligence in their work.    ?P:such as
+600 | See our experiences 【as】 assets.
+151 | The technology is also known 【as】 autonomous cruise control.
+596 | Why are classical music pieces still used 【as】 background music in modern movies?
+153 | W: I am not 【as】 bad 【as】 that.    ?P:as...as
+228 | The body of KaiOS phones is 【as】 basic 【as】 it gets.    ?P:as ... as it gets ?P:as...as
+431 | Remember, 【as】 Bechtoldt says, “you are not responsible for how other people feel.
+521 | many hours 【as】 before to keep their living standards.
+163 | If you don’t arouse someone’s curiosity or brighten someone’s day, you probably come across 【as】 being a little bit dull.
+550 | Success was once defined 【as】 being able to stay at a company for a long time and move up the corporate
+459 | Since cheating through technology is not listed specifically 【as】 being against the rules in many school policies, students do not view the actions unethical.
+371 | In the survey, 60% of early adults define financial success 【as】 being debt-free.
+400 | A behavior that does not conform to social norms may be described 【as】 being deviant.
+110 | It has treated left-handed children 【as】 being disabled.
+506 | healthy eating 【as】 being more appealing.
+180 | These movies are criticized 【as】 being too simple.
+123 | I think social media too can intensify things 【as】 birthdays now play out more publicly.
+575 | People may view it 【as】 both a means to convince others and an art of communication.
+372 | achieve delayed, long-term benefits, such 【as】 career advancement, debt repayment, or improved health.    ?P:such as
+156 | There are cognitive ( -iA  {JI.;) benefits of doing things the way we did 【as】 children-building
+549 | 【As】 children develop and grow, their dreams do too.
+366 | E) Overall, the yields of many foods, from staples to life-enhancing extras such 【as】 coffee and chocolate, will likely be impacted by climate change too.    ?P:such as
+116 | Russian reports on social media suggest the forest may have been 【as】 cold 【as】 negative 34 degrees Celsius.    ?P:as...as
+523 | persuasion skills, employees may not be 【as】 committed to or convinced of the importance of an organization's vision and long-
+580 | Employers’ gain from remote working should go to employees 【as】 compensation.
+364 | While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, 【as】 competitions they enjoy.
+130 | M: It’s the same 【as】 conflicts.    ?P:the same as
+234 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such 【as】 considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.    ?P:such as
+418 | By allowing employees to donate their time during work hours, the workplace becomes an outlet for personal fulfillment without affecting personal time. [21] In one survey, 89% of employees perceived companies that sponsored volunteer activities 【as】 creating a better working environment, and 75% said volunteering was critical to their well-being.
+269 | Hearing about other people’s success isn’t the same 【as】 creating your own.    ?P:the same as
+219 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions 【as】 deeply 【as】 when former students reappear years and often decades later with an update on where their journey has taken them and what resiliencies (韧性) have been the pavement on which they’ve traveled.    ?P:as...as
+380 | such 【as】 Design Ventura, which helps to bring the standard curriculum to life,” says Cleaver.    ?P:such as
+295 | Among them are architect Asif Khan, a Design Museum trustee who has worked 【as】 designer-in-residence at the museum,
+516 | Unfortunately, for the most ambitious entrepreneurs, a failure is seen 【as】 disastrous, and impossible to recover from.
+514 | I’m reminded of the famous Peter Drucker quote, “There is nothing so useless 【as】 doing efficiently that which should not be done at all.    ?P:so...that
+411 | However, research shows that authorised absences from school such 【as】 during extreme    ?P:such as
+289 | They are known 【as】 “e-learning days”, which certainly sounds less fun than a snow day.
+255 | Stimulate their interest 【as】 early 【as】 po.ssible.    ?P:as...as
+80 | One should start saving 【as】 early 【as】 possible.    ?P:as early as possible ?P:as...as
+581 | Despite mostly feeling supported by colleagues and family members, many of the male educators surveyed in the study reported facing social or cultural resistance in their careers 【as】 early education teachers.
+446 | It should be taught the same way 【as】 English is taught.
+369 | H) But even 【as】 error rates stayed stable, student essays have blossomed in size and complexity.
+496 | 【As】 ever, we ought to be careful about our own behaviour.    ?P:as ever
+423 | K) In sports and many areas of life, we think of failures 【as】 evidence of something we could have done    ?P:think of sth as
+422 | language, 【as】 evidenced by words like 14 ("four"+ "10") and 31 ("three" X "10" +"one").
+93 | For the study, the researchers asked participants to rate their diet 【as】 excellent, very good, good, fair or poor.
+174 | Birthday reminders can be helpful, but I kind of worry I won’t be able to drum up my own day and show it to look 【as】 exciting 【as】 it is supposed to be.    ?P:as...as
+482 | But research shows it can be just 【as】 exhausting 【as】 paid work.    ?P:as...as
+308 | 【As】 expected, there was a much higher rate of attrition (g!) among
+92 | They are treated 【as】 expendable.
+415 | Reusable rockets can cut down on some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and other components are treated 【as】 expendable.
+310 | Some applaud the policy 【as】 fair, because it rewards both the individuals who maintain a healthy weight and those who are working towards achieving it.
+90 | It is not 【as】 fancy 【as】 his colleagues’.    ?P:as...as
+198 | Human fascination with animals goes back 【as】 far 【as】 humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and there are more images of animals than humans.    ?P:as far as ?P:as...as
+91 | Transit Driver Appreciation Day has been celebrated across the country 【as】 far back 【as】 2009.    ?P:as far back as ?P:as...as
+597 | They recommend providing young men opportunities to work with children through training and volunteer programs, targeting groups of men who are considering a career change, such 【as】 fathers.    ?P:such as
+520 | Contrary to parents’ belief, kids try hard to leave 【as】 few traces 【as】 possible on the web.    ?P:as...as
+480 | gateway to the realization that "five fingers on one hand is the same 【as】 five fingers on the other. " Such    ?P:the same as
+218 | Also, speak to the person you’re booking the villa with on a landline phone, 【as】 fraudsters tend to only use mobiles.
+340 | fructose in fruit juices counts 【as】 ‘free sugars’ — which also include honey and the sugars added to foods.
+285 | Many people today consider colleagues 【as】 friends.
+529 | healthy snacks and drinks (such 【as】 fruit or water) more often over unhealthy options (like biscuits and soda).    ?P:such as
+245 | 【as】 fulfilling to work toward 【as】 to achieve.    ?P:as...as
+616 | attitude, but those who aren't 【as】 genetically gifted aren't necessarily out of luck.
+571 | Supermarkets can technically be defined 【as】 giants housing 15,000 to 60,000 different products.
+104 | ___32___ 【as】 global warming and renewable energy.
+254 | This is true even though nearly nine managers in 10 also said their post-45 workers were 【as】 good
+349 | performance of the close losers was just 【as】 good.
+155 | admit that post-45 hires turn out on average to be just 【as】 good 【as】 or better than younger workers, they still don’t want to    ?P:as...as
+175 | We think of ourselves 【as】 “good people”, and even when we do morally wrong things, we understand the context of our decisions.    ?P:think of sth as
+358 | For example, they showed the students photographs of people’s faces and asked them to what extent feelings such 【as】 happiness or disgust were being expressed.    ?P:such as
+353 | In nonverbal communication terminology (术语), physical contact and the study of touching are generally referred to 【as】 haptics.
+595 | And you have to work twice 【as】 hard!
+574 | We can never really please other people even if we try 【as】 hard 【as】 we can.    ?P:as...as
+572 | They see such exercises 【as】 harmful to harmony.
+119 | Because of social categorization, you immediately judge the woman 【as】 harmless, and the man 【as】 threatening, leading to the loss of your wallet.    ?P:as...as
+425 | Professor Wilding disagrees that labelling a high proportion of the population 【as】 having a disease removes personal responsibility or may overwhelm health services, pointing out that other common diseases, such 【as】 high blood pressure and diabetes, require people to take action to manage their condition.    ?P:such as
+83 | Sarah Godfrey, who is organizing Wilbur’s party, told the local newspaper, “Wilbur is part of our lives, 【as】 he is for everyone who lives in the village.
+420 | time 【as】 he used to.
+479 | deceptive strategies used to make junk food more addictive and characterize the products 【as】 healthy.
+248 | But is juicing really 【as】 healthy 【as】 we think?    ?P:as...as
+608 | Just 【as】 height usually declines over the years,
+275 | Some men, regardless of how you might feel about some things, are traditionalists and feel that it is simply “right” for the woman to take the man’s last name 【as】 her own.
+176 | Once upon a time, it was just customary for a bride to take her groom’s last name 【as】 her own and abandon her maiden name completely.
+274 | Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we can be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such 【as】 heroism.    ?P:such as
+236 | productivity, which he thought would lead to a standard of living “between four and eight times 【as】 high 【as】 it is today.    ?P:as...as
+112 | 【As】 his great contemporary the poet and dramatist Ben Jonson said, “He was not of an age, but for all time.
+342 | 【As】 Horn argues, “There’s absolutely no advantage of tailgating the car in front of you.
+441 | Some of the dangers are emotional: hurting someone from a distance is not the same 【as】 hurting them face to face.    ?P:the same as
+494 | What do such utterances 【as】 “I have limited access to email” sound like according to the author?
+108 | M: (15) I actually found that it was cheaper for me, 【as】 I live quite far away from my local supermarket.
+457 | Well, I could come and go 【as】 I please, 【as】 long 【as】 I was getting the work done.    ?P:as long as ?P:as...as
+101 | 【As】 I read an article on the subject in the past that suggested the opposite, it claimed that it was important not to miss meals and that taking a nap on the plane was the best way to adjust to a new time zone.
+337 | M: 【As】 I’ve said many times before, [15] beach volleyball and indoor volleyball are completely different.
+473 | First, they paused and reconsidered beliefs such 【as】 “I'm a professional, so I should work, work, work”, and asked    ?P:such as
+193 | In particular, dangerous conditions such 【as】 icy roads or wet ground could cause difficulty for drivers.    ?P:such as
+438 | Le held out his arms 【as】 if in offering.    ?P:as if
+396 | Instead, she remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such 【as】 if she had family pictures up in her hospital room or flowers delivered.    ?P:such as ?P:as if
+526 | With those born with natural talents, it feels 【as】 if they excel without really trying.    ?P:as if
+335 | There are plenty of other options such 【as】 imaginative play, non-competitive games, and gardening or nature experiences.    ?P:such as
+544 | Good communication is the first step in effective persuasion, but logic and reasoning are just 【as】 important.
+555 | They have become 【as】 important 【as】 grain.    ?P:as...as
+486 | A person’s word is linked to their honor, so verbal agreements are seen 【as】 important, whereas written contracts are taken 【as】 memos of understanding.    ?P:take sth as
+578 | Companies such 【as】 Impossible Foods and Beyond Meat — the    ?P:such as
+477 | such 【as】 in apple skins, that are excluded when you juice them,” says Heather Ferris, a professor of medicine.    ?P:such ... that ?P:such as
+452 | European was decimally oriented because, 【as】 in so many cultures, our ancestors' hands served 【as】 the
+113 | Owners—defined 【as】 individuals with high levels of anxiety, fear, anger, depression and loneliness—were more likely to have cats with behavioural issues.
+241 | 【as】 infants and continue on for the rest of our lives.
+179 | He feels 【as】 inspired 【as】 other audience members.    ?P:as...as
+343 | To ensure they take the drugs 【as】 instructed.    ?P:take sth as
+161 | They are 【as】 intelligent 【as】 other children.    ?P:as...as
+359 | 【As】 investor Pedro Sorrentino put it, “If you don’t guard your time, people will steal it from you.
+507 | Human numerical instincts are not so superior to those of other mammals 【as】 is generally believed.
+292 | L) 【As】 is so often the case, clever marketing can beat reason; awareness is rarely enough.
+417 | H) 【As】 it is easy to consume large amounts of fruit juice quite quickly, extra calories are taken in.
+311 | Interesting 【as】 it might appear, a made-up conversation will probably turn out to be dull.
+356 | It’s not impossible to stop but 【as】 it’s internet-based it’s harder to pursue.
+178 | Adults love that last one, 【as】 it’s the perfect mix of the sensible and the ambitious.
+304 | When IT is operating 【as】 it should, employee self-confidence swells.
+618 | What is one thing that helps maintain the health of our brain even 【as】 it shrinks2
+551 | 【As】 it turns out, boredom might signal the fact that you have a
+561 | love yourself 【as】 it's highly doubtful that you'll regret it.
+565 | its simplest definition, is telling a story using music 【as】 its form.
+602 | It could not have come into being without classical music and opera 【as】 its foundation.
+377 | They were 【as】 keen 【as】 he was on financial matters.    ?P:as...as
+609 | Some childhood development experts believe that time off from school is vital to healthy development 【as】 kids are not designed to spend so much of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+392 | People from the rest of the world, such 【as】 Latin America, are considered to be in high-contact cultures, where they tend to expect touching in social interactions and feel more comfortable with physical closeness.    ?P:such as
+226 | Keeping your name and joining it to your husband’s through hyphenation is 【as】 legal 【as】 simply adopting his name or 【as】 simply keeping your own and leaving his out of the picture entirely.    ?P:as...as
+421 | The large majority of our traits and diseases also depend upon non-genetic factors, such 【as】 lifestyle, the environment, and    ?P:such as
+137 | In contrast, anaerobic exercise—such 【as】 lifting heavy    ?P:such as
+489 | Research suggests that adults in food-insecure households are just 【as】 likely 【as】 those in food-secure households to adjust recipes to make them more healthy.    ?P:as...as
+205 | Hiring managers are three times 【as】 likely to rate job applicants age 35-44 【as】 a better
+260 | Women are twice 【as】 likely to suffer from severe stress and anxiety 【as】 men, according to a 2016 study published in The Journal of Brain & Behavior.
+339 | keen to encourage young people,” she says, observing that design brings together other subjects such 【as】 literature, art,    ?P:such as
+102 | Eating 【as】 little 【as】 one can possibly manage.    ?P:as...as
+552 | If savings are modest, then the many advantages of working in offices—such 【as】 lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work most of the time from corporate office space.    ?P:such as
+436 | Despite this, popular culture and the housing industry market happiness 【as】 living with both more space and more amenities (便利设施).
+319 | W: The bus takes twice 【as】 long and it’s just 【as】 crowded.    ?P:take sth as ?P:as...as
+428 | This means that they strive to implement the golden rule whenever possible, 【as】 long 【as】 it doesn’t clash with a more important concept.    ?P:as long as ?P:as...as
+599 | For 【as】 long 【as】 there are homeless people, there is a tendency to blame the victims themselves for their condition—to see their failure to thrive 【as】 an issue of character, of moral weakness, of laziness.    ?P:as long as ?P:as...as
+430 | 【As】 long 【as】 there have been homework assignments and tests, there have been cheaters.    ?P:as long as ?P:as...as
+297 | and fruit juices — don’t seem to have harmful effects 【as】 long 【as】 they’re not contributing to excess daily calories.    ?P:as long as ?P:as...as
+610 | make people think slower; 【as】 long 【as】 we are alive and functioning, we can alter our brains with new information and    ?P:as long as ?P:as...as
+252 | That’s not to say that I think my path is the only one—but once again, nothing can substitute real-world experience. [18] You can start anywhere 【as】 long 【as】 you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.    ?P:as long as ?P:as...as
+397 | Nevertheless, emotional intelligence is a useful skill to have, 【as】 long 【as】 you learn to also properly cope with emotions—both others’ and your own, says Bechtoldt.    ?P:as long as ?P:as...as
+495 | But for 【as】 long 【as】 you want to stay safe, and for 【as】 long 【as】 you are content with where your business is right now, you will never find out.    ?P:as long as ?P:as...as
+208 | recall quantities 【as】 low 【as】 four.    ?P:as...as
+382 | Why such a disconnect? [20] Most people cite time and conflicting work schedules 【as】 major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job.
+189 | By burning 【as】 many 【as】 300 calories per hour.    ?P:as many as ?P:as...as
+373 | Skateboarding, for example, can burn 【as】 many 【as】 500 calories per hour.    ?P:as many as ?P:as...as
+280 | 【As】 many 【as】 20 students show up after school.    ?P:as many as ?P:as...as
+100 | People tend to want 【as】 many choices 【as】 possible.    ?P:as...as
+490 | To allow them to learn 【as】 many job skills 【as】 possible.    ?P:as...as
+532 | 【As】 many office workers adapt to remote work, cities may undergo fundamental change if offices remain under-utilized.
+444 | Research indicates absences from school with permission do not cause 【as】 many problems 【as】 those without permission.    ?P:as...as
+259 | included how many papers they authored and how influential those papers were, 【as】 measured by the
+216 | They are taken 【as】 memos of understanding.    ?P:take sth as
+576 | I was getting were that I would never be taken seriously or promoted or given raises at the same rate 【as】 men, who were clearly
+531 | well 【as】 mental health.
+491 | 【As】 middle-class houses have grown larger, two things have happened.
+222 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals and doctors was below average, health outcomes were still better than in countries rated 【as】 moderate or poor.
+279 | They can offer insight into the evolution of their own experience and knowledge, presenting themselves 【as】 more approachable and then they are more likely to inspire others to want to know more.
+82 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years 【as】 more fathers feel comfortable taking extended time off, but gender bias persists when it comes to career prospects and the home, according to a new study of working parents.
+87 | Respond 【as】 most busy people do.
+579 | They are often regarded 【as】 most treasured talents.
+301 | Flexible seating has been defined 【as】 movable furniture to create an engaging learning environment.
+162 | It was from 1855 and worth 【as】 much 【as】 $2,000.    ?P:as much as ?P:as...as
+429 | Social media doesn’t reduce productivity nearly 【as】 much 【as】 it kills employee retention.    ?P:as much as ?P:as...as
+323 | The goal in this is to make the fans connect to the live experience 【as】 much 【as】 possible, and the tools you have to do that, we're not using at all.    ?P:as much as possible ?P:as much as ?P:as...as
+451 | the radiation dose to the tumour and restrict it 【as】 much 【as】 possible to healthy surrounding tissues and organs,” he says.    ?P:as much as possible ?P:as much as ?P:as...as
+546 | “【As】 much 【as】 talent counts, effort counts twice,” says Duckworth in Grit.    ?P:as much as ?P:as...as
+264 | It was found that American youngsters today don’t socialize nearly 【as】 much 【as】 the earlier generations.    ?P:as much as ?P:as...as
+277 | It sells the idea of the nap 【as】 much 【as】 the nap itself.    ?P:as much as ?P:as...as
+586 | We should care about other peoples’ view 【as】 much 【as】 they care about our own.    ?P:as much as ?P:as...as
+379 | Americans get twice 【as】 much 【as】 they need.    ?P:as much as ?P:as...as
+142 | Dogs match their behavior with kids 【as】 much 【as】 with adults.    ?P:as much as ?P:as...as
+115 | They have not seen 【as】 much diversity 【as】 desired.    ?P:as...as
+568 | Employees can benefit 【as】 much from remote working 【as】 their employers.    ?P:as...as
+385 | K) Twelve years into his career, Mark Long, a radiotherapy physicist with the NHS in Surrey, doesn’t get 【as】 much gaming
+556 | Entrepreneurs' ambition does 【as】 much good 【as】 harm.    ?P:as...as
+548 | It may do 【as】 much harm 【as】 good.    ?P:as...as
+370 | productivity stopped working around 1973.Thus, they had to keep working just 【as】 much in order to maintain their
+109 | were able to get twice 【as】 much money within the next eight years 【as】 those who just missed out.
+450 | Outer beauty can be 【as】 much of a curse 【as】 a blessing.    ?P:as...as
+449 | fruit to retain 【as】 much of its goodness 【as】 possible, according to Roger Clemens, professor of pharmaceutical    ?P:as...as
+598 | Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through 【as】 much of the store 【as】 possible, and be tempted along the way.    ?P:as...as
+328 | They say that kids use overly casual language and text-speak in writing, and don’t have 【as】 much patience for long reading and complex arguments.
+606 | It will not enjoy 【as】 much popularity 【as】 classical music and opera among music fans.    ?P:as...as
+144 | three times 【as】 much tap water 【as】 bottled water).    ?P:as...as
+187 | Why are people working just 【as】 much today 【as】    ?P:as...as
+200 | And kids enjoy it just 【as】 much today 【as】 you and I did when we were young.    ?P:as...as
+390 | For example, the United Nations reported that women do nearly three times 【as】 much unpaid domestic work 【as】 men.    ?P:as...as
+407 | People’s performance benefits from the perception of what they are doing 【as】 multitasking.
+327 | A recent study concluded that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity 【as】 multitasking has a positive effect on their performance.
+201 | fight phantom jams within a few years, maybe decades before an alternative solution, such 【as】 networked self-driving cars,    ?P:such as
+81 | The beach was not 【as】 nice or beautiful 【as】 it should be. [5] He felt so sad to see such a gorgeous place littered with so much trash.    ?P:as...as
+577 | 【as】 no surprise to anyone that classical music pieces are still used 【as】 background music in modern movies.
+395 | Fraudsters advertise their villas at reasonable prices so 【as】 not to be suspected.
+312 | While it may sound safe to avoid all physical contact so 【as】 not to offend anyone, the lack of touching might imply cold attitudes or indifference in interpersonal relationships.
+114 | Large surveys conducted over the course of many years tell us that American youth are not going to the cinema nearly 【as】 often 【as】 they did in the past.    ?P:as...as
+215 | However, that does not mean teens need to use electronic devices 【as】 often 【as】 they do now.    ?P:as...as
+197 | I) Hourican and his pupils have happy memories of spending a whole day at the museum, having been selected 【as】 one of 10
+394 | However, this issue with the golden rule can be dealt with in a general manner, by viewing this principle 【as】 one of several principles that we use to guide our behavior 【as】 individuals and 【as】 a society.    ?P:as...as
+560 | To this day, Red Rum’s third win is known 【as】 one of the greatest moments in horse racing history.
+157 | In fact, 【as】 one of the most damaging invasive species on the continent, (17) wild pigs cause millions of dollars in crop damage yearly.
+97 | It distinguishes itself 【as】 one of the oldest games.
+557 | Supermarkets have long been suffering 【as】 one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places to work or visit.
+365 | 【As】 one person controls the head, a second follows under a train of fabric representing the body.
+512 | 【As】 online courses tend to have more than 100 students, most of the assignments are short and simple.
+320 | Like evil, we often view heroism 【as】 only a possibility for outliers—for people who are abnormal.
+582 | With the validity of science coming under attack, there’s a need for scientific debates to be perceived 【as】 open and true to life.
+282 | New research from America studies the role that the presence of individuals from different social or racial groups has in influencing consumers’ food choices. [16] This research found college students were more likely to choose healthy food in the presence of an observer of a different race, 【as】 opposed to an observer from their own race.
+317 | Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—【as】 opposed to hastily wolfing down handfuls of cereal
+303 | 【as】 or better than younger employees in the same jobs.
+497 | 【As】 ordinary American workers’ average hourly pay had decreased despite increasing productivity, they had to work just 【as】
+331 | 【as】 other people, it follows that trying to identify more closely with our future selves will encourage us to make better long-
+290 | Some aspects of our language abilities, such 【as】 our knowledge of word    ?P:such as
+381 | heart disease — were applicable to the food and drink we generally consume 【as】 part of a healthy diet.
+244 | There’s nothing like playing 【as】 part of a unit to accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating with others.
+518 | Lion dance should be handed down to future generations 【as】 part of Chinese culture.
+95 | to take part this year and says that the project — funded by Deutsche Bank 【as】 part of its youth engagement programme
+296 | It included deer, birds, and many fish. [25] In England, King Henry I set up a collection of animals in about 1110 【as】 part of the royal estate.
+148 | Then over hundreds of thousands of years, those sounds turned into words that people began to learn 【as】 part of their language.
+287 | 【As】 participants answered, Hershfield's team recorded which parts of their brains
+541 | When he returned in 1977 to try again, he was largely regarded 【as】 past his prime.
+559 | None of these explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such 【as】 patience and risk avoidance.    ?P:such as
+233 | M: While most financial planners do give numbers, I don’t think that’s useful, 【as】 people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+94 | There are now dozens of criminal cases in which offenders have ___31___ themselves off 【as】 people of a different age, race
+316 | K) In more than a few passages, she relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly 【as】 pieces of flesh.
+351 | It is feared that a failure to address early-year challenges, such 【as】 poor handwriting, leads to much more serious problems down the line—with these pupils facing reduced career prospects.    ?P:such as
+145 | Of more than 9,700 people, roughly 85 percent were off base when asked to rate the quality of their diet, and almost all overestimated how healthy it was. [4] Those who rated their diet 【as】 poor tended to be far more accurate.
+167 | W: (11) I think they play football, but it’s not 【as】 popular 【as】 rugby.    ?P:as...as
+293 | It’s a team sport and they often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s not 【as】 popular 【as】 some sports, which means he has better odds of possibly getting an athletic scholarship in the future.    ?P:as...as
+133 | W: They are nowhere near 【as】 popular 【as】 they used to be when we were children.    ?P:as...as
+173 | For mums, 32, compared to women without children, the results weren’t quite 【as】 positive.
+511 | 【As】 Professor O’Keefe pointed out, “This research provides a useful direction for organizations whose products and services call for integrated and creative solutions.
+515 | They are also just 【as】 proficient in food preparation and cooking skills.
+111 | She even texted pictures of her and her husband eating there in 2017 【as】 proof.
+398 | Jobs had another great quote about saying “no”: “I’m actually 【as】 proud of the things we haven’t done 【as】 the things I have done.
+247 | Researchers think the zoo was started with animals brought home from a far-off land known 【as】 Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+239 | M: [10] We also give our kids pocket money, and the amount they get is linked to chores, such 【as】 putting the bins out and emptying the dishwasher.    ?P:such as
+387 | Proud residents then started to refer to Jan 【as】 Queen of Takotna.
+535 | (25-1) By contrast, other cultures may not see written contracts 【as】 quite so binding.
+357 | “Clinically,” she writes, “it’s common to see two patients with the same condition, such 【as】 recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such 【as】 their family relationships or their educational levels.    ?P:such as
+443 | Research found that, 【as】 regards achievement of one’s goals, it is important to focus more on enjoying the process than the
+131 | But 【as】 regards bones, it's ___30___ use it or lose it: To keep your bones strong you have to keep exercising.
+426 | Despite the classification, there are more complex factors such 【as】 relational closeness, gender, age, and context that can affect how someone views physical contact.    ?P:such as
+388 | H) Compared with other mammals, our numerical instincts are not 【as】 remarkable 【as】 many assume.    ?P:as...as
+487 | 【As】 remote work is largely unobservable to supervisors, employers need to think about how they can objectively measure the quality of work in a way that is consistent for employees of similar rank.
+105 | We make these observations 【as】 research psychologists who have studied how
+172 | Analysis of the data showed that countries with strong women’s rights had better health than those where women’s rights were not 【as】 respected.
+169 | Those between the ages of 18 and 34 prioritized it most, and that prioritization dropped off 【as】 respondents’ ages went up.
+406 | But this should not stop you from taking risks, 【as】 risks are necessary if you want your business to succeed.    ?P:take sth as
+250 | G) Traffic jams are caused by a number of factors, such 【as】 roads that are poorly designed or over-capacity, localized factors    ?P:such ... that ?P:such as
+566 | vegetable burger years ago and dismissed it 【as】 rubbery and flavorless, it’s a good time to give meatless meat another chance.
+272 | We say “yes” to many requests not because we want to do them, but because we don’t want to be seen 【as】 rude or unhelpful.    ?P:be seen as
+570 | Issues such 【as】 safety of the product and perception of the public were examined and considered.    ?P:such as
+363 | It has also been noted that Siri lacks a proper editing function, 【as】 saying "Edit message to say: we're at Silver Cloud restaurant and you should come find us" generates "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us".
+191 | Certain institutions, such 【as】 schools are likely to close when bad weather, such 【as】 snow, flooding, or extreme heat or    ?P:such as
+562 | Ultimately, misleading results will be corrected 【as】 science
+474 | Recently, chocolate lovers were heartbroken 【as】 scientists claimed that they can become extinct by 2050!
+307 | The passports of many countries can take images of their well-known geographical features and wildlife, which also function 【as】 security features 【as】 some are only visible under a special light.    ?P:as...as
+322 | In one example, the phrase "Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant" was interpreted 【as】 sending a message to Jason only, containing the text "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant".
+166 | They are regarded 【as】 seriously binding.
+458 | In parts of the Middle East, you’ll find spoken word agreements are seen 【as】 seriously binding.
+165 | Imagine going from reading texts 【as】 short 【as】 one or two sentences to trying to read entire books written in complex language and containing sophisticated ideas.    ?P:as...as
+456 | In contrast, in certain Arabian, African, and Asian countries, men can publicly hold hands or show physical affection 【as】 signs of brotherhood or friendship while these behaviors may suggest a romantic relationship in other parts of the world.
+500 | According to a management expert, work-life balance is not 【as】 simple 【as】 giving equal amounts of time to work and    ?P:as...as
+206 | 【as】 simple 【as】 giving kids room to play, tinker and try things out, even 【as】 they grow older.    ?P:as...as
+463 | For one, starting on a new career path is not 【as】 simple 【as】 watching a few videos and obtaining an online certificate; even those looking to continue previous careers can’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.    ?P:as...as
+509 | Stress is so normalized that it is easy for women to shrug off those symptoms 【as】 simply the consequences of stress.
+291 | But I’ve seen your blog, and you write about houses that are 【as】 small 【as】 20 square meters. [13] That’s not a realistic size for families.    ?P:as...as
+587 | less qualified and not 【as】 smart 【as】 I was.    ?P:as...as
+284 | In fact, they spend hours changing Facebook settings or using quick-delete sharing tools, such 【as】 Snapchat, to minimise their traces.    ?P:such as
+141 | No escape 【as】 “snow day” becomes “e-learning day”
+203 | That segment was too brief, especially 【as】 so many people have that problem.
+594 | Our identity 【as】 social beings will be affected.
+86 | More recent studies have suggested that factors such 【as】 social class or economic background have more to do with these diagnoses than month of birth.    ?P:such as
+192 | Dogs view both adults and kids 【as】 social companions.
+413 | This suggests that while dogs may view children 【as】 social companions, there are also some differences that we need to understand better.
+170 | Despite smartphones and social media, young people today are 【as】 socially competent 【as】 those from the previous generation.    ?P:as...as
+281 | We will probably have to change where we grow certain crops, 【as】 some regions get too hot.
+537 | For people with limited ambition, however, failure is viewed 【as】 something closer to reality.
+182 | Regarding failure 【as】 something inevitable.
+513 | In the US, France and Germany, written contracts tend to be seen 【as】 something that must be strictly carried out.    ?P:be seen as
+412 | The concept is often presented 【as】 something to achieve,
+467 | Phrases like “I have limited access to email” and “I’ll respond 【as】 soon 【as】 I get back” sound like you’re being held against your will from working 【as】 opposed to making the most of your time off.    ?P:as soon as ?P:as...as
+283 | 【As】 soon 【as】 two tasks require our attention, productivity suffers.    ?P:as soon as ?P:as...as
+240 | tradition is now over for pupils in several US states such 【as】 South Carolina, Nevada, Georgia and Indiana.    ?P:such as
+168 | Fraudsters also invest in pay-per-click advertising to feature at the top of search engines when people type in phrases such 【as】 “Spanish seaside villas”.    ?P:such as
+573 | We found that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such 【as】 spending their company’s money less carefully—explains these differences.    ?P:such as
+524 | point was reached in 2020 when human-made materials — such 【as】 steel, concrete and plastic — were found to weigh more    ?P:such as
+471 | Regarding our future selves 【as】 still being ourselves will help us make better long-term decisions.
+305 | They consume the pies 【as】 stomach warming race fuel.
+223 | 【As】 such, they’re more likely to be “let down” by the experience.    ?P:as such
+481 | who got one with luck, 【as】 suggested in one study.
+196 | faces may have important implications for security and crime prevention 【as】 super realistic masks may ___34___ the key
+238 | Words considered to be concrete could be easily visualized such 【as】 “table” or “chair”.    ?P:such as
+614 | simple 【as】 taking a different route to the grocery store or going somewhere new on vacation can keep the brain healthy.
+204 | E) “There are plenty of soft skills that gamers can utilise in a professional setting, such 【as】 teamwork, problem solving and    ?P:such as
+354 | Teeth have three layers, only one of which—the innermost layer of the tooth—can hurt, 【as】 that layer of the tooth _33_ both blood vessels and nerves.
+278 | E) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it 【as】 that other motorsport, the one that is not NASCAR (纳斯卡车赛).
+160 | The phenomenon is often referred to 【as】 the
+368 | The business perspective offers a different view: multitasking is understood 【as】 the ability to adapt to all types of environment within a company and effectively undertake different activities within a set time frame.
+220 | They were also rated similarly on self-control, such 【as】 the ability to regulate their temper.    ?P:such as
+504 | By affecting what we take 【as】 the basis for assessment.    ?P:take sth as
+612 | New pathways can strengthen our ever-changing mental structure, even 【as】 the brain shrinks.
+492 | M) Then, on race day, he watched 【as】 the cars rocketed out of a tunnel and went screaming toward a tight turn with the city's harbor and the Mediterranean Sea in the background framing the scene.
+212 | M: No, duck hunting seemingly exists 【as】 the continuation of a tradition.
+129 | They may regard any difference 【as】 the end of a relationship.
+564 | Act 【as】 the first defense against natural disasters.
+567 | Perhaps more important, 【as】 the global economy continues to be disrupted by technology and
+604 | Today, a greater and greater proportion of people living on the streets are there because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just 【as】 the housing market was growing increasingly unforgiving.
+402 | This is intentional 【as】 the informal tone of the assistant helps create an emotional attachment.
+399 | If you’re weary of full colour, test your tolerance with smaller spaces, such 【as】 the inside of a cupboard or a bright window frame.    ?P:such as
+270 | For example, a traditional Mediterranean diet includes fruits, vegetables, whole grains, nuts and olive oil 【as】 the main components of nutritional intake.
+177 | Some think voice could soon take over from typing and clicking 【as】 the main way to interact online.
+199 | Famously ___26___ to 【as】 “The Master of Suspense”,
+149 | By taking it 【as】 the New Year resolution.    ?P:take sth as
+88 | 【As】 the night goes on, groups of riders are often seen traveling in just about every direction in the streets and on pedestrian paths.
+468 | 【As】 the old saying goes, “Nothing ventured, nothing gained.
+243 | K) 【As】 the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental
+314 | Different people tend to be exposed to different forms of the golden rule, based on factors such 【as】 the religion in their society.    ?P:such as
+454 | 【As】 the scholar Silvia Federici put it in 1975, the unpaid nature of domestic work reinforces the assumption that “housework is not work, thus preventing women from struggling against it.
+107 | Americans now live alone, and 【as】 the song says, one is the loneliest number.
+237 | Remember that you will have to have all your certificates to hand when you are filling out the forms, 【as】 the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+603 | In the early days, 【as】 the supermarket multiplied, so did our suspicion of it.
+120 | G) If you are a low-income student who will be attending school out-of-state, make sure you know if you can use your state benefits, such 【as】 the Supplemental Nutrition Assistance Program, or SNAP.    ?P:such as
+433 | One can also paint the wooden frameworks the same colour 【as】 the walls, helping the rooms look bigger.
+435 | 【As】 the world migrant crisis intensifies, employment is becoming a global concern.
+117 | They’ll have pictures of a sales team and it might be a poor actor in New York that is down 【as】 their head of sales.
+475 | A household pet can also cultivate a child’s sense of responsibility 【as】 their parent explains the necessary processes of keeping their pet happy and healthy.
+525 | Taking children along to the pet shop to buy food and supplies will support their cognitive development 【as】 their passion for learning flourishes.
+416 | Participation of ninth graders in Design Ventura can motivate them to choose design technology 【as】 their subject.
+276 | Even turning your voice into text—automatic speech recognition—is one of the hardest problems to solve, 【as】 there are 【as】 many ways to pronounce things 【as】 there are people on the planet.    ?P:as...as
+306 | transform our quantitative reasoning 【as】 they are introduced into our cognitive experience by our
+202 | parking spots, 【as】 they argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman.
+330 | Although born gray, males of the species are easily identified 【as】 they enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting or a serious bid for a mate.
+207 | The craft will use the heat of re-entry to roast coffee beans 【as】 they float inside it in a pressurised tank.
+235 | 【As】 they gain experience with living online, they begin to adjust their behaviour, struggling with new communication skills, 【as】 they do in the real world.
+186 | Indeed, 【as】 they get older and are given more freedom, they often ease up on social networking.
+261 | Homework is an important part of schooling, but the purposes of giving children homework will change 【as】 they grow older.
+404 | The dancers move in harmony 【as】 they imitate the animal's natural movements in the wild, including the aggressiveness of an attack.
+181 | On a recent Friday evening, the teenagers made their way across the studio floor 【as】 they practiced Chinese lion dancing.
+251 | E) This little story turns out to be a fascinating glimpse at the challenges cities face 【as】 they try to update their urban
+324 | "We're a big family," he said, shaking hands with other members 【as】 they walked through the door.
+476 | Their conclusions about what The Guardian described 【as】 this “sweet spot” are in line with the so-called Goldilocks
+527 | is currently being produced uses similar beats, harmonies, and melodies 【as】 those that were used in some of classical
+617 | Their wisdom grows 【as】 time goes by.    ?P:as time goes by
+383 | The age-long mystery has now been resolved 【as】 to how phantom traffic jams are caused.
+405 | For now, the jury is still out 【as】 to how successful those endeavours will be.
+232 | Expect future success so 【as】 to move forward.    ?P:so as to
+419 | Before systems for bilateral control are installed, drivers should not follow the car in front too closely so 【as】 to reduce    ?P:so as to ?P:too...to
+538 | People's opinions differ 【as】 to whether Formula One can be promoted in the U.S.
+501 | If you are not aware 【as】 to why
+325 | In other words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access 【as】 today.
+211 | The study also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because they are less likely to see themselves 【as】 “too good” for someone else.
+313 | You might think of your teeth 【as】 tools, like built-in knives and forks, but if they are mere tools, why do they feel pain and wouldn’t it be better if they could just _26_ under any condition?    ?P:think of sth as
+589 | Most of them are sold 【as】 true fake meat
+408 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such 【as】 “u” for “you”, and 【as】 students got older, they began to write in more grammatical sentences.    ?P:as...as ?P:such as
+265 | It regards written contracts 【as】 unalterable.
+414 | Financial courses were 【as】 unpopular 【as】 compulsory English classes.    ?P:as...as
+85 | The former ___31___ such things 【as】 walking, jogging and cycling and means exercising in such a
+498 | 【As】 was expected, when people thought of their present selves, their brains were observed to become more active.
+127 | However, 【as】 water supplies __35__, farmers and consumers need to be more conscious of the effect that these products have on the environment 【as】 a whole.    ?P:as a whole
+185 | 【As】 we all know, cultural or individual differences in personal bubble diameters are all too often the cause of discomfort.
+505 | Eventually we’ll find those compatible souls who appreciate us 【as】 we are.
+605 | Love ourselves 【as】 we are.
+286 | W: I should be fine with doing it on your website, and I already have all my certificates, 【as】 we run a small farm shop too.
+478 | us and appreciate us 【as】 we take the courageous risk to allow ourselves to be seen 【as】 we really are.    ?P:be seen as
+230 | It seems clear that this principle applies to men, 【as】 well.    ?P:as well
+249 | Customer satisfaction takes a hit 【as】 well.    ?P:take sth as ?P:as well
+262 | Because when you are enjoying, people around you will begin to enjoy 【as】 well.    ?P:as well
+360 | Big advances in speech recognition technology have enabled communication tools to turn live speech into text in real time on your smartphone or laptop, and sign language into text 【as】 well.    ?P:as well
+461 | Additionally, a painted ceiling is a magical thing without being too obvious and can affect how the space feels 【as】 well.    ?P:as well
+534 | The office hours of the professor may also be during inconvenient times for many students 【as】 well.    ?P:as well
+563 | In order to sustain those relationships, you must be able to work in their best interests 【as】 well.    ?P:as well
+611 | The U.S. has changed from a farming economy to a knowledge- and innovation-based economy, so it makes sense for the school year to change 【as】 well.    ?P:as well
+194 | international water brands, 【as】 well 【as】 a range of new companies, are selling high-end reusable bottles.    ?P:as well as ?P:as...as ?P:as well
+615 | shows improved function and memory 【as】 well 【as】 a reduced risk of mental disease.    ?P:as well as ?P:as...as ?P:as well
+246 | product is going on sale for real and the boys had to learn about budgeting and marketing, 【as】 well 【as】 designing their game.    ?P:as well as ?P:as...as ?P:as well
+188 | W: [13] It says on your website that you are still looking for vendors, and I grow organic vegetables on my farm, 【as】 well 【as】 doing my own home baking.    ?P:as well as ?P:as...as ?P:as well
+519 | To ensure employees 【as】 well 【as】 employers truly have time off.    ?P:as well as ?P:as...as ?P:as well
+138 | [6] If the clone continues to perform 【as】 well 【as】 expected, it could mean a huge reduction in the training time for police dogs, which usually takes about five years.    ?P:as well as ?P:as...as ?P:as well
+361 | It’s time for us to understand deviance, and realize its potential for good 【as】 well 【as】 for harm.    ?P:as well as ?P:as...as ?P:as well
+528 | It may lead to bad 【as】 well 【as】 good habits.    ?P:as well as ?P:as...as ?P:as well
+378 | This is the equivalent produced by your average car driving almost 70 times around the world. [16] 【As】 well 【as】 greenhouse gases, rocket engines emit particles that destroy ozone.    ?P:as well as ?P:as...as ?P:as well
+545 | They can make unlovely spaces lovely, and marry use and beauty 【as】 well 【as】 help promote a sense of community.    ?P:as well as ?P:as...as ?P:as well
+410 | individuals how enjoyable it was to pursue their goal, 【as】 well 【as】 how important their goal was.    ?P:as well as ?P:as...as ?P:as well
+401 | “Coursera for Refugees” will be available for any non-profit group that supports refugees in any country, 【as】 well 【as】 individual refugees.    ?P:as well as ?P:as...as ?P:as well
+499 | It makes enjoyable 【as】 well 【as】 informative reading.    ?P:as well as ?P:as...as ?P:as well
+164 | Such cats displayed more aggressive and anxious behavioural styles 【as】 well 【as】 more stress-related sickness.    ?P:as well as ?P:as...as ?P:as well
+393 | F) Start by writing down the things you didn’t like about previous employers, 【as】 well 【as】 the parts you really valued.    ?P:as well as ?P:as...as ?P:as well
+403 | At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, 【as】 well 【as】 the start of Fox News Channel.    ?P:as well as ?P:as...as ?P:as well
+427 | This will help you immediately identify what you’re looking for in an organization, 【as】 well 【as】 the things you’re trying to stay far, far away from.    ?P:as well as ?P:as...as ?P:as well
+242 | I just got a credit card, so I thought I might 【as】 well buy a new phone.    ?P:might as well ?P:as well
+210 | schools or universities do just 【as】 well later in life 【as】 those who just manage to get accepted.    ?P:as...as ?P:as well
+227 | "They tell us the methods their forefathers used to predict the weather don't seem to work 【as】 well these days.    ?P:as well
+152 | to remember that many of the choices you make, such 【as】 what to have for lunch, will not ___32___ much in the future and    ?P:such as
+469 | This is precisely why parents still need to set firm boundaries around it, 【as】 with any other distraction.
+540 | We wanted to determine what was causing these gender differences in booking business trips so we tested a variety of possible explanations, such 【as】 women choosing to plan ahead or male frequent travelers being inclined to book late.    ?P:such as
+350 | Some people may argue that this is merely reported data, and they say many men feel the same pressures 【as】 women in terms of fulfilling responsibilities at work and home.
+424 | The problem is, housework is often overlooked 【as】 work, even though it is often 【as】 laborious (or in some cases, more so) 【as】 any paid job.
+154 | computer games 【as】 work experience in our resume.
+375 | Few topics have been so endlessly analysed 【as】 work-life balance.
+341 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering 【as】 worthwhile.
+384 | considerations such 【as】 years of slow rise in real wages and a shift away from traditional pensions in the private sector are    ?P:such as
+121 | 【As】 you are already a member, the fee of the class will just be added to your monthly bill.
+321 | Try to remember that 【as】 you are staring at the application for your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that might be).
+542 | 【As】 you become more capable of providing yourself with the approval you seek, your need for external validation will
+460 | The opportunity cost of your time increases 【as】 you become more successful.
+298 | So 【as】 you can see, when it comes to choices, less is more.
+432 | H) Over time, 【as】 you continue to improve and succeed, your strategy needs to change.
+263 | Participants who usually struggled to handle negative emotions were more intensely affected by the sad clips, just 【as】 you’d expect.
+158 | 【As】 you read this, you are likely aware of what time it is, how old you are, your checking
+96 | 【As】 you said, he had had it for most of his life.
+140 | [6] Electric bike riders have to follow all the same rules 【as】 you would if you were in an automobile.
+271 | At that point, your heat regulatory system can essentially quit, which stops you from sweating 【as】 your body tries to keep water around your vital organs.
+150 | I don’t know if that’s a good idea 【as】 your mother and I would worry about you living all by yourself in an apartment so far from home. [9] And then there’s the expense, too.
+488 | 【As】 your skills improve and you learn to separate what works from what doesn’t, you have to continually increase your threshold for saying “yes”.

@@ -40,7 +40,7 @@ slim = [{
     "rank": e["rank"], "word": e["word"], "syl": e["syl"],
     "uk": e["uk"], "us": e["us"], "def": e["def"],
     "ex_label": e["ex_label"], "ex": e["ex"], "root": e["root"],
-    "core": e.get("core"),
+    "core": e.get("core"), "phr": e.get("phr") or [],
 } for e in DATA]
 
 

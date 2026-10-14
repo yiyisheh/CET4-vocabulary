@@ -1,0 +1,616 @@
+# 任务 C_r1_22：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_22.labels.txt
+
+============================================================
+## 词：of    本段 600 句    模式：全标（每句都写）
+原释义：prep.…的; 属于; 由…组成的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  prep. ……的（所属、关系、内容，如 the end of the day, the importance of）    B 样本 53    例：They were both 60 years of age.
+  1  prep. ……中的（部分、数量、种类，如 one of, a piece of, thousands of）    B 样本 18    例：Part of its dam wall collapsed.
+  2  prep. 关于，对（think of, afraid of, fond of）    B 样本 4    例：He is fond of luxury cat food.
+  3  prep. 由……制成，由……构成（made of）    B 样本 0
+  4  prep. （表示分离、原因）离，脱离，因（independent of, free of, die of）    B 样本 1    例：This is because other effects of red meat consumption could contribute to heart disease independent of cholesterol.
+  5  prep. （人名后）来自，住在（Vaclav Bursa, 15, of Florida）    B 样本 1    例：Vaclav Bursa, 15, of Big Pine Key, Florida, finished first overall.
+已标过的短语：ahead of（2）；on behalf of（1）；of course（1）；a number of（1）；make use of（1）；in the process of（1）；walks of life（1）；a variety of（1）
+口径说明（照此执行）：
+  - of 前后是名词的一般修饰/所属关系一律标 0（含 University of California、city of X 这类专名）；表数量、部分（one of、a piece of、part of、most of、a team of）标 1；形容词/动词后的 of（afraid of, fond of, think of, accuse of）标 2；a lot of / a number of / a variety of / of course / ahead of / on behalf of / make use of / in terms of / because of / instead of / out of 等按 P 标。
+句子：
+1898 | Height, for example, depends on hundreds 【of】
+1983 | K) “Work-life balance is understood to be an individual’s response, so people think ‘it’s up to me to manage the craziness 【of】
+2071 | People with a great amount 【of】
+2168 | Meatless meats are generally a healthier choice than beef because they are cholesterol-free, plus they're a good source 【of】
+2307 | Consequently, all human body functions also follow this daily rhythm, and the timing 【of】
+2401 | But the new research suggests that a “modest degree 【of】
+2449 | It has become a crucial part 【of】
+2479 | 48 What may account for our need to be liked or approved 【of】?
+1967 | Clues about the culture 【of】 a company can be found on its website.
+2088 | A chat with an insider 【of】 a company can give job applicants very useful information when they prepare for an interview.
+1936 | This is why it’s so important to know which aspects 【of】 a company’s culture you value most.
+1911 | The hyphenation is the epitome (体现) 【of】 a compromise.
+2334 | the middle 【of】 a critical meeting, are expected to instantly fix the projector that's no longer working.
+1925 | G) So while we know that fruit juice can cause diabetes if it’s part 【of】 a diet that has more calories overall, it's less clear how
+2014 | Organisers 【of】 a famous music festival
+2029 | Technology, no matter how advanced, should simply be a tool 【of】 a good teacher.
+2117 | The benefits 【of】 a growth mindset 【of】 interest may also extend to those seeking employment.
+1981 | 43 People ate more 【of】 a healthy food when they focused on its good taste instead 【of】 its long-term benefits.    ?P:instead of
+2332 | modify can react differently to the medicine over the course 【of】 a 24-hour time period.
+2197 | However, “the whole concept 【of】 a juice diet helping to remove poisonous or harmful substances from the
+2415 | What is the argument against the experts' idea 【of】 a long summer vacation?
+2308 | The researchers argued that previous interventions have probably been unsuccessful because 【of】 a major    ?P:because of
+2200 | One who enjoys playing games that require management skills to win might possess more qualities 【of】 a manager.
+2106 | One group presented their idea in the form 【of】 a puppet show and we see    ?P:in the form of
+2417 | What do we learn from the conclusion 【of】 a recent study on multitasking?
+1944 | The revolutionary idea 【of】 a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America.
+2125 | What does the passage say about the idea 【of】 a self-service grocery?
+2005 | They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour 【of】 a suburban-Maryland Giant Food.
+2121 | The benefits 【of】 a traditional Mediterranean diet have been studied since the 1970s, and researchers have found that living that olive oil life can help people lose weight, lower their heart disease risk and reverse diabetes.
+2044 | month one chief executive 【of】 a water bottling company said that bans would “result in greater consumption 【of】 sugary drinks,
+2274 | It is characteristic 【of】 academics in presenting arguments.
+1923 | Broadening their knowledge 【of】 accident-prevention mechanisms.
+2049 | Now, she notes ironically, the lanes are so foil 【of】 activity that opponents    ?P:so...that
+1902 | “The basics 【of】 adequate sleep, healthy diet and exercise are a good place to start,” Dr.
+2034 | One in which the upper classes deprive the lower classes 【of】 affordable housing.
+2390 | By sharing knowledge 【of】 agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce these problems.
+2118 | First 【of】 all, students lack the desire to learn, and they simply complete their assignments to receive credit for a passing grade rather than genuinely engage with the course material.    ?P:first of all
+2419 | So what should we make 【of】 all this?
+2459 | It is an adaptable capability required 【of】 all workers.
+2425 | New generations 【of】 alternate meat.
+2226 | These new generations 【of】 alternate meat get all the attention, but don’t forget about whole grains and vegetables.
+2184 | But an excess 【of】 ambition can also be dangerous, putting you at risk 【of】 burnout, stubbornness and even a shorter life.
+2154 | Clearly, some amount 【of】 ambition is good for your motivation.
+2291 | What is typical 【of】 Americans in the way 【of】 eating?
+2104 | Kinvara Carey, general manager 【of】 an association 【of】
+2058 | At the end 【of】 an interview, a job applicant should seize the opportunity to get answers to their urgent questions.
+1900 | verbal and written representations 【of】 an uncommon base-60 number system used in ancient
+2473 | Cultivation 【of】 analytical thinking ability.
+2250 | bar or drink, we also risk missing out on the rich sources 【of】 antioxidants , vitamins and many other benefits 【of】
+2369 | Teachers and students experience a closer relationship in year-round schools than they do in traditional schools and, in the absence 【of】 any long-term break, students do not feel detached from the school environment.
+2448 | They were incapable 【of】 appealing to teens’ instinct for rebelliousness.
+2092 | What does the author say about China in terms 【of】 aquatic food?    ?P:in terms of
+2451 | Curiosity covers such a large set 【of】 behaviors that there probably isn’t any single “curiosity gene” that makes humans wonder about and explore their environment.
+2318 | Their ignorance 【of】 behavioural science.
+1894 | We may develop a habit 【of】 being so focused on maintaining a
+1896 | Ricci, who had always dreamed 【of】 being the boss 【of】 his own company, ran an in-game corporation comprising hundreds
+1972 | Prioritizing the provision 【of】 better nutrition for lower classes.
+2441 | place to catch instances 【of】 bias that affect research outcomes.
+2019 | oversaw a rollout 【of】 bike lanes — and got angry blowback from residents and business owners who claimed there
+2063 | Intelligent people are more prone to silly mistakes because 【of】 blind spots in how they use logic.    ?P:because of
+1932 | What does the author suggest people do to get rid 【of】 boredom?    ?P:get rid of
+2327 | between concern, intent and changed behaviour,” says Giles Quick an analyst 【of】 bottled water.
+2464 | Sales 【of】 bottled water in Britain hit a record high last year even though people are increasingly aware that plastics are
+2386 | The importance 【of】 broadening children’s horizons.
+2215 | According to a recent study, one in five highly engaged employees is at risk 【of】 burnout (精疲力竭).
+2370 | What do we learn about the culture 【of】 busyness from a recent study?
+2187 | This culture 【of】 busyness is making it hard for
+1893 | control when they don’t lead to over-consumption 【of】 calories.
+2017 | recommended daily number 【of】 calories (around 2,000 for women and 2,500 for men) on the days we drink juice, according
+2377 | Americans can absorb the number 【of】 calories recommended by food experts.
+2079 | have turned to claiming the problem is the opposite: There are too many cyclists getting in the way 【of】 cars.    ?P:get in the way of
+2316 | They consume plenty 【of】 cereal for breakfast.
+2426 | They can reduce unwanted side effects 【of】 certain medicines.
+1914 | For as long as there are homeless people, there is a tendency to blame the victims themselves for their condition—to see their failure to thrive as an issue 【of】 character, 【of】 moral weakness, 【of】 laziness.
+2365 | They keep changing their ways 【of】 cheating.
+2217 | The complexity 【of】 circumstances.
+1946 | One consequence 【of】 climate change is that some people may not have adequate access to certain foods.
+2359 | have to tolerate the bad tempers 【of】 colleagues frustrated at the number 【of】 times they've had to call the help
+1912 | An abundant source 【of】 comforts.
+1901 | It may prevent people from developing a genuine sense 【of】 community.
+2398 | They can make unlovely spaces lovely, and marry use and beauty as well as help promote a sense 【of】 community.
+2046 | “Now that design education is limited in the curriculum, I’m all in favour 【of】 competitions
+2371 | But having to pay attention to several things at once means that the powers 【of】 concentration are reduced and that can lead to more mistakes.
+2136 | “I’m always impressed by the levels 【of】 confidence and the support the students get
+1987 | But we have a higher risk 【of】 consuming more than the
+2255 | featuring sports stars, send the message that we can neutralize any negative effects 【of】 consuming their products simply by
+1913 | For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused 【of】 contributing to climate change.
+1889 | I) 【Of】 course, finding that balance probably shouldn’t be something you have to do by yourself.    ?P:of course
+1973 | L) What matters, 【of】 course, is that the two 【of】 you are going to be happily married—hopefully for the 【of】 your lives.    ?P:of course
+2421 | also, 【of】 course, our first defense against species loss and climate change.    ?P:of course
+2373 | And, 【of】 course, some researchers today still fund small-scale studies out 【of】 their own pockets.    ?P:of course
+2130 | And, 【of】 course, they are compensated for it at a level that makes it worth their    ?P:of course
+2431 | The urgency 【of】 creating teacher education programs.
+2254 | In a war 【of】 culture, data does not help much in changing people’s minds.
+2075 | deficiency because simply by eating an adequate number 【of】 daily calories we are also most likely getting enough protein.
+2271 | What should we do when facing various factors that limit the practicability 【of】 data?
+2199 | An increasing amount 【of】 data indicates that installing bike lanes raises local business revenues.
+2069 | Absence 【of】 definitive criteria, and time and resource constraints, and novel situations are instances which limit the practicality 【of】 data.
+1891 | It likely won’t fully protect automakers against accusations 【of】 deliberate cheating.
+2166 | M) Ritman Smith adds: “Design technology has become a tricky subject to make a case for, and we’ve heard 【of】 departments    ?P:hear of
+2475 | A study published in 2002 in Personality and Individual Differences suggested that emotionally perceptive people might be particularly influenced by feelings 【of】 depression and hopelessness.
+1882 | It is neither desirable nor morally acceptable nor practical for this county to tolerate the signs 【of】 deprivation more commonly associated with the slums 【of】 Rio de Janeiro.
+2329 | Design Ventura is welcomed by teachers because it helps to prove the worth 【of】 design as a school subject.
+2278 | One 【of】 Design Ventura’s judges says the competition adds vigour to the standard curriculum in schools.
+2195 | and liver function and increase risks 【of】 developing heart disease and cancer.
+2007 | One possible solution to the food security problem is diversification 【of】 diet.
+2429 | Be doubtful 【of】 diet experts' recommendations.
+2083 | An in-depth study 【of】 differences between human languages contributes to a true understanding 【of】
+2261 | People 【of】 different ages have different mindsets.
+2247 | It uses comparison and contrast in describing fashions 【of】 different eras
+1924 | students helped to make decisions and there were plenty 【of】 discussions — they changed the product’s name, for example.
+2086 | It may cause a shortage 【of】 doctors.
+1928 | Eventually, he realised he could transfer his skills to real-life business — instead 【of】 doing it for free.    ?P:instead of
+2394 | An operating system capable 【of】 doing several tasks at once.
+2201 | There are cognitive ( -iA  {JI.;) benefits 【of】 doing things the way we did as children-building
+2156 | They account for the majority 【of】 drug addicts.
+2469 | Their job satisfaction, too, can surge when well-functioning machines relieve them 【of】 dull tasks or
+2378 | New research suggests that pandas may be at risk 【of】 dying out because they are too comfortable.
+2081 | The challenge in determining the role 【of】 each individual gene.
+2038 | The sense 【of】 eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.
+2116 | Nationwide, only about three percent 【of】 early childhood teachers are male in the U.S.
+2450 | The goal was to reach the top, accumulate wealth and retire to a life 【of】 ease.
+2380 | Why can the habit 【of】 eating a plant-based diet lead to better health?
+2258 | The growing trend 【of】 eating out.
+2239 | They set the bar too high, and when people take too long or don’t get things quite right, they assume it’s due too lack 【of】 effort.
+2368 | They put a lot 【of】 effort into their work.    ?P:a lot of
+2317 | Despite decades 【of】 effort to eliminate hunger, the latest estimate is that about 11% 【of】 people on the planet (about 820 million people) are suffering daily undernourishment.
+2455 | Indeed, the study adds to previous research hinting at a dark side 【of】 emotional intelligence.
+2343 | They may experience a lot 【of】 emotional stress.    ?P:a lot of
+2385 | It benefits employers at the expense 【of】 employees.
+2393 | It compels some 20% 【of】 employees to appear always busy.
+2414 | Refugees who settle in other countries often find themselves unable to continue on their previous career path due to a new set 【of】 employer standards or skills requirements.
+1937 | make eye contact or assess a student’s level 【of】 engagement.
+2008 | But it’s possible to avoid such costly mistakes by making a habit 【of】 engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future 【of】 your venture.    ?P:make a habit of
+2297 | The business perspective offers a different view: multitasking is understood as the ability to adapt to all types 【of】 environment within a company and effectively undertake different activities within a set time frame.
+1929 | genes, each contributing a little to the outcome, together with a bunch 【of】 environmental factors.
+2189 | The likelihood 【of】 errors.
+1979 | These reduce the likelihood 【of】 errors and increase the chances 【of】 success.
+2340 | Students were in urgent need 【of】 ethical education.
+2236 | What do we learn from the study by the Josephson Institute 【of】 Ethics?
+2090 | A study by the Josephson Institute 【of】 Ethics interviewed 23,000 high school students and asked them a variety 【of】 questions about academic ethics.    ?P:a variety of
+2124 | One major side effect 【of】 excessive ambition is the tendency to focus too determinedly on one particular vision or end goal.
+1978 | One reason having a rival can enhance your venture’s performance is that it creates a level 【of】 excitement that drives you to work harder.
+1887 | Other studies have shown a greater uptake 【of】 exercise in people who were told to think 【of】 the enjoyment 【of】 doing the exercise
+2282 | But recent studies show a lack 【of】 exercise is not to blame for rising obesity rates.
+2427 | They claim that lack 【of】 exercise is to blame for the increasing obesity rates.
+2210 | It is the safety net for those who fall off the edge 【of】 existence.
+2067 | A number 【of】 existing farming technologies could be used to reduce the negative effect 【of】 climate change on food production.    ?P:a number of
+2311 | This would be a form 【of】 expropriation (侵占), with employees absorbing production costs that have traditionally been paid by the employer.
+2294 | What does the author say is 【of】 extreme importance for one to become a successful entrepreneur?
+2249 | It also launched a range 【of】 fancy bottles that work with tap water and flavour    ?P:a range of
+1982 | Ford takes the reader through the evolution 【of】 fashion while examining the underlying motivations 【of】 status: sex, power,
+2126 | They are the victims 【of】 fast economic development.
+2409 | The responsibilities 【of】 fathers for children’s growth.
+2400 | What foods have been largely out 【of】 favor for more than a century?
+2466 | Diets containing large amounts 【of】 fibre reduce the risk 【of】 heart disease, diabetes and other health hazards.
+1905 | M) What are my chances 【of】 finding all 【of】 those things with one employer?
+1909 | That’s because the volume 【of】 fish caught in the wild has leveled off since the 1990s.
+2062 | Expand the scale 【of】 fish-farming continuously.
+1975 | Shopping for food involved mud, noisy chickens, clouds 【of】 flies, nasty smells, bargaining, and getting short-changed.
+2238 | It is a response to solving the problem 【of】 food instability.
+2300 | What does the author say is the greatest strength 【of】 Ford's book?
+2220 | What does the author think 【of】 Ford's writing?
+2111 | The difficulty 【of】 foretelling how the various genes will interact.
+2134 | 【of】 fountains are being installed in London.
+2229 | Research shows that given 15 minutes 【of】 free play,
+2355 | It particularly comes with risks when we consume more than 150ml 【of】 free sugars per day, or when it puts us
+2035 | Most stores open with flowers, fruit and vegetables at the front as a breath 【of】 freshness to arouse our appetite.
+2424 | The claimed health benefits 【of】 fruit and vegetable juices have rendered the industry very profitable.
+2305 | “People try to get five servings 【of】 fruit and vegetables
+2352 | day, the recommendation to have at least five portions 【of】 fruit and vegetables every day.
+2107 | One way we can improve the effects 【of】 fruit juice on our health is making sure we select ripe
+2077 | H) As it is easy to consume large amounts 【of】 fruit juice quite quickly, extra calories are taken in.
+2446 | To increase the benefits 【of】 fruit juice to our health, we’d better choose ripe fruit to make juice.
+2312 | It helps raise children’s awareness 【of】 gender roles.
+2146 | Experts say this can have an impact on young children whose understanding 【of】 gender roles and identity are rapidly forming.
+2205 | “In our world and our society, we have very specific stereotypes (模式化形象) 【of】 gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department 【of】 the Borough 【of】 Manhattan Community College, and one 【of】 the authors 【of】 a recent study.
+2171 | The enormous work to identify the hundreds 【of】 genes involved.
+1991 | What kind 【of】 genetic tests tend to be comparatively reliable?    ?P:kind of
+2387 | What does the author think constitutes a key part 【of】 genuine education?
+2149 | Developing the habit 【of】 getting up early.
+2213 | They revolutionized the distribution 【of】 goods.
+2032 | However, raising cattle, pigs, and other land-based animals requires vast sums 【of】 grain and water.
+2330 | “It’s also about reducing the amount 【of】 grain carbs
+1885 | He had lost his charm with the leagues 【of】 Grand National fans.
+2324 | by a mix 【of】 grants from various government agencies, institutions, and foundations.
+1890 | The rate 【of】 growth has begun to ease (sales were up 7% in the year, compared with 8%
+2219 | Out 【of】 habit.    ?P:out of habit
+2180 | There are no formulas written on the insides 【of】 hands or students looking across the aisle, or whispering answers to their classmates.
+2379 | Some people believe a juice diet helps to rid our body 【of】 harmful or poisonous substances.
+2328 | It has raised a lot 【of】 health concerns among the public.    ?P:a lot of
+2085 | Women tend to mistake signs 【of】 heart attacks for symptoms 【of】 stress.
+2281 | A businesswoman said her business dropped sharply when parking space gave way to a bike lane, because most 【of】 her
+1895 | The majority 【of】 her customers drive, with many coming from
+1939 | Receiving education in a private university in the nation’s capital may change the author’s future life and that 【of】 her family’s.
+1969 | Instead, she remains positive, holding up for praise one 【of】 her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if she had family pictures up in her hospital room or flowers delivered.
+1992 | challenges 【of】 high school.
+2321 | Why do we tend to think that busy people are 【of】 high status?
+2127 | They found busy people are perceived to be 【of】 high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.
+2346 | We find few people 【of】 high status have time for leisure.
+2157 | In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are 【of】 higher standing.
+1917 | He could be expected to repeat his glory in the prime 【of】 his career.
+2096 | They seldom meet the descriptions 【of】 homelessness.
+2470 | Today, consulting or freelancing for five businesses at the same time is a badge 【of】 honor.
+2030 | He built a large consultation service to address the holistic (整体的) needs 【of】 hospitalized patients, including psychological and social factors.
+2010 | 【of】 hourly workers, their top concern is not that they work too much but that they work too little.
+2467 | They tell patients its possible side effects during a period 【of】 24 hours.
+2114 | 【of】 how often they happen and how much they contribute to our overall energy intake.
+2100 | important part 【of】 how they think 【of】 themselves.
+2020 | Every new gaming upgrade improved his knowledge 【of】 how they worked.
+2193 | The question 【of】 how to achieve work-life balance has long been the main subject 【of】 discussion among workers.
+2204 | That depends on many things, but for purposes 【of】 illustration, I have run some estimates for Montreal.
+1960 | What does the passage say is 【of】 importance regarding genetic tests?    ?P:of importance
+1949 | would be distributed more or less evenly across society in the form 【of】 increased leisure.    ?P:in the form of
+2430 | While pinning down a definition has proven tricky, the general consensus is it’s some means 【of】 information gathering.
+2206 | It is witnessing various types 【of】 innovations.
+2266 | What accounts for the existence 【of】 intelligent people’s logical blind spots?
+2337 | It exposes children to different ways 【of】 interaction.
+1935 | Professor O’Keefe established in earlier studies that people hold different beliefs about the nature 【of】 interest.
+2234 | People are divided about the nature 【of】 interest.
+1997 | Building on these findings, the latest research examined how a growth mindset 【of】 interest can boost integrative thinking across the traditional disciplinary boundaries 【of】 arts and sciences.
+2338 | How a growth mindset 【of】 interest can contribute to cross-disciplinary thinking.
+2147 | Having a growth mindset 【of】 interest can help job seekers expand their interests and become more adaptable to different fields, and take the initiative to learn new skills.
+1966 | Those with a growth mindset 【of】 interest tend to believe that interests can be developed and cultivated, while those with a fixed mindset 【of】 interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘found.
+2027 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset 【of】 interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one 【of】 those areas, like computational chemistry.
+1883 | “We’ve seen profound changes in the last decades in what we eat largely as a result 【of】 international trade, and I think that trend toward more diversification will continue,” Jarvis says.    ?P:as a result of
+1998 | It can be difficult to know the real situation in a company until you become part 【of】 it.
+2095 | In the early days, as the supermarket multiplied, so did our suspicion 【of】 it.
+2070 | They are doing work they care about and are interested in, and doing more 【of】 it is not
+2137 | fruit to retain as much 【of】 its goodness as possible, according to Roger Clemens, professor 【of】 pharmaceutical    ?P:as...as
+2397 | Employers place a great value on employees with persuasion skills because they can impact several aspects 【of】 job
+2383 | source 【of】 job dissatisfaction.
+1892 | shortlisted schools to present their idea to a panel 【of】 judges, including designer Jasper Conran.
+2412 | The students then had to give job talks in front 【of】 judges who displayed serious facial expressions.    ?P:in front of
+2128 | By developing a habit 【of】 keeping their integrity.
+2060 | M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation on the number 【of】 Kelli Hardings the nation is blessed with.
+2087 | Employees with a growth mindset may be more likely to devise innovative ideas that bridge multiple areas 【of】 knowledge to achieve better solutions.
+2140 | According to a researcher, bad reputation about games will probably limit a gamer’s chances 【of】 landing a job.
+1884 | A number 【of】 lawsuits have pressured companies to formulate gender neutral policies on parental leave.    ?P:a number of
+2026 | It may affect obese people’s quality 【of】 life.
+1968 | In their first 18 years 【of】 life, American children spend only 9% 【of】 their time in school.
+2290 | Cheating was becoming a way 【of】 life for a majority 【of】 high school teens.
+1974 | Many Americans' quality 【of】 life has become lower.
+2001 | Pasternak also came away with some valuable observations about how different the North American way 【of】 life was, compared with many other countries.
+2051 | They cannot tell apart the impact 【of】 lifestyle and that 【of】 the environment.
+1886 | standard 【of】 living.
+2218 | According to Keynes, there would be a shorter working week with everyone’s standard 【of】 living continuing to rise.
+2066 | To fund the development 【of】 local infrastructure.
+1986 | He has recently been commissioned to design the new Museum 【of】 London building in
+2036 | Why did the citizens 【of】 Los Angeles vote to raise their own taxes?
+2040 | earners, work is a labor 【of】 love.    ?P:labor of love
+1990 | Instead, he credits old-school games like Palace 【of】 Magic with
+2174 | The missing out 【of】 main meals leads to the habit 【of】 snacking.
+2099 | It reduces the chances 【of】 making mistakes, and has increasingly become a favorite approach to decision-making among leaders 【of】 today.
+2260 | Over 70% 【of】 male educators who said they intended to stay in the early education workforce noted an increased salary was a major motivating factor for them to commit to the career long-term.
+2362 | It is negatively impacted by a lack 【of】 male teachers.
+2053 | In the long history 【of】 mankind, humans who use numbers are a very small minority.
+2228 | Junk food is now a staple 【of】 many Americans’ diets.
+2173 | That describes the reaction 【of】 many Americans this week following revelations that,
+1940 | Back in 1974, only 10% 【of】 marine fish stocks had been overfished.
+2309 | What can we do to help children learn the basics 【of】 math and geometry?
+1963 | What should people do to enhance their sense 【of】 meaning?
+2078 | Newer varieties imitate the look, flavor, and texture 【of】 meat.
+2279 | such as in apple skins, that are excluded when you juice them,” says Heather Ferris, a professor 【of】 medicine.
+2105 | In fact, Americans currently consume almost twice the National Academy 【of】 Medicine’s recommended daily intake 【of】
+2404 | They can modify the effects 【of】 medicines in different ways.
+1907 | K) In more than a few passages, she relates the stories 【of】 men and women who came up against assembly-line medicine where patients were treated mostly as pieces 【of】 flesh.
+2287 | They recommend providing young men opportunities to work with children through training and volunteer programs, targeting groups 【of】 men who are considering a career change, such as fathers.
+1950 | When making decisions, we give priority to our current frame 【of】 mind without thinking much 【of】 the consequences.    ?P:frame of mind
+2048 | Meeting 【of】 minds.
+2313 | How students in arts and sciences view the two types 【of】 mindset 【of】 interest.
+2388 | They make use 【of】 modern technology.    ?P:make use of
+2045 | But are we really in need 【of】 more protein?
+2212 | What does the author think 【of】 most entrepreneurs?
+2009 | Big, systematic data is mostly the foundation 【of】 most 【of】 our decisions, personal and business alike.
+2222 | K) As the owner 【of】 multiple sugary drink brands and bottled water, PepsiCo is facing challenges on health and environmental
+2322 | The benefits 【of】 multitasking are clear.
+2097 | One 【of】 my bad habits is saying “busy” when people ask me how I’m doing.
+1927 | “Look, 90 percent 【of】 my customers drive,” she told me.
+2050 | part 【of】 my job.
+2292 | The WFP has been around since 1961 and has been the global coordinator 【of】 nationally based efforts to avoid disasters with food aid.
+2230 | "Roughly 90% 【of】 nearly 170 studies favored the sponsor's interest,"
+2194 | international water brands, as well as a range 【of】 new companies, are selling high-end reusable bottles.    ?P:a range of
+2006 | That reality was driven home this month by a new Los Angeles Homeless Services Authority report showing that the county's homeless population is growing faster than the supply 【of】 new housing.
+2423 | search 【of】 new mates if they find their habitat too comfortable, resulting in a lack 【of】 vital genetic diversity.
+1989 | M) When Janette Sadik-Khan was the head 【of】 New York City’s Transportation Department back in the early 2000s, she
+2202 | Nutrition scholar Marion Nestle 【of】 New York University spent a year informally tracking
+2304 | Participation 【of】 ninth graders in Design Ventura can motivate them to choose design technology as their subject.
+1996 | It is 【of】 no use in understanding obesity.
+2143 | It takes great efforts for children to grasp the concept 【of】 number words.
+1931 | K) Research on the language 【of】 numbers shows, more and more, that one 【of】 our species' key
+2252 | “There are a lot 【of】 nutrients contained in the parts 【of】 the fruits,    ?P:a lot of
+2284 | Bonnie Liebman, director 【of】 nutrition at the Center for Science in the Public Interest.
+2091 | For example, a traditional Mediterranean diet includes fruits, vegetables, whole grains, nuts and olive oil as the main components 【of】 nutritional intake.
+2024 | bar in your car, or every handful 【of】 nuts at your desk?
+1903 | What is the popular view 【of】 obesity?
+2056 | It may accelerate the spread 【of】 obesity.
+2231 | They overlook the potential causes 【of】 obesity.
+1941 | A greater emphasis on studying the cause 【of】 obesity and chronic diseases.
+2074 | adding to all the health dangers 【of】 obesity, diabetes and tooth decay”.
+2438 | Why did the author and his colleagues launch the Out 【of】 Office Email Generator?    ?P:out of office
+2269 | That’s why we recently launched the Out 【of】 Office Email Generator, a free tool you can use before your next long weekend or trip.    ?P:out of office
+1919 | Research found that, as regards achievement 【of】 one’s goals, it is important to focus more on enjoying the process than the
+2209 | But Pasternak did take note 【of】 one unifying factor in all 【of】 the healthy societies he observed.
+2339 | What does the author say is one disadvantage 【of】 online classes?
+2314 | What does the author think 【of】 online course assignments?
+2436 | The platform will allow refugees worldwide to take thousands 【of】 online courses for free.
+2139 | O) Crises, after all, have a way 【of】 opening people’s eyes to possibilities.
+2047 | Numerous studies have shown that drinking fruit juice doesn’t make us consume any less 【of】 other foods
+2023 | Human numerical instincts are not so superior to those 【of】 other mammals as is generally believed.
+1880 | Should Americans accept a system in which the middle and upper classes enjoy a luxurious lifestyle, using the low-wage labor 【of】 others?
+2395 | If we base our worth on the opinions 【of】 others, we cheat ourselves 【of】 the power to shape our experiences and embrace
+2183 | They tend to undervalue the opinions 【of】 others, which means they have trouble believing that anyone is qualified to give them useful feedback.
+1962 | how much our cognitive lives differ cross-culturally, we must continually explore the depths 【of】 our
+2381 | What do we learn from the passage about the timing 【of】 our behaviors?
+2131 | Almost half 【of】 our daily actions are part 【of】 our habits and not decisions, so once
+2191 | How are almost half 【of】 our daily actions performed according to the passage?
+1926 | While our initial attraction may be based in part on physical chemistry, it is the meeting 【of】 our inner worlds that creates
+2113 | Every aspect 【of】 our lives is affected by numbers.
+1971 | Only a tenth 【of】 our oceans’ fish stocks could sustain heavier fishing than current levels.
+2115 | Unless employers are fully compensated, this could become a variant 【of】 parasitic (寄生的) capitalism, whereby corporate profits increasingly rely on extracting value from the public—and now personal—realm, rather than on generating new value.
+2159 | Draw on a vast wealth 【of】 past experience.
+1922 | F) But even if large numbers 【of】 people are quitting bottled water because 【of】 care for the environment, others are taking it up.    ?P:because of
+2052 | The number 【of】 people experiencing depression shows a sharp increase in the first year 【of】 high school.
+1954 | likely among the millions 【of】 people in search 【of】 more protein-rich diets.    ?P:in search of
+1976 | Today, a greater and greater proportion 【of】 people living on the streets are there because 【of】 bad luck or a series 【of】 mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.    ?P:because of
+2389 | For example, they showed the students photographs 【of】 people’s faces and asked them to what extent feelings such as happiness or disgust were being expressed.
+1980 | Americans now have a labor market in which millions 【of】 people — those with fewer skills and less
+2054 | Another cause is that the proportion 【of】 people who are trying to lose weight has been increasing over
+2160 | In the U.S. labor market. the primary concern 【of】 people with less schooling and fewer skills is to secure any employment
+2103 | For millions 【of】 people, work is
+2445 | The ideal level 【of】 perfectly livable habitat was found to be only 80% 【of】 an area,
+1957 | It sees lots 【of】 personal income wasted on beauty products.
+2325 | The art 【of】 persuasion means convincing others to agree with your point 【of】 view or to follow your course 【of】 action.    ?P:point of view
+2462 | Effective use 【of】 persuasion skills will not only help get your coworkers excited about your ideas, it’ll also help
+2420 | Besides, teamwork and leadership rely heavily on the power 【of】 persuasion to get things done.
+2280 | What can we expect 【of】 plant-based meats?
+1915 | “Depending on a greater number 【of】 plant species creates a more vigorous and less risky food system—and one that provides a broader range 【of】 nutritional requirements.
+2276 | Not so much, and, yes, they are made 【of】 plastic, although the company invites
+2444 | Bottled water manufacturers base their arguments against bans 【of】 plastic bottles on health concerns rather than on profits. 、
+2176 | For the youngest learners, it means they are more likely to get exposed to different varieties 【of】 play and communication.
+2283 | This type 【of】 play-especially with building blocks-helps children discover and develop key
+2478 | We wanted to determine what was causing these gender differences in booking business trips so we tested a variety 【of】 possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.    ?P:a variety of
+2021 | They cannot independently identify the majority 【of】 potential diseases.
+2093 | A lifetime 【of】 praise leads smart people to develop too much faith in their intelligence and abilities.
+2224 | During the course 【of】 preparing for Design Ventura, teachers receive training and support while students get tutoring from
+2375 | accessible fruit and vegetable gardens connect what we eat to where it comes from—the means 【of】 production, if you will.
+2288 | What is the focus 【of】 Professor O’Keefe’s recent research?
+2135 | For example, if you’re a dedicated athlete you might need to consume higher quantities 【of】 protein.
+2277 | It has helped to create the myth 【of】 protein deficiency.
+2182 | It proves a reliable source 【of】 protein for humans and animals.
+2165 | 140-pound person should not exceed 120 grams 【of】 protein per day, particularly because a high protein diet can strain kidney
+2303 | It has helped Americans in search 【of】 protein-rich diets.    ?P:in search of
+2353 | Americans can purchase many kinds 【of】 protein-rich foods everywhere.    ?P:kind of
+2015 | Global retail sales 【of】 protein supplement products reached an astonishing US$18.9 billion
+2123 | They often fail to recognise when they need help, and when they do recognise it, they tend to believe that no one else is capable 【of】 providing it.
+2351 | Apart from the urgent task 【of】 providing more healthy nutrients to those who increasingly can’t afford them.
+2372 | As you become more capable 【of】 providing yourself with the approval you seek, your need for external validation will
+2057 | You need not only computer science and engineering knowledge, but also an understanding 【of】 psychology and visual design to create a better product.
+1904 | A study led by Yale Professor 【of】 Psychology, Paul O’Keefe, found that having a growth mindset (思维倾向) 【of】 interest may spark this type 【of】 innovation.
+2089 | Lack 【of】 qualified teachers.
+1977 | It is predicted that climate change will affect the availability and price 【of】 quality chocolate.
+2453 | Training 【of】 real-life skills on campus.
+1984 | while bottles may be recyclable, very few are made 【of】 recycled plastic.
+1948 | What became 【of】 Red Rum after his career ended?    ?P:become of
+2151 | Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two 【of】 red wine at a long lunch—as opposed to hastily wolfing down handfuls 【of】 cereal
+2061 | They all seem to stick to the ethos (特质) 【of】 regional, seasonal produce.
+2301 | Part 【of】 remedying this social disease would be for parliament to pass a “right to grow” law, allowing anyone to turn
+2073 | The new prevalence 【of】 remote and flexible working models will
+2145 | Though employers are backed by a chorus 【of】 remote work advocates, others note the loneliness, reduced productivity and inefficiencies 【of】 extended remote work.
+2408 | To show the impact 【of】 remote working on productivity.
+2225 | wonderful job 【of】 removing and eliminating anything harmful from our bodies.
+2402 | A lot 【of】 research comes to the same conclusion that fruit juice does harm to the human body when it leads to surplus    ?P:a lot of
+2461 | What does the author think 【of】 research funded by industry or special interest groups?
+2345 | Decades 【of】 research shows that it can take from 8 to 13 weeks at the beginning 【of】 every school year for students to get back to where they were before the summer holiday.
+1916 | One group 【of】 researchers, for example, examined the link between rivalry and unethical behavior.
+2289 | Not all students have access to these types 【of】 resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.
+2364 | They tend to increase professors’ burden 【of】 responding to students’ emails.
+2158 | How can entrepreneurs overcome the risk-inducing effects 【of】 rivalry?
+2068 | One way you can overcome the risk-inducing effects 【of】 rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+2422 | Judging from the slowing rate 【of】 sales growth, there is still hope to combat bottled water.
+2031 | “We don’t prioritize eating seasonally or locally, and we also add lots 【of】 salt, sugar and thickening agents to our foods,” explained Pasternak.
+2296 | What is a reason for the author to be in the habit 【of】 saying “busy” when asked how he is doing?    ?P:in the habit of
+2059 | Shortage 【of】 school facilities.
+1961 | 【of】 schools and for which kinds 【of】 students these growth mindset ideas help young people adapt to the    ?P:kind of
+1970 | He noted that Japanese people ate a wonderful variety 【of】 seaweeds, and that Chinese people tried to include at least five different colors in every meal.
+2196 | them to opt for it at General Certificate 【of】 Secondary Education, so we are helping to keep alive something which is crucial
+1934 | It results from a lack 【of】 self-control.
+2273 | How does the art 【of】 self-control help us succeed?
+2161 | The art 【of】 self-control is one that most successful individuals have mastered.
+2460 | Our sense 【of】 self will be sharpened and enhanced.
+2257 | 【of】 several medical institutions and associations between 2010 and 2015.
+2169 | outdoor seating so much that cities are making it permanent: A New York City study 【of】 several streets closed during Covid
+2259 | Rough calculations show that the savings made by employers when their staff works from home are 【of】 similar value to the compensation workers should receive for setting up offices at home.
+2227 | A stretch 【of】 Skillman Ave witnessed not only a big increase in sales but also the opening 【of】 new businesses.
+2302 | “There is always this kind 【of】 slip    ?P:kind of
+2363 | What does the author want to illustrate with the example 【of】 smartphones?
+2285 | The potential causes 【of】 snacking.
+2382 | A day later the students were offered a choice 【of】 snacks and drinks in a seemingly unrelated context.
+2203 | Calorie conswnption is linked to the amount 【of】 snacks one eats.
+2468 | It emphasizes people’s sense 【of】 social responsibility.
+2004 | What kind 【of】 social system does the author think is unacceptable?    ?P:kind of
+2198 | contain high amounts 【of】 sodium compared to traditional beef.
+2170 | A physicist admits gaming has contributed to his computer knowledge and skills 【of】 solving problems.
+2129 | Strive to make sense 【of】 some unknown forces.    ?P:make sense of
+2465 | principle: that there can be just the right amount 【of】 something.
+2167 | sciences at the University 【of】 Southern California.
+1988 | It places a high value on the physical fitness 【of】 stars.
+2033 | Making preparations for marriage causes a lot 【of】 stress.    ?P:a lot of
+2341 | But a new study suggests that being sensitive to people’s feelings may sometimes come with an extra dose 【of】 stress.
+1964 | These are different causes 【of】 stress and can benefit from different kinds 【of】 self-care.    ?P:kind of
+2434 | The scientists measured concentrations 【of】 stress hormones in the students’ saliva (唾液) before and after the talk.
+2178 | They are not designed for students to interact with the material in depth but designed to be graded easily to accommodate such a large number 【of】 students.
+2119 | What does the author say is one possible benefit 【of】 students attending school physically?
+2150 | A Common Sense Media survey found that 35-percent 【of】 students had cheated via smartphone, though the parents surveyed in that particular study did not believe their kids had ever cheated.
+2432 | Development 【of】 students’ personalities.
+2112 | More than half 【of】 students will find their academic performance declining sharply when they enter the
+2223 | firmly fixed on low-calorie, low-fat, sugar-free snack foods and beverages following the publication 【of】 studies linking sugar
+2267 | Ambitious people may not have a greater chance 【of】 success.
+2360 | They conducted large-scale research on the role 【of】 sugar in people's health.
+2335 | They turned public attention away from the health risks 【of】 sugar to fat.
+2039 | They are about combining your inner wisdom with the knowledge 【of】 systematic data to make the best decisions.
+2207 | Perhaps the biggest disadvantage 【of】 taking an online class is the absence 【of】 face-to-face interaction between the teacher and their students.
+2447 | They give little thought to the time 【of】 taking it for maximum effect.
+2246 | Possessing a reasonable amount 【of】 talent
+2101 | Even with an incredible amount 【of】 talent, without the
+2251 | A visit to the Design Museum shop in London can reduce the designers’ fears about the future supply 【of】 talents educated
+2347 | Being quicker and more efficient increases our performance and the number 【of】 tasks completed.
+2452 | The role 【of】 teachers in motivating children to learn.
+2433 | Guard against students’ misuse 【of】 technology.
+2188 | The concept does indeed come from the realms 【of】 technology, where it is used to refer to an operating system that can execute multiple tasks at the same time.
+1959 | the pursuit 【of】 teenage boys — a waste 【of】 time.
+2463 | It is especially appealing to the taste 【of】 teenagers.
+2333 | Afterwards, the participants read a fictional survey 【of】 teens who wanted to “fight back against the companies by buying and
+2141 | The difficulty 【of】 telling genetic factors from environmental ones.
+2138 | So far, it's a winning strategy: More than nine out 【of】 ten
+2012 | 【of】 19th century women's crippling fashions nor the modern uniforms 【of】 Silicon Valley T-shirts.
+2002 | A lot 【of】 that is coming from China, which produces 60% 【of】 the world’s farmed fish.    ?P:a lot of
+2211 | They simply don’t understand how hard some people have to work to accomplish the same things, and because 【of】 that, they push people too hard.    ?P:because of
+2253 | They’re nutritious, inexpensive, and far more sustainable than any 【of】 the
+2108 | current superstars 【of】 the alternative protein sector — are pursuing consumers who enjoy meat but want to reduce their meat
+2110 | Certain gaming skills meet the requirements 【of】 the armed forces in Britain.
+2148 | As online courses tend to have more than 100 students, most 【of】 the assignments are short and simple.
+2072 | What does the author think 【of】 the book Dress Codes: How the Laws 【of】 Fashion Made History?
+2186 | What is one 【of】 the causes for more and more people in Los Angeles to become homeless?
+1993 | It is difficult for anumeric people to keep track 【of】 the change in numbers even when the total is very small.    ?P:keep track of
+1958 | frequently drivers who commute from other parts 【of】 the city by car, Grabar points out.
+1897 | What do we learn about extremely shy students sitting in the front row 【of】 the classroom?
+1999 | The power 【of】 the classroom is rooted in the humanity 【of】 the people gathered in the same place, at the same time.
+2243 | However, on the other side 【of】 the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.
+2016 | L) Another is television presenter and interior designer Naomi Cleaver, who is one 【of】 the competition’s judges.
+1943 | What is one 【of】 the consequences 【of】 living big?
+2354 | According to an officer 【of】 the Creative Industries Federation, there is difficulty now in recruiting engineers in the UK.
+2357 | First, many physicians are not aware that some drugs work better during a specific time 【of】 the day.
+2235 | Live sessions are infrequent and are often scheduled during the middle 【of】 the day when students have to attend other classes or work.
+2003 | At the end 【of】 the day, whether you each keep your names, whether you come up with an entirely new name for the two 【of】 you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.    ?P:at the end of the day
+2214 | The increase in new housing falls short 【of】 the demand 【of】 the growing homeless population.    ?P:fall short of
+1965 | Richard Pile think 【of】 the dictionary definition 【of】 disease?
+2391 | 【Of】 the endless troubles that come with being driven from one’s home country, losing educational certificates may seem small.
+2132 | What was the aim 【of】 the first laws passed regarding fashion in the 1200s?
+2185 | They improved the quality 【of】 the food they sold.
+2366 | In a study, psychologist Myriam Bechtoldt 【of】 the Frankfurt School 【of】 Finance and Management in Germany asked 166 male university students a series 【of】 questions to measure their emotional intelligence.
+2181 | Each 【of】 the healthy eating cultures has its own unique feature.
+2190 | Many 【of】 the highest earners have a keen interest in and love for what they are doing.
+2144 | evidence that food conswned out 【of】 the home is one 【of】 the most poorly recorded categories in surveys.
+2025 | “Women working outside 【of】 the home should make an effort to have a conscious conversation with their partners about more equitable sharing 【of】 household and family responsibilities,” Dr.
+2221 | The weakening 【of】 the human connection to nature might be good for economic growth but is bad for people.
+2442 | persuasion skills, employees may not be as committed to or convinced 【of】 the importance 【of】 an organization's vision and long-
+2315 | More than half 【of】 the interviewees felt no sense 【of】 guilt over cheating.
+2411 | Take advantage 【of】 the latest technologies.    ?P:take advantage of
+2179 | What does the author think 【of】 the latest technology in education?
+2233 | Despite mostly feeling supported by colleagues and family members, many 【of】 the male educators surveyed in the study reported facing social or cultural resistance in their careers as early education teachers.
+2162 | To facilitate the rise 【of】 the middle class.
+1888 | allowed to wear certain fabrics, colors and ornaments reflected the rise 【of】 the middle class, who were now able to imitate
+2265 | Its Nobel Prize reminds us all 【of】 the moral hazard in imagining that the poor and vulnerable are somebody else’s problem.
+2344 | Follow the example 【of】 the most ambitious entrepreneurs.
+2248 | Yet slipping from popular culture is the wonder and beauty 【of】 the natural world.
+2358 | Importantly, there were also some promising effects 【of】 the new intervention on actual
+2456 | What does the WFP’s winning 【of】 the Nobel Peace Prize make us realize?
+2192 | To preserve the status 【of】 the nobles.
+2022 | feature 【of】 the overall school culture, especially for students starting the ninth grade.
+2403 | What does the author recommend we eat at the end 【of】 the passage?
+1938 | To properly care for patients, we also need to care about the lives 【of】 the people getting the care.
+2457 | They can apply for fully funded access to Coursera’s course catalog, which means they can take all 【of】 the platform’s classes and obtain professional certificates for free.
+2064 | One in which the affluent enjoy a more comfortable life at the expense 【of】 the poor.
+2342 | One American philosopher stated that addressing the needs 【of】 the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity can thrive.
+2413 | The ability to overcome food shortages that must be built into some 【of】 the poorest countries will not come from loans from wealthy countries, which may have food problems 【of】 their own, or world economic institutions.
+2310 | _GiveathisÜenv ironment,_consumeruhould-beskepticaL They raised public awareness 【of】 the possible causes 【of】 heart disease.
+1942 | Making the decision is just part 【of】 the process.
+2262 | The office hours 【of】 the professor may also be during inconvenient times for many students as well.
+2109 | N) Maybe bike lanes will always be charged with emotion, until enough 【of】 the public is finally concerned about climate
+1955 | J) “One 【of】 the really useful things about this competition,” says Hourican, “is that there’s a commercial element because the
+2232 | The exercise is simple but important, since it brings these costs out 【of】 the realm 【of】 speculation into the realm 【of】 meaningful discussion.
+1910 | A better understanding 【of】 the relationship between social class and health.
+2275 | hit songs 【of】 the 1950s, researchers found, there was only slightly more than one 50 years later.
+1899 | this, students had to complete a difficult mental math task in front 【of】 the same upper-year students.    ?P:in front of
+2164 | Flavoured water is booming: sales 【of】 the sparkling variety shot up by 20%, according to the latest analyst data, Meanwhile,
+1908 | Students may not be able to enjoy their state benefits when they go to college out 【of】 the state.
+2065 | Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as much 【of】 the store as possible, and be tempted along the way.    ?P:as...as
+2263 | Over half 【of】 the students interviewed were unaware they were cheating.
+1953 | The introduction 【of】 the “sugar tax” on juices and soda drinks has pushed more people to bottled water, while health awareness
+2216 | This requires two essential conditions: that one 【of】 the tasks needs to be automatic, like walking or eating, and that they both need different mental processes.
+2120 | 【Of】 the teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam but that they did not feel uneasy about the behaviour.
+1881 | Supermarkets have long been suffering as one 【of】 the thinnest-margined businesses in existence and one 【of】 the least-looked-forward-to places to work or visit.
+2298 | can't please all people all 【of】 the time, wouldn't it make sense to stop trying?
+2437 | What does the author think 【of】 the traditional school year in the U.S. today?
+2177 | It has done away with many 【of】 the traditional ways 【of】 thinking.
+2098 | What is one 【of】 the traps entrepreneurs may often fall into when competing with rivals?
+2244 | Figure out which 【of】 the two is more reliable.
+2102 | By doing a survey 【of】 the upper and middle classes.
+1951 | The status 【of】 the upper classes was threatened: fashion was a tool to preserve it.
+2241 | They take advantage 【of】 the weaknesses 【of】 women shoppers.    ?P:take advantage of
+2367 | This is why the work 【of】 the WFP is so vital.
+2152 | It supplies 60% 【of】 the world’s fish products.
+2122 | It boasts 【of】 the world’s largest fishing stocks.
+2041 | Researchers found that participants who saw the images 【of】 their aged selves would save more for their later years than
+2080 | “The scale and scope 【of】 their answers were amazing,” he says.
+2319 | It means the end 【of】 their career.
+2208 | Today’s students use smartphones, tablets or even in-class computers to aid their cheating attempts and leave no trace 【of】 their crimes.
+2471 | Regardless 【of】 their genetic makeup, infants have to learn an incredible amount 【of】 information in a short time, and curiosity is one 【of】 the tools humans have found to accomplish that gigantic task.    ?P:regardless of
+2037 | Poor people may have to give up eating certain foods because 【of】 their high prices.    ?P:because of
+2153 | It’s even harder for smart people because they grow so used to being right all the time that it becomes a part 【of】 their identity,” Bradberry wrote.
+2028 | Job applicants are advised to make a written list 【of】 their likes and dislikes in their previous employment.
+1994 | description 【of】 their main meals: breakfast, lunch, dinner.
+2435 | This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out 【of】 their misery.
+2406 | Through no fault 【of】 their own, they can suddenly find their productivity
+2454 | Organizations should reconsider the appropriateness 【of】 their performance evaluation procedures in light 【of】 the shift to remote work.    ?P:in light of
+2018 | They feel much 【of】 their precious time, energy and resources is wasted.
+2011 | As was expected, when people thought 【of】 their present selves, their brains were observed to become more active.
+2175 | If working from home becomes permanent, employees will have to dedicate part 【of】 their private space to work.
+2405 | They usually feature sports stars to emphasize the benefits 【of】 their snack foods.
+2155 | They introduced cutting-edge layout 【of】 their stores.
+2082 | According to one study, students' academic performance is not the only decisive factor 【of】 their stress
+2055 | Women are advised to identify the specific causes 【of】 their stress so that steps can be taken to deal with it.
+2392 | Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so much 【of】 their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+2384 | Most 【of】 them are based on systematic reviews.
+2356 | Most 【of】 them are sold as true fake meat
+2331 | Most 【of】 them eat meatless meat to protect the environment
+2472 | Some 【of】 them find it awkward when hugging children.
+2306 | Most 【of】 them refrain from eating meat for health reasons.
+2407 | Nearly all 【of】 them serve the purpose 【of】 the funders.
+2142 | For each 【of】 them there are four choices marked A), B), C) and D).
+2245 | each 【of】 them there are four choices marked A), B), C) and D).
+1920 | some 【of】 these fashions.
+2237 | “The only overlapping feature in most 【of】 these healthy countries is that they all walk way more than the average American,” said Pasternak.
+2076 | Some 【of】 these students are very imaginative.
+2293 | Their irrational way 【of】 thinking.
+2042 | But the greatest strength 【of】 this book (on fashion!) is its intellectual profoundness.
+2376 | Almost everyone is aware 【of】 this, but
+2320 | One benefit 【of】 this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some 【of】 the knowledge they have acquired when too much time is taken off from school.
+2256 | four- and five-year-olds will spend a third 【of】 this time engaged in spatial, mathematical, and architectural
+1952 | All 【of】 this was done in the name 【of】 increasing job satisfaction and giving workers greater flexibility,    ?P:in the name of
+1945 | But contrary to popular belief, the homeless in Los Angeles are not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some 【of】 those descriptions.
+2295 | The average American student receives 13 weeks off from school each calendar year—with about 11 【of】 those during the summer.
+1956 | juice affects the long-term health 【of】 those who aren’t overweight.
+2326 | The practice 【of】 throwing seed bombs to turn vacant plots 【of】 land green took
+2133 | According to a management expert, work-life balance is not as simple as giving equal amounts 【of】 time to work and
+2172 | the best way to prepare today's children to be the makers and builders 【of】 tomorrow.
+2477 | The platform currently offers professor-led lectures on a broad range 【of】 topics, from data science to fashion design.
+1906 | Moreover, schools should be more than simple institutions 【of】 traditional learning.
+2458 | We compared the airfare paid by employees in the same position within a company for the same class 【of】 travel and used a common statistical technique to account for other factors that might affect differences in airfares.
+2000 | He was the kind 【of】 trusted doctor you’d feel relieved to see and welcome into the room with a sick family member.    ?P:kind of
+2286 | One 【of】 two things may happen: Employers pass these costs onto employees.
+2349 | Almost 75% 【of】 U.S. clinical trials in medicine are paid
+2240 | They have more positive qualities than most 【of】 us.
+2418 | We should see through other peoples’ attempt to make a prisoner 【of】 us.
+2440 | We can never be truly free if taking to heart others’ opinion 【of】 us.
+2399 | something like 15% 【of】 us achieve it.
+2299 | Most 【of】 us are not in the habit 【of】 exercising self-control.    ?P:in the habit of
+2323 | We learn about who we are and what is expected 【of】 us based on interactions with others so, to a four-year-old, if Mommy or
+2476 | All 【of】 us can be affected by food instability one way or another.
+2396 | 【of】 us can’t afford to do nuclear research as a private hobby, but bird watchers, rock collectors, and others can do real research
+2094 | Most 【of】 us in the entrepreneurial community are blessed—or cursed—with higher-than-average ambition.
+2348 | want someone to approve 【of】 us, it’s being driven by that little kid part 【of】 us that is still terrified 【of】 abandonment.
+1985 | Many 【of】 us living in the most developed countries are buying into a myth 【of】 protein deficiency created by food companies
+2374 | For the rest 【of】 us, persuasion
+2350 | some 【of】 us, persuasion is an instinctive quality and the power 【of】 influencing comes naturally.
+2272 | Why do we allow what others think 【of】 us to have so much power over how we feel about ourselves?
+2410 | Acquisition 【of】 useful knowledge.
+2428 | The experience 【of】 using IT penetrates almost the entire work field.
+2163 | Knowing one’s emotional state is 【of】 utmost importance in deciding what changes to make for a better work-life balance.
+2268 | The traditional school year, with three months 【of】 vacation every summer, was first implemented when America was an agricultural society and the summer months were needed for farm work.
+2336 | This represents a considerable transfer 【of】 value from employees to employers.
+2443 | It is filled with all kinds 【of】 video game characters.    ?P:kind of
+2416 | It distorts many employees’ belief 【of】 what a satisfying life is.
+1918 | I) What Keynes predicted was a very optimistic version 【of】 what economists call technological unemployment.
+2474 | This requires a fundamental rethinking 【of】 what organizations expect from employees and what companies would look for in a model employee in a remote work context.
+2439 | People’s performance benefits from the perception 【of】 what they are doing as multitasking.
+2043 | It’s that we have unrealistic expectations 【of】 what we’re asked to do
+2264 | “So really, regardless 【of】 what you’re eating, if someone’s walking four miles more than you each day, they’re going to be a lot thinner and live a lot longer than you.    ?P:regardless of
+2084 | People who want to lose weight are more likely to under-report their eating-regardless 【of】 whether
+2270 | A recent study concluded that regardless 【of】 whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.    ?P:regardless of
+1930 | pumped more blood-both 【of】 which contributed to more oxygen getting to the brain, and, ultimately,
+2013 | is not how the two pieces 【of】 work and life come together.
+1921 | professor 【of】 work and organisation studies at MIT, shows companies and managers can play a key role in creating a better
+2361 | If savings are modest, then the many advantages 【of】 working in offices—such as lively atmosphere, rapidity 【of】 communication, team-building and acclimatization (适应环境) 【of】 new employees—will encourage employers to shelve the idea 【of】 remote work and, like Yahoo in 2013, encourage employees to work most 【of】 the time from corporate office space.
+1947 | While outperforming your rivals may provide short-term benefits, the loss 【of】 your integrity will have long-term consequences.
+1995 | L) Ideally, your spouse or partner will be supportive, rather than dismissive, 【of】 your stress.
+1933 | Is a colleague being disrespectful 【of】 your time?
+2242 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed to making the most 【of】 your time off.    ?P:make the most of

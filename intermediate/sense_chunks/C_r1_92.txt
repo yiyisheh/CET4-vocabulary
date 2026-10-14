@@ -1,0 +1,667 @@
+# 任务 C_r1_92：6 个词，589 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_92.labels.txt
+
+============================================================
+## 词：much    本段 111 句    模式：全标（每句都写）
+原释义：adj.许多的. adv.非常; 很. pron.许多; 大量.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 许多的，大量的（修饰不可数名词）    B 样本 24    例：Went through much trouble.
+  1  adv. ……得多（修饰比较级，如 much more, much better）    B 样本 16    例：Their emotions were much harder to regulate.
+  2  adv. 很，非常；（程度上）多（修饰动词、形容词或 too，如 very much, much too）    B 样本 16    例：W: Thank you very much.
+  3  pron. 许多，大量（作名词用，如 too much, much of）    B 样本 10    例：Eat as much as they want for $10.
+已标过的短语：how much（9）；pretty much（2）；as much as（1）；much to one's delight（1）；much less（1）；have much to do with（1）
+口径说明（照此执行）：
+  - 给C的口径：how much 一律标 P:how much（多少钱/多少/多大程度）；as much as + 数量（多达）标 P:as much as，其余 as much (n.) as 比较结构按 much 在句中的作用标（修饰名词0、作名词3、修饰动词2）；too much / so much / that much 不算P，按作用标；much + 比较级（much more, much less accessible, much higher）标1；much too + 形容词、very much、much like 标2；much of + n.、think much of 标3；much less 表「更不用说」标 P:much less；pretty much、have much to do with 标P；much to sb's delight/surprise 标 P:much to one's delight / P:much to one's surprise；not so much…as 标 P:not so much…as。2 和 3 的边界（say too much 标3，relies too much 标2）以 much 作宾语还是状语区分。
+句子：
+82 | But I’ve found that if I review my spending every night, that keeps me from spending too 【much】.
+109 | They feel management is being too nosy or trying to control their lives too 【much】.
+116 | Experts say too 【much】
+144 | During Covid, restaurants and cafes lost so 【much】
+146 | For example, tests for traits that depend on a single gene provide 【much】
+152 | W: Not very 【much】.
+155 | the idea that less labor will be necessary because machines can do so 【much】.
+183 | W: But the core curriculum doesn’t change that 【much】.
+184 | they like their jobs so 【much】.
+186 | from the increased productivity since Keynes's time — can afford to work less, why do they continue to work so 【much】?
+102 | W: Sorry, I don’t know 【much】 about cheese.
+126 | E) That may be true, but that still does not tell us 【much】 about what happens across a whole generation of people when time spent on digital media grows.
+179 | Not so 【much】, and, yes, they are made of plastic, although the company invites
+127 | Social media doesn’t reduce productivity nearly as 【much】 as it kills employee retention.    ?P:as much as ?P:as...as
+133 | The goal in this is to make the fans connect to the live experience as 【much】 as possible, and the tools you have to do that, we're not using at all.    ?P:as much as possible ?P:as much as ?P:as...as
+121 | the radiation dose to the tumour and restrict it as 【much】 as possible to healthy surrounding tissues and organs,” he says.    ?P:as much as possible ?P:as much as ?P:as...as
+140 | “As 【much】 as talent counts, effort counts twice,” says Duckworth in Grit.    ?P:as much as ?P:as...as
+182 | It was found that American youngsters today don’t socialize nearly as 【much】 as the earlier generations.    ?P:as much as ?P:as...as
+153 | It sells the idea of the nap as 【much】 as the nap itself.    ?P:as much as ?P:as...as
+190 | We should care about other peoples’ view as 【much】 as they care about our own.    ?P:as much as ?P:as...as
+83 | Americans get twice as 【much】 as they need.    ?P:as much as ?P:as...as
+130 | They do not pay 【much】 attention to their food recipes.
+85 | W: Oh, that’s 【much】 better.
+125 | These are 【much】 better and 【much】 more productive ways for companies to move forward on their employees’ wellbeing.
+103 | For starters, Americans eat 【much】 bigger portions than people in other countries.
+178 | of hourly workers, their top concern is not that they work too 【much】 but that they work too little.
+80 | W: Housing costs are high, but do people really save that 【much】 by having a smaller home?
+131 | Too 【much】 concern about their work.
+168 | reality is 【much】 darker.
+163 | But it’s 【much】 easier said than done.
+142 | With so 【much】 emphasis on employee wellness these days, company volunteer programs could be the perfect 2025 resolution.
+105 | Too 【much】 faith in their ability to think.
+96 | Offer them 【much】 fatter bonuses.
+173 | Employees can benefit as 【much】 from remote working as their employers.    ?P:as...as
+90 | K) Twelve years into his career, Mark Long, a radiotherapy physicist with the NHS in Surrey, doesn’t get as 【much】 gaming
+114 | By learning that raising pets can do 【much】 good.
+106 | Entrepreneurs' ambition does as 【much】 good as harm.    ?P:as...as
+120 | If we’ve learned anything about culture wars, it’s that data isn’t 【much】 good at
+99 | Many cultures place a 【much】 greater value on the spoken word than the American working culture does.
+91 | With so 【much】 greenery and fresh air, I think his current breathing problems would probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+143 | It may do as 【much】 harm as good.    ?P:as...as
+165 | It does 【much】 harm to employee loyalty.
+135 | It does 【much】 harm to many busy employees’ well-being.
+101 | 【Much】 has been written about the importance of timely feedback.
+123 | Under-reporting rates are 【much】 higher for obese people, because they simply consume more food,
+172 | should be looking for new ways to ensure what people eat wouldn't have 【much】 impact on their waistlines.
+171 | In a war of culture, data does not help 【much】 in changing people’s minds.
+138 | productivity stopped working around 1973.Thus, they had to keep working just as 【much】 in order to maintain their
+185 | He is very 【much】 lacking in financial literacy.
+111 | Most fathers admitted that even during their paternity leave they actually did 【much】 less childcare than the mother.    ?P:much less
+117 | Fruit juice is different from whole fruit in that it contains 【much】 less fibre.    ?P:much less
+129 | Fish, chicken and red wine make moderate appearances, while red meat, salt and sugar are used 【much】 less often.    ?P:much less
+150 | In another analysis, researchers found that today’s teens go out with their friends 【much】 less often than previous generations did.    ?P:much less
+164 | Many years’ surveys reveal that young people in America are going to the cinema 【much】 less often than they used to.    ?P:much less
+81 | It was 【much】 less secure than paying with cash.    ?P:much less
+180 | In addition to people being healthier and living 【much】 longer, economists say that a combination of financial
+166 | M: Sure, the initial expenditure will be high, but 【much】 lower afterwards.
+100 | Although she found another villa in time for their holiday, she admits she was 【much】 more cautious.
+110 | “On the other hand, scientists at the USDA who I’ve spoken with are 【much】 more cautious.
+145 | It has placed 【much】 more emphasis on cure than on prevention.
+161 | Dreams of very small kids are usually just snapshots , looking 【much】 more like a slideshow than a movie, when
+148 | Harvard reports that women are “【much】 more likely than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize the symptoms.
+122 | K) Many years ago, I wrote about a study which found that employers are 【much】 more likely to hire a college graduate who
+95 | work showed that although the narrow winners did get 【much】 more money in the near future, the actual
+187 | Keynes was right in predicting that technology would make the economy 【much】 more productive.
+176 | Students are able to highlight and edit text, write notes and search for information 【much】 more quickly than they can with printed textbooks.
+149 | It is feared that a failure to address early-year challenges, such as poor handwriting, leads to 【much】 more serious problems down the line—with these pupils facing reduced career prospects.
+156 | children learn languages 【much】 more ___32___ than adults.
+174 | Most people spend 【much】 more time interacting with digital media than they did ten years ago.
+89 | hang around, so “in a lot of cases, that’s created 【much】 nicer environments that are really good for those businesses.
+88 | Outer beauty can be as 【much】 of a curse as a blessing.    ?P:as...as
+86 | fruit to retain as 【much】 of its goodness as possible, according to Roger Clemens, professor of pharmaceutical    ?P:as...as
+94 | 【Much】 of that time is devoted to text messages and social media.
+141 | The most major indicator of classical music’s importance in society today is the fact that 【much】 of the popular music that
+158 | What do we learn about 【much】 of the popular music currently produced?
+154 | Meanwhile, they keep the milk, eggs, and other daily basics all the way back so you'll travel through as 【much】 of the store as possible, and be tempted along the way.    ?P:as...as
+108 | E) While Formula One commands enormous audiences throughout 【much】 of the world, many American sports fans know it as that other motorsport, the one that is not NASCAR (纳斯卡车赛).
+119 | They feel 【much】 of their precious time, energy and resources is wasted.
+177 | Some childhood development experts believe that time off from school is vital to healthy development as kids are not designed to spend so 【much】 of their time inside classrooms and the summer break provides a perfect opportunity to get outside.
+104 | “They are dealing with the same challenges that adults are, as far as they are living in the _32_ of a tech environment designed to suck as 【much】 of their time onto their devices as possible,” Rideout says.
+151 | Employees spend 【much】 of their work time on it.
+92 | turn this pretty 【much】 on its head.    ?P:turn sth on its head ?P:pretty much
+170 | It will not enjoy as 【much】 popularity as classical music and opera among music fans.    ?P:as...as
+188 | Why do we allow what others think of us to have so 【much】 power over how we feel about ourselves?
+115 | How 【much】 protein they consume and what their body weight is.    ?P:how much
+93 | "It's certainly a problem that so 【much】 research in nutrition and health is funded by industry," says
+159 | They very 【much】 resemble animal meat.
+136 | So 【much】 so that, according to experts in neuroscience (神经系统科学), our brains do not handle multitasking situations well.    ?P:so...that
+137 | It’s also true that too 【much】 social networking and game playing can cut into schoolwork and sleep.
+134 | They place too 【much】 stress on individual relationships.
+169 | three times as 【much】 tap water as bottled water).    ?P:as...as
+160 | outdoor seating so 【much】 that cities are making it permanent: A New York City study of several streets closed during Covid    ?P:so...that
+87 | They visit the store so 【much】 that [7] staff have been forced to put up signs, asking their customers not to feed them.    ?P:so...that
+162 | people do not know how 【much】 they are eating, it can be really hard for them to stick to a diet.    ?P:how much
+147 | of how often they happen and how 【much】 they contribute to our overall energy intake.    ?P:how much
+167 | One benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired when too 【much】 time is taken off from school.
+112 | K) Few would deny that too 【much】 time online can be harmful.
+139 | Some students waste 【much】 time surfing the net.
+98 | If teens are spending so 【much】 time using electronic devices, does that mean they have to give up some other activities?
+189 | Imagine how 【much】 time we lose each    ?P:how much
+181 | The nation's obesity level has 【much】 to do with calorie intake.    ?P:have much to do with
+175 | It has 【much】 to do with whom employees interact with.    ?P:have much to do with
+113 | Why are people working just as 【much】 today as    ?P:as...as
+118 | And kids enjoy it just as 【much】 today as you and I did when we were young.    ?P:as...as
+157 | It is a new concept 【much】 too overrated.
+124 | For example, the United Nations reported that women do nearly three times as 【much】 unpaid domestic work as men.    ?P:as...as
+107 | I haven’t slept enough in months because I have too 【much】 work to do, and I feel fine.    ?P:too...to
+97 | W: (12-1) So, how 【much】 would the paint job cost?    ?P:how much
+128 | How 【much】 would you like to spend?    ?P:how much
+84 | see in adults appear at a 【much】 younger age than ___27___ known.
+132 | When she was 【much】 younger, my daughter used to say she wanted to be Queen of the Clouds, which I loved.
+
+============================================================
+## 词：could    本段 93 句    模式：全标（每句都写）
+原释义：modal v.能; 可以; 可能(can 的过去式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  modal v. 可能，也许（表推测或可能性）    B 样本 37    例：“It could be anyone.
+  1  modal v. 能，能够（表能力或客观上做得到，can 的过去式）    B 样本 23    例：terms of what their money could buy.
+  2  modal v. 可以，被允许（表许可，多指过去）    B 样本 7    例：Fathers, however, could take just two weeks.
+  3  modal v. 能否，可以……吗（委婉请求，Could you…?）    B 样本 3    例：M: Could I ask you a favor?
+  4  modal v. 可以，不妨（提出建议或提议，You could…）    B 样本 5    例：For a barbecue, you could have any cheese you want.
+  5  modal v. 本来可以，本来可能（could have done，与过去事实相反）    B 样本 4    例：She could have asked a friend for help with the paint job.
+已标过的短语：could do worse than（1）
+口径说明（照此执行）：
+  - 给C的口径：0（推测/可能性）与1（能力、客观上能做到）最难分——说话人推测某事「可能发生/可能是」标0（could affect, could be a win-win solution, It could be reused 这类选项）；陈述「有能力或条件做到」标1（could barely move, could be easily visualized, where I could get a meal, tasks in which they could cheat）。could have done / could not have done 标5；Could I/you…? 以及 ask/wonder if you could… 委婉请求标3；You could… / I could give you… 提建议或提议标4；表允许（could go home, could not use my Medicaid）标2；could do worse than 标P；How could I ever forget? 这类反问按0。0/1 边界有主观成分。
+句子：
+85 | With £10 to spend, they 【could】
+135 | Claudio Sillero, a professor of conservation biology at Oxford University, told the newspaper that the new findings 【could】
+169 | Horn said with some simple modifications to the existing equipment in new vehicles, their spacing bilateral control 【could】
+114 | Later research in 2003, however, suggested high-protein diets 【could】 aid in weight loss, and protein quickly regained its
+166 | “But with bilateral control you 【could】 almost double that.
+146 | They 【could】 also choose to express sympathy with their opponent to appear pleasant.
+164 | L) Finally, diversifying our diet away from heat-sensitive wheat, corn, rice and other crops 【could】 also help.
+104 | G) The spoken web 【could】 also help the one-in-five adults in Europe and the U.S. with poor reading skills.
+159 | It 【could】 also help to ___34___ these
+155 | But they 【could】 also indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they 【could】 opt to convey dissatisfaction with the encounter so that the other party would think they were losing interest.
+150 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it 【could】 also signal to potential friends or future employers that you are unlikely to think about the needs of others.
+80 | Fourth, they considered their alternatives: is there anything at work that 【could】 be
+137 | F) Horn calls this method of vehicle spacing bilateral control and he said it 【could】 be achieved with relatively simple
+121 | A totally different approach 【could】 be adopted to combat advertising campaigns for snack food.
+132 | Even a few days lost in a year 【could】 be enough to
+105 | Additionally, recycling facilities may be improved at a local council level and recycled plastic 【could】 be imported.
+86 | I mean, getting rid of rush hour may be impossible, but it 【could】 be made more tolerable, don’t you think?
+129 | Chase Carey thought the audience of Formula One 【could】 be made to share his feeling about the race.
+90 | It 【could】 be melted for use in other products. [7] It said even though there are some differences between the two products, there was still the possibility of confusion for consumers.
+119 | It 【could】 be reshaped into animals other than rabbits.
+89 | It 【could】 be resold cheaper to avoid waste.
+138 | It 【could】 be rewrapped and sold by the budget supermarket.
+82 | Fountains 【could】 be seen in cities before bottled water became popular
+124 | The temptation for those in charge of education budgets to trade teachers for technology 【could】 be so strong that they ignore the disadvantages of distance learning.
+93 | Researchers found through experiments that students 【could】 be taught to respond to stress in a more
+152 | I believe this fear 【could】 be tempered by putting decisions into perspective.
+117 | With so much emphasis on employee wellness these days, company volunteer programs 【could】 be the perfect 2025 resolution.
+171 | A number of existing farming technologies 【could】 be used to reduce the negative effect of climate change on food production.
+112 | They 【could】 become a rare treat in the near future.
+83 | From all the running and training, he 【could】 become quite athletic.
+99 | In the coming era of budget cuts to education, distance learning 【could】 become the norm.
+140 | What mainly accounts for the possibility that distance learning 【could】 become the norm?
+156 | They 【could】 become unavailable in less than 30 years.
+145 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil 【could】 become unsuitable by 2050, for example, while climate change will likely have “great impacts” on cocoa (可可粉) production in West Africa.
+160 | “Many places 【could】 benefit a great deal just by using technologies that already exist,” Walsh says.
+162 | models of real-world traffic conditions, showing how a typical U.S. freeway 【could】 benefit from cars using bilateral control.
+133 | They 【could】 calm people down a bit in times of crisis.
+81 | In particular, dangerous conditions such as icy roads or wet ground 【could】 cause difficulty for drivers.
+122 | But when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention 【could】 cause some unwanted stress.
+127 | The next day, Kate asked if she 【could】 check the shipping status, so her mom clicked on the web page and then walked out of the room.
+131 | For example, participants 【could】 choose to be tough by making an opening demand far greater than what they’d be willing to accept.
+97 | This meant that he 【could】 design the house according to the needs of the family.
+168 | People wonder if certain crops and foodstuffs 【could】 disappear like some animal species due to climate change.
+109 | There are 24 episodes. [11] Well, maybe you 【could】 download an electronic copy of the book and try to read it before the show starts.
+149 | Maybe he 【could】 even join the school basketball team when he’s ready.
+120 | Besides, I don’t think I 【could】 ever give up a good hot dog at a baseball game.
+107 | Earlier this year, scientists warned that one in six animal species 【could】 go extinct (灭绝的) due to climate change.
+95 | Being a close loser 【could】 greatly motivate one to persevere in their research.
+101 | When I got to my station, I 【could】 hardly get out.
+110 | that missing any days at school 【could】 have a negative impact on results.
+103 | Is there any chance we 【could】 have a window seat for one of those?
+116 | W: [9] Well, for example, the subway system 【could】 have air conditioning.
+100 | So you 【could】 have different types of cheese.
+151 | Such modifications, Horn said, 【could】 help
+167 | drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times 【could】 help increase
+170 | timing into account 【could】 help make treatments more effective and help more people worldwide.
+98 | These findings 【could】 help organizations become more diverse.
+144 | The revolutionary idea of a self-service grocery, where people 【could】 hunt and gather food from aisles rather than asking a clerk to fetch items from behind a counter, first came about in America.
+126 | The depressing and regimented (严格管制的) environment got him thinking on what exactly 【could】 improve the residents’ conditions.
+141 | M: Or you 【could】 just walk to work.
+161 | This change in confidence 【could】 lead to a gender balance in home cooking.
+128 | We must change the way we think: living well does not need to mean having more private spaces; instead, it 【could】 mean having more public spaces.
+147 | I) The Harvard study examined seven years of school results data and 【could】 not find any impact from snow closures.
+123 | In our stimulation-rich world, it seems unrealistic that boredom 【could】 occur at all.
+142 | Kate saw that her doll would be arriving the next afternoon, but then she noticed something else: suggestions about other dolls and toys she 【could】 order.
+111 | W: No, [8] actually, I was wondering how you 【could】 possibly afford a new phone.
+143 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else 【could】 possibly matter?
+148 | They 【could】 prevent people from getting heartbroken.
+96 | For those who are overweight or obese, they 【could】 receive the bonus if they reduce their weight by 10% during the year.
+165 | This in turn 【could】 reduce consumption of unhealthy, high-calorie processed meals.
+125 | You 【could】 register to use one.
+84 | it 【could】 represent a distraction.
+172 | Solving the problem of phantom jams 【could】 save America billions of dollars every year.
+158 | And the researchers in the new study have calculated that solving phantom jams 【could】 save at
+88 | But a few years after his surgery, scientists found that he 【could】 ___33___ see.
+115 | work with groups to produce imaginative design ideas for a product in simple materials that 【could】 sell for £10 in the Design
+163 | business that cities nationwide began allowing them to build curbside seating areas where people 【could】 sit, safely, in the
+118 | Another study involved people who 【could】 smell despite
+157 | It’s a team sport and they often have mixed-gender teams so he 【could】 socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+154 | J) There are ways we 【could】 soften the coming blow to the global food supply, however.
+87 | And we’d each have our own bedroom, where we 【could】 study instead of going to the library.
+153 | I 【could】 take a change of clothes and jog to work.
+92 | Being practically next door, one of us 【could】 take him to school every day before going to work.
+139 | It took time and commitment to continue to pursue roles within teams that I knew 【could】 teach and challenge me.
+113 | Besides, I 【could】 teach him some of the basics from my time as a badminton player.
+130 | 【Could】 the same thing happen to our crops and other foodstuffs too?
+91 | Eventually, he realised he 【could】 transfer his skills to real-life business — instead of doing it for free.
+134 | There’s nothing like playing as part of a unit to accomplish a goal like winning a game or even a championship. [13] He 【could】 try basketball since many of the courts are indoors now and it’s a sport that 【could】 help him understand team spirit while cooperating with others.
+102 | To be more creative, we 【could】 try lying in a controlled environment.
+108 | We 【could】 try Mario’s, the new Italian restaurant on the corner.
+106 | But realistically, there are some elements of Americanization that the sport 【could】 use.
+94 | To be honest, I 【could】 use some help in deciding what type of vehicle would best suit my needs.
+136 | W: [11] Hmm, 【could】 you send me his number, please?
+
+============================================================
+## 词：found    本段 98 句    模式：全标（每句都写）
+原释义：v.发现; 找到(find 的过去式和过去分词); 创建; 创办.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 发现，得出（某个情况或研究结论，常接 that 从句）    B 样本 55    例：The team has found that IT workers play
+  1  v. 找到，（偶然）发现（某物、某人）    B 样本 15    例：He found two 17th-century oil paintings.
+  2  v. 觉得，认为（find sth/it + 形容词）    B 样本 3    例：“I found it impossible to speak to anyone.
+  3  v. （be found）存在于，见于    B 样本 4    例：Protein-enriched products are found everywhere.
+  4  v. 创建，创办（found 作原形时）    B 样本 0
+已标过的短语：find oneself（2）；find one's way（1）
+口径说明（照此执行）：
+  - 原形 found（创建）在这80句里未出现，C 遇到 found a company 之类时标4。给C的口径：研究发现/发现某情况（found that…, found a link, found the money missing, it was found that）标0；找到具体的人或物（found a dog, was found lying in the snow, found a new way）标1；find sth/it + 形容词（found it easy）标2；be found in/everywhere「存在于、见于」标3；find oneself、find one's way 标P。
+句子：
+98 | Authorities have not yet confirmed what will happen if the rightful owner is not 【found】.
+122 | Those with a growth mindset of interest tend to believe that interests can be developed and cultivated, while those with a fixed mindset of interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘【found】.
+136 | Another study 【found】 a relationship between fruit juice and type 2 diabetes after following the diets and diabetes status of
+139 | What have studies 【found】 about boredom?
+150 | Early zoos are 【found】 all over the world.
+94 | They were easily 【found】 and plentifully available food source in farming areas, especially for poor immigrants.
+125 | Although she 【found】 another villa in time for their holiday, she admits she was much more cautious.
+135 | In Egypt, researchers have 【found】 buildings from around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.
+157 | They 【found】 busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.
+131 | doing new things, a 2012 study in the journal Psychology and Aging 【found】 completing reasoning tasks like puzzles and
+134 | For example, other studies have 【found】 dogs are more likely to bite children versus adults.
+112 | While research has 【found】 dogs can have a lot of positive impacts on a child’s life, there are also risks associated with the dog-child relationship.
+84 | Researchers have 【found】 donating our time and talent to others can lower blood pressure, boost happiness and improve mental and physical health.
+155 | I 【found】 employees who engage in online social interactions with co-workers through social media blogs tend to be more motivated and come up with innovative ideas.
+97 | She was 【found】 in a forest after three days.
+166 | It is a rare skill often 【found】 in fluid organisations.
+151 | lack of the other components 【found】 in whole fruit, like fibre.
+83 | because the fibre 【found】 in whole fruits is intact, and the sugar is contained within the fruit’s cells.
+80 | He 【found】 it had caused him much inconvenience.
+154 | Given curiosity’s complexity, scientists have 【found】 it hard to define.
+87 | I 【found】 my way to user experience through graphic design, and slowly over many different roles and experiences that led me to become a user experience designer.    ?P:find one's way
+162 | F) He 【found】 negative effects on blood sugar and insulin levels when food provided excess calories from sugars, including
+164 | In the second part of the study I 【found】 76% of employees using social media for work took an interest in other organizations they 【found】 on social media.
+156 | In 2015, a joint study 【found】 72% of people taking MOOCs saw career benefits afterward.
+104 | Previous research has 【found】 older students achieve better results.
+123 | Clues about the culture of a company can be 【found】 on its website.
+99 | “I was comparing prices online and 【found】 one that came in a bit cheaper than others,” says O’Shaughnessy.
+130 | While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study 【found】 only 15% of teens said someone had bullied them online in the last 12 months.
+126 | The act of keeping her own last name was considered taboo (禁忌) and people’s eyebrows would raise right off their faces when they 【found】 out that the bride was even considering something so radical.    ?P:find out
+153 | We 【found】 reliable evidence that people were
+138 | 【found】 storeowners making more than before, and diners enjoying the outdoor lifestyle.
+159 | I) When linguist Naomi Baron studied students’ instant messaging even there she 【found】 surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.
+86 | The city analyzed the data for businesses along those routes and 【found】 that
+133 | Unsurprisingly, Kelly and Moen 【found】 that
+160 | Research 【found】 that, as regards achievement of one’s goals, it is important to focus more on enjoying the process than the
+118 | G) Beyond New York, a survey of research from 23 cities 【found】 that bike lanes and pedestrian-friendly design didn’t hurt
+137 | Horn has 【found】 that certain creatures use strategies similar to bilateral control to avoid hitting each other while moving in
+90 | K) Many years ago, I wrote about a study which 【found】 that employers are much more likely to hire a college graduate who
+148 | We 【found】 that enjoyment predicted people’s goal persistence
+168 | Researchers 【found】 that enjoyment rather than importance enabled people to persist in their goals.
+140 | Research from Nova Southeastern University 【found】 that female managers were more likely than male managers to display “surface acting,” or forcing emotions that are not wholly felt.
+109 | This is confirmed by a recent poll that 【found】 that, for half
+101 | An Italian study 【found】 that for simple arithmetic there was little difference between right- and left-handed performance, (24) but for more difficult problem-solving, left-handers won out.
+116 | collected between 1986 and 2009 and 【found】 that fruit juice consumption was linked with increased risk of type 2 diabetes.
+96 | A study led by Yale Professor of Psychology, Paul O’Keefe, 【found】 that having a growth mindset (思维倾向) of interest may spark this type of innovation.
+95 | Research has 【found】 that having access to diverse teachers is beneficial for children.
+85 | But a few years after his surgery, scientists 【found】 that he could ___33___ see.
+113 | The researchers 【found】 that in adult mice, a week in the dark also changed
+115 | Modesty may be key when cooperation is essential, but the researchers also 【found】 that in some cases, status signaling has advantages.
+176 | Prior research on negative reciprocity among workers 【found】 that it can result in lower employee motivation, business performance and workplace morale (士气) and culture.
+100 | The benefits of a traditional Mediterranean diet have been studied since the 1970s, and researchers have 【found】 that living that olive oil life can help people lose weight, lower their heart disease risk and reverse diabetes.
+146 | G) The previous study 【found】 that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.
+128 | Researcher Andrew Jarvis and his colleagues 【found】 that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, for example, while climate change will likely have “great impacts” on cocoa (可可粉) production in West Africa.
+129 | Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, 【found】 that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become more acceptable.
+127 | The researchers 【found】 that older students displayed greater risk-taking tendencies.
+172 | We 【found】 that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+145 | Jarvis and his colleagues also 【found】 that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar than they were in 1961.
+110 | They 【found】 that participants in a high-power interviewer role were more likely to give abstract
+102 | Various experiments 【found】 that participants who cheated in the initial task performed better in the creativity test.
+174 | Researchers 【found】 that participants who saw the images of their aged selves would save more for their later years than
+132 | But the team 【found】 that participants' brain activity while considering their future selves more closely
+120 | It is 【found】 that people are more creative following the completion of a tedious task.
+82 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] But new research 【found】 that people believe someone who shows off their social status cares more about benefiting themselves than helping others.
+124 | They 【found】 that people have a wide range of opinions concerning diversity.
+93 | One study 【found】 that people tend to rate this quality 35 in their spouse.
+170 | Studies have 【found】 that people tend to be less open and less able to relax when they wear formal clothes.
+141 | After coding and analyzing the ideas they generated, the team 【found】 that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from only one of those areas, like computational chemistry.
+121 | The study also 【found】 that someone who is humble is more likely to initiate a romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.
+106 | The researchers 【found】 that students who were most at risk had the most improvements in executive functioning after interacting with therapy dogs.
+152 | Over 50 years ago, researchers 【found】 that the cholesterol drug simvastatin is more effective at lowering cholesterol levels
+108 | Research by Amanda Lenhart of the Pew Research Centre, a US think tank, 【found】 that the most passionate texters are also the kids most likely to spend time with friends in person.
+119 | have 【found】 that their best overall problem solvers were master tinkerers in their youth.
+105 | Other studies, including studies of wheat in India and corn in Africa, also 【found】 that there is a threshold above which yields sharply decline: crops can adapt and move, but only to a point.
+114 | The most recent count of pandas 【found】 that there were more than 1,800 left in the wild, putting them on the list of
+171 | When I examined how respondents expressed openness to new careers and employers, I 【found】 that they engaged in some key activities including researching new organizations and making new work connections.
+147 | When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in “freshman composition” papers going back to 1917, she 【found】 that they were virtually identical to today.
+149 | Research 【found】 that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.
+111 | E) Lupu and Ruiz-Castro looked at those who rejected the long hours and they 【found】 that those workers actually had strikingly
+107 | The researchers 【found】 that when participants spent longer than _28_ on their leisure activity, their belief in their ability to perform their job was strengthened.
+158 | They 【found】 that when people compete against their rivals, they are more willing to behave unethically to win.
+165 | We 【found】 that women paid on average $18 less per ticket than their male colleagues.
+117 | But now, new research has 【found】 the cause
+142 | Simply by reading its description, the author 【found】 the job offered ideal.
+173 | Research has 【found】 the use of digital technology benefits not only teenagers’ social lives but also their studies.
+103 | “The surprise eggs have 【found】 their way to freedom,” said Mayor Uwe Garrel.    ?P:find one's way
+92 | winners, it's impossible to know which of the winners would have quit had they 【found】 themselves on
+169 | hit songs of the 1950s, researchers 【found】, there was only slightly more than one 50 years later.
+143 | In my research with 277 employees of a healthcare organization I 【found】 these concerns to be misguided.
+91 | Researchers 【found】 through experiments that students could be taught to respond to stress in a more
+163 | Regardless of their genetic makeup, infants have to learn an incredible amount of information in a short time, and curiosity is one of the tools humans have 【found】 to accomplish that gigantic task.
+167 | Still, 15% or more of kids are 【found】 to be deeply bookish.
+81 | The ideal level of perfectly livable habitat was 【found】 to be only 80% of an area,
+144 | How do smart people react when they are 【found】 to be wrong?
+177 | Both men and women were 【found】 to engage in negative behaviors.
+88 | An effective intervention has to be 【found】 to persuade teenagers to switch to a healthier lifestyle.
+161 | point was reached in 2020 when human-made materials — such as steel, concrete and plastic — were 【found】 to weigh more
+89 | What did the government say would be done if security officers 【found】 what they were searching for?
+175 | What problem was 【found】 with employees using social media for work?
+
+============================================================
+## 词：help    本段 98 句    模式：全标（每句都写）
+原释义：v.帮助; 援助; 改善. n.帮助; 援助.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 帮助，帮忙；有助于（help sb (to) do sth, help with sth）    B 样本 62    例：How can I help you?
+  1  n. 帮助，援助    B 样本 13    例：To ask them for help.
+已标过的短语：help oneself（2）；can't help but（2）；with the help of（1）
+口径说明（照此执行）：
+  - 动词「帮助」与「有助于」（事物作主语：help reduce, help ensure）没有拆开——中文都能说「帮助」，拆开后边界很难一致；原 def 的「改善」并入此义。给C的口径：动词一律标0，名词标1（seek help, for help, your help, could use some help, medical help）；help oneself (to) 标 P:help oneself；can't help but 标 P:can't help but，can't help doing 标 P:can't help doing；with the help of 标P；help out 标 P:help out。第50句有 OCR 乱码，按 medical help 标1。
+句子：
+82 | It might 【help】
+86 | He’s a lovely guy, and he’ll be happy to 【help】.
+95 | Thanks for your 【help】.
+117 | It will gradually pass away without teachers' 【help】.
+142 | L) Finally, diversifying our diet away from heat-sensitive wheat, corn, rice and other crops could also 【help】.
+152 | They are unable to get rid of their addiction without professional 【help】.
+158 | balance remains difficult to achieve, the experts say that keeping some perspective can 【help】.
+162 | We also hope to learn how teachers, parents or school counselors can 【help】
+176 | have to tolerate the bad tempers of colleagues frustrated at the number of times they've had to call the 【help】
+157 | They 【help】 an organization to broaden its vision effectively.
+90 | In many cases, there is no active 【help】 and a lack of teacher training.
+84 | a big 【help】 — and that included in-person, on-the-job training, “'informal learning,” and online courses — with or without
+141 | They often fail to recognise when they need 【help】, and when they do recognise it, they tend to believe that no one else is capable of providing it.
+150 | Sadly, the people who most need the 【help】 are least
+107 | Having a companion to talk to about their feelings can also 【help】 children feel secure and develop communication skills.
+175 | What can we do to 【help】 children learn the basics of math and geometry?
+128 | aids to back up your ideas can 【help】 communicate your ideas better and make compelling arguments so your listeners will
+165 | It can 【help】 companies increase their savings significantly.
+96 | How can scientists 【help】 cope with poverty and hunger?
+101 | Last week, BBC Future explored one scientist’s efforts to 【help】 crops cope with the increased probability of droughts.
+155 | A recent news report talked about scientific efforts to 【help】 crops survive droughts through genetic engineering.
+173 | By inviting business leaders to 【help】 design curriculums.
+109 | 【Help】 discover new ways for the conservation of pandas.
+147 | Two sets of sensors would be used to 【help】 drivers determine the distances between cars.
+108 | What should be done to 【help】 drivers fully understand system capabilities and limitations?
+140 | They 【help】 each other to cover up their acts.
+118 | They cannot 【help】 eating more than they should.
+85 | 【Help】 eliminate class difference in his area.
+153 | Employers can also consider how to bundle different types of compensation to 【help】 employees cope with their unique situations.
+163 | To 【help】 employees in need adapt to the new work environment.
+100 | The values and habits they bring from their own homelands 【help】 explain some of the success.
+127 | To 【help】 explain this seemingly irrational behavior, Hershfield and his team scanned the brains of study participants
+159 | They try to seek 【help】 from gene-editing scientists.
+139 | Most of them get timely 【help】 from their teachers.
+113 | Game Academy proposes to 【help】 gamers develop their skills using critical thinking.
+97 | What would 【help】 improve food security among the disadvantaged groups in Canada?
+177 | How can a business 【help】 improve its employees' experience in using IT?
+126 | K) Until genetic engineering comes to fruition, other strategies might also 【help】 in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster or installing storage facilities to delay spoilage.
+116 | The whole village chips in to 【help】, including the kids, who end up developing their baking skills at an early age.
+161 | drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could 【help】 increase
+129 | Dogs can 【help】 kids in many ways.
+119 | It has not done enough to 【help】 left-handed children.
+168 | timing into account could 【help】 make treatments more effective and 【help】 more people worldwide.
+106 | terms of the modern era to 【help】 manage my personal finances.
+120 | Kelli Harding doesn’t think America’s medical model is sufficient for patients who need 【help】 most.
+144 | They 【help】 motivate coworkers to strive for a common goal.
+148 | In a war of culture, data does not 【help】 much in changing people’s minds.
+169 | Researchers would like to explore further how parents and schools can 【help】 ninth graders by changing
+81 | J) With the 【help】 of engineering students at high schools in Maine, Horn and Wang have also built a robot simulation    ?P:with the help of
+131 | He believes giving out this information will 【help】 Ohio’s colleges and universities to be more competitive.
+103 | They will 【help】 one reduce fear.
+91 | These findings could 【help】 organizations become more diverse.
+137 | we can do to 【help】 ourselves is to go online and learn new, relevant skills.
+98 | To 【help】 parents decide when to send their children to school.
+174 | As a society, we reap the rewards from this science but we also 【help】 pay for it.
+133 | They may 【help】 people concentrate on their business.
+115 | 【Help】 people connect with each other.
+88 | Suffering early setbacks might 【help】 people improve their job performance.
+94 | The benefits of a traditional Mediterranean diet have been studied since the 1970s, and researchers have found that living that olive oil life can 【help】 people lose weight, lower their heart disease risk and reverse diabetes.
+170 | What will 【help】 people stick to doing something constructive automatically?
+122 | 【Help】 people to deal with their troubles in life.
+167 | They can make unlovely spaces lovely, and marry use and beauty as well as 【help】 promote a sense of community.
+134 | According to Horn, drivers making constant adjustments for equal spacing between cars in a flow of traffic can 【help】 reduce
+136 | Interventions to 【help】 reduce junk food consumption are especially important for children and teenagers.
+149 | What is a major flaw in previous interventions to 【help】 reduce junk food consumption?
+111 | N) But until those systems become standard, human drivers can 【help】 reduce phantom traffic jams simply by not following the
+132 | 【Help】 remove pandas from the list of endangered species.
+114 | training, is going to 【help】 resolve their worries about hiring someone over 45.
+146 | Scientists can still 【help】 save chocolates from dying out!
+171 | They 【help】 students acquire the skills needed for their future success.
+93 | Anyway, tablets 【help】 students learn up to 80% faster.
+135 | I) Mom-and-pop shops are usually pretty quick at recognizing situations that will 【help】 their bottom lines.
+130 | 【Help】 them become familiar with the world of money.
+125 | It will 【help】 them get back to where their lessons started.
+154 | The new program aims to aid refugees by offering “important skills that will 【help】 them in the global economy,” Evan Ryan, U.S. assistant secretary of state for educational and cultural affairs, said on a press call last week.
+105 | 【Help】 them to conceal their frustration.
+164 | To 【help】 them to meet new employment standards.
+104 | you can get somebody on-board with your goal, you should 【help】 them understand why they should pursue it.
+87 | They need extra 【help】 to catch up in the math class.
+80 | I) Another reason for fruit juice’s recent popularity is the argument that it can 【help】 to remove poisonous or harmful substances
+102 | Desiring new experiences can 【help】 to renovate the brain.
+112 | It could also 【help】 to ___34___ these
+92 | It is bound to 【help】 us achieve greater success.
+156 | Regarding our future selves as still being ourselves will 【help】 us make better long-term decisions.
+172 | How does the art of self-control 【help】 us succeed?
+110 | 【Help】 us to enjoy a fuller personal life.
+99 | Students needed to 【help】 with farm work.
+89 | She could have asked a friend for 【help】 with the paint job.
+124 | Hyphenating your last name can 【help】 you bridge the gap between your personal and professional lives.
+145 | can 【help】 you shift and adapt your professional life to something that will better harmonise with your personal one.
+160 | If meatless meat can 【help】 you stick to a plant-based diet, that in itself can lead to better health.
+166 | Having a valuable outcome associated with a habit will 【help】 you stick to that habit permanently.
+121 | Learning and listening can 【help】 you think about things in a different way.
+143 | thinking about your deadline in terms of days rather than months or years can 【help】 you wrap your mind around how close the
+151 | of schools and for which kinds of students these growth mindset ideas 【help】 young people adapt to the
+138 | schools and families can 【help】 young people thrive.
+123 | And vitamin D from sunshine can 【help】 your body to absorb certain minerals, which are linked to building stronger bones.
+83 | G) Playing games casually is unlikely to 【help】 your career prospects.
+
+============================================================
+## 词：its    本段 91 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：det.它的(it 的所有格).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  det. 它的，其（it 的所有格，指物、动物、机构、国家等）    B 样本 77    例：Its unusual coastline.
+已标过的短语：turn sth on its head（1）；the first of its kind（1）；at one's best（1）
+口径说明（照此执行）：
+  - 只有一个义项；80句中约15句是作文题干（its aim / its service / its coming edition）。给C的口径：turn sth on its head、the first of its kind、at its best（P:at one's best）、on its own（P:on one's own）、in its own right（P:in one's own right）标P，其余均标0。
+句子：
+159 | Driving around town in a car is so normal to them that cycling seems weird and unusual — despite 【its】
+121 | I) Siri has often been praised for 【its】 ability to interpret our casual language and deliver very specific and accurate results, sometimes even providing additional information.
+90 | 【Its】 absence might suggest a lack of warmth in interpersonal relationships
+81 | Protecting 【its】 babies against harm.
+169 | This and other research challenge the prevailing view that emotional intelligence is uniformly beneficial to 【its】 bearer.
+170 | Emotional intelligence is generally beneficial to 【its】 bearer.
+109 | And Game Academy reckons 【its】 belief is backed up by hard data.
+123 | As a result, Los Angeles now has 【its】 best chance in decades to combat homelessness.
+92 | L) Kelli wastes no time taking potshots at (随意批评) the medical establishment and 【its】 body-centered biomedicine methods.
+145 | Workers who meet 【its】 body weight standards.
+104 | The industry is quick to point out that all 【its】 bottles are recyclable.
+124 | I) Another potential climate change-induced problem is our dependence on commodity crops—wheat, soybeans, corn and rice—which currently provide humanity with 75% of 【its】 calories, either directly or indirectly through the animals we raise on those crops.
+132 | 【Its】 children's baking skills.
+80 | [5] A German supermarket has been ordered to destroy 【its】 chocolate rabbits after it lost a court battle with the Swiss chocolate manufacturer.
+128 | Change the wrapping of 【its】 commodities.
+116 | Fortunately, all the blueprints for both the building and 【its】 contents have been preserved, so we’ve been able to replace badly damaged furniture.
+154 | The concept of self-care, at 【its】 core, is quite simple.
+85 | Lucky for them, (23) Takotna is famous for 【its】 delicious fruit pies.
+162 | Simply by reading 【its】 description, the author found the job offered ideal.
+112 | Takotna has gained a reputation for 【its】 dessert-based hospitality since the 1970s.
+134 | 【Its】 details cannot be renegotiated.
+115 | 【Its】 dictionary definition should be updated.
+135 | Reflect on 【its】 differences from working in the office.
+142 | A strengthened effect of 【its】 discipline.
+87 | It had two of 【its】 domestic flights mixed up.
+100 | Inside, the dancer manipulates strings that open and close the lion's eyes, shake 【its】 ears and open 【its】 mouth to reveal a fire-orange tongue.
+118 | Reexamine 【its】 effects on employees’ behaviors.
+137 | The supermarket imitated the Fordist factory, with 【its】 emphasis on efficiency and standardization, and reimagined it as a place to buy food.
+111 | It does not supervise 【its】 employees.
+168 | How can a business help improve 【its】 employees' experience in using IT?
+149 | year, the UK government set out plans to ban single-use plastic from 【its】 estate.
+136 | Taking measures to expand 【its】 exercise programs.
+152 | It was famed throughout the U.S. for 【its】 fancy regional dishes.
+122 | Chase Carey believes greater use should be made of digital technology to make Formula One more accessible to 【its】 fans.
+117 | 【Its】 findings confirmed those of previous studies.
+110 | The fine dining establishment received 【its】 first three-star Michelin rating in 2011 when the menu was famed for 【its】 fancy
+141 | It could not have come into being without classical music and opera as 【its】 foundation.
+130 | restructured Zentech, once a taxation vehicle for his father’s business, and it is now in 【its】 fourth year helping international
+106 | But instead of leaving and never coming back, it invited 【its】 friends round. [5] There are now at least five different cats who come almost on a daily basis.
+113 | Coca-Cola also released data detailing 【its】 funding
+96 | It is still far from 【its】 goal despite the progress made.
+108 | The Swiss firm had argued 【its】 gold-wrapped chocolate rabbit deserved copyright protection from a similar product sold by the budget supermarket.
+102 | 43 People ate more of a healthy food when they focused on 【its】 good taste instead of 【its】 long-term benefits.
+105 | fruit to retain as much of 【its】 goodness as possible, according to Roger Clemens, professor of pharmaceutical    ?P:as...as
+161 | 【Its】 great food variety.
+89 | But there’s more to running than 【its】 health benefits.
+157 | 【Its】 hidden biases should be identified independently
+107 | Destroy 【its】 imitation chocolate rabbits.
+150 | It cannot outcompete classical music and opera in 【its】 impact on our current society.
+88 | 【Its】 impact on society is expected to rise.
+98 | Improve 【its】 infrastructure.
+84 | Renovated 【its】 kitchen and all the dining-rooms.
+97 | He felt it his duty to revolutionize 【its】 management.
+143 | It is the first restaurant in the city to remove meat from 【its】 menu.
+86 | us at some point," 【its】 minister for loneliness Baroness Barran said.
+139 | 【Its】 misleading results should be corrected in time.
+131 | I am so grateful to the team members who contributed through 【its】 nearly 25-year history.
+164 | One large beverage company has adapted 【its】 operations when confronted with challenges from health and environmental
+83 | J) If they think we’re too old to learn new skills after we’re 45, just learning some new skills may have an effect on 【its】 own.    ?P:on one's own
+93 | You can cut it into thin slices and eat it on 【its】 own.    ?P:on one's own
+167 | Each of the healthy eating cultures has 【its】 own unique feature.
+133 | She returned it to 【its】 owner right away.
+91 | 【Its】 participants came from various walks of life.
+114 | She posted 【its】 picture on Facebook.
+129 | The chocolate company has been to court before to protect 【its】 popular chocolate treat.
+101 | By maintaining 【its】 positive image.
+165 | They tell patients 【its】 possible side effects during a period of 24 hours.
+99 | John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase 【its】 presence in the United States was framing itself in a way that had lasting appeal.
+158 | One city on the west coast of America has banned single-use bottles from 【its】 property and events.
+120 | But with their newfound luxury comes the responsibility for 【its】 protection and maintenance.
+147 | Whether a country’s protection of women’s rights is related to 【its】 public health.
+140 | Another has pledged to use only recycled plastic across 【its】 range by 2025.
+125 | 【Its】 recommendations should be examined for feasibility.
+119 | Considering the promotion of 【its】 regular classes.
+82 | Despite 【its】 restrictions, analytical decision-making does have several key strengths. [18] By relying on facts and data, you minimize your potential for a wrong decision.
+156 | The left side of their brain is more powerful than 【its】 right side.
+138 | They are increasingly ashamed about 【its】 scale.
+95 | Although Palmdor is one of the most famous private islands in the world, 【its】 seafront is public land and is a favorite destination for famous people.
+127 | 【its】 simplest definition, is telling a story using music as 【its】 form.
+126 | litre “eco” bottles alongside 【its】 standard bottles.
+151 | A harmonious relationship among 【its】 students.
+160 | It was a worthwhile effort even though he was unsure of 【its】 success.
+153 | 【Its】 tasty fruit pies.
+166 |  knife and put it under a heat lamp, 【its】 temperature jumped.
+146 | 【Its】 terms may not be strictly binding.
+163 | Their brain has a stronger connection between 【its】 two sides.
+144 | 【Its】 unique winter scenery.
+94 | 【Its】 unspoiled beaches.
+148 | 【Its】 validity should be checked with additional care.
+103 | They help an organization to broaden 【its】 vision effectively.
+155 | Clues about the culture of a company can be found on 【its】 website.
+
+============================================================
+## 词：study    本段 98 句    模式：全标（每句都写）
+原释义：n.学习; 研究; 书房. v.学习; 研究.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 研究，（一项）研究    B 样本 67    例：One study has
+  1  v. 学习，读书    B 样本 4    例：It meets students' need to study on their own.
+  2  n. 学习（多作定语，如 study habits, study guide）    B 样本 7    例：Prepare a study guide.
+  3  v. 研究，调查    B 样本 1    例：Indeed, social scientists who study young people have found that their digital use can be inventive and even beneficial.
+  4  n. 书房    B 样本 0
+已标过的短语：work study（1）
+口径说明（照此执行）：
+  - 给C的口径：可数名词「一项研究」（a new study, the study found, study participants, the study of touching, little study on…）标0；动词「学习」（study on the bus, study music theory）标1；作定语表「学习」（study habits / guide / project / folder / environment）标2；动词「研究」（social scientists who study young people）标3；书房标4；work study（勤工助学）标 P:work study。
+句子：
+99 | And the best way to get strong, healthy bones is by doing weight-bearing exercises like running, dancing and walking, according to a large 【study】.
+101 | “It’s a really powerful finding,” said Patricia Pendry, who led the 【study】.
+118 | who got one with luck, as suggested in one 【study】.
+120 | What do we learn about male teachers from their responses in the 【study】?
+121 | Beverages like pure fruit juice which are sweet but do not contain added sugar were not part of the 【study】.
+129 | [20] The researchers measured executive functioning in the students involved in the 【study】.
+159 | What do we learn about the culture of busyness from a recent 【study】?
+168 | What is the finding of the new 【study】?
+170 | What is the aim of psychologist David Foulkes’ 【study】?
+112 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a 【study】 about jams.
+177 | A team of researchers from the University of Basel published their new 【study】 about people’s attitudes towards diversity at work.
+122 | What did the author find in his 【study】 about the effect of online social interactions?
+144 | Indeed, the 【study】 adds to previous research hinting at a dark side of emotional intelligence.
+88 | The 【study】 also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because they are less likely to see themselves as “too good” for someone else.
+148 | I) However, the 【study】 also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.
+123 | How a rabbit 【study】 and an ex-student boost my hopes for a future of ‘love and dignity’
+158 | What did the 【study】 by Matous' team find about some team-building exercises?
+143 | A 【study】 by the Josephson Institute of Ethics interviewed 23,000 high school students and asked them a variety of questions about academic ethics.
+167 | What do we learn from the 【study】 by the Josephson Institute of Ethics?
+169 | A recent 【study】 concluded that regardless of whether people are actually handling several tasks or not, the mere fact that they perceive this activity as multitasking has a positive effect on their performance.
+81 | put people into layers of confusion, and the 【study】 confirms that music can sometimes ___30___ lift people out of the
+156 | A Common Sense Media survey found that 35-percent of students had cheated via smartphone, though the parents surveyed in that particular 【study】 did not believe their kids had ever cheated.
+152 | But “the research hasn’t really changed minds, at least not yet,” says one of the authors of the 【study】, Dr.
+164 | According to one 【study】, each high school graduate contributes at least 500, OOO dollars to the local
+132 | I) The Harvard 【study】 examined seven years of school results data and could not find any impact from snow closures.
+115 | What did one 【study】 find about students seated in the middle of the classroom?
+98 | What did the joint 【study】 find about the MOOCs several years ago?
+160 | One 【study】 finds that even workers who claim to desire gender equality stick to traditional gender roles both at work and at home.
+116 | A new 【study】 finds that more education and training helps midcareer individuals find a new job.
+172 | My main problem is that my 【study】 folder is full of notes and worksheets, and is badly disorganized.
+124 | But overall, the 【study】 found little evidence that time spent on screens was hurting social skills for most children.
+105 | [4] Overall, the new 【study】 found no significant relationship between participants’ month of birth and symptoms of depression or anxiety.
+142 | The 【study】 found only an association: It did not prove that drinks with added sugar cause early death.
+104 | While there’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew 【study】 found only 15% of teens said someone had bullied them online in the last 12 months.
+126 | An Italian 【study】 found that for simple arithmetic there was little difference between right- and left-handed performance, (24) but for more difficult problem-solving, left-handers won out.
+130 | G) The previous 【study】 found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.
+127 | The 【study】 found that team-building exercises which focused on the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections with colleagues.
+136 | The 【study】 found that while the bigger display table created more interest, people were almost 10 times less likely to purchase a jar of jam than in the case of the smaller display.
+107 | This differed from the findings of a 【study】 from Harvard
+109 | [22][23] A new 【study】 from Oregon State University found that dogs tend to match their behavior with the children in their family.
+82 | This 【study】 gathered that students had a clearer vision of the blackboard, and were able to focus more attention on the instructor.
+91 | It can be harder for students to create 【study】 groups and form relationships with their peers.
+155 | W: (12) Have you considered making a 【study】 guide?
+176 | W: (15-1) Well, I suggest reorganizing your notes using color-coded sections in your 【study】 guides, or using idea mapping to lay out the information and make it more quickly accessible.
+163 | Now a large-scale 【study】 has tried an innovative approach to change teenagers’ attitudes towards healthy eating, and the
+113 | And the researchers in the new 【study】 have calculated that solving phantom jams could save at
+87 | In Wang's 【study】, he selected the most determined, passionate scientists from the
+131 | G) In a follow-up 【study】, Hershfield wanted to explore ways to bridge the disconnect between the present and future
+93 | In the second part of the 【study】 I found 76% of employees using social media for work took an interest in other organizations they found on social media.
+173 | What does the finding of Myriam Bechtoldt’s 【study】 indicate?
+97 | Some have argued that ensuring those rights would limit progress, but this 【study】 indicates the opposite.
+117 | In this 【study】, instead of teaching
+80 | Another 【study】 involved people who could smell despite
+150 | One solution suggested in the 【study】 involves requiring buyers to sign end-user license agreements (EULAs), similar to
+137 | F) Two years ago, a Glasgow University 【study】 made headlines for suggesting gaming could make students more successful.
+139 | According to one recent 【study】, narrow winners of research grants had better chances to be promoted
+85 | An in-depth 【study】 of differences between human languages contributes to a true understanding of
+165 | A 【study】 of 12- to 19-month-olds learning how to walk documented that these children fell down a lot.
+174 | What do we learn from the conclusion of a recent 【study】 on multitasking?
+102 | F) “We did a 【study】 on paternity leave five years ago.
+147 | According to a recent 【study】, one in five highly engaged employees is at risk of burnout (精疲力竭).
+106 | In light of Hershfield’s 【study】, one simple question arises: Is it possible to make our present selves give a damn about
+94 | Being a parent _33_ very high across the priorities of all 【study】 participants.
+149 | He and his team took photos of 【study】 participants, and then used
+92 | The more beverages containing added sugar that people drank, the greater their risk of death was during the 【study】 period.
+166 | I’ve been using one since the start of last semester, and it has really helped relieve a lot of 【study】 pressure.
+125 | In a 【study】, psychologist Myriam Bechtoldt of the Frankfurt School of Finance and Management in Germany asked 166 male university students a series of questions to measure their emotional intelligence.
+157 | A 【study】 published in 2002 in Personality and Individual Differences suggested that emotionally perceptive people might be particularly influenced by feelings of depression and hopelessness.
+119 | Women are twice as likely to suffer from severe stress and anxiety as men, according to a 2016 【study】 published in The Journal of Brain & Behavior.
+141 | What do the authors of the 【study】 recommend to bridge the gender gap in early childhood education?
+89 | Despite mostly feeling supported by colleagues and family members, many of the male educators surveyed in the 【study】 reported facing social or cultural resistance in their careers as early education teachers.
+90 | In another 【study】, researchers asked volunteers to jog for 30 minutes and then showed them clips from a sad movie.
+95 | For the 【study】, researchers compared teacher and parent evaluations of American children who started kindergarten in 1998, with those who began school in 2010.
+145 | In one 【study】, researchers showed the participants columns of abstract illustrations and asked them which ones they would prefer.
+100 | Despite these _35_, the 【study】’s results are yet another indication of the power of physical activity, even in small amounts.
+140 | “They expressed optimism, calmness and sympathy even when these were not the emotions that they were actually feeling,” the 【study】 said.
+114 | Jeff Anderson, associate professor in Radiology at the University of Utah and ___32___ author on the 【study】, says “In
+103 | However, the 【study】 showed participants’ mental health improved even if their reported diet did not change after completing the program.
+175 | One 【study】 showed that friendships among ninth graders were far from stable.
+154 | One 【study】 showed that women managers often expressed positive emotions that they didn’t really feel.
+162 | A 2017 【study】 shows 91 percent of people agree to them without
+138 | In this 【study】, students came into the laboratory and were asked to give a public speech in front of
+171 | In one 【study】, students were told their social position in school is not unchangeable.
+153 | According to one 【study】, students' academic performance is not the only decisive factor of their stress
+134 | Yet, very little research has focused on how dogs perceive and socially engage with children. [24] “The great news is that this 【study】 suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the 【study】.
+96 | But a new 【study】 suggests that being sensitive to people’s feelings may sometimes come with an extra dose of stress.
+86 | But importantly—and surprisingly—this new 【study】 suggests that the majority of students experiencing math anxiety have normal to high math ability.
+135 | A recent 【study】 tackles the issue of over-trusting drivers and the resulting system misuse from a legal
+151 | In the 【study】, the bigger display of jams leads to lower customer satisfaction than the smaller display.
+110 | For the 【study】, the researchers asked participants to rate their diet as excellent, very good, good, fair or poor.
+108 | argue that work-life balance is “a cycle, not an achievement” In their 2020 【study】, the researchers interviewed nearly 80
+146 | In this 【study】 the researchers recommended a self-disclosure (表露) approach where participants were guided through a series of questions that allowed them to increasingly disclose personal information and values.
+128 | In 2016, researchers from Columbia, Harvard, and Georgetown conducted a 【study】 to figure it out.
+161 | K) “In one 【study】, we asked people online about the goals they set at the beginning of the year.
+84 | G) In one recent 【study】, we examined 360 adolescents' beliefs about the nature of "smartness"-that is,
+83 | K) Many years ago, I wrote about a 【study】 which found that employers are much more likely to hire a college graduate who
+111 | Jet Sanders, who worked on the 【study】 while a PhD student at the University of York, said: “Failure to detect synthetic
+133 | F) Lupu and Ruiz-Castro identified five steps that the respondents in the 【study】 who had better work-life balance used in their

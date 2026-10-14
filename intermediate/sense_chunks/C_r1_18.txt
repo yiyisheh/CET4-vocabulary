@@ -1,0 +1,123 @@
+# 任务 C_r1_18：1 个词，109 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_18.labels.txt
+
+============================================================
+## 词：a    本段 109 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：art.一(个); 任一(个).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  art. 一（个），一种（泛指）    B 样本 76    例：After you hear a
+  1  art. 每一（表示每个单位，如 twice a week）    B 样本 0
+  2  art. 任一（泛指一类事物，如 A dog is a loyal animal）    B 样本 0
+已标过的短语：a lot of（1）；a number of（1）；a few（1）
+已标 X：2 句，如：best answer from the four choices marked A), B), C) and D).
+口径说明（照此执行）：
+  - 选项字母 A)（marked A), B), C) and D)）标 X；a lot of / a number of / a few / a little / a variety of 等按 P 标；a dozen、a year、a month、a piece of 等普通数量用法按 0 标。
+句子：
+2532 | There is 【a】 big boost in employees' work efficiency.
+2515 | World economic institutions should play 【a】 bigger role in fighting hunger.
+2519 | Slowly but surely, these platforms create 【a】 bridge between traditional enterprises and this emerging
+2537 | Avoid taking unnecessary risks when starting 【a】 business.
+2544 | How can 【a】 business help improve its employees' experience in using IT?
+2564 | They recommend providing young men opportunities to work with children through training and volunteer programs, targeting groups of men who are considering 【a】 career change, such as fathers.
+2573 | Persuading prospective fathers to consider 【a】 change in their career.
+2484 | Openness — 【a】 characteristic defined by
+2588 | It is 【a】 collection of facts and established rules.
+2526 | How long people usually stayed in 【a】 company.
+2566 | But scientists believe REM serves 【a】 completely different purpose for newborns and infants than dreaming.
+2542 | Online classes also require either 【a】 computer or laptop and 【a】 reliable internet connection.    ?P:either ... or
+2576 | Gone are the days of going to 【a】 conference and debating scientific issues, and that’s good because those gatherings were not diverse enough and excluded many important voices.
+2585 | Debating scientific issues at 【a】 conference is now old-fashioned.
+2487 | the middle of 【a】 critical meeting, are expected to instantly fix the projector that's no longer working.
+2509 | It has become 【a】 crucial part of
+2504 | Indeed, the study adds to previous research hinting at 【a】 dark side of emotional intelligence.
+2543 | 【A】 day later the students were offered 【a】 choice of snacks and drinks in 【a】 seemingly unrelated context.
+2496 | curiosity and 【a】 desire for knowledge — may also help folks pass brain tests.
+2581 | It performs 【a】 different function in babies than in adults.
+2547 | Not all students have access to these types of resources, whether it is for financial or other reasons, and some students can be put at 【a】 disadvantage.
+2561 | Schools with limited resources will be at 【a】 disadvantage.
+2527 | Why are some people opposed to labelling obesity as 【a】 disease?
+2534 | Richard Pile’s concern about classifying obesity as 【a】 disease?
+2490 | What’s more, making obesity 【a】 disease “may not benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+2587 | It is 【a】 dynamic and self-improving process.
+2533 | It was considered 【a】 fashion at that time.
+2491 | Online classes began to be popularized just 【a】 few decades ago.    ?P:a few
+2538 | Afterwards, the participants read 【a】 fictional survey of teens who wanted to “fight back against the companies by buying and
+2580 | If the public is to understand that science is an honorably self-correcting process, the idea that science is 【a】 fixed set of facts in 【a】 textbook needs to be dismissed.
+2524 | flaw: they focused on 【a】 future, healthier you and assumed that this would be enough motivation for teenagers.
+2502 | It should be regarded as 【a】 genetic disease.
+2552 | However, they fail to provide 【a】 genuine education with an emphasis on convenience rather than critical thinking.    ?P:provide sb with sth
+2493 | It is preventing starvation occurring on 【a】 global scale.
+2555 | It will drive technological progress on 【a】 global scale.
+2481 | It has done 【a】 good job in combating natural disasters.
+2506 | Ambitious people may not have 【a】 greater chance of success.
+2562 | An effective intervention has to be found to persuade teenagers to switch to 【a】 healthier lifestyle.
+2548 | associating 【a】 healthy diet with teenagers’ own values seems to be 【a】 promising avenue to prevent obesity.
+2529 | People may suffer from having 【a】 high emotional intelligence.
+2485 | those with 【a】 high school degree or less, the proportion of those working in their 70s had risen to around 10%, while those
+2554 | -t -tk 45t5!Jt-t À ]jJ -t-ffi Â ,Ã M.Ä , 1*1tJu.【a】, Å 51 ii ·ri :JJ 0
+2563 | -l=-¼t (brew)¢ at Ii]½ *½¾11¿il O it$ À11Á-l=-¢【A】..JGµ$>tk.µÂMt¢Ã11 o Ä o {t£lf--l=--*¾ j :#¾    ?X
+2494 | Refugees find it more difficult to get 【a】 job.
+2550 | It was difficult to keep 【a】 job for long.
+2565 | What does the author think constitutes 【a】 key part of genuine education?
+2574 | But some experts worried that such public speculation might lead people to believe that disagreement about the details meant 【a】 lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+2498 | But recent studies show 【a】 lack of exercise is not to blame for rising obesity rates.
+2567 | It is negatively impacted by 【a】 lack of male teachers.
+2520 | It results from 【a】 lack of self-control.
+2528 | They are not designed for students to interact with the material in depth but designed to be graded easily to accommodate such 【a】 large number of students.
+2508 | Now 【a】 large-scale study has tried an innovative approach to change teenagers’ attitudes towards healthy eating, and the
+2483 | Remember, failure is inevitable, and every failure you survive is 【a】 learning experience.
+2557 | We need restructured online classes in which students can have 【a】 learning experience that will actually provide quality education.
+2523 | It is 【a】 lesson they have to learn.
+2539 | Draw up 【a】 list of the efficiencies to be promised.
+2518 | transformation project gone wrong, where swollen expectations have been popped and 【a】 long list of
+2482 | 【A】 lot more refugees die during migration.
+2517 | The researchers argued that previous interventions have probably been unsuccessful because of 【a】 major
+2553 | What is 【a】 major flaw in previous interventions to help reduce junk food consumption?
+2556 | Low pay has long been acknowledged as 【a】 major issue in the early education field.
+2560 | Over 70% of male educators who said they intended to stay in the early education workforce noted an increased salary was 【a】 major motivating factor for them to commit to the career long-term.
+2551 | Some also reported that there were parents surprised or concerned that their child had 【a】 male teacher.
+2488 | What's needed now is 【a】 marketplace platform specifically designed to bring freelancers and
+2513 | But after being enrolled in an online course last fall semester, I came to realize online classes were merely 【a】 means to fulfil course requirements.
+2512 | It is 【a】 modern disease.
+2582 | With the validity of science coming under attack, there’s 【a】 need for scientific debates to be perceived as open and true to life.
+2578 | For many scientists, public debate is 【a】 new frontier and it may feel like 【a】 place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+2501 | Sometimes, however, testing out 【a】 new idea can lead to disaster.
+2480 | But 【a】 new study suggests that being sensitive to people’s feelings may sometimes come with an extra dose of stress.
+2569 | lab, he lets kids fall asleep and then wakes them 3 times 【a】 night and asks them to describe what they recall.
+2583 | They have been disturbed by 【a】 nightmare.
+2536 | What do we learn about emotional intelligence from 【a】 number of studies?    ?P:a number of
+2549 | Directions: For this part, you are allowed 30 minutes to translate 【a】 passage from Chinese into English.
+2559 | Directions: For this part , you are allowed 30 minutes to translate 【a】 passage from Chinese into English.
+2521 | First of all, students lack the desire to learn, and they simply complete their assignments to receive credit for 【a】 passing grade rather than genuinely engage with the course material.
+2570 | Recruiting young men who have 【a】 passion for education young children.
+2500 | Such platforms then become 【a】 place to feature the most experienced, professional, and
+2505 | What will happen when food aid is offered at 【a】 price?
+2568 | In the age of the internet, there’s no such thing as 【a】 private debate.
+2586 | Restrain it to 【a】 rational degree.
+2571 | 【A】 recent debate published in The New York Times discussed the question of how quickly medicine should be developed and produced.
+2584 | Why did 【a】 recent debate published in The New York Times arouse concerns among experts?
+2546 | “In our world and our society, we have very specific stereotypes (模式化形象) of gender roles,” said Mindi Reich-Shapiro, an assistant professor in the teacher education department of the Borough of Manhattan Community College, and one of the authors of 【a】 recent study.
+2499 | According to 【a】 recent survey, employees who have 【a】 job reliant on IT support consider IT 【a】 major
+2525 | What is the finding of 【a】 recent survey on employees who have 【a】 job reliant on IT support?
+2535 | It is nearly impossible for students to build 【a】 relationship with their professor.
+2497 | Martin Neil Baily, an economist who is leading 【a】 research project on retirement security, notes that quitting 【a】 career can
+2545 | It was 【a】 response to the changing job market.
+2531 | It revealed 【a】 secret about the manipulative and
+2510 | This is where they conduct business, where 【a】 sense of community reinforces the culture
+2541 | It may cause 【a】 shortage of doctors.
+2495 | But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and even 【a】 shorter life.
+2579 | It is 【a】 sign of dreaming in adults and infants alike.
+2572 | Dreams of very small kids are usually just snapshots , looking much more like 【a】 slideshow than 【a】 movie, when
+2530 | It will result in 【a】 slow recovery.
+2486 | Junk food is now 【a】 staple of many Americans’ diets.
+2577 | So, if your baby seems to be in 【a】 stressful state while sleeping or is upset upon waking, there may be other factors at
+2507 | doing new things, 【a】 2012 study in the journal Psychology and Aging found completing reasoning tasks like puzzles and
+2489 | 【A】 study of 12- to 19-month-olds learning how to walk documented that these children fell down 【a】 lot.
+2492 | In 【a】 study, psychologist Myriam Bechtoldt of the Frankfurt School of Finance and Management in Germany asked 166 male university students 【a】 series of questions to measure their emotional intelligence.
+2514 | 【A】 study published in 2002 in Personality and Individual Differences suggested that emotionally perceptive people might be particularly influenced by feelings of depression and hopelessness.
+2516 | What does the author say is of extreme importance for one to become 【a】 successful entrepreneur?
+2558 | 【A】 totally different approach could be adopted to combat advertising campaigns for snack food.
+2575 | REM sleep, 25% of the kids in Foulkes’ studies had no recollection of dreaming, 【a】 trend that continues through age 9.
+2511 | It is 【a】 unique trait specific to the human race.
+2522 | Nevertheless, emotional intelligence is 【a】 useful skill to have, as long as you learn to also properly cope with emotions—both others’ and your own, says Bechtoldt.
+2503 | They are advertised as 【a】 way for adults to finish their education and students to learn the material at their own pace—it is far more compatible for people with busy schedules.
+2540 | It was 【a】 way to advance in their career.

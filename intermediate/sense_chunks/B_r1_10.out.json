@@ -1,0 +1,163 @@
+{
+  "these": {
+    "senses": [
+      {"pos": "det.", "zh": "这些（后接名词）"},
+      {"pos": "pron.", "zh": "这些（单独使用，指前面提到的人或事物）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": 0, "12": 0, "13": 1, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+      "20": 1, "21": 0, "22": 0, "23": 1, "24": 0, "25": 0, "26": 0, "27": 1, "28": 0, "29": 0,
+      "30": 0, "31": 0, "32": 1, "33": 0, "34": 0, "35": 0, "36": 0, "37": 1, "38": 0, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": "P:these days", "45": 0, "46": 0, "47": 0, "48": 1, "49": 1,
+      "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 1, "57": 0, "58": 0, "59": 0,
+      "60": 0, "61": "P:these days", "62": 0, "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 1, "78": 0, "79": 0
+    },
+    "example": {"id": 72, "en": "These movies are criticized as being too simple.", "zh": "这些电影被批评过于简单。"},
+    "form": "this 的复数",
+    "irregular": true,
+    "note": "these days（如今）按短语标；all/any/each/which of these + 名词按 det.0 标，句中后面不接名词、单独作主语或宾语（These are…、These include…）按 pron.1 标。原 def 的 adj. 改为 det.。"
+  },
+  "best": {
+    "senses": [
+      {"pos": "adj.", "zh": "最好的，最佳的（good 的最高级）"},
+      {"pos": "adv.", "zh": "最好地，最（well 的最高级）"},
+      {"pos": "n.", "zh": "最好的人或事物；最佳状态"}
+    ],
+    "labels": {
+      "0": 0, "1": 1, "2": 0, "3": 0, "4": "P:in sb's best interests", "5": 0, "6": "P:do one's best", "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 2, "17": 0, "18": 0, "19": 0,
+      "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 0, "31": 2, "32": "P:try one's best", "33": "P:do one's best", "34": "P:look one's best", "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+      "40": 0, "41": 0, "42": 0, "43": 0, "44": 0, "45": 0, "46": 0, "47": "P:at one's best", "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 1, "56": 0, "57": 0, "58": 0, "59": 1,
+      "60": 0, "61": 0, "62": "P:look one's best", "63": 0, "64": 0, "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": "P:in sb's best interests", "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 67, "en": "It is the best time for sightseeing.", "zh": "这是观光的最佳时节。"},
+    "form": "good / well 的最高级",
+    "irregular": true,
+    "note": "do one's best / try one's best / look one's best / at one's best 按短语标；to/in the best interest(s) of 统一写 P:in sb's best interests；It's best to do（最好做…）、best friend、make the best use of 按 adj.0 标；the best 后面不接名词、指「最好的东西」或 present one's best 按 n.2；at best（充其量）、had best（最好还是）若出现按短语标。大量出现在答题说明（choose the best answer）里，已标 0 但不计入首要义项。"
+  },
+  "even": {
+    "senses": [
+      {"pos": "adv.", "zh": "甚至，连…都（加强语气）"},
+      {"pos": "adv.", "zh": "（用在比较级前）更，还要"},
+      {"pos": "adj.", "zh": "平的，平坦的；平稳的"},
+      {"pos": "adj.", "zh": "相等的，均等的"},
+      {"pos": "adj.", "zh": "偶数的"}
+    ],
+    "labels": {
+      "0": 1, "1": 0, "2": 0, "3": "P:even though", "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+      "10": 0, "11": "P:even out", "12": 0, "13": "P:even though", "14": 0, "15": 0, "16": 0, "17": "P:even if", "18": 0, "19": 1,
+      "20": "P:even if", "21": "P:even though", "22": 0, "23": 0, "24": 1, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": "P:even though", "31": 0, "32": "P:even though", "33": 0, "34": "P:even if", "35": "P:even if", "36": "P:even so", "37": 1, "38": 0, "39": 0,
+      "40": 1, "41": [0, 1], "42": 1, "43": 0, "44": 0, "45": "P:even so", "46": 1, "47": 0, "48": 0, "49": 1,
+      "50": 0, "51": 0, "52": 0, "53": 0, "54": 1, "55": 0, "56": "P:even if", "57": 0, "58": 0, "59": 1,
+      "60": 0, "61": 1, "62": 0, "63": 0, "64": 0, "65": 0, "66": 1, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": "P:even if", "72": 0, "73": 0, "74": 1, "75": 0, "76": "P:even if", "77": 0, "78": 1, "79": 0
+    },
+    "example": {"id": 44, "en": "Even the military is hiring gamers.", "zh": "连军队都在招募游戏玩家。"},
+    "form": null,
+    "irregular": false,
+    "note": "even though / even if / even so（即便如此）/ even out（拉平，持平）按短语标；even when / even as / even with / even during / even after 按 0（甚至，即使）标，不算短语；even more / even worse / even better / even further 等修饰比较级按 1；even more + 形容词 + 名词（如 even more important choices，强调「甚至连更重要的选择」）按 0。get even（报复）、break even（不赔不赚）若出现按短语标。"
+  },
+  "into": {
+    "senses": [
+      {"pos": "prep.", "zh": "进入，到…里面（也指进入某种状态、领域）"},
+      {"pos": "prep.", "zh": "变成，成为（turn / change / cut / translate … into）"},
+      {"pos": "prep.", "zh": "（调查、了解）对…，深入…（investigation into, insight into）"},
+      {"pos": "prep.", "zh": "撞上，碰到"},
+      {"pos": "prep.", "zh": "（时间）持续到，进入（某个时期）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": "P:check into", "7": 0, "8": 0, "9": 1,
+      "10": 1, "11": 1, "12": 1, "13": 3, "14": 1, "15": 1, "16": 0, "17": 0, "18": "P:tap into", "19": 0,
+      "20": 1, "21": 1, "22": 0, "23": 0, "24": 1, "25": 0, "26": 0, "27": 0, "28": 1, "29": 0,
+      "30": 0, "31": "P:cut into", "32": 2, "33": 0, "34": 0, "35": 1, "36": "P:get into the habit of", "37": 0, "38": 0, "39": 1,
+      "40": 0, "41": 1, "42": "P:look into", "43": 1, "44": 1, "45": 0, "46": "P:be into sth", "47": 0, "48": 0, "49": 0,
+      "50": 0, "51": 2, "52": 0, "53": 0, "54": 0, "55": 0, "56": "P:take sth into consideration", "57": 0, "58": 1, "59": 0,
+      "60": 1, "61": 1, "62": 1, "63": 1, "64": 1, "65": 0, "66": 1, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 2, "72": 1, "73": 0, "74": 0, "75": "P:take sth into account", "76": 2, "77": 0, "78": 0, "79": 4
+    },
+    "example": {"id": 7, "en": "It ran away into a nearby forest.", "zh": "它逃进了附近的一片森林。"},
+    "form": null,
+    "irregular": false,
+    "note": "turn/change/translate/classify/organize/cut … into 中 into 表「变成、分成」按 1 标，不算短语；get into / go into / fall into / get back into（进入、投入、陷入某处境）按 0；take sth into account / consideration、look into（调查）、tap into（利用）、cut into（占用）、check into（入住）、get into the habit of、be into sth（迷上）按短语标；delve into / investigation into / a window into / insight into 按 2；字面的撞上按 3，run into 表「偶遇、遇到（困难）」时按 P:run into。"
+  },
+  "over": {
+    "senses": [
+      {"pos": "prep.", "zh": "在…期间，在…过程中（over the years, over time）"},
+      {"pos": "prep.", "zh": "超过，多于"},
+      {"pos": "prep.", "zh": "遍及，到处（all over）"},
+      {"pos": "prep.", "zh": "（控制、优势等）对…，在…之上（control over, advantage over）"},
+      {"pos": "prep.", "zh": "（偏好、优先）胜过，而不是（prefer / prioritize A over B）"},
+      {"pos": "prep.", "zh": "关于，因为（争论、担忧等）"},
+      {"pos": "adj.", "zh": "结束的，完了的"},
+      {"pos": "prep.", "zh": "在…上方，越过"},
+      {"pos": "prep.", "zh": "通过（电话等）"},
+      {"pos": "adv.", "zh": "在那边，到那边（over there, come over）"},
+      {"pos": "adv.", "zh": "翻转，倒下（turn over, fall over）"},
+      {"pos": "adv.", "zh": "再，重复（over again）"}
+    ],
+    "labels": {
+      "0": 0, "1": 2, "2": 4, "3": 4, "4": 0, "5": 0, "6": 0, "7": 6, "8": 1, "9": "P:go over",
+      "10": 1, "11": 0, "12": "P:watch over", "13": 10, "14": 1, "15": 0, "16": "P:hand over", "17": 1, "18": 3, "19": 2,
+      "20": 3, "21": "P:take over", "22": 2, "23": 0, "24": 9, "25": 0, "26": 0, "27": 1, "28": "P:take over", "29": 0,
+      "30": 0, "31": 1, "32": 0, "33": 6, "34": 6, "35": 1, "36": 1, "37": 0, "38": 5, "39": 0,
+      "40": 2, "41": 0, "42": "P:take over", "43": "P:get over", "44": 9, "45": 9, "46": "P:think sth over", "47": 1, "48": 0, "49": 3,
+      "50": 0, "51": 3, "52": 5, "53": 0, "54": 4, "55": 5, "56": "P:hand over", "57": 0, "58": 2, "59": 8,
+      "60": 8, "61": 0, "62": 1, "63": 0, "64": 0, "65": 4, "66": 0, "67": 1, "68": 7, "69": 1,
+      "70": 0, "71": 1, "72": 2, "73": 0, "74": 4, "75": 1, "76": 1, "77": 1, "78": 4, "79": 2
+    },
+    "example": {"id": 53, "en": "Over the years, the family spotted her a few times.", "zh": "这些年来，这家人见过她几次。"},
+    "form": null,
+    "irregular": false,
+    "note": "over time / over the years / over the next decade / over Christmas 按 0；all over 按 2，不算短语；go over（复习）、take over（接管）、hand over（交出）、get over（克服）、think sth over（仔细考虑）、watch over（照看）、look over（检查）按短语标；字面的 turn over / fall over（翻倒）按 10；ship it over、over there、Over at… 按 9；over 表「年龄、数量在…以上」按 1。"
+  },
+  "think": {
+    "senses": [
+      {"pos": "v.", "zh": "认为，觉得"},
+      {"pos": "v.", "zh": "想，思考"},
+      {"pos": "v.", "zh": "想到，想起（think of / think about doing）"},
+      {"pos": "v.", "zh": "看待，觉得…怎么样（What do you think of …?）"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 1, "3": 0, "4": 3, "5": 0, "6": 0, "7": 0, "8": 0, "9": "P:think of sth as",
+      "10": 0, "11": 0, "12": 1, "13": 0, "14": 0, "15": 0, "16": 1, "17": 2, "18": 0, "19": 0,
+      "20": 0, "21": 2, "22": 0, "23": 2, "24": 0, "25": 3, "26": 0, "27": 1, "28": 0, "29": 0,
+      "30": "P:think tank", "31": 3, "32": 0, "33": "P:think of sth as", "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+      "40": 1, "41": 1, "42": 0, "43": 0, "44": 3, "45": 0, "46": 0, "47": 3, "48": 0, "49": 0,
+      "50": 1, "51": 0, "52": "P:think of sth as", "53": 0, "54": "P:think of sth as", "55": 1, "56": 2, "57": 0, "58": 0, "59": 0,
+      "60": 1, "61": 0, "62": 0, "63": 0, "64": 0, "65": 1, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 3, "73": 0, "74": 2, "75": 1, "76": "P:think of sth as", "77": 0, "78": 0, "79": 0
+    },
+    "example": {"id": 24, "en": "I think they’re totally worth it.", "zh": "我觉得它们完全值得。"},
+    "form": null,
+    "irregular": false,
+    "note": "think (that) … / think it + 形容词 / what other people think / as … as we think 按 0；think about sth（思考某事）、think like / think in a … way 按 1；think of + 名词表「想到、想起」、think about doing（考虑做）按 2；what do you think of / how they think of themselves（怎么看待）按 3；think of A as B（把 A 看作 B）统一写 P:think of sth as；think tank（智库）、think sth over、think twice、think up 按短语标。"
+  },
+  "use": {
+    "senses": [
+      {"pos": "v.", "zh": "使用，利用"},
+      {"pos": "n.", "zh": "使用，运用"},
+      {"pos": "n.", "zh": "用处，用途"},
+      {"pos": "v.", "zh": "（could use）需要，很想要"}
+    ],
+    "labels": {
+      "0": 0, "1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 1,
+      "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+      "20": 0, "21": 0, "22": 0, "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 0,
+      "30": 1, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+      "40": 1, "41": 1, "42": 0, "43": 1, "44": 0, "45": "P:make use of", "46": 0, "47": 0, "48": 0, "49": 0,
+      "50": 0, "51": 0, "52": 2, "53": 0, "54": 0, "55": 0, "56": 0, "57": "P:make use of", "58": 0, "59": 0,
+      "60": 0, "61": "P:make use of", "62": 1, "63": 1, "64": 1, "65": 3, "66": 0, "67": 0, "68": 0, "69": 0,
+      "70": 0, "71": 0, "72": 2, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 1, "79": 0
+    },
+    "example": {"id": 16, "en": "He doesn’t use email or text messages.", "zh": "他不用电子邮件，也不发短信。"},
+    "form": null,
+    "irregular": false,
+    "note": "make use of / make full use of / make the best use of 统一写 P:make use of；名词 use 表「使用这一行为」（the use of…、social media use、for use in…、in use）按 1，表「用处、实用性」（of no use、be of use、marry use and beauty）按 2；could use sth（需要）按 3；use up（用光）、no use doing（做…没用）若出现按短语标。id 5（答题说明，n=28）已标 0 但不计入首要义项。"
+  }
+}

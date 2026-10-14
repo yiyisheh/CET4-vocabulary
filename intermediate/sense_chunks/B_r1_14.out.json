@@ -1,0 +1,160 @@
+{
+  "those": {
+    "senses": [
+      {"pos": "pron.", "zh": "那些人（those who… / those in…，指具有某特征的人）"},
+      {"pos": "adj.", "zh": "那些（后接复数名词：those days）"},
+      {"pos": "pron.", "zh": "那些（指代前面提到的复数事物，避免重复：those of…）"}
+    ],
+    "labels": {"0": 1, "1": 1, "2": 0, "3": 0, "4": 0, "5": 1, "6": 1, "7": 0, "8": 1, "9": 0,
+               "10": 2, "11": 0, "12": 0, "13": 1, "14": 1, "15": 1, "16": 0, "17": 1, "18": 0, "19": 0,
+               "20": 2, "21": 0, "22": 2, "23": 2, "24": 1, "25": 0, "26": 1, "27": 0, "28": 0, "29": 0,
+               "30": 1, "31": 1, "32": 1, "33": 2, "34": [0, 1], "35": 2, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 1, "41": 0, "42": 2, "43": 1, "44": 1, "45": 2, "46": 2, "47": 0, "48": 0, "49": 1,
+               "50": 2, "51": 1, "52": 0, "53": 1, "54": 0, "55": 0, "56": 1, "57": 1, "58": 1, "59": 0,
+               "60": 0, "61": 0, "62": 2, "63": 0, "64": 1, "65": 0, "66": 2, "67": 1, "68": 1, "69": 2,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 2, "75": 0, "76": 0, "77": 0, "78": 0, "79": 2},
+    "example": {"id": 11, "en": "These decisions should not only be made by those directly affected.", "zh": "这些决定不应只由那些直接受影响的人来做。"},
+    "form": "that 的复数",
+    "irregular": true,
+    "note": "口径：those + 名词（含 all those / one of those + 名词）标 1；单独作代词指人（those who / those in / those + 分词或形容词）标 0；单独作代词指代前文的复数事物（those of…、one of those、Those are…、as many problems as those without…）标 2。in those days 不算短语，标 1。"
+  },
+  "get": {
+    "senses": [
+      {"pos": "v.", "zh": "得到，获得，收到"},
+      {"pos": "v.", "zh": "使，让；把…弄得（get sb to do / get sth done / get sth + 状态）"},
+      {"pos": "v.", "zh": "变得，变成（get + 形容词：get tired / get older）"},
+      {"pos": "v.", "zh": "到达，抵达；去，回（get to / get there / get back）"},
+      {"pos": "v.", "zh": "买，弄到；去拿，取来（get some drinks）"},
+      {"pos": "v.", "zh": "被（get + 过去分词，表被动：get hit / get burned）"},
+      {"pos": "v.", "zh": "有机会，得以（get to do）"},
+      {"pos": "v.", "zh": "明白，理解（I get it）"},
+      {"pos": "v.", "zh": "患（病），染上（get a cold）"},
+      {"pos": "v.", "zh": "乘坐，赶上（get a taxi / get the bus）"}
+    ],
+    "labels": {"0": 0, "1": 4, "2": 0, "3": 3, "4": 1, "5": 2, "6": "P:get down to", "7": 0, "8": 0, "9": "P:get along with",
+               "10": "X", "11": 0, "12": 3, "13": "P:get around", "14": "P:get away from", "15": 0, "16": "P:get to the bottom of", "17": 0, "18": "P:get married", "19": 0,
+               "20": 1, "21": 1, "22": 0, "23": "P:get dressed up", "24": 0, "25": 2, "26": 2, "27": 3, "28": 2, "29": 0,
+               "30": "P:get ahead", "31": 0, "32": 0, "33": 0, "34": "P:get in touch with", "35": 4, "36": 4, "37": 0, "38": 0, "39": 2,
+               "40": 2, "41": 0, "42": 5, "43": 1, "44": 3, "45": "P:get rid of", "46": 0, "47": 5, "48": 4, "49": "P:get rid of",
+               "50": 0, "51": 2, "52": 2, "53": 1, "54": 1, "55": 1, "56": 0, "57": "X", "58": 3, "59": "P:get along with",
+               "60": 1, "61": 0, "62": 5, "63": 3, "64": "P:get sth right", "65": 2, "66": "P:get sth across", "67": 0, "68": 1, "69": 3,
+               "70": 0, "71": 3, "72": 1, "73": "P:get over", "74": 0, "75": 6, "76": 0, "77": 0, "78": "P:get up to speed", "79": 4},
+    "example": {"id": 2, "en": "Most of them get timely help from their teachers.", "zh": "他们大多能及时得到老师的帮助。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：get sth back（取回钱、找回宠物）标 0；get back（回来）、get out（出去、下车）、get back into（重返）标 3；get + 形容词或形容词化的分词（tired, ill, confused, overwhelmed）标 2，get + 表动作的过去分词（hit, burned, used）标 5；get + 宾语 + 补语（get the problem under control, get it out, get you checked in）标 1；get cash out（取钱）、去食堂 get a meal 标 4。get married / get rid of / get along with / get over / get ahead / get around / get away from / get down to / get in touch with（含 get back in touch with）/ get sth right / get sth across / get up to speed / get to the bottom of 都按短语。机构名 Get Safe Online 标 X。"
+  },
+  "way": {
+    "senses": [
+      {"pos": "n.", "zh": "方式，方法；样子（a way to do / the way we live）"},
+      {"pos": "n.", "zh": "路，道路；路线（ask the way）"},
+      {"pos": "n.", "zh": "方面（in what way / in many ways）"},
+      {"pos": "n.", "zh": "方向（this way / the other way）"},
+      {"pos": "n.", "zh": "距离，路程（a long way off）"},
+      {"pos": "adv.", "zh": "远远地，大大地（way worse / way too much）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": "P:make one's way", "3": 0, "4": 0, "5": 0, "6": "P:find one's way", "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": "P:find one's way", "18": 0, "19": 0,
+               "20": 3, "21": 0, "22": "P:find one's way", "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": 0, "29": 1,
+               "30": 0, "31": "P:give way to", "32": 0, "33": 0, "34": "P:stand in one's way", "35": 0, "36": "P:the way to go", "37": 0, "38": "P:along the way", "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": 2, "44": "P:no way", "45": 0, "46": "P:get in the way of", "47": 0, "48": "P:on one's way", "49": 0,
+               "50": 0, "51": "P:give way to", "52": 0, "53": 0, "54": 0, "55": 0, "56": "P:one way or another", "57": 0, "58": [0, "P:get one's way"], "59": "P:on the way",
+               "60": 4, "61": 0, "62": 0, "63": "P:make one's way", "64": "P:go a long way", "65": 0, "66": 0, "67": 0, "68": 0, "69": 0,
+               "70": "P:come one's way", "71": 0, "72": 4, "73": 0, "74": "P:in a way", "75": 0, "76": 0, "77": 5, "78": 0, "79": 0},
+    "example": {"id": 1, "en": "It was a way to advance in their career.", "zh": "这是他们在事业上晋升的一种途径。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：in a … way、in some way、the way（that）we live、the way men do（像…那样）、this way / that way（这样一来、保持那样）、there is no way to do（没办法）都标 0；感叹的 No way!（不可能）才标 P:no way。a long way off / some way off 标 4；way + 比较级标 5。find one's way / make one's way / give way to / get in the way of / stand in one's way / on the way（on one's way）/ along the way / in a way / one way or another / go a long way / come one's way / the way to go / get one's way 都按短语；by the way、in the way、all the way 如出现也按短语。"
+  },
+  "good": {
+    "senses": [
+      {"pos": "adj.", "zh": "好的，优秀的；令人满意的（a good idea / sounds good）"},
+      {"pos": "adj.", "zh": "善良的，品行好的（a good guy / a good deed）"},
+      {"pos": "adj.", "zh": "有益的，对…有好处（be good for）"},
+      {"pos": "n.", "zh": "好处，益处（do sb good / more harm than good）"},
+      {"pos": "adj.", "zh": "擅长的（be good at）"},
+      {"pos": "n.", "zh": "善，美德（good and evil）"},
+      {"pos": "adj.", "zh": "相当多的，充分的（a good many / a good while）"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 1, "4": 0, "5": 0, "6": 0, "7": 0, "8": 0, "9": 0,
+               "10": 1, "11": 2, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 3, "22": 0, "23": 3, "24": 0, "25": 0, "26": 1, "27": 1, "28": "P:good afternoon", "29": 0,
+               "30": 3, "31": 0, "32": 0, "33": 0, "34": 0, "35": 0, "36": 0, "37": 3, "38": 0, "39": 0,
+               "40": 0, "41": 2, "42": 0, "43": 0, "44": 2, "45": 0, "46": 4, "47": 0, "48": 0, "49": 0,
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": 0, "58": "P:for one's own good", "59": 0,
+               "60": 0, "61": 5, "62": 0, "63": "P:good morning", "64": 2, "65": 0, "66": 0, "67": 0, "68": 1, "69": 0,
+               "70": 0, "71": 0, "72": 0, "73": 0, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 12, "en": "It is a good choice for children.", "zh": "这对孩子们来说是个好选择。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：good health / good condition / good shape / good citizen / good luck / good taste 都标 0；good deed、good work（善举）、good intentions（善意）、a good guy（人不错）标 1；be good for 标 2；do sb good、do little/much good、more harm than good 标 3；be good at 标 4。问候语 good morning / good afternoon / good evening / good night 按短语；for one's own good、a good deal、as good as、for good 也按短语。"
+  },
+  "because": {
+    "senses": [
+      {"pos": "conj.", "zh": "因为"}
+    ],
+    "labels": {"0": 0, "1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": "P:because of", "7": 0, "8": 0, "9": 0,
+               "10": 0, "11": 0, "12": 0, "13": 0, "14": 0, "15": 0, "16": 0, "17": 0, "18": 0, "19": 0,
+               "20": 0, "21": 0, "22": ["P:because of", 0], "23": 0, "24": 0, "25": 0, "26": 0, "27": 0, "28": "P:because of", "29": 0,
+               "30": 0, "31": 0, "32": 0, "33": 0, "34": "P:because of", "35": 0, "36": 0, "37": 0, "38": 0, "39": 0,
+               "40": 0, "41": 0, "42": 0, "43": "P:because of", "44": "P:because of", "45": 0, "46": 0, "47": 0, "48": 0, "49": "P:because of",
+               "50": 0, "51": 0, "52": 0, "53": 0, "54": 0, "55": 0, "56": 0, "57": "P:because of", "58": 0, "59": 0,
+               "60": 0, "61": 0, "62": 0, "63": "P:because of", "64": 0, "65": 0, "66": 0, "67": "P:because of", "68": 0, "69": 0,
+               "70": 0, "71": "P:because of", "72": 0, "73": 0, "74": "P:because of", "75": 0, "76": 0, "77": "P:because of", "78": 0, "79": 0},
+    "example": {"id": 10, "en": "The mountain is called Table Mountain because it's flat at the top.", "zh": "这座山叫桌山，因为它的山顶是平的。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：because of（后接名词）一律标 P:because of；其余 because（含 This is because、It's because、just because、partly because、句首 Because…）都标 0。"
+  },
+  "take": {
+    "senses": [
+      {"pos": "v.", "zh": "采取（行动、措施、方法），选择；冒（险）（take action / take measures / take risks）"},
+      {"pos": "v.", "zh": "花费，需要（时间、精力等）（take time / take two days）"},
+      {"pos": "v.", "zh": "做，进行（take a photo / take a nap / take a trip / take a look）"},
+      {"pos": "v.", "zh": "拿，取；拿走；买下（take one / I'll take both）"},
+      {"pos": "v.", "zh": "带，带去，拿去（take sb/sth somewhere / take out the trash）"},
+      {"pos": "v.", "zh": "接受，收下；采用（take donations / take sb's last name）"},
+      {"pos": "v.", "zh": "修（课程），上（课）；参加（考试）（take a course / take an exam）"},
+      {"pos": "v.", "zh": "乘坐（take a bus）"},
+      {"pos": "v.", "zh": "对待，看待；把…当作（take it seriously / take A as B）"},
+      {"pos": "v.", "zh": "记下，记录（take notes / take your name / take a register）"},
+      {"pos": "v.", "zh": "坐（座位），占用（take your seats）"},
+      {"pos": "v.", "zh": "赢得，获得（take a title / take first place）"},
+      {"pos": "v.", "zh": "容纳，能装下，承载"},
+      {"pos": "v.", "zh": "服用（药）"},
+      {"pos": "v.", "zh": "承受，忍受（can't take it）"}
+    ],
+    "labels": {"0": 0, "1": 5, "2": "P:take the lead", "3": 2, "4": 0, "5": 1, "6": 1, "7": 0, "8": "P:take away", "9": 6,
+               "10": "P:take sth out of", "11": "P:take part in", "12": 3, "13": 6, "14": 9, "15": 9, "16": "P:take place", "17": "P:take note", "18": 1, "19": 10,
+               "20": 1, "21": 1, "22": "P:take advantage of", "23": 4, "24": "P:take root", "25": "P:take time off", "26": 0, "27": 2, "28": 4, "29": 0,
+               "30": "P:take care of", "31": 8, "32": 9, "33": "P:take place", "34": "P:take place", "35": "P:take on", "36": 0, "37": "P:take part in", "38": 0, "39": 1,
+               "40": "P:take up", "41": 4, "42": 2, "43": "P:take place", "44": "P:take control", "45": 0, "46": 1, "47": 4, "48": 12, "49": "P:take charge of",
+               "50": "P:take on", "51": 0, "52": 3, "53": "P:take sth with a grain of salt", "54": "P:take part in", "55": 2, "56": 6, "57": 8, "58": "P:take place", "59": 2,
+               "60": 5, "61": 0, "62": 0, "63": 0, "64": 1, "65": 3, "66": "P:take it slow", "67": 0, "68": "P:take up", "69": "P:take over",
+               "70": 11, "71": "P:take on", "72": "P:take care of", "73": 4, "74": "P:take place", "75": 0, "76": 1, "77": "P:take part in", "78": 7, "79": 1},
+    "example": {"id": 62, "en": "Take measures to promote the use of recycled plastic.", "zh": "采取措施推广使用再生塑料。"},
+    "form": null,
+    "irregular": false,
+    "note": "口径：take action / measures / steps / an approach / risks / the second option / a path 标 0；take time、take months、take a little extra effort、take out time（抽出时间）、it doesn't take X to do（不需要）标 1；take a photo / a nap / a trip / a look 标 2；take away 指实物拿走（take away smartphones）标 3，指抽象的减少、占用（take away time）标 P:take away；take out the trash、take sth home、take sb into a shop 标 4；take a lab / courses / stress-relief sessions 标 6；take notes、take your name、take a register 标 9。take place / take part in / take care of / take advantage of / take on / take up / take over / take charge of / take control / take the lead / take note / take root / take time off / take it slow / take sth out of（去除）/ take sth with a grain of salt 都按短语。护照「can take images」（印有图案）暂归 12 容纳、承载，属少见用法。"
+  },
+  "being": {
+    "senses": [
+      {"pos": "v.", "zh": "是，处于…状态（be 的 -ing 形式：being a parent / being busy）"},
+      {"pos": "aux.", "zh": "被（being + 过去分词构成被动；is being done 正在被…）"},
+      {"pos": "n.", "zh": "人，生物（human being）"},
+      {"pos": "n.", "zh": "存在（come into being）"}
+    ],
+    "labels": {"0": 0, "1": 1, "2": 1, "3": 1, "4": 1, "5": 0, "6": 1, "7": 0, "8": 1, "9": 1,
+               "10": 1, "11": 0, "12": 1, "13": 0, "14": 1, "15": 1, "16": 0, "17": 0, "18": 1, "19": 0,
+               "20": 0, "21": 1, "22": 1, "23": 1, "24": 0, "25": 1, "26": 1, "27": 0, "28": 1, "29": 1,
+               "30": 0, "31": 0, "32": 0, "33": 1, "34": 0, "35": 1, "36": 0, "37": 0, "38": 0, "39": 1,
+               "40": 0, "41": 0, "42": 0, "43": 0, "44": 1, "45": 0, "46": 1, "47": 0, "48": 1, "49": 0,
+               "50": [1, 0], "51": 0, "52": 0, "53": 1, "54": 0, "55": 0, "56": 0, "57": 1, "58": 0, "59": 0,
+               "60": 0, "61": 1, "62": 1, "63": 0, "64": 0, "65": 0, "66": 0, "67": 1, "68": 1, "69": 0,
+               "70": 0, "71": 1, "72": 2, "73": 1, "74": 0, "75": 0, "76": 0, "77": 0, "78": 0, "79": 0},
+    "example": {"id": 38, "en": "Being an astronaut has been the most extraordinary experience.", "zh": "当宇航员是我经历过的最非凡的事。"},
+    "form": "be 的现在分词",
+    "irregular": false,
+    "note": "口径：being + 表动作的过去分词（being asked / stolen / held / overwhelmed by…）标 1；过去分词已形容词化、表状态的（being married / dressed / embarrassed / focused / mistaken / left-handed）标 0；human being 标 2。far from being… 在本词任务里标 0。16「He can avoid being mistaken」（选项）按「避免出错」标 0，也可理解为「避免被误解」，拿不准。"
+  }
+}

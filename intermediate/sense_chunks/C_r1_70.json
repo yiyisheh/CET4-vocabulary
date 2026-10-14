@@ -1,0 +1,2484 @@
+[
+ {
+  "word": "at",
+  "def": "prep.在(表示地点、时间); 向; 以…(速度、价格等).",
+  "senses": [
+   {
+    "pos": "prep.",
+    "zh": "在（某地点、场所）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "在（某时刻、时候）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "向，朝，对着（如 look at）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "在…方面（如 good at 擅长）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "以（某速度、价格、比率）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "处于（某种水平、状态）"
+   },
+   {
+    "pos": "prep.",
+    "zh": "因为，对于（表示情绪的原因，如 surprised at）"
+   }
+  ],
+  "phrases_seen": [
+   "at least",
+   "at once",
+   "at any cost",
+   "at all times",
+   "at first"
+  ],
+  "notes": [
+   "大量 at least 来自写作题干套话。id55 同时有 at school or work（地点）和 at least，只能标一个，标了 P:at least。at the end of 按「时间」标、look at 按「向，朝」标，未作短语。"
+  ],
+  "sents": [
+   {
+    "id": 80,
+    "text": "It’s reported that Alan Robinson and Walter MacDonald met in the 6th grade at a school in Hawaii.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 81,
+    "text": "At the Sandwich Place on Camden Street.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 82,
+    "text": "New scientific research at the University of the Sunshine Coast in Queensland, Australia, suggests that young people are developing extra pieces of bone at the backs of their heads.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 83,
+    "text": "When you look at today’s digital activity, the facts are much more positive than you might expect.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 84,
+    "text": "At the end of each news report, you will hear two or three",
+    "n": 8,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 85,
+    "text": "It’s about the vegetarian food festival you are holding on the 19th of August at the Newcastle City Hall.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 86,
+    "text": "The man's attempts at drawing public attention.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 87,
+    "text": "You’re an economist and spent two decades teaching at universities?",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 88,
+    "text": "They fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 89,
+    "text": "It enables him to buy a new phone at a more favorable price.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 90,
+    "text": "These account for 64% of the total request at $59 million.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 91,
+    "text": "“It’s very surprising to me,” says Sam Chetan-Walsh, a political adviser at Greenpeace and campaigner against ocean",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 92,
+    "text": "[5] It was a heartwarming moment that dozens of Indian rescuers rallied together to use a crane in order to save an elephant trapped at the bottom of a 20-foot well.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 93,
+    "text": "Jet Sanders, who worked on the study while a PhD student at the University of York, said: “Failure to detect synthetic",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 94,
+    "text": "To exhibit their corn at the state’s Corn Palace.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 95,
+    "text": "At some point, people started stringing the words together to form sentences.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 96,
+    "text": "It is estimated at 11% of the UK’s total food supply.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 97,
+    "text": "He is a student at Marathon High School.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 98,
+    "text": "traffic crawls to a halt for no apparent reason at all.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 99,
+    "text": "“right” or “correct” decision begins to feel more ___31___ and, at the same time, more difficult to do.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 100,
+    "text": "The event will take place at Methodist University.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 101,
+    "text": "At a construction site.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 102,
+    "text": "[5] Security officers were searching a suburb in Australia where an adult snake was believed to be wandering after the discovery of a huge, freshly shed snakeskin. [6] The skin was found at a construction site, and the government wrote to residents to warn them.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 103,
+    "text": "With the help of Denis Hayes, a graduate student at Harvard University, Nelson",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 104,
+    "text": "At the end of each conversation, you will",
+    "n": 2,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 105,
+    "text": "But at the end of the meal, customers don’t have to worry about the bill.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 106,
+    "text": "us at some point,\" its minister for loneliness Baroness Barran said.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 107,
+    "text": "They should be able to be read by a machine at temperatures ranging from 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air can be extremely dry or moist.",
+    "n": 1,
+    "src": "cet4_2021_06_2·听力"
+   },
+   {
+    "id": 108,
+    "text": "good at distributing money.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 109,
+    "text": "It had one of its cargo planes land at a wrong airport.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 110,
+    "text": "Officials at Reid Park Zoo in Tucson Arizona are celebrating the birth of a baby elephant.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 111,
+    "text": "He did not go to university and at age 18 married Anne Hathaway, who was eight years his _32_.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 112,
+    "text": "Further research is needed to investigate the causal nature of this relationship and to look at how owners’ personalities are directly influencing their pets’ behaviour and wellbeing.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 113,
+    "text": "Let me emphasize that this is equal to the time most adults spend per week at work.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 114,
+    "text": "People’s attitudes towards diversity at the workplace.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 115,
+    "text": "W: Rugby is a sport with two teams and the players carry the ball in their arms and throw it at each other.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 116,
+    "text": "“A villa might cost £5,000 elsewhere and they will offer it at say £3,500.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 117,
+    "text": "Her year-long service included comforting AIDS patients at a free health clinic and delivering meals to the homebound.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 118,
+    "text": "At around half past nine this morning, a trailer attached to a lorry turned over at the crossing of High Street in Milton.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 119,
+    "text": "Three of the papers _27_ loneliness, 18 looked at social isolation and two included both.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 120,
+    "text": "A company spokesperson said the operations at the site had been halted while the investigation is ongoing and that the break had posed no safety threat to workers.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 121,
+    "text": "He doesn’t like speaking at meetings.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 122,
+    "text": "At every station, more people squeezed in and I got pushed further and further inside.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 123,
+    "text": "Calling someone evil is often similar to saying they cannot change, and perhaps aren’t even a human at all.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 124,
+    "text": "At the far end of the platform.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 125,
+    "text": "M: The one at 10:12 sounds good.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 126,
+    "text": "With a literacy rate in some parts of Africa at only 22.6%, farmers are often \"underpaid for their produce because they might be unaware of the prevailing prices,\" says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 127,
+    "text": "Additionally, recycling facilities may be improved at a local council level and recycled plastic could be imported.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 128,
+    "text": "\"The last few years have seen a realization of ___35___ how competitive solar technologies can be,\" said Michael Taylor, a senior analyst at the International Renewable Energy Agency.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 129,
+    "text": "Teenagers comprise about half of the group, many of whom began lion dancing at the age of 14.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 130,
+    "text": "“Even if overall food production may be unaffected, food security can still be impacted,” says Margaret Walsh, a scientist at the US Department of Agriculture’s Climate Change Program Office.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 131,
+    "text": "M: No, not at all.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 132,
+    "text": "At the American restaurant they frequent.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 133,
+    "text": "This shifts weight onto the muscles at the back of the head and causes the bone to grow in a way that is not normal. [4] This process can be compared to the way the skin hardens in response to constant rubbing or pressure.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 134,
+    "text": "They have to be on Facebook, to know what’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 135,
+    "text": "It has been shrinking at an astonishing pace.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 136,
+    "text": "Would I be able to sell both the vegetables and items baked from them at the festival?",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 137,
+    "text": "By allowing our motivation to be at an all-time high.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 138,
+    "text": "And then, for the last 10 years, I’ve worked as a political consultant, advising politicians at the national level about problems in our country.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 139,
+    "text": "that missing any days at school could have a negative impact on results.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 140,
+    "text": "Why it’s wrong to look at work-life balance as an achievement",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 141,
+    "text": "M: Maybe you’re right, [9] but the thing is, everyone at the office has a nice, expensive phone, and I’m a little embarrassed by mine.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 142,
+    "text": "Tap water consumption is growing at roughly the same pace (UK consumers still drink almost",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 143,
+    "text": "M: I need to stop at the bank to withdraw some cash.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 144,
+    "text": "At a minimum, everyone has",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 145,
+    "text": "see in adults appear at a much younger age than ___27___ known.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 146,
+    "text": "The other main theory, which is more recent, is that people started off by gesturing—pointing at things with their hands and imitating actions using their bodies.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 147,
+    "text": "His fascination with crime began at an early age when he was ___29___ by his father who made him spend a few minutes",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 148,
+    "text": "Regular shoppers at the supermarket are familiar with the sight of several cats settling down in the shop aisles.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 149,
+    "text": "And the researchers in the new study have calculated that solving phantom jams could save at",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 150,
+    "text": "parking spots, as they argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 151,
+    "text": "Besides, I don’t think I could ever give up a good hot dog at a baseball game.",
+    "n": 1,
+    "src": "cet4_2025_12_1·听力"
+   },
+   {
+    "id": 152,
+    "text": "She moved to the U.S. at a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 153,
+    "text": "W: Honestly, look at my face.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 154,
+    "text": "Online schools like Udemy and Lynda.com offer sweet deals at sign-",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 155,
+    "text": "For convenience at weekends.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 156,
+    "text": "Hungry customers can pay whatever amount they can afford to eat at the café, or nothing at all.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 157,
+    "text": "In an experiment, a researcher will place nuts into a can one at a time",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 158,
+    "text": "But at the very least, the research is",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 159,
+    "text": "At the end of each conversation, you will hear four questions.",
+    "n": 19,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 160,
+    "text": "Three years ago, a couple was enjoying a meal at a beach restaurant.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 161,
+    "text": "Recently, I was at a gathering of colleagues when someone turned to me and asked, “So, what’s new with you?",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 162,
+    "text": "At the time, most large homes were constructed of timber and brick.",
+    "n": 1,
+    "src": "cet4_2021_12_2·听力"
+   },
+   {
+    "id": 163,
+    "text": "For example, in one task, research participants were instructed to create new college majors by combining two or more existing academic Arts or Science programs at their university.",
+    "n": 1,
+    "src": "cet4_2021_12_3"
+   },
+   {
+    "id": 164,
+    "text": "You know that part at the end of a job interview when the hiring manager asks if you have any questions, and you just stare across the table blankly with your mouth hanging open?",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 165,
+    "text": "A team of researchers from the University of Basel published their new study about people’s attitudes towards diversity at work.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 166,
+    "text": "Fraudsters also invest in pay-per-click advertising to feature at the top of search engines when people type in phrases such as “Spanish seaside villas”.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 167,
+    "text": "It was a world apart from her undergraduate days at the University of California–Berkeley majoring in political science.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 168,
+    "text": "A police spokeswoman said that officers were currently in attendance at the scene.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 169,
+    "text": "Valtorta, a research fellow at the University of York in England.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 170,
+    "text": "This was the first record of six babies being born at the same time in that region.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 171,
+    "text": "Children must read at least 3 times a week.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 172,
+    "text": "But at this time of year, the air pollution is a real problem.",
+    "n": 1,
+    "src": "cet4_2022_12_2·听力"
+   },
+   {
+    "id": 173,
+    "text": "However, when you actually go monster-hunting, and you look deeply at the people behind shocking behavior, you may be surprised.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 174,
+    "text": "Almost all of them were operating at a deficit.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 175,
+    "text": "All you need to do is wait at the far end of the platform.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 176,
+    "text": "For software to understand pizza is served at Italian restaurants is easy.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 177,
+    "text": "At the Dreamery, a business in Manhattan, naps are for sale.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 178,
+    "text": "A skilled backroom operator who speaks without a filter, Ecclestone said often that in his opinion, the sport was at its best when he was allowed to act as \"a dictator.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 179,
+    "text": "K) Back at rehearsal, Justin Le, aged 18, tied a red ribbon around his waist to practice jumping.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 180,
+    "text": "How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 181,
+    "text": "W: Maybe, but how can anyone save enough to retire by 40 when most people can’t retire at 60?",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 182,
+    "text": "A number of studies have looked at how family life can affect productivity and satisfaction in the workplace.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 183,
+    "text": "[5] A village is going to throw a birthday party for an orange cat named Wilbur, who has become famous for making a regular appearance at local shops.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 184,
+    "text": "But even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 185,
+    "text": "John Chan at Shenzhen University, found ___33___ results from 19 relevant studies.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 186,
+    "text": "Remember that you will have to have all your certificates to hand when you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 187,
+    "text": "To arrive at this ___28___, the researchers examined the linguistic patterns of men and women in over 600,000",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 188,
+    "text": "So you being busy doesn’t make me sympathetic at all.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 189,
+    "text": "New policies adopted by many US schools require students to do online learning at home in case of a school closure.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 190,
+    "text": "clinical associate professor of management at New York University.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 191,
+    "text": "And the team also found that participants were willing to look at listings with lower salaries if they came from companies with a higher diversity score.",
+    "n": 1,
+    "src": "cet4_2024_12_1·听力"
+   },
+   {
+    "id": 192,
+    "text": "rates are, at the most generous estimates, 56%, so the actual recycling rate will be lower than that,” Chetan-Walsh says.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 193,
+    "text": "M: I go to the bank once a week, and the rest of the time I keep my bank card at home, so I can’t get more cash out.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 194,
+    "text": "staying at the starting point.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 195,
+    "text": "use the fact that different attributes are valuable at different times to different ___33___.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 196,
+    "text": "At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can’t see them.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 197,
+    "text": "global fruit and vegetable juices market was valued at $154 billion in 2016 and is expected to grow.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 198,
+    "text": "But its owner assured the concerned customers it was very much loved and fed at home.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 199,
+    "text": "J) With the help of engineering students at high schools in Maine, Horn and Wang have also built a robot simulation",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 200,
+    "text": "“Parking here is already a nightmare,” one shouted at a protest rally.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 201,
+    "text": "Alzheimer’s haze and bring them back to (at least a likeness of) normality... if only for a short while.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 202,
+    "text": "I thought we agreed that we would not be sending him away at such a young age.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 203,
+    "text": "At the time, Humm acknowledged the move was risky, admitting that “it wasn’t clear if guests would come”, but called",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 204,
+    "text": "At the end of each passage , you will hear three or",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 205,
+    "text": "W: How about inviting people to come at 6:00 p.m.?",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 206,
+    "text": "The answer is, literally, at your",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 207,
+    "text": "They might even make us better at our jobs'.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 208,
+    "text": "At the end of each passage, you will hear three or four questions.",
+    "n": 19,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 209,
+    "text": "At the primary level, the main aim is to cultivate good habits, like learning to plan and exercising self-discipline.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 210,
+    "text": "Still, the only “new-to-me” topics that came to mind were my daughter’s basketball tournament (锦标赛) and my feelings about that morning’s political headlines—neither amusing nor appropriate topics at that moment.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 211,
+    "text": "But you should also look at the process through a similar lens.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 212,
+    "text": "(22-1) How the balance is struck between these two forms of communication—the point at which one needs to be exchanged for another—really depends on individual cultures.",
+    "n": 1,
+    "src": "cet4_2022_06_1·听力"
+   },
+   {
+    "id": 213,
+    "text": "He also suggests asking someone not going on the holiday to have a look at the website.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 214,
+    "text": "It’s like fixing up an airplane engine and ignoring that the pilot is on his third drink at the bar and a massive storm is overhead....",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 215,
+    "text": "This year alone, there have been seven traffic accidents at this location.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 216,
+    "text": "This fall, thousands of college students from across the country will begin their undergraduate studies at colleges around the nation.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 217,
+    "text": "The babies’ mother commented that they had already prepared room for five babies at home, so they will have to rearrange things for their happy surprise.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 218,
+    "text": "Children should start reading at age 3.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 219,
+    "text": "They would run around looking for clues and at the end unmask the bad guy.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 220,
+    "text": "At any rate, what was lost now has been found, by many of the community’s littlest residents.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 221,
+    "text": "Furthermore, I might add, (15) all movies come with English text at the bottom of the screen.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 222,
+    "text": "In one example, the phrase \"Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant\" was interpreted as sending a message to Jason only, containing the text \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant\".",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 223,
+    "text": "Here, at this point in the argument, it’s traditional for me to bring up all the studies that show the benefits of napping.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 224,
+    "text": "The goal in this is to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 225,
+    "text": "\"Many people see team-building activities as a waste of time, so we decided to look in more depth at what's behind this,\" said the paper's lead researcher, Dr Peter Matous.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 226,
+    "text": "“The people at Monsanto who I’ve talked to are much more optimistic that they’ll be able to engineer heat-tolerant crops,” Schlenker says.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 227,
+    "text": "The researchers found that students who were most at risk had the most improvements in executive functioning after interacting with therapy dogs.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 228,
+    "text": "So Ciara Kelly and colleagues recruited 129 hobbyists to look at how the time spent on their hobbies _27_ their work life.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 229,
+    "text": "At the start of the program, 77 per cent of female participants were confident about cooking, but just 23 per cent of males were confident.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 230,
+    "text": "Parents who stare non-stop at their phones and don’t read books are likely to breed kids who will do the same.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 231,
+    "text": "has stayed at just below 40 hours for nearly five decades.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 232,
+    "text": "It is also cheap, at a time when many are worried about what the economic future holds.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 233,
+    "text": "Hal Hershfield, a psychologist at the UCLA Anderson School of Management, wanted to know why people weren't",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 234,
+    "text": "Learning to be this focused when enjoying extreme sports will help you to be focused at work, keeping you more productive and ultimately more successful.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 235,
+    "text": "There is a time-honoured tradition in the US for school kids to stay at home on “snow days”.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 236,
+    "text": "employees at two London-based firms—an equal number of men and women between the ages of 30 and 50, all with at least",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 237,
+    "text": "day, the recommendation to have at least five portions of fruit and vegetables every day.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 238,
+    "text": "Parents can encourage their child to research their favourite pets at the library or during a supervised internet search.",
+    "n": 1,
+    "src": "cet4_2024_12_2·听力"
+   },
+   {
+    "id": 239,
+    "text": "It looks at what the manufacturers of self-driving cars should legally do to ensure that drivers understand how to",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 240,
+    "text": "G) Catherine Ritman Smith, head of learning at the Design Museum, is expecting around 10,000 participants aged 13 to 16",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 241,
+    "text": "At some point, humans began to capture and hold animals.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 242,
+    "text": "In an analysis of 155 studies, John Sievenpiper, associate professor at the University of Toronto’s Department of Nutritional",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 243,
+    "text": "But instead of leaving and never coming back, it invited its friends round. [5] There are now at least five different cats who come almost on a daily basis.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 244,
+    "text": "studies of millions of bats emerging at dusk from caves in Southeast Asia showed that each bat used a form of bilateral",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 245,
+    "text": "E) This little story turns out to be a fascinating glimpse at the challenges cities face as they try to update their urban",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 246,
+    "text": "Jeff Anderson, associate professor in Radiology at the University of Utah and ___32___ author on the study, says “In",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 247,
+    "text": "I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough to live on his own at this point.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 248,
+    "text": "Three Michelin stars is the highest award, given to chefs who are at the peak of their profession.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 249,
+    "text": "Back in Belgium, the scientists looked at the ants under an electronic microscope and found that their",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 250,
+    "text": "And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather than getting everyone to sit down at the table to eat a meal.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 251,
+    "text": "Bonnie Liebman, director of nutrition at the Center for Science in the Public Interest.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 252,
+    "text": "In our stimulation-rich world, it seems unrealistic that boredom could occur at all.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 253,
+    "text": "Some people may argue that this is merely reported data, and they say many men feel the same pressures as women in terms of fulfilling responsibilities at work and home.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 254,
+    "text": "During the secondary school years, extending what is learned at school is positively related to academic achievement, so the content of homework becomes more important.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 255,
+    "text": "“Often, the ‘boring things’ may not be boring at all.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 256,
+    "text": "At the end of an interview, a job applicant should seize the opportunity to get answers to their urgent questions.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 257,
+    "text": "“When people book their holidays they get so emotionally involved, and when they find that villa at a good price with availability in peak season, they are an easy target,” says Cooper.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 258,
+    "text": "L) Kelli wastes no time taking potshots at (随意批评) the medical establishment and its body-centered biomedicine methods.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 259,
+    "text": "I imagine there will be different foods and people will just help themselves and eat at their own pace, right?",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 260,
+    "text": "At my well-respected, private, four-year university in Washington, D.C., which boasts a yearly tuition of $44,046 not including room and board, I receive over $57,000 yearly in financial aid.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 261,
+    "text": "M: (10) The same discount of 20% is being offered to everyone at the door on a “first come, first served” basis for the first month.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 262,
+    "text": "For example, there is no meeting that goes faster than not having a meeting at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 263,
+    "text": "Participants were asked to self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrixes than they actually had.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 264,
+    "text": "“At first, I thought this was a wonder, because everything was so _32_, but then we realized that this is a huge _33_ in the end,” said the mayor.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 265,
+    "text": "“I’m banned from mobile use at work, and my phone must be handed in.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 266,
+    "text": "It has also been noted that Siri lacks a proper editing function, as saying \"Edit message to say: we're at Silver Cloud restaurant and you should come find us\" generates \"Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us\".",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 267,
+    "text": "Just look at the world around you at 2:30 in the afternoon.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 268,
+    "text": "John Bloom, a professor at Shippensburg University who has studied American sports history, said the biggest challenge for any sport trying to increase its presence in the United States was framing itself in a way that had lasting appeal.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 269,
+    "text": "At last, the problem became so acute—and so visible—that Los Angeles took extraordinary action.",
+    "n": 1,
+    "src": "cet4_2023_06_3"
+   },
+   {
+    "id": 270,
+    "text": "“On the other hand, scientists at the USDA who I’ve spoken with are much more cautious.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 271,
+    "text": "Some risks may not work out, but an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 272,
+    "text": "To maintain a serious hobby, people need to invest significant psychological resources, say the authors—so if the activity has the same kinds of demands as their work, they may be left _32_ and unable to perform well at their job.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 273,
+    "text": "At the end of the program, cooking confidence and skills were equal across both counterparts.",
+    "n": 1,
+    "src": "cet4_2023_12_2·听力"
+   },
+   {
+    "id": 274,
+    "text": "It wasn’t apparent at the time, but Red Rum had a serious bone disease in his foot.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 275,
+    "text": "an economist at Harvard, the U.S. economy is right on track to reach Keynes’s eightfold multiple by 2029.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 276,
+    "text": "Many of the parents have taken on college loans for the kids, too, sometimes at the expense of their own finances.",
+    "n": 1,
+    "src": "cet4_2024_06_1·听力"
+   },
+   {
+    "id": 277,
+    "text": "into a mirror and see their aged selves looking back at them.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 278,
+    "text": "When you find that you can overcome the physical or mental challenges involved in extreme sports, you’ll feel superhuman and your self-confidence will be at an all-time high.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 279,
+    "text": "There is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 280,
+    "text": "E) Lupu and Ruiz-Castro looked at those who rejected the long hours and they found that those workers actually had strikingly",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 281,
+    "text": "I) Hourican and his pupils have happy memories of spending a whole day at the museum, having been selected as one of 10",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 282,
+    "text": "The collection stayed at that location for 600 years.",
+    "n": 1,
+    "src": "cet4_2025_06_1·听力"
+   },
+   {
+    "id": 283,
+    "text": "sciences at the University of Southern California.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 284,
+    "text": "On a regular day at a local food market, people would find a display table with 24 different kinds of jams.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 285,
+    "text": "Attraction at first sight.",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 286,
+    "text": "F) In 2013, researchers at New York City’s Department of Transportation studied seven stretches of road that had installed",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 287,
+    "text": "calm under pressure are often attributes of people that are good at gaming,” according to a Royal Air Force spokesperson.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 288,
+    "text": "Unfortunately, she had to give up the practice seven years ago at 108.",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 289,
+    "text": "A test can look at many genes",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 290,
+    "text": "the students themselves and society at large, because students' experience of transitioning (lii./t) to",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 291,
+    "text": "It is a seven-day race, called the Iditarod Trail and participants stop at Takotna for their obligatory 24-hour rest.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 292,
+    "text": "Success was once defined as being able to stay at a company for a long time and move up the corporate",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 293,
+    "text": "bar in your car, or every handful of nuts at your desk?",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 294,
+    "text": "The concept of self-care, at its core, is quite simple.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 295,
+    "text": "Make sure it’s free of distractions, and—for primary school children at least—somewhere near you, so you can answer questions and offer encouragement.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 296,
+    "text": "“Many people are ‘not boring’ in the way that they can carry a conversation or can be good at a social gathering, etc.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 297,
+    "text": "They are advertised as a way for adults to finish their education and students to learn the material at their own pace—it is far more compatible for people with busy schedules.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 298,
+    "text": "“A family will turn up at a villa and find out it doesn’t exist or the owner doesn’t know who you are,” says Tipton.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 299,
+    "text": "M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation is blessed with.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 300,
+    "text": "(8-2) We will just be a small group of friends gathering together at Washington Park.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 301,
+    "text": "Fees for lab science classes are the highest, and all students at my university are required to take at least one lab before they graduate.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 302,
+    "text": "(13-1) There’s a flight arriving the following morning, with a two-hour stopover in Dubai, or a flight arriving at 11:30 in the evening, with a five-hour stopover in Amsterdam.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 303,
+    "text": "Saying “no” to our superiors at work",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 304,
+    "text": "This shows participants three words at a time that appear to be unrelated, and the person has to think of a fourth word that is associated with all of them.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 305,
+    "text": "This allows you to keep going by your own last name while legally adopting your husband’s last name at the same time.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 306,
+    "text": "The internet is too easy and too unreliable a research tool, (18) so let’s leave phones and laptops at home, and show them a different world in their lessons—one of books and pens,” he says.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 307,
+    "text": "At the same time, public municipal pools were often closed, leaving low-income people nowhere to swim.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 308,
+    "text": "Every day at about 1 p.m., everyone faces the same choice: sleep until 2 p.m. and then work until 5, or daydream and drift around social media and attend pointless meetings until 7 p.m.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 309,
+    "text": "At Fox Broadcasting Company, he was a top advisor for years, known for his skill in helping to lead the launch of the company into sports, as well as the start of Fox News Channel.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 310,
+    "text": "According to a recent study, one in five highly engaged employees is at risk of burnout (精疲力竭).",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 311,
+    "text": "Risk-takers are best at adapting in difficult times. [25] Simply put, when most individuals stay away from risk, it means less competition for risk-takers.",
+    "n": 1,
+    "src": "cet4_2023_12_1·听力"
+   },
+   {
+    "id": 312,
+    "text": "But if their hobby is quite different from their career, it may not _33_ in the same way but instead help them develop other knowledge and skills that can _34_ their confidence at work.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 313,
+    "text": "He often led pre-race parades at Aintree Racecourse and was a popular guest at charity benefits and public events.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 314,
+    "text": "“This argument is, at best, far from sufficient,” he writes.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 315,
+    "text": "immediate, or at least very near-term rewards.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 316,
+    "text": "This could be because some people want to avoid conflict at all costs, after all they still have to work together.",
+    "n": 1,
+    "src": "cet4_2024_06_2·听力"
+   },
+   {
+    "id": 317,
+    "text": "Ford's thesis is that the best way to understand what particular fashions meant in any given era is to look at the restrictions",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 318,
+    "text": "Fourth, they considered their alternatives: is there anything at work that could be",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 319,
+    "text": "Kin Design Studio in Shoreditch, met designers at their school and attended a lunch with Deutsche Bank employees.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 320,
+    "text": "So while fruit juice is better than no fruit at all, there",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 321,
+    "text": "Then on another day, at that same food market, people were given only 6 different types of jam choices.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 322,
+    "text": "What does the author recommend we eat at the end of the passage?",
+    "n": 1,
+    "src": "cet4_2025_06_3"
+   },
+   {
+    "id": 323,
+    "text": "H) The truth is that in fairly dense areas, bikes are more efficient at moving people around.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 324,
+    "text": "But “the research hasn’t really changed minds, at least not yet,” says one of the authors of the study, Dr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 325,
+    "text": "What does the news report say about most people arriving at American borders with eggs?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 326,
+    "text": "at once, but it’s difficult to predict how they will play together.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 327,
+    "text": "levels of stress hormones when their grades were declining at the beginning of the ninth grade.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 328,
+    "text": "The whole village chips in to help, including the kids, who end up developing their baking skills at an early age.",
+    "n": 1,
+    "src": "cet4_2021_06_1·听力"
+   },
+   {
+    "id": 329,
+    "text": "Today, consulting or freelancing for five businesses at the same time is a badge of honor.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 330,
+    "text": "We can point to at least three potential causes.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 331,
+    "text": "Rough calculations show that the savings made by employers when their staff works from home are of similar value to the compensation workers should receive for setting up offices at home.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 332,
+    "text": "Workers at Mexican oil company will receive a healthy incentive of almost $300 a year if they meet certain body weight standards.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 333,
+    "text": "If you are a very reserved person, this could be a little difficult at first.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 334,
+    "text": "Not all students have access to these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 335,
+    "text": "“The problem then is you have to find accommodation at short notice.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 336,
+    "text": "Of the teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam but that they did not feel uneasy about the behaviour.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 337,
+    "text": "M: (9-2) I would suggest having at least one soft cheese and one hard cheese.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 338,
+    "text": "Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), these fees often do not include extra fees for lab tests or prescription medications (药物).",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 339,
+    "text": "At that point, your heat regulatory system can essentially quit, which stops you from sweating as your body tries to keep water around your vital organs.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 340,
+    "text": "You have to pay back your commitment at some point.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 341,
+    "text": "Find online logic games and cheat at them, play Scrabble (拼字游戏) with a dictionary, or write a story about something that is untrue?",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 342,
+    "text": "At the same time, your name is associated with the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and your husband’s family’s identity.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 343,
+    "text": "So the next week, (21) Kate’s family loaded up their car and took all the dolls to the playroom at the children’s hospital.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 344,
+    "text": "One in which the rich purchase amenities at an increasingly unjustifiable price.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 345,
+    "text": "\"I think they can build Formula One in the U.S.,\" said Patrick Crakes, an executive at In Vivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 346,
+    "text": "Research by the Boston College Center for Work & Family, which surveyed new parents at four large US companies who were qualified for taking at least six weeks paid parental leave, found that 81% of the 1,240 employees surveyed said the notion of fathers taking leave has become more acceptable.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 347,
+    "text": "He won his first Grand National title at 12.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 348,
+    "text": "personal connections and relationships, people may place more value on the socializing that happens at work.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 349,
+    "text": "It’s easy for me to imagine how amazing it will feel at the end of the workday",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 350,
+    "text": "By glancing at its fabrics, colors, and ornaments.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 351,
+    "text": "then the time you actually spend at home may not be enjoyable.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 352,
+    "text": "included a make-your-own cloth kit called Dove Bunting and a threefold, wallet-sized travel game with goals at each end,",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 353,
+    "text": "It’s estimated at less than one per cent of the UK’s food waste total.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 354,
+    "text": "I) Mom-and-pop shops are usually pretty quick at recognizing situations that will help their bottom lines.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 355,
+    "text": "L) Over at Game Academy, Mr.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 356,
+    "text": "What does the woman suggest at the end of the conversation?",
+    "n": 1,
+    "src": "cet4_2025_12_2·听力"
+   },
+   {
+    "id": 357,
+    "text": "At the moment, the scientific bases for these applications are non-existent or incredibly weak.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 358,
+    "text": "We then looked at high school students'",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 359,
+    "text": "Working at home or in cafes, starting businesses of their own, and even launching business ventures",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 360,
+    "text": "It benefits employers at the expense of employees.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 361,
+    "text": "They can also reduce sweets and provide healthier snacks in the office and healthier meals at the company canteen.",
+    "n": 1,
+    "src": "cet4_2021_12_1·听力"
+   },
+   {
+    "id": 362,
+    "text": "The author considers himself usually good at conducting conversations.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 363,
+    "text": "They can learn at their own pace.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 364,
+    "text": "Fraudsters advertise their villas at reasonable prices so as not to be suspected.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 365,
+    "text": "In many cases, students did not realize that strategies like looking up answers on a smartphone were actually cheating at all.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 366,
+    "text": "You sit next to the elderly woman, who unfortunately turns out to be quite skilled at picking pockets.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 367,
+    "text": "So when my university voted to raise tuition costs 3% at the end of my freshman year, my financial aid package remained the same and I was suddenly responsible for an additional $1,200 for the next year.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 368,
+    "text": "Left-handers may also be better at remembering events.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 369,
+    "text": "Saying “no” is an important skill to develop at any stage of your career because it retains the most important asset in life: your time.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 370,
+    "text": "Even though animals in nursing homes were illegal at the time, Dr.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 371,
+    "text": "Hyphenating the two names is a way for each person to, at least a little bit, “win” the argument.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 372,
+    "text": "Kate was depressed at first, but then she sat with some girl patients and they opened up all the boxes together, laughing and playing.",
+    "n": 1,
+    "src": "cet4_2023_03_1·听力"
+   },
+   {
+    "id": 373,
+    "text": "One in which the affluent enjoy a more comfortable life at the expense of the poor.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 374,
+    "text": "Supermarkets may not feel cutting-edge now, but they were a revolution in distribution at the time.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 375,
+    "text": "G) The previous study found that nearly three-quarters of fathers saw two to four weeks as an appropriate duration for paternity leave and 76% said they would prefer not to take all their time off at once.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 376,
+    "text": "Without making things complicated, the solution to this dilemma is using data and instincts in conjunction to arrive at the best possible decisions.",
+    "n": 1,
+    "src": "cet4_2023_12_3"
+   },
+   {
+    "id": 377,
+    "text": "Many workers report that they would like to spend more time with family, rather than at work Furthermore,",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 378,
+    "text": "K) “In one study, we asked people online about the goals they set at the beginning of the year.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 379,
+    "text": "By looking at what the nobility were wearing.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 380,
+    "text": "mentally we still may be processing things that happened at work.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 381,
+    "text": "Among them are architect Asif Khan, a Design Museum trustee who has worked as designer-in-residence at the museum,",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 382,
+    "text": "André’s company Elysia offers breakfasts and snacks specifically aimed at business meetings and events.",
+    "n": 1,
+    "src": "cet4_2025_06_2·听力"
+   },
+   {
+    "id": 383,
+    "text": "She said business fell by at least 40 percent",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 384,
+    "text": "Since your baby doesn’t dream at this stage of brain development, it’s safe to assume babies do not have nightmares,",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 385,
+    "text": "They do not look promising at the moment.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 386,
+    "text": "According to one study, each high school graduate contributes at least 500, OOO dollars to the local",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 387,
+    "text": "work and play, and who work at what they are passionate about, are more focused and productive,",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 388,
+    "text": "Effective measures should be taken to motivate employees to set up offices at home.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 389,
+    "text": "They are frequently scheduled at irregular times.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 390,
+    "text": "Employers typically worry that social media is a productivity killer; more than half of U.S. employers reportedly block access to social media at work.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 391,
+    "text": "From a young age, students learn that answers exist conveniently at their fingertips through search engines and expert websites.",
+    "n": 1,
+    "src": "cet4_2022_09_1"
+   },
+   {
+    "id": 392,
+    "text": "At least this is what a new study suggests.",
+    "n": 1,
+    "src": "cet4_2022_09_1·听力"
+   },
+   {
+    "id": 393,
+    "text": "The university administration will likely vote to raise costs at least once more before my graduation.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 394,
+    "text": "Researchers have looked at the influence of being left-handed on performance and interactive sports.",
+    "n": 1,
+    "src": "cet4_2022_12_1·听力"
+   },
+   {
+    "id": 395,
+    "text": "But that’s not what it means at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 396,
+    "text": "You’ll need to change your name at the bank, with social security, with your credit cards, on your driver’s license, at the gym … everywhere.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 397,
+    "text": "But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and even a shorter life.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 398,
+    "text": "Most stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 399,
+    "text": "I) However, the study also shows how traditional gender roles endure both at work, where more women than men reported changes in their perceived career potential, and at home—even among workers who claim to have a strong desire for equality.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 400,
+    "text": "as a whole, it is not at all the case for the median American worker.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 401,
+    "text": "on sticking to those small positive habits one day at a time, it becomes easier to stay strong and achieve that delayed reward.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 402,
+    "text": "In order to learn the art of persuasion at the workplace, you need to understand how to handle conflicts and reach",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 403,
+    "text": "professor of work and organisation studies at MIT, shows companies and managers can play a key role in creating a better",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 404,
+    "text": "them to opt for it at General Certificate of Secondary Education, so we are helping to keep alive something which is crucial",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 405,
+    "text": "If we’ve learned anything about culture wars, it’s that data isn’t much good at",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 406,
+    "text": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 407,
+    "text": "They do not make any sense at present.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 408,
+    "text": "have to tolerate the bad tempers of colleagues frustrated at the number of times they've had to call the help",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 409,
+    "text": "It was considered a fashion at that time.",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 410,
+    "text": "But this milestone comes at a small cost.",
+    "n": 1,
+    "src": "cet4_2021_12_1"
+   },
+   {
+    "id": 411,
+    "text": "Schools with limited resources will be at a disadvantage.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 412,
+    "text": "Respondents were then asked about their work behaviors, including whether they felt motivated in their jobs and showed initiative at work.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 413,
+    "text": "He noted that Japanese people ate a wonderful variety of seaweeds, and that Chinese people tried to include at least five different colors in every meal.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 414,
+    "text": "At first, you just eliminate the obvious distractions and explore the rest.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 415,
+    "text": "At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each other and are going to be joining your lives together.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 416,
+    "text": "The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a \"hypnoidal trance (催眠恍惚状态),\" causing them to wander aisles bumping into boxes and \"picking things off shelves at random.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 417,
+    "text": "Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, but we don’t expect the men to take over for the women at home.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 418,
+    "text": "And, of course, they are compensated for it at a level that makes it worth their",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 419,
+    "text": "Aim at success determinedly.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 420,
+    "text": "What should people do to learn the art of persuasion at the workplace?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 421,
+    "text": "Phyllis Moen split more than 1,000 employees at a Fortune 500 company into two groups, one that worked under a",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 422,
+    "text": "New research suggests that pandas may be at risk of dying out because they are too comfortable.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 423,
+    "text": "This cycle is the reason why people rest at night",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 424,
+    "text": "To see if children start dreaming at age two.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 425,
+    "text": "technological issues at work.",
+    "n": 1,
+    "src": "cet4_2021_06_1"
+   },
+   {
+    "id": 426,
+    "text": "What does the author say about people now working for several businesses at the same time?",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 427,
+    "text": "If this trend spurs scientists to agree more quickly about the best solutions to our problems—and at the same time helps the public observe the process of scientific discourse more clearly—then this is good for everyone, including scientists.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 428,
+    "text": "These findings present a dilemma for managers: employees using social media at work are more engaged and more productive, but they are also more likely to leave your company.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 429,
+    "text": "Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 430,
+    "text": "I’m reminded of the famous Peter Drucker quote, “There is nothing so useless as doing efficiently that which should not be done at all.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 431,
+    "text": "Try to remember that as you are staring at the application for your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that might be).",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 432,
+    "text": "Decades of research shows that it can take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 433,
+    "text": "O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that there is still substantial progress to be made towards changing attitudes towards paternity leave.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 434,
+    "text": "Some people view socializing at the workplace as a chance to develop personal relationships.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 435,
+    "text": "Research found that those who are given greater flexibility at work are less stressed and more likely to stay in their jobs.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 436,
+    "text": "For their study — outlined in a paper in the journal Conservation Biology — the team looked at genetic diversity and",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 437,
+    "text": "For example, eating at night can lead to weight",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 438,
+    "text": "-l=-¼t (brew)¢ at Ii]½ *½¾11¿il O it$ À11Á-l=-¢A..JGµ$>tk.µÂMt¢Ã11\u0002\u0003 o Ä o {t£lf--l=--*¾ j :#¾",
+    "n": 1,
+    "src": "cet4_2021_06_2"
+   },
+   {
+    "id": 439,
+    "text": "Debating scientific issues at a conference is now old-fashioned.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 440,
+    "text": "The power of the classroom is rooted in the humanity of the people gathered in the same place, at the same time.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 441,
+    "text": "They get the whole family to eat at a table.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 442,
+    "text": "At around 20 kilograms per person global fish consumption is now more than twice what it was in the 1960s.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 443,
+    "text": "Travis Bradberry, president at TalentSmart, explained Bradberry in his post Why Smart People Act so Stupid that “rational thinking and intelligence don’t tend to go hand in hand”.",
+    "n": 1,
+    "src": "cet4_2023_03_1"
+   },
+   {
+    "id": 444,
+    "text": "While some children visit summer camps, most stay at home, watching TV or playing games on electronic devices, which hardly benefits them.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 445,
+    "text": "One study finds that even workers who claim to desire gender equality stick to traditional gender roles both at work and at home.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 446,
+    "text": "Being eager to pass brain tests at an old age.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 447,
+    "text": "You may not actually experience emotional wellbeing at home if you remain occupied with what happened at work.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 448,
+    "text": "Claudio Sillero, a professor of conservation biology at Oxford University, told the newspaper that the new findings could",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 449,
+    "text": "gain over time because food intake at night leads to increased fat storage.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 450,
+    "text": "walk at least 4 miles a day",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 451,
+    "text": "To keep eating fish at the current rate, we’re definitely going to need to keep aquaculture (水产养殖) developing.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 452,
+    "text": "It satisfies students' desire to stay longer at home.",
+    "n": 1,
+    "src": "cet4_2023_06_2"
+   },
+   {
+    "id": 453,
+    "text": "They may be intently focused on winning at the current market level.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 454,
+    "text": "women would continue to enter the field at the same rate.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 455,
+    "text": "What can we conclude from the new research by scientists at Michigan State University?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 456,
+    "text": "drug can differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 457,
+    "text": "“Sometimes you can be so good at something that it causes trouble,” she notes.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 458,
+    "text": "But while catchings at sea have suffered, fish-farming has been growing at a fast rate.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 459,
+    "text": "A multitasker is one who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 460,
+    "text": "I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 461,
+    "text": "job skills, then the interview skills, then the dress part — and you must be perfect at all of them.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 462,
+    "text": "Over 50 years ago, researchers found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 463,
+    "text": "Indeed, the study adds to previous research hinting at a dark side of emotional intelligence.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 464,
+    "text": "What do we need to do if we keep consuming fish at the current rate?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 465,
+    "text": "The concept does indeed come from the realms of technology, where it is used to refer to an operating system that can execute multiple tasks at the same time.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 466,
+    "text": "What’s something you love but aren’t good at?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 467,
+    "text": "when taken at night rather than during the day.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 468,
+    "text": "People who look at the dark side of life often feel depressed.",
+    "n": 1,
+    "src": "cet4_2022_12_1"
+   },
+   {
+    "id": 469,
+    "text": "Progress at reducing undernourishment has stopped despite gains through the 1990s and 2000s.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 470,
+    "text": "Answering the phone and writing at the same time, for example.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 471,
+    "text": "If at first you fail, then try one more time with grit.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 472,
+    "text": "This is because the liver enzyme these drugs target is more active at night.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 473,
+    "text": "Developed countries sometimes offer food and aid to developing ones, but at a price.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 474,
+    "text": "However, on the other side of the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 475,
+    "text": "It allows us to know what we are good at.",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 476,
+    "text": "Taking medicine at the wrong time can even cause harm.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 477,
+    "text": "What will happen when food aid is offered at a price?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 478,
+    "text": "But having to pay attention to several things at once means that the powers of concentration are reduced and that can lead to more mistakes.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 479,
+    "text": "heart at night.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 480,
+    "text": "What message does the author try to convey at the end of the passage?",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 481,
+    "text": "An operating system capable of doing several tasks at once.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 482,
+    "text": "with some college education were in the middle at around 15%.",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 483,
+    "text": "A skilled worker executing more than one task at the same time.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 484,
+    "text": "A sophisticated technology doing several tasks effectively at once.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 485,
+    "text": "An efficient person able to perform multiple tasks at the same time.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   }
+  ]
+ }
+]

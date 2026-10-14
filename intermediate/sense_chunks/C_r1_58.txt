@@ -1,0 +1,130 @@
+# 任务 C_r1_58：1 个词，115 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_58.labels.txt
+
+============================================================
+## 词：be    本段 115 句    模式：全标（每句都写）
+原释义：aux. v.用于构成进行时和被动语态. v.是; 存在; 成为.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. 构成被动语态（be done）    B 样本 38    例：Ask Jimmy what is to be done.
+  1  v. 是（后接形容词、名词等）    B 样本 35    例：It can be touching.
+  2  aux. 构成进行时（be doing）    B 样本 3    例：See, I did think it was a bit weird for him to be asking for money for that sort of thing.
+  3  v. 在，存在；（活动）举行（there be / be here）    B 样本 2    例：M: Glad to be here, Jane.
+  4  v. 成为，当    B 样本 2    例：To help children grow up to be professionals.
+  5  aux. （be to do）将要，应该（表示安排或义务）    B 样本 0
+口径说明（照此执行）：
+  - 词条只匹配原形 be；is to be done 这类句子里 be 本身是被动助动词，所以「be to do」义项在本批中没有出现。be able to 按「是」标，未作 P。
+句子：
+709 | But moving away from a traditional classroom in which a living, breathing human being teaches and interacts with students daily would 【be】 a disaster.
+714 | However, the question is: can a person really 【be】 a multitasker?
+680 | Talking about work-life balance is said to 【be】 a privilege reserved for the better-off, not for those who barely make a living.
+740 | This is problematic because it hinders your ability to adapt to new circumstances, which is vital if you want to 【be】 a successful entrepreneur.
+750 | Technology, no matter how advanced, should simply 【be】 a tool of a good teacher.
+759 | Obese people would not 【be】 able to afford the medical costs.
+779 | Offering online classes certainly helps students who would otherwise not 【be】 able to attend classroom sessions.
+684 | It might not 【be】 able to rival classical music and opera in importance for centuries to come.
+707 | “But unless we accept that obesity is a disease, we are not going to 【be】 able to tackle it,” he concludes.
+757 | that teenagers will 【be】 able to take a natural history test given that for decades children have been able to name more video
+781 | More students may find it easy to 【be】 absent from them.
+718 | Some researchers suggest that work-life balance is not a goal to achieve, but a process for life to 【be】 adjusted promptly.
+686 | A totally different approach could 【be】 adopted to combat advertising campaigns for snack food.
+689 | Obesity, in which excess body fat has accumulated to such an extent that health may 【be】 adversely affected, meets the dictionary definition of disease, argues Professor John Wilding.
+715 | Our identity as social beings will 【be】 affected.
+710 | All of us can 【be】 affected by food instability one way or another.
+699 | you have a health issue and you want to 【be】 around longer for your kids, or if your business is something you're passionate
+744 | Self-control tends to 【be】 associated with pains.
+783 | Schools with limited resources will 【be】 at a disadvantage.
+764 | Our status can 【be】 attributed to our social mobility.
+729 | This requires two essential conditions: that one of the tasks needs to 【be】 automatic, like walking or eating, and that they both need different mental processes.
+732 | People may cither 【be】 born with it or 【be】 able to cultivate it.
+692 | This ability will 【be】 built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.
+726 | Their eating habits need to 【be】 changed.
+790 | Its validity should 【be】 checked with additional care.
+713 | You can share loud and proud that you won’t 【be】 checking email until you’re back.
+695 | To 【be】 clear, this institution is no hotel.
+708 | To begin with, job applicants should 【be】 clear what they expect from their future employer.
+705 | What kind of genetic tests tend to 【be】 comparatively reliable?
+761 | Prepare students to 【be】 competitive in the future.
+767 | In a perfect world, money wouldn’t matter — all scientific studies would 【be】 completely objective.
+766 | Learning new tricks should not 【be】 confined to old dogs only.
+745 | They enable employees to 【be】 convinced of their long-term gains.
+773 | Ultimately, misleading results will 【be】 corrected as science
+788 | Its misleading results should 【be】 corrected in time.
+771 | It proves to 【be】 counterproductive in a number of ways.
+763 | But an excess of ambition can also 【be】 dangerous, putting you at risk of burnout, stubbornness and even a shorter life.
+794 | Diverse topics can 【be】 debated by both scientists and the public.
+777 | It is a desirable ability that can 【be】 developed.
+787 | A recent debate published in The New York Times discussed the question of how quickly medicine should 【be】 developed and produced.
+753 | He thinks everyone should 【be】 devoted to work.
+731 | Why can it 【be】 difficult for us to maintain self-control?
+690 | It can 【be】 difficult to know the real situation in a company until you become part of it.
+775 | Obese people would 【be】 discriminated against.
+791 | If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts in a textbook needs to 【be】 dismissed.
+702 | What should 【be】 done to help drivers fully understand system capabilities and limitations?
+706 | This may 【be】 driven partly by self-deception or "wishful thinking''.
+749 | The office hours of the professor may also 【be】 during inconvenient times for many students as well.
+687 | certain rare diseases can 【be】 easily identified, most potential health conditions cannot 【be】 identified by genetic testing alone.
+716 | Because there is a delayed satisfaction associated with self-control, it can 【be】 easy to get off track.
+786 | Its recommendations should 【be】 examined for feasibility.
+772 | Their attention span cannot 【be】 expanded.
+719 | Training them to 【be】 experts in vehicle automation.
+734 | So, it might 【be】 fair to assume
+768 | Part of remedying this social disease would 【be】 for parliament to pass a “right to grow” law, allowing anyone to turn
+704 | An effective intervention has to 【be】 found to persuade teenagers to switch to a healthier lifestyle.
+741 | He is actually proud to 【be】 fully occupied.
+756 | Today, researchers are likely to 【be】 funded
+733 | The weakening of the human connection to nature might 【be】 good for economic growth but is bad for people.
+737 | They are not designed for students to interact with the material in depth but designed to 【be】 graded easily to accommodate such a large number of students.
+770 | It can 【be】 harder for students to create study groups and form relationships with their peers.
+683 | How does the author think grit can 【be】 helpful to us?
+720 | Obesity can 【be】 hopefully prevented by building links between teenagers’ values and healthy eating.
+792 | Its hidden biases should 【be】 identified independently
+758 | So, if your baby seems to 【be】 in a stressful state while sleeping or is upset upon waking, there may 【be】 other factors at
+685 | They’re also more likely to 【be】 in professional
+728 | What is a reason for the author to 【be】 in the habit of saying “busy” when asked how he is doing?
+727 | What are big houses promoted to 【be】 in the United States?
+782 | They would 【be】 independently funded.
+712 | According to Francis Dittoh, their speech-based weather information service was meant to 【be】 inexpensive and easy to use.
+697 | They may 【be】 intently focused on winning at the current market level.
+755 | 48 What may account for our need to 【be】 liked or approved of?
+735 | should 【be】 looking for new ways to ensure what people eat wouldn't have much impact on their waistlines.
+698 | Our desire to 【be】 loved will 【be】 fulfilled.
+739 | More food will 【be】 made available to the needy.
+682 | Driverless vehicles are likely to 【be】 misused by some people.
+762 | Rich countries should 【be】 more generous in providing food aid.
+703 | Workers in more physical jobs, meanwhile, may 【be】 more likely to look forward to retiring, Baily says, suggesting those
+752 | Ambitious people tend to 【be】 more materialistically successful than their non-ambitious counterparts.
+724 | Moreover, schools should 【be】 more than simple institutions of traditional learning.
+765 | Why can’t people really 【be】 multitaskers according to neuroscientists?
+754 | From this different perspective, you can not only 【be】 multitasking but this ability can also 【be】 taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+722 | It is now too widespread to 【be】 neglected.
+696 | They found busy people are perceived to 【be】 of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.
+742 | However, on the other side of the coin there are people who maintain that it is possible to 【be】, or at least seem to 【be】, multitasking.
+769 | Obese people would 【be】 overwhelmed with anxiety.
+793 | With the validity of science coming under attack, there’s a need for scientific debates to 【be】 perceived as open and true to life.
+717 | What does the author say about the ability to 【be】 persuasive in the first paragraph?
+723 | Online classes began to 【be】 popularized just a few decades ago.
+746 | wood has such health benefits that the Woodland Trust successfully lobbied for it to 【be】 prescribed by doctors.
+776 | Not all students have access to these types of resources, whether it is for financial or other reasons, and some students can 【be】 put at a disadvantage.
+721 | people do not know how much they are eating, it can 【be】 really hard for them to stick to a diet.
+736 | It should 【be】 regarded as a genetic disease.
+751 | The relief effort will 【be】 rendered less sustainable.
+738 | Yet teachers are expected to prepare them to 【be】 responsible citizens, cultivate their social skills, encourage successful time management, and enhance their capacity to flourish in an increasingly harsh labor market.
+780 | They would 【be】 responsibly conducted.
+693 | Residences for seniors should 【be】 run independently.
+743 | Our sense of self will 【be】 sharpened and enhanced.
+681 | The rainforests would 【be】 shrinking dramatically.
+747 | According to Foulkes, “Children’s dream life...seems to 【be】 similar to their waking imagination and narration.
+711 | While this may 【be】 so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.
+691 | The temptation for those in charge of education budgets to trade teachers for technology could 【be】 so strong that they ignore the disadvantages of distance learning.
+784 | They would 【be】 strictly supervised.
+688 | But can you 【be】 sure you've noted every snack
+774 | I was getting were that I would never 【be】 taken seriously or promoted or given raises at the same rate as men, who were clearly
+760 | Most interaction with the professor has to 【be】 through email which is often impersonal.
+700 | collaboration and teamwork over traditional organizational structures, no one likes to 【be】 told what to do or to 【be】 pushed
+778 | They would 【be】 totally unbiased.
+789 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates 【be】 transparent and vigorous, wherever they are held.
+730 | Our life will 【be】 unfruitful and exhausting
+701 | Without organisational support, any personal effort to maintain work-life balance will 【be】 unsuccessful.
+748 | Its dictionary definition should 【be】 updated.
+785 | When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to 【be】 used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+694 | They worry assistants will one day 【be】 used to deliver advertising directly to us.    ?P:be used to
+725 | More people will 【be】 willing to join in the effort.

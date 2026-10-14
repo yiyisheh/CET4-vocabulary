@@ -1,0 +1,593 @@
+# 任务 C_r1_63：2 个词，569 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_63.labels.txt
+
+============================================================
+## 词：people    本段 3 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.人; 人们; 民族.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 人，人们    B 样本 78    例：To amuse people.
+  1  n. 人民，国民（某国、某地的全体人）    B 样本 2    例：Their people tend to attach importance to women’s rights.
+  2  n. 民族（可数：a people / peoples）    B 样本 0
+口径说明（照此执行）：
+  - people 作「人们」时是 person 的不规则复数，同时也是独立名词（民族，复数 peoples）；form 是否保留请复核。
+句子：
+680 | Ensure 【people】 don't miss their main meals.
+682 | See that 【people】 don't stick to the same diet.
+681 | Help 【people】 to deal with their troubles in life.
+
+============================================================
+## 词：can    本段 566 句    模式：全标（每句都写）
+原释义：modal v.能; 会; 可以.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  modal v. 能，会（有能力、做得到）    B 样本 50    例：He can be trusted.
+  1  modal v. 可能（会），有时会（表示可能性）    B 样本 20    例：It can be touching.
+  2  modal v. 可以（表示允许、请求、建议）    B 样本 11    例：Can we get a meal delivered?
+  3  n. 罐头，（金属）罐    B 样本 0
+口径说明（照此执行）：
+  - 「能」「可能会」「可以」三者边界本身模糊：译成「能」标0，译成「会/可能会」（多为负面影响或有时出现的情况）标1，允许/请求/建议标2。名词「罐头」80句中未出现，按常见义补上。
+句子：
+250 | Over time, this mechanism 【can】
+350 | One start-up is convinced that the skills learned by playing games — hard-won through years of training and battle — 【can】
+354 | Our always-on world of social media may result in more connections, but they are superficial and 【can】
+386 | And extra calories 【can】
+426 | “Skills acquired through gaming 【can】
+529 | In many cases, learning for the sake of learning 【can】
+580 | Martin Neil Baily, an economist who is leading a research project on retirement security, notes that quitting a career 【can】
+429 | problems their full-time teams 【can】't.
+281 | The guys who are in the sport forever are sitting there saying: 'We 【can】't do that.
+329 | We 【can】't do that because it's never been done that way.'"
+88 | “You 【can】't get that with a blizzard bag or doing the work from home like that.
+231 | "You 【can】't help but be awed," he said, "and I think that feeling 【can】 be translated to the viewer.    ?P:can't help but
+160 | However, you 【can】't help butŨ if these companies are basing their business on fabrications (ũ:it    ?P:can't help but
+622 | Richard Kennedy says “It’s not that old dogs 【can】't learn new tricks.
+334 | 【can】't please all people all of the time, wouldn't it make sense to stop trying?
+279 | What use is written online content if you 【can】't read?
+555 | If this works, it won't matter if they 【can】't remember what they ate yesterday.
+631 | How 【can】 a business help improve its employees' experience in using IT?
+606 | However, the question is: 【can】 a person really be a multitasker?
+630 | Americans 【can】 absorb the number of calories recommended by food experts.
+603 | They 【can】 access course materials easily.
+625 | These days, the public 【can】 access debates about science regardless of where they take place.
+565 | 【can】 accomplish anything.
+98 | the difference between the cars in front and the cars behind, the spacing of cars in a stream of traffic 【can】 act as a damper
+497 | First, sunshine 【can】 actually affect your breath.
+247 | something new 【can】 actually be a waste of time if your goal is to make progress and not simply gain additional knowledge.
+84 | that American workers 【can】 actually buy with their money has gone down.
+411 | Other studies, including studies of wheat in India and corn in Africa, also found that there is a threshold above which yields sharply decline: crops 【can】 adapt and move, but only to a point.
+266 | (19-1) “One 60-minute run 【can】 add seven hours to your life.
+119 | My school charges an additional fee for the use of a credit card to settle outstanding charges, which 【can】 add upwards of 3% of the balance to your bill.
+193 | G) This five-step process is something anyone 【can】 adopt.
+217 | Despite the classification, there are more complex factors such as relational closeness, gender, age, and context that 【can】 affect how someone views physical contact.
+542 | Additionally, a painted ceiling is a magical thing without being too obvious and 【can】 affect how the space feels as well.
+185 | A number of studies have looked at how family life 【can】 affect productivity and satisfaction in the workplace.
+216 | The findings suggest that, just as a parent’s personality 【can】 affect the personality of a child, the same is true for a cat and its owner.
+471 | Saying “no” is sometimes seen as a luxury that only those in power 【can】 afford.
+164 | It’s healthy, and we 【can】 afford it.
+445 | H) This means that, for those who 【can】 afford it, some foods will simply cost them more in the future.
+288 | from the increased productivity since Keynes's time — 【can】 afford to work less, why do they continue to work so much?
+372 | This is an opportunity that surely all 【can】 agree must not be wasted.
+537 | But curiosity 【can】 also be dangerous, leading to setbacks or even downfalls.
+443 | But an excess of ambition 【can】 also be dangerous, putting you at risk of burnout, stubbornness and even a shorter life.
+519 | Employers 【can】 also consider how to bundle different types of compensation to help employees cope with their unique situations.
+419 | A household pet 【can】 also cultivate a child’s sense of responsibility as their parent explains the necessary processes of keeping their pet happy and healthy.
+123 | However, deviance 【can】 also describe a behavior that simply differs from the norm.
+259 | They 【can】 also harm other wild species through indirect competition, rather than eating them or shrinking their food supply.
+382 | Having a companion to talk to about their feelings 【can】 also help children feel secure and develop communication skills.
+261 | And they 【can】 also hide dirt and wear.
+374 | After all, competitive rivalry 【can】 also hinder effective decision-making and increase your willingness to take risks, behaviors that 【can】 ultimately hurt your venture’s success.
+308 | It 【can】 also impact the extent to which they enjoy life.
+116 | And natural flavors 【can】 also include a variety of chemical additives, such as preservatives.
+111 | However, too much of a routine 【can】 also make you incredibly boring.
+472 | One 【can】 also paint the wooden frameworks the same colour as the walls, helping the rooms look bigger.
+618 | When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate 【can】 also promote communication between the scientific community and the public.
+356 | They 【can】 also reduce sweets and provide healthier snacks in the office and healthier meals at the company canteen.
+531 | Fans of classical music 【can】 also tell you that there are few types of music that are more expressive.
+518 | Managers 【can】 also use
+526 | make people think slower; as long as we are alive and functioning, we 【can】 alter our brains with new information and
+439 | Do whatever favors you 【can】, and be warm-hearted and direct when you have to say no.
+589 | Recent evidence points to drivers’ limited understanding of what these systems 【can】 and cannot do as a contributing
+192 | meaning 【can】 and does change all the time.
+214 | Make sure it’s free of distractions, and—for primary school children at least—somewhere near you, so you 【can】 answer questions and offer encouragement.
+327 | H) So although many computer assistants 【can】 answer simple questions about the weather and play music for us, anything resembling a wide-ranging human conversation is decades away.
+132 | W: Maybe, but how 【can】 anyone save enough to retire by 40 when most people 【can】’t retire at 60?
+442 | They 【can】 apply for fully funded access to Coursera’s course catalog, which means they 【can】 take all of the platform’s classes and obtain professional certificates for free.
+388 | business — but you gain shoppers who now 【can】 arrive more easily on bikes.
+238 | Rather, we 【can】 assume it is because they need the money.
+361 | By checking an agent’s name online before booking a villa, holidaymakers 【can】 avoid falling into traps.
+138 | While those visions of our future selves 【can】 be
+352 | F) Given all that's riding on having a successful ninth grade experience, it pays to explore what 【can】 be
+507 | Learning by itself 【can】 be
+359 | This 【can】 be a big indicator of what sort of atmosphere the company is trying to cultivate.
+501 | For another, most of the classes on Coursera are in English, and though there are plans to add translations, language barriers 【can】 be a big obstacle.
+166 | However, figuring out what a company is like before you actually work there 【can】 be a bit of a challenge.
+407 | K) In addition to benefits for creativity, deviance 【can】 be a good thing in other ways.
+412 | Finding someone you’re committed to outcompeting 【can】 be a great way to stay focused on your goals and push your venture to the next level.
+360 | (22-2) Understanding when it’s appropriate to exchange one form for another 【can】 be a major key to success in international business.
+435 | Social media 【can】 be a powerful communication tool for employees, helping them to collaborate, share ideas and solve problems.
+453 | First, passive learning 【can】 be a stick that supports inaction.
+559 | It’s a good problem to have, but it 【can】 be a tough skill to master.
+321 | Obviously, person perception is a very subjective process that 【can】 be affected by a number of variables, including the characteristics of the person you are observing, the context of the situation, your own personal traits, and your past experiences.
+619 | All of us 【can】 be affected by food instability one way or another.
+485 | Outer beauty 【can】 be as much of a curse as a blessing.
+574 | Our status 【can】 be attributed to our social mobility.
+283 | "With caution, many relational methods to improve teams and organisations 【can】 be borrowed from other fields.
+253 | that, even more important choices, like accepting a new job, 【can】 ___33___ be changed.
+282 | This 【can】 be compared to just 19% of the general population.
+89 | Their loud claps 【can】 be confused with explosions.
+177 | While risk-taking 【can】 be considered a negative attribute, it’s also a characteristic of successful people, including athletes, political leaders and entrepreneurs.
+229 | Through better water management and farming practices, water usage in cotton production 【can】 be cut down by __33__ 40 percent.
+219 | However, this issue with the golden rule 【can】 be dealt with in a general manner, by viewing this principle as one of several principles that we use to guide our behavior as individuals and as a society.
+637 | Diverse topics 【can】 be debated by both scientists and the public.
+639 | It is a desirable ability that 【can】 be developed.
+358 | Those with a growth mindset of interest tend to believe that interests 【can】 be developed and cultivated, while those with a fixed mindset of interest tend to believe that interests are inherent (与生俱有的) and simply need to be ‘found.
+566 | It 【can】 be difficult for many classical music fans to appreciate.
+484 | Even so, it 【can】 be difficult for those who do not study music theory to see this as an indicator, since it is
+207 | Yes, it really 【can】 be difficult getting a new job after age 45, let alone changing careers.
+190 | discipline and motivation to create positive habits, it 【can】 be difficult to achieve success.
+538 | It 【can】 be difficult to know the real situation in a company until you become part of it.
+581 | What conclusion 【can】 be drawn from the new research?
+427 | certain rare diseases 【can】 be easily identified, most potential health conditions cannot be identified by genetic testing alone.
+133 | They 【can】 be easily seen among participants in a healthy weight range.
+197 | It 【can】 be easy to assume that the gap between
+240 | Because there is a delayed satisfaction associated with self-control, it 【can】 be easy to get off track.
+86 | While the two tactics above 【can】 be effective in making better long-term choices, in the end, you're
+473 | The reasons for people’s evil behaviors 【can】 be explained in more ways than one.
+93 | for over the course of many years 【can】 be extremely challenging.
+211 | They should be able to be read by a machine at temperatures ranging from 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air 【can】 be extremely dry or moist.
+449 | [25] But if you’re in a place where you have a basis of trust, conflict 【can】 be extremely productive.
+517 | Clues about the culture of a company 【can】 be found on its website.
+182 | Taking a walk 【can】 be great for ___32___ your head or blowing off some steam.
+264 | That means weight 【can】 be hard for individuals to control, which makes the bonus unfair.
+145 | It 【can】 be hard to know where to even begin, and the things
+571 | It 【can】 be harder for students to create study groups and form relationships with their peers.
+187 | K) Few would deny that too much time online 【can】 be harmful.
+174 | Birthday reminders 【can】 be helpful, but I kind of worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.
+405 | For this reason, it 【can】 be helpful to be gracious in your response.
+578 | How does the author think grit 【can】 be helpful to us?
+591 | Obesity 【can】 be hopefully prevented by building links between teenagers’ values and healthy eating.
+319 | It 【can】 be incredibly expensive but it’s the emotional cost, too.
+83 | Indeed, social scientists who study young people have found that their digital use 【can】 be inventive and even beneficial.
+263 | But research shows it 【can】 be just as exhausting as paid work.
+384 | principle: that there 【can】 be just the right amount of something.
+292 | skills 【can】 be learned and developed over time.
+441 | Even Philip Zimbardo, the author of the Stanford prison experiment, who showed how easily we 【can】 be led to behave badly, believes that the future of deviance research may lie more in understanding extreme pro-social behavior, such as heroism.
+178 | But the situation 【can】 be made better.
+462 | How people 【can】 be more focused and productive.
+196 | Hydrogen 【can】 be obtained sustainably by using solar power to break water down into oxygen and hydrogen.
+323 | 【can】 be particularly difficult.
+149 | They are fun, great for exercising the mind and 【can】 be played either alone or in groups.
+371 | People's opinions differ as to whether Formula One 【can】 be promoted in the U.S.
+583 | Not all students have access to these types of resources, whether it is for financial or other reasons, and some students 【can】 be put at a disadvantage.
+124 | While being married is great and wonderful, the act of getting married 【can】 be quite stressful.
+536 | people do not know how much they are eating, it 【can】 be really hard for them to stick to a diet.
+465 | How boundaries 【can】 be removed between arts and science disciplines.
+296 | But guiding them back to Earth in a controlled manner opens new possibilities—most components from the Falcon 9 【can】 be reused up to 100 times.
+128 | "The last few years have seen a realization of ___35___ how competitive solar technologies 【can】 be," said Michael Taylor, a senior analyst at the International Renewable Energy Agency.
+579 | It 【can】 be seen as an indicator of refinement on classical music.
+509 | A better example for the relevance of opera and classical music 【can】 be seen in the invention of the rock opera.
+223 | “Sometimes you 【can】 be so good at something that it causes trouble,” she notes.
+524 | It remains unsettled whether the global food supply problem 【can】 be solved by creating heat-tolerant crops through genetic engineering.
+431 | Women are advised to identify the specific causes of their stress so that steps 【can】 be taken to deal with it.
+230 | M: Yes, we grown-ups 【can】 be tedious and limiting in our need for reality.
+146 | We find that if pupils take part in Design Ventura in Year Nine it 【can】 be the trigger which leads
+375 | This need to be liked 【can】 be traced back to when we were children and were completely dependent on others to take care
+272 | But the software for electronic readers 【can】 be updated instantly without the need for buying a whole lot of new books.
+483 | It 【can】 be used to locate the right spot for pandas.
+273 | Furthermore, several studies have implied that emotional intelligence 【can】 be used to manipulate others for personal gains.
+528 | Even their fine-motor skills 【can】 be utilised in taking care of a beloved animal.
+451 | L) As is so often the case, clever marketing 【can】 beat reason; awareness is rarely enough.
+151 | But research shows that, when it comes to actually making a ___27___ from all of these choices, people 【can】 become
+159 | This behavior 【can】 become a disorder.
+294 | Physical activity provides a positive outlet for frustration, anxiety, or anger and 【can】 become a healthy coping skill throughout life. [18] Finally, we know that physical activity is important for our physical and mental health, and cultivating the habit of physical activity starts early.
+505 | Recently, chocolate lovers were heartbroken as scientists claimed that they 【can】 become extinct by 2050!
+573 | Shrimp-farming 【can】 become quite expensive.
+491 | Employees 【can】 benefit as much from remote working as their employers.
+395 | These are different causes of stress and 【can】 benefit from different kinds of self-care.
+629 | They 【can】 benefit from late-in-life learning.
+547 | When responsibilities are well paced and communicated, a child 【can】 benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they 【can】 still benefit from all of the above when visiting a friend who does.
+506 | A child’s physical development 【can】 benefit greatly from taking pets for walks in the fresh air.
+577 | Learning 【can】 benefit you by itself but only practice 【can】 turn what you learn into meaningful contributions.
+195 | It 【can】 boost children’s interest in communication.
+398 | Building on these findings, the latest research examined how a growth mindset of interest 【can】 boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.
+516 | Hi-tech products 【can】 boost people’s integrative thinking.
+305 | Businesses are waking up to the skills gamers 【can】 bring
+180 | "I think they 【can】 build Formula One in the U.S.," said Patrick Crakes, an executive at In Vivo Media Group who spent 25 years at Fox Broadcasting Company before leaving in 2016 as a senior manager at Fox Sports.
+336 | Skateboarding, for example, 【can】 burn as many as 500 calories per hour.
+215 | “Many people are ‘not boring’ in the way that they 【can】 carry a conversation or 【can】 be good at a social gathering, etc.
+345 | G) So while we know that fruit juice 【can】 cause diabetes if it’s part of a diet that has more calories overall, it's less clear how
+362 | It 【can】 cause mistrust among people.
+520 | But excessive heat 【can】 cause you to lose water, which has been proven to have a pretty unattractive side effect—bad breath.
+428 | people cannot change and a "growth mindset" referring to the belief that people 【can】 change.
+488 | I) Experiment results showed that students who were not taught that people 【can】 change showed poor
+392 | people are stuck one way forever, or whether people 【can】 change their personalities and abilities-are
+513 | But when students were taught that people 【can】 change, they had better responses to stress, in
+461 | students that their smartness 【can】 change, we taught them that their social standing-that is, whether
+357 | He believes that the dictionary definition of disease “is so vague that we 【can】 classify almost anything as a disease” and says the question is not whether we 【can】, but whether we should, and to what end.
+277 | Great benefit and great harm 【can】 come from the same human tendency.
+286 | Friends and acquaintances 【can】 comfortably occupy this zone, especially during informal conversations, but strangers are forbidden. [24] Extending from 4 to 12 feet away from us is “social space”.
+544 | How 【can】 competitive rivalry benefit entrepreneurs according to the passage?
+126 | Some bosses 【can】 concentrate without napping.
+115 | As an emotional learner, I organize my notes into a story that I 【can】 connect to and recite to myself.
+353 | must be handed the cognitive tools of numbers before we 【can】 consistently and easily recognize higher
+220 | E) With such a degree of professionalism, how 【can】 consumers find out if the website they’re looking to book with is trustworthy?
+269 | On the one hand, many see value in diversity, which 【can】 contribute a variety of perspectives, encourage new ideas, and generate innovative solutions.
+489 | What kind of people 【can】 contribute more to them.
+492 | How a growth mindset of interest 【can】 contribute to cross-disciplinary thinking.
+576 | Conventional fixes like word puzzles and brain-training apps 【can】 contribute to mental durability.
+179 | W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep 【can】 contribute to serious health problems like obesity and heart disease.
+644 | What does the author say 【can】 contribute to the improvement of brain function?
+181 | There are extra benefits for leaders: (21) with a simple personal story, they 【can】 convey fundamental values.
+275 | Many of them are not, and a simple “no” will be more productive than whatever work the most efficient person 【can】 cope with.
+381 | A litre of bottled water 【can】 cost well over a pound, especially for something fancy that has been sucked
+494 | They 【can】 create social media groups in which employees will be more likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.
+246 | Reusable rockets 【can】 cut down on some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and other components are treated as expendable.
+237 | It’s also true that too much social networking and game playing 【can】 cut into schoolwork and sleep.
+118 | You 【can】 cut it into thin slices and eat it on its own.
+466 | So yes, you 【can】 definitely ask your interviewer about what it’s like to work for that particular organization.
+265 | But with a little effort, you 【can】 definitely improve.
+134 | And if you need any help to find transportation for the whole family, we 【can】 definitely recommend someone for you.
+234 | By using the genes from resurrection (复活) plants, Jill Farrant of the University of Cape Town is exploring whether she 【can】 design crops to survive for much longer periods without water.
+476 | But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and 【can】 determine the future of your venture.
+268 | So before you 【can】 determine whether you and a specific company would be compatible together, it’s important to have a solid handle on what exactly you want from your employer.
+225 | Reading is a habit every child 【can】 develop.
+271 | It 【can】 develop their skills in using electronic devices.
+409 | Now they 【can】 dictate notes on a patient's health condition and treatment and a smart assistant automatically enters the information into the right fields on a web form.
+369 | Doctors completing online forms about their patients by speech, for example, 【can】 dictate 150 words a minute, three times faster than typing on a keyboard.
+511 | drug 【can】 differ depending on the time it is taken, it logically follows that taking medicines at specific times could help increase
+408 | They 【can】 differ in their personalities.
+546 | What do people believe chocolates 【can】 do?
+632 | What does the author think open debate 【can】 do?
+617 | And there's little they 【can】 do about it.
+414 | They 【can】 do amateur work in their own fields
+328 | And the quality and quantity of work I 【can】 do emerges directly from my ability to concentrate.
+582 | And anyone, anywhere, 【can】 do it.
+613 | It 【can】 do more harm to the workplace than to employees.
+245 | By learning that raising pets 【can】 do much good.
+448 | They 【can】 do research with limited resources.
+136 | the idea that less labor will be necessary because machines 【can】 do so much.
+218 | Luckily, there are a few things you 【can】 do to determine whether or not a company is a good fit for you—before you ever sign your name on that dotted line.
+257 | we 【can】 do to help ourselves is to go online and learn new, relevant skills.
+370 | For if you nap properly, it’s like waking up from a full night’s sleep and you 【can】 double your day’s worth of concentration.
+301 | Volunteering 【can】 drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+287 | Simply “feeling” that something is right or should be done is highly subjective and 【can】 drown you.
+633 | It 【can】 duly contribute to companies’ business performance.
+309 | The businessmen say that on Earth, beans 【can】 easily break apart and get burned in the roaster.
+455 | This is the era of social media. [21] People 【can】 easily share their wealth and status to large audiences, but they need to consider the consequences.
+500 | We 【can】 easily think of a number of foods and recipes that are both inexpensive and nutritious.
+592 | How 【can】 educators better develop students' SIBM skills, according to the author?
+276 | He 【can】 employ lip-reading and have meetings via video instead of on the phone.
+607 | While genes 【can】 encourage an interest in
+91 | It 【can】 encourage reluctant readers to read aloud.
+481 | Parents 【can】 encourage their child to research their favourite pets at the library or during a supervised internet search.
+643 | It 【can】 enhance large multinational companies’ competitiveness.
+615 | number games 【can】 enhance that desire for novel experiences, which 【can】, in turn, refresh the brain.
+446 | One reason having a rival 【can】 enhance your venture’s performance is that it creates a level of excitement that drives you to work harder.
+233 | The New York dance club also serves as a place for entertainment where youngsters 【can】 enjoy themselves safely.
+561 | How 【can】 entrepreneurs avoid making impulsive and insensible decisions?
+575 | How 【can】 entrepreneurs overcome the risk-inducing effects of rivalry?
+318 | Communication 【can】 essentially be divided into two categories: the written and the spoken.
+558 | At that point, your heat regulatory system 【can】 essentially quit, which stops you from sweating as your body tries to keep water around your vital organs.
+95 | Identifying why the fast-fashion business model creates waste and determining whether regulators 【can】 establish incentives for consumers and manufacturers are steps to reduce waste.
+533 | Taking medicine at the wrong time 【can】 even cause harm.
+210 | remain in the 【can】, even if there are only four or five in total.
+597 | The concept does indeed come from the realms of technology, where it is used to refer to an operating system that 【can】 execute multiple tasks at the same time.
+418 | 【can】 exist then the whole system is failing,” he says.
+399 | I) An industry review website like Glassdoor is another spot to check in order to find some insider information about what you 【can】 expect about a company.
+550 | they have had on our current society, it is without doubt that we 【can】 expect them to continue to remain important for centuries
+487 | But if someone 【can】 explain how they’ve
+306 | What 【can】 eye contact, visibility and more interaction probably bring about?
+341 | Helping to look after a pet 【can】 facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, 【can】 encourage reluctant readers to read aloud, which will in turn boost their self-confidence.
+498 | And it’s true; turning down opportunities is easier when you 【can】 fall back on the safety net provided by power, money, and authority.
+278 | “For smart people, being wrong 【can】 feel like a personal attack, and being right, a necessity.
+252 | Intelligent Transportation Systems, shows how bilateral control 【can】 fight the problem.
+403 | You 【can】 find incredible videos, articles and news stories about the success of others.
+594 | Left-handed people 【can】 find it inconvenient to do certain things, writing in a notebook for example, but there are a number of advantages of being left-handed.
+175 | E) Perhaps this is where we 【can】 find the good side of our bad side.
+598 | A desire for new life challenges 【can】 further boost brainpower.
+188 | education — are seeking whatever poorly paid work they 【can】 get.
+172 | I’m just wondering if I 【can】 get a discount on them.
+274 | M: But you 【can】 get 25% off if you sign up in advance.
+438 | I want to see if I 【can】 get one of those rental bicycles and ride to the office just for fun.
+367 | Such tasks 【can】 get our brains thinking flexibly, beyond our normal comfort zone.
+378 | you 【can】 get somebody on-board with your goal, you should help them understand why they should pursue it.
+636 | Americans 【can】 get sufficient protein just by eating adequate foods daily.
+186 | W: [12] Now, all I need is to photocopy your passports and then I 【can】 get you all checked in and show you to your rooms.
+396 | Or they 【can】 give employees more time during their lunch break to exercise.
+557 | A chat with an insider of a company 【can】 give job applicants very useful information when they prepare for an interview.
+436 | It 【can】 give rise to gender bias.
+314 | For example, companies 【can】 give workers gym memberships, or encourage participation in lectures on healthy eating and living.
+496 | Passive inspiration 【can】 give you ideas, but active inspiration will give you power.
+376 | A little examination 【can】 go a long way towards identifying bias associated with the funding source.
+475 | “General farm management 【can】 go a long way toward easing changes.
+80 | M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, they 【can】 go back to work.
+117 | It 【can】 greatly improve their learning efficiency.
+127 | Poor sleep might be a problem for older people, but surely young people 【can】 handle late nights.
+299 | I 【can】 hardly breathe down there.
+114 | Company culture 【can】 have a big impact on how you feel about your work, so you want to make sure you sign an offer letter with an organization you’re truly excited about.
+340 | “This study ___28___ what we are learning about how manipulating vision 【can】 have a ___29___ effect on the ability of an
+593 | We need restructured online classes in which students 【can】 have a learning experience that will actually provide quality education.
+380 | While research has found dogs 【can】 have a lot of positive impacts on a child’s life, there are also risks associated with the dog-child relationship.
+131 | Several recent studies have found that even low-intensity exercise, done for a short amount of time, 【can】 have a meaningful _26_ on health.
+572 | However, the sun 【can】 have a positive influence on your body by raising your energy levels.
+397 | Experts say this 【can】 have an impact on young children whose understanding of gender roles and identity are rapidly forming.
+87 | Cumber said, “People 【can】 have fun, but both drivers and riders are responsible for paying attention while on the road.
+156 | the ninth grade 【can】 have long-term consequences not only for the students themselves but for their
+297 | E) Learning something new and practicing something new may seem very similar but these two methods 【can】 have profoundly
+495 | Focusing on output alone 【can】 have unintended consequences.
+100 | How 【can】 he get enough protein?
+338 | balance remains difficult to achieve, the experts say that keeping some perspective 【can】 help.
+535 | We also hope to learn how teachers, parents or school counselors 【can】 help
+339 | The findings are important because there is a growing body of evidence that dogs 【can】 help children in many ways.
+416 | aids to back up your ideas 【can】 help communicate your ideas better and make compelling arguments so your listeners will
+627 | It 【can】 help companies increase their savings significantly.
+599 | Driver training for self-driving vehicles 【can】 help ensure that drivers fully understand system capabilities and limitations.
+433 | Having a growth mindset of interest 【can】 help job seekers expand their interests and become more adaptable to different fields, and take the initiative to learn new skills.
+141 | Dogs 【can】 help kids in many ways.
+554 | Researchers would like to explore further how parents and schools 【can】 help ninth graders by changing
+171 | The benefits of a traditional Mediterranean diet have been studied since the 1970s, and researchers have found that living that olive oil life 【can】 help people lose weight, lower their heart disease risk and reverse diabetes.
+424 | According to Horn, drivers making constant adjustments for equal spacing between cars in a flow of traffic 【can】 help reduce
+387 | N) But until those systems become standard, human drivers 【can】 help reduce phantom traffic jams simply by not following the
+604 | By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists 【can】 help reduce these problems.
+169 | It 【can】 help them to interact more with teachers.
+456 | I) Another reason for fruit juice’s recent popularity is the argument that it 【can】 help to remove poisonous or harmful substances
+645 | Desiring new experiences 【can】 help to renovate the brain.
+212 | Failures 【can】 help us learn and overcome our
+521 | It’s also a strategy that 【can】 help you become successful.
+200 | claims that it 【can】 help you both lose weight and stay healthy.
+176 | Hyphenating your last name 【can】 help you bridge the gap between your personal and professional lives.
+333 | In these situations, instincts 【can】 help you make effective and quick decisions.
+548 | Not to mention that soaking up new information 【can】 help you make more informed decisions when you
+243 | 【can】 help you shift and adapt your professional life to something that will better harmonise with your personal one.
+510 | If meatless meat 【can】 help you stick to a plant-based diet, that in itself 【can】 lead to better health.
+469 | Learning and listening 【can】 help you think about things in a different way.
+208 | schools and families 【can】 help young people thrive.
+584 | And vitamin D from sunshine 【can】 help your body to absorb certain minerals, which are linked to building stronger bones.
+539 | Online classes do not require buildings and each class 【can】 host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+120 | How 【can】 I help you?
+224 | M: 【Can】 I take your name please?
+129 | Because people identify so closely with stories, they 【can】 imagine how they would have acted in similar circumstances.
+258 | The consequences of doing poorly in the ninth grade 【can】 impact more than students' ability to find a
+337 | Employers place a great value on employees with persuasion skills because they 【can】 impact several aspects of job
+256 | Studies report that where you sit in the classroom 【can】 impact your ability to learn and the way your teacher perceives you.
+423 | One way we 【can】 improve the effects of fruit juice on our health is making sure we select ripe
+634 | People 【can】 improve their capabilities by handling multitasking situations.
+467 | Research has shown that 82% of employees think social media 【can】 improve work relationships and 60% believe it 【can】 support decision-making processes.
+295 | Scientists have known that depriving adult mice of vision 【can】 increase the sensitivity of individual neurons in the
+302 | “If we 【can】 increase the throughput on major highways, even if it’s only by 50
+122 | I think social media too 【can】 intensify things as birthdays now play out more publicly.
+608 | There is a long way to go before humans 【can】 interact with driverless vehicles.
+290 | Why 【can】 it be difficult for us to maintain self-control?
+291 | After all, if you 【can】 jump out of a plane or off a bridge, then you 【can】 face anything else easily.
+113 | They 【can】 just be symptoms of a sleep disorder that 【can】 _32_ from an unpleasant experience, stress, or certain drugs.
+366 | He 【can】 just concentrate on how interesting the meeting might be and what he needs to get out of it in order to progress.
+157 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people 【can】 just help themselves, rather than getting everyone to sit down at the table to eat a meal.
+545 | In fact, scientists now suspect accumulating novel experiences, facts, and skills 【can】 keep people’s minds more flexible.
+588 | simple as taking a different route to the grocery store or going somewhere new on vacation 【can】 keep the brain healthy.
+332 | Having a rival 【can】 keep you committed to achieving your goals and enhance your overall performance.
+406 | Another interior designer commented that certain combinations 【can】 key into something on a deeper level, transporting you to a different moment in time.
+480 | It often happens that people 【can】 lack reason when faced with skillful marketing.
+612 | By making its voice heard, science 【can】 lead by example.
+313 | Emotional labor 【can】 lead to difficulty in sleeping and family conflict.
+556 | Sometimes, however, testing out a new idea 【can】 lead to disaster.
+363 | Problems with this technique include the fact that it 【can】 lead to errors and prejudice.
+326 | Not only does this tendency hinder their growth and performance, it 【can】 lead to harmful relationships, both personally and professionally.
+320 | It 【can】 lead to incorrect judgments.
+478 | It 【can】 lead to increased innovation and greater trust on teams.
+621 | But having to pay attention to several things at once means that the powers of concentration are reduced and that 【can】 lead to more mistakes.
+564 | Learning and practicing seem to be very much alike, but the two processes 【can】 lead to quite different outcomes.
+167 | A notable criticism of the golden rule is that its application 【can】 lead to undesirable outcomes, when it conflicts with laws and ethical principles.
+106 | "It 【can】 lead to very serious health
+458 | For example, eating at night 【can】 lead to weight
+298 | Students benefit from Design Ventura because they 【can】 learn about budgeting and marketing in addition to game design.
+383 | You 【can】 learn about the best way to make a sales pitch, but the only way
+611 | They 【can】 learn at their own pace.
+460 | A test 【can】 look at many genes
+346 | Researchers have found donating our time and talent to others 【can】 lower blood pressure, boost happiness and improve mental and physical health.
+228 | The bride who adopts a hyphenated last name after marriage 【can】 maintain connections with their past achievements.
+415 | [23] But too often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we 【can】 maintain the harmony of our workplace.
+140 | But weather 【can】 make a difference to school results, according to another piece of Harvard research published last
+394 | you want to reduce boredom and increase your sense of meaning, seek work where you 【can】 make a unique
+202 | But phantom traffic jams 【can】 make all those
+522 | While painting the kitchen counters, a bold colour 【can】 make everything feel more open and lighter.
+499 | In the kitchen, painting the overhead cupboards and the walls in the same colour 【can】 make it feel more spacious.
+368 | They 【can】 make silly mistakes in straightforward situations.
+541 | You still need to say “no” to distractions, but you also need to learn to say “no” to opportunities that were previously good uses of time, so you 【can】 make space for better uses of time.
+417 | They 【can】 make unlovely spaces lovely, and marry use and beauty as well as help promote a sense of community.
+227 | Deviating from the norm 【can】 make us villains (恶棍), but it 【can】 also make us heroes.
+596 | Our results show another way these negative behaviors 【can】 manifest themselves, like in airline bookings, and add to evidence that women are less likely to engage in them.
+470 | Sunshine and high temperatures 【can】 mean picnics and parks and trips to beaches, but they 【can】 make your body react in some strange ways.
+289 | It 【can】 measure up to 2 meters long and weigh around 204 kilograms.
+104 | The goal was simple, to discover how the adapted to the kind of heat that 【can】 melt
+213 | They 【can】 33 mistakes, see value in things that are far from perfect and identify areas for improvement.
+552 | They 【can】 modify the effects of medicines in different ways.
+248 | Participation of ninth graders in Design Ventura 【can】 motivate them to choose design technology as their subject.
+502 | Although farms in the US 【can】 move a bit northward, crop yields may decrease.
+373 | F) In the US—the world’s largest producer of corn and soybeans—farms 【can】 move north to some degree, Schlenker says.
+303 | situations with clear guidelines and ideas of what you want from the ___35___ of options, which 【can】 narrow the possible
+569 | featuring sports stars, send the message that we 【can】 neutralize any negative effects of consuming their products simply by
+477 | We 【can】 never be truly free if taking to heart others’ opinion of us.
+600 | We 【can】 never expect to reach our goals without passion.
+434 | J) Finally, you 【can】 never fail with personal connections.
+590 | We 【can】 never master a skill without constant practice.
+447 | We 【can】 never really please other people even if we try as hard as we 【can】.
+101 | She 【can】 no longer hold on to her job.
+614 | From this different perspective, you 【can】 not only be multitasking but this ability 【can】 also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+503 | The sense of eagerness that comes with having a rival 【can】 not only cause you to make poorer decisions, but it 【can】 also lead you to take greater risks that put your venture in peril.
+135 | In fact, the online world offers kids remarkable opportunities to become literate and creative because young people 【can】 now publish ideas not just to their friends, but to the world.
+468 | As remote work is largely unobservable to supervisors, employers need to think about how they 【can】 objectively measure the quality of work in a way that is consistent for employees of similar rank.
+105 | He says it’s important that his café 【can】 offer his customers security and permanence.
+232 | They 【can】 offer insight into the evolution of their own experience and knowledge, presenting themselves as more approachable and then they are more likely to inspire others to want to know more.
+109 | And the personality traits (特性) these individuals 27 or lack 【can】 often make a relationship more- or less- likely to 28.
+158 | In an experiment, a researcher will place nuts into a 【can】 one at a time
+194 | Many people who 【can】 only afford to rent a large home are able to buy a tiny home.
+310 | spoon-fed number words, children 【can】 only approximately discriminate quantities beyond three.
+183 | Still, observational studies like this one cannot prove cause and effect; they 【can】 only find _33_.
+377 | When you find that you 【can】 overcome the physical or mental challenges involved in extreme sports, you’ll feel superhuman and your self-confidence will be at an all-time high.
+525 | One way you 【can】 overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success is to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+108 | I've been asked to rate my "storeţ" on the EFTPOS terminal before I 【can】 pay.
+242 | How 【can】 people best understand a particular fashion in an era, according to Ford?
+587 | A multitasker is one who 【can】 perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar to what a computer does.
+293 | professor of work and organisation studies at MIT, shows companies and managers 【can】 play a key role in creating a better
+96 | One he 【can】 play either alone or in a group.
+209 | M: (11) Maybe we should ask Paul to bring his computer and speakers, so that we 【can】 play some music.
+201 | W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, so maybe a game that they 【can】 play together would be good.
+255 | 【Can】 playing video games help you get a better job?
+514 | We 【can】 point to at least three potential causes.
+348 | Given that sort of mess, 【can】 political fights over bike lanes ever end?
+153 | Eating as little as one 【can】 possibly manage.
+390 | skills that reflect their aptitudes — skills they 【can】 practise and refine in-game.
+150 | That is, it 【can】 prevent the slow-down effect from being amplified by the cars that
+401 | It is holidaymakers that 【can】 protect themselves from falling victim to frauds.
+400 | It 【can】 prove a challenge to Western businesses if your business partner wants to renegotiate terms that you thought were already agreed on.
+595 | The scientific community, however, 【can】 provide a helping hand to the WFP.
+300 | Juices containing vegetables 【can】 provide more nutrients and less sugar than juices made up of just fruit — but they still
+563 | “Putting that information in front of them will give them the best opportunity to match their skills and their dreams to what our schools 【can】 provide,” said Mathews. [23] He notes that the state 【can】 only regulate public institutions in this way, but he hopes private institutions in Ohio follow the lead of the state and post similar information.
+450 | What 【can】 publicly accessible fruit and vegetable gardens do apart from their practical functions?
+267 | In contrast, in certain Arabian, African, and Asian countries, men 【can】 publicly hold hands or show physical affection as signs of brotherhood or friendship while these behaviors may suggest a romantic relationship in other parts of the world.
+623 | Americans 【can】 purchase many kinds of protein-rich foods everywhere.
+155 | L) We 【can】 rail against “ageism” all we like.
+486 | modify 【can】 react differently to the medicine over the course of a 24-hour time period.
+184 | Nobody 【can】 really be sure if risks will be met with success, no matter how calculated they may be.
+103 | But the one thing that 【can】 really make a difference?
+515 | It 【can】 reduce companies’ real estate costs.
+198 | A visit to the Design Museum shop in London 【can】 reduce the designers’ fears about the future supply of talents educated
+568 | They 【can】 reduce unwanted side effects of certain medicines.
+393 | Indeed, work with some other species suggests they too 【can】 refine their quantitative thought if
+640 | Brains 【can】 refresh and improve with learning.
+641 | Americans 【can】 rely on food supplements to prevent protein deficiency.
+351 | conditions, it is important to understand how accurate genetic tests are, and what information we 【can】 rely upon.
+342 | You 【can】 research the best instructions on weight lifting technique, but the only way to build strength is to practice lifting
+365 | For example, if your manager comes to you and asks you to do X, you 【can】 respond with ‘Yes, I’m happy to make this the priority.
+620 | It 【can】 result in increasing labor-management conflicts.
+402 | It 【can】 result in instant losses.
+586 | Prior research on negative reciprocity among workers found that it 【can】 result in lower employee motivation, business performance and workplace morale (士气) and culture.
+493 | Simple questions like, “What three words would you use to describe the culture here?” or “What’s your favorite part about working for this company?” 【can】 reveal a lot about what it’s really like behind closed doors.
+221 | It 【can】 save their trouble of carrying printed books.
+148 | Freshly juiced fruit has become a basic dietary item — especially for busy, health-conscious consumers who 【can】 save time
+437 | However, taking action and applying a new idea to your life will inspire you more than anything someone else 【can】 say.
+626 | How 【can】 scientists help cope with poverty and hunger?
+312 | They 【can】 screw us up and set us back.
+90 | M: Well, I 【can】 see how that might happen to someone, and I’m sure she regrets it, but I know it won’t happen to me.
+139 | Two pounds for each year so they 【can】 see some progression.
+173 | He 【can】 see the speakers’ images.
+191 | In our house, we have transparent money boxes for them to put small change in, so they 【can】 see their savings grow.
+251 | So as you 【can】 see, when it comes to choices, less is more.
+391 | more reliable results, because you 【can】 see whether a disease-causing trait is present.
+107 | Math anxiety 【can】 severely disrupt students’ performance in the subject in both primary and secondary school.
+560 | You 【can】 share loud and proud that you won’t be checking email until you’re back.
+316 | Men 【can】 show friendship in public through physical affection.
+307 | “If we 【can】 show the possibilities of eating plant-based food in this setting, it 【can】 open a lot of doors” for others to follow.
+244 | Regular exercise 【can】 significantly improve self-regulation and decrease disciplinary consequences for negative behavior.
+425 | behaviors like exercise or food intake 【can】 significantly influence your health.
+168 | Fraudsters target popular seaside destinations for British tourists visiting Spain where prices 【can】 soar if demand exceeds supply.
+260 | After all, without counting, how 【can】 someone tell whether there are, say, seven or eight
+161 | Humility 【can】 sometimes be 29 with a lack of confidence.
+205 | put people into layers of confusion, and the study confirms that music 【can】 sometimes ___30___ lift people out of the
+389 | Harris, who became headteacher this year, said he notified parents of the updated rules in an email in June. [23] The price of school uniforms 【can】 spark panic among families struggling with a high cost of living.
+81 | Whether it 【can】 speed up legal procedures.
+99 | She 【can】 spend a lot of time vacationing.
+440 | If it gives you joy every time you open the cupboard, you 【can】 start to take it further.
+204 | W: Well, she did say that jet lag often becomes more of a problem after forty. [14] So I guess I’m lucky that I 【can】 still adjust to different time zones well.
+102 | It is not poisonous but 【can】 still attack and kill its victims.
+331 | “Even if overall food production may be unaffected, food security 【can】 still be impacted,” says Margaret Walsh, a scientist at the US Department of Agriculture’s Climate Change Program Office.
+144 | The environment is easier to control, and he 【can】 still get a good workout, in addition to improving his hand-eye coordination.
+527 | Scientists 【can】 still help save chocolates from dying out!
+285 | “Since climbing is so far _35_ from their day-to-day work activities, they 【can】 still recover from the demands of their job with plenty of resources.
+549 | Even if you haven’t mastered a skill, grit tells you that you 【can】 still succeed if you 【can】 transform your passion into action.
+262 | But disasters 【can】 still wound us.
+343 | happiness 【can】 stop the bears from searching for new mates.
+540 | Sunshine 【can】 stop you from sweating, too.
+616 | 140-pound person should not exceed 120 grams of protein per day, particularly because a high protein diet 【can】 strain kidney
+143 | It 【can】 strengthen children’s confidence in others.
+562 | New pathways 【can】 strengthen our ever-changing mental structure, even as the brain shrinks.
+304 | [16] The most common question I’m asked always centers around how to get started in user experience design, to which my response is always that nothing 【can】 substitute real-world experience.
+349 | That’s not to say that I think my path is the only one—but once again, nothing 【can】 substitute real-world experience. [18] You 【can】 start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+530 | We’ve been told all our lives that if you work hard, you too 【can】 succeed.
+610 | Through no fault of their own, they 【can】 suddenly find their productivity
+430 | contribution, or find a cause you 【can】 support with your time and talent.
+347 | that shows how bilateral control 【can】 suppress phantom traffic jams.
+624 | Their job satisfaction, too, 【can】 surge when well-functioning machines relieve them of dull tasks or
+82 | He says he 【can】’t.
+206 | But now that she ran out of money, she 【can】’t.
+241 | And “being busy” is the lie they tell themselves about why they 【can】’t achieve it.
+379 | Apart from the urgent task of providing more healthy nutrients to those who increasingly 【can】’t afford them.
+335 | of us 【can】’t afford to do nuclear research as a private hobby, but bird watchers, rock collectors, and others 【can】 do real research
+154 | M: I 【can】’t believe it.
+280 | W: We 【can】’t dismiss the idea that teenagers have to plan to do something after they finish school, and parents are entitled to hope it’s more than simply spending 10 hours a day playing computer games.
+163 | But that doesn’t mean your life has ended and you 【can】’t do anything to change it.
+236 | We often think of it as an invisible bubble of space surrounding us that others 【can】’t enter, without causing discomfort.
+254 | Actually my mother is terrified of airplanes to the point where she 【can】’t even fly.
+284 | But if we 【can】’t find ways to protect other foods, will they survive climate change?
+344 | You 【can】’t fix a scar.
+92 | M: I go to the bank once a week, and the rest of the time I keep my bank card at home, so I 【can】’t get more cash out.
+534 | “If they say they want leadership — why 【can】’t I point to my years of leading World of Warcraft raids?
+110 | M: Well, we 【can】’t paint the walls without clearing all the furniture first.
+628 | Why 【can】’t people really be multitaskers according to neuroscientists?
+137 | W: I 【can】’t remember exactly.
+85 | It’s written by a Chinese science fiction writer. [9] I 【can】’t remember his name, but he’s written three books in all, and *The Three Body Problem* is the first in the series.
+94 | Making sounds helps one communicate with people they 【can】’t see.
+422 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you 【can】’t see them.
+474 | For one, starting on a new career path is not as simple as watching a few videos and obtaining an online certificate; even those looking to continue previous careers 【can】’t simply rely on an online lecture to get them up-to-date on standards, policies, and practices.
+270 | “It’s a growing problem and people 【can】’t stop fraudsters being dishonest,” says Tipton.
+97 | W: [10] It’s about an hour to campus, but there’s no reason I 【can】’t study on the bus.
+170 | I 【can】’t wait.
+249 | I know many cities in the world have air conditioning in their subway, so why 【can】’t we?
+512 | “Why 【can】’t we put in our resume our gaming victories and achievements?” he
+553 | “The engagement and powerful skills that people get playing a game — why 【can】’t work be like
+432 | “It’s important for children to see other possibilities and other paths they 【can】 take.
+444 | Decades of research shows that it 【can】 take from 8 to 13 weeks at the beginning of every school year for students to get back to where they were before the summer holiday.
+311 | The passports of many countries 【can】 take images of their well-known geographical features and wildlife, which also function as security features as some are only visible under a special light.
+355 | But work stress 【can】 take many different forms.
+121 | He 【can】 take notes on the spot.
+457 | Trying to look like the magazine pictures 【can】 take us on a long ride away from what beauty
+420 | You 【can】 talk to a best-
+410 | Supermarkets 【can】 technically be defined as giants housing 15,000 to 60,000 different products.
+125 | 【Can】 the date you were born affect how successful your life is?
+567 | Why 【can】 the habit of eating a plant-based diet lead to better health?
+508 | What 【can】 the new findings do according to Professor Sillero?
+330 | How 【can】 the self-disclosure approach succeed in increasing interpersonal closeness?
+235 | But if their hobby is quite different from their career, it may not _33_ in the same way but instead help them develop other knowledge and skills that 【can】 _34_ their confidence at work.
+147 | Manufacturers, consumers, and regulatory bodies 【can】 then take an informed approach to recognize the environmental impact of fast-fashion and to design an ecosystem to reduce waste, incentivize innovation, and create new business models to manage waste.
+452 | As a child matures, they 【can】 then take on more of the daily responsibilities, boosting their sense of independence.
+570 | How 【can】 they work together to achieve these goals?
+317 | If those are the only things you 【can】 think of, don’t worry!
+165 | I) So how 【can】 this problem be solved?
+585 | One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under which prosperity and opportunity 【can】 thrive.
+605 | Our analysis suggests early booking by women 【can】 translate into savings of $1 million a year for a large multinational company with 20,000 regular travelers.
+638 | It 【can】 translate women’s booking practice into men’s behavior.
+315 | Falling into a routine 【can】 turn a person into an utter bore.
+324 | He no longer has to worry about whether or not he 【can】 understand.
+385 | I 【can】 understand some scars and physical defects 【can】 be ugly and distracting, but not Johnny’s. [14] In fact, I thought it added character… like it gave him a certain uniqueness.
+152 | W: That’s a little gloomy, but I 【can】 understand that to a point.
+226 | It gives him a degree of hearing, and he 【can】 use a variety of communication methods depending on the situation.
+543 | That’s why we recently launched the Out of Office Email Generator, a free tool you 【can】 use before your next long weekend or trip.
+459 | E) “There are plenty of soft skills that gamers 【can】 utilise in a professional setting, such as teamwork, problem solving and
+642 | Scientists 【can】 voice their opinions whatever way they like.
+130 | Not only 【can】 walking make you less depressed, but according to a new study, depression sufferers who took a ___26___ walk showed just as much improvement in their ___27___ as people taking medicine.
+482 | You 【can】 watch
+189 | And then, maybe we 【can】 watch the series together.
+609 | What 【can】 we assume about babies who appear upset upon waking?
+551 | What 【can】 we conclude about Impossible Foods’ products from Joan Solsman’s remark?
+479 | What 【can】 we conclude about many female engineers from the statement of a mechanical engineer?
+635 | What 【can】 we conclude from Geoffrey Raisman’s finding?
+413 | What 【can】 we conclude from Lao Zi's quotation?
+421 | What 【can】 we conclude from the new research by scientists at Michigan State University?
+464 | What 【can】 we conclude from the author’s calculations?
+364 | 【Can】 we discuss the return trip to the head office?
+602 | What 【can】 we do to help children learn the basics of math and geometry?
+504 | What 【can】 we do when we become better able to provide ourselves with the desired approval?
+532 | What 【can】 we expect of plant-based meats?
+601 | What 【can】 we infer about nightmares from the passage?
+454 | What 【can】 we infer from the passage about the Goldilocks principle?
+523 | What 【can】 we learn from research on diets in developed countries?
+325 | 【Can】 we learn from this?
+203 | How 【can】 we solve this problem?
+112 | W: Oh, 【can】 we stay away from the junk food?
+222 | Students are able to highlight and edit text, write notes and search for information much more quickly than they 【can】 with printed textbooks.
+490 | But 【can】 you be sure you've noted every snack
+199 | But what else 【can】 you expect in a city this big?
+404 | 【Can】 you find a map that shows where the hotel is and send it to me online?
+239 | But 【can】 you give me your details anyway?
+162 | So how 【can】 you help your child do their best?
+463 | 【Can】 you remember what you ate yesterday?
+322 | 【Can】 you sign me up for the 10-week course on Thursday evenings?
+142 | 【Can】 you tell our audience what it’s about?

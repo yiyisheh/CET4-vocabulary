@@ -1,0 +1,735 @@
+# 任务 C_r1_98：13 个词，586 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_98.labels.txt
+
+============================================================
+## 词：health    本段 65 句    模式：全标（每句都写）
+原释义：n.健康; 卫生; 状况.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 健康，健康状况（身体或心理的）    B 样本 64    例：To improve his health.
+  1  n. 医疗，卫生（health care 医疗保健，public health 公共卫生，health insurance 医疗保险）    B 样本 11    例：Participants worked in the health profession.
+  2  n. （经济、组织等的）健康状况，兴旺    B 样本 0
+已标 X：5 句，如：The World Health Organization reports that depression has the
+口径说明（照此执行）：
+  - World Health Organization / National Institutes of Health 按机构名标 X（请复核是否改按义项计）。口径：health care、public health、health insurance、health services、health clinic、health profession、health and wellness providers 标1「医疗，卫生」；mental/physical health、health problems/benefits/risks/condition/concerns/data/education/experts 等都标0；economic health 之类比喻用法标2。
+句子：
+88 | It has a considerable impact on our 【health】.
+93 | Their link with a country’s public 【health】.
+95 | What does the author say is important in formulating policies to improve diets and 【health】?
+99 | Researchers have previously found a link between eating more fruits and vegetables, and improved longer term mental 【health】.
+100 | Studies have shown that social support—whether it comes from friends, family members or a spouse—is _33_ associated with better mental and physical 【health】.
+111 | A better understanding of the relationship between social class and 【health】.
+116 | Associating it with improving 【health】.
+119 | Why can the habit of eating a plant-based diet lead to better 【health】?
+120 | "It can lead to very serious 【health】
+123 | Designing education programs and initiatives on public 【health】.
+133 | What does the author suggest disadvantaged people do to improve their 【health】?
+142 | They conducted large-scale research on the role of sugar in people's 【health】.
+144 | It simply focuses on nutrition and 【health】.
+132 | This is because better 【health】 aids economic development.
+103 | K) As the owner of multiple sugary drink brands and bottled water, PepsiCo is facing challenges on 【health】 and environmental
+127 | One large beverage company has adapted its operations when confronted with challenges from 【health】 and environmental
+96 | Prioritize 【health】 and happiness over material success.
+80 | They also reported improved mental 【health】 and subjective vitality immediately after the program. [19] These benefits remained six months after the completion of the course.
+136 | More people have taken to bottled water because of their 【health】 awareness.
+114 | A rich social life, these studies suggest, can lower stress levels, improve mood, encourage positive 【health】 behaviors and discourage damaging ones, boost heart 【health】 and improve illness _34_ rates.
+128 | The claimed 【health】 benefits of fruit and vegetable juices have rendered the industry very profitable.
+126 | 【health】 benefits, such guidelines do not yet exist for exercise and mood.
+124 | Also, the mental 【health】 benefits were equal among participants who were overweight or obese, and those in a healthy weight range. [20] This suggests a link between cooking confidence and satisfaction around cooking, and mental 【health】 benefits.
+115 | It's well known that physical exercise is beneficial not just to physical 【health】 but also to mental 【health】.
+112 | Greater Internet access correlates directly with improved 【health】 care, education and economic development.
+109 | Even if your school offers a flat-rate fee for a doctor’s appointment at the student 【health】 center (mine is $20 a visit), these fees often do not include extra fees for lab tests or prescription medications (药物).
+117 | Bottled water manufacturers base their arguments against bans of plastic bottles on 【health】 concerns rather than on profits. 、
+82 | It is associated with people’s mental 【health】 conditions.
+125 | Social isolation, meanwhile, is linked to higher rates of physical diseases and mental 【health】 conditions.
+89 | certain rare diseases can be easily identified, most potential 【health】 conditions cannot be identified by genetic testing alone.
+84 | adding to all the 【health】 dangers of obesity, diabetes and tooth decay”.
+81 | That finding suggests that the “_29_ self” represented by endless amounts of 【health】 data doesn’t tell the whole _30_.
+85 | It has been funded by food companies and 【health】 experts.
+101 | 【Health】 experts advise going outdoors.
+107 | Public 【health】 experts in many countries are Ĺ how to address widespread loneliness in our
+87 | However, just because it’s plant-based doesn’t mean it’s 【health】 food.
+83 | now rather than future 【health】 gains.
+131 | According to Kelli Harding, rabbits’ 【health】 had more to do with humans’ kindness to them than their diet or genetics.
+139 | A social aspect to 【health】 has not been taken into account in trying to provide the best medical care.
+141 | Diets containing large amounts of fibre reduce the risk of heart disease, diabetes and other 【health】 hazards.
+113 | However, the study showed participants’ mental 【health】 improved even if their reported diet did not change after completing the program.
+121 | Ultimately, what affects our 【health】 in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+86 | Sciences, set out to understand if the associations between sugary soft drinks and 【health】 — including risk of diabetes and
+94 | The 【health】 indicators studied included disease prevention, reproductive 【health】, death rates, and life expectancy.
+98 | The study was based on data from more than 88,000 U.S. adults who _29_ in the National 【Health】 Interview Survey between 1997 and 2008.    ?X
+130 | "It's certainly a problem that so much research in nutrition and 【health】 is funded by industry," says
+118 | One way we can improve the effects of fruit juice on our 【health】 is making sure we select ripe
+90 | By ensuring that their mental 【health】 is sound.
+102 | you have a 【health】 issue and you want to be around longer for your kids, or if your business is something you're passionate
+135 | They are likely to have mental 【health】 issues.
+140 | What is one thing that helps maintain the 【health】 of our brain even as it shrinks2
+104 | juice affects the long-term 【health】 of those who aren’t overweight.
+122 | This confirms that even with a lack of resources, if a country has strong women’s rights, the 【health】 outcomes are better.
+110 | Furthermore, in countries where women’s rights were most respected, but where access to hospitals and doctors was below average, 【health】 outcomes were still better than in countries rated as moderate or poor.
+134 | It’s a significant problem, _35_ since loneliness is emerging as a widespread public 【health】 problem in many countries.
+91 | many 【health】 problems.
+97 | W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep can contribute to serious 【health】 problems like obesity and heart disease.
+105 | Most of them refrain from eating meat for 【health】 reasons.
+138 | They turned public attention away from the 【health】 risks of sugar to fat.
+129 | It reduces various 【health】 risks posed by meat consumption.
+106 | What do we learn about genetic 【health】 tests from the passage?
+143 | Exercise is more important to good 【health】 than diet.
+108 | There’s a social dimension to 【health】 that we’ve completely overlooked in our efforts to find the best and most cutting-edge medical care....
+137 | To increase the benefits of fruit juice to our 【health】, we’d better choose ripe fruit to make juice.
+92 | J) “The rabbit effect,” she explains, means that “when it comes to our 【health】, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.
+
+============================================================
+## 词：day    本段 27 句    模式：全标（每句都写）
+原释义：n.一天; 日; 白昼.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 天，日，一天（every day、a day、the next day）    B 样本 57    例：Have a nice day.
+  1  n. 白天，白昼（during the day、in the middle of the day）    B 样本 5    例：and are active during the day.
+  2  n. （特定的）日子，节日（Earth Day、race day、snow day）    B 样本 11    例：“And the judging day is terrific
+  3  n. 时代，时期，年代（in those days、in one's day）    B 样本 0
+已标过的短语：at the end of the day（1）；one day（1）；to this day（1）；day in and day out（1）；by day（1）；one day at a time（1）；day off（1）
+口径说明（照此执行）：
+  - 口径：every day、each day、a day/per day（每天）、all day、the next day、a day later、first day of school、Have a nice day、brighten someone's day 都标0；during the day、in the middle of the day 标1「白天」；节日名（Earth Day、Teachers' Day、Transit Driver Appreciation Day）及 race day、snow day、judging day、自己的生日（my own day）标2，不标 X。按 P 标：one day / some day（将来某天、有朝一日）、the other day（前几天）、these days / nowadays 义的 these days、to this day、at the end of the day（归根结底）、day in and day out、one day at a time、day by day、by day（在白天）、day off（休息日）、call it a day。65 句 a new day 是「黑夜将尽、迎来新的一天」的比喻，按0标。
+句子：
+84 | when taken at night rather than during the 【day】.
+85 | David Foulkes studies children (from very small kids to teens) to bring the secrets of their dreams to the light of 【day】.
+87 | What is that roadside monument I see on my way to work every 【day】?
+90 | They are known as “e-learning days”, which certainly sounds less fun than a snow 【day】.
+91 | K) Plus, she adds, it’s not an ideal way to reach the advised ‘five a 【day】’.
+95 | It will also bring to an end a less popular US high school tradition: the “make-up 【day】”
+106 | bank is more likely ready, willing and able to be part of the team and do the job from 【day】 1.
+96 | per 【day】 and don’t realise this isn’t just about getting vitamins,” she says.
+83 | Then on another 【day】, at that same food market, people were given only 6 different types of jam choices.
+92 | Everything from specialist cheeses to sought-after coffee beans gets thrown away every 【day】 in the current food system.
+80 | The criterion for a snow 【day】 is primarily the inability of school buses to operate safely on their routes and danger to
+103 | the Earth 【Day】 mission year-round.    ?X
+105 | The Earth 【Day】 Network ___35___ this mission    ?X
+100 | Today, the Earth 【Day】 Network, which rallies more than 20,000 ___33___ and organizations in 190 countries, supports    ?X
+97 | Earth 【Day】 now    ?X
+88 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a 【day】 of free time spent with screens, a restriction that will also allow time for other activities—like going to the movies with friends or reading longer, more complicated texts.
+102 | business casuals on a Friday, since colleagues are most likely to take out time to socialize on the last work 【day】 of the week.
+86 | organized the first Earth 【Day】 on April 22, 1970, educating participants in the ___29___ of environmental protection.    ?X
+94 | Some five years ago, high school seniors in America generally spent more than six hours a 【day】 on electronic devices.
+99 | It particularly comes with risks when we consume more than 150ml of free sugars per 【day】, or when it puts us
+89 | For if you nap properly, it’s like waking up from a full night’s sleep and you can double your 【day】’s worth of concentration.
+82 | “We consume compounds every 【day】 that may be poisonous and our bodies do a
+98 | J) It's obvious that students should go to school every 【day】 to get the most out of education.
+81 | Kids need time every 【day】 to run, jump, stretch and play.
+101 | Debates on social media show some parents are opposed to ending the “snow 【day】” tradition.
+104 | We persuade and get persuaded every 【day】 — were either convincing or being convinced.
+93 | In 1990, Hayes organized a global Earth 【Day】, with more than 200 million participants in 140 countries.    ?X
+
+============================================================
+## 词：researchers    本段 33 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.研究人员; 调查者(researcher 的复数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 研究人员，研究者    B 样本 80    例：Researchers think yes.
+句子：
+81 | Grant awarders tend to favor 【researchers】 alretJ.dy recoized i:11 their repective fif?Jd_s _. __
+92 | Modesty may be key when cooperation is essential, but the 【researchers】 also found that in some cases, status signaling has advantages.
+87 | Like Farrant’s work with resurrection crops, a number of companies, organisations and 【researchers】 are aiming to create drought- and temperature-resistant crops through genetic engineering and conventional breeding.
+110 | Today, 【researchers】 are likely to be funded
+89 | To do this, the 【researchers】 computed abstractness ratings for ___29___ 40,000 commonly
+84 | When 【researchers】 estimate the cost of diets people actually eat, higher-quality diets are typically more costly.
+108 | What did 【researchers】 find about popular culture?
+98 | These results remained when 【researchers】 followed up six weeks later.
+107 | 【Researchers】 found that enjoyment rather than importance enabled people to persist in their goals.
+102 | The 【researchers】 found that older students displayed greater risk-taking tendencies.
+109 | 【Researchers】 found that participants who saw the images of their aged selves would save more for their later years than
+88 | The 【researchers】 found that students who were most at risk had the most improvements in executive functioning after interacting with therapy dogs.
+80 | Over 50 years ago, 【researchers】 found that the cholesterol drug simvastatin is more effective at lowering cholesterol levels
+85 | The 【researchers】 found that the time when a person starts school has an enduring impact on their lives.
+105 | hit songs of the 1950s, 【researchers】 found, there was only slightly more than one 50 years later.
+97 | In 2016, 【researchers】 from Columbia, Harvard, and Georgetown conducted a study to figure it out.
+82 | A team of 【researchers】 from the University of Basel published their new study about people’s attitudes towards diversity at work.
+101 | In Egypt, 【researchers】 have found buildings from around 3500 B.C., containing the remains of animals, including elephants, which were not native to Egypt.
+94 | 【Researchers】 have looked at the influence of being left-handed on performance and interactive sports.
+90 | argue that work-life balance is “a cycle, not an achievement” In their 2020 study, the 【researchers】 interviewed nearly 80
+112 | What do we learn from the passage about 【researchers】 like birdwatchers and rock collectors?
+93 | The 【researchers】 made computer
+91 | Their rating match that of the 【researchers】 more than nine times out of ten.
+104 | a sample of 300 students, the 【researchers】 ___33___ power dynamics in an interpersonal setting to see if this would influence
+86 | In this study the 【researchers】 recommended a self-disclosure (表露) approach where participants were guided through a series of questions that allowed them to increasingly disclose personal information and values.
+96 | The 【researchers】 said there are numerous schools of thought that propose differing psychological methods for strengthening relationships.
+83 | In one study, 【researchers】 showed the participants columns of abstract illustrations and asked them which ones they would prefer.
+99 | The 【researchers】 suggest that power differences between the genders — that is, men
+100 | Some 【researchers】 suggest that work-life balance is not a goal to achieve, but a process for life to be adjusted promptly.
+106 | 【Researchers】 think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, but it might have been to show off her wealth and power.
+111 | And, of course, some 【researchers】 today still fund small-scale studies out of their own pockets.
+103 | What did the 【researchers】 want to determine by testing a variety of possible explanations?
+95 | But the Australian 【researchers】 wanted to discover what was driving these differences.
+
+============================================================
+## 词：likely    本段 29 句    模式：全标（每句都写）
+原释义：adj.可能的; 适合的. adv.很可能.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 可能的，有可能的（be likely to do、more likely to、it is likely that）    B 样本 67    例：Today, researchers are likely to be funded
+  1  adv. 很可能，大概（will likely、most likely + 动词或整句）    B 样本 13    例：This is most likely not because
+  2  adj. 合适的，有希望的（a likely candidate）    B 样本 0
+口径说明（照此执行）：
+  - 口径：be (more/less/most) likely to do、as likely as、it is likely that、sth is likely 都标0；直接修饰谓语或整句的 likely（will likely be、likely offers、it likely won't、you are likely aware、they were most likely traveling、This is most likely not because）标1。more likely than not（多半）按 P 标。
+句子：
+88 | And, yes, managers are most 【likely】    ?P:most likely
+97 | 【likely】 among the millions of people in search of more protein-rich diets.
+81 | But for poorer people, those same price jumps will 【likely】 cause certain foods to go extinct from their diets.
+87 | who stay on are more 【likely】 doing so for financial reasons.
+101 | deficiency because simply by eating an adequate number of daily calories we are also most 【likely】 getting enough protein.    ?P:most likely
+106 | bank is more 【likely】 ready, willing and able to be part of the team and do the job from day 1.
+96 | Harvard reports that women are “much more 【likely】 than men to die within a year of having a heart attack” and “many women say their physicians sometimes don’t even recognize the symptoms.
+100 | J) The good news is, women are more 【likely】 than men to take charge of their stress and manage it, the American Psychological Association reports.
+94 | The higher their earnings, the more 【likely】 they are tempted to delay retirement.
+102 | The higher their educational level, the more 【likely】 they are to delay retirement.
+80 | This implies that even though ambitious people are more 【likely】 to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, what else could possibly matter?
+84 | are more 【likely】 to agree with you when they succeed alongside you.
+108 | Some analysts find age 45+ jobless workers are most 【likely】 to be unemployed for more than a year.    ?P:most likely
+82 | Parents who stare non-stop at their phones and don’t read books are 【likely】 to breed kids who will do the same.
+95 | The people least interested in retraining are more 【likely】 to come from historically disadvantaged
+83 | Drug research sponsored by the pharmaceutical industry is more 【likely】 to end up
+91 | nutrition research sponsored by the food industry is more 【likely】 to end up favoring the food under consideration than
+90 | Our results show another way these negative behaviors can manifest themselves, like in airline bookings, and add to evidence that women are less 【likely】 to engage in them.
+89 | For example, women are more 【likely】 to experience disturbed sleep, anxiety and unusual fatigue before a heart attack.
+104 | They are 【likely】 to have financial troubles.
+99 | communities, more 【likely】 to have low incomes, and are more 【likely】 to have the least schooling after getting their high-
+105 | A bank is more 【likely】 to hire
+103 | K) Many years ago, I wrote about a study which found that employers are much more 【likely】 to hire a college graduate who
+98 | More men than women are 【likely】 to stay in the labor force until their late seventies.
+85 | Research found that those who are given greater flexibility at work are less stressed and more 【likely】 to stay in their jobs.
+92 | When are you more 【likely】 to succeed in persuading your coworkers?
+107 | 【likely】 to take it — which raises a challenge for society as a whole.
+86 | It 【likely】 won’t ensure that the automatic driving system functions properly.
+93 | It 【likely】 won’t fully protect automakers against accusations of deliberate cheating.
+
+============================================================
+## 词：things    本段 22 句    模式：全标（每句都写）
+原释义：n.事物; 东西; 情况(thing 的复数).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 事情，事物（抽象的事、做的事、发生的事）    B 样本 55    例：One of the best things
+  1  n. 东西，物品    B 样本 14    例：She enjoys buying a lot of fancy things.
+  2  n. 情况，局面，形势（things are different、make things worse）    B 样本 9    例：Here, too, things are complex.
+已标过的短语：all things considered（1）；in the grand scheme of things（1）
+口径说明（照此执行）：
+  - 口径：买的、拿的、看得见摸得着的东西（buy things、sweet things like honey、material things、pointing at things、create things）标1；做的事、发生的事、考虑的事（do things、get things done、try things out、think things through 中的 things）标0；泛指整体处境（things were different、things have changed、improve things、make things worse/harder/complicated、keep things quiet、intensify things）标2。按 P 标：all things considered、in the grand scheme of things、first things first、How are things?（近况如何）。
+句子：
+89 | Innovation is saying ‘no’ to 1,000 【things】.
+100 | According to one famous entrepreneur, innovation means refusal to do an enormous number of 【things】.
+90 | They simply don’t understand how hard some people have to work to accomplish the same 【things】, and because of that, they push people too hard.
+83 | H) Think about the everyday 【things】 around you and ask questions about them.
+82 | It’s what motivates non-human animals, human infants and probably human adults to explore and seek out new 【things】 before growing less interested in them after continued exposure.
+86 | Smart people develop overachieving personalities because 【things】 come so easily to them.
+98 | They take less time to get 【things】 done.
+101 | That’s out of a total fish supply of 167 million tonnes; the remaining 20 million or so tonnes go into 【things】 like animal feed and medical products.
+95 | Pirson claims that some ordinary 【things】 may often prove to be miraculously interesting.
+94 | They set the bar too high, and when people take too long or don’t get 【things】 quite right, they assume it’s due too lack of effort.    ?P:get sth right
+97 | People sometimes struggle to do 【things】 that are simply a waste of time.
+91 | And when you find 【things】 that are truly interesting to you, share them.
+93 | More effort is wasted doing 【things】 that don’t matter than is wasted doing 【things】 inefficiently.
+87 | Why do people do 【things】 that way?
+99 | People agree to do too many 【things】 they are in fact unwilling to do.
+88 | There’s no wrong answer here—so from big 【things】 to small details, write them all down on your list.
+80 | This makes 【things】 tricky for people who may want to impress others while also demonstrating that they are a team player.
+85 | Jobs had another great quote about saying “no”: “I’m actually as proud of the 【things】 we haven’t done as the 【things】 I have done.
+81 | Encourage them to make 【things】 with hands.
+96 | M) What are my chances of finding all of those 【things】 with one employer?
+84 | F) Start by writing down the 【things】 you didn’t like about previous employers, as well as the parts you really valued.
+92 | This will help you immediately identify what you’re looking for in an organization, as well as the 【things】 you’re trying to stay far, far away from.
+
+============================================================
+## 词：change    本段 18 句    模式：全标（每句都写）
+原释义：v.改变; 变化; 更换. n.变化; 零钱.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 变化，改变，转变（climate change 气候变化、career change）    B 样本 39    例：The change was dramatic.
+  1  v. 改变，变化（change one's habits；people can change）    B 样本 38    例：How they change the way we shop.
+  2  v. 更换，换（change jobs、change trains）；兑换（钱）    B 样本 1    例：Why did people often change jobs when the author started his career?
+  3  n. 零钱；找零（small change）    B 样本 1    例：In our house, we have transparent money boxes for them to put small change in, so they can see their savings grow.
+  4  n. 替换的东西（a change of clothes 一套换洗衣服）    B 样本 1    例：I could take a change of clothes and jog to work.
+口径说明（照此执行）：
+  - 80 句里名词（39，含 climate change 约 12 句）与动词「改变」（38）几乎持平，最终首要义项请以全量统计为准。口径：climate change 按0标不算 P；change direction、change one's name、change the wrapping 标1；change jobs/clothes/trains/seats 这类「换成另一个」标2；for a change（换换口味）、change one's mind（改变主意）按 P 标。
+句子：
+84 | The other spouse wants no name 【change】.
+86 | P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to 【change】.
+96 | People wonder if certain crops and foodstuffs could disappear like some animal species due to climate 【change】.
+91 | happen if schools helped to make beliefs about the potential for 【change】 and improvement a larger
+81 | 【change】 — and it seems reckless to not have them.
+83 | Persuading prospective fathers to consider a 【change】 in their career.
+80 | The 【change】 in their responsibilities.
+94 | One consequence of climate 【change】 is that some people may not have adequate access to certain foods.
+87 | If data won’t 【change】 minds,
+97 | A number of existing farming technologies could be used to reduce the negative effect of climate 【change】 on food production.
+85 | “Even if overall food production may be unaffected, food security can still be impacted,” says Margaret Walsh, a scientist at the US Department of Agriculture’s Climate 【Change】 Program Office.    ?X
+82 | I) Experiment results showed that students who were not taught that people can 【change】 showed poor
+88 | But when students were taught that people can 【change】, they had better responses to stress, in
+90 | E) Overall, the yields of many foods, from staples to life-enhancing extras such as coffee and chocolate, will likely be impacted by climate 【change】 too.
+95 | It is predicted that climate 【change】 will affect the availability and price of quality chocolate.
+93 | Researcher Andrew Jarvis and his colleagues found that 80% of coffee-growing zones in Central America and Brazil could become unsuitable by 2050, for example, while climate 【change】 will likely have “great impacts” on cocoa (可可粉) production in West Africa.
+89 | From there you are going to have to legally 【change】 your name all over the place.
+92 | You’ll need to 【change】 your name at the bank, with social security, with your credit cards, on your driver’s license, at the gym … everywhere.
+
+============================================================
+## 词：online    本段 17 句    模式：全标（每句都写）
+原释义：adj.在线的; 联网的. adv.在网上.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 在线的，网上的    B 样本 47    例：One online course
+  1  adv. 在网上，在线地    B 样本 32    例：W: Stopped paying online?
+已标 X：1 句，如：Matthew Ricci told gaming site Kotaku: “If you're playing EVE Online you basically already have an MBA.
+口径说明（照此执行）：
+  - Get Safe Online（7、39）按本义标为副词；EVE Online（68）标 X。后置的 online（如 the article online、resources online）一律标副词。
+句子：
+87 | African farmers unable to read often don't have access to important information conveyed 【online】.
+95 | What problem may arise if classes go 【online】?
+84 | What does the author say about students enrolled in 【online】 classes?
+93 | What does the author say is one disadvantage of 【online】 classes?
+94 | 【Online】 classes do not require buildings and each class can host hundreds of people simultaneously, resulting in greater savings, thus increasing the temptation of distance education for those concerned more about budgets than learning.
+89 | What does the author think of 【online】 course assignments?
+86 | What does the author say causes refugees’ difficulty in taking 【online】 courses?
+81 | It offers free 【online】 data services for refugees around the world.
+96 | But 【online】 education does not allow a teacher to keep a struggling student after class and offer help.
+82 | Doctors completing 【online】 forms about their patients by speech, for example, can dictate 150 words a minute, three times faster than typing on a keyboard.
+92 | It is urgent that schools teach kids how to verify 【online】 information.
+91 | Some people believe 【online】 interaction would soon depend mainly on voice.
+83 | If we’re lucky, the legal environment will change to make teenagers’ 【online】 lives less likely to haunt them later on.
+88 | And studies show that pupils don’t fact-check information 【online】—“smart searching” is a skill schools need to teach urgently.
+90 | What did the author find in his study about the effect of 【online】 social interactions?
+85 | I found employees who engage in 【online】 social interactions with co-workers through social media blogs tend to be more motivated and come up with innovative ideas.
+80 | Holidaymakers have been alerted to the frequent occurrence of 【online】 villa-booking frauds.
+
+============================================================
+## 词：she    本段 159 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：pron.她(主格).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 她（主格）    B 样本 80    例：It’s healing.” she said.
+  1  n. 女性，雌性    B 样本 0
+句子：
+176 | M) When Janette Sadik-Khan was the head of New York City’s Transportation Department back in the early 2000s, 【she】
+207 | The hairdresser agreed but for a different reason: 【She】
+102 | 【She】 also faces investigation from childcare services, who will also be asking why Karla was left alone with her vulnerable relatives.
+228 | The 115-year-old is active on social media, regularly sharing aspects of her life. [20] 【She】 also shares some of her secrets to living so long.
+206 | For her book Overload: How Good Jobs Went Bad and What to Do about It, 【she】 and co-author
+80 | 【She】 became a member of the gym two months ago.
+131 | 【She】 borrowed money to pay her debt.
+135 | W: 【She】 bought a house for herself and her husband, a house for her parents, and then a house for each of her four brothers and sisters.
+152 | And then 【she】 bought her husband a ridiculously expensive sports car.
+174 | 【She】 bought some new software for it.
+116 | 【She】 can no longer hold on to her job.
+82 | 【She】 cannot stop children using smartphones.
+177 | 【She】 celebrated her 110th birthday this April.
+143 | 【She】 checked if a purple doll was ordered.
+203 | 【She】 comes from the city of Cape Town.
+145 | 【She】 connected it with her smartphone.
+108 | The next day, Kate asked if 【she】 could check the shipping status, so her mom clicked on the web page and then walked out of the room.
+179 | 【She】 could have asked a friend for help with the paint job.
+128 | 【She】 covered its screen with a plastic sheet.
+161 | 【She】 decorated it with colorful stickers.
+148 | 【She】 developed a habit of overspending.
+210 | When 【she】 did sleep, 【she】 experienced “problem-solving dreams,” which left her feeling unrested when 【she】 woke up.
+141 | 【She】 didn’t just pass out food, 【she】 gave them love....
+158 | 【She】 didn’t sign up for membership in time.
+235 | But 【she】 does eat yogurt every day, which 【she】 said has “an infinite number of positive properties” for the body. [21] 【She】 has also said that the secret to a long life is “knowing how to choose” what to forget.
+114 | 【She】 does not have any problem flying.
+92 | 【She】 does not have to worry about jetlag.
+87 | 【She】 doesn’t deem homemade soup tasty.
+111 | 【She】 doesn’t think his wife cooks well.
+196 | 【She】 doesn’t think it wise to pay before attending any class.
+184 | 【She】 doesn’t want to reveal her card details over the phone.
+162 | 【She】 enjoys buying a lot of fancy things.
+98 | 【She】 even texted pictures of her and her husband eating there in 2017 as proof.
+170 | J) “The rabbit effect,” 【she】 explains, means that “when it comes to our health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.
+90 | validate the value of design as a subject,” 【she】 explains, telling me that nearly 600 schools have taken part so far.
+123 | When 【she】 fed her rabbits 【she】 talked to them and petted them.
+130 | 【She】 feels Jeremy would rather dine out.
+137 | 【She】 forgot where 【she】 had left it.
+103 | Although 【she】 found another villa in time for their holiday, 【she】 admits 【she】 was much more cautious.
+110 | (3-2) The following weeks, 【she】 found other outfits in her dressing-up box, and dressed up as different characters and famous people, sharing her exploits on social media.
+227 | 【She】 grew up in India.
+100 | This special medical procedure revealed 【she】 had a chicken bone stuck in her lung.
+186 | 【She】 had a lot of fun and learned a really good lesson.
+115 | Private rental prices in Britain rose 3.2 percent over the 12 months since July 2022—the largest jump since 2016, soaring energy bills have made things worse. [25] Lucinda May, mom of a Tavern student said that 【she】 had to ask her parents for £65 to buy her child the correct pair of shoes.
+232 | Unfortunately, 【she】 had to give up the practice seven years ago at 108.
+119 | 【She】 had to update its information.
+97 | 【She】 has a big family of six.
+212 | 【She】 has a truly amazing appearance.
+134 | 【She】 has been betrayed by her family.
+88 | 【She】 has been driving a school bus ever since 2009.
+151 | 【She】 has been robbed of 5 million Euros.
+218 | 【She】 has British ancestors.
+147 | 【She】 has found the soup smells terrible.
+193 | 【She】 has just returned from her hometown.
+146 | Explaining why 【she】 has kept up the videos, Andrea explained how nice it was to have a little bit of fun and craziness that made people smile.
+224 | 【She】 has lived there ever since.
+156 | 【She】 has very cool photos on her social media.
+157 | 【She】 has walked too many miles in the halls of hospitals visiting too many far-gone patients and seeing too many medical mistakes to go along with conventional thinking.
+81 | 【She】 hasn’t passed the driving test yet.
+96 | 【She】 helped the village to become famous.
+132 | 【She】 introduces a new concept that talent may be
+105 | 【She】 is entitled to a discount on all the gym exercises.
+223 | 【She】 is of mixed blood.
+164 | 【She】 is one of the world's best-known pianists.
+149 | 【She】 is saying it is possible that you
+112 | 【She】 is the longest-serving bus driver in Fayetteville.
+199 | 【She】 is the world’s oldest individual.
+180 | 【She】 is too concerned about money.
+211 | 【She】 is too eager to please.
+202 | 【She】 is too picky about food.
+192 | 【She】 is too weight-conscious.
+125 | 【She】 is used to taking public transport.
+106 | 【She】 is worried about traffic jams.
+129 | And before 【she】 knew it, 【she】 had done 20 weeks.
+139 | 【She】 lay totally unconscious for three days.
+234 | 【She】 led an active lifestyle until her later years but has never followed a specific diet.
+154 | 【She】 lost it about three days ago.
+205 | 【She】 might have to cancel her registration any minute.
+190 | Basically, 【she】 miscalculated how fast 【she】 was burning through the money, and 【she】’s now full of regret.
+142 | 【She】 missed out on the gym’s general discount.
+124 | 【She】 missed the deadline for the 10-week course.
+159 | 【She】 mistakenly canceled her mom’s order.
+189 | 【She】 moved to the U.S. at a young age.
+94 | 【She】 no longer has any money left.
+120 | With the bone finally removed from her lung, the woman is very happy that 【she】 no longer suffers from that annoying cough.
+219 | “Sometimes you can be so good at something that it causes trouble,” 【she】 notes.
+188 | Now, 【she】 notes ironically, the lanes are so foil of activity that opponents
+127 | Kate saw that her doll would be arriving the next afternoon, but then 【she】 noticed something else: suggestions about other dolls and toys 【she】 could order.
+194 | Many languages are spoken in South Africa, but 【she】 only speaks English.
+126 | 【She】 ordered a large number of dolls.
+172 | 【She】 ordered a more expensive doll instead.
+198 | economist said 【she】 plans to continue working because 【she】 wants to.
+153 | 【She】 posted its picture on Facebook.
+185 | Legally speaking, the bride is free to choose whatever name 【she】 prefers.
+213 | 【She】 prefers to have the fee added to her monthly bill.
+86 | So one dark evening, 【she】 put on her black off-the-shoulder gown and put her trash bin out.
+138 | According to farmer Alice Gray, Prickles was only a lamb when 【she】 ran away.
+178 | But now that 【she】 ran out of money, 【she】 can’t.
+107 | 【She】 regards smartphones as a distraction.
+175 | 【She】 regrets ignoring the woman’s advice.
+89 | M: Well, I can see how that might happen to someone, and I’m sure 【she】 regrets it, but I know it won’t happen to me.
+183 | K) In more than a few passages, 【she】 relates the stories of men and women who came up against assembly-line medicine where patients were treated mostly as pieces of flesh.
+204 | Instead, 【she】 remains positive, holding up for praise one of her medical school professors, George Engel, “who always noticed not just a patient’s physical condition but little details about her life, such as if 【she】 had family pictures up in her hospital room or flowers delivered.
+166 | 【She】 returned it to its owner right away.
+215 | That means 【she】’s been alive longer than any other living individual.
+140 | Her name is Susan and 【she】’s from South Africa.
+117 | W: [9] Well, it turns out that 【she】’s spent it all already.
+216 | “After I became a first-time mother, I quickly realized I was so busy caring for other people and work that I felt like I’d lost myself,” 【she】 said.
+221 | They want to reach the top of the corporate ladder and fly like supermom,” 【she】 said.
+225 | “The realizations I had in that process helped me gain insights and ultimately got me ready to integrate self-care into my daily life,” 【she】 said.
+236 | “Life would be impossible if we remembered everything,” 【she】 said.
+133 | 【She】 said business fell by at least 40 percent
+93 | 【She】 said twenty percent of people are afraid to fly.
+173 | Kate was depressed at first, but then 【she】 sat with some girl patients and they opened up all the boxes together, laughing and playing.
+91 | “Food delivery seems to be a big thing here,” 【She】 says.    ?X
+197 | We're not present,” 【she】 says.
+208 | anticipate and future planning,” 【she】 says.
+217 | People who are interesting are persistently curious, 【she】 says.
+222 | “Having that sort of curiosity is almost like a protective gear from getting into boredom,” 【she】 says.
+226 | “Having a strong point of view, signature style, or being a super-enthusiast in a particular field makes someone interesting,” 【she】 says.
+230 | To be interesting means that you have lived life, taken risks, traveled, sought out experience to learn for yourself and share with others,” 【she】 says.
+233 | Talking on and on about what’s interesting to you isn’t going to make you an interesting person, 【she】 says.
+182 | 【She】 says her ancestors were from Britain.
+169 | 【She】 says it’s very green and windy.
+113 | keen to encourage young people,” 【she】 says, observing that design brings together other subjects such as literature, art,
+150 | So while Hughes supports bike lanes — “cyclists deserve to be safe” — 【she】 sees the parking loss as an existential
+209 | He says the car is the best thing that has ever happened to him, and [11] if 【she】 sells it, he will divorce her.
+238 | What does Hannah’s husband say he’ll do if 【she】 sells the new car?
+201 | 【She】 should have repainted her house much earlier.
+181 | 【She】 shows a real passion for taking photos.
+118 | 【She】 sold it for two thousand dollars.
+231 | 【She】 speaks several languages.
+99 | 【She】 suffered from shock.
+229 | For a time an app developer in America was so busy attending to work and family that 【she】 suffered from sleeplessness.
+155 | 【She】 suffered from the effects of severe cold.
+237 | Why does the woman say 【she】 swears it?
+191 | Painting a house involves more trouble than 【she】 thought.
+160 | 【She】 told her daughter that they were going to be returned.
+163 | “Look, 90 percent of my customers drive,” 【she】 told me.
+136 | 【She】 took it to the restaurant manager.
+200 | W: 【She】 wants to, but her husband refuses to get rid of it.
+220 | Branyas was born in the United States on April 4, 1907, but her family moved to Spain, where they were originally from when 【she】 was a young child.
+144 | 【She】 was able to cancel two of them, but it was too late to cancel the rest.
+109 | 【She】 was accused of violating a city law.
+187 | Her first novel was not published until 【she】 was 39, and her last appeared when 【she】 was 84.
+168 | 【She】 was finally rescued by her relatives.
+121 | 【She】 was found in a forest after three days.
+214 | Not to take seriously all the messages 【she】 was getting.
+167 | 【She】 was issued a new card.
+85 | When 【she】 was much younger, my daughter used to say 【she】 wanted to be Queen of the Clouds, which I loved.
+84 | 【She】 was on bad terms with her neighbors.
+165 | You see, 【she】 was planning to quit the job 【she】 hates and retire early.
+122 | But though 【she】 was suffering from the effects of extreme cold, the child reportedly suffered no life-threatening effects.
+171 | 【She】 wasn’t so much interested in hot yoga.
+83 | 【She】 watched her mother order the doll online.
+95 | How much did 【she】 win?
+101 | 【She】 works in childcare services.
+104 | “Despite our scientific progress,” 【she】 writes, “Americans are remarkably unhealthy.
+195 | “Clinically,” 【she】 writes, “it’s common to see two patients with the same condition, such as recovering from a heart attack, have two very different courses based on seemingly irrelevant factors, such as their family relationships or their educational levels.
+
+============================================================
+## 词：food    本段 92 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：n.食物; 食品.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 食物，食品    B 样本 80    例："When the food
+  1  n. 粮食，饲料    B 样本 0
+句子：
+81 | It rents bicycles to deliver 【food】.
+87 | In the early times, pigs were allowed to wander freely in search of 【food】.
+89 | Make sure people eat non-fattening 【food】.
+93 | They were such strange marvels that, on her first official state visit to the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour of a suburban-Maryland Giant 【Food】.    ?X
+100 | It delivers luxury hand-made 【food】.
+103 | An explicit recognition of the rising importance of restaurants serving vegan 【food】
+125 | Enjoy natural 【food】.
+130 | W: Yes, I love Chinese 【food】.
+134 | Avoid getting addicted to junk 【food】.
+137 | eating less processed 【food】”.
+152 | It has largely failed to turn teens away from junk 【food】.
+163 | A totally different approach could be adopted to combat advertising campaigns for snack 【food】.
+136 | This is where French entrepreneur Sophie André comes in. [23] In 2016 she moved to London and began by setting up a business delivering luxury hand-made 【food】 across the city.
+121 | The WFP has been around since 1961 and has been the global coordinator of nationally based efforts to avoid disasters with 【food】 aid.
+170 | Rich countries should be more generous in providing 【food】 aid.
+161 | What will happen when 【food】 aid is offered at a price?
+131 | Developed countries sometimes offer 【food】 and aid to developing ones, but at a price.
+149 | For all the innovation and choice that define the 【food】 and drink industries, if you want to make money, you could do a lot
+143 | heart disease — were applicable to the 【food】 and drink we generally consume as part of a healthy diet.
+114 | Taking children along to the pet shop to buy 【food】 and supplies will support their cognitive development as their passion for learning flourishes.
+120 | I know it’s really tasty and great comfort 【food】, but it’s too fattening for me.
+165 | Increasing their 【food】 choices.
+95 | Because of this, they strategically use healthy 【food】 choices to make a positive impression.
+145 | What do we learn about advertising campaigns from the snack 【food】 companies?
+166 | An innovative way to beat obesity is to expose 【food】 companies’ manipulative and deceptive practices
+84 | Advertising campaigns from the snack 【food】 companies, often
+157 | What is a major flaw in previous interventions to help reduce junk 【food】 consumption?
+102 | Interventions to help reduce junk 【food】 consumption are especially important for children and teenagers.
+144 | “【Food】 delivery seems to be a big thing here,” She says.
+140 | People’s choice of 【food】 depends on their individual taste.
+96 | Take measures to ensure sustainable 【food】 development
+80 | Americans can absorb the number of calories recommended by 【food】 experts.
+107 | It’s a bit heavy, but it’s great 【food】 for a cold night like this.
+139 | with heavy conditions attached, like loan repayment or 【food】 for resources, it often widens the gap between rich and poor and sustains the old world order.
+113 | To get 【food】 for the elephant.
+116 | It recycles waste 【food】 from the city.
+88 | They depend on funding from the 【food】 industries.
+118 | To do this, researchers had students read an article on the 【food】 industry.
+106 | The 【food】 industry plays a major role in fighting obesity.
+109 | For example, low income is the strongest predictor of 【food】 insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.
+108 | It is a response to solving the problem of 【food】 instability.
+153 | All of us can be affected by 【food】 instability one way or another.
+83 | gain over time because 【food】 intake at night leads to increased fat storage.
+111 | In other words, even if a certain 【food】 is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.
+159 | They do not lack 【food】 knowledge or budgeting skills.
+142 | Order 【food】 like burgers and chips.
+98 | Then, when I was tired and hungry, I’d use my phone to order 【food】, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.
+147 | Their 【food】 literacy has been improving.
+128 | deceptive strategies used to make junk 【food】 more addictive and characterize the products as healthy.
+160 | They motivated teens to stay away from junk 【food】 only temporarily.
+90 | Would you like some Italian 【food】, perhaps?
+132 | Low-income households report that they find it difficult to adopt dietary guidelines because 【food】 prices are a barrier to improving their diets.
+122 | It’s well-established that 【food】 prices are an important determinant of 【food】 choice.
+169 | Wealthy nations should solve their own 【food】 problems first.
+155 | A number of existing farming technologies could be used to reduce the negative effect of climate change on 【food】 production.
+94 | “Even if overall 【food】 production may be unaffected, 【food】 security can still be impacted,” says Margaret Walsh, a scientist at the US Department of Agriculture’s Climate Change Program Office.
+91 | In 2020, the Nobel Peace Prize was awarded to the World 【Food】 Programme (WFP).    ?X
+150 | F) He found negative effects on blood sugar and insulin levels when 【food】 provided excess calories from sugars, including
+97 | Those who cared about 【food】 quality.
+154 | They do not pay much attention to their 【food】 recipes.
+167 | By setting up more 【food】 research programs in developing countries.
+162 | What would help improve 【food】 security among the disadvantaged groups in Canada?
+141 | One possible solution to the 【food】 security problem is diversification of diet.
+171 | Poor nations should enhance their own ability to solve their 【food】 shortages.
+146 | The ability to overcome 【food】 shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, which may have 【food】 problems of their own, or world economic institutions.
+92 | There is no indication that increasing 【food】 skills or budgeting skills will reduce 【food】 insecurity.
+129 | On one particular United States island, wild pigs themselves became an attractive 【food】 source for a species of mainland eagle.
+99 | Americans can rely on 【food】 supplements to prevent protein deficiency.
+101 | But it’s a problem that impacts independent luxury 【food】 suppliers too.
+168 | Taking more effective measures to increase 【food】 supplies.
+119 | They can also harm other wild species through indirect competition, rather than eating them or shrinking their 【food】 supply.
+112 | It has long been used to increase 【food】 supply and improve urban landscape.
+123 | J) There are ways we could soften the coming blow to the global 【food】 supply, however.
+148 | It remains unsettled whether the global 【food】 supply problem can be solved by creating heat-tolerant crops through genetic engineering.
+158 | It has ensured a sufficient 【food】 supply to millions.
+105 | In addition to either eating other animals or their 【food】 supply, wild pigs damage native habitats by rooting up grasses and rubbing on trees.
+85 | To contribute to a sustainable 【food】 system.
+126 | It tries to escape the constraints of the current 【food】 system.
+127 | Everything from specialist cheeses to sought-after coffee beans gets thrown away every day in the current 【food】 system.
+133 | “Depending on a greater number of plant species creates a more vigorous and less risky 【food】 system—and one that provides a broader range of nutritional requirements.
+156 | Once sourced, Elysia uses waste products to create “simple, natural, straightforward” meals and snacks. [25] Perhaps unlike other waste 【food】, the supply is regular.
+138 | Do you feel like Vietnamese 【food】 then?
+115 | How healthy they are and what 【food】 they eat.
+110 | They improved the quality of the 【food】 they sold.
+104 | 【food】, this is the perfect time to seek lunch.
+86 | Its great 【food】 variety.
+82 | [22] The vast majority of the UK’s 200,000 tonnes of retail sectors annual 【food】 waste comes from supermarkets.
+151 | Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.” [24] Unlike many 【food】 waste projects that have sprung up in recent years, the idea is not simply to redistribute waste 【food】, but to provide a high-quality product.
+117 | It’s estimated at less than one per cent of the UK’s 【food】 waste total.
+164 | More 【food】 will be made available to the needy.
+124 | Eat healthier 【food】 with less money.
+135 | on making (and perhaps even chewing) their 【food】 without missing out on nutrients.
+
+============================================================
+## 词：social    本段 76 句    模式：全标（每句都写）
+原释义：adj.社会的; 社交的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 社交的，交际的（social media 社交媒体）    B 样本 55    例：In social space.
+  1  adj. 社会的    B 样本 25    例：Increasing social security payments.
+口径说明（照此执行）：
+  - social media 按义项 0 标，不作 P；social security、social class、social status、social group、social science 按义项 1（社会的）标；social skills/anxiety/interaction/circle/isolation 等人际相关按义项 0。两义有重叠，请 C 任务以『与他人往来』为 0、『社会整体/阶层』为 1 区分。
+句子：
+113 | That is, we taught them a growth mindset about their 【social】
+93 | One reason is that going to the cinema is generally a 【social】 activity.
+124 | A 【social】 aspect to health has not been taken into account in trying to provide the best medical care.
+129 | It might prompt different responses from people of different 【social】 backgrounds
+137 | But even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage 【social】 behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+81 | Because of 【social】 categorization, you immediately judge the woman as harmless, and the man as threatening, leading to the loss of your wallet.
+91 | It will bring about radical economic and 【social】 changes.
+126 | Instead, disadvantaged groups are constrained by their economic, material and 【social】 circumstances.
+119 | This relationship between 【social】 class and diet quality and health is extensively documented.
+136 | A better understanding of the relationship between 【social】 class and health.
+134 | What 【social】 class people belong to.
+105 | Research has shown that smartphones are currently American teens’ main form of 【social】 communication.
+141 | What do we learn about 【social】 customs in Arabian countries?
+103 | stress responses to daily 【social】 difficulties.
+121 | students keep their ongoing academic or 【social】 difficulties in perspective.
+107 | There’s a 【social】 dimension to health that we’ve completely overlooked in our efforts to find the best and most cutting-edge medical care....
+101 | Stand by the parliament in fighting 【social】 diseases.
+87 | reputation and the kinds of strategies that are effective for ___30___ a good reputation in their 【social】 environment.
+117 | He built a large consultation service to address the holistic (整体的) needs of hospitalized patients, including psychological and 【social】 factors.
+132 | People from different 【social】 groups vary in their dietary habits.
+138 | They take touching as a cultural norm in 【social】 interactions.
+148 | What did the author find in his study about the effect of online 【social】 interactions?
+122 | People from the rest of the world, such as Latin America, are considered to be in high-contact cultures, where they tend to expect touching in 【social】 interactions and feel more comfortable with physical closeness.
+116 | I found employees who engage in online 【social】 interactions with co-workers through 【social】 media blogs tend to be more motivated and come up with innovative ideas.
+97 | 【Social】 isolation and loneliness were determined with questionnaires; the researchers depended on medical records and death _28_ for
+82 | Three of the papers _27_ loneliness, 18 looked at 【social】 isolation and two included both.
+109 | The scientists found that loneliness and 【social】 isolation increased the _29_ risk of having a heart attack or a death from heart disease by 29 percent, and the risk of stroke by 32 percent.
+120 | 【Social】 isolation, meanwhile, is linked to higher rates of physical diseases and mental health conditions.
+89 | After the intervention, participants associated healthy eating with autonomy and 【social】 justice.
+111 | A rich 【social】 life, these studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness _34_ rates.
+153 | Research has found the use of digital technology benefits not only teenagers’ 【social】 lives but also their studies.    ?P:not only ... but also ?P:not only...but also
+143 | This is true not just in terms of their 【social】 lives, but their education too.
+112 | It has been popularized worldwide with the increasing influence of 【social】 media.
+133 | As a parent of two boys at primary school, I worry about the issues associated with teenagers and 【social】 media.
+135 | Managers should implement solutions that neutralize the retention risk caused by 【social】 media.
+146 | What did the author’s own research find about 【social】 media?
+152 | Acknowledge employees’ achievements through 【social】 media.
+154 | Encourage employees to increase their visibility on 【social】 media.
+130 | These findings present a dilemma for managers: employees using 【social】 media at work are more engaged and more productive, but they are also more likely to leave your company.
+145 | So if you use a ton of 【social】 media, do you become unable, or unwilling, to engage in face-to-face contact?
+106 | 【Social】 media doesn’t reduce productivity nearly as much as it kills employee retention.
+150 | What problem was found with employees using 【social】 media for work?
+123 | In the second part of the study I found 76% of employees using 【social】 media for work took an interest in other organizations they found on 【social】 media.
+104 | What do we learn about 【social】 media from the passage?
+139 | They can create 【social】 media groups in which employees will be more likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.
+86 | off in 1970s New York, and has been revived by green-thumbed 【social】 media influencers who defy
+94 | Employers typically worry that 【social】 media is a productivity killer; more than half of U.S. employers reportedly block access to 【social】 media at work.
+92 | Our always-on world of 【social】 media may result in more connections, but they are superficial and can
+88 | This is the era of 【social】 media. [21] People can easily share their wealth and status to large audiences, but they need to consider the consequences.
+144 | What does previous research about 【social】 media reveal?
+142 | 【social】 media to directly reduce turnover (跳槽) intentions, by recognizing employees’ accomplishments and giving visibility to employees’ success stories.
+115 | Over a decade or so, American teens’ 【social】 media use shifted from an occasional activity to a routine one.
+96 | Despite smartphones and 【social】 media, young people today are as socially competent as those from the previous generation.
+84 | They found busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about 【social】 mobility.
+99 | Our status can be attributed to our 【social】 mobility.
+85 | There’s also a qualified self, which is who I am, what are my activities, my 【social】 network, and all of these aspects are not _31_ in any of these measurements.
+127 | Teenagers and 【social】 networking
+147 | Indeed, as they get older and are given more freedom, they often ease up on 【social】 networking.
+151 | It’s also true that too much 【social】 networking and game playing can cut into schoolwork and sleep.
+110 | A behavior that does not conform to 【social】 norms may be described as being deviant.
+128 | In one study, students were told their 【social】 position in school is not unchangeable.
+83 | A child deviates from 【social】 pressures when they stand up for another child being bullied in school.
+98 | It involves being deviant, going against the 【social】 principle that people should tell the truth.
+102 | It emphasizes people’s sense of 【social】 responsibility.
+140 | Indeed, 【social】 scientists who study young people have found that their digital use can be inventive and even beneficial.
+149 | But working out how to behave online is a new 【social】 skill.
+80 | They are similar in terms of 【social】 skills.
+108 | Results showed both groups of children were rated similarly on important 【social】 skills.
+118 | In virtually every comparison made, ratings of 【social】 skills either remain constant or improved for the children born later.
+155 | Yet teachers are expected to prepare them to be responsible citizens, cultivate their 【social】 skills, encourage successful time management, and enhance their capacity to flourish in an increasingly harsh labor market.
+131 | But overall, the study found little evidence that time spent on screens was hurting 【social】 skills for most children.
+95 | Their 【social】 skills were negatively affected.
+125 | There was one exception: 【Social】 skills were slightly lower for children who accessed online games and 【social】 networking sites many times a day.
+90 | students that their smartness can change, we taught them that their 【social】 standing-that is, whether
+114 | It may get in the way of enhancing one's 【social】 status.
+100 | Studies have shown that 【social】 support—whether it comes from friends, family members or a spouse—is _33_ associated with better mental and physical health.
+
+============================================================
+## 词：high    本段 15 句    模式：全标（每句都写）
+原释义：adj.高的; 含量高的; 高级的. adv.高高地; 高价地. n.高水平; 高峰.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 高的（价格、水平、程度、数量等）    B 样本 43    例：High blood pressure.
+  1  adj. 高的（物理高度）    B 样本 1    例：His feet could barely reach the brake, and his head was only just high enough to see out of the windows.
+  2  adv. 高高地，高水平地（aim high）    B 样本 3    例：Aim high and expect great results.
+  3  n. 高点，最高纪录（a record high）    B 样本 3    例：By allowing our motivation to be at an all-time high.
+  4  adj. 高级的，高等的    B 样本 0
+  5  adj. 兴奋的，飘飘然的（口语）    B 样本 0
+已标过的短语：high school（28）
+已标 X：2 句，如：The crossing on High Street is a well-known accident blackspot.
+口径说明（照此执行）：
+  - high school（含 senior high school、校名里的 High School、high schoolers）一律标 P:high school；High Street（街名）标 X。place a high value on 按义项 0 标。
+句子：
+88 | While cheek-kissing for Latin Americans is also a universal greeting form, it does not require such a 【high】 degree of relational closeness.
+83 | done to meet the academic, social and emotional challenges of the transition to 【high】 school.    ?P:high school
+90 | The topic of the speech was what makes one popular in 【high】 school.    ?P:high school
+91 | challenges of 【high】 school.    ?P:high school
+92 | The number of people experiencing depression shows a sharp increase in the first year of 【high】 school.    ?P:high school
+94 | It is beneficial to explore ways to cope with the challenges facing students entering 【high】 school.    ?P:high school
+86 | It should be integrated into 【high】 school education.    ?P:high school
+93 | According to one study, each 【high】 school graduate contributes at least 500, OOO dollars to the local    ?P:high school
+84 | Some five years ago, 【high】 school seniors in America generally spent more than six hours a day on electronic devices.    ?P:high school
+80 | Cheating was getting more and more difficult for 【high】 school students.    ?P:high school
+89 | We then looked at 【high】 school students'    ?P:high school
+87 | H) We also investigated the social side of the 【high】 school transition.    ?P:high school
+82 | 【High】 schoolers knew nothing about the modern financial world.
+81 | Why do we tend to think that busy people are of 【high】 status?
+85 | We find few people of 【high】 status have time for leisure.
+
+============================================================
+## 词：business    本段 17 句    模式：全标（每句都写）
+原释义：n.商业; 生意; 企业; 事务.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  n. 商业，生意，行业    B 样本 54    例：encourage more business.
+  1  n. 公司，企业，店铺    B 样本 24    例：He is starting a business.
+  2  n. 事，分内的事    B 样本 1    例：It is morally wrong to think helping the poor is not our business.
+  3  n. 业务，营业额    B 样本 0
+已标过的短语：mind one's own business（2）；in business（1）
+口径说明（照此执行）：
+  - business trip/meeting/model/leader 等做定语的按义项 0；指具体一家公司（start/own a business、business owner）按义项 1；mind one's own business 与 in business（营业中）按短语标；go into business、people in business 按义项 0。0 与 1 边界有些模糊。
+句子：
+80 | They may help people concentrate on their 【business】.
+89 | They may enable people to have the right mentality for doing 【business】.
+94 | Despite increased 【business】 activity on Skillman Ave, many store owners insisted the bike lanes were destroying their area.
+87 | One veteran player has applied his gaming skills to his real-world 【business】 and owes his success partly to a game company.
+82 | J) Digital entrepreneur and 【business】 consultant Mia Bennett says: “In more traditional settings, gaming is still imagined to be
+95 | A businesswoman said her 【business】 dropped sharply when parking space gave way to a bike lane, because most of her
+88 | How can a 【business】 help improve its employees' experience in using IT?
+83 | What should 【business】 leaders do before implementing new IT initiatives?
+86 | Small 【business】 owners are
+96 | Local 【business】 owners on Skillman Ave argued that their businesses would be ruined when parking spots were replaced
+93 | According to a magazine writer, some small 【business】 owners’ resistance to bike lanes arises from cultural factors.
+90 | oversaw a rollout of bike lanes — and got angry blowback from residents and 【business】 owners who claimed there
+84 | It can duly contribute to companies’ 【business】 performance.
+92 | An increasing amount of data indicates that installing bike lanes raises local 【business】 revenues.
+91 | 【business】 that cities nationwide began allowing them to build curbside seating areas where people could sit, safely, in the
+81 | “For our 【business】, the bike lanes are way worse than Covid
+85 | They are vital to keeping a dominant position in 【business】 transactions.    ?P:in business
+
+============================================================
+## 词：working    本段 16 句    模式：全标（每句都写）
+原释义：adj.工作的; 有效的; 运转的. n.工作; 操作. v.工作(work 的现在分词).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 工作，做事；从事（work on/with/for）    B 样本 54    例：First, le are working to
+  1  adj. 工作的，在职的（working environment, working week, working parents）    B 样本 22    例：Better working conditions.
+  2  v. （机器等）运转，起作用    B 样本 1    例：the middle of a critical meeting, are expected to instantly fix the projector that's no longer working.
+  3  v. 锻炼，使用（肌肉）    B 样本 1    例：It’s great to stay fit and healthy, but standard exercise routines and sports only work the same muscles repeatedly. [21] With extreme sports, you’ll be working entirely different muscles, and that means you get an all-over workout.
+  4  n. 工作，运转方式    B 样本 0
+已标过的短语：work out（2）
+口径说明（照此执行）：
+  - working out 按 P:work out；working from home 等动名词用法按义项 0；working parents 按义项 1。
+句子：
+91 | Friedman believes inequality in the U.S. largely explains why increasing productivity has not resulted in reduced 【working】
+86 | To exemplify how remote 【working】 affects the economy.
+85 | productivity stopped 【working】 around 1973.Thus, they had to keep 【working】 just as much in order to maintain their
+90 | Employees can benefit as much from remote 【working】 as their employers.    ?P:as...as
+88 | There is no point in transferring office work to 【working】 from home.
+94 | What is the author’s opinion on 【working】 from home?
+80 | They are both committed to 【working】 into their 70s.
+83 | Workers who rejected 【working】 long hours tended to make regular adjustments in order to achieve work-life balance.
+84 | To show the impact of remote 【working】 on productivity.    ?P:work on
+81 | To illustrate the ongoing change in 【working】 patterns.
+92 | Employers’ gain from remote 【working】 should go to employees as compensation.
+89 | American workers’ average weekly 【working】 time has not changed for nearly half a century.
+93 | An economist’s prediction about a shorter average 【working】 week seemed to be correct for a time in the 20th century.
+82 | with when the 【working】 week stopped shrinking.
+95 | According to Keynes, there would be a shorter 【working】 week with everyone’s standard of living continuing to rise.
+87 | are those shorter 【working】 weeks.

@@ -1,0 +1,962 @@
+{
+ "as a whole": {
+  "canonical": "as a whole",
+  "pos": "adv.",
+  "zh": "作为整体，总体上",
+  "example": {
+   "id": 2,
+   "en": "as a whole, it is not at all the case for the median American worker.",
+   "zh": "总体而言，对普通美国工人来说完全不是这样。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "as a result of": {
+  "canonical": "as a result of",
+  "pos": "prep.",
+  "zh": "由于，作为……的结果",
+  "example": {
+   "id": 0,
+   "en": "They may cease to exist as a result of enjoying too good a life.",
+   "zh": "它们可能因为生活过于优越而不复存在。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "play a part": {
+  "canonical": "play a part",
+  "pos": "v.",
+  "zh": "起作用，参与（常接 in）",
+  "example": {
+   "id": 0,
+   "en": "Gender plays a part.",
+   "zh": "性别也起一定作用。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a mess": {
+  "canonical": "make a mess of",
+  "pos": "v.",
+  "zh": "把……搞砸，弄得一团糟",
+  "example": {
+   "id": 0,
+   "en": "He made a mess of the nursing home.",
+   "zh": "他把养老院搞得一团糟。"
+  },
+  "valid": true,
+  "note": "与 make a mess of 合并（同样的句子；第3句无 of）"
+ },
+ "a world apart": {
+  "canonical": "a world apart",
+  "pos": "adj.",
+  "zh": "截然不同，相差甚远",
+  "example": {
+   "id": 0,
+   "en": "It was a world apart from her undergraduate days at the University of California–Berkeley majoring in political science.",
+   "zh": "这与她在加州大学伯克利分校读政治学本科的日子截然不同。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "give a damn": {
+  "canonical": "give a damn",
+  "pos": "v.",
+  "zh": "在乎，关心（口语）",
+  "example": {
+   "id": 0,
+   "en": "In light of Hershfield’s study, one simple question arises: Is it possible to make our present selves give a damn about",
+   "zh": "根据赫什菲尔德的研究，出现了一个简单的问题：能否让现在的自己去关心……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take a chance": {
+  "canonical": "take a chance",
+  "pos": "v.",
+  "zh": "冒险，碰运气",
+  "example": {
+   "id": 0,
+   "en": "Bill Thomas took a chance.",
+   "zh": "比尔·托马斯冒了一次险。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "one at a time": {
+  "canonical": "one at a time",
+  "pos": "adv.",
+  "zh": "一次一个，逐个地",
+  "example": {
+   "id": 0,
+   "en": "In an experiment, a researcher will place nuts into a can one at a time",
+   "zh": "在一项实验中，研究人员会把坚果一次一个地放进罐子里。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a career out of": {
+  "canonical": "make a career out of",
+  "pos": "v.",
+  "zh": "以……为职业，靠……谋生",
+  "example": {
+   "id": 0,
+   "en": "Fishbach of the University of Chicago have made a career out of studying the differences between the goals that people",
+   "zh": "芝加哥大学的菲什巴赫等人以研究人们不同目标之间的差异为业。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a living": {
+  "canonical": "make a living",
+  "pos": "v.",
+  "zh": "谋生，维持生计",
+  "example": {
+   "id": 0,
+   "en": "Talking about work-life balance is said to be a privilege reserved for the better-off, not for those who barely make a living.",
+   "zh": "据说谈论工作与生活的平衡是富裕人群的特权，而不属于勉强糊口的人。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a case for": {
+  "canonical": "make a case for",
+  "pos": "v.",
+  "zh": "为……陈述理由，论证……的合理性",
+  "example": {
+   "id": 0,
+   "en": "Design technology has become a tricky subject to make a case for, and we’ve heard of departments",
+   "zh": "设计与技术已成为一门很难为之辩护的学科，我们听说有些系……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a habit of": {
+  "canonical": "make a habit of",
+  "pos": "v.",
+  "zh": "养成……的习惯",
+  "example": {
+   "id": 0,
+   "en": "But it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.",
+   "zh": "但通过养成批判性思考的习惯，比如考虑对立观点和做成本收益分析，是可以避免这类代价高昂的错误的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "not a moment too soon": {
+  "canonical": "not a moment too soon",
+  "pos": "adv.",
+  "zh": "正是时候，一刻也不算早",
+  "example": {
+   "id": 0,
+   "en": "It is not a moment too soon",
+   "zh": "这真是正当其时。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take sth with a grain of salt": {
+  "canonical": "take sth with a grain of salt",
+  "pos": "v.",
+  "zh": "对……持保留态度，不全信",
+  "example": {
+   "id": 0,
+   "en": "However, remember to take the reviews you read with a grain of salt—many of them are written by scorned employees.",
+   "zh": "不过，记得对你读到的评价持保留态度，很多是被鄙视的员工写的。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a while": {
+  "canonical": "a while",
+  "pos": "n.",
+  "zh": "一会儿，一段时间",
+  "example": {
+   "id": 0,
+   "en": "Rest a while to avoid fatigue driving.",
+   "zh": "休息一会儿，避免疲劳驾驶。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "have a lot to do with": {
+  "canonical": "have a lot to do with",
+  "pos": "v.",
+  "zh": "与……大有关系",
+  "example": {
+   "id": 0,
+   "en": "Job satisfaction has a lot to do with company culture.",
+   "zh": "工作满意度与公司文化大有关系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "one day at a time": {
+  "canonical": "one day at a time",
+  "pos": "adv.",
+  "zh": "一天一天地，循序渐进",
+  "example": {
+   "id": 0,
+   "en": "on sticking to those small positive habits one day at a time, it becomes easier to stay strong and achieve that delayed reward.",
+   "zh": "一天一天地坚持那些积极的小习惯，就更容易保持坚强，获得延迟的回报。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a bunch of": {
+  "canonical": "a bunch of",
+  "pos": "det.",
+  "zh": "一群，一堆，许多",
+  "example": {
+   "id": 0,
+   "en": "genes, each contributing a little to the outcome, together with a bunch of environmental factors.",
+   "zh": "许多基因各自对结果贡献一点，再加上一堆环境因素。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "go a long way towards": {
+  "canonical": "go a long way towards",
+  "pos": "v.",
+  "zh": "大大有助于",
+  "example": {
+   "id": 0,
+   "en": "A little examination can go a long way towards identifying bias associated with the funding source.",
+   "zh": "稍加审查就能大大有助于发现与资金来源相关的偏见。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a helping hand": {
+  "canonical": "a helping hand",
+  "pos": "n.",
+  "zh": "援助之手，帮助",
+  "example": {
+   "id": 0,
+   "en": "The scientific community, however, can provide a helping hand to the WFP.",
+   "zh": "不过，科学界可以向世界粮食计划署伸出援手。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "ahead of": {
+  "canonical": "ahead of",
+  "pos": "prep.",
+  "zh": "在……之前；领先于，在……前面",
+  "example": {
+   "id": 1,
+   "en": "Scotland will reach the national target in carbon emissions reduction ahead of schedule.",
+   "zh": "苏格兰将提前实现全国碳减排目标。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "on behalf of": {
+  "canonical": "on behalf of",
+  "pos": "prep.",
+  "zh": "代表，为了……",
+  "example": {
+   "id": 1,
+   "en": "As the organizer of the activity, you are now to write an invitation letter to the invited speakers on behalf of your class.",
+   "zh": "作为活动的组织者，你现在要代表你的班级给受邀演讲者写一封邀请信。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "of course": {
+  "canonical": "of course",
+  "pos": "adv.",
+  "zh": "当然；（让步）当然，诚然",
+  "example": {
+   "id": 7,
+   "en": "Of course, teens are still reading.",
+   "zh": "当然，青少年仍在阅读。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make use of": {
+  "canonical": "make use of",
+  "pos": "v.",
+  "zh": "利用，使用",
+  "example": {
+   "id": 0,
+   "en": "They make use of modern technology.",
+   "zh": "他们利用现代科技。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in the process of": {
+  "canonical": "in the process of",
+  "pos": "prep.",
+  "zh": "在……的过程中，正在……",
+  "example": {
+   "id": 0,
+   "en": "The dog owner’s family are currently in the process of moving.",
+   "zh": "狗主人一家目前正在搬家。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "walks of life": {
+  "canonical": "walks of life",
+  "pos": "n.",
+  "zh": "各行各业，各种社会阶层",
+  "example": {
+   "id": 0,
+   "en": "Its participants came from various walks of life.",
+   "zh": "参加者来自各行各业。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of": {
+  "canonical": "out of",
+  "pos": "prep.",
+  "zh": "离开，从……出来；出于；缺乏；（几个）中的",
+  "example": {
+   "id": 2,
+   "en": "The elephant wandered out of the jungle and fell into the well.",
+   "zh": "大象从丛林里走出来，掉进了井里。"
+  },
+  "valid": true,
+  "note": "一词多义，字面方向义（out of the room）不算短语，真题多为 nine out of ten、out of favor、out of 缺乏等；拿不准是否整体收录"
+ },
+ "because of": {
+  "canonical": "because of",
+  "pos": "prep.",
+  "zh": "因为，由于",
+  "example": {
+   "id": 0,
+   "en": "It has risen because of bird flu.",
+   "zh": "由于禽流感，它上升了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "outside of": {
+  "canonical": "outside of",
+  "pos": "prep.",
+  "zh": "在……之外",
+  "example": {
+   "id": 0,
+   "en": "face from the real thing outside of the lab.",
+   "zh": "……与实验室之外的真实情况。"
+  },
+  "valid": false,
+  "note": "= outside，只是口语里多一个 of，字面义可推出；两句都是字面「在……之外」，不必当固定短语记"
+ },
+ "in front of": {
+  "canonical": "in front of",
+  "pos": "prep.",
+  "zh": "在……前面；当着……的面",
+  "example": {
+   "id": 4,
+   "en": "In this study, students came into the laboratory and were asked to give a public speech in front of",
+   "zh": "然后学生们必须在表情严肃的评委面前做求职演讲。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "instead of": {
+  "canonical": "instead of",
+  "pos": "prep.",
+  "zh": "代替，而不是",
+  "example": {
+   "id": 3,
+   "en": "They put jam instead of butter on bread.",
+   "zh": "他们在面包上抹果酱而不是黄油。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "with the help of": {
+  "canonical": "with the help of",
+  "pos": "prep.",
+  "zh": "在……的帮助下",
+  "example": {
+   "id": 0,
+   "en": "With the help of Denis Hayes, a graduate student at Harvard University, Nelson",
+   "zh": "在哈佛大学研究生丹尼斯·海斯的帮助下，纳尔逊……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take care of": {
+  "canonical": "take care of",
+  "pos": "v.",
+  "zh": "照顾，照料；处理",
+  "example": {
+   "id": 1,
+   "en": "Take care of their well-being.",
+   "zh": "关心他们的健康与幸福。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "regardless of": {
+  "canonical": "regardless of",
+  "pos": "prep.",
+  "zh": "不管，不顾",
+  "example": {
+   "id": 3,
+   "en": "But now that you mention it, I do think getting another phone so soon is wasteful, regardless of the cost.",
+   "zh": "你这么一说，我确实觉得这么快再买部手机很浪费，不管多少钱。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "run out of": {
+  "canonical": "run out of",
+  "pos": "v.",
+  "zh": "用完，耗尽",
+  "example": {
+   "id": 0,
+   "en": "They ran out of food completely.",
+   "zh": "他们的食物完全吃光了。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in favor of": {
+  "canonical": "in favor of",
+  "pos": "prep.",
+  "zh": "赞成，支持；而不选（别的）",
+  "example": {
+   "id": 0,
+   "en": "Paper books are being ignored, in favor of screens.",
+   "zh": "纸质书被冷落，人们转向了屏幕。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take advantage of": {
+  "canonical": "take advantage of",
+  "pos": "v.",
+  "zh": "利用；占（某人）便宜",
+  "example": {
+   "id": 0,
+   "en": "Take advantage of the latest technologies.",
+   "zh": "利用最新的技术。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "the first of its kind": {
+  "canonical": "the first of its kind",
+  "pos": "n.",
+  "zh": "同类中的第一个，首创",
+  "example": {
+   "id": 0,
+   "en": "The service, which claims to be the first of its kind in India, offers only one route, but Bangalore airport will add more once it gets approval.",
+   "zh": "这项服务号称印度首创，目前只有一条路线，但班加罗尔机场一获批准就会增加更多。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get rid of": {
+  "canonical": "get rid of",
+  "pos": "v.",
+  "zh": "摆脱，除去",
+  "example": {
+   "id": 1,
+   "en": "What does the author suggest people do to get rid of boredom?",
+   "zh": "作者建议人们怎样摆脱无聊？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "think of sth as": {
+  "canonical": "think of sth as",
+  "pos": "v.",
+  "zh": "把……看作，认为……是",
+  "example": {
+   "id": 2,
+   "en": "The process seems so normal that we sometimes think of it as a",
+   "zh": "这个过程看起来太正常了，我们有时会把它看作……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "kind of": {
+  "canonical": "kind of",
+  "pos": "adv.",
+  "zh": "有点，有几分（口语）",
+  "example": {
+   "id": 3,
+   "en": "Birthday reminders can be helpful, but I kind of worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.",
+   "zh": "生日提醒也许有帮助，但我有点担心自己没法把生日办得像应有的那样精彩。"
+  },
+  "valid": false,
+  "note": "5句里4句是名词 kind（种类）+ of，如 what kind of people，按 kind 的义项标即可；只有第3句的「有点」算短语，且仅此一例"
+ },
+ "in terms of": {
+  "canonical": "in terms of",
+  "pos": "prep.",
+  "zh": "就……而言，在……方面",
+  "example": {
+   "id": 1,
+   "en": "They are similar in terms of social skills.",
+   "zh": "他们在社交能力方面很相似。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of order": {
+  "canonical": "out of order",
+  "pos": "adj.",
+  "zh": "发生故障，不能正常运转",
+  "example": {
+   "id": 0,
+   "en": "It goes out of order frequently.",
+   "zh": "它经常出故障。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take sth out of": {
+  "canonical": "take sth out of",
+  "pos": "v.",
+  "zh": "消除……中的……，使……不再",
+  "example": {
+   "id": 0,
+   "en": "It’s a tool you can make yourself to take the stress out of studying.",
+   "zh": "这是个你可以自己做的工具，用来消除学习的压力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "a great deal of": {
+  "canonical": "a great deal of",
+  "pos": "det.",
+  "zh": "大量的",
+  "example": {
+   "id": 0,
+   "en": "It generates a great deal of electronic garbage.",
+   "zh": "它产生大量电子垃圾。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of work": {
+  "canonical": "out of work",
+  "pos": "adj.",
+  "zh": "失业",
+  "example": {
+   "id": 0,
+   "en": "And if you’re out of work",
+   "zh": "如果你失业了……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in search of": {
+  "canonical": "in search of",
+  "pos": "prep.",
+  "zh": "寻找，寻求",
+  "example": {
+   "id": 2,
+   "en": "In the early times, pigs were allowed to wander freely in search of food.",
+   "zh": "早年间，猪被允许四处自由游荡寻找食物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "keep track of": {
+  "canonical": "keep track of",
+  "pos": "v.",
+  "zh": "记录；跟踪，掌握……的动态",
+  "example": {
+   "id": 0,
+   "en": "Keep track of left-handed children’s school performance.",
+   "zh": "留意左撇子孩子的在校表现。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "point of view": {
+  "canonical": "point of view",
+  "pos": "n.",
+  "zh": "观点，看法；角度",
+  "example": {
+   "id": 0,
+   "en": "The art of persuasion means convincing others to agree with your point of view or to follow your course of action.",
+   "zh": "说服的艺术是让别人同意你的观点或按你的做法行事。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "let go of": {
+  "canonical": "let go of",
+  "pos": "v.",
+  "zh": "放手，放下，摆脱",
+  "example": {
+   "id": 0,
+   "en": "We should be helping our kids understand who they are, even if that means letting go of who we think they should be.",
+   "zh": "我们应该帮助孩子认清自己是谁，即使这意味着放下我们认为他们应该成为的样子。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of reach": {
+  "canonical": "out of reach",
+  "pos": "adj.",
+  "zh": "够不着，遥不可及",
+  "example": {
+   "id": 0,
+   "en": "Hope is not entirely out of reach.",
+   "zh": "希望并非完全遥不可及。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "come out of": {
+  "canonical": "come out of",
+  "pos": "v.",
+  "zh": "从……出来",
+  "example": {
+   "id": 0,
+   "en": "is the story of 92-year-old Henry Dryer, who comes out of dementia while listening to songs from his youth.",
+   "zh": "讲述92岁的亨利·德赖尔的故事，他在听青年时代的歌曲时从痴呆中清醒过来。"
+  },
+  "valid": false,
+  "note": "come + out of 只是字面的「从……出来」，按 come 的义项标即可；第0句 comes out of dementia 也是从某状态中走出的延伸，不必单记"
+ },
+ "in place of": {
+  "canonical": "in place of",
+  "pos": "prep.",
+  "zh": "代替，取代",
+  "example": {
+   "id": 0,
+   "en": "So you think I should arrange my notes using color and pictures in place of text.",
+   "zh": "所以你认为我应该用颜色和图片代替文字来整理笔记。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "out of date": {
+  "canonical": "out of date",
+  "pos": "adj.",
+  "zh": "过时的；过期的",
+  "example": {
+   "id": 0,
+   "en": "They aren’t going to deliver you food that is out of date.",
+   "zh": "他们不会给你送过期的食物。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in light of": {
+  "canonical": "in light of",
+  "pos": "prep.",
+  "zh": "鉴于，根据",
+  "example": {
+   "id": 1,
+   "en": "Organizations should reconsider the appropriateness of their performance evaluation procedures in light of the shift to remote work.",
+   "zh": "鉴于向远程办公的转变，各组织应重新考虑其绩效评估程序是否合适。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "body of work": {
+  "canonical": "body of work",
+  "pos": "n.",
+  "zh": "（某人的）全部作品",
+  "example": {
+   "id": 0,
+   "en": "He was ___33___ productive and his amazing body of work is considered fascinating by the critics.",
+   "zh": "他多产，评论家认为他数量惊人的作品令人着迷。"
+  },
+  "valid": true,
+  "note": "body of 的组合，整体是「全部作品」；是否算必记短语较拿不准，仅1例"
+ },
+ "in view of": {
+  "canonical": "in view of",
+  "pos": "prep.",
+  "zh": "鉴于，考虑到",
+  "example": {
+   "id": 0,
+   "en": "“In view of the climate crisis, I didn’t want to open the same restaurant,” Humm told the Financial Times in an interview.",
+   "zh": "鉴于气候危机，我不想再开一家同样的餐厅。”胡姆在接受《金融时报》采访时说。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in spite of": {
+  "canonical": "in spite of",
+  "pos": "prep.",
+  "zh": "尽管，不顾",
+  "example": {
+   "id": 1,
+   "en": "In spite of progress, the number of women in top positions of big companies remains extremely small.",
+   "zh": "尽管有进步，大公司高层职位上的女性仍然极少。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "lots of": {
+  "canonical": "lots of",
+  "pos": "det.",
+  "zh": "许多，大量",
+  "example": {
+   "id": 1,
+   "en": "Therefore, I suggest you spend more time in the park with your friends, but make sure you apply lots of skin protection and fill up those water bottles, too.",
+   "zh": "因此，我建议你多和朋友待在公园里，但一定要做好防晒，并把水瓶都灌满。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "sort of": {
+  "canonical": "sort of",
+  "pos": "adv.",
+  "zh": "有点，有几分",
+  "example": {
+   "id": 2,
+   "en": "“Having that sort of curiosity is almost like a protective gear from getting into boredom,” she says.",
+   "zh": "拥有那种好奇心几乎就像一件防止无聊的护具，她说。"
+  },
+  "valid": false,
+  "note": "4句里3句是名词 sort（种类）+ of，按 sort 的义项标即可；只有第3句 sort of the unstated expectation 近似「某种」，不足以单列"
+ },
+ "take note of": {
+  "canonical": "take note of",
+  "pos": "v.",
+  "zh": "注意到，留意",
+  "example": {
+   "id": 0,
+   "en": "Take note of the message though fatigued.",
+   "zh": "虽然疲劳，也要留意这条信息。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "at the expense of": {
+  "canonical": "at the expense of",
+  "pos": "prep.",
+  "zh": "以牺牲……为代价，损害……",
+  "example": {
+   "id": 0,
+   "en": "It benefits employers at the expense of employees.",
+   "zh": "它使雇主受益，却以牺牲雇员为代价。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "get the most out of": {
+  "canonical": "get the most out of",
+  "pos": "v.",
+  "zh": "充分利用，从……中获得最大收益",
+  "example": {
+   "id": 0,
+   "en": "It's obvious that students should go to school every day to get the most out of education.",
+   "zh": "很明显，学生应该每天去上学，以便充分利用教育。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make a mess of": {
+  "canonical": "make a mess of",
+  "pos": "v.",
+  "zh": "把……搞砸，弄得一团糟",
+  "example": {
+   "id": 0,
+   "en": "He made a mess of the nursing home.",
+   "zh": "他把养老院搞得一团糟。"
+  },
+  "valid": true,
+  "note": "与 make a mess 合并，规范写法统一为 make a mess of"
+ },
+ "on top of": {
+  "canonical": "on top of",
+  "pos": "prep.",
+  "zh": "除……之外还；在……之上",
+  "example": {
+   "id": 0,
+   "en": "\"Many people don't want to be forced into having fun or making friends, especially not on top of their busy jobs.",
+   "zh": "许多人不想被迫去玩乐或交朋友，尤其是在工作已经很忙的情况下。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in case of": {
+  "canonical": "in case of",
+  "pos": "prep.",
+  "zh": "万一，如果发生……",
+  "example": {
+   "id": 1,
+   "en": "It will probably not guarantee the safety of drivers in case of accidents.",
+   "zh": "万一发生事故，它可能无法保证司机的安全。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "first of all": {
+  "canonical": "first of all",
+  "pos": "adv.",
+  "zh": "首先，第一",
+  "example": {
+   "id": 0,
+   "en": "First of all, know what you want.",
+   "zh": "首先，要清楚你想要什么。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in violation of": {
+  "canonical": "in violation of",
+  "pos": "prep.",
+  "zh": "违反，违背",
+  "example": {
+   "id": 0,
+   "en": "He acted in violation of the state law.",
+   "zh": "他的行为违反了州法律。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "school of thought": {
+  "canonical": "school of thought",
+  "pos": "n.",
+  "zh": "学派，思想流派",
+  "example": {
+   "id": 0,
+   "en": "The researchers said there are numerous schools of thought that propose differing psychological methods for strengthening relationships.",
+   "zh": "研究人员说，有许多学派提出了不同的心理学方法来增进关系。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "be made up of": {
+  "canonical": "be made up of",
+  "pos": "v.",
+  "zh": "由……组成",
+  "example": {
+   "id": 0,
+   "en": "Juices containing vegetables can provide more nutrients and less sugar than juices made up of just fruit — but they still",
+   "zh": "含蔬菜的果汁比纯水果汁能提供更多营养、更少糖分，但它们仍然……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in the absence of": {
+  "canonical": "in the absence of",
+  "pos": "prep.",
+  "zh": "在没有……的情况下，缺少……时",
+  "example": {
+   "id": 1,
+   "en": "In the absence of Federal legislation, some states in the US have passed laws concerning paid family leave.",
+   "zh": "在缺乏联邦立法的情况下，美国一些州已通过了有关带薪家庭假的法律。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "state of affairs": {
+  "canonical": "state of affairs",
+  "pos": "n.",
+  "zh": "事态，局面，状况",
+  "example": {
+   "id": 0,
+   "en": "among students who believed that worsening grades were a permanent and hopeless state of affairs.",
+   "zh": "在那些认为成绩下滑是一种永久而无望的局面的学生中……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "take charge of": {
+  "canonical": "take charge of",
+  "pos": "v.",
+  "zh": "负责，掌管，主动处理",
+  "example": {
+   "id": 0,
+   "en": "The good news is, women are more likely than men to take charge of their stress and manage it, the American Psychological Association reports.",
+   "zh": "好消息是，据美国心理学会报告，女性比男性更倾向于掌控并管理自己的压力。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "in charge of": {
+  "canonical": "in charge of",
+  "pos": "adj.",
+  "zh": "负责，主管",
+  "example": {
+   "id": 0,
+   "en": "The temptation for those in charge of education budgets to trade teachers for technology could be so strong that they ignore the disadvantages of distance learning.",
+   "zh": "负责教育预算的人可能强烈想用技术换掉教师，以致忽视了远程学习的缺点。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "all sorts of": {
+  "canonical": "all sorts of",
+  "pos": "det.",
+  "zh": "各种各样的",
+  "example": {
+   "id": 0,
+   "en": "And poor sleep can cause all sorts of health problems.",
+   "zh": "睡眠不好会引起各种各样的健康问题。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "make fun of": {
+  "canonical": "make fun of",
+  "pos": "v.",
+  "zh": "取笑，嘲笑",
+  "example": {
+   "id": 0,
+   "en": "fun of in gaming circles as a “spreadsheet simulator ”, the economy of the fictional EVE universe is",
+   "zh": "……在游戏圈里被取笑为“电子表格模拟器”，虚构的 EVE 宇宙的经济……"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "become of": {
+  "canonical": "become of",
+  "pos": "v.",
+  "zh": "（某人或某物）结果怎样，下场如何",
+  "example": {
+   "id": 0,
+   "en": "What became of Red Rum after his career ended?",
+   "zh": "红朗姆在职业生涯结束后怎么样了？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "frame of mind": {
+  "canonical": "frame of mind",
+  "pos": "n.",
+  "zh": "心境，心态",
+  "example": {
+   "id": 0,
+   "en": "wear puts us in the right frame of mind to conduct business.",
+   "zh": "穿的衣服让我们进入适合做生意的心境。"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "of importance": {
+  "canonical": "of importance",
+  "pos": "adj.",
+  "zh": "重要的",
+  "example": {
+   "id": 1,
+   "en": "What does the passage say is of importance regarding genetic tests?",
+   "zh": "关于基因检测，文章说什么是重要的？"
+  },
+  "valid": true,
+  "note": ""
+ },
+ "not that i know of": {
+  "canonical": "not that I know of",
+  "pos": "adv.",
+  "zh": "据我所知没有",
+  "example": {
+   "id": 0,
+   "en": "Not that I know of.",
+   "zh": "据我所知没有。"
+  },
+  "valid": true,
+  "note": ""
+ }
+}

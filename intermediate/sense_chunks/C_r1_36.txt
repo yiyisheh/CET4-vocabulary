@@ -1,0 +1,616 @@
+# 任务 C_r1_36：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_36.labels.txt
+
+============================================================
+## 词：is    本段 600 句    模式：全标（每句都写）
+原释义：v.是(be 的第三人称单数现在式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  v. 是（连接主语和表语，说明身份、性质、状态）    B 样本 43    例：The event is free.
+  1  aux. 正在（构成进行时 is doing）    B 样本 26    例：He is feeling exhausted.
+  2  aux. 被（构成被动语态 is done）    B 样本 10    例：It is owned by the local government.
+  3  v. 有，存在（there is）    B 样本 1    例：Given how unsettling and haunting nightmares can be, is there a way for dreamers to _27_, or even turn off, these bad dreams as they happen?
+  4  aux. 要，应当（is to do，表示安排或指令）    B 样本 0
+  5  v. 在，位于（某处）    B 样本 0
+已标过的短语：be going to（1）；be used to（1）
+口径说明（照此执行）：
+  - 80 句里约四分之一是作文题干「Suppose your university is organizing/seeking…」，进行时占比被题干抬高；is being spread（29）按被动标。
+句子：
+821 | Understand just how complicated the financial aid process 【is】.
+953 | Can the date you were born affect how successful your life 【is】?
+963 | future really 【is】.
+1052 | G) In one recent study, we examined 360 adolescents' beliefs about the nature of "smartness"-that 【is】,
+1083 | With genetic testing becoming increasingly popular, many people are left wondering exactly how accurate it 【is】.
+1117 | Again, there 【is】
+1137 | For millions of people, work 【is】
+1144 | how complex the genetics behind a trait 【is】.
+1157 | Think about when you're cooking, and you just want to know what the next step in the recipe 【is】.
+1198 | Even so, it can be difficult for those who do not study music theory to see this as an indicator, since it 【is】
+1253 | Consider what time it 【is】.
+920 | That 【is】 a    ?P:that is
+961 | This 【is】 a
+879 | [23] But 64% of the young adults surveyed said parents’ financial support to children age 25 to 34 【is】 “a bad thing”, because it makes those kids dependent.
+1146 | English 【is】 a base-10 or decimal ( -r :ttr. -$1] e{j )
+1244 | It 【is】 a behavior we are born with more than one we learn.
+1243 | This 【is】 a bit below his four-to eight-fold predicted range.
+1279 | 【Is】 a colleague being disrespectful of your time?
+791 | During heavy rains, rivers along the Amazon rainforest turn a pink shade, and with it male dolphins are harder to detect. [21] The Amazon wetland system, fed by the Amazon River, 【is】 a crucial place for pink dolphins to breed, and since 2018 has been granted internationally protected status.
+750 | argue that work-life balance 【is】 “a cycle, not an achievement” In their 2020 study, the researchers interviewed nearly 80
+733 | F) “No” 【is】 a decision.
+1099 | H) The larger question, though, 【is】 a familiar one: 【Is】 there room for Formula One in the ever-crowded sports landscape of the United States?
+724 | He 【is】 a famous architect.
+685 | “Yes” 【is】 a form of time debt.
+1186 | Formula One 【is】 a global, famous brand of stars.
+902 | How to determine if a company 【is】 a good fit for you
+984 | Luckily, there are a few things you can do to determine whether or not a company 【is】 a good fit for you—before you ever sign your name on that dotted line.
+1206 | You may not be the one conducting the actual interview, but you’re still trying to determine whether or not the company 【is】 a good fit for you.
+751 | The findings are important because there 【is】 a growing body of evidence that dogs can help children in many ways.
+952 | Some people even believe that not simply adopting your husband’s last name 【is】 a huge sign of disrespect and a lack of commitment.
+974 | What 【is】 a key strength of analytical decision-making?
+1042 | Richard Thompson Ford 【is】 a law professor, and you probably won't forget that for even one page.
+769 | He 【is】 a local entrepreneur.
+933 | What does the passage say 【is】 a major flaw of analytical decision-making?
+726 | Tooth pain 【is】 a _28_ mechanism that ensures when a tooth 【is】 being damaged we’ll notice and do something about it.
+817 | The golden rule 【is】 a moral principle which states that you should treat others the way you want to be treated yourself.
+1267 | On the other hand, there 【is】 a more rational approach to making decisions.
+828 | This 【is】 a nap joint.
+872 | 【Is】 a nap worth $25?
+968 | 【is】 a natural result of staying focused on the process of doing anything.
+977 | In fact, acquiring the exact meaning of number words 【is】 a painstaking process that takes
+1150 | This 【is】 a pressing issue because many people are becoming unemployed due to the COVID-19 pandemic.
+980 | G) Surface acting 【is】 a prime example of “emotional labor,” a concept that the writer Jess Zimmerman made familiar in a 2015 essay.
+816 | If teeth didn’t feel pain, we might _30_ to use them in situations that damage them, and for humans, damaging _31_ teeth 【is】 a problem because, unlike crocodiles, we can’t _32_ them.
+945 | Employers typically worry that social media 【is】 a productivity killer; more than half of U.S. employers reportedly block access to social media at work.
+1241 | It 【is】 a rare skill often found in fluid organisations.
+1265 | What 【is】 a reason for the author to be in the habit of saying “busy” when asked how he 【is】 doing?
+1065 | Whether your future husband insisting on your adopting his last name 【is】 a red flag to you or not, it 【is】 still something that you should take into consideration.
+778 | “Yes” 【is】 a responsibility.
+938 | It 【is】 a result of doing boring tasks.
+1008 | The state of your life right now 【is】 a result of the habits
+960 | And studies show that pupils don’t fact-check information online—“smart searching” 【is】 a skill schools need to teach urgently.
+1219 | It 【is】 a strong
+1034 | For as long as there are homeless people, there 【is】 a tendency to blame the victims themselves for their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+917 | Other studies, including studies of wheat in India and corn in Africa, also found that there 【is】 a threshold above which yields sharply decline: crops can adapt and move, but only to a point.
+882 | There 【is】 a time-honoured tradition in the US for school kids to stay at home on “snow days”.
+1181 | Nevertheless, emotional intelligence 【is】 a useful skill to have, as long as you learn to also properly cope with emotions—both others’ and your own, says Bechtoldt.
+1158 | "Other than they're both cars, the NASCAR fan base 【is】 a very different fan base," Carey said.
+870 | London 【is】 a very large and international city.
+1166 | Talking about work-life balance “【is】 a very privileged conversation”, says Lechner.
+683 | Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine 【is】 $20 a visit), these fees often do not include extra fees for lab tests or prescription medications (药物).
+1041 | [24] Productive conflict 【is】 a vital part of teams and organizations that want to push forward and do more.
+1156 | Hyphenating the two names 【is】 a way for each person to, at least a little bit, “win” the argument.
+688 | It 【is】 a way of you keeping your own identity while also making your future husband happy.
+714 | From our experience so far, flexible seating enhances student ownership of space and engagement in learning, while reducing rates of student disengagement and disciplinary actions. [21] It 【is】 a win for all concerned.
+699 | way that your body 【is】 able to use oxygen to burn fat for energy.
+1207 | Remote work 【is】 about more than just working from home—it means working differently.
+738 | E) "The most frequently heard complaint 【is】 about rainfall predictions," says Mr Dittoh, who lives in Tamale, northern Ghana.
+1060 | Personal teaching 【is】 about teachers showing students a higher path, and about young people going through the process together.
+794 | with the length of time that a student 【is】 absent from school and how regularly this occurs.
+774 | This 【is】 according to the newly _27_ study by Harvard Graduate School of Education professor Todd Smith.
+761 | The 115-year-old 【is】 active on social media, regularly sharing aspects of her life. [20] She also shares some of her secrets to living so long.
+1006 | balance” 【is】 actually just a substitute to having a sense of fulfillment and contentment.
+698 | G) But surely all this short-form writing 【is】 affecting literacy?
+749 | The level of impact on students’ educational performance 【is】 all to do
+1204 | “Having that sort of curiosity 【is】 almost like a protective gear from getting into boredom,” she says.
+1171 | And there 【is】 already a growing acceptance
+1007 | Greenpeace, among others, 【is】 also
+822 | It 【is】 also a development issue.
+905 | E) If Kelli stands out, it’s because she 【is】 also a gifted writer.
+919 | L) Distraction 【is】 also a serious issue.
+942 | While cheek-kissing for Latin Americans 【is】 also a universal greeting form, it does not require such a high degree of relational closeness.
+946 | It 【is】 also by far the world’s most expensive place to get sick.
+719 | The minister 【is】 also _lL to stop public transportation from being cut in ways
+1229 | K) Disconnecting from work and home responsibilities 【is】 also obviously important.
+693 | Credit 【is】 also scarcer in most developing countries.
+1230 | I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, 【is】 always looking for what will make a person or story interesting to viewers: It’s usually a matter of individuality.
+1195 | “There 【is】 always this kind of slip
+1134 | That 【is】, American inequality means that the gains of    ?P:that is
+716 | Playing the piano 【is】 among the things the world’s oldest person believes has contributed to her long life. [19] Branyas Morera 【is】 now 115 years and 320 days old.
+1266 | It 【is】 an adaptable capability required of all workers.
+801 | Sievenpiper concludes that the recommended 150ml of fruit juice per day, which 【is】 an average serving,
+1051 | It 【is】 an effort to transform the restaurant into a luxury one.
+1209 | It 【is】 an essential aspect of life to cooperate with other people.
+734 | This 【is】 an important finding.
+1074 | It may be an uncomfortable process, but good leaders and healthy teams recognize that productive and healthy conflict 【is】 an important part of how they function.
+950 | Saying “no” 【is】 an important skill to develop at any stage of your career because it retains the most important asset in life: your time.
+1086 | The final potential cause 【is】 an increase in snacking and eating out over recent decades-both in terms
+966 | H) New York University’s Lechner agrees that finding that balance 【is】 an ongoing pursuit.
+957 | This 【is】 an opportunity that surely all can agree must not be wasted.
+732 | Can you find a map that shows where the hotel 【is】 and send it to me online?
+911 | H) If you care about outside opinions on your name, you should know that a large portion of today’s society 【is】 annoyed by the hyphenated name.
+731 | I) There 【is】 another depressing reality hidden within even the largest financial aid packages: Colleges often offer the most generous packages during freshman year as a way to attract new students.
+1091 | I) An industry review website like Glassdoor 【is】 another spot to check in order to find some insider information about what you can expect about a company.
+1039 | Whether that’s likely, or even possible, anytime soon, 【is】 anyone’s guess.
+781 | Keeping your name and joining it to your husband’s through hyphenation 【is】 as legal as simply adopting his name or as simply keeping your own and leaving his out of the picture entirely.
+853 | The person watching 【is】 asked to signal when all the nuts have been
+955 | The friends I have who still work in offices inform me their bosses insist that they take the second option, and that napping 【is】 associated with laziness.
+869 | At the same time, your name 【is】 associated with the identity you’ve built up and hyphenation allows you to respect that while also respecting tradition and your husband’s family’s identity.
+1001 | “This argument 【is】, at best, far from sufficient,” he writes.
+1240 | According to a recent study, one in five highly engaged employees 【is】 at risk of burnout (精疲力竭).
+1002 | And it scared them a bit,” Dychtwald said. [25] One big reason they’re struggling 【is】 attributed to college loans, of which the average amounts to $37,000.
+1110 | The increased panda population 【is】 attributed to the fragmentation of their habitat.
+1247 | Almost everyone 【is】 aware of this, but
+1113 | And Game Academy reckons its belief 【is】 backed up by hard data.
+921 | By contrast, only 29% thought supporting men and women age 18 to 24 【is】 bad; the remaining 71% thought that assistance “helps the adult children get ahead”.
+976 | This 【is】 based on higher earnings and avoided costs in
+1250 | Classical music and opera are the very foundation of what our modern music 【is】 based upon.
+866 | This 【is】 because better health aids economic development.
+819 | Perhaps this 【is】 because older people had fewer options when they were starting their careers, at a time when values focused more on stable incomes than _32_ personal missions.
+713 | This 【is】 because the liver enzyme these drugs target 【is】 more active at night.
+744 | That 【is】 because they want to appear more adult, and they know how adults are expected to write.    ?P:that is
+703 | This 【is】 because unauthorised absences tend to
+1203 | This includes professional support from various health and wellness providers if stress 【is】 becoming increasingly overwhelming.
+1090 | It 【is】 becoming more acceptable to many who used to think it offensive
+1180 | The technology 【is】 being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students to the problem with using technology to find answers in a certain way.
+728 | H) Nick Cooper, the founder and co-owner of villa booking company Villa Plus, estimates his company has uncovered more than 200 fake villa websites over the past two years, and doesn’t believe enough 【is】 being done.
+1030 | It 【is】 being heatedly debated worldwide.
+897 | If your definition of boredom 【is】 being quiet, mindful, and reflective, keep it up.
+1130 | Compassion 【is】 being replaced by resignation.
+786 | They feel management 【is】 being too nosy or trying to control their lives too much.
+746 | Although born gray, males of the species are easily identified as they enter adulthood by a decisive pink shade. [20] Their unusual coloring 【is】 believed to be the result of scar tissue from dolphin fights—whether playfighting or a serious bid for a mate.
+1111 | According to a research paper, drinking fruit juice 【is】 beneficial on condition that it 【is】 consumed in reasonable amounts.
+1010 | So while fruit juice 【is】 better than no fruit at all, there
+951 | How 【is】 Bill Thomas’s new concept received?
+1061 | M) It’s a guess how many George Engels in their white jackets are at work these days and another speculation on the number of Kelli Hardings the nation 【is】 blessed with.
+1077 | Flavoured water 【is】 booming: sales of the sparkling variety shot up by 20%, according to the latest analyst data, Meanwhile,
+1128 | Robots are not yet witty, Siri 【is】 boring.
+729 | It 【is】 bound to help us achieve greater success.
+1139 | Your current situation in life 【is】 built on the beliefs and habits you have been practicing daily.
+1263 | Setting up a spoken web 【is】 by no means an easy task.
+910 | Getting old 【is】 by no means something miserable.
+1036 | However, the question 【is】: can a person really be a multitasker?
+1239 | K) Now, after Liberty Media paid $4.4 billion to acquire Formula One, he 【is】 charged with making the investment pay off.
+901 | One common French custom of greetings 【is】 cheek-kissing, but it 【is】 mostly restricted to friends, close acquaintances and family members.
+1022 | These factors could definitely affect the degree to which someone 【is】 comfortable with tactile (触觉的) communication and physical intimacy.
+858 | It 【is】 commonly believed that the great English dramatist and poet William Shakespeare was born in Stratford-on-Avon on April 23, 1564.
+970 | body 【is】 completely false,” says Clemens.
+1064 | It 【is】 considered revolutionary everywhere.
+1082 | One start-up 【is】 convinced that the skills learned by playing games — hard-won through years of training and battle — can
+1009 | them to opt for it at General Certificate of Secondary Education, so we are helping to keep alive something which 【is】 crucial
+725 | Thus, deep reading 【is】 crucial for being a good citizen, a successful college student and a productive employee.
+1170 | 【is】 currently being produced uses similar beats, harmonies, and melodies as those that were used in some of classical
+824 | He 【is】 currently traveling through North America performing with his guitar and his enthusiasm on his Age of Disruption Tour.
+978 | Switzerland’s passport 【is】 dark red, for example, (22) while most European countries prefer a shade of red.
+995 | H) So although many computer assistants can answer simple questions about the weather and play music for us, anything resembling a wide-ranging human conversation 【is】 decades away.
+852 | information 【is】 derived.
+1228 | word"five" in many languages 【is】 derived from the word for "hand.
+1214 | Los Angeles' homeless condition 【is】 deteriorating faster than many people predict.
+765 | Much of that time 【is】 devoted to text messages and social media.
+896 | But they argue that playing computer games to access 【is】 different.
+810 | According to the World Health Organization experts, people’s use of computer games 【is】 different from their use of the Internet, social media and online shopping.
+1080 | Fruit juice 【is】 different from whole fruit in that it contains much less fibre.
+989 | Though it 【is】 difficult and embarrassing, students should make inquiries about what fees they have to pay and why.
+717 | Switching to a new career 【is】 difficult and getting reemployed after a layoff 【is】 even tougher.
+1079 | According to an officer of the Creative Industries Federation, there 【is】 difficulty now in recruiting engineers in the UK.
+903 | Doubts about the practicability of diversity have a greater weight if a person 【is】 directly affected.
+1131 | One possible solution to the food security problem 【is】 diversification of diet.
+691 | This 【is】 done in hopes of reducing the enormous amount of plastic pollution in the oceans.
+694 | All this 【is】 done with the aim of improving workplace efficiency, collaboration and cohesion.
+783 | This 【is】 down to climate change, he believes.
+982 | This _28_ of biographical information 【is】 due primarily to his social _29_: he was not a noble, but the son of a leather trader.
+940 | This 【is】 due to a lack of action from ministers, who’ve failed to take any meaningful action for years.
+684 | The nearest metro station 【is】 Earl’s Court.
+1189 | From this different perspective, you can not only be multitasking but this ability can also be taught: something that 【is】 easier in fluid organisations, which favour flexibility in their working practices.    ?P:that is
+867 | And it’s true; turning down opportunities 【is】 easier when you can fall back on the safety net provided by power, money, and authority.
+845 | H) As it 【is】 easy to consume large amounts of fruit juice quite quickly, extra calories are taken in.
+936 | F) This conclusion 【is】 echoed by work with anumeric children in industrialized societies.
+934 | “Their cooking 【is】 elevated
+1182 | It 【is】 especially difficult for people to decline to do what their superiors ask them to do.
+800 | Modesty may be key when cooperation 【is】 essential, but the researchers also found that in some cases, status signaling has advantages.
+925 | of your emotional state 【is】 essential in order to determine the changes you want to make in your work and in your life,” says
+1149 | G) This 【is】 essentially how Jessica Hagy starts her day.
+1193 | We believe our thinking today 【is】 evolved.
+1126 | This relationship between social class and diet quality and health 【is】 extensively documented.
+1212 | It 【is】 extremely difficult to convert voice into text because of different pronunciations.
+1108 | K) As the owner of multiple sugary drink brands and bottled water, PepsiCo 【is】 facing challenges on health and environmental
+752 | can exist then the whole system 【is】 failing,” he says.
+1104 | But Friedman argues that the evidence for this theory 【is】 far
+1047 | It provides us with vitamins — but fruit juice 【is】 far from a quick fix.
+1196 | But this 【is】 far from ideal.
+981 | It 【is】 feared that a failure to address early-year challenges, such as poor handwriting, leads to much more serious problems down the line—with these pupils facing reduced career prospects.
+1222 | “The best example 【is】 five a
+1084 | intelligence 【is】 fixed-that you are stuck being "not smart" if you struggle in school-showed higher
+721 | F.ach passage 【is】 followed by some questions or unfinished
+811 | It 【is】 found that people are more creative following the completion of a tedious task.
+1236 | The internet 【is】 full of recipes for “eating well on a budget.
+992 | It 【is】 gaining ground in many countries.
+1234 | Emotional intelligence 【is】 generally beneficial to its bearer.
+1019 | Like domestic labor, emotional labor 【is】 generally dismissed and not labeled work.
+1058 | Its role in interpersonal relationships 【is】 getting increasingly important
+990 | You might feel like the sun 【is】 giving you extra energy for your day, which 【is】 actually happening.
+803 | Drivers caught up in phantom traffic jams are likely to think an accident has happened or some construction 【is】 going on.
+1005 | A long-standing debate 【is】 going on over the impact of school absences on students’ academic performance.
+843 | product 【is】 going on sale for real and the boys had to learn about budgeting and marketing, as well as designing their game.
+873 | Yet now the dictator 【is】 gone.
+766 | Studies point to how boredom 【is】 good for creativity and innovation, as
+686 | This 【is】 good news, because reading to young children helps their language and brain development.
+1224 | overrated, and if you want real success, what you need 【is】 grit the perfect combination of passion and persistence.
+841 | Tap water consumption 【is】 growing at roughly the same pace (UK consumers still drink almost
+1100 | That reality was driven home this month by a new Los Angeles Homeless Services Authority report showing that the county's homeless population 【is】 growing faster than the supply of new housing.
+935 | high school 【is】 half a million dollars or more.
+986 | It 【is】 hard to measure when employees interact with outsiders.
+756 | E) Aside from the link to type 2 diabetes, many studies agree that fruit juice 【is】 harmful if it contributes to an excess in calories.
+1168 | Absorbing new information 【is】 helpful in making better decisions prior to action.
+1238 | The spoken web 【is】 helpful when one's hands are occupied.
+711 | But the quality from these suppliers 【is】 high.
+1199 | Even the military 【is】 hiring gamers.
+804 | The overall trend 【is】 hitting Americans of all different levels of educational attainment, although the percentages vary by
+904 | It 【is】 holidaymakers that can protect themselves from falling victim to frauds.
+773 | “It 【is】 hopeless to report fake villa websites to the internet giants who host them,” he says.
+898 | The problem 【is】, housework 【is】 often overlooked as work, even though it 【is】 often as laborious (or in some cases, more so) as any paid job.
+809 | As you read this, you are likely aware of what time it 【is】, how old you are, your checking
+874 | The question 【is】 how to apply them effectively to strengthen an entire collective, which 【is】 more than just the sum of individual relationships," said Dr Matous.
+718 | Each choice in the bank 【is】 identified by a letter.
+967 | “The choice 【is】 important.
+1105 | Research found that, as regards achievement of one’s goals, it 【is】 important to focus more on enjoying the process than the
+697 | It 【is】 important to keep in mind that personal space varies depending on culture and context.
+1114 | conditions, it 【is】 important to understand how accurate genetic tests are, and what information we can rely upon.
+1254 | It 【is】 important to understand what causes your stress in the first place.
+1232 | It 【is】 impossible for a job applicant to have every expectation met.
+900 | But it 【is】 impossible to know the _26_ day on which he was born.
+681 | It 【is】 impracticable.
+779 | This 【is】 in contrast to books that did not name images, or books that had the same label under each image.
+1213 | J) Carey's background 【is】 in deal making and innovation.
+880 | convince your present self that your future self 【is】, in fact, still you.
+1102 | What we call multitasking, therefore, 【is】 in reality the ability to move more or less quickly from one task to another.
+785 | The Noor solar power station 【is】 ___26___ in the city of Ouarzazate and, once completed, will generate 580 million watts of electricity.
+856 | E) “The difference, however, 【is】 in the nature and scope of these responsibilities in the home environment in particular,” Dr.
+768 | Some experts say the policy 【is】 inconsistent with the science of what we know about body weight regulation.
+696 | According to one father, equal parental leave 【is】 indispensable to achieving gender equality in the workplace.
+723 | But critics say the policy contradicts recommendations by many health experts, who warn that a person’s weight 【is】 influenced by genetic and environmental factors.
+790 | improving mood 【is】 ___35___ intensity, perhaps because low intensity 【is】 too dull while high intensity 【is】 too unpleasant.
+1098 | This 【is】 intentional as the informal tone of the assistant helps create an emotional attachment.
+944 | In other words, when a person’s own work group 【is】 involved, they tend to prefer team members who are similar to themselves.
+755 | 【Is】 it a good idea to display luxury brands and other signals of status?
+1151 | 【Is】 it an open communication style or a flexible schedule?
+1023 | Or 【is】 it casual, conversational, and maybe even a little humorous?
+1135 | 【Is】 it habits, connections, luck, work ethic
+1033 | G) Increased digital access for fans, a more behind-the-scenes experience for broadcast viewers and innovation in areas like virtual reality—what 【is】 it like to speed around a track inside a Ferrari?—are among the possibilities.
+747 | In light of Hershfield’s study, one simple question arises: 【Is】 it possible to make our present selves give a damn about
+1217 | But how wise 【is】 it, really, to let your instincts drive your decisions?
+782 | What 【is】 it that sets you apart from other theatres?
+1165 | But the greatest strength of this book (on fashion!) 【is】 its intellectual profoundness.
+1184 | Making the decision 【is】 just part of the process.
+689 | Our guest today 【is】 Karen Brooke.
+1094 | Recognizing when a friend or colleague feels sad, angry or surprised 【is】 key to getting along with others.
+1188 | That’s why we feel like we have to appear busy, and there’s a real perception that if someone 【is】 knee-deep in meetings, emails, and stress, then they’re probably a big deal.
+806 | But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life 【is】 “knowing how to choose” what to forget.
+1162 | To this day, Red Rum’s third win 【is】 known as one of the greatest moments in horse racing history.
+941 | Shakespeare’s date of death 【is】 _27_ known, however: it was April 23, 1616.
+1021 | Nothing 【is】 known of the period between the birth of the twins and Shakespeare’s _33_ as a dramatist in London
+808 | The ants' method of staying cool 【is】 _l!_ among animals.
+1258 | As remote work 【is】 largely unobservable to supervisors, employers need to think about how they can objectively measure the quality of work in a way that 【is】 consistent for employees of similar rank.    ?P:that is
+1049 | The gaming industry 【is】 larger than films and music combined, yet few of us are likely to list our achievements in playing
+848 | Martin Neil Baily, an economist who 【is】 leading a research project on retirement security, notes that quitting a career can
+1056 | Campaigners point out that a high percentage of the prison population 【is】 left-handed.
+924 | In more northern regions of the US, school 【is】 less likely to be affected by snowy weather.
+943 | However, figuring out what a company 【is】 like before you actually work there can be a bit of a challenge.
+1073 | Taken in a practical way, saving for post-work years 【is】 like giving money away to others.
+1233 | It 【is】 likely that the “first to arrive and last to leave” mentality 【is】 no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution to the organization.
+1218 | For them, output by 2029 【is】 likely to be around
+928 | “Now that design education 【is】 limited in the curriculum, I’m all in favour of competitions
+855 | connections between ideas, which 【is】 linked to innovative thinking.
+1175 | Calorie conswnption 【is】 linked to the amount of snacks one eats.
+1024 | A person’s word 【is】 linked to their honor, so verbal agreements are seen as important, whereas written contracts are taken as memos of understanding.
+1116 | The answer 【is】, literally, at your
+1226 | Those skills are part of what the Royal Air Force 【is】 looking for “in a variety of roles”.
+692 | Their level of debt 【is】 lower than that of native-born Americans.
+892 | Perhaps the connection 【is】 made because of eye contact and visibility and more interaction.
+1215 | This culture of busyness 【is】 making it hard for
+888 | One way we can improve the effects of fruit juice on our health 【is】 making sure we select ripe
+1119 | E) “If someone 【is】 making up some conversation that might be interesting, it’s probably not going to land well,” says Pirson, whose expertise includes trust and well-being, mindfulness, and humanistic management.
+894 | You may choose a paragraph more than once. &eh paragraph 【is】 marked with a
+722 | Each paragraph 【is】 marked with a letter.
+1245 | It 【is】 meant for those interested in fashion history
+812 | Some people may argue that this 【is】 merely reported data, and they say many men feel the same pressures as women in terms of fulfilling responsibilities at work and home.
+987 | The studies indicate something 【is】 missing in the traditional biomedical model.
+1040 | M) These findings suggest that when it comes to achieving your goals, enjoying the process itself 【is】 more important than
+1251 | you’re a determined gamer 【is】 more likely to harm your chances of getting a job.
+1274 | A person who has grit 【is】 more likely to succeed than a
+983 | Although men’s touching 【is】 more normal in these cultures, physical contact between persons of opposite sexes who are not family members 【is】 negatively perceived in Arabian countries.
+1106 | His writing 【is】 more than a little dense — dense with research, clauses, and precise adjectives and nouns.
+1262 | No matter what name the bride adopts, it 【is】 most important that the newly-weds truly love each other.
+1268 | reality 【is】 much darker.
+1216 | People make greater achievements by maintaining whatever they are doing 【is】 multitasking.
+964 | Conflict 【is】 natural.
+865 | But it 【is】 necessary.
+759 | More research 【is】 needed to determine the best times to administer treatments for different diseases.
+1153 | More research 【is】 needed to see how exactly the relation between emotional intelligence and stress would play out in women and in people of different ages and education levels.
+1120 | Physical contact between unfamiliar people 【is】 negatively perceived.
+997 | It 【is】 neither desirable nor morally acceptable nor practical for this county to tolerate the signs of deprivation more commonly associated with the slums of Rio de Janeiro.
+730 | One 【is】 next to a small, elderly woman; the other 【is】 next to a muscular, fierce-looking man.
+1070 | For most scientists, the answer 【is】 no.
+1020 | In many cases, there 【is】 no active help and a lack of teacher training.
+1261 | There 【is】 no consensus on what high-quality diets are.
+742 | Despite alarmist headlines about “foods that are going extinct,” there 【is】 no evidence that major food types like beans, chocolate, wine, corn or wheat will cease to exist.
+784 | To be clear, this institution 【is】 no hotel.
+1183 | There 【is】 no indication that increasing food skills or budgeting skills will reduce food insecurity.
+793 | It may sound harsh, but the truth 【is】, nobody cares.
+837 | The reality 【is】, nobody 【is】 too busy—it’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response 【is】 really covering up the fact that they’re not actually accomplishing their real purpose.
+1085 | natural part of growing up, but it 【is】· not.
+780 | Thomas, now a speaker and author of several books, also created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old 【is】 not a bad thing.
+915 | After an American company, Liberty Media, acquired the Formula One competition recently, Chase Carey—a former executive with Fox Broadcasting Company and DirecTV who by his own admission 【is】 not a fierce racing fan—was named to replace Ecclestone and to try to renovate the organization's management, reach and ambition.
+753 | Passive learning 【is】 not a form of practice
+1271 | Some researchers suggest that work-life balance 【is】 not a goal to achieve, but a process for life to be adjusted promptly.
+1194 | According to a management expert, work-life balance 【is】 not as simple as giving equal amounts of time to work and
+1191 | as a whole, it 【is】 not at all the case for the median American worker.
+1055 | But emotional labor 【is】 not circumstantial.
+899 | Campaigners have warned that the British government 【is】 not doing enough to prevent left-handed pupils from falling behind their peers.
+797 | E) Hope 【is】 not entirely out of reach.
+926 | “Forty-four per cent would buy another drink which 【is】 not great, 14% would go without, and 4.5% said they
+1076 | 【is】 not how the two pieces of work and life come together.
+948 | When the person who damages dorm facilities 【is】 not identified, students are required to share the cost.
+868 | Good health 【is】 not just a privilege of the young.
+777 | Thus, the researchers argued that gender equality 【is】 not just a women’s rights issue.
+1270 | It makes heavy reading but 【is】 not lacking in humor or appeal
+1152 | Since cheating through technology 【is】 not listed specifically as being against the rules in many school policies, students do not view the actions unethical.
+909 | But it’s also true that saying “no” 【is】 not merely a privilege reserved for the successful.
+996 | E) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that other motorsport, the one that 【is】 not NASCAR (纳斯卡车赛).    ?P:that is
+767 | “The difference 【is】 not really news to me, as a clinical psychologist,” said Erin Joyce, a women and couples therapist in Los Angeles.
+854 | These experts claim there 【is】 not sufficient data to indicate that people’s reliance on those other activities 【is】 an addiction.
+1227 | According to one study, students' academic performance 【is】 not the only decisive factor of their stress
+877 | Some of the dangers are emotional: hurting someone from a distance 【is】 not the same as hurting them face to face.
+1045 | It 【is】 not the things we learn nor the dreams
+1252 | In one study, students were told their social position in school 【is】 not unchangeable.
+1163 | But Friedman says that this 【is】 not what has happened.
+939 | As the scholar Silvia Federici put it in 1975, the unpaid nature of domestic work reinforces the assumption that “housework 【is】 not work, thus preventing women from struggling against it.
+1154 | Doing efficiently what 【is】 not worth doing 【is】 the most useless effort.
+1123 | Academic dishonesty 【is】 nothing new.
+1017 | Despite these existing recommendations, there 【is】 nothing regarding the cover color.
+1125 | I’m reminded of the famous Peter Drucker quote, “There 【is】 nothing so useless as doing efficiently that which should not be done at all.
+743 | One survey indicated there 【is】 now less objection to paternity leave.
+762 | Owing to the internet, it 【is】 now more convenient than ever to receive training in new skills.
+1260 | At around 20 kilograms per person global fish consumption 【is】 now more than twice what it was in the 1960s.
+712 | Horn 【is】 now working with the car company Toyota to enable a form of bilateral control via modifications to existing
+965 | There 【is】 objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.
+914 | The answer 【is】 obviously yes.
+1050 | What 【is】 of great importance to students according to the speaker?
+1200 | What does the passage say 【is】 of importance regarding genetic tests?
+745 | weights—【is】 of such ___32___ intensity that your body does not have time to use oxygen to create energy and so instead it
+1246 | Knowing one’s emotional state 【is】 of utmost importance in deciding what changes to make for a better work-life balance.
+741 | The study found that team-building exercises which focused on the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability 【is】 often necessary to make deep, effective connections with colleagues.
+1026 | It’s like fixing up an airplane engine and ignoring that the pilot 【is】 on his third drink at the bar and a massive storm 【is】 overhead....
+1013 | What 【is】 one of Branyas Morera’s secrets to living a long life?
+1159 | What 【is】 one of the causes for more and more people in Los Angeles to become homeless?
+798 | 【is】 one of the greatest forms of learning because the mistakes you make while practicing reveal important insights.
+1032 | Even turning your voice into text—automatic speech recognition—【is】 one of the hardest problems to solve, as there are as many ways to pronounce things as there are people on the planet.
+1147 | evidence that food conswned out of the home 【is】 one of the most poorly recorded categories in surveys.
+890 | What 【is】 one of the reasons for people to delay retirement?
+918 | What 【is】 one of the traps entrepreneurs may often fall into when competing with rivals?
+849 | She 【is】 one of the world's best-known pianists.
+1092 | What does the author say 【is】 one possible benefit of students attending school physically?
+956 | Among the goals, Carey said in an interview on Tuesday, 【is】 one that just about every global sport seems interested in chasing: increasing interest in the United States.
+736 | F) While tradition 【is】 one thing, there isn’t any logical reason to completely change your name.
+959 | A multitasker 【is】 one who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—【is】 similar to what a computer does.
+889 | It may sound trite , but beauty 【is】 only skin deep; it’s not what brings love toward us.
+838 | There 【is】 opposition to the practice of giving children assignments to take home before extreme weather forces a school
+998 | I) Another potential climate change-induced problem 【is】 our dependence on commodity crops—wheat, soybeans, corn and rice—which currently provide humanity with 75% of its calories, either directly or indirectly through the animals we raise on those crops.
+1057 | Nevertheless, many people live lives that are boringly predictable, or live a life where everything 【is】 outlined or planned.
+1016 | This "successor principle" 【is】 part of the foundation of our numerical (
+705 | Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those in the baseline condition: [21] that 【is】, participants seemed to be paying attention to information about diversity, and using this when deciding whether to click on the listing.    ?P:that is
+829 | This 【is】 partly because of adequate sunlight and partly because technology has become more ___34___ in the region.
+1078 | 【Is】 passive learning useless?
+1004 | [23] But too often we get caught in this place where conflict 【is】 perceived to be negative—something we want to avoid so that we can maintain the harmony of our workplace.
+739 | Additionally, the government 【is】 planning to increase the quantity of recycled plastic in the market.
+1107 | If your workplace isn’t an environment where work-life balance 【is】 possible in the first place, any effort
+993 | I) It 【is】 possible that your future husband will find this choice offensive.
+1132 | However, on the other side of the coin there are people who maintain that it 【is】 possible to be, or at least seem to be, multitasking.
+758 | It 【is】 possible to nearly double the hourly throughput per lane by adopting bilateral control.
+1269 | it 【is】 possible to not only learn it, but also strengthen it with constant exercise.
+973 | ASMR 【is】 powerful stuff!
+1000 | This 【is】 precisely why parents still need to set firm boundaries around it, as with any other distraction.
+1101 | It 【is】 predicted that climate change will affect the availability and price of quality chocolate.
+1201 | pumped less blood through the body-both responses that the body shows when it 【is】 preparing for
+1172 | more reliable results, because you can see whether a disease-causing trait 【is】 present.
+1248 | Or, if the message 【is】 presented while the vehicle 【is】 in motion,
+932 | It turns out that ASMR 【is】 pretty special.
+833 | J) It 【is】 probably true that fewer kids are heavy readers compared with two generations ago, when cheap paperbacks boosted rates of reading.
+1068 | The challenges are enormous, even if everyone 【is】 pulling in the same direction.
+1187 | Everyone 【is】 pulling in the same direction to solve the homelessness problem.
+884 | The industry 【is】 quick to point out that all its bottles are recyclable.
+1190 | It 【is】 quite horrifying to see people being guided by some unknown force.
+1148 | The concept of self-care, at its core, 【is】 quite simple.
+1044 | J) Even if bottled water sales are growing slightly more slowly, the industry 【is】 racing to adapt to changing concerns and tastes.
+1220 | It 【is】 read by people for entirely different reasons
+1053 | G) None of us, then, 【is】 really a "numbers person.
+847 | 【is】 really about.
+1011 | The path toward cultivating inner beauty 【is】 really simple.
+846 | Once sourced, Elysia uses waste products to create “simple, natural, straightforward” meals and snacks. [25] Perhaps unlike other waste food, the supply 【is】 regular.
+1259 | People’s psychological wellbeing 【is】 related to various factors.
+1277 | It 【is】 reported that depression results in enormous economic losses worldwide.
+740 | Morocco 【is】 responding to increasing energy demands by setting up one of the largest solar plants in the world.
+1138 | The bottle 【is】 reusable.
+878 | an economist at Harvard, the U.S. economy 【is】 right on track to reach Keynes’s eightfold multiple by 2029.
+1242 | Simply “feeling” that something 【is】 right or should be done 【is】 highly subjective and can drown you.
+1025 | The power of the classroom 【is】 rooted in the humanity of the people gathered in the same place, at the same time.
+1278 | Your day 【is】 ruled by minutes and seconds, but these concepts are
+1221 | Talking about work-life balance 【is】 said to be a privilege reserved for the better-off, not for those who barely make a living.
+887 | In China, Emperor Wenwang 【is】 said to have built a “Garden of Intelligence” around 1060 B.C.
+1160 | One of my bad habits 【is】 saying “busy” when people ask me how I’m doing.
+991 | Innovation 【is】 saying ‘no’ to 1,000 things.
+913 | For software to understand pizza 【is】 served at Italian restaurants 【is】 easy.
+1129 | I) That difference, Carey said, 【is】 significant.
+1143 | Game Academy's idea 【is】 simple: analyse gamers’ habits from their online gaming profile, and offer courses in valuable
+1048 | But what 【is】 simple 【is】 not always easy.
+1031 | Some men, regardless of how you might feel about some things, are traditionalists and feel that it 【is】 simply “right” for the woman to take the man’s last name as her own.
+706 | “If a product that 【is】 so nakedly unnecessary    ?P:that is
+1087 | Stress 【is】 so normalized that it 【is】 easy for women to shrug off those symptoms as simply the consequences of stress.
+1167 | L) As 【is】 so often the case, clever marketing can beat reason; awareness 【is】 rarely enough.
+682 | One of the techniques we use in person perception 【is】 social categorization.
+695 | Fortunately, there 【is】 some good news on this front.
+883 | G) This five-step process 【is】 something anyone can adopt.
+962 | “Financial independence 【is】 something they were struggling with and challenged by.
+823 | Saying “no” 【is】 sometimes seen as a luxury that only those in power can afford.
+1235 | Refusing a request 【is】 sometimes seen as a privilege not enjoyed by ordinary people.
+700 | Thriving in South American rivers and temporary lakes caused by seasonal flooding, this freshwater dolphin 【is】 sometimes shockingly pink.
+802 | Talking with local producers I learned that a small part of the production 【is】 sometimes wasted due to problems with size or shape, but the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea 【is】 not simply to redistribute waste food, but to provide a high-quality product.
+1136 | No one 【is】 spared his sharp analysis: not the easy targets
+871 | The local language Dagbani 【is】 spoken by 1.2 million people but 【is】 not served by any online translation applications.
+954 | To cover multiple domains and to be able to have a conversation with users on every single topic 【is】 still a long way off.
+789 | Clearly, teaching teens formal writing 【is】 still crucial, but texting probably isn’t destroying their ability to learn it.
+831 | In other words, even if a certain food 【is】 still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.
+1272 | Judging from the slowing rate of sales growth, there 【is】 still hope to combat bottled water.
+1122 | It 【is】 still immature.
+1133 | Today, three decades after his retirement, he 【is】 still one of the best-known and most beloved racehorses of all time.
+1035 | For now, the jury 【is】 still out as to how successful those endeavours will be.
+807 | While cow milk 【is】 still served for tea and coffee, the menu 【is】 almost
+1066 | But it 【is】 still somewhat restricted, particularly when the language moves away from stiffer commands into more human interactions.
+985 | (22-1) How the balance 【is】 struck between these two forms of communication—the point at which one needs to be exchanged for another—really depends on individual cultures.
+1093 | Kelli Harding doesn’t think America’s medical model 【is】 sufficient for patients who need help most.
+862 | It 【is】 suggested that people not going on the holiday might help detect website frauds.
+1072 | There 【is】 support
+907 | The financial aid the author receives 【is】 supposed to cover all her college expenses.
+886 | L) Another 【is】 television presenter and interior designer Naomi Cleaver, who 【is】 one of the competition’s judges.
+1225 | its simplest definition, 【is】 telling a story using music as its form.
+969 | “And the judging day 【is】 terrific
+720 | So the real danger here 【is】 that children who will completely able to do math at a normal level may keep away from it because they feel anxious.
+820 | The problem 【is】 that consuming the success and ideas of others 【is】 passive inspiration.
+840 | “One interesting thing we have observed 【is】 that dogs are matching children’s behavior, but less frequently than what we have seen between dogs and adults.
+1142 | cracked the code to realistic fake meat 【is】 that I couldn’t stand to take another bite,” she wrote.
+1038 | E) Another theory Friedman considers 【is】 that, in an era of ever fewer settings that provide effective opportunities for
+832 | One reason having a rival can enhance your venture’s performance 【is】 that it creates a level of excitement that drives you to work harder.
+861 | A notable criticism of the golden rule 【is】 that its application can lead to undesirable outcomes, when it conflicts with laws and ethical principles.
+1109 | That said, the main point of this article 【is】 that learning by itself does not lead to progress.
+787 | The disadvantage, obviously, 【is】 that local farmers will suffer under this situation.
+727 | My main problem 【is】 that my study folder 【is】 full of notes and worksheets, and 【is】 badly disorganized.
+927 | J) The last important point to consider 【is】 that practice focuses your energy on the process.
+707 | H) Another point to consider 【is】 that practice 【is】 learning, but learning 【is】 not practice.
+1177 | What 【is】 that roadside monument I see on my way to work every day?
+1069 | One consequence of climate change 【is】 that some people may not have adequate access to certain foods.
+709 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, 【is】 that talking out loud lets you communicate with someone even when you can’t see them.
+770 | A more disturbing trend in America today 【is】 that teens are spending far less time reading than around four decades ago.
+1075 | Ford's thesis 【is】 that the best way to understand what particular fashions meant in any given era 【is】 to look at the restrictions
+1054 | Another cause 【is】 that the proportion of people who are trying to lose weight has been increasing over
+1028 | The explanation 【is】 that the two brain spheres of left-handers are more strongly connected.
+1211 | L) What matters, of course, 【is】 that the two of you are going to be happily married—hopefully for the of your lives.
+799 | J) “One of the really useful things about this competition,” says Hourican, “【is】 that there’s a commercial element because the
+1027 | “The only overlapping feature in most of these healthy countries 【is】 that they all walk way more than the average American,” said Pasternak.
+796 | Yet, very little research has focused on how dogs perceive and socially engage with children. [24] “The great news 【is】 that this study suggests dogs are paying a lot of attention to the kids that they live with,” said Monique Udell, the lead author of the study.
+1015 | Researchers think that one explanation 【is】 that ties to friends
+1223 | The issue 【is】 that, unlike using a smartphone app, operating a car has serious safety risks, whether the driver 【is】 human or
+704 | But the problem 【is】 that we often tell ourselves: “I'm going to put in eight hours’ worth of work, and then I'm going to put
+922 | If the central problem 【is】 that we think of our future selves
+710 | The problem 【is】 that, with the fibre removed, fruit juice’s fructose 【is】 absorbed more quickly.
+1237 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters 【is】 that you love each other and are going to be joining your lives together.
+701 | Understood in that way, saving for retirement 【is】 the
+1192 | Willpower 【is】 the ability to control yourself.
+929 | I) Another reason for fruit juice’s recent popularity 【is】 the argument that it can help to remove poisonous or harmful substances
+850 | Then, what 【is】 the best seat in the classroom?
+1088 | They say that these prison numbers are unusually high and ask why it 【is】 the case.
+1155 | However, the research does not explain why this 【is】 the case—a question that has significant implications for designing effective policies and initiatives to improve diets and prevent chronic diseases.
+1095 | And if that 【is】 the case, elimination 【is】 a more useful skill than optimization.    ?P:that is
+702 | W: Okay, another criticism of the plan 【is】 the cash rewards themselves.
+972 | What 【is】 the chief reason for college-educated workers delaying retirement according to an economist?
+930 | describe in my book, The Authentic Heart, it 【is】 the courage to be authentic that connects us in a deeper way.
+1249 | Duckworth says grit 【is】 the difference between success and failure.
+1127 | The hyphenation 【is】 the epitome (体现) of a compromise.
+844 | This 【is】 the era of social media. [21] People can easily share their wealth and status to large audiences, but they need to consider the consequences.
+1140 | What 【is】 the experts’ conclusion regarding pandas?
+1141 | The most major indicator of classical music’s importance in society today 【is】 the fact that much of the popular music that
+1208 | What 【is】 the finding of the new study?
+958 | “What’s common to all studies 【is】 the finding that extreme heat 【is】 damaging to crop growth, although exact cutoffs vary by crop,” Schlenker says.
+1014 | It 【is】 the first restaurant in the city to remove meat from its menu.
+975 | It 【is】 the first vegan restaurant to receive the highest Michelin rating.
+1231 | What 【is】 the focus of Professor O’Keefe’s recent research?
+931 | What 【is】 the general trend in people delaying retirement?
+893 | Three Michelin stars 【is】 the highest award, given to chefs who are at the peak of their profession.
+881 | And “being busy” 【is】 the lie they tell themselves about why they can’t achieve it.
+764 | Americans now live alone, and as the song says, one 【is】 the loneliest number.
+737 | Karen 【is】 the managing director of Cube Movie Theatre located on Underhill Road.
+971 | While our initial attraction may be based in part on physical chemistry, it 【is】 the meeting of our inner worlds that creates
+835 | Parental financial support of early adults, said Ken Dychtwald, CEO of Age Wave, 【is】 “the new normal”.
+860 | Pain 【is】 the only feeling to which the nerves in that layer respond.
+842 | I) Even more importantly, practice 【is】 the only way to make a meaningful contribution with your knowledge.
+814 | He 【is】 the owner of the Hill House.
+763 | food, this 【is】 the perfect time to seek lunch.
+908 | You may think that summer 【is】 the perfect time to go on a date or chat with an attractive boy or girl.
+988 | And what matters 【is】 the power your actions have to inspire you.
+1018 | One 【is】 the rise in obesity levels
+1174 | gateway to the realization that "five fingers on one hand 【is】 the same as five fingers on the other. " Such
+690 | That 【is】 the situation facing illiterate (不识字的) African farmers.    ?P:that is
+748 | Because “busy” 【is】 the state of the world.
+1012 | 【is】 the story of 92-year-old Henry Dryer, who comes out of dementia while listening to songs from his youth.
+1210 | For example, low income 【is】 the strongest predictor of food insecurity in Canada, where one in eight households experiences insufficient access to nutritious foods.
+891 | She 【is】 the world’s oldest individual.
+813 | These experts argue that focusing on wage 【is】 the wrong approach.
+1081 | But if they don’t it 【is】 their
+839 | Fourth, they considered their alternatives: 【is】 there anything at work that could be
+826 | M: 【Is】 there enough demand for that?
+979 | Why 【is】 this happening?
+735 | Even though we are living in an age where growing old 【is】 thought of as an inevitable misery, this doctor has been changing the game for seniors over the last 25 years.
+864 | Instead, it 【is】 through the process of active inspiration—the act of creating things, applying new ideas to our goals, and making mistakes—that we discover who we are and what 【is】 important to us.
+760 | It 【is】 time consuming.
+687 | It 【is】 time we realized that deviance may be capable of doing both good and harm to individuals and society.
+836 | The second 【is】 to
+715 | Consulting her mother about which school Jake 【is】 to attend.
+1256 | How feasible it 【is】 to create new disciplines like computational economics.
+949 | The body’s normal temperature 【is】 36 to 37 degrees centigrade.
+792 | possible solutions: The first 【is】 to force your future self to do whatever your present self doesn't want to do.
+1003 | I) The third solution 【is】 to forget about your future self and use your present self’s love of instant gratification
+916 | The purpose of such action 【is】 to fund an enormous multibillion-dollar, 10-year program of housing and social services for the homeless.
+772 | Well, the main thing 【is】 to have everything in the right place.
+923 | One thing that extreme sports do better than perhaps anything else 【is】 to help you stop being afraid. [19] It may sound strange to say that their main function 【is】 to reduce fear.
+815 | Have you ever wondered how acceptable it 【is】 to hug or touch someone?
+776 | K) The key 【is】 to make sure that students and their families understand that hidden costs exist, and that they may prove problematic.
+1067 | The goal in this 【is】 to make the fans connect to the live experience as much as possible, and the tools you have to do that, we're not using at all.
+1273 | Given these limitations and concerns, even if this mode of obtaining consent 【is】 to move
+857 | A more productive method of encouraging health among employees 【is】 to promote healthy behaviors.
+876 | One way you can overcome the risk-inducing effects of rivalry that stand to endanger your venture’s success 【is】 to remain attentive to your emotional state and actively monitor how such feelings are affecting your decision-making.
+1115 | students believed that intelligence could improve-that 【is】 to say, when they held more of a growth
+788 | One way to avoid this trap 【is】 to stop and reflect on what’s important.
+859 | The simple answer 【is】 to thoroughly learn unique cultural norms for physical contact.
+834 | productivity, which he thought would lead to a standard of living “between four and eight times as high as it 【is】 today.
+1103 | Teachers say that kids’ writing 【is】 too casual, using language characteristic of text messages.
+937 | Thus, they claim it 【is】 too early to call computer game addiction a disorder.
+912 | The internet 【is】 too easy and too unreliable a research tool, (18) so let’s leave phones and laptops at home, and show them a different world in their lessons—one of books and pens,” he says.
+863 | And do it today, tomorrow 【is】 too late.
+708 | there 【is】 training and support for teachers and tutoring for students from designers.
+1029 | I) What 【is】 true about health 【is】 also true about productivity: an ounce of prevention 【is】 worth a pound of
+1255 | That means embracing what 【is】 truly interesting or unique about yourself.
+680 | ABTA says it 【is】 trying to combat the issue by running public awareness campaigns.
+1059 | This can be a big indicator of what sort of atmosphere the company 【is】 trying to cultivate.
+1179 | N) When you’re hunting for a new job, you already know that the employer 【is】 trying to decide whether or not you’re a good fit for the position.
+1062 | What 【is】 typical of Americans in the way of eating?
+1178 | It 【is】 undergoing radical and profound changes.
+1161 | The business perspective offers a different view: multitasking 【is】 understood as the ability to adapt to all types of environment within a company and effectively undertake different activities within a set time frame.
+1043 | K) “Work-life balance 【is】 understood to be an individual’s response, so people think ‘it’s up to me to manage the craziness of
+805 | It 【is】 unfit for crucial issues.
+1124 | This and other research challenge the prevailing view that emotional intelligence 【is】 uniformly beneficial to its bearer.
+1071 | Students’ ability to learn formal writing 【is】 unlikely to be affected by texting.
+885 | knowledge 【is】 unproductive unless you actually launch your business or donate to those in need.
+1185 | This 【is】 up from 13% in 2009.
+1037 | It 【is】 urgent that schools teach kids how to verify online information.
+1169 | It 【is】 urgent to provide an ideal habitat for them to thrive.
+999 | The concept does indeed come from the realms of technology, where it 【is】 used to refer to an operating system that can execute multiple tasks at the same time.
+1276 | led a team in an online game, for example, they may be able to persuade an employer that this 【is】 useful,” says Dr Barr.
+875 | How those decreases will be felt will depend on the degree of warming and the crop in question, but in general, “anything over about 30°C 【is】 very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+1197 | It 【is】 very important to preserve their genetic diversity.
+1176 | “Support from trusted relationships 【is】 vital.
+827 | Yet knowing when it's going to rain 【is】 vital for farmers wanting to sow seeds, irrigate crops or take their animals out to the fields to feed on grass.
+1112 | They feel much of their precious time, energy and resources 【is】 wasted.
+1063 | More effort 【is】 wasted doing things that don’t matter than 【is】 wasted doing things inefficiently.
+1173 | That 【is】, we taught them a growth mindset about their social    ?P:that is
+1046 | Design Ventura 【is】 welcomed by teachers because it helps to prove the worth of design as a school subject.
+830 | The method 【is】 well-tested and has been shown to increase interpersonal closeness.
+775 | At least this 【is】 what a new study suggests.
+947 | But creating, producing, and experimenting 【is】 what drives you forward.
+1264 | L) That 【is】 what hooked Carey, and he said he thought his experience was not unusual.    ?P:that is
+1089 | But sharing our experiences in an authentic way to connect with other people 【is】 what makes us interesting, says associate professor Michael Pirson.
+906 | Furthermore, active inspiration 【is】 what results in long-term passion and enthusiasm.
+851 | this 【is】 what we believed in,” stated Humm on Instagram.
+754 | An additional bonus 【is】 when the winners
+757 | This 【is】 where French entrepreneur Sophie André comes in. [23] In 2016 she moved to London and began by setting up a business delivering luxury hand-made food across the city.
+1145 | students that their smartness can change, we taught them that their social standing-that 【is】, whether
+1097 | The basis for each of these things, however, 【is】 whether or not you are willing to make a compromise when it comes to changing your name.
+1121 | This 【is】 why it’s so important to know which aspects of a company’s culture you value most.
+1202 | This 【is】 why the
+1164 | I believe the key to success 【is】 willpower.
+1096 | It 【is】 winning approval from the government.
+1275 | they have had on our current society, it 【is】 without doubt that we can expect them to continue to remain important for centuries
+1205 | It 【is】 witnessing various types of innovations.
+1118 | J) The good news 【is】, women are more likely than men to take charge of their stress and manage it, the American Psychological Association reports.
+795 | Third, they reprioritised, asking “【Is】 working long hours really worth
+771 | If we eat something too hot or too cold, or if the tooth 【is】 worn down enough where the tissue _29_ 【is】 exposed, all of those things cause pain, and then the pain causes the person not to use that tooth to try to protect it a little bit more.
+895 | E) It 【is】 worth stressing that these anumeric people are cognitively (,1£ R -jj" i:1) normal, well-adapted to
+1257 | Job applicants should read with a critical eye what 【is】 written about a company on the website.
+994 | According to recent research done in Australia, the answer 【is】 yes.
+818 | “The problem then 【is】 you have to find accommodation at short notice.
+825 | G) Probably the most important reason to consider hyphenation 【is】 your identity.

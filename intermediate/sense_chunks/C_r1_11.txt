@@ -1,0 +1,619 @@
+# 任务 C_r1_11：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_11.labels.txt
+
+============================================================
+## 词：to    本段 600 句    模式：全标（每句都写）
+原释义：prep.向; 到; 对. (用于动词不定式前).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0   不定式符号，后接动词原形（want to go）    B 样本 36    例：He noticed the driver was too young to drive.
+  1   （不定式）为了    B 样本 3    例：To introduce their corn to tourists.
+  2   （be to do）按要求或安排要做    B 样本 16    例：You are now to write an essay for submission.
+  3  prep. 向，到，往（方向、目的地）    B 样本 9    例：Travel to Germany.
+  4  prep. 对，给（引出对象，如 say to, send to, open to）    B 样本 15    例：To introduce their corn to tourists.
+  5  prep. 到，至（终点、范围、程度，如 from 1 to 10, up to）    B 样本 3    例：Those bringing eggs into the U.S. risk fines of up to $10,000.
+  6  prep. 与……相比，与……相同（similar to, compared to）    B 样本 1    例：Have you noticed how similar you are to your friends? [1] It may be because your brains operate in harmony with each other.
+  7  prep. （接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果    B 样本 13    例：Contribute a lot to the local economy.
+  8  prep. （时间）差（ten to six）    B 样本 0
+已标过的短语：have to（4）；be going to（3）
+口径说明（照此执行）：
+  - 1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。
+句子：
+2736 | The second is 【to】
+2832 | First, le are working 【to】
+2857 | This means that the specific proteins a drug is designed 【to】
+2921 | Educational videos may deliver academic content, but they are unable 【to】
+2912 | Because how the body responds 【to】 a
+2715 | A businesswoman said her business dropped sharply when parking space gave way 【to】 a bike lane, because most of her    ?P:give way to
+2821 | We learn about who we are and what is expected of us based on interactions with others so, 【to】 a four-year-old, if Mommy or
+2773 | All living organisms on Earth are exposed 【to】 a 24-hour day-night cycle.
+3073 | It confines us 【to】 a 24-hour day-night cycle.
+2960 | come 【to】 a logical choice and become fully committed 【to】 your ideas and plans.
+2623 | According 【to】 a magazine writer, some small business owners’ resistance 【to】 bike lanes arises from cultural factors.    ?P:according to
+2738 | According 【to】 a management expert, work-life balance is not as simple as giving equal amounts of time 【to】 work and    ?P:according to
+2717 | What did Daniel Humm think of his move 【to】 a meat-free menu?
+2591 | If meatless meat can help you stick 【to】 a plant-based diet, that in itself can lead 【to】 better health.
+2846 | Never taking a vacation won’t lead 【to】 a promotion.
+3037 | According 【to】 a recent study, one in five highly engaged employees is at risk of burnout (精疲力竭).    ?P:according to
+2652 | According 【to】 a research paper, drinking fruit juice is beneficial on condition that it is consumed in reasonable amounts.    ?P:according to
+2745 | According 【to】 a researcher, bad reputation about games will probably limit a gamer’s chances of landing a job.    ?P:according to
+2805 | An in-depth study of differences between human languages contributes 【to】 a true understanding of
+2568 | Interesting people usually possess certain unique qualities, according 【to】 a TV program producer.    ?P:according to
+2504 | Devote themselves 【to】 a worthy cause.
+2926 | Are we willing 【to】 accept a system in which an increase in amenities purchased by the affluent means a reduction in amenities for the poor?
+3001 | They are given 【to】 accommodate students’ needs.
+2879 | you motivate them 【to】 achieve a common goal.
+2961 | Some researchers suggest that work-life balance is not a goal 【to】 achieve, but a process for life 【to】 be adjusted promptly.
+2679 | balance remains difficult 【to】 achieve, the experts say that keeping some perspective can help.
+2934 | The question of how 【to】 achieve work-life balance has long been the main subject of discussion among workers.
+2674 | Having a rival can keep you committed 【to】 achieving your goals and enhance your overall performance.
+2881 | only demand change, but 【to】 act themselves.
+2588 | Absorbing new information is helpful in making better decisions prior 【to】 action.
+2986 | inspiring, when it comes 【to】 actually doing the day-to-day work, it may be more effective 【to】 reframe activities in terms of their    ?P:when it comes to
+2945 | It requires employees 【to】 adapt promptly.
+2739 | J) Even if bottled water sales are growing slightly more slowly, the industry is racing 【to】 adapt 【to】 changing concerns and tastes.
+3055 | Enable students 【to】 adapt 【to】 the changes in life.
+2482 | Low-income households report that they find it difficult 【to】 adopt dietary guidelines because food prices are a barrier 【to】 improving their diets.
+2786 | Hyphenating the last names could be a win-win solution should arguments arise about what name 【to】 adopt upon marriage.
+2955 | They find it increasingly difficult 【to】 afford a place 【to】 live.
+3027 | Obese people would not be able 【to】 afford the medical costs.
+3041 | are more likely 【to】 agree with you when they succeed alongside you.
+2795 | The art of persuasion means convincing others 【to】 agree with your point of view or 【to】 follow your course of action.
+2541 | Today’s students use smartphones, tablets or even in-class computers 【to】 aid their cheating attempts and leave no trace of their crimes.
+2680 | adding 【to】 all the health dangers of obesity, diabetes and tooth decay”.
+2803 | It elevates the restaurant’s cooking 【to】 an art form.
+3018 | According 【to】 an officer of the Creative Industries Federation, there is difficulty now in recruiting engineers in the UK.    ?P:according to
+2990 | not going 【to】 answer many questions.
+2983 | That’s why we feel like we have 【to】 appear busy, and there’s a real perception that if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.    ?P:have to
+2756 | People often grant a request just because they want 【to】 appear polite and helpful.
+2877 | want someone 【to】 approve of us, it’s being driven by that little kid part of us that is still terrified of abandonment.
+2535 | Questions 51 【to】 55 are based on the following passage.
+2549 | “The people at Monsanto who I’ve talked 【to】 are much more optimistic that they’ll be able 【to】 engineer heat-tolerant crops,” Schlenker says.
+2730 | Most stores open with flowers, fruit and vegetables at the front as a breath of freshness 【to】 arouse our appetite.
+2867 | It is likely that the “first 【to】 arrive and last 【to】 leave” mentality is no longer relevant, but should be replaced by a regard for the quality of an employee’s contribution 【to】 the organization.
+2576 | Hyphenating the two names is a way for each person 【to】, at least a little bit, “win” the argument.
+2597 | We can point 【to】 at least three potential causes.
+2650 | Practice involves repeating a process intentionally 【to】 attain a particular objective.
+2511 | J) Yes, I chose 【to】 attend an expensive university far from my hometown.
+2865 | Offering online classes certainly helps students who would otherwise not be able 【to】 attend classroom sessions.
+2723 | Live sessions are infrequent and are often scheduled during the middle of the day when students have 【to】 attend other classes or work.    ?P:have to
+2681 | Research in human-vehicle interaction has shown even systems designed 【to】 automate driving are far from being error-
+2957 | But it’s possible 【to】 avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.
+2875 | One way 【to】 avoid this trap is 【to】 stop and reflect on what’s important.
+2933 | aids 【to】 back up your ideas can help communicate your ideas better and make compelling arguments so your listeners will
+2649 | year, the UK government set out plans 【to】 ban single-use plastic from its estate.
+2788 | They are actually on the way 【to】 bankruptcy.
+2706 | For social beings who desire love and belonging, wanting 【to】 be
+2630 | One strategy 【to】 be a good conversationalist is 【to】 motivate your partner 【to】 tell their own stories.
+3057 | “So really, regardless of what you’re eating, if someone’s walking four miles more than you each day, they’re going 【to】 be a lot thinner and live a lot longer than you.
+2824 | Talking about work-life balance is said 【to】 be a privilege reserved for the better-off, not for those who barely make a living.
+3017 | All of this considered, the road forward for self-driving cars is not going 【to】 be a smooth
+2808 | “But unless we accept that obesity is a disease, we are not going 【to】 be able 【to】 tackle it,” he concludes.
+2524 | K) “Work-life balance is understood 【to】 be an individual’s response, so people think ‘it’s up 【to】 me 【to】 manage the craziness of    ?P:up to
+2486 | They have 【to】 be applied cautiously 【to】 be effective.    ?P:have to
+2833 | Larger numbers are said 【to】 be built upon smaller numbers.
+2544 | Their eating habits need 【to】 be changed.
+2814 | It used 【to】 be considered socially unacceptable for a bride 【to】 retain her maiden name.    ?P:used to
+2521 | An economist’s prediction about a shorter average working week seemed 【to】 be correct for a time in the 20th century.
+2683 | It takes some time for fruit’s cells 【to】 be digested and for fructose 【to】 be absorbed.
+2661 | Interesting as it might appear, a made-up conversation will probably turn out 【to】 be dull.
+2705 | Sometimes, rational analysis and data are impractical 【to】 be employed in certain situations.
+2648 | L) That’s a conversation that appears 【to】 be gathering pace.
+2699 | L) What matters, of course, is that the two of you are going 【to】 be happily married—hopefully for the of your lives.
+3007 | What are big houses promoted 【to】 be in the United States?
+2599 | Be interested in others and they are sure 【to】 be interested in you.
+2884 | Studies have found that people tend 【to】 be less open and less able 【to】 relax when they wear formal clothes.
+2931 | moment we restrain our authentic selves in an effort 【to】 be liked.
+2764 | This need 【to】 be liked can be traced back 【to】 when we were children and were completely dependent on others 【to】 take care
+3065 | 48 What may account for our need 【to】 be liked or approved of?
+3039 | Our desire 【to】 be loved will be fulfilled.
+3070 | Driverless vehicles are likely 【to】 be misused by some people.
+2892 | It is now too widespread 【to】 be neglected.    ?P:too...to
+2929 | They found busy people are perceived 【to】 be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.
+3071 | The ideal level of perfectly livable habitat was found 【to】 be only 80% of an area,
+3006 | These blind spots exist because smart people tend 【to】 be overconfident in their reasoning abilities.
+2539 | Online classes began 【to】 be popularized just a few decades ago.
+2800 | We consider some clothes 【to】 be powerful some 【to】 be fun, and so on.
+3068 | wood has such health benefits that the Woodland Trust successfully lobbied for it 【to】 be prescribed by doctors.
+3030 | Compensation also needs 【to】 be revisited.
+2898 | It’s good 【to】 be smart.
+2752 | Most interaction with the professor has 【to】 be through email which is often impersonal.    ?P:have to
+3067 | collaboration and teamwork over traditional organizational structures, no one likes 【to】 be told what 【to】 do or 【to】 be pushed
+2557 | Learning and practicing seem 【to】 be very much alike, but the two processes can lead 【to】 quite different outcomes.
+2928 | What is one of the causes for more and more people in Los Angeles 【to】 become homeless?
+2876 | What does it take for decisions 【to】 become the best according 【to】 the author?    ?P:according to
+2819 | They found that when people compete against their rivals, they are more willing 【to】 behave unethically 【to】 win.
+2503 | Prior 【to】 being
+3033 | “They’re so used 【to】 being right and having quick answers that they don’t even realise when they’re making a mess by answering without thinking things through.    ?P:used to
+2901 | What do people tend 【to】 believe about the homeless?
+2743 | Why can the habit of eating a plant-based diet lead 【to】 better health?
+2498 | soon; a 2021 report predicts the market will skyrocket 【to】 $74 billion by 2030 — a 957 percent surge.
+2886 | But recent studies show a lack of exercise is not 【to】 blame for rising obesity rates.
+2702 | For as long as there are homeless people, there is a tendency 【to】 blame the victims themselves for their condition—【to】 see their failure 【to】 thrive as an issue of character, of moral weakness, of laziness.
+2644 | Decisions are not about making the choice and braving the consequences because you want 【to】 blindly trust your instincts.
+3003 | This allows managers 【to】 both keep an eye on struggling employees and provide ongoing feedback on how employees are adapting 【to】 their new work environment.
+2935 | More people have taken 【to】 bottled water because of their health awareness.    ?P:take to
+2556 | The introduction of the “sugar tax” on juices and soda drinks has pushed more people 【to】 bottled water, while health awareness
+2542 | As a low-income student from a down-and-out Rust Belt community, these educational experiences have enormous potential 【to】 brighten my future—and my family’s future.
+2712 | such as Design Ventura, which helps 【to】 bring the standard curriculum 【to】 life,” says Cleaver.    ?P:bring sth to life
+2505 | Li said “We often chalk up our stress 【to】 broad experiences like work.
+2781 | It is nearly impossible for students 【to】 build a relationship with their professor.
+2810 | School facilities are expensive 【to】 build and maintain, and teachers are expensive 【to】 employ.
+2592 | business that cities nationwide began allowing them 【to】 build curbside seating areas where people could sit, safely, in the
+3054 | They provide little chance for students 【to】 build relationships with each other.
+2941 | you are taking a DNA test 【to】 build your extended DNA family tree, or want precise information on inborn health
+2900 | Arouse customers' appetite 【to】 buy flowers, fruit and vegetables.
+2671 | The supermarket imitated the Fordist factory, with its emphasis on efficiency and standardization, and reimagined it as a place 【to】 buy food.
+2772 | It frees people from any known link 【to】 cancer.
+2622 | been linked 【to】 cancer, but studies show that people who ditch meat have lower blood pressure, lower average blood sugar,
+2484 | Previously, the doctors made voice recordings that were then transcribed by secretaries—a process that was costly and likely 【to】 cause delays.
+2611 | One consequence of climate change is that some people may not have adequate access 【to】 certain foods.
+2994 | Now a large-scale study has tried an innovative approach 【to】 change teenagers’ attitudes towards healthy eating, and the
+2507 | People’s interests tend 【to】 change with age.
+2638 | You’ll need 【to】 change your name at the bank, with social security, with your credit cards, on your driver’s license, at the gym … everywhere.
+2558 | Profits go 【to】 charity.
+2883 | Participation of ninth graders in Design Ventura can motivate them 【to】 choose design technology as their subject.
+2870 | Legally speaking, the bride is free 【to】 choose whatever name she prefers.
+2499 | have turned 【to】 claiming the problem is the opposite: There are too many cyclists getting in the way of cars.    ?P:turn to
+2578 | For more than a decade, they have been under attack from e-commerce giants, blamed for making Americans fat, and accused of contributing 【to】 climate change.
+2703 | People wonder if certain crops and foodstuffs could disappear like some animal species due 【to】 climate change.    ?P:due to
+2844 | They have difficulty adapting 【to】 climate change.
+2686 | Barrie is aware they still have a mountain 【to】 climb.
+2602 | They were reluctant 【to】 collaborate with others.
+2908 | Judging from the slowing rate of sales growth, there is still hope 【to】 combat bottled water.
+2641 | As a result, Los Angeles now has its best chance in decades 【to】 combat homelessness.
+2789 | 【To】 combat the county's homelessness.
+2871 | Second, once-public spaces, where people from diverse backgrounds used 【to】 come together, have increasingly become privatized, leading 【to】 a reduction in the number of public facilities available 【to】 all, and a reduced quality of life for many.    ?P:used to
+3049 | There are tools 【to】 compare one’s DNA with others’ 【to】
+2688 | this, students had 【to】 complete a difficult mental math task in front of the same upper-year students.    ?P:have to
+2531 | exposing him 【to】 computers.
+2828 | wear puts us in the right frame of mind 【to】 conduct business.
+2882 | And human drivers need 【to】 consent 【to】 take responsibility for the outcomes of the software and hardware.
+3077 | What is the author's advice 【to】 consumers?
+2853 | Unless a far-reaching bottle ban does come into force, it will be up 【to】 consumers 【to】 not    ?P:be up to ?P:up to
+2656 | 【To】 contribute 【to】 a sustainable food system.
+2700 | It is extremely difficult 【to】 convert voice into text because of different pronunciations.
+2924 | It is an essential aspect of life 【to】 cooperate with other people.
+2726 | The financial aid the author receives is supposed 【to】 cover all her college expenses.
+2695 | They help each other 【to】 cover up their acts.
+2526 | People may find it demanding 【to】 create a goal which will take a long time 【to】 achieve.
+2487 | Like Farrant’s work with resurrection crops, a number of companies, organisations and researchers are aiming 【to】 create drought- and temperature-resistant crops through genetic engineering and conventional breeding.
+2980 | A better goal than building bigger houses for some is 【to】 create more publicly accessible spaces and amenities for all.
+2538 | How feasible it is 【to】 create new disciplines like computational economics.
+2809 | It can be harder for students 【to】 create study groups and form relationships with their peers.
+2964 | Participants in Design Ventura are challenged 【to】 create sustainable and marketable products.
+2569 | How a growth mindset of interest can contribute 【to】 cross-disciplinary thinking.
+2838 | Physically attending school has hidden benefits: getting up every morning, interacting with peers, and building relationships with teachers are essential skills 【to】 cultivate in young people.
+2811 | Find more ways 【to】 curb students’ unethical acts.
+2710 | This would mean tax on bottled water would be refunded 【to】 customers who returned
+2944 | Remind people 【to】 cut down on snacking.
+2626 | stress responses 【to】 daily social difficulties.
+2754 | Bring policies against cheating up 【to】 date.    ?P:bring sth up to date ?P:bring sb up to date ?P:up to
+2747 | part because they felt like they had the resources 【to】 deal with the demanding situation.
+2763 | It reduces the chances of making mistakes, and has increasingly become a favorite approach 【to】 decision-making among leaders of today.
+2841 | It is especially difficult for people 【to】 decline 【to】 do what their superiors ask them 【to】 do.
+2807 | If working from home becomes permanent, employees will have 【to】 dedicate part of their private space 【to】 work.    ?P:have to
+2919 | It is difficult 【to】 define.
+2651 | He has recently been commissioned 【to】 design the new Museum of London building in
+2581 | One study finds that even workers who claim 【to】 desire gender equality stick 【to】 traditional gender roles both at work and at home.
+3056 | The purpose of performance evaluation is ultimately 【to】 determine how 【to】 reward employees for their work.
+3020 | More research is needed 【to】 determine the best times 【to】 administer treatments for different diseases.
+2791 | But when you’re intently focused on outperforming your rivals, you may begin 【to】 develop a “win-at-all-costs” mentality that causes you 【to】 ignore how you achieve success.
+3059 | A lifetime of praise leads smart people 【to】 develop too much faith in their intelligence and abilities.
+2609 | Supermarkets can technically be defined as giants housing 15,000 【to】 60,000 different products.
+2771 | symbolic meaning that we assign 【to】 different types of clothing.
+3022 | What about using DNA tests 【to】 discover distant family members?
+2586 | It’s that we have unrealistic expectations of what we’re asked 【to】 do
+2872 | What is the typical supermarket layout intended 【to】 do?
+3002 | What does the author say teachers are expected 【to】 do?
+2751 | Yet the widespread view is that obesity is self-induced and that it is entirely the individual’s responsibility 【to】 do something about it.
+2813 | People sometimes struggle 【to】 do things that are simply a waste of time.
+3021 | 【To】 do this, researchers had students read an article on the food industry.
+2869 | People agree 【to】 do too many things they are in fact unwilling 【to】 do.
+2890 | The nation's obesity level has much 【to】 do with calorie intake.    ?P:have much to do with
+2508 | Job satisfaction has a lot 【to】 do with company culture.
+2946 | It has much 【to】 do with one’s genes.    ?P:have much to do with
+2540 | It has much 【to】 do with whom employees interact with.    ?P:have much to do with
+2711 | Recent evidence points 【to】 drivers’ limited understanding of what these systems can and cannot do as a contributing
+2525 | The rate of growth has begun 【to】 ease (sales were up 7% in the year, compared with 8%
+2642 | People around the world are eating foods more similar than what they used 【to】 eat.    ?P:used to
+2997 | Choosing what 【to】 eat and drink is key 【to】 weight control.
+2753 | In the coming era of budget cuts 【to】 education, distance learning could become the norm.
+2859 | What does the awarding of three Michelin stars 【to】 Eleven Madison Park indicate?
+2654 | When people have no way out in crises, they are more likely 【to】 embrace changes.
+2922 | Employers should think instead about the values and soft skills they want 【to】 emphasize in a remote work environment.
+2664 | Give promotions 【to】 employees for their accomplishments.
+2891 | This represents a considerable transfer of value from employees 【to】 employers.
+2594 | 【To】 encourage more customers 【to】 be vegan.
+2682 | keen 【to】 encourage young people,” she says, observing that design brings together other subjects such as literature, art,
+3011 | One way you can overcome the risk-inducing effects of rivalry that stand 【to】 endanger your venture’s success is 【to】 remain attentive 【to】 your emotional state and actively monitor how such feelings are affecting your decision-making.
+2992 | Help us 【to】 enjoy a fuller personal life.
+2677 | We get 【to】 enjoy the very concrete, immediate benefits
+2696 | Students may not be able 【to】 enjoy their state benefits when they go 【to】 college out of the state.
+2993 | most drugs during the morning or evening primarily 【to】 ensure compliance.
+2769 | It looks at what the manufacturers of self-driving cars should legally do 【to】 ensure that drivers understand how 【to】
+2806 | should be looking for new ways 【to】 ensure what people eat wouldn't have much impact on their waistlines.
+2978 | This shift toward aquaculture isn’t just good for ensuring salmon (三文鱼) on your plate; it’s also crucial 【to】 ensuring food security and sustainability.
+3044 | Automatic driving systems are by no means immune 【to】 errors.
+2555 | But organisations need 【to】 examine the demands they’re placing on employees.
+3078 | 【To】 exemplify how remote working affects the economy.
+2889 | attention 【to】 exercise and less 【to】 what they eat and drink.
+2996 | Researchers would like 【to】 explore further how parents and schools can help ninth graders by changing
+2794 | G) In a follow-up study, Hershfield wanted 【to】 explore ways 【to】 bridge the disconnect between the present and future
+3076 | It is beneficial 【to】 explore ways 【to】 cope with the challenges facing students entering high school.
+2974 | They are meant 【to】 facilitate interaction.
+2647 | 【To】 facilitate the rise of the middle class.
+2787 | Weather information is extremely important 【to】 farmers.
+2916 | They turned public attention away from the health risks of sugar 【to】 fat.
+3005 | By 2050, the world will need 【to】 feed an estimated 9.7 billion people.
+2598 | Some career women who aim high tend 【to】 feel guilty if they fail 【to】 achieve their goals.
+2640 | The revolutionary idea of a self-service grocery, where people could hunt and gather food from aisles rather than asking a clerk 【to】 fetch items from behind a counter, first came about in America.
+3074 | Afterwards, the participants read a fictional survey of teens who wanted 【to】 “fight back against the companies by buying and
+2902 | In 2016, researchers from Columbia, Harvard, and Georgetown conducted a study 【to】 figure it out.
+3010 | employees 【to】 find work-life balance.
+2570 | They are advertised as a way for adults 【to】 finish their education and students 【to】 learn the material at their own pace—it is far more compatible for people with busy schedules.
+2550 | Compared 【to】 five years ago, according 【to】 one researcher, many more people said their organisation gave the same support 【to】 men and women taking parental leave.    ?P:according to ?P:compare to
+2742 | up and feel guilty about taking the time 【to】 focus on clothes.
+2749 | For policy, we need 【to】 focus on options that make it easy for people 【to】 eat fewer calories.
+2746 | It would set a model for many more restaurants 【to】 follow.
+3047 | It requires us 【to】 follow a particular rhythm.
+2707 | possible solutions: The first is 【to】 force your future self 【to】 do whatever your present self doesn't want 【to】 do.
+2616 | How can people best understand a particular fashion in an era, according 【to】 Ford?    ?P:according to
+2878 | I) The third solution is 【to】 forget about your future self and use your present self’s love of instant gratification
+3009 | The society fails 【to】 forgive them for their mistakes.
+2643 | A number of lawsuits have pressured companies 【to】 formulate gender neutral policies on parental leave.
+2639 | According 【to】 Francis Dittoh, their speech-based weather information service was meant 【to】 be inexpensive and easy 【to】 use.    ?P:according to
+2580 | K) Until genetic engineering comes 【to】 fruition, other strategies might also help in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster or installing storage facilities 【to】 delay spoilage.    ?P:come to fruition
+2610 | The purpose of such action is 【to】 fund an enormous multibillion-dollar, 10-year program of housing and social services for the homeless.
+2845 | 【To】 fund the development of local infrastructure.
+2991 | Students benefit from Design Ventura because they can learn about budgeting and marketing in addition 【to】 game design.
+2528 | “People try 【to】 get five servings of fruit and vegetables
+3016 | Diving headfirst into the crash course of starting university, I’ve quickly tried 【to】 get myself up 【to】 speed with the financial    ?P:up to
+2577 | Your hands are covered with oil; you're not going 【to】 get on the iPad, so it's a lot more natural 【to】 talk.
+2669 | It’s easy 【to】 get overwhelmed just thinking about it.
+3032 | They’ll have 【to】 get their protein somewhere.    ?P:have to
+2823 | Besides, teamwork and leadership rely heavily on the power of persuasion 【to】 get things done.
+2657 | In this study, students came into the laboratory and were asked 【to】 give a public speech in front of
+2566 | If asked, most people will be able 【to】 give a vague
+2761 | Poor people may have 【to】 give up eating certain foods because of their high prices.    ?P:have to
+2952 | Travis Bradberry, president at TalentSmart, explained Bradberry in his post Why Smart People Act so Stupid that “rational thinking and intelligence don’t tend 【to】 go hand in hand”.
+2589 | “The winning team chooses where it wants the profits 【to】 go,” says Ritman Smith.
+2614 | People-pleasing, or seeking self-worth through others' approval, is unproductive and an exhausting way 【to】 go through
+2812 | Today, many Americans have 【to】 go 【to】 college on student loans.    ?P:have to
+2970 | Exercise is more important 【to】 good health than diet.
+2861 | It takes great efforts for children 【to】 grasp the concept of number words.
+3042 | Continuing 【to】 grow concrete forests rather than real ones is shortsighted.
+2596 | We are not born 【to】 handle quantitative distinctions
+2938 | mean, who wants 【to】 hang out with people in their suits?
+3031 | Most other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed 【to】 hastily wolfing down handfuls of cereal
+2567 | “Women working outside of the home should make an effort 【to】 have a conscious conversation with their partners about more equitable sharing of household and family responsibilities,” Dr.
+2981 | Enable customers 【to】 have a more enjoyable shopping experience.
+2825 | day, the recommendation 【to】 have at least five portions of fruit and vegetables every day.
+2727 | It’s a good problem 【to】 have, but it can be a tough skill 【to】 master.
+2606 | Enabling them 【to】 have more access 【to】 nutritious foods.
+2815 | What's more, homes built in the 2000s were more likely than earlier models 【to】 have more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+2663 | As online courses tend 【to】 have more than 100 students, most of the assignments are short and simple.
+2987 | Successful persuasion skills are based on your ability 【to】 have positive interactions and maintain meaningful relationships
+2645 | Why do we allow what others think of us 【to】 have so much power over how we feel about ourselves?
+3072 | They may enable people 【to】 have the right mentality for doing business.
+3040 | 【to】 have this article done.
+2607 | From there you are going 【to】 have 【to】 legally change your name all over the place.    ?P:have to
+3012 | We can never be truly free if taking 【to】 heart others’ opinion of us.    ?P:take sth to heart ?P:take to heart ?P:take to
+2673 | A recent news report talked about scientific efforts 【to】 help crops survive droughts through genetic engineering.
+2830 | Game Academy proposes 【to】 help gamers develop their skills using critical thinking.
+2678 | 【To】 help initiate some novel fashions.
+3043 | terms of the modern era 【to】 help manage my personal finances.
+2913 | Interventions 【to】 help reduce junk food consumption are especially important for children and teenagers.
+2631 | Improved technology gives birth 【to】 highly popular products.
+2802 | A physicist admits gaming has contributed 【to】 his computer knowledge and skills of solving problems.
+2716 | One veteran player has applied his gaming skills 【to】 his real-world business and owes his success partly 【to】 a game company.
+2750 | Employers argue they make considerable savings on real estate when workers shift from office 【to】 home work.
+2517 | There are close 【to】 58,000 homeless people in Los Angeles county.    ?P:close to
+2522 | ways similar 【to】 how it would register Taylor Swift or the mailman.
+2518 | For now, the jury is still out as 【to】 how successful those endeavours will be.
+2514 | J) There are all sorts of reasons 【to】 hyphenate your name or not 【to】 hyphenate your name.
+2765 | as other people, it follows that trying 【to】 identify more closely with our future selves will encourage us 【to】 make better long-
+2629 | Women are advised 【to】 identify the specific causes of their stress so that steps can be taken 【to】 deal with it.    ?P:take to
+3026 | 【To】 illustrate the ongoing change in working patterns.
+2600 | What does the author want 【to】 illustrate with the example of smartphones?
+3013 | It’s easy for me 【to】 imagine how amazing it will feel at the end of the workday
+2636 | H) Over time, as you continue 【to】 improve and succeed, your strategy needs 【to】 change.
+2513 | What does the author say is important in formulating policies 【to】 improve diets and health?
+2624 | about “repeating the process, but each time doing something slightly different 【to】 improve the result”.
+2668 | What does the author suggest disadvantaged people do 【to】 improve their health?
+2923 | He noted that Japanese people ate a wonderful variety of seaweeds, and that Chinese people tried 【to】 include at least five different colors in every meal.
+2637 | Taking more effective measures 【to】 increase food supplies.
+3028 | They tend 【to】 increase professors’ burden of responding 【to】 students’ emails.
+2621 | 【To】 increase the benefits of fruit juice 【to】 our health, we’d better choose ripe fruit 【to】 make juice.
+2724 | Encourage employees 【to】 increase their visibility on social media.
+2829 | gain over time because food intake at night leads 【to】 increased fat storage.
+2799 | 【to】 industry and entrepreneurship.
+2492 | and personality, which, he assumes, influenced all innovations in fashion in the past and which continue 【to】 influence us today.
+2608 | In the U.S., 29% of drivers admit they surf behind the wheel, according 【to】 insurance firm State Farm.    ?P:according to
+2693 | They are not designed for students 【to】 interact with the material in depth but designed 【to】 be graded easily 【to】 accommodate such a large number of students.
+3062 | They are less and less indifferent 【to】 it.
+2927 | Provide customers easy access 【to】 items they want 【to】 buy.
+3025 | .. ;ftðatfaJ c1M1t.:r. 【to】 1£-J!=-&1; ñtft!l-!- C *
+2909 | continuous warnings, could decide 【to】 just ignore the message.
+2894 | But online education does not allow a teacher 【to】 keep a struggling student after class and offer help.
+2951 | 【To】 keep eating fish at the current rate, we’re definitely going 【to】 need 【to】 keep aquaculture (水产养殖) developing.
+2490 | many hours as before 【to】 keep their living standards.
+2748 | It is difficult for anumeric people 【to】 keep track of the change in numbers even when the total is very small.
+3046 | They are vital 【to】 keeping a dominant position in business transactions.
+2583 | According 【to】 Keynes, there would be a shorter working week with everyone’s standard of living continuing 【to】 rise.    ?P:according to
+2860 | We want 【to】 know in which types
+2546 | Think about when you're cooking, and you just want 【to】 know what the next step in the recipe is.
+2973 | Why are some people opposed 【to】 labelling obesity as a disease?
+2920 | They are unmotivated 【to】 learn.
+2495 | Knowing the best way 【to】 learn a foreign language will not enable you 【to】 speak it without actual practice.
+2527 | product is going on sale for real and the boys had 【to】 learn about budgeting and marketing, as well as designing their game.    ?P:have to
+2632 | First of all, students lack the desire 【to】 learn, and they simply complete their assignments 【to】 receive credit for a passing grade rather than genuinely engage with the course material.
+2915 | We also hope 【to】 learn how teachers, parents or school counselors can help
+2906 | In order 【to】 learn the art of persuasion at the workplace, you need 【to】 understand how 【to】 handle conflicts and reach    ?P:in order to
+2489 | But how wise is it, really, 【to】 let your instincts drive your decisions?
+3019 | Enable us 【to】 look a lot more attractive.
+2713 | We all take a little extra effort 【to】 look nice for special occasions.
+2708 | 【To】 loosen restrictions on dress codes.
+2690 | People who want 【to】 lose weight are more likely 【to】 under-report their eating-regardless of whether
+2659 | Another cause is that the proportion of people who are trying 【to】 lose weight has been increasing over
+2843 | First, large houses take time 【to】 maintain, so cleaners and other low-wage service workers are required 【to】 keep these houses in order.
+2907 | Without organisational support, any personal effort 【to】 maintain work-life balance will be unsuccessful.
+2741 | M) Ritman Smith adds: “Design technology has become a tricky subject 【to】 make a case for, and we’ve heard of departments
+2545 | The basis for each of these things, however, is whether or not you are willing 【to】 make a compromise when it comes 【to】 changing your name.    ?P:when it comes to
+2506 | 【To】 make a conversation interesting, it is important that you listen 【to】 the other party attentively.
+2985 | We should see through other peoples’ attempt 【to】 make a prisoner of us.
+2942 | happen if schools helped 【to】 make beliefs about the potential for change and improvement a larger
+2735 | liked, and caring about the effect we have on others, is healthy and allows us 【to】 make connections.
+2485 | Chase Carey intends 【to】 make connections easier between the audience and the Formula One racers.
+2496 | students helped 【to】 make decisions and there were plenty of discussions — they changed the product’s name, for example.
+2852 | Knowing one’s emotional state is of utmost importance in deciding what changes 【to】 make for a better work-life balance.
+2820 | What should we take into account in order 【to】 make informed decisions?    ?P:in order to
+3048 | deceptive strategies used 【to】 make junk food more addictive and characterize the products as healthy.    ?P:used to
+2954 | Induce customers 【to】 make more unplanned purchases.
+2584 | In light of Hershfield’s study, one simple question arises: Is it possible 【to】 make our present selves give a damn about
+2984 | The sense of eagerness that comes with having a rival can not only cause you 【to】 make poorer decisions, but it can also lead you 【to】 take greater risks that put your venture in peril.
+2796 | Workers who rejected working long hours tended 【to】 make regular adjustments in order 【to】 achieve work-life balance.    ?P:in order to
+2792 | Strive 【to】 make sense of some unknown forces.
+2573 | K) The key is 【to】 make sure that students and their families understand that hidden costs exist, and that they may prove problematic.
+2675 | They are about combining your inner wisdom with the knowledge of systematic data 【to】 make the best decisions.
+2523 | humor and enough interesting episodes 【to】 make the writing appealing.
+2617 | you attempt 【to】 make toward it on a personal level will be in vain.
+2551 | On the other hand, there is a more rational approach 【to】 making decisions.
+3029 | Elevate students 【to】 managerial positions.
+2947 | They are made convenient 【to】 mark.
+2953 | We must change the way we think: living well does not need 【to】 mean having more private spaces; instead, it could mean having more public spaces.
+2571 | It is hard 【to】 measure when employees interact with outsiders.
+2714 | They more often appeal 【to】 meat-eaters.
+2660 | Women tend 【to】 mistake signs of heart attacks for symptoms of stress.
+3060 | Questions related 【to】 moral principles.
+2776 | pumped more blood-both of which contributed 【to】 more oxygen getting 【to】 the brain, and, ultimately,
+2936 | Given these limitations and concerns, even if this mode of obtaining consent is 【to】 move
+3069 | I’ve read some financial education books, done some online learning, and have spoken 【to】 my nearest and dearest for
+2873 | 【To】 narrow the gap between the rich and the poor.
+2988 | The weakening of the human connection 【to】 nature might be good for economic growth but is bad for people.
+2633 | What does the author suggest managers do 【to】 neutralize the retention risk?
+2530 | change — and it seems reckless 【to】 not have them.
+2689 | not real in any physical sense and are nonexistent 【to】 numberless people.
+2963 | needs 【to】 occur beyond the vehicle purchase.
+2914 | A strong incentive for more restaurants 【to】 offer healthier foods 【to】 their customers.
+2612 | According 【to】 one estimate, less than one third of companies in the US provide paid parental leave.    ?P:according to
+2897 | According 【to】 one famous entrepreneur, innovation means refusal 【to】 do an enormous number of things.    ?P:according to
+2488 | According 【to】 one father, equal parental leave is indispensable 【to】 achieving gender equality in the workplace.    ?P:according to
+3023 | According 【to】 one study, each high school graduate contributes at least 500, OOO dollars 【to】 the local    ?P:according to
+2969 | According 【to】 one study, students' academic performance is not the only decisive factor of their stress    ?P:according to
+2685 | According 【to】 one survey, city design with bike lanes and pedestrian space did not negatively impact local businesses.    ?P:according to
+2770 | them 【to】 opt for it at General Certificate of Secondary Education, so we are helping 【to】 keep alive something which is crucial
+2562 | “When creating treatment plans, the aim is 【to】 optimise
+2851 | persuasion skills, employees may not be as committed 【to】 or convinced of the importance of an organization's vision and long-
+2965 | Add 【to】 our advantage in work and life.    ?P:to one's advantage
+2950 | “We don’t prioritize eating seasonally or locally, and we also add lots of salt, sugar and thickening agents 【to】 our foods,” explained Pasternak.
+2848 | Resort 【to】 our inner wisdom.
+2720 | of how often they happen and how much they contribute 【to】 our overall energy intake.
+2704 | But before you go out and find an entrepreneur 【to】 outcompete, it’s important 【to】 understand and avoid the traps that often come with rivalry.
+3064 | By enabling them 【to】 outcompete other entrepreneurs.
+2762 | Finding someone you’re committed 【to】 outcompeting can be a great way 【to】 stay focused on your goals and push your venture 【to】 the next level.
+2665 | Most parents tended 【to】 overprotect their children.
+2620 | K) It costs the schools nothing 【to】 participate in Design Ventura; the professional designers provide their services for free.
+2519 | One survey indicated there is now less objection 【to】 paternity leave.
+2515 | The new system means letters 【to】 patients now have more detail.
+2784 | Though it is difficult and embarrassing, students should make inquiries about what fees they have 【to】 pay and why.    ?P:have to
+2937 | The schools don’t have 【to】 pay anything 【to】 take part in the Design Ventura competition.    ?P:have to
+2574 | You have 【to】 pick carefully.    ?P:have to
+2587 | The industry is quick 【to】 point out that all its bottles are recyclable.
+2731 | But contrary 【to】 popular belief, the homeless in Los Angeles are not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+2561 | O) Crises, after all, have a way of opening people’s eyes 【to】 possibilities.
+2797 | users 【to】 post them back for recycling.
+2948 | Yet teachers are expected 【to】 prepare them 【to】 be responsible citizens, cultivate their social skills, encourage successful time management, and enhance their capacity 【to】 flourish in an increasingly harsh labor market.
+2842 | Hyphenating names allows the bride 【to】 preserve her own identity while respecting tradition.
+2737 | 【To】 preserve the status of the nobles.
+3008 | They use tricky strategies 【to】 promote their business.
+2684 | Most of them eat meatless meat 【to】 protect the environment
+2910 | Design Ventura is welcomed by teachers because it helps 【to】 prove the worth of design as a school subject.
+2893 | However, they fail 【to】 provide a genuine education with an emphasis on convenience rather than critical thinking.
+2976 | In the context of a global pandemic (大流行病), firms may want 【to】 provide additional support 【to】 employees by providing more frequent communication.
+2999 | 【To】 provide convincing data for serious discussion.
+3034 | People no longer have access 【to】 public swimming pools.
+2698 | Make sure 【to】 purchase healthy foods on the internet.
+2709 | about being able 【to】 put food on the table.
+2554 | Ford asks us 【to】 question unconscious
+2493 | the next four years, they were 40% less likely 【to】 quit than those who kept working under the old policies.
+2480 | The university administration will likely vote 【to】 raise costs at least once more before my graduation.
+3058 | For example, pound for pound, beef requires 15 times more feed 【to】 raise than carp, a freshwater fish farmed all over Asia.
+2579 | The citizens of this county voted in November 2016 and again in March 2017 【to】 raise their own taxes.
+2760 | Why did the citizens of Los Angeles vote 【to】 raise their own taxes?
+2967 | success among young children, teens have been harder 【to】 reach.
+2497 | K) Plus, she adds, it’s not an ideal way 【to】 reach the advised ‘five a day’.
+2729 | African farmers unable 【to】 read often don't have access 【to】 important information conveyed online.
+2774 | Businesses are beginning 【to】 realise gaining skills are applicable 【to】 their employees’ work.
+2962 | As a university student I've come 【to】 realise just how little I know about money.
+2560 | cracked the code 【to】 realistic fake meat is that I couldn’t stand 【to】 take another bite,” she wrote.
+2601 | But after being enrolled in an online course last fall semester, I came 【to】 realize online classes were merely a means 【to】 fulfil course requirements.
+2585 | beliefs, 【to】 realize that we almost never do so, 【to】 understand that the simplest choices are charged with meaning, and yet that
+2501 | It is the first vegan restaurant 【to】 receive the highest Michelin rating.
+2790 | A number of existing farming technologies could be used 【to】 reduce the negative effect of climate change on food production.    ?P:be used to ?P:used to
+2529 | current superstars of the alternative protein sector — are pursuing consumers who enjoy meat but want 【to】 reduce their meat
+2817 | 【To】 reform the county's service system.
+2734 | The only feasible option is 【to】 rely on what your instincts tell you.
+2628 | and thus have more 【to】 remember.
+2757 | Try 【to】 remember that as you are staring at the application for your marriage license and filling out the portion that reads “name after you get married” (or whatever the legalese for that might be).
+2839 | Organizations should reconsider the appropriateness of their performance evaluation procedures in light of the shift 【to】 remote work.
+2721 | As many office workers adapt 【to】 remote work, cities may undergo fundamental change if offices remain under-utilized.
+2532 | It is the first restaurant in the city 【to】 remove meat from its menu.
+2563 | Why did Daniel Humm decide 【to】 remove meat from the menu of his restaurant?
+3035 | They are going 【to】 replace the local groceries entirely.
+3050 | Researchers found through experiments that students could be taught 【to】 respond 【to】 stress in a more
+2995 | Ancestry tests claim 【to】 reveal our genetic identities.
+2834 | Most people surveyed were reluctant 【to】 reveal what they ate.
+2559 | Some people believe a juice diet helps 【to】 rid our body of harmful or poisonous substances.
+2864 | Its impact on society is expected 【to】 rise.
+2692 | With obesity now affecting 29% of the population in England, and expected 【to】 rise 【to】 35% by 2030, should we now recognise it as a disease?
+2822 | selves and encourage people 【to】 save more for retirement.
+2818 | Sometimes it’s because I actually am busy, but other times it’s because that’s what I think I’m supposed 【to】 say.
+2697 | You still need 【to】 say “no” 【to】 distractions, but you also need 【to】 learn 【to】 say “no” 【to】 opportunities that were previously good uses of time, so you can make space for better uses of time.
+2785 | It’s no easy job learning 【to】 say “no” 【to】 opportunities that were once considered worth grasping.
+2481 | You need 【to】 say “no” 【to】 whatever isn’t leading you toward your goals.
+2500 | “I would love 【to】 say that my gaming skills allow me 【to】 destroy cancer using linear accelerators like
+2595 | students believed that intelligence could improve-that is 【to】 say, when they held more of a growth
+2552 | In the U.S. labor market. the primary concern of people with less schooling and fewer skills is 【to】 secure any employment
+2959 | want 【to】 see — e.g. losing weight, getting a promotion, retiring in comfort, etc.
+2604 | L) Students and families must also understand their ability 【to】 self-advocate.
+2758 | Some phone users worry advertisers will take advantage of voice assistants 【to】 send ads directly 【to】 them.
+2667 | As your skills improve and you learn 【to】 separate what works from what doesn’t, you have 【to】 continually increase your threshold for saying “yes”.    ?P:have to
+2804 | J) These findings lead 【to】 several possibilities that we are investigating further.
+2958 | If we base our worth on the opinions of others, we cheat ourselves of the power 【to】 shape our experiences and embrace
+2728 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you 【to】 share or whether you hyphenate your current last names, what matters is that you love each other and are going 【to】 be joining your lives together.
+2694 | Create opportunities for employees 【to】 share success stories.
+2755 | When the person who damages dorm facilities is not identified, students are required 【to】 share the cost.
+2918 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers 【to】 shelve the idea of remote work and, like Yahoo in 2013, encourage employees 【to】 work most of the time from corporate office space.
+2625 | 【To】 show the appeal of a plant-based menu.
+3052 | 【To】 show the impact of remote working on productivity.
+2798 | One solution suggested in the study involves requiring buyers 【to】 sign end-user license agreements (EULAs), similar 【to】
+2979 | Intelligent people are more prone 【to】 silly mistakes because of blind spots in how they use logic.
+2856 | we want 【to】 socialize.
+2655 | “Most videogames are essentially puzzles 【to】 solve,” he says.
+3053 | It helps little 【to】 solve patients’ problems.
+3036 | Everyone is pulling in the same direction 【to】 solve the homelessness problem.
+2548 | That's a shocking and tragic number for a region that's home 【to】 some of the richest people in the world.
+2553 | equivalent of giving money away 【to】 someone else entirely.
+2766 | It is filled with interesting episodes 【to】 spare readers intolerable boredom.
+2670 | Using voice instead of typing enables doctors 【to】 spend more time taking care of patients.
+2767 | Research found that those who are given greater flexibility at work are less stressed and more likely 【to】 stay in their jobs.
+2778 | people do not know how much they are eating, it can be really hard for them 【to】 stick 【to】 a diet.
+3004 | They all seem 【to】 stick 【to】 the ethos (特质) of regional, seasonal produce.
+2537 | A person who is unable 【to】 stimulate others’ curiosity or make their life enjoyable may appear somewhat boring.
+3063 | Personally, I’m going 【to】 stop saying “busy” when people ask me how I am.
+2676 | can't please all people all of the time, wouldn't it make sense 【to】 stop trying?
+2494 | Moves against various plastics have gathered pace, from shopping bags 【to】 straws and plastic-lined coffee cups.
+2718 | But when students were taught that people can change, they had better responses 【to】 stress, in
+2687 | 【To】 strive for the three-star Michelin rating.
+2975 | It may add 【to】 students’ financial burden.
+2722 | Obesity, in which excess body fat has accumulated 【to】 such an extent that health may be adversely affected, meets the dictionary definition of disease, argues Professor John Wilding.
+2895 | As remote work is largely unobservable 【to】 supervisors, employers need 【to】 think about how they can objectively measure the quality of work in a way that is consistent for employees of similar rank.
+2520 | In the decision-making process, relying on instincts only makes sense when you have a vast experience 【to】 support you.
+3014 | In order 【to】 sustain those relationships, you must be able 【to】 work in their best interests as well.    ?P:in order to
+2899 | At the same time, public municipal pools were often closed, leaving low-income people nowhere 【to】 swim.
+2740 | factor 【to】 system misuse.
+2725 | What does the author think schools should do 【to】 tackle cheating?
+2966 | Therefore, patients are directed 【to】 take
+2780 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing out that other common diseases, such as high blood pressure and diabetes, require people 【to】 take action 【to】 manage their condition.
+3000 | Obese people would not feel responsible 【to】 take any action.
+2775 | It would prove a right step 【to】 take in today’s catering business.
+2939 | When doctors prescribe medicine for people, they rarely consider the best time 【to】 take it.
+2982 | They have been compelled 【to】 take low-paying jobs.
+2911 | business casuals on a Friday, since colleagues are most likely 【to】 take out time 【to】 socialize on the last work day of the week.
+2733 | After all, competitive rivalry can also hinder effective decision-making and increase your willingness 【to】 take risks, behaviors that can ultimately hurt your venture’s success.
+2874 | So why are we so proud 【to】 talk about how busy we are all the time?
+2536 | It is important 【to】 talk through these issues before they come 【to】 a head.    ?P:come to a head
+3075 | easy 【to】 tell whether two DNA samples belong 【to】 close relatives.
+2888 | of schools and for which kinds of students these growth mindset ideas help young people adapt 【to】 the
+2917 | Calorie conswnption is linked 【to】 the amount of snacks one eats.
+2533 | has called these beliefs "mindsets ( ,'i if!:tlj)," with a "fixed mindset" referring 【to】 the belief that
+2564 | people cannot change and a "growth mindset" referring 【to】 the belief that people can change.
+2989 | I’ve come 【to】 the brutal realisation that
+2627 | they are introduced 【to】 the cognitive power tools we call numbers.
+2863 | Rough calculations show that the savings made by employers when their staff works from home are of similar value 【to】 the compensation workers should receive for setting up offices at home.
+3079 | It matters little 【to】 the debate over obesity.
+2827 | A visit 【to】 the Design Museum shop in London can reduce the designers’ fears about the future supply of talents educated
+2826 | may not provide enough information 【to】 the driver, leading 【to】 confusion about the nature of the requests for agreement and
+2732 | One possible solution 【to】 the food security problem is diversification of diet.
+3061 | They apply corporate black magic 【to】 the goods on display.
+2646 | television rather than go 【to】 the gym — suddenly make perfect sense.
+2862 | The missing out of main meals leads 【to】 the habit of snacking.
+2977 | Contrast that 【to】 the healthy Mediterranean, Nordic and Okinawan diets listed in Pasternak’s book.
+2543 | It means saying ‘no’ 【to】 the hundred other good ideas that there are.
+2768 | Flavoured water is booming: sales of the sparkling variety shot up by 20%, according 【to】 the latest analyst data, Meanwhile,    ?P:according to
+2885 | modify can react differently 【to】 the medicine over the course of a 24-hour time period.
+3038 | How can competitive rivalry benefit entrepreneurs according 【to】 the passage?    ?P:according to
+2572 | The technology is being adopted so quickly that school districts cannot adequately keep up with cheating policies, or even awareness campaigns that alert students 【to】 the problem with using technology 【to】 find answers in a certain way.
+3051 | It runs counter 【to】 the public interest.
+2658 | gateway 【to】 the realization that "five fingers on one hand is the same as five fingers on the other. " Such
+2590 | A lot of research comes 【to】 the same conclusion that fruit juice does harm 【to】 the human body when it leads 【to】 surplus
+2971 | See that people don't stick 【to】 the same diet.
+2855 | One of Design Ventura’s judges says the competition adds vigour 【to】 the standard curriculum in schools.
+2925 | But there’s another side 【to】 the story.
+2512 | G) Nobody embodied this idea better than Steve Jobs, who said, “People think focus means saying ‘yes’ 【to】 the thing you’ve got 【to】 focus on.
+2593 | the radiation dose 【to】 the tumour and restrict it as much as possible 【to】 healthy surrounding tissues and organs,” he says.
+2701 | They were such strange marvels that, on her first official state visit 【to】 the United States in 1957, Queen Elizabeth II insisted on an impromptu (即兴的) tour of a suburban-Maryland Giant Food.
+3066 | achieve and the ones that fall 【to】 the wayside.
+2502 | related 【to】 their ability 【to】 cope, succeed academically and maintain good mental health.
+2635 | bureaucracies, have limited English language skills, or are not contributing financially 【to】 their child’s education, the burden of self-advocacy will fall on the student.
+2783 | Alert parents 【to】 their children’s behaviour.
+2510 | There are no formulas written on the insides of hands or students looking across the aisle, or whispering answers 【to】 their classmates.
+2575 | They do not pay much attention 【to】 their food recipes.
+2634 | Parents must also talk 【to】 their kids about the appropriate ways 【to】 find academic answers and alert them 【to】 unethical behaviours that may seem innocent in their own eyes.
+2868 | Some schools charge students a fee 【to】 their student accounts for using credit cards 【to】 pay bills.
+2854 | A 2017 study shows 91 percent of people agree 【to】 them without
+2837 | Not all students have access 【to】 these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.
+2605 | Innovation is saying ‘no’ 【to】 1,000 things.
+2619 | We are inclined 【to】 think that a lack of knowledge prevents us from advancing 【to】 a better future.
+2956 | In other words, the more we believe that one has the opportunity for success based on hard work, the more we tend 【to】 think that people who skip leisure and work all the time are of higher standing.
+2613 | Without making things complicated, the solution 【to】 this dilemma is using data and instincts in conjunction 【to】 arrive at the best possible decisions.
+2777 | Human numerical instincts are not so superior 【to】 those of other mammals as is generally believed.
+2662 | What is the author’s suggestion 【to】 those who are seeking employment?
+2672 | It is neither desirable nor morally acceptable nor practical for this county 【to】 tolerate the signs of deprivation more commonly associated with the slums of Rio de Janeiro.
+2943 | They took her a full year 【to】 track and analyze.
+2782 | The temptation for those in charge of education budgets 【to】 trade teachers for technology could be so strong that they ignore the disadvantages of distance learning.
+2653 | contain high amounts of sodium compared 【to】 traditional beef.    ?P:compare to
+2866 | Those policy-makers are often fascinated by the latest technology in education and its potential 【to】 “transform” education overnight.
+2831 | It is an effort 【to】 transform the restaurant into a luxury one.
+2972 | It will force cities 【to】 transform their infrastructure.
+2998 | Directions: For this part , you are allowed 30 minutes 【to】 translate a passage from Chinese into English .
+2940 | Prevention is better than cure because obesity is so difficult 【to】 treat.
+2719 | If we are 【to】 truly understand
+2840 | In addition 【to】 tuition, college students have 【to】 pay extra fees for the courses they take.    ?P:have to
+2565 | e{j) cognition, but requires extensive practice 【to】 understand.
+2968 | conditions, it is important 【to】 understand how accurate genetic tests are, and what information we can rely upon.
+2534 | time, they start 【to】 understand that a given number represents a quantity greater by one than the
+2666 | M) In the grand scheme of things, however, colleges also must come 【to】 understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income or first-generation students they are trying desperately 【to】 attract.
+2849 | We need 【to】 understand that when we desperately
+2582 | This seemingly easy question is what drives the need 【to】 understand the relationship between instincts and data in the decision-making process.
+2887 | A greater responsibility for the culinary world 【to】 undertake.
+2816 | They are forced 【to】 use e-commerce strategies.
+2618 | Another has pledged 【to】 use only recycled plastic across its range by 2025.
+2904 | start 【to】 vanish, leaving you stronger, more confident, and yes, happier in your life.
+2509 | It tends 【to】 vary with the platform used.
+2850 | image processing 【to】 visually age their faces.
+2793 | Small children are not just learning how 【to】 walk and communicate, they are also trying 【to】 learn how the world works.
+2759 | The book The Hidden Persuaders, published in 1957, warned that supermarkets were putting women in a "hypnoidal trance (催眠恍惚状态)," causing them 【to】 wander aisles bumping into boxes and "picking things off shelves at random.
+2744 | People may find it more pleasant 【to】 wander around streets redesigned for cycling and walking.
+3045 | It concluded that pandas fail 【to】 wander off in
+2615 | E) Seen through the lens of the present self versus the future self. our self-defeating actions — like choosing 【to】 watch
+3015 | point was reached in 2020 when human-made materials — such as steel, concrete and plastic — were found 【to】 weigh more
+2801 | For example, eating at night can lead 【to】 weight
+3024 | Drinking Coca-Cola does not contribute 【to】 weight gain.
+2491 | while asking them 【to】 what degree various traits — like “honorable” or “funny” — applied 【to】 their current self, their
+2836 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says the question is not whether we can, but whether we should, and 【to】 what end.
+2603 | Teachers must stay on guard when it comes 【to】 what their students are doing in classrooms and how technology could be playing a negative role in the learning process.    ?P:when it comes to
+2516 | People's opinions differ as 【to】 whether Formula One can be promoted in the U.S.
+2930 | But this eagerness 【to】 win may also hurt your venture’s success, particularly when it causes you 【to】 make impulsive, insensible decisions.
+2858 | One who enjoys playing games that require management skills 【to】 win might possess more qualities of a manager.
+2691 | For a time an app developer in America was so busy attending 【to】 work and family that she suffered from sleeplessness.
+2903 | One reason having a rival can enhance your venture’s performance is that it creates a level of excitement that drives you 【to】 work harder.
+2547 | Supermarkets have long been suffering as one of the thinnest-margined businesses in existence and one of the least-looked-forward-to places 【to】 work or visit.
+2880 | More female professionals reported being reluctant 【to】 work overtime than their male counterparts.
+2835 | It also means having private space dedicated 【to】 work: the space must be heated, cleaned, maintained and paid for.
+2949 | Qualities like flexibility and the ability 【to】 work under minimal supervision might become critical.
+2779 | However, these savings result from passing costs on 【to】 workers.
+2896 | 【To】 write his 2010 book, The 5-Factor World Diet, nutritionist Harley Pasternak traveled 【to】 the healthiest countries around the world 【to】 learn more about what made their meals extra nourishing.
+2483 | Whether your future husband insisting on your adopting his last name is a red flag 【to】 you or not, it is still something that you should take into consideration.
+2905 | 【to】 your advantage.    ?P:to one's advantage
+2932 | need for immediate rewards, why not use it 【to】 your advantage?    ?P:to one's advantage
+2847 | But such behavior may stain your reputation and strain relationships important 【to】 your success.

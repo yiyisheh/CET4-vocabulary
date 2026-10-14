@@ -163,7 +163,9 @@ English/
 ```
 output/high_freq_cet4_df.txt  ─┐
 intermediate/roots.json ───────┤
-intermediate/core.json ────────┤─ build_dataset.py ─→ intermediate/entries_full.json
+intermediate/core.json ────────┤
+intermediate/senses.json ──────┤─ build_dataset.py ─→ intermediate/entries_full.json
+  (真题义项: def/ex/phr, §6.2)  │
   (+ pyphen 音节)              ┘        │
                                         ├─ make_pdf_optimized.py ─→ 优化版 PDF
 intermediate/audio/us/*.mp3 ───────────┤   （uk/ 不参与构建）
@@ -329,8 +331,21 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - **准确优先**：画面必须是真实的核心义（母语者语感/词典义项结构/可靠词源），串不起来就不做；个别同形异源或早已断开的义项写「X 单独记」，不硬扯（如 `set` 的「n. 一套」）。
 - **来源**：`core_manual.json`（手写 16 条样板，优先）→ `core_chunks/out_*.json`（8 个 Claude 子agent，按 `core_chunks/PROMPT.md`，候选 = 727 个无词根词）。变形词可写 `{"same_as": "take"}` 复用原形的卡。
 - **复核否决**：`core_manual.json` 里写 `null` = 人工复核后明确不做，压过子agent 产出。主要挡的是「变形词自身释义单一、却会继承原形整张卡」的情况（`kinds`=种类 不该挂 kind 的「善良」卡），以及义项过近的 come 一族。
-- **结果**：289 词有核心意象（词根 523 + 核心意象 289，两者互斥）。
-- **显示**：网页在释义下、词根卡上（`.core`，自测时随释义一起遮）；PDF 在例句后、词根块位置（同款灰字）。
+- **结果（v1）**：289 词有核心意象（词根 523 + 核心意象 289，两者互斥）。
+- **v2（2026-10-14，现行）**：释义改成真题义项（§6.2）后，按新义项表**逐词重写**全部卡片：`python scripts/core_task.py make` → `core_chunks/v2_in_XX.json`（每词带全部义项 `senses` 与旧卡），10 个 Sonnet 子 agent 按 `core_chunks/PROMPT_v2.md` 写 `v2_out_XX.json`，`core_task.py check v2_XX` 校验 derive 覆盖了**每一个**义项（用义项中文里的词做子串检查）。不再用 same_as（took 的义项和 take 不同）。只剩 1 个义项的词（34 个）去掉卡片。`v2_in_*` 存在时 `merge_core.py` **只用 v2 输出**（v1 来源只作历史，`core_manual.json` 的 null 否决仍生效）。结果 **202 词**有卡，51 个判 null。子 agent 回报在 `tmp/core_v2_reports.md`。
+- **释义最多 5 个义项（用户 2026-10-14 定）**：有核心意象卡的非功能词，释义行只列前 5 个义项，卡片 derive 列全部义项（take：释义 5 个、卡片 13 个）。功能词仍是 6 个上限、不截；没卡的词全部显示。
+- **显示**：网页在释义、短语行下面，词根卡上面（`.core`，自测时随释义一起遮）；PDF 在例句后、词根块位置（同款灰字）。
+
+### 6.2 真题义项（释义 / 例句 / 常见短语，2026-10 重做）
+
+旧释义是 DeepSeek 写的词典式释义。现在**只显示近五年真题里出现过的义项**，例句换成首要义项的真题原句，另加「常见短语」行（真题 ≥3 次，最多 5 条）。
+
+- **统计窗口**：`corpus/window.json`（唯一配置，`scripts/corpus_window.py` 读）。词频脚本和义项流水线都从这里取卷子。以后有新真题时只改这个文件，再对新句子补标注。
+- **流水线**（Claude 子 agent 标注，A/B/C/D/E 五类任务，任务书 `intermediate/sense_chunks/PROMPT.md` / `PROMPT_C.md`）：`extract_sense_contexts.py`（抽句子，出 A/B 任务：定义项表）→ `sense_store.py`（入库，按句子文本哈希，与窗口无关）→ `make_label_tasks.py` + `c_task.py`（C 任务：其余句子按义项表标）→ `merge_senses.py ROUND`（计数；缺例句出 E 任务、缺短语释义出 D 任务；齐了就写 `senses.json` / `phrases.json` / `tmp/senses_review.md`）。
+- **排序**：每套卷子最多算 3 次（`PAPER_CAP`），题干（答题说明）不参与排序和例句。功能词最多 6 个义项（`FUNC_MAX`），有核心意象卡的词释义最多 5 个（`CORE_MAX`）。义项要在 ≥2 句里出现才显示。
+- **人工修正层** `intermediate/sense_overrides.json`：merge（合并重复义项）、**promote（首要义项由人定：计数差距小、或计数第一的是引申义时，把核心义提到第一，如 run→跑、leave→离开、can→能、on→在…上；共 42 词，例句随之由 E 任务重挑）**、drop、demote、keep（补回核心义项）、no_form_prefix、phrases（修 D 阶段短语）。
+- **产物**：`senses.json` 每词 `def`（显示的释义）、`ex`、`phr`、`all`（全部义项，给核心意象卡用）、`shown`（释义显示几个）、`counts`、`dropped`；`phrases.json` 是下一阶段「固定短语背诵表」的数据。`build_dataset.py` 用它覆盖 def/ex 并加 `phr`，旧释义/例句留在 `def0`/`ex0`（不进 app）。
+- **改了例句要重配音**：`fetch_ex_audio.py` 按 rank 跳过已有的 mp3，所以要先删掉例句变了的 rank 的 mp3（对比 entries_full 的 `ex` 与 `ex0` 的英文部分）。
 
 ---
 
@@ -467,6 +482,7 @@ pip install pyphen edge-tts        # 音节 / 例句 TTS（需 ffmpeg 去静音�
 # 改了词根/词表后，从数据到成品全量重建：
 python scripts/merge_roots.py          # → intermediate/roots.json
 python scripts/merge_core.py           # → intermediate/core.json（须在 roots.json 之后：有词根的词不做核心意象）
+python scripts/merge_senses.py r1      # → intermediate/senses.json / phrases.json（§6.2；读 core.json 决定释义截到 5 个）
 python scripts/build_dataset.py        # → intermediate/entries_full.json
 python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
 python scripts/resynth_us_audio.py     # → 把 86 条不想要的有道音色换成 Ava（§7.5；重下过 us/ 才需要）

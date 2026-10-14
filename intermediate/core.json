@@ -1,1158 +1,810 @@
 {
- "take": {
-  "image": "主动伸手，把外面的东西拿到自己这边",
-  "derive": "拿；取 ⇒ 采取（把办法拿来用）；乘坐（把车拿来用）；服用（把药拿进身体）；花费（事情把你的时间拿走：It takes two hours）"
- },
- "get": {
-  "image": "从「没有」变成「有」——进入一个新位置或新状态",
-  "derive": "得到（东西到手）；到达（人到了某处）；变得（进入某种状态：get tired）；理解（意思到手了：I get it）"
- },
- "make": {
-  "image": "动手让原本没有的东西或结果出现",
-  "derive": "做；制造（造出一个东西）；使；使得（造出一个结果：make him happy = 让「他开心」出现）"
- },
- "have": {
-  "image": "某物落在我的范围之内",
-  "derive": "有；持有（东西在我手里）；经历（事情落到我身上：have a cold）；已经；曾经（做完的事仍「归我所有」，延续到现在 ⇒ 现在完成时）"
- },
- "put": {
-  "image": "把东西挪到某个位置上放下",
-  "derive": "放置；使处于（放进某种状态：put sb at risk）；表达（把想法放进话里：put it simply）"
- },
- "hold": {
-  "image": "手握住不松开，让它维持住",
-  "derive": "拿着；抱住；持有（观点）（观点一直握在心里）；举行（把会议、活动撑起来维持住：hold a meeting）；n. 控制（握在手里不放）"
- },
- "keep": {
-  "image": "留住不放走，让它一直保持原样",
-  "derive": "保留（东西留在身边）；保持（状态不变：keep calm）；继续（动作不停：keep going）；饲养（把动物留在身边照看）"
- },
- "set": {
-  "image": "把东西放稳、定在某个位置上",
-  "derive": "放置；设置（把目标、规则定下来：set a goal）；使处于（set sb free）；adj. 固定的（定住不动：a set time）。n. 一套另有来源，单独记"
- },
- "turn": {
-  "image": "绕着转，换一个方向",
-  "derive": "转动；翻转；转弯；变成（转向另一种样子：turn red）；n. 轮到（轮流转一圈转到你：It's your turn）"
- },
- "run": {
-  "image": "快速、不停地向前流动运转",
-  "derive": "跑；运转（机器在跑）；经营（让公司跑起来：run a business）；进行；连续（一直往下延续：a run of good luck）"
- },
- "over": {
-  "image": "从上方划过的一道弧线：在上面，并越过去",
-  "derive": "在…上方（弧线顶部）；越过（沿弧线翻过去）；超过（越过某条线：over 60）；结束（翻过去了：The game is over）；关于（罩在话题上方：argue over money）"
- },
- "into": {
-  "image": "从外面穿过边界，进到里面",
-  "derive": "进入；到…里面；变成（进入一个新形态：turn water into ice）"
- },
- "out": {
-  "image": "从一个范围的里面到外面",
-  "derive": "向外；在外；从…出去；出现（从看不见的地方出来：The sun came out）；耗尽（全都出去了，里面没了：run out）"
- },
- "up": {
-  "image": "往高处走，一直到顶",
-  "derive": "向上；起床（从躺着到站起来：get up）；彻底（到顶就是到头：eat up, use up）"
- },
- "break": {
-  "image": "让完整的东西出现一道断口",
-  "derive": "打破；折断；破裂；中断（连续的过程断开）；n. 休息；暂停（工作中断开的一段：take a break）"
- },
- "carry": {
-  "image": "带着东西，跟着一起移动",
-  "derive": "携带；运送；支撑（承担着重量：carry the weight）；传播（病毒、消息被带着走：carry a disease）"
- },
  "to": {
   "image": "朝着一个目标点过去，一直到达那里",
-  "derive": "向；到（朝目标移动并抵达：go to school）⇒ 对（动作指向某个人：be kind to me）；用于不定式前（指向一个将要去做的动作：want to go）"
- },
- "of": {
-  "image": "从一个整体或来源里分出来的一部分",
-  "derive": "属于；…的（A 出自 B、归在 B 名下：the leg of the table）⇒ 由…组成的（整体出自这些材料或成员：made of wood, a team of five）"
- },
- "for": {
-  "image": "眼睛盯着一个目标，冲着它去做",
-  "derive": "为了（为得到这个目标而做：work for money）⇒ 对于（话冲着这个对象说：good for you）；由于（冲着的那个缘由就是原因：thank you for coming）；conj. 因为（同理，引出原因）"
- },
- "on": {
-  "image": "贴在一个表面上，和它保持接触",
-  "derive": "在…上（压在表面上）⇒ 关于（话题贴着某个主题：a book on history）；adv. 向前；继续（脚一直贴着路不离开，接着走下去：go on, keep on）"
- },
- "with": {
-  "image": "两样东西挨在一起，同时出现",
-  "derive": "和…在一起 ⇒ 具有（某个特征跟着你：a girl with long hair）；用（工具跟手在一起：cut with a knife）；随着（两件事一起变：change with time）"
- },
- "as": {
-  "image": "把 A 和 B 摆成一样、对等",
-  "derive": "同样地；如同（两边相等：as tall as me）⇒ 作为（把自己放在某个身份上：work as a teacher）；当…时（两件事在同一时间：as I left）。conj. 因为；虽然 单独记"
- },
- "from": {
-  "image": "从一个起点出发，离开它",
-  "derive": "从（离开起点）⇒ 来自（起点就是出处：come from China）；由于（结果从原因那里出来：suffer from, die from）"
- },
- "by": {
-  "image": "挨在旁边，从它身边经过",
-  "derive": "在…旁边（基本义：by the window）⇒ 通过（借道、借手段经过：by bus）；由（动作经过某人之手：written by him）；根据（挨着标准来衡量：by the rules）"
- },
- "but": {
-  "image": "把某样东西排除在外",
-  "derive": "prep. 除…以外（基本义：everyone but me）⇒ adv. 仅仅（除了这个就没别的：He is but a child）；conj. 但是；然而（除去前面说的，还有一个例外）"
+  "derive": "向，到，往（朝目标移动：go to school）⇒ 到，至（走到终点或范围的尽头：from 1 to 10）⇒ 对，给（动作朝着某人去：say to, send to）⇒ 引出对象或结果（lead to 把路引到某个结果上）⇒ 为了（朝着目的去：to save time）⇒ 不定式符号（指向一个将要做的动作：want to go）"
  },
  "at": {
   "image": "把位置看成地图上的一个点",
-  "derive": "在（地点、时间上的一个点：at the door, at six）⇒ 向（瞄准那个点：look at, throw at）；以（速度、价格落在刻度的某一点：at 60 mph, at a low price）"
- },
- "or": {
-  "image": "面前两条路，二选一",
-  "derive": "或者（基本义）⇒ 否则（不走这条就只剩那条：Hurry, or you'll be late）；大约（在两个数之间拿不准：two or three days）"
- },
- "will": {
-  "image": "心里想要，并打算去做",
-  "derive": "愿意（想要做：Will you help me?）⇒ 将；会（想做的事放到将来，变成表将来）；n. 意志（想要的那股力量：a strong will）；遗嘱（死后财产怎么分的心愿写成文：make a will）"
- },
- "about": {
-  "image": "在某物四周绕一圈",
-  "derive": "周围（基本义：walk about）⇒ 大约（落在某个数周围，不正好：about ten）；关于（话围着某个话题转：talk about）"
- },
- "just": {
-  "image": "不偏不斜，正好对准",
-  "derive": "adj. 公正的；合理的（不偏不倚，正合规矩）⇒ adv. 正好（分毫不差：just right）；刚刚（时间上正好紧挨着现在：just arrived）；仅仅（正好这么多，再没别的：just a child）"
- },
- "based": {
-  "image": "东西立在一个底座或根基上",
-  "derive": "以…为基础的（立在这个根基上：based on facts）；基地在…的（大本营扎在那里：a London-based company）"
- },
- "some": {
-  "image": "说个大概，不点明是哪个、有多少",
-  "derive": "一些（不说具体多少）；某些；有些人（不点明是哪些：some day）⇒ adv. 大约（数字也不说准：some 20 people）；稍微（程度上有那么一点）"
- },
- "time": {
-  "image": "时间轴上的一段，或其中的一个点",
-  "derive": "时间 ⇒ 时代（很长的一段：modern times）；次（时间轴上发生一回就是一个点：three times）；v. 计时（量出一段时间）；选择时机（把动作放到合适的时间点上）"
- },
- "so": {
-  "image": "手一指：就是这样，到这个程度",
-  "derive": "如此；这么（就这样：so big）⇒ 非常（程度高到「这样」）；conj. 因此；所以（情况就是这样，于是：It rained, so we stayed）"
- },
- "through": {
-  "image": "从一头钻进去，从另一头出来",
-  "derive": "穿过；通过（从一端穿到另一端）⇒ 由于（结果是穿过这条途径得来的：succeed through hard work）；adv. 自始至终（时间上从头穿到尾：all night through）；直达（中途不停，一路穿到底）"
- },
- "letter": {
-  "image": "一个个写在纸上的字母",
-  "derive": "字母（基本义）⇒ 文字（字母连起来就是书面文字）；信（一页写满字的纸寄给别人）"
- },
- "part": {
-  "image": "从整体中分出来的一块",
-  "derive": "部分（基本义）⇒ 零件（机器上的一块）；角色（整部戏里你分到的那一份：play a part）；v. 分开；分离（把整体分成几块，人各走各的）"
- },
- "even": {
-  "image": "表面平平的，两边一样高",
-  "derive": "adj. 平滑的（表面平坦）；平均的（两边一样多：an even split）⇒ adv. 甚至（连最极端的情况也拉到同一水平：Even a child knows）；即使（even if，连这种情况也算在内）；更（同样是加强语气：even better）"
- },
- "once": {
-  "image": "只发生一次的那一下",
-  "derive": "一次（基本义）⇒ 曾经（过去有过那么一次：once upon a time）；一旦（只要发生一次，后面的就跟着来：Once you start, keep going）"
- },
- "sheet": {
-  "image": "一大片又薄又平的东西",
-  "derive": "薄片（基本义：a sheet of glass）⇒ 床单（铺在床上的一大片布）；一张纸（纸也是一片：a sheet of paper）"
- },
- "single": {
-  "image": "只有一个，没有配对",
-  "derive": "单一的（基本义）⇒ 单身的；n. 单身者（一个人过，没配对）；单程的（票只管一趟，不含回程）；n. 单人间（只住一个人）；v. 选出（从一群里单独挑出一个：single out）"
- },
- "line": {
-  "image": "一根拉直的细线",
-  "derive": "线（基本义）⇒ 行（文字排成一条线：line 3）；行列（人排成一条线：stand in line）；方针（大家沿着走的一条路线：the party line）"
- },
- "mark": {
-  "image": "在东西上留下一道看得见的记号",
-  "derive": "标记；做记号（基本义）⇒ 分数；批改（老师在卷子上打的记号：full marks）；标志（这个记号代表某件事：mark the start of）；目标（要打中的那个记号点：hit the mark）"
- },
- "marked": {
-  "image": "身上带着一道明显的记号",
-  "derive": "有标记的；v. 做标记（mark 的过去式和过去分词）⇒ 显著的（差别像打了记号一样一眼可见：a marked difference）"
+  "derive": "在（某地点、场所）（地图上的一个点：at the door）⇒ 在（某时刻、时候）（时间轴上的一个点：at six）⇒ 向，朝，对着（瞄准那个点：look at）⇒ 在…方面（盯在某一点上：good at 擅长）⇒ 处于（某种水平、状态）（落在刻度的一点：at a high level）⇒ 以（某速度、价格、比率）（落在刻度的某一点：at 60 mph）"
  },
  "following": {
   "image": "紧跟在别人后面走",
-  "derive": "跟随（follow 的现在分词）⇒ adj. 接下来的（紧跟着到来的：the following day）；下列的（跟在这句话后面列出的：the following items）；prep. 在…之后（跟在某事后面发生：following the talk）"
+  "derive": "v. 跟随，跟在…后面，追踪（脚步紧跟：follow him）⇒ 遵循，听从，按照…做（跟着规矩走：follow the rules）⇒ prep. 在…之后（跟在某事后面发生：following the talk）⇒ adj. 下面的，接下来的，下一个的（跟在后面出现的：the following day）"
+ },
+ "found": {
+  "image": "找着找着，东西出现在眼前",
+  "derive": "找到，（偶然）发现（find 的过去式，眼前碰上了某物：found my keys）⇒ 发现，得出（研究里碰上的结论：found that…）⇒ 觉得，认为（亲身碰到后得出看法：found it hard）⇒ （be found）存在于，见于（能碰上它的地方：be found in Asia）"
+ },
+ "then": {
+  "image": "在时间线上指着「那个点」",
+  "derive": "那时，当时（指着过去或将来的那个时间点）⇒ 然后，接着，后来（那个点之后接着来）⇒ 那么，那样的话，这样一来（顺着前一步往下推：If you go, then I'll go）⇒ 而且，另外（再往后添一笔：and then there's…）"
+ },
+ "makes": {
+  "image": "动手让原本没有的东西或结果出现",
+  "derive": "做出（动手造出一个东西或决定：make a decision）⇒ 使，让（造出一个结果：make him happy = 让「他开心」出现）⇒ 构成，成为（零件凑在一起造出整体：make a good teacher）"
+ },
+ "key": {
+  "image": "插进锁里，一转就能打开的钥匙",
+  "derive": "n. 钥匙（开锁的东西）⇒ 关键，诀窍（打开问题的那一环：the key to success）⇒ adj. 关键的，主要的，重要的（像钥匙一样决定能否打开：a key factor）"
+ },
+ "turn": {
+  "image": "绕着转，换一个方向",
+  "derive": "转向，转过身，把（注意力等）转向（身体或视线转一个方向：turn to me）⇒ 变成，使变成（转到另一种样子：turn into）⇒ n. 轮流，轮到（的机会）（转一圈转到你：It's your turn）"
+ },
+ "takes": {
+  "image": "主动伸手，把外面的东西拿到自己这边",
+  "derive": "拿，取（伸手拿过来：take a book）⇒ 花费，需要（事情把你的时间、精力拿走：It takes two hours）"
+ },
+ "matter": {
+  "image": "实实在在、有分量的东西",
+  "derive": "n. 事情，问题（摆在那里要面对的实在东西：a matter of time）⇒ v. 要紧，有关系，重要（有分量、算数：It doesn't matter）"
+ },
+ "kind": {
+  "image": "同一血缘、同一类的一家人",
+  "derive": "n. 种类（同一来源的一类：this kind of book）⇒ adj. 友好的，善良的（像对待自家人一样亲善）"
+ },
+ "face": {
+  "image": "脸朝着某个方向，正对着它",
+  "derive": "n. 脸，面孔（人身上朝外的那一面）⇒ v. 面对，面临（困难、问题）（正脸迎着它：face a problem）"
+ },
+ "save": {
+  "image": "把东西护住，不让它失去",
+  "derive": "拯救，挽救（把人从危险里护住：save a life）⇒ 节省，节约（时间、钱不白白流失：save time）⇒ 储蓄，存（钱）（把钱留住攒起来：save money）"
+ },
+ "goes": {
+  "image": "离开这里，朝别处移动出去",
+  "derive": "去，走；（车、路）通往（从这里走向别处：This road goes to town）⇒ 变得，处于（某种状态）（走进某种状态，多指变坏：go bad）⇒ （说法、谚语）说，内容是（话的内容「走」下来：as the saying goes）"
+ },
+ "wonder": {
+  "image": "眼前出现想不通的东西，人一下愣住",
+  "derive": "n. 奇迹，奇观，奇妙（让人愣住的东西：the wonders of nature）⇒ v. 想知道，琢磨（愣完心里冒出「为什么」：I wonder why）"
+ },
+ "break": {
+  "image": "让完整的东西出现一道断口",
+  "derive": "v. 打破，打碎，折断（完整的东西断开，也指突破限制：break a rule）⇒ n. 休息；假期（连续的工作断开的一段：take a break）"
+ },
+ "chief": {
+  "image": "一群人里走在最前头的那个「头」",
+  "derive": "n. 首领，长官（领头的人）⇒ adj. 首席的，最高级别的（当头的那一级：chief editor）⇒ 主要的，首要的（排在最前头的：the chief reason）"
+ },
+ "of": {
+  "image": "从一个整体或来源里分出来的一部分",
+  "derive": "……的（A 属于 B、挂在 B 名下：the end of the day）⇒ ……中的（部分出自整体：one of, a piece of）；关于；对（想法、感觉出自那件事：think of, afraid of）；离；脱离；因（从某处分开、从某个原因里出来：free of, die of）；来自；住在（人从某地出来：Vaclav Bursa, 15, of Florida）；由……制成；由……构成（成品出自这些材料：made of）"
+ },
+ "or": {
+  "image": "面前两条路，二选一",
+  "derive": "或者；还是（两条路摆在面前挑一条）⇒ 或者说；也就是（换一条路说同一件事）；否则；要不然（不走这条就只剩那条：Hurry, or you'll be late）"
+ },
+ "letter": {
+  "image": "一个个写在纸上的字母，写满寄出去",
+  "derive": "n. 字母（一个个写出来的符号）⇒ 信；信件（用字母写满一页纸寄给别人）"
  },
  "bank": {
   "image": "把钱物集中存放、随时可取的地方",
-  "derive": "银行（存钱的地方）⇒ 库（存放题目、词语、血液等的地方：question bank）；v. 把钱存入银行（放进这个地方）。河岸；倾斜飞行是另一个同形词（河岸是斜坡 ⇒ 飞机侧身倾斜），单独记"
+  "derive": "n. 银行（存钱取钱的地方）⇒ 库（存放题目、词语等的地方：question bank, word bank）"
+ },
+ "study": {
+  "image": "埋头下功夫钻研一样东西",
+  "derive": "v. 学习；读书（埋头钻研知识）⇒ n. 研究（花心思钻一个对象：a study of ...）；n. 学习（多作定语，钻研学习用的：study habits）"
+ },
+ "had": {
+  "image": "某物落在我的范围之内",
+  "derive": "有；拥有；具有（东西在我手里）⇒ 进行；从事；经历；遭受（事情落到我身上：had a break, had trouble）；患；出现（病和症状落到身上：had a cold）；不得不；必须（任务落在我身上，躲不开：had to do）；让；使；请（把事安排到别人身上：had sb do）；aux. 构成过去完成时（那件事早已「归我所有」，已经做完：had done）"
+ },
+ "between": {
+  "image": "夹在两者中间",
+  "derive": "在…之间（空间）：夹在两点中间 ⇒ 介于…到…之间（时间、数量、年龄：between 3 and 5）；在…之间（关系、区别、选择：夹在两方中间；choose between A and B）；由…共同（分配、共有：东西夹在两人中间，一起分：share between them）"
+ },
+ "show": {
+  "image": "把东西摆出来让人看",
+  "derive": "v. 展示；给…看；演示（拿出来给人看）⇒ 显示；表明；说明（把道理、数据摆出来：The study shows that...）；表现出；流露（把心里的情绪摆在脸上：show interest）；n. 节目；演出；展览（专门摆出来给人看的一场）"
+ },
+ "right": {
+  "image": "笔直不歪，正对着标准",
+  "derive": "adj. 正确的；对的（不偏不歪）；adv. 正确地 ⇒ 合适的；恰当的（正对标准）；adv. 正好；就（直直对准那一点：right here, right now）；int. 对；好（表示「没错」，同意）；n. 权利（按正道你应得的）；adj. 右边的；n. 右边 单独记"
+ },
+ "age": {
+  "image": "活过的一段时间有多长",
+  "derive": "n. 年龄；年纪（人活了多长）⇒ 时代；时期（一段很长的时间：the Stone Age）；老年；晚年（活得很长了：old age）"
+ },
+ "put": {
+  "image": "把东西挪到某个位置上放下",
+  "derive": "放；置（把东西放到某处）⇒ 使处于；施加（放进某种状态、把压力放到人身上：put sb at risk）；说；表达（把想法放进话里：put it simply）"
+ },
+ "against": {
+  "image": "两股力迎面相抵，互相顶着",
+  "derive": "对抗；防备；抵御（迎面顶住：fight against, protect against）⇒ 反对；违反；禁止（立场顶着对方：vote against）；对……不利；针对（力量朝着某人压过去：discriminate against）；以……为背景；在……的衬托下（靠在背景上，被它衬出来：against the sky）"
+ },
+ "free": {
+  "image": "身上没有绳子绑着，不受束缚",
+  "derive": "自由的；可以随意做……的（没绳子绑着）⇒ 不受……影响的；没有……的（身上没有那个东西：free from）；免费的（不受付钱的约束）；空闲的；空着的（时间、位子没被占着：free time）；游离的（不和别的东西绑在一起：free sugars）"
+ },
+ "cases": {
+  "image": "摆到你面前、要处理的一桩具体事",
+  "derive": "情况；场合（具体的这一桩：in many cases）⇒ 案件；官司（交到警察、法庭手里的一桩事）；病例（交到医生手里的一桩事）"
+ },
+ "led": {
+  "image": "走在最前面，带着别人往前走",
+  "derive": "领导；带领；率领（走在前头带路）⇒ 导致；引起（把局面带到某个结果：lead to）"
+ },
+ "run": {
+  "image": "快速、不停地向前流动运转",
+  "derive": "v. 跑；奔跑；n. 跑步；赛跑（腿不停地向前）⇒ 运行；行驶（车辆像在跑：The bus runs every ten minutes）；经营；管理；运营（让公司一直转着跑：run a business）；进行；做（让一套程序跑起来：run a test）"
+ },
+ "works": {
+  "image": "花力气干活，让事情动起来、出成果",
+  "derive": "v. 工作（花力气干活）⇒ 起作用；奏效（机器、办法也在「干活」，干出效果：It works）；n. 作品（干活做出来的成果：works of art）"
+ },
+ "setting": {
+  "image": "把东西安放在某个位置上",
+  "derive": "v. 设定；制定；树立（把目标、标准定在某一档：set goals，set 的现在分词）⇒ n. 环境；场合；背景（事情、故事被「安放」在的地方：The story is set in Paris）"
+ },
+ "head": {
+  "image": "身体最上、最前面的那一端",
+  "derive": "n. 头；头部（身体最上最前的一端）⇒ 首领；负责人（一群人里走在最前头的「头」：head of the school）"
+ },
+ "for": {
+  "image": "朝着一个对象或目标伸过去，冲着它",
+  "derive": "prep. 为了；用于（冲着目标去：work for money）⇒ 给；为（冲着受益的人去：a gift for you）；对于；对…来说（话冲着这个对象说：good for you）；因为；由于（冲着的那个缘由就是原因：thank you for coming）；达；持续（时间、距离一路伸到那么长：for three hours）；让某人做（for sb to do，把某人带出来当动作的执行者：It's easy for him to do）"
+ },
+ "will": {
+  "image": "心里想要，并打算去做",
+  "derive": "愿意；要（心里想要做：Will you help me?）⇒ 将；将要；会（想做的事放到将来，变成表将来）；往往会（想做就常做，成了习惯、常理：Oil will float on water）"
+ },
+ "out": {
+  "image": "从一个范围的里面到外面",
+  "derive": "adv. 出去；向外（从里面到外面：get out）；在外面（已经在外面了：dine out）⇒ prep. out of 离开；从…里面出来（walk out of the room）；在…之中；从…中（从一整群里拿出来几个：nine out of ten）"
  },
  "read": {
   "image": "盯着符号，把里面的意思解出来",
-  "derive": "阅读（看着文字解出意思）⇒ 朗读（解出来的同时念出声）；理解（把脸色、局面也当文字来读：read sb's mind）；n. 阅读"
+  "derive": "阅读；读（看着文字解出意思）；识字（能解出符号就是会读）⇒ 朗读（解出来的同时念出声）；读给…听（念出声给别人听：read to sb）"
+ },
+ "get": {
+  "image": "从「没有」变成「有」——进入一个新位置或新状态",
+  "derive": "得到；获得；收到（东西到手）⇒ 买；弄到；去拿（想办法让东西到手：get some drinks）；到达（人到了某处：get to）；变得（到了新状态：get tired）；被（get + 过去分词，事情落到身上：get hit）；使；让（把东西弄到某种状态：get sth done）"
+ },
+ "too": {
+  "image": "在已有的之上再加一份",
+  "derive": "也；还（再加上一个：me too）⇒ 太；过于（加得超过了该有的量：too hot）"
+ },
+ "getting": {
+  "image": "从「没有」变成「有」——进入一个新位置或新状态",
+  "derive": "得到；获得；收到（东西到手）⇒ 到达；进入（人到了某处，上下车也是到了新位置）；变得（到了新状态：getting old）；被（事情落到身上：getting paid）；使；让（把东西弄到某种状态：get sth done）"
+ },
+ "far": {
+  "image": "两点之间隔得很远",
+  "derive": "adv. 远；遥远（距离长）⇒ adj. 远的；较远的一端（the far end）⇒ 非常；…得多（两者差距拉得远：far better）"
+ },
+ "keep": {
+  "image": "留住不放走，让它一直保持原样",
+  "derive": "保留；保管；存放（东西留在身边）⇒ 保持；维持（状态留住不变：keep calm）；继续；不断（动作留住不停：keep going）"
+ },
+ "pay": {
+  "image": "把该给的钱交到对方手里",
+  "derive": "v. 支付；付（把钱交到对方手里：pay the bill）⇒ n. 工资；薪水；报酬（雇主付给你的钱）"
+ },
+ "got": {
+  "image": "从「没有」变成「有」——进入一个新位置或新状态",
+  "derive": "得到；获得；收到（东西到手）⇒ 有（have got，东西已经到手，就是有）；到达；进入（人到了某处）；变得（到了新状态：got tired）；被；遭受（got + 过去分词，事情落到身上：got hit）；使；让（把东西弄到某种状态：got it done）"
+ },
+ "live": {
+  "image": "活着，正在呼吸、在动",
+  "derive": "v. 活；存活（有呼吸、在动：live longer）⇒ 生活；过日子（活着每天过）⇒ 居住；住；栖息（在某处过日子：live in Beijing）；adj. 现场直播的；实况的（正活生生地发生，不是录好的，读 /laɪv/：a live show）"
+ },
+ "class": {
+  "image": "按等第把人或物分成一组一组",
+  "derive": "n. 等级；舱位（按高低分出的一档：first class）⇒ 阶级；社会阶层（社会按地位分出的一组：middle class）⇒ 班级；全班同学（学校分出来的一组人）；课；课堂（一个班一起上的那一堂：have a class）"
+ },
+ "levels": {
+  "image": "一条水平线，标出所在的高度",
+  "derive": "n. 水平面；高度（一条平平的线所在的高低：sea level）⇒ 水平；程度；含量（线标出高低到了哪一档：a high level of sugar）；等级；层次；方面（一层层分出来的档，每层是一个侧面：on all levels）"
+ },
+ "playing": {
+  "image": "上场动起来，投入一场游戏或表演",
+  "derive": "玩；进行（上场投入游戏、比赛：play football）⇒ 演奏（让乐器动起来发声：play the piano）"
+ },
+ "build": {
+  "image": "一块块往上垒，搭出一个东西",
+  "derive": "建造；修建（垒砖盖房）⇒ 建立；创建；培养（关系、事业也一点点搭起来：build trust）；增强；增进（往上加，越垒越强：build strength）"
+ },
+ "mind": {
+  "image": "脑子里装着、惦记着",
+  "derive": "n. 头脑；思想；心智（想事情的地方）⇒ v. 介意；在乎（放在心上，不舒服：Do you mind?）"
+ },
+ "follow": {
+  "image": "走在后面，沿着前面的路线走",
+  "derive": "跟随；跟在…后面（走在后面）⇒ 遵循；遵守；效仿（沿着规则、榜样走：follow the rules）"
+ },
+ "stick": {
+  "image": "尖东西扎进去，就固定在那儿不动",
+  "derive": "v. 粘住；粘贴（尖东西扎进去，贴上去就不动了：stick to the wall）⇒ 坚持；遵守（紧贴着不离开：stick to the plan）。n. 棍；棒；棍状物 单独记"
+ },
+ "claim": {
+  "image": "站出来大声宣布：这是真的，这归我",
+  "derive": "v. 声称；宣称（大声宣布「这是事实」：claim to be innocent）⇒ n. 说法（声称出来的那句话）⇒ v. 认领；索要（宣布「这东西该归我」：claim the prize）"
+ },
+ "hold": {
+  "image": "手握住不松开，让它维持住",
+  "derive": "拿着；握着（手握住不松）⇒ 持有；怀有（观点一直握在心里：hold a view）；举行；举办（把活动撑住办下去：hold a meeting）"
+ },
+ "drive": {
+  "image": "从后面推着、赶着东西往前走",
+  "derive": "推动；促进；驱使（从后面推着往前走：drive me crazy）⇒ 开车；驾驶（推着车往前跑：drive a car）"
+ },
+ "treat": {
+  "image": "动手去处理、对付某人某事",
+  "derive": "v. 对待；看待（用某种方式处理人：treat…as）⇒ 治疗（医生处理病情）；n. 乐事；难得的享受（像被款待一样开心的事）；好吃的东西（请客时端出来的：It's my treat）"
+ },
+ "text": {
+  "image": "一段写下来的文字本身",
+  "derive": "文本；文字（写下来的字）⇒ 短信（手机上发的一段文字，text message 的简称）"
+ },
+ "challenge": {
+  "image": "站出来向对方叫板：敢不敢？",
+  "derive": "n. 挑战；难题（摆在面前、向你叫板的难事）⇒ v. 对…提出挑战（向人叫板）；质疑（对一种说法叫板，要它拿出证据：challenge a view）；考验；激励（难事逼你拿出本事：challenge sb to improve）"
+ },
+ "busy": {
+  "image": "事情一件接一件，一刻停不下来",
+  "derive": "忙碌的（手上事多）⇒ 繁忙的；热闹的（街上人来车往，一刻不停：a busy street）"
+ },
+ "on": {
+  "image": "贴在一个表面上，和它保持接触",
+  "derive": "prep. 在…上（压在表面上）⇒ 在（街道、校园等某处，也是贴着那块地：on the street）；关于（话题贴着某个主题：a book on history）；依靠、根据（身子靠在上面撑着，事情就以它为基础：rely on）；通过（信息贴在电视、网站这个载体上：on TV）；对于（力气压在对方身上，就是对…产生作用：effect on）；adv. 穿上、戴上、开着（衣服贴在身上，电器接上电：put on, turn on）"
+ },
+ "about": {
+  "image": "在某物四周绕一圈",
+  "derive": "周围（基本义：walk about）⇒ 大约、左右（落在某个数周围，不正好：about ten）；关于、有关（话围着某个话题转：talk about）"
+ },
+ "even": {
+  "image": "表面平平的，两边一样高",
+  "derive": "adj. 平的（表面平坦）⇒ adv. 甚至（连最极端的情况也拉到同一水平：Even a child knows）；更、还要（比较级前，差距再拉平一层，加强语气：even better）"
  },
  "given": {
   "image": "已经递到你面前、摆在那儿的东西",
-  "derive": "给予（give 的过去分词：已给出的）⇒ adj. 规定的；指定的（事先给定好的：at a given time）；prep. 考虑到（把摆在眼前的事实当前提：given his age）"
+  "derive": "v. 给予（give 的过去分词：已给出的）⇒ adj. 规定的（事先给定好的：at a given time）；prep. 考虑到（把摆在眼前的事实当前提：given his age）"
  },
- "choice": {
-  "image": "从一堆里伸手挑出一个",
-  "derive": "选择（挑的动作，或挑中的那个）⇒ 选择权（有资格挑：have no choice）；adj. 精选的；上等的（被挑出来的都是好的：choice beef）"
+ "way": {
+  "image": "脚下通向某处的一条路",
+  "derive": "n. 路、道路（走过去的路：ask the way）⇒ 路线；距离、路程（路有多长：a long way off）；方向（路朝着哪边：this way）；方式、方法（做成一件事要走的路：the way to learn）；adv. 远远地、大大地（路走得很远，程度也很远：way better）"
  },
- "word": {
-  "image": "从嘴里说出来的一句话",
-  "derive": "单词；词（说话的最小单位）⇒ 消息（别人捎来的话：send word）；诺言（说出口就要算数的话：keep one's word）"
+ "own": {
+  "image": "东西归在自己名下",
+  "derive": "v. 拥有（东西归我：own a house）⇒ adj. 自己的（属于我自己：my own room）；pron. 自己的东西（单独用，归自己的那份：a room of one's own）"
+ },
+ "care": {
+  "image": "心里一直挂着某人某事",
+  "derive": "v. 关心、在乎（心里挂着：care about）⇒ n. 小心、谨慎（挂着心就不敢大意：take care）；照顾、护理（挂心落到行动上，去照料：health care）"
+ },
+ "mean": {
+  "image": "心里装着一个意思，话和事都指向它",
+  "derive": "意味着、表示（话或事背后指着的那个意思：What does it mean?）⇒ 指的是、意思是（说话人想表达的那个意思：I mean...）；打算、有意（心里指着要做的事：I mean to call him）"
+ },
+ "poor": {
+  "image": "手里缺东西，样样不够",
+  "derive": "adj. 贫穷的（缺钱）⇒ 差的、不好的（质量、水平不够：poor quality）；可怜的（处境缺这少那，让人同情：poor boy）；n. 穷人（缺钱的那群人：the poor）"
+ },
+ "stay": {
+  "image": "待在原处不走开",
+  "derive": "v. 停留、待、留在（人待在原处不动）⇒ 暂住、住宿（待在某处过夜：stay at a hotel）；保持（状态待着不变：stay calm）"
+ },
+ "areas": {
+  "image": "地面上划出来的一块平面",
+  "derive": "地区、区域、地带（划出的一块地方）⇒ 领域、方面（知识、工作里划出的一块：an area of study）"
+ },
+ "call": {
+  "image": "放开嗓子喊一声",
+  "derive": "v. 喊、叫（大声喊人）⇒ 称为、叫做（喊出名字就是叫他什么：call him Tom）；打电话给（隔着电话线喊人：call me later）；n. 电话、通话（喊人的那一通：a phone call）"
+ },
+ "reach": {
+  "image": "伸长胳膊去够远处的东西",
+  "derive": "伸手够到、触及（基本义）⇒ 到达、达到（人「够」到某地或目标：reach Beijing, reach an agreement）；联系到、接触到（把手伸到某人那儿，也能影响到：reach him by phone）"
+ },
+ "parts": {
+  "image": "从整体中分出来的一块",
+  "derive": "n. 部分（基本义）⇒ 零件（机器上的一块）；地区、地方（整个世界中的一块：parts of the world）"
+ },
+ "towards": {
+  "image": "脸和脚步都朝着某个方向，往那边靠",
+  "derive": "向、朝、面向（对着那个方向）⇒ 对于、对待（态度、感情朝向某人某事：his attitude towards me）；为了、有助于（努力朝着目标靠：save towards a car）"
+ },
+ "losing": {
+  "image": "原本握在手里的东西，没了",
+  "derive": "失去、丧失、损失（原本有的现在没了）⇒ 丢失、遗失（东西不见了：lose a key）；输、失败（胜利从手里溜走：lose a game）；减轻（把体重丢掉：lose weight）"
+ },
+ "fall": {
+  "image": "东西从高处往下掉落",
+  "derive": "v. 落下、跌倒、掉进（从高处掉下来）⇒ 下降、减少（数量像东西一样往下掉：prices fall）；n. 秋天（树叶落下的季节）"
+ },
+ "side": {
+  "image": "把东西从中间一分，左右各占的一边",
+  "derive": "n. 边、侧面（东西的一边）⇒ 一方、立场（对立两边中站的那一边：on our side）；方面（一件事也有好几个面：the other side of the story）"
+ },
+ "cut": {
+  "image": "刀落下去，把东西切开",
+  "derive": "切、割、削（刀把东西分开）⇒ 削减、减少（从总量上切掉一块：cut costs）"
+ },
+ "light": {
+  "image": "一团亮光亮起来，四周被照亮",
+  "derive": "n. 光、光线（亮起来的东西）⇒ 灯、光源（发光的东西：turn on the light）。adj. 轻的 另有来源，单独记"
+ },
+ "with": {
+  "image": "两样东西挨在一起，同时出现、一起行动",
+  "derive": "和；跟；与（人挨在一起：go with me）⇒ 对于；在…方面（跟这件事挨上了：deal with it）；带有；具有；带着（特征跟着你：a girl with long hair）；用（工具跟手在一起：cut with a knife）；在…的情况下（一个状态跟着主动作一起出现：with the door open）；随着；伴随（两件事一起变：change with time）"
+ },
+ "just": {
+  "image": "不偏不斜，正好对准那一点",
+  "derive": "正好；恰好；就（在）（分毫不差：just right）⇒ 刚刚；刚才（时间正好紧挨着现在：just arrived）；只；仅仅（正好这么多，没有别的：just a child）；就；直接（不绕弯，正对着做：just do it）；简直；真是（正正好好到了顶，加强语气：just perfect）"
+ },
+ "once": {
+  "image": "只发生一次的那一下",
+  "derive": "一次；一回（基本义）⇒ 曾经；从前（过去有过那么一次：once upon a time）；conj. 一旦…（就）（只要发生一次，后面就跟着来：Once you start, keep going）"
+ },
+ "take": {
+  "image": "主动伸手，把外面的东西拿到自己这边",
+  "derive": "拿；取；拿走；买下（伸手拿到自己这边：I'll take both）⇒ 带；带去；拿去（拿着走：take it there）；接受；收下；采用（拿过来收下）；乘坐（把车拿来用：take a bus）；服用（把药拿进身体）；采取；选择；冒（险）（把办法、风险拿过来用：take action）；花费；需要（事情拿走你的时间：take time）；做；进行（把动作拿来做：take a look）；对待；看待（拿它当什么：take it seriously）；修；上；参加（把课、考试拿下来：take an exam）；休；请（把假期拿到手：take leave）；记下；记录（把内容拿到本子上：take notes）；赢得；获得（把名次拿到手：take first place）"
+ },
+ "find": {
+  "image": "找着找着，东西出现在眼前",
+  "derive": "找到；寻得（东西到眼前了）⇒ 发现；得知（没刻意找，忽然看到、知道了）；觉得；认为（亲身碰过之后发现它是怎样：I find it hard）；发觉自己（一回神发现自己已处在某种状态：find oneself lost）"
+ },
+ "still": {
+  "image": "停在原地，一动不动",
+  "derive": "仍然；还；依旧（状态停着没变，到现在还这样）⇒ 但是；尽管如此（前面说了那些，局面还是没动，话锋一转：Still, it's fine）"
+ },
+ "off": {
+  "image": "原本贴在上面的东西脱离开来",
+  "derive": "离开；从…上掉下或拿下（从原位分开：fall off / get off）⇒ 远离；在…之外；偏离（离开原来的位置，到了一旁：off campus）；减去；折扣（从价格上拿下一块：25% off）；adj. 休息的；不工作的（人离开岗位：a day off）"
+ },
+ "book": {
+  "image": "把名字写进一本册子里",
+  "derive": "n. 书；书籍（成册的纸页）⇒ v. 预订（订座、订房时把你的名字记进簿子：book a table）"
+ },
+ "set": {
+  "image": "把东西放稳、定在某个位置上",
+  "derive": "放稳定住 ⇒ 设定；制定（把目标、规则定下来：set a goal）；树立（把榜样立在那里让人看：set an example）；adj. 固定的；既定的（定住不动：a set time）。n. 一套；一组 另有来源，单独记"
+ },
+ "terms": {
+  "image": "划出的一道界线，把范围定死",
+  "derive": "条款；条件（合同里给双方划定的界线）；术语；用语；措辞（意思被划死、限定的词）⇒ 关系（双方相处的条件定在哪：on good terms）"
+ },
+ "chance": {
+  "image": "掷出骰子，落在哪面说不准",
+  "derive": "骰子怎么落没人安排 ⇒ 可能性；机率（落到某一面的几率：a good chance）；机会（碰巧落到你面前的好事：a second chance）"
+ },
+ "fit": {
+  "image": "形状大小正好对上，严丝合缝",
+  "derive": "v. 适合；符合（衣服、零件正好对上：fit well）⇒ adj. 适合的；合格的（条件正好对上要求：be fit for）；n. 合适的人或物（正好对上的那个：a good fit）；adj. 健康的；强健的（身体状况正合乎活动的要求：keep fit）"
+ },
+ "land": {
+  "image": "脚能实实在在踩住的地面",
+  "derive": "n. 土地；陆地（实实在在的地面）⇒ v. 降落；着陆（从空中落回地面）；获得；得到（像把鱼拉上岸，弄到手：land a job）；击中（拳头落到对方身上）；被接受；奏效（话落进听的人心里：the joke landed）"
+ },
+ "kept": {
+  "image": "留住不放走，让它一直保持原样",
+  "derive": "保持（东西或状态留在原处不变：kept calm）⇒ 一直；不断（动作留着不停：kept doing）；饲养；养着（把动物留在身边照看）"
+ },
+ "plant": {
+  "image": "把东西稳稳插进地里，让它扎根",
+  "derive": "n. 植物（种在地里扎根的东西）⇒ 工厂；发电厂（整套机器安装扎根在一处：a power plant）"
+ },
+ "force": {
+  "image": "一股往前推、压过阻力的劲",
+  "derive": "n. 力量；推动力（压过阻力的劲）⇒ 武装力量；队伍；部队（拿来压服别人的力量：the air force）；v. 强迫；迫使（用力推着人去做：force sb to do）"
+ },
+ "notes": {
+  "image": "随手在纸上做个小记号",
+  "derive": "n. 笔记；记录（随手记下的内容）⇒ v. 指出；提到；注意到（在心里或口头做个记号：Note that…）；n. 纸币；钞票（印着数额的小纸条）"
+ },
+ "have": {
+  "image": "某物落在我的范围之内",
+  "derive": "v. 有；拥有（东西在我手里）⇒ 进行；从事；经历；度过（事情落到我身上：have a look）；吃；喝（食物进了我的范围：have a meal）；患；出现（病落到身上：have a cold）；让；使（事情归我安排：have sth done）；不得不；必须（任务压在我身上：have to do）；aux. 构成完成时（做完的事仍归我所有：have done）"
+ },
+ "based": {
+  "image": "东西立在一个底座或根基上",
+  "derive": "以…为基础；基于（立在这个根基上：be based on facts）⇒ 总部设在…的（大本营扎在那里：a London-based company）"
+ },
+ "into": {
+  "image": "从外面穿过边界，进到里面",
+  "derive": "进入；到…里面（跨进空间，也可进入某种状态）⇒ 变成；成为（进入新形态：turn water into ice）；持续到（时间一路走进某个时期：into the night）；深入（往里钻进去查：investigation into）；撞上（一头进到别的东西里：run into a tree）"
+ },
+ "want": {
+  "image": "缺了一块，空在那里",
+  "derive": "n. 缺乏（本义：少了东西）⇒ v. 想要；希望（心里缺着，想把它填满）；应该；最好（缺了就得补上，所以「需要这样做」：you want to see a doctor）"
+ },
+ "very": {
+  "image": "货真价实，正是那一个",
+  "derive": "adj. 正是那个；恰好的；就；甚至（不差分毫：the very book I need）⇒ adv. 很；非常（本义「真正的」，真的好 ⇒ 很好）"
+ },
+ "yet": {
+  "image": "到这一刻为止，原状还在延续",
+  "derive": "adv. 还没；尚未（到现在还没变：not yet）⇒ 更；又（到现在还在往上加：yet another）；conj. 然而；但是（情况仍不变，转折：small yet strong）"
+ },
+ "taken": {
+  "image": "主动伸手，把外面的东西拿到自己这边",
+  "derive": "带到；送到（把东西拿着走：take it to him）⇒ 做；进行（把一件事拿来做：take a photo）；采取（把办法拿来用）；接受；承受；看待（把别人给的东西收下，也把事情收进心里）；服用（把药拿进身体）；花费（事情把你的时间拿走：It takes two hours）"
+ },
+ "having": {
+  "image": "某物落在我的范围之内",
+  "derive": "有；拥有（东西在我手里）⇒ 进行；经历；吃；生（事情、食物落到我身上：having dinner）；患；遭遇（病和麻烦落到身上：having a cold）；邀请；招待（客人到我这儿来：having guests）；让；使（事情归我安排：have sth done）"
+ },
+ "tell": {
+  "image": "一条一条数清楚，再讲出来",
+  "derive": "告诉；讲述（把事情一条条讲给人听）⇒ 吩咐；命令（讲给人听，且要他照做）；表明；说明（事实自己「讲」出结果：It tells us a lot）；辨别；分辨（心里一项项数清楚，就分得出：tell A from B）"
+ },
+ "stop": {
+  "image": "正在动的东西停住，不再往前",
+  "derive": "停止；不再（动作停下来：stop doing）；停下；停住；中途停留 ⇒ 阻止；制止（让别人的动作停下来：stop him from going）；n. 车站；停靠站（车停下来的地方：bus stop）"
+ },
+ "called": {
+  "image": "放开嗓子喊一声",
+  "derive": "叫来（大声喊人过来）⇒ 打电话给（隔着电话线喊人：call me later）；称为；叫做（喊出名字，就是叫它什么：call him Tom）"
+ },
+ "grow": {
+  "image": "像植物一样一点点长大",
+  "derive": "生长；成长（植物慢慢长大）⇒ 种植；栽培（让植物长起来：grow rice）；增长；发展；扩大（数量像植物一样变多）；变得（慢慢长成另一种状态：grow older）"
+ },
+ "stress": {
+  "image": "使劲往下压在一个点上",
+  "derive": "n. 压力；紧张（压在身上的力，把人压得绷紧）⇒ 强调；重视（在要紧处重重压一下：stress the need）"
+ },
+ "further": {
+  "image": "在已到的地方，再往前推一步",
+  "derive": "adv. 更远地（空间上再往前走一段）⇒ 进一步地；更深入地（程度上再往前一步）；adj. 进一步的；更多的（在已有的上面再加：further information）；adv. 此外；而且（话再往前说一步，句首）"
+ },
+ "leading": {
+  "image": "走在最前面，带着后面的人",
+  "derive": "带领；领导；引导（走在前面，后面的人跟着走）⇒ 导致；通向（路带着人走到某处：leading to the city；原因带出结果：lead to problems）"
+ },
+ "worked": {
+  "image": "使出力气干活，干出结果",
+  "derive": "工作（花力气干活）⇒ 起作用；奏效（办法在干活、出了效果：It worked）"
+ },
+ "raise": {
+  "image": "让东西从低处升起来、立起来",
+  "derive": "v. 举起；抬起（手、东西往上升）⇒ 提高；增加（水平往上抬：raise prices）；抚养；饲养（把孩子、牲畜一点点拉扯大：raise a child）；n. 增加；加薪（工资往上抬：a pay raise）"
+ },
+ "shape": {
+  "image": "东西被捏出来的轮廓模样",
+  "derive": "n. 形状；外形 ⇒ 身材；体形（人身体的轮廓）；状况；状态（整体处在什么样子：in good shape）；v. 塑造；影响；形成（把东西捏成某个样子：shape the future）"
+ },
+ "places": {
+  "image": "空间里一个确定的点位",
+  "derive": "n. 地方；场所（空间里的一个位置）⇒ v. 给予（重视）（把重视「放」在某件事上：place emphasis on）"
+ },
+ "tried": {
+  "image": "拿来试一试，检验行不行",
+  "derive": "尝试；努力（试着做，看能不能成：try to do）⇒ 试用；试吃；试行（拿东西来试试好不好：try the soup）"
+ },
+ "as": {
+  "image": "把 A 和 B 摆成一样、对等",
+  "derive": "adv. 同样地（as…as 两边一样高）⇒ prep. 作为（把自己摆在某个身份上：work as a teacher）；当作；看作（把 A 看成 B：treat A as B）；conj. 正如；按照（照着…的样子：as usual）；当…时；随着（两件事同步发生：as I left）；因为；由于（紧挨着发生的前一件事成了理由：As it rained, we stayed in）"
+ },
+ "some": {
+  "image": "说个大概，不点明是哪个、有多少",
+  "derive": "det. 一些；有些（不说具体多少：some water）；pron. 一些；有些（单用：some of them）⇒ det. 某个；某种（不点明是哪一个：some day）；adv. 大约（数字也不说准：some 20 people）"
+ },
+ "over": {
+  "image": "从上方划过的一道弧线：在上面，并越过去",
+  "derive": "prep. 在…上方；越过（弧线顶部翻过去）⇒ 超过（越过某条线：over 60）；遍及；到处（从上面罩住一整片：all over）；在…之上（罩在上面管着，控制、优势等：control over）；胜过；而不是（A 压在 B 上头：prefer A over B）；关于；因为（罩在话题上方：argue over money）；在…期间；在…过程中（从头到尾翻过一段时间：over the years）"
  },
  "please": {
   "image": "顺着对方心意，让他满意",
   "derive": "v. 使高兴；使满意（让人称心）⇒ adv. 请（源自 if you please「如果您乐意的话」，客气地顺着对方心意）"
  },
- "item": {
-  "image": "清单上逐条列出的其中一条",
-  "derive": "项目（单子上的一条：the first item on the list）⇒ 一件物品（逐件清点时的一件：an item of clothing）；条款（合同里逐条写出的一条）"
- },
- "blank": {
-  "image": "一张白纸，上面什么都没写",
-  "derive": "adj. 空白的（纸上什么都没有）⇒ 茫然的（脸上、脑子里一片空白：a blank look）；n. 空白处；空格（留出来等人填的空：fill in the blanks）"
- },
- "said": {
-  "image": "前面已经说出口的话",
-  "derive": "说（say 的过去式和过去分词）⇒ adj. 上述的（前面已经说到过的，多见于法律文书：the said person）"
- },
- "found": {
-  "image": "打下地基，从底部把东西立起来",
-  "derive": "创建；创办（给公司、学校打下地基：found a company；与 foundation 同源）。发现；找到是 find 的过去式，与此无关，单独记"
- },
- "study": {
-  "image": "埋头下功夫钻研一样东西",
-  "derive": "学习；研究（花心思钻一个对象）⇒ n. 书房（专门用来钻研学习的房间）"
- },
- "way": {
-  "image": "脚下通向某处的一条路",
-  "derive": "道路（走过去的路）⇒ 方向（路朝着哪边：this way）；方式；方法（做成一件事要走的路：the way to learn）"
- },
- "being": {
-  "image": "「在这儿、活着」的状态",
-  "derive": "存在（be 的名词：在着）⇒ 生命（活生生地存在）；生物（一个存在着的活物：human beings）"
- },
  "going": {
   "image": "正在往前走，事情在进行中",
-  "derive": "去；前往（go 的现在分词：正在走）⇒ 进行（事情在往前走：How's it going?）；adj. 现行的；现有的（眼下正通行的：the going rate）"
+  "derive": "去；前往（go 的现在分词：正在往前走）⇒ 将要；打算（脚已经朝将来迈出去：be going to）；变得；转为（朝另一种状态走过去：going extinct）"
  },
- "while": {
-  "image": "两件事在同一段时间里并排摆着",
-  "derive": "当…的时候（两件事同时进行）⇒ 然而（并排一摆就看出对照：He is rich while she is poor）；尽管（承认这一边的同时转向另一边：While I agree, ...）"
- },
- "work": {
-  "image": "使出力气干活，干出结果",
-  "derive": "工作（花力气干活）⇒ 职业（长期靠它干活）；作品（干出来的成果：works of art）；v. 运转（机器在干活）；起作用（办法在干活、出效果：It works）"
- },
- "then": {
-  "image": "在时间线上指着「那个点」",
-  "derive": "那时（指着那个时间点）⇒ 然后（那个点之后接着来）；那么（顺着那一步往下推：If you go, then I'll go）"
- },
- "too": {
-  "image": "在已有的之上再加一份",
-  "derive": "也（再加上一个：me too）⇒ 太；过于（加得超过了该有的量：too hot）"
- },
- "long": {
-  "image": "从一头到另一头拉得很长",
-  "derive": "长的（距离拉得长）；长久的；长期地（时间拉得长）⇒ v. 渴望（古英语本义「变长」，盼着时觉得日子漫长：long for home）"
- },
- "find": {
-  "image": "找着找着，东西出现在眼前",
-  "derive": "找到；发现（东西到眼前了）⇒ 认为（亲身碰过之后发现它是怎样：I find it hard）"
- },
- "want": {
-  "image": "缺了一块，空在那里",
-  "derive": "n. 缺乏（本义：少了东西：for want of money）⇒ 需要（缺了就得补上）；v. 想要（心里缺着，想把它填满）"
- },
- "see": {
-  "image": "目光落到某物上，看到了它",
-  "derive": "看见（眼睛接收到）⇒ 看出；理解（心里也「看到」了：I see）；探望（专门去见某人：see a friend）"
- },
- "look": {
-  "image": "主动把目光投向某处",
-  "derive": "看（主动投出目光：look at）⇒ 寻找（目光四处投：look for）；看起来（别人目光落到你身上看出的样子：look tired）；n. 外貌（被看到的样子：good looks）"
- },
- "school": {
-  "image": "一群人聚在一处，跟着老师学",
-  "derive": "学校（聚在一起学的地方）⇒ 学院（大学里分出来的一处：law school）；学派（跟着同一套思想学的一群人）"
- },
- "world": {
-  "image": "人生活其中的整片天地",
-  "derive": "世界；地球（人所在的整片天地）⇒ 领域（某一行自成一片天地：the world of art）"
- },
- "between": {
-  "image": "夹在两者中间",
-  "derive": "在…之间；在中间（夹在两点之间）⇒ 私下（话只在两人中间传，不外泄：between you and me）"
- },
- "own": {
-  "image": "东西归在自己名下",
-  "derive": "adj. 自己的（属于我自己：my own room）⇒ v. 拥有（东西归我：own a house）；n. 自己的事物（归自己的那份：a room of one's own）"
- },
- "still": {
-  "image": "停在原地，一动不动",
-  "derive": "adj. 静止的（站着不动：stand still）⇒ 仍然；还是（状态停着没变，到现在还这样）；更（比较级前，在原有程度上还往上加：still better）"
- },
- "very": {
-  "image": "货真价实，正是那一个",
-  "derive": "adj. 恰好的；同一的（不差分毫，正是那个：the very book I need）⇒ 非常；很（本义「真正的」，真的好 ⇒ 很好）"
+ "made": {
+  "image": "动手让原本没有的东西或结果出现",
+  "derive": "制造；制作（动手造出东西，也包括做饭菜：made a cake）⇒ 由…制成；由…构成（成品回头看材料：be made of wood）；做；进行（造出一个动作或结果：made a decision）；使；让（造出一个结果：made him happy）"
  },
  "last": {
   "image": "排在队伍最末尾的那一个",
-  "derive": "最后的；最后（排在末尾）⇒ 最近的；上次（从现在往回数，最靠近的那一次：last week）。v. 持续；维持是另一个同形词，单独记"
+  "derive": "adj. 最后的；最末的（排在队尾）⇒ 上一个的；刚过去的（从现在往回数，最靠近的那个：last year）。v. 持续；维持；够用；耐用 是另一个同形词，单独记"
  },
- "feel": {
-  "image": "伸手去摸，凭触感知道",
-  "derive": "触摸（手去碰）⇒ 感觉；觉得（身体或心里「摸」到了：feel tired；I feel that...）；n. 感觉；触觉"
- },
- "number": {
-  "image": "用来数东西的一个个数",
-  "derive": "数字 ⇒ 号码（给每个排上一个数：phone number）；数量（数下来有多少：a number of）；v. 给…编号（挨个排上数）；总计（数下来共有：The guests numbered 50）"
- },
- "back": {
-  "image": "身体后面的那一面",
-  "derive": "n. 背部（身体背面）⇒ 后面（背朝的那一侧）；adv. 向后（朝背的方向）；回原处（转身往回走：come back）；以前（时间上往回：back in 2010）；v. 后退；支持（站在背后撑着：back a plan）"
- },
- "used": {
-  "image": "被反复使用过的",
-  "derive": "使用（use 的过去式和过去分词）⇒ adj. 用过的（被人用过的：a used car）；习惯于…的（用多了就熟了：be used to noise）"
- },
- "show": {
-  "image": "把东西摆出来让人看",
-  "derive": "展示；显示（拿出来给人看）⇒ 表明（把道理摆出来：The study shows that...）；n. 表演；展览（专门摆出来给人看的一场）"
- },
- "far": {
-  "image": "两点之间隔得很远",
-  "derive": "adv. 远；adj. 远的（距离长）⇒ 非常；…得多（两者差距拉得远：far better）"
- },
- "change": {
-  "image": "把原来的拿掉，换成另一个",
-  "derive": "改变；变化（换成另一种样子）；更换（旧的换成新的：change clothes）；n. 零钱（大钞换开成的小钱，或买东西找回的钱）"
- },
- "off": {
-  "image": "原本贴在上面的东西脱离开来",
-  "derive": "离开；从…离开；脱离（从原来的位置分开：get off the bus）；脱下（衣服离开身体：take off）；断开（电路分开，关掉：turn off）；adj. 休息的；不工作的（人离开岗位：a day off）"
- },
- "down": {
-  "image": "往低处走，一路落下去",
-  "derive": "向下；在下面 ⇒ 减少（数字往下走：prices go down）；沿着（顺着路往前，像顺流而下：walk down the street）；adj. 向下的；沮丧的（情绪往下沉：feel down）"
- },
- "means": {
-  "image": "站在你和目标中间、帮你够到目标的东西",
-  "derive": "n. 方法；手段（夹在中间的工具：a means of transport）；财富（实现目的所靠的家底：live within one's means）。v. 意味着；意指（mean 的三单）另有来源，单独记"
- },
- "go": {
-  "image": "离开这里，朝别处移动出去",
-  "derive": "去（从这里走向别处）⇒ 进行（事情往前走：How did it go?）；变得（走进某种状态，多指变坏：go bad）；n. 尝试（轮到你走一步：have a go）"
- },
- "place": {
-  "image": "空间里一个确定的点位",
-  "derive": "n. 地方；地点；位置 ⇒ v. 放置；安置（给东西找一个位置放进去：place the vase on the table）"
- },
- "since": {
-  "image": "从过去某个点出发，一直延续到现在",
-  "derive": "自…以来；从…以后；adv. 此后；后来（从那个时间点往后算）⇒ conj. 因为；既然（从这个前提出发往下推：Since you're here, help me）"
- },
- "right": {
-  "image": "笔直不歪，正对着标准",
-  "derive": "正确的；正确地（不偏不歪：the right answer）；正好；立即（直直地、不拐弯：right here, right now）；n. 权利（按正道你应得的）；右边（被看作「正」的那只手，多数人的顺手）"
- },
- "done": {
-  "image": "一件事从头做到了尾",
-  "derive": "v. 做（do 的过去分词）⇒ adj. 完成的（做到头了：I'm done）；煮熟的（饭菜做到位了：well done）"
- },
- "yet": {
-  "image": "到这一刻为止，原状还在延续",
-  "derive": "还；仍然（到现在还没变：not yet）⇒ 然而；但是（尽管前面那样，情况仍然…：small yet strong）"
- },
- "under": {
-  "image": "在某物下面，被它罩着、压着",
-  "derive": "在…下面；在下 ⇒ 低于（在一条线下面：under 18）；在…中（处在某个过程的笼罩下：under construction）；按照；从属（被规则、上级管着：under the law）"
- },
- "lead": {
-  "image": "走在最前面，带着别人往前走",
-  "derive": "带领（走在前头带路）；导致（把局面带到某个结果：lead to）；领先；n. 领先地位（走在最前面）。n. 铅（读 /led/）另有来源，单独记"
- },
- "home": {
-  "image": "自己归属、出发又回来的那个地方",
-  "derive": "n. 家；家乡 ⇒ adv. 在家；回家（回到那个地方：go home）；adj. 家用的（家里用的）；国内的（把本国当作「家」：the home market）"
- },
- "times": {
-  "image": "时间轴上一段一段、一回一回",
-  "derive": "时期；时代（一大段一大段的时间：in ancient times）；次数（一回就是一个时间点：three times）⇒ prep. 乘以（把一个数重复几次：3 times 4）"
- },
- "age": {
-  "image": "活过的一段时间有多长",
-  "derive": "n. 年龄（人活了多长）⇒ 时代（一段很长的时间：the Stone Age）；老年（活得很长了）；v. 变老；老化（时间越积越长）"
- },
- "pay": {
-  "image": "把该给的钱交到对方手里",
-  "derive": "支付；偿还（把欠的钱交出去）；给予（把注意力、拜访当作付出去：pay attention）；报偿（付出换来回报：Hard work pays）；n. 工资；薪水（雇主付给你的钱）"
- },
- "care": {
-  "image": "心里一直挂着某人某事",
-  "derive": "v. 关心；在意（心里挂着：I don't care）⇒ n. 小心（挂着心就不敢大意：take care）；照顾；护理（挂心落到行动上，去照料）"
- },
- "try": {
-  "image": "拿来试一试，检验行不行",
-  "derive": "尝试；试图；努力（试着做，看能不能成：try to）；n. 尝试 ⇒ 审判（法庭把案子拿来检验、判定：try a case）"
- },
- "trying": {
-  "image": "像在被一件事反复考验",
-  "derive": "v. 试图；努力（try 的现在分词）⇒ adj. 令人厌烦的；难对付的（一直在考验你的耐心：a trying day）"
+ "taking": {
+  "image": "主动伸手，把外面的东西拿到自己这边",
+  "derive": "拿；取；带（伸手把东西拿到自己这边）⇒ 采取（把办法拿来用：take measures）；冒险（把风险拿到自己身上：take risks）；请假；休假（把一段空闲拿来用）；乘坐（把车拿来用）；做；进行（把一件事拿来做：taking a walk）；修课；上课（把课拿来听）"
  },
  "past": {
   "image": "已经从旁边走过去了",
-  "derive": "prep. 经过（从旁边走过：walk past the shop）；超过（走过了那个点：half past ten）⇒ adj. 过去的；结束的（时间已经走过去）；n. 过去；往事"
+  "derive": "prep. 超过；晚于（从旁边走过那个点：half past nine）⇒ adj. 过去的；以往的；刚过去的（时间已经走过去：past years）；n. 过去；往事"
  },
- "ever": {
-  "image": "时间线上任何一个点都算进去",
-  "derive": "在任何时候 ⇒ 曾经（问过去任何一点有没有过：Have you ever been there?）；究竟（放在疑问词后，把追问扩到任何情况：Why ever not?）"
- },
- "level": {
-  "image": "一条水平线，标出所在的高度",
-  "derive": "adj. 平的；v. 使平坦（处处一样高）⇒ n. 水平；程度；级别（一道道水平线标出高低：a high level）"
- },
- "course": {
-  "image": "沿着定好的路线一路跑下去",
-  "derive": "路线（跑的那条道）⇒ 过程（事情一路走过的轨迹：in the course of）；课程（学习要按顺序走完的一条路线）；一道菜（宴席按顺序一段段上，每一段就是一道）"
- },
- "mean": {
-  "image": "心里装着一个意思，话和事都指向它",
-  "derive": "表示…的意思；意味着（话或事背后指着的那个意思：What does it mean?）⇒ 打算（心里指着要做的事：I mean to call him）。adj. 吝啬的、adj. 平均的、n. 平均值是另外的同形词，单独记"
- },
- "book": {
-  "image": "把名字写进一本册子里",
-  "derive": "n. 书；书籍（成册的纸页）⇒ v. 登记（把名字记进册子）；预订（订座、订房时把你的名字记进簿子：book a table）"
- },
- "hard": {
-  "image": "又硬又结实，压不动、啃不动",
-  "derive": "硬的（压不动）⇒ 困难的（事情像硬骨头，啃不动）；苛刻的（态度硬，不肯软）；努力的；努力地；用力地（拿出硬劲去对付：work hard）"
- },
- "rather": {
-  "image": "两样放在一起比，心里偏向这一边",
-  "derive": "宁愿（两个选项里偏向这个：I'd rather stay）⇒ 更确切地说（两种说法里偏向更准的那个：or rather）；相当（程度比预想的偏高一截：rather cold）"
- },
- "play": {
-  "image": "上场动起来，投入一场游戏或表演",
-  "derive": "玩；n. 游戏 ⇒ 参加（比赛）（上场去玩：play football）；演奏（让乐器动起来发声）；扮演；n. 戏剧（在戏里上场：play a role）；作用；发挥（在事情里上场出力：play a part）"
- },
- "key": {
-  "image": "插进锁里，一转就能打开的钥匙",
-  "derive": "钥匙 ⇒ 关键；adj. 关键的；主要的（打开问题的那一环：the key to success）；答案（解开题目的「钥匙」：answer key）"
- },
- "against": {
-  "image": "两股力迎面相抵，互相顶着",
-  "derive": "逆（迎着方向顶上去：against the wind）⇒ 反对（立场顶着对方：vote against）；倚（身体顶靠在上面：lean against the wall）；防备（顶住将来的冲击：protect against）"
- },
- "live": {
+ "living": {
   "image": "活着，正在呼吸、在动",
-  "derive": "存活；生活（活着过日子）⇒ 居住（在某处过日子：live in Beijing）；adj. 活的（此时读 /laɪv/）；现场直播的（正活生生地发生，不是录好的：a live show）"
- },
- "poor": {
-  "image": "手里缺东西，样样不够",
-  "derive": "贫穷的（缺钱）⇒ 差的（质量、水平不够：poor health）；可怜的（处境缺这少那，让人同情：poor boy）"
- },
- "tell": {
-  "image": "一条一条数清楚，再讲出来",
-  "derive": "告诉；告知（把事情一条条讲给人听）⇒ 辨别（心里一项项数清楚，就分得出：tell A from B）"
+  "derive": "adj. 活着的；有生命的（还在呼吸）⇒ v. 居住；生活（活着过日子：living in Beijing）；n. 生计（靠什么过日子：earn a living；standard of living 生活水平）"
  },
  "form": {
   "image": "把东西做成一个固定的样子",
-  "derive": "形状；形式（东西呈现出的样子）⇒ 表格（印好固定格式、等人来填的纸：fill in a form）；v. 形成；组成（让东西成形：form a team）"
+  "derive": "n. 形式；种类（东西呈现出的样子，同样的样子归一类）⇒ v. 形成；建立；组成（让东西成形：form a team）；n. 表格（印好固定格式、等人来填的纸：fill in a form）"
  },
- "second": {
-  "image": "排在第一后面的那一个",
-  "derive": "第二；次要的（排在第一之后）⇒ n. 秒（把小时细分一次得到分钟，再分第二次就是秒）；片刻（一秒那么短：Wait a second）"
- },
- "order": {
-  "image": "把东西排成整齐的一行",
-  "derive": "顺序；秩序；整理（排好了就有次序：in order）⇒ 命令（上级安排谁该怎么做：order sb to do）；订单；订购（向商家下指令要货：order a pizza）"
- },
- "point": {
-  "image": "尖头戳下去，落在一个点上",
-  "derive": "尖端 ⇒ v. 指向；指出（用尖头对准：point at）；要点（话里最尖、最要紧的那一点：get to the point）；观点（站在某一点上看：point of view）；得分（记分板上记一个点）"
- },
- "free": {
-  "image": "身上没有绳子绑着，不受束缚",
-  "derive": "自由的；v. 使自由；释放（解开绳子）⇒ 免费的（不受付钱的约束：free of charge）；空闲的（时间没被事情占着：Are you free?）"
- },
- "class": {
-  "image": "按等第把人或物分成一组一组",
-  "derive": "种类；阶级（按等第分出的一组：middle class）⇒ 班级（学校里分出来的一组人）；课（一个班一起上的那一堂：have a class）"
- },
- "stay": {
-  "image": "待在原处不走开",
-  "derive": "停留；暂住；n. 逗留（人待在某处：stay at a hotel）⇒ 保持（状态待着不变：stay calm）"
- },
- "stop": {
-  "image": "正在动的东西停住，不再往前",
-  "derive": "停止；停留 ⇒ 阻止（让别人的动作停下来：stop him from going）；n. 车站（车停下来的地方：bus stop）"
- },
- "due": {
-  "image": "欠着的账，到了该兑现的时候",
-  "derive": "应支付的（欠着，到期该还：The rent is due）⇒ 预期的（到点该来了：The train is due at five）；由于（due to：结果「欠」在某个原因上，归因于它）"
- },
- "true": {
-  "image": "跟标准严丝合缝，一点不偏",
-  "derive": "真实的；正确的（说的跟事实对得上）⇒ 忠实的（心跟承诺、跟人对得上，不背离：true to his word）"
- },
- "hand": {
-  "image": "一只伸出来的手",
-  "derive": "手 ⇒ 帮助（伸手帮一把：give sb a hand）；指针（钟面上指着时刻的「手」：hour hand）；v. 递；交给（用手把东西传过去：hand me the book）"
- },
- "serious": {
-  "image": "脸沉下来，不是闹着玩的",
-  "derive": "严肃的（神情不开玩笑）⇒ 认真的（态度不开玩笑：Are you serious?）；严重的（事态不是小事：a serious illness）"
- },
- "case": {
-  "image": "摆到你面前、要处理的一桩具体事",
-  "derive": "情况；事例（具体的这一桩：in this case）⇒ 案件（交到警察、法庭手里的一桩事：a murder case）。n. 箱子另有来源，单独记"
- },
- "terms": {
-  "image": "划出的一道界线，把范围定死",
-  "derive": "条款（合同里给双方划定的界线）；学期（起止划定的一段时间）；术语（意思被划死、限定的词）⇒ 关系（双方相处的「条件」定在哪：on good terms）"
+ "growing": {
+  "image": "像植物一样一点点长大",
+  "derive": "v. 增长；增加（像植物一点点长大）⇒ adj. 日益增多的；不断增长的（数量正在变多：a growing number）；v. 变得；逐渐成为（慢慢长成另一种状态：growing old）"
  },
  "move": {
   "image": "离开原来的位置，挪到别处",
-  "derive": "移动；前进 ⇒ 搬家（人和家挪到新地方）；感动（心被推动了一下：be moved）；n. 步骤；行动（棋盘上走一步：a smart move）"
- },
- "reason": {
-  "image": "在脑子里一步步算出个所以然",
-  "derive": "推理；思考（脑子一步步算）⇒ 理性（会算道理的能力）；原因；理由（算出来的「为什么」：the reason why）"
- },
- "clear": {
-  "image": "中间没有东西挡着，一眼看穿",
-  "derive": "清晰的；清楚的（没有遮挡，看得透）⇒ v. 清除（把挡着的东西拿走：clear the table）；澄清（把误会拿掉，让事情变清楚）"
- },
- "meet": {
-  "image": "两边走到一处，碰上了头",
-  "derive": "遇见；会面 ⇒ 迎接（主动走过去碰头：meet sb at the airport）；满足（做到的刚好碰上要求：meet the needs）；n. 运动会（大家聚到一起比赛）"
- },
- "short": {
-  "image": "长度没够到该有的那条线",
-  "derive": "短的；矮的 ⇒ 短缺的（数量没够到：short of money）；adv. 突然地（动作没走完就截断：stop short）"
- },
- "heart": {
-  "image": "胸腔正中那颗跳动的心",
-  "derive": "心脏 ⇒ 内心（感情住的地方：from the heart）；核心（东西的正中间、最要紧处：the heart of the city）"
- },
- "grow": {
-  "image": "像植物一样一点点长大",
-  "derive": "生长 ⇒ 增长（数量像植物一样变多）；变得（慢慢长成另一种状态：grow old）"
+  "derive": "v. 移动；搬动；活动（离开原位挪到别处，身体挪动）⇒ 搬家；迁移（连人带家挪到新地方）；前进；进展；转入（往前挪一步，事情就往前走：move on to）；n. 举动；行动；步骤（棋盘上走一步：a smart move）"
  },
  "share": {
   "image": "把一整块切开，每人拿一份",
-  "derive": "n. 一份；份额（切出来属于你的那块）⇒ 分享（好东西大家各拿一份）；分担（担子也每人扛一份：share the cost）"
- },
- "rate": {
-  "image": "拿一把尺子量出「每单位多少」",
-  "derive": "比率（一个量按另一个量算：birth rate）⇒ 速度（按时间算的快慢）；价格（按单位算的收费：hourly rate）；v. 评估；划分等级（拿尺子给东西定档：rate a film）"
- },
- "deal": {
-  "image": "把一堆东西分成份发出去",
-  "derive": "分给（发牌：deal the cards）⇒ 交易（双方怎么分好处谈妥了：make a deal）；待遇（分到你头上的那份：a fair deal）；大量（a great deal：分出很大一份）；处理（跟人或事打交道：deal with）"
- },
- "matter": {
-  "image": "实实在在、有分量的东西",
-  "derive": "物质（构成万物的实在东西）⇒ 事情；问题（摆在那里要面对的「实在东西」：a matter of time）；vi. 要紧（有分量、算数：It doesn't matter）"
- },
- "top": {
-  "image": "一样东西最高的那一面",
-  "derive": "顶部；顶端 ⇒ 表面（最上面那一层）；adj. 最高的（排在顶上：top students）；v. 超过（压到别人上面：top the list）"
- },
- "build": {
-  "image": "一块块往上垒，搭出一个东西",
-  "derive": "建造（垒砖盖房）⇒ 建立（关系、事业也一点点搭起来：build trust）；增强（往上加，越垒越强：build strength）"
- },
- "call": {
-  "image": "放开嗓子喊一声",
-  "derive": "叫；呼叫（大声喊人）⇒ 称呼（喊出名字就是叫他什么：call him Tom）；打电话（隔着电话线喊人：call me later）；n. 电话"
- },
- "chance": {
-  "image": "掷出骰子，落在哪面说不准",
-  "derive": "偶然；碰巧（骰子怎么落没人安排）⇒ 可能性（落到这一面的几率：a good chance）；机会（落到你面前的好事：a second chance）；v. 冒险（把结果押给骰子）"
- },
- "stress": {
-  "image": "使劲往下压在一个点上",
-  "derive": "压力（压在身上的力）⇒ 使紧张（被压得绷紧）；强调（在要紧处重重压一下）；重音（在音节上压一下，读重）"
+  "derive": "n. 份额；比例（切出来属于你的那块）⇒ v. 分享（好东西大家各拿一份）；共用；共有（大家同用一份东西）；分担（担子也每人扛一份：share the cost）"
  },
  "exercise": {
   "image": "让身体或本事动起来干活",
-  "derive": "运动；锻炼（让身体动起来）⇒ 练习（反复动用某项本领：math exercises）；v. 运用（把权力、能力拿出来用：exercise your rights）"
- },
- "left": {
-  "image": "人走了，东西留在原处",
-  "derive": "v. 离开（leave 的过去式）⇒ 剩余的（人走后留下来的：left over）。adj./n. 左边另有来源，单独记"
- },
- "term": {
-  "image": "划出的一道界线，把范围定死",
-  "derive": "期限（时间上划定的界线）⇒ 学期（起止划定的一段时间）；条款（合同里给双方划定的界线）；术语（意思被划死、限定的词）"
- },
- "goal": {
-  "image": "比赛终点处、要冲进去的那道门",
-  "derive": "球门（球要冲进去的门）⇒ 得分（球进了门：score a goal）；目标；目的（人想冲到的那个终点）"
- },
- "kind": {
-  "image": "同一血缘、同一类的一家人",
-  "derive": "种类（同一来源的一类：this kind of book）⇒ 善良的；友好的（像待同类、自家人一样亲善）；n. 仁慈"
- },
- "room": {
-  "image": "能容下东西的一块空地方",
-  "derive": "空间（能放东西的余地：make room for）⇒ 房间（墙围起来的一块空间）"
- },
- "mind": {
-  "image": "脑子里装着、惦记着",
-  "derive": "头脑；智力；思想（想事情的地方）⇒ v. 注意（把某事放在脑子里：Mind the gap）；介意（放在心上不舒服：Do you mind?）"
- },
- "helping": {
-  "image": "伸手帮别人一把",
-  "derive": "帮助 ⇒ n.（食物的）一份（帮人往盘里盛的一份：a second helping）"
- },
- "reach": {
-  "image": "伸长胳膊去够远处的东西",
-  "derive": "伸手够到 ⇒ 到达（人「够」到某地：reach Beijing）；达到（够到目标：reach an agreement）；n. 可达到的距离；范围（手能够到的地方：out of reach）"
- },
- "felt": {
-  "image": "用手去摸，感受它",
-  "derive": "触摸 ⇒ 感觉（身体、心里感受到）；认为（心里「摸」出的判断：I felt that…）。n. 毛毡另有来源，单独记"
- },
- "further": {
-  "image": "在已到的地方，再往前推一步",
-  "derive": "更远；更远的（空间上再往前走一段）⇒ 进一步地（程度上再往前一步）；更多的（在已有的上面再加：further information）；而且（话再往前说一步）；v. 促进（把事情往前推：further your career）"
- },
- "thus": {
-  "image": "手指着刚说的那件事：就照这样",
-  "derive": "这样（照这个样子：thus far）⇒ 因此；于是（照这样下来，结果就是…）"
+  "derive": "n. 锻炼；运动；v. 锻炼（让身体动起来）⇒ n. 练习；习题（反复动用某项本领：math exercises）；演习（队伍实地练一遍：a military exercise）"
  },
  "lost": {
   "image": "原本握在手里的东西，没了",
-  "derive": "v. 丢失；输掉（lose 的过去式/过去分词：lost the game）⇒ adj. 丢失的（东西不见了）；迷路的（把自己的路弄丢了：get lost）"
- },
- "beyond": {
-  "image": "越过眼前的界线，在它另一边更远处",
-  "derive": "在…之外；在更远处（在界线那一边：beyond the hills）⇒ 超出；超越（越过能力、理解的边界：beyond my control）；adv. 此外（在已说的范围之外还有）"
- },
- "area": {
-  "image": "地面上划出来的一块平面",
-  "derive": "地区；区域（划出的一块地方）⇒ 面积（这一块有多大）；领域（知识、工作里划出的一块：an area of study）"
- },
- "issue": {
-  "image": "从里面发出去、流出来",
-  "derive": "v. 发布；发行（从官方手里发出去：issue a statement）⇒ n. 发行物（发出来的一期：the latest issue）。n. 问题；议题 源自法律上的「争点」，与画面联系较远，单独记"
- },
- "space": {
-  "image": "东西与东西之间空出来的地方",
-  "derive": "空间；空地（空着、能放东西的地方）⇒ 太空（地球外面最大的一片空处）；间隔（两样东西之间空出的距离）；v. 分隔；留间隔（让它们之间空出距离：space them out）"
- },
- "face": {
-  "image": "脸朝着某个方向，正对着它",
-  "derive": "n. 脸 ⇒ 表面（物体朝外的那一「面」：the face of a cliff）；v. 面向（脸朝那边：face south）；面对（正脸迎着困难：face a problem）"
- },
- "follow": {
-  "image": "走在后面，沿着前面的路线走",
-  "derive": "跟随（跟在后面走）⇒ 遵循（沿着规则、指示走：follow the rules）；理解（思路跟得上对方：I don't follow you）"
- },
- "rise": {
-  "image": "从低处往上起来",
-  "derive": "升起；上升（太阳、水位往上走）⇒ 增加；增长（数量往上走：a rise in prices）；起床（人从躺着到起身）"
- },
- "leading": {
-  "image": "走在最前面，带着后面的人",
-  "derive": "领先的（排在队伍最前头：a leading team）⇒ 领导的（在前面带着别人走）；主要的（原因、角色里排第一的：the leading cause）"
+  "derive": "v. 丢失；失去（lose 的过去式：手里的东西没了）⇒ 输；输掉（把胜利丢掉：lost the game）；adj. 丢失的；失去的（东西不见了）；迷路的；走失的（人把路弄丢了：get lost）"
  },
  "rest": {
   "image": "停下来，把身体的重量放下靠着",
-  "derive": "休息；放松（停下来不动）⇒ 倚靠（把重量搁在某处歇着：rest on the wall）。n. 剩余部分另有来源，单独记"
- },
- "leave": {
-  "image": "人走开，把东西留在原地",
-  "derive": "留下（人走了，东西留在原处）⇒ 离开（自己从原处走开：leave home）；遗忘（不小心把东西留下：leave my keys）；使处于某种状态（走开后任它保持那样：leave the door open）。n. 许可；休假另有来源，单独记"
- },
- "saying": {
-  "image": "嘴里说出来的话",
-  "derive": "v. 说（say 的现在分词）⇒ n. 谚语；格言（人们世世代代都这么说的话：as the saying goes）"
- },
- "sign": {
-  "image": "留下一个记号，让人一看就明白",
-  "derive": "符号（画出来代表意思的记号）⇒ 迹象（事情自己露出的记号：signs of spring）；招牌（挂出来告诉人的记号）；v. 签名；签署（在文件上留下自己的记号：sign a contract）"
- },
- "save": {
-  "image": "把东西护住，不让它失去",
-  "derive": "拯救（把人从危险里护住：save a life）⇒ 保存（文件、东西留住不丢：save the file）；节省（时间、钱不白白流失）；储蓄（把钱留住攒起来：save money）"
- },
- "stick": {
-  "image": "尖东西扎进去，就固定在那儿不动",
-  "derive": "刺入（扎进去：stick a pin in it）⇒ 粘住（贴上去就不动了：stick to the wall）；坚持（紧贴着不离开：stick to the plan）。n. 棍；枝条 词源上是尖细的木条，单独记"
- },
- "add": {
-  "image": "在已有的上面再放上一些",
-  "derive": "添加；增加（往上再放一些：add sugar）⇒ 补充说（话说完再往上加一句：He added that…）"
+  "derive": "v. 休息；歇息（停下来，把重量放下）⇒ n. 休息（停下来的那段时间：take a rest）。n. 其余部分 另有来源，单独记"
  },
  "hit": {
   "image": "一下子撞上目标",
-  "derive": "打击；碰撞（猛地撞上）⇒ 达到（数字撞上某条线：hit a record high）；n. 击中（打中目标）；成功（一下打中观众的心：a big hit）"
- },
- "lose": {
-  "image": "原本握在手里的东西，没了",
-  "derive": "丢失（东西不见了）⇒ 输掉；失败（胜利从手里溜走：lose a game）；减肥（把体重丢掉：lose weight）"
- },
- "wanted": {
-  "image": "一心想得到某人或某物",
-  "derive": "v. 想要（want 的过去式/过去分词）⇒ adj. 被通缉的（警方一心想抓到的人：a wanted man）"
- },
- "type": {
-  "image": "模子压下去，印出一模一样的印记",
-  "derive": "类型；种类（同一个模子印出来的一批）⇒ 典型（最能代表这个模子的样本）；v. 打字（敲下字模印出字母：type a letter）"
- },
- "claim": {
-  "image": "站出来大声宣布：这是真的，这归我",
-  "derive": "声称；主张；n. 断言（大声宣布「这是事实」：claim to be innocent）⇒ 要求；索取（宣布「这东西该归我」：claim the prize）；n. 索赔（按规矩喊出「该赔给我」：an insurance claim）"
- },
- "towards": {
-  "image": "脸和脚步都朝着某个方向，往那边靠",
-  "derive": "向；朝（对着那个方向）⇒ 接近（朝它一点点靠近，时间、数量快到了：towards evening）；对于（态度、感情朝向某人某事：his attitude towards me）"
- },
- "fit": {
-  "image": "形状大小正好对上，严丝合缝",
-  "derive": "合身（衣服正好对上身材）⇒ 适合；合适的；n. 适合（条件正好对上要求）；安装（把零件对准位置装进去：fit a new lock）；adj. 健康的（身体状况正合乎活动的要求：keep fit）"
- },
- "raise": {
-  "image": "让东西从低处升起来、立起来",
-  "derive": "举起（手、东西往上升）⇒ 提升（水平往上抬：raise prices）；养育（把孩子一点点拉扯大：raise a child）；筹集（让一笔钱从无到有「立起来」：raise money）"
+  "derive": "v. 撞到；碰到；打到（一下子撞上目标）⇒ 袭击；侵袭（灾害猛地撞上一个地方：hit by a storm）；达到（数字撞上某条线：hit a record high）；使遭受（费用、批评猛地撞到你身上：hit by rising costs）；n. 风行一时的事物；大受欢迎的人或物（一下打中观众的心：a big hit）"
  },
  "heavy": {
   "image": "分量大，压手往下坠",
-  "derive": "重的 ⇒ 沉重的（压在心上：a heavy heart）；大量的（数量多到压人：heavy rain, heavy traffic）"
+  "derive": "重的；沉的（分量大，压手往下坠）⇒ 大量的；猛烈的；严重的（多到、猛到压得人喘不过气：heavy rain）；繁重的；苛刻的（压在肩上的负担：heavy workload）"
  },
- "post": {
-  "image": "把告示钉在柱子上给大家看",
-  "derive": "张贴（贴到柱子、墙上）⇒ 发布（贴出来让人看，网上同理：post a photo）；n. 帖子（贴出来的那一条）。岗位；邮寄；邮件另有来源（驿站：安排好的固定站点 ⇒ 岗位；一站站传信 ⇒ 邮寄），单独记"
- },
- "range": {
-  "image": "一长排东西从这头拉到那头",
-  "derive": "山脉（一排连着的山：a mountain range）⇒ 范围；幅度（从最低到最高拉开的那一段：a wide range of prices）；射程（子弹能拉到的最远距离）；v. 在…范围内变动（从 A 拉到 B：range from 10 to 20）"
- },
- "check": {
-  "image": "停一下，拿两样东西对一对",
-  "derive": "检查；核对（拿实物对照标准看一遍）⇒ n. 账单（饭后拿来对账的单子：Check, please）；支票（带存根、可以对照核验的付款单）"
- },
- "enter": {
-  "image": "从外面跨过门槛，走进里面",
-  "derive": "进入 ⇒ 输入（把数据送进电脑里：enter your password）；参加（走进比赛、组织里面：enter a competition）"
- },
- "works": {
-  "image": "花力气干活，让事情动起来、出成果",
-  "derive": "工作 ⇒ 运转；起作用（机器、办法在「干活」：It works）；n. 作品（干活做出来的成果：works of art）；工厂（干活的地方，常用 works）；工程（大规模的施工：public works）"
- },
- "prove": {
-  "image": "拿去试一试，让真相亮出来",
-  "derive": "证明；证实（经过检验确认是真的）⇒ 结果是（试过之后最终显出是…：The plan proved a success）"
- },
- "shape": {
-  "image": "东西被捏出来的轮廓模样",
-  "derive": "形状；外形 ⇒ 状况（整体处在什么样子：in good shape）；v. 塑造；形成（把东西捏成某个样子：shape the future）"
- },
- "wild": {
-  "image": "没被人驯服、没人管的自然状态",
-  "derive": "野生的；野的（动植物没被人养）⇒ 荒凉的（地方没被人开垦）；狂热的（情绪没被约束、撒开了：go wild）"
- },
- "earth": {
-  "image": "脚下踩着的这片土",
-  "derive": "泥土 ⇒ 陆地（大片的土，区别于海和天）；地球（整颗由土地构成的星球：on earth）"
- },
- "front": {
-  "image": "额头、脸冲着的那一面",
-  "derive": "前面；正面；adj. 前面的（脸冲着的那一面）⇒ 前线（军队冲在最前、正对敌人的一面）；v. 面对；朝向（脸冲着某处：The house fronts the sea）"
- },
- "drive": {
+ "driven": {
   "image": "从后面推着、赶着东西往前走",
-  "derive": "驱动（推着机器往前转）⇒ 驾驶；n. 驾驶（赶着车往前跑：drive a car）；迫使（把人逼到某个地步：drive me crazy）；n. 驱动器（带动磁盘转的装置）；动力（推人向前的内在力量）"
- },
- "land": {
-  "image": "脚能实实在在踩住的地面",
-  "derive": "陆地；土地（实实在在的地面）⇒ 国家（一片土地上的国度：a foreign land）；v. 降落；着陆（从空中落回地面）；获得（像把鱼拉上岸，弄到手：land a job）"
+  "derive": "v. 驱使；推动；驱动（从后面推着往前走：be driven by profit）⇒ adj. 有干劲的；有强烈动机的（被内心的力量推着往前：driven to succeed）"
  },
  "sound": {
   "image": "耳朵接收到的振动",
-  "derive": "声音；响声 ⇒ v. 听起来（凭听到的来判断：That sounds great）。adj. 健康的；健全的；合理的另有来源（与德语 gesund 同源），单独记"
+  "derive": "n. 声音；响声（耳朵接收到的振动）⇒ v. 听起来；似乎（凭听到的来判断：That sounds great）。adj. 健全的；健康的；合理的；可靠的 另有来源（与德语 gesund 同源），单独记"
+ },
+ "feels": {
+  "image": "伸手去摸，凭触感知道",
+  "derive": "摸起来、给人…的感觉（手一碰得到的触感：feels like silk）⇒ 感到；觉得（身体或心里「摸」到了：feel tired）；认为（心里的感觉变成看法：feel that...）"
+ },
+ "matters": {
+  "image": "实实在在、有分量的东西",
+  "derive": "n. 事情；问题（摆在那里要面对的「实在东西」：a matter of time）⇒ v. 重要；要紧（有分量、算数：It doesn't matter）"
+ },
+ "from": {
+  "image": "从一个起点出发，离开它",
+  "derive": "离开，脱离，远离（从起点拉开距离：away from）⇒ 从，自（从起点算起：from Monday）；来自（起点就是出处：come from China）；由于，因为（结果从原因那里出来：die from）；不让，使免于（把人从某事上拉开：prevent…from）；与…不同（和别人拉开了距离：differ from）"
+ },
+ "time": {
+  "image": "时间轴上的一段，或其中的一个点",
+  "derive": "时间（一条长线：spend time）⇒ 一段时间，一段时光（线上截下一段：for a time）；时代，时期（很长的一段：of the time）；时候，时刻，时机（线上的一个点：what time）；次，回（点出现一回就算一次：every time）"
+ },
+ "while": {
+  "image": "两件事在同一段时间里并排摆着",
+  "derive": "n. 一会儿，一段时间（a while）⇒ conj. 当…的时候，在…期间；与此同时（两件事占着同一段时间）；而，然而（并排一摆就看出对照：He is rich while she is poor）；虽然，尽管（承认这一边的同时转向另一边：While I agree, ...）"
+ },
+ "see": {
+  "image": "目光落到某物上，看到了它",
+  "derive": "看见，看到；观看（眼睛接收到：see a film）⇒ 明白，理解，看出（心里也看到了：I see）；看看，查看，弄清楚（去看个究竟：see if）；把…看作，认为（用眼光看待：see A as B）；见面，看望（亲眼去见：see a friend）；诊治（医生看病人）；经历，遭遇（亲眼看着某事发生在某时期）"
+ },
+ "feel": {
+  "image": "伸手去摸，凭触感知道",
+  "derive": "感受到，感觉到（身体摸到了：feel pain）⇒ 感到，觉得（心里摸到的状态：feel happy）；认为，觉得（心里摸出的看法：feel that…）；摸起来，给人…的感觉（东西让手摸出的感觉：It feels strange）"
+ },
+ "go": {
+  "image": "离开这里，朝别处移动出去",
+  "derive": "去，前往，离开（从这里走向别处）⇒ 变得，成为，处于（走进某种状态：go bad）；归属，被用于（东西走到该去的地方：go to）；还剩，还需（离终点还有几步要走：two days to go）"
+ },
+ "under": {
+  "image": "在某物下面，被它罩着、压着",
+  "derive": "在…下面，在…底下（基本义）⇒ 处于之下（被压在某种状态、条件下：under pressure）；在…领导下，以…名义（被人或制度管着：under the law）；少于，不满（在一条线下面：under 18）"
+ },
+ "ever": {
+  "image": "时间线上任何一个点都算进去",
+  "derive": "任何时候，曾经（问过去任何一点有没有过：Have you ever been there?）⇒ 究竟，到底（疑问里把追问扩到任何情况：Why ever not?）；越来越（时间一路往后延，越来越多：ever more）"
+ },
+ "hard": {
+  "image": "又硬又结实，压不动、啃不动",
+  "derive": "硬的（压不动）⇒ 困难的，难的（像硬骨头，啃不动）；艰苦的，辛苦的（要使出硬劲：hard work）；adv. 努力地，用力地（拿出硬劲去对付：work hard）；确凿的，可靠的（像石头一样硬，推不翻：hard data）"
+ },
+ "second": {
+  "image": "排在第一后面的那一个",
+  "derive": "adj. 第二的，第二（个）（排在第一后面）⇒ adv. 其次（讲到第二点：Second, ...）；n. 秒，片刻（小时分一次是分钟，再分第二次就是秒：Wait a second）"
+ },
+ "left": {
+  "image": "人走了，东西留在原处",
+  "derive": "v. 离开（leave 的过去式：人走了）⇒ 留下，丢下（走时东西留在原处）；使处于某种状态（走后任它保持原样：be left alone）；剩下，余留（人走后剩下的：left over）。adj. 左边的 单独记"
+ },
+ "beyond": {
+  "image": "越过眼前的界线，在它另一边更远处",
+  "derive": "prep. 超出，超过（越过范围、限度：beyond my control）⇒ adv. …以及更远/更晚的（界线之外还有：and beyond）"
+ },
+ "leave": {
+  "image": "人走开，把东西留在原地",
+  "derive": "留下，遗留（人走了，东西留在原处）⇒ 离开（自己从原处走开：leave home）；使处于（走开后任它保持那样：leave the door open）。n. 休假，假期 单独记"
+ },
+ "looked": {
+  "image": "主动把目光投向某处",
+  "derive": "看，瞧（主动投出目光：look at）⇒ 研究，考察（目光停在上面细看：look at the data）；看起来，显得（别人目光落到你身上看出的样子：look tired）"
+ },
+ "moving": {
+  "image": "离开原来的位置，挪到别处",
+  "derive": "移动，动（离开原位挪到别处）⇒ 搬动，转移（把物品、钱、人挪走）；搬家，迁居（人连家一起挪到新地方）；转向，转变（挪到新的方式上：move to a new method）"
+ },
+ "gets": {
+  "image": "从「没有」变成「有」——进入一个新位置或新状态",
+  "derive": "得到，获得（东西到手）⇒ 被（get + 过去分词：进入某个状态，结果成了被动：get hurt）"
  },
  "act": {
   "image": "动手把一件事做出来",
-  "derive": "行动；n. 行为（做出来的事）⇒ 扮演（在台上做出角色的动作）；n. 一幕（戏里连着演的一段）；充当（做某个角色该做的事：act as a guide）；n. 法令（议会正式「做成」的决定）"
+  "derive": "行动，采取行动（动手做事）⇒ n. 行为，举动（做出来的事：the act of doing）；表现，举止（做出某种样子：act strangely）；充当，起…作用（做某个角色该做的事：act as a guide）；n. 法案，法令（议会正式做成的决定）"
+ },
+ "held": {
+  "image": "手握住不松开，让它维持住",
+  "derive": "拥有，保存，容纳（握在手里或装在里面）⇒ 持有，抱有（观点一直握在心里），认为；举行，召开（把活动撑起来维持住：hold a meeting）；成立，有效（一直握得住不垮：The rule still holds）"
+ },
+ "by": {
+  "image": "挨在旁边，从它身边经过",
+  "derive": "prep. 在…旁边；靠近（基本义：by the window）⇒ adv. 在附近（不带宾语就是「在边上」：close by）；通过；靠；用（借着手边的路或工具过去：by bus）；被；由（动作经过某人之手：written by him）；按照；根据（挨着标准来量：by law）；到…时为止；不迟于（时间走到这条线边上就得完成：by Friday）；相差（差在边上这么多：by 25%）"
+ },
+ "so": {
+  "image": "手一指：就是这样，到这个程度",
+  "derive": "adv. 如此；这么（就这样：so big）⇒ 非常（程度高到「这样」：so happy）；这样（指代前文：do so、I think so）；那么；这么说（接上文引出话题：So, what now?）；conj. 所以；因此；于是（情况就是这样，结果跟着来：It rained, so we stayed）；为了；以便（让结果成为这样：so that）；也（「这样」指前面的情况：So do I）"
+ },
+ "making": {
+  "image": "动手让原本没有的东西或结果出现",
+  "derive": "v. 制作；制造（动手造出东西：make a cake）⇒ 做；作出；进行；制定（造出一个决定、计划：make a decision）；使；让（造出一个结果：make him happy）；挣（把钱「造」进口袋：make money）；结交（把朋友「造」出来：make friends）；n. 制作；制定（动作变名词：decision making）"
+ },
+ "said": {
+  "image": "前面已经说出口的话",
+  "derive": "v. 说；讲（say 的过去式和过去分词）⇒ 据说（be said to：被人说成是…）"
+ },
+ "followed": {
+  "image": "走在后面，沿着前面的路线走",
+  "derive": "跟随；紧接着（走在后面：followed by）⇒ 追踪；跟踪调查（盯着前面的人一路走：follow a lead）；遵循；遵照（沿着规则、指示走：follow the rules）"
+ },
+ "look": {
+  "image": "主动把目光投向某处",
+  "derive": "v. 看；注视；考察（主动把目光投过去：look at）⇒ n. 看一眼（投一次目光：have a look）；寻找（目光四处投：look for）；指望；求助于（目光投向某人等着：look to）；看起来；显得（别人目光落在你身上看到的样子：look tired）；int. 喂；听我说（要对方把目光转过来：Look, ...）"
+ },
+ "number": {
+  "image": "用来数东西的一个个数",
+  "derive": "n. 数字；数（用来数东西的符号）⇒ 号码（给每个排上一个数：phone number）；数量；数目（数下来有多少：the number of）；统计数字（数出来的结果）"
+ },
+ "place": {
+  "image": "空间里一个确定的点位",
+  "derive": "n. 地方；场所（空间里一个确定的点）⇒ 位置；座位（占着的那个点：take your place）；住处；住所（人固定待的地方：come to my place）；v. 放置；安放；张贴（把东西放到一个位置上）；给予（把重视、压力「放」到某事上：place importance on）"
+ },
+ "lead": {
+  "image": "走在最前面，带着别人往前走",
+  "derive": "v. 带领；领导；引导（走在前头带路）⇒ 导致；引起（把事情带到某个结果：lead to）；adj. 主要的；首席的（走在最前面的那个：lead author）"
+ },
+ "rather": {
+  "image": "两样放在一起比，心里偏向这一边",
+  "derive": "宁愿（两个选项里偏向这个：I'd rather stay）⇒ 而是；更确切地说（两种说法里偏向更准的那个：or rather）；相当；有点（程度比预想的偏高一截：rather cold）"
+ },
+ "order": {
+  "image": "把东西排成整齐的一行",
+  "derive": "n. 顺序；次序（东西排成整齐的一行：in order）⇒ 秩序；纪律（排得整齐就不乱：keep order）；v. 订购；点（餐）（向商家下指令，让货按你的要求排上来：order a pizza）；n. 订单（下单的那张单子）"
+ },
+ "clear": {
+  "image": "中间没有东西挡着，一眼看穿",
+  "derive": "adj. 透明的；清澈的（中间没东西挡着，看得透）⇒ 清楚的；明确的；明显的（意思没有遮挡，一眼看明白）；v. 清除；清理（把挡着的东西拿走：clear the table）"
+ },
+ "rate": {
+  "image": "拿一把尺子量出「每单位多少」",
+  "derive": "n. 比率；率（一个量按另一个量算：birth rate）⇒ 速度；速率（按时间算的快慢：heart rate）；v. 评价；打分（拿尺子量一量给东西定档：rate a film）"
+ },
+ "saying": {
+  "image": "嘴里说出来的话",
+  "derive": "v. 说（say 的现在分词）⇒ 写着；内容是（牌子、文字像在「说话」：The sign is saying...）"
+ },
+ "lose": {
+  "image": "原本握在手里的东西，没了",
+  "derive": "失去；丢失；减少（手里的东西没了：lose a key）⇒ 减掉（把体重丢掉：lose weight）；输掉；输（胜利从手里溜走：lose a game）"
+ },
+ "post": {
+  "image": "把告示钉在柱子上给大家看",
+  "derive": "v. 发布；发帖（把告示贴出来给大家看，网上同理：post a photo）⇒ n. 帖子（贴出来的那一条）。邮寄 单独记（来自驿站，一站站传信）"
+ },
+ "classes": {
+  "image": "按等第把人或物分成一组一组",
+  "derive": "n. 阶级；阶层（按等第分出的一组：middle class）⇒ 课；课程（学校里分出一组人一起上的那一堂：have a class）"
  },
  "aim": {
   "image": "举枪，把枪口对准靶心",
-  "derive": "瞄准 ⇒ 旨在（把力气对准某个结果：aim to help）；n. 目标；目的（心里对准的那个靶心）"
- },
- "setting": {
-  "image": "把东西安放在某个位置上",
-  "derive": "v. 放置（set 的现在分词）⇒ n. 设置（把参数定在某一档：settings）；环境；背景（事情、故事被「安放」在的地方：The story is set in Paris）"
- },
- "treat": {
-  "image": "动手去处理、对付某人某事",
-  "derive": "对待（用某种方式处理人：treat him well）⇒ 治疗（医生处理病情）；款待；n. 款待（好好「招呼」客人，请吃请喝：It's my treat）；n. 乐事（像被款待一样开心的事）"
- },
- "fall": {
-  "image": "东西从高处往下掉落",
-  "derive": "落下；跌倒；下降；n. 下降 ⇒ n. 秋天（树叶落下的季节）；瀑布（水从高处落下，常用 falls）"
- },
- "ages": {
-  "image": "一段一段累积起来的漫长时间",
-  "derive": "年龄（人活过的那段时间）⇒ 时代（历史上的一大段时间：the Stone Age）；很长时间（夸张成「好几个时代」：I haven't seen you for ages）"
+  "derive": "v. 力求；旨在（像瞄准一样，把力气对准某个结果：aim to help）⇒ n. 目标；目的（心里对准的那个靶心）"
  },
  "shift": {
   "image": "从一个位置挪到另一个位置",
-  "derive": "转移；变换（换个位置或方向：shift attention）⇒ n. 转变（态度、局势挪了位置：a shift in policy）；轮班（工人一批换下、一批换上：the night shift）"
- },
- "wonder": {
-  "image": "眼前出现想不通的东西，人一下愣住",
-  "derive": "n. 惊奇（愣住时的那种感觉）；奇迹（让人愣住的东西：the wonders of nature）⇒ v. 感到惊讶（愣住）；想知道（愣完心里冒出「为什么」：I wonder why）"
- },
- "labor": {
-  "image": "使出全身力气，吃力地干活",
-  "derive": "劳动；v. 努力做；苦干（使劲干）⇒ 劳工（靠出力干活的人）；分娩（生孩子是最吃力的一场「劳动」：in labor）"
- },
- "country": {
-  "image": "一眼望不到边的一大片土地",
-  "derive": "国家（一大片有疆界、归一个政府管的土地）；乡村（城市以外大片的田野：live in the country）"
- },
- "head": {
-  "image": "身体最上、最前面的那一端",
-  "derive": "头 ⇒ 头脑（头里装着的思考）；首领（一群人里的「头」）；顶端（东西最上头那一端：the head of the page）；v. 朝…行进（头朝那边去：head for home）；领导（走在最前头：head a team）"
- },
- "text": {
-  "image": "一段写下来的文字本身",
-  "derive": "文本（写成的文字）⇒ 课文（课本里要学的那段文字）；短信（手机上发的一段文字，text message 简称）；v. 发短信（发一段文字过去）"
- },
- "rules": {
-  "image": "一把直尺，什么都得照着它量",
-  "derive": "规则；规章（大家都得照着的那把尺子）⇒ 统治（拿这把尺子管住所有人：rule a country）"
- },
- "side": {
-  "image": "把东西从中间一分，左右各占的一边",
-  "derive": "边；侧面（东西的一边）⇒ 一方（对立两边中站的那一边：on our side）；方面（一件事也有好几个面：the other side of the story）"
- },
- "plant": {
-  "image": "把东西稳稳插进地里，让它扎根",
-  "derive": "v. 种植（把苗插进土里）⇒ 放置（像栽苗一样把东西稳稳安在某处：plant a bomb）；n. 植物（种在地里的东西）；工厂（整套机器安装扎根在一处：a power plant）"
- },
- "rich": {
-  "image": "东西多得满满当当",
-  "derive": "富有的（钱多）⇒ 丰富的（某样东西多：rich in vitamins）；肥沃的（土里养分多：rich soil）"
- },
- "hot": {
-  "image": "温度高，碰上去发烫",
-  "derive": "热的 ⇒ 辣的（辣得嘴里像火烧：hot food）；热门的（大家抢着要，正「火」：a hot topic）"
- },
- "paper": {
-  "image": "一张薄薄的纸",
-  "derive": "纸；纸张 ⇒ 论文（写在纸上交上去的研究文章：write a paper）；报纸（印在纸上的新闻，newspaper 简称：today's paper）"
- },
- "afford": {
-  "image": "手头有余力，拿得出来给",
-  "derive": "负担得起（钱拿得出来：can't afford a car）⇒ 提供（把东西拿出来给人：afford an opportunity）"
+  "derive": "v. 转移；转向（从一个位置挪到另一个：shift attention）⇒ n. 转变；变化（态度、局势挪了位置：a shift in policy）"
  },
  "cover": {
   "image": "拿一层东西整个罩上去",
-  "derive": "覆盖；n. 遮盖物；封面（罩在书外面那层）⇒ 掩饰（罩住不让人看见：cover up）；涉及（范围罩住这些内容：cover three topics）；报道（记者把整件事罩进报道里：cover the news）；够付（钱把费用整个盖住：cover the cost）"
- },
- "scale": {
-  "image": "一架梯子，一格一格往上排",
-  "derive": "v. 攀登（顺着梯子往上爬）⇒ n. 等级（梯子上的一格格）；比例（一格代表多少：a scale of 1:100）；规模（大小排到第几格：on a large scale）；v. 按比例缩放（沿刻度放大缩小：scale up）。鳞片、天平另有来源，单独记"
- },
- "attack": {
-  "image": "突然冲上去动手打",
-  "derive": "攻击；袭击（冲上去打）⇒ 抨击（用言语去打：attack a policy）；n. 发病（病突然向身体扑来：a heart attack）"
- },
- "challenge": {
-  "image": "站出来向对方叫板：敢不敢？",
-  "derive": "v. 向…挑战（叫板比一比）⇒ n. 挑战；难题（摆在面前、向你叫板的难事）；v. 质疑（对一种说法叫板，要它拿出证据：challenge a view）"
- },
- "cut": {
-  "image": "刀落下去，把东西切开",
-  "derive": "切；割 ⇒ 削减（从总量上切掉一块：cut costs）；n. 伤口（皮肤被割开的口子）"
- },
- "fine": {
-  "image": "精工打磨，做到最好的那一步",
-  "derive": "好的（到位了）；精致的（打磨得细：fine silk）⇒ 健康的（身体状态好：I'm fine）；晴朗的（天气好：a fine day）。n. 罚款；v. 处…以罚款，语义早已断开，单独记"
- },
- "force": {
-  "image": "一股往前推、压过阻力的劲",
-  "derive": "力；力量 ⇒ 武力（拿来压服别人的力量：use force）；v. 强迫（用力推着人去做：force sb to do）；强行（硬用力冲开：force the door open）"
- },
- "gain": {
-  "image": "自己这边的东西一点点多起来",
-  "derive": "获得（东西到手：gain experience）⇒ 增加（身上多出来：gain weight）；n. 收益（多赚到手的那部分）；增加"
- },
- "safe": {
-  "image": "被护在里面，什么都伤不到",
-  "derive": "安全的；平安的（不会出事）⇒ 无害的（反过来也伤不到别人：safe to eat）；n. 保险箱（把钱物护在里面的铁箱）"
+  "derive": "v. 覆盖；遮住（拿一层东西整个罩上去）⇒ n. 封面；盖子；罩（罩上去的那层东西：book cover）；v. 涵盖；涉及（范围罩住这些内容：cover three topics）；够付；支付（钱把费用整个盖住：cover the cost）"
  },
  "pounds": {
   "image": "秤上放着一磅重的银子",
   "derive": "磅（重量单位）⇒ 英镑（最早一英镑就是一磅重的银子）"
  },
- "sort": {
-  "image": "把一堆东西按类分进不同格子",
-  "derive": "n. 种类；类别（同一格里的东西）⇒ v. 分类（往格子里分）；整理（分好就理清了：sort out）"
+ "through": {
+  "image": "从一头钻进去，从另一头出来",
+  "derive": "穿过；穿越（从一端穿到另一端）⇒ 遍及（穿遍整片空间）；通过；借助；凭借（穿过这条途径得到结果：through hard work）；在整个…期间（时间上从头穿到尾：all night through）；到…为止（一路穿到终点）；经历（穿过一个过程或困难走完：go through difficulties）；完成"
  },
- "spot": {
-  "image": "一个小小的圆点",
-  "derive": "斑点（表面一个小点）⇒ 地点（地图上的一个点：a nice spot）；少量（一点点：a spot of tea）；v. 认出；发现（在一大片里一眼盯住那个点：spot a mistake）"
+ "make": {
+  "image": "动手把原本没有的东西或结果弄出来",
+  "derive": "制作；制造（亲手造出一样东西）⇒ 做；进行（造出一个动作或决定：make a decision）；使；让（造出一个结果：make him happy）"
  },
- "strange": {
-  "image": "从外头来的、从没见过的东西",
-  "derive": "陌生的（外来的、没见过：a strange city）⇒ 奇怪的（不熟悉的东西就显得怪）"
- },
- "chief": {
-  "image": "一群人里走在最前头的那个「头」",
-  "derive": "n. 首领（领头的人）⇒ adj. 主要的；首要的（排在最前头的：the chief reason）"
- },
- "gone": {
-  "image": "从这里走掉，原处空了",
-  "derive": "v. 去；离开（go 的过去分词）⇒ adj. 离去的（人已经不在这儿）；用完了的（东西也「走了」，没了：The milk is all gone）"
- },
- "busy": {
-  "image": "事情一件接一件，一刻停不下来",
-  "derive": "忙碌的；繁忙的（手上事多）⇒ 热闹的（街上人来车往，一刻不停：a busy street）"
- },
- "light": {
-  "image": "一团亮光亮起来，四周被照亮",
-  "derive": "n. 光；光源 ⇒ 灯（发光的东西）；v. 点燃（让它发出光：light a fire）；照亮（光照上去）；adj. 浅色的（颜色里光多、发亮：light blue）。adj. 轻的另有来源，单独记"
- },
- "notes": {
-  "image": "随手在纸上做个小记号",
-  "derive": "v. 记录（随手记下：note down）⇒ n. 笔记（记下来的内容）；注释（书边写的小字说明）；便条（写几句的小纸条）；v. 注意（在心里做个记号：Note that…）"
- },
- "making": {
-  "image": "动手让原本没有的东西或结果出现",
-  "derive": "做；制造（造出一个东西）；使；使得（造出一个结果：make him happy = 让「他开心」出现）"
- },
- "followed": {
-  "image": "走在后面，沿着前面的路线走",
-  "derive": "跟随（跟在后面走）⇒ 遵循（沿着规则、指示走：follow the rules）；理解（思路跟得上对方：I don't follow you）"
- },
- "had": {
-  "image": "某物落在我的范围之内",
-  "derive": "有；持有（东西在我手里）；经历（事情落到我身上：have a cold）；已经；曾经（做完的事仍「归我所有」，延续到现在 ⇒ 现在完成时）"
- },
- "made": {
-  "image": "动手让原本没有的东西或结果出现",
-  "derive": "做；制造（造出一个东西）；使；使得（造出一个结果：make him happy = 让「他开心」出现）"
- },
- "getting": {
-  "image": "从「没有」变成「有」——进入一个新位置或新状态",
-  "derive": "得到（东西到手）；到达（人到了某处）；变得（进入某种状态：get tired）；理解（意思到手了：I get it）"
- },
- "marking": {
-  "image": "在东西上留下一道看得见的记号",
-  "derive": "标记；做记号（基本义）⇒ 分数；批改（老师在卷子上打的记号：full marks）；标志（这个记号代表某件事：mark the start of）；目标（要打中的那个记号点：hit the mark）"
- },
- "working": {
+ "work": {
   "image": "使出力气干活，干出结果",
-  "derive": "工作（花力气干活）⇒ 职业（长期靠它干活）；作品（干出来的成果：works of art）；v. 运转（机器在干活）；起作用（办法在干活、出效果：It works）"
+  "derive": "v. 工作；干活（花力气做事）⇒ n. 工作；活儿（要干的事）；上班；工作单位（干活的时间和地方：go to work）；v. 努力（朝目标使劲：work for）；起作用；奏效（办法在干活、出效果：It works）；运转；运作（机器、大脑在干活）；n. 作品；成果（干出来的东西：works of art）"
  },
- "shows": {
-  "image": "把东西摆出来让人看",
-  "derive": "展示；显示（拿出来给人看）⇒ 表明（把道理摆出来：The study shows that...）；n. 表演；展览（专门摆出来给人看的一场）"
+ "school": {
+  "image": "一群人聚在一处，跟着老师学",
+  "derive": "学校（聚在一起学的地方）⇒ 上学；上课；学业（去学校做的事，不加冠词：at school）；学院；系（大学里分出来的一处：law school）"
  },
- "taking": {
-  "image": "主动伸手，把外面的东西拿到自己这边",
-  "derive": "拿；取 ⇒ 采取（把办法拿来用）；乘坐（把车拿来用）；服用（把药拿进身体）；花费（事情把你的时间拿走：It takes two hours）"
+ "back": {
+  "image": "身体后面的那一面",
+  "derive": "n. 背部（身体背面）；后部（背朝的那一侧）⇒ adv. 向后；往后退（朝背的方向）；回；返回；归还（转身往回走，东西也回到原处：come back）；以前；回溯（时间上往回走：back in 1974）"
  },
- "taken": {
-  "image": "主动伸手，把外面的东西拿到自己这边",
-  "derive": "拿；取 ⇒ 采取（把办法拿来用）；乘坐（把车拿来用）；服用（把药拿进身体）；花费（事情把你的时间拿走：It takes two hours）"
+ "since": {
+  "image": "从过去某个点出发，一直延续到现在",
+  "derive": "prep. 自从…以来（从过去那个点一直算到现在：since 2010）⇒ conj. 自从…以来（后面接句子：since I came）；adv. 从那以后；此后（省掉那个点，单独用：He has stayed since）⇒ conj. 因为；既然（从已知的前提往下推：Since you're here, help me）"
  },
- "makes": {
-  "image": "动手让原本没有的东西或结果出现",
-  "derive": "做；制造（造出一个东西）；使；使得（造出一个结果：make him happy = 让「他开心」出现）"
+ "home": {
+  "image": "自己归属、出发又回来的那个地方",
+  "derive": "n. 家；住所；住宅（自己住的地方：at home）⇒ adv. 回家；到家；在家（回到那个地方：go home）；adj. 家的；家庭的；本国的（家里的、把本国当作家：home cooking）；n. 养老院；疗养院（老人长住的家：nursing home）；所在地；栖息地（动物或事物的家：be home to）"
  },
- "got": {
-  "image": "从「没有」变成「有」——进入一个新位置或新状态",
-  "derive": "得到（东西到手）；到达（人到了某处）；变得（进入某种状态：get tired）；理解（意思到手了：I get it）"
+ "course": {
+  "image": "沿着定好的路线一路跑下去",
+  "derive": "路线；赛道（跑的那条道）；方向（路线通向哪里：course of action）⇒ 过程；期间（事情一路走过的轨迹：over the course of）；课程（学习要按顺序走完的一条路线）"
  },
- "having": {
-  "image": "某物落在我的范围之内",
-  "derive": "有；持有（东西在我手里）；经历（事情落到我身上：have a cold）；已经；曾经（做完的事仍「归我所有」，延续到现在 ⇒ 现在完成时）"
- },
- "living": {
-  "image": "活着，正在呼吸、在动",
-  "derive": "存活；生活（活着过日子）⇒ 居住（在某处过日子：live in Beijing）；adj. 活的（此时读 /laɪv/）；现场直播的（正活生生地发生，不是录好的：a live show）"
- },
- "looking": {
-  "image": "主动把目光投向某处",
-  "derive": "看（主动投出目光：look at）⇒ 寻找（目光四处投：look for）；看起来（别人目光落到你身上看出的样子：look tired）；n. 外貌（被看到的样子：good looks）"
- },
- "growing": {
-  "image": "像植物一样一点点长大",
-  "derive": "生长 ⇒ 增长（数量像植物一样变多）；变得（慢慢长成另一种状态：grow old）"
- },
- "cases": {
-  "image": "摆到你面前、要处理的一桩具体事",
-  "derive": "情况；事例（具体的这一桩：in this case）⇒ 案件（交到警察、法庭手里的一桩事：a murder case）。n. 箱子另有来源，单独记"
- },
- "levels": {
-  "image": "一条水平线，标出所在的高度",
-  "derive": "adj. 平的；v. 使平坦（处处一样高）⇒ n. 水平；程度；级别（一道道水平线标出高低：a high level）"
- },
- "areas": {
-  "image": "地面上划出来的一块平面",
-  "derive": "地区；区域（划出的一块地方）⇒ 面积（这一块有多大）；领域（知识、工作里划出的一块：an area of study）"
- },
- "called": {
-  "image": "放开嗓子喊一声",
-  "derive": "叫；呼叫（大声喊人）⇒ 称呼（喊出名字就是叫他什么：call him Tom）；打电话（隔着电话线喊人：call me later）；n. 电话"
- },
- "takes": {
-  "image": "主动伸手，把外面的东西拿到自己这边",
-  "derive": "拿；取 ⇒ 采取（把办法拿来用）；乘坐（把车拿来用）；服用（把药拿进身体）；花费（事情把你的时间拿走：It takes two hours）"
- },
- "led": {
-  "image": "走在最前面，带着别人往前走",
-  "derive": "带领（走在前头带路）；导致（把局面带到某个结果：lead to）；领先；n. 领先地位（走在最前面）。n. 铅（读 /led/）另有来源，单独记"
- },
- "goals": {
-  "image": "比赛终点处、要冲进去的那道门",
-  "derive": "球门（球要冲进去的门）⇒ 得分（球进了门：score a goal）；目标；目的（人想冲到的那个终点）"
- },
- "playing": {
+ "play": {
   "image": "上场动起来，投入一场游戏或表演",
-  "derive": "玩；n. 游戏 ⇒ 参加（比赛）（上场去玩：play football）；演奏（让乐器动起来发声）；扮演；n. 戏剧（在戏里上场：play a role）；作用；发挥（在事情里上场出力：play a part）"
+  "derive": "v. 玩；玩耍（上场动起来）⇒ n. 玩耍；游戏（玩这件事本身）；v. 打；参加（上场去玩球类、比赛：play football）；演奏；播放（让乐器、音响动起来出声：play music）"
  },
- "sounds": {
-  "image": "耳朵接收到的振动",
-  "derive": "声音；响声 ⇒ v. 听起来（凭听到的来判断：That sounds great）。adj. 健康的；健全的；合理的另有来源（与德语 gesund 同源），单独记"
+ "point": {
+  "image": "尖头戳下去，落在一个点上",
+  "derive": "n. 点；地点（尖头落下的那一处）⇒ v. 指向；表明（尖头对准目标，也就指明了：point at）；n. 要点；论点（话里最尖、最要紧的那一点：get to the point）；时刻；阶段；程度（时间或进展上的某一点：at this point）"
  },
- "changes": {
-  "image": "把原来的拿掉，换成另一个",
-  "derive": "改变；变化（换成另一种样子）；更换（旧的换成新的：change clothes）；n. 零钱（大钞换开成的小钱，或买东西找回的钱）"
+ "serious": {
+  "image": "脸沉下来，不是闹着玩的",
+  "derive": "严肃的（神情不开玩笑）⇒ 认真的（态度不开玩笑：Are you serious?）；严重的（事态不是小事：a serious illness）"
+ },
+ "meet": {
+  "image": "两边走到一处，碰上了头",
+  "derive": "遇见；见面；认识（两边走到一处碰头）⇒ 满足；达到（做到的刚好碰上要求：meet the needs）"
+ },
+ "deal": {
+  "image": "把一堆东西分成份发出去",
+  "derive": "n. 交易；协议（像发牌，双方分到的好处谈妥了：make a deal）⇒ v. 处理；应对（把事情一份份分派给自己对付、打交道：deal with）"
  },
  "driving": {
   "image": "从后面推着、赶着东西往前走",
-  "derive": "驱动（推着机器往前转）⇒ 驾驶；n. 驾驶（赶着车往前跑：drive a car）；迫使（把人逼到某个地步：drive me crazy）；n. 驱动器（带动磁盘转的装置）；动力（推人向前的内在力量）"
+  "derive": "推动；驱使（从后面推着往前：driving force）⇒ n. 驾驶；开车（推着车往前跑：go driving）"
  },
- "paid": {
-  "image": "把该给的钱交到对方手里",
-  "derive": "支付；偿还（把欠的钱交出去）；给予（把注意力、拜访当作付出去：pay attention）；报偿（付出换来回报：Hard work pays）；n. 工资；薪水（雇主付给你的钱）"
+ "space": {
+  "image": "东西与东西之间空出来的地方",
+  "derive": "空间；空地；场所（空着、能放东西的地方）⇒ 太空（地球外面最大的一片空处）"
  },
- "challenges": {
-  "image": "站出来向对方叫板：敢不敢？",
-  "derive": "v. 向…挑战（叫板比一比）⇒ n. 挑战；难题（摆在面前、向你叫板的难事）；v. 质疑（对一种说法叫板，要它拿出证据：challenge a view）"
- },
- "parts": {
-  "image": "从整体中分出来的一块",
-  "derive": "部分（基本义）⇒ 零件（机器上的一块）；角色（整部戏里你分到的那一份：play a part）；v. 分开；分离（把整体分成几块，人各走各的）"
- },
- "keeping": {
-  "image": "留住不放走，让它一直保持原样",
-  "derive": "保留（东西留在身边）；保持（状态不变：keep calm）；继续（动作不停：keep going）；饲养（把动物留在身边照看）"
- },
- "worked": {
-  "image": "使出力气干活，干出结果",
-  "derive": "工作（花力气干活）⇒ 职业（长期靠它干活）；作品（干出来的成果：works of art）；v. 运转（机器在干活）；起作用（办法在干活、出效果：It works）"
- },
- "looked": {
-  "image": "主动把目光投向某处",
-  "derive": "看（主动投出目光：look at）⇒ 寻找（目光四处投：look for）；看起来（别人目光落到你身上看出的样子：look tired）；n. 外貌（被看到的样子：good looks）"
+ "sign": {
+  "image": "留下一个记号，让人一看就明白",
+  "derive": "n. 标志；指示牌；符号（画出来代表意思的记号）⇒ 迹象；征兆（事情自己露出的记号：signs of spring）；v. 签名；签署（在文件上留下自己的记号：sign a contract）"
  },
  "went": {
   "image": "离开这里，朝别处移动出去",
-  "derive": "去（从这里走向别处）⇒ 进行（事情往前走：How did it go?）；变得（走进某种状态，多指变坏：go bad）；n. 尝试（轮到你走一步：have a go）"
- },
- "running": {
-  "image": "快速、不停地向前流动运转",
-  "derive": "跑；运转（机器在跑）；经营（让公司跑起来：run a business）；进行；连续（一直往下延续：a run of good luck）"
- },
- "paying": {
-  "image": "把该给的钱交到对方手里",
-  "derive": "支付；偿还（把欠的钱交出去）；给予（把注意力、拜访当作付出去：pay attention）；报偿（付出换来回报：Hard work pays）；n. 工资；薪水（雇主付给你的钱）"
- },
- "wants": {
-  "image": "缺了一块，空在那里",
-  "derive": "n. 缺乏（本义：少了东西：for want of money）⇒ 需要（缺了就得补上）；v. 想要（心里缺着，想把它填满）"
- },
- "moving": {
-  "image": "离开原来的位置，挪到别处",
-  "derive": "移动；前进 ⇒ 搬家（人和家挪到新地方）；感动（心被推动了一下：be moved）；n. 步骤；行动（棋盘上走一步：a smart move）"
- },
- "turned": {
-  "image": "绕着转，换一个方向",
-  "derive": "转动；翻转；转弯；变成（转向另一种样子：turn red）；n. 轮到（轮流转一圈转到你：It's your turn）"
- },
- "turns": {
-  "image": "绕着转，换一个方向",
-  "derive": "转动；翻转；转弯；变成（转向另一种样子：turn red）；n. 轮到（轮流转一圈转到你：It's your turn）"
- },
- "losing": {
-  "image": "原本握在手里的东西，没了",
-  "derive": "丢失（东西不见了）⇒ 输掉；失败（胜利从手里溜走：lose a game）；减肥（把体重丢掉：lose weight）"
- },
- "driven": {
-  "image": "从后面推着、赶着东西往前走",
-  "derive": "驱动（推着机器往前转）⇒ 驾驶；n. 驾驶（赶着车往前跑：drive a car）；迫使（把人逼到某个地步：drive me crazy）；n. 驱动器（带动磁盘转的装置）；动力（推人向前的内在力量）"
- },
- "gets": {
-  "image": "从「没有」变成「有」——进入一个新位置或新状态",
-  "derive": "得到（东西到手）；到达（人到了某处）；变得（进入某种状态：get tired）；理解（意思到手了：I get it）"
- },
- "classes": {
-  "image": "按等第把人或物分成一组一组",
-  "derive": "种类；阶级（按等第分出的一组：middle class）⇒ 班级（学校里分出来的一组人）；课（一个班一起上的那一堂：have a class）"
- },
- "issues": {
-  "image": "从里面发出去、流出来",
-  "derive": "v. 发布；发行（从官方手里发出去：issue a statement）⇒ n. 发行物（发出来的一期：the latest issue）。n. 问题；议题 源自法律上的「争点」，与画面联系较远，单独记"
- },
- "feeling": {
-  "image": "伸手去摸，凭触感知道",
-  "derive": "触摸（手去碰）⇒ 感觉；觉得（身体或心里「摸」到了：feel tired；I feel that...）；n. 感觉；触觉"
- },
- "places": {
-  "image": "空间里一个确定的点位",
-  "derive": "n. 地方；地点；位置 ⇒ v. 放置；安置（给东西找一个位置放进去：place the vase on the table）"
+  "derive": "去；走（从这里走向别处）⇒ 进展；进行（事情往前走：How did it go?）"
  },
  "forms": {
   "image": "把东西做成一个固定的样子",
-  "derive": "形状；形式（东西呈现出的样子）⇒ 表格（印好固定格式、等人来填的纸：fill in a form）；v. 形成；组成（让东西成形：form a team）"
+  "derive": "形式；类型（东西呈现出的样子）⇒ 表格（印好固定格式、等人来填的纸：fill in a form）"
  },
- "goes": {
-  "image": "离开这里，朝别处移动出去",
-  "derive": "去（从这里走向别处）⇒ 进行（事情往前走：How did it go?）；变得（走进某种状态，多指变坏：go bad）；n. 尝试（轮到你走一步：have a go）"
+ "carry": {
+  "image": "带着东西，跟着一起移动",
+  "derive": "携带；带着（拿着东西随身走，病菌也能被带着走：carry a disease）⇒ 具有（身上带着某种分量或性质：carry weight）；承担；维持（把担子一直扛着不放：carry a conversation）"
  },
- "chances": {
-  "image": "掷出骰子，落在哪面说不准",
-  "derive": "偶然；碰巧（骰子怎么落没人安排）⇒ 可能性（落到这一面的几率：a good chance）；机会（落到你面前的好事：a second chance）；v. 冒险（把结果押给骰子）"
+ "scale": {
+  "image": "一架梯子，一格一格往上排",
+  "derive": "n. 等级；量表（梯子上的一格格：a scale of 1 to 10）⇒ 规模（大小排到第几格：on a large scale）"
  },
- "kept": {
-  "image": "留住不放走，让它一直保持原样",
-  "derive": "保留（东西留在身边）；保持（状态不变：keep calm）；继续（动作不停：keep going）；饲养（把动物留在身边照看）"
- },
- "tried": {
-  "image": "拿来试一试，检验行不行",
-  "derive": "尝试；试图；努力（试着做，看能不能成：try to）；n. 尝试 ⇒ 审判（法庭把案子拿来检验、判定：try a case）"
- },
- "feels": {
-  "image": "伸手去摸，凭触感知道",
-  "derive": "触摸（手去碰）⇒ 感觉；觉得（身体或心里「摸」到了：feel tired；I feel that...）；n. 感觉；触觉"
- },
- "held": {
-  "image": "手握住不松开，让它维持住",
-  "derive": "拿着；抱住；持有（观点）（观点一直握在心里）；举行（把会议、活动撑起来维持住：hold a meeting）；n. 控制（握在手里不放）"
- },
- "rates": {
-  "image": "拿一把尺子量出「每单位多少」",
-  "derive": "比率（一个量按另一个量算：birth rate）⇒ 速度（按时间算的快慢）；价格（按单位算的收费：hourly rate）；v. 评估；划分等级（拿尺子给东西定档：rate a film）"
- },
- "hands": {
-  "image": "一只伸出来的手",
-  "derive": "手 ⇒ 帮助（伸手帮一把：give sb a hand）；指针（钟面上指着时刻的「手」：hour hand）；v. 递；交给（用手把东西传过去：hand me the book）"
- },
- "leads": {
-  "image": "走在最前面，带着别人往前走",
-  "derive": "带领（走在前头带路）；导致（把局面带到某个结果：lead to）；领先；n. 领先地位（走在最前面）。n. 铅（读 /led/）另有来源，单独记"
- },
- "matters": {
-  "image": "实实在在、有分量的东西",
-  "derive": "物质（构成万物的实在东西）⇒ 事情；问题（摆在那里要面对的「实在东西」：a matter of time）；vi. 要紧（有分量、算数：It doesn't matter）"
+ "spot": {
+  "image": "一个小小的圆点",
+  "derive": "n. 地点；场所（地图上的一个点：a nice spot）⇒ 位置；名额（一个点就是一个空位：a spot on the team）；v. 发现；看出（在一大片里一眼盯住那个点：spot a mistake）"
  }
 }

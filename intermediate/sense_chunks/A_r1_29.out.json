@@ -1,0 +1,1205 @@
+{
+ "effective": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "有效的，有成效的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0
+  },
+  "example": {
+   "id": 21,
+   "en": "Acquire effective communication skills.",
+   "zh": "培养有效的沟通技巧。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "grow": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "增长，发展，扩大"
+   },
+   {
+    "pos": "v.",
+    "zh": "种植，栽培"
+   },
+   {
+    "pos": "v.",
+    "zh": "生长，成长"
+   },
+   {
+    "pos": "v.",
+    "zh": "变得（grow older）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 3,
+   "3": 1,
+   "4": "P:grow up",
+   "5": 1,
+   "6": 1,
+   "7": 2,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": "P:grow up",
+   "12": "P:grow up",
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 2,
+   "17": 2,
+   "18": 3,
+   "19": 3,
+   "20": 1,
+   "21": 3,
+   "22": 2,
+   "23": 1,
+   "24": 2,
+   "25": 1,
+   "26": 1
+  },
+  "example": {
+   "id": 6,
+   "en": "We will probably have to change where we grow certain crops, as some regions get too hot.",
+   "zh": "随着一些地区变得太热，我们可能得改变种植某些作物的地方。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id20 'grow concrete forests'（种植/建造）、id1 'grow them'（发展）归类较勉强"
+ },
+ "share": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "分享；共用，共有"
+   },
+   {
+    "pos": "v.",
+    "zh": "分担（费用、责任）"
+   },
+   {
+    "pos": "n.",
+    "zh": "份额，比例"
+   },
+   {
+    "pos": "n.",
+    "zh": "（应得的）一份"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 3,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 2,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 2,
+   "23": 0,
+   "24": 0,
+   "25": 0,
+   "26": 0,
+   "27": 0
+  },
+  "example": {
+   "id": 23,
+   "en": "And when you find things that are truly interesting to you, share them.",
+   "zh": "当你发现真正让你感兴趣的东西时，就去分享它们。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "changes": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "变化，改变"
+   },
+   {
+    "pos": "v.",
+    "zh": "改变，使变化"
+   },
+   {
+    "pos": "n.",
+    "zh": "零钱"
+   },
+   {
+    "pos": "n.",
+    "zh": "换乘（车）"
+   },
+   {
+    "pos": "v.",
+    "zh": "更换，换"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 3,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 1,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Enable students to adapt to the changes in life.",
+   "zh": "使学生适应生活中的变化。"
+  },
+  "form": "change 的复数；change 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "increased": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "增加的，增长的，提高的"
+   },
+   {
+    "pos": "v.",
+    "zh": "增加，提高"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 1,
+   "19": 0,
+   "20": 0,
+   "21": 1,
+   "22": 0,
+   "23": 1,
+   "24": 1
+  },
+  "example": {
+   "id": 14,
+   "en": "The increased panda population is attributed to the fragmentation of their habitat.",
+   "zh": "大熊猫数量的增加归因于其栖息地的碎片化。"
+  },
+  "form": "increase 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "professional": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "职业的，专业的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "专业水准的，内行的"
+   },
+   {
+    "pos": "n.",
+    "zh": "专业人士"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 2,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "Encourage students to develop various professional skills.",
+   "zh": "鼓励学生培养各种专业技能。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "rate": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "比率，率"
+   },
+   {
+    "pos": "n.",
+    "zh": "速度，速率"
+   },
+   {
+    "pos": "v.",
+    "zh": "评价，给…打分"
+   },
+   {
+    "pos": "n.",
+    "zh": "价格，费率"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 2,
+   "2": 0,
+   "3": 1,
+   "4": "P:at any rate",
+   "5": 2,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 2,
+   "13": 0,
+   "14": 0,
+   "15": 2,
+   "16": 2,
+   "17": 1,
+   "18": 1,
+   "19": 0,
+   "20": 2,
+   "21": 2,
+   "22": 0,
+   "23": 1,
+   "24": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "The divorce rate in the county has been on a steady rise.",
+   "zh": "该县的离婚率一直在稳步上升。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "deal": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "交易，协议"
+   },
+   {
+    "pos": "v.",
+    "zh": "处理，应对（deal with）"
+   },
+   {
+    "pos": "v.",
+    "zh": "涉及，论述（deal with）"
+   },
+   {
+    "pos": "v.",
+    "zh": "分发（牌）"
+   }
+  ],
+  "labels": {
+   "0": "P:a great deal",
+   "1": 0,
+   "2": 2,
+   "3": 1,
+   "4": 1,
+   "5": 0,
+   "6": "P:a great deal",
+   "7": 1,
+   "8": 1,
+   "9": 1,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": "P:a great deal",
+   "15": "P:big deal",
+   "16": "P:a great deal",
+   "17": "P:big deal",
+   "18": 0,
+   "19": "P:a great deal",
+   "20": "P:a great deal",
+   "21": 1,
+   "22": 0,
+   "23": "P:big deal",
+   "24": 1
+  },
+  "example": {
+   "id": 7,
+   "en": "Help people to deal with their troubles in life.",
+   "zh": "帮助人们应对生活中的烦恼。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "generally": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "通常，一般"
+   },
+   {
+    "pos": "adv.",
+    "zh": "普遍地，广泛地"
+   },
+   {
+    "pos": "adv.",
+    "zh": "大体上，总的来说"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": "P:generally speaking",
+   "5": 2,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 1,
+   "10": 2,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 2,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": 2,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 1
+  },
+  "example": {
+   "id": 2,
+   "en": "One reason is that going to the cinema is generally a social activity.",
+   "zh": "一个原因是去电影院通常是一种社交活动。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "matter": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "要紧，有关系，重要"
+   },
+   {
+    "pos": "n.",
+    "zh": "事情，问题"
+   },
+   {
+    "pos": "n.",
+    "zh": "物质；内容（subject matter）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": "P:no matter",
+   "4": 0,
+   "5": 0,
+   "6": "P:no matter",
+   "7": 0,
+   "8": "P:no matter",
+   "9": "P:no matter",
+   "10": 0,
+   "11": "P:in a matter of",
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 1,
+   "17": "P:no matter",
+   "18": "P:no matter",
+   "19": 0,
+   "20": 2,
+   "21": "P:no matter",
+   "22": 0,
+   "23": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "But does it matter what books parents read?",
+   "zh": "但父母读什么书重要吗？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "remember": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "记得，记住，想起"
+   },
+   {
+    "pos": "v.",
+    "zh": "别忘了，记得要（提醒用）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 1,
+   "24": 1
+  },
+  "example": {
+   "id": 1,
+   "en": "Can you remember what you ate yesterday?",
+   "zh": "你还记得你昨天吃了什么吗？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "seems": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "似乎，好像，看起来"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "Now it seems their brains are alike, too.",
+   "zh": "现在看来，他们的大脑也很相似。"
+  },
+  "form": "seem 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "strong": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "强大的，有力的，出色的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "强烈的，浓烈的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "强壮的，结实的，坚强的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 2,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": 0,
+   "17": 0,
+   "18": 2,
+   "19": 2,
+   "20": 1,
+   "21": 1,
+   "22": 2,
+   "23": 1,
+   "24": 2
+  },
+  "example": {
+   "id": 13,
+   "en": "He does not have a strong academic record.",
+   "zh": "他的学业成绩并不出色。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "top": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "最高的，顶级的，最重要的"
+   },
+   {
+    "pos": "n.",
+    "zh": "顶部，顶端"
+   },
+   {
+    "pos": "v.",
+    "zh": "超过"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": "P:on top of",
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 1,
+   "16": "P:come out on top",
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "South Dakota is one of the top corn producers in America.",
+   "zh": "南达科他州是美国最主要的玉米产区之一。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "easily": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "容易地，轻松地"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0
+  },
+  "example": {
+   "id": 20,
+   "en": "They can access course materials easily.",
+   "zh": "他们可以轻松获取课程资料。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "build": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "建立，培养，创建"
+   },
+   {
+    "pos": "v.",
+    "zh": "建造，修建"
+   },
+   {
+    "pos": "v.",
+    "zh": "增强，增进"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": "P:build up",
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 1,
+   "11": 2,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 0,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It is nearly impossible for students to build a relationship with their professor.",
+   "zh": "学生几乎不可能和教授建立起关系。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "call": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "称为，把…叫做"
+   },
+   {
+    "pos": "v.",
+    "zh": "打电话给"
+   },
+   {
+    "pos": "n.",
+    "zh": "电话，通话"
+   },
+   {
+    "pos": "n.",
+    "zh": "号召，呼吁"
+   },
+   {
+    "pos": "n.",
+    "zh": "（做出的）判断，决定"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 2,
+   "4": 1,
+   "5": 2,
+   "6": "P:call for",
+   "7": "P:call on",
+   "8": 3,
+   "9": 2,
+   "10": 0,
+   "11": 2,
+   "12": 2,
+   "13": 0,
+   "14": 0,
+   "15": "P:call on",
+   "16": 0,
+   "17": 4,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "About 58% of young adults call parental support the new normal.",
+   "zh": "约58%的年轻人把父母的支持称为新常态。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "conditions": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "状况，环境"
+   },
+   {
+    "pos": "n.",
+    "zh": "条件，前提"
+   },
+   {
+    "pos": "n.",
+    "zh": "病症，健康状况"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 2,
+   "7": 2,
+   "8": 2,
+   "9": 0,
+   "10": 0,
+   "11": "P:terms and conditions",
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 2,
+   "16": 1,
+   "17": 0,
+   "18": 0,
+   "19": 2,
+   "20": 2
+  },
+  "example": {
+   "id": 9,
+   "en": "In particular, dangerous conditions such as icy roads or wet ground could cause difficulty for drivers.",
+   "zh": "尤其是结冰的道路或潮湿的地面等危险状况，可能给司机带来困难。"
+  },
+  "form": "condition 的复数",
+  "irregular": false,
+  "note": "id15 开头被截断，按健康状况标"
+ },
+ "particular": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "特定的，某个"
+   },
+   {
+    "pos": "adj.",
+    "zh": "特别的，格外的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "挑剔的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": "P:in particular",
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": "P:in particular",
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": "P:in particular",
+   "12": 0,
+   "13": "P:in particular",
+   "14": 0,
+   "15": "P:in particular",
+   "16": "P:in particular",
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "It requires us to follow a particular rhythm.",
+   "zh": "它要求我们遵循某种特定的节奏。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "helped": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "帮助，有助于"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "They helped solve learners’ financial problems.",
+   "zh": "它们帮助解决了学习者的经济问题。"
+  },
+  "form": "help 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "individual": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "个人的，单个的，个别的"
+   },
+   {
+    "pos": "n.",
+    "zh": "个人，个体"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 1,
+   "15": 0,
+   "16": 1,
+   "17": 1,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "People’s choice of food depends on their individual taste.",
+   "zh": "人们对食物的选择取决于各自的口味。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "account": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "账户，账号"
+   },
+   {
+    "pos": "n.",
+    "zh": "描述，叙述"
+   },
+   {
+    "pos": "n.",
+    "zh": "解释，理由"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:account for",
+   "2": "P:account for",
+   "3": 0,
+   "4": "P:take into account",
+   "5": 0,
+   "6": 1,
+   "7": "P:account for",
+   "8": "P:account for",
+   "9": "P:take into account",
+   "10": "P:account for",
+   "11": 0,
+   "12": "P:account for",
+   "13": "P:take into account",
+   "14": "P:account for",
+   "15": "P:account for",
+   "16": 0,
+   "17": 0,
+   "18": "P:take into account",
+   "19": "P:take into account",
+   "20": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "We opened a savings account when they were young.",
+   "zh": "他们小的时候，我们开了一个储蓄账户。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "becoming": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "变得，成为"
+   },
+   {
+    "pos": "adj.",
+    "zh": "合适的，得体的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "Meanwhile, new plastic is becoming cheaper.",
+   "zh": "与此同时，新塑料正变得越来越便宜。"
+  },
+  "form": "become 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "caused": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "导致，引起，造成"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "It has caused nationwide concern.",
+   "zh": "这引起了全国范围的关注。"
+  },
+  "form": "cause 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "continue": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "继续，持续"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Besides that, tablet prices continue to drop and are becoming increasingly affordable.",
+   "zh": "除此之外，平板电脑的价格还在继续下降，越来越负担得起。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ }
+}

@@ -1,0 +1,47 @@
+# 任务 C_r1_54：1 个词，29 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_54.labels.txt
+
+============================================================
+## 词：have    本段 29 句    模式：全标（每句都写）
+原释义：aux. v.已经; 曾经. vt.有; 持有; 经历.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  aux. 构成完成时（have done，表示已经、曾经）    B 样本 44    例：Most scenic sites have been closed.
+  1  v. 有，拥有，具有    B 样本 21    例：You will have 30 minutes to
+  2  v. 不得不，必须（have to do）    B 样本 5    例：She might have to cancel her registration any minute.
+  3  v. 吃，喝（have a meal）    B 样本 3    例：Whether to have sandwiches.
+  4  v. 让，使，请（人做某事）（have sth done / have sb do）    B 样本 3    例：Have her house repainted.
+  5  v. 进行，从事；经历，度过（have a look / have fun）    B 样本 2    例：View it as a chance for people to socialize and have fun.
+  6  v. 患（病），出现（症状）    B 样本 1    例：The unnamed woman, from the province of Shandong, started to have coughing problems when she was 7 or 8 years old.
+  7  v. 生（孩子）    B 样本 0
+已标过的短语：have sth in common with（1）；have yet to do（1）
+口径说明（照此执行）：
+  - have to 作为义项「不得不」处理而非 P；may/might/would have done（对过去的推测）并入完成时义项。
+句子：
+680 | Some of the world’s greatest hits 【have】
+681 | According to a recent survey, employees who 【have】 a job reliant on IT support consider IT a major
+702 | What is the finding of a recent survey on employees who 【have】 a job reliant on IT support?
+693 | Enable customers to 【have】 a more enjoyable shopping experience.
+707 | Why did America's traditional school year 【have】 a three-month summer vacation?
+694 | The cacao farmers would 【have】 a tough time to adapt.
+706 | One benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they 【have】 acquired when too much time is taken off from school.
+688 | compositions 【have】 also been created solely for the purpose of being included in major motion pictures.
+683 | Recent open debates on scientific research, health, and policy 【have】 aroused greater public attention and encouraged more diverse voices.
+689 | transformation project gone wrong, where swollen expectations 【have】 been popped and a long list of
+697 | promised efficiencies 【have】 been reversed.
+704 | They 【have】 benefited by raising prices of cocoa beans.
+705 | It could not 【have】 come into being without classical music and opera as its foundation.
+685 | They 【have】 difficulty adapting to climate change.
+690 | They 【have】 difficulty recalling what they 【have】 eaten.
+701 | They 【have】 given way to electronic music.
+696 | they 【have】 had on our current society, it is without doubt that we can expect them to continue to remain important for centuries
+708 | It will enable them to absorb what they 【have】 learned.
+691 | 【Have】 more discussions about it.
+703 | Few other countries 【have】 more than seven weeks off in a school calendar.
+682 | should be looking for new ways to ensure what people eat wouldn't 【have】 much impact on their waistlines.
+698 | What 【have】 people long feared about supermarkets?
+700 | a way, Duckworth is giving new hope to people who 【have】 shut the doors on their dreams.
+699 | They 【have】 suffered a lot due to a decrease in produce.
+695 | The real workings of grit are to 【have】 sustainable passion and continue to try.
+687 | because you “don’t 【have】 the skills for it”?
+686 | These farms will then 【have】 to be shifted to cooler mountainous areas,    ?P:have to
+692 | They simply don’t understand how hard some people 【have】 to work to accomplish the same things, and because of that, they push people too hard.    ?P:have to
+684 | They tend to undervalue the opinions of others, which means they 【have】 trouble believing that anyone is qualified to give them useful feedback.

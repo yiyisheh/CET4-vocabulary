@@ -1,0 +1,519 @@
+# 任务 C_r1_85：3 个词，480 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_85.labels.txt
+
+============================================================
+## 词：also    本段 165 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：adv.也; 此外.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 也，还，同样    B 样本 75    例：These effects can also be
+  1  adv. 此外，而且（放在句首，补充新的一点）    B 样本 2    例：Also, the fabric they use is of a higher quality and the dyes are natural.
+已标过的短语：not only...but also（3）
+口径说明（照此执行）：
+  - C 任务口径：句中的 also（含 also known as 又称、can also、There's also...）一律标 0；只有句首独立的 Also,（此外）标 1。not only...but also 及其变体 not just...but also（不但…而且）都写成 P:not only...but also；aren't just..., they also... 这种没有 but 的并列不算短语，标 0。
+句子：
+96 | We are 【also】
+131 | Greenpeace, among others, is 【also】
+199 | But there's 【also】
+159 | While risk-taking can be considered a negative attribute, it’s 【also】 a characteristic of successful people, including athletes, political leaders and entrepreneurs.
+113 | F) Creativity is 【also】 a deviation.
+122 | There’s 【also】 a great night market further into town that has all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.
+123 | L) Distraction is 【also】 a serious issue.
+213 | It’s 【also】 a strategy that can help you become successful.
+125 | There’s 【also】 a theory that this color helps the dolphins more readily blend in with their surroundings.
+203 | “It’s 【also】 about reducing the amount of grain carbs
+179 | Then you should 【also】 account for non-genetic factors that are
+188 | “We don’t prioritize eating seasonally or locally, and we 【also】 add lots of salt, sugar and thickening agents to our foods,” explained Pasternak.
+208 | Psychologists 【also】 agree curiosity is intrinsically (内在地) motivated.
+98 | This practice 【also】 allowed many pigs to escape from farms and live in the wild, which became a problem.
+104 | You need not only computer science and engineering knowledge, but 【also】 an understanding of psychology and visual design to create a better product.
+115 | They were 【also】 asked about the risks they took while riding bicycles and managing their finances.
+180 | Adequate and timely IT support should 【also】 be available to enable users to cope with
+110 | Left-handers may 【also】 be better at remembering events.
+182 | But curiosity can 【also】 be dangerous, leading to setbacks or even downfalls.
+216 | But an excess of ambition can 【also】 be dangerous, putting you at risk of burnout, stubbornness and even a shorter life.
+117 | Smaller manufacturers may 【also】 be forced to use new plastic to reduce costs.
+162 | So next time you see your favorite superhero film, be entertained, but 【also】 be inspired.
+232 | From this different perspective, you can not only be multitasking but this ability can 【also】 be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+241 | compositions have 【also】 been created solely for the purpose of being included in major motion pictures.
+116 | It has 【also】 been noted that Siri lacks a proper editing function, as saying "Edit message to say: we're at Silver Cloud restaurant and you should come find us" generates "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant to say we're at Silver Cloud restaurant and you should come find us".
+118 | It’s not just about being entertained, but 【also】 being inspired.
+132 | I 【also】 believe you were a beach volleyball athlete yourself not so long ago.
+128 | It will 【also】 bring to an end a less popular US high school tradition: the “make-up day”
+91 | J) With the help of engineering students at high schools in Maine, Horn and Wang have 【also】 built a robot simulation
+198 | Extreme sports 【also】 burn a lot more calories than other sports.
+89 | He is 【also】 ___35___ by people around the world for his
+154 | Pasternak 【also】 came away with some valuable observations about how different the North American way of life was, compared with many other countries.
+84 | The researchers found that in adult mice, a week in the dark 【also】 changed
+165 | They could 【also】 choose to express sympathy with their opponent to appear pleasant.
+83 | Some roads were 【also】 closed because of the severe weather.
+243 | Employers can 【also】 consider how to bundle different types of compensation to help employees cope with their unique situations.
+242 | What does Branyas Morera think 【also】 contributes to a long life?
+181 | Their activities may 【also】 create opportunities for invasive plants to colonize these areas.
+214 | Thomas, now a speaker and author of several books, 【also】 created small, independently-run residences with their own bedrooms and bathrooms, and he has been preaching a singular message that getting old is not a bad thing.
+244 | This shift toward aquaculture isn’t just good for ensuring salmon (三文鱼) on your plate; it’s 【also】 crucial to ensuring food security and sustainability.
+202 | A household pet can 【also】 cultivate a child’s sense of responsibility as their parent explains the necessary processes of keeping their pet happy and healthy.
+174 | This makes things tricky for people who may want to impress others while 【also】 demonstrating that they are a team player.
+141 | The large majority of our traits and diseases 【also】 depend upon non-genetic factors, such as lifestyle, the environment, and
+148 | The interior of the house, including fittings and furniture, was 【also】 designed by the same person.
+153 | Kelli Harding 【also】 distinguishes herself by her literary talent.
+137 | consumers who buy Beyond Burger and Impossible Foods products 【also】 eat meat.
+223 | We 【also】 evaluate ourselves based on what we are wearing because of the way they make us feel.
+94 | The article 【also】 explained
+149 | The benefits of a growth mindset of interest may 【also】 extend to those seeking employment.
+106 | She 【also】 faces investigation from childcare services, who will 【also】 be asking why Karla was left alone with her vulnerable relatives.
+226 | The eagles began breeding on the island, and 【also】 feeding on a species of native fox.
+204 | Consequently, all human body functions 【also】 follow this daily rhythm, and the timing of
+124 | life not only for others but 【also】 for ourselves, because ultimately, there is no difference.    ?P:not only ... but also ?P:not only...but also
+237 | By sitting front and center, students were able to hear better too. [24] The instructors said that they 【also】 formed a better connection with the students who sat in front.
+88 | Modesty may be key when cooperation is essential, but the researchers 【also】 found that in some cases, status signaling has advantages.
+103 | The research 【also】 found that mentally well-adjusted owners had calmer, happier and healthier cats.
+163 | Jarvis and his colleagues 【also】 found that, over the past five decades, the world has seen an increasing standardisation of diets; the foods we eat globally today are 36% more similar than they were in 1961.
+130 | And the team 【also】 found that participants were willing to look at listings with lower salaries if they came from companies with a higher diversity score.
+120 | Other studies, including studies of wheat in India and corn in Africa, 【also】 found that there is a threshold above which yields sharply decline: crops can adapt and move, but only to a point.
+145 | The passports of many countries can take images of their well-known geographical features and wildlife, which 【also】 function as security features as some are only visible under a special light.
+190 | But Zimbardo asks: “What if the capability to act heroically is 【also】 fundamentally ordinary and available to all of us?
+140 | You 【also】 get away from the habit of making guesses or following instincts.
+80 | M: [10] We 【also】 give our kids pocket money, and the amount they get is linked to chores, such as putting the bins out and emptying the dishwasher.
+157 | Thinking creatively has given us modern medicine, technology and modern political structures, but it has 【also】 given us poison and nuclear weapons.
+111 | Mums reported greater autonomy, but 【also】 “greater trouble” and fewer positive 33.
+158 | They might have 【also】 had things published or publicized and want to stay connected to that identity.
+143 | They 【also】 harbor dozens of diseases that threaten both humans and farm animals.
+207 | They can 【also】 harm other wild species through indirect competition, rather than eating them or shrinking their food supply.
+135 | Fruit juice 【also】 has been linked to
+224 | in less labor-intensive occupations 【also】 has contributed to the trend, says Abraham, who researches work and retirement
+87 | a similar mix of creative and technical skills, 【also】 has recruitment problems.
+95 | While analytical decision-makers benefit from a deliberate, thoughtful approach, this style 【also】 has some shortcomings.
+215 | Smart people 【also】 have a hard time accepting feedback.
+85 | And I 【also】 have a notebook where I record my expenses.
+218 | L) Finally, diversifying our diet away from heat-sensitive wheat, corn, rice and other crops could 【also】 help.
+221 | Effective use of persuasion skills will not only help get your coworkers excited about your ideas, it’ll 【also】 help
+173 | Having a companion to talk to about their feelings can 【also】 help children feel secure and develop communication skills.
+167 | curiosity and a desire for knowledge — may 【also】 help folks pass brain tests.
+194 | K) Until genetic engineering comes to fruition, other strategies might 【also】 help in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster or installing storage facilities to delay spoilage.
+126 | As a society, we reap the rewards from this science but we 【also】 help pay for it.
+90 | He 【also】 helped dock two spacecraft.
+147 | It 【also】 helps them develop healthy ideas around gender.
+100 | And they can 【also】 hide dirt and wear.
+164 | After all, competitive rivalry can 【also】 hinder effective decision-making and increase your willingness to take risks, behaviors that can ultimately hurt your venture’s success.
+193 | This understanding 【also】 holds true in the business world, where an organization’s stories, and the stories its leaders tell, help solidify relationships in a way that factual statements don’t.
+97 | We 【also】 hope to learn how teachers, parents or school counselors can help
+102 | M) I have now come to realize that being boring, in actuality, is not only about who you are as a person, but 【also】 how you present yourself.
+195 | But this eagerness to win may 【also】 hurt your venture’s success, particularly when it causes you to make impulsive, insensible decisions.
+234 | It would 【also】 include expected monthly loan payments and projected salary after college.
+175 | fructose in fruit juices counts as ‘free sugars’ — which 【also】 include honey and the sugars added to foods.
+196 | But they could 【also】 indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter so that the other party would think they were losing interest.
+187 | George Engel, in treating his patients, not only looks into their symptoms but 【also】 into things like the emotional support they receive.    ?P:not only ... but also ?P:not only...but also
+231 | They are 【also】 just as proficient in food preparation and cooking skills.
+172 | It 【also】 launched a range of fancy bottles that work with tap water and flavour
+219 | The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, but it can 【also】 lead you to take greater risks that put your venture in peril.
+136 | Studies have 【also】 linked employee volunteer programs with more productive employees.
+160 | But if something speaks, it must 【also】 listen.
+105 | There is 【also】 little interaction amongst students.
+81 | Teachers are 【also】 losing their snow days and instead will be expected to be on hand to take a virtual register and
+212 | Most other healthy eating cultures 【also】 make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+92 | choices, and 【also】 make you more confident about your ability to make the right decision.
+192 | M) Using voice 【also】 makes sense when you're doing other things with your hands.
+114 | It is a way of you keeping your own identity while 【also】 making your future husband happy.
+146 | It 【also】 means having private space dedicated to work: the space must be heated, cleaned, maintained and paid for.
+220 | Researchers 【also】 measured participants’ overall satisfaction around cooking and diet-related behaviors.
+236 | They’re 【also】 more likely to be in professional
+210 | These findings present a dilemma for managers: employees using social media at work are more engaged and more productive, but they are 【also】 more likely to leave your company.
+86 | deficiency because simply by eating an adequate number of daily calories we are 【also】 most likely getting enough protein.
+109 | M) In the grand scheme of things, however, colleges 【also】 must come to understand that the hidden fees they ask for may prove unmanageable for the very kinds of low-income or first-generation students they are trying desperately to attract.
+238 | However, organizations 【also】 need to be honest with employees about the financial impact of COVID-19.
+108 | To properly care for patients, we 【also】 need to care about the lives of the people getting the care.
+230 | You still need to say “no” to distractions, but you 【also】 need to learn to say “no” to opportunities that were previously good uses of time, so you can make space for better uses of time.
+121 | They 【also】 need to recognise that men have to make significant adjustments when they become parents.
+228 | Compensation 【also】 needs to be revisited.
+101 | K) Disconnecting from work and home responsibilities is 【also】 obviously important.
+129 | 【also】, of course, our first defense against species loss and climate change.
+99 | J) Cultures without numbers 【also】 off er insight into the cognitive influence of particular numeric
+138 | They're 【also】 often longtime locals.
+186 | 【Also】, once one bank account gets reported, they simply use another.
+161 | Makers of clear plastic bottles may 【also】 opt for new fossil-fuel based plastic to save money.
+225 | Get this! [23] Students sitting in the middle of the classroom 【also】 outscored students sitting behind them.
+155 | Left-handers are 【also】 overrepresented in professional, interactive sports.
+151 | W: No, it’s 【also】 popular in Britain and in other former British colonies like Australia and New Zealand.
+184 | When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can 【also】 promote communication between the scientific community and the public.
+112 | Books that named different characters 【also】 promoted greater learning.
+229 | Nevertheless, emotional intelligence is a useful skill to have, as long as you learn to 【also】 properly cope with emotions—both others’ and your own, says Bechtoldt.
+93 | Last year, a German federal court said the shade of the gold wrapping was 【also】 protected.
+222 | [20] Pets 【also】 provide a fantastic subject for research and learning.
+139 | The teenagers 【also】 rated
+82 | “If we’re reflecting, maybe we should 【also】 reflect on that.
+144 | Coca-Cola 【also】 released data detailing its funding
+168 | Donna Lynn Hope has 【also】 remarked, “Busy doesn’t mean better.
+233 | They 【also】 reported improved mental health and subjective vitality immediately after the program. [19] These benefits remained six months after the completion of the course.
+183 | Some 【also】 reported that there were parents surprised or concerned that their child had a male teacher.
+150 | Online classes 【also】 require either a computer or laptop and a reliable internet connection.
+191 | At the same time, your name is associated with the identity you’ve built up and hyphenation allows you to respect that while 【also】 respecting tradition and your husband’s family’s identity.
+133 | bar or drink, we 【also】 risk missing out on the rich sources of antioxidants , vitamins and many other benefits of
+201 | While research has found dogs can have a lot of positive impacts on a child’s life, there are 【also】 risks associated with the dog-child relationship.
+206 | But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has 【also】 said that the secret to a long life is “knowing how to choose” what to forget.
+200 | 【also】 satisfying to see the effects of what you have done.
+156 | I like how economist Tim Harford put it, “Every time we say ‘yes’ to a request, we’re 【also】 saying ‘no’ to anything else we might accomplish with the time.
+217 | Credit is 【also】 scarcer in most developing countries.
+119 | The New York dance club 【also】 serves as a place for entertainment where youngsters can enjoy themselves safely.
+178 | The 115-year-old is active on social media, regularly sharing aspects of her life. [20] She 【also】 shares some of her secrets to living so long.
+134 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, but it could 【also】 signal to potential friends or future employers that you are unlikely to think about the needs of others.
+169 | G) There are 【also】 so-called “blizzard bags”, with assignments that children take home ahead of an expected snow closure.
+171 | This suggests that while dogs may view children as social companions, there are 【also】 some differences that we need to understand better.
+177 | Importantly, there were 【also】 some promising effects of the new intervention on actual
+107 | 【Also】, speak to the person you’re booking the villa with on a landline phone, as fraudsters tend to only use mobiles.
+205 | They 【also】 start developing greater ability to remember dreams.
+127 | M: But my proposal is not just to reward students with good grades, but 【also】 students who show improvements.
+209 | The authors 【also】 suggest that traditional recruitment approaches for early childhood educators “do not address the gender gap in the field.
+152 | He 【also】 suggests asking someone not going on the holiday to have a look at the website.
+185 | People who are not directly involved in the group’s daily work should 【also】 take part.
+211 | Parents must 【also】 talk to their kids about the appropriate ways to find academic answers and alert them to unethical behaviours that may seem innocent in their own eyes.
+170 | Women 【also】 talked about family caregiving responsibilities.
+235 | Fans of classical music can 【also】 tell you that there are few types of music that are more expressive.
+240 | 【Also】, the mental health benefits were equal among participants who were overweight or obese, and those in a healthy weight range. [20] This suggests a link between cooking confidence and satisfaction around cooking, and mental health benefits.
+142 | They are 【also】 the ones who know there are systems that are more powerful,
+176 | A stretch of Skillman Ave witnessed not only a big increase in sales but 【also】 the opening of new businesses.
+197 | Research has found the use of digital technology benefits not only teenagers’ social lives but 【also】 their studies.    ?P:not only ... but also ?P:not only...but also
+239 | I) What is true about health is 【also】 true about productivity: an ounce of prevention is worth a pound of
+189 | But it’s 【also】 true that saying “no” is not merely a privilege reserved for the successful.
+166 | It’s 【also】 true that too much social networking and game playing can cut into schoolwork and sleep.
+227 | Managers can 【also】 use
+
+============================================================
+## 词：most    本段 158 句    模式：全标（每句都写）
+原释义：adj.最多的; 大多数的. adv.最; 非常. pron.大多数.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 最（构成形容词、副词的最高级，如 the most important）    B 样本 33    例：Even the most
+  1  adj. 大多数的，大部分的（后接名词）    B 样本 24    例：Respond as most busy people do.
+  2  pron. 大多数，大部分（如 most of them）    B 样本 16    例：Fit most of the cupboards into walls.
+  3  adv. 最，最大程度地（修饰动词，如 like sth most）    B 样本 7    例：What they liked to do most after school.
+  4  adj. 最多的（the most + 名词，如 win the most votes）    B 样本 0
+  5  adv. 非常，极其（如 a most interesting book）    B 样本 0
+已标过的短语：most likely（1）
+口径说明（照此执行）：
+  - C 任务口径：the most / most + 形容词或副词（含不带 the 的 most damaging、were most respected、most importantly 最重要的是、the most innovative idea）标 0；most + 名词（most people、most nights、as most busy people do）标 1；most of...（含 most of the time 大多数时候）及单独作代词（fees, most between $40 and $100）标 2；动词后的 most（like / value / care / trust most、impressed them most）标 3；the most + 名词表「最多的」（the most votes、the most time）标 4；a most + 形容词（非常）标 5。most likely（很可能）、at most / at the most（至多）、make the most of（充分利用）按 P。form 按「many / much 的最高级」写、irregular 写 true，但真题里绝大多数是独立用法（最高级标记、大多数），请复核是否改成 null / false。
+句子：
+183 | Yet whereas 【most】
+186 | But contrary to all the publicity that everyone needs more protein, 【most】
+189 | My colleagues and I wondered whether midazolam, the 【most】
+208 | Kelli Harding doesn’t think America’s medical model is sufficient for patients who need help 【most】.
+229 | (Indeed, research has shown that the highest earners in America tend to work the 【most】.
+86 | Unsurprisingly, people’s brains were 【most】 active when thinking about their current selves and least active when thinking
+127 | 【Most】 adult children enjoy increasing sources of financial support.
+118 | 【Most】 Africans live in rural areas that are tough to wire for Internet access.
+237 | Follow the example of the 【most】 ambitious entrepreneurs.
+222 | Unfortunately, for the 【most】 ambitious entrepreneurs, a failure is seen as disastrous, and impossible to recover from.
+236 | How do the 【most】 ambitious entrepreneurs regard failure in their endeavor?
+201 | In other words, 【most】 Americans are too poor to work less.
+233 | But for 【most】 Americans, that prosperity is nowhere to be seen.
+213 | For 【most】 Americans, then, the magic of increasing
+112 | Those between the ages of 18 and 34 prioritized it 【most】, and that prioritization dropped off as respondents’ ages went up.
+91 | Current spacecraft use a variety of fuels, but 【most】 are based on fossil fuels.
+199 | The researchers found that students who were 【most】 at risk had the 【most】 improvements in executive functioning after interacting with therapy dogs.
+160 | Today, three decades after his retirement, he is still one of the best-known and 【most】 beloved racehorses of all time.
+225 | They reap the 【most】 benefits from scientific research
+153 | As a compromise, a bride will in 【most】 cases adopt a name that combines the couple’s last names.
+156 | The problem with this argument is that 【most】 children aren't playing outside or even spending time with other kids.
+98 | [16] The 【most】 common question I’m asked always centers around how to get started in user experience design, to which my response is always that nothing can substitute real-world experience.
+128 | The 【most】 common types of financial support include cell phone plans, food, school costs and car expenses.
+155 | 【Most】 companies are trying to make phones ever more powerful and capable.
+90 | It proves to be the 【most】 complicated stage of space missions.
+133 | But guiding them back to Earth in a controlled manner opens new possibilities—【most】 components from the Falcon 9 can be reused up to 100 times.
+87 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] But your ideas about education are the 【most】 controversial.
+144 | has helped yield numbers in 【most】 cultures, but not all.
+175 | There’s a social dimension to health that we’ve completely overlooked in our efforts to find the best and 【most】 cutting-edge medical care....
+143 | In fact, as one of the 【most】 damaging invasive species on the continent, (17) wild pigs cause millions of dollars in crop damage yearly.
+80 | He goes to the gym 【most】 days, plus tennis two or three times a week.
+226 | protein although the 【most】 desirable protein intake may vary depending on age and activity level.
+203 | Many of us living in the 【most】 developed countries are buying into a myth of protein deficiency created by food companies
+120 | Credit is also scarcer in 【most】 developing countries.
+169 | 【most】 drugs during the morning or evening primarily to ensure compliance.
+139 | 【most】 drugs have not been studied for possible different effects during a 24-hour cycle.
+205 | Why do doctors advise patients to take 【most】 drugs in the morning or in the evening?
+161 | 【Most】 early adults cannot sustain their lifestyles without parental support.
+217 | Finding out the 【most】 effective drugs for treating diseases through further research.
+114 | Many of them are not, and a simple “no” will be more productive than whatever work the 【most】 efficient person can cope with.
+142 | 【Most】 employees rely heavily on IT in their work.
+165 | 【Most】 end users do not understand the terms after reading them through.
+92 | Further, 【most】 end users don’t read EULAs.
+134 | 【Most】 end users sign them without bothering to read the terms.
+228 | What does the author think of 【most】 entrepreneurs?
+150 | It is also by far the world’s 【most】 expensive place to get sick.
+206 | Such platforms then become a place to feature the 【most】 experienced, professional, and
+235 | They are considered to be the 【most】 expressive type of music.
+95 | Tim said, “Being an astronaut has been the 【most】 extraordinary experience.
+81 | 【Most】 fathers admitted that even during their paternity leave they actually did much less childcare than the mother.
+200 | Explore the 【most】 feasible options.
+159 | M: While 【most】 financial planners do give numbers, I don’t think that’s useful, as people are living in different areas with different costs of living, and have different needs and wants, which is why I suggest that people aim for financial independence.
+167 | 【Most】 foods containing fructose—a naturally occurring sugar found in all fruits
+197 | E) "The 【most】 frequently heard complaint is about rainfall predictions," says Mr Dittoh, who lives in Tamale, northern Ghana.
+125 | [21] Who benefits 【most】 from learning to cook?
+164 | rates are, at the 【most】 generous estimates, 56%, so the actual recycling rate will be lower than that,” Chetan-Walsh says.
+113 | I) There is another depressing reality hidden within even the largest financial aid packages: Colleges often offer the 【most】 generous packages during freshman year as a way to attract new students.
+194 | What do people in 【most】 healthy eating cultures have in common?
+96 | 【Most】 imitation meats are highly processed and
+152 | Saying “no” is an important skill to develop at any stage of your career because it retains the 【most】 important asset in life: your time.
+170 | Teachers tend to still use this format because of either the need to control students or the belief that the teacher is the 【most】 important person in the room.
+116 | G) Probably the 【most】 important reason to consider hyphenation is your identity.
+102 | In fact many experts argue that the 【most】 important 21st-century skills aren't related to specific
+178 | No matter what name the bride adopts, it is 【most】 important that the newly-weds truly love each other.
+191 | 【Most】 important, there is a growing recognition that people who balance
+88 | He said 【most】 Indiana schools already use digital devices during lessons, so it was an
+223 | Risk-takers are best at adapting in difficult times. [25] Simply put, when 【most】 individuals stay away from risk, it means less competition for risk-takers.
+89 | When Toni Morrison died in 2019, the world lost one of its 【most】 influential authors.
+94 | Hitchcock is one of the 【most】 influential filmmakers in the history of ___27___.
+149 | 【Most】 interaction with the professor has to be through email which is often impersonal.
+93 | “【Most】 large animals that eat meat live in increasingly fragmented landscapes,” said Sillero, who was not involved in the
+166 | Shed light on the conservation of 【most】 large meat-eating animals.
+101 | And, yes, managers are 【most】 likely    ?P:most likely
+215 | deficiency because simply by eating an adequate number of daily calories we are also 【most】 likely getting enough protein.    ?P:most likely
+224 | This is 【most】 likely not because    ?P:most likely
+171 | Some analysts find age 45+ jobless workers are 【most】 likely to be unemployed for more than a year.    ?P:most likely
+227 | business casuals on a Friday, since colleagues are 【most】 likely to take out time to socialize on the last work day of the week.    ?P:most likely
+121 | But 【most】 Los Angeles residents are no longer either shocked or ashamed.
+157 | How do 【most】 Los Angeles residents now feel about homelessness?
+231 | The 【most】 major indicator of classical music’s importance in society today is the fact that much of the popular music that
+193 | Ultimately, what affects our health in the 【most】 meaningful ways has more to do with how we treat one another, how we live, and how we think about what it means to be human than with anything that happens in the doctor’s office.
+141 | Sadly, the people who 【most】 need the help are least
+221 | They provided the 【most】 needed vocational skills.
+104 | 【Most】 number systems, then, are
+97 | A businesswoman said her business dropped sharply when parking space gave way to a bike lane, because 【most】 of her
+136 | 【Most】 of his movies
+85 | Similar action has been taken even in Scotland, where camping is usually permitted on 【most】 of its open land.
+195 | For the first time in human history, 【most】 of our aquatic (水产的) food now comes from farming rather than fishing.
+182 | Big, systematic data is mostly the foundation of 【most】 of our decisions, personal and business alike.
+110 | As online courses tend to have more than 100 students, 【most】 of the assignments are short and simple.
+196 | For another, 【most】 of the classes on Coursera are in English, and though there are plans to add translations, language barriers can be a big obstacle.
+187 | Unlike whole fruit, fruit juice has 【most】 of the fibre removed.
+108 | 【Most】 of the furniture you will see is original and in good condition.
+210 | They benefited 【most】 of the learners.
+146 | If savings are modest, then the many advantages of working in offices—such as lively atmosphere, rapidity of communication, team-building and acclimatization (适应环境) of new employees—will encourage employers to shelve the idea of remote work and, like Yahoo in 2013, encourage employees to work 【most】 of the time from corporate office space.
+140 | It is a shift in practice from being teacher-focused to student-focused learning. [20] For us, flexible seating has meant removing 【most】 of the traditional chairs and desks and introducing a variety of different seating options to promote student engagement.
+172 | 【Most】 of them are based on systematic reviews.
+148 | 【Most】 of them are not reading long articles or books that explore deep themes and require critical thinking and reflection.
+188 | 【Most】 of them are sold as true fake meat
+168 | 【Most】 of them eat meatless meat to protect the environment
+111 | 【Most】 of them explored new job opportunities.
+138 | 【Most】 of them refrain from eating meat for health reasons.
+176 | “The only overlapping feature in 【most】 of these healthy countries is that they all walk way more than the average American,” said Pasternak.
+82 | “He’s been a regular visitor for 【most】 of this year,” she told the Press Association.
+232 | They have more positive qualities than 【most】 of us.
+202 | 【Most】 of us are not in the habit of exercising self-control.
+130 | [22] 【Most】 of us have been in teams or organizations where we’ve had conflict with the people that we’re working with around the ideas or decisions that we’re discussing.
+204 | But 【most】 of us have conflicting feelings about dressing
+211 | 【Most】 of us in the entrepreneurial community are blessed—or cursed—with higher-than-average ambition.
+129 | When 【most】 of us set goals, we focus on long-term results We
+106 | Worse, 【most】 of what we know about heart disease comes from studies involving men.
+158 | Phrases like “I have limited access to email” and “I’ll respond as soon as I get back” sound like you’re being held against your will from working as opposed to making the 【most】 of your time off.    ?P:make the most of
+151 | 【Most】 other healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+131 | J) It's obvious that students should go to school every day to get the 【most】 out of education.
+219 | 【Most】 parents tended to overprotect their children.
+83 | Research by Amanda Lenhart of the Pew Research Centre, a US think tank, found that the 【most】 passionate texters are also the kids 【most】 likely to spend time with friends in person.    ?P:most likely
+100 | What does the news report say about 【most】 people arriving at American borders with eggs?
+123 | W: [12] John, your book is getting a lot of attention, partly because you write that 【most】 people can retire by 40.
+181 | W: Maybe, but how can anyone save enough to retire by 40 when 【most】 people can’t retire at 60?
+137 | Why such a disconnect? [20] 【Most】 people cite time and conflicting work schedules as major barriers, but employees and employers would actually benefit if companies made employee volunteering part of the job.
+207 | 【Most】 people did not include snacks when reporting their calorie intake.
+216 | 【Most】 people don’t really believe in them, but
+115 | “You know why 【most】 people in nursing homes use wheelchairs?
+230 | Now 【most】 people living in high-income nations are consuming enough protein.
+103 | So, 【most】 people need their own car to get around.
+163 | To allow for the preferences of 【most】 people of today
+162 | 【Most】 people set goals to
+174 | 【Most】 people spend much more time interacting with digital media than they did ten years ago.
+192 | 【Most】 people surveyed were reluctant to reveal what they ate.
+212 | [25] Since 【most】 people tend to avoid risk, businesses that are brave enough to take risks already have a competitive advantage.
+105 | If asked, 【most】 people will be able to give a vague
+145 | 【Most】 people will have a feeling that they've missed
+147 | He suggests that 【most】 people with obesity will eventually develop complications.
+173 | evidence that food conswned out of the home is one of the 【most】 poorly recorded categories in surveys.
+209 | Despite these problems, however, shrimp continues to be among the 【most】 popular seafoods worldwide.
+185 | may not be the 【most】 popular subject, but it’s consistently on the schedule throughout high school, with all students graduating
+190 | certain rare diseases can be easily identified, 【most】 potential health conditions cannot be identified by genetic testing alone.
+234 | What should people take into consideration in deciding on the 【most】 preferable protein intake?
+135 | The 【most】 recent count of pandas found that there were more than 1,800 left in the wild, putting them on the list of
+107 | These are the people viewers 【most】 relate to and find interesting.
+84 | 【Most】 scenic sites have been closed.
+214 | Today, 【most】 scientific research is funded by government grants, companies doing research and development and non-
+124 | For 【most】 scientists, the answer is no.
+122 | Some studies indicate that horticulture crops—generally, everything besides staples—may be impacted 【most】 severely, largely because they tend to be confined to a smaller geographic area.
+117 | Clean water is __30__ becoming one of the 【most】 sought-after resources in the world.
+180 | While some children visit summer camps, 【most】 stay at home, watching TV or playing games on electronic devices, which hardly benefits them.
+119 | 【Most】 stores open with flowers, fruit and vegetables at the front as a breath of freshness to arouse our appetite.
+198 | It does little good to 【most】 students.
+184 | The art of self-control is one that 【most】 successful individuals have mastered.
+126 | While there’s plenty of drama and messiness online, it is not, for 【most】 teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+109 | Now, watching movies is something that 【most】 teens do alone.
+132 | They appeal 【most】 to students from other states in the U.S.
+218 | They are often regarded as 【most】 treasured talents.
+154 | after all, one of the 【most】 useful cash crops across the globe.
+177 | Doing efficiently what is not worth doing is the 【most】 useless effort.
+99 | “【Most】 videogames are essentially puzzles to solve,” he says.
+220 | By sharing knowledge of agriculture and climate with peers in countries 【most】 vulnerable to poverty and hunger, scientists can help reduce these problems.
+179 | Out of these assistants, Siri is the 【most】 well-known.
+
+============================================================
+## 词：other    本段 157 句    模式：全标（每句都写）
+原释义：adj.其他的; 另外的. pron.另一个人(或物).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 其他的，别的，另外的    B 样本 61    例：Some people have other concerns.
+  1  adj. （the other）另一个的；其余的（两者中的另一方，或剩下的全部）    B 样本 5    例：The new market on the other side of town.
+  2  pron. 另一个人（或物）；（the other / others）其余的人或物，他人    B 样本 3    例：future self, a current other, or a future other.
+已标过的短语：each other（7）；in other words（3）；other than（1）
+口径说明（照此执行）：
+  - C 任务口径：other + 名词（含 some / any / many / few other、other people、Other tourists、Some other fellow 另一个家伙）标 0；the other + 名词（the other side、the other party、the other respondents 其余受访者、The other main theory）以及 their "other" name 标 1；单独作代词（one... the other、the other 90 cents、a current other 他人、others）标 2。each other（互相）、in other words（换句话说）、other than（除了）、on the other hand（另一方面）、the other day（前几天）、every other（每隔一个）、one after the other（一个接一个）、among other things 按 P。
+句子：
+82 | about a current 【other】.
+104 | They provide little chance for students to build relationships with each 【other】.    ?P:each other
+110 | They involve similar thought patterns, so stimulating one stimulates the 【other】.
+139 | W: Rugby is a sport with two teams and the players carry the ball in their arms and throw it at each 【other】.    ?P:each other
+156 | Separate data from 【other】
+166 | The ball is not round and the players push each 【other】.    ?P:each other
+171 | No matter what name the bride adopts, it is most important that the newly-weds truly love each 【other】.    ?P:each other
+188 | Thus, using more of one type of media does not necessarily mean less of the 【other】.
+138 | If teens are spending so much time using electronic devices, does that mean they have to give up some 【other】 activities?
+165 | Over the years, many scholars have insisted that time online does not necessarily take away time spent engaging with traditional media or on 【other】 activities.
+215 | time for 【other】 activities.
+163 | These experts claim there is not sufficient data to indicate that people’s reliance on those 【other】 activities is an addiction.
+203 | Data connecting excessive digital media time to mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for 【other】 activities—like going to the movies with friends or reading longer, more complicated texts.
+145 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, what matters is that you love each 【other】 and are going to be joining your lives together.    ?P:each other
+201 | In addition to either eating 【other】 animals or their food supply, wild pigs damage native habitats by rooting up grasses and rubbing on trees.    ?P:either ... or
+159 | control to reduce the likelihood of collisions with 【other】 bats in the densely packed swarm , Hom said.
+211 | or any 【other】 behavior?
+88 | Learning from 【other】 big cities.
+132 | Postpone paying her 【other】 bills
+146 | 【Other】 carbon capture and storage methods store carbon dioxide as a gas, but problems include a high cost and concern about leaks.
+116 | But 【other】 children simply shut down and try to deal with their emotions by ignoring the situation.
+137 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing out that 【other】 common diseases, such as high blood pressure and diabetes, require people to take action to manage their condition.
+87 | Reusable rockets can cut down on some of the waste associated with spaceflight. [17] Traditionally, boosters, fuel tanks and 【other】 components are treated as expendable.
+129 | lack of the 【other】 components found in whole fruit, like fibre.
+108 | For starters, Americans eat much bigger portions than people in 【other】 countries.
+227 | Few 【other】 countries have more than seven weeks off in a school calendar.
+231 | With the U.S. lagging behind 【other】 countries in academics, it's time to consider year-round schooling.
+236 | America lagged behind 【other】 countries in making a scientific school calendar.
+192 | Refugees who settle in 【other】 countries often find themselves unable to continue on their previous career path due to a new set of employer standards or skills requirements.
+220 | L) Finally, diversifying our diet away from heat-sensitive wheat, corn, rice and 【other】 crops could also help.
+225 | (25-1) By contrast, 【other】 cultures may not see written contracts as quite so binding.
+219 | Meanwhile, they keep the milk, eggs, and 【other】 daily basics all the way back so you'll travel through as much of the store as possible, and be tempted along the way.
+181 | Many 【other】 designers and architects have expressed concern over the future supply of home-grown talent for UK firms,
+103 | And that covers just three activities, and if 【other】 digital media activities were included, that estimate would no doubt rise.
+80 | This is precisely why parents still need to set firm boundaries around it, as with any 【other】 distraction.
+207 | Kate saw that her doll would be arriving the next afternoon, but then she noticed something else: suggestions about 【other】 dolls and toys she could order.
+100 | 【Other】 emotions triggered by math include feelings of tension and frustration.
+84 | the majority of workers find it less upsetting to see their own jobs go to robots than to 【other】 employees.
+154 | were being replaced by 【other】 employees who relied on technological abilities such as artificial intelligence in their work.
+151 | 【Other】 experiments showed similar results based on racial group.
+95 | So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be 【other】 factors at
+235 | We compared the airfare paid by employees in the same position within a company for the same class of travel and used a common statistical technique to account for 【other】 factors that might affect differences in airfares.
+149 | "With caution, many relational methods to improve teams and organisations can be borrowed from 【other】 fields.
+175 | What does Matous think of the various psychological methods borrowed from 【other】 fields for strengthening relationships?
+90 | He is also remembered by 【other】 filmmakers, for he
+158 | Numerous studies have shown that drinking fruit juice doesn’t make us consume any less of 【other】 foods
+199 | A lot of research has demonstrated that drinking fruit juice does not reduce our daily consumption of 【other】 foods.
+118 | But if we can’t find ways to protect 【other】 foods, will they survive climate change?
+172 | And I’ve booked those seats next to each 【other】 for you.    ?P:each other
+189 | W: No, it’s also popular in Britain and in 【other】 former British colonies like Australia and New Zealand.
+106 | “We generally recommend 【other】 forms of payment, like credit card.
+206 | It means saying ‘no’ to the hundred 【other】 good ideas that there are.
+177 | The study found that people feel judged to a larger extent by members of 【other】 groups.
+212 | On the 【other】 hand, a casual dress helps us become more friendly and creative.    ?P:on the other hand
+195 | “On the 【other】 hand, scientists at the USDA who I’ve spoken with are much more cautious.    ?P:on the other hand
+121 | On the 【other】 hand, there is a more rational approach to making decisions.    ?P:on the other hand
+204 | On the 【other】 hand, they assume that it might be difficult to work with someone who has completely different views, speaks a different language, or has a different style of work.    ?P:on the other hand
+182 | Diets containing large amounts of fibre reduce the risk of heart disease, diabetes and 【other】 health hazards.
+142 | Most 【other】 healthy eating cultures also make meals an event—say, multiple courses around the family table, or a glass or two of red wine at a long lunch—as opposed to hastily wolfing down handfuls of cereal
+229 | Are the results consistent with 【other】 independently funded studies?
+105 | The 【other】 is a painting of a boy by the 17th-century Dutch artist Samuel van Hoogstraten, date unknown.
+141 | One is next to a small, elderly woman; the 【other】 is next to a muscular, fierce-looking man.
+174 | They have a denser weave, and are more durable than any 【other】 jeans in the world.
+234 | The problem with this argument is that most children aren't playing outside or even spending time with 【other】 kids.
+98 | And now I think we should prepare some sandwiches and snacks, and some 【other】 kinds of food, so that people can just help themselves, rather than getting everyone to sit down at the table to eat a meal.
+226 | However, raising cattle, pigs, and 【other】 land-based animals requires vast sums of grain and water.
+113 | First, large houses take time to maintain, so cleaners and 【other】 low-wage service workers are required to keep these houses in order.
+202 | Human numerical instincts are not so superior to those of 【other】 mammals as is generally believed.
+135 | H) Compared with 【other】 mammals, our numerical instincts are not as remarkable as many assume.
+223 | 【other】 massive change, the gig economy will itself become an engine of economic and social
+117 | "We're a big family," he said, shaking hands with 【other】 members as they walked through the door.
+115 | E) While Formula One commands enormous audiences throughout much of the world, many American sports fans know it as that 【other】 motorsport, the one that is not NASCAR (纳斯卡车赛).
+170 | When you say “yes”, you’re saying “no” to every 【other】 option.
+155 | There are plenty of 【other】 options such as imaginative play, non-competitive games, and gardening or nature experiences.
+134 | It’s better to let people walk around and talk to each 【other】, or sit where they like.    ?P:each other
+140 | In the second part of the study I found 76% of employees using social media for work took an interest in 【other】 organizations they found on social media.
+99 | Like 【other】 outsiders, I was
+119 | The activity of friends’ brains was more similar than that of people who didn’t know each 【other】, particularly in regions involved in attention, emotion and language.    ?P:each other
+92 | 【other】 parts of his brain took over the missing part’s ___34___ tasks.
+184 | frequently drivers who commute from 【other】 parts of the city by car, Grabar points out.
+224 | In contrast, in certain Arabian, African, and Asian countries, men can publicly hold hands or show physical affection as signs of brotherhood or friendship while these behaviors may suggest a romantic relationship in 【other】 parts of the world.
+102 | To make a conversation interesting, it is important that you listen to the 【other】 party attentively.
+125 | themselves less with machines than with 【other】 people.
+217 | It is an essential aspect of life to cooperate with 【other】 people.
+107 | It includes not just how we form these impressions, but the conclusions we make about 【other】 people based on our impressions.
+196 | We can never really please 【other】 people even if we try as hard as we can.
+205 | Remember, as Bechtoldt says, “you are not responsible for how 【other】 people feel.
+126 | And 【other】 people include homes that are much larger, say, 60 square meters.
+153 | as 【other】 people, it follows that trying to identify more closely with our future selves will encourage us to make better long-
+221 | What will happen if we base our self-worth on 【other】 people’s approval?
+230 | Take 【other】 people’s preference into consideration.    ?P:take sth into consideration
+190 | For example, some sensitive individuals may assume responsibility for 【other】 people’s sadness or anger, which ultimately stresses them out.
+200 | We may find a route toward 【other】 people’s souls.
+168 | Hearing about 【other】 people’s success isn’t the same as creating your own.
+152 | Lao Zi once said, “Care about what 【other】 people think and you will always be their prisoner.
+178 | We should see through 【other】 peoples’ attempt to make a prisoner of us.
+210 | We should care about 【other】 peoples’ view as much as they care about our own.
+148 | They’re able to hear what the 【other】 person is saying and express their own feelings and thoughts effectively.
+91 | Do you have any 【other】 popular toys?
+164 | “It’s important for children to see 【other】 possibilities and 【other】 paths they can take.
+109 | Which of these 【other】 projects should I deprioritize to pay attention to this new project?
+194 | And Formula One has that more than any 【other】 racing series.
+208 | Compared with 【other】 racing series, Formula One focuses more on speed and involves more danger.
+123 | resembled their brain activity while thinking about a current 【other】 rather than the current self.
+112 | It also wants to establish a free-trade deal across the continent in the near future, as trade within the African continent costs more than any 【other】 region.
+169 | This and 【other】 research challenge the prevailing view that emotional intelligence is uniformly beneficial to its bearer.
+222 | 【Other】 research is funded by private
+233 | What do 【other】 scientists have to
+96 | Her 【other】 secrets for living a long life?
+120 | However, on the 【other】 side of the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.
+161 | I think I might try that big new supermarket on the 【other】 side of town and see what they have.
+89 | Is it a good idea to display luxury brands and 【other】 signals of status?
+147 | While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated there was very little crossover; rather, Formula One fans generally cite 【other】 so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.
+185 | I think we should get some beer and wine, and some fruit juice, and 【other】 soft drinks.
+162 | Indeed, work with some 【other】 species suggests they too can refine their quantitative thought if
+124 | Extreme sports also burn a lot more calories than 【other】 sports.
+111 | The 【other】 spouse wants no name change.
+187 | And they had been advised by colleagues or 【other】 staff not to hug children.
+86 | Follow 【other】 states’ example.
+127 | They appeal most to students from 【other】 states in the U.S.
+209 | K) Until genetic engineering comes to fruition, 【other】 strategies might also help in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops out of the field faster or installing storage facilities to delay spoilage.
+180 | For example, 【other】 studies have found dogs are more likely to bite children versus adults.
+179 | 【Other】 studies have shown a greater uptake of exercise in people who were told to think of the enjoyment of doing the exercise
+176 | 【Other】 studies, including studies of wheat in India and corn in Africa, also found that there is a threshold above which yields sharply decline: crops can adapt and move, but only to a point.
+136 | The phenomenon of math anxiety is characterized as a general sense of feeling that the subject is hard compared with 【other】 subjects leading to a subsequent lack or loss of confidence.
+198 | keen to encourage young people,” she says, observing that design brings together 【other】 subjects such as literature, art,
+186 | gateway to the realization that "five fingers on one hand is the same as five fingers on the 【other】. " Such
+167 | They are places where students receive counseling and 【other】 support.
+214 | 【Other】 systematic reviews support her conclusions.
+122 | for normal workers (those who were not in management roles) in private industries 【other】 than agriculture nearly doubled in    ?P:other than
+133 | They have been affected by something 【other】 than dreaming.    ?P:other than
+93 | It could be reshaped into animals 【other】 than rabbits.    ?P:other than
+173 | "【Other】 than they're both cars, the NASCAR fan base is a very different fan base," Carey said.    ?P:other than
+85 | People understand that you are a recent graduate, and I doubt anyone cares about your phone 【other】 than yourself.    ?P:other than
+143 | The words “yes” and “no” get so often used in comparison with each 【other】 that it feels like they carry equal weight in conversation.    ?P:each other
+193 | What is it that sets you apart from 【other】 theatres?
+97 | health care, crime, welfare dependence and 【other】 things.
+157 | Making sounds can free one’s hands for doing 【other】 things.
+83 | But after a time, your fear response to 【other】 things in life will be dramatically reduced.
+128 | With people showing each 【other】 things nearby.    ?P:each other
+228 | Sometimes it’s because I actually am busy, but 【other】 times it’s because that’s what I think I’m supposed to say.
+81 | the 【other】 two explanations Friedman considers, this one fits chronologically .
+130 | Once sourced, Elysia uses waste products to create “simple, natural, straightforward” meals and snacks. [25] Perhaps unlike 【other】 waste food, the supply is regular.
+114 | But KaiOS went the 【other】 way.
+144 | K) In addition to benefits for creativity, deviance can be a good thing in 【other】 ways.
+183 | Horn has found that certain creatures use strategies similar to bilateral control to avoid hitting each 【other】 while moving in    ?P:each other
+131 | similar spacing strategies to avoid hitting each 【other】 while swimming or flying in densely packed groups.    ?P:each other
+213 | They can also harm 【other】 wild species through indirect competition, rather than eating them or shrinking their food supply.
+218 | One was with high school students and the 【other】 with more than 1,000 Australian adults aged between 24 and 60 years old.
+94 | In 【other】 words, being proficient with a design tool and a few methods doesn’t make you a user experience designer.    ?P:in other words
+150 | In 【other】 words, even if a certain food is still grown on some corner of the Earth, it doesn’t mean that everyone will continue to have the same degree of access as today.    ?P:in other words
+197 | In 【other】 words, present self trumps future self.    ?P:in other words
+191 | In 【other】 words, saying “no” saves you time in the future.    ?P:in other words
+232 | In 【other】 words, the more we believe that one has the opportunity for success based on hard work, the more we tend to think that people who skip leisure and work all the time are of higher standing.    ?P:in other words
+101 | In 【other】 words, we’re all really, really stressed.    ?P:in other words
+216 | In 【other】 words, when a person’s own work group is involved, they tend to prefer team members who are similar to themselves.    ?P:in other words
+160 | In 【other】 words, when we are ___30___ with more choices, making the    ?P:in other words

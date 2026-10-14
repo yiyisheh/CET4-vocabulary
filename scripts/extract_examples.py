@@ -15,6 +15,7 @@ OUT = ROOT / "output"
 OUT.mkdir(exist_ok=True)
 CORPUS = ROOT / "corpus"
 from build_frequency import clean
+import corpus_window
 
 TOP_N = 1250
 
@@ -46,7 +47,7 @@ def main():
 
     text = clean("\n".join(
         f.read_text() for sub in ("papers", "listening")
-        for f in sorted((CORPUS / sub).glob("*.txt"))
+        for f in corpus_window.files(sub)           # only papers inside corpus/window.json
     ))
     doc = nlp(text)
     sentences = []

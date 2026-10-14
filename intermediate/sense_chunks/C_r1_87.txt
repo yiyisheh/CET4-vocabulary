@@ -1,0 +1,604 @@
+# 任务 C_r1_87：6 个词，524 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_87.labels.txt
+
+============================================================
+## 词：which    本段 98 句    模式：全标（每句都写）
+原释义：pron.哪一个; 哪一些. adj.哪一个; 那一个.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 引导定语从句，指代前面的名词（译作「…的」或「它，它们」；含 in which / on which 等介词 + which）    B 样本 58    例：which is devoted to hearing.
+  1  pron. （, which）指代前面整句话或整件事（这一点，这件事：which means…, which is why…）    B 样本 13    例：All of which, of course, has made it highly profitable.
+  2  pron. 哪一个，哪些（疑问，可直接接名词：which school；也用于 know/decide which…）    B 样本 9    例：Guess which display table led to more sales?
+口径说明（照此执行）：
+  - 给C的口径：先行词是一个名词（含 that which、the degree to which、all of which 以外的介词 + which）按0；先行词是前面整个分句或整件事（which means / which is why / which led to / all of which）按1；疑问及 know/decide/guess which…、which of… 按2。0 与 1 的边界有主观成分（如 lag behind in online use, which limits… 按1）。题干 Identify the paragraph from which the information is derived 出现极多（n=28），按0。
+句子：
+136 | But moving away from a traditional classroom in 【which】 a living, breathing human being teaches and interacts with students daily would be a disaster.
+117 | Instinctive decisions are always backed by previous experiences or information, 【which】 acknowledges that instinctive decisions have worked in the past.
+141 | "Chinatown was much smaller then and it was a celebration with fireworks and firecrackers, 【which】 added a lot of flavor and meaning to it.
+98 | The passports of many countries can take images of their well-known geographical features and wildlife, 【which】 also function as security features as some are only visible under a special light.
+89 | fructose in fruit juices counts as ‘free sugars’ — 【which】 also include honey and the sugars added to foods.
+115 | We found that only the concept of “negative reciprocity”—in 【which】 an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+112 | Are we willing to accept a system in 【which】 an increase in amenities purchased by the affluent means a reduction in amenities for the poor?
+142 | A multitasker is one who can perform two or more tasks effectively at the same time, 【which】—apart from the obvious differences—is similar to what a computer does.
+175 | And vitamin D from sunshine can help your body to absorb certain minerals, 【which】 are linked to building stronger bones.
+145 | 【which】 are the natural habitat of wildlife.
+134 | This is why it’s so important to know 【which】 aspects of a company’s culture you value most.
+97 | This practice also allowed many pigs to escape from farms and live in the wild, 【which】 became a problem.
+87 | the museum’s 2015 Design Ventura competition, 【which】 brings the business of design to life for students aged 13 to 16 by
+137 | My school charges an additional fee for the use of a credit card to settle outstanding charges, 【which】 can add upwards of 3% of the balance to your bill.
+135 | On the one hand, many see value in diversity, 【which】 can contribute a variety of perspectives, encourage new ideas, and generate innovative solutions.
+118 | number games can enhance that desire for novel experiences, 【which】 can, in turn, refresh the brain.
+148 | when a car in dense traffic slows down even slightly, 【which】 causes the car behind that vehicle to slow even more — and
+82 | They are known as “e-learning days”, 【which】 certainly sounds less fun than a snow day.
+150 | They want the department of education to record 【which】 children are left-handed and what their educational attainments are, since they make up some 10% of the population.
+106 | The service, 【which】 claims to be the first of its kind in India, offers only one route, but Bangalore airport will add more once it gets approval.
+160 | University in the US, 【which】 concluded that missing a few occasional days because of the weather did not damage learning.
+130 | pumped more blood-both of 【which】 contributed to more oxygen getting to the brain, and, ultimately,
+107 | After my freshman year, I had to opt for the school’s insurance plan, 【which】 costs around $2,000 a year.
+125 | These are generally known as “phantom” traffic jams, in 【which】 dense
+113 | The UK government plans to tax companies 【which】 don’t use at least 30% recycled plastic in their products.
+83 | To conduct the study, the team partnered with an online job listings platform 【which】 emails postings relevant to individuals and their job search criteria.
+105 | They can create social media groups in 【which】 employees will be more likely to collaborate and less likely to share withdrawal intentions or discussions about external job opportunities.
+158 | From this different perspective, you can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, 【which】 favour flexibility in their working practices.
+116 | Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, 【which】 featured a record 33 female CEOs, but this still represents a tiny fraction of the total.
+157 | The study found that team-building exercises 【which】 focused on the sharing of and intervening into personal attitudes and relationships between team members were considered too heavy-handed and intrusive, although the researchers say some degree of openness and vulnerability is often necessary to make deep, effective connections with colleagues.
+95 | K) Many years ago, I wrote about a study 【which】 found that employers are much more likely to hire a college graduate who
+154 | But excessive heat can cause you to lose water, 【which】 has been proven to have a pretty unattractive side effect—bad breath.
+169 | and personality, 【which】, he assumes, influenced all innovations in fashion in the past and 【which】 continue to influence us today.
+138 | The researchers analyzed databases 【which】 held information from 162 countries for the period 2004 to 2010.
+147 | such as Design Ventura, 【which】 helps to bring the standard curriculum to life,” says Cleaver.
+90 | a young boy had a significant portion of his brain removed for medical reasons, 【which】 included the part of the brain ___32___
+173 | You might feel like the sun is giving you extra energy for your day, 【which】 is actually happening.
+124 | Sievenpiper concludes that the recommended 150ml of fruit juice per day, 【which】 is an average serving,
+170 | them to opt for it at General Certificate of Secondary Education, so we are helping to keep alive something 【which】 is crucial
+123 | “It’s the taking part and doing the work 【which】 is important,” he says.
+99 | connections between ideas, 【which】 is linked to innovative thinking.
+168 | The question is how to apply them effectively to strengthen an entire collective, 【which】 is more than just the sum of individual relationships," said Dr Matous.
+121 | “Forty-four per cent would buy another drink 【which】 is not great, 14% would go without, and 4.5% said they
+151 | Most interaction with the professor has to be through email 【which】 is often impersonal.
+114 | The new year—according to the Chinese lunar calendar—will begin on Saturday and marks the Year of the Rooster, 【which】 is thought to be a symbol of positivity.
+176 | This is problematic because it hinders your ability to adapt to new circumstances, 【which】 is vital if you want to be a successful entrepreneur.
+172 | 【Which】 is why managers should appreciate just how influential the IT user experience is to their
+120 | Information was then gathered on whether the email was opened, and 【which】 job listings were clicked on by each user.
+164 | of schools and for 【which】 kinds of students these growth mindset ideas help young people adapt to the
+162 | We find that if pupils take part in Design Ventura in Year Nine it can be the trigger 【which】 leads
+132 | Many women also do not experience chest pain before a heart attack the way men do, 【which】 leads to fewer women discovering problematic heart issues.
+100 | When she did sleep, she experienced “problem-solving dreams,” 【which】 left her feeling unrested when she woke up.
+143 | Absence of definitive criteria, and time and resource constraints, and novel situations are instances 【which】 limit the practicality of data.
+133 | That means weight can be hard for individuals to control, 【which】 makes the bonus unfair.
+126 | “【Which】 matters more depends on what your history up until that point has been in the type of work you’re doing,”
+103 | Rather, they feel pain, 【which】 may be _35_ with, say, drinking something very cold.
+155 | The ability to overcome food shortages that must be built into some of the poorest countries will not come from loans from wealthy countries, 【which】 may have food problems of their own, or world economic institutions.
+110 | They can apply for fully funded access to Coursera’s course catalog, 【which】 means they can take all of the platform’s classes and obtain professional certificates for free.
+91 | They rarely consider 【which】 medicine works better for 【which】 patient.
+92 | [16] The most common question I’m asked always centers around how to get started in user experience design, to 【which】 my response is always that nothing can substitute real-world experience.
+108 | 【Which】 of the two classes are you thinking about?
+159 | Figure out 【which】 of the two is more reliable.
+122 | There are now dozens of criminal cases in 【which】 offenders have ___31___ themselves off as people of a different age, race
+152 | (22-1) How the balance is struck between these two forms of communication—the point at 【which】 one needs to be exchanged for another—really depends on individual cultures.
+177 | In one study, researchers showed the participants columns of abstract illustrations and asked them 【which】 ones they would prefer.
+81 | As participants answered, Hershfield's team recorded 【which】 parts of their brains
+84 | the biggest bottled water manufacturers, cites a survey in 【which】 people were asked what they would do if bottled water were
+86 | The 20% error rate ___27___ in the study likely underestimates the extent to 【which】 people would struggle to tell an ___28___
+109 | A lot of that is coming from China, 【which】 produces 60% of the world’s farmed fish.
+139 | One American philosopher stated that addressing the needs of the poor and vulnerable is about more than money—it is mostly about creating conditions under 【which】 prosperity and opportunity can thrive.
+129 | likely to take it — 【which】 raises a challenge for society as a whole.
+119 | 【which】 requires students in many states to make up the time lost due to weather by working during school holidays.
+93 | Consulting her mother about 【which】 school Jake is to attend.
+128 | But she does eat yogurt every day, 【which】 she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing how to choose” what to forget.
+102 | These factors could definitely affect the degree to 【which】 someone is comfortable with tactile (触觉的) communication and physical intimacy.
+104 | The golden rule is a moral principle 【which】 states that you should treat others the way you want to be treated yourself.
+166 | At that point, your heat regulatory system can essentially quit, 【which】 stops you from sweating as your body tries to keep water around your vital organs.
+144 | Florence, 【which】 struck in September.
+165 | We need restructured online classes in 【which】 students can have a learning experience that will actually provide quality education.
+174 | One in 【which】 the affluent enjoy a more comfortable life at the expense of the poor.
+80 | And it scared them a bit,” Dychtwald said. [25] One big reason they’re struggling is attributed to college loans, of 【which】 the average amounts to $37,000.
+156 | One in 【which】 the rich purchase amenities at an increasingly unjustifiable price.
+167 | One in 【which】 the upper classes deprive the lower classes of affordable housing.
+140 | One in 【which】 the wealthy exploit the low-wage laborers building their houses.
+101 | Then encourage them to establish an order in 【which】 they do work.
+96 | It can also impact the extent to 【which】 they enjoy life.
+127 | (ASMR), 【which】 ___27___ to you like a sting in your brain.
+149 | We want to know in 【which】 types
+153 | For example, some sensitive individuals may assume responsibility for other people’s sadness or anger, 【which】 ultimately stresses them out.
+163 | adaptive cruise control systems, 【which】 use forward-facing sensors to judge the distance to the vehicle ahead.
+131 | In 2015, two Italian companies, collaborated on the construction of a similar type of spacecraft, 【which】 was the first coffee machine designed for use in space.
+171 | the lasting intimacy and spiritual connection for 【which】 we long.
+88 | In Egypt, researchers have found buildings from around 3500 B.C., containing the remains of animals, including elephants, 【which】 were not native to Egypt.
+111 | If I am caught with it in my pocket, I will be subject to disciplinary procedure, 【which】 will impact on my career.
+85 | Helping to look after a pet can facilitate numerous aspects of a child’s emotional development. [19] Research shows that reading to a loyal and nonjudgmental companion, such as a dog or cat, can encourage reluctant readers to read aloud, 【which】 will in turn boost their self-confidence.
+146 | People may find it demanding to create a goal 【which】 will take a long time to achieve.
+161 | the species with a gene-editing technology, 【which】 will transform the seedlings into a species that survives even in a drier and
+94 | Not to mention the overwhelming amount of homework they assign, 【which】 would lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?
+
+============================================================
+## 词：would    本段 105 句    模式：全标（每句都写）
+原释义：modal v.将; 愿意; 过去常常; 会.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  modal v. 会，就会（表示假设、推测或可能；would have done 本来会、想必已经）    B 样本 43    例：We wonder what would
+  1  modal v. （过去将来）将会，会（said/thought/hoped that … would）    B 样本 14    例：Another said the decision would “ruin
+  2  modal v. 过去常常，总是（表示过去的习惯）    B 样本 7    例：They would run around looking for clues and at the end unmask the bad guy.
+  3  modal v. （客气的询问、请求或委婉表达）…好吗，可以（Would you…? / I would argue）    B 样本 6    例：So would you consider Mexican?
+  4  modal v. 愿意，想要（would prefer / would love to；would not 不肯）    B 样本 2    例：“I would love to say that my gaming skills allow me to destroy cancer using linear accelerators like
+已标过的短语：would like（6）；would rather（2）
+口径说明（照此执行）：
+  - 给C的口径：would like / 'd like 标 P:would like；would rather 标 P:would rather；would prefer、would love to 按4；Would you…? / Would I be able to…? / how much would it cost? 及 I would argue、we would welcome 这类客气说法按3；That would be helpful、would have done（含 would have thought / Who would have known）按0；主句是过去时的宾语从句、间接引语里的 would（said/hoped/expected/predicted that…would, to see if…would）按1；叙述过去反复发生的事（the gang would…, I would always watch）按2。0 与 1、0 与 3 的边界有主观成分。
+句子：
+108 | Of course, you’re not actually practicing the action that 【would】
+146 | Why such a disconnect? [20] Most people cite time and conflicting work schedules as major barriers, but employees and employers 【would】 actually benefit if companies made employee volunteering part of the job.
+168 | My co-workers 【would】 all be friendly with one another, without ever falling into the office gossip trap.
+157 | throughout the whole of high school that 【would】 allow students to gradually expand their financial literacy, and 【would】 prevent
+107 | It 【would】 also include expected monthly loan payments and projected salary after college.
+110 | percent that 【would】 be a big deal,” Horn said.
+150 | Speaking to an expert 【would】 be a good idea.
+174 | According to Keynes, there 【would】 be a shorter working week with everyone’s standard of living continuing to rise.
+140 | Kate saw that her doll 【would】 be arriving the next afternoon, but then she noticed something else: suggestions about other dolls and toys she could order.
+118 | So before you can determine whether you and a specific company 【would】 be compatible together, it’s important to have a solid handle on what exactly you want from your employer.
+143 | In a perfect world, money wouldn’t matter — all scientific studies 【would】 be completely objective.
+137 | Obese people 【would】 be discriminated against.
+163 | 【would】 be distributed more or less evenly across society in the form of increased leisure.
+166 | What did the government say 【would】 be done if security officers found what they were searching for?
+82 | flaw: they focused on a future, healthier you and assumed that this 【would】 be enough motivation for teenagers.
+109 | W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, so maybe a game that they can play together 【would】 be good.
+159 | “Life 【would】 be impossible if we remembered everything,” she said.
+80 | That 【would】 be in place when human drivers fail to slow down, thus avoiding tailgating the car in front, Horn said.
+175 | They 【would】 be independently funded.
+119 | What quality in the employees 【would】 be of great importance in a remote work context?
+117 | Obese people 【would】 be overwhelmed with anxiety.
+111 | Five years ago, the city of Queens, New York, announced that it 【would】 be putting bike lanes onto a stretch of Skillman
+170 | They 【would】 be responsibly conducted.
+180 | The natural habitat of wildlife there 【would】 be ruined.
+148 | Local business owners on Skillman Ave argued that their businesses 【would】 be ruined when parking spots were replaced
+183 | The rainforests 【would】 be shrinking dramatically.
+179 | They 【would】 be strictly supervised.
+91 | What type do you think 【would】 be suitable for a barbecue?
+167 | The effect 【would】 be to roast the beans all over, and produce perfect coffee.
+164 | They 【would】 be totally unbiased.
+147 | Two sets of sensors 【would】 be used to help drivers determine the distances between cars.
+177 | Once back on Earth, the planet’s first space-roasted beans 【would】 be used to make coffee that 【would】 be sold for the first time in Dubai.
+138 | Send a quick message to a current or previous company employee on LinkedIn or by email and ask if they 【would】 be willing to have a quick conversation with you about the organization in general.
+135 | To be honest, I could use some help in deciding what type of vehicle 【would】 best suit my needs.
+106 | “Forty-four per cent 【would】 buy another drink which is not great, 14% 【would】 go without, and 4.5% said they
+160 | A pair of entrepreneurs are planning to build and launch a spacecraft that 【would】 carry and roast coffee beans in outer space.
+181 | It is not clear how much they 【would】 charge for a cup.
+116 | So including labor costs, taxes, and everything, this job 【would】 come to $3,000.
+155 | G) Keynes's prediction of a shorter working week rests on the idea that the standard of living 【would】 continue rising for
+95 | He did something all professionals 【would】 do.
+81 | It 【would】 do harm to one's muscles.
+129 | What 【would】 drivers do when they suffer from “warning fatigue”?
+171 | What 【would】 financial literacy do to young people?
+130 | On a regular day at a local food market, people 【would】 find a display table with 24 different kinds of jams.
+127 | 【would】 find a fountain.” she says.
+161 | My boss 【would】 genuinely listen to and value all of my ideas and suggestions.
+128 | He said it 【would】 give prospective students more information about what to expect once they graduate.
+176 | What 【would】 happen if the cacao farms were shifted to cooler mountainous areas?
+182 | The cacao farmers 【would】 have a tough time to adapt.
+99 | L) On the subject of career advancement, 59% of women and 49% of men said leave could be limiting and both genders said they feared it 【would】 have an impact on their progress long-term.
+173 | The kitchen 【would】 have endless options of pizza and cookies.
+125 | century after the last data Keynes 【would】 have had access to.
+88 | They were complete clock watchers, while I 【would】 have liked a more flexible schedule.
+101 | He 【would】 have no rival in Grand National steeplechases.
+122 | I 【would】 have thought that in London most people don’t speak foreign languages.
+151 | I 【would】 have to stay with a friend or check into a hotel.
+121 | What 【would】 help improve food security among the disadvantaged groups in Canada?
+123 | This 【would】 help increase the amount of recycled plastic in circulation.
+94 | That 【would】 help you learn self-acceptance, or that it’s okay to be the focus.
+154 | This 【would】 imply that the participants in the current study may have felt better due to improved diet.
+98 | What did Dr Matous and his team do to find out whether team-building activities 【would】 improve productivity?
+131 | control approach 【would】 include adding rear-facing sensors to determine the distance to the vehicle following a car.
+149 | Not to mention the overwhelming amount of homework they assign, which 【would】 lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?
+102 | productivity, which he thought 【would】 lead to a standard of living “between four and eight times as high as it is today.
+142 | Many workers report that they 【would】 like to spend more time with family, rather than at work Furthermore,    ?P:would like
+90 | This requires a fundamental rethinking of what organizations expect from employees and what companies 【would】 look for in a model employee in a remote work context.
+103 | It 【would】 make sense that wild campers need to ask for permission to camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It 【would】 be common sense for people to use small tents and leave no trace of their visit.
+169 | Keynes was right in predicting that technology 【would】 make the economy much more productive.
+144 | This 【would】 mean tax on bottled water 【would】 be refunded to customers who returned
+158 | In the process, we may fail to attend to ourselves in a way that 【would】 move us toward deeper intimacy,
+124 | Next, they were told either that they 【would】 negotiate for themselves, or they 【would】 program an artificial intelligence agent to negotiate for them.
+105 | I was getting were that I 【would】 never be taken seriously or promoted or given raises at the same rate as men, who were clearly
+115 | He’s a good friend of mine, and he 【would】 never try to pressure you or cheat you.
+87 | Obese people 【would】 not be able to afford the medical costs.
+97 | “I handle my own gold medal so gently that I 【would】 not scratch it.
+178 | Offering online classes certainly helps students who 【would】 otherwise not be able to attend classroom sessions.
+92 | More research is needed to see how exactly the relation between emotional intelligence and stress 【would】 play out in women and in people of different ages and education levels.
+93 | In one study, researchers showed the participants columns of abstract illustrations and asked them which ones they 【would】 prefer.
+86 | So we 【would】 prefer the more expensive option.
+83 | With so much greenery and fresh air, I think his current breathing problems 【would】 probably disappear. [13] They did just open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+113 | M: Yeah, the classrooms 【would】 probably smell like paint, making the air in the school all stuffy.
+134 | It 【would】 prove a right step to take in today’s catering business.
+165 | Giving young people the opportunity to become familiar with the world of money 【would】 provide them with a great
+133 | What about our local school then? [14] They have a wonderful arts program that 【would】 really challenge Jake in terms of creativity and imagination.
+112 | They focused on the benefits young people 【would】 reap in the future.
+100 | W: We have bunches of brochures here. [15] I 【would】 recommend getting out on a boat trip.
+162 | M: Yes, for hard cheese, I 【would】 recommend this Italian one here.
+145 | This bill 【would】 require the universities and colleges to send a packet directly to students.
+114 | It was a mad gamble few chefs in the fine dining world 【would】 risk taking.
+132 | parking spots, as they argued at protests and in letters to the city council, 【would】 ruin stores and restaurants along Skillman.
+104 | Participants who saw their aged selves said they 【would】 save 30%
+126 | Researchers found that participants who saw the images of their aged selves 【would】 save more for their later years than
+156 | What 【would】 scientific studies look like in a perfect world according to the author?
+84 | It 【would】 set a model for many more restaurants to follow.
+141 | But they could also indicate that they—or their agent—【would】 strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter so that the other party 【would】 think they were losing interest.
+184 | The quality of cocoa beans 【would】 suffer greatly.
+139 | M: (9-2) I 【would】 suggest having at least one soft cheese and one hard cheese.
+153 | I 【would】 suggest something like this Spanish goat cheese.
+89 | For example, if someone breaks the law, the golden rule 【would】 suggest that we should let them go, because we 【would】 not want to be punished ourselves.
+136 | M: Please bear in mind that the price includes moving all the furniture, and the whole task 【would】 take two days.
+172 | The beans 【would】 then be roasted in the heat generated by the craft’s 20-minute re-entry into Earth’s atmosphere.
+85 | 【Would】 this be your first car?
+96 | 【Would】 you like to sit in first or second class?
+120 | How much 【would】 you like to spend?
+152 | Simple questions like, “What three words 【would】 you use to describe the culture here?” or “What’s your favorite part about working for this company?” can reveal a lot about what it’s really like behind closed doors.
+
+============================================================
+## 词：out    本段 119 句    模式：全标（每句都写）
+原释义：adv.向外; 在外; 出现; 耗尽. prep.从……出去.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 出去，向外；在外面（get out, take the trash out, dine out）    B 样本 10    例：Taking her trash out in fancy dresses.
+  1  prep. （out of）从…里面出来，离开（walk out of the room）    B 样本 8    例：It’s a tool you can make yourself to take the stress out of studying.
+  2  prep. （out of）在…之中，从…中（nine out of ten 十分之九）    B 样本 6    例：Out of these assistants, Siri is the most well-known.
+  3  adv. 出现，出来（come out 出来、问世）    B 样本 0
+  4  adv. 完，尽；彻底（run out 用完）    B 样本 0
+  5  adv. （灯、火）熄灭    B 样本 0
+  6  adv. 大声地，出声地（read out, cry out）    B 样本 0
+  7  prep. （out of）出于（out of curiosity 出于好奇）    B 样本 0
+  8  prep. （out of）缺少，没有（out of money）    B 样本 0
+已标过的短语：find out（13）；turn out（6）；miss out（5）；work out（2）；carry out（2）；send out（2）；point out（2）；run out of（1）；wipe out（1）；out of order（1）；stress out（1）；seek out（1）；check out（1）；play out（1）；out of reach（1）；hang out（1）；set out（1）；break out（1）；sort out（1）；cheat sb out of sth（1）；pump out（1）；take out（1）；figure out（1）；out of work（1）；out of date（1）；worn out（1）；lay out（1）；even out（1）；leave out（1）；test out（1）；strip out（1）；try out（1）
+口径说明（照此执行）：
+  - 给C的口径：out 只表空间「向外、出去、在外」（get out, go out, take the trash out, hold out one's arms, dig out nests, dine out）按0；out of 表「从…里出来」（含比喻的 pull oneself out of misery、bring costs out of the realm、take the stress out of）按1；nine out of ten、out of these assistants 按2。表完成、彻底、出现、去除、引申义的短语动词一律标P（find out, turn out, carry out, point out, figure out, miss out, work out, run out of, sort out, set out, send out, take out 表「拆除、去掉」等）；out of date / order / reach / work 标P。出生的 come out 按0。80句里P占大半，非P义项中0、1、2数量接近，首要义项待全量统计确认。
+句子：
+95 | Quite well, it turns 【out】.    ?P:turn out
+107 | In the US, France and Germany, written contracts tend to be seen as something that must be strictly carried 【out】.    ?P:carry out
+110 | An Italian study found that for simple arithmetic there was little difference between right- and left-handed performance, (24) but for more difficult problem-solving, left-handers won 【out】.
+141 | So one dark evening, she put on her black off-the-shoulder gown and put her trash bin 【out】.
+149 | M: I go to the bank once a week, and the rest of the time I keep my bank card at home, so I can’t get more cash 【out】.
+152 | frequently drivers who commute from other parts of the city by car, Grabar points 【out】.    ?P:point out
+166 | M: Please hear me 【out】.    ?P:hear sb out
+174 | In 2016, researchers from Columbia, Harvard, and Georgetown conducted a study to figure it 【out】.
+187 | Scientists can still help save chocolates from dying 【out】!
+196 | The growing trend of eating 【out】.    ?P:eat out
+198 | For example, some sensitive individuals may assume responsibility for other people’s sadness or anger, which ultimately stresses them 【out】.
+192 | Fill 【out】 a more comprehensive checklist, and be wary of listed prices that seem too low.
+133 | Sometimes, however, testing 【out】 a new idea can lead to disaster.    ?P:test out
+87 | could be rolled 【out】 across the state.
+84 | Do you prefer to fill 【out】 an application on the web, or to print it 【out】 and fill it in by hand and then post it back to us?
+146 | M: [10] We also give our kids pocket money, and the amount they get is linked to chores, such as putting the bins 【out】 and emptying the dishwasher.
+80 | But before you go 【out】 and find an entrepreneur to outcompete, it’s important to understand and avoid the traps that often come with rivalry.
+85 | To prove they stand 【out】 as accomplished professionals.
+142 | For now, the jury is still 【out】 as to how successful those endeavours will be.
+92 | New research suggests that pandas may be at risk of dying 【out】 because they are too comfortable.
+171 | As it turns 【out】, boredom might signal the fact that you have a    ?P:turn out
+135 | A new study carried 【out】 by the University of Lincoln has found a link between the personalities of cat owners and the behaviour and wellbeing of their cats.    ?P:carry out
+124 | that have them 【out】 enjoying the weather.
+100 | as simple as giving kids room to play, tinker and try things 【out】, even as they grow older.
+156 | She didn’t just pass 【out】 food, she gave them love....
+144 | Imagine boating down the Amazon River, minding your own business—calmly keeping an eye 【out】 for alarmingly large snakes—and a curious pink dolphin appears to swim alongside. [19] While this may seem like a mythical creature, pink dolphins do exist in the Amazon region.    ?P:keep an eye out for
+145 | habits day in and day 【out】 for greater success.    ?P:day in and day out
+81 | The result is a piece of bone like a horn that sticks 【out】 from the head by the neck.
+154 | Van de Rijt said he's not convinced that losing 【out】 gives people a psychological boost;    ?P:lose out
+123 | Working 【out】 how much we save using discount pizza coupons, for example, is much more relevant than abstract sums.    ?P:work out
+82 | But working 【out】 how to behave online is a new social skill.    ?P:work out
+108 | Just come in and figure 【out】 how to increase peace and decrease violence.    ?P:figure out
+111 | Once I did get 【out】, I was totally exhausted.
+169 | When people have no way 【out】 in crises, they are more likely to embrace changes.
+140 | There are always several of those bikes 【out】 in front of our apartment complex.
+143 | Red Rum’s true talent came 【out】 in steeplechases (障碍赛马).    ?P:come out
+197 | More research is needed to see how exactly the relation between emotional intelligence and stress would play 【out】 in women and in people of different ages and education levels.    ?P:play out
+94 | wear 【out】 increasing the risk of developing type 2 diabetes.
+138 | E) If Kelli stands 【out】, it’s because she is also a gifted writer.
+173 | But it turns 【out】 Japan still has some very old mills with the traditional weaving tools used to make jeans the original way.    ?P:turn out
+93 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking 【out】 loud lets you communicate with someone even when you can’t see them.
+102 | It’s what motivates non-human animals, human infants and probably human adults to explore and seek 【out】 new things before growing less interested in them after continued exposure.    ?P:seek out
+163 | In a busy world, “being busy” doesn’t stand 【out】, nor does it mean productive, creative, accomplished, or professional.
+86 | The staff believe he squeezed himself 【out】 of a gap located around new energy-saving bulbs installed inside the snake house.
+186 | After all, if you can jump 【out】 of a plane or off a bridge, then you can face anything else easily.
+184 | Every time I walk 【out】 of a superhero movie, I feel the same way.
+181 | is the story of 92-year-old Henry Dryer, who comes 【out】 of dementia while listening to songs from his youth.    ?P:come out of ?P:come out
+164 | J) It's obvious that students should go to school every day to get the most 【out】 of education.
+167 | What foods have been largely 【out】 of favor for more than a century?
+109 | They hit me right 【out】 of gate with a $160 fee to attend my freshman orientation, a price which does not include the cost of travel to and from the District.
+162 | 【Out】 of habit.    ?P:out of habit
+158 | He can just concentrate on how interesting the meeting might be and what he needs to get 【out】 of it in order to progress.
+120 | attitude, but those who aren't as genetically gifted aren't necessarily 【out】 of luck.
+194 | The missing 【out】 of main meals leads to the habit of snacking.    ?P:miss out
+98 | But now that she ran 【out】 of money, she can’t.    ?P:run out of
+139 | After I fell 【out】 of my bed twice during my freshman year, the university installed a railing—for $20, billed to my student account.
+185 | That’s why we recently launched the 【Out】 of Office Email Generator, a free tool you can use before your next long weekend or trip.    ?P:out of office ?X
+193 | Why did the author and his colleagues launch the 【Out】 of Office Email Generator?    ?P:out of office ?X
+157 | My benefits became invalid the second I moved 【out】 of Ohio.
+88 | It goes 【out】 of order frequently.    ?P:out of order
+89 | E) Hope is not entirely 【out】 of reach.    ?P:out of reach
+114 | The KaiOS devices offer an alternative to the more expensive models that remain 【out】 of reach of many Africans and contribute to the digital divide.    ?P:out of reach
+188 | The state attracts more undergraduate students than it sends to colleges 【out】 of state. [25] Many colleges and universities currently provide similar information on their websites.
+122 | Fishbach of the University of Chicago have made a career 【out】 of studying the differences between the goals that people    ?P:make a career out of
+170 | put people into layers of confusion, and the study confirms that music can sometimes ___30___ lift people 【out】 of the
+160 | K) Until genetic engineering comes to fruition, other strategies might also help in some places, including applying more fertiliser, implementing better irrigation, using machinery that gets crops 【out】 of the field faster or installing storage facilities to delay spoilage.
+191 | evidence that food conswned 【out】 of the home is one of the most poorly recorded categories in surveys.
+90 | The elephant wandered 【out】 of the jungle and fell into the well.
+195 | Students may not be able to enjoy their state benefits when they go to college 【out】 of the state.
+126 | Video of the rescue operation shows how the team used a crane to lift up the huge animal 【out】 of the well and onto the back of a truck.
+91 | interests and values that determine what they want 【out】 of their lives.
+176 | And, of course, some researchers today still fund small-scale studies 【out】 of their own pockets.
+136 | G) Indeed, the number of senior high school students who said they had not read any books for pleasure in the last year was one 【out】 of three by 2016.
+99 | past the age of 45, there’s nearly a two in three chance you’ll be 【out】 of work for over a year, they find.    ?P:out of work
+118 | W: We have bunches of brochures here. [15] I would recommend getting 【out】 on a boat trip.
+131 | admit that post-45 hires turn 【out】 on average to be just as good as or better than younger workers, they still don’t want to    ?P:turn out
+147 | miss 【out】 on getting a good exam grade, the DFE’s research concluded.    ?P:miss out
+178 | the need for a ‘catch up’ phase once we’re 【out】 on our own after graduation.
+150 | bar or drink, we also risk missing 【out】 on the rich sources of antioxidants , vitamins and many other benefits of    ?P:miss out
+161 | In the following two years, Red Rum lost 【out】 on the title, coming in second both times.    ?P:lose out
+101 | persevering losers still came 【out】 on top.    ?P:come out on top ?P:come out
+182 | The final potential cause is an increase in snacking and eating 【out】 over recent decades-both in terms    ?P:eat out
+148 | year, the UK government set 【out】 plans to ban single-use plastic from its estate.    ?P:set out
+104 | Let’s just go 【out】 somewhere close to eat.
+125 | The industry is quick to point 【out】 that all its bottles are recyclable.    ?P:point out
+153 | It turns 【out】 that ASMR is pretty special.    ?P:turn out
+172 | We did not know to ask—and the school did not readily point 【out】—that even if tuition rises, my financial aid package will stay the same.    ?P:point out
+103 | He points 【out】 that more than 200 genes influence weight.    ?P:point out
+134 | Professor Wilding disagrees that labelling a high proportion of the population as having a disease removes personal responsibility or may overwhelm health services, pointing 【out】 that other common diseases, such as high blood pressure and diabetes, require people to take action to manage their condition.    ?P:point out
+119 | And it turns 【out】 that when they write for strangers, their sense of “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.    ?P:turn out
+180 | Conducting more studies to find 【out】 the best timing for treating different diseases.    ?P:find out
+127 | progress (“Hey, I'm figuring 【out】 the best way to do this!”).    ?P:figure out
+121 | Remember that you will have to have all your certificates to hand when you are filling 【out】 the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+189 | Finding 【out】 the most effective drugs for treating diseases through further research.    ?P:find out
+112 | Try to remember that as you are staring at the application for your marriage license and filling 【out】 the portion that reads “name after you get married” (or whatever the legalese for that might be).
+97 | Figuring 【out】 the positive properties of each food item.    ?P:figure out
+115 | This inspired Andrea to get dressed up to take 【out】 the trash.    ?P:take out
+177 | I’ve never envied a busy person—the one who likes to point 【out】 their busy lives to others.    ?P:point out
+183 | But there are promising students from struggling families across the nation who should not rule 【out】 their dream schools entirely.
+159 | Besides, it also helps to remind people in the community to put 【out】 their trash bins each week.
+130 | Some music inspires you to move your feet, some inspires you to get 【out】 there and change the world.
+165 | There are undoubtedly hundreds of great resources 【out】 there for those wishing to improve their financial literacy, but
+190 | H) There are already plenty of gamers 【out】 there who know that their hobby has made them who they are.
+179 | He believes giving 【out】 this information will help Ohio’s colleges and universities to be more competitive.    ?P:give out
+155 | As Professor O’Keefe pointed 【out】, “This research provides a useful direction for organizations whose products and services call for integrated and creative solutions.    ?P:point out
+151 | business casuals on a Friday, since colleagues are most likely to take 【out】 time to socialize on the last work day of the week.    ?P:take out
+129 | E) This little story turns 【out】 to be a fascinating glimpse at the challenges cities face as they try to update their urban    ?P:turn out
+96 | Organizers expect about 100 athletes will come 【out】 to compete in Fayetteville.    ?P:come out
+113 | Yet knowing when it's going to rain is vital for farmers wanting to sow seeds, irrigate crops or take their animals 【out】 to the fields to feed on grass.
+128 | Sciences, set 【out】 to understand if the associations between sugary soft drinks and health — including risk of diabetes and    ?P:set out
+117 | Examine our strategies and find 【out】 weaknesses.    ?P:find out
+106 | However, figuring 【out】 what a company is like before you actually work there can be a bit of a challenge.    ?P:figure out
+116 | What did Dr Matous and his team do to find 【out】 whether team-building activities would improve productivity?    ?P:find out
+137 | O) Keep these tips in mind to figure 【out】 whether you and a potential employer are a perfect match or just a recipe (方案) for disaster.    ?P:figure out
+175 | Figure 【out】 which of the two is more reliable.    ?P:figure out
+132 | "Maybe we should spend less money trying to figure 【out】 who is better than    ?P:figure out
+83 | In a new paper, Friedman tries to figure 【out】 why that increased productivity has not translated into increased leisure    ?P:figure out
+168 | mean, who wants to hang 【out】 with people in their suits?    ?P:hang out
+105 | In another analysis, researchers found that today’s teens go 【out】 with their friends much less often than previous generations did.
+
+============================================================
+## 词：only    本段 68 句    模式：全标（每句都写）
+原释义：adv.只; 仅仅; adj.唯一的; 仅有的.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adv. 只，仅仅；只不过    B 样本 57    例：Use books and pens only.
+  1  adj. 唯一的，仅有的（the only）    B 样本 10    例：But these aren’t the only
+  2  adv. （only when / only now / only recently）只有…才；直到…才    B 样本 5    例：The journey was only recently confirmed by authorities.
+  3  conj. 只是，不过（only maybe wordier）    B 样本 1    例：arguments, packed with examples, sound almost like reading a court opinion, only maybe wordier.
+已标过的短语：not only...but also（9）
+口径说明（照此执行）：
+  - 给C的口径：not only…but (also)（含倒装、省略 but also 的 Not only does…, it…）一律标 P:not only...but also；the only / one of the only 按1；only when、only now、only recently、only the case when 按2；only just（勉强、刚好）、if only for a short while（哪怕只是）、only to a point、grow only fonder 均按0；if only 表「要是…就好了」时标 P:if only。题干 will be spoken only once 出现极多（n=21/18）。
+句子：
+89 | It affects low performing children 【only】.
+101 | Certain companies have started selling simple smartphones for 【only】 $20.
+106 | Learning new tricks should not be confined to old dogs 【only】.
+113 | A stretch of Skillman Ave witnessed not 【only】 a big increase in sales but also the opening of new businesses.
+142 | While 【only】 a small portion of the world's languages are anumeric or nearly anumeric, they
+92 | It is 【only】 a temporary measure.
+123 | 【Only】 a tenth of our oceans’ fish stocks could sustain heavier fishing than current levels.
+83 | 【Only】 a very few have shifted to cycling, and even those almost certainly won’t cycle in Boston’s snowy
+93 | Nationwide, 【only】 about three percent of early childhood teachers are male in the U.S.
+80 | Additionally, we’re the 【only】 animal that expresses thoughts in full sentences. [16] Researchers don’t think language was invented; instead, they think it evolved.
+145 | spoon-fed number words, children can 【only】 approximately discriminate quantities beyond three.
+136 | These decisions should not 【only】 be made by those directly affected.
+144 | From this different perspective, you can not 【only】 be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+85 | science,” he says, but confesses he 【only】 became a true believer when he started asking players about their biggest in-game
+98 | What about the cost, not 【only】 buying all those tablets, but the software and electronic infrastructure that goes with it, not to mention retraining all the teachers and administration staff?
+138 | The sense of eagerness that comes with having a rival can not 【only】 cause you to make poorer decisions, but it can also lead you to take greater risks that put your venture in peril.
+134 | You need not 【only】 computer science and engineering knowledge, but also an understanding of psychology and visual design to create a better product.
+124 | In one example, the phrase "Send a text to Jason, Clint, Sam, and Lee saying we're having dinner at Silver Cloud restaurant" was interpreted as sending a message to Jason 【only】, containing the text "Clint Sam and Lee saying we're having dinner at Silver Cloud restaurant".
+109 | G) So the plastic tide 【only】 creeps higher.
+141 | According to one study, students' academic performance is not the 【only】 decisive factor of their stress
+139 | 【only】 demand change, but to act themselves.
+87 | Not 【only】 do we not want to see lives go to waste, but we
+104 | 【Only】 family, pets and one’s closest friends may enter it. [23] A mere acquaintance entering our intimate space makes us uncomfortable.
+100 | With a literacy rate in some parts of Africa at 【only】 22.6%, farmers are often "underpaid for their produce because they might be unaware of the prevailing prices," says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.
+127 | The 【only】 feasible option is to rely on what your instincts tell you.
+147 | Or they save money by hiring "top-tier c-m  ) experts" 【only】 for
+115 | the ninth grade can have long-term consequences not 【only】 for the students themselves but for their
+133 | remain in the can, even if there are 【only】 four or five in total.
+94 | However, gender matters more for them because cheek-kissing often 【only】 happens between women or a man and a woman but not two men.
+112 | Not 【only】 has red meat
+107 | Effective use of persuasion skills will not 【only】 help get your coworkers excited about your ideas, it’ll also help
+97 | If 【only】 I’d Googled before but I never thought of it.
+131 | They were based on the assumption that motivation was the 【only】 key.
+90 | There’s a widespread misunderstanding that 【only】 low performing children suffer from math anxiety.
+105 | In the decision-making process, relying on instincts 【only】 makes sense when you have a vast experience to support you.
+125 | It 【only】 means that the gender gap disappears when we plug in the negative reciprocity variable.
+81 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According to one survey, 【only】 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+128 | Today, 【only】 21% of engineering
+99 | Back in 1974, 【only】 10% of marine fish stocks had been overfished.
+121 | In their first 18 years of life, American children spend 【only】 9% of their time in school.
+88 | Both the passage and the questions will be spoken 【only】 once.
+84 | That’s not to say that I think my path is the 【only】 one—but once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+118 | After coding and analyzing the ideas they generated, the team found that people with a growth mindset of interest were more likely to bridge programs across the arts and sciences to create new majors like computational economics rather than creating majors that drew from 【only】 one of those areas, like computational chemistry.
+116 | Otltures without nwnbers, or with 【only】 one or two precise numbers, include
+95 | There was 【only】 one small problem: I simply didn’t get along with the company culture.
+119 | But, it’s important to keep in mind that the employer isn’t the 【only】 one who needs to identify a good match—you should be looking for that same exact thing.
+140 | Learning can benefit you by itself but 【only】 practice can turn what you learn into meaningful contributions.
+132 | Instead, declining grades 【only】 predicted worse stress hormones
+129 | Another has pledged to use 【only】 recycled plastic across its range by 2025.
+82 | It may sound trite , but beauty is 【only】 skin deep; it’s not what brings love toward us.
+143 | However, they're 【only】 slightly happier than their less-ambitious counterparts, and tend to live significantly shorter lives.
+108 | hit songs of the 1950s, researchers found, there was 【only】 slightly more than one 50 years later.
+120 | Is it 【only】 South Africa that plays it?
+96 | Many languages are spoken in South Africa, but she 【only】 speaks English.
+114 | They motivated teens to stay away from junk food 【only】 temporarily.
+102 | We found that 【only】 the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains these differences.
+135 | If those are the 【only】 things you can think of, don’t worry!
+146 | In 35 years, he worked for 【only】 three companies.
+103 | The US is one of 【only】 three countries in the world not to offer statutory (法定的) paid leave, but increasingly states and companies are starting to take up the issue.
+126 | E) Brad Harrington, executive director of the center and lead author of the study, estimates 【only】 20% to 30% of companies in the US offer paid parental leave.
+91 | recent paper he submitted to a journal, which accepted it 【only】 to request extensive editing, and then
+111 | They feel it 【only】 too logical to succeed.
+122 | There are 【only】 two seats available.
+137 | While in 1950, 【only】 2,500 U.S. families owned pools, by 1999 this number was 4 million.
+117 | The passports of many countries can take images of their well-known geographical features and wildlife, which also function as security features as some are 【only】 visible under a special light.
+86 | You 【only】 want to utilize hard data or facts.
+110 | selling author about writing, but the 【only】 way to become a better writer is to practice publishing consistently.
+130 | I) Even more importantly, practice is the 【only】 way to make a meaningful contribution with your knowledge.
+
+============================================================
+## 词：these    本段 121 句    模式：全标（每句都写）
+原释义：pron.这些. adj.这些的(this 的复数形式).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  det. 这些（后接名词）    B 样本 68    例：We asked these
+  1  pron. 这些（单独使用，指前面提到的人或事物）    B 样本 10    例：These are the results from a new study
+已标过的短语：these days（2）
+口径说明（照此执行）：
+  - these days（如今）按短语标；all/any/each/which of these + 名词按 det.0 标，句中后面不接名词、单独作主语或宾语（These are…、These include…）按 pron.1 标。原 def 的 adj. 改为 det.。
+句子：
+91 | It could also help to ___34___ 【these】
+146 | But even when 【these】 accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+122 | But life wasn’t easy for 【these】 animals.
+167 | Yet studies of first-year college papers suggest 【these】 anxieties may be partly based on misguided nostalgia (怀旧).
+171 | At the moment, the scientific bases for 【these】 applications are non-existent or incredibly weak.
+175 | 【These】 are different causes of stress and can benefit from different kinds of self-care.
+90 | 【These】 are generally known as “phantom” traffic jams, in which dense
+132 | 【These】 are much better and much more productive ways for companies to move forward on their employees’ wellbeing.
+170 | 【These】 are often very
+144 | They often talk about ways to get more sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that 【these】 are really important topics and 【these】 workshops help typical students succeed.
+198 | 【These】 are skills
+174 | 【These】 are the things that will genuinely relieve boredom and
+113 | 【These】 are traditionally very similar to college classes.
+126 | But 【these】 aren’t the only
+189 | This isn’t to say that all men engage in 【these】 behaviors—or that booking relatively late is a sign of abnormal behavior.
+136 | 【These】 beliefs contribute to a majority of workers connecting with colleagues on social media, even during work hours.
+127 | has called 【these】 beliefs "mindsets ( ,'i if!:tlj)," with a "fixed mindset" referring to the belief that
+114 | They also reported improved mental health and subjective vitality immediately after the program. [19] 【These】 benefits remained six months after the completion of the course.
+141 | 【These】 blind spots exist because smart people tend to be overconfident in their reasoning abilities.
+166 | Each of 【these】 bubbles applies to a different set of people.
+190 | 【These】 bubbles are constructed and monitored by the brain region involved in fear.
+200 | A study of 12- to 19-month-olds learning how to walk documented that 【these】 children fell down a lot.
+154 | Your day is ruled by minutes and seconds, but 【these】 concepts are
+161 | In my research with 277 employees of a healthcare organization I found 【these】 concerns to be misguided.
+105 | For students already struggling to pay tuition, 【these】 costs may be the least of their worries.
+199 | One of two things may happen: Employers pass 【these】 costs onto employees.
+197 | The exercise is simple but important, since it brings 【these】 costs out of the realm of speculation into the realm of meaningful discussion.
+84 | Scientists believe that both of 【these】 countries will experience a 3.8F temperature increase by 2050 due to global warming,
+99 | Although men’s touching is more normal in 【these】 cultures, physical contact between persons of opposite sexes who are not family members is negatively perceived in Arabian countries.
+110 | "They tell us the methods their forefathers used to predict the weather don't seem to work as well 【these】 days.    ?P:these days
+139 | We’re eating more fish than ever 【these】 days.    ?P:these days
+180 | Why does the author say aquaculture is so important 【these】 days?    ?P:these days
+107 | 【These】 days, although challenges still remain, it’s a good time to be a deaf person in tech, says Miller.    ?P:these days
+159 | 【These】 days, the public can access debates about science regardless of where they take place.    ?P:these days
+135 | 【These】 decisions should not only be made by those directly affected.
+86 | However, if 【these】 designers had
+109 | But the Australian researchers wanted to discover what was driving 【these】 differences.
+164 | We found that only the concept of “negative reciprocity”—in which an employee who feels unfairly treated engages in negative behaviors, such as spending their company’s money less carefully—explains 【these】 differences.
+96 | We regard 【these】 disappointments as a fate we could have avoided with more careful
+125 | This is because the liver enzyme 【these】 drugs target is more active at night.
+162 | As a low-income student from a down-and-out Rust Belt community, 【these】 educational experiences have enormous potential to brighten my future—and my family’s future.
+81 | 【These】 effects can also be
+147 | “It is important to understand 【these】 ___34___ effects when trying to
+111 | They find 【these】 exercises too demanding.
+129 | Despite 【these】 existing recommendations, there is nothing regarding the cover color.
+187 | Given 【these】 expectations, schools should not become permanently “remote”.
+118 | 【These】 experiences have been shown to build children’s confidence and pleasure in physical activities, develop their motor skills, and even improve emotional well-being.
+98 | 【These】 experts argue that focusing on wage is the wrong approach.
+95 | 【These】 experts claim there is not sufficient data to indicate that people’s reliance on those other activities is an addiction.
+143 | None of 【these】 explained away the gender gap, so we applied data collected from surveys that express consumer preferences that play a central role in economic decisions, such as patience and risk avoidance.
+133 | 【These】 factors could definitely affect the degree to which someone is comfortable with tactile (触觉的) communication and physical intimacy.
+119 | 【These】 farms will then have to be shifted to cooler mountainous areas,
+168 | some of 【these】 fashions.
+138 | Even if your school offers a flat-rate fee for a doctor’s appointment at the student health center (mine is $20 a visit), 【these】 fees often do not include extra fees for lab tests or prescription medications (药物).
+101 | 【These】 findings could help organizations become more diverse.
+184 | 11itJ) 【these】 findings in more diverse school communities.
+172 | J) 【These】 findings lead to several possibilities that we are investigating further.
+178 | 【These】 findings present a dilemma for managers: employees using social media at work are more engaged and more productive, but they are also more likely to leave your company.
+87 | 【These】 findings suggest that people should change how they present themselves depending on their social goal.
+80 | M) 【These】 findings suggest that when it comes to achieving your goals, enjoying the process itself is more important than
+150 | 【These】 findings support the idea of wearing
+177 | Building on 【these】 findings, the latest research examined how a growth mindset of interest can boost integrative thinking across the traditional disciplinary boundaries of arts and sciences.
+112 | We wanted to determine what was causing 【these】 gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.
+196 | How can they work together to achieve 【these】 goals?
+116 | 【These】 groups provide invaluable funding for scientific research.
+192 | of schools and for which kinds of students 【these】 growth mindset ideas help young people adapt to the
+179 | “The only overlapping feature in most of 【these】 healthy countries is that they all walk way more than the average American,” said Pasternak.
+142 | First, large houses take time to maintain, so cleaners and other low-wage service workers are required to keep 【these】 houses in order.
+104 | It includes not just how we form 【these】 impressions, but the conclusions we make about other people based on our impressions.
+145 | What caused 【these】 improvements?
+148 | 【These】 include helping with social development, increasing physical activity, managing anxiety or serving as a source of attachment in the face of changing family structures.
+137 | 【These】 included their ability to form and maintain friendships and get along with people who are different.
+94 | instincts that are refined with age, but 【these】 instincts are very limited.
+131 | 【These】 invisible duties become apparent only when you don’t do them.
+186 | It is important to talk through 【these】 issues before they come to a head.
+152 | 【These】 kinds of applications are generally accurate.
+169 | Given 【these】 limitations and concerns, even if this mode of obtaining consent is to move
+195 | Our results show another way 【these】 negative behaviors can manifest themselves, like in airline bookings, and add to evidence that women are less likely to engage in them.
+181 | The surveys showed men tend to exhibit more of 【these】 negative behaviors than women.
+151 | 【These】 new generations of alternate meat get all the attention, but don’t forget about whole grains and vegetables.
+93 | We make 【these】 observations as research psychologists who have studied how
+130 | 【These】 papers deal with a kind of failure people have little control
+117 | The researchers were able to identify the causes behind 【these】 ___30___ paradoxica results, too: People tend to ___31___
+185 | Who are 【these】 people?
+182 | How did 【these】 personal bubbles arise?
+124 | The exact cause of 【these】 phantom traffic jams has long remained a mystery.
+82 | 【These】 pioneers reflected on the challenges they faced — and had advice for women entering the field today.
+193 | Slowly but surely, 【these】 platforms create a bridge between traditional enterprises and this emerging
+103 | Schools must develop anti-cheating policies that include technology and 【these】 policies must be updated consistently.
+176 | They say that 【these】 prison numbers are unusually high and ask why it is the case.
+188 | By sharing knowledge of agriculture and climate with peers in countries most vulnerable to poverty and hunger, scientists can help reduce 【these】 problems.
+163 | Despite 【these】 problems, however, shrimp continues to be among the most popular seafoods worldwide.
+157 | It is feared that a failure to address early-year challenges, such as poor handwriting, leads to much more serious problems down the line—with 【these】 pupils facing reduced career prospects.
+120 | G) In situations like this one, we often claim that we are preparing or researching the best method, but 【these】 rationalizations
+183 | 【These】 reduce the likelihood of errors and increase the chances of success.
+158 | Yet solving problems like 【these】 requires new approaches that extend beyond traditional ways of thinking.
+165 | We don’t know if you’ll achieve what 【these】 risk-takers have achieved.
+156 | Sure, circumstantial stress, like losing a job, may lead to 【these】 same issues.
+194 | However, 【these】 savings result from passing costs on to workers.
+123 | research into the impact of clothes on behavior now suggests that there may actually be a grain of truth in 【these】 sayings.
+191 | In 【these】 situations, instincts can help you make effective and quick decisions.
+128 | 【these】 smaller numbers are the basis of larger numbers.
+106 | But even after we have accounted for 【these】 social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.
+102 | “The public has to learn to be far more aware they are a target for 【these】 sort of frauds.
+121 | Some of 【these】 students are very imaginative.
+153 | When 【these】 students gave the speech, their blood vessels contracted and their hearts
+83 | Almost all of 【these】 students will be in kindergarten through high school, but 66 will be in prekindergarten and other programs.
+155 | 【These】 studies are impressive, but in
+115 | A rich social life, 【these】 studies suggest, can lower stress levels, improve mood, encourage positive health behaviors and discourage damaging ones, boost heart health and improve illness _34_ rates.
+88 | looking into the effects of fructose-containing sugars with control diets free from or lower in 【these】 sugars.
+89 | But the quality from 【these】 suppliers is high.
+149 | Recent evidence points to drivers’ limited understanding of what 【these】 systems can and cannot do as a contributing
+92 | 【These】 things cost money, and time.
+140 | 【These】 things have made a huge difference.
+108 | The basis for each of 【these】 things, however, is whether or not you are willing to make a compromise when it comes to changing your name.
+100 | O) Keep 【these】 tips in mind to figure out whether you and a potential employer are a perfect match or just a recipe (方案) for disaster.
+160 | (22-1) How the balance is struck between 【these】 two forms of communication—the point at which one needs to be exchanged for another—really depends on individual cultures.
+85 | E) Learning something new and practicing something new may seem very similar but 【these】 two methods can have profoundly
+134 | Not all students have access to 【these】 types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.
+173 | Many companies now look to 【these】 "ultimate professionals" to solve
+97 | “They expressed optimism, calmness and sympathy even when 【these】 were not the emotions that they were actually feeling,” the study said.
+
+============================================================
+## 词：best    本段 13 句    模式：全标（每句都写）
+原释义：adj.最好的; 最优秀的. adv.最好地; 最. n.最好的人或事物(good/well 的最高级).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  adj. 最好的，最佳的（good 的最高级）    B 样本 67    例：music’s best works.
+  1  adv. 最好地，最（well 的最高级）    B 样本 3    例：They will try hard to land a job that fits their skills best.
+  2  n. 最好的人或事物；最佳状态    B 样本 2    例：They are puzzled how to present their best to the employer.
+已标过的短语：in sb's best interests（2）；do one's best（2）；look one's best（2）；try one's best（1）；at one's best（1）
+口径说明（照此执行）：
+  - do one's best / try one's best / look one's best / at one's best 按短语标；to/in the best interest(s) of 统一写 P:in sb's best interests；It's best to do（最好做…）、best friend、make the best use of 按 adj.0 标；the best 后面不接名词、指「最好的东西」或 present one's best 按 n.2；at best（充其量）、had best（最好还是）若出现按短语标。大量出现在答题说明（choose the best answer）里，已标 0 但不计入首要义项。
+句子：
+82 | What does it take for decisions to become the 【best】 according to the author?
+88 | Risk-takers are 【best】 at adapting in difficult times. [25] Simply put, when most individuals stay away from risk, it means less competition for risk-takers.
+80 | 【best】 choice and mark the corresponding letter on Answer Sheet 2 with a single line through the centre.
+89 | You should decide on the 【best】 choice and mark the corresponding
+83 | “This argument is, at 【best】, far from sufficient,” he writes.
+85 | G) In situations like this one, we often claim that we are preparing or researching the 【best】 method, but these rationalizations
+91 | have found that their 【best】 overall problem solvers were master tinkerers in their youth.
+84 | W: Welcome to Books in Review. [12] Our guest today is John Banks, the author of the 【best】 selling new book, Rewarding Success.
+81 | [19] For college students under pressure, a dog may be the 【best】 stress fighter around, according to the finding of a recent study.
+86 | Conducting more studies to find out the 【best】 timing for treating different diseases.
+90 | Knowing the 【best】 way to learn a foreign language will not enable you to speak it without actual practice.
+92 | By showing students the 【best】 way to learn is through play.
+87 | the 【best】 way to prepare today's children to be the makers and builders of tomorrow.

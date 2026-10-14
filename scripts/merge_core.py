@@ -20,6 +20,10 @@ base word's card, and gets nothing if the base ends up without one.
 A null in core_manual.json is a review veto: that word gets no card, whatever the
 sub-agents produced (e.g. kinds = 种类 must not inherit kind's 善良 card).
 The sub-agent brief is intermediate/core_chunks/PROMPT.md.
+
+v2 (2026-10-14, scripts/core_task.py): once core_chunks/v2_in_*.json exist, every
+card is rewritten against the 真题义项 in senses.json and the v2 outputs are the
+ONLY source -- a word without a v2 card (null, or dropped to one sense) has none.
 """
 import glob
 import json
@@ -57,6 +61,18 @@ def main():
     for w, base in alias.items():
         if w not in result and base in result:
             result[w] = result[base]
+
+    v2_in = sorted(glob.glob(str(INT / "core_chunks" / "v2_in_*.json")))
+    if v2_in:
+        missing = [Path(f).name for f in v2_in if not Path(f.replace("v2_in_", "v2_out_")).exists()]
+        if missing:
+            raise SystemExit(f"v2 tasks unfinished: {missing}")
+        result = {}
+        for f in v2_in:
+            for w, v in json.loads(Path(f.replace("v2_in_", "v2_out_")).read_text()).items():
+                c = clean(v)
+                if c and w not in vetoed:
+                    result[w] = c
 
     rooted = [w for w in result if (roots.get(w) or {}).get("parts")]
     for w in rooted:

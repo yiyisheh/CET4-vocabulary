@@ -1,0 +1,728 @@
+[
+ {
+  "word": "be",
+  "def": "aux. v.用于构成进行时和被动语态. v.是; 存在; 成为.",
+  "senses": [
+   {
+    "pos": "aux.",
+    "zh": "构成被动语态（be done）"
+   },
+   {
+    "pos": "v.",
+    "zh": "是（后接形容词、名词等）"
+   },
+   {
+    "pos": "aux.",
+    "zh": "构成进行时（be doing）"
+   },
+   {
+    "pos": "v.",
+    "zh": "在，存在；（活动）举行（there be / be here）"
+   },
+   {
+    "pos": "v.",
+    "zh": "成为，当"
+   },
+   {
+    "pos": "aux.",
+    "zh": "（be to do）将要，应该（表示安排或义务）"
+   }
+  ],
+  "phrases_seen": [],
+  "notes": [
+   "词条只匹配原形 be；is to be done 这类句子里 be 本身是被动助动词，所以「be to do」义项在本批中没有出现。be able to 按「是」标，未作 P。"
+  ],
+  "sents": [
+   {
+    "id": 680,
+    "text": "Talking about work-life balance is said to be a privilege reserved for the better-off, not for those who barely make a living.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 681,
+    "text": "The rainforests would be shrinking dramatically.",
+    "n": 1,
+    "src": "cet4_2024_12_2"
+   },
+   {
+    "id": 682,
+    "text": "Driverless vehicles are likely to be misused by some people.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 683,
+    "text": "How does the author think grit can be helpful to us?",
+    "n": 1,
+    "src": "cet4_2025_06_1"
+   },
+   {
+    "id": 684,
+    "text": "It might not be able to rival classical music and opera in importance for centuries to come.",
+    "n": 1,
+    "src": "cet4_2025_06_2"
+   },
+   {
+    "id": 685,
+    "text": "They’re also more likely to be in professional",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 686,
+    "text": "A totally different approach could be adopted to combat advertising campaigns for snack food.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 687,
+    "text": "certain rare diseases can be easily identified, most potential health conditions cannot be identified by genetic testing alone.",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 688,
+    "text": "But can you be sure you've noted every snack",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 689,
+    "text": "Obesity, in which excess body fat has accumulated to such an extent that health may be adversely affected, meets the dictionary definition of disease, argues Professor John Wilding.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 690,
+    "text": "It can be difficult to know the real situation in a company until you become part of it.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 691,
+    "text": "The temptation for those in charge of education budgets to trade teachers for technology could be so strong that they ignore the disadvantages of distance learning.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 692,
+    "text": "This ability will be built upon self-confident people using open and shared scientific knowledge to pull themselves out of their misery.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 693,
+    "text": "Residences for seniors should be run independently.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 694,
+    "text": "They worry assistants will one day be used to deliver advertising directly to us.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 695,
+    "text": "To be clear, this institution is no hotel.",
+    "n": 1,
+    "src": "cet4_2023_06_1·听力"
+   },
+   {
+    "id": 696,
+    "text": "They found busy people are perceived to be of high status, and interestingly, these status attributions are heavily influenced by our own beliefs about social mobility.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 697,
+    "text": "They may be intently focused on winning at the current market level.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 698,
+    "text": "Our desire to be loved will be fulfilled.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 699,
+    "text": "you have a health issue and you want to be around longer for your kids, or if your business is something you're passionate",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 700,
+    "text": "collaboration and teamwork over traditional organizational structures, no one likes to be told what to do or to be pushed",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 701,
+    "text": "Without organisational support, any personal effort to maintain work-life balance will be unsuccessful.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 702,
+    "text": "What should be done to help drivers fully understand system capabilities and limitations?",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 703,
+    "text": "Workers in more physical jobs, meanwhile, may be more likely to look forward to retiring, Baily says, suggesting those",
+    "n": 1,
+    "src": "cet4_2025_12_1"
+   },
+   {
+    "id": 704,
+    "text": "An effective intervention has to be found to persuade teenagers to switch to a healthier lifestyle.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 705,
+    "text": "What kind of genetic tests tend to be comparatively reliable?",
+    "n": 1,
+    "src": "cet4_2025_12_3"
+   },
+   {
+    "id": 706,
+    "text": "This may be driven partly by self-deception or \"wishful thinking''.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 707,
+    "text": "“But unless we accept that obesity is a disease, we are not going to be able to tackle it,” he concludes.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 708,
+    "text": "To begin with, job applicants should be clear what they expect from their future employer.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 709,
+    "text": "But moving away from a traditional classroom in which a living, breathing human being teaches and interacts with students daily would be a disaster.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 710,
+    "text": "All of us can be affected by food instability one way or another.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 711,
+    "text": "While this may be so, it does not, in itself, prove that healthy diets are necessarily more expensive or cost-prohibitive.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 712,
+    "text": "According to Francis Dittoh, their speech-based weather information service was meant to be inexpensive and easy to use.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 713,
+    "text": "You can share loud and proud that you won’t be checking email until you’re back.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 714,
+    "text": "However, the question is: can a person really be a multitasker?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 715,
+    "text": "Our identity as social beings will be affected.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 716,
+    "text": "Because there is a delayed satisfaction associated with self-control, it can be easy to get off track.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 717,
+    "text": "What does the author say about the ability to be persuasive in the first paragraph?",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 718,
+    "text": "Some researchers suggest that work-life balance is not a goal to achieve, but a process for life to be adjusted promptly.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 719,
+    "text": "Training them to be experts in vehicle automation.",
+    "n": 1,
+    "src": "cet4_2024_12_3"
+   },
+   {
+    "id": 720,
+    "text": "Obesity can be hopefully prevented by building links between teenagers’ values and healthy eating.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 721,
+    "text": "people do not know how much they are eating, it can be really hard for them to stick to a diet.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 722,
+    "text": "It is now too widespread to be neglected.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 723,
+    "text": "Online classes began to be popularized just a few decades ago.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 724,
+    "text": "Moreover, schools should be more than simple institutions of traditional learning.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 725,
+    "text": "More people will be willing to join in the effort.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 726,
+    "text": "Their eating habits need to be changed.",
+    "n": 1,
+    "src": "cet4_2022_12_3"
+   },
+   {
+    "id": 727,
+    "text": "What are big houses promoted to be in the United States?",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 728,
+    "text": "What is a reason for the author to be in the habit of saying “busy” when asked how he is doing?",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 729,
+    "text": "This requires two essential conditions: that one of the tasks needs to be automatic, like walking or eating, and that they both need different mental processes.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 730,
+    "text": "Our life will be unfruitful and exhausting",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 731,
+    "text": "Why can it be difficult for us to maintain self-control?",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 732,
+    "text": "People may cither be born with it or be able to cultivate it.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 733,
+    "text": "The weakening of the human connection to nature might be good for economic growth but is bad for people.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 734,
+    "text": "So, it might be fair to assume",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 735,
+    "text": "should be looking for new ways to ensure what people eat wouldn't have much impact on their waistlines.",
+    "n": 1,
+    "src": "cet4_2021_06_3"
+   },
+   {
+    "id": 736,
+    "text": "It should be regarded as a genetic disease.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 737,
+    "text": "They are not designed for students to interact with the material in depth but designed to be graded easily to accommodate such a large number of students.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 738,
+    "text": "Yet teachers are expected to prepare them to be responsible citizens, cultivate their social skills, encourage successful time management, and enhance their capacity to flourish in an increasingly harsh labor market.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 739,
+    "text": "More food will be made available to the needy.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 740,
+    "text": "This is problematic because it hinders your ability to adapt to new circumstances, which is vital if you want to be a successful entrepreneur.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 741,
+    "text": "He is actually proud to be fully occupied.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 742,
+    "text": "However, on the other side of the coin there are people who maintain that it is possible to be, or at least seem to be, multitasking.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 743,
+    "text": "Our sense of self will be sharpened and enhanced.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 744,
+    "text": "Self-control tends to be associated with pains.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 745,
+    "text": "They enable employees to be convinced of their long-term gains.",
+    "n": 1,
+    "src": "cet4_2024_06_3"
+   },
+   {
+    "id": 746,
+    "text": "wood has such health benefits that the Woodland Trust successfully lobbied for it to be prescribed by doctors.",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 747,
+    "text": "According to Foulkes, “Children’s dream life...seems to be similar to their waking imagination and narration.",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 748,
+    "text": "Its dictionary definition should be updated.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 749,
+    "text": "The office hours of the professor may also be during inconvenient times for many students as well.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 750,
+    "text": "Technology, no matter how advanced, should simply be a tool of a good teacher.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 751,
+    "text": "The relief effort will be rendered less sustainable.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 752,
+    "text": "Ambitious people tend to be more materialistically successful than their non-ambitious counterparts.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 753,
+    "text": "He thinks everyone should be devoted to work.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 754,
+    "text": "From this different perspective, you can not only be multitasking but this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 755,
+    "text": "48 What may account for our need to be liked or approved of?",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 756,
+    "text": "Today, researchers are likely to be funded",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 757,
+    "text": "that teenagers will be able to take a natural history test given that for decades children have been able to name more video",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 758,
+    "text": "So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, there may be other factors at",
+    "n": 1,
+    "src": "cet4_2025_12_2"
+   },
+   {
+    "id": 759,
+    "text": "Obese people would not be able to afford the medical costs.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 760,
+    "text": "Most interaction with the professor has to be through email which is often impersonal.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 761,
+    "text": "Prepare students to be competitive in the future.",
+    "n": 1,
+    "src": "cet4_2022_06_2"
+   },
+   {
+    "id": 762,
+    "text": "Rich countries should be more generous in providing food aid.",
+    "n": 1,
+    "src": "cet4_2022_12_2"
+   },
+   {
+    "id": 763,
+    "text": "But an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and even a shorter life.",
+    "n": 1,
+    "src": "cet4_2023_06_1"
+   },
+   {
+    "id": 764,
+    "text": "Our status can be attributed to our social mobility.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 765,
+    "text": "Why can’t people really be multitaskers according to neuroscientists?",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 766,
+    "text": "Learning new tricks should not be confined to old dogs only.",
+    "n": 1,
+    "src": "cet4_2024_06_1"
+   },
+   {
+    "id": 767,
+    "text": "In a perfect world, money wouldn’t matter — all scientific studies would be completely objective.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 768,
+    "text": "Part of remedying this social disease would be for parliament to pass a “right to grow” law, allowing anyone to turn",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 769,
+    "text": "Obese people would be overwhelmed with anxiety.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 770,
+    "text": "It can be harder for students to create study groups and form relationships with their peers.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 771,
+    "text": "It proves to be counterproductive in a number of ways.",
+    "n": 1,
+    "src": "cet4_2023_12_1"
+   },
+   {
+    "id": 772,
+    "text": "Their attention span cannot be expanded.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 773,
+    "text": "Ultimately, misleading results will be corrected as science",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 774,
+    "text": "I was getting were that I would never be taken seriously or promoted or given raises at the same rate as men, who were clearly",
+    "n": 1,
+    "src": "cet4_2024_12_1"
+   },
+   {
+    "id": 775,
+    "text": "Obese people would be discriminated against.",
+    "n": 1,
+    "src": "cet4_2021_12_2"
+   },
+   {
+    "id": 776,
+    "text": "Not all students have access to these types of resources, whether it is for financial or other reasons, and some students can be put at a disadvantage.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 777,
+    "text": "It is a desirable ability that can be developed.",
+    "n": 1,
+    "src": "cet4_2023_12_2"
+   },
+   {
+    "id": 778,
+    "text": "They would be totally unbiased.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 779,
+    "text": "Offering online classes certainly helps students who would otherwise not be able to attend classroom sessions.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 780,
+    "text": "They would be responsibly conducted.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 781,
+    "text": "More students may find it easy to be absent from them.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 782,
+    "text": "They would be independently funded.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 783,
+    "text": "Schools with limited resources will be at a disadvantage.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 784,
+    "text": "They would be strictly supervised.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 785,
+    "text": "When debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 786,
+    "text": "Its recommendations should be examined for feasibility.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 787,
+    "text": "A recent debate published in The New York Times discussed the question of how quickly medicine should be developed and produced.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 788,
+    "text": "Its misleading results should be corrected in time.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 789,
+    "text": "For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, but rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 790,
+    "text": "Its validity should be checked with additional care.",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 791,
+    "text": "If the public is to understand that science is an honorably self-correcting process, the idea that science is a fixed set of facts in a textbook needs to be dismissed.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 792,
+    "text": "Its hidden biases should be identified independently",
+    "n": 1,
+    "src": "cet4_2024_06_2"
+   },
+   {
+    "id": 793,
+    "text": "With the validity of science coming under attack, there’s a need for scientific debates to be perceived as open and true to life.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   },
+   {
+    "id": 794,
+    "text": "Diverse topics can be debated by both scientists and the public.",
+    "n": 1,
+    "src": "cet4_2022_06_1"
+   }
+  ]
+ }
+]

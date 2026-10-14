@@ -1,0 +1,619 @@
+# 任务 C_r1_08：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_08.labels.txt
+
+============================================================
+## 词：to    本段 600 句    模式：全标（每句都写）
+原释义：prep.向; 到; 对. (用于动词不定式前).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0   不定式符号，后接动词原形（want to go）    B 样本 36    例：He noticed the driver was too young to drive.
+  1   （不定式）为了    B 样本 3    例：To introduce their corn to tourists.
+  2   （be to do）按要求或安排要做    B 样本 16    例：You are now to write an essay for submission.
+  3  prep. 向，到，往（方向、目的地）    B 样本 9    例：Travel to Germany.
+  4  prep. 对，给（引出对象，如 say to, send to, open to）    B 样本 15    例：To introduce their corn to tourists.
+  5  prep. 到，至（终点、范围、程度，如 from 1 to 10, up to）    B 样本 3    例：Those bringing eggs into the U.S. risk fines of up to $10,000.
+  6  prep. 与……相比，与……相同（similar to, compared to）    B 样本 1    例：Have you noticed how similar you are to your friends? [1] It may be because your brains operate in harmony with each other.
+  7  prep. （接在 lead, contribute, adapt, access, threat 等词后）引出对象或结果    B 样本 13    例：Contribute a lot to the local economy.
+  8  prep. （时间）差（ten to six）    B 样本 0
+已标过的短语：have to（4）；be going to（3）
+口径说明（照此执行）：
+  - 1)不定式 to 一律标 0/1/2，pos 空串；be to do 标 2，表目的的 to do 标 1，too…to、plan to、decide to 等普通情形标 0。2)have to / be going to / used to / according to / due to / thanks to / in addition to / prior to / look forward to / so as to / in order to 按 P 标。3)介词 to：表方向地点标 3；say/send/give/recommend/report to、open to 引出对象标 4；from…to…、up to、dating to 标 5；similar to/compared to 标 6；lead to、contribute to、adapt to、access to、threat to、solution to、damage to、respond to、addiction to 等动词/名词/形容词固定搭配标 7（不算 P）。
+句子：
+933 | M: Because his girlfriend wanted him 【to】.
+1089 | But when I told him, he said he loves her and would just do what she wants him 【to】.
+1155 | And the personality traits (特性) these individuals 27 or lack can often make a relationship more- or less- likely 【to】 28.
+1217 | Their value 【to】 a country’s international image.
+788 | Contribute 【to】 a fund for cat protection.
+1177 | The risk students face due 【to】 a history of mental health problems.    ?P:due to
+894 | have shown there's sometimes no penalty 【to】 a near miss.
+1115 | Parenting brings fathers more joy than it does mothers, according 【to】 a new study.    ?P:according to
+938 | W: That’s a little gloomy, but I can understand that 【to】 a point.    ?P:to a point
+814 | I haven’t been 【to】 a zoo since I was a kid.
+1000 | During the secondary school years, extending what is learned at school is positively related 【to】 academic achievement, so the content of homework becomes more important.
+1190 | There’s nothing like playing as part of a unit 【to】 accomplish a goal like winning a game or even a championship. [13] He could try basketball since many of the courts are indoors now and it’s a sport that could help him understand team spirit while cooperating with others.
+1206 | Even though Wang tried 【to】 account for this by culling the weakest
+1259 | Being humble means you have the ability 【to】 accurately 31 your deficiencies without denying your skills and strengths.
+931 | We all have goals that we want 【to】 achieve in our lives.
+775 | you hope 【to】 achieve may seem impossible.
+1215 | Spur us 【to】 action.
+1144 | 【To】 address that weakness,
+937 | Take a nap 【to】 adjust 【to】 a new time zone.
+919 | They have begun 【to】 affect our social behavior.
+1093 | 【To】 allow students more freedom in their academic work.
+1238 | It will also bring 【to】 an end a less popular US high school tradition: the “make-up day”    ?P:bring sth to an end ?P:bring to an end
+693 | As an emotional learner, I organize my notes into a story that I can connect 【to】 and recite 【to】 myself.
+1010 | Currently we are offering existing members discounts off two of our brand new classes, hot yoga, and advanced spinning, but the discount doesn’t apply 【to】 any of our regular classes I’m afraid.
+958 | W: (8-2) Yes, I signed up two months ago, but I haven’t been 【to】 any of the group classes yet.
+981 | He is not up 【to】 anything challenging.    ?P:up to
+921 | That is because they want 【to】 appear more adult, and they know how adults are expected 【to】 write.
+800 | Students may pay attention 【to】 apps, games and websites instead of their teachers.    ?P:pay attention to
+682 | Questions 8 【to】 11 are based on the conversation you have just heard.
+838 | Questions 12 【to】 15 are based on the conversation you have just heard.
+994 | Questions 16 【to】 18 are based on the passage you have just heard.
+1103 | Questions 26 【to】 35 are based on the following passage.
+1150 | Questions 19 【to】 21 are based on the passage you have just heard.
+686 | The phenomenon is often referred 【to】 as the
+906 | W: Hi, I’m calling 【to】 ask about the newly scheduled gym classes.
+1235 | It would make sense that wild campers need 【to】 ask for permission 【to】 camp from landowners, especially outside Scotland, where the law is far more restrictive. [18] It would be common sense for people 【to】 use small tents and leave no trace of their visit.
+766 | 【To】 ask the way 【to】 the Newcastle City Hall.
+1049 | I wanted 【to】 ask you about ordering shopping online.
+983 | It can be easy 【to】 assume that the gap between
+1113 | Their people tend 【to】 attach importance 【to】 women’s rights.    ?P:attach importance to
+783 | Consulting her mother about which school Jake is 【to】 attend.
+1047 | And I heard that the new supermarket offers some big discounts 【to】 attract customers.
+979 | It doesn’t appeal 【to】 average families.
+1040 | similar spacing strategies 【to】 avoid hitting each other while swimming or flying in densely packed groups.
+703 | We’d like 【to】 avoid the crowds if possible.
+750 | It is unclear whether the new owners have the power 【to】 ban tourists from the island.
+738 | According 【to】 Barabasi, it's easier and less risky for those in positions of power    ?P:according to
+1015 | It’s located in what used 【to】 be a hat factory.    ?P:used to
+898 | But this seems 【to】 be a problem with your card number.
+1073 | They tended 【to】 be arbitrarily judged by individuals of opposing groups.
+841 | See, I did think it was a bit weird for him 【to】 be asking for money for that sort of thing.
+1273 | The more you get right, the more creative you are thought 【to】 be because you have come up with uncommon associations.
+848 | It has 【to】 be carried out 【to】 the letter.    ?P:to the letter ?P:have to
+796 | They are 【to】 be confirmed in written form.
+1025 | Still, 15% or more of kids are found 【to】 be deeply bookish.
+1048 | Ask Jimmy what is 【to】 be done.
+1021 | They tended 【to】 be easily anticipated by those belonging 【to】 their own race.
+901 | Different people tend 【to】 be exposed 【to】 different forms of the golden rule, based on factors such as the religion in their society.
+809 | In fact, we need blue light during the day 【to】 be healthy.
+1254 | They have 【to】 be heated 【to】 36D°C.    ?P:have to
+811 | M: Glad 【to】 be here, Jane.
+985 | If Johnny’s girlfriend doesn’t like him for who he is, then she does not deserve 【to】 be his girlfriend.
+1210 | But 【to】 be honest, I’d prefer something hot, not cold.
+993 | 【to】 be impressed by industry qualifications you get in school.
+1035 | where you are now and where you want 【to】 be in the future is caused by a lack of knowledge.
+1058 | F) Little seems 【to】 be known about these fraudsters.
+773 | He wanted 【to】 be less dependent on his phone.
+1067 | There used 【to】 be many hat factories in Britain until around the 1950s.    ?P:used to
+1030 | Teachers are also losing their snow days and instead will be expected 【to】 be on hand 【to】 take a virtual register and
+1180 | Participants then completed a survey indicating how tough, deceptive and pleasant or otherwise they wanted 【to】 be, or wanted their agent 【to】 be, in the negotiations.
+688 | W: (13) Um, 【to】 be perfectly honest, that’s more than I expected.
+865 | It doesn’t need 【to】 be permanent.
+1023 | Appear 【to】 be pleasant.
+1057 | For example, if someone breaks the law, the golden rule would suggest that we should let them go, because we would not want 【to】 be punished ourselves.
+715 | It’s pretty soon, and it’s going 【to】 be quite long.
+1252 | The desire 【to】 be right is a major driver of analytical decision-making.
+1183 | Clearly there have 【to】 be rules.    ?P:have to
+683 | It doesn’t take donations and doesn’t want 【to】 be seen as a charity.
+1255 | I’d also like it 【to】 be small, so that it’s easy 【to】 drive in the city.
+856 | That would help you learn self-acceptance, or that it’s okay 【to】 be the focus.
+1137 | It proves 【to】 be the most complicated stage of space missions.
+971 | Choose 【to】 be tough.
+1232 | For example, participants could choose 【to】 be tough by making an opening demand far greater than what they’d be willing 【to】 accept.
+953 | Namely, they help you treat others better, by using the way you yourself would want 【to】 be treated as a guide of how 【to】 behave.
+797 | The golden rule is a moral principle which states that you should treat others the way you want 【to】 be treated yourself.
+1169 | This shows participants three words at a time that appear 【to】 be unrelated, and the person has 【to】 think of a fourth word that is associated with all of them.    ?P:have to
+1277 | M: When people ask my son what he wants 【to】 be when he grows up, I have 【to】 swallow the urge 【to】 say, “Hey, back off my kid’s dreams!    ?P:have to
+1121 | (12-1) And I got sick every time adults asked me what I wanted 【to】 be when I grew up.
+866 | W: They are nowhere near as popular as they used 【to】 be when we were children.    ?P:used to
+1265 | Today, many large corporations stress the importance of diversity on their websites, but current statistics show that the typical manager in America still tends 【to】 be white and male.
+862 | He longs 【to】 become a superstar himself.
+1077 | In fact, the online world offers kids remarkable opportunities 【to】 become literate and creative because young people can now publish ideas not just 【to】 their friends, but 【to】 the world.
+893 | And his story was a bit vague 【to】 begin with.    ?P:to begin with
+1032 | [16] 【To】 begin with, children seem 【to】 have a natural desire 【to】 overcome challenges and take risks.    ?P:to begin with
+713 | But working out how 【to】 behave online is a new social skill.
+1247 | But for volunteering 【to】 benefit employees and the workplace, the entire organization needs 【to】 be involved.
+936 | But when the robots are switched over 【to】 bilateral control (by flashing the lights in the room),
+757 | M: So blue light is harmful and that’s why you want 【to】 block it.
+746 | E) With such a degree of professionalism, how can consumers find out if the website they’re looking 【to】 book with is trustworthy?    ?P:look to
+719 | It allows him 【to】 borrow money without paying interest for six months.
+1078 | It has been appealing 【to】 both freshwater and sea dolphins.
+1033 | It appeals 【to】 both schoolgirls and schoolboys.
+1012 | W: (12) No, but the train was so packed that I could barely move, and it was difficult 【to】 breathe too.
+1202 | Use a pressurised tank 【to】 brew coffee.
+1099 | M: (11) Maybe we should ask Paul 【to】 bring his computer and speakers, so that we can play some music.
+960 | Or even simply see your birthday as an opportunity 【to】 bring people together for them 【to】 have fun.
+1275 | Children are getting more than enough screen time in their lives without the need 【to】 bring their phone into the classroom.
+980 | These experiences have been shown 【to】 build children’s confidence and pleasure in physical activities, develop their motor skills, and even improve emotional well-being.
+876 | M: Well, if people have smaller homes, they use less land and fewer resources 【to】 build them.
+1269 | It enables people 【to】 build up endurance.
+760 | F) Today, the dancers travel across Chinatown going from business 【to】 business 【to】 bring good luck for the coming year.
+836 | W: She wants 【to】, but her husband refuses 【to】 get rid of it.
+726 | Too many choices decrease one’s desire 【to】 buy.
+1038 | There are rules that motivate customers 【to】 buy
+1130 | A full 70% of the young adults cannot afford 【to】 buy a car by themselves.
+1256 | He wanted 【to】 buy a gift for his mother's birthday.
+779 | We assume that if we offer our customers more choices, then they’ll be more likely 【to】 buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely 【to】 buy. [17] In 2012, psychologists published a study about jams.
+1116 | I’m saving up 【to】 buy something reasonably small and cute, but it’s still a bit expensive for me, and it’ll take a while before I have enough money.    ?P:up to
+896 | Please feel free 【to】 call me for any further questions.    ?P:feel free to
+976 | 【To】 call on busy people 【to】 take care of themselves.
+772 | M: Yes, [14] but I think that dream needs 【to】 change, considering the cost of housing.
+1020 | Chan buys a new lion head each year when he travels 【to】 China.
+708 | While lions are not native 【to】 China, some versions of the story include the villagers creating a monster of their own in the shape of a lion 【to】 fight off the beast.
+987 | So as you can see, when it comes 【to】 choices, less is more.    ?P:when it comes to
+790 | 【to】 choose 【to】 hand awards and funding 【to】 those who've already been so recognized.    ?P:to hand
+821 | M: [10] We also give our kids pocket money, and the amount they get is linked 【to】 chores, such as putting the bins out and emptying the dishwasher.
+874 | are well equipped 【to】 clear roads and remove snow.
+1119 | So practically all of those factories had 【to】 close down.    ?P:have to
+951 | When high school students go on 【to】 college, their past and current reading habits will influence their academic performance.
+1266 | ABTA says it is trying 【to】 combat the issue by running public awareness campaigns.
+787 | W: How about inviting people 【to】 come at 6:00 p.m.?
+1149 | The people least interested in retraining are more likely 【to】 come from historically disadvantaged
+1193 | Perhaps they made the sound of wind 【to】 comment on the weather or imitated the sound of a bird 【to】 tell a friend that there was a bird nearby.
+867 | 【To】 compare prices.
+1082 | students with electronic tablets loaded with assignments 【to】 complete in the event of a school closure.
+1239 | Help them 【to】 conceal their frustration.
+1120 | They depend on his ability 【to】 concentrate.
+1086 | The environment is easier 【to】 control, and he can still get a good workout, in addition 【to】 improving his hand-eye coordination.
+741 | They found it easy 【to】 control their emotions.
+1127 | They are linked 【to】 cooking confidence and cooking satisfaction.
+780 | least some of the estimated $121 billion per year that traffic jams are estimated 【to】 cost the U.S. economy, Horn told Live
+829 | He had an operation done on it, plastic surgery, in order 【to】 cover it and make it less noticeable.    ?P:in order to
+705 | I have one that I use 【to】 cover my phone screen too.
+1184 | 【To】 cover up their failure 【to】 achieve some purpose.
+1276 | I mean, how hard it could be 【to】 create fabric and __26__ it into a shirt shape.
+858 | 【To】 cultivate children’s good study habits.
+948 | At the primary level, the main aim is 【to】 cultivate good habits, like learning 【to】 plan and exercising self-discipline.
+752 | W: Well, 【to】 deal with the birthday blues, you should not isolate yourself.
+1071 | But other children simply shut down and try 【to】 deal with their emotions by ignoring the situation.
+1110 | “There is no way 【to】 definitely know who they are,” says Neate.
+1246 | It rents bicycles 【to】 deliver food.
+1153 | They aren’t going 【to】 deliver you food that is out of date.
+1233 | Just last week, California passed a law allowing minors 【to】 demand that internet firms erase their digital past and the EU has considered similar legislation.
+1056 | How 【to】 determine if a company is a good fit for you
+1136 | Children are more likely 【to】 develop a lifelong love of physical activity from frequent positive early experiences.
+1216 | When you meet with a new coworker, you immediately begin 【to】 develop an initial impression of this person.
+1187 | Enable them 【to】 develop their motor skills.
+999 | Encourage students 【to】 develop various professional skills.
+1094 | W: Well, she did say that jet lag often becomes more of a problem after forty. [14] So I guess I’m lucky that I can still adjust 【to】 different time zones well.
+1171 | If I am caught with it in my pocket, I will be subject 【to】 disciplinary procedure, which will impact on my career.    ?P:be subject to
+913 | I haven’t slept enough in months because I have too much work 【to】 do, and I feel fine.    ?P:too...to
+859 | All you need 【to】 do is wait at the far end of the platform.
+1039 | The New Year has come and gone, and many may have already forgotten what they had resolved 【to】 do on January 1st.
+743 | More and more, watching a movie is something teens choose 【to】 do on their electronic devices.
+908 | Or I could perceive my birthday as an opportunity 【to】 do something for others like asking people 【to】 make a donation instead of buying a gift.
+684 | It allows workers 【to】 do whatever their hearts desire.
+1069 | W: As a kid, did you know what job you wanted 【to】 do when you grew up?
+1194 | It has a lot 【to】 do with independent luxury food suppliers.
+950 | Oh, (10) maybe it has something 【to】 do with my new card.    ?P:have something to do with
+942 | They are easy 【to】 drive.
+972 | They’re even beginning 【to】 drive our cars.
+696 | Besides that, tablet prices continue 【to】 drop and are becoming increasingly affordable.
+700 | Birthday reminders can be helpful, but I kind of worry I won’t be able 【to】 drum up my own day and show it 【to】 look as exciting as it is supposed 【to】 be.
+807 | And I’ve booked those seats next 【to】 each other for you.    ?P:next to
+1098 | They fell victim 【to】 eagles.    ?P:fall victim to
+1241 | They are guided back 【to】 Earth.
+1158 | Let’s just go out somewhere close 【to】 eat.    ?P:close to
+909 | Evil behavior is typically thought 【to】 embrace one or both forms.
+1196 | Horn is now working with the car company Toyota 【to】 enable a form of bilateral control via modifications 【to】 existing
+1145 | 【To】 enable teachers 【to】 interact more with their students.
+702 | 【To】 enforce school discipline.
+1174 | Stimulate them 【to】 engage in discussions.
+1197 | 【To】 engage students more in their learning.
+1172 | They enable him 【to】 enjoy a creative career.
+845 | They were more eager 【to】 enjoy a movie.
+731 | Asking Jake which school he himself prefers 【to】 enroll in.
+803 | 【To】 enter a house well looked after.
+1268 | Problems with this technique include the fact that it can lead 【to】 errors and prejudice.
+1261 | We love 【to】 establish a routine and stick with it.
+1208 | Then encourage them 【to】 establish an order in which they do work.
+1062 | M: (10) The same discount of 20% is being offered 【to】 everyone at the door on a “first come, first served” basis for the first month.
+1013 | G) In a research paper, Evil Genius, published in 2014, the behavioral scientists Francesca Gino and Scott Wiltermuth wanted 【to】 examine whether people who behave unethically in one task are more creative than others on a subsequent task, even after controlling for differences in baseline creative skills.
+1271 | “Playing with their children likely offers parents opportunities 【to】 experience positive feelings and 30 closeness with their children,” they say.
+816 | The kids will love it and there are so many islands nearby 【to】 explore.
+1188 | [19] A new study finds that job seekers are even willing 【to】 explore jobs with lower salaries when companies are more diverse.
+706 | They try 【to】 express their feelings and thoughts effectively.
+1088 | Making sounds enables one 【to】 express their ideas more explicitly.
+1129 | Some of the dangers are emotional: hurting someone from a distance is not the same as hurting them face 【to】 face.    ?P:face to face
+861 | But too much blue light, especially from electronic devices, can harm our health by weakening our vision and making it harder for us 【to】 fall asleep.
+748 | Anyway, tablets help students learn up 【to】 80% faster.    ?P:up to
+694 | Fraudsters also invest in pay-per-click advertising 【to】 feature at the top of search engines when people type in phrases such as “Spanish seaside villas”.
+1016 | 【To】 feel how difficult it is 【to】 get his idea across.
+1055 | This means that, without a smartphone, teens are likely 【to】 feel isolated from their peers.
+1154 | "Maybe we should spend less money trying 【to】 figure out who is better than
+975 | Do you prefer 【to】 fill out an application on the web, or 【to】 print it out and fill it in by hand and then post it back 【to】 us?
+805 | Arriving in their “Mystery Machine”, the gang would have 【to】 find a monster who was terrorizing a neighborhood.    ?P:have to
+1170 | 【To】 find causes for differences in the participants’ performance.
+860 | 【To】 find out creative people's work performance.
+699 | 【To】 find pure white walls shining.
+763 | 【To】 find the best trip for his kids.
+1221 | In order 【to】 find the linking words (“Hole” for the first, “Bowl” for the second) you need 【to】 be creative.    ?P:in order to
+764 | And if you need any help 【to】 find transportation for the whole family, we can definitely recommend someone for you.
+1065 | In one study, they were given matrixes (矩阵) and had 【to】 find two numbers that added up 【to】 10.    ?P:add up to ?P:have to ?P:up to
+1146 | My problem is I’m afraid 【to】 fly.
+1250 | She said twenty percent of people are afraid 【to】 fly.
+833 | 【To】 follow a trendy lifestyle.
+961 | A soldier deviates when they choose not 【to】 follow orders 【to】 kill an innocent civilian.
+944 | It has led some other companies 【to】 follow suit.
+939 | Having the ability 【to】 forget things selectively.
+1214 | If you believe you have fallen victim 【to】 fraud or cyber-crime, please report it 【to】 Action Fraud,” it adds.    ?P:fall victim to
+817 | Computers have vastly increased the ability of students 【to】 gather information, sample different points of view and write more fluidly.
+955 | It can give rise 【to】 gender bias.    ?P:give rise to
+751 | 【To】 get a hug from family members.
+946 | schools or universities do just as well later in life as those who just manage 【to】 get accepted.
+1203 | So, most people need their own car 【to】 get around.
+905 | Rent a bike for him 【to】 get around the town.
+1230 | W: But it’s not always easy 【to】 get back into the workforce after an extended absence.
+830 | Customers given more choices are more likely 【to】 get confused.
+1052 | Creating an ideal working environment will make it easier for them 【to】 get down 【to】 their assignments quickly.    ?P:get down to
+1205 | Is it not more expensive 【to】 get everything delivered?
+737 | Nothing serious, mind you, but he damaged someone’s car and wanted 【to】 get some money together 【to】 make up for the damage he’d caused.
+1260 | When there are several different assignments, make sure they begin with one they enjoy, so it seems easy 【to】 get started.
+1019 | When there is a relationship breakdown with their parents, children with an anxious attachment style scream and cry 【to】 get their parents 【to】 come back.
+941 | I) Hiring managers said training was three times more likely 【to】 get them 【to】 hire applicants over age 45 than, say, government
+709 | 【To】 give her little nephew a treat.
+932 | It seemed 【to】 give him a certain uniqueness.
+1037 | So he is insane 【to】 give in 【to】 her like that.
+789 | And then, if you still wanted 【to】 give money as some sort of apology or something, he probably shouldn’t have 【to】 go around borrowing it from people.    ?P:have to
+716 | 【To】 give students incentive 【to】 excel in economics.
+1138 | M: Um, I’m thinking team sports should be the way 【to】 go.    ?P:the way to go
+1186 | district is anything 【to】 go by.
+710 | It’s just a little swollen and I should be fine for next Saturday if you still want 【to】 go for a jog then.
+1257 | I’m going 【to】 go on the computer now and give it a try.
+691 | While 70 percent of 8th and 10th grade students used 【to】 go 【to】 the movies once a month or more, now only about half do this.    ?P:used to
+804 | It’s best 【to】 gradually face your birthday with people you trust.
+882 | What kind of display leads 【to】 greater customer satisfaction.
+1109 | However, this issue with the golden rule can be dealt with in a general manner, by viewing this principle as one of several principles that we use 【to】 guide our behavior as individuals and as a society.
+793 | They struggled 【to】 handle negative emotions.
+770 | Severe weather that causes cancellation or delay is more likely in regions that are less able 【to】 handle the situation.
+1140 | When they wanted 【to】 have a competitive team member.
+842 | Small early career setbacks seem 【to】 have a disproportionate effect
+902 | He also suggests asking someone not going on the holiday 【to】 have a look at the website.
+864 | "It's hopeful that we're going 【to】 have a new day.
+802 | It is said 【to】 have a remarkable location that few other private islands of this size can match, according 【to】 estate agents.    ?P:according to
+1027 | Remember that you will have 【to】 have all your certificates 【to】 hand when you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able 【to】 sell their produce at the event.    ?P:have to ?P:to hand
+1201 | communities, more likely 【to】 have low incomes, and are more likely 【to】 have the least schooling after getting their high-
+947 | They tend 【to】 have more difficulties in learning.
+1211 | I would argue that of all the changes brought about by the widespread use of digital devices, the huge decline in reading is likely 【to】 have the biggest negative impact on today’s teens because reading books and longer articles is one of the best ways 【to】 learn critical thinking.
+712 | W: I’m sorry 【to】 hear that.
+794 | M: I’m sorry 【to】 hear that, Miss Seimon.
+1175 | They’re able 【to】 hear what the other person is saying and express their own feelings and thoughts effectively.
+822 | are less common in more northern areas of the United States that are used 【to】 heavy winter snowfall because municipalities    ?P:used to
+707 | It seems people want 【to】 help and are driven by helping others.
+1028 | 【To】 help busy people 【to】 sort out their priorities.
+806 | 【To】 help children grow up 【to】 be professionals.    ?P:up to
+736 | Volunteer 【to】 help in animal shelters.
+895 | It has not done enough 【to】 help left-handed children.
+1118 | 【To】 help parents decide when 【to】 send their children 【to】 school.
+1229 | The work universities are doing 【to】 help students succeed academically.
+1244 | When they were seeking someone 【to】 help them.
+1163 | It is bound 【to】 help us achieve greater success.
+1104 | You probably have 【to】 help younger children plan their session, but it’s important that by the end of primary school it’s second nature.    ?P:have to
+776 | Recommend 【to】 her a good house near his office.
+786 | It is quite close 【to】 her house.    ?P:close to
+1185 | She’s just started a part-time job and was thinking of not contributing 【to】 her pension.
+852 | Students are able 【to】 highlight and edit text, write notes and search for information much more quickly than they can with printed textbooks.
+888 | He says the car is the best thing that has ever happened 【to】 him, and [11] if she sells it, he will divorce her.
+1253 | K) Many years ago, I wrote about a study which found that employers are much more likely 【to】 hire a college graduate who
+837 | Three-quarters of hiring managers said they’d be more likely 【to】 hire an over-45 who had
+733 | reluctant 【to】 hire people older than themselves.
+877 | Sticking 【to】 his budget.
+1105 | This _28_ of biographical information is due primarily 【to】 his social _29_: he was not a noble, but the son of a leather trader.
+886 | He’s even written 【to】 his state senator about the torture of dolphins in sea parks.
+761 | Tending 【to】 his swollen ankle.
+1167 | “Fathers may fare better than mothers in part due 【to】 how they spend time with their children,” said lead author Katherine Nelson-Coffey.    ?P:due to
+956 | W: Actually, manufacturing tablets is environmentally destructive and dangerous 【to】 human health.
+1141 | Talking is unique 【to】 humans.
+680 | This type of snake is classified as a threat 【to】 humans, especially small children as well as pets.
+1222 | 【To】 identify students having potential 【to】 be professional athletes.
+1076 | In a new study, participants were told 【to】 imagine that they were negotiating for something important 【to】 them, like a house.
+1213 | This means that they strive 【to】 implement the golden rule whenever possible, as long as it doesn’t clash with a more important concept.
+892 | It has helped a lot 【to】 improve animals' well-being.
+823 | Joint efforts 【to】 improve the local community.
+903 | It can lead 【to】 incorrect judgments.
+934 | There are tricks 【to】 increase customer satisfaction.
+1061 | They must make efforts 【to】 increase women’s access 【to】 health care.
+884 | I) The main alternative 【to】 increasing traffic throughput per lane has been 【to】 build more lanes and more highways, and putting
+714 | 【To】 inquire about the vegetarian food festival.
+742 | I’m just calling 【to】 inquire when I will be able 【to】 get my money back.
+914 | It is a means 【to】 inspire creative thinking.
+695 | It can help them 【to】 interact more with teachers.
+1165 | They need 【to】 invest more in hospital staff and facilities.
+1152 | He wanted 【to】 invite her 【to】 join in a study project.
+1162 | G) “By working with industry partners such as ABTA and Get Safe Online, we are able 【to】 issue alerts about the latest threats they should be aware of.
+968 | "Chinatown was much smaller then and it was a celebration with fireworks and firecrackers, which added a lot of flavor and meaning 【to】 it.
+1009 | Whether a country’s protection of women’s rights is related 【to】 its public health.
+1279 | M: I hear you’re going 【to】 Japan soon.
+1240 | It finds that sharing information about diversity makes job postings more attractive 【to】 job seekers, even when pay is lower.
+982 | What about getting him 【to】 join a sport, like soccer?
+1248 | adaptive cruise control systems, which use forward-facing sensors 【to】 judge the distance 【to】 the vehicle ahead.
+825 | Avoid getting addicted 【to】 junk food.
+685 | M: No, just 60 pounds between the three of us, but still a bit too much 【to】 just let go.    ?P:too...to
+1262 | I’m trying 【to】 keep a slim figure, you know.
+1212 | But, it’s important 【to】 keep in mind that the employer isn’t the only one who needs 【to】 identify a good match—you should be looking for that same exact thing.
+988 | each autonomous robot tries 【to】 keep itself halfway between the robot in front and the one behind; the phantom jams
+1066 | They discussed where 【to】 keep them.
+945 | But I thought maybe he doesn’t want his parents 【to】 know about what happened.
+735 | Wilson says, (7) when people start 【to】 know other people around them, they realize they’re not that different.
+949 | But it is impossible 【to】 know the _26_ day on which he was born.
+723 | It can be hard 【to】 know where 【to】 even begin, and the things
+1258 | winners, it's impossible 【to】 know which of the winners would have quit had they found themselves on
+745 | I didn’t know there were so many different ways 【to】 learn.
+1043 | The ability 【to】 learn.
+990 | Not all zoos and animal parks have the most favorable conditions, but [11] without them, it just wouldn’t be feasible 【to】 learn about animals and their environments.
+1245 | Then over hundreds of thousands of years, those sounds turned into words that people began 【to】 learn as part of their language.
+791 | Allow them 【to】 learn independently.
+973 | Clearly, teaching teens formal writing is still crucial, but texting probably isn’t destroying their ability 【to】 learn it.
+681 | technologies, and will be unable 【to】 learn new skills.
+1045 | J) If they think we’re too old 【to】 learn new skills after we’re 45, just learning some new skills may have an effect on its own.    ?P:too...to
+1122 | Make them more open 【to】 learning.
+943 | It’s better 【to】 let people walk around and talk 【to】 each other, or sit where they like.
+1044 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] But he is just not mature enough 【to】 live on his own at this point.
+1270 | I’ve checked the availability of flights from Beijing 【to】 London on the 22nd and you have a choice.
+828 | Tell her exactly what kind of property 【to】 look for.
+1160 | When it comes 【to】 looking for a new job, you already know that a big part of the interview process involves the company evaluating whether or not you’re a good fit for their open role.    ?P:when it comes to
+1182 | It causes them 【to】 lose dignity.
+843 | Workers who try the hardest 【to】 lose weight.
+753 | As a child I used 【to】 love the Scooby-Doo cartoons.    ?P:used to
+778 | Fewer choices lead 【to】 lower customer satisfaction.
+935 | In the study, the bigger display of jams leads 【to】 lower customer satisfaction than the smaller display.
+1031 | They help 【to】 lower housing prices.
+819 | W: Hello, good afternoon. [12] I have an inquiry 【to】 make.
+730 | He’s vegetarian, so I need 【to】 make a lot of vegetable dishes.
+1125 | When they tried 【to】 make a positive impression on the researchers.
+1100 | He wanted 【to】 make a sincere apology 【to】 Jimmy.
+725 | It’s a 30-minute ride and I don’t have 【to】 make any changes.    ?P:have to
+1008 | A lot of minerals are extracted from the earth 【to】 make electronic readers.
+697 | 【To】 make investments.
+769 | W: Indeed. [9] It’s also essential 【to】 make money real for children through practical examples.
+904 | And what about all those trees that are cut down 【to】 make printed books?
+1191 | something new can actually be a waste of time if your goal is 【to】 make progress and not simply gain additional knowledge.
+1204 | He needed 【to】 make some donation 【to】 charity.
+754 | 【To】 make students concentrate.
+998 | 【To】 make sure this wasn't by chance, Wang conducted additional tests using
+1264 | Company culture can have a big impact on how you feel about your work, so you want 【to】 make sure you sign an offer letter with an organization you’re truly excited about.
+1181 | If we’re lucky, the legal environment will change 【to】 make teenagers’ online lives less likely 【to】 haunt them later on.
+984 | It seemed 【to】 make up for his physical defects.
+690 | Before we continue, I just want 【to】 make you aware that this call is being recorded and may be used in the future for training purposes.
+1041 | It has caused heavy losses 【to】 many airlines.
+704 | The capacity 【to】 mass produce it.
+1126 | W: That sounds risky 【to】 me.
+1002 | It was sent 【to】 me on Tuesday.
+881 | It never occurred 【to】 me that he should have it taken care of like that.
+834 | He’s explained this 【to】 me when we first met.
+1159 | Data connecting excessive digital media time 【to】 mental health issues suggests a limit of two hours a day of free time spent with screens, a restriction that will also allow time for other activities—like going 【to】 the movies with friends or reading longer, more complicated texts.
+1034 | Not 【to】 mention the great physical benefits from exercising outside every day.
+1200 | Not 【to】 mention the overwhelming amount of homework they assign, which would lead 【to】 a lot of pressure for Jake and me. [15] What if we send him 【to】 the place near your mother’s house?
+1042 | As I read an article on the subject in the past that suggested the opposite, it claimed that it was important not 【to】 miss meals and that taking a nap on the plane was the best way 【to】 adjust 【to】 a new time zone.
+831 | Guess which display table led 【to】 more sales?
+768 | 【To】 motivate all students 【to】 be successful.
+724 | He is going 【to】 move closer 【to】 his office.
+740 | So every time we paint a room, we first have 【to】 move the furniture 【to】 another room.    ?P:have to
+1147 | Some music inspires you 【to】 move your feet, some inspires you 【to】 get out there and change the world.
+847 | F) But the trends related 【to】 movies are less disturbing compared with the change in how teens spend their time.
+974 | It leads 【to】 much waste of public money.
+1133 | W: [11] I am always talking 【to】 my elder daughter about the importance of saving into a pension.
+1064 | When I got 【to】 my station, I could hardly get out.
+732 | They may carry viruses that are fatal 【to】 native snakes, which do not have resistance.
+1128 | Next, they were told either that they would negotiate for themselves, or they would program an artificial intelligence agent 【to】 negotiate for them.
+1046 | They were actually native 【to】 North America.
+1209 | How 【to】 not be boring
+899 | This is a huge drop and it is important 【to】 note that this was not merely a decline in reading paper books, newspapers or magazines.
+1274 | 【To】 offer constructive suggestions for making educational policies.
+996 | It has resulted in damage 【to】 office equipment.
+922 | Access 【to】 official campsites is limited.
+1143 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers they had in surplus just a month ago. [19] According 【to】 one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.    ?P:according to
+853 | 【To】 open a new office.
+722 | Then, when I was tired and hungry, I’d use my phone 【to】 order food, like burgers and other junk, [10] instead of going 【to】 the canteen, where I could get a healthier meal for half the price.
+1195 | Researchers have found donating our time and talent 【to】 others can lower blood pressure, boost happiness and improve mental and physical health.
+1081 | M: When the time is right, I’ll start talking 【to】 our children about investing and show them how the money saved for their further education has grown.
+863 | They may block us on their social media accounts and stop responding 【to】 our emails.
+759 | W: Welcome 【to】 our program, Friends and Relationships.
+846 | And according 【to】 our records, the chair you returned was received by our warehouse on Friday morning.    ?P:according to
+1123 | So if you have a disagreement with a securely attached person, they’re not going 【to】 panic.
+1101 | It makes life so much simpler—(13) no carrying heavy shopping bags in the rain, or trying 【to】 park the car on those huge supermarket car parks then not being able 【to】 find it again after you come out of the shops.
+1075 | They should be attributed 【to】 participants’ change in diet behaviors.
+1176 | "You need 【to】 pass on the traditions and the culture, and this is a part of our culture," he said.
+954 | Another potential red flag is being asked 【to】 pay by bank transfer.
+771 | She borrowed money 【to】 pay her debt.
+1114 | (11-1) Would you prefer 【to】 pay in advance?
+1242 | There were 114 space launches in 2020, but there may be up 【to】 1,000 per year in future.    ?P:be up to ?P:up to
+1237 | Luckily, I managed 【to】 persuade her otherwise.
+868 | W: [12] Now, all I need is 【to】 photocopy your passports and then I can get you all checked in and show you 【to】 your rooms.
+962 | They asked the children’s hospital 【to】 pick them.
+1102 | After all, by continuing 【to】 pile riches on the narrow winners, the
+1161 | Specifically, in the example described above, (18) most individuals and societies choose 【to】 place laws and ethical principles above the golden rule.
+689 | She is too eager 【to】 please.    ?P:too...to
+711 | 【To】 please his parents-in-law.
+1068 | They decline due 【to】 pointless meetings.    ?P:due to
+986 | There are ways 【to】 predict customer preferences:
+1106 | Are you going 【to】 prepare a meal for us?
+839 | Then we’ll have the afternoon 【to】 prepare food and drink, and stuff like that.
+929 | He has 【to】 prepare for the future.    ?P:have to
+924 | 【To】 prevent people from complaining about being “busy”.
+1228 | "It's a great way 【to】 promote cultural understanding and exchange; we welcome that.
+808 | Take measures 【to】 promote the use of recycled plastic.
+781 | 【To】 protect animal rights.
+1132 | 【To】 prove they stand out as accomplished professionals.
+820 | 【To】 provide remedies for students' poor performance.
+883 | The study found that while the bigger display table created more interest, people were almost 10 times less likely 【to】 purchase a jar of jam than in the case of the smaller display.
+1108 | 【To】 put it plainly, we just weren’t on the same page.
+1029 | In our house, we have transparent money boxes for them 【to】 put small change in, so they can see their savings grow.
+969 | It is the way 【to】 quit a job one hates.
+784 | You see, she was planning 【to】 quit the job she hates and retire early.
+767 | There are 24 episodes. [11] Well, maybe you could download an electronic copy of the book and try 【to】 read it before the show starts.
+1063 | Choose carefully what 【to】 read 【to】 their children.
+1022 | I was given three books over Christmas, and I’m only now getting around 【to】 reading them.    ?P:get around to
+927 | It isn’t easy 【to】 realize.
+1139 | What I’m starting 【to】 realize, however, is that new knowledge does not necessarily drive new results.
+1207 | But researchers have come 【to】 realize that being humble generally indicates the 30 of deeply admirable personal qualities.
+844 | (12-2) (15) I’m starting 【to】 realize that painting my house is far more troublesome than I had anticipated.
+1018 | Allow them 【to】 recite data points.
+920 | They do everything from suggesting new friends 【to】 recommending purchases.
+1092 | control 【to】 reduce the likelihood of collisions with other bats in the densely packed swarm , Hom said.
+917 | It helps 【to】 reduce travel expenses.
+1135 | They are vital 【to】 reducing waste worldwide.
+1059 | Their emotions were much harder 【to】 regulate.
+991 | Knowing how 【to】 remember major events in one's life.
+1070 | Enable them 【to】 remember the main idea.
+824 | Many people who can only afford 【to】 rent a large home are able 【to】 buy a tiny home.
+801 | 【To】 research new markets.
+1249 | 【To】 respond actively 【to】 students' requests.
+813 | One should have one million dollars 【to】 retire.
+1074 | W: Okay, but how much money does a person need 【to】 retire? [13] I’ve read articles recommending one million dollars as a good figure for retirement.
+854 | Palmdor is the perfect place 【to】 retreat 【to】, somewhere 【to】 get away from the city noise and relax in beautiful surroundings with zero stress.
+916 | Inside, the dancer manipulates strings that open and close the lion's eyes, shake its ears and open its mouth 【to】 reveal a fire-orange tongue.
+687 | 【To】 review what is learned in class.
+928 | Kids need time every day 【to】 run, jump, stretch and play.
+815 | 【To】 satisfy his curiosity.
+925 | M: Teaching them 【to】 save is important.
+1083 | They help 【to】 save up for larger houses.
+1173 | When she was much younger, my daughter used 【to】 say she wanted 【to】 be Queen of the Clouds, which I loved.    ?P:used to
+1199 | ___26___ 【to】 say that music moves people in special ways.
+701 | Calling someone evil is often similar 【to】 saying they cannot change, and perhaps aren’t even a human at all.
+718 | children who walk 【to】 school.
+1148 | Being practically next door, one of us could take him 【to】 school every day before going 【to】 work.
+855 | 【To】 see cheerful colours all around.
+912 | 【To】 see how many people can go without napping.
+798 | “They should be Googling the property, and looking on websites like Google Maps and StreetView 【to】 see if it’s there.
+1225 | That’s the kind of goal-setting I like 【to】 see in children, springing from their boundless imaginations.
+810 | He wants 【to】 see it again.
+1072 | "If you want the good stuff, the quality, you have 【to】 see it for yourself," he said.    ?P:have to
+818 | 【To】 seek the man's help with her work on the farm.
+1051 | You are required 【to】 select one word for each blank from a list of choices given in a word bank following the passage.
+1234 | You are required 【to】 select one word for each blank from a list
+1117 | Participants were asked 【to】 self-report how well they did at the end of the study: 59% cheated by saying that they solved more matrixes than they actually had.
+871 | Would I be able 【to】 sell both the vegetables and items baked from them at the festival?
+992 | I’ve been thinking it over, and I’d like 【to】 send him 【to】 Westwood Elementary.
+965 | W: Well, (11) the research I’ve read shows that sleep is probably even more important than we thought, and that not having enough sleep can contribute 【to】 serious health problems like obesity and heart disease.
+827 | But if you're well prepared you may be able 【to】 set goals for your life that are just
+765 | When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in “freshman composition” papers going back 【to】 1917, she found that they were virtually identical 【to】 today.
+889 | H) “Midcareer switchers overwhelmingly say that training enabled them 【to】 shift 【to】 a new career path,” the analysts write.
+717 | M: In our family, we talk openly about things like the budget for holidays, how taxes reduce your income, and how 【to】 shop around for the best deals.
+872 | 【To】 show his sympathy towards people always being busy.
+1080 | 【To】 show their achievements resulted from great efforts.
+1095 | They may try hard 【to】 show their preparedness.
+749 | 【To】 sign a business contract.
+940 | W: If you have time right now, I think we need 【to】 sit down and discuss what exactly we are going 【to】 do for Jake’s education next year.
+891 | And now I think we should prepare some sandwiches and snacks, and some other kinds of food, so that people can just help themselves, rather than getting everyone 【to】 sit down at the table 【to】 eat a meal.
+755 | Would you like 【to】 sit in first or second class?
+832 | That would be in place when human drivers fail 【to】 slow down, thus avoiding tailgating the car in front, Horn said.
+926 | In areas less accustomed 【to】 snow, even small snowfalls of an inch or two
+1007 | Both groups attach importance 【to】 social connections.    ?P:attach importance to
+966 | It is an intuitive way 【to】 solidify friendship.
+1084 | Taking healthy risks through physical movement builds children’s confidence and ability 【to】 solve problems and persist through frustration.
+930 | I don’t want our son 【to】 spend his afternoons doing something he hates, even if it might prepare him for the future.
+721 | It led him 【to】 spend more money than necessary.
+878 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused 【to】 spend more than what I had budgeted, and by now it’s just a habit.
+1087 | how 【to】 start a business or how 【to】 lose weight fast or how 【to】 learn a new language in three months.
+885 | Have meals as usual 【to】 stay away from hunger.
+970 | W: So, what have you been doing 【to】 stay busy while you’ve had that swollen ankle?
+727 | I have fond memories playing Battleships when it was raining outside and we had 【to】 stay indoors.    ?P:have to
+792 | I would have 【to】 stay with a friend or check into a hotel.    ?P:have to
+729 | 【To】 stick 【to】 his religious belief.
+739 | 【To】 stimulate interest in learning.
+1053 | He was 52 and had retired 【to】 Stratford three years before.
+782 | What does he do 【to】 strengthen his muscles and all that?
+1036 | With people trying 【to】 string sounds together.
+1267 | Listening 【to】 success stories.
+1024 | Another role that they are expected 【to】 take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, it’s important 【to】 know whether using an artificial intelligence agent might affect how we negotiate.
+1219 | In one study, the authors 28 that dads were more likely 【to】 take “playing” as an 29 activity both when caring for their kids
+1178 | M: Too many people spend their lives working on jobs they hate because they’re afraid, so I counsel people 【to】 take risks. [14] Retirement doesn’t have 【to】 be permanent, and if people need 【to】, they can go back 【to】 work.    ?P:go back to ?P:have to
+1223 | We need 【to】 teach children how 【to】 behave like the professionals they are striving 【to】 become.
+747 | They may pay less respect 【to】 teachers.
+1236 | 【To】 tell others a complete lie about their inability.
+1156 | Get them 【to】 tell you everything they have 【to】 do.    ?P:have to
+728 | modifications 【to】 the adaptive cruise control that many new cars already have.
+897 | They are copies built 【to】 the architect’s designs.
+826 | W: But what prevents you from just going 【to】 the bank and getting more money, if you want 【to】 buy something?
+774 | M: I go 【to】 the bank once a week, and the rest of the time I keep my bank card at home, so I can’t get more cash out.
+977 | After birthdays and Christmas, they would go 【to】 the branch and deposit their gift money.
+1112 | M: Well, I’m looking forward 【to】 the change.    ?P:look forward to
+1014 | They took all of them 【to】 the children’s hospital.
+812 | The new year—according 【to】 the Chinese lunar calendar—will begin on Saturday and marks the Year of the Rooster, which is thought 【to】 be a symbol of positivity.    ?P:according to
+795 | One reason is that going 【to】 the cinema is generally a social activity.
+923 | M: That’s exactly the type of thing we are looking for. [14] We’re getting close 【to】 the deadline, however.    ?P:close to
+1243 | It all comes down 【to】 the difference between learning and practicing.    ?P:come down to
+799 | It does a lot of damage 【to】 the environment.
+1060 | It does far more damage 【to】 the environment.
+1085 | It does a lot of harm 【to】 the environment
+840 | It has contributed tremendously 【to】 the firm's fame.
+851 | It contributes 【to】 the formation of personal traits.
+963 | When you arrive in London, hand the ticket 【to】 the guard and he will return the bicycles 【to】 you.
+918 | He goes 【to】 the gym most days, plus tennis two or three times a week.
+1218 | Can we discuss the return trip 【to】 the head office?
+698 | When the island was put up for sale, it was offered 【to】 the local government but proved too expensive for the local authorities.
+1164 | In social psychology, the term “person perception” refers 【to】 the mental processes that we use 【to】 form impressions of other people.
+1131 | But it may also be an expression of a desire for going outdoors—a response 【to】 the months of lockdown.
+720 | W: Welcome 【to】 The Morning Show.
+1134 | E) But some parents object 【to】 the new policy if the vigorous debate on the Facebook page of Anderson County school
+1124 | Chan, who has been involved with the club for nearly 50 years, said that passing the dance from one generation 【to】 the next was vital.
+777 | Maybe I should move closer 【to】 the office.
+1272 | W: Well, it’s five kilometers from home 【to】 the office.
+1079 | Please address it 【to】 the Organic Organization, Vendor Applications, 112 Queens Road, Newcastle, Northumbria.
+850 | Also, speak 【to】 the person you’re booking the villa with on a landline phone, as fraudsters tend 【to】 only use mobiles.
+1198 | Actually my mother is terrified of airplanes 【to】 the point where she can’t even fly.    ?P:to the point where
+875 | Only suitable for renting 【to】 the poor.
+835 | Sending Jake 【to】 the school near the biome of the man's mother.
+995 | I’ll go 【to】 the supermarket 【to】 get some drinks.
+1226 | Immigrants have been contributing 【to】 the U.S.
+887 | She moved 【to】 the U.S. at a young age.
+1278 | The number of immigrants 【to】 the U.S. is declining.
+1050 | I) He said the people who should be paying regard 【to】 the Wang paper are the funding agents who    ?P:pay regard to
+762 | I’m going 【to】 the zoo.
+873 | W: [10] We do that too, and it’s paid according 【to】 their age.    ?P:according to
+967 | It’s related 【to】 their attachment styles.
+1011 | Read as many books as possible 【to】 their children.
+907 | Reading 【to】 their children is important.
+1111 | It may pose a threat 【to】 their children’s safety.
+692 | Employers attach great importance 【to】 their corporations’ diversity.
+785 | Older workers who’ve actively engaged in more education and training relevant 【to】 their jobs
+915 | M: The answer may lie in childhood, the way the person related 【to】 their mom and dad.
+758 | They attach more value 【to】 their relationships with others.
+1090 | It was very important 【to】 their well-being.
+1192 | When they found collaboration essential 【to】 them.
+1227 | 【To】 them, a difference, no matter how small in your eyes, signals the end of the relationship.
+959 | The number and quality of books parents read 【to】 them in infancy.
+1224 | You probably haven't taken the time 【to】 think of all the work that went into creating the shirt on your back.
+1097 | There’s a downside 【to】 this.
+744 | Changing one’s form of communication from time 【to】 time.    ?P:from time to time
+1189 | They are reused up 【to】 100 times.    ?P:up to
+1142 | It amounts 【to】 2,000 tons daily.
+1006 | “The problem is that when the money leaves your account it’s in theirs straightaway and it’s very hard 【to】 track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+849 | For example, if you want people 【to】 treat you with respect, you should treat them with respect.
+1096 | W: They do have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting him 【to】 try.
+1017 | And all the artificial blue light from electronic devices means we have 【to】 try harder 【to】 sleep well.    ?P:have to
+1003 | Imagine going from reading texts as short as one or two sentences 【to】 trying 【to】 read entire books written in complex language and containing sophisticated ideas.
+1263 | It helps people 【to】 understand complex issues and 【to】 separate fact from fiction.
+964 | 【To】 understand the obvious importance of napping.
+1005 | A notable criticism of the golden rule is that its application can lead 【to】 undesirable outcomes, when it conflicts with laws and ethical principles.
+1157 | He did not go 【to】 university and at age 18 married Anne Hathaway, who was eight years his _32_.
+1054 | M: Well, (11) you’ll need 【to】 update your card details directly on our website.
+1179 | It brings the acquaintance closer 【to】 us.
+997 | So he’d rather come 【to】 us and keep things quiet.
+1107 | However, that does not mean teens need 【to】 use electronic devices as often as they do now.
+1151 | I wouldn’t need 【to】 use it every day, but I think it would be very convenient 【to】 have one for the weekends.
+756 | Require companies 【to】 use 30% of new plastic.
+1168 | You could register 【to】 use one.
+900 | If we eat something too hot or too cold, or if the tooth is worn down enough where the tissue _29_ is exposed, all of those things cause pain, and then the pain causes the person not 【to】 use that tooth 【to】 try 【to】 protect it a little bit more.
+910 | Learn 【to】 use the internet for research.
+952 | If teeth didn’t feel pain, we might _30_ 【to】 use them in situations that damage them, and for humans, damaging _31_ teeth is a problem because, unlike crocodiles, we can’t _32_ them.
+1231 | It causes the bubble around us 【to】 vanish.
+870 | The issuing of certificates 【to】 vendors.
+1091 | But if that resolution was 【to】 volunteer more, now is the best time 【to】 start.
+1001 | Church records show he’s baptized (施洗礼) on April 26, and 3 days was a customary amount of time 【to】 wait before baptizing a newly born baby.
+734 | It enables guests 【to】 walk around and chat freely.
+880 | He used 【to】 wear a sad face in school.    ?P:used to
+857 | Evil is typically referred 【to】 when there is deviance from social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.
+1004 | Pain is the only feeling 【to】 which the nerves in that layer respond.
+1026 | Avoid getting close 【to】 wilderness.    ?P:close to
+957 | Whether a country’s educational level is linked 【to】 women’s rights.
+890 | For commuting 【to】 work.
+1220 | M: Or you could just walk 【to】 work.
+978 | many school boards have introduced policies which require students 【to】 work from home if the school is shut by snow or
+879 | as fulfilling 【to】 work toward as 【to】 achieve.    ?P:as...as
+989 | She does not have 【to】 worry about jetlag.    ?P:have to
+869 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began 【to】 write in more grammatical sentences.
+1251 | (ASMR), which ___27___ 【to】 you like a sting in your brain.
+911 | Then you can walk down through the train 【to】 your carriage and take your seats.
+1166 | As you are already a member, the fee of the class will just be added 【to】 your monthly bill.

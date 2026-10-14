@@ -1,0 +1,541 @@
+# 任务 C_r1_78：2 个词，514 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_78.labels.txt
+
+============================================================
+## 词：there    本段 220 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：adv.在那里; 那儿. pron.(用于引导句子，表示存在或发生).
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. （there be 句型）有，存在    B 样本 72    例：There's no marketing.
+  1  adv. 在那里，到那里    B 样本 7    例：I’ve not been there before.
+  2  int. （引起注意或安慰）瞧，好了（There you go）    B 样本 0
+已标过的短语：there is no denying（1）
+口径说明（照此执行）：
+  - 给C的口径：there be 各种时态及 there seems to be、the community spirit there is 等均按0；down there、get out there 按1；there is no denying（不可否认）标P；there's nothing like 按0。
+句子：
+85 | If the underlying emotional sources of stress are still 【there】,
+95 | oversaw a rollout of bike lanes — and got angry blowback from residents and business owners who claimed 【there】
+132 | “We come home and even though physically we are 【there】,
+156 | “They should be Googling the property, and looking on websites like Google Maps and StreetView to see if it’s 【there】.
+206 | Have you been 【there】?
+218 | M: [8] Can you please hand me that book over 【there】?
+234 | M: I was wondering if you could get me some jeans while you’re 【there】.
+259 | W: Hi, 【there】.
+262 | So while fruit juice is better than no fruit at all, 【there】
+250 | 【There】's a huge amount of time and effort that goes into the process of selecting
+275 | But 【there】's also
+220 | And 【there】's little they can do about it.
+247 | But if 【there】's one thing that triggers widespread employee frustration, it's an IT
+104 | have shown 【there】's sometimes no penalty to a near miss.
+97 | Some music inspires you to move your feet, some inspires you to get out 【there】 and change the world.
+238 | I think Jeremy has been 【there】 and said it was amazing.
+113 | “A large number of high-class travelers, including CEOs, have to spend more than three hours by road to get 【there】—and that is a loss of time,” a Bangalore airport spokesperson said.
+149 | So is 【there】 any evidence that setbacks might actually    ?P:so...that
+120 | Is 【there】 anything else?
+160 | It means saying ‘no’ to the hundred other good ideas that 【there】 are.
+290 | Yet, 【there】 are
+163 | 【There】 are a couple of ways to compromise on the issue.
+154 | Luckily, 【there】 are a few things you can do to determine whether or not a company is a good fit for you—before you ever sign your name on that dotted line.
+122 | In fact, 【there】 are a lot more people giving tickets than receiving.
+119 | 【There】 are a lot of reasons to want to keep your own last name.
+243 | “【There】 are a lot of nutrients contained in the parts of the fruits,
+269 | Left-handed people can find it inconvenient to do certain things, writing in a notebook for example, but 【there】 are a number of advantages of being left-handed.
+231 | J) 【There】 are all sorts of reasons to hyphenate your name or not to hyphenate your name.
+219 | H) 【There】 are already plenty of gamers out 【there】 who know that their hobby has made them who they are.
+289 | 【There】 are also a few compulsory aspects of passports.
+241 | While research has found dogs can have a lot of positive impacts on a child’s life, 【there】 are also risks associated with the dog-child relationship.
+84 | G) 【There】 are also so-called “blizzard bags”, with assignments that children take home ahead of an expected snow closure.
+211 | This suggests that while dogs may view children as social companions, 【there】 are also some differences that we need to understand better.
+117 | 【There】 are always several of those bikes out in front of our apartment complex.
+110 | 【There】 are black people and white people and Indian people.
+167 | 【There】 are close to 58,000 homeless people in Los Angeles county.
+145 | 【There】 are cognitive ( -iA  {JI.;) benefits of doing things the way we did as children-building
+130 | 【There】 are 24 episodes. [11] Well, maybe you could download an electronic copy of the book and try to read it before the show starts.
+285 | 【There】 are extra benefits for leaders: (21) with a simple personal story, they can convey fundamental values.
+297 | Fans of classical music can also tell you that 【there】 are few types of music that are more expressive.
+299 | 【There】 are few types of music for movie producers to choose from.
+100 | For each of them 【there】 are four choices marked A), B), C) and D).
+172 | each of them 【there】 are four choices marked A), B), C) and D).
+203 | For as long as 【there】 are homeless people, 【there】 is a tendency to blame the victims themselves for their condition—to see their failure to thrive as an issue of character, of moral weakness, of laziness.
+210 | Young women engineers are more accepted mostly because 【there】 are just
+115 | 【There】 are lots of great potential markets here in China.
+271 | 【There】 are lots of people interested in watching such movies.
+105 | However, “【there】 are many reasons to think that it’s different in women,” Harvard Medical School reported.
+153 | Despite the classification, 【there】 are more complex factors such as relational closeness, gender, age, and context that can affect how someone views physical contact.
+179 | Human fascination with animals goes back as far as humans do. [22] Of the oldest cave paintings discovered, some are up to 40,000 years old, and 【there】 are more images of animals than humans.
+112 | 【There】 are no formulas written on the insides of hands or students looking across the aisle, or whispering answers to their classmates.
+217 | Currently, 【there】 are no guidelines regarding when midazolam should be administered.
+278 | 【There】 are no longer any boring or repetitive tasks.
+279 | 【There】 are no official rules regarding passport colors, but countries follow a certain set of norms when designing them.
+93 | But instead of leaving and never coming back, it invited its friends round. [5] 【There】 are now at least five different cats who come almost on a daily basis.
+102 | 【There】 are numberless hunter-gatherers in Amazonia, living along
+123 | The researchers said 【there】 are numerous schools of thought that propose differing psychological methods for strengthening relationships.
+147 | remain in the can, even if 【there】 are only four or five in total.
+228 | 【There】 are only two seats available.
+98 | 【There】 are others, however, who showed support for the restaurant’s decision. [4] They said it has the right to implement any rules it wants.
+280 | Directions: 【There】 are 2 passa,ges in this section .
+221 | Directions: 【There】 are 2 passages in this section.
+286 | However, on the other side of the coin 【there】 are people who maintain that it is possible to be, or at least seem to be, multitasking.
+283 | For another, most of the classes on Coursera are in English, and though 【there】 are plans to add translations, language barriers can be a big obstacle.
+133 | 【There】 are plenty of other options such as imaginative play, non-competitive games, and gardening or nature experiences.
+185 | E) “【There】 are plenty of soft skills that gamers can utilise in a professional setting, such as teamwork, problem solving and
+195 | But 【there】 are promising students from struggling families across the nation who should not rule out their dream schools entirely.
+180 | 【There】 are rules that motivate customers to buy
+187 | After all, without counting, how can someone tell whether 【there】 are, say, seven or eight
+191 | When 【there】 are several different assignments, make sure they begin with one they enjoy, so it seems easy to get started.
+292 | Furthermore, 【there】 are significant individual differences.
+296 | But it’s still early days and 【there】 are signs of hope.
+266 | Whatever the case, your passport will likely be one of four colors: red, blue, green or black, although 【there】 are slight variations.
+274 | The kids will love it and 【there】 are so many islands nearby to explore.
+184 | It could be melted for use in other products. [7] It said even though 【there】 are some differences between the two products, 【there】 was still the possibility of confusion for consumers.
+246 | But 【there】 are some links to skills like “decision-making, the ability to
+293 | Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, but 【there】 are some major
+141 | For anyone who wants to help make this year’s games a massive success, 【there】 are still opportunities to volunteer for Fayetteville’s Special Olympics.
+103 | While the positives are many, 【there】 are still some obstacles.
+186 | They are also the ones who know 【there】 are systems that are more powerful,
+291 | Then 【there】 are the questions over the value of massive open online courses (MOOCs) themselves—both for refugees and for average learners.
+140 | have turned to claiming the problem is the opposite: 【There】 are too many cyclists getting in the way of cars.
+144 | 【There】 are tools to compare one’s DNA with others’ to
+92 | 【There】 are tricks to increase customer satisfaction.
+166 | 【There】 are two different attachment styles; an anxious attachment style and an avoidant attachment style.
+183 | 【There】 are two main reasons for
+91 | 【There】 are two main theories.
+177 | 【There】 are undoubtedly hundreds of great resources out 【there】 for those wishing to improve their financial literacy, but
+137 | 【There】 are ways to predict customer preferences:
+204 | J) 【There】 are ways we could soften the coming blow to the global food supply, however.
+235 | Today, a greater and greater proportion of people living on the streets are 【there】 because of bad luck or a series of mistakes, or because the economy forgot them—they lost a job or were evicted or fled an abusive marriage just as the housing market was growing increasingly unforgiving.
+109 | However, figuring out what a company is like before you actually work 【there】 can be a bit of a challenge.
+242 | principle: that 【there】 can be just the right amount of something.
+232 | M: Is 【there】 enough demand for that?
+143 | She has lived 【there】 ever since.
+257 | My friend brought me a pair from 【there】 five years ago, and they still look new.
+174 | In England. 【there】 has been a
+169 | However, 【there】 has been _26_ little research on the influence of leisure activities.
+205 | H) Since then, 【there】 have been a number of legal cases against companies involving paternity leave—including cases against JPMorgan Chase and Estée Lauder—which have helped put pressure on companies to make their parental leave policies gender neutral.
+125 | 【There】 have been many attempts to help consumers make healthier choices, but consumers often struggle to maintain a healthy diet. [18] This research finds that one way to promote a healthy diet could be to advertise the social benefits of healthy choices.
+173 | Clearly 【there】 have to be rules.
+295 | Again, 【there】 is
+265 | 【There】 is a big boost in employees' work efficiency.
+176 | The findings are important because 【there】 is a growing body of evidence that dogs can help children in many ways.
+248 | Most important, 【there】 is a growing recognition that people who balance
+131 | H) 【There】 is a long-running debate on whether missing days of school affects attainment.
+89 | 【There】 is a long way to go before humans can interact with driverless vehicles.
+106 | Ducks are birds that feed and breed in areas where 【there】 is a lot of water, but their habitats have been shrinking in recent decades because of the droughts.
+171 | On the other hand, 【there】 is a more rational approach to making decisions.
+202 | When 【there】 is a relationship breakdown with their parents, children with an anxious attachment style scream and cry to get their parents to come back.
+168 | Other studies, including studies of wheat in India and corn in Africa, also found that 【there】 is a threshold above which yields sharply decline: crops can adapt and move, but only to a point.
+240 | 【There】 is a time-honoured tradition in the US for school kids to stay at home on “snow days”.
+142 | And 【there】 is already a growing acceptance
+226 | 【There】 is also little interaction amongst students.
+87 | “【There】 is always this kind of slip
+114 | I) 【There】 is another depressing reality hidden within even the largest financial aid packages: Colleges often offer the most generous packages during freshman year as a way to attract new students.
+118 | Evil is typically referred to when 【there】 is deviance from social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.
+213 | According to an officer of the Creative Industries Federation, 【there】 is difficulty now in recruiting engineers in the UK.
+225 | In many cases, 【there】 is no active help and a lack of teacher training.
+230 | 【There】 is no consensus on what high-quality diets are.
+239 | life not only for others but also for ourselves, because ultimately, 【there】 is no difference.
+124 | Despite alarmist headlines about “foods that are going extinct,” 【there】 is no evidence that major food types like beans, chocolate, wine, corn or wheat will cease to exist.
+198 | 【There】 is no indication that increasing food skills or budgeting skills will reduce food insecurity.
+116 | For example, 【there】 is no meeting that goes faster than not having a meeting at all.
+190 | 【There】 is no point in transferring office work to working from home.    ?P:there is no point in
+193 | “【There】 is no way to definitely know who they are,” says Neate.
+222 | These experts claim 【there】 is not sufficient data to indicate that people’s reliance on those other activities is an addiction.
+294 | Despite these existing recommendations, 【there】 is nothing regarding the cover color.
+197 | I’m reminded of the famous Peter Drucker quote, “【There】 is nothing so useless as doing efficiently that which should not be done at all.
+189 | 【There】 is now.
+273 | One survey indicated 【there】 is now less objection to paternity leave.
+260 | 【There】 is objection to e-learning days owing to fear that students with no access to the Internet at home will suffer.
+209 | 【There】 is opposition to the practice of giving children assignments to take home before extreme weather forces a school
+233 | 【There】 is some debate about which was the very first, but over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+134 | Judging from the slowing rate of sales growth, 【there】 is still hope to combat bottled water.
+237 | O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, but that 【there】 is still substantial progress to be made towards changing attitudes towards paternity leave.
+82 | 【There】 is support
+207 | Daddy doesn't like him or her, 【there】 is the danger that they will abandon them.
+90 | 【there】 is training and support for teachers and tutoring for students from designers.
+199 | F) While tradition is one thing, 【there】 isn’t any logical reason to completely change your name.
+139 | drive and drive and drive... and 【there】 isn’t anything 【there】.
+254 | Bacteria accumulate because 【there】 isn’t enough water in your mouth to wash it away.
+267 | And 【there】 it makes sense that
+276 | research into the impact of clothes on behavior now suggests that 【there】 may actually be a grain of truth in these sayings.
+277 | So, if your baby seems to be in a stressful state while sleeping or is upset upon waking, 【there】 may be other factors at
+150 | Some people believe that 【there】 may not exist a stress gap between men and women.
+94 | “When caught in such a traffic jam, it is common for drivers to assume that 【there】 must be an accident, or construction or
+148 | W: (14) But 【there】 must be some problems.
+224 | Curiosity covers such a large set of behaviors that 【there】 probably isn’t any single “curiosity gene” that makes humans wonder about and explore their environment.
+108 | To treat the disorder, 【there】’re a number of medicines and therapies that are backed by _33_ research, according to the American Academy of Sleep Medicine, which analyzed the available research on the treatment of nightmare disorder in a recent _34_ published in the Journal of Clinical Sleep Medicine.
+121 | H) The larger question, though, is a familiar one: Is 【there】 room for Formula One in the ever-crowded sports landscape of the United States?
+244 | 【There】’s a Bobo Man cartoon popular amongst young children, you see.
+178 | J) “One of the really useful things about this competition,” says Hourican, “is that 【there】’s a commercial element because the
+99 | 【There】’s a downside to this.
+159 | (13-1) 【There】’s a flight arriving the following morning, with a two-hour stopover in Dubai, or a flight arriving at 11:30 in the evening, with a five-hour stopover in Amsterdam.
+281 | With the validity of science coming under attack, 【there】’s a need for scientific debates to be perceived as open and true to life.
+107 | Well, 【there】’s a nice Chinese restaurant that delivers.
+236 | That’s why we feel like we have to appear busy, and 【there】’s a real perception that if someone is knee-deep in meetings, emails, and stress, then they’re probably a big deal.
+288 | 【There】’s a reason tailored jackets are associated with being “dressed for success”.
+146 | In cold and snowy Alaska, 【there】’s a village called Takotna.
+188 | 【There】’s a widespread misunderstanding that only low performing children suffer from math anxiety.
+182 | As Horn argues, “【There】’s absolutely no advantage of tailgating the car in front of you.
+287 | 【There】’s also a great night market further into town that has all kinds of food and cool little shops selling souvenirs and local jewelry and clothing made by hand.
+208 | 【There】’s also a theory that this color helps the dolphins more readily blend in with their surroundings.
+270 | But 【there】’s another side to the story.
+256 | W: Sure, 【there】’s enough demand.
+298 | While 【there】’s little innovation when it comes to passport cover color, the same cannot be said for the pages.
+152 | But 【there】’s more to running than its health benefits.
+251 | For instance, many babies are perfectly proficient crawlers, but they decide to try walking because 【there】’s more to see and do when they stand upright.
+151 | Yet, 【there】’s no commercial farming of these birds nowadays.
+215 | W: [10] It’s about an hour to campus, but 【there】’s no reason I can’t study on the bus.
+86 | M: I do talk about very small homes, but 【there】’s no set definition of a tiny home.
+252 | In the age of the internet, 【there】’s no such thing as a private debate.
+192 | 【There】’s no wrong answer here—so from big things to small details, write them all down on your list.
+249 | Some argue that 【there】’s not enough research on the subject.
+216 | 【There】’s nothing wrong with trying to look our best but excessive focus on physical appearance misses the soulful aspects
+81 | While 【there】’s plenty of drama and messiness online, it is not, for most teens, a cycle of non-stop abuse: a Pew study found only 15% of teens said someone had bullied them online in the last 12 months.
+268 | When debates in any sector move beyond the halls of universities and government agencies, 【there】’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+200 | I hear 【there】’s something else that makes your theatre special.
+258 | P) “I do think 【there】’s still some way to go…【there】’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, but I think the research is showing that’s starting to change.
+170 | 【There】’s that American style diner on the way to the mall.
+181 | M: Are you sure about that? [9] Rents in big cities are high, and then 【there】’s the cost of electricity and gas.
+138 | I don’t know if that’s a good idea as your mother and I would worry about you living all by yourself in an apartment so far from home. [9] And then 【there】’s the expense, too.
+111 | But a bit of a giveaway is that the villa will be cheaper than on other websites and 【there】’s unlimited availability,” says Tipton.
+201 | The guys who are in the sport forever are sitting 【there】 saying: 'We can't do that.
+128 | I) When linguist Naomi Baron studied students’ instant messaging even 【there】 she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.
+284 | Richard Stone, an English teacher, thinks 【there】 should be a clear separation between school and home.
+101 | So going 【there】 should be a great idea.
+272 | I experience a sense of longing, realizing that 【there】 should be more in life.
+245 | 【There】 simply isn’t a one-size-fits-all process. [17] Being effective requires adaptability—something you don’t really learn in school, much less in a 6-month training camp.
+80 | It’s a great place, but I think we go 【there】 too often.
+164 | 【There】 used to be many hat factories in Britain until around the 1950s.
+136 | Perhaps they made the sound of wind to comment on the weather or imitated the sound of a bird to tell a friend that 【there】 was a bird nearby.
+162 | 【There】 was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—but most importantly, the residents were simply happier.
+196 | Thus, they wanted to determine if 【there】 was a link between protection of women’s rights and public health.
+223 | As expected, 【there】 was a much higher rate of attrition (g!) among
+282 | An Italian study found that for simple arithmetic 【there】 was little difference between right- and left-handed performance, (24) but for more difficult problem-solving, left-handers won out.
+161 | Because 【there】 was no email or text message service, everything had to be done face to face, or by telephone.
+83 | But on the whole, 【there】 was no systematic pattern.
+253 | 【There】 was one exception: Social skills were slightly lower for children who accessed online games and social networking sites many times a day.
+175 | hit songs of the 1950s, researchers found, 【there】 was only slightly more than one 50 years later.
+165 | While some might immediately link Formula One to NASCAR in terms of American growth, Carey said Formula One's brand research had indicated 【there】 was very little crossover; rather, Formula One fans generally cite other so-called elite events, like Wimbledon or the Ryder Cup, as competitions they enjoy.
+264 | Importantly, 【there】 were also some promising effects of the new intervention on actual
+158 | Yes, 【there】 were cheaper options.
+127 | 【There】 were crowds of people around her asking for a photo with her.
+227 | “I Googled the agent’s name and 【there】 were lots of complaints about him being a fraudster.
+261 | The most recent count of pandas found that 【there】 were more than 1,800 left in the wild, putting them on the list of
+135 | students helped to make decisions and 【there】 were plenty of discussions — they changed the product’s name, for example.
+155 | I didn’t know 【there】 were so many different ways to learn.
+214 | However, when the calories weren't in excess overall, 【there】 were some advantages to consuming whole fruit —
+88 | 【There】 were 114 space launches in 2020, but 【there】 may be up to 1,000 per year in future.
+229 | 【There】 were three categories.
+96 | 【There】 will also be a fun tent for children. [4] Kowalczyk said it’s rewarding to see athletes with special needs triumph in the games.
+194 | 【There】 will be around 20 of us, including children.
+126 | 【There】 will be crowds of people waiting for her.
+157 | I imagine 【there】 will be different foods and people will just help themselves and eat at their own pace, right?
+129 | According to Keynes, 【there】 would be a shorter working week with everyone’s standard of living continuing to rise.
+212 | The natural habitat of wildlife 【there】 would be ruined.
+263 | W: 【There】 you are.
+255 | From 【there】 you are going to have to legally change your name all over the place.
+
+============================================================
+## 词：when    本段 294 句    模式：全标（每句都写）
+原释义：adv.什么时候; 当…时. conj.在…时候.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 当…时，在…的时候    B 样本 67    例：What they wanted to be when grown up.
+  1  adv. 什么时候，何时    B 样本 4    例：When to go for their meal.
+  2  adv. （修饰时间词的从句）…的时候；就在那时    B 样本 9    例：It is when the villagers choose a queen.
+  3  conj. 既然，考虑到    B 样本 0
+  4  conj. 然而，可是（表对比）    B 样本 0
+已标过的短语：when it comes to（1）
+口径说明（照此执行）：
+  - 给C的口径：疑问及 know/decide/see when…、when to do 按1；a time/day/age/cases when、in February when 等修饰时间名词的定语从句，以及「…was doing, when (突然)…」按2；even when、especially when、when + 分词 按0；when it comes to 标P。2 与 0 的边界（如 on Friday when…）有主观成分。
+句子：
+227 | Dreams of very small kids are usually just snapshots , looking much more like a slideshow than a movie, 【when】
+322 | While a good suit works wonders for our performance in the boardroom, wearing formal wear isn’t a great idea 【when】
+98 | 【when】 a car in dense traffic slows down even slightly, which causes the car behind that vehicle to slow even more — and
+203 | Recognizing 【when】 a friend or colleague feels sad, angry or surprised is key to getting along with others.
+127 | It all started off 【when】 a movie star shared a photo of herself putting her trash bins out in a ball gown.
+113 | In other words, 【when】 a person’s own work group is involved, they tend to prefer team members who are similar to themselves.
+240 | The researchers found that the time 【when】 a person starts school has an enduring impact on their lives.
+161 | So it was 【when】 a recent letter came from Kelli Harding, a student 21 years ago in my Peace Studies summer course in Washington.
+249 | A lot of people think I’m trying to punish students who aren’t doing well, [14] 【when】 actually my goal is to give all students more incentive to succeed.
+267 | 【When】 aid is offered
+302 | One survey taker explained, “The greatest challenge for me was continuing to believe in myself, 【when】 all the messages
+126 | The traditional school year, with three months of vacation every summer, was first implemented 【when】 America was an agricultural society and the summer months were needed for farm work.
+173 | 【When】 an experimenter from the research team took notice.
+129 | 【When】 an unknown student from another university was present.
+361 | 【When】 are you more likely to succeed in persuading your coworkers?
+294 | What is a reason for the author to be in the habit of saying “busy” 【when】 asked how he is doing?
+132 | These are both examples of deceptive strategies. [18] Participants were more willing to employ deceptive strategies 【when】 assigned an agent to negotiate on their behalf.
+278 | Certain institutions, such as schools are likely to close 【when】 bad weather, such as snow, flooding, or extreme heat or
+306 | Perhaps it’s that attention focuses on horror stories — and some merchants do get hit 【when】 bike lanes come in.
+334 | boost from Covid, 【when】 bike sales exploded by 75 percent.
+363 | This occurs 【when】 business leaders implement IT initiatives with
+246 | J) It is probably true that fewer kids are heavy readers compared with two generations ago, 【when】 cheap paperbacks boosted rates of reading.
+258 | 【When】 Coburn spoke to them and described what
+349 | relevant 【when】 combined with traditional, hands-on creative activities.
+140 | [19] A new study finds that job seekers are even willing to explore jobs with lower salaries 【when】 companies are more diverse.
+89 | 【When】 companies embrace greater diversity
+360 | What is one of the traps entrepreneurs may often fall into 【when】 competing with rivals?
+91 | One large beverage company has adapted its operations 【when】 confronted with challenges from health and environmental
+222 | Modesty may be key 【when】 cooperation is essential, but the researchers also found that in some cases, status signaling has advantages.
+101 | “【When】 creating treatment plans, the aim is to optimise
+326 | 【When】 debates in any sector move beyond the halls of universities and government agencies, there’s potential for information to be used incorrectly, leading to public confusion; yet, open debate can also promote communication between the scientific community and the public.
+219 | Participants in the diversity condition tended to click on job listings from companies with slightly higher diversity scores than those in the baseline condition: [21] that is, participants seemed to be paying attention to information about diversity, and using this 【when】 deciding whether to click on the listing.
+248 | people ate 50% more of a healthy food 【when】 directed to focus on the good taste rather than the long-term health benefits.
+192 | So, 【when】 do babies start dreaming?
+362 | 【When】 doctors prescribe medicine for people, they rarely consider the best time to take it.
+331 | [20] 【When】 doing extreme sports, you have to become more focused.
+308 | 【When】 employees are properly compensated, employers’ real estate savings will be modest.
+265 | But 【when】 employees interact with individuals outside the organization, they are less motivated and show less initiative.
+310 | It is hard to measure 【when】 employees interact with outsiders.
+339 | Learning to be this focused 【when】 enjoying extreme sports will help you to be focused at work, keeping you more productive and ultimately more successful.
+351 | What should we do 【when】 facing various factors that limit the practicability of data?
+291 | What will happen 【when】 food aid is offered at a price?
+96 | F) He found negative effects on blood sugar and insulin levels 【when】 food provided excess calories from sugars, including
+115 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as 【when】 former students reappear years and often decades later with an update on where their journey has taken them and what resiliencies (韧性) have been the pavement on which they’ve traveled.
+146 | W: Oh, yeah. [15] We had one of those 【when】 growing up.
+329 | He surprised sporting fans around the world 【when】 he came in a remarkable 25 lengths ahead of the nearest horse, taking his third Grand National win.
+316 | 【When】 he returned in 1977 to try again, he was largely regarded as past his prime.
+337 | What did people generally think of Red Rum 【when】 he returned to the racecourse in 1977?
+141 | Maybe he could even join the school basketball team 【when】 he’s ready.
+95 | Tariq couldn’t believe his eyes 【when】 he saw the palace made of corn.
+150 | science,” he says, but confesses he only became a true believer 【when】 he started asking players about their biggest in-game
+172 | Chan buys a new lion head each year 【when】 he travels to China.
+134 | British economist John Maynard Keynes 【when】 he wrote his short essay “Economic Possibilities for Our Grandchildren” in
+232 | What’s more, making obesity a disease “may not benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry 【when】 health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+262 | Some of them find it awkward 【when】 hugging children.
+190 | That would be in place 【when】 human drivers fail to slow down, thus avoiding tailgating the car in front, Horn said.
+279 | point was reached in 2020 【when】 human-made materials — such as steel, concrete and plastic — were found to weigh more
+300 | I met three different people today, and each time, 【when】 I asked, “How are you?
+221 | “Then 【when】 I changed schools four years ago, I introduced it here because it helps to develop so many
+289 | 【When】 I examined how respondents expressed openness to new careers and employers, I found that they engaged in some key activities including researching new organizations and making new work connections.
+195 | 【When】 I started my career, things were already different.
+144 | But 【when】 I told him, he said he loves her and would just do what she wants him to.
+128 | "I started lion dancing 【when】 I was a kid," he said.
+92 | Then, 【when】 I was tired and hungry, I’d use my phone to order food, like burgers and other junk, [10] instead of going to the canteen, where I could get a healthier meal for half the price.
+157 | I’m just calling to inquire 【when】 I will be able to get my money back.
+244 | 【When】 in the presence of an unknown student from their own university, only 12 per cent of students selected the healthier option. [17] However, this number was 31 per cent 【when】 in the presence of an unknown student from another university.
+85 | M: 【When】 is the show supposed to start? [10] I’m a bit overwhelmed with the amount of data I still need to collect to finish my thesis.
+355 | But this eagerness to win may also hurt your venture’s success, particularly 【when】 it causes you to make impulsive, insensible decisions.
+276 | M) These findings suggest that 【when】 it comes to achieving your goals, enjoying the process itself is more important than    ?P:when it comes to
+99 | But research shows that, 【when】 it comes to actually making a ___27___ from all of these choices, people can become    ?P:when it comes to
+215 | inspiring, 【when】 it comes to actually doing the day-to-day work, it may be more effective to reframe activities in terms of their    ?P:when it comes to
+299 | By all means, set ambitious long-term goals for your future self, but 【when】 it comes to actually following    ?P:when it comes to
+264 | Such differences in value that different working cultures place on the written word tend to cause many problems 【when】 it comes to business relationships.    ?P:when it comes to
+315 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years as more fathers feel comfortable taking extended time off, but gender bias persists 【when】 it comes to career prospects and the home, according to a new study of working parents.    ?P:when it comes to
+122 | The basis for each of these things, however, is whether or not you are willing to make a compromise 【when】 it comes to changing your name.    ?P:when it comes to
+256 | So as you can see, 【when】 it comes to choices, less is more.    ?P:when it comes to
+234 | Western working culture tends to place a high value on the written word, and this reaches its highest level of intensity 【when】 it comes to contracts.    ?P:when it comes to
+209 | 【When】 it comes to our countries, our communities, and our families, we understand instinctively that the stories we hold in common are an important part of the ties that bind.    ?P:when it comes to
+266 | J) “The rabbit effect,” she explains, means that “【when】 it comes to our health, we’ve been missing some crucial pieces: hidden factors behind what really makes us healthy.    ?P:when it comes to
+106 | While there’s little innovation 【when】 it comes to passport cover color, the same cannot be said for the pages.    ?P:when it comes to
+290 | Teachers must stay on guard 【when】 it comes to what their students are doing in classrooms and how technology could be playing a negative role in the learning process.    ?P:when it comes to
+369 | What is said to happen 【when】 IT is functioning properly?
+231 | The emotional labor women do is noticed only 【when】 it is not done.
+354 | 【When】 IT is operating as it should, employee self-confidence swells.
+324 | pumped less blood through the body-both responses that the body shows 【when】 it is preparing for
+304 | A lot of research comes to the same conclusion that fruit juice does harm to the human body 【when】 it leads to surplus
+88 | This preference ___29___, however, 【when】 it refers to people’s own jobs.
+199 | (22-2) Understanding 【when】 it’s appropriate to exchange one form for another can be a major key to success in international business.
+332 | “【When】 it snows, let the kids enjoy it.” said one commenter.
+224 | I have fond memories playing Battleships 【when】 it was raining outside and we had to stay indoors.
+342 | M) 【When】 Janette Sadik-Khan was the head of New York City’s Transportation Department back in the early 2000s, she
+177 | 5 times what it was 【when】 Keynes was writing.
+285 | To confirm the general consensus on 【when】 kids dream.
+297 | 【When】 kids switch from chat to music to homework, they are indeed likely to have trouble doing each task well.
+213 | I) 【When】 linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, they began to write in more grammatical sentences.
+356 | Assessing all factors 【when】 making a choice.
+318 | 【When】 making decisions, we give priority to our current frame of mind without thinking much of the consequences.
+178 | It is also cheap, at a time 【when】 many are worried about what the economic future holds.
+368 | Currently, there are no guidelines regarding 【when】 midazolam should be administered.
+162 | The latter group started school 【when】 mobile devices were widespread.
+116 | The former group entered kindergarten 【when】 mobile phones were luxuries.
+314 | Risk-takers are best at adapting in difficult times. [25] Simply put, 【when】 most individuals stay away from risk, it means less competition for risk-takers.
+179 | 【When】 most of us set goals, we focus on long-term results We
+174 | W: Maybe, but how can anyone save enough to retire by 40 【when】 most people can’t retire at 60?
+270 | The spoken web is helpful 【when】 one's hands are occupied.
+247 | into trouble is 【when】 our self-worth is dependent upon whether we win someone's approval or not.
+120 | It followed infants across the second six months of life and found that 【when】 parents showed babies books that had faces or objects with specific labels, they learned more.
+353 | A businesswoman said her business dropped sharply 【when】 parking space gave way to a bike lane, because most of her
+358 | Local business owners on Skillman Ave argued that their businesses would be ruined 【when】 parking spots were replaced
+181 | This reduced self-threat could even be observed 【when】 participants assumed that they
+245 | The researchers found that 【when】 participants spent longer than _28_ on their leisure activity, their belief in their ability to perform their job was strengthened.
+183 | It finds that sharing information about diversity makes job postings more attractive to job seekers, even 【when】 pay is lower.
+107 | 【When】 people are bored, they're more likely to feel less meaning in their lives.
+243 | One of my bad habits is saying “busy” 【when】 people ask me how I’m doing.
+271 | Personally, I’m going to stop saying “busy” 【when】 people ask me how I am.
+169 | M: 【When】 people ask my son what he wants to be 【when】 he grows up, I have to swallow the urge to say, “Hey, back off my kid’s dreams!
+160 | “【When】 people book holiday villas they are doing so through rose-colored
+235 | “【When】 people book their holidays they get so emotionally involved, and 【when】 they find that villa at a good price with availability in peak season, they are an easy target,” says Cooper.
+191 | Research shows that 【when】 people choose from many options, they ___29___ more in the decision,
+350 | They found that 【when】 people compete against their rivals, they are more willing to behave unethically to win.
+148 | Even worse, 【when】 people finally do decide, they are generally less satisfied
+348 | 【When】 people have no way out in crises, they are more likely to embrace changes.
+159 | But 【when】 people make decisions for others, they typically put together a more diverse team.
+257 | What happens 【when】 people strive to look better?
+239 | They set the bar too high, and 【when】 people take too long or don’t get things quite right, they assume it’s due too lack of effort.
+338 | As was expected, 【when】 people thought of their present selves, their brains were observed to become more active.
+114 | Fraudsters also invest in pay-per-click advertising to feature at the top of search engines 【when】 people type in phrases such as “Spanish seaside villas”.
+152 | 【When】 Ph.D. student Quentin Willot
+149 | [19] 【When】 planning for this year, our principal asked what needed to change to engage students more in their learning.
+277 | It seems like you’re blaming them for not succeeding, 【when】 poor performance in school isn’t a child’s fault.
+373 | Considering drug-taking timing 【when】 prescribing drugs for patients.
+371 | What do doctors do 【when】 prescribing medicine for people?
+321 | Not to think highly of her qualifications 【when】 promoted or given a pay raise.
+305 | 【When】 reporter Joan Solsman, a longtime vegetarian,
+154 | Most people did not include snacks 【when】 reporting their calorie intake.
+311 | 【When】 researchers estimate the cost of diets people actually eat, higher-quality diets are typically more costly.
+272 | These results remained 【when】 researchers followed up six weeks later.
+130 | 【When】 researching this book, I interviewed hundreds of people who retired by 40.
+184 | 【When】 responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, they can still benefit from all of the above 【when】 visiting a friend who does.
+259 | Still, that’s not always the case: 【When】 roused during
+201 | Kelli’s letter, a literate update on both her personal and professional life, touched my heart, and especially so 【when】 saying that two decades later she still has the course text, “Solutions to Violence,” and that “it remains one of my favorite possessions.    ?P:so...that
+320 | the US, it means the chance of school children benefiting from the long-standing tradition of the “snow day”, 【when】 schools
+340 | “easy decision” to extend this to days 【when】 schools are closed.
+352 | In a pilot programme, students are given electronic devices to do assignments 【when】 schools are closed.
+347 | What caused more disruption was 【when】 schools tried to stay open in bad weather even though many staff and pupils were
+236 | 【When】 she fed her rabbits she talked to them and petted them.
+251 | Her first novel was not published until she was 39, and her last appeared 【when】 she was 84.
+151 | Branyas was born in the United States on April 4, 1907, but her family moved to Spain, where they were originally from 【when】 she was a young child.
+125 | 【When】 she was much younger, my daughter used to say she wanted to be Queen of the Clouds, which I loved.
+301 | 【When】 snowy weather arrives in
+137 | Electric bikes have been the craze in downtown Jacksonville since they were first introduced earlier this month as a one-year pilot program. [5] But they’re leading to safety concerns, mainly at night 【when】 some riders don’t follow the rules of the road.
+319 | Steve Maraboli once said, “【When】 someone tells you they are too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of YOUR spot on their schedule.
+87 | The poisonous snake forced the closure of the attraction last week 【when】 staff noticed the disappearance.
+176 | 【When】 Stanford University scholar Andrea Lunsford gathered data on the rates of errors in “freshman composition” papers going back to 1917, she found that they were virtually identical to today.
+312 | Avoid taking unnecessary risks 【when】 starting a business.
+309 | Live sessions are infrequent and are often scheduled during the middle of the day 【when】 students have to attend other classes or work.
+167 | “【When】 students use their phones for research, they learn they have a powerful tool in their hands.
+335 | But 【when】 students were taught that people can change, they had better responses to stress, in
+365 | 【when】 taken at night rather than during the day.
+202 | Adults are worried 【when】 technological change starts to undermine traditional relationships, particularly the parent-child relationship.
+104 | Most animals seek shade 【when】 temperatures in the Sahara Desert soar to 120 degrees Fahrenheit.
+138 | 【When】 that is the case,
+230 | Why did people often change jobs 【when】 the author started his career?
+145 | However, 【when】 the calories weren't in excess overall, there were some advantages to consuming whole fruit —
+323 | 【when】 the city removed nearby parking to put in a bike lane.
+97 | But I’m not sure why you want to leave campus and go through all that trouble 【when】 the cost is the same.
+82 | There was one time 【when】 the doctor’s receptionist came back and he was sitting on her chair.
+111 | The aircraft was carrying 265 million pounds worth of gold and diamonds, 【when】 the door flew open—sending the precious metal back to earth.
+153 | "【When】 the food
+292 | It all started in 1991 【when】 the Harvard-educated physician was transferred from working in a stressful emergency room to being the medical director of a nursing home in upstate New York.
+233 | You know that part at the end of a job interview 【when】 the hiring manager asks if you have any questions, and you just stare across the table blankly with your mouth hanging open?
+124 | But it is still somewhat restricted, particularly 【when】 the language moves away from stiffer commands into more human interactions.
+103 | The fine dining establishment received its first three-star Michelin rating in 2011 【when】 the menu was famed for its fancy
+200 | “The problem is that 【when】 the money leaves your account it’s in theirs straightaway and it’s very hard to track it,” says Barclays Bank head of digital safety, Jodie Gilbert.
+327 | What happened 【when】 the negative reciprocity variable was taken into account?
+207 | 【When】 the packages arrived, Kate wanted to open them, but her parents said no.
+163 | 【When】 the person who damages dorm facilities is not identified, students are required to share the cost.
+225 | But 【when】 the robots are switched over to bilateral control (by flashing the lights in the room),
+216 | M: 【When】 the time is right, I’ll start talking to our children about investing and show them how the money saved for their further education has grown.
+105 | It is difficult for anumeric people to keep track of the change in numbers even 【when】 the total is very small.
+253 | An additional bonus is 【when】 the winners
+214 | with 【when】 the working week stopped shrinking.
+286 | mindset of intelligence-they showed lower levels of stress hormones 【when】 their grades were
+229 | levels of stress hormones 【when】 their grades were declining at the beginning of the ninth grade.
+296 | 【When】 their hobby was both serious and similar to their job, then spending more time on it actually decreased their work _31_.
+139 | 【When】 their job search criteria are met fully.
+284 | convinced, even 【when】 their own street performs.
+287 | Rough calculations show that the savings made by employers 【when】 their staff works from home are of similar value to the compensation workers should receive for setting up offices at home.
+109 | 【When】 there are several different assignments, make sure they begin with one they enjoy, so it seems easy to get started.
+171 | 【When】 there is a relationship breakdown with their parents, children with an anxious attachment style scream and cry to get their parents to come back.
+121 | Evil is typically referred to 【when】 there is deviance from social norms; formal deviance is the violation of laws, like theft, murder, and attacks, while informal deviance involves violations of social norms, like lying.
+83 | But even 【when】 these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+307 | 【When】 these students gave the speech, their blood vessels contracted and their hearts
+372 | 【When】 they are convinced they will make achievements together with you.
+364 | 【When】 they are convinced you work in their interests while sacrificing your own.
+269 | How do smart people react 【when】 they are found to be wrong?
+367 | 【When】 they become aware of the potential strength of the judgements you make.
+370 | 【When】 they become aware of the meaningful relationships you keep with them.
+336 | They also need to recognise that men have to make significant adjustments 【when】 they become parents.
+205 | A soldier deviates 【when】 they choose not to follow orders to kill an innocent civilian.
+223 | But 【when】 they do lead to too many calories, they risk raising
+188 | control 【when】 they don’t lead to over-consumption of calories.
+110 | Questions are a powerful tool, especially 【when】 they encourage others to disclose information about themselves.
+343 | More than half of students will find their academic performance declining sharply 【when】 they enter the
+238 | An employee in a big tech company deviates 【when】 they expose its wrongdoings.
+182 | 【When】 they find job postings visually attractive.
+330 | 43 People ate more of a healthy food 【when】 they focused on its good taste instead of its long-term benefits.
+143 | 【When】 they found collaboration essential to them.
+117 | Students may not be able to enjoy their state benefits 【when】 they go to college out of the state.
+273 | But this was only the _29_ 【when】 they had a serious hobby that was dissimilar to their job, or 【when】 their hobby was similar to their work but they only did it _30_.
+260 | students believed that intelligence could improve-that is to say, 【when】 they held more of a growth
+194 | turned to for support 【when】 they move from the eighth to the ninth grade.
+206 | They often fail to recognise 【when】 they need help, and 【when】 they do recognise it, they tend to believe that no one else is capable of providing it.
+288 | A chat with an insider of a company can give job applicants very useful information 【when】 they prepare for an interview.
+228 | What does a leader tend to do 【when】 they’re committed to analytical decision-making?
+254 | Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] But participants were more likely to choose that person 【when】 they’re looking for a competitive team member.
+166 | “They’re so used to being right and having quick answers that they don’t even realise 【when】 they’re making a mess by answering without thinking things through.
+242 | That means less debt and potentially better credit outcomes 【when】 they reach the U.S.
+165 | A child deviates from social pressures 【when】 they stand up for another child being bullied in school.
+325 | For instance, many babies are perfectly proficient crawlers, but they decide to try walking because there’s more to see and do 【when】 they stand upright.
+357 | are more likely to agree with you 【when】 they succeed alongside you.
+280 | What would drivers do 【when】 they suffer from “warning fatigue”?
+293 | Few people are successful 【when】 they try to build their first brand.
+366 | experience mentally 【when】 they use IT.
+341 | What are people advised to do 【when】 they want to socialize?
+333 | Studies have found that people tend to be less open and less able to relax 【when】 they wear formal clothes.
+328 | But 【when】 they were asked about how caregiving and household tasks were divided, their answers painted a different picture.
+94 | 【When】 they were looking for a cooperative workmate.
+210 | 【When】 they were offered both candy and fruit as a snack.
+186 | 【When】 they were seeking someone to help them.
+211 | The same was true 【when】 they were with someone from a different university, compared to someone from their own.
+180 | We opened a savings account 【when】 they were young.
+274 | And it turns out that 【when】 they write for strangers, their sense of “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.
+86 | Unsurprisingly, people’s brains were most active 【when】 thinking about their current selves and least active 【when】 thinking
+136 | Put in practical terms, 【when】 thinking of yourself in a month or a year or a decade, your brain registers that person in
+218 | 【When】 Toni Morrison died in 2019, the world lost one of its most influential authors.
+170 | One benefit of this change is that students will not fall victim to the "summer slide," or the well-documented phenomenon where students forget some of the knowledge they have acquired 【when】 too much time is taken off from school.
+147 | technology that sets a maximum speed for vehicles and automatically slows the speed of the car 【when】 traffic is sensed in
+90 | The weather was the coldest it had been for the season, [7] so people were warned to be careful 【when】 traveling outside.
+250 | “It is important to understand these ___34___ effects 【when】 trying to
+217 | “Even 【when】 unemployment results from the ___33___ of new technologies, people still judge it in a social context,”
+252 | the terms and conditions that require agreement 【when】 using new software products.
+142 | allow us to feel like we are moving forward 【when】 we are merely spinning our wheels.
+175 | 【When】 we are 3 or 4 years old.
+226 | In other words, 【when】 we are ___30___ with more choices, making the
+317 | What can we do 【when】 we become better able to provide ourselves with the desired approval?
+81 | 【When】 we begin to feel fear.
+282 | It particularly comes with risks 【when】 we consume more than 150ml of free sugars per day, or 【when】 it puts us
+298 | We need to understand that 【when】 we desperately
+131 | 【When】 we develop a sense of space.
+212 | 【When】 we enter our teens.
+268 | Some say we should never meet our heroes, lest they disappoint us 【when】 we find out how normal they are.
+100 | He’s explained this to me 【when】 we first met.
+84 | How will we all keep busy 【when】 we only have to work 15 hours a week?
+313 | It only means that the gender gap disappears 【when】 we plug in the negative reciprocity variable.
+93 | He says: “【When】 we practice something, we are involved in the
+156 | And 【when】 we’re doing so, our brains are more engaged.
+303 | 【When】 we replace meals with a protein
+283 | What happens 【when】 we take the path toward cultivating inner beauty?
+281 | 【When】 we think about attaining success — whether it’s landing that job or learning that new skill —
+80 | W: They are nowhere near as popular as they used to be 【when】 we were children.
+275 | This need to be liked can be traced back to 【when】 we were children and were completely dependent on others to take care
+189 | And kids enjoy it just as much today as you and I did 【when】 we were young.
+359 | Their job satisfaction, too, can surge 【when】 well-functioning machines relieve them of dull tasks or
+155 | 【When】 women don’t reach this ideal, they feel guilty; and even more stressed.
+261 | Employers argue they make considerable savings on real estate 【when】 workers shift from office to home work.
+220 | Not to mention that soaking up new information can help you make more informed decisions 【when】 you
+197 | Because 【when】 you are enjoying, people around you will begin to enjoy as well.
+135 | Remember that you will have to have all your certificates to hand 【when】 you are filling out the forms, as the standards are high and they’ll be carefully checked before anyone will be able to sell their produce at the event.
+118 | 【When】 you are lacking water, your mouth becomes dry.
+123 | 【When】 you arrive in London, hand the ticket to the guard and he will return the bicycles to you.
+204 | And it’s true; turning down opportunities is easier 【when】 you can fall back on the safety net provided by power, money, and authority.
+187 | At some point, they switched to mostly making sounds that became words instead of just using their bodies. [18] The reason they switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even 【when】 you can’t see them.
+196 | I) The stress problem extends beyond mental health 【when】 you consider the link between stress, anxiety and heart health.
+237 | 【When】 you decline a request, you are saving your future time.
+108 | These invisible duties become apparent only 【when】 you don’t do them.
+112 | It’s hard to make any decisions 【when】 you don’t really know what you’re looking for.
+295 | Failure will teach you how to think and plan strategically. [24] But just remember that not all risks are good ones, and 【when】 you fail, learn from it and move forward.
+346 | 【When】 you find that you can overcome the physical or mental challenges involved in extreme sports, you’ll feel superhuman and your self-confidence will be at an all-time high.
+345 | In the decision-making process, relying on instincts only makes sense 【when】 you have a vast experience to support you.
+102 | While this approach is beneficial 【when】 you have the time and the decision is important, it is problematic 【when】 time is crucial.
+255 | such as in apple skins, that are excluded 【when】 you juice them,” says Heather Ferris, a professor of medicine.
+133 | 【When】 you look at today’s digital activity, the facts are much more positive than you might expect.
+158 | Now comes the part 【when】 you put on your detective hat and do a little digging.
+263 | N) 【When】 you’re hunting for a new job, you already know that the employer is trying to decide whether or not you’re a good fit for the position.
+344 | But 【when】 you’re intently focused on outperforming your rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore how you achieve success.
+198 | The Internet will be your best friend 【when】 you’re trying to familiarize yourself with a company’s culture before ever walking through their office doors.
+185 | and beliefs that you have been practicing each day, 【When】 you realize this and begin to direct your focus toward practicing    ?X
+119 | 【When】 you say “no”, you’re only saying “no” to one option.
+164 | 【When】 you say “yes”, you’re saying “no” to every other option.
+193 | But 【when】 you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+208 | Think about 【when】 you're cooking, and you just want to know what the next step in the recipe is.
+168 | M) Using voice also makes sense 【when】 you're doing other things with your hands.
+241 | And speech obviously makes sense 【when】 you're driving.

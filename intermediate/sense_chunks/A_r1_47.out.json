@@ -1,0 +1,1692 @@
+{
+ "surveyed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "调查（尤指向一批人做问卷调查）"
+   },
+   {
+    "pos": "v.",
+    "zh": "审视，勘测"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "Most people surveyed were reluctant to reveal what they ate.",
+   "zh": "接受调查的大多数人都不愿透露自己吃了什么。"
+  },
+  "form": "survey 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ },
+ "universities": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "大学"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Many universities provide academic stress management programs and workshops.",
+   "zh": "许多大学提供学业压力管理项目和工作坊。"
+  },
+  "form": "university 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "believed": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "相信，认为"
+   },
+   {
+    "pos": "v.",
+    "zh": "信任，相信…的价值（believe in）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": "P:believe in",
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": "P:believe in",
+   "13": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It is believed that the lion dance began in the third century.",
+   "zh": "人们认为舞狮始于三世纪。"
+  },
+  "form": "believe 的过去式和过去分词",
+  "irregular": false,
+  "note": "believed in 按短语 P:believe in 标（id 8, 12），可复核"
+ },
+ "break": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "休息；假期"
+   },
+   {
+    "pos": "v.",
+    "zh": "打破，打碎，折断（也指突破限制）"
+   },
+   {
+    "pos": "v.",
+    "zh": "违反，破坏（法律、承诺）"
+   },
+   {
+    "pos": "n.",
+    "zh": "破裂处，裂口"
+   },
+   {
+    "pos": "v.",
+    "zh": "中断，使中止"
+   }
+  ],
+  "labels": {
+   "0": "P:break up",
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 3,
+   "6": "P:break off",
+   "7": 1,
+   "8": "P:break down",
+   "9": "P:break down",
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "Or they can give employees more time during their lunch break to exercise.",
+   "zh": "或者他们可以在午休时给员工更多时间锻炼。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "closed": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "关闭的，不开放的"
+   },
+   {
+    "pos": "v.",
+    "zh": "关闭，封闭，使停业"
+   }
+  ],
+  "labels": {
+   "0": "P:behind closed doors",
+   "1": "P:close down",
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Most scenic sites have been closed.",
+   "zh": "大多数景区已经关闭。"
+  },
+  "form": "close 的过去式和过去分词",
+  "irregular": false,
+  "note": "id 2-6 被动式 was/were closed 按形容词义项 0 标"
+ },
+ "constantly": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "不断地，持续地；经常地"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "The software has to be constantly upgraded.",
+   "zh": "这个软件必须不断升级。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "hands": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "手"
+   },
+   {
+    "pos": "v.",
+    "zh": "交给，递给"
+   },
+   {
+    "pos": "n.",
+    "zh": "人手，劳动力；指针"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": "P:hold hands",
+   "3": "P:in the hands of",
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": "P:shake hands",
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "The spoken web is helpful when one's hands are occupied.",
+   "zh": "当人双手忙着的时候，语音网络很有用。"
+  },
+  "form": "hand 的复数",
+  "irregular": false,
+  "note": "hold hands / shake hands 按短语标，可复核"
+ },
+ "latest": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "最新的，最近的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "最晚的，最迟的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Take advantage of the latest technologies.",
+   "zh": "利用最新的技术。"
+  },
+  "form": "late 的最高级",
+  "irregular": false,
+  "note": ""
+ },
+ "lifestyle": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "生活方式"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Is it his religion, health condition or lifestyle?",
+   "zh": "是因为他的宗教、健康状况还是生活方式？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "model": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "模式，模型"
+   },
+   {
+    "pos": "n.",
+    "zh": "型号，款式"
+   },
+   {
+    "pos": "n.",
+    "zh": "榜样，典范；模范的"
+   },
+   {
+    "pos": "v.",
+    "zh": "示范，以身作则"
+   },
+   {
+    "pos": "n.",
+    "zh": "模特儿"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 3,
+   "4": 3,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 2,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 2
+  },
+  "example": {
+   "id": 1,
+   "en": "It may soon replace the traditional economic model.",
+   "zh": "它可能很快取代传统的经济模式。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "population": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "人口；（某地区或群体的）居民"
+   },
+   {
+    "pos": "n.",
+    "zh": "（动植物的）种群"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 1
+  },
+  "example": {
+   "id": 4,
+   "en": "It is a must for feeding the world's fast-growing population.",
+   "zh": "这对养活世界上快速增长的人口必不可少。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "project": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "项目，工程，课题"
+   },
+   {
+    "pos": "v.",
+    "zh": "预测，规划"
+   },
+   {
+    "pos": "v.",
+    "zh": "投射，放映"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "He was working on a study project with Jimmy.",
+   "zh": "他正在和吉米一起做一个学习项目。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "return": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "返回，回去"
+   },
+   {
+    "pos": "v.",
+    "zh": "归还，送回"
+   },
+   {
+    "pos": "n.",
+    "zh": "返回，归来"
+   },
+   {
+    "pos": "n.",
+    "zh": "退还，归还"
+   },
+   {
+    "pos": "n.",
+    "zh": "回报，收益"
+   }
+  ],
+  "labels": {
+   "0": 2,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 2,
+   "8": 0,
+   "9": 1,
+   "10": 2,
+   "11": 2,
+   "12": 2,
+   "13": 3
+  },
+  "example": {
+   "id": 10,
+   "en": "In less than a month, the Special Olympic Spring Games will make a return to Fayetteville.",
+   "zh": "不到一个月，特奥会春季运动会将重返费耶特维尔。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "yeah": {
+  "senses": [
+   {
+    "pos": "int.",
+    "zh": "是的，对（口语）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "Yeah, I think he will.",
+   "zh": "是的，我想他会的。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "advice": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "建议，忠告"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "She regrets ignoring the woman's advice.",
+   "zh": "她后悔没有听那位女士的建议。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "answers": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "答案，答复"
+   },
+   {
+    "pos": "v.",
+    "zh": "回答，答复"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "The answers are anything but simple.",
+   "zh": "答案绝不简单。"
+  },
+  "form": "answer 的复数（兼第三人称单数）",
+  "irregular": false,
+  "note": ""
+ },
+ "attack": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "攻击，袭击；抨击"
+   },
+   {
+    "pos": "v.",
+    "zh": "攻击，袭击；抨击"
+   }
+  ],
+  "labels": {
+   "0": "P:heart attack",
+   "1": "P:under attack",
+   "2": "P:heart attack",
+   "3": "P:heart attack",
+   "4": "P:heart attack",
+   "5": 0,
+   "6": "P:under attack",
+   "7": 1,
+   "8": 0,
+   "9": "P:under attack",
+   "10": 1,
+   "11": "P:heart attack",
+   "12": "P:heart attack"
+  },
+  "example": {
+   "id": 5,
+   "en": "For smart people, being wrong can feel like a personal attack, and being right, a necessity.",
+   "zh": "对聪明人来说，犯错像是一种人身攻击，而正确则是一种必需。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "attitudes": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "态度，看法"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "People's attitudes towards diversity at the workplace.",
+   "zh": "人们对职场多元化的态度。"
+  },
+  "form": "attitude 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "challenge": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "挑战，难题"
+   },
+   {
+    "pos": "v.",
+    "zh": "质疑，对…提出挑战"
+   },
+   {
+    "pos": "v.",
+    "zh": "考验，激励（使面对挑战）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 2,
+   "8": 2,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Nowhere is this challenge clearer than in Africa.",
+   "zh": "这一挑战在非洲表现得最为明显。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "cut": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "切，割，削"
+   },
+   {
+    "pos": "v.",
+    "zh": "削减，减少"
+   },
+   {
+    "pos": "n.",
+    "zh": "伤口，切口"
+   },
+   {
+    "pos": "n.",
+    "zh": "削减，缩减"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": "P:cut off",
+   "2": "P:cut down",
+   "3": 0,
+   "4": 0,
+   "5": "P:cut down",
+   "6": "P:cut down",
+   "7": "P:cut into",
+   "8": "P:cut down",
+   "9": "P:cut down",
+   "10": 1,
+   "11": "P:cut down"
+  },
+  "example": {
+   "id": 3,
+   "en": "Ask the man to cut the cheese into slices.",
+   "zh": "让那个男人把奶酪切成片。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id 11 trees cut down（砍伐）按 P:cut down 标"
+ },
+ "direction": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "方向，方位"
+   },
+   {
+    "pos": "n.",
+    "zh": "方针，发展方向"
+   },
+   {
+    "pos": "n.",
+    "zh": "指导，指示"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 1,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 1,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "The smallest zone, called intimate space, extends outward from our bodies 18 inches in every direction.",
+   "zh": "最小的区域叫作亲密空间，从我们身体向各个方向延伸18英寸。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "eye": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "眼睛"
+   },
+   {
+    "pos": "n.",
+    "zh": "眼光，视线，注意"
+   },
+   {
+    "pos": "v.",
+    "zh": "注视，打量"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": "P:eye contact",
+   "2": "P:keep an eye on",
+   "3": "P:turn a blind eye to",
+   "4": "P:keep an eye out for",
+   "5": 1,
+   "6": 0,
+   "7": "P:eye contact",
+   "8": "P:keep an eye on",
+   "9": "P:eye contact"
+  },
+  "example": {
+   "id": 5,
+   "en": "They will not fade away from the public eye.",
+   "zh": "它们不会从公众的视线中消失。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "faster": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "更快地"
+   },
+   {
+    "pos": "adj.",
+    "zh": "更快的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "Anyway, tablets help students learn up to 80% faster.",
+   "zh": "总之，平板电脑能让学生学得快多达80%。"
+  },
+  "form": "fast 的比较级",
+  "irregular": false,
+  "note": ""
+ },
+ "fine": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "好的，还可以，没问题（也指身体无恙）"
+   },
+   {
+    "pos": "adj.",
+    "zh": "精致的，优质的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "晴朗的"
+   },
+   {
+    "pos": "n.",
+    "zh": "罚款"
+   },
+   {
+    "pos": "v.",
+    "zh": "处以罚款"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": "P:fine dining",
+   "8": "P:fine dining",
+   "9": "P:fine dining",
+   "10": "P:fine dining"
+  },
+  "example": {
+   "id": 3,
+   "en": "Either is fine.",
+   "zh": "哪个都行。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "force": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "强迫，迫使"
+   },
+   {
+    "pos": "n.",
+    "zh": "力量，推动力"
+   },
+   {
+    "pos": "n.",
+    "zh": "武装力量；队伍，部队"
+   },
+   {
+    "pos": "n.",
+    "zh": "武力"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 2,
+   "6": "P:come into force",
+   "7": "P:labor force",
+   "8": 2,
+   "9": 1,
+   "10": "P:labor force",
+   "11": 2,
+   "12": 1
+  },
+  "example": {
+   "id": 1,
+   "en": "It will force cities to transform their infrastructure.",
+   "zh": "它将迫使城市改造基础设施。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Royal Air Force 的 Force 按「部队」义项 2 标"
+ },
+ "function": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "功能，作用"
+   },
+   {
+    "pos": "v.",
+    "zh": "运行，起作用，发挥功能"
+   },
+   {
+    "pos": "n.",
+    "zh": "职能，函数"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 1
+  },
+  "example": {
+   "id": 10,
+   "en": "It performs a different function in babies than in adults.",
+   "zh": "它在婴儿身上起的作用和在成年人身上不同。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "gain": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "获得，得到"
+   },
+   {
+    "pos": "n.",
+    "zh": "增加，增长（如体重增加）"
+   },
+   {
+    "pos": "n.",
+    "zh": "收益，好处"
+   },
+   {
+    "pos": "v.",
+    "zh": "增加（体重、速度）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 2,
+   "11": 0,
+   "12": 1
+  },
+  "example": {
+   "id": 6,
+   "en": "They are better able to gain attention, love, and personal connection.",
+   "zh": "他们更能赢得关注、爱和人际联系。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "hundreds": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "数百（hundreds of…）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "It is being debated by hundreds of retirees.",
+   "zh": "数百名退休人员正在对此展开讨论。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "leads": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "导致，引起（lead to）"
+   },
+   {
+    "pos": "v.",
+    "zh": "领导，带领"
+   },
+   {
+    "pos": "v.",
+    "zh": "引导，通向"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "It leads to much waste of public money.",
+   "zh": "它导致大量公款被浪费。"
+  },
+  "form": "lead 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "methods": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "方法，办法"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "Reconsider her options for payment methods.",
+   "zh": "重新考虑她可选的付款方式。"
+  },
+  "form": "method 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "multiple": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "多个的，多种的"
+   },
+   {
+    "pos": "n.",
+    "zh": "倍数"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "An efficient person able to perform multiple tasks at the same time.",
+   "zh": "能够同时处理多项任务的高效的人。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "protect": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "保护，防护"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "To protect the endangered animals.",
+   "zh": "为了保护濒危动物。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "authors": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "作者，作家"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "When Toni Morrison died in 2019, the world lost one of its most influential authors.",
+   "zh": "托妮·莫里森于2019年去世时，世界失去了最有影响力的作家之一。"
+  },
+  "form": "author 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "becomes": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "成为"
+   },
+   {
+    "pos": "v.",
+    "zh": "变得"
+   },
+   {
+    "pos": "v.",
+    "zh": "适合，与…相配"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "Who will benefit if working from home becomes the norm?",
+   "zh": "如果居家办公成为常态，谁将受益？"
+  },
+  "form": "become 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "belief": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "信念，看法，相信"
+   },
+   {
+    "pos": "n.",
+    "zh": "信仰"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "We hold the belief that hard work leads to success.",
+   "zh": "我们相信努力工作会带来成功。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "created": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "创造，创建"
+   },
+   {
+    "pos": "v.",
+    "zh": "引起，造成"
+   },
+   {
+    "pos": "adj.",
+    "zh": "创造出来的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": "P:be created equal",
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "The first public exhibit of animals may have been created by Egypt's Queen Hatshepsut around 1480 B.C.",
+   "zh": "第一个公共动物展览可能是由埃及女王哈特谢普苏特在公元前1480年前后创办的。"
+  },
+  "form": "create 的过去式和过去分词",
+  "irregular": false,
+  "note": "id 1 not all books are created equal 按短语标"
+ },
+ "efforts": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "努力，尽力"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "They make extra efforts to research their own products.",
+   "zh": "他们额外努力去研究自己的产品。"
+  },
+  "form": "effort 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "facilities": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "设施，设备"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "They need to invest more in hospital staff and facilities.",
+   "zh": "他们需要在医院人员和设施上投入更多。"
+  },
+  "form": "facility 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "fail": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "未能，没能（fail to do）"
+   },
+   {
+    "pos": "v.",
+    "zh": "失败；不及格"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "Some career women who aim high tend to feel guilty if they fail to achieve their goals.",
+   "zh": "一些志向高远的职业女性如果没能实现目标，往往会感到内疚。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "finds": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "发现，找到（含「研究发现」）"
+   },
+   {
+    "pos": "v.",
+    "zh": "觉得，认为"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Make sure the agent finds something good for her.",
+   "zh": "确保中介为她找到合适的东西。"
+  },
+  "form": "find 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "former": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "以前的，前任的"
+   },
+   {
+    "pos": "pron.",
+    "zh": "前者（the former）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Attitude is key, said former Canadian astronaut Chris Hadfield.",
+   "zh": "前加拿大宇航员克里斯·哈德菲尔德说，态度是关键。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "interactions": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "互动，交流"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "They take touching as a cultural norm in social interactions.",
+   "zh": "他们把身体接触视为社交互动中的文化规范。"
+  },
+  "form": "interaction 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "involves": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "包含，涉及，需要"
+   },
+   {
+    "pos": "v.",
+    "zh": "使参与"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "Painting a house involves more trouble than she thought.",
+   "zh": "粉刷房子比她想的更麻烦。"
+  },
+  "form": "involve 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "john": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "约翰（男子名）"
+   },
+   {
+    "pos": "n.",
+    "zh": "厕所（俚语）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "For example, if your groom's name is John Smith and your name is Kate Jones.",
+   "zh": "例如，如果你的新郎叫约翰·史密斯，而你叫凯特·琼斯。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "John 仅作人名，按「约翰（男子名）」义项 0 标而未标 X；请复核口径"
+ },
+ "link": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "联系，关联"
+   },
+   {
+    "pos": "v.",
+    "zh": "把…联系起来"
+   },
+   {
+    "pos": "n.",
+    "zh": "链接"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "One group of researchers, for example, examined the link between rivalry and unethical behavior.",
+   "zh": "例如，有一组研究人员考察了竞争与不道德行为之间的联系。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "matters": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "重要，要紧"
+   },
+   {
+    "pos": "n.",
+    "zh": "事情，问题"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "Because that's what matters, isn't it?",
+   "zh": "因为那才是最重要的，不是吗？"
+  },
+  "form": "matter 的第三人称单数 / 复数",
+  "irregular": false,
+  "note": ""
+ },
+ "met": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "遇见，见面"
+   },
+   {
+    "pos": "v.",
+    "zh": "满足（需要、要求、期望）"
+   },
+   {
+    "pos": "v.",
+    "zh": "遇到，应对（be met with）"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 1,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": "P:be met with"
+  },
+  "example": {
+   "id": 2,
+   "en": "We met over WeChat.",
+   "zh": "我们是在微信上认识的。"
+  },
+  "form": "meet 的过去式和过去分词",
+  "irregular": true,
+  "note": "id 11 be met with success 按短语标"
+ }
+}

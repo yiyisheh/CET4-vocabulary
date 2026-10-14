@@ -1,0 +1,513 @@
+# 任务 C_r1_68：1 个词，499 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_68.labels.txt
+
+============================================================
+## 词：but    本段 499 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：conj.但是; 然而. prep.除…以外. adv.仅仅.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  conj. 但是，可是，然而    B 样本 75    例：But many will not.
+  1  conj. 而是（not A but B：不是A而是B）    B 样本 1    例：G) Enter the rabbits—not those running around in our woodlands but ones serving in two month-long medical experiments to test the effects of eating a high-fat diet and the connections between cholesterol and heart disease.
+  2  prep. 除了    B 样本 0
+  3  adv. 只，仅仅    B 样本 0
+已标过的短语：not only ... but also（3）；can't help but（1）
+口径说明（照此执行）：
+  - 大量句子是写作题干套话 at least 120 words but no more than 180 words（按「但是」标）。not just…but… 与 not only…but also 同义，统一标 P:not only ... but also，D 任务可合并；id30 句首另有一个「但是」义的 But，因只能标一个而标了 P。id56 OCR 残缺，但可辨认为 can't help but。
+句子：
+246 | Almost everyone is aware of this, 【but】
+345 | There are undoubtedly hundreds of great resources out there for those wishing to improve their financial literacy, 【but】
+397 | Most people don’t really believe in them, 【but】
+168 | 【But】 a bit of a giveaway is that the villa will be cheaper than on other websites and there’s unlimited availability,” says Tipton.
+226 | This is not a call to become a compulsive (强迫性的) liar, 【but】 a controlled liar.
+464 | It shouldn’t be just a one-day event 【but】 a course integrated
+98 | 【But】 a few years after his surgery, scientists found that he could ___33___ see.
+171 | 【But】 a new study suggests that being sensitive to people’s feelings may sometimes come with an extra dose of stress.
+244 | Some researchers suggest that work-life balance is not a goal to achieve, 【but】 a process for life to be adjusted promptly.
+117 | He’d sit down to talk with the patient not just about medical problems, 【but】 about her life and priorities.
+553 | Passive inspiration can give you ideas, 【but】 active inspiration will give you power.
+512 | Sometimes we may feel like we are making progress by doing some research or making preparations, 【but】 actually we are
+388 | 【But】 after a time, your fear response to other things in life will be dramatically reduced.
+218 | 【But】 after being enrolled in an online course last fall semester, I came to realize online classes were merely a means to fulfil course requirements.
+449 | You need not only computer science and engineering knowledge, 【but】 also an understanding of psychology and visual design to create a better product.
+525 | So next time you see your favorite superhero film, be entertained, 【but】 also be inspired.
+504 | It’s not just about being entertained, 【but】 also being inspired.
+485 | life not only for others 【but】 also for ourselves, because ultimately, there is no difference.    ?P:not only ... but also ?P:not only...but also
+364 | M) I have now come to realize that being boring, in actuality, is not only about who you are as a person, 【but】 also how you present yourself.
+169 | George Engel, in treating his patients, not only looks into their symptoms 【but】 also into things like the emotional support they receive.    ?P:not only ... but also ?P:not only...but also
+340 | it is possible to not only learn it, 【but】 also strengthen it with constant exercise.    ?P:not only ... but also ?P:not only...but also
+400 | A stretch of Skillman Ave witnessed not only a big increase in sales 【but】 also the opening of new businesses.
+507 | Research has found the use of digital technology benefits not only teenagers’ social lives 【but】 also their studies.    ?P:not only ... but also ?P:not only...but also
+84 | It's well known that physical exercise is beneficial not just to physical health 【but】 also to mental health.
+212 | 【But】 among those who stayed on, the close losers performed even better
+435 | An animal might make 10 different sounds, 【but】 an adult human knows more than 20,000 words.
+375 | 【But】 an excess of ambition can also be dangerous, putting you at risk of burnout, stubbornness and even a shorter life.
+526 | Some risks may not work out, 【but】 an optimistic risk-taker will always look at failure as an opportunity to learn. [23] The willingness to experiment with new ideas is key to business growth.
+120 | The new parents have yet to name the sixth baby 【but】 are considering either Lily or Rose.
+566 | 【But】 are we really in need of more protein?
+434 | What’s something you love 【but】 aren’t good at?
+220 | It’s not impossible to stop 【but】 as it’s internet-based it’s harder to pursue.
+130 | 【But】 as regards bones, it's ___30___ use it or lose it: To keep your bones strong you have to keep exercising.
+537 | “【But】 ask them the same about their work,
+230 | M: 【But】 asking “What do you want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations and a high chance of disappointment.
+542 | Developed countries sometimes offer food and aid to developing ones, 【but】 at a price.
+263 | 【But】 at the very least, the research is
+454 | 【But】 at this time of year, the air pollution is a real problem.
+405 | 【But】 back then, if you were a
+118 | 【But】 Bangalore airport says it is a competitive alternative to a car ride for tech executives in a hurry.
+128 | "You can't help 【but】 be awed," he said, "and I think that feeling can be translated to the viewer.    ?P:can't help but
+469 | It may sound trite , 【but】 beauty is only skin deep; it’s not what brings love toward us.
+275 | We say “yes” to many requests not because we want to do them, 【but】 because we don’t want to be seen as rude or unhelpful.
+353 | It greatly reduced parking — 【but】 because, well, shop owners didn’t see any way around it.
+315 | It’s best to take on the most difficult task second—once they’re settled, 【but】 before they get tired.
+191 | W: Your book has sold 2 million copies, 【but】 before we discuss why it’s getting so much attention, let’s talk about your background.
+506 | 【But】 before you go out and find an entrepreneur to outcompete, it’s important to understand and avoid the traps that often come with rivalry.
+427 | of us can’t afford to do nuclear research as a private hobby, 【but】 bird watchers, rock collectors, and others can do real research
+139 | Cumber said, “People can have fun, 【but】 both drivers and riders are responsible for paying attention while on the road.
+178 | 【But】 building the spoken web—web-to-voice and voice-to-web—isn't straightforward.
+89 | eyesight may dim and our recall may weaken, 【but】 by comparison, our ability to produce and to ___29___ language is well
+338 | 【But】 by 2013 the average hourly wage for ordinary workers had fallen 5 percent from
+284 | G) Under current conditions, about 4% of the world’s croplands experience drought in any given year, 【but】 by the end of the century those conditions are forecasted to jump to about 18% per year.
+187 | Early on, the web is their “third space”, 【but】 by the late teens, it’s replaced in reaction to greater independence.
+308 | At the time, Humm acknowledged the move was risky, admitting that “it wasn’t clear if guests would come”, 【but】 called
+154 | It is not poisonous 【but】 can still attack and kill its victims.
+445 | 【But】 can you be sure you've noted every snack
+339 | 【But】 can you give me your details anyway?
+516 | science,” he says, 【but】 confesses he only became a true believer when he started asking players about their biggest in-game
+457 | There have been many attempts to help consumers make healthier choices, 【but】 consumers often struggle to maintain a healthy diet. [18] This research finds that one way to promote a healthy diet could be to advertise the social benefits of healthy choices.
+558 | 【But】 contrary to all the publicity that everyone needs more protein, most
+456 | 【But】 contrary to popular belief, the homeless in Los Angeles are not mostly mentally ill or drug addicted or frightening, although a sizable minority meet some of those descriptions.
+538 | There are no official rules regarding passport colors, 【but】 countries follow a certain set of norms when designing them.
+540 | 【But】 creating, producing, and experimenting is what drives you forward.
+363 | 【But】 critics say the policy contradicts recommendations by many health experts, who warn that a person’s weight is influenced by genetic and environmental factors.
+448 | 【But】 crucially, this was less so if they had completed the 30-minute jog.
+497 | 【But】 curiosity can also be dangerous, leading to setbacks or even downfalls.
+519 | 【But】 curiosity often comes with a cost.
+219 | Today, many large corporations stress the importance of diversity on their websites, 【but】 current statistics show that the typical manager in America still tends to be white and male.
+269 | They are not designed for students to interact with the material in depth 【but】 designed to be graded easily to accommodate such a large number of students.
+328 | K) 【But】 digital voices need more personality to make them popular.
+108 | 【But】 disasters can still wound us.
+463 | W: Housing costs are high, 【but】 do people really save that much by having a smaller home?
+536 | Plant-based meats are coming soon to a dinner table near you, 【but】 do they deserve a spot on your plate?
+418 | 【But】 do you really need experts to tell you that?
+420 | 【But】 does any of this work?" said Dr Matous.
+503 | 【But】 does it matter what books parents read?
+162 | 【But】 does that mean I could not live here in my own house during those two days?
+256 | 【But】 does that really mean your top 100
+568 | These new generations of alternate meat get all the attention, 【but】 don’t forget about whole grains and vegetables.
+377 | 【But】 don't kids need time to relax?
+494 | about “repeating the process, 【but】 each time doing something slightly different to improve the result”.
+314 | 【But】 emotional labor is not circumstantial.
+468 | Why such a disconnect? [20] Most people cite time and conflicting work schedules as major barriers, 【but】 employees and employers would actually benefit if companies made employee volunteering part of the job.
+324 | 【But】 even after we have accounted for these social considerations, many of us still seem to do a poor job of managing the trade-off between yes and no.
+384 | H) 【But】 even as error rates stayed stable, student essays have blossomed in size and complexity.
+459 | 【But】 even back then, a minority of people—perhaps 20%—were lifelong heavy readers, and it was cable TV, not the internet, that struck a blow at that culture in the 1980s.
+143 | F) 【But】 even if large numbers of people are quitting bottled water because of care for the environment, others are taking it up.
+83 | 【But】 even when these accounts touch on real concerns, they do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+183 | 【But】 eventually, yields will likely suffer because the soil north of Iowa declines in quality—a legacy of glacial (冰川的) expansion.
+95 | Tariq said, “Not everyone has to like corn, 【but】 everyone should definitely try it, especially with butter.” [2] Tariq and his family were invited to South Dakota to attend the honorary ceremony at the state’s Corn Palace.
+471 | “I have always eaten little, 【but】 everything, and I have never followed any plan.
+575 | 【But】 exactly what kids see while dreaming
+438 | There’s nothing wrong with trying to look our best 【but】 excessive focus on physical appearance misses the soulful aspects
+541 | 【But】 excessive heat can cause you to lose water, which has been proven to have a pretty unattractive side effect—bad breath.
+99 | 【but】 feel less confident in their ability to decide well.
+439 | The hairdresser agreed 【but】 for a different reason: She
+163 | As his great contemporary the poet and dramatist Ben Jonson said, “He was not of an age, 【but】 for all time.
+555 | 【But】 for as long as you want to stay safe, and for as long as you are content with where your business is right now, you will never find out.
+576 | An Italian study found that for simple arithmetic there was little difference between right- and left-handed performance, (24) 【but】 for more difficult problem-solving, left-handers won out.
+460 | 【But】 for most Americans, that prosperity is nowhere to be seen.
+333 | 【But】 for poorer people, those same price jumps will likely cause certain foods to go extinct from their diets.
+446 | That depends on many things, 【but】 for purposes of illustration, I have run some estimates for Montreal.
+440 | 【But】 for some parents, the school’s restrictions are an unnecessary burden.
+104 | the ninth grade can have long-term consequences not only for the students themselves 【but】 for their
+492 | 【But】 for volunteering to benefit employees and the workplace, the entire organization needs to be involved.
+316 | “The best entertainment and storytelling comes from people who are relatable—those who don’t shy away from opening up 【but】 freely share who they are and what they care about.
+188 | 【But】 Friedman argues that the evidence for this theory is far
+385 | 【But】 Friedman says that, for Americans,
+289 | 【But】 Friedman says that this is not what has happened.
+301 | It provides us with vitamins — 【but】 fruit juice is far from a quick fix.
+395 | Think about it: what’s something you’ve always wanted to do, 【but】 gave up
+185 | Attitudes towards paternity leave (陪产假) have drastically changed in America in the last five years as more fathers feel comfortable taking extended time off, 【but】 gender bias persists when it comes to career prospects and the home, according to a new study of working parents.
+222 | 【But】 generally speaking, soft cheeses are creamy and go well with sweet things like honey and jam.
+213 | Hundreds of women spoke up about their own experience with emotional labor: the duties that are expected of them, 【but】 go unnoticed.
+530 | It may be an uncomfortable process, 【but】 good leaders and healthy teams recognize that productive and healthy conflict is an important part of how they function.
+489 | 【But】 guiding them back to Earth in a controlled manner opens new possibilities—most components from the Falcon 9 can be reused up to 100 times.
+442 | She led an active lifestyle until her later years 【but】 has never followed a specific diet.
+106 | are organized sequentially, 【but】 have little awareness of what each individual number means.
+578 | 【But】 having to pay attention to several things at once means that the powers of concentration are reduced and that can lead to more mistakes.
+107 | Not only does Fukuda encourage bringing cats to the job, 【but】 he also encourages his employees to rescue cats from overpopulated shelters or streets.
+312 | Nothing serious, mind you, 【but】 he damaged someone’s car and wanted to get some money together to make up for the damage he’d caused.
+532 | “Putting that information in front of them will give them the best opportunity to match their skills and their dreams to what our schools can provide,” said Mathews. [23] He notes that the state can only regulate public institutions in this way, 【but】 he hopes private institutions in Ohio follow the lead of the state and post similar information.
+356 | I admit that their academic record is very strong, with many outstanding awards for achievements in Science and Math. [12] 【But】 he is just not mature enough to live on his own at this point.
+152 | W: It sounds a bit difficult, 【but】 he’s done his research, I suppose.
+137 | It’s written by a Chinese science fiction writer. [9] I can’t remember his name, 【but】 he’s written three books in all, and *The Three Body Problem* is the first in the series.
+403 | Branyas was born in the United States on April 4, 1907, 【but】 her family moved to Spain, where they were originally from when she was a young child.
+307 | W: She wants to, 【but】 her husband refuses to get rid of it.
+278 | When the packages arrived, Kate wanted to open them, 【but】 her parents said no.
+398 | We assume that if we offer our customers more choices, then they’ll be more likely to buy our products. [16] 【But】 here’s the paradox of choice: if a person is presented with too many choices, they are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+155 | G) 【But】 here's the good news.
+488 | 【But】 hey, we
+557 | He was retired soon after, 【but】 his public life and fame by no means decreased with the end of his career.
+372 | 【But】 honestly, I’ve just seen too many horrible accidents involving those dangerous monsters.
+381 | W: Maybe, 【but】 how can anyone save enough to retire by 40 when most people can’t retire at 60?
+235 | W: Okay, 【but】 how much money does a person need to retire? [13] I’ve read articles recommending one million dollars as a good figure for retirement.
+565 | 【But】 how wise is it, really, to let your instincts drive your decisions?
+211 | 【But】 I can’t quite remember what it was all about.
+204 | W: That’s a little gloomy, 【but】 I can understand that to a point.
+351 | I’ve never heard of it, 【but】 I do know little Lawrence loves cartoons.
+122 | 【But】 I don’t like being the center of attention, receiving gifts and having a fuss made.
+260 | W: Hmm, that’s nice of you, 【but】 I don’t want to feel obliged to buy one of his cars.
+393 | M: The first month I did withdraw extra cash twice, 【but】 I felt guilty about it. [11] And after that I refused to spend more than what I had budgeted, and by now it’s just a habit.
+274 | W: (8-2) Yes, I signed up two months ago, 【but】 I haven’t been to any of the group classes yet.
+209 | I’ve heard that German cars are very reliable, 【but】 I haven’t decided on a specific model yet.
+80 | M: I’d love to, [8][11] 【but】 I hurt my ankle last weekend playing football with work colleagues.
+174 | Birthday reminders can be helpful, 【but】 I kind of worry I won’t be able to drum up my own day and show it to look as exciting as it is supposed to be.
+245 | M: Well, I can see how that might happen to someone, and I’m sure she regrets it, 【but】 I know it won’t happen to me.
+415 | W: No, 【but】 I’ll check.
+302 | M: [11] I’m not convinced that the benefits are greater than the disadvantages, 【but】 I’ll discuss this with your mother.
+250 | M: Um… 【but】 I’m not sure how.
+252 | 【But】 I’m not sure why you want to leave campus and go through all that trouble when the cost is the same.
+159 | (8-2) 【But】 I need to see him, because my friends and I lent him some money last month.
+368 | If only I’d Googled before 【but】 I never thought of it.
+112 | I recently bought an office chair from your company, 【but】 I returned it about a week ago.
+290 | 【But】 I still need to relax sometimes.
+157 | I wouldn’t need to use it every day, 【but】 I think it would be very convenient to have one for the weekends.
+391 | W: 【But】 I think most of us want spacious homes.
+430 | M: Yes, [14] 【but】 I think that dream needs to change, considering the cost of housing.
+483 | P) “I do think there’s still some way to go…there’s still going to be sort of the unstated expectation for new dads to essentially come right back to work, 【but】 I think the research is showing that’s starting to change.
+82 | It’s a great place, 【but】 I think we go there too often.
+360 | 【But】 I thought maybe he doesn’t want his parents to know about what happened.
+85 | M: [8] A colleague mentioned the book, 【but】 I’ve been so busy writing my thesis that I haven’t been able to read for pleasure in months.
+247 | 【But】 I’ve found that if I review my spending every night, that keeps me from spending too much.
+186 | M: No, I haven’t, 【but】 I’ve noticed that it has great reviews on the Internet.
+295 | 【But】 I’ve seen your blog, and you write about houses that are as small as 20 square meters. [13] That’s not a realistic size for families.
+310 | 【But】 if gravity is removed, the beans float around in a heated oven, received 360 degrees of evenly distributed heat and roast to near perfection.
+554 | 【But】 if it heats up to 40 to 41 degrees, you may find yourself getting heatstroke.
+355 | 【But】 if someone can explain how they’ve
+279 | 【But】 if something speaks, it must also listen.
+437 | 【But】 if that resolution was to volunteer more, now is the best time to start.
+224 | 【But】 if the benefits of saying “no” are so obvious, then why do we say “yes” so often?
+81 | 【But】 if their hobby is quite different from their career, it may not _33_ in the same way 【but】 instead help them develop other knowledge and skills that can _34_ their confidence at work.
+358 | 【But】 if there's one thing that triggers widespread employee frustration, it's an IT
+240 | M: It does sound like it would suit my taste, 【but】 if they are making a TV series based on it now, I don’t know if I should read the book or watch the show first.
+515 | 【But】 if they don’t it is their
+334 | M: True, 【but】 if you keep current with your skills, you will be attracted to employers.
+205 | 【But】 if you prefer Civilization, Total War, or X-Com, where strategy and resource management
+509 | [25] 【But】 if you’re in a place where you have a basis of trust, conflict can be extremely productive.
+433 | valuable for you 【but】 if you want to be valuable to others, then you have to express your knowledge in some way.
+407 | 【But】 if you're
+473 | The exercise is simple 【but】 important, since it brings these costs out of the realm of speculation into the realm of meaningful discussion.
+472 | 【But】 importantly—and surprisingly—this new study suggests that the majority of students experiencing math anxiety have normal to high math ability.
+313 | These studies are impressive, 【but】 in
+241 | We believe that we will be different tomorrow, 【but】 in doing so, we prioritize our
+131 | How those decreases will be felt will depend on the degree of warming and the crop in question, 【but】 in general, “anything over about 30°C is very bad for crops,” says Wolfram Schlenker, an associate professor of international and public affairs at Columbia University.
+444 | 【But】 in the long term their performance is negatively affected.
+461 | 【But】 in the real world,
+236 | The US is one of only three countries in the world not to offer statutory (法定的) paid leave, 【but】 increasingly states and companies are starting to take up the issue.
+149 | 【But】 instead of leaving and never coming back, it invited its friends round. [5] There are now at least five different cats who come almost on a daily basis.
+294 | The weakening of the human connection to nature might be good for economic growth 【but】 is bad for people.
+389 | It makes heavy reading 【but】 is not lacking in humor or appeal
+126 | The local language Dagbani is spoken by 1.2 million people 【but】 is not served by any online translation applications.
+319 | 【But】 is that bad for science?
+572 | The sense of eagerness that comes with having a rival can not only cause you to make poorer decisions, 【but】 it can also lead you to take greater risks that put your venture in peril.
+123 | Deviating from the norm can make us villains (恶棍), 【but】 it can also make us heroes.
+502 | It’s a good problem to have, 【but】 it can be a tough skill to master.
+548 | Posting about luxury purchases and expensive vacations online may help you to persuade others and frighten competitors, 【but】 it could also signal to potential friends or future employers that you are unlikely to think about the needs of others.
+199 | I mean, getting rid of rush hour may be impossible, 【but】 it could be made more tolerable, don’t you think?
+175 | Thinking creatively has given us modern medicine, technology and modern political structures, 【but】 it has also given us poison and nuclear weapons.
+422 | M: I admit it’s difficult, 【but】 it has worked for thousands.
+170 | “This is not a low cost option, 【but】 it is an option,” she added.
+366 | One common French custom of greetings is cheek-kissing, 【but】 it is mostly restricted to friends, close acquaintances and family members.
+210 | natural part of growing up, 【but】 it is· not.
+229 | 【But】 it is still somewhat restricted, particularly when the language moves away from stiffer commands into more human interactions.
+176 | 【But】 it isn’t.
+297 | M: I tried that strategy, 【but】 it just didn’t work, because I’d be busy studying all day.
+386 | 【But】 it may also be an expression of a desire for going outdoors—a response to the months of lockdown.
+567 | Researchers think the zoo was started with animals brought home from a far-off land known as Punt. [24] It’s unclear why the Queen built the zoo, 【but】 it might have been to show off her wealth and power.
+101 | Alzheimer’s disease, 【but】 it might make the symptoms more ___34___ , decrease the cost of care and improve a patient’s
+206 | W: I’m not sure of the exact figure, 【but】 it’s a few million Euros, maybe five million Euros after tax.
+514 | 【But】 it’s a problem that impacts independent luxury food suppliers too.
+416 | 【But】 it’s also true that saying “no” is not merely a privilege reserved for the successful.
+164 | 【But】 it’s been five working days and I haven’t received anything.
+431 | may not be the most popular subject, 【but】 it’s consistently on the schedule throughout high school, with all students graduating
+189 | I don’t want to say too much and spoil it for you, 【but】 it’s definitely got some amazing technological and sociological concepts in it.
+404 | at once, 【but】 it’s difficult to predict how they will play together.
+317 | It’s a bit heavy, 【but】 it’s great food for a cold night like this.
+265 | You probably have to help younger children plan their session, 【but】 it’s important that by the end of primary school it’s second nature.
+362 | 【But】 it’s much easier said than done.
+132 | I landed badly during a fall and twisted it a little, 【but】 it’s no big deal.
+285 | W: 【But】 it’s not always easy to get back into the workforce after an extended absence.
+167 | W: (11) I think they play football, 【but】 it’s not as popular as rugby.
+271 | 【But】 it’s not just the financial cost.
+564 | 【But】 it’s possible to avoid such costly mistakes by making a habit of engaging in critical thinking, such as considering opposing viewpoints and conducting cost-benefit analyses, especially for those decisions that are complex and can determine the future of your venture.
+325 | I’m saving up to buy something reasonably small and cute, 【but】 it’s still a bit expensive for me, and it’ll take a while before I have enough money.
+227 | 【But】 it’s still early days and there are signs of hope.
+321 | It can be incredibly expensive 【but】 it’s the emotional cost, too.
+365 | I know it’s really tasty and great comfort food, 【but】 it’s too fattening for me.
+129 | Her daughter filmed it and the whole family laughed, 【but】 it seemed to go down well.
+331 | 【But】 it turns out Japan still has some very old mills with the traditional weaving tools used to make jeans the original way.
+479 | He needed a sign language interpreter for every meeting, 【but】 it was a huge effort to coordinate.
+228 | She was able to cancel two of them, 【but】 it was too late to cancel the rest.
+300 | 【But】 it wasn’t an ugly scar.
+520 | What’s more, making obesity a disease “may not benefit patients, 【but】 it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+354 | Higher education is a great way to equip yourself with some core skills, 【but】 it will not prepare you for actual challenges you’ll face with clients’ work.
+97 | 【But】 its owner assured the concerned customers it was very much loved and fed at home.
+305 | M: [11] Honestly, I agree, 【but】 just don’t let him hear you say that.
+336 | At the start of the program, 77 per cent of female participants were confident about cooking, 【but】 just 23 per cent of males were confident.
+543 | Failure will teach you how to think and plan strategically. [24] 【But】 just remember that not all risks are good ones, and when you fail, learn from it and move forward.
+280 | 【But】 KaiOS went the other way.
+498 | 【But】 labelling obesity as a disease “risks reducing autonomy, disempowering and robbing people of the intrinsic (内在的) motivation that is such an important enabler of change.
+347 | H) Another point to consider is that practice is learning, 【but】 learning is not practice.
+510 | “One interesting thing we have observed is that dogs are matching children’s behavior, 【but】 less frequently than what we have seen between dogs and adults.
+559 | 【But】 life wasn’t easy for these animals.
+151 | Cyclists loved the plan, 【but】 local business owners got very angry.
+140 | 【But】 local school superintendents in Ohio are resisting proposals to adopt e-learning
+429 | Good communication is the first step in effective persuasion, 【but】 logic and reasoning are just as important.
+419 | 【But】 make double certain they are made in Japan.
+563 | Therefore, I suggest you spend more time in the park with your friends, 【but】 make sure you apply lots of skin protection and fill up those water bottles, too.
+496 | 【But】 many people choose to spend their time playing computer games.
+465 | Current spacecraft use a variety of fuels, 【but】 most are based on fossil fuels.
+373 | There was a 50% drop in medical prescriptions along with a dramatic decrease in death rates—【but】 most importantly, the residents were simply happier.
+481 | 【But】 most Los Angeles residents are no longer either shocked or ashamed.
+283 | Stories vary about how lion dancing came to be, 【but】 most of them include a monster named Nian who would terrorize a village.
+350 | 【But】 most of us have conflicting feelings about dressing
+133 | More fathers are taking paternity leave, 【but】 mothers are still doing all the work
+574 | In the 1970s through the 1990s, protein products remained visible 【but】 moved back somewhat with the dietary spotlight
+475 | 【But】 moving away from a traditional classroom in which a living, breathing human being teaches and interacts with students daily would be a disaster.
+322 | M: Sure, the initial expenditure will be high, 【but】 much lower afterwards.
+292 | M: 【But】 my proposal is not just to reward students with good grades, 【but】 also students who show improvements.
+467 | Studies have shown that people who appear to be wealthy tend to be considered more intelligent, disciplined, and competent than those who do not. [19] 【But】 new research found that people believe someone who shows off their social status cares more about benefiting themselves than helping others.
+311 | has helped yield numbers in most cultures, 【but】 not all.
+249 | vulnerable, 【but】 not endangered, species.
+349 | I can understand some scars and physical defects can be ugly and distracting, 【but】 not Johnny’s. [14] In fact, I thought it added character… like it gave him a certain uniqueness.
+198 | The experts concluded that pandas should ideally “be happy enough to thrive, 【but】 not so content that they don’t want to
+411 | However, gender matters more for them because cheek-kissing often only happens between women or a man and a woman 【but】 not two men.
+121 | Mums reported happier moods while interacting with their kids, compared to other experiences, 【but】 not while engaging 34 in childcare.
+376 | 【But】 now it is cheaper for major manufacturers to use new plastic.
+202 | 【But】 now, new research has found the cause
+257 | 【But】 now that she ran out of money, she can’t.
+90 | 【But】 now that you mention it, I do think getting another phone so soon is wasteful, regardless of the cost.
+371 | In reality, they’re not just opposite in meaning, 【but】 of entirely different magnitudes in commitment.
+426 | [23] 【But】 64% of the young adults surveyed said parents’ financial support to children age 25 to 34 is “a bad thing”, because it makes those kids dependent.
+335 | 【But】 on opportunity for promotion, more than double the number of women, 30% compared with 15% of men, believed their chances to be lower after becoming a parent.
+401 | That’s not to say that I think my path is the only one—【but】 once again, nothing can substitute real-world experience. [18] You can start anywhere as long as you know your end goal and you commit to actively pursuing opportunities to learn and grow along the way.
+150 | Traffic jams are a common problem of most big cities, either in developed or in developing countries, 【but】 one kind of
+499 | 【But】 online education does not allow a teacher to keep a struggling student after class and offer help.
+533 | Learning can benefit you by itself 【but】 only practice can turn what you learn into meaningful contributions.
+234 | Other studies, including studies of wheat in India and corn in Africa, also found that there is a threshold above which yields sharply decline: crops can adapt and move, 【but】 only to a point.
+193 | 【But】 organisations need to examine the demands they’re placing on employees.
+232 | 【But】 other children simply shut down and try to deal with their emotions by ignoring the situation.
+160 | 【But】 other studies using the same technique
+380 | Sometimes it’s because I actually am busy, 【but】 other times it’s because that’s what I think I’m supposed to say.
+180 | There is some debate about which was the very first, 【but】 over the years a consensus has built around King Kullen Supermarket, founded in New York in 1930.
+390 | 【But】 over the years, things have changed a lot.
+500 | 【But】 overall, the study found little evidence that time spent on screens was hurting social skills for most children.
+402 | 【But】 part of Game Academy’s suggestion is to transform
+513 | Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] 【But】 participants were more likely to choose that person when they’re looking for a competitive team member.
+119 | 【But】 Pasternak did take note of one unifying factor in all of the healthy societies he observed.
+196 | M: No, they are safe. [8] 【But】 paying online is too convenient and I spent too much money on things I didn’t need.
+105 | The café doesn’t use volunteers, 【but】 pays its staff to ensure consistency in its service.
+253 | 【But】 phantom traffic jams can make all those
+172 | When the island was put up for sale, it was offered to the local government 【but】 proved too expensive for the local authorities.
+412 | For many scientists, public debate is a new frontier and it may feel like a place with few restraints or rules, 【but】 rather than avoiding such conversations, let the debates be transparent and vigorous, wherever they are held.
+466 | we visualize that determine our results, 【but】 rather the habits that we practice each day.
+86 | abstractly does not reflect a ___34___ tendency of men or women 【but】 rather ___35___ within specific contexts.
+161 | For example, you might recognize that you are intelligent, 【but】 realize that you’re not a 32.
+551 | 【But】 recent studies show a lack of exercise is not to blame for rising obesity rates.
+528 | It wasn’t apparent at the time, 【but】 Red Rum had a serious bone disease in his foot.
+158 | e{j) cognition, 【but】 requires extensive practice to understand.
+531 | “We still have a lot to learn about the dog-child relationship,” Udell said. [25] “【But】 research does show that kids are very capable of training dogs.”
+264 | 【But】 research shows it can be just as exhausting as paid work.
+109 | 【But】 researchers have come to realize that being humble generally indicates the 30 of deeply admirable personal qualities.
+357 | 【But】 saying you are 30 percent East Asian or American hardly reflects
+561 | 【But】 scientists believe REM serves a completely different purpose for newborns and infants than dreaming.
+266 | 【But】 sharing our experiences in an authentic way to connect with other people is what makes us interesting, says associate professor Michael Pirson.
+495 | 【But】 she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing how to choose” what to forget.
+115 | Many languages are spoken in South Africa, 【but】 she only speaks English.
+272 | It is likely that the “first to arrive and last to leave” mentality is no longer relevant, 【but】 should be replaced by a regard for the quality of an employee’s contribution to the organization.
+125 | 【But】 should they be left outside the classroom?
+190 | The answers are anything 【but】 simple.    ?P:anything but
+239 | 【But】 since the early 1970s it has risen
+367 | 【But】 some experts worried that such public speculation might lead people to believe that disagreement about the details meant a lack of adequate scientific consensus over the safety and efficiency of modern-day medicine.
+102 | The decision wasn’t made lightly, 【but】 some recent events pushed them to implement this new policy.
+113 | Research is _28_, 【but】 some studies suggest that people who can master lucid dreaming—that is, the ability to be _29_ that a nightmare is happening and possibly even control it without waking up—may hold the _30_.
+428 | It’s great to stay fit and healthy, 【but】 standard exercise routines and sports only work the same muscles repeatedly. [21] With extreme sports, you’ll be working entirely different muscles, and that means you get an all-over workout.
+262 | M: No, just 60 pounds between the three of us, 【but】 still a bit too much to just let go.
+181 | No money 【but】 still hungry?
+383 | Friends and acquaintances can comfortably occupy this zone, especially during informal conversations, 【but】 strangers are forbidden. [24] Extending from 4 to 12 feet away from us is “social space”.
+329 | It made every effort to keep the essential capabilities of smartphones, 【but】 strip out costs and preserve battery life for people who likely have inadequate access to electricity.
+546 | 【But】 students need to search for the information.
+560 | been linked to cancer, 【but】 studies show that people who ditch meat have lower blood pressure, lower average blood sugar,
+544 | 【But】 such behavior may stain your reputation and strain relationships important to your success.
+545 | Red Rum was headed for the Grand National once again in 1978 【but】 suffered an injury in one of his heels shortly before the race.
+100 | It ordered that all the imitation rabbits be destroyed, [6] 【but】 suggested the chocolate needn’t be wasted.
+88 | 【But】 supporters of the policy say it means
+337 | G) 【But】 surely all this short-form writing is affecting literacy?
+443 | Slowly 【but】 surely, these platforms create a bridge between traditional enterprises and this emerging
+179 | Poor sleep might be a problem for older people, 【but】 surely young people can handle late nights.
+369 | 【But】 tablets contain many technological features that are not found in printed textbooks.
+424 | Clearly, teaching teens formal writing is still crucial, 【but】 texting probably isn’t destroying their ability to learn it.
+394 | an online course about how to build a business or read an article about a terrible disaster in a developing nation, 【but】 that
+116 | 【But】 that does not _33_ make it easier to tell what is really in your food.
+215 | 【But】 that doesn’t mean your life has ended and you can’t do anything to change it.
+508 | 【But】 that reduction doesn't necessarily
+92 | 【But】 that represents a reduction from last year’s energy assistance package of over $8 billion.
+276 | W: (13-2) I’ve got a driver’s license, 【but】 that’s all.
+470 | photon blasters, 【but】 that’s not quite the reality.
+343 | 【But】 that’s not what happened.
+453 | 【But】 that’s not what it means at all.
+217 | E) That may be true, 【but】 that still does not tell us much about what happens across a whole generation of people when time spent on digital media grows.
+458 | O) The father of two from Columbus, Ohio, who still works at the company as an associate and investigator, said he has witnessed a “domino effect (多米诺效应)” across companies since the settlement, 【but】 that there is still substantial progress to be made towards changing attitudes towards paternity leave.
+221 | Of the teens surveyed, 51 percent said that they had knowingly cheated at some point on an exam 【but】 that they did not feel uneasy about the behaviour.
+425 | of hourly workers, their top concern is not that they work too much 【but】 that they work too little.
+569 | Good question, 【but】 the answer is nothing!
+374 | 【But】 the Australian researchers wanted to discover what was driving these differences.
+203 | 【But】 the bike lanes were a done deal, and soon they were in place.
+233 | 【But】 the club also acts as a recreation center and safe haven for teenagers, with video games readily available.
+476 | It includes not just how we form these impressions, 【but】 the conclusions we make about other people based on our impressions.
+451 | W: 【But】 the core curriculum doesn’t change that much.
+194 | M: Maybe you’re right, [10] 【but】 the credit card has a very good special offer, where I don’t pay any interest for six months.
+323 | Currently we are offering existing members discounts off two of our brand new classes, hot yoga, and advanced spinning, 【but】 the discount doesn’t apply to any of our regular classes I’m afraid.
+378 | 【But】 the end result is surely superior.
+254 | 【But】 the folks who run local businesses simply aren’t
+342 | 【But】 the greatest strength of this book (on fashion!) is its intellectual profoundness.
+392 | However, after talking to my friends who felt the same, I quickly realised that it wasn’t my ignorance 【but】 the lack of
+91 | “Public awareness has never been higher, 【but】 the message is not quite reaching all the people it needs to.
+146 | 【But】 the new research suggests that a “modest degree of
+103 | 【But】 the one thing that can really make a difference?
+197 | You can learn about the best way to make a sales pitch, 【but】 the only way
+145 | You can research the best instructions on weight lifting technique, 【but】 the only way to build strength is to practice lifting
+248 | selling author about writing, 【but】 the only way to become a better writer is to practice publishing consistently.
+141 | 【But】 the problem is that we often tell ourselves: “I'm going to put in eight hours’ worth of work, and then I'm going to put
+214 | Homework is an important part of schooling, 【but】 the purposes of giving children homework will change as they grow older.
+535 | 【But】 the quality from these suppliers is high.
+549 | Talking with local producers I learned that a small part of the production is sometimes wasted due to problems with size or shape, 【but】 the quality of the products remains unchanged.” [24] Unlike many food waste projects that have sprung up in recent years, the idea is not simply to redistribute waste food, 【but】 to provide a high-quality product.
+208 | Focusing on STEM skills is important, 【but】 the reality is that SIBM skills are enhanced and more
+306 | 【But】 “the research hasn’t really changed minds, at least not yet,” says one of the authors of the study, Dr.
+491 | Modesty may be key when cooperation is essential, 【but】 the researchers also found that in some cases, status signaling has advantages.
+273 | What about the cost, not only buying all those tablets, 【but】 the software and electronic infrastructure that goes with it, not to mention retraining all the teachers and administration staff?
+414 | 【But】 the software for electronic readers can be updated instantly without the need for buying a whole lot of new books.
+111 | This _28_ of biographical information is due primarily to his social _29_: he was not a noble, 【but】 the son of a leather trader.
+138 | 【But】 the team found that participants' brain activity while considering their future selves more closely
+142 | M: Maybe you’re right, [9] 【but】 the thing is, everyone at the office has a nice, expensive phone, and I’m a little embarrassed by mine.
+225 | W: (12) No, 【but】 the train was so packed that I could barely move, and it was difficult to breathe too.
+268 | F) 【But】 the trends related to movies are less disturbing compared with the change in how teens spend their time.
+341 | It may sound harsh, 【but】 the truth is, nobody cares.
+173 | This is not to say you should never attend another meeting, 【but】 the truth is that we say “yes” to too many things we don’t actually want to do.
+490 | Learning and practicing seem to be very much alike, 【but】 the two processes can lead to quite different outcomes.
+135 | This is true not just in terms of their social lives, 【but】 their education too.
+309 | reliable and faster, 【but】 their employer simply will not put up the funds to buy them.
+110 | Ducks are birds that feed and breed in areas where there is a lot of water, 【but】 their habitats have been shrinking in recent decades because of the droughts.
+134 | Their chips are great, 【but】 their service takes a long time. [10] And I need to get back by 2:30 for a conference call.
+177 | Kate saw that her doll would be arriving the next afternoon, 【but】 then she noticed something else: suggestions about other dolls and toys she could order.
+327 | Kate was depressed at first, 【but】 then she sat with some girl patients and they opened up all the boxes together, laughing and playing.
+136 | 【But】 then something changed.
+571 | Left-handed people can find it inconvenient to do certain things, writing in a notebook for example, 【but】 there are a number of advantages of being left-handed.
+441 | 【But】 there are some links to skills like “decision-making, the ability to
+436 | Granted, you will not typically see today's teenagers lending their ears to Bach anytime soon, 【but】 there are some major
+432 | There were 114 space launches in 2020, 【but】 there may be up to 1,000 per year in future.
+406 | W: (14) 【But】 there must be some problems.
+124 | 【But】 there’s another side to the story.
+410 | 【But】 there’s more to running than its health benefits.
+184 | I personally feel sorry for the poor animals stuck in cages, 【but】 there’s no denying they are fun and educational for children.
+201 | W: [10] It’s about an hour to campus, 【but】 there’s no reason I can’t study on the bus.
+344 | M: I do talk about very small homes, 【but】 there’s no set definition of a tiny home.
+293 | 【But】 there's also
+207 | 【But】 these aren’t the only
+359 | Your day is ruled by minutes and seconds, 【but】 these concepts are
+261 | instincts that are refined with age, 【but】 these instincts are very limited.
+298 | G) In situations like this one, we often claim that we are preparing or researching the best method, 【but】 these rationalizations
+93 | E) Learning something new and practicing something new may seem very similar 【but】 these two methods can have profoundly
+450 | These findings present a dilemma for managers: employees using social media at work are more engaged and more productive, 【but】 they are also more likely to leave your company.
+238 | They have to be on Facebook, to know what’s going on among friends and family, 【but】 they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+318 | 【But】 they are generally reading short texts.
+332 | Teng said, 【but】 they are numerous.
+361 | Our always-on world of social media may result in more connections, 【but】 they are superficial and can
+521 | Educational videos may deliver academic content, 【but】 they are unable to
+455 | 【But】 they are very special.
+281 | Students no longer spend summers farming, 【but】 they aren't in school, either.
+518 | 【But】 they argue that playing computer games to access is different.
+523 | Sunshine and high temperatures can mean picnics and parks and trips to beaches, 【but】 they can make your body react in some strange ways.
+287 | 【But】 they could also indicate that they—or their agent—would strategically express anger toward the opponent to gain advantage, or they could opt to convey dissatisfaction with the encounter so that the other party would think they were losing interest.
+539 | For instance, many babies are perfectly proficient crawlers, 【but】 they decide to try walking because there’s more to see and do when they stand upright.
+480 | 【But】 they give the fans what they want—entertainment.
+144 | [3] Many Americans think they make healthy food choices, 【but】 they may be viewing their diet too optimistically.
+320 | (25-2) For example, a Japanese firm may have signed a contract, 【but】 they may not feel bound by every detail of it—particularly if circumstances later change.
+534 | This is the era of social media. [21] People can easily share their wealth and status to large audiences, 【but】 they need to consider the consequences.
+195 | 【But】 they raise concerns about health rather than profit margins.
+487 | M: [15] So, tiny homes might not be for everyone, 【but】 they’re a good option for many.
+87 | Electric bikes have been the craze in downtown Jacksonville since they were first introduced earlier this month as a one-year pilot program. [5] 【But】 they’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.
+482 | 【But】 they’re less helpful for struggling students.
+148 | Juices containing vegetables can provide more nutrients and less sugar than juices made up of just fruit — 【but】 they still
+231 | Supermarkets may not feel cutting-edge now, 【but】 they were a revolution in distribution at the time.
+577 | From this different perspective, you can not only be multitasking 【but】 this ability can also be taught: something that is easier in fluid organisations, which favour flexibility in their working practices.
+556 | 【But】 this eagerness to win may also hurt your venture’s success, particularly when it causes you to make impulsive, insensible decisions.
+547 | 【But】 this is far from ideal.
+96 | 【But】 this is not the case with fruit juice.
+486 | 【But】 this kind of artificial harmony isn’t the answer.
+552 | 【But】 this milestone comes at a small cost.
+94 | Well you’d expect the Design Museum to commission and make some interesting items, 【but】 this one was different.
+216 | 【But】 this seems to be a problem with your card number.
+326 | 【But】 this should be liberating, not disappointing.
+505 | 【But】 this should not stop you from taking risks, as risks are necessary if you want your business to succeed.
+382 | Despite progress, the struggle for women to reach the highest positions of power is demonstrated in this year’s Fortune 500 list, which featured a record 33 female CEOs, 【but】 this still represents a tiny fraction of the total.
+501 | Some have argued that ensuring those rights would limit progress, 【but】 this study indicates the opposite.
+529 | attitude, 【but】 those who aren't as genetically gifted aren't necessarily out of luck.
+296 | only demand change, 【but】 to act themselves.
+267 | 【But】 to be honest, I’d prefer something hot, not cold.
+259 | technologies or subject matter, 【but】 to creativity; skills like imagination, problem-finding and problem­
+484 | In fact, the online world offers kids remarkable opportunities to become literate and creative because young people can now publish ideas not just to their friends, 【but】 to the world.
+165 | 【But】 today’s teens have grown up with smartphones.
+127 | 【But】 too much blue light, especially from electronic devices, can harm our health by weakening our vision and making it harder for us to fall asleep.
+462 | [23] 【But】 too often we get caught in this place where conflict is perceived to be negative—something we want to avoid so that we can maintain the harmony of our workplace.
+447 | “【But】 unless we accept that obesity is a disease, we are not going to be able to tackle it,” he concludes.
+399 | N) 【But】 until those systems become standard, human drivers can help reduce phantom traffic jams simply by not following the
+562 | 【But】 walking is faster than crawling, so this motivates expert crawlers to transition to walking.
+550 | current superstars of the alternative protein sector — are pursuing consumers who enjoy meat 【but】 want to reduce their meat
+182 | The dance group, made up of 60 members, performs throughout the year 【but】 was now preparing for its biggest events, Chinese Lunar New Year celebrations, which will begin on Saturday and conclude on February 15.
+258 | Not only do we not want to see lives go to waste, 【but】 we
+511 | Truly environmentally friendly space travel is still some way off. [18] 【But】 we already have many of the technologies needed to start limiting its impact on our planet.
+387 | As a society, we reap the rewards from this science 【but】 we also help pay for it.
+423 | Companies cannot do all these things to enhance women’s advancement and then turn around and say, ‘Oh, 【but】 we don’t expect the men to take over for the women at home.
+251 | 【But】 we have a higher risk of consuming more than the
+237 | M: We were thinking of renting a car, 【but】 we will explore all the options available for sure. [14] So, yes, that would be very helpful in comparing prices.
+192 | 【But】 weather can make a difference to school results, according to another piece of Harvard research published last
+299 | 【But】 what about those of us who don’t
+147 | 【But】 what else can you expect in a city this big?
+493 | 【But】 what is simple is not always easy.
+379 | "【But】 what makes you a competent lion dancer is that there's a sense of imagination involved.
+346 | W: 【But】 what prevents you from just going to the bank and getting more money, if you want to buy something?
+282 | 【But】 what’s wrong with jeans here?
+570 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, 【but】 what we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.
+413 | 【But】 when employees interact with individuals outside the organization, they are less motivated and show less initiative.
+396 | 【But】 when I told him, he said he loves her and would just do what she wants him to.
+291 | By all means, set ambitious long-term goals for your future self, 【but】 when it comes to actually following
+270 | 【But】 when people make decisions for others, they typically put together a more diverse team.
+156 | 【But】 when students were taught that people can change, they had better responses to stress, in
+352 | 【But】 when the robots are switched over to bilateral control (by flashing the lights in the room),
+200 | 【But】 when they do lead to too many calories, they risk raising
+286 | 【But】 when they were asked about how caregiving and household tasks were divided, their answers painted a different picture.
+527 | 【But】 when you’re intently focused on outperforming your rivals, you may begin to develop a “win-at-all-costs” mentality that causes you to ignore how you achieve success.
+517 | 【But】 when you sit in the front row, you may be called on more by your teacher, mainly due to the fact that you are easier to see. [25] So, for students who are not prepared and for those who are extremely shy, the attention could cause some unwanted stress.
+477 | Furthermore, in countries where women’s rights were most respected, 【but】 where access to hospitals and doctors was below average, health outcomes were still better than in countries rated as moderate or poor.
+474 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says the question is not whether we can, 【but】 whether we should, and to what end.
+524 | 【But】 while catchings at sea have suffered, fish-farming has been growing at a fast rate.
+153 | 【But】 why not?
+409 | 【But】 with a little effort, you can definitely improve.
+303 | “【But】 with bilateral control you could almost double that.
+573 | 【But】 with its extreme usability comes a complication: what do you do if you strongly feel something should not be done, even if the data insists that it should?
+348 | 【But】 with the release of Angela
+223 | 【But】 with their newfound luxury comes the responsibility for its protection and maintenance.
+255 | Not all zoos and animal parks have the most favorable conditions, 【but】 [11] without them, it just wouldn’t be feasible to learn about animals and their environments.
+452 | The researchers behind the study state that many parts of the world have made good economic progress, 【but】 women’s rights are often overlooked.
+408 | 【But】 work stress can take many different forms.
+421 | 【But】 working long hours doesn’t drive better results.
+288 | 【But】 working out how to behave online is a new social skill.
+330 | 【But】 year-round schooling isn't just about academics.
+478 | You still need to say “no” to distractions, 【but】 you also need to learn to say “no” to opportunities that were previously good uses of time, so you can make space for better uses of time.
+370 | M: 【But】 you can get 25% off if you sign up in advance.
+522 | You might learn something, 【but】 you don’t actually have to do anything.
+243 | It may sound surprising, 【but】 you don't have to be interested in fashion, or even in history, to enjoy Dress Codes: How
+304 | business — 【but】 you gain shoppers who now can arrive more easily on bikes.
+166 | You may not be the one conducting the actual interview, 【but】 you’re still trying to determine whether or not the company is a good fit for you.
+114 | 【But】 you should also look at the process through a similar lens.
+417 | 【But】 you’ve given me a thought.
+242 | W: You discuss three of those problems in the book, improving public education, reducing our nation’s healthcare burden, and increasing personal savings. [13] 【But】 your ideas about education are the most controversial.
+277 | 【But】 Zimbardo asks: “What if the capability to act heroically is also fundamentally ordinary and available to all of us?

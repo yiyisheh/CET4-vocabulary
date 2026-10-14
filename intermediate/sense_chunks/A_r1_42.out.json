@@ -1,0 +1,1352 @@
+{
+ "businesses": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "企业，公司"
+   },
+   {
+    "pos": "n.",
+    "zh": "生意，行业"
+   },
+   {
+    "pos": "n.",
+    "zh": "事务，事情"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0,
+   "25": 0
+  },
+  "example": {
+   "id": 13,
+   "en": "Immigrants use credit less often for purchasing cars, homes or starting businesses.",
+   "zh": "移民在买车、买房或创业时较少使用信贷。"
+  },
+  "form": "business 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "game": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "游戏"
+   },
+   {
+    "pos": "n.",
+    "zh": "比赛"
+   },
+   {
+    "pos": "n.",
+    "zh": "（Games）运动会"
+   },
+   {
+    "pos": "n.",
+    "zh": "（比喻）角逐，较量"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 3,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 0,
+   "8": 2,
+   "9": 1,
+   "10": 0,
+   "11": "P:change the game",
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "The researchers tested the participants’ creativity by asking them to play a word game.",
+   "zh": "研究人员让参与者玩文字游戏，以此测试他们的创造力。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Game Academy（机构名，game 仍是「游戏」本义）按义项 0 标；changing the game 标为短语 change the game（彻底改变局面）。"
+ },
+ "driver": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "司机，驾驶员"
+   },
+   {
+    "pos": "n.",
+    "zh": "驱动因素，推动力"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 1
+  },
+  "example": {
+   "id": 19,
+   "en": "Christian has been a driver for 25 years.",
+   "zh": "克里斯蒂安当司机已经 25 年了。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "原 def 漏了「驱动因素」（a major driver of…），已补。"
+ },
+ "special": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "特别的，特殊的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "专门的，专用的"
+   },
+   {
+    "pos": "n.",
+    "zh": "特价商品；特别节目"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "It pays special attention to the size and shape of its products.",
+   "zh": "它特别注意产品的大小和形状。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "woman": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "女人，妇女"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0,
+   "22": 0,
+   "23": 0,
+   "24": 0
+  },
+  "example": {
+   "id": 21,
+   "en": "The simple procedure went smoothly and the woman has recovered fully.",
+   "zh": "这个简单的手术进行得很顺利，那名女子已完全康复。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "species": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "物种，种"
+   },
+   {
+    "pos": "n.",
+    "zh": "种类"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "The Amazon river dolphin is a giant among its species.",
+   "zh": "亚马孙河豚是同类中的巨无霸。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "单复数同形，form 记 null。"
+ },
+ "earth": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "地球"
+   },
+   {
+    "pos": "n.",
+    "zh": "地面"
+   },
+   {
+    "pos": "n.",
+    "zh": "大地，土地，泥土"
+   },
+   {
+    "pos": "n.",
+    "zh": "人间，世上"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 2,
+   "3": 3,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0,
+   "21": 0
+  },
+  "example": {
+   "id": 9,
+   "en": "All living organisms on Earth are exposed to a 24-hour day-night cycle.",
+   "zh": "地球上所有的生物都经历着 24 小时的昼夜循环。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Earth Day（地球日）中 earth 仍是本义，按「地球」标。"
+ },
+ "front": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "前面，前部"
+   },
+   {
+    "pos": "n.",
+    "zh": "方面，领域"
+   },
+   {
+    "pos": "adj.",
+    "zh": "前面的，前排的"
+   },
+   {
+    "pos": "n.",
+    "zh": "前线"
+   },
+   {
+    "pos": "v.",
+    "zh": "面对，朝向"
+   }
+  ],
+  "labels": {
+   "0": "P:in front of",
+   "1": "P:in front of",
+   "2": "P:in front of",
+   "3": "P:in front of",
+   "4": 0,
+   "5": 1,
+   "6": "P:in front of",
+   "7": "P:in front of",
+   "8": 0,
+   "9": 0,
+   "10": "P:in front of",
+   "11": 0,
+   "12": 0,
+   "13": "P:in front of",
+   "14": 2,
+   "15": 0,
+   "16": 2,
+   "17": "P:in front of",
+   "18": 0,
+   "19": 0,
+   "20": "P:in front of",
+   "21": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "By sitting front and center, students were able to hear better too.",
+   "zh": "坐在前排正中，学生们也能听得更清楚。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "in front of 按短语标；不带 of 的 the car in front 按「前面」标。例句取自 id 12 的第一句。"
+ },
+ "night": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "夜晚，晚上"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "Did you see that television program on air travel last night?",
+   "zh": "你看了昨晚那档关于航空旅行的电视节目吗？"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "century": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "世纪"
+   },
+   {
+    "pos": "n.",
+    "zh": "百年，一百年"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 0,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 1,
+   "10": 1,
+   "11": 1,
+   "12": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "It is believed that the lion dance began in the third century.",
+   "zh": "据信舞狮始于三世纪。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "leaders": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "领导者，领导人"
+   },
+   {
+    "pos": "n.",
+    "zh": "领先者"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 6,
+   "en": "Leaders should take time off themselves and encourage employees to do the same.",
+   "zh": "领导者自己应该休假，并鼓励员工也这样做。"
+  },
+  "form": "leader 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "pet": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "宠物"
+   },
+   {
+    "pos": "n.",
+    "zh": "宠儿，宝贝"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "A man kept a 4-foot snake as a pet.",
+   "zh": "一名男子把一条四英尺长的蛇当宠物养。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "colleagues": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "同事"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0,
+   "20": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "Many people today consider colleagues as friends.",
+   "zh": "如今很多人把同事当作朋友。"
+  },
+  "form": "colleague 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "income": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "收入"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0
+  },
+  "example": {
+   "id": 10,
+   "en": "Students may no longer be qualified for financial aid if they perform poorly in school or if their family income has increased.",
+   "zh": "如果学生成绩不好或家庭收入增加了，他们可能就不再有资格获得助学金。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "issues": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "问题，毛病（需要处理的）"
+   },
+   {
+    "pos": "n.",
+    "zh": "议题，争论点"
+   },
+   {
+    "pos": "n.",
+    "zh": "（报刊的）期，期号"
+   },
+   {
+    "pos": "v.",
+    "zh": "发布，发行"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 1,
+   "12": 1,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0
+  },
+  "example": {
+   "id": 7,
+   "en": "They are likely to have mental health issues.",
+   "zh": "他们很可能有心理健康问题。"
+  },
+  "form": "issue 的复数；issue 的第三人称单数",
+  "irregular": false,
+  "note": ""
+ },
+ "british": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "英国的，英国人的"
+   },
+   {
+    "pos": "n.",
+    "zh": "（the British）英国人"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 16,
+   "en": "Nearly all British schools have uniforms.",
+   "zh": "几乎所有英国学校都有校服。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "diseases": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "疾病"
+   },
+   {
+    "pos": "n.",
+    "zh": "（社会）弊病"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0
+  },
+  "example": {
+   "id": 3,
+   "en": "Red meat itself does not cause heart diseases.",
+   "zh": "红肉本身并不会导致心脏病。"
+  },
+  "form": "disease 的复数",
+  "irregular": false,
+  "note": ""
+ },
+ "english": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "英语"
+   },
+   {
+    "pos": "adj.",
+    "zh": "英国的，英格兰的"
+   },
+   {
+    "pos": "n.",
+    "zh": "（the English）英国人"
+   },
+   {
+    "pos": "adj.",
+    "zh": "英语的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 4,
+   "en": "Many languages are spoken in South Africa, but she only speaks English.",
+   "zh": "南非通行多种语言，但她只会说英语。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "English class / teacher / text / translation / language 这类名词作定语的用法一律按「英语」标，未单列「英语的」。"
+ },
+ "overall": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "总体的，全面的"
+   },
+   {
+    "pos": "adv.",
+    "zh": "总体上，总的来说"
+   },
+   {
+    "pos": "adv.",
+    "zh": "（比赛）总成绩上，全部算在内"
+   },
+   {
+    "pos": "n.",
+    "zh": "（overalls）工装裤"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 1,
+   "3": 1,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 1,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 1,
+   "13": 1,
+   "14": 2,
+   "15": 1,
+   "16": 0,
+   "17": 2,
+   "18": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "Having a rival can keep you committed to achieving your goals and enhance your overall performance.",
+   "zh": "有一个对手能让你坚持实现目标，并提升你的整体表现。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "形容词 9 句、副词 8 句，首要义项差距很小。"
+ },
+ "satisfaction": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "满意，满足"
+   },
+   {
+    "pos": "n.",
+    "zh": "令人满意的事"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0,
+   "18": 0,
+   "19": 0
+  },
+  "example": {
+   "id": 8,
+   "en": "Fewer choices lead to lower customer satisfaction.",
+   "zh": "选择越少，顾客满意度越低。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "focused": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "专注的，注意力集中的"
+   },
+   {
+    "pos": "v.",
+    "zh": "集中于，聚焦于（focus on）"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 1,
+   "2": 1,
+   "3": 0,
+   "4": 1,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 0,
+   "9": 1,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 1,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 5,
+   "en": "When doing extreme sports, you have to become more focused.",
+   "zh": "做极限运动时，你必须更加专注。"
+  },
+  "form": "focus 的过去式和过去分词",
+  "irregular": false,
+  "note": "be/stay focused on 按形容词「专注的」标；主语主动 focused on（研究/练习侧重于…）按动词标。"
+ },
+ "productive": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "高效的，富有成效的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "多产的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 2,
+   "en": "A more productive method of encouraging health among employees is to promote healthy behaviors.",
+   "zh": "促进员工健康更有效的方法是倡导健康的行为。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "subject": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "学科，科目"
+   },
+   {
+    "pos": "n.",
+    "zh": "主题，话题"
+   },
+   {
+    "pos": "n.",
+    "zh": "（研究的）对象"
+   },
+   {
+    "pos": "n.",
+    "zh": "主语"
+   },
+   {
+    "pos": "adj.",
+    "zh": "易受…的，受…支配的"
+   },
+   {
+    "pos": "v.",
+    "zh": "使经受，使遭受"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": "P:be subject to",
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 1,
+   "18": 0
+  },
+  "example": {
+   "id": 18,
+   "en": "Design Ventura is welcomed by teachers because it helps to prove the worth of design as a school subject.",
+   "zh": "Design Ventura 受到老师欢迎，因为它有助于证明设计作为一门学科的价值。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id 8 a fantastic subject for research 归为「主题」；id 17 research on the subject 指数学焦虑这一话题，标「主题」。"
+ },
+ "employee": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "雇员，员工"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0
+  },
+  "example": {
+   "id": 11,
+   "en": "It does much harm to employee loyalty.",
+   "zh": "这对员工的忠诚度危害很大。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "forward": {
+  "senses": [
+   {
+    "pos": "adv.",
+    "zh": "向前，前进"
+   },
+   {
+    "pos": "adv.",
+    "zh": "今后，往后"
+   },
+   {
+    "pos": "adj.",
+    "zh": "向前的，前部的"
+   },
+   {
+    "pos": "v.",
+    "zh": "转寄，转发"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": "P:look forward to",
+   "4": "P:look forward to",
+   "5": "P:put forward",
+   "6": "P:come forward",
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 1,
+   "11": 0,
+   "12": "P:look forward to",
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "It is the force that pushes human society forward.",
+   "zh": "它是推动人类社会前进的力量。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "move/push/drive forward 按「向前，前进」标（比喻推进）；come forward（出面）、put forward（提出）作短语。"
+ },
+ "harmful": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "有害的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 0,
+   "en": "A new study finds that beverages containing added sugar might be harmful.",
+   "zh": "一项新研究发现，含添加糖的饮料可能有害。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "impossible": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "不可能的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "难以忍受的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": "X",
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": "X",
+   "14": "X",
+   "15": "X",
+   "16": "X",
+   "17": "X"
+  },
+  "example": {
+   "id": 9,
+   "en": "Life would be impossible if we remembered everything.",
+   "zh": "如果我们什么都记得，生活就没法过了。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "Impossible Foods 是公司名，标 X。"
+ },
+ "teaching": {
+  "senses": [
+   {
+    "pos": "n.",
+    "zh": "教学"
+   },
+   {
+    "pos": "v.",
+    "zh": "教，教授"
+   },
+   {
+    "pos": "n.",
+    "zh": "（teachings）教导，教义"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 1,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 1,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 1,
+   "13": 0,
+   "14": 1,
+   "15": 0,
+   "16": 0,
+   "17": 0
+  },
+  "example": {
+   "id": 1,
+   "en": "Distance education will never match the personal teaching in a traditional classroom.",
+   "zh": "远程教育永远比不上传统课堂里的面对面教学。"
+  },
+  "form": "teach 的现在分词",
+  "irregular": false,
+  "note": ""
+ },
+ "competitive": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "有竞争力的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "竞争激烈的，竞争性的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "好胜的，求胜心强的"
+   }
+  ],
+  "labels": {
+   "0": 1,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 1,
+   "5": 1,
+   "6": 0,
+   "7": 1,
+   "8": 0,
+   "9": 0,
+   "10": 2,
+   "11": 2,
+   "12": 2,
+   "13": 0,
+   "14": 1,
+   "15": 0
+  },
+  "example": {
+   "id": 15,
+   "en": "Ohio’s schools are already competitive.",
+   "zh": "俄亥俄州的学校已经很有竞争力了。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": "id 3 competitive businesses（选项）在「有竞争力的企业」和「竞争激烈的行业」之间拿不准，按前者标。"
+ },
+ "educational": {
+  "senses": [
+   {
+    "pos": "adj.",
+    "zh": "教育的，教育方面的"
+   },
+   {
+    "pos": "adj.",
+    "zh": "有教育意义的"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 1,
+   "7": 0,
+   "8": 1,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0,
+   "15": 0
+  },
+  "example": {
+   "id": 12,
+   "en": "The higher their educational level, the more likely they are to delay retirement.",
+   "zh": "他们的受教育程度越高，就越可能推迟退休。"
+  },
+  "form": null,
+  "irregular": false,
+  "note": ""
+ },
+ "happened": {
+  "senses": [
+   {
+    "pos": "v.",
+    "zh": "发生"
+   },
+   {
+    "pos": "v.",
+    "zh": "碰巧，恰好"
+   }
+  ],
+  "labels": {
+   "0": 0,
+   "1": 0,
+   "2": 0,
+   "3": 0,
+   "4": 0,
+   "5": 0,
+   "6": 0,
+   "7": 0,
+   "8": 0,
+   "9": 0,
+   "10": 0,
+   "11": 0,
+   "12": 0,
+   "13": 0,
+   "14": 0
+  },
+  "example": {
+   "id": 14,
+   "en": "But that’s not what happened.",
+   "zh": "但事实并非如此。"
+  },
+  "form": "happen 的过去式和过去分词",
+  "irregular": false,
+  "note": ""
+ }
+}

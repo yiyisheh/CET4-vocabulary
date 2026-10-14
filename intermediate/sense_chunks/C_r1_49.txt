@@ -1,0 +1,610 @@
+# 任务 C_r1_49：1 个词，600 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_49.labels.txt
+
+============================================================
+## 词：they    本段 600 句    模式：找例外（默认义项 0：只写不是 0 的句子）
+原释义：pron.他们; 她们; 它们.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 他们，她们，它们（指前面提到的人或物）    B 样本 78    例：Food they grow.
+  1  pron. 人们，有人（泛指，不确指某人）    B 样本 0
+  2  pron. 他，她（单数，指性别不明的某个人）    B 样本 2    例：Making sounds helps one communicate with people they can’t see.
+句子：
+505 | What size do you want and how much are 【they】?
+553 | We also asked whether 【they】
+558 | consider where in this process children succeed in controlling their reputation and where 【they】 ___34___.
+665 | The other respondents, meanwhile, all worked long hours because 【they】
+384 | Logically, 【they】'll need more money to live comfortably in
+357 | When people are bored, 【they】're more likely to feel less meaning in their lives.
+529 | Most people will have a feeling that 【they】've missed
+569 | What percentage 【they】 account for.
+386 | The more 【they】 achieve and the greater progress 【they】
+396 | 【They】 actually wanted a clear vision of the blackboard.
+477 | by those 【they】 admire.
+185 | How 【they】 affect our communication.
+441 | M: Wow! [10] Are 【they】 all happy?
+83 | Each of these behaviors is important, of course, but 【they】 all _26_ on physical health—and a growing body of research suggests that social health is just as, if not more, important to _27_ well-being.
+115 | 【They】 also answered questions about sleep and exercise and health every two years.
+518 | Five-year-olds aren’t just aware of their reputations, 【they】 also behave strategically to alter their outward image.
+306 | 【They】 also harbor dozens of diseases that threaten both humans and farm animals.
+102 | 【They】 also impose a $300 penalty.
+167 | 【They】 also included consuming too much meat.
+550 | 【They】 also reported improved mental health and subjective vitality immediately after the program. [19] These benefits remained six months after the completion of the course.
+81 | How 【they】 alter human skeletons.
+151 | 【They】 answered their headteacher's email in an impolite way.
+527 | 【They】 appear more formal than other passports.
+640 | Simply put, countries stick to darker and more conservative colors because 【they】 appear more official.
+458 | 【They】 are a bit expensive for her.
+432 | 【They】 are a good choice for many people.
+620 | M: 【They】 are a little pricey, yes.
+566 | 【They】 are a shade of red bordering on brown.
+648 | “The public has to learn to be far more aware 【they】 are a target for these sort of frauds.
+345 | This makes things tricky for people who may want to impress others while also demonstrating that 【they】 are a team player.
+80 | Two men who have been best friends for 60 years have just realized 【they】 are actually brothers.
+131 | See whether 【they】 are actually related.
+543 | 【They】 are affected by the overuse of social media.
+369 | But if we take a good look, the word ‘evil’ is insufficient—there are no simple explanations for why humans do bad things: instead there are many, and 【they】 are all marvelously different.
+417 | 【They】 are also more likely to attend university and become professional athletes, chief executives and even important politicians.
+343 | How old 【they】 are and what activities 【they】 do.
+295 | How healthy 【they】 are and what food 【they】 eat.
+504 | 【They】 are artificial.
+358 | 【They】 are as intelligent as other children.
+300 | 【They】 are better able to gain attention, love, and personal connection.
+577 | 【They】 are better at reasoning.
+200 | 【They】 are both students at Marathon High School.
+346 | 【They】 are brought in by the store’s customers.
+594 | 【They】 are burnt up in outer space.
+479 | Meatless meats are generally a healthier choice than beef because 【they】 are cholesterol-free, plus 【they】're a good source of
+256 | 【They】 are compact.
+662 | And, of course, 【they】 are compensated for it at a level that makes it worth their
+628 | When 【they】 are convinced you work in their interests while sacrificing your own.
+608 | 【They】 are copies built to the architect’s designs.
+499 | 【They】 are dangerous.
+316 | “When people book holiday villas 【they】 are doing so through rose-colored
+589 | 【They】 are doing work 【they】 care about and are interested in, and doing more of it is not
+353 | 【They】 are easy to drive.
+539 | 【They】 are environmentally friendly.
+220 | 【They】 are equally competent in using new technology.
+228 | We should be helping our kids understand who 【they】 are, even if that means letting go of who we think 【they】 should be.
+235 | Another role that 【they】 are expected to take over is negotiating on our behalf in commercial transactions or legal disputes. [17] So, it’s important to know whether using an artificial intelligence agent might affect how we negotiate.
+655 | 【They】 are for casual wearing.
+330 | I personally feel sorry for the poor animals stuck in cages, but there’s no denying 【they】 are fun and educational for children.
+149 | 【They】 are fun, great for exercising the mind and can be played either alone or in groups.
+480 | Even worse, when people finally do decide, 【they】 are generally less satisfied
+492 | But 【they】 are generally reading short texts.
+666 | 【They】 are guided back to Earth.
+366 | 【They】 are in the minority among the population.
+88 | 【They】 are known as “e-learning days”, which certainly sounds less fun than a snow day.
+249 | 【They】 are known for their loyalty to their owners.
+642 | The study also found that someone who is humble is more likely to initiate a romantic relationship, perhaps because 【they】 are less likely to see themselves as “too good” for someone else.
+583 | But make double certain 【they】 are made in Japan.
+85 | M: It does sound like it would suit my taste, but if 【they】 are making a TV series based on it now, I don’t know if I should read the book or watch the show first.
+653 | 【They】 are meant mostly for immigrants.
+493 | You might think of your teeth as tools, like built-in knives and forks, but if 【they】 are mere tools, why do 【they】 feel pain and wouldn’t it be better if 【they】 could just _26_ under any condition?
+324 | 【They】 are more expensive models.
+283 | 【They】 are more intelligent than many of us.
+318 | 【They】 are more likely to win in combat sports.
+276 | 【They】 are more powerful and capable.
+597 | 【They】 are mostly animal-rights advocates.
+560 | 【They】 are mostly non-vegetarians.
+258 | 【They】 are mostly secondary school students.
+582 | 【They】 are natural.
+668 | 【They】 are necessary for formal business dealings.
+98 | Though 【they】 are not sure how these individuals
+551 | 【They】 are now six times longer and, unlike older “what I did this summer” essays, 【they】 offer arguments supported by evidence.
+282 | W: 【They】 are nowhere near as popular as 【they】 used to be when we were children.
+182 | Teng said, but 【they】 are numerous.
+618 | 【They】 are often denied crucial information the web offers many others.
+374 | 【They】 are on better terms with friends and romantic partners.
+641 | 【they】 are overweight or not.
+393 | 【They】 are pets kept by the store staff.
+308 | People automatically assume children are anxious about math because 【they】 are poor achievers.
+414 | 【They】 are popular.
+373 | 【They】 are pushing for more recycled plastics in new products.
+314 | 【They】 are regarded as seriously binding.
+298 | 【They】 are regular visitors to the store.
+486 | 【They】 are relatively uniform in color and design.
+207 | 【They】 are reliable.
+630 | 【They】 are reused up to 100 times.
+82 | 【They】 are right next to each other on the ground floor, since you mentioned in your message that 【they】 have trouble with stairs.
+144 | M: No, 【they】 are safe. [8] But paying online is too convenient and I spent too much money on things I didn’t need.
+454 | “There is no way to definitely know who 【they】 are,” says Neate.
+362 | 【They】 are seldom honored by business partners.
+269 | 【They】 are similar in terms of social skills.
+305 | 【They】 are spacious.
+619 | 【They】 are special.
+275 | We need to teach children how to behave like the professionals 【they】 are striving to become.
+260 | Our always-on world of social media may result in more connections, but 【they】 are superficial and can
+408 | 【They】 are taken as memos of understanding.
+659 | 【They】 are the ones setting the standard with new ideas, fresh offers and bold inventions.
+452 | 【They】 are to be confirmed in written form.
+385 | Steve Maraboli once said, “When someone tells you 【they】 are too ‘busy’, it’s not a reflection of their schedule; it’s a reflection of YOUR spot on their schedule.
+445 | 【They】 are unable to get rid of their addiction without professional help.
+401 | 【They】 are unaware of the damage their behavior is doing to them.
+304 | 【They】 are unemployed for much longer than the average, and their age is indeed one of the greatest barriers to
+544 | 【They】 are unique.
+656 | But 【they】 are very special.
+516 | 【They】 are vital to reducing waste worldwide.
+571 | 【They】 are well preserved and in pretty good shape.
+107 | 【They】 aren’t going to deliver you food that is out of date.
+313 | Some people, 【they】 argue, are just more interested in certain kinds of media and entertainment.
+487 | But 【they】 argue that playing computer games to access is different.
+218 | 【They】 argue we should replace them with other drinks, with water being the best choice.
+598 | parking spots, as 【they】 argued at protests and in letters to the city council, would ruin stores and restaurants along Skillman.
+601 | when 【they】 asked over-45 candidates about their attitudes, 【they】 found that “those who are excited by training are unemployed
+672 | Not to mention the overwhelming amount of homework 【they】 assign, which would lead to a lot of pressure for Jake and me. [15] What if we send him to the place near your mother’s house?
+535 | On the other hand, 【they】 assume that it might be difficult to work with someone who has completely different views, speaks a different language, or has a different style of work.
+568 | drastically under-reporting what 【they】 ate.
+463 | 【They】 attach more value to their relationships with others.
+278 | 【They】 attempt to ignore the whole situation.
+574 | The actual value 【they】 attribute to diversity depends on the decision-making perspective.
+229 | 【They】 avoid showing their emotions.
+225 | 【They】 bake more bread at home.
+125 | But should 【they】 be left outside the classroom?
+664 | When 【they】 become aware of the potential strength of the judgements you make.
+588 | I) When linguist Naomi Baron studied students’ instant messaging even there she found surprisingly rare usage of short forms such as “u” for “you”, and as students got older, 【they】 began to write in more grammatical sentences.
+490 | When there are several different assignments, make sure 【they】 begin with one 【they】 enjoy, so it seems easy to get started.
+442 | “Hiring managers have a strong perception bias against 45+ job candidates — 【they】 believe that members of this
+439 | 【They】 believe this will maximize their ___26___ of making the best
+372 | 【They】 boast the longest battery life.
+525 | 【They】 break up nature's food supply chain.
+292 | And the team also found that participants were willing to look at listings with lower salaries if 【they】 came from companies with a higher diversity score.
+166 | 【They】 came from the same artist.
+354 | 【They】 can also harm other wild species through indirect competition, rather than eating them or shrinking their food supply.
+676 | And 【they】 can also hide dirt and wear.
+624 | 【They】 can be easily seen among participants in a healthy weight range.
+530 | How 【they】 can be reduced in number.
+382 | education — are seeking whatever poorly paid work 【they】 can get.
+241 | Employers place a great value on employees with persuasion skills because 【they】 can impact several aspects of job
+413 | Sunshine and high temperatures can mean picnics and parks and trips to beaches, but 【they】 can make your body react in some strange ways.
+606 | 【They】 can 33 mistakes, see value in things that are far from perfect and identify areas for improvement.
+622 | Still, observational studies like this one cannot prove cause and effect; 【they】 can only find _33_.
+201 | W: I like this sort of idea. [14] Lawrence has a sister who is slightly older, so maybe a game that 【they】 can play together would be good.
+635 | skills that reflect their aptitudes — skills 【they】 can practise and refine in-game.
+191 | Two pounds for each year so 【they】 can see some progression.
+337 | In our house, we have transparent money boxes for them to put small change in, so 【they】 can see their savings grow.
+224 | Witnessing habits like that can help kids “realize that 【they】 can _35_ some more control over their devices,” she says.
+342 | When responsibilities are well paced and communicated, a child can benefit greatly from involvement in bringing up a happy and healthy pet. [21] And of course, if a child doesn’t have a pet in their own household, 【they】 can still benefit from all of the above when visiting a friend who does.
+294 | As a child matures, 【they】 can then take on more of the daily responsibilities, boosting their sense of independence.
+118 | Students are able to highlight and edit text, write notes and search for information much more quickly than 【they】 can with printed textbooks.
+273 | Calling someone evil is often similar to saying 【they】 cannot change, and perhaps aren’t even a human at all.
+226 | If we stop children using phones, we are rejecting something 【they】 care about.
+244 | 【They】 care less about their diet now than before.
+602 | 【They】 carry a great many diseases.
+227 | 【They】 cater to Africans' needs.
+133 | How 【they】 cause increased headaches.
+565 | 【They】 cause much environmental pollution.
+667 | students helped to make decisions and there were plenty of discussions — 【they】 changed the product’s name, for example.
+459 | A soldier deviates when 【they】 choose not to follow orders to kill an innocent civilian.
+540 | The unethical behavior 【they】 chose was dishonesty.
+528 | Thus, 【they】 claim it is too early to call computer game addiction a disorder.
+111 | 【They】 claimed damages for their heavy losses.
+172 | 【They】 come to enjoy its unspoiled beaches and crystal clear waters.
+96 | 【They】 completed the race in less than 40 minutes.
+110 | M: And I guess with fewer places to inhabit, 【they】 concentrate in greater numbers in few areas, which surely makes them easier targets for the hunters.
+502 | To test this out, 【they】 conducted two studies.
+422 | 【They】 consider such exercises annoying.
+390 | How much protein 【they】 consume and what their body weight is.
+485 | 【They】 consume the pies as stomach warming race fuel.
+552 | from the increased productivity since Keynes's time — can afford to work less, why do 【they】 continue to work so much?
+223 | 【They】 cooperated well with the police.
+613 | 【They】 copy formulas on their palms.
+152 | 【They】 cost parents an average of £337 per year for each secondary school child.
+595 | With £10 to spend, 【they】 could
+469 | 【They】 could also choose to express sympathy with their opponent to appear pleasant.
+510 | But 【they】 could also indicate that 【they】—or their agent—would strategically express anger toward the opponent to gain advantage, or 【they】 could opt to convey dissatisfaction with the encounter so that the other party would think 【they】 were losing interest.
+579 | H) Over five experiments researchers gave participants tasks in which 【they】 could cheat.
+267 | Nevertheless, it is speculated that 【they】 could either be handed over to the National Art Museum of Cologne or sold to the public by the local government.
+119 | 【They】 could go home together with their mother a day later.
+429 | Participants were then placed in a virtual reality setting where 【they】 could look
+679 | For those who are overweight or obese, 【they】 could receive the bonus if 【they】 reduce their weight by 10% during the year.
+564 | Three-quarters of hiring managers said 【they】’d be more likely to hire an over-45 who had
+426 | For example, participants could choose to be tough by making an opening demand far greater than what 【they】’d be willing to accept.
+205 | 【They】 decided that it was time to take control.
+678 | “I didn’t really care about my mind and my body until 【they】 decided to go on strike.
+418 | 【They】 decline due to pointless meetings.
+465 | 【They】 deem these exercises counter-productive.
+145 | are key, because 【they】 define the difference between actively practicing something and passively learning it.
+462 | 【They】 depend on his ability to concentrate.
+438 | Plant-based meats are coming soon to a dinner table near you, but do 【they】 deserve a spot on your plate?
+192 | 【they】 deserve.” he said.
+652 | Participants were asked to self-report how well 【they】 did at the end of the study: 59% cheated by saying that 【they】 solved more matrixes than 【they】 actually had.
+361 | Large surveys conducted over the course of many years tell us that American youth are not going to the cinema nearly as often as 【they】 did in the past.
+563 | With so much greenery and fresh air, I think his current breathing problems would probably disappear. [13] 【They】 did just open though, so I don’t think I feel comfortable having our son in the first class of a brand new school.
+645 | Most people spend much more time interacting with digital media than 【they】 did ten years ago.
+670 | 【They】 didn’t believe it.
+203 | 【They】 didn't wear the shoes required by the school’s new policy.
+328 | 【They】 didn't welcome management's interest in their lives beyond their direct work performance," said Matous.
+134 | 【They】 do everything from suggesting new friends to recommending purchases.
+523 | W: 【They】 do have a great outdoor campus where he could finally learn all those outdoor sports you have been wanting him to try.
+559 | But when 【they】 do lead to too many calories, 【they】 risk raising
+124 | 【They】 do more cooking than men.
+135 | But even when these accounts touch on real concerns, 【they】 do not really reflect the great mass of everyday teenage social behaviour: the online chat, the texting, the surfing, and the emergence of a new teenage sphere that is conducted digitally.
+572 | However, that does not mean teens need to use electronic devices as often as 【they】 do now.
+355 | 【They】 do their favored activity whenever and wherever possible.
+449 | Then encourage them to establish an order in which 【they】 do work.
+204 | 【They】 don’t declare their eggs during the inspection.
+617 | 【They】 don’t go to movie theatres often.
+202 | But if 【they】 don’t it is their
+101 | 【They】 don’t know 【they】 are forbidden to bring eggs.
+153 | 【They】 don’t know 【they】 will be heavily fined.
+519 | control when 【they】 don’t lead to over-consumption of calories.
+541 | 【They】 don’t speak foreign languages.
+92 | The study aimed to identify disconnects between how healthily Americans think 【they】 eat and how 【they】 actually do.
+322 | 【They】 eat more fruit than 【they】 used to.
+474 | 【They】 enable employees to be convinced of their long-term gains.
+515 | 【They】 enable employees to trust their leaders unconditionally.
+503 | 【They】 enable him to enjoy a creative career.
+349 | 【They】 enhanced the positive image of the school.
+310 | Start with something 【they】 enjoy.
+580 | 【They】 enjoy watching foreign movies.
+320 | 【They】 enjoyed a fairly affluent life.
+238 | Although born gray, males of the species are easily identified as 【they】 enter adulthood by a decisive pink shade. [20] Their unusual coloring is believed to be the result of scar tissue from dolphin fights—whether playfighting or a serious bid for a mate.
+150 | K) A video from the project shows a train of autonomous robots running along a track without bilateral control: 【they】 eventually
+433 | 【They】 experienced a heartbreaking moment.
+500 | An employee in a big tech company deviates when 【they】 expose its wrongdoings.
+116 | 【They】 extensively rip off legitimate websites and use a different website name.
+176 | 【They】 favor diets lower in calories.
+573 | 【They】 favored a more rigid, closed-door, corporate atmosphere, while I would have preferred something more collaborative and open.
+140 | 【They】 fear that students without internet access at home will be disadvantaged by the policy, and superintendent Tom
+309 | Similar to the need for belonging, bored people often report that 【they】 feel a limited sense of
+356 | So the real danger here is that children who will completely able to do math at a normal level may keep away from it because 【they】 feel anxious.
+376 | 【They】 feel management is being too nosy or trying to control their lives too much.
+394 | 【They】 feel much of their precious time, energy and resources is wasted.
+534 | Rather, 【they】 feel pain, which may be _35_ with, say, drinking something very cold.
+674 | 【They】 fell victim to eagles.
+467 | In contrast, 【they】 felt less judged by members of their own group.
+206 | past the age of 45, there’s nearly a two in three chance you’ll be out of work for over a year, 【they】 find.
+556 | When 【they】 find job postings visually attractive.
+546 | 【They】 find these exercises too demanding.
+179 | W: We can’t dismiss the idea that teenagers have to plan to do something after 【they】 finish school, and parents are entitled to hope it’s more than simply spending 10 hours a day playing computer games.
+281 | 【They】 flew 737 airplanes as pilots.
+400 | The craft will use the heat of re-entry to roast coffee beans as 【they】 float inside it in a pressurised tank.
+627 | 43 People ate more of a healthy food when 【they】 focused on its good taste instead of its long-term benefits.
+557 | 【They】 found an elephant wandering around a well.
+198 | When 【they】 found collaboration essential to them.
+406 | 【They】 found it easy to control their emotions.
+288 | Interestingly, 【they】 found that men were far more
+336 | 【They】 found that participants in a high-power interviewer role were more likely to give abstract
+494 | 【They】 found that people have a wide range of opinions concerning diversity.
+108 | winners, it's impossible to know which of the winners would have quit had 【they】 found themselves on
+234 | At the American restaurant 【they】 frequent.
+591 | It may be an uncomfortable process, but good leaders and healthy teams recognize that productive and healthy conflict is an important part of how 【they】 function.
+285 | As 【they】 gain experience with living online, 【they】 begin to adjust their behaviour, struggling with new communication skills, as 【they】 do in the real world.
+517 | 【They】 gathered together to rescue an elephant.
+271 | Countries were classified according to the respect 【they】 gave to women’s economic and social rights.
+139 | M: [10] We also give our kids pocket money, and the amount 【they】 get is linked to chores, such as putting the bins out and emptying the dishwasher.
+187 | Indeed, as 【they】 get older and are given more freedom, 【they】 often ease up on social networking.
+447 | Count the likes 【they】 get on their posts.
+612 | “When people book their holidays 【they】 get so emotionally involved, and when 【they】 find that villa at a good price with availability in peak season, 【they】 are an easy target,” says Cooper.
+261 | Finish them before 【they】 get tired.
+389 | He said it would give prospective students more information about what to expect once 【they】 graduate.
+359 | Homework is an important part of schooling, but the purposes of giving children homework will change as 【they】 grow older.
+368 | 【They】 had a strong community spirit.
+120 | The babies’ mother commented that 【they】 had already prepared room for five babies at home, so 【they】 will have to rearrange things for their happy surprise.
+263 | 【They】 had checked the plane carefully.
+264 | But crucially, this was less so if 【they】 had completed the 30-minute jog.
+90 | And alarmed locals contacted police, thinking 【they】 had heard bombs going off.
+347 | Volunteering can drop after the holiday season, and by February, some organizations lack the volunteers 【they】 had in surplus just a month ago. [19] According to one survey, only 26% of Americans volunteered, despite reports that many Americans view volunteering as worthwhile.
+537 | Of the teens surveyed, 51 percent said that 【they】 had knowingly cheated at some point on an exam but that 【they】 did not feel uneasy about the behaviour.
+451 | G) Indeed, the number of senior high school students who said 【they】 had not read any books for pleasure in the last year was one out of three by 2016.
+299 | The New Year has come and gone, and many may have already forgotten what 【they】 had resolved to do on January 1st.
+334 | productivity stopped working around 1973.Thus, 【they】 had to keep working just as much in order to maintain their
+677 | of how often 【they】 happen and how much 【they】 contribute to our overall energy intake.
+378 | M: Too many people spend their lives working on jobs 【they】 hate because 【they】’re afraid, so I counsel people to take risks. [14] Retirement doesn’t have to be permanent, and if people need to, 【they】 can go back to work.
+208 | I think I might try that big new supermarket on the other side of town and see what 【they】 have.
+464 | 【They】 have a denser weave, and are more durable than any other jeans in the world.
+404 | 【They】 have a distinctive style of handwriting.
+412 | 【They】 have a higher chance of joining sports teams.
+538 | 【They】 have a larger brain.
+636 | 【They】 have a reputation of being overly strict with the students.
+600 | What about our local school then? [14] 【They】 have a wonderful arts program that would really challenge Jake in terms of creativity and imagination.
+460 | 【They】 have adapted to meet fashion changes.
+416 | 【They】 have all been turned into movie theatres.
+331 | 【They】 have already become our new friends.
+211 | When people are bored, 【they】 have an increase in "associative thought"-the process of making new
+189 | 【They】 have been attracted by a patch of land this close to wilderness, and it is their responsibility to keep it that way.
+132 | 【They】 have been best friends ever since.
+379 | 【They】 have begun to affect our social behavior.
+533 | Perhaps not accidentally, in 2016 reading scores were the lowest 【they】 have ever been since 1972.
+434 | The information will highlight what a great value 【they】 have for their very reasonable cost.
+663 | 【They】 have little access to government funding.
+456 | 【They】 have more disadvantages in getting ahead.
+266 | 【They】 have not quite grasped the concept of diversity.
+217 | 【They】 have not seen as much diversity as desired.
+210 | This means 【they】 have overwhelming negative emotions towards the subject, ranging from rage to despair.
+578 | The number of books 【they】 have read by age four.
+158 | 【They】 have strong negative emotions towards math.
+236 | 【They】 have to be on Facebook, to know what’s going on among friends and family, but 【they】 are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+405 | Get them to tell you everything 【they】 have to do.
+251 | 【They】 have to get prepared for resentment and bitter court battles.
+265 | If teens are spending so much time using electronic devices, does that mean 【they】 have to give up some other activities?
+476 | 【They】 heard a noise from the bottom of a well.
+592 | 【They】 help an organization to broaden its vision effectively.
+649 | 【They】 help each other to cover up their acts.
+555 | 【They】 help motivate coworkers to strive for a common goal.
+387 | 【They】 help to lower housing prices.
+475 | 【They】 help to save up for larger houses.
+409 | Namely, 【they】 help you treat others better, by using the way you yourself would want to be treated as a guide of how to behave.
+231 | The dancers move in harmony as 【they】 imitate the animal's natural movements in the wild, including the aggressiveness of an attack.
+301 | 【They】 improved student behavior and performance.
+163 | 【They】 installed a camera to monitor sheep activity.
+123 | The way parents interact with technology can _33_ the way 【they】 interact with their kids.
+113 | Compared with teens a couple of decades ago, the way 【they】 interact with traditional media like books and movies is fundamentally different.
+259 | Researchers said 【they】 investigated individuals’ attitudes towards mathematics because of what could be referred to as a ‘mathematics crisis’ in the UK.
+109 | 【They】 killed wild ducks and geese for food.
+112 | But while 【they】 knew Prickles was alive, 【they】 couldn’t find her and never expected her to return by herself.
+177 | “When students use their phones for research, 【they】 learn 【they】 have a powerful tool in their hands.
+126 | What 【they】 learned from computer games.
+122 | It followed infants across the second six months of life and found that when parents showed babies books that had faces or objects with specific labels, 【they】 learned more.
+157 | It’s better to let people walk around and talk to each other, or sit where 【they】 like.
+471 | 【they】 like their jobs so much.
+178 | What 【they】 liked to do most after school.
+593 | Dogs pay much attention to the kids 【they】 live with.
+340 | Yet, very little research has focused on how dogs perceive and socially engage with children. [24] “The great news is that this study suggests dogs are paying a lot of attention to the kids that 【they】 live with,” said Monique Udell, the lead author of the study.
+638 | 【They】 lived peacefully with wild pigs.
+137 | Remember that you will have to have all your certificates to hand when you are filling out the forms, as the standards are high and 【they】’ll be carefully checked before anyone will be able to sell their produce at the event.
+250 | We assume that if we offer our customers more choices, then 【they】’ll be more likely to buy our products. [16] But here’s the paradox of choice: if a person is presented with too many choices, 【they】 are actually less likely to buy. [17] In 2012, psychologists published a study about jams.
+103 | probably won’t be a good “fit,” their experience won’t be relevant to the workplace, and 【they】’ll be unable or unwilling to
+168 | 【They】’ll have pictures of a sales team and it might be a poor actor in New York that is down as their head of sales.
+411 | For such institutions, from universities to workplaces, to better _35_ people in the U.S., 【they】’ll need to understand “what the American public highly prioritizes,” Smith says.
+521 | with their decision and feel more regretful over whatever choice 【they】 made.
+184 | Alan was given away for adoption soon after he was born, and Walter never knew his father. [3] So recently, 【they】 made separate attempts on DNA matching websites to discover more about their ancestry.
+95 | Perhaps 【they】 made the sound of wind to comment on the weather or imitated the sound of a bird to tell a friend that there was a bird nearby.
+427 | Like everyone else, 【they】 make mistakes—sometimes serious ones.
+596 | We also evaluate ourselves based on what we are wearing because of the way 【they】 make us feel.
+623 | Nobody can really be sure if risks will be met with success, no matter how calculated 【they】 may be.
+351 | 【They】 may carry viruses that are fatal to native snakes, which do not have resistance.
+117 | 【They】 may encounter technological problems.
+481 | 【They】 may experience some unwanted stress.
+599 | 【They】 may feel helpless when called on by the instructor.
+341 | 【They】 may hold too optimistic a view about their diet.
+293 | 【They】 may lack adequate knowledge of healthy food.
+348 | 【They】 may neglect to cultivate the inner qualities that matter more.
+169 | 【They】 may pay less respect to teachers.
+446 | 【They】 may play games instead of attending school, or work, or socializing.
+562 | 【They】 may receive extra attention from the instructor.
+326 | 【They】 may regard any difference as the end of a relationship.
+554 | Without conflict, we’re often stuck in this artificial harmony where people don’t express potentially innovative ideas for fear that 【they】 may start conflict with others.
+522 | 【They】 may try hard to show their preparedness.
+607 | Workers at Mexican oil company will receive a healthy incentive of almost $300 a year if 【they】 meet certain body weight standards.
+654 | With a literacy rate in some parts of Africa at only 22.6%, farmers are often "underpaid for their produce because 【they】 might be unaware of the prevailing prices," says Francis Dittoh, a researcher behind Mr Meteo, a speech-based weather information service.
+279 | 【They】 might either attack you, get defensive, or just disappear from your life.
+160 | 【They】 might even make us better at our jobs'.
+410 | “【They】 might spot problems you don’t spot.
+561 | Research shows that when people choose from many options, 【they】 ___29___ more in the decision,
+633 | 【They】 more often appeal to meat-eaters.
+567 | 【They】 must be made from a material that bends.
+675 | 【They】 must be made from a rare material.
+639 | 【They】 must endure wear and tear.
+643 | To qualify for the bonus, 【they】 must maintain a healthy weight.
+221 | 【They】 must make efforts to increase women’s access to health care.
+315 | 【They】 must play football a lot then, right?
+246 | Americans get twice as much as 【they】 need.
+106 | 【They】 need extra help to catch up in the math class.
+512 | Rather, we can assume it is because 【they】 need the money.
+297 | This is the era of social media. [21] People can easily share their wealth and status to large audiences, but 【they】 need to consider the consequences.
+270 | 【They】 need to invest more in hospital staff and facilities.
+171 | 【They】 needed to stay in the hospital for a couple of months.
+367 | 【They】 note that the value of women’s rights has often been questioned from an economic standpoint.
+350 | 【They】 obtained the highest grade average in their class.
+245 | It’s a team sport and 【they】 often have mixed-gender teams so he could socialize with both girls and boys. [14] It’s not as popular as some sports, which means he has better odds of possibly getting an athletic scholarship in the future.
+484 | 【They】 often make sudden attacks on people.
+302 | 【They】 often received close attention from the instructors.
+89 | 【They】 often take place in the Scottish Highlands.
+548 | 【They】 often talk about ways to get more sleep, set goals, or manage stress or anxiety. [21] Pendry acknowledges that these are really important topics and these workshops help typical students succeed.
+371 | Kate was depressed at first, but then she sat with some girl patients and 【they】 opened up all the boxes together, laughing and playing.
+403 | It may make people feel that 【they】 ought to fit in with the outside world.
+84 | 【They】 outcompete mythical creatures.
+388 | 【They】 pay insufficient attention to their choice of food.
+173 | 【They】 place a notice in The Northern Echo.
+363 | W: (11) I think 【they】 play football, but it’s not as popular as rugby.
+425 | 【They】 play increasingly more important roles.
+212 | 【They】 poisoned wild ducks in large numbers.
+381 | Or 【they】 post a photograph on Instagram, have a pleasant conversation with friends and then delete it so that no traces remain.
+248 | These findings suggest that people should change how 【they】 present themselves depending on their social goal.
+307 | 【They】 prioritize their favored activity over what 【they】 should do.
+392 | 【They】 probably had short lives, and their remains show evidence of severe injuries.
+291 | 【They】 promised to stop the construction work.
+370 | 【They】 put jam instead of butter on bread.
+397 | She went on a TV show where 【they】 quiz on general knowledge and she won first prize.
+161 | 【They】 raised ducks and geese for their eggs.
+483 | 【They】 rate the post-45 job seekers lower on average on all three measures — even experience —
+590 | two months after setting the goal far more than how important 【they】 rated their goal to be.
+194 | M: [15] So, tiny homes might not be for everyone, but 【they】’re a good option for many.
+230 | 【They】’re able to hear what the other person is saying and express their own feelings and thoughts effectively.
+277 | Instead of a touchscreen, 【they】’re controlled with an old-school keypad.
+325 | 【They】’re designed for 3G networks because 4G coverage doesn’t reach two thirds of Africa’s customers.
+186 | 【They】’re even beginning to drive our cars.
+586 | But 【they】’re less helpful for struggling students.
+199 | Experiments showed that participants were less likely to choose someone who signals their wealth or status to join a group seeking cooperative members. [20] But participants were more likely to choose that person when 【they】’re looking for a competitive team member.
+268 | E) With such a degree of professionalism, how can consumers find out if the website 【they】’re looking to book with is trustworthy?
+430 | The reality is, nobody is too busy—it’s just about priorities. [17] So the next time someone asks you how you are, maybe respond differently. [18] In my experience, the “I’m busy” response is really covering up the fact that 【they】’re not actually accomplishing their real purpose.
+437 | and fruit juices — don’t seem to have harmful effects as long as 【they】’re not contributing to excess daily calories.
+181 | So if you have a disagreement with a securely attached person, 【they】’re not going to panic.
+520 | 【They】’re nutritious, inexpensive, and far more sustainable than any of the
+531 | It’s best to take on the most difficult task second—once 【they】’re settled, but before 【they】 get tired.
+536 | “【They】’re still going to do it.
+383 | And it scared them a bit,” Dychtwald said. [25] One big reason 【they】’re struggling is attributed to college loans, of which the average amounts to $37,000.
+407 | In 1980, about 60 percent of senior high school students said 【they】 read a book, newspaper or magazine every day that was not assigned for school.
+105 | Wilson says, (7) when people start to know other people around them, 【they】 realize 【they】’re not that different.
+621 | 【They】 rearranged the staff and office spaces.
+496 | George Engel, in treating his patients, not only looks into their symptoms but also into things like the emotional support 【they】 receive.
+637 | for less time, receive more job offers, and are more satisfied by the job offers 【they】 receive.
+287 | [22] In a new Merrill Lynch/Age Wave survey, a full 70% of the early adults said 【they】 received financial support from their parents in the past year and 58% said 【they】 couldn’t afford their current lifestyles without it.
+657 | 【They】 redesigned the staff's work schedules.
+488 | Reflect on how 【they】 relate to others.
+584 | 【They】 relocated team leaders and their offices.
+252 | 【They】 rendered the school unique in the district.
+352 | A substantial part of this, 【they】 report, is “widespread ageism” on the part of hiring managers.
+237 | 【They】 resemble alarmingly large snakes.
+121 | 【They】 return it to the finder.
+254 | There are others, however, who showed support for the restaurant’s decision. [4] 【They】 said it has the right to implement any rules it wants.
+651 | “Playing with their children likely offers parents opportunities to experience positive feelings and 30 closeness with their children,” 【they】 say.
+470 | 【They】 say that kids use overly casual language and text-speak in writing, and don’t have as much patience for long reading and complex arguments.
+440 | 【They】 scored higher than students sitting behind them.
+180 | 【They】 scream to get their parents back.
+506 | 【They】 see such exercises as harmful to harmony.
+482 | M: Why don’t 【they】 sell that flashy new car?
+142 | The police were flooded with many calls from the public. [6] And 【they】 sent out a message asking people to remain calm.
+193 | 【They】 sent out a message to calm them down.
+513 | K) “In one study, we asked people online about the goals 【they】 set at the beginning of the year.
+339 | 【They】 set off to inspect the site of the plane crash.
+174 | Not all books are created equal, so parents need to choose the books 【they】 share with their children with great care.
+604 | 【They】 should be able to be read by a machine at temperatures ranging from 10 degrees Celsius to 50 degrees Celsius, under the conditions where the air can be extremely dry or moist.
+545 | 【They】 should be around $500.
+660 | 【They】 should be attributed to participants’ change in diet behaviors.
+495 | G) “By working with industry partners such as ABTA and Get Safe Online, we are able to issue alerts about the latest threats 【they】 should be aware of.
+364 | “【They】 should be Googling the property, and looking on websites like Google Maps and StreetView to see if it’s there.
+100 | It had rows of desks with blue chairs and nameplates reminding each student where 【they】 should be sitting.
+190 | 【They】 should become so popular.
+239 | 【They】 should cover so many different types
+290 | you can get somebody on-board with your goal, you should help them understand why 【they】 should pursue it.
+402 | 【They】 show a pattern of behavior characterized by a lack of control.
+605 | Under-reporting rates are much higher for obese people, because 【they】 simply consume more food,
+154 | Officials said most people arriving at international borders with eggs are truthful about their purchases. [2] 【They】 simply don’t know bringing eggs is not allowed.
+128 | 【They】 simply shut themselves down.
+575 | Also, once one bank account gets reported, 【they】 simply use another.
+129 | 【They】 simply vanish without a trace.
+253 | Where 【they】 sit in the classroom.
+175 | Rideout thus thinks it’s up to parents to model good _34_: Kids tend to take note if their parents put their phone away at dinner or charge it in another room while 【they】 sleep.
+311 | W: (11) Well, ducks have never been popular with farmers like my grandfather anyway because 【they】 sometimes destroy crops.
+448 | 【They】 sometimes have psychological problems.
+333 | In fact, 【they】 spend hours changing Facebook settings or using quick-delete sharing tools, such as Snapchat, to minimise their traces.
+274 | 【They】 spend less time eating breakfast.
+615 | “Fathers may fare better than mothers in part due to how 【they】 spend time with their children,” said lead author Katherine Nelson-Coffey.
+165 | Indeed, by 2016, the average American high school senior said 【they】 spent six hours a day writing text messages, on social media, and online during their free time.
+415 | A child deviates from social pressures when 【they】 stand up for another child being bullied in school.
+478 | Juices containing vegetables can provide more nutrients and less sugar than juices made up of just fruit — but 【they】 still
+398 | admit that post-45 hires turn out on average to be just as good as or better than younger workers, 【they】 still don’t want to
+509 | 【They】 still existed six months after the course ended.
+514 | This could be because some people want to avoid conflict at all costs, after all 【they】 still have to work together.
+375 | My friend brought me a pair from there five years ago, and 【they】 still look new.
+508 | Because of this, 【they】 strategically use healthy food choices to make a positive impression.
+395 | 【They】 strengthened the school's discipline and order.
+453 | This means that 【they】 strive to implement the golden rule whenever possible, as long as it doesn’t clash with a more important concept.
+450 | 【They】 struggled to handle negative emotions.
+338 | are more likely to agree with you when 【they】 succeed alongside you.
+327 | W: (9-2) That explains why 【they】 suddenly disappear.
+197 | What would drivers do when 【they】 suffer from “warning fatigue”?
+629 | Instead, 【they】 suggest it may be more of a lifelong process—a continuous,
+658 | But if we can’t find ways to protect other foods, will 【they】 survive climate change?
+461 | 【They】 suspected older, more mature students obtained more self-confidence than their peers because 【they】 achieved better grades.
+147 | At some point, 【they】 switched to mostly making sounds that became words instead of just using their bodies. [18] The reason 【they】 switched to making sounds, the theory goes, is that talking out loud lets you communicate with someone even when you can’t see them.
+419 | The friends I have who still work in offices inform me their bosses insist that 【they】 take the second option, and that napping is associated with laziness.
+581 | Given how large the __31__ and cotton industries are, 【they】 take up a lot of our fresh water demands across the world, according to The Huffington Post.
+317 | In this study, his team “went the _29_ direction” by spending years carrying out individual interviews and group surveys to see what people really talk about when 【they】 talk about success.
+473 | And “being busy” is the lie 【they】 tell themselves about why 【they】 can’t achieve it.
+497 | 【They】 tend to be a lot more aggressive than right-handed people.
+489 | 【They】 tend to have more difficulties in learning.
+611 | In other words, when a person’s own work group is involved, 【they】 tend to prefer team members who are similar to themselves.
+423 | 【They】 tended to be arbitrarily judged by individuals of opposing groups.
+377 | 【They】 tended to be easily anticipated by those belonging to their own race.
+626 | important part of how 【they】 think of themselves.
+673 | J) If 【they】 think we’re too old to learn new skills after we’re 45, just learning some new skills may have an effect on its own.
+242 | 【They】 told them the military exercise was over.
+360 | 【They】 took some gold bars and diamonds.
+127 | Some Olympians said 【they】 treat their medals as treasures and that it was disrespectful and unacceptable for Kawamura to bite one.
+547 | When 【they】 tried to make a positive impression on the researchers.
+136 | 【They】 truly exist in the Amazon region.
+431 | make, the more 【they】 trust your judgement and strength.
+420 | 【They】 try to express their feelings and thoughts effectively.
+647 | But when people make decisions for others, 【they】 typically put together a more diverse team.
+435 | How serious their protein deficiency is and what remedies 【they】 use.
+213 | M: What do 【they】 use for hunting during that period?
+646 | Do 【they】 use formal, direct language?
+421 | Also, the fabric 【they】 use is of a higher quality and the dyes are natural.
+243 | M: Well, if people have smaller homes, 【they】 use less land and fewer resources to build them.
+262 | W: 【They】 use new types of guns, and birds could easily be shot down in flight.
+609 | Many years’ surveys reveal that young people in America are going to the cinema much less often than 【they】 used to.
+141 | 【They】 usually happen in the middle of the night.
+188 | 【They】 usually mind their own business.
+549 | 【They】 varied greatly among the course participants.
+603 | 【They】 vary in color from country to country.
+671 | But if someone can explain how 【they】’ve
+155 | 【They】’ve just published a global survey on midcareer
+570 | If you encourage them to tell you what 【they】’ve learned, 【they】’ll absorb the information more deeply and remember it more readily.
+455 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update on where their journey has taken them and what resiliencies (韧性) have been the pavement on which 【they】’ve traveled.
+669 | 【They】 very much resemble animal meat.
+97 | 【They】 visit the store so much that [7] staff have been forced to put up signs, asking their customers not to feed them.
+216 | By 2016, nearly nine out of ten young women in the 12th grade said 【they】 visited social media sites every day.
+130 | "We're a big family," he said, shaking hands with other members as 【they】 walked through the door.
+526 | The toughness of the race allows for racers to eat pretty much whatever 【they】 want.
+93 | interests and values that determine what 【they】 want out of their lives.
+625 | That is because 【they】 want to appear more adult, and 【they】 know how adults are expected to write.
+380 | Participants then completed a survey indicating how tough, deceptive and pleasant or otherwise 【they】 wanted to be, or wanted their agent to be, in the negotiations.
+222 | Thus, 【they】 wanted to determine if there was a link between protection of women’s rights and public health.
+94 | When 【they】 wanted to have a competitive team member.
+632 | Studies have found that people tend to be less open and less able to relax when 【they】 wear formal clothes.
+501 | 【They】 wear hats on social occasions.
+399 | 【They】 were actually native to North America.
+542 | 【They】 were also asked about the risks 【they】 took while riding bicycles and managing their finances.
+215 | 【They】 were also more likely to have an ongoing medical condition and be overweight.
+170 | 【They】 were also rated similarly on self-control, such as the ability to regulate their temper.
+232 | 【They】 were born to the same mother.
+183 | 【They】 were both given up for adoption.
+329 | 【They】 were both 60 years of age.
+576 | Over half of the students interviewed were unaware 【they】 were cheating.
+610 | 【They】 were complete clock watchers, while I would have liked a more flexible schedule.
+644 | 【They】 were designed by another architect.
+162 | 【They】 were easily found and plentifully available food source in farming areas, especially for poor immigrants.
+87 | Electric bikes have been the craze in downtown Jacksonville since 【they】 were first introduced earlier this month as a one-year pilot program. [5] But 【they】’re leading to safety concerns, mainly at night when some riders don’t follow the rules of the road.
+257 | 【They】 were first introduced to California by Spanish and Russian explorers and settlers many centuries ago.
+616 | In one study, 【they】 were given matrixes (矩阵) and had to find two numbers that added up to 10.
+323 | She told her daughter that 【they】 were going to be returned.
+436 | 【They】 were hardly injured.
+319 | 【They】 were high, moderate, and poor.
+443 | 【They】 were hunted by Spanish and Russian explorers.
+280 | "Some participants were against team-building exercises because 【they】 were implicitly compulsory.
+634 | But the bike lanes were a done deal, and soon 【they】 were in place.
+507 | 【They】 were influenced by the presence of someone from an outsider group.
+344 | 【They】 were kept by royalty.
+532 | 【They】 were less affected by sad movies.
+146 | When 【they】 were looking for a cooperative workmate.
+491 | 【They】 were more eager to enjoy a movie.
+233 | It was unclear where the rest of the group was from, but 【they】 were most likely traveling together. [7] One local woman commented on being embarrassed that tourists were cleaning up their beach.
+284 | In a new study, participants were told to imagine that 【they】 were negotiating for something important to them, like a house.
+585 | When 【they】 were offered both candy and fruit as a snack.
+196 | I’ve definitely bought clothes and shoes I didn’t need because 【they】 were on sale, and paying with my phone was so easy.
+587 | 【They】 were only measurable within seven weeks.
+296 | 【They】 were open to the public.
+457 | Research found that 【they】 were overrepresented among fighters in combat sports.
+468 | 【They】 were perceived differently by some academics.
+391 | 【They】 were primarily native.
+164 | Seven years later, 【they】 were proven wrong.
+272 | 【They】 were puzzled by the mystery.
+466 | 【They】 were readily shared among members of the same social or racial group.
+247 | When 【they】 were seeking someone to help them.
+365 | Perhaps this is because older people had fewer options when 【they】 were starting their careers, at a time when values focused more on stable incomes than _32_ personal missions.
+114 | 【They】 were stolen by an Italian boy.
+335 | “Financial independence is something 【they】 were struggling with and challenged by.
+332 | Next, 【they】 were told either that 【they】 would negotiate for themselves, or 【they】 would program an artificial intelligence agent to negotiate for them.
+303 | 【They】 were told to observe and, if possible, photograph the animal.
+511 | When Stanford University scholar Andrea Lunsford gathered data on the rates of errors in “freshman composition” papers going back to 1917, she found that 【they】 were virtually identical to today.
+424 | The same was true when 【they】 were with someone from a different university, compared to someone from their own.
+240 | We opened a savings account when 【they】 were young.
+99 | 【They】 weren't informed of the school’s updated rules.
+650 | 【They】 will also carry with them a huge student loan debt, in addition to countless “hidden” out-of-pocket costs paid for by their bank accounts and the bank accounts of their families.
+138 | 【They】 will be less challenging after a time.
+312 | 【They】 will be questioned by the police.
+104 | 【They】 will care less about their own background.
+214 | 【They】 will cooperate with the police.
+195 | 【They】 will experience the coldest winter in four decades.
+156 | 【They】 will find 【they】 have something in common.
+159 | If anything is really wrong, you can just take photographs of the damage, and 【they】 will give you the money back or replace the item.
+143 | 【They】 will have a costly bill to pay to heat their homes.
+91 | 【They】 will have insufficient heating oil to keep warm.
+86 | 【They】 will help one reduce fear.
+614 | 【They】 will inevitably pack too much to fit in their tiny dorm rooms.
+219 | “A villa might cost £5,000 elsewhere and 【they】 will offer it at say £3,500.
+209 | 【They】 will regain confidence with counselling.
+148 | 【They】 won this year’s 7 Mile Bridge Run.
+428 | of hourly workers, their top concern is not that 【they】 work too much but that 【they】 work too little.
+631 | Then 【they】 worked with the
+524 | Managers said 【they】 worry that older hires will be reluctant to try new
+444 | It is not clear how much 【they】 would charge for a cup.
+289 | After birthdays and Christmas, 【they】 would go to the branch and deposit their gift money.
+286 | Many workers report that 【they】 would like to spend more time with family, rather than at work Furthermore,
+498 | In one study, researchers showed the participants columns of abstract illustrations and asked them which ones 【they】 would prefer.
+321 | 【They】 would run around looking for clues and at the end unmask the bad guy.
+472 | Participants who saw their aged selves said 【they】 would save 30%
+255 | individuals are finding it harder to get jobs,” 【they】 write.
+661 | And it turns out that when 【they】 write for strangers, their sense of “authentic audience” makes them work harder, push themselves further, and create powerful new communicative forms.

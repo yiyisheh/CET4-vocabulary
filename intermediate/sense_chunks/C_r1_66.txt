@@ -1,0 +1,588 @@
+# 任务 C_r1_66：1 个词，574 句。按 intermediate/sense_chunks/PROMPT_C.md 标注，写入 C_r1_66.labels.txt
+
+============================================================
+## 词：what    本段 574 句    模式：全标（每句都写）
+原释义：pron.什么; 多么; …的事物.
+义项表（下标就是标签；B 样本 = 已标的 80 句里各义项的句数）：
+  0  pron. 什么（疑问）    B 样本 40    例：What is it?
+  1  det. 什么，哪种（放在名词前：what time 几点）    B 样本 13    例：M: What kind would you like?
+  2  pron. …的东西，…的事（= the thing that）    B 样本 24    例：Buy what the man recommended.
+  3  det. 多么（感叹：What a…!）    B 样本 0
+已标过的短语：what do you mean by（2）；what about（1）
+口径说明（照此执行）：
+  - 间接疑问句（know what you want）与关系用法（what you have learned）界线模糊：能译成「什么」标0，译成「…的东西/事」标2。id74 原卷就截断在 what we all，按上下文推测为 what we all think of is…，标2。what if / what about 按短语标。
+句子：
+183 | So I started to think: “Guess 【what】?    ?P:guess what
+195 | When Coburn spoke to them and described 【what】
+133 | through day-to-day, make sure your present self knows 【what】's in it for her too.
+376 | 【What】's more, homes built in the 2000s were more likely than earlier models to have more of all types of spaces; bedrooms, bathrooms, living rooms, dining rooms, recreation rooms and garages.
+248 | 【What】's more, the 7 ,OOO or so languages that exist today vary dramatically in how they utilize numbers.
+626 | 【What】's needed now is a marketplace platform specifically designed to bring freelancers and
+487 | So, 【what】's the message conveyed?
+269 | A multitasker is one who can perform two or more tasks effectively at the same time, which—apart from the obvious differences—is similar to 【what】 a computer does.
+141 | Interactive experiences may provide opportunities for children to learn about 【what】 ___29___ a desirable
+319 | W: 【What】 a fool he is.
+386 | The information will highlight 【what】 a great value they have for their very reasonable cost.
+297 | At least this is 【what】 a new study suggests.
+411 | It distorts many employees’ belief of 【what】 a satisfying life is.
+164 | 【What】 about a hard cheese?    ?P:what about
+256 | And 【what】 about all those trees that are cut down to make printed books?    ?P:what about
+149 | 【What】 about enrolling him in Lakeview School?    ?P:what about
+188 | 【What】 about getting him to join a sport, like soccer?    ?P:what about
+130 | M: 【What】 about hamburgers, then?    ?P:what about
+134 | W: 【What】 about now?    ?P:what about
+198 | 【What】 about our local school then? [14] They have a wonderful arts program that would really challenge Jake in terms of creativity and imagination.    ?P:what about
+235 | 【What】 about playing an indoor sport, like badminton?    ?P:what about
+84 | 【What】 about students who don’t get good grades?    ?P:what about
+212 | 【What】 about the cost, not only buying all those tablets, but the software and electronic infrastructure that goes with it, not to mention retraining all the teachers and administration staff?    ?P:what about
+80 | M: [9] 【What】 about the Sandwich Place on Camden Street?    ?P:what about
+479 | But 【what】 about those of us who don’t    ?P:what about
+118 | M: 【What】 about those popular shared bikes?    ?P:what about
+361 | 【What】 about using DNA tests to discover distant family members?    ?P:what about
+277 | W: Oh, oh, 【what】 about volleyball?    ?P:what about
+595 | 【What】 accounted for the gender gap in airfares.
+375 | 【What】 accounts for the existence of intelligent people’s logical blind spots?
+569 | How old they are and 【what】 activities they do.
+162 | The FDA doesn’t require companies to reveal 【what】 additional chemicals a specific item _35_.
+335 | Ultimately, 【what】 affects our health in the most meaningful ways has more to do with how we treat one another, how we live, and how we think about 【what】 it means to be human than with anything that happens in the doctor’s office.
+409 | 【What】 are big houses promoted to be in the United States?
+129 | 【What】 are entrepreneurs advised to do to avoid traps that often accompany rivalry?
+571 | 【What】 are Foulkes’ findings about kids’ dreams?
+81 | There’s also a qualified self, which is who I am, 【what】 are my activities, my social network, and all of these aspects are not _31_ in any of these measurements.
+433 | M) 【What】 are my chances of finding all of those things with one employer?
+389 | 【What】 are people advised to do when they want to socialize?
+530 | 【What】 are scientists trying to do in the University of California’s new bio-sciences building?
+263 | But 【what】 are the challenges of moving to "the spoken web"?
+112 | 【What】 are the people there like?
+95 | Trying to look like the magazine pictures can take us on a long ride away from 【what】 beauty
+413 | 【What】 became of Red Rum after his career ended?
+377 | 【What】 benefit will year-round schooling bring students in addition to improving their learning?
+215 | But does it matter 【what】 books parents read?
+94 | Do you know 【what】 boys aged around ten typically like?
+390 | 【What】 brings about spiritual connection?
+194 | It may sound trite , but beauty is only skin deep; it’s not 【what】 brings love toward us.
+652 | 【What】 can eye contact, visibility and more interaction probably bring about?
+550 | 【What】 can publicly accessible fruit and vegetable gardens do apart from their practical functions?
+451 | 【What】 can the new findings do according to Professor Sillero?
+587 | 【What】 can we assume about babies who appear upset upon waking?
+508 | 【What】 can we conclude about Impossible Foods’ products from Joan Solsman’s remark?
+631 | 【What】 can we conclude about many female engineers from the statement of a mechanical engineer?
+355 | 【What】 can we conclude from the new research by scientists at Michigan State University?
+365 | 【What】 can we conclude from the author’s calculations?
+414 | 【What】 can we conclude from Lao Zi's quotation?
+567 | 【What】 can we conclude from Geoffrey Raisman’s finding?
+200 | 【What】 can we do to help children learn the basics of math and geometry?
+502 | 【What】 can we do when we become better able to provide ourselves with the desired approval?
+453 | 【What】 can we expect of plant-based meats?
+535 | 【What】 can we infer about nightmares from the passage?
+420 | 【What】 can we infer from the passage about the Goldilocks principle?
+374 | 【What】 can we learn from research on diets in developed countries?
+309 | 【What】 caused these improvements?
+565 | 【What】 caused women to plan ahead in booking business trips.
+204 | It is important to understand 【what】 causes your stress in the first place.
+351 | Knowing one’s emotional state is of utmost importance in deciding 【what】 changes to make for a better work-life balance.
+213 | 【What】 characterizes Japanese and Chinese foods?
+392 | 【What】 conclusion can be drawn from the new research?
+104 | Researchers said they investigated individuals’ attitudes towards mathematics because of 【what】 could be referred to as a ‘mathematics crisis’ in the UK.
+83 | while asking them to 【what】 degree various traits — like “honorable” or “funny” — applied to their current self, their
+513 | 【What】 did Coca-Cola-funded studies claim?
+199 | 【What】 did Daniel Humm think of his move to a meat-free menu?
+126 | 【What】 did Dr Matous and his team do to find out whether team-building activities would improve productivity?
+651 | 【What】 did one study find about students seated in the middle of the classroom?
+380 | 【What】 did people generally think of Red Rum when he returned to the racecourse in 1977?
+621 | 【What】 did prior research on negative reciprocity among workers find?
+462 | 【What】 did Professor O’Keefe find in his earlier studies?
+476 | 【What】 did researchers find about popular culture?
+265 | 【What】 did supermarkets do by adopting the Fordist factory approach?
+334 | 【What】 did the author find in his study about the effect of online social interactions?
+315 | 【What】 did the author realise after talking to his friends?
+295 | 【What】 did the author’s own research find about social media?
+500 | 【What】 did the author’s team conclude about the gender difference in airfares from their further investigation?
+557 | 【What】 did the author suspect back in 2016?
+493 | 【What】 did the Common Sense Media survey reveal?
+588 | 【What】 did the government say would be done if security officers found 【what】 they were searching for?
+563 | 【What】 did the joint study find about the MOOCs several years ago?
+526 | 【What】 did the researchers want to determine by testing a variety of possible explanations?
+310 | 【What】 did the serious bone disease in Red Rum’s foot mean to himself and his trainer?
+175 | 【What】 did the study by Matous' team find about some team-building exercises?
+105 | 【What】 didn't kill them made them weaker.
+154 | 【what】 didn't kill them simply didn't matter.
+360 | “Many people ask me 【what】 diet I follow to live so many years,” Branyas wrote.
+424 | Are you wondering, 【what】 do babies dream about?
+358 | 【What】 do doctors do when prescribing medicine for people?
+558 | 【What】 do numerous studies show about infants?
+312 | 【What】 do other scientists have to
+418 | 【What】 do people believe chocolates can do?
+337 | 【What】 do people in most healthy eating cultures have in common?
+267 | 【What】 do people tend to believe about the homeless?
+510 | 【What】 do scientists think of REM?
+442 | 【What】 do some childhood development experts believe about the long summer vacation?
+549 | 【What】 do some people think of aging adults?
+443 | 【What】 do such utterances as “I have limited access to email” sound like according to the author?
+555 | 【What】 do supporters say in response to the restaurant’s new policy?
+636 | 【What】 do the authors of the study recommend to bridge the gender gap in early childhood education?
+497 | 【What】 do we know about “Coursera for Refugees”?
+150 | 【What】 do we learn about New York’s Eleven Madison Park?
+243 | 【What】 do we learn about advertising campaigns from the snack food companies?
+282 | 【What】 do we learn about American society from the first paragraph?
+300 | 【What】 do we learn about Bill Thomas bringing animals and plants into the nursing home?
+329 | 【What】 do we learn about social media from the passage?
+332 | 【What】 do we learn about people in high-contact cultures?
+367 | 【What】 do we learn about social customs in Arabian countries?
+378 | 【What】 do we learn about the culture of busyness from a recent study?
+457 | 【What】 do we learn about genetic health tests from the passage?
+480 | 【What】 do we learn about much of the popular music currently produced?
+481 | 【What】 do we learn about consumers buying Beyond Burger and Impossible Foods products?
+494 | 【What】 do we learn about emotional intelligence from a number of studies?
+504 | 【What】 do we learn about the cacao farms in the crisis of global warming?
+505 | 【What】 do we learn about publicity over protein in America?
+507 | 【What】 do we learn about our modern music?
+539 | 【What】 do we learn about how genes shape people’s behavior?
+544 | 【What】 do we learn about the WFP’s effort to eliminate hunger?
+601 | 【What】 do we learn about Hannah from the conversation?
+603 | 【What】 do we learn about obese people from the passage?
+617 | 【What】 do we learn about male teachers from their responses in the study?
+647 | 【What】 do we learn about Branyas Morera?
+653 | 【What】 do we learn about extremely shy students sitting in the front row of the classroom?
+271 | 【What】 do we learn from the passage about Red Rum the racehorse?
+283 | 【What】 do we learn from the passage about the timing of our behaviors?
+318 | 【What】 do we learn from new research about pandas?
+340 | 【What】 do we learn from the passage about the brightest people?
+343 | 【What】 do we learn from the new Los Angeles Homeless Services Authority report?
+354 | 【What】 do we learn from research in human-vehicle interaction?
+379 | 【What】 do we learn from the conclusion of a recent study on multitasking?
+382 | 【What】 do we learn from the passage about researchers like birdwatchers and rock collectors?
+454 | 【What】 do we learn from the passage about the economics professor and her hairdresser?
+465 | 【What】 do we learn from the study by the Josephson Institute of Ethics?
+484 | 【What】 do we learn from the news report about the egg price in the U.S.?
+529 | 【What】 do we learn from the passage about vegetable planting?
+536 | 【What】 do we learn from the news report about the restaurant Net Ease House?
+591 | 【What】 do we learn from the first paragraph about early childhood education in the U.S.?
+438 | 【What】 do we need to do if we keep consuming fish at the current rate?
+445 | But with its extreme usability comes a complication: 【what】 do you do if you strongly feel something should not be done, even if the data insists that it should?
+142 | 【What】 do you mean?
+201 | 【What】 do you think?
+193 | M: 【What】 do you think of Battleships, then? [15] It’s a total classic.
+109 | 【What】 do you want, fried chicken, hamburgers, or fish and chips?
+264 | M: But asking “【What】 do you want to be?” isn’t going to lead a child to a fulfilled life rather lead to false expectations and a high chance of disappointment.
+644 | 【What】 does a leader tend to do when they’re committed to analytical decision-making?
+345 | 【What】 does a “multitasker” originally refer to?
+649 | 【What】 does Branyas Morera think also contributes to a long life?
+559 | 【What】 does Dr.
+586 | 【What】 does Duckworth say about talent?
+625 | 【What】 does Hannah’s husband say he’ll do if she sells the new car?
+596 | 【What】 does it take for decisions to become the best according to the author?
+556 | 【What】 does Liebman say about industry-funded research?
+486 | 【What】 does Marion Nestle say about present-day nutrition studies?
+223 | 【What】 does Matous think of the various psychological methods borrowed from other fields for strengthening relationships?
+245 | 【What】 does Michelin’s 2022 New York guide say about Eleven Madison Park’s decision?
+604 | 【What】 does Mindi Reich-Shapiro emphasize in her comment on childhood education?
+401 | 【What】 does my dream company culture look like?
+611 | 【What】 does one survey taker say was her greatest challenge?
+207 | 【What】 does physical contact in communication suggest?
+254 | 【What】 does previous research about social media reveal?
+516 | 【What】 does Professor John Wilding argue about obesity?
+468 | 【What】 does research reveal about adults in food-insecure households?
+281 | 【What】 does science suggest the right dress may do?
+246 | 【What】 does the author advise disadvantaged schools and communities to do?
+528 | 【What】 does the author advise us to do in the last paragraph?
+620 | 【What】 does the author advise us to do concerning ambition?
+546 | 【What】 does the author advocate for people to live well?
+630 | 【What】 does the author emphasize about their analysis in the last paragraph?
+444 | 【What】 does the author imply we should do if we have to focus on some task and do it well?
+495 | 【What】 does the author imply by saying aquaculture is no silver bullet?
+594 | 【What】 does the author imply by saying "this isn't always the case" (Line 1, Para.
+623 | 【What】 does the author imply people in developed countries should do to keep healthy?
+503 | 【What】 does the author propose people do?
+533 | 【What】 does the author recommend we eat at the end of the passage?
+151 | 【What】 does the author say about educators?
+159 | 【What】 does the author say in the first paragraph about physical contact?
+182 | 【What】 does the author say we need to do to strengthen our willpower?
+290 | 【What】 does the author say boredom might indicate?
+313 | 【What】 does the author say is the greatest strength of Ford's book?
+322 | 【What】 does the author say about the proteins in our body?
+326 | 【What】 does the author say about working in IT?
+330 | 【What】 does the author say about working from home?
+347 | 【What】 does the author say Red Rum did with his power, speed and jumping ability?
+357 | 【What】 does the author say about outer beauty?
+383 | 【What】 does the author say about the ability to be persuasive in the first paragraph?
+406 | 【What】 does the author say is remarkable about the fish we eat?
+432 | 【What】 does the author say about the world today?
+439 | 【What】 does the author say is important in formulating policies to improve diets and health?
+447 | 【What】 does the author say about companies and special interest groups?
+464 | 【What】 does the author say is one possible benefit of students attending school physically?
+467 | 【What】 does the author say about China in terms of aquatic food?
+488 | 【What】 does the author say about curiosity?
+518 | 【What】 does the author say about students enrolled in online classes?
+519 | 【What】 does the author say teachers are expected to do?
+527 | 【What】 does the author say businesspeople often do?
+545 | 【What】 does the author say causes refugees’ difficulty in taking online courses?
+560 | 【What】 does the author say is one disadvantage of online classes?
+578 | 【What】 does the author say companies should do in the context of remote work?
+597 | 【What】 does the author say can contribute to the improvement of brain function?
+607 | 【What】 does the author say is of extreme importance for one to become a successful entrepreneur?
+629 | 【What】 does the author say about science in the last paragraph?
+639 | 【What】 does the author say about people now working for several businesses at the same time?
+645 | 【What】 does the author say about the gig economy?
+364 | 【What】 does the author suggest people do to get rid of boredom?
+391 | 【What】 does the author suggest near the end of the passage?
+402 | 【What】 does the author suggest managers do to neutralize the retention risk?
+521 | 【What】 does the author suggest sensitive individuals do?
+523 | 【What】 does the author suggest disadvantaged people do to improve their health?
+543 | 【What】 does the author suggest teachers do in the classroom?
+618 | 【What】 does the author suggest scientists do about public debate?
+635 | 【What】 does the author suggest policymakers do about obesity?
+400 | 【What】 does the author tell us to do concerning tactile communication?
+135 | 【What】 does the author think of the book Dress Codes: How the Laws of Fashion Made History?
+274 | 【What】 does the author think of Ford's writing?
+450 | 【What】 does the author think of continuing to ask buyers to sign end-user license agreements?
+452 | 【What】 does the author think of classical music and opera in today’s world?
+475 | 【What】 does the author think of research funded by industry or special interest groups?
+492 | 【What】 does the author think of the latest technology in education?
+499 | 【What】 does the author think of the traditional school year in the U.S. today?
+520 | 【What】 does the author think schools should do to tackle cheating?
+542 | 【What】 does the author think of online course assignments?
+580 | 【What】 does the author think of most entrepreneurs?
+592 | 【What】 does the author think constitutes a key part of genuine education?
+605 | 【What】 does the author think open debate can do?
+634 | 【What】 does the author use the example of his father· to illustrate?
+448 | 【What】 does the author want to emphasize in the first paragraph?
+517 | 【What】 does the author want to illustrate with the example of smartphones?
+286 | 【What】 does the awarding of three Michelin stars to Eleven Madison Park indicate?
+575 | 【What】 does the example of the Inuit people of the Arctic regions illustrate?
+466 | 【What】 does the finding of Myriam Bechtoldt’s study indicate?
+633 | 【What】 does the man say about Jake?
+638 | 【What】 does the man say about their local school?
+614 | 【What】 does the man think really matters to people?
+511 | 【What】 does the news report say about most people arriving at American borders with eggs?
+349 | 【What】 does the passage mainly discuss regarding scientific research?
+221 | 【What】 does the passage say about the idea of a self-service grocery?
+284 | 【What】 does the passage say about health education?
+394 | 【What】 does the passage say is of importance regarding genetic tests?
+512 | 【What】 does the passage say about DNA tests to predict personality or talents?
+524 | 【What】 does the passage say is a consequence of the global migrant crisis?
+553 | 【What】 does the passage say about people doing manual work?
+570 | 【What】 does the passage say about people born with natural talents?
+598 | 【What】 does the passage say about the engineering profession in the United States?
+600 | 【What】 does the passage say about people thinking of attaining success?
+642 | 【What】 does the passage say is a major flaw of analytical decision-making?
+572 | 【What】 does the report say security officers were searching for?
+522 | 【What】 does the WFP’s winning of the Nobel Peace Prize make us realize?
+640 | 【What】 does the woman suggest at the end of the conversation?
+189 | K) 【What】 does this all mean?
+259 | So 【what】 does this mean for parents?
+291 | 【What】 does this mean for offices in cities?
+106 | Li, many women try to manage the added stress to reach 【what】 Dr.
+473 | This seemingly easy question is 【what】 drives the need to understand the relationship between instincts and data in the decision-making process.
+404 | But creating, producing, and experimenting is 【what】 drives you forward.
+289 | are organized sequentially, but have little awareness of 【what】 each individual number means.
+425 | Guess 【what】 else?    ?P:guess what
+564 | This implies that even though ambitious people are more likely to achieve conventional "success," such success means nothing for their health and happiness—and if you don't have health and happiness, 【what】 else could possibly matter?
+287 | More importantly, IT practitioners need to understand 【what】 employees
+461 | He believes that the dictionary definition of disease “is so vague that we can classify almost anything as a disease” and says the question is not whether we can, but whether we should, and to 【what】 end.
+216 | The depressing and regimented (严格管制的) environment got him thinking on 【what】 exactly could improve the residents’ conditions.
+99 | W: If you have time right now, I think we need to sit down and discuss 【what】 exactly we are going to do for Jake’s education next year.
+160 | So before you can determine whether you and a specific company would be compatible together, it’s important to have a solid handle on 【what】 exactly you want from your employer.
+372 | For example, they showed the students photographs of people’s faces and asked them to 【what】 extent feelings such as happiness or disgust were being expressed.
+293 | 【What】 family background people come from.
+298 | 【What】 features in Mediterranean, Nordic and Okinawan diets?
+102 | (8-2) 【What】 food should we provide?
+551 | How healthy they are and 【what】 food they eat.
+612 | 【What】 foods have been largely out of favor for more than a century?
+91 | The man’s covering up of 【what】 happened.
+568 | But that’s not 【what】 happened.
+384 | You may not actually experience emotional wellbeing at home if you remain occupied with 【what】 happened at work.
+608 | 【What】 happened when the negative reciprocity variable was taken into account?
+237 | The logical question to ask is, “【What】 happens even
+190 | A question to think about is, “【What】 happens even earlier than age five?
+153 | 【What】 happens when a language bas no words for numbers?
+321 | 【What】 happens when people strive to look better?
+422 | 【What】 happens when we take the path toward cultivating inner beauty?
+609 | Recalling 【what】 has actually worked in the past.
+260 | 【What】 has Bill Thomas been doing for a quarter of a century?
+339 | 【What】 has Bill Thomas been persistently advocating?
+82 | But Friedman says that this is not 【what】 has happened.
+276 | 【What】 has the author come to realise since entering university?
+590 | 【What】 has the Office for National Statistics verified?
+641 | 【What】 have businesses come to recognize now?
+342 | 【What】 have people long feared about supermarkets?
+249 | 【What】 have studies found about boredom?
+203 | loser group and culled (J1J ) 【what】 he deemed the weakest members of the winner group.
+167 | He can just concentrate on how interesting the meeting might be and 【what】 he needs to get out of it in order to progress.
+220 | M: When people ask my son 【what】 he wants to be when he grows up, I have to swallow the urge to say, “Hey, back off my kid’s dreams!
+407 | There is no consensus on 【what】 high-quality diets are.
+124 | L) That is 【what】 hooked Carey, and he said he thought his experience was not unusual.
+180 | They are now six times longer and, unlike older “【what】 I did this summer” essays, they offer arguments supported by evidence.
+139 | M: The first month I did withdraw extra cash twice, but I felt guilty about it. [11] And after that I refused to spend more than 【what】 I had budgeted, and by now it’s just a habit.
+140 | 【What】 I’m starting to realize, however, is that new knowledge does not necessarily drive new results.
+191 | M: You know 【what】 I mean?
+161 | M: Sounds like just 【what】 I need.
+224 | Sometimes it’s because I actually am busy, but other times it’s because that’s 【what】 I think I’m supposed to say.
+172 | (12-1) And I got sick every time adults asked me 【what】 I wanted to be when I grew up.
+128 | 【What】 if an accident happens or you get ill and need medical treatment?
+234 | I) 【What】 if fountains were more numerous, and tap water more clearly available in cafes, restaurants and elsewhere?
+168 | But Zimbardo asks: “【What】 if the capability to act heroically is also fundamentally ordinary and available to all of us?
+244 | Not to mention the overwhelming amount of homework they assign, which would lead to a lot of pressure for Jake and me. [15] 【What】 if we send him to the place near your mother’s house?
+268 | That’s 【what】 important people say.
+325 | conditions, it is important to understand how accurate genetic tests are, and 【what】 information we can rely upon.
+646 | 【What】 is a key strength of analytical decision-making?
+323 | 【What】 is a major flaw in previous interventions to help reduce junk food consumption?
+344 | 【What】 is a reason for the author to be in the habit of saying “busy” when asked how he is doing?
+148 | Thinking twice about 【what】 is best for Jake’s education next year.
+576 | 【What】 is Dr.
+381 | We learn about who we are and 【what】 is expected of us based on interactions with others so, to a four-year-old, if Mommy or
+336 | Instead, it is through the process of active inspiration—the act of creating things, applying new ideas to our goals, and making mistakes—that we discover who we are and 【what】 is important to us.
+170 | 【What】 is it that sets you apart from other theatres?
+628 | 【What】 is needed for men to commit to early childhood education?
+258 | Doing efficiently 【what】 is not worth doing is the most useless effort.
+650 | 【What】 is of great importance to students according to the speaker?
+648 | 【What】 is one of Branyas Morera’s secrets to living a long life?
+306 | 【What】 is one of the causes for more and more people in Los Angeles to become homeless?
+441 | 【What】 is one of the consequences of living big?
+482 | 【What】 is one of the reasons for people to delay retirement?
+583 | 【What】 is one thing that helps maintain the health of our brain even as it shrinks2
+346 | [22] 【What】 is personal space?
+113 | But that does not _33_ make it easier to tell 【what】 is really in your food.
+440 | 【What】 is said about those working with or under overachieving people?
+395 | 【What】 is said to happen when IT is functioning properly?
+241 | But 【what】 is simple is not always easy.
+157 | 【What】 is that roadside monument I see on my way to work every day?
+554 | 【What】 is the aim of psychologist David Foulkes’ study?
+471 | 【What】 is the argument against the experts' idea of a long summer vacation?
+352 | 【What】 is the author’s idea of a financial education course?
+398 | 【What】 is the author’s opinion on working from home?
+541 | 【What】 is the author’s suggestion to those who are seeking employment?
+619 | 【What】 is the author’s suggestion to employers who experience the financial impact of the pandemic?
+573 | 【What】 is the author's advice to consumers?
+456 | Then, 【what】 is the best seat in the classroom?
+534 | 【What】 is the chief reason for college-educated workers delaying retirement according to an economist?
+388 | 【What】 is the experts’ conclusion regarding pandas?
+362 | 【What】 is the finding of a recent survey on employees who have a job reliant on IT support?
+405 | 【What】 is the finding of the new study?
+610 | 【What】 is the finding of the 2012 study in the journal Psychology and Aging?
+490 | 【What】 is the focus of Professor O’Keefe’s recent research?
+509 | 【What】 is the general trend in people delaying retirement?
+515 | 【What】 is the general understanding of curiosity?
+540 | 【What】 is the popular view of obesity?
+387 | 【What】 is the problem with requiring buyers to sign end-user license agreements?
+324 | 【What】 is the secret to living past 100?
+304 | 【What】 is the typical supermarket layout intended to do?
+214 | I) 【What】 is true about health is also true about productivity: an ounce of prevention is worth a pound of
+331 | That means embracing 【what】 is truly interesting or unique about yourself.
+257 | 【What】 is typical of Americans in the way of eating?
+327 | Weeks before the competitors arrive, the residents of Takotna start preparing for 【what】 is without question their biggest event of the year.
+491 | Job applicants should read with a critical eye 【what】 is written about a company on the website.
+242 | “They tend to be people with deep roots in the city, who have hung around since before the neighborhood became 【what】 it
+117 | But that’s not 【what】 it means at all.
+428 | industry pays for research, it often gets 【what】 it pays for.
+458 | And 【what】 it pays for is often a pro-industry
+137 | Can you tell our audience 【what】 it’s about?
+333 | So yes, you can definitely ask your interviewer about 【what】 it’s like to work for that particular organization.
+338 | At around 20 kilograms per person global fish consumption is now more than twice 【what】 it was in the 1960s.
+132 | 5 times 【what】 it was when Keynes was writing.
+123 | W: As a kid, did you know 【what】 job you wanted to do when you grew up?
+403 | 【What】 Kelli Harding went through in Washington changed her life.
+370 | The author was deeply moved by 【what】 Kelli Harding wrote about her current life.
+229 | I) 【What】 Keynes predicted was a very optimistic version of 【what】 economists call technological unemployment.
+483 | But exactly 【what】 kids see while dreaming
+143 | 【What】 kind of display attracts a greater crowd of customers.
+93 | 【What】 kind of display creates more interest.
+192 | 【What】 kind of display leads to greater customer satisfaction.
+426 | 【What】 kind of genetic tests tend to be comparatively reliable?
+209 | 【What】 kind of learner are you?
+643 | 【What】 kind of people can contribute more to them.
+525 | 【What】 kind of social system does the author think is unacceptable?
+305 | Stories about professional mistakes and 【what】 leaders learned from them are another great avenue for learning.
+498 | Questions about 【what】 lifestyle to promote.
+547 | 【What】 made male frequent travelers book air tickets late.
+116 | To write his 2010 book, The 5-Factor World Diet, nutritionist Harley Pasternak traveled to the healthiest countries around the world to learn more about 【what】 made their meals extra nourishing.
+434 | 【What】 mainly accounts for the possibility that distance learning could become the norm?
+431 | No matter 【what】, make sure you are having fun in life.
+485 | 【What】 makes genetic tests for multi-factorial traits tricky to interpret?
+217 | At the end of the day, whether you each keep your names, whether you come up with an entirely new name for the two of you to share or whether you hyphenate your current last names, 【what】 matters is that you love each other and are going to be joining your lives together.
+436 | And 【what】 matters is the power your actions have to inspire you.
+169 | L) 【What】 matters, of course, is that the two of you are going to be happily married—hopefully for the of your lives.
+474 | 48 【What】 may account for our need to be liked or approved of?    ?X
+408 | 【What】 may happen to smart people who find it difficult to accept suggestions?
+632 | 【What】 message does Duckworth try to convey in her book Grit?
+579 | 【What】 message does the author try to convey at the end of the passage?
+363 | 【What】 might surprise consumers is just how many present-day nutrition studies are still funded by the
+581 | 【What】 motivated women to book cheaper flights.
+430 | It’s 【what】 motivates non-human animals, human infants and probably human adults to explore and seek out new things before growing less interested in them after continued exposure.
+262 | 【What】 movie are you showing right now?
+301 | No matter 【what】 name the bride adopts, it is most important that the newly-weds truly love each other.
+261 | Hyphenating the last names could be a win-win solution should arguments arise about 【what】 name to adopt upon marriage.
+206 | 【What】 nearby attractions haven’t I visited?
+196 | [19] When planning for this year, our principal asked 【what】 needed to change to engage students more in their learning.
+627 | 【What】 often goes unnoticed in surveys on food conswnption?
+561 | This requires a fundamental rethinking of 【what】 organizations expect from employees and 【what】 companies would look for in a model employee in a remote work context.
+311 | Lao Zi once said, “Care about 【what】 other people think and you will always be their prisoner.
+348 | Why do we allow 【what】 others think of us to have so much power over how we feel about ourselves?
+421 | Classical music and opera are the very foundation of 【what】 our modern music is based upon.
+353 | “Putting that information in front of them will give them the best opportunity to match their skills and their dreams to 【what】 our schools can provide,” said Mathews. [23] He notes that the state can only regulate public institutions in this way, but he hopes private institutions in Ohio follow the lead of the state and post similar information.
+85 | Ford's thesis is that the best way to understand 【what】 particular fashions meant in any given era is to look at the restrictions
+186 | And that’s 【what】 people dream of owning.
+514 | should be looking for new ways to ensure 【what】 people eat wouldn't have much impact on their waistlines.
+163 | In this study, his team “went the _29_ direction” by spending years carrying out individual interviews and group surveys to see 【what】 people really talk about when they talk about success.
+307 | That’s 【what】 people who get promoted say.
+114 | Smith says he was _28_ by how past studies on success “assumed 【what】 people will care about.
+89 | W: But 【what】 prevents you from just going to the bank and getting more money, if you want to buy something?
+622 | 【What】 probably makes young women engineers more accepted nowadays?
+173 | 【What】 problem have supermarkets been facing?
+577 | 【What】 problem may arise if classes go online?
+369 | 【What】 problem was found with employees using social media for work?
+637 | It is 【what】 proves valid and true to life.
+606 | 【What】 quality in the employees would be of great importance in a remote work context?
+470 | 【What】 questions arise from living big?
+296 | J) “The rabbit effect,” she explains, means that “when it comes to our health, we’ve been missing some crucial pieces: hidden factors behind 【what】 really makes us healthy.
+178 | Deliberate on 【what】 really matters.
+599 | How serious their protein deficiency is and 【what】 remedies they use.
+255 | At whatever grade level teachers find themselves, from kindergarten to the final class at medical or law school, few moments stir the emotions as deeply as when former students reappear years and often decades later with an update on where their journey has taken them and 【what】 resiliencies (韧性) have been the pavement on which they’ve traveled.
+371 | Furthermore, active inspiration is 【what】 results in long-term passion and enthusiasm.
+147 | It’s gained through experience on the job and learning 【what】’s appropriate given the needs of the project.
+185 | themselves questions like, “【What】’s currently causing me stress?
+131 | They have to be on Facebook, to know 【what】’s going on among friends and family, but they are ambivalent (有矛盾心理的) about it, says Rebecca Eynon, a research fellow at the Oxford Internet Institute, who has interviewed about 200 British teenagers over three years.
+97 | 【What】’s his reasoning for being vegetarian?
+108 | The author of How to Be Interesting: An Instruction Manual, Hagy spends a lot of time thinking about 【what】’s interesting to her.
+366 | Talking on and on about 【what】’s interesting to you isn’t going to make you an interesting person, she says.
+489 | 【What】’s more, making obesity a disease “may not benefit patients, but it will benefit healthcare providers and the pharmaceutical (制药的) industry when health insurance and clinical guidelines promote treatment with drugs and surgery,” he warns.
+146 | 【What】’s more, that section of road saw new businesses open, while Queens
+373 | 【What】’s really remarkable, though, is where that fish comes from.
+552 | 【What】’s something you love but aren’t good at?
+532 | Think about it: 【what】’s something you’ve always wanted to do, but gave up
+250 | “Get really specific with 【what】’s stressing you out,” Ms.
+228 | M) So 【what】’s the best way to cope?
+115 | 【What】’s the difference between a soft cheese and a hard cheese?
+177 | 【What】’s the reason for this pattern?
+125 | But 【what】’s wrong with jeans here?
+86 | Although it sounds like the respondents had a lot in common, here’s 【what】 separated them: about 30% of the men and 50%
+98 | The man doesn't believe 【what】 she says.
+280 | But when I told him, he said he loves her and would just do 【what】 she wants him to.
+478 | 【What】 should be done to help drivers fully understand system capabilities and limitations?
+593 | 【What】 should be prioritized in assessing employees’ remote work?
+427 | 【What】 should business leaders do before implementing new IT initiatives?
+566 | 【What】 should people do in a decision-making process if instincts disagree with data?
+397 | 【What】 should people do to enhance their sense of meaning?
+416 | 【What】 should people do to learn the art of persuasion at the workplace?
+531 | 【What】 should people take into consideration in deciding on the most preferable protein intake?
+110 | So, 【what】 should we do?
+247 | (8-3) 【What】 should we do about music?
+582 | 【What】 should we do when facing various factors that limit the practicability of data?
+273 | So 【what】 should we make of all this?
+548 | 【What】 should we take into account in order to make informed decisions?
+174 | 【What】 size do you want and how much are they?
+252 | 【What】 social class people belong to.
+253 | This can be a big indicator of 【what】 sort of atmosphere the company is trying to cultivate.
+226 | Reflect on 【what】 successes are achievable.
+136 | thought that’s 【what】 successful professionals should do.
+238 | W: 【What】? [15] That’s so superficial and selfish of her.
+218 | So even if you don’t understand 【what】 the actors say, you can still read it.
+211 | For such institutions, from universities to workplaces, to better _35_ people in the U.S., they’ll need to understand “【what】 the American public highly prioritizes,” Smith says.
+279 | Their conclusions about 【what】 The Guardian described as this “sweet spot” are in line with the so-called Goldilocks
+317 | It looks at 【what】 the manufacturers of self-driving cars should legally do to ensure that drivers understand how to
+138 | “We ___35___ that it may have to do with 【what】 the mice
+341 | Think about when you're cooking, and you just want to know 【what】 the next step in the recipe is.
+184 | By looking at 【what】 the nobility were wearing.
+197 | Those skills are part of 【what】 the Royal Air Force is looking for “in a variety of roles”.
+585 | How much protein they consume and 【what】 their body weight is.
+205 | They want the department of education to record which children are left-handed and 【what】 their educational attainments are, since they make up some 10% of the population.
+122 | 【What】 their favorite cartoon character was.
+181 | terms of 【what】 their money could buy.
+435 | Teachers must stay on guard when it comes to 【what】 their students are doing in classrooms and how technology could be playing a negative role in the learning process.
+299 | It is especially difficult for people to decline to do 【what】 their superiors ask them to do.
+225 | We don’t know if you’ll achieve 【what】 these risk-takers have achieved.
+278 | Recent evidence points to drivers’ limited understanding of 【what】 these systems can and cannot do as a contributing
+272 | Many of the highest earners have a keen interest in and love for 【what】 they are doing.
+412 | People’s performance benefits from the perception of 【what】 they are doing as multitasking.
+615 | work and play, and who work at 【what】 they are passionate about, are more focused and productive,
+88 | frequencies based on 【what】 they are used to hearing.
+459 | drastically under-reporting 【what】 they ate.
+574 | Most people surveyed were reluctant to reveal 【what】 they ate.
+538 | If this works, it won't matter if they can't remember 【what】 they ate yesterday.
+399 | “The best entertainment and storytelling comes from people who are relatable—those who don’t shy away from opening up but freely share who they are and 【what】 they care about.
+227 | For example, participants could choose to be tough by making an opening demand far greater than 【what】 they’d be willing to accept.
+396 | attention to exercise and less to 【what】 they eat and drink.
+463 | To begin with, job applicants should be clear 【what】 they expect from their future employer.
+240 | The New Year has come and gone, and many may have already forgotten 【what】 they had resolved to do on January 1st.
+152 | I think I might try that big new supermarket on the other side of town and see 【what】 they have.
+616 | They have difficulty recalling 【what】 they have eaten.
+410 | It will enable them to absorb 【what】 they have learned.
+171 | 【What】 they learned from computer games.
+219 | 【What】 they liked to do most after school.
+455 | lab, he lets kids fall asleep and then wakes them 3 times a night and asks them to describe 【what】 they recall.
+103 | They prioritize their favored activity over 【what】 they should do.
+176 | People around the world are eating foods more similar than 【what】 they used to eat.
+107 | If you encourage them to tell you 【what】 they’ve learned, they’ll absorb the information more deeply and remember it more readily.
+266 | But they give the fans 【what】 they want—entertainment.
+90 | interests and values that determine 【what】 they want out of their lives.
+187 | the biggest bottled water manufacturers, cites a survey in which people were asked 【what】 they would do if bottled water were
+368 | Simple questions like, “【What】 three words would you use to describe the culture here?” or “【What】’s your favorite part about working for this company?” can reveal a lot about 【what】 it’s really like behind closed doors.
+328 | Consider 【what】 time it is.
+202 | As you read this, you are likely aware of 【what】 time it is, how old you are, your checking
+275 | For her book Overload: How Good Jobs Went Bad and 【What】 to Do about It, she and co-author    ?X
+350 | collaboration and teamwork over traditional organizational structures, no one likes to be told 【what】 to do or to be pushed
+589 | Follow their intuition in deciding 【what】 to eat.
+537 | Choosing 【what】 to eat and drink is key to weight control.
+316 | He said it would give prospective students more information about 【what】 to expect once they graduate.
+393 | But she does eat yogurt every day, which she said has “an infinite number of positive properties” for the body. [21] She has also said that the secret to a long life is “knowing how to choose” 【what】 to forget.
+179 | We’re also wondering 【what】 tours and day trips are available.
+288 | To be honest, I could use some help in deciding 【what】 type of vehicle would best suit my needs.
+303 | 【What】 use is written online content if you can't read?
+121 | It’s located in 【what】 used to be a hat factory.
+472 | We wanted to determine 【what】 was causing these gender differences in booking business trips so we tested a variety of possible explanations, such as women choosing to plan ahead or male frequent travelers being inclined to book late.
+302 | But the Australian researchers wanted to discover 【what】 was driving these differences.
+120 | At any rate, 【what】 was lost now has been found, by many of the community’s littlest residents.
+449 | 【What】 was scientists’ recent assertion about chocolates?
+231 | 【What】 was the aim of the first laws passed regarding fashion in the 1200s?
+158 | The building style is radically different from 【what】 was the fashion of the period.
+437 | 【What】 was the purpose of psychologist Myriam Bechtoldt’s experiment?
+602 | consultant or freelancer ( ro lb JfR 3k *) , people would wonder 【what】 was wrong with you.
+359 | In 【what】 way is the new intervention innovative?
+613 | It allows us to know 【what】 we are good at.
+239 | We also evaluate ourselves based on 【what】 we are wearing because of the way they make us feel.
+100 | this is 【what】 we believed in,” stated Humm on Instagram.
+308 | 【What】 we call multitasking, therefore, is in reality the ability to move more or less quickly from one task to another.
+232 | 【What】 we call “work-life
+119 | If their actions deviate (偏离) substantially from 【what】 we consider acceptable, we may label them evil.
+320 | Provide extra energy for 【what】 we do.
+624 | It focuses our attention on 【what】 we do.
+469 | “【What】 we don’t want to do is not act,” added Coursera chief operations officer Lila Ibrahim.
+127 | “We’ve seen profound changes in the last decades in 【what】 we eat largely as a result of international trade, and I think that trend toward more diversification will continue,” Jarvis says.
+417 | accessible fruit and vegetable gardens connect 【what】 we eat to where it comes from—the means of production, if you will.
+460 | For instance, the Inuit people of the Arctic regions have created incredible modes to deal with the challenges of living in northern climates, but 【what】 we forget about are the tens of thousands of people that tried and failed to make it in those challenging landscapes.
+233 | “One interesting thing we have observed is that dogs are matching children’s behavior, but less frequently than 【what】 we have seen between dogs and adults.
+156 | Some experts say the policy is inconsistent with the science of 【what】 we know about body weight regulation.
+155 | Worse, most of 【what】 we know about heart disease comes from studies involving men.
+314 | It’s that we have unrealistic expectations of 【what】 we’re asked to do
+356 | By affecting 【what】 we take as the basis for assessment.
+145 | Many of us spend far too much time, energy, and money trying to polish an image of 【what】 we think will bring attention,
+270 | 【What】 were the findings?
+446 | 【What】 will happen if we base our self-worth on other people’s approval?
+222 | Even though we basically know 【what】 will happen, we keep coming back for more.
+562 | 【What】 will happen when food aid is offered at a price?
+230 | 【What】 will help people stick to doing something constructive automatically?
+292 | I) Television veteran Audrey Morrissey, executive producer of NBC’s The Voice, is always looking for 【what】 will make a person or story interesting to viewers: It’s usually a matter of individuality.
+285 | Database technology enables business leaders to look to hard evidence in analyzing target markets and promotional strategies rather than making assumptions or guesses on 【what】 works.
+166 | As your skills improve and you learn to separate 【what】 works from 【what】 doesn’t, you have to continually increase your threshold for saying “yes”.
+101 | We wonder 【what】 would
+419 | 【What】 would drivers do when they suffer from “warning fatigue”?
+385 | 【What】 would financial literacy do to young people?
+477 | 【What】 would happen if the cacao farms were shifted to cooler mountainous areas?
+496 | 【What】 would help improve food security among the disadvantaged groups in Canada?
+415 | 【What】 would scientific studies look like in a perfect world according to the author?
+92 | Just tell him exactly 【what】 you are looking for and I’m sure he will find something good.
+429 | Can you remember 【what】 you ate yesterday?
+294 | I) An industry review website like Glassdoor is another spot to check in order to find some insider information about 【what】 you can expect about a company.
+251 | Use 【what】 you find to ask more questions and learn more about the world around you.
+584 | also satisfying to see the effects of 【what】 you have done.
+236 | Learning can benefit you by itself but only practice can turn 【what】 you learn into meaningful contributions.
+144 | It has no batteries, if that’s 【what】 you mean.
+506 | overrated, and if you want real success, 【what】 you need is grit the perfect combination of passion and persistence.
+165 | “So really, regardless of 【what】 you’re eating, if someone’s walking four miles more than you each day, they’re going to be a lot thinner and live a lot longer than you.
+210 | So if you want to know for certain 【what】 you’re getting with your groceries, you might want to stick to the farmer’s market.
+87 | M: It was three months ago, and I already know 【what】 you’re going to say.
+111 | It’s hard to make any decisions when you don’t really know 【what】 you’re looking for.
+208 | This will help you immediately identify 【what】 you’re looking for in an organization, as well as the things you’re trying to stay far, far away from.
+96 | situations with clear guidelines and ideas of 【what】 you want from the ___35___ of options, which can narrow the possible
+423 | “Which matters more depends on 【what】 your history up until that point has been in the type of work you’re doing,”
+501 | The only feasible option is to rely on 【what】 your instincts tell you.

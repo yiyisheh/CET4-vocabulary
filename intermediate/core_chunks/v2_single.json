@@ -1,0 +1,9 @@
+{
+ "_说明": "单义项小卡（2026-10-14，Claude 手写）：真题里只剩一个义项、但这个义项抽象或易误解的词，用画面讲清「为什么是这个意思」。只讲这一个义项，不提真题没出现的义项。merge_core.py 在 v2 模式下与 v2_out_*.json 一起读。",
+ "due": {"image": "一笔账，该记到谁的头上", "derive": "due to 由于，因为（结果这笔账该算在哪个原因头上：The delay was due to the rain 延误该算在下雨头上）"},
+ "thus": {"image": "手指着刚说完的那件事：就这样", "derive": "adv. 因此，所以，因而（事情照这样发展下来，结果就是…：He worked hard and thus passed the exam）"},
+ "range": {"image": "一排东西从这头一直排到那头", "derive": "n. 范围，幅度（从最低的一头排到最高的一头，中间这一整段：age range 年龄范围；a wide range of 各种各样的）"},
+ "afford": {"image": "手头有富余，拿得出来", "derive": "v. 负担得起，买得起（钱或时间拿得出来，不至于伤筋动骨，常说 can't afford：I can't afford a car）"},
+ "fine": {"image": "东西打磨完工，做到位了", "derive": "adj. 好的，还可以，没问题（做到位了，挑不出毛病：That's fine 行，没问题；问身体就答 I'm fine 我挺好）"},
+ "strange": {"image": "从外头来的、以前没见过的东西", "derive": "adj. 奇怪的（没见过的东西，看着就不对劲：It's strange that… 奇怪的是…）"}
+}

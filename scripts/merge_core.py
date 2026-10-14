@@ -24,6 +24,8 @@ The sub-agent brief is intermediate/core_chunks/PROMPT.md.
 v2 (2026-10-14, scripts/core_task.py): once core_chunks/v2_in_*.json exist, every
 card is rewritten against the 真题义项 in senses.json and the v2 outputs are the
 ONLY source -- a word without a v2 card (null, or dropped to one sense) has none.
+Plus core_chunks/v2_single.json: hand-written cards for a few one-sense words whose
+sense is abstract or easy to misread (strange 奇怪的 ← 从外头来的、没见过的).
 """
 import glob
 import json
@@ -68,8 +70,9 @@ def main():
         if missing:
             raise SystemExit(f"v2 tasks unfinished: {missing}")
         result = {}
-        for f in v2_in:
-            for w, v in json.loads(Path(f.replace("v2_in_", "v2_out_")).read_text()).items():
+        v2_src = [f.replace("v2_in_", "v2_out_") for f in v2_in] + [str(INT / "core_chunks" / "v2_single.json")]
+        for f in v2_src:
+            for w, v in json.loads(Path(f).read_text()).items():
                 c = clean(v)
                 if c and w not in vetoed:
                     result[w] = c

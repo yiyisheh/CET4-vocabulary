@@ -2,8 +2,8 @@
 
   英语四级高频单词彩色背诵版.pdf   beginners: IPA, 真题释义, 核心意象 / 词根词缀, 短语, 例句; blue headwords
   英语四级高频单词黑白背诵版.pdf   same content, all black (black-and-white printing)
-  英语四级高频单词查缺补漏版.pdf   for learners who already know most words: headword + every
-                                  真题 sense + 短语, three columns, no IPA / cards / examples
+  英语四级高频单词查缺补漏版.pdf   for learners who already know most words: IPA + every 真题 sense
+                                  + 短语 + 例句, three columns, no 核心意象 / 词根 cards
 
 Entry order matches the web page: 释义 → 核心意象 / 词根词缀 → 短语 → 例句.
 """
@@ -53,6 +53,8 @@ def styles(accent, small=False):
                                 wordWrap="CJK"),
         "gap": ParagraphStyle("gap", fontName=FONT, fontSize=8 * fs, leading=10.6 * fs,
                               spaceBefore=3.5, wordWrap="CJK"),
+        "gapdef": ParagraphStyle("gapdef", fontName=FONT, fontSize=8 * fs, leading=10.6 * fs,
+                                 wordWrap="CJK"),
         "root": ParagraphStyle("root", fontName=FONT, fontSize=8 * fs, leading=11 * fs,
                                textColor=GRAY, leftIndent=6, wordWrap="CJK"),
         "rootsum": ParagraphStyle("rootsum", fontName=FONT, fontSize=8 * fs, leading=11 * fs,
@@ -120,10 +122,14 @@ def full_def(e):
 
 def gap_block(e, ST):
     # same size as the 释义: mixing sizes in one paragraph makes reportlab misjudge its height
-    blk = [Paragraph(f'<font name="{BOLD}">{e["rank"]}. {esc(e["word"])}</font> {esc(full_def(e) or "")}',
-                     ST["gap"])]
+    ipa = (f' <font color="#666666">英[{esc(e["uk"])}] 美[{esc(e["us"])}]</font>'
+           if e["uk"] or e["us"] else "")
+    blk = [Paragraph(f'<font name="{BOLD}">{e["rank"]}. {esc(e["word"])}</font>{ipa}', ST["gap"]),
+           Paragraph(esc(full_def(e) or ""), ST["gapdef"])]
     if e.get("phr"):
         blk.append(Paragraph(phrase_line(e), ST["root"]))
+    if e["ex"]:
+        blk.append(Paragraph(f'{e["ex_label"]}: {esc(e["ex"])}', ST["gapdef"]))
     return KeepTogether(blk)
 
 
@@ -150,13 +156,13 @@ INTRO_FULL = (
 
 INTRO_GAP = (
     "适合已经背过一轮、想查缺补漏的人：\n"
-    "· 只留单词、释义和真题短语，去掉音标、例句和助记卡片，三栏排版，扫得快；\n"
+    "· 去掉核心意象和词根词缀这些助记卡片，三栏排版，扫得快；音标、真题短语和例句照留；\n"
     "· 释义列出真题里出现过的全部义项。熟词的生僻意思也在里面——比如 take 除了「拿」，"
     "还有「修（课程）」「服用（药）」——这正是最容易漏的地方；\n"
     "· 「短语」是真题里出现 3 次以上的固定搭配。\n"
     "\n"
     "用法：遮住释义从头扫一遍，说不出意思、或者只认得第一个意思的词做个记号，"
-    "再到彩色背诵版或背单词网页里看核心意象、词根和例句。\n"
+    "再到彩色背诵版或背单词网页里看核心意象和词根。\n"
 ) + FOOT
 
 VARIANTS = [

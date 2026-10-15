@@ -5,13 +5,11 @@
 
 ## 下载 PDF
 
-| 文件 | 内容 |
-|------|------|
-| [`英语四级高频单词彩色背诵版(优化).pdf`](<英语四级高频单词彩色背诵版(优化).pdf>) | **推荐**。真题义项、核心意象、词根词缀、真题短语和例句；词头带音节划分 |
-| [`英语四级高频单词彩色背诵版.pdf`](<英语四级高频单词彩色背诵版.pdf>) / [`黑白背诵版`](<英语四级高频单词黑白背诵版.pdf>) | 早一版的背诵版（DF 排序），黑白版适合黑白打印 |
-| `output/英语四级TF词频top-1250.pdf` / `…DF…` | liut969 同款双栏排版，含词频 |
-| `output/英语四级TF-top-1250.pdf` / `…DF…` | 同上，不含词频 |
-| `output/英语四级TF自编例句标注top-1250.pdf` / `…DF…` | 含词频，并标出自编例句 |
+| 文件 | 适合谁 | 内容 |
+|------|------|------|
+| [**彩色背诵版**](<英语四级高频单词彩色背诵版.pdf>) | 从零开始背 | 音标、真题释义、核心意象 / 词根词缀、真题短语、真题例句；词头带音节划分。93 页 |
+| [**黑白背诵版**](<英语四级高频单词黑白背诵版.pdf>) | 同上，黑白打印 | 和彩色版内容相同，全黑排版 |
+| [**查缺补漏版**](<英语四级高频单词查缺补漏版.pdf>) | 已经背过一轮 | 只留单词、全部真题义项和真题短语，三栏排版，18 页扫完。熟词的生僻意思（take 的「修课程」「服用」）也在里面 |
 
 ## 这份词表好在哪
 
@@ -48,7 +46,7 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
    两种口径都产出，见 `output/`。
 2. **文档频率（DF）**：除了累计词频（TF），还统计"一个词出现在多少套卷子里（DF）"，
    衡量跨卷稳定性。
-3. **真实例句**：每个词的例句直接从真题语料中抽取（残缺片段则由 deepseek-v4-pro(截止2026/5/20，下文不再重复此描述) 用四级词汇改写并标注）。
+3. **真实例句**：每个词的例句直接取自真题原句。
 
 如果能帮助到大家最好不过。
 理论来说应该可以简单的复刻CET6和考研英语。
@@ -86,67 +84,61 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 
 ![alt text](output/coverage_tf_vs_df.png)
 
-## `output/`说明（）
+## 方法
+
+```
+真题 PDF ─→ corpus/ 纯英文语料（试卷 + 听力原文）
+              │
+              ├─ build_frequency.py / build_doc_frequency.py ─→ output/ 词频表（TF / DF）
+              │
+              └─ 义项标注（Claude 逐句标注）─→ intermediate/senses.json 真题义项、例句、短语
+                                               │
+  intermediate/roots.json 词根 ────────────────┤
+  intermediate/core.json  核心意象 ────────────┤
+                                               ▼
+                         build_dataset.py ─→ intermediate/entries_full.json（1250 词最终数据）
+                                               │
+                                               ├─ make_pdf_optimized.py ─→ 三份 PDF
+                                               └─ build_html.py ─→ 背单词网页（docs/）
+```
+
+- **语料**：真题试卷和听力原文转成纯英文文本，放在 `corpus/`。
+- **统计**：spaCy 分词 + 词形还原；保留功能词（不过滤停用词，与 liut969 一致）。
+- **统计窗口**：参与统计的年份只在 `corpus/window.json` 里配置，以后加入新一年的真题只改这里。
+- 义项、核心意象、词根的生成细节和网页的构建见 [WEB_HANDOFF.md](WEB_HANDOFF.md)。
+
+## `output/` 说明
 
 | 文件 | 内容 |
 |------|------|
 | `high_freq_surface.csv` | 词频表 · 词形原样版（liut969 口径，9393 词） |
 | `high_freq_lemma.csv` | 词频表 · 词形还原版（6835 词） |
 | `high_freq_surface_df.csv` / `high_freq_lemma_df.csv` | 文档频率（DF）表 |
-| `high_freq_cet4_v2.txt` | **主词表**：前 1250 词，含音标 / 释义 / 变形 / 例句 |
-| `high_freq_cet4_v2b.txt` | 同上，但 960 个与 liut969 重合的词复用其词典数据 |
-| `high_freq_cet4_v2b_marked.txt` | v2b + `★` 标注本表独有的 290 个新高频词 |
-| `high_freq_cet4_df.txt` | 按文档频率排序的背诵表 |
-| `high_freq_cet4_v1.txt` | 早期版本（提示词迭代留存，仅作对比） |
-| `英语四级TF词频top-1250.pdf` / `…DF…` | **成品 PDF** · liut969 同款双栏排版，含词频 |
-| `英语四级TF-top-1250.pdf` / `…DF…` | **成品 PDF** · 不含词频 |
-| `英语四级TF自编例句标注top-1250.pdf` / `…DF…` | **成品 PDF** · 含词频，并标注自编例句 |
+| `high_freq_cet4_df.txt` | 按文档频率排序的 1250 词词表（序号、音标等基础信息） |
 | `coverage_chart.png` · `coverage_tf_vs_df.png` | 方法验证图表 |
-
-> 共 6 份 PDF：TF（词频版）/ DF（文档频率版）各 3 种样式。
-
-## 方法 / 流水线
-
-```
-真题 PDF ──┬─ 可提取文本 ─→ extract_text_pdfs.py ─┐
-           └─ 扫描图像 ───→ batch_ocr.py (Qwen) ──┴─→ corpus/  纯英文语料
-                                                          │
-            corpus/ ─→ build_frequency.py     ─→ 词频表(TF)  │
-                    ─→ build_doc_frequency.py ─→ 文档频率(DF) │
-                    ─→ extract_examples.py    ─→ 真题例句     │
-                                                          ▼
-   examples_30_template.txt(手写范例) ─→ deepseek_format.py (DeepSeek 排版)
-                                                          │
-                              ─→ assemble_final.py / build_v2b.py / build_df_table.py
-                                                          ▼
-                                                      output/ 词表
-```
-
-- **OCR**：多数真题 PDF 是扫描图，用阿里 **Qwen** 视觉模型 `qwen3-vl-plus` 整份识别
-- **统计**：spaCy 分词 + 词形还原；保留功能词（不过滤停用词，与 liut969 一致）。
-- **排版**：用 **DeepSeek** `deepseek-v4-pro` 为每个词补音标 / 释义 / 变形、翻译例句；
-  固定系统提示词命中缓存以降低成本。
 
 ## 目录结构
 
 ```
 .
-├── README.md / requirements.txt / .gitignore
-├── api-sk.example.json      复制为 api-sk.json 并填入密钥
-├── scripts/                 全部流水线脚本 + 手写范例模板
-├── web/                     背单词网页源码（template.html）
-├── docs/                    网页的 GitHub Pages 托管目录（构建产物）
-├── images/                  README 截图
+├── 英语四级高频单词*.pdf     三份成品 PDF
+├── README.md                本文
+├── 背单词网页.md             网页的功能和用法
+├── WEB_HANDOFF.md           开发文档（网页、数据流水线）
 ├── CET/cet4_2021 … 2025/    源数据：四级真题 PDF（及听力 MP3）
-├── CET/CET-main/            liut969 的参考词表 PDF
-├── corpus/                  提取出的纯英文语料（papers/ + listening/）
-├── intermediate/            流水线中间产物（已保留，复现时可跳过付费 API 步骤）
-└── output/                  最终成品
+├── corpus/                  纯英文语料（papers/ + listening/）+ 统计窗口 window.json
+├── output/                  词频表与验证图表
+├── intermediate/            处理好的数据：真题义项、词根、核心意象、发音，以及 1250 词最终数据
+├── synbook/                 同义词辨析书：分组数据 + 207 组正文
+├── scripts/                 统计、数据合并、PDF 与网页构建脚本
+├── web/                     背单词网页源码
+├── docs/                    网页的 GitHub Pages 托管目录（构建产物）
+└── images/                  README 截图
 ```
 
-## 复现步骤
+## 复现
 
-特别提示：需要按照api-sk.example.json编写api-sk.json
+仓库里已经包含语料和处理好的数据，不需要任何 API key：
 
 ```bash
 # 1. 环境
@@ -154,52 +146,24 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
-# 2. 密钥（OCR 与排版需要）
-cp api-sk.example.json api-sk.json   # 然后填入 qwen / deepseek 的 API key
-
-# 3. 运行流水线（脚本均从仓库根目录调用）
-python scripts/extract_text_pdfs.py    # 提取可直接读取文本的 PDF
-python scripts/batch_ocr.py            # OCR 扫描版 PDF        [需 qwen key]
-python scripts/audit_corpus.py         # （可选）核对语料完整性
+# 2. 词频统计与验证图表
 python scripts/build_frequency.py      # 词频表 TF
 python scripts/build_doc_frequency.py  # 文档频率表 DF
-python scripts/extract_examples.py     # 从语料抽取例句
-python scripts/parse_liut969.py        # 解析 liut969 参考词典
-python scripts/deepseek_format.py      # LLM 排版词条      [需 deepseek key]
-python scripts/assemble_final.py       # 汇总主词表 v2-A
-python scripts/build_v2b.py            # 生成 v2-B
-python scripts/build_df_table.py       # 生成 DF 排序表    [需 deepseek key]
-python scripts/per_paper_coverage.py   # 验证图表
+python scripts/per_paper_coverage.py   # 逐卷覆盖率图
 python scripts/coverage_compare.py     # TF vs DF 对比图
 
-# 4. 排版成 PDF（liut969 同款双栏样式，TF/DF 各三种样式，共 6 份）
-TF=output/high_freq_cet4_v2.txt;  DF=output/high_freq_cet4_df.txt
-python scripts/make_pdf.py $TF "output/英语四级TF词频top-1250.pdf" "英语四级真题高频词汇" "TF 词频版 · top 1250"
-python scripts/make_pdf.py $DF "output/英语四级DF词频top-1250.pdf" "英语四级真题高频词汇" "DF 文档频率版 · top 1250"
-python scripts/make_pdf.py $TF "output/英语四级TF-top-1250.pdf" "英语四级真题高频词汇" "TF 版 · top 1250" --no-freq
-python scripts/make_pdf.py $DF "output/英语四级DF-top-1250.pdf" "英语四级真题高频词汇" "DF 版 · top 1250" --no-freq
-python scripts/make_pdf.py $TF "output/英语四级TF自编例句标注top-1250.pdf" "英语四级真题高频词汇" "TF · 标注自编例句" --mark-selfmade
-python scripts/make_pdf.py $DF "output/英语四级DF自编例句标注top-1250.pdf" "英语四级真题高频词汇" "DF · 标注自编例句" --mark-selfmade
+# 3. 合并数据，生成 PDF 和网页
+python scripts/build_dataset.py        # → intermediate/entries_full.json
+python scripts/make_pdf_optimized.py   # → 三份 PDF
+python scripts/build_synbook.py        # → 同义词辨析书（要在 build_html 之前）
+python scripts/build_html.py           # → docs/ 网页
 ```
 
-> `make_pdf.py` 开关：`--no-freq` 不输出词频行；`--mark-selfmade` 标注自编例句；
-> `--mono` 词头/章节标题用黑色（黑白打印）；`--example-gray` 例句用灰黑体；
-> `--highlight-word` 例句中的该词标蓝。字体用 `/Library/Fonts/Arial Unicode.ttf`
-> （macOS）；其他平台请改 `scripts/make_pdf.py` 里的 `FONT_PATH` 为本机一个含中文与
-> 音标的字体。
->
-> 另有 `scripts/make_print_pdfs.py`：基于 DF 表生成打印优化的「背诵版」PDF。
-> 最终版（纯黑例句，彩色 / 黑白两种）输出到仓库根目录；早期样式变体（灰黑例句 +
-> 蓝色高亮）输出到的 `_print/` 仅供对比
-
-仓库已包含 `corpus/`、`intermediate/`、`output/`，所以**只想看结果或重做统计**的话，
-无需 API key，跳过第 2 步和 OCR / DeepSeek 相关步骤即可。所有耗费 API 的脚本都支持
-断点续传（已存在的结果文件会跳过）。
-
+> PDF 字体用 `/Library/Fonts/Arial Unicode.ttf`（macOS）；其他平台请改
+> `scripts/make_pdf_optimized.py` 里的 `FONT_PATH` 为本机一个含中文与音标的字体。
 
 ## 致谢
 
 - 方法与参考词表：[liut969/CET](https://github.com/liut969/CET)
-- OCR：阿里云百炼 Qwen 视觉模型；词条排版：DeepSeek
 
 > 真题 PDF 等源数据版权归命题方所有，仅供学习研究使用。

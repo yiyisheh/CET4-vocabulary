@@ -1,8 +1,9 @@
 # Python 3.11+ (developed on 3.14)
-pymupdf>=1.27
-spacy>=3.8
-matplotlib>=3.10
-reportlab>=4.5
+spacy>=3.8          # 分词 + 词形还原（词频统计）
+matplotlib>=3.10    # 覆盖率图表
+reportlab>=4.5      # PDF
+pyphen>=0.16        # 音节划分（com·po·si·tion）
+edge-tts>=7.0       # 例句朗读音频
 
 # spaCy English model — install separately after `pip install -r requirements.txt`:
 #   python -m spacy download en_core_web_sm

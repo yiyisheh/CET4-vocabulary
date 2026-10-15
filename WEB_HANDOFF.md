@@ -19,10 +19,11 @@
 | 🚫 **AI 绝对别读** | `英语四级单词背诵.html` | **49 MB** | 构建产物（**单文件版**：内嵌 2500 条 base64 音频），读了会撑爆上下文 |
 | 🚫 别读（构建产物） | `docs/index.html` | 562 KB | **托管版外壳**：无音频，只有 CSS+JS+1250 词文本。小归小，它仍是产物，改网页请改 `web/template.html` |
 | 🚫 **AI 绝对别读** | `docs/audio-*.bin` | **36 MB** | 托管版的两个音频包（原始 mp3 字节拼接），文件名带内容哈希 |
-| 🚫 **AI 绝对别读** | `intermediate/audio/` | **71 MB** | 3750 个 mp3 源（us 16M / uk 30M / ex 25M），构建输入，别遍历 |
+| 🚫 **AI 绝对别读** | `intermediate/audio/` | **41 MB** | 2500 个 mp3 源（us 16M / ex 25M），构建输入，别遍历 |
+| 🚫 别读（本地归档） | `archive/` | 大 | **过时的脚本、中间数据和旧版 PDF**（gitignore，只在作者本机）。现行流程一个都不读，见 §2.1 |
 
 **一句话**：想看/改网页，永远打开 `web/template.html`；`docs/` 和根目录那份 `.html` 全是**自动生成的产物**，不是源码。
-> 注：`uk/` 30 MB 仍在磁盘和 git 里，但**不再被嵌进成品**（§4）。
+> 注：英音 `uk/` 不再嵌进成品，已移进 `archive/`、不入库（§4）。
 
 ### 0.1 📌 所有临时产物一律放 `tmp/`
 截图、录屏、生成的测试页、调试产物——**全部写进仓库根目录的 `tmp/`**，不要散在 `/tmp`、系统临时目录或项目根目录。理由：`tmp/` 已在 `.gitignore` 里（不污染仓库），但它在项目里，**用户能直接打开来看**。
@@ -36,12 +37,12 @@
 
 两条产物线，共用同一份 1250 词数据：
 
-1. **PDF 背诵版**（打印用）—— `英语四级高频单词彩色背诵版(优化).pdf`
+1. **PDF**（打印用，`make_pdf_optimized.py` 一次出三份，都在仓库根目录）—— `英语四级高频单词彩色背诵版.pdf`、`…黑白背诵版.pdf`（内容同彩色版，全黑）、`…查缺补漏版.pdf`（给背过一轮的人：只有单词 + 全部真题义项 + 短语，三栏）
 2. **iPad 背单词网页**（背单词用）—— `英语四级单词背诵.html`（**单文件离线网页**）+ `docs/`（托管版，装到主屏幕后是 **PWA**）
 
-另有第三条线：**同义词辨析书** —— 207 组近义/易混词逐个讲透，黑白书版式，`docs/synbook.html`（托管，SW 预缓存可离线）+ 根目录 `synbook.html`（单文件版的同目录伴侣，gitignore）。主 app 主菜单有它的入口。数据：`四级高频词同义辨析.json`（分组+词条+例句）+ `synbook_content/G001.md…G207.md`（每组正文，G001 即 `分类页内容参考.md`）。模板 `web/synbook.html`，构建 `scripts/build_synbook.py`（**要在 build_html.py 之前跑**：书的字节计入版本哈希、文件名进 SW 预缓存清单）。
+另有第三条线：**同义词辨析书** —— 207 组近义/易混词逐个讲透，黑白书版式，`docs/synbook.html`（托管，SW 预缓存可离线）+ 根目录 `synbook.html`（单文件版的同目录伴侣，gitignore）。主 app 主菜单有它的入口。数据：`synbook/四级高频词同义辨析.json`（分组+词条+例句）+ `synbook/content/G001.md…G207.md`（每组正文，G001 是手写范文）。模板 `web/synbook.html`，构建 `scripts/build_synbook.py`（**要在 build_html.py 之前跑**：书的字节计入版本哈希、文件名进 SW 预缓存清单）。
 
-> 语料抓取 / 词频统计 / OCR 那一大套**上游**流水线见 `README.md`，本文档聚焦**下游的网页与优化版 PDF**。
+> 词频统计那一段**上游**见 `README.md`，本文档聚焦**下游的网页与 PDF**。
 
 数据是从近五年(2021–2025)四级真题统计的高频词，按文档频率(DF)排序取 top-1250。
 
@@ -52,8 +53,8 @@
 ```
 English/
 ├── WEB_HANDOFF.md            ← 本文档
-├── README.md                 ← 上游语料/词频流水线说明
-├── SPEC-例句配音接入.md       ← 例句 TTS 接入时的设计说明（历史，内容已并入本文 §7.4）
+├── README.md                 ← 项目首页：PDF 下载、词表特点、词频统计
+├── 背单词网页.md              ← 给使用者看的网页功能说明
 │
 ├── web/                      ← 【网页源码集中在这里】
 │   ├── template.html         ← 网页唯一源文件（构建时注入数据/音频/配置）
@@ -61,18 +62,16 @@ English/
 │   ├── legacy_rank_v1.json   ← 冻结的旧序号表 rank→单词（翻译旧划线用，永远不改，§8.5）
 │   └── pwa/                  ← manifest / sw.js / icon-180·192·512.png
 │
-├── scripts/                  ← 构建脚本（下游网页相关的只有这几个，其余是上游语料/OCR 脚本）
-│   ├── build_dataset.py      ← 词表+词根+核心意象+音节 → entries_full.json
+├── scripts/                  ← 构建脚本（另有词频统计、义项流水线脚本，见 README 与 §6.2）
+│   ├── build_dataset.py      ← 词表+词根+核心意象+真题义项+音节 → entries_full.json
 │   ├── build_html.py         ← 注入数据+音频+同步配置 → 成品 html + docs/
+│   ├── build_synbook.py      ← 同义词辨析书 → docs/synbook.html
 │   ├── merge_roots.py        ← 合并各来源词根 → roots.json
-│   ├── merge_core.py         ← 合并核心意象（手写 + 子agent）→ core.json（§6.1）
-│   ├── build_roots.py        ← （备用）DeepSeek 生成词根；**已不用**，词根由子agent产出
-│   ├── fetch_audio.py        ← 下载 2500 条有道 mp3 → intermediate/audio/{us,uk}/
+│   ├── merge_core.py         ← 合并核心意象（子agent + 手写）→ core.json（§6.1）
+│   ├── fetch_audio.py        ← 下载有道 mp3 → intermediate/audio/us/（也会下 uk/，构建不用）
 │   ├── fetch_ex_audio.py     ← edge-tts 合成 1250 条例句朗读 → intermediate/audio/ex/
 │   ├── resynth_us_audio.py   ← 按编码指纹把不想要的有道音色换成 edge-tts Ava（§7.5；--dry-run/--restore）
-│   ├── align_audio_silence.py← （备用）旧的“补静音对齐”脚本，现已非必需，见 §7.3
-│   ├── make_pdf.py           ← PDF 底层排版
-│   ├── make_pdf_optimized.py ← 生成优化版 PDF
+│   ├── make_pdf_optimized.py ← 三份 PDF（彩色 / 黑白 / 查缺补漏）
 │   └── devtest/              ← 【本地验证工具】make_testpage.py + cdp.mjs（§9.1）
 │
 ├── intermediate/             ← 数据与中间产物
@@ -83,12 +82,13 @@ English/
 │   ├── root_chunks/          ← 14 组 in_*/out_*.json（首轮子agent词根产出，共 28 个文件）
 │   ├── recall_chunks/        ← 8 组 in_*/out_*.json（召回轮，共 16 个文件）
 │   ├── core.json             ← 【最终核心意象数据】merge_core.py 产出
-│   ├── core_manual.json      ← 手写的核心意象（16 条样板，优先级最高）
-│   ├── core_chunks/          ← PROMPT.md（子agent 任务书）+ all_words.txt + 8 组 in_*/out_*.json
-│   ├── audio/                ← 🚫 71MB mp3 源，别读：us/ uk/ 各 1250，ex/ 1250 + voices.json
-│   └── （entries_v2/examples/liut969_dict/ds_batches* 均为上游历史产物，网页不用）
+│   ├── core_manual.json      ← 现在只用它的 null 否决（v1 手写样板已被 v2 取代）
+│   ├── core_chunks/          ← PROMPT_v2.md + 10 组 v2_in_*/v2_out_*.json + v2_single.json（§6.1）
+│   ├── senses.json 等         ← 真题义项（§6.2）；sense_chunks/ 是标注任务及其输出，换统计窗口时要用，别删
+│   └── audio/                ← 🚫 41MB mp3 源，别读：us/ 1250，ex/ 1250 + voices.json
 │
-├── output/high_freq_cet4_df.txt  ← 词表源（rank/音标/释义/例句）
+├── output/high_freq_cet4_df.txt  ← 词表源（rank/音标；旧释义/例句只作缺失时的后备）
+├── synbook/                  ← 同义词辨析书：四级高频词同义辨析.json + content/G001–G207.md
 │
 ├── docs/                     ← 【GitHub Pages 托管目录】§4.1 的托管形态
 │   ├── index.html            ←   外壳 562KB（CSS+JS+1250 词文本，**不含音频**）
@@ -100,9 +100,19 @@ English/
 │   ├── devtest/testpage.html ←   §9.1 生成的测试页
 │   └── *.png / *.mp4 …       ←   截图、录屏等随手产物
 │
+├── archive/                  ← 🚫 过时文件的本地归档（gitignore），见 §2.1
 ├── 英语四级单词背诵.html      ← 🚫 49MB 成品（AirDrop 单文件离线版）；**已 gitignore**，可重生成
-└── 英语四级高频单词彩色背诵版(优化).pdf
+└── 英语四级高频单词{彩色背诵版,黑白背诵版,查缺补漏版}.pdf
 ```
+
+### 2.1 `archive/`：过时的东西（2026-10-16 整理）
+用户要求「过时的东西都不上 git，只留下处理好的数据」。下面这些已 `git rm --cached` 并移进 `archive/`（保持原目录结构），只在作者本机，git 历史里也还能找到：
+- **旧版 PDF**：liut969 同款 TF/DF 六份、早期彩色/黑白背诵版三套、`(优化)` 版（已由新的三份取代）
+- **早期词条生成**：释义/例句的批量生成脚本与其产物（`ds_batches*`、`entries_v2.json`、`examples.json`、`high_freq_cet4_v1/v2/v2b*.txt`）、liut969 词典解析、旧 PDF 脚本 `make_pdf.py` / `make_print_pdfs.py`
+- **语料提取 / OCR**：`extract_text_pdfs.py`、`batch_ocr.py` 等 OCR 脚本、`audit_corpus.py`、`skills/`、`api-sk*.json`（`corpus/` 已是处理好的语料，入库）
+- **其他**：`build_roots.py`（备用词根生成，从未进正式流程）、`align_audio_silence.py`（§7.3）、核心意象 v1 的 `core_chunks/in_*/out_*/PROMPT.md`、英音 `audio/uk/`、`CET/CET-main/`（liut969 参考词表）、辨析书写作时的任务书/草稿/分类体系、`SPEC-例句配音接入.md`（已并入 §7.4）
+
+> 本文后面提到这些文件的地方是历史记录；要用就去 `archive/` 里找。
 
 > ⚠️ `web/data.js` **已不存在**：`build_dataset.py` 只写 `entries_full.json`，网页的数据由 `build_html.py` 直接注入 `__DATA__`。（`build_dataset.py` 顶部 docstring 里还留着 data.js 的旧说法，是过时注释。）
 
@@ -113,7 +123,7 @@ English/
 一个 iPad/手机上背四级单词的**单文件离线网页**（无框架、无前端构建：一份 HTML 里塞了 CSS + JS + base64 音频）。
 
 ### 3.1 长什么样（⚠️ 别按"卡片 App"想象）
-**没有卡片、没有阴影、没有色块底、没有任何彩色标签。** 视觉目标是**贴着优化版 PDF 1:1**：纯白（或所选背景色）底上的一份**多栏文本列表**，词条之间只有一条 `rgba(0,0,0,.08)` 的发丝线。字号全部写成 `pt × --fs`，所以 100% 缩放时和 PDF 同大。1200px 宽自动排 3 栏。
+**没有卡片、没有阴影、没有色块底、没有任何彩色标签。** 视觉目标是**贴着彩色背诵版 PDF 1:1**：纯白（或所选背景色）底上的一份**多栏文本列表**，词条之间只有一条 `rgba(0,0,0,.08)` 的发丝线。字号全部写成 `pt × --fs`，所以 100% 缩放时和 PDF 同大。1200px 宽自动排 3 栏。
 
 一条词条自上而下（DOM 顺序即此顺序）：
 
@@ -167,15 +177,15 @@ intermediate/core.json ────────┤
 intermediate/senses.json ──────┤─ build_dataset.py ─→ intermediate/entries_full.json
   (真题义项: def/ex/phr, §6.2)  │
   (+ pyphen 音节)              ┘        │
-                                        ├─ make_pdf_optimized.py ─→ 优化版 PDF
-intermediate/audio/us/*.mp3 ───────────┤   （uk/ 不参与构建）
+                                        ├─ make_pdf_optimized.py ─→ 彩色 / 黑白 / 查缺补漏 三份 PDF
+intermediate/audio/us/*.mp3 ───────────┤   （+ senses.json 的全部义项，给查缺补漏版）
 intermediate/audio/ex/*.mp3 ───────────┤
 web/template.html ─────────────────────┤─ build_html.py ─→ 英语四级单词背诵.html（根，单文件）
 web/supabase-config.json ──────────────┤                └→ docs/index.html + docs/{pwa资源}
 web/pwa/* ─────────────────────────────┘
 
-四级高频词同义辨析.json ──┐
-synbook_content/G*.md ────┤─ build_synbook.py ─→ docs/synbook.html + synbook.html（根，gitignore）
+synbook/四级高频词同义辨析.json ──┐
+synbook/content/G*.md ────┤─ build_synbook.py ─→ docs/synbook.html + synbook.html（根，gitignore）
 web/synbook.html ─────────┘      （先跑：书的字节计入 build_html.py 的版本哈希与 SW 预缓存）
 ```
 
@@ -308,7 +318,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 
 ## 6. 词根数据是怎么来的（§重要：不是用中国 API）
 
-用户明确要求**用 Claude 子 agent**（母语级英文词源），**不用 DeepSeek**，且**准确优先于覆盖**（拆不出就留空，绝不硬造）。
+用户明确要求**用 Claude 子 agent**（母语级英文词源），**不用其他模型的 API**，且**准确优先于覆盖**（拆不出就留空，绝不硬造）。
 
 - 首轮：14 个子agent 各处理 ~90 词 → `intermediate/root_chunks/out_*.json`
 - 召回轮：对首轮留空的词再拆一遍 → `intermediate/recall_chunks/out_*.json`
@@ -316,7 +326,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - `merge_roots.py` 按优先级合并、去掉"词根=单词本身"的循环项 → `roots.json`
 - 结果：1250 词中 **523 词(约42%)** 有拆解；part/type ∈ {前缀,词根,后缀,词}
 
-> 要重跑词根：开子agent 处理 `intermediate/root_chunks/in_*.json`（或自己按同格式产出），再 `merge_roots.py`。`build_roots.py`(DeepSeek) 仅留作备用，**不在正式流程**。
+> 要重跑词根：开子agent 处理 `intermediate/root_chunks/in_*.json`（或自己按同格式产出），再 `merge_roots.py`。
 
 ### 6.1 核心意象（多义小词）
 
@@ -329,16 +339,16 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 
 - **范围**：只做**没有词根拆解**的词（长词记词根+中文就够）；`merge_core.py` 会丢掉落在有词根词上的卡片。
 - **准确优先**：画面必须是真实的核心义（母语者语感/词典义项结构/可靠词源），串不起来就不做；个别同形异源或早已断开的义项写「X 单独记」，不硬扯（如 `set` 的「n. 一套」）。
-- **来源**：`core_manual.json`（手写 16 条样板，优先）→ `core_chunks/out_*.json`（8 个 Claude 子agent，按 `core_chunks/PROMPT.md`，候选 = 727 个无词根词）。变形词可写 `{"same_as": "take"}` 复用原形的卡。
+- **来源（v1，文件已移进 `archive/`）**：`core_manual.json`（手写 16 条样板，优先）→ `core_chunks/out_*.json`（8 个 Claude 子agent，按 `core_chunks/PROMPT.md`，候选 = 727 个无词根词）。变形词可写 `{"same_as": "take"}` 复用原形的卡。
 - **复核否决**：`core_manual.json` 里写 `null` = 人工复核后明确不做，压过子agent 产出。主要挡的是「变形词自身释义单一、却会继承原形整张卡」的情况（`kinds`=种类 不该挂 kind 的「善良」卡），以及义项过近的 come 一族。
 - **结果（v1）**：289 词有核心意象（词根 523 + 核心意象 289，两者互斥）。
 - **v2（2026-10-14，现行）**：释义改成真题义项（§6.2）后，按新义项表**逐词重写**全部卡片：`python scripts/core_task.py make` → `core_chunks/v2_in_XX.json`（每词带全部义项 `senses` 与旧卡），10 个 Sonnet 子 agent 按 `core_chunks/PROMPT_v2.md` 写 `v2_out_XX.json`，`core_task.py check v2_XX` 校验 derive 覆盖了**每一个**义项（用义项中文里的词做子串检查）。不再用 same_as（took 的义项和 take 不同）。只剩 1 个义项的词（34 个）去掉卡片。`v2_in_*` 存在时 `merge_core.py` **只用 v2 输出**（v1 来源只作历史，`core_manual.json` 的 null 否决仍生效）。结果 202 词有卡，51 个判 null。子 agent 回报在 `tmp/core_v2_reports.md`。另有 **单义项小卡** `core_chunks/v2_single.json`（Claude 手写 6 张：due、thus、range、afford、fine、strange）：真题里只剩一个义项、但义项抽象或易误解的词，只讲画面怎么得出这一个意思，不提真题没出现的义项。合计 **208 词**。
 - **释义最多 5 个义项（用户 2026-10-14 定）**：有核心意象卡的非功能词，释义行只列前 5 个义项，卡片 derive 列全部义项（take：释义 5 个、卡片 13 个）。功能词仍是 6 个上限、不截；没卡的词全部显示。
-- **显示**：网页在释义下面、短语行上面（顺序：释义 → 核心卡/词根卡 → 短语 → 例句；短语一律在卡片之后）（`.core`，自测时随释义一起遮）；PDF 在例句后、词根块位置（同款灰字）。
+- **显示**：网页在释义下面、短语行上面（顺序：释义 → 核心卡/词根卡 → 短语 → 例句；短语一律在卡片之后）（`.core`，自测时随释义一起遮）；彩色/黑白 PDF 顺序与网页相同（同款灰字），查缺补漏版不放卡片。
 
 ### 6.2 真题义项（释义 / 例句 / 常见短语，2026-10 重做）
 
-旧释义是 DeepSeek 写的词典式释义。现在**只显示近五年真题里出现过的义项**，例句换成首要义项的真题原句，另加「常见短语」行（真题 ≥3 次，最多 5 条）。
+旧释义是早期批量生成的词典式释义。现在**只显示近五年真题里出现过的义项**，例句换成首要义项的真题原句，另加「常见短语」行（真题 ≥3 次，最多 5 条）。
 
 - **统计窗口**：`corpus/window.json`（唯一配置，`scripts/corpus_window.py` 读）。词频脚本和义项流水线都从这里取卷子。以后有新真题时只改这个文件，再对新句子补标注。
 - **流水线**（Claude 子 agent 标注，A/B/C/D/E 五类任务，任务书 `intermediate/sense_chunks/PROMPT.md` / `PROMPT_C.md`）：`extract_sense_contexts.py`（抽句子，出 A/B 任务：定义项表）→ `sense_store.py`（入库，按句子文本哈希，与窗口无关）→ `make_label_tasks.py` + `c_task.py`（C 任务：其余句子按义项表标）→ `merge_senses.py ROUND`（计数；缺例句出 E 任务、缺短语释义出 D 任务；齐了就写 `senses.json` / `phrases.json` / `tmp/senses_review.md`）。
@@ -387,8 +397,8 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - ⚠️ 314→100 **只改 `lead` 常数与滑块范围，没动 `detectOnset`**，故"0切词"性质不变；纯运行时改动，未再跑 `detect_full.py` 复验。
 - 历史全库 2500 条离线验证（`detect_full.py` 思路）：**0 切词**；choices 这类 ~490ms 死气被削掉。
 
-### 7.3 `align_audio_silence.py` / 314 padding 已“退居备用”
-新播放内核**每次实时找真起音**，不再依赖“文件里静音正好是某个值”。所以旧的“补零到 ≥314ms”对齐**已非必需**——`intermediate/audio/` 仍是 git 跟踪的既有产物、无需为发音再跑对齐。脚本保留备用；若哪天重下音频，也**不必**再跑它（起音归一化会自愈）。
+### 7.3 `align_audio_silence.py` / 314 padding 已退役（脚本在 `archive/`）
+新播放内核**每次实时找真起音**，不再依赖“文件里静音正好是某个值”。所以旧的“补零到 ≥314ms”对齐**已非必需**——`intermediate/audio/` 仍是 git 跟踪的既有产物、无需为发音再跑对齐。若哪天重下音频，也**不必**再跑它（起音归一化会自愈）。
 - ⚠️ 依赖浏览器解码一致性：逻辑已全库离线验证零切词，但真机（尤其 Safari）建议用**开发者模式**（设置页开关）抽查——面板底部实时画波形与 橙(真起音)/绿(起播)/红(播放头) 线。
 
 ### 7.4 例句朗读（edge-tts，本轮新增）
@@ -486,13 +496,13 @@ python scripts/merge_senses.py r1      # → intermediate/senses.json / phrases.
 python scripts/build_dataset.py        # → intermediate/entries_full.json
 python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
 python scripts/resynth_us_audio.py     # → 把 86 条不想要的有道音色换成 Ava（§7.5；重下过 us/ 才需要）
-python scripts/make_pdf_optimized.py   # → 优化版 PDF
+python scripts/make_pdf_optimized.py   # → 彩色 / 黑白 / 查缺补漏 三份 PDF（仓库根目录）
 python scripts/build_html.py           # → 英语四级单词背诵.html + docs/
 
 # 只改了网页界面(template.html)：
 python scripts/build_html.py           # 重新注入数据/音频/配置即可
 
-# 改了辨析书内容(synbook_content/*.md)或版式(web/synbook.html)：
+# 改了辨析书内容(synbook/content/*.md)或版式(web/synbook.html)：
 python3 scripts/build_synbook.py       # → docs/synbook.html + synbook.html（根）
 python scripts/build_html.py           # 必须跟着跑：书计入版本哈希与 SW 预缓存
 ```
@@ -531,7 +541,7 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 托管文件在 `docs/`（index.html + manifest + sw.js + icons），已推送到 `yiyisheh/CET4-vocabulary` 的 **main** 分支。
 
 1. 代码已 push。remote = `yiyisheh/CET4-vocabulary`。`docs/` = 外壳 562KB + 两个音频包 13.6MB / 22.8MB（都在 GitHub 的 100MB 单文件上限内，仅有大小警告）。
-   - `intermediate/audio/`（71MB，含不参与构建的 uk/）**已纳入 git 跟踪**；根目录 49MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/` 上线用。
+   - `intermediate/audio/`（41MB，us/ + ex/）**已纳入 git 跟踪**（uk/ 2026-10-16 移出，见 §2.1）；根目录 49MB 的 `英语四级单词背诵.html` 仍 gitignore（可由 build_html 重生成），只保留 `docs/` 上线用。
 2. GitHub 仓库 → Settings → Pages → Source 选 **main / docs**（若还没开，这步在网页上点一次）。
 3. 访问 `https://yiyisheh.github.io/CET4-vocabulary/`。
 4. iPad **Safari** 打开该网址 → 分享 → **添加到主屏幕** → 成为已安装 PWA。
@@ -595,11 +605,11 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=100-skipMs`，默认值 `skipMs:40`（§7.2） |
 | 加回英音(UK) | `build_html.py` 恢复 `audio_json("uk")` + `__AUDIO_UK__` 占位符 + template 加回 `audio-uk` 标签与口音切换段（`seg-accent`）。⚠️ 但先确认 §12 的 iPad 无声是否与体积有关 |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
-| 改/补核心意象 | 单条直接改 `core_manual.json`（优先级最高）；批量按 `core_chunks/PROMPT.md` 开子agent → `merge_core.py` → `build_dataset.py`（§6.1） |
+| 改/补核心意象 | 单条改对应的 `core_chunks/v2_out_XX.json` 或手写进 `v2_single.json`；否决一个词写进 `core_manual.json` 的 `null`；批量按 `core_chunks/PROMPT_v2.md` 开子agent → `merge_core.py` → `build_dataset.py`（§6.1） |
 | 改同步行为/字段 | template §8 的 `reconcile()`；只同步 marks+colors 是**用户明确要求**，别擅自扩大 |
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
-| 改 PDF 版式 | `scripts/make_pdf.py`(底层 build) + `make_pdf_optimized.py`(参数) |
-| 改辨析书某组内容 | 直接改 `synbook_content/Gxxx.md` → `build_synbook.py` → `build_html.py` |
+| 改 PDF 版式 | `scripts/make_pdf_optimized.py`：`VARIANTS` 列三份 PDF，`entry_block()` 背诵版词条，`gap_block()` 查缺补漏版词条。正文样式都开了 `wordWrap="CJK"`（默认只在空格处折行，中文长串会提前断行）；同一段里别混字号（reportlab 会算错段高、和下一段叠字） |
+| 改辨析书某组内容 | 直接改 `synbook/content/Gxxx.md` → `build_synbook.py` → `build_html.py` |
 | 改辨析书版式/交互 | `web/synbook.html`（一组一页、组内向下滚、目录/弹出检索、跳页滑块与主 app 同一套趋势逻辑）→ 同上两条命令 |
 
 ---

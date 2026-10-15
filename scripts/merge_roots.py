@@ -7,8 +7,7 @@ Sources (in priority order; first non-empty wins per word):
   intermediate/compounds.json             -- hand-curated compound words (type "词")
 
 The 词根 breakdowns were produced by Claude sub-agents (native-level English
-etymology), NOT by an external API. build_roots.py (DeepSeek) is kept only as an
-API fallback and is no longer part of the final pipeline.
+etymology).
 
 Every part is validated to have type in {前缀, 词根, 后缀, 词} and a non-empty text.
 """

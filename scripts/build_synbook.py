@@ -1,11 +1,11 @@
-"""Build the synonym-discrimination book from synbook_content/*.md + 四级高频词同义辨析.json.
+"""Build the synonym-discrimination book from synbook/content/*.md + synbook/四级高频词同义辨析.json.
 
 Output:
   docs/synbook.html        hosted copy (picked up by build_html.py into the PWA precache)
   synbook.html (root)      sibling of the single-file 英语四级单词背诵.html (AirDrop pair)
 
-Content source is synbook_content/G001.md … G207.md, one per group, in the format of
-分类页内容参考.md (G001 IS that file). The JSON supplies the TOC/index data and each
+Content source is synbook/content/G001.md … G207.md, one per group (G001 is the
+hand-written model the others follow). The JSON supplies the TOC/index data and each
 group's title line; the md supplies the prose. Run this BEFORE build_html.py.
 """
 import html as htmllib
@@ -14,8 +14,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
-CONTENT = ROOT / "synbook_content"
-BOOK = json.loads((ROOT / "四级高频词同义辨析.json").read_text())
+CONTENT = ROOT / "synbook" / "content"
+BOOK = json.loads((ROOT / "synbook" / "四级高频词同义辨析.json").read_text())
 TPL = (ROOT / "web" / "synbook.html").read_text()
 
 

@@ -554,16 +554,16 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var st=state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
-    // 常见短语行（真题出现 ≥3 次，最多 5 条；自测里随释义一起遮蔽）
-    if(e.phr && e.phr.length){
-      h+='<div class="phr'+m+'"'+ma+'>短语 '+e.phr.map(function(p){
-        return '<span class="txt">'+esc(p.p)+'</span> '+esc(p.zh);
-      }).join("；")+'</div>';
-    }
     // 核心意象卡（多义小词：一个画面串起各义项；自测里同样遮蔽）
     if(e.core){
       h+='<div class="core'+m+'"'+ma+'><div class="p">核心 <span class="txt">'+esc(e.core.image)+'</span></div>'
         +'<div class="sum">▸ '+esc(e.core.derive)+'</div></div>';
+    }
+    // 常见短语行（真题出现 ≥3 次，最多 5 条；在核心卡之后；自测里随释义一起遮蔽）
+    if(e.phr && e.phr.length){
+      h+='<div class="phr'+m+'"'+ma+'>短语 '+e.phr.map(function(p){
+        return '<span class="txt">'+esc(p.p)+'</span> '+esc(p.zh);
+      }).join("；")+'</div>';
     }
     // 词根词缀卡（在例句之上；自测里也一起遮蔽）
     if(e.root && e.root.parts && e.root.parts.length){

@@ -450,19 +450,35 @@ create table public.progress (
   code text, kind text, item text,      -- kind: 'w'(item=单词) | 'mark'(item=旧序号，§8.5) | 'color'(item=去#色号)
   v smallint default 1, t bigint default 0,
   primary key (code, kind, item));
-alter table public.progress enable row level security;
-create policy "open read"   on public.progress for select using (true);
-create policy "open insert" on public.progress for insert with check (true);
-create policy "open update" on public.progress for update using (true) with check (true);
-grant select, insert, update on public.progress to anon;
+alter table public.progress enable row level security;   -- 不建任何 policy、不给 anon 表权限
+
+-- 客户端只能通过这两个函数读写，且必须带同步码（2026-10-16 起）
+create or replace function public.sync_pull(p_code text, p_offset int default 0)
+returns setof public.progress
+language sql stable security definer set search_path = public as $$
+  select * from public.progress where code = p_code
+  order by kind, item offset p_offset limit 1000;
+$$;
+create or replace function public.sync_push(p_code text, p_rows jsonb)
+returns void
+language sql security definer set search_path = public as $$
+  insert into public.progress (code, kind, item, v, t)
+  select p_code, r->>'kind', r->>'item', (r->>'v')::smallint, (r->>'t')::bigint
+  from jsonb_array_elements(p_rows) r
+  on conflict (code, kind, item) do update set v = excluded.v, t = excluded.t;
+$$;
+grant execute on function public.sync_pull(text, int) to anon;
+grant execute on function public.sync_push(text, jsonb) to anon;
 ```
-- 客户端 upsert 用 `POST /rest/v1/progress?on_conflict=code,kind,item` + `Prefer: resolution=merge-duplicates`
-- 已用真实数据库端到端验证：写入/读回/LWW覆盖/色号 全部通过
+- 拉取 `POST /rest/v1/rpc/sync_pull {p_code, p_offset}`，推送 `POST /rest/v1/rpc/sync_push {p_code, p_rows}`；`p_rows` 里的 `code` 字段被忽略，一律写成 `p_code`
+- **为什么不直接读写表**：最初建表时给了 anon `select/insert/update using (true)`，结果拿公开 key 一条 `GET /progress?select=code` 就能列出所有人的同步码，再改别人的划线。改成 RPC 后不知道码就碰不到数据
+- 已用真实数据库端到端验证：写入/读回/覆盖/分页到空页 全部通过
 
 ### 8.4 安全须知（重要）
 - 客户端**只用 publishable key**（`web/supabase-config.json`，可公开）
 - ⚠️ **`sb_secret_...` 绝不能进客户端**；它曾在对话里出现过，**建议在 Supabase 轮换作废**
-- RLS 是"凭 publishable key + 同步码可读写"——**同步码要用不好猜的**（如 `cet4-sync-9f3k`），否则别人猜到就能改你的划线
+- 项目地址和 publishable key 写在线上网页里，**本来就是公开的**，从仓库删掉也藏不住；安全靠的是 §8.3 的权限设计
+- 读写都必须带同步码——**同步码要用不好猜的**（如 `cet4-sync-9f3k`），否则别人猜到就能改你的划线
 
 ### 8.5 身份键：按单词，不按序号（2026-10-11 迁移）
 

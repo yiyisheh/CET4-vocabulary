@@ -1460,8 +1460,9 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // 分页拉取:云端(PostgREST db-max-rows)一次最多回 N 行(本项目默认 1000),
   // 且不会提示"还有更多"。这里按“实际返回行数”翻页、直到某页为空,
   // 因此不写死 1000/500,换任何服务器都能拉全(见 §8)。
+  // 读写都走 RPC(sync_pull/sync_push),不直接碰表:anon 无表权限,列不出别人的同步码(§8.3)。
   function pullAll(code, off, acc){
-    return api("progress?code=eq."+encodeURIComponent(code)+"&select=kind,item,v,t&order=kind,item&offset="+off)
+    return api("rpc/sync_pull", {method:"POST", body:JSON.stringify({p_code:code, p_offset:off})})
       .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
       .then(function(rows){
         acc=acc.concat(rows);
@@ -1501,8 +1502,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
             });
           }
         }
-        if(push.length) return api("progress?on_conflict=code,kind,item",
-          {method:"POST", headers:{"Prefer":"resolution=merge-duplicates,return=minimal"}, body:JSON.stringify(push)});
+        if(push.length) return api("rpc/sync_push",
+          {method:"POST", body:JSON.stringify({p_code:SYNC.code, p_rows:push})});
       })
       .then(function(){ setSyncStatus("on"); })
       .catch(function(){ setSyncStatus("err"); })

@@ -559,12 +559,6 @@ window.LEGACY_V1 = __LEGACY_V1__;
       h+='<div class="core'+m+'"'+ma+'><div class="p">核心 <span class="txt">'+esc(e.core.image)+'</span></div>'
         +'<div class="sum">▸ '+esc(e.core.derive)+'</div></div>';
     }
-    // 常见短语行（真题出现 ≥3 次，最多 5 条；在核心卡之后；自测里随释义一起遮蔽）
-    if(e.phr && e.phr.length){
-      h+='<div class="phr'+m+'"'+ma+'>短语 '+e.phr.map(function(p){
-        return '<span class="txt">'+esc(p.p)+'</span> '+esc(p.zh);
-      }).join("；")+'</div>';
-    }
     // 词根词缀卡（在例句之上；自测里也一起遮蔽）
     if(e.root && e.root.parts && e.root.parts.length){
       h+='<div class="root'+m+'"'+ma+'>';
@@ -573,6 +567,12 @@ window.LEGACY_V1 = __LEGACY_V1__;
       });
       if(e.root.summary) h+='<div class="sum">▸ '+esc(e.root.summary)+'</div>';
       h+='</div>';
+    }
+    // 常见短语行（真题出现 ≥3 次，最多 5 条；在核心卡/词根卡之后；自测里随释义一起遮蔽）
+    if(e.phr && e.phr.length){
+      h+='<div class="phr'+m+'"'+ma+'>短语 '+e.phr.map(function(p){
+        return '<span class="txt">'+esc(p.p)+'</span> '+esc(p.zh);
+      }).join("；")+'</div>';
     }
     // 例句放在词根下面；英文常显，中文翻译在自测+子项开时随卡片一起遮蔽/解锁
     if(e.ex && state.showEx){

@@ -30,6 +30,8 @@ html = (tpl
         .replace("__DATA__", json.dumps(slim, ensure_ascii=False))
         .replace("__AUDIO_US__", "{}")          # no audio: keeps the page tiny
         .replace("__AUDIO_EX__", "{}")
+        .replace("__AUDIO_INDEX__", "null")     # single-file mode (audio would be inline)
+        .replace("__CACHE_NAME__", "cet4-test")
         .replace("__SYNC_CONFIG__", "null")     # no sync in tests
         .replace("__LEGACY_V1__", (ROOT / "web" / "legacy_rank_v1.json").read_text().strip())
         .replace("__CACHE_BYTES__", "1000")

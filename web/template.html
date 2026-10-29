@@ -102,6 +102,27 @@
      time only (see visible()), so marking a word never reflows the page in real time. */
   /* optional divider between entries (transparent keeps height stable for pagination) */
   #pages.nodivider .entry{ border-bottom-color:transparent; }
+  /* 搜索「定位」跳过来的那条：短暂高亮一下，帮眼睛找到它 */
+  @keyframes hitflash{ from{ background:rgba(127,127,127,.22); } to{ background:transparent; } }
+  .entry.flash{ animation:hitflash 1.8s ease-out; }
+
+  /* ---------- 全库搜索（全屏子页，盖在菜单/背诵页上；词条与背诵页同款渲染、不遮蔽） ---------- */
+  #search{ position:fixed; inset:0; z-index:60; background:var(--bg);
+    display:none; flex-direction:column; padding:0 22px;
+    padding-top:calc(env(safe-area-inset-top) + 12px);
+    padding-bottom:calc(env(safe-area-inset-bottom) + 12px); }
+  #search > *{ width:100%; max-width:720px; margin-left:auto; margin-right:auto; }
+  #search-count{ margin-left:auto; color:var(--gray); font-size:12px; font-variant-numeric:tabular-nums; }
+  #search-q{ flex:0 0 auto; padding:11px 14px; font-size:16px; font-family:inherit;
+    border:1.5px solid var(--ink); border-radius:10px; background:var(--card); color:var(--ink); }
+  #search-q:focus{ outline:2px solid var(--blue); outline-offset:1px; }
+  #search-list{ flex:1 1 auto; overflow-y:auto; margin-top:8px; -webkit-overflow-scrolling:touch;
+    overscroll-behavior:contain; }
+  #search-list .hintbox{ margin-top:6px; }
+  /* 「定位」：跳到背诵页里这个词所在的那一页；不在当前词表里则灰字说明 */
+  .sjump{ position:absolute; right:0; top:0; padding:2px 2px 6px 14px; font-size:12px;
+    color:var(--blue); cursor:pointer; }
+  .sjump.off{ color:var(--gray); cursor:default; }
 
   #measure{ position:absolute; visibility:hidden; left:-99999px; top:0; pointer-events:none; }
 
@@ -254,6 +275,10 @@
   <div class="mprog" id="menu-progress"></div>
   <button id="start">开始背诵</button>
   <button id="reset">重置</button>
+  <button class="mitem" id="btn-menusearch">
+    <span><span class="mt">搜索单词</span><span class="md">英文 · 中文释义 · 序号，全部 1250 词里查</span></span>
+    <span class="marr">›</span>
+  </button>
   <button class="mitem" id="btn-synbook">
     <span><span class="mt">同义词辨析 · 207 组</span><span class="md">1250 个高频词按同义/近义/易混分组，逐组讲透区别</span></span>
     <span class="marr">›</span>
@@ -395,6 +420,7 @@
     · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音（美音）<br>
     · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
     · 点词条<b>其他地方</b> → 发音<br>
+    · 顶栏 / 主菜单<b>「搜索」</b> → 在全部 1250 词里查英文、中文释义或序号；结果里同样能发音、划线，点「定位」跳到背诵页里那一页<br>
     · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
     · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，点「重置」才把范围往后推进（不当场刷新）；可开「池内乱序」<br>
     · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单。「开始背诵」原样继续上次的页面，页面内容（哪些词、顺序、遮蔽）只在点<b>「重置」</b>时重建
@@ -403,11 +429,24 @@
 
 <div id="top">
   <div class="t">四级高频 1250</div><div class="sp"></div>
+  <button class="iconbtn" id="btn-search">搜索</button>
   <button class="iconbtn" id="btn-settings">菜单</button>
 </div>
 
 <div id="pages"></div>
 <div id="measure"></div>
+
+<!-- 全库搜索：不受状态池/去掉已划掉影响，不改冻结词表、位置和遮蔽（只有「定位」会移动阅读位置） -->
+<div id="search">
+  <div class="shead">
+    <button class="iconbtn" id="search-close">‹ 返回</button>
+    <span class="stitle">搜索</span>
+    <span id="search-count"></span>
+  </div>
+  <input id="search-q" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off"
+    autocapitalize="off" spellcheck="false" placeholder="输入英文、中文释义或序号">
+  <div id="search-list"></div>
+</div>
 
 <div id="dev">
   <div id="dev-handle" title="上下拖动改变高度"></div>
@@ -544,14 +583,18 @@ window.LEGACY_V1 = __LEGACY_V1__;
     }
   }
 
-  function entryHTML(e){
+  // look = 搜索结果：总显示序号、不遮蔽、总带例句、没有累计小标，右上角多一个「定位」
+  function entryHTML(e, look){
     var h='<div class="entry'+(marked(e.word)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
-    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled?'</span>':e.rank+'.</span> ')
-      +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span></div>';
+    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled&&!look?'</span>':e.rank+'.</span> ')
+      +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span>';
+    if(look) h+=inList(e.rank) ? '<span class="sjump" data-act="jump">定位 ›</span>'
+                               : '<span class="sjump off" data-act="none">不在当前词表</span>';
+    h+='</div>';
     // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
     // and relaunches — only 重置 re-covers everything.
-    var st=state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
+    var st=!look && state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
     // 核心意象卡（多义小词：一个画面串起各义项；自测里同样遮蔽）
@@ -575,13 +618,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
       }).join("；")+'</div>';
     }
     // 例句放在词根下面；英文常显，中文翻译在自测+子项开时随卡片一起遮蔽/解锁
-    if(e.ex && state.showEx){
+    if(e.ex && (state.showEx||look)){
       var en=exEnglish(e.ex), tr=exTrans(e.ex), maskTr=st&&state.maskExTrans&&tr;
       h+='<div class="ex" data-act="ex">'+esc(e.ex_label||"例句")+'：'+esc(en);
       if(tr) h+=(en?" ":"")+'<span class="extrans'+(maskTr?" mask":"")+'"'+(maskTr?' data-act="reveal"':"")+'>'+esc(tr)+'</span>';
       h+='</div>';
     }
-    if(milestoneAt[e.rank]) h+='<div class="milestone">累计 '+milestoneAt[e.rank]+' 词</div>';
+    if(!look && milestoneAt[e.rank]) h+='<div class="milestone">累计 '+milestoneAt[e.rank]+' 词</div>';
     return h+'</div>';
   }
 
@@ -621,6 +664,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function listEntries(){
     return (state.list||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
   }
+  function inList(rank){ return (state.list||[]).indexOf(rank)>=0; }
 
   // ---- Leitner active pool: a RANK CEILING, counted against the whole book ----
   // The pool is simply "ranks 1..poolMax that aren't crossed off yet". One number, `poolMax`,
@@ -680,7 +724,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var list=listEntries();
     computeMilestones(list);
     measEl.style.width=colW+"px";
-    measEl.innerHTML=list.map(entryHTML).join("");
+    measEl.innerHTML=list.map(function(e){ return entryHTML(e); }).join("");
     var kids=measEl.children, hs=[];
     for(var i=0;i<kids.length;i++) hs.push(kids[i].offsetHeight);
     measEl.innerHTML="";
@@ -998,10 +1042,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
   window.addEventListener("resize", function(){ if(state.dev){ devResize(); devStatic(); } });
 
   // ---- interactions ----
-  pagesEl.addEventListener("click", function(ev){
+  // shared by the reading pages and the search results (same entry markup)
+  function entryClick(ev){
     var entry=ev.target.closest(".entry"); if(!entry) return;
     var rank=+entry.dataset.rank, word=entry.dataset.word;
     var a=ev.target.closest("[data-act]"), act=a?a.dataset.act:"speak";
+    if(act==="none") return;
+    if(act==="jump"){ jumpTo(rank); return; }        // search result -> its page in the reading list
     if(act==="ex"){ speakEx(rank); return; }         // tap the example line -> read it
     if(act==="reveal"){                              // self-test: unlock the card -> reveal ALL masked parts together
       var hid=entry.querySelectorAll(".mask");
@@ -1018,7 +1065,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
     if(act==="mark"){
       var nv = marked(word) ? 0 : 1;
       state.marks[word] = {v:nv, t:Date.now()};
-      entry.classList.toggle("marked", nv===1); save();
+      // the word may be on screen twice (search result + its reading-page copy): keep both in step
+      document.querySelectorAll('.entry[data-rank="'+rank+'"]').forEach(function(el){
+        el.classList.toggle("marked", nv===1); });
+      save();
       syncPushMark();
       // 划词绝不重排页面（不会在手指底下抖）。状态池触到低水位也**不当场刷新**——
       // 范围推进推迟到下次 buildList()（主菜单点「重置」）；
@@ -1032,7 +1082,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
       speak(word); return;
     }
     speak(word);
-  });
+  }
+  pagesEl.addEventListener("click", entryClick);
 
   // ---- 跳页滑块：0..1000 连续刻度，拖动时页面实时跟手；松手按「趋势」定去留 ----
   // 趋势规则：越过原点朝某个方向拖 → 翻过去，至少 1 页、多拖多翻（0.5~1.5 → 1 页，
@@ -1314,6 +1365,80 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // 单文件版指向同目录的 synbook.html（AirDrop 时两个文件一起发）。
   document.getElementById("btn-synbook").addEventListener("click", function(){ location.href="synbook.html"; });
 
+  // ---- 全库搜索 ----
+  // Always searches all of DATA, independent of 状态池 / 去掉已划掉. Read-only towards the reading
+  // view: it never touches state.list, the masks or state.revealed. Marking from a result is the
+  // same act as marking on the page (no reflow). Only 「定位」 moves the reading position.
+  // Query: digits = 序号; contains CJK = 释义 + 短语中文; otherwise = 单词 + 短语英文.
+  // Order: exact word > word prefix > word contains > phrase / 释义, then by rank.
+  var searchEl=document.getElementById("search"), searchQ=document.getElementById("search-q"),
+      searchList=document.getElementById("search-list"), searchCount=document.getElementById("search-count");
+  var SEARCH_MAX=50;                               // full entries are tall; 50 is plenty to scroll
+  function searchWords(q){
+    q=q.trim().toLowerCase();
+    if(!q) return [];
+    if(/^\d+$/.test(q)) return byRank[+q] ? [byRank[+q]] : [];
+    var cjk=/[㐀-鿿]/.test(q), hits=[];
+    DATA.forEach(function(e){
+      var w=e.word.toLowerCase(), phr=e.phr||[], s=-1;
+      if(cjk){
+        if((e.def||"").indexOf(q)>=0) s=3;
+        else if(phr.some(function(p){ return (p.zh||"").indexOf(q)>=0; })) s=4;
+      } else if(w===q) s=0;
+      else if(w.indexOf(q)===0) s=1;
+      else if(w.indexOf(q)>=0) s=2;
+      else if(phr.some(function(p){ return (p.p||"").toLowerCase().indexOf(q)>=0; })) s=3;
+      if(s>=0) hits.push({e:e, s:s});
+    });
+    hits.sort(function(a,b){ return a.s-b.s || a.e.rank-b.e.rank; });
+    return hits.map(function(h){ return h.e; });
+  }
+  function renderSearch(){
+    var q=searchQ.value, hits=searchWords(q);
+    if(!q.trim()){
+      searchCount.textContent="共 "+DATA.length+" 词";
+      searchList.innerHTML='<div class="hintbox">在全部 '+DATA.length+' 个词里查，不受状态池 / 去掉已划掉影响。<br>'
+        +'· 英文：单词或短语，如 <b>tak</b>、<b>rather than</b><br>'
+        +'· 中文：释义里的字词，如 <b>宁愿</b><br>'
+        +'· 数字：序号，如 <b>401</b><br>'
+        +'结果里点单词发音、点序号划线、点例句朗读；点<b>「定位 ›」</b>跳到背诵页里它所在的那一页</div>';
+      return;
+    }
+    searchCount.textContent=hits.length ? ("匹配 "+hits.length+" 词"+(hits.length>SEARCH_MAX?" · 显示前 "+SEARCH_MAX:"")) : "没有匹配";
+    searchList.innerHTML=hits.length
+      ? hits.slice(0,SEARCH_MAX).map(function(e){ return entryHTML(e,true); }).join("")
+      : '<div class="hintbox">没有找到「'+esc(q.trim())+'」。试试更短的拼写，或换成中文释义。</div>';
+    searchList.scrollTop=0;
+  }
+  function openSearch(){
+    closeWheel(); applyLayout();                   // --fs: results use the reading font size
+    renderSearch(); searchEl.style.display="flex";
+    searchQ.focus(); searchQ.select();
+  }
+  function closeSearch(){
+    searchEl.style.display="none"; searchQ.blur();
+    if(menuEl.style.display!=="none") renderMenu(); // marks made in the results -> 已掌握 count
+  }
+  function jumpTo(rank){
+    closeSearch();
+    state.anchor=rank; save();
+    if(menuEl.style.display!=="none") enterReading();     // paginate() -> restoreAnchor() lands on it
+    else { scrollToPage(pageOfRank(rank), false); updateLabel(); }
+    requestAnimationFrame(function(){ requestAnimationFrame(function(){
+      var el=pagesEl.querySelector('.entry[data-rank="'+rank+'"]'); if(!el) return;
+      el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
+      setTimeout(function(){ el.classList.remove("flash"); }, 1900);
+    }); });
+  }
+  searchQ.addEventListener("input", renderSearch);
+  searchQ.addEventListener("keydown", function(e){ if(e.key==="Enter") searchQ.blur(); });   // 收起键盘看结果
+  searchList.addEventListener("click", entryClick);
+  document.getElementById("btn-search").addEventListener("click", openSearch);
+  document.getElementById("btn-menusearch").addEventListener("click", openSearch);
+  document.getElementById("search-close").addEventListener("click", closeSearch);
+  document.addEventListener("keydown", function(e){
+    if(e.key==="Escape" && searchEl.style.display!=="none") closeSearch(); });
+
   // ---- offline-cache progress ----
   // The bar tracks the audio packs, because that IS the download: the shell is ~560KB (the SW
   // precaches it during install, effectively instantly) and the packs are the other ~36MB.
@@ -1497,7 +1622,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
           save(); renderSwatches();
           if(menuEl.style.display!=="none") renderMenu();   // 菜单开着时，同步拉回的划线要反映到「已掌握」计数
           if(settingsEl.style.display==="none"){
-            pagesEl.querySelectorAll(".entry[data-rank]").forEach(function(el){
+            document.querySelectorAll(".entry[data-rank]").forEach(function(el){   // pages + open search results
               el.classList.toggle("marked", !!marked(el.dataset.word));
             });
           }

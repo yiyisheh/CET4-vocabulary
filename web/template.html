@@ -577,7 +577,10 @@ window.CET4 = __DATA__;
    包名带内容哈希 ⇒ 音频一变文件名就变、必然重下；没变则一个字节都不重下。 */
 window.AUDIO_INDEX = __AUDIO_INDEX__;
 window.BUILD_INFO = __BUILD_INFO__;     // {v:内容哈希版本, t:构建时间戳}（构建时注入），与 sw 缓存名同源
-window.CACHE_NAME = "__CACHE_NAME__";   // 与 sw.js 同名的缓存桶：音频包由网页自己写进去
+window.CACHE_NAME = "__CACHE_NAME__";
+/* 响度归一化：每条音频播放时的增益(dB) {us:{单词:dB}, ex:{rank:dB}}，由 measure_loudness.py 测、
+   build_html.py 算（目标 -18 LUFS、真峰值不超过 -1 dBTP）。mp3 字节不动，包哈希不变。 */
+window.AUDIO_GAIN = __AUDIO_GAIN__;   // 与 sw.js 同名的缓存桶：音频包由网页自己写进去
 </script>
 <script>
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
@@ -978,7 +981,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
     }
     return 0;
   }
-  function pcmToWav(a, sr, s0, preSec){              // Float32 channel from sample s0 -> 16-bit mono WAV blob, `preSec` of silence prepended
+  // loudness normalization: linear factor for one clip (1 = as is; no table / no entry -> as is)
+  var AGAIN=window.AUDIO_GAIN||null;
+  function clipGain(which, key){
+    var db=AGAIN && AGAIN[which] ? AGAIN[which][key] : undefined;
+    return typeof db==="number" ? Math.pow(10, db/20) : 1;
+  }
+  function pcmToWav(a, sr, s0, preSec, gain){        // Float32 channel from sample s0 -> 16-bit mono WAV blob, `preSec` of silence prepended, samples × gain
     var n=a.length-s0; if(n<0) n=0;
     var preN=Math.round((preSec||0)*sr), N=preN+n;
     var dv=new DataView(new ArrayBuffer(44+N*2));
@@ -987,7 +996,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
     dv.setUint32(16,16,true); dv.setUint16(20,1,true); dv.setUint16(22,1,true);
     dv.setUint32(24,sr,true); dv.setUint32(28,sr*2,true); dv.setUint16(32,2,true); dv.setUint16(34,16,true);
     wstr(36,"data"); dv.setUint32(40,N*2,true);
-    for(var i=0,o=44+preN*2,v;i<n;i++){ v=a[s0+i]; v=v<-1?-1:v>1?1:v; dv.setInt16(o+i*2, v<0?v*0x8000:v*0x7FFF, true); }
+    var g=gain||1;
+    for(var i=0,o=44+preN*2,v;i<n;i++){ v=a[s0+i]*g; v=v<-1?-1:v>1?1:v; dv.setInt16(o+i*2, v<0?v*0x8000:v*0x7FFF, true); }
     return new Blob([dv.buffer],{type:"audio/wav"});
   }
   var player=null, mediaUnlocked=false;
@@ -1003,7 +1013,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var p=mediaEl(); try{ p.pause(); }catch(e){}     // cut off anything still playing
     var sr=en.buf.sampleRate, s0=Math.round(off*sr), key=s0+"|"+Math.round((preSec||0)*1000);
     if(en.url && en.urlKey!==key) dropUrl(en);       // cut point moved (skipMs/exDelay changed) -> re-slice
-    if(!en.url){ en.url=URL.createObjectURL(pcmToWav(en.buf.getChannelData(0), sr, s0, preSec)); en.urlKey=key; }
+    if(!en.url){ en.url=URL.createObjectURL(pcmToWav(en.buf.getChannelData(0), sr, s0, preSec, en.gain)); en.urlKey=key; }
     p.src=en.url;
     p.play().catch(function(){});
     if(state.dev) devShow(en.buf, off, preSec||0, label, en.onset);
@@ -1031,7 +1041,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     mediaUnlock();                                   // still inside the tap gesture here
     ctx.decodeAudioData(b,
       function(buf){
-        var en={buf:buf, onset:detectOnset(buf)};
+        var en={buf:buf, onset:detectOnset(buf), gain:clipGain("us", w)};
         abufCache[key]=en; abufOrder.push(key);
         if(abufOrder.length>ABUF_MAX){ var old=abufOrder.shift(); dropUrl(abufCache[old]); delete abufCache[old]; }
         playEntry(en, w);
@@ -1066,7 +1076,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     mediaUnlock();                                   // still inside the tap gesture here
     ctx.decodeAudioData(b,
       function(buf){
-        var en={buf:buf, onset:detectOnset(buf)};
+        var en={buf:buf, onset:detectOnset(buf), gain:clipGain("ex", String(rank))};
         exCache[key]=en; exOrder.push(key);
         if(exOrder.length>ABUF_MAX){ var old=exOrder.shift(); dropUrl(exCache[old]); delete exCache[old]; }
         playEx(en);

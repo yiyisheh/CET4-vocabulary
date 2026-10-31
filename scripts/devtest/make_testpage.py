@@ -32,6 +32,7 @@ html = (tpl
         .replace("__AUDIO_EX__", "{}")
         .replace("__AUDIO_INDEX__", "null")     # single-file mode (audio would be inline)
         .replace("__CACHE_NAME__", "cet4-test")
+        .replace("__AUDIO_GAIN__", "null")      # no audio, no loudness gains
         .replace("__SYNC_CONFIG__", "null")     # no sync in tests
         .replace("__LEGACY_V1__", (ROOT / "web" / "legacy_rank_v1.json").read_text().strip())
         .replace("__CACHE_BYTES__", "1000")

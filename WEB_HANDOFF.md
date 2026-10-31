@@ -222,6 +222,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - `__CACHE_NAME__` → `cet4-1250`，与 `sw.js` 的桶名同一个常量（网页要往同一个桶里写音频包）
 - `__SYNC_CONFIG__` → `web/supabase-config.json` 内容（无则 `null`，同步自动禁用）
 - `__LEGACY_V1__` → `web/legacy_rank_v1.json`（冻结的旧序号表，§8.5；永远不改）
+- `__AUDIO_GAIN__` → 每条音频的播放增益 `{us:{单词:dB}, ex:{rank:dB}}`（§7.7；两种形态相同，约 30 KB）
 - `__BUILD_INFO__` → `{v:内容哈希, t:构建时间}`，设置页「版本」行展示 + 「检查更新」用（见 §10.1）。`v` = **外壳的哈希**（包名在外壳里，所以音频变了版本也会变），在**注入 build-info 之前**算，只随内容变、不随时间戳变——同内容重建版本号不变、不会白触发更新。两种形态共用同一个版本号
 - `sw.js` 里还有 `__PRECACHE__` / `__KEEP__` 两个清单和 `__BUILD_HASH__`（外壳哈希，§10.1 解释它为什么必须在）
 
@@ -436,6 +437,15 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 
 ---
 
+### 7.7 响度归一化（2026-11-01：离线测量 + 播放时调增益）
+用户反映音量忽大忽小。实测（ffmpeg ebur128）是**音源之间**的差，不是同一音源内部：有道主流女音 48k/64k 中位 **-15.8 LUFS**，24k/32k 那组 **-23.6**（低 8 dB，§7.0 说的「发闷」很大一部分就是小声），Ava 替换的 86 条 **-20.5**，例句（edge-tts）**-20.9**——点完单词再点例句会小约 5 dB。原因：有道按峰值不按响度归一化、24k/32k 组根本没归一化、edge-tts 输出偏小且 `resynth_us_audio.py`/`fetch_ex_audio.py` 都没调增益；播放链路原本也是透传。
+- **做法（方案 C）**：`scripts/measure_loudness.py` 测每条的 integrated LUFS + true peak → `intermediate/audio/loudness.json`（按文件内容 sha1 增量，只重测变了的；全量 8 线程约 17 秒）。`build_html.py` 算增益 `g = min(TARGET_LUFS − I, PEAK_CEIL − tp)`，**目标 -18 LUFS、真峰值上限 -1 dBTP**，注入 `window.AUDIO_GAIN`。网页在解码时把 `clipGain()` 记进缓存条目 `en.gain`，`pcmToWav()` 编 WAV 时样本 × 增益（原有的 [-1,1] 钳位只作保险）。
+- **为什么不重写 mp3**：重编码会再损一次音质（24k/32k 组本来码率就低），而且包哈希一变全体用户要重下 36 MB。现在 **mp3 字节不动、包名不变**，更新只有几百 KB 外壳；回滚把增益全设 0 即可。
+- **为什么 -18**：-16/-17 时大量例句会被峰值上限卡住达不到目标；-18 时单词只有 11 条、例句 34 条偏离目标 >1 dB，单词与例句响度对齐。代价是主流女音整体小约 2 dB（设备音量补回即可）。增益范围：单词 -5.1 ~ +9.4 dB（asked 最大），例句 -0.2 ~ +5.4 dB。
+- **已验证**（托管版 http + 无头 Chromium）：拦截实际交给 `<audio>` 的 WAV，与从包里独立解码的原始样本比峰值，asked / live / environment / 例句 401 的放大倍数与 `10^(g/20)` 完全一致。
+- ⚠️ **改了任何音频文件后要先跑 `measure_loudness.py` 再 `build_html.py`**；没测或测量过期（sha 对不上）的条目 build 会打印 `!!` 警告并按原音量播放。包还没下完、走有道 URL 兜底（`speakHtml`）时不归一化——与 §7 的「诚实中间态」一致。
+- 已知：1074 house 源文件本身削波（true peak +1.5 dBTP），增益修不了，要换音源才行。
+
 ## 8. 多端同步（Supabase）
 
 ### 8.1 只同步这些（用户明确要求）
@@ -520,6 +530,7 @@ python scripts/merge_senses.py r1      # → intermediate/senses.json / phrases.
 python scripts/build_dataset.py        # → intermediate/entries_full.json
 python scripts/fetch_ex_audio.py       # → intermediate/audio/ex/*.mp3（例句朗读，断点续传）
 python scripts/resynth_us_audio.py     # → 把 86 条不想要的有道音色换成 Ava（§7.5；重下过 us/ 才需要）
+python scripts/measure_loudness.py     # → intermediate/audio/loudness.json（§7.7；音频有变才会重测，build 前跑）
 python scripts/make_pdf_optimized.py   # → 彩色 / 黑白 / 查缺补漏 三份 PDF（仓库根目录）
 python scripts/build_html.py           # → 英语四级单词背诵.html + docs/
 
@@ -626,6 +637,7 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 换/改单词发音 | `fetch_audio.py` 换音源重下 → `build_html.py` 重新内嵌；播放逻辑在 `speak()`（Web Audio，§7） |
 | **换掉某个不想要的单词音色** | 先按 §7.0 用 `ffprobe` 的 (采样率,码率) 圈出音源组、拼 `tmp/voiceab/` 试听确认，再改 `resynth_us_audio.py` 的 `TARGET_FORMATS`/`VOICE` → `--dry-run` 核对 → 跑 → `build_html.py`（§7.5） |
 | 换/改例句朗读音色 | `fetch_ex_audio.py` 里 `VOICES`（改 edge-tts 声音）→ 删 `intermediate/audio/ex/` 重跑 → `build_html.py`；播放在 `speakEx()`（§7.4） |
+| 改音量归一化目标 | `build_html.py` 的 `TARGET_LUFS` / `PEAK_CEIL` → 重新构建（§7.7）；换了音频文件先跑 `measure_loudness.py` |
 | 改起播引子/起音检测 | template `speak()`/`detectOnset()`；引子 `lead=100-skipMs`，默认值 `skipMs:40`（§7.2） |
 | 加回英音(UK) | `build_html.py` 恢复 `audio_json("uk")` + `__AUDIO_UK__` 占位符 + template 加回 `audio-uk` 标签与口音切换段（`seg-accent`）。⚠️ 但先确认 §12 的 iPad 无声是否与体积有关 |
 | 重跑/补词根 | 子agent 产出 `root_chunks/recall_chunks` → `merge_roots.py` → `build_dataset.py` |
@@ -650,7 +662,7 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 - ✅ **离线时 SW 把外壳当音频包返回、导致该版本永久哑掉** —— 已修（§10.1），并加了包长度校验与缓存自愈
 - ✅ **只改网页时 `sw.js` 字节不变、更新推不到设备** —— 已修（§10.1 的 `__BUILD_HASH__`）
 - 🟡 **单词音源还有 31 条杂音没处理**（§7.0）：`44100/160000` 20 条（8 男 12 女）、`22050/32000` 5 条（4 男 1 女）、以及 6 条零星格式。用户听过其中的 15/17/23/68，没说要换。要清就照 §7.5 把格式加进 `TARGET_FORMATS` 重跑
-- 🟡 **230 条 `24000/32000` 是同一个女音但发闷**（码率减半）。换成 TTS 等于把用户喜欢的声音换掉，不建议；对症做法是全库 EBU R128 响度归一化，音色不动——尚未做
+- 🟡 **230 条 `24000/32000` 是同一个女音但发闷**（码率减半）。换成 TTS 等于把用户喜欢的声音换掉，不建议；对症做法是全库 EBU R128 响度归一化，音色不动——✅ 2026-11-01 已做（§7.7，播放时调增益，这组平均 +5.6 dB）
 - 词根覆盖 42%：高频里大量日耳曼/功能词本就拆不出，是"准确优先"的合理结果，非缺陷
 - 改 `state` 结构须处理 localStorage 迁移，否则老用户数据读不出（如 `skipMs` 314→100 的越界迁移）
 - 状态池**不参与多端同步**（只有 marks/colors 同步，§8.1）。两台设备的上界各自独立，但因为"已掌握"是同步的，两边推进的节奏基本一致

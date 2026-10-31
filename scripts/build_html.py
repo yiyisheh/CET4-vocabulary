@@ -35,6 +35,12 @@ DOCS = ROOT / "docs"
 PWA_DIR = ROOT / "web" / "pwa"
 CACHE_NAME = "cet4-1250"          # must match web/pwa/sw.js
 MIN_BYTES = {"us": 500, "ex": 300}
+# Loudness normalization (applied at playback, the mp3 bytes stay untouched — see
+# scripts/measure_loudness.py). Every clip is brought to TARGET_LUFS, but never boosted past a
+# true peak of PEAK_CEIL. -18 lets nearly all words AND sentences reach the target, so the two
+# play at the same level; louder targets would leave many sentences short of it (peak-limited).
+TARGET_LUFS = -18.0
+PEAK_CEIL = -1.0
 
 slim = [{
     "rank": e["rank"], "word": e["word"], "syl": e["syl"],
@@ -55,6 +61,28 @@ def clips(kind):
     return out
 
 
+def gains():
+    """{us: {word: dB}, ex: {rank: dB}} from intermediate/audio/loudness.json.
+    A clip with no (or stale) measurement gets no entry = played as is, and we say so."""
+    meas = json.loads((AUD / "loudness.json").read_text()) if (AUD / "loudness.json").exists() else {}
+    out, missing = {"us": {}, "ex": {}}, 0
+    for kind in out:
+        for e in DATA:
+            f = AUD / kind / f"{e['rank']}.mp3"
+            if not f.exists():
+                continue
+            m = meas.get(kind, {}).get(str(e["rank"]))
+            if not m or m["I"] is None or m["sha"] != hashlib.sha1(f.read_bytes()).hexdigest()[:12]:
+                missing += 1
+                continue
+            g = round(min(TARGET_LUFS - m["I"], PEAK_CEIL - m["tp"]), 1)
+            out[kind][e["word"] if kind == "us" else str(e["rank"])] = g
+    if missing:
+        print(f"!! {missing} clips have no current loudness measurement -> played without "
+              f"normalization. Run: python scripts/measure_loudness.py")
+    return out
+
+
 def inline_json(items):
     return json.dumps({k: base64.b64encode(b).decode("ascii") for k, b in items},
                       ensure_ascii=False, separators=(",", ":"))
@@ -71,6 +99,7 @@ def pack(items):
 
 
 us_items, ex_items = clips("us"), clips("ex")
+audio_gain = json.dumps(gains(), ensure_ascii=False, separators=(",", ":"))
 cfg = ROOT / "web" / "supabase-config.json"
 sync_config = cfg.read_text().strip() if cfg.exists() else "null"
 # 冻结的旧序号表（rank 1..1250 → 单词）：把旧版「按序号存」的划线翻译成单词。永不修改（§8.5）
@@ -85,7 +114,8 @@ def render(audio_us, audio_ex, audio_index):
             .replace("__AUDIO_INDEX__", audio_index)
             .replace("__CACHE_NAME__", CACHE_NAME)
             .replace("__SYNC_CONFIG__", sync_config)
-            .replace("__LEGACY_V1__", legacy_v1))
+            .replace("__LEGACY_V1__", legacy_v1)
+            .replace("__AUDIO_GAIN__", audio_gain))
 
 
 def stamp(html, build_hash, build_time):

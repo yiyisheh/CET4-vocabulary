@@ -112,13 +112,51 @@
     padding-top:calc(env(safe-area-inset-top) + 12px);
     padding-bottom:calc(env(safe-area-inset-bottom) + 12px); }
   #search > *{ width:100%; max-width:720px; margin-left:auto; margin-right:auto; }
-  #search-count{ margin-left:auto; color:var(--gray); font-size:12px; font-variant-numeric:tabular-nums; }
+  #search-count{ margin-left:auto; margin-right:4px; color:var(--gray); font-size:12px; font-variant-numeric:tabular-nums; }
   #search-q{ flex:0 0 auto; padding:11px 14px; font-size:16px; font-family:inherit;
     border:1.5px solid var(--ink); border-radius:10px; background:var(--card); color:var(--ink); }
   #search-q:focus{ outline:2px solid var(--blue); outline-offset:1px; }
   #search-list{ flex:1 1 auto; overflow-y:auto; margin-top:8px; -webkit-overflow-scrolling:touch;
     overscroll-behavior:contain; }
   #search-list .hintbox{ margin-top:6px; }
+  /* ---------- 学习统计（全屏子页，与设置页同级）：浅灰底 + 圆角卡片 + 胶囊柱 ---------- */
+  #stats{ position:fixed; inset:0; z-index:50; display:none; flex-direction:column; padding:0 16px;
+    background:linear-gradient(var(--sshade),var(--sshade)), var(--bg);
+    padding-top:calc(env(safe-area-inset-top) + 12px);
+    padding-bottom:calc(env(safe-area-inset-bottom) + 24px); overflow:auto; }
+  #stats > *{ width:100%; max-width:640px; margin-left:auto; margin-right:auto; flex-shrink:0; }
+  .scard{ background:var(--scard); border-radius:18px; padding:16px 16px 18px; }
+  .ssec{ display:flex; align-items:center; gap:8px; font-size:17px; font-weight:700; margin:24px 4px 10px; }
+  .ssec i{ width:4px; height:16px; border-radius:2px; background:var(--fill); }
+  .big{ display:flex; }
+  .big > div{ flex:1; min-width:0; }
+  .big .k{ font-size:12.5px; color:var(--sub); }
+  .big .v{ margin-top:4px; font-weight:800; font-size:28px; letter-spacing:-.5px; line-height:1.15;
+    font-variant-numeric:tabular-nums; white-space:nowrap; }
+  .big .v small{ font-size:12px; font-weight:400; color:var(--gray); margin:0 4px 0 2px; letter-spacing:0; }
+  .big.foot{ margin-top:16px; padding-top:14px; border-top:1px solid var(--hair); }
+  .stabs{ display:flex; justify-content:center; gap:30px; border-bottom:1px solid var(--hair); }
+  .stabs button{ border:0; background:none; font:inherit; font-size:15px; color:var(--gray);
+    padding:4px 0 10px; position:relative; cursor:pointer; }
+  .stabs button.on{ color:var(--ink); font-weight:700; }
+  .stabs button.on::after{ content:""; position:absolute; left:50%; bottom:-1px; width:18px; height:3px;
+    margin-left:-9px; border-radius:2px; background:var(--fill); }
+  /* 单序列（不需要图例）：选中的柱 = 主题色实心 + 顶上数值，其余同色淡化；整列都是点按热区 */
+  .chart{ position:relative; height:196px; display:flex; margin-top:8px; }
+  .chart .c{ flex:1 1 0; min-width:0; position:relative; display:flex; flex-direction:column;
+    align-items:center; justify-content:flex-end; cursor:pointer; }
+  .chart .c::before{ content:""; position:absolute; top:8px; bottom:22px; left:50%; width:1px; background:var(--hair); }
+  .chart .bar{ position:relative; width:60%; max-width:12px; min-height:4px; border-radius:6px; }
+  .chart .bar::before{ content:""; position:absolute; inset:0; border-radius:inherit; background:var(--fill); opacity:.22; }
+  .chart .c.on .bar::before{ opacity:1; }
+  .chart .c.zero .bar{ height:4px !important; }
+  .chart .val{ position:absolute; bottom:100%; left:50%; transform:translateX(-50%); margin-bottom:6px;
+    font-size:12.5px; font-weight:700; color:var(--sub); white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .chart .x{ height:22px; line-height:22px; font-size:11.5px; color:var(--gray); white-space:nowrap;
+    font-variant-numeric:tabular-nums; }
+  .chart .c.on .x{ color:var(--blue); font-weight:700; }
+  .snote{ font-size:12px; color:var(--gray); margin:18px 4px 0; line-height:1.6; }
+
   /* 「定位」：跳到背诵页里这个词所在的那一页；不在当前词表里则灰字说明 */
   .sjump{ position:absolute; right:0; top:0; padding:2px 2px 6px 14px; font-size:12px;
     color:var(--blue); cursor:pointer; }
@@ -173,6 +211,14 @@
     display:none; flex-direction:column; padding:0 22px;
     padding-top:calc(env(safe-area-inset-top) + 12px);
     padding-bottom:calc(env(safe-area-inset-bottom) + 20px); overflow:auto; }
+  /* 设置的子页（样式与偏好 / 同步与更新）：与设置页同款，盖在它上面 */
+  .subpage{ position:fixed; inset:0; background:var(--bg); z-index:55;
+    display:none; flex-direction:column; padding:0 22px;
+    padding-top:calc(env(safe-area-inset-top) + 12px);
+    padding-bottom:calc(env(safe-area-inset-bottom) + 20px); overflow:auto; }
+  .sgroup{ font-size:13px; font-weight:700; color:var(--sub); margin:22px 2px 0; letter-spacing:.5px; }
+  .sgroup:first-of-type{ margin-top:8px; }
+  .sgap{ height:22px; flex:0 0 auto; }
   .shead{ display:flex; align-items:center; gap:12px; padding:6px 0 10px; }
   .shead .stitle{ font-size:18px; font-weight:700; color:var(--blue); }
   .row{ display:flex; align-items:center; padding:13px 2px;
@@ -279,6 +325,10 @@
     <span><span class="mt">搜索单词</span><span class="md">英文 · 中文释义 · 序号，全部 1250 词里查</span></span>
     <span class="marr">›</span>
   </button>
+  <button class="mitem" id="btn-stats">
+    <span><span class="mt">学习统计</span><span class="md">每天背了多久 · 划掉多少词 · 连续天数</span></span>
+    <span class="marr">›</span>
+  </button>
   <button class="mitem" id="btn-synbook">
     <span><span class="mt">同义词辨析 · 207 组</span><span class="md">1250 个高频词按同义/近义/易混分组，逐组讲透区别</span></span>
     <span class="marr">›</span>
@@ -296,10 +346,6 @@
   </div>
 
   <div class="row">
-    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，点主菜单「重置」时才重新加载去掉</span></div>
-    <div id="sw-removemarked" class="switch"></div>
-  </div>
-  <div class="row">
     <div class="lab"><b>状态池模式（莱特纳）</b><span>只背序号范围内还没划掉的词；划掉=熟练剔除。剩余降到阈值时，点主菜单「重置」才把范围往后推进放新词进来（不当场刷新）。已掌握按全库总量算，不会归零</span></div>
     <div id="sw-poolmode" class="switch"></div>
   </div>
@@ -315,50 +361,37 @@
       <button id="pool-reset" class="minibtn">重置范围</button>
     </div>
   </div>
-  <div class="row">
-    <div class="lab"><b>自测（释义 / 词根留白）</b><span>开启后释义、词根词缀卡彻底留白，点卡片才一起显示——先回忆再核对</span></div>
-    <div id="sw-selftest" class="switch"></div>
+
+  <div class="sgap"></div>
+  <button class="mitem" id="btn-openprefs">
+    <span><span class="mt">样式与偏好</span><span class="md">样式 · 背诵 · 发音</span></span>
+    <span class="marr">›</span>
+  </button>
+  <button class="mitem" id="btn-opensync">
+    <span><span class="mt">同步与更新</span><span class="md">多端同步 · 离线缓存 · 版本</span></span>
+    <span class="marr">›</span>
+  </button>
+
+  <div class="hintbox">
+    <b>操作说明</b><br>
+    · 点<b>序号</b> → 灰线标记「已掌握」（再点取消）<br>
+    · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音（美音）<br>
+    · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
+    · 点词条<b>其他地方</b> → 发音<br>
+    · 顶栏 / 主菜单<b>「搜索」</b> → 在全部 1250 词里查英文、中文释义或序号；结果里同样能发音、划线，点「定位」跳到背诵页里那一页；右上角<b>「全部词表」</b>按页浏览 1250 词（不遮罩、不计时）<br>
+    · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
+    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，点「重置」才把范围往后推进（不当场刷新）；可开「池内乱序」<br>
+    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单。「开始背诵」原样继续上次的页面，页面内容（哪些词、顺序、遮蔽）只在点<b>「重置」</b>时重建
   </div>
-  <div class="row subrow">
-    <div class="lab"><b>例句翻译随卡片解锁</b><span>仅自测时生效：例句中文翻译也一起遮住，点卡片和释义/词根同步解锁（英文原句始终可见）</span></div>
-    <div id="sw-masktrans" class="switch"></div>
+</div>
+
+<!-- 设置的子页：样式与偏好（样式 / 背诵 / 发音），盖在设置页上 -->
+<div id="prefs" class="subpage">
+  <div class="shead">
+    <button class="iconbtn" id="prefs-back">‹ 返回</button>
+    <div class="stitle">样式与偏好</div>
   </div>
-  <div class="row">
-    <div class="lab"><b>显示例句</b><span>关闭后不显示例句行（更精简）</span></div>
-    <div id="sw-showex" class="switch"></div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>实时累计词数</b><span>在分界线上按间隔标出「累计 N 词」深灰小字；可加多个间隔（如 100、25）。数当前显示的词——开「去掉已划掉」后自动只数剩下的</span></div>
-    <div class="hexwrap">
-      <input id="counter-input" type="number" min="1" inputmode="numeric" placeholder="每 N 词，如 100">
-      <button id="counter-add">添加</button>
-    </div>
-    <div class="chips" id="counter-chips"></div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>划线样式</b><span>变灰=划线并把整条变灰 / 仅划线=只划线，字体不变</span></div>
-    <div class="seg" id="seg-markstyle">
-      <button data-v="dim">变灰划线</button><button data-v="line">仅划线</button>
-    </div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>显示分界线</b><span>词条之间的浅色分隔线</span></div>
-    <div id="sw-divider" class="switch"></div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>翻页方式</b><span>左右滑动分页 / 上下无缝滚动</span></div>
-    <div class="seg" id="seg-mode">
-      <button data-v="h">左右翻页</button><button data-v="v">上下无缝</button>
-    </div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>跳过开头静音</b><span>发音开头静音归一为约 100ms；跳得越多越跟手（0–100ms）</span></div>
-    <div class="slider"><input id="rg-skip" type="range" min="0" max="100" step="10"><span class="val" id="v-skip"></span></div>
-  </div>
-  <div class="row">
-    <div class="lab"><b>例句播放前延迟</b><span>点例句朗读前的静默间隔；例句音频已去前置静音，可留 0</span></div>
-    <div class="slider"><input id="rg-exdelay" type="range" min="0" max="50" step="5"><span class="val" id="v-exdelay"></span></div>
-  </div>
+  <div class="sgroup">样式</div>
   <div class="row">
     <div class="lab"><b>字体大小</b><span>默认≈优化版 PDF 原大小（100% 缩放时）</span></div>
     <div class="slider"><input id="rg-fs" type="range" min="0.75" max="1.6" step="0.05"><span class="val" id="v-fs"></span></div>
@@ -372,6 +405,30 @@
   <div class="row">
     <div class="lab"><b>间距（空隙）</b><span>控制栏间距与左右留白</span></div>
     <div class="slider"><input id="rg-sp" type="range" min="0" max="1" step="0.05"><span class="val" id="v-sp"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>翻页方式</b><span>左右滑动分页 / 上下无缝滚动</span></div>
+    <div class="seg" id="seg-mode">
+      <button data-v="h">左右翻页</button><button data-v="v">上下无缝</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>划线样式</b><span>变灰=划线并把整条变灰 / 仅划线=只划线，字体不变</span></div>
+    <div class="seg" id="seg-markstyle">
+      <button data-v="dim">变灰划线</button><button data-v="line">仅划线</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>显示分界线</b><span>词条之间的浅色分隔线</span></div>
+    <div id="sw-divider" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>实时累计词数</b><span>在分界线上按间隔标出「累计 N 词」深灰小字；可加多个间隔（如 100、25）。数当前显示的词——开「去掉已划掉」后自动只数剩下的</span></div>
+    <div class="hexwrap">
+      <input id="counter-input" type="number" min="1" inputmode="numeric" placeholder="每 N 词，如 100">
+      <button id="counter-add">添加</button>
+    </div>
+    <div class="chips" id="counter-chips"></div>
   </div>
   <div class="row" style="display:block">
     <div class="lab"><b>背景颜色</b><span>点色块选择；或在下方输入色号 (#RRGGBB) 添加</span></div>
@@ -389,46 +446,79 @@
       <button id="achexadd">添加</button>
     </div>
   </div>
+  <div class="sgroup">背诵</div>
+  <div class="row">
+    <div class="lab"><b>自测（释义 / 词根留白）</b><span>开启后释义、词根词缀卡彻底留白，点卡片才一起显示——先回忆再核对</span></div>
+    <div id="sw-selftest" class="switch"></div>
+  </div>
+  <div class="row subrow">
+    <div class="lab"><b>例句翻译随卡片解锁</b><span>仅自测时生效：例句中文翻译也一起遮住，点卡片和释义/词根同步解锁（英文原句始终可见）</span></div>
+    <div id="sw-masktrans" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>显示例句</b><span>关闭后不显示例句行（更精简）</span></div>
+    <div id="sw-showex" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>去掉已经划掉的单词</b><span>开启后，已掌握（划线）的单词会被去掉；不实时移除，点主菜单「重置」时才重新加载去掉</span></div>
+    <div id="sw-removemarked" class="switch"></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>只统计状态池 + 自测时的时长</b><span>开启时，状态池和自测都开着才计入学习时长；关闭则背诵页开着就计</span></div>
+    <div id="sw-studystrict" class="switch"></div>
+  </div>
+  <div class="sgroup">发音</div>
+  <div class="row">
+    <div class="lab"><b>跳过开头静音</b><span>发音开头静音归一为约 100ms；跳得越多越跟手（0–100ms）</span></div>
+    <div class="slider"><input id="rg-skip" type="range" min="0" max="100" step="10"><span class="val" id="v-skip"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>例句播放前延迟</b><span>点例句朗读前的静默间隔；例句音频已去前置静音，可留 0</span></div>
+    <div class="slider"><input id="rg-exdelay" type="range" min="0" max="50" step="5"><span class="val" id="v-exdelay"></span></div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>开发者模式</b><span>底部实时显示解码 PCM 波形、真起音(橙)/起播(绿)/播放头(红)，调试发音起点用</span></div>
+    <div id="sw-dev" class="switch"></div>
+  </div>
+</div>
+
+<!-- 设置的子页：同步与更新 -->
+<div id="syncpage" class="subpage">
+  <div class="shead">
+    <button class="iconbtn" id="syncpage-back">‹ 返回</button>
+    <div class="stitle">同步与更新</div>
+  </div>
 
   <div class="row" style="display:block">
-    <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准) 与「自定义色号列表」；其余设置及当前选中的颜色不同步</span></div>
+    <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准)、「自定义色号列表」和学习时长；其余设置及当前选中的颜色不同步</span></div>
     <div class="hexwrap">
       <input id="syncinput" type="text" placeholder="同步码，如 cet4-9f3k" maxlength="40">
       <button id="syncbtn">连接 / 保存</button>
     </div>
     <div id="syncstatus" style="font-size:12px;color:var(--sub);margin-top:6px"></div>
   </div>
-
   <div class="row" id="cache-row">
     <div class="lab"><b>离线缓存</b><span id="cache-sub">检测中…</span></div>
     <div class="cachebar"><i id="cache-fill"></i></div>
   </div>
-
   <div class="row" id="update-row">
     <div class="lab"><b>版本</b><span id="ver-sub">…</span></div>
     <button id="btn-update" class="minibtn">检查更新</button>
   </div>
+</div>
 
-  <div class="row">
-    <div class="lab"><b>开发者模式</b><span>底部实时显示解码 PCM 波形、真起音(橙)/起播(绿)/播放头(红)，调试发音起点用</span></div>
-    <div id="sw-dev" class="switch"></div>
+<!-- 学习统计子页：主菜单进入，内容由 renderStats() 生成 -->
+<div id="stats">
+  <div class="shead">
+    <button class="iconbtn" id="stats-back">‹ 返回</button>
+    <span class="stitle">学习统计</span>
   </div>
-
-  <div class="hintbox">
-    <b>操作说明</b><br>
-    · 点<b>序号</b> → 灰线标记「已掌握」（再点取消）<br>
-    · 点<b>单词</b> → 音节拆分 ⇄ 原词，并发音（美音）<br>
-    · 点<b>例句</b> → 朗读整句（Andrew / Brian 双音色）<br>
-    · 点词条<b>其他地方</b> → 发音<br>
-    · 顶栏 / 主菜单<b>「搜索」</b> → 在全部 1250 词里查英文、中文释义或序号；结果里同样能发音、划线，点「定位」跳到背诵页里那一页<br>
-    · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
-    · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，点「重置」才把范围往后推进（不当场刷新）；可开「池内乱序」<br>
-    · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单。「开始背诵」原样继续上次的页面，页面内容（哪些词、顺序、遮蔽）只在点<b>「重置」</b>时重建
-  </div>
+  <div id="stats-body"></div>
 </div>
 
 <div id="top">
-  <div class="t">四级高频 1250</div><div class="sp"></div>
+  <button class="iconbtn" id="btn-browseback" style="display:none">‹ 返回</button>
+  <div class="t" id="top-title">四级高频 1250</div><div class="sp"></div>
   <button class="iconbtn" id="btn-search">搜索</button>
   <button class="iconbtn" id="btn-settings">菜单</button>
 </div>
@@ -442,6 +532,7 @@
     <button class="iconbtn" id="search-close">‹ 返回</button>
     <span class="stitle">搜索</span>
     <span id="search-count"></span>
+    <button class="iconbtn" id="btn-browse">全部词表</button>
   </div>
   <input id="search-q" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off"
     autocapitalize="off" spellcheck="false" placeholder="输入英文、中文释义或序号">
@@ -518,6 +609,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
     list:null,                    // the frozen page content: ranks in display order, rebuilt ONLY by 重置 (buildList). 【local】
     listShuffled:false,           // whether that frozen list was shuffled -> hide rank numbers. 【local】
     revealed:{},                  // self-test: words already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
+    studyMs:{},                   // 学习时长（本机）：{"YYYY-MM-DD": 毫秒}。【同步】kind "time"，见 studyTick
+    studyOthers:{},
+    studyStrict:true,             // 只统计状态池 + 自测都开着时的时长（默认开）。【本地】
+    browseAnchor:1,               // 「全部词表」的阅读位置（与背诵页的 anchor 分开）。【本地】               // 其他设备的学习时长 {设备id:{日期:毫秒}}：云端拉来的缓存，只读
+    deviceId:"",                  // 本机随机 id，用来区分各设备的时长行。【本地】
     keysV:1                       // 1 = marks/revealed keyed by rank (old); 2 = keyed by word (see migrateKeys)
   };
   try{ var s=JSON.parse(localStorage.getItem(LS)); if(s) Object.assign(state,s); }catch(e){}
@@ -527,6 +623,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(state.showMarked!==undefined){ state.removeMarked=!state.showMarked; delete state.showMarked; }
   if(!state.marks) state.marks={};
   if(!state.revealed) state.revealed={};
+  if(!state.studyMs || typeof state.studyMs!=="object") state.studyMs={};
+  if(!state.studyOthers || typeof state.studyOthers!=="object") state.studyOthers={};
+  var _newDevice=!state.deviceId;
+  if(_newDevice) state.deviceId=Math.random().toString(36).slice(2,10)+Date.now().toString(36).slice(-4);
   // 身份键 rank -> 单词（§8.5）：划线/解锁跟着词走，词表重排或换六级都不会对错词。
   // 翻译只用冻结的 LEGACY_V1，不用当前 DATA。迁移前把原始存档整份另存一份，永不覆盖。
   var LEGACY_V1 = window.LEGACY_V1 || [];
@@ -557,7 +657,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(!(state.poolSize>=1)) state.poolSize=40;
   if(!(state.poolLow>=1)) state.poolLow=15;       // 0 would advance by 0 forever
   if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
-  if(_poolMigrated || _keysMigrated) save();
+  if(_poolMigrated || _keysMigrated || _newDevice) save();
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
   function marked(word){ var m=own(state.marks,word)&&state.marks[word]; return !!(m && m.v===1); }
 
@@ -583,18 +683,21 @@ window.LEGACY_V1 = __LEGACY_V1__;
     }
   }
 
-  // look = 搜索结果：总显示序号、不遮蔽、总带例句、没有累计小标，右上角多一个「定位」
+  // look = 搜索结果：总显示序号、不遮蔽、总带例句、没有累计小标，右上角多一个「定位」。
+  // 「全部词表」(browseAll) 同样显示序号、不遮蔽、无累计小标，例句跟随「显示例句」设置。
+  var browseAll=false;
   function entryHTML(e, look){
+    var plain=look||browseAll;
     var h='<div class="entry'+(marked(e.word)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
-    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled&&!look?'</span>':e.rank+'.</span> ')
+    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled&&!plain?'</span>':e.rank+'.</span> ')
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span>';
     if(look) h+=inList(e.rank) ? '<span class="sjump" data-act="jump">定位 ›</span>'
                                : '<span class="sjump off" data-act="none">不在当前词表</span>';
     h+='</div>';
     // self-test masking; an unlocked card (state.revealed) stays unlocked across re-renders
     // and relaunches — only 重置 re-covers everything.
-    var st=!look && state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
+    var st=!plain && state.selftest && !own(state.revealed,e.word), m=st?' mask':"", ma=st?' data-act="reveal"':"";
     if(e.uk||e.us) h+='<div class="ipa">英[/'+esc(e.uk)+'/]&nbsp; 美[/'+esc(e.us)+'/]</div>';
     if(e.def) h+='<div class="def'+m+'"'+ma+'>'+esc(e.def)+'</div>';
     // 核心意象卡（多义小词：一个画面串起各义项；自测里同样遮蔽）
@@ -624,7 +727,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
       if(tr) h+=(en?" ":"")+'<span class="extrans'+(maskTr?" mask":"")+'"'+(maskTr?' data-act="reveal"':"")+'>'+esc(tr)+'</span>';
       h+='</div>';
     }
-    if(!look && milestoneAt[e.rank]) h+='<div class="milestone">累计 '+milestoneAt[e.rank]+' 词</div>';
+    if(!plain && milestoneAt[e.rank]) h+='<div class="milestone">累计 '+milestoneAt[e.rank]+' 词</div>';
     return h+'</div>';
   }
 
@@ -662,6 +765,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     state.list=r; state.listShuffled=sh; save();      // listShuffled: 冻结时是否乱序（乱序不显示序号）
   }
   function listEntries(){
+    if(browseAll) return DATA;                        // 全部词表：全库按序号，与冻结的背诵词表无关
     return (state.list||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
   }
   function inList(rank){ return (state.list||[]).indexOf(rank)>=0; }
@@ -762,7 +866,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
       for(var k=0;k<pages[p][c].length;k++) if(pages[p][c][k].rank===rank) return p;
     return 0;
   }
-  function restoreAnchor(){ var p=pageOfRank(state.anchor);
+  function anchorKey(){ return browseAll ? "browseAnchor" : "anchor"; }   // 两个视图各记各的位置
+  function restoreAnchor(){ var p=pageOfRank(state[anchorKey()]||1);
     requestAnimationFrame(function(){ scrollToPage(p,false); updateLabel(); }); }
   function scrollToPage(p,smooth){
     p=Math.max(0,Math.min(pages.length-1,p));
@@ -778,7 +883,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
       for(var j=0;j<ps.length;j++) if(ps[j].offsetTop+ps[j].offsetHeight>=y) return j; }
     return ps.length-1;
   }
-  function firstRankOnPage(p){ return (pages[p]&&pages[p][0]&&pages[p][0][0])?pages[p][0][0].rank:state.anchor; }
+  function firstRankOnPage(p){ return (pages[p]&&pages[p][0]&&pages[p][0][0])?pages[p][0][0].rank:state[anchorKey()]; }
   function updateLabel(){
     var cur=currentPage();
     pagenoEl.textContent=(cur+1)+" / "+pages.length;
@@ -792,7 +897,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   var scrollTO;
   pagesEl.addEventListener("scroll", function(){
     var cur=updateLabel(); clearTimeout(scrollTO);
-    scrollTO=setTimeout(function(){ state.anchor=firstRankOnPage(cur); save(); prefetchCurrent(); }, 160);
+    scrollTO=setTimeout(function(){ state[anchorKey()]=firstRankOnPage(cur); save(); prefetchCurrent(); }, 160);
   }, {passive:true});
 
   // ---- audio source: inline base64 (single-file build) OR binary packs (hosted build) ----
@@ -1172,6 +1277,9 @@ window.LEGACY_V1 = __LEGACY_V1__;
     r.setProperty("--mark",dark?"#8b9096":"#8a8a8a");
     r.setProperty("--hair",dark?"rgba(255,255,255,.10)":"rgba(0,0,0,.08)");
     r.setProperty("--panel",dark?"rgba(255,255,255,.05)":"#f4f6f9");
+    // 学习统计页：浅色 = 底色压暗一点 + 卡片用底色；深色 = 底色 + 卡片提亮一点
+    r.setProperty("--sshade",dark?"transparent":"rgba(0,0,0,.035)");
+    r.setProperty("--scard",dark?"rgba(255,255,255,.06)":bg);
   }
 
   // ---- settings UI ----
@@ -1275,8 +1383,17 @@ window.LEGACY_V1 = __LEGACY_V1__;
     rgSkip.value=state.skipMs; vSkip.textContent=state.skipMs+"ms";
     rgExDelay.value=state.exDelay; vExDelay.textContent=state.exDelay+"ms";
     swDev.classList.toggle("on",!!state.dev);
+    swStrict.classList.toggle("on",state.studyStrict!==false);
     renderSwatches(); renderAccents();
   }
+  var swStrict=document.getElementById("sw-studystrict");
+  swStrict.addEventListener("click", function(){ state.studyStrict=state.studyStrict===false; syncSettings(); save(); });
+  // 设置的两个子页：盖在设置页上，返回回设置页（设置页一直开着，所以「设置打开」的判断照旧成立）
+  var prefsEl=document.getElementById("prefs"), syncPageEl=document.getElementById("syncpage");
+  document.getElementById("btn-openprefs").addEventListener("click", function(){ prefsEl.style.display="flex"; prefsEl.scrollTop=0; });
+  document.getElementById("btn-opensync").addEventListener("click", function(){ updateCacheUI(); syncPageEl.style.display="flex"; syncPageEl.scrollTop=0; });
+  document.getElementById("prefs-back").addEventListener("click", function(){ prefsEl.style.display="none"; });
+  document.getElementById("syncpage-back").addEventListener("click", function(){ syncPageEl.style.display="none"; });
   swRemove.addEventListener("click", function(){ state.removeMarked=!state.removeMarked; syncSettings(); save(); });
   // active pool. The ceiling only ever moves FORWARD, so editing 容量/阈值 can never lose
   // progress: 容量 is just the starting range, 阈值 is both the low-water mark and the step.
@@ -1340,6 +1457,9 @@ window.LEGACY_V1 = __LEGACY_V1__;
         h+="<br>剩余已到阈值——点「重置」将推进到 "+Math.min(DATA.length, win+(state.poolSize-state.poolLow))+" 号";
       else if(win>=DATA.length) h+="（已到全书末尾）";
     }
+    var today=dayKey(), tms=studyByDay()[today]||0, streak=studyStreak();
+    h+="<br>今天学习 <b>"+fmtDur(tms)+"</b> · 划掉 <b>"+(marksByDay()[today]||0)+"</b> 词"
+      +(streak>=2?" · 连续 <b>"+streak+"</b> 天":"");
     menuProgEl.innerHTML=h;
   }
 
@@ -1348,7 +1468,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // Nothing else (开始背诵, settings, backgrounding, relaunch, resize, sync pull, marking a
   // word) is allowed to do this. 开始背诵 just re-enters the same list where you left off
   // (paginate() only re-lays it out, in case layout settings changed while in the menu).
-  function enterReading(){ settingsEl.style.display="none"; menuEl.style.display="none"; paginate(); }
+  function enterReading(){ closeSettings(); menuEl.style.display="none"; paginate(); }
+  function closeSettings(){ settingsEl.style.display=prefsEl.style.display=syncPageEl.style.display="none"; }
   document.getElementById("start").addEventListener("click", enterReading);
   document.getElementById("reset").addEventListener("click", function(){
     state.revealed={}; buildList();
@@ -1356,6 +1477,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     save(); enterReading(); });
   // 顶栏「设置」-> 回主菜单；菜单里的「设置」-> 设置子页；子页「返回」回菜单（不刷新）。
   document.getElementById("btn-settings").addEventListener("click", function(){
+    if(browseAll) setBrowse(false, false);           // 菜单下面的页面回到背诵词表（开始背诵会重新排版）
     renderMenu(); menuEl.style.display="flex"; wheelH.style.display="none"; wheelV.style.display="none"; });
   document.getElementById("btn-opensettings").addEventListener("click", function(){
     syncSettings(); updateCacheUI(); settingsEl.style.display="flex"; });
@@ -1422,7 +1544,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function jumpTo(rank){
     closeSearch();
     state.anchor=rank; save();
-    if(menuEl.style.display!=="none") enterReading();     // paginate() -> restoreAnchor() lands on it
+    if(browseAll){ setBrowse(false, false); enterReading(); }   // 定位永远去背诵词表
+    else if(menuEl.style.display!=="none") enterReading();     // paginate() -> restoreAnchor() lands on it
     else { scrollToPage(pageOfRank(rank), false); updateLabel(); }
     requestAnimationFrame(function(){ requestAnimationFrame(function(){
       var el=pagesEl.querySelector('.entry[data-rank="'+rank+'"]'); if(!el) return;
@@ -1436,8 +1559,154 @@ window.LEGACY_V1 = __LEGACY_V1__;
   document.getElementById("btn-search").addEventListener("click", openSearch);
   document.getElementById("btn-menusearch").addEventListener("click", openSearch);
   document.getElementById("search-close").addEventListener("click", closeSearch);
+
+  // ---- 全部词表：从搜索页右上角进入，按页浏览全库（不遮罩、不计时，可划线/取消划线）----
+  // 不碰 state.list / revealed；位置记在 state.browseAnchor。返回 → 回到搜索页（搜索页再返回 → 原来的菜单或背诵页）。
+  var browseFromMenu=false;
+  function setBrowse(on, repaint){
+    browseAll=on;
+    document.getElementById("top-title").textContent=on ? "全部词表" : "四级高频 1250";
+    document.getElementById("btn-browseback").style.display=on ? "" : "none";
+    if(repaint) paginate();
+  }
+  document.getElementById("btn-browse").addEventListener("click", function(){
+    browseFromMenu=menuEl.style.display!=="none";
+    searchEl.style.display="none"; searchQ.blur();
+    menuEl.style.display="none"; setBrowse(true, true);
+  });
+  document.getElementById("btn-browseback").addEventListener("click", function(){
+    closeWheel(); setBrowse(false, true);
+    if(browseFromMenu){ renderMenu(); menuEl.style.display="flex"; }
+    openSearch();
+  });
   document.addEventListener("keydown", function(e){
     if(e.key==="Escape" && searchEl.style.display!=="none") closeSearch(); });
+
+  // ---- 学习时长 ----
+  // 只算「在背」：背诵页开着、网页在前台（主菜单 / 设置 / 统计 / 搜索 / 全部词表都不算）；
+  // 「只统计状态池 + 自测时的时长」开着（默认）时，还要状态池和自测都开着。
+  // 每次操作（按下、滚动、滚轮、按键）都是一次心跳：和上一次心跳的间隔 ≤ 20 秒就整段计入；
+  // 超过 20 秒当作走开了，这段一秒都不计（不是只算 20 秒）。切后台 / 锁屏直接断开间隔。
+  // 计入的那段属于这次心跳所在的页面：在菜单里点「开始背诵」→ 背诵页第一次操作，中间那段算；
+  // 菜单里的两次操作之间不算。按本地日期分天，本机存 state.studyMs，多端同步见 reconcile()。
+  var STUDY_GAP=20000, lastAct=0, studySaveTO=null,
+      statsEl=document.getElementById("stats"), statsBody=document.getElementById("stats-body");
+  function dayKey(d){ d=d||new Date();
+    return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
+  function studying(){
+    if(browseAll || searchEl.style.display==="flex" || menuEl.style.display!=="none" || settingsEl.style.display!=="none") return false;
+    return state.studyStrict===false || (state.poolMode && state.selftest);
+  }
+  function studyTick(){
+    if(document.hidden){ lastAct=0; return; }
+    var now=Date.now(), gap=now-lastAct;
+    if(lastAct && gap>0 && gap<=STUDY_GAP && studying()){
+      var k=dayKey(); state.studyMs[k]=(state.studyMs[k]||0)+gap;
+      if(!studySaveTO) studySaveTO=setTimeout(flushStudy, 5000);   // 滚动时心跳很密，攒 5 秒再存盘
+    }
+    lastAct=now;
+  }
+  function flushStudy(){ if(!studySaveTO) return; clearTimeout(studySaveTO); studySaveTO=null; save(); }   // 只在有未存的时长时写盘
+  ["pointerdown","keydown","wheel","scroll"].forEach(function(t){
+    document.addEventListener(t, studyTick, {capture:true, passive:true}); });   // scroll 不冒泡，捕获阶段才收得到
+  document.addEventListener("visibilitychange", function(){ if(document.hidden){ lastAct=0; flushStudy(); } });
+  window.addEventListener("pagehide", flushStudy);
+
+  function studyByDay(){                           // 所有设备相加：{日期: 毫秒}
+    var t={}, k, d;
+    for(k in state.studyMs) t[k]=(t[k]||0)+state.studyMs[k];
+    for(d in state.studyOthers) for(k in state.studyOthers[d]) t[k]=(t[k]||0)+state.studyOthers[d][k];
+    return t;
+  }
+  function marksByDay(){                           // 当前是「划掉」、且是在那一天划的（同步来的也算）
+    var m={}, w, x, k;
+    for(w in state.marks){ x=state.marks[w];
+      if(x && x.v===1 && x.t>0){ k=dayKey(new Date(x.t)); m[k]=(m[k]||0)+1; } }
+    return m;
+  }
+  function fmtDur(ms){ var min=Math.floor(ms/60000);
+    return min<60 ? min+" 分钟" : Math.floor(min/60)+" 小时"+(min%60?" "+min%60+" 分":""); }
+  function studyStreak(){                          // 连续学习天数（≥1 分钟算一天）；今天还没背不打断
+    var by=studyByDay(), d=new Date(), n=0;
+    if(!((by[dayKey(d)]||0)>=60000)) d.setDate(d.getDate()-1);
+    while((by[dayKey(d)]||0)>=60000){ n++; d.setDate(d.getDate()-1); }
+    return n;
+  }
+  var WEEKDAY="日一二三四五六";
+
+  // 两张图（学习时长 / 划掉的词），各有 最近一周 / 最近 30 天 / 按月查看 三个标签；点某一列选中它（顶上标数值）
+  var statsView={t:{tab:"w",sel:-1}, m:{tab:"m",sel:-1}};
+  function statSeries(tab, by){                    // -> [{lab, val}]，旧→新，最后一项是今天 / 本月
+    var now=new Date(), out=[], i, d, k, v;
+    if(tab==="m"){
+      for(i=11;i>=0;i--){ d=new Date(now.getFullYear(), now.getMonth()-i, 1);
+        k=d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2); v=0;
+        for(var dk in by) if(dk.slice(0,7)===k) v+=by[dk];
+        out.push({lab:("0"+(d.getMonth()+1)).slice(-2), val:v, full:d.getFullYear()+" 年 "+(d.getMonth()+1)+" 月"}); }
+    } else {
+      var n=tab==="w"?7:30;
+      for(i=n-1;i>=0;i--){ d=new Date(now); d.setDate(now.getDate()-i);
+        var lab = tab==="w" ? (i===0?"今天":WEEKDAY[d.getDay()]) : (i===0?"今天":(i%7===0?(d.getMonth()+1)+"/"+d.getDate():""));
+        out.push({lab:lab, val:by[dayKey(d)]||0}); }
+    }
+    return out;
+  }
+  function chartHTML(key, series, fmt){
+    var v=statsView[key], sel=v.sel<0||v.sel>=series.length ? series.length-1 : v.sel;
+    var max=Math.max.apply(null, series.map(function(x){ return x.val; }))||1;
+    return '<div class="chart" data-k="'+key+'">'+series.map(function(x,i){
+      var h=x.val>0 ? Math.max(6, x.val/max*148) : 4;
+      return '<div class="c'+(i===sel?" on":"")+(x.val>0?"":" zero")+'" data-i="'+i+'"><div class="bar" style="height:'+h+'px">'
+        +(i===sel?'<span class="val">'+fmt(x.val)+'</span>':"")+'</div><div class="x">'+x.lab+'</div></div>';
+    }).join("")+'</div>';
+  }
+  function tabsHTML(key){
+    var t=statsView[key].tab;
+    return '<div class="stabs" data-k="'+key+'">'+[["w","最近一周"],["d","最近 30 天"],["m","按月查看"]].map(function(x){
+      return '<button data-t="'+x[0]+'"'+(x[0]===t?' class="on"':"")+'>'+x[1]+'</button>'; }).join("")+'</div>';
+  }
+  function bigNum(k, html){ return '<div><div class="k">'+k+'</div><div class="v">'+html+'</div></div>'; }
+  function durHTML(ms){ var min=Math.floor(ms/60000), h=Math.floor(min/60);
+    return h ? h+'<small>小时</small>'+(min%60)+'<small>分</small>' : min+'<small>分钟</small>'; }
+  function sumVals(s){ return s.reduce(function(a,x){ return a+x.val; }, 0); }
+  var TAB_SUM={w:"近 7 天", d:"近 30 天", m:"本月"};
+  function renderStats(){
+    var by=studyByDay(), mk=marksByDay(), today=dayKey();
+    var totalMs=0, totalMk=0, k;
+    for(k in by) totalMs+=by[k];
+    for(k in mk) totalMk+=mk[k];
+    var h='<div class="scard big">'+bigNum("今天学习", durHTML(by[today]||0))
+      +bigNum("今天划掉", (mk[today]||0)+'<small>词</small>')
+      +bigNum("连续学习", studyStreak()+'<small>天</small>')+'</div>';
+
+    var tv=statsView.t, ts=statSeries(tv.tab, by);
+    h+='<div class="ssec"><i></i>学习时长</div><div class="scard">'+tabsHTML("t")
+      +chartHTML("t", ts, function(ms){ return fmtDur(ms).replace(/ /g,""); })
+      +'<div class="big foot">'+bigNum(TAB_SUM[tv.tab]+"学习", durHTML(tv.tab==="m"?ts[ts.length-1].val:sumVals(ts)))
+      +bigNum("总时长", durHTML(totalMs))+'</div></div>';
+
+    var mv=statsView.m, ms=statSeries(mv.tab, mk);
+    var perH = totalMs>=600000 ? Math.round(totalMk/(totalMs/3600000))+'<small>词</small>' : '—';
+    h+='<div class="ssec"><i></i>划掉的词</div><div class="scard">'+tabsHTML("m")
+      +chartHTML("m", ms, function(n){ return n+" 词"; })
+      +'<div class="big foot">'+bigNum(TAB_SUM[mv.tab]+"划掉", (mv.tab==="m"?ms[ms.length-1].val:sumVals(ms))+'<small>词</small>')
+      +bigNum("每小时划掉", perH)+'</div></div>';
+
+    var devs=Object.keys(state.studyOthers).length;
+    h+='<div class="snote">只统计背诵页的时间'+(state.studyStrict===false?"":"（状态池和自测都开着时）")
+      +'；两次操作间隔超过 '+(STUDY_GAP/1000)+' 秒的那段不算'+(devs?"；含其他 "+devs+" 台设备":"")+'。</div>';
+    statsBody.innerHTML=h;
+  }
+  statsBody.addEventListener("click", function(ev){
+    var tb=ev.target.closest(".stabs button");
+    if(tb){ var v=statsView[tb.parentNode.dataset.k]; v.tab=tb.dataset.t; v.sel=-1; renderStats(); return; }
+    var c=ev.target.closest(".chart .c");
+    if(c){ statsView[c.parentNode.dataset.k].sel=+c.dataset.i; renderStats(); }
+  });
+  document.getElementById("btn-stats").addEventListener("click", function(){
+    flushStudy(); statsView.t.sel=statsView.m.sel=-1; renderStats(); statsEl.style.display="flex"; statsEl.scrollTop=0; });
+  document.getElementById("stats-back").addEventListener("click", function(){
+    statsEl.style.display="none"; renderMenu(); });
 
   // ---- offline-cache progress ----
   // The bar tracks the audio packs, because that IS the download: the shell is ~560KB (the SW
@@ -1602,12 +1871,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
       .then(function(rows){
         // 划线两种行（§8.5）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
         // 两者按单词合并取最新；本地较新时两种都写回——旧版设备只认 "mark"，双写让它们照常同步。旧行只覆盖、不删除。
-        var rW={}, rL={}, rColors={}, k, w;
+        var rW={}, rL={}, rColors={}, rTime={}, k, w;
         function keep(map,key,row){ var t=Number(row.t); if(!own(map,key) || t>map[key].t) map[key]={v:row.v?1:0,t:t}; }
         rows.forEach(function(row){
           if(row.kind==="w") keep(rW,row.item,row);
           else if(row.kind==="mark"){ w=legacyWord(row.item); if(w) keep(rL,w,row); }
-          else if(row.kind==="color") rColors[row.item]=true; });
+          else if(row.kind==="color") rColors[row.item]=true;
+          else if(row.kind==="time") rTime[row.item]=Number(row.t); });
         var changed=false, push=[], rm;
         [rW,rL].forEach(function(map){ for(k in map){ rm=map[k];
           if(!own(state.marks,k) || rm.t>state.marks[k].t){ state.marks[k]={v:rm.v,t:rm.t}; changed=true; } } });
@@ -1618,9 +1888,19 @@ window.LEGACY_V1 = __LEGACY_V1__;
         for(k in rColors){ var hex="#"+k;
           if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
         state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
+        // 学习时长：kind "time"，item = "设备id|日期"，t = 当天毫秒数（借用 t 列存时长，不是时间戳）。
+        // 每台设备只写自己的行，所以不会互相覆盖；本机行取 max（只增不减），别的设备整份替换成云端的。
+        var others={}, tk, tp, me=state.deviceId;
+        for(tk in rTime){ tp=tk.split("|"); if(tp.length!==2) continue;
+          if(tp[0]===me){ if(rTime[tk]>(state.studyMs[tp[1]]||0)){ state.studyMs[tp[1]]=rTime[tk]; changed=true; } }
+          else (others[tp[0]]=others[tp[0]]||{})[tp[1]]=rTime[tk]; }
+        if(JSON.stringify(others)!==JSON.stringify(state.studyOthers)){ state.studyOthers=others; changed=true; }
+        for(k in state.studyMs){ var ms=Math.round(state.studyMs[k]), ti=me+"|"+k;
+          if(!own(rTime,ti) || ms>rTime[ti]) push.push({code:SYNC.code,kind:"time",item:ti,v:1,t:ms}); }
         if(changed){
           save(); renderSwatches();
           if(menuEl.style.display!=="none") renderMenu();   // 菜单开着时，同步拉回的划线要反映到「已掌握」计数
+          if(statsEl.style.display==="flex") renderStats();
           if(settingsEl.style.display==="none"){
             document.querySelectorAll(".entry[data-rank]").forEach(function(el){   // pages + open search results
               el.classList.toggle("marked", !!marked(el.dataset.word));
@@ -1638,14 +1918,17 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function scheduleSync(){ if(!SYNC.code || !SYNC.cfg) return; clearTimeout(pushTO); pushTO=setTimeout(reconcile, 800); }
   function syncPushMark(){ scheduleSync(); }
   function syncPushColor(){ scheduleSync(); }
-  document.addEventListener("visibilitychange", function(){ if(!document.hidden) reconcile(); });
+  document.addEventListener("visibilitychange", function(){ reconcile(); });   // 回前台拉取；切后台把刚背的时长推上去
   window.addEventListener("focus", function(){ reconcile(); });
 
   // sync settings UI
   var syncInput=document.getElementById("syncinput"), syncBtn=document.getElementById("syncbtn");
   syncStatusEl=document.getElementById("syncstatus");
   syncInput.value=state.syncCode||"";
-  syncBtn.addEventListener("click", function(){ state.syncCode=(syncInput.value||"").trim(); save(); startSync(); });
+  syncBtn.addEventListener("click", function(){
+    var code=(syncInput.value||"").trim();
+    if(code!==state.syncCode) state.studyOthers={};   // 别的设备的时长属于旧同步码，换码就清掉，等新码拉回
+    state.syncCode=code; save(); startSync(); });
   setSyncStatus(state.syncCode ? "connecting" : "off");
 
   // init — 每次启动（无论新老用户）都先落主菜单；「开始背诵」原样继续，

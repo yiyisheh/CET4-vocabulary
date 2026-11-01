@@ -1682,9 +1682,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   var TAB_SUM={w:"近 7 天", d:"近 30 天", m:"本月"};
   function renderStats(){
     var by=studyByDay(), mk=marksByDay(), today=dayKey();
-    var totalMs=0, totalMk=0, k;
+    var totalMs=0, k;
     for(k in by) totalMs+=by[k];
-    for(k in mk) totalMk+=mk[k];
     var h='<div class="scard big">'+bigNum("今天学习", durHTML(by[today]||0))
       +bigNum("今天划掉", (mk[today]||0)+'<small>词</small>')
       +bigNum("连续学习", studyStreak()+'<small>天</small>')+'</div>';
@@ -1696,7 +1695,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
       +bigNum("总时长", durHTML(totalMs))+'</div></div>';
 
     var mv=statsView.m, ms=statSeries(mv.tab, mk);
-    var perH = totalMs>=600000 ? Math.round(totalMk/(totalMs/3600000))+'<small>词</small>' : '—';
+    // 效率只看「有学习时长记录的日子」：计时上线前的历史划线没有对应的时长，混进来会算出离谱的数
+    var effMs=0, effMk=0;
+    for(k in by) if(by[k]>0){ effMs+=by[k]; effMk+=mk[k]||0; }
+    var perH = effMs>=600000 ? Math.round(effMk/(effMs/3600000))+'<small>词</small>' : '—';
     h+='<div class="ssec"><i></i>划掉的词</div><div class="scard">'+tabsHTML("m")
       +chartHTML("m", ms, function(n){ return n+" 词"; })
       +'<div class="big foot">'+bigNum(TAB_SUM[mv.tab]+"划掉", (mv.tab==="m"?ms[ms.length-1].val:sumVals(ms))+'<small>词</small>')

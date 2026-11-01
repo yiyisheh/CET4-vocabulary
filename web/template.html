@@ -1168,13 +1168,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var rank=+entry.dataset.rank, word=entry.dataset.word;
     var a=ev.target.closest("[data-act]"), act=a?a.dataset.act:"speak";
     if(act==="none") return;
-    if(act==="jump"){ jumpTo(rank); return; }        // search result -> its page in the reading list
-    if(act==="ex"){ speakEx(rank); return; }         // tap the example line -> read it
+    if(act==="jump"){ tEntry("定位 % → 背诵页", word, entry); jumpTo(rank); return; }   // search result -> its page in the reading list
+    if(act==="ex"){ tEntry("朗读例句：%", word, entry); speakEx(rank); return; }       // tap the example line -> read it
     if(act==="reveal"){                              // self-test: unlock the card -> reveal ALL masked parts together
       var hid=entry.querySelectorAll(".mask");
       if(hid.length){ [].forEach.call(hid,function(x){ x.classList.remove("mask"); x.removeAttribute("data-act"); });
-        state.revealed[word]=1; save(); return; }    // remember the unlock so no re-render/relaunch re-covers it
-      speak(word); return;                           // already revealed -> pronounce
+        state.revealed[word]=1; save(); tEntry("解锁 % 的释义", word, entry); return; }   // remember the unlock so no re-render/relaunch re-covers it
+      tEntry("点 % → 发音", word, entry); speak(word); return;                           // already revealed -> pronounce
     }
     // clicking the blank strip in front of / around the number also marks
     if(act==="speak"){
@@ -1185,6 +1185,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     if(act==="mark"){
       var nv = marked(word) ? 0 : 1;
       state.marks[word] = {v:nv, t:Date.now()};
+      tEntry((nv?"划掉 %":"取消划线 %"), word, entry);
       // the word may be on screen twice (search result + its reading-page copy): keep both in step
       document.querySelectorAll('.entry[data-rank="'+rank+'"]').forEach(function(el){
         el.classList.toggle("marked", nv===1); });
@@ -1199,8 +1200,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
       var showing=a.dataset.showing==="syl";
       a.textContent=showing?a.dataset.orig:a.dataset.syl;
       a.dataset.showing=showing?"orig":"syl";
+      tEntry("点单词 % → 发音，"+(showing?"切回原词":"显示音节 "+a.dataset.syl), word, entry);
       speak(word); return;
     }
+    tEntry("点词条 % → 发音", word, entry);
     speak(word);
   }
   pagesEl.addEventListener("click", entryClick);
@@ -1490,6 +1493,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   document.getElementById("start").addEventListener("click", enterReading);
   document.getElementById("reset").addEventListener("click", function(){
     state.revealed={}; buildList();
+    tEv("重置：词表 "+state.list.length+" 词"+(state.poolMode ? "，状态池范围 1–"+state.poolMax : "")+(state.listShuffled ? "，已乱序" : ""));
     if(state.poolMode && state.shuffle && state.list.length) state.anchor=state.list[0];   // 洗牌后从第一页开始
     save(); enterReading(); });
   // 顶栏「设置」-> 回主菜单；菜单里的「设置」-> 设置子页；子页「返回」回菜单（不刷新）。
@@ -1636,67 +1640,136 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function readingView(){
     return !(browseAll || searchEl.style.display==="flex" || menuEl.style.display!=="none" || settingsEl.style.display!=="none");
   }
-  // 逐条操作记录（只在「上传计时诊断」开着时记）：每条 = 「分钟内秒数(0.1s) + 代码」，空格分隔，存在分钟桶的 e 里。
-  //   T? 点击：m 划线 / w 单词 / e 例句 / r 解锁遮罩 / j 定位 / s 词条其他处 / n 底栏翻页 / p 页码 / c 统计图 / b 其他按钮 / i 输入框 / x 别处
-  //   S? 滑动：l 左 / r 右 / u 上 / d 下（按手指移动方向）| P数字 翻到第几页 | W 滚轮 | K 按键
-  //   V? 当前界面：R 背诵 / B 全部词表 / Q 搜索 / M 主菜单 / O 设置 / A 统计 / H 切到后台
-  var lastView="", pdX=0, pdY=0, pdT=0, lastWheel=0, lastPageLog=-1;
-  function tEv(code){
+  // ---- 全埋点：操作日志（只在「上传计时诊断」开着时记）----
+  // 每条 = 「分钟内秒数(0.1s) 一句中文」，换行分隔，存在分钟桶的 e 里；随同步以 kind "tev" 上传。
+  // 两层：词条操作（带单词）/ 翻页 / 界面切换 / 搜索 / 前后台 / 不计时的空档，由各处直接调 tEv() 写成具体句子；
+  // 其余所有点击和设置改动由下面的通用记录从界面上读出名称和新值自动生成（加新设置项不用改这里）。
+  var lastView="", pdX=0, pdY=0, pdIn=false, lastWheel=0, lastPageLog=-1, pageSrc="", swipeTO=null, searchLogTO=null;
+  function tEv(text, at){
     if(!state.tlogUpload) return;
-    var now=Date.now(), k=minKey(now), b=tlog[k]||(tlog[k]={});
-    b.e=(b.e||"")+(new Date(now).getSeconds()+(now%1000)/1000).toFixed(1)+code+" ";
+    var now=at||Date.now(), k=minKey(now), b=tlog[k]||(tlog[k]={});
+    b.e=(b.e||"")+(new Date(now).getSeconds()+(now%1000)/1000).toFixed(1)+" "+text+"\n";
     tlogSave();
   }
+  function secs(ms){ var x=Math.round(ms/1000); return x<60 ? x+" 秒" : Math.floor(x/60)+" 分 "+(x%60)+" 秒"; }
+  function txt(el){ return el ? (el.textContent||"").replace(/\s+/g," ").trim() : ""; }
+  function rowLabel(el){ var r=el.closest(".row"), b=r&&r.querySelector(".lab b"); return b ? txt(b) : ""; }
+  function pageInfo(){ return "第 "+(currentPage()+1)+" / "+pages.length+" 页"; }
+  var VIEW_NAME={R:"背诵页", B:"全部词表", Q:"搜索", M:"主菜单", O:"设置", P:"样式与偏好", Y:"同步与更新", A:"学习统计"};
   function viewCode(){
     if(document.hidden) return "H";
     if(statsEl.style.display==="flex") return "A";
+    if(prefsEl.style.display==="flex") return "P";
+    if(syncPageEl.style.display==="flex") return "Y";
     if(settingsEl.style.display!=="none") return "O";
     if(searchEl.style.display==="flex") return "Q";
     if(menuEl.style.display!=="none") return "M";
     return browseAll ? "B" : "R";
   }
-  function tView(){ var v=viewCode(); if(v!==lastView){ lastView=v; tEv("V"+v); } }
-  var TAP_ACT={mark:"m", syl:"w", ex:"e", reveal:"r", jump:"j"};
-  function tapCode(el){
-    if(!el || !el.closest) return "x";
-    var a=el.closest("[data-act]");
-    if(el.closest(".entry")) return (a && TAP_ACT[a.dataset.act]) || "s";
-    if(el.closest(".barnav")) return "n";
-    if(el.closest("#pageno")) return "p";
-    if(el.closest(".chart,.stabs")) return "c";
-    if(el.closest("input")) return "i";
-    if(el.closest("button,.mitem,.switch,.seg,.sw,.chip")) return "b";
-    return "x";
+  function tView(){
+    var v=viewCode(), at=Date.now();
+    if(v===lastView || v==="H") return;               // 前后台由 visibilitychange 单独记
+    lastView=v;
+    if(v!=="R" && v!=="B"){ tEv("进入"+VIEW_NAME[v], at); return; }
+    lastPageLog=-2;                                   // 排版后会自动滚到上次位置：那次滚动不算翻页
+    setTimeout(function(){                            // 等滚到位再读页码
+      lastPageLog=currentPage();
+      tEv("进入"+VIEW_NAME[v]+"（"+pageInfo()+"）"+(v==="R" && !studying() ? "——状态池或自测没开，不计时" : ""), at);
+    }, 400);
   }
-  document.addEventListener("pointerdown", function(e){ pdX=e.clientX; pdY=e.clientY; pdT=Date.now(); }, {capture:true, passive:true});
-  document.addEventListener("pointerup", function(e){
-    if(!pdT) return;
-    var dx=e.clientX-pdX, dy=e.clientY-pdY; pdT=0;
-    if(dx*dx+dy*dy<144) tEv("T"+tapCode(e.target));
-    else tEv("S"+(Math.abs(dx)>Math.abs(dy) ? (dx<0?"l":"r") : (dy<0?"u":"d")));
+  function tPage(p){
+    if(lastPageLog===-2) return;
+    var v=viewCode(); if(v!=="R" && v!=="B"){ lastPageLog=p; pageSrc=""; return; }   // 菜单/搜索下面重新排版的滚动不算翻页
+    if(p===lastPageLog){ if(pageSrc && !swipeTO){ pageSrc=""; } return; }
+    lastPageLog=p; clearTimeout(swipeTO); swipeTO=null;
+    tEv((pageSrc ? pageSrc+"，" : "")+"翻到"+pageInfo()); pageSrc="";
+  }
+  // 词条上的操作（entryClick 里调用）：写明是哪个词、在哪
+  function tEntry(what, word, entry){
+    tEv(what.replace("%", word)+(entry.closest("#search-list") ? "（搜索结果）" : browseAll ? "（全部词表）" : ""));
+  }
+  // 滑动：手指在页面上移动 ≥12px 记一次方向；接着翻了页就并进翻页那句，没翻页就单独记
+  document.addEventListener("pointerdown", function(e){
+    pdX=e.clientX; pdY=e.clientY; pdIn=!!(e.target.closest && e.target.closest("#pages"));
   }, {capture:true, passive:true});
-  document.addEventListener("click", function(){ setTimeout(tView, 0); });          // 点完之后界面可能变了
-  document.addEventListener("keydown", function(){ tEv("K"); }, {capture:true, passive:true});
-  document.addEventListener("wheel", function(){ var n=Date.now(); if(n-lastWheel>1000){ lastWheel=n; tEv("W"); } }, {capture:true, passive:true});
-  function tPage(p){ if(p!==lastPageLog){ lastPageLog=p; tEv("P"+(p+1)); } }
+  document.addEventListener("pointerup", function(e){
+    if(!pdIn) return; pdIn=false;
+    var dx=e.clientX-pdX, dy=e.clientY-pdY;
+    if(dx*dx+dy*dy<144) return;
+    pageSrc=Math.abs(dx)>Math.abs(dy) ? (dx<0?"左滑":"右滑") : (dy<0?"上滑":"下滑");
+    clearTimeout(swipeTO);
+    swipeTO=setTimeout(function(){ swipeTO=null; if(pageSrc){ tEv(pageSrc+"（没翻页，仍在"+pageInfo()+"）"); pageSrc=""; } }, 1200);
+  }, {capture:true, passive:true});
+  // 通用点击记录（捕获阶段，在各按钮自己的处理之前读界面，所以开关写的是「点完之后」的状态）
+  document.addEventListener("click", function(ev){
+    var el=ev.target, x;
+    if(state.tlogUpload && el.closest && !el.closest(".entry")){       // 词条在 entryClick 里记得更具体
+      if(x=el.closest(".barnav")) pageSrc="点底栏 "+txt(x);
+      else if(x=el.closest("#pageno")) tEv(wheelOpen() ? "收起跳页滑块" : "打开跳页滑块");
+      else if(x=el.closest(".switch")) tEv((x.classList.contains("on")?"关闭":"开启")+"「"+rowLabel(x)+"」");
+      else if(x=el.closest(".seg button")) tEv("「"+rowLabel(x)+"」选「"+txt(x)+"」");
+      else if(x=el.closest(".sw")) tEv("「"+rowLabel(x)+"」选「"+(x.title||x.dataset.c||"默认")+"」");
+      else if(x=el.closest(".chip")) tEv("删除累计间隔「"+txt(x)+"」");
+      else if(x=el.closest(".stabs button")) tEv("统计「"+txt(x.closest(".scard").previousElementSibling).replace(/\s/g,"")+"」切到「"+txt(x)+"」");
+      else if(x=el.closest(".chart .c")) tEv("统计图点「"+(txt(x.querySelector(".x"))||"第 "+(+x.dataset.i+1)+" 列")+"」");
+      else if(x=el.closest(".mitem")) tEv("点「"+txt(x.querySelector(".mt"))+"」");
+      else if(x=el.closest("button")){
+        var inp=x.parentNode.querySelector("input"), lab=rowLabel(x);
+        tEv("点「"+txt(x)+"」"+(lab?"（"+lab+(inp&&inp.value?"："+inp.value:"")+"）":""));
+      }
+      else if(el.closest("input")){}                                    // 输入框：改完再记（change / 搜索）
+      else if(el.closest("#pages")) tEv("点页面空白处");
+      else if(el.closest("#top,#bar")) tEv("点顶栏 / 底栏空白处");
+    }
+    setTimeout(tView, 0);                                               // 点完之后界面可能变了
+  }, true);
+  document.addEventListener("change", function(ev){
+    var el=ev.target; if(!state.tlogUpload || !el.closest) return;
+    if(el.id==="rangeH" || el.id==="rangeV"){ pageSrc="拖动跳页滑块"; return; }
+    if(el.type==="range") setTimeout(function(){ var v=el.closest(".slider").querySelector(".val");
+      tEv("「"+rowLabel(el)+"」调到 "+(v?txt(v):el.value)); }, 0);
+    else if(el.type==="number" && el.closest(".poolnums"))
+      setTimeout(function(){ tEv("「"+txt(el.closest("label")).replace(/\s/g,"")+"」改成 "+el.value); }, 0);
+  }, true);
+  document.addEventListener("input", function(ev){
+    if(!state.tlogUpload || ev.target!==searchQ) return;
+    clearTimeout(searchLogTO);
+    searchLogTO=setTimeout(function(){ var q=searchQ.value.trim();
+      tEv(q ? "搜索「"+q+"」→ "+txt(searchCount) : "清空搜索框"); }, 900);   // 停手 0.9 秒再记，不记每个字
+  }, true);
+  document.addEventListener("keydown", function(e){
+    if(e.target===searchQ) return;                                     // 打字由上面的搜索记录汇总
+    tEv("按键 "+e.key);
+  }, {capture:true, passive:true});
+  document.addEventListener("wheel", function(){
+    var n=Date.now(); if(n-lastWheel>2000){ lastWheel=n; tEv("滚轮滚动"); } }, {capture:true, passive:true});
 
   function tlogTick(now, gap){
     var rv=readingView(), ok=studying();
     if(!lastAct){
-      if(showAt && rv){ tAdd(now,"f",now-showAt); }
+      if(showAt && rv){ tAdd(now,"f",now-showAt);
+        if(ok && now-showAt>1000) tEv("（回到前台 "+secs(now-showAt)+" 后才第一次操作，这段不计时）", now); }
       showAt=0; tAdd(now,"n",1); tlogSave(); return;
     }
     var b;
     if(ok){ if(gap<=STUDY_GAP) b=tAdd(now,"c",gap);
-            else { b=tAdd(now,"g",gap); b.L=(b.L||0)+1; } if(gap>(b.x||0)) b.x=gap; }
+            else { b=tAdd(now,"g",gap); b.L=(b.L||0)+1; tEv("（之前 "+secs(gap)+"没有操作，这段不计时）", now); }
+            if(gap>(b.x||0)) b.x=gap; }
     else b=tAdd(now, rv?"s":"o", gap);
     b.n=(b.n||0)+1; tlogSave();
   }
   document.addEventListener("visibilitychange", function(){
     var now=Date.now();
-    if(document.hidden){ if(lastAct && readingView()) tAdd(now,"t",now-lastAct); hideAt=now; }
-    else { if(hideAt) tAdd(now,"h",now-hideAt); hideAt=0; showAt=now; }
-    tView(); tlogSave();
+    if(document.hidden){
+      var tail=lastAct && readingView() ? now-lastAct : 0;
+      if(tail) tAdd(now,"t",tail);
+      tEv("切到后台"+(tail && studying() ? "（最后一次操作后 "+secs(tail)+"，这段不计时）" : ""), now);
+      hideAt=now;
+    } else {
+      tEv("回到前台"+(hideAt ? "（离开 "+secs(now-hideAt)+"）" : ""), now);
+      if(hideAt) tAdd(now,"h",now-hideAt); hideAt=0; showAt=now;
+    }
+    tlogSave();
   });
 
   function studyTick(){
@@ -2010,7 +2083,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
               ["c","g","s","o","t","f","h","n","L","x"].map(function(f){ var v=tb[f]||0; return f==="n"||f==="L"?v:Math.round(v/100)/10; }).join(",")});
             // 逐条操作：内容也写在 item 里，太长就切成几行（主键索引有长度上限）
             var ev=(tb.e||"").trim(), seq=0, cut;
-            while(ev.length){ cut=ev.length<=1500 ? ev.length : ev.lastIndexOf(" ",1500); if(cut<=0) cut=Math.min(1500, ev.length);
+            while(ev.length){ cut=ev.length<=600 ? ev.length : ev.lastIndexOf("\n",600); if(cut<=0) cut=Math.min(600, ev.length);
               push.push({code:SYNC.code, kind:"tev", v:1, t:Date.now(), item:me+"|"+k+"|"+(seq++)+"|"+ev.slice(0,cut)});
               ev=ev.slice(cut).trim(); }
             tlogSent.push(k); } }
@@ -2056,6 +2129,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   else if(typeof state.listShuffled!=="boolean") state.listShuffled=!!(state.poolMode && state.shuffle);
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
   settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
+  tEv("打开网页（版本 "+((window.BUILD_INFO||{}).v||"?")+"）");
   tView();                                       // 计时诊断：记下启动时所在界面
   loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();

@@ -67,3 +67,55 @@ for mk, dev, v in mins:
 print("total  " + "  ".join(f"{f}={tot[f] / 60:.1f}m" if f not in "nLx" else f"{f}={tot[f]:.0f}" for f in F))
 span = (int(mins[-1][0][8:10]) * 60 + int(mins[-1][0][10:])) - (int(mins[0][0][8:10]) * 60 + int(mins[0][0][10:])) + 1
 print(f"active minutes {len(mins)}, wall span {span} min")
+
+# ---- per-action events (kind "tev"): item = "设备id|YYYYMMDDHHmm|seq|<sec><code> <sec><code> ..." ----
+# codes: T? tap (m mark / w word / e example / r reveal / j jump / s entry / n bar nav / p page no /
+#        c chart / b button / i input / x elsewhere), S? swipe (l r u d), P<n> page n, W wheel, K key,
+#        V? view (R reading / B browse / Q search / M menu / O settings / A stats / H hidden)
+chunks = defaultdict(dict)
+for r in rows:
+    if r["kind"] != "tev":
+        continue
+    dev, mk, seq, body = r["item"].split("|", 3)
+    if mk.startswith(day):
+        chunks[(dev, mk)][int(seq)] = body
+events = []                                      # (abs seconds since midnight, dev, code)
+for (dev, mk), parts in chunks.items():
+    base = int(mk[8:10]) * 3600 + int(mk[10:12]) * 60
+    for tok in " ".join(parts[i] for i in sorted(parts)).split():
+        i = next(j for j, ch in enumerate(tok) if ch.isalpha())
+        events.append((base + float(tok[:i]), dev, tok[i:]))
+events.sort()
+if not events:
+    print(f"\nno tev rows for {day}")
+    sys.exit()
+
+
+def hms(t):
+    return f"{int(t // 3600):02d}:{int(t % 3600 // 60):02d}:{t % 60:04.1f}"
+
+
+print(f"\nevents {day}: {len(events)}")
+cur = None
+for t, dev, c in events:
+    m = hms(t)[:5]
+    if m != cur:
+        cur = m
+        print(f"\n  {m} ", end="")
+    print(f"{t % 60:4.1f}{c}", end=" ")
+print()
+
+# idle stretches: gaps > 20 s between consecutive user actions while on the reading view
+view, last, gaps = "R", None, []
+for t, dev, c in events:
+    if c.startswith("V"):
+        view = c[1]
+        last = t if view == "R" else None
+        continue
+    if c[0] in "TSWKP" and view == "R":
+        if last is not None and t - last > 20:
+            gaps.append((last, t))
+        last = t
+print(f"\nreading-view gaps > 20 s between actions: {len(gaps)}, total {sum(b - a for a, b in gaps) / 60:.1f} min")
+for a, b in gaps:
+    print(f"  {hms(a)} -> {hms(b)}  {b - a:5.0f} s")

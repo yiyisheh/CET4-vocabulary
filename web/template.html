@@ -502,7 +502,7 @@
     <div class="cachebar"><i id="cache-fill"></i></div>
   </div>
   <div class="row">
-    <div class="lab"><b>上传计时诊断</b><span>排查学习时长记少了用：按分钟记下时间去了哪里，随多端同步上传（需先填同步码）</span></div>
+    <div class="lab"><b>上传计时诊断</b><span>排查学习时长记少了用：按分钟记下时间去了哪里，并逐条记录点击、滑动、翻页和界面切换，随多端同步上传（需先填同步码）</span></div>
     <div id="sw-tlog" class="switch"></div>
   </div>
 
@@ -905,7 +905,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   var scrollTO;
   pagesEl.addEventListener("scroll", function(){
     var cur=updateLabel(); clearTimeout(scrollTO);
-    scrollTO=setTimeout(function(){ state[anchorKey()]=firstRankOnPage(cur); save(); prefetchCurrent(); }, 160);
+    scrollTO=setTimeout(function(){ state[anchorKey()]=firstRankOnPage(cur); save(); prefetchCurrent(); tPage(cur); }, 160);
   }, {passive:true});
 
   // ---- audio source: inline base64 (single-file build) OR binary packs (hosted build) ----
@@ -1636,6 +1636,50 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function readingView(){
     return !(browseAll || searchEl.style.display==="flex" || menuEl.style.display!=="none" || settingsEl.style.display!=="none");
   }
+  // 逐条操作记录（只在「上传计时诊断」开着时记）：每条 = 「分钟内秒数(0.1s) + 代码」，空格分隔，存在分钟桶的 e 里。
+  //   T? 点击：m 划线 / w 单词 / e 例句 / r 解锁遮罩 / j 定位 / s 词条其他处 / n 底栏翻页 / p 页码 / c 统计图 / b 其他按钮 / i 输入框 / x 别处
+  //   S? 滑动：l 左 / r 右 / u 上 / d 下（按手指移动方向）| P数字 翻到第几页 | W 滚轮 | K 按键
+  //   V? 当前界面：R 背诵 / B 全部词表 / Q 搜索 / M 主菜单 / O 设置 / A 统计 / H 切到后台
+  var lastView="", pdX=0, pdY=0, pdT=0, lastWheel=0, lastPageLog=-1;
+  function tEv(code){
+    if(!state.tlogUpload) return;
+    var now=Date.now(), k=minKey(now), b=tlog[k]||(tlog[k]={});
+    b.e=(b.e||"")+(new Date(now).getSeconds()+(now%1000)/1000).toFixed(1)+code+" ";
+    tlogSave();
+  }
+  function viewCode(){
+    if(document.hidden) return "H";
+    if(statsEl.style.display==="flex") return "A";
+    if(settingsEl.style.display!=="none") return "O";
+    if(searchEl.style.display==="flex") return "Q";
+    if(menuEl.style.display!=="none") return "M";
+    return browseAll ? "B" : "R";
+  }
+  function tView(){ var v=viewCode(); if(v!==lastView){ lastView=v; tEv("V"+v); } }
+  var TAP_ACT={mark:"m", syl:"w", ex:"e", reveal:"r", jump:"j"};
+  function tapCode(el){
+    if(!el || !el.closest) return "x";
+    var a=el.closest("[data-act]");
+    if(el.closest(".entry")) return (a && TAP_ACT[a.dataset.act]) || "s";
+    if(el.closest(".barnav")) return "n";
+    if(el.closest("#pageno")) return "p";
+    if(el.closest(".chart,.stabs")) return "c";
+    if(el.closest("input")) return "i";
+    if(el.closest("button,.mitem,.switch,.seg,.sw,.chip")) return "b";
+    return "x";
+  }
+  document.addEventListener("pointerdown", function(e){ pdX=e.clientX; pdY=e.clientY; pdT=Date.now(); }, {capture:true, passive:true});
+  document.addEventListener("pointerup", function(e){
+    if(!pdT) return;
+    var dx=e.clientX-pdX, dy=e.clientY-pdY; pdT=0;
+    if(dx*dx+dy*dy<144) tEv("T"+tapCode(e.target));
+    else tEv("S"+(Math.abs(dx)>Math.abs(dy) ? (dx<0?"l":"r") : (dy<0?"u":"d")));
+  }, {capture:true, passive:true});
+  document.addEventListener("click", function(){ setTimeout(tView, 0); });          // 点完之后界面可能变了
+  document.addEventListener("keydown", function(){ tEv("K"); }, {capture:true, passive:true});
+  document.addEventListener("wheel", function(){ var n=Date.now(); if(n-lastWheel>1000){ lastWheel=n; tEv("W"); } }, {capture:true, passive:true});
+  function tPage(p){ if(p!==lastPageLog){ lastPageLog=p; tEv("P"+(p+1)); } }
+
   function tlogTick(now, gap){
     var rv=readingView(), ok=studying();
     if(!lastAct){
@@ -1652,7 +1696,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var now=Date.now();
     if(document.hidden){ if(lastAct && readingView()) tAdd(now,"t",now-lastAct); hideAt=now; }
     else { if(hideAt) tAdd(now,"h",now-hideAt); hideAt=0; showAt=now; }
-    tlogSave();
+    tView(); tlogSave();
   });
 
   function studyTick(){
@@ -1964,6 +2008,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
           for(k in tlog){ tb=tlog[k]; if(k>=curMin || tb.p) continue;
             push.push({code:SYNC.code, kind:"tlog", v:1, t:Date.now(), item:me+"|"+k+"|"+
               ["c","g","s","o","t","f","h","n","L","x"].map(function(f){ var v=tb[f]||0; return f==="n"||f==="L"?v:Math.round(v/100)/10; }).join(",")});
+            // 逐条操作：内容也写在 item 里，太长就切成几行（主键索引有长度上限）
+            var ev=(tb.e||"").trim(), seq=0, cut;
+            while(ev.length){ cut=ev.length<=1500 ? ev.length : ev.lastIndexOf(" ",1500); if(cut<=0) cut=Math.min(1500, ev.length);
+              push.push({code:SYNC.code, kind:"tev", v:1, t:Date.now(), item:me+"|"+k+"|"+(seq++)+"|"+ev.slice(0,cut)});
+              ev=ev.slice(cut).trim(); }
             tlogSent.push(k); } }
         if(changed){
           save(); renderSwatches();
@@ -2007,6 +2056,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   else if(typeof state.listShuffled!=="boolean") state.listShuffled=!!(state.poolMode && state.shuffle);
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();
   settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
+  tView();                                       // 计时诊断：记下启动时所在界面
   loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();
 

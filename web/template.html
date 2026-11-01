@@ -501,6 +501,11 @@
     <div class="lab"><b>离线缓存</b><span id="cache-sub">检测中…</span></div>
     <div class="cachebar"><i id="cache-fill"></i></div>
   </div>
+  <div class="row">
+    <div class="lab"><b>上传计时诊断</b><span>排查学习时长记少了用：按分钟记下时间去了哪里，随多端同步上传（需先填同步码）</span></div>
+    <div id="sw-tlog" class="switch"></div>
+  </div>
+
   <div class="row" id="update-row">
     <div class="lab"><b>版本</b><span id="ver-sub">…</span></div>
     <button id="btn-update" class="minibtn">检查更新</button>
@@ -1394,9 +1399,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
     rgExDelay.value=state.exDelay; vExDelay.textContent=state.exDelay+"ms";
     swDev.classList.toggle("on",!!state.dev);
     swStrict.classList.toggle("on",state.studyStrict!==false);
+    swTlog.classList.toggle("on",!!state.tlogUpload);
     renderSwatches(); renderAccents();
   }
-  var swStrict=document.getElementById("sw-studystrict");
+  var swStrict=document.getElementById("sw-studystrict"), swTlog=document.getElementById("sw-tlog");
+  swTlog.addEventListener("click", function(){ state.tlogUpload=!state.tlogUpload; syncSettings(); save(); if(state.tlogUpload) scheduleSync(); });
   swStrict.addEventListener("click", function(){ state.studyStrict=state.studyStrict===false; syncSettings(); save(); });
   // 设置的两个子页：盖在设置页上，返回回设置页（设置页一直开着，所以「设置打开」的判断照旧成立）
   var prefsEl=document.getElementById("prefs"), syncPageEl=document.getElementById("syncpage");
@@ -1607,9 +1614,51 @@ window.LEGACY_V1 = __LEGACY_V1__;
     if(browseAll || searchEl.style.display==="flex" || menuEl.style.display!=="none" || settingsEl.style.display!=="none") return false;
     return state.studyStrict===false || (state.poolMode && state.selftest);
   }
+  // ---- 计时诊断（排查「记少了」用；只记录，不改变计时规则）----
+  // 按分钟分桶记下时间都去了哪里，存 localStorage 的 cet4_tlog（保留 3 天）；
+  // 「同步与更新」里打开「上传计时诊断」后，已结束的分钟随同步上传（kind "tlog"，见 reconcile）。
+  // 每桶字段（毫秒）：c 计入 | g 背诵页里间隔 >20 秒被丢掉 | s 背诵页但状态池/自测没开 |
+  //   o 其他页面（菜单/设置/统计/搜索/全部词表）| t 切后台前最后一次操作之后那段（丢掉）|
+  //   f 回前台后第一次操作之前那段（丢掉）| h 在后台 | n 心跳次数 | L 长间隔次数 | x 最长间隔
+  var TLOG_KEY="cet4_tlog", tlog={}, hideAt=0, showAt=Date.now();
+  try{ tlog=JSON.parse(localStorage.getItem(TLOG_KEY))||{}; }catch(e){ tlog={}; }
+  function minKey(t){ var d=new Date(t);
+    return dayKey(d).replace(/-/g,"")+("0"+d.getHours()).slice(-2)+("0"+d.getMinutes()).slice(-2); }
+  function tAdd(t, f, v){ var k=minKey(t), b=tlog[k]||(tlog[k]={}); b[f]=(b[f]||0)+v; return b; }
+  var tlogSaveTO=null;
+  function tlogSave(){
+    if(tlogSaveTO) return;
+    tlogSaveTO=setTimeout(function(){ tlogSaveTO=null;
+      var cut=minKey(Date.now()-3*86400000), k;
+      for(k in tlog) if(k<cut) delete tlog[k];
+      try{ localStorage.setItem(TLOG_KEY, JSON.stringify(tlog)); }catch(e){} }, 3000);
+  }
+  function readingView(){
+    return !(browseAll || searchEl.style.display==="flex" || menuEl.style.display!=="none" || settingsEl.style.display!=="none");
+  }
+  function tlogTick(now, gap){
+    var rv=readingView(), ok=studying();
+    if(!lastAct){
+      if(showAt && rv){ tAdd(now,"f",now-showAt); }
+      showAt=0; tAdd(now,"n",1); tlogSave(); return;
+    }
+    var b;
+    if(ok){ if(gap<=STUDY_GAP) b=tAdd(now,"c",gap);
+            else { b=tAdd(now,"g",gap); b.L=(b.L||0)+1; } if(gap>(b.x||0)) b.x=gap; }
+    else b=tAdd(now, rv?"s":"o", gap);
+    b.n=(b.n||0)+1; tlogSave();
+  }
+  document.addEventListener("visibilitychange", function(){
+    var now=Date.now();
+    if(document.hidden){ if(lastAct && readingView()) tAdd(now,"t",now-lastAct); hideAt=now; }
+    else { if(hideAt) tAdd(now,"h",now-hideAt); hideAt=0; showAt=now; }
+    tlogSave();
+  });
+
   function studyTick(){
     if(document.hidden){ lastAct=0; return; }
     var now=Date.now(), gap=now-lastAct;
+    if(gap>0 || !lastAct) tlogTick(now, gap);
     if(lastAct && gap>0 && gap<=STUDY_GAP && studying()){
       var k=dayKey(); state.studyMs[k]=(state.studyMs[k]||0)+gap;
       if(!studySaveTO) studySaveTO=setTimeout(flushStudy, 5000);   // 滚动时心跳很密，攒 5 秒再存盘
@@ -1909,6 +1958,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
         if(JSON.stringify(others)!==JSON.stringify(state.studyOthers)){ state.studyOthers=others; changed=true; }
         for(k in state.studyMs){ var ms=Math.round(state.studyMs[k]), ti=me+"|"+k;
           if(!own(rTime,ti) || ms>rTime[ti]) push.push({code:SYNC.code,kind:"time",item:ti,v:1,t:ms}); }
+        // 计时诊断：只上传已结束、还没上传过的分钟；内容写在 item 里（每分钟一行、写一次）
+        var tlogSent=[];
+        if(state.tlogUpload){ var curMin=minKey(Date.now()), tb;
+          for(k in tlog){ tb=tlog[k]; if(k>=curMin || tb.p) continue;
+            push.push({code:SYNC.code, kind:"tlog", v:1, t:Date.now(), item:me+"|"+k+"|"+
+              ["c","g","s","o","t","f","h","n","L","x"].map(function(f){ var v=tb[f]||0; return f==="n"||f==="L"?v:Math.round(v/100)/10; }).join(",")});
+            tlogSent.push(k); } }
         if(changed){
           save(); renderSwatches();
           if(menuEl.style.display!=="none") renderMenu();   // 菜单开着时，同步拉回的划线要反映到「已掌握」计数
@@ -1920,7 +1976,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
           }
         }
         if(push.length) return api("rpc/sync_push",
-          {method:"POST", body:JSON.stringify({p_code:SYNC.code, p_rows:push})});
+          {method:"POST", body:JSON.stringify({p_code:SYNC.code, p_rows:push})})
+          .then(function(r){ if(r.ok && tlogSent.length){ tlogSent.forEach(function(k){ if(tlog[k]) tlog[k].p=1; }); tlogSave(); } });
       })
       .then(function(){ setSyncStatus("on"); })
       .catch(function(){ setSyncStatus("err"); })

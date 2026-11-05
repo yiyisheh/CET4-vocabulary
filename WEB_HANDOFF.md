@@ -321,6 +321,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - **`updateCacheUI()`**：设置页「离线缓存」进度，读 `packState`（`{total,got,t0,done,failed}`）算百分比 + 剩余时间；单文件版直接显示"已内嵌 ✓"。纯展示，不额外下载
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动
+- **返回键 / 返回手势（2026-11-05，`atRoot/syncBack/backStep`）**：安卓返回键原来会直接离开网页。现在只要不在「主菜单且上面没盖任何页」，就 `pushState` 垫一条历史；按返回 → `popstate` → `backStep()` 退一层（点那一层自己的「返回」按钮：统计/样式与偏好/同步与更新/设置/搜索/跳页滑块/全部词表→搜索/背诵页→主菜单），没到主菜单就再垫一条。用页面按钮回到主菜单时 `syncBack()` 把垫着的那条 `history.back()` 掉（`backIgnore` 吞掉这次 popstate），所以主菜单按返回才真的离开。触发时机：document 捕获阶段的每次 click / Esc 之后、启动时
 - 同步：见 §8
 
 ---

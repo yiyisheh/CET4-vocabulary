@@ -1888,6 +1888,41 @@ window.LEGACY_V1 = __LEGACY_V1__;
   document.getElementById("stats-back").addEventListener("click", function(){
     statsEl.style.display="none"; renderMenu(); });
 
+  // ---- 返回键 / 返回手势：退回上一层，而不是直接离开网页 ----
+  // 只要不在主菜单（菜单上面也没盖着任何页），就在浏览器历史里垫一条记录；按返回 = 弹掉这条，
+  // 网页收到 popstate 后自己退一层（等于点了那一层的「返回」），还没回到主菜单就再垫一条。
+  // 用页面里的按钮回到主菜单时，把垫着的那条悄悄退掉，这样在主菜单按返回才是真的离开网页。
+  var umodalEl=document.getElementById("umodal"), backPushed=!!(history.state && history.state.cet4), backIgnore=0;
+  function atRoot(){
+    return menuEl.style.display!=="none" && settingsEl.style.display==="none" && searchEl.style.display!=="flex"
+      && statsEl.style.display!=="flex" && !(umodalEl && umodalEl.classList.contains("show"));
+  }
+  function syncBack(){
+    var need=!atRoot();
+    if(need && !backPushed){ history.pushState({cet4:1}, ""); backPushed=true; }
+    else if(!need && backPushed){ backPushed=false; backIgnore++; history.back(); }
+  }
+  function backStep(){                                // 从最上面一层往下退一层
+    var b=function(id){ document.getElementById(id).click(); };
+    if(umodalEl && umodalEl.classList.contains("show")) umodalEl.classList.remove("show");
+    else if(statsEl.style.display==="flex") b("stats-back");
+    else if(prefsEl.style.display==="flex") b("prefs-back");
+    else if(syncPageEl.style.display==="flex") b("syncpage-back");
+    else if(settingsEl.style.display!=="none") b("btn-back");
+    else if(searchEl.style.display==="flex") b("search-close");
+    else if(wheelOpen()) closeWheel();
+    else if(browseAll) b("btn-browseback");           // 全部词表 → 搜索页
+    else if(menuEl.style.display==="none") b("btn-settings");   // 背诵页 → 主菜单
+  }
+  window.addEventListener("popstate", function(){
+    if(backIgnore){ backIgnore--; return; }           // 我们自己退掉垫着的那条
+    backPushed=false;
+    if(atRoot()) return;
+    tEv("按返回键"); backStep(); syncBack();
+  });
+  document.addEventListener("click", function(){ setTimeout(syncBack, 0); }, true);
+  document.addEventListener("keydown", function(e){ if(e.key==="Escape") setTimeout(syncBack, 0); }, true);
+
   // ---- offline-cache progress ----
   // The bar tracks the audio packs, because that IS the download: the shell is ~560KB (the SW
   // precaches it during install, effectively instantly) and the packs are the other ~36MB.
@@ -2133,6 +2168,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   settingsEl.style.display="none"; menuEl.style.display="flex"; renderMenu();
   tEv("打开网页（版本 "+((window.BUILD_INFO||{}).v||"?")+"）");
   tView();                                       // 计时诊断：记下启动时所在界面
+  syncBack();                                    // 启动在主菜单：重载前垫着的那条历史记录退掉
   loadPacks();                                   // hosted build: stream the audio in behind the shell
   if(state.syncCode) startSync();
 

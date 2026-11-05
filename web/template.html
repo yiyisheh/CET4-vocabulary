@@ -606,14 +606,14 @@ window.LEGACY_V1 = __LEGACY_V1__;
   ];
 
   var state = {
-    removeMarked:false, markStyle:"dim", divider:true, mode:"h", accent:"us",
+    removeMarked:false, markStyle:"dim", divider:true, mode:"v", accent:"us",
     fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0,
     bg:"#ffffff", customColors:[], themeColor:"", customAccents:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170,
     selftest:false, showEx:true,  // selftest: blank the definition until tapped; showEx: render example lines
     maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
     counters:[],                  // running-total milestone intervals, e.g. [100,25]; empty = off. 【local】
-    poolMode:false, poolSize:40, poolLow:15, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
-    shuffle:false,                // 池内乱序：pool mode only; the pool is shuffled at 重置, new words still enter by rank. 【local】
+    poolMode:true, poolSize:100, poolLow:45, poolMax:0,   // Leitner rank ceiling (see ensurePool). 【local】
+    shuffle:true,                 // 池内乱序：pool mode only; the pool is shuffled at 重置, new words still enter by rank. 【local】
     list:null,                    // the frozen page content: ranks in display order, rebuilt ONLY by 重置 (buildList). 【local】
     listShuffled:false,           // whether that frozen list was shuffled -> hide rank numbers. 【local】
     revealed:{},                  // self-test: words already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
@@ -662,8 +662,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
     delete state.pool; _poolMigrated=true;         // 存盘一次，否则旧数组会一直留在 localStorage 里
   }
   if(!(state.poolMax>=0)) state.poolMax=0;
-  if(!(state.poolSize>=1)) state.poolSize=40;
-  if(!(state.poolLow>=1)) state.poolLow=15;       // 0 would advance by 0 forever
+  if(!(state.poolSize>=1)) state.poolSize=100;
+  if(!(state.poolLow>=1)) state.poolLow=45;       // 0 would advance by 0 forever
   if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
   if(_poolMigrated || _keysMigrated || _newDevice) save();
   function save(){ localStorage.setItem(LS, JSON.stringify(state)); }
@@ -1423,14 +1423,14 @@ window.LEGACY_V1 = __LEGACY_V1__;
   swPoolMode.addEventListener("click", function(){ state.poolMode=!state.poolMode; ensurePool(); poolApply(); });
   poolSizeIn.addEventListener("change", function(){
     var n=parseInt(poolSizeIn.value,10);
-    state.poolSize=(n>=1)?Math.min(n,DATA.length||1250):40;
+    state.poolSize=(n>=1)?Math.min(n,DATA.length||1250):100;
     if(state.poolLow>=state.poolSize) state.poolLow=state.poolSize-1;
     if(state.poolMode) ensurePool();               // 只会把范围往前推，不会倒退
     poolApply();
   });
   poolLowIn.addEventListener("change", function(){
     var n=parseInt(poolLowIn.value,10);
-    state.poolLow=(n>=0)?Math.min(n,state.poolSize-1):Math.min(15,state.poolSize-1);
+    state.poolLow=(n>=0)?Math.min(n,state.poolSize-1):Math.min(45,state.poolSize-1);
     if(state.poolMode) ensurePool();               // 阈值调高到当前剩余之上 → 当场推进
     poolApply();
   });
@@ -1606,11 +1606,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // ---- 学习时长 ----
   // 只算「在背」：背诵页开着、网页在前台（主菜单 / 设置 / 统计 / 搜索 / 全部词表都不算）；
   // 「只统计状态池 + 自测时的时长」开着（默认）时，还要状态池和自测都开着。
-  // 每次操作（按下、滚动、滚轮、按键）都是一次心跳：和上一次心跳的间隔 ≤ 20 秒就整段计入；
-  // 超过 20 秒当作走开了，这段一秒都不计（不是只算 20 秒）。切后台 / 锁屏直接断开间隔。
+  // 每次操作（按下、滚动、滚轮、按键）都是一次心跳：和上一次心跳的间隔 ≤ 2 分钟就整段计入；
+  // 超过 2 分钟当作走开了，这段一秒都不计（不是只算 2 分钟）。2026-11-05 用户把 20 秒放宽到 2 分钟。切后台 / 锁屏直接断开间隔。
   // 计入的那段属于这次心跳所在的页面：在菜单里点「开始背诵」→ 背诵页第一次操作，中间那段算；
   // 菜单里的两次操作之间不算。按本地日期分天，本机存 state.studyMs，多端同步见 reconcile()。
-  var STUDY_GAP=20000, lastAct=0, studySaveTO=null,
+  var STUDY_GAP=120000, lastAct=0, studySaveTO=null,
       statsEl=document.getElementById("stats"), statsBody=document.getElementById("stats-body");
   function dayKey(d){ d=d||new Date();
     return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2); }
@@ -1621,7 +1621,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // ---- 计时诊断（排查「记少了」用；只记录，不改变计时规则）----
   // 按分钟分桶记下时间都去了哪里，存 localStorage 的 cet4_tlog（保留 3 天）；
   // 「同步与更新」里打开「上传计时诊断」后，已结束的分钟随同步上传（kind "tlog"，见 reconcile）。
-  // 每桶字段（毫秒）：c 计入 | g 背诵页里间隔 >20 秒被丢掉 | s 背诵页但状态池/自测没开 |
+  // 每桶字段（毫秒）：c 计入 | g 背诵页里间隔 >2 分钟被丢掉 | s 背诵页但状态池/自测没开 |
   //   o 其他页面（菜单/设置/统计/搜索/全部词表）| t 切后台前最后一次操作之后那段（丢掉）|
   //   f 回前台后第一次操作之前那段（丢掉）| h 在后台 | n 心跳次数 | L 长间隔次数 | x 最长间隔
   var TLOG_KEY="cet4_tlog", tlog={}, hideAt=0, showAt=Date.now();
@@ -1800,8 +1800,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
       if(x && x.v===1 && x.t>0){ k=dayKey(new Date(x.t)); m[k]=(m[k]||0)+1; } }
     return m;
   }
-  function fmtDur(ms){ var min=Math.floor(ms/60000);
-    return min<60 ? min+" 分钟" : Math.floor(min/60)+" 小时"+(min%60?" "+min%60+" 分":""); }
+  // 分钟保留一位小数（四舍五入到 0.1 分 = 6 秒）；满 60 分进位成小时
+  function durParts(ms){ var t=Math.round(ms/6000), h=Math.floor(t/600); return {h:h, m:((t-h*600)/10).toFixed(1)}; }
+  function fmtDur(ms){ var d=durParts(ms);
+    return d.h ? d.h+" 小时"+(d.m!=="0.0"?" "+d.m+" 分":"") : d.m+" 分钟"; }
   function studyStreak(){                          // 连续学习天数（≥1 分钟算一天）；今天还没背不打断
     var by=studyByDay(), d=new Date(), n=0;
     if(!((by[dayKey(d)]||0)>=60000)) d.setDate(d.getDate()-1);
@@ -1842,8 +1844,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
       return '<button data-t="'+x[0]+'"'+(x[0]===t?' class="on"':"")+'>'+x[1]+'</button>'; }).join("")+'</div>';
   }
   function bigNum(k, html){ return '<div><div class="k">'+k+'</div><div class="v">'+html+'</div></div>'; }
-  function durHTML(ms){ var min=Math.floor(ms/60000), h=Math.floor(min/60);
-    return h ? h+'<small>小时</small>'+(min%60)+'<small>分</small>' : min+'<small>分钟</small>'; }
+  function durHTML(ms){ var d=durParts(ms);
+    return d.h ? d.h+'<small>小时</small>'+d.m+'<small>分</small>' : d.m+'<small>分钟</small>'; }
   function sumVals(s){ return s.reduce(function(a,x){ return a+x.val; }, 0); }
   var TAB_SUM={w:"近 7 天", d:"近 30 天", m:"本月"};
   function renderStats(){
@@ -1872,7 +1874,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
 
     var devs=Object.keys(state.studyOthers).length;
     h+='<div class="snote">只统计背诵页的时间'+(state.studyStrict===false?"":"（状态池和自测都开着时）")
-      +'；两次操作间隔超过 '+(STUDY_GAP/1000)+' 秒的那段不算'+(devs?"；含其他 "+devs+" 台设备":"")+'。</div>';
+      +'；两次操作间隔超过 '+secs(STUDY_GAP).replace(" 0 秒","钟")+'的那段不算'+(devs?"；含其他 "+devs+" 台设备":"")+'。</div>';
     statsBody.innerHTML=h;
   }
   statsBody.addEventListener("click", function(ev){

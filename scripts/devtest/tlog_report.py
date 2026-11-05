@@ -5,7 +5,7 @@ code from Supabase and print where the time went, minute by minute. Read-only (s
 
 tlog row item = "设备id|YYYYMMDDHHmm|c,g,s,o,t,f,h,n,L,x" (seconds except n/L), see the 计时诊断
 block in web/template.html:
-  c 计入 | g 背诵页里间隔 >20 秒被丢掉 | s 背诵页但状态池/自测没开 | o 其他页面 |
+  c 计入 | g 背诵页里间隔超过 STUDY_GAP（现为 2 分钟）被丢掉 | s 背诵页但状态池/自测没开 | o 其他页面 |
   t 切后台前最后一次操作之后 | f 回前台后第一次操作之前 | h 在后台 | n 心跳 | L 长间隔次数 | x 最长间隔
 """
 import json

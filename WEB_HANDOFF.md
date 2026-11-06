@@ -321,7 +321,7 @@ web/synbook.html ─────────┘      （先跑：书的字节计
 - **`updateCacheUI()`**：设置页「离线缓存」进度，读 `packState`（`{total,got,t0,done,failed}`）算百分比 + 剩余时间；单文件版直接显示"已内嵌 ✓"。纯展示，不额外下载
 - 开发者模式：`devApply/devShow/devStatic/devTick`，底部可拖拽停靠面板画波形+橙(起音)/绿(起播)/红(播放头)线；`state.dev` 开关、`state.devH` 高度
 - `applyTheme/applyLayout/syncSettings`：设置联动
-- **返回键 / 返回手势（2026-11-05，`atRoot/syncBack/backStep`）**：安卓返回键原来会直接离开网页。现在只要不在「主菜单且上面没盖任何页」，就 `pushState` 垫一条历史；按返回 → `popstate` → `backStep()` 退一层（点那一层自己的「返回」按钮：统计/样式与偏好/同步与更新/设置/搜索/跳页滑块/全部词表→搜索/背诵页→主菜单），没到主菜单就再垫一条。用页面按钮回到主菜单时 `syncBack()` 把垫着的那条 `history.back()` 掉（`backIgnore` 吞掉这次 popstate），所以主菜单按返回才真的离开。触发时机：document 捕获阶段的每次 click / Esc 之后、启动时
+- **层叠导航 `nav`（返回键 / 返回手势，2026-11-06）**：主菜单是底（栈空），其余每个界面都是压在栈上的一层：背诵页 `read`、设置 `settings`、样式与偏好 `prefs`、同步与更新 `sync`、学习统计 `stats`、搜索 `search`、全部词表 `browse`、跳页滑块 `wheel`、更新弹窗 `modal`（另一个 `<script>` 里，经 `window.cet4Nav`）。**打开一层 = 显示它 + `nav.open(id, close)`；每层的 `close(unwinding)` 只管收起自己**，露出哪层由栈决定（同一个搜索页可能盖在菜单上，也可能盖在背诵页上；全部词表盖在搜索页上，搜索页仍在栈里）。页面上的「‹ 返回」= `nav.close(id)`（连同上面的层），顶栏「菜单」= `nav.closeAll()`，「定位」= 退到背诵页那层（`closeAbove("read")`）或退空后 `enterReading()`。`unwinding=true` 表示下面的层也在同一次操作里收，可省掉重排。浏览器历史只垫一条：栈不空就 `pushState`，安卓返回键 → `popstate` → 收起栈顶一层；栈退空时把垫着的那条 `history.back()` 掉（`ignore` 吞掉 popstate），所以主菜单按返回才真的离开网页。同步推迟到操作结束（`setTimeout 0`），免得「先退空再打开」的操作白动历史。**新加的页只要用 `nav.open` 打开、用 `nav.close` 关，返回键就自动管到它**；别再直接改 `style.display` 开关页面
 - 同步：见 §8
 
 ---

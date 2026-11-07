@@ -1,8 +1,8 @@
 /* Service worker: keep the app usable offline.
    Do NOT hand-edit anything below marked __…__; build_html.py injects it.
 
-   The app is split in two (see WEB_HANDOFF §4.1):
-     - the shell (index.html, ~560KB: layout, logic, all 1250 entries of text) — precached here
+   The app is split in two (see dev/build.md):
+     - the shell (index.html: layout, logic, all 1250 entries of text) — precached here
      - two audio packs of raw mp3 bytes (~36MB) — fetched and cached BY THE PAGE, which reads
        them through a streaming reader so it can draw a real progress bar. We only need to serve
        them from cache afterwards, which the cache-first handler below does for free.
@@ -16,7 +16,7 @@ var CACHE = "cet4-1250";
 // is an update by byte-comparing sw.js; without this line an unhashed index.html plus PRECACHE
 // lists that never move would leave sw.js identical forever, and the cache-first shell would
 // never be replaced on any device that already installed it.
-var BUILD = "99d99cbb30c3";
+var BUILD = "b74c22bf6347";
 // PRECACHE is downloaded here on install (small). KEEP additionally lists the audio packs, which
 // the PAGE downloads and caches — precaching them here too would fetch the same 36MB twice.
 var PRECACHE = ["./index.html", "./manifest.webmanifest", "./icon-180.png", "./icon-192.png", "./icon-512.png", "./synbook.html"];
@@ -36,7 +36,7 @@ self.addEventListener("install", function(e){
   }
   // NOTE: we deliberately do NOT skipWaiting() here. A rebuilt SW installs and then WAITS; the app
   // does not auto-update. The page only tells us to take over (SKIP_WAITING below) after the user
-  // confirms the update in the "检测到新版本" dialog. See template.html's update IIFE / WEB_HANDOFF §10.2.
+  // confirms the update in the "检测到新版本" dialog. See template.html's update IIFE / dev/pwa.md.
   e.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(reqs()); }));
 });
 

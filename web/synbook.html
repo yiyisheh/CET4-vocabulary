@@ -292,6 +292,13 @@ var IDX_ROWS = __IDX__;    // [{w,rank,gid,topic}] 按字母排序
     if(state.mode==="h") pagesEl.scrollTo({left:el.offsetLeft, behavior:smooth?"smooth":"auto"});
     else pagesEl.scrollTo({top:el.offsetTop, behavior:smooth?"smooth":"auto"});
   }
+  // 远跳（目录条目 / 顶栏「目录」/ 检索结果）：瞬移、不做平滑动画。长距离平滑滚动途中视口一变
+  // （比如检索框收起键盘），有的手机浏览器会掐断动画、也不再吸附，卡在两页中间；瞬移过去，视口变化后再对齐一次。
+  var jumpTarget=null, jumpTO;
+  function jumpToPage(p){
+    jumpTarget=p; scrollToPage(p,false); updateLabel();
+    clearTimeout(jumpTO); jumpTO=setTimeout(function(){ jumpTarget=null; }, 1000);
+  }
   function currentPage(){
     var ps=pagesEl.querySelectorAll(".page"); if(!ps.length) return 0;
     if(state.mode==="h"){ var x=pagesEl.scrollLeft+pagesEl.clientWidth/2;
@@ -325,7 +332,7 @@ var IDX_ROWS = __IDX__;    // [{w,rank,gid,topic}] 按字母排序
   pagesEl.addEventListener("click", function(ev){
     var j=ev.target.closest("[data-jump]"); if(!j) return;
     var p=anchorPage[j.dataset.jump];
-    if(p!=null) scrollToPage(p,true);
+    if(p!=null) jumpToPage(p);
   });
 
   // ---- 检索面板：数据库式——输入即过滤，点结果直接跳转，不占书页 ----
@@ -355,9 +362,9 @@ var IDX_ROWS = __IDX__;    // [{w,rank,gid,topic}] 按字母排序
   idxList.addEventListener("click", function(ev){
     var row=ev.target.closest(".idxrow"); if(!row) return;
     var r=IDX_ROWS[+row.dataset.i];
-    closeIdx();
+    idxQ.blur(); closeIdx();
     var p=anchorPage["g_"+r.gid];
-    if(p!=null) scrollToPage(p,true);
+    if(p!=null) jumpToPage(p);
   });
   document.getElementById("idx-close").addEventListener("click", closeIdx);
   document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeIdx(); });
@@ -451,13 +458,20 @@ var IDX_ROWS = __IDX__;    // [{w,rank,gid,topic}] 按字母排序
   function closeSettings(){ settingsEl.style.display="none"; paginate(); }
   document.getElementById("btn-settings").addEventListener("click", openSettings);
   document.getElementById("start").addEventListener("click", closeSettings);
-  document.getElementById("btn-toc").addEventListener("click", function(){ var p=anchorPage["toc"]; if(p!=null) scrollToPage(p,true); });
+  document.getElementById("btn-toc").addEventListener("click", function(){ var p=anchorPage["toc"]; if(p!=null) jumpToPage(p); });
   document.getElementById("btn-idx").addEventListener("click", openIdx);
   document.getElementById("btn-back").addEventListener("click", function(){
     if(history.length>1) history.back(); else location.href="__BACK__";
   });
 
-  window.addEventListener("resize", function(){ updateLabel(); });   // 栏由 CSS 自适应，无需重排
+  // 栏由 CSS 自适应，无需重排；但视口变化（键盘收起、转屏）后要重新对齐，免得停在两页中间。
+  // 上下模式本来就是连续滚，只对齐刚跳过去的目标页（地址栏伸缩也会触发 resize，不能每次都拽回页首）
+  window.addEventListener("resize", function(){
+    if(dragging) return updateLabel();
+    if(jumpTarget!=null) scrollToPage(jumpTarget,false);
+    else if(state.mode==="h") scrollToPage(currentPage(),false);
+    updateLabel();
+  });
 
   // ---- 启动：首访落设置页，老用户直接回书页 ----
   if(_firstRun){ openSettings(); }

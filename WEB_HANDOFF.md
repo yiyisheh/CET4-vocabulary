@@ -649,7 +649,7 @@ node scripts/devtest/cdp.mjs "file://$PWD/tmp/devtest/testpage.html" \
 | 换同步后端 | 换 `web/supabase-config.json` + `reconcile()/api()` 里的 REST 调用 |
 | 改 PDF 版式 | `scripts/make_pdf_optimized.py`：`VARIANTS` 列三份 PDF，`entry_block()` 背诵版词条，`gap_block()` 查缺补漏版词条。正文样式都开了 `wordWrap="CJK"`（默认只在空格处折行，中文长串会提前断行）；同一段里别混字号（reportlab 会算错段高、和下一段叠字） |
 | 改辨析书某组内容 | 直接改 `synbook/content/Gxxx.md` → `build_synbook.py` → `build_html.py` |
-| 改辨析书版式/交互 | `web/synbook.html`（一组一页、组内向下滚、目录/弹出检索、跳页滑块与主 app 同一套趋势逻辑）→ 同上两条命令 |
+| 改辨析书版式/交互 | `web/synbook.html`（一组一页、组内向下滚、目录/弹出检索、跳页滑块与主 app 同一套趋势逻辑；目录条目 / 顶栏「目录」/ 检索结果都走 `jumpToPage()` 瞬移不动画——键盘收起时视口变化会在手机浏览器上掐断平滑滚动、卡在两页中间，resize 后再对齐一次）→ 同上两条命令 |
 
 ---
 

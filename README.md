@@ -16,7 +16,7 @@
 它是为**从零开始自学、目标是考过四级**的人做的，不是词典：只教真题里会碰到的东西，背了就能在真题里认出来。
 义项标注、核心意象、词根拆解都由 Claude 完成，原则是**准确优先**——拿不准的宁可不写，也不硬编。
 
-- **词是从真题里数出来的**：统计 2021–2025 年全部四级真题（含听力原文），按「在多少份卷子里出现过」排序，取前 1250 个。
+- **词是从真题里数出来的**：统计 2021–2025 年全部四级真题（含听力原文），按「在多少套卷子里出现过」排序，取前 1250 个。
 - **只讲真题里用到的意思**：Claude 把这 1250 个词在真题里出现的 **93,091 处句子逐句读过**，标出每一处用的是哪个意思，
   只保留真题里真出现过的义项，按出现次数排序，最核心的意思排第一。答题说明里的套话不计数。
   比如 bank 词典里有「河岸」「倾斜飞行」，真题里没出现，就不列；scale 只剩「规模；等级，量表」，没有「鳞片」「天平」。
@@ -39,7 +39,7 @@
 ## 前言
 
 市面上的"四级高频词"良莠不齐，无从判断是否真高频、背了是否有用。
-liut969 的方法很可信：直接统计历年真题里每个词的出现频次，按频率排序
+liut969 的方法很可信：直接统计历年真题里每个词的出现频次，按频率排序。
 本项目用**更新的 2021–2025 真题**重做一遍，并在方法上做了三点改进：
 
 1. **词形还原**：把 `studies / studied / studying` 合并计入 `study`（liut969 是按词形原样计数）。
@@ -56,9 +56,9 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 
 | TF版本指标      | 词形还原版       | 词形原样版        |
 | ----------- | ----------- | ------------ |
-| 总词数（unique） | 6,837       | 9,398        |
-| 总 token     | 145,621     | 144,749      |
-| 80% 累计覆盖截点  | top-**701** | top-**1124** |
+| 总词数（unique） | 6,835       | 9,393        |
+| 总 token     | 145,523     | 144,651      |
+| 80% 累计覆盖截点  | top-**700** | top-**1120** |
 
 - **逐卷覆盖率**：全局 80% 高频表在每一份单卷中同样覆盖约 **80%** 的词次
   （`coverage_chart.png`）——证明高频词是真高频，方法成立。
@@ -105,7 +105,7 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 - **语料**：真题试卷和听力原文转成纯英文文本，放在 `corpus/`。
 - **统计**：spaCy 分词 + 词形还原；保留功能词（不过滤停用词，与 liut969 一致）。
 - **统计窗口**：参与统计的年份只在 `corpus/window.json` 里配置，以后加入新一年的真题只改这里。
-- 义项、核心意象、词根的生成细节和网页的构建见 [WEB_HANDOFF.md](WEB_HANDOFF.md)。
+- 义项、核心意象、词根的生成细节见 [dev/data.md](dev/data.md)，PDF 与网页的构建见 [dev/build.md](dev/build.md)。
 
 ## `output/` 说明
 
@@ -113,7 +113,7 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 |------|------|
 | `high_freq_surface.csv` | 词频表 · 词形原样版（liut969 口径，9393 词） |
 | `high_freq_lemma.csv` | 词频表 · 词形还原版（6835 词） |
-| `high_freq_surface_df.csv` / `high_freq_lemma_df.csv` | 文档频率（DF）表 |
+| `high_freq_surface_df.csv` / `high_freq_lemma_df.csv` | 文档频率（DF）表（9390 / 6833 词） |
 | `high_freq_cet4_df.txt` | 按文档频率排序的 1250 词词表（序号、音标等基础信息） |
 | `coverage_chart.png` · `coverage_tf_vs_df.png` | 方法验证图表 |
 
@@ -124,7 +124,7 @@ liut969 的方法很可信：直接统计历年真题里每个词的出现频次
 ├── 英语四级高频单词*.pdf     三份成品 PDF
 ├── README.md                本文
 ├── 背单词网页.md             网页的功能和用法
-├── WEB_HANDOFF.md           开发文档（网页、数据流水线）
+├── dev/                     开发文档（数据流水线、网页、构建）
 ├── CET/cet4_2021 … 2025/    源数据：四级真题 PDF（及听力 MP3）
 ├── corpus/                  纯英文语料（papers/ + listening/）+ 统计窗口 window.json
 ├── output/                  词频表与验证图表
@@ -151,16 +151,9 @@ python scripts/build_frequency.py      # 词频表 TF
 python scripts/build_doc_frequency.py  # 文档频率表 DF
 python scripts/per_paper_coverage.py   # 逐卷覆盖率图
 python scripts/coverage_compare.py     # TF vs DF 对比图
-
-# 3. 合并数据，生成 PDF 和网页
-python scripts/build_dataset.py        # → intermediate/entries_full.json
-python scripts/make_pdf_optimized.py   # → 三份 PDF
-python scripts/build_synbook.py        # → 同义词辨析书（要在 build_html 之前）
-python scripts/build_html.py           # → docs/ 网页
 ```
 
-> PDF 字体用 `/Library/Fonts/Arial Unicode.ttf`（macOS）；其他平台请改
-> `scripts/make_pdf_optimized.py` 里的 `FONT_PATH` 为本机一个含中文与音标的字体。
+合并数据、生成 PDF 和网页的命令见 [dev/build.md](dev/build.md)。
 
 ## 致谢
 

@@ -591,7 +591,7 @@ window.AUDIO_GAIN = __AUDIO_GAIN__;   // 与 sw.js 同名的缓存桶：音频�
 /* 多端同步配置（Supabase，仅可公开的 publishable key）。
    留空(null)则不启用同步——App 仍可本地/离线正常使用。 */
 window.SYNC_CONFIG = __SYNC_CONFIG__;
-/* 冻结的旧序号表：LEGACY_V1[rank-1] = 单词。旧版划线/解锁按 rank 存，靠它翻译成单词（§8.5）。
+/* 冻结的旧序号表：LEGACY_V1[rank-1] = 单词。旧版划线/解锁按 rank 存，靠它翻译成单词（dev/sync.md）。
    永远对应最初那份 1250 词表，词表以后怎么改都不能动它。 */
 window.LEGACY_V1 = __LEGACY_V1__;
 </script>
@@ -618,9 +618,9 @@ window.LEGACY_V1 = __LEGACY_V1__;
     listShuffled:false,           // whether that frozen list was shuffled -> hide rank numbers. 【local】
     revealed:{},                  // self-test: words already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
     studyMs:{},                   // 学习时长（本机）：{"YYYY-MM-DD": 毫秒}。【同步】kind "time"，见 studyTick
-    studyOthers:{},
+    studyOthers:{},               // 其他设备的学习时长 {设备id:{日期:毫秒}}：云端拉来的缓存，只读
     studyStrict:true,             // 只统计状态池 + 自测都开着时的时长（默认开）。【本地】
-    browseAnchor:1,               // 「全部词表」的阅读位置（与背诵页的 anchor 分开）。【本地】               // 其他设备的学习时长 {设备id:{日期:毫秒}}：云端拉来的缓存，只读
+    browseAnchor:1,               // 「全部词表」的阅读位置（与背诵页的 anchor 分开）。【本地】
     deviceId:"",                  // 本机随机 id，用来区分各设备的时长行。【本地】
     keysV:1                       // 1 = marks/revealed keyed by rank (old); 2 = keyed by word (see migrateKeys)
   };
@@ -635,7 +635,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(!state.studyOthers || typeof state.studyOthers!=="object") state.studyOthers={};
   var _newDevice=!state.deviceId;
   if(_newDevice) state.deviceId=Math.random().toString(36).slice(2,10)+Date.now().toString(36).slice(-4);
-  // 身份键 rank -> 单词（§8.5）：划线/解锁跟着词走，词表重排或换六级都不会对错词。
+  // 身份键 rank -> 单词（dev/sync.md）：划线/解锁跟着词走，词表重排或换六级都不会对错词。
   // 翻译只用冻结的 LEGACY_V1，不用当前 DATA。迁移前把原始存档整份另存一份，永不覆盖。
   var LEGACY_V1 = window.LEGACY_V1 || [];
   function legacyWord(rank){ return /^\d+$/.test(String(rank)) ? LEGACY_V1[+rank-1] : undefined; }
@@ -2074,8 +2074,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   }
   // 分页拉取:云端(PostgREST db-max-rows)一次最多回 N 行(本项目默认 1000),
   // 且不会提示"还有更多"。这里按“实际返回行数”翻页、直到某页为空,
-  // 因此不写死 1000/500,换任何服务器都能拉全(见 §8)。
-  // 读写都走 RPC(sync_pull/sync_push),不直接碰表:anon 无表权限,列不出别人的同步码(§8.3)。
+  // 因此不写死 1000/500,换任何服务器都能拉全(见 dev/sync.md)。
+  // 读写都走 RPC(sync_pull/sync_push),不直接碰表:anon 无表权限,列不出别人的同步码(dev/sync.md)。
   function pullAll(code, off, acc){
     return api("rpc/sync_pull", {method:"POST", body:JSON.stringify({p_code:code, p_offset:off})})
       .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
@@ -2090,7 +2090,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     SYNC.busy=true;
     pullAll(SYNC.code, 0, [])
       .then(function(rows){
-        // 划线两种行（§8.5）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
+        // 划线两种行（dev/sync.md）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
         // 两者按单词合并取最新；本地较新时两种都写回——旧版设备只认 "mark"，双写让它们照常同步。旧行只覆盖、不删除。
         var rW={}, rL={}, rColors={}, rTime={}, k, w;
         function keep(map,key,row){ var t=Number(row.t); if(!own(map,key) || t>map[key].t) map[key]={v:row.v?1:0,t:t}; }

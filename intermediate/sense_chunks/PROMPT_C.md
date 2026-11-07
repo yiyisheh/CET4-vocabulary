@@ -2,7 +2,7 @@
 
 ## 这件事是干什么用的
 
-这是一本给**零基础自学者**用的四级单词书。每个词只显示**真题里实际出现过的义项**，按出现次数排序；固定短语另做成「常见短语」行。每个词的义项表已经由同事看过一批句子（下面叫「B 样本」）定好了。你标的是这个词在 2021–2025 年真题里**其余的全部句子**。
+这是一本给**零基础自学者**用的四级单词书。每个词只显示**真题里实际出现过的义项**，按出现次数排序；固定短语另做成「常见短语」行。每个词的义项表已经由同事看过一批句子（下面叫「B 样本」）定好了。你标的是这个词在统计窗口（`corpus/window.json`）内真题里**其余的全部句子**。
 
 脚本只拿你的标注做三件事：**数出每个义项出现了几句**（决定哪些义项保留、谁排第一），**数出每个固定短语出现了几次**，以及**发现义项表里漏掉的义项**。所以每一句都要按它的实际意思标准确。
 
@@ -28,7 +28,7 @@
 ## 标签
 
 - 整数：义项表的下标。
-- `P:短语原形`：这里的意思是**整个固定短语**的意思（见下表）。
+- `P:短语原形`：这里的意思是**整个固定短语**的意思（判定见 PHRASE_RULES.md）。
 - `X`：不是这个词，包括专有名词里不表本义的部分（人名、地名、品牌名，如 Mark Long、7 Mile Bridge Run；机构名里这个词仍是本义的照常按义项标，如 Deutsche Bank 的「银行」）、编号（Part I 的罗马数字、选项或段落字母 I)）、OCR 错字、残缺到无法判断的句子。
 - `N0`、`N1`……：义项表里**确实没有**的义项。先在这个词段里定义，再使用。能归进已有义项的不要新开；义项表本身不许改动或重排（同一个词分给了好几个人）。
 - 同一句里【】出现不止一次，而且意思不同：用 `;` 连起来写，如 `0; P:at least`。意思相同只写一个。
@@ -37,24 +37,7 @@
 
 ## 什么算固定短语（`P:`）
 
-**判定标准：把短语里每个词的意思加起来推不出整体意思，或者学习者应当把它当一个整体来记。** 短语写原形（`take place`，不写 `took place`），代词位置写 `sb` / `sth` / `one's`。
-
-参照清单（以此为准，同类情况照此类推）：
-
-| 算 P（整体记） | 不算 P（按义项标） |
-|---|---|
-| take place（发生）、take part in（参加）、take off（起飞；流行起来）、take over（接管）、take care of、take advantage of | take a bus（乘坐）、take a photo（做，进行）、take time（花费） |
-| no matter（无论）、a great deal（大量）、in terms of（就…而言）、rather than（而不是）、as well as、according to、in case of、in the long run | deal with（处理：按 deal 的「处理」义项标）、over time（按「在…期间」标） |
-| look forward to、come up with、give up、turn out（结果是）、figure out、make sense、on the other hand、at least、in fact、such as、so that、even if | look at（看）、come back（回来）、give sb sth（给） |
-| be the case（属实）、in that case | in this case 如果你判断就是「在这种情况下」，按「情况」标 |
-
-**短语动词（动词 + up / down / out / off / in / on / over / back / away / through 等）一律按这条线判：**
-
-- 小品词只表示**字面的空间方向**（上下、进出、来回、离开），整体意思就是「动作 + 方向」→ **不算 P**，按义项标：stand up、sit down、go back、come in、walk out、look up at the sky、run away、climb over the wall。
-- **除此以外都算 P**：小品词表示完成、彻底、增减、出现、消失、持续等引申义，或者整体意思转了——grow up、wake up、get up、clean up、use up、speed up、go up（上涨）、slow down、cut down、give up、set up、make up、end up、turn out、find out、carry out、point out、pick up（学会；接人）、go on（继续）、go through（经历）、look after、put off、run out of、break down、come up with。
-- 动词后固定跟的介词（rely on、depend on、focus on、consist of、result in、belong to、deal with）不是短语动词：在**动词**的任务里按动词义项标；在**介词**的任务里标介词的义项（义项表里一般有一条「（接在 rely, depend 等词后）引出对象」）。
-
-拿不准时问自己：零基础的学习者只知道这个词的各个义项，能不能读懂这句？读不懂就是 P。
+见 [PHRASE_RULES.md](PHRASE_RULES.md)，**动手前先读**。
 
 ## 输出：`C_r1_NN.labels.txt`
 

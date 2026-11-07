@@ -2,7 +2,7 @@
 
 ## 背景
 
-这是一本给**零基础自学者**用的四级单词书，词表来自 2021–2025 年 31 套四级真题。原释义是词典式的，把冷僻义项也列了出来（比如 bank：银行；库；河岸；倾斜飞行）。学习者最需要知道的是**真题里实际考的是哪个意思**。
+这是一本给**零基础自学者**用的四级单词书，词表来自近几年的四级真题（参与统计的年份见 `corpus/window.json`）。原释义是词典式的，把冷僻义项也列了出来（比如 bank：银行；库；河岸；倾斜飞行）。学习者最需要知道的是**真题里实际考的是哪个意思**。
 
 脚本把每个词在真题里出现的**全部句子**都抽了出来。你的工作是逐句判断用的是哪个义项；脚本按你的标注统计次数，**只保留真题里出现过的义项**，重排后作为新释义；固定短语另行统计，做成「常见短语」行和下一阶段的短语背诵表。
 
@@ -12,11 +12,11 @@
 |---|---|
 | `A_` | 小词（≤80 句，句子全给你）：建义项表 + 逐句标注 + 挑例句 |
 | `B_` | 大词的前 80 句（各卷轮流抽出的均衡样本）：建义项表 + 逐句标注 + 挑例句 |
-| `C_` | 按**已定好的义项表**逐句标注其余句子 |
+| `C_` | 按**已定好的义项表**逐句标注其余句子（任务书是 PROMPT_C.md） |
 | `D_` | 短语释义 |
 | `E_` | 补挑例句 |
 
-输出文件 = 输入文件名把 `.json` 换成 `.out.json`（`A_r1_03.json` → `A_r1_03.out.json`）。
+输出文件 = 输入文件名把 `.json` 换成 `.out.json`（`A_r1_03.json` → `A_r1_03.out.json`）。C 任务的输入输出不同，见 PROMPT_C.md。
 
 ---
 
@@ -79,25 +79,7 @@
 
 ### 什么算固定短语（`P:`）
 
-**判定标准：把短语里每个词的意思加起来，推不出整体意思，或者学习者应当把它当一个整体来记。** 短语写原形（`take place`，不写 `took place`），代词位置写 `sb` / `sth` / `one's`。
-
-参照清单（以此为准，同类情况照此类推）：
-
-| 算 P（整体记） | 不算 P（按义项标） |
-|---|---|
-| take place（发生）、take part in（参加）、take off（起飞；流行起来）、take over（接管）、take care of、take advantage of | take a bus（乘坐）、take a photo（做，进行）、take time（花费） |
-| no matter（无论）、a great deal（大量）、in terms of（就…而言）、rather than（而不是）、as well as、according to、in case of、in the long run | deal with（处理：按 deal 的「处理」义项标，义项中文可写成「处理（deal with）」）、over time（按「在…期间」标） |
-| look forward to、come up with、give up、turn out（结果是）、figure out、make sense、on the other hand、at least、in fact、such as、so that、even if | look at（看）、come back（回来）、give sb sth（给） |
-| be the case（属实）、in that case | in this case 如果你判断就是「在这种情况下」，按「情况」标 |
-
-**短语动词（动词 + up / down / out / off / in / on / over / back / away / through 等）一律按这条线判：**
-
-- 小品词只表示**字面的空间方向**（上下、进出、来回、离开），整体意思就是「动作 + 方向」→ **不算 P**，按义项标：stand up、sit down、go back、come in、walk out、look up at the sky、run away、climb over the wall。
-- **除此以外都算 P**：小品词表示完成、彻底、增减、出现、消失、持续等引申义，或整体意思转了——grow up、wake up、get up、clean up、use up、speed up、go up（上涨）、slow down、cut down、give up、set up、make up、end up、turn out、find out、carry out、point out、pick up（学会；接人）、go on（继续）、go through（经历）、look after、put off、run out of、break down、come up with。
-- 动词后固定跟的介词（rely on、depend on、focus on、consist of、result in、belong to、deal with）不是短语动词：在**动词**的任务里按动词义项标；在**介词**的任务里标介词的义项（义项表里可以有一条「（接在 rely, depend, focus 等动词后）引出对象」这样的说明）。
-
-- 一个短语里的每个词都在词表里时（a great deal 的 great 和 deal），**每个词的任务都要标同一个 `P:a great deal`**——脚本按句子去重，不会重复计数。
-- 犹豫时问自己：零基础的学习者只知道这个词的义项，能不能读懂这句？读不懂就是 P。
+见 [PHRASE_RULES.md](PHRASE_RULES.md)，**动手前先读**。
 
 ### `example`：新例句
 
@@ -123,34 +105,7 @@
 
 ## 二、C 任务
 
-### 输入
-
-`C_*.json`：`[{word, def, senses, phrases_seen, notes, sents}]`
-
-- `senses`：已定好的义项表（**下标就是你要用的整数标签**）
-- `phrases_seen`：这个词之前已经标出的固定短语，供你保持口径一致
-- `notes`：定义项表的同事留下的口径说明（例如「or so 按短语标，义项表里没有『大约』」），**照此执行**
-- `sents`：要你标的句子（id 只在本任务内有效）
-
-### 输出
-
-对应的 `.out.json`：
-
-```json
-"take": {
-  "labels": {"80": 2, "81": "P:take place", "82": "N0", "83": [0, 3]},
-  "new_senses": [{"pos": "v.", "zh": "服用（药）"}],
-  "note": ""
-}
-```
-
-- 标签规则与 A/B 完全相同（整数 / 整数列表 / `P:` / `X`），判定 P 用同一张参照清单。
-- 义项表里**确实没有**的义项，加进 `new_senses`，用 `"N0"` `"N1"`…（`new_senses` 的下标）来标。能归进已有义项的不要新开。
-- 同一个词可能被拆成几个 C 任务分给不同的人，所以**义项表不许改动或重排**。
-
-### 交付前自检（C）
-
-合法 JSON；键集合与输入一致；每个词的 labels 覆盖全部句子 id；整数在 senses 范围内，`N*` 在 new_senses 范围内。报告：处理句数，以及拿不准的情况。
+见 [PROMPT_C.md](PROMPT_C.md)。
 
 ---
 

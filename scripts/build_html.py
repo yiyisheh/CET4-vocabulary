@@ -102,7 +102,7 @@ us_items, ex_items = clips("us"), clips("ex")
 audio_gain = json.dumps(gains(), ensure_ascii=False, separators=(",", ":"))
 cfg = ROOT / "web" / "supabase-config.json"
 sync_config = cfg.read_text().strip() if cfg.exists() else "null"
-# 冻结的旧序号表（rank 1..1250 → 单词）：把旧版「按序号存」的划线翻译成单词。永不修改（§8.5）
+# 冻结的旧序号表（rank 1..1250 → 单词）：把旧版「按序号存」的划线翻译成单词。永不修改（dev/sync.md）
 legacy_v1 = (ROOT / "web" / "legacy_rank_v1.json").read_text().strip()
 
 # ---------- shared: build a filled template, given the audio-carrying bits ----------

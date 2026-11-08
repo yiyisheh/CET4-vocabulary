@@ -207,7 +207,7 @@
   .mitem .mt{ display:block; font-size:16px; font-weight:600; }
   .mitem .md{ display:block; font-size:12px; color:var(--sub); margin-top:2px; }
   .mitem .marr{ margin-left:auto; color:var(--gray); font-size:24px; font-weight:300; }
-  #settings{ position:fixed; inset:0; background:var(--bg); z-index:50;
+  #settings, #revmenu{ position:fixed; inset:0; background:var(--bg); z-index:50;
     display:none; flex-direction:column; padding:0 22px;
     padding-top:calc(env(safe-area-inset-top) + 12px);
     padding-bottom:calc(env(safe-area-inset-bottom) + 20px); overflow:auto; }
@@ -285,11 +285,11 @@
   .umbtns{ display:flex; justify-content:flex-end; gap:10px; margin-top:14px; }
   .umbtns .minibtn.ghost{ background:var(--card); color:var(--blue); }
   /* the main menu's primary action (in-flow big button, not fixed) */
-  #start{ width:100%; margin:26px 0 10px; padding:16px; background:var(--fill); color:#fff;
+  #start, #review{ width:100%; margin:26px 0 10px; padding:16px; background:var(--fill); color:#fff;
     border:0; border-radius:13px; font-size:18px; font-weight:700; cursor:pointer;
     box-shadow:0 6px 22px rgba(0,0,0,.24); }
   /* 重置：开始背诵下面的次级按钮（描边），唯一的页面内容刷新点 */
-  #reset{ width:100%; margin:0 0 24px; padding:12px; background:transparent; color:var(--blue);
+  #reset, #revreset{ width:100%; margin:0 0 24px; padding:12px; background:transparent; color:var(--blue);
     border:1.5px solid var(--fill); border-radius:13px; font-size:15px; font-weight:700; cursor:pointer; }
   .hintbox{ background:var(--panel); border-radius:10px; padding:12px 14px;
     font-size:12.5px; color:var(--sub); line-height:1.7; margin-top:10px; }
@@ -337,6 +337,39 @@
     <span><span class="mt">设置</span><span class="md">状态池 · 自测 · 显示 · 发音 · 颜色 · 多端同步</span></span>
     <span class="marr">›</span>
   </button>
+  <button class="mitem" id="btn-revmenu">
+    <span><span class="mt">复习</span><span class="md" id="revmenu-md">划掉的词隔几天再过一遍</span></span>
+    <span class="marr">›</span>
+  </button>
+</div>
+
+<!-- 复习：主菜单最下面进入。自己的「开始复习」「重置」和设置，和背诵词表互不影响（dev/review.md） -->
+<div id="revmenu">
+  <div class="shead">
+    <button class="iconbtn" id="revmenu-back">‹ 返回</button>
+    <div class="stitle">复习</div>
+  </div>
+  <div class="mprog" id="rev-progress"></div>
+  <button id="review">开始复习</button>
+  <button id="revreset">重置</button>
+  <div class="row">
+    <div class="lab"><b>间隔天数 / 通过次数</b><span id="rev-stat"></span></div>
+    <div class="poolnums">
+      <label>间隔 <input id="rev-days" type="number" min="0" max="365" inputmode="numeric"></label>
+      <label>通过 <input id="rev-pass" type="number" min="1" max="99" inputmode="numeric"></label>
+    </div>
+  </div>
+  <div class="row">
+    <div class="lab"><b>没记住就从 0 重新算</b><span>开启时，点「重置」那一刻本轮没划掉的词，通过次数清零（仍留在复习里，下一轮照样出现）。没翻到的词也算没记住</span></div>
+    <div id="sw-revfail" class="switch"></div>
+  </div>
+  <div class="hintbox">
+    <b>复习怎么用</b><br>
+    · 划掉（或上次复习）满设定天数的词进复习，按当初划线的先后排，序号就是复习顺序<br>
+    · 排版、自测、发音和背诵页一样；还记得就点<b>序号</b>划掉<br>
+    · 点这一页的<b>「重置」</b>才记一次复习、换上新到期的词；划掉的次数 +1，满「通过次数」归入熟练库，不再复习<br>
+    · 复习里划不划都不改全库的划线，词不会回到状态池；忘了想重背，去搜索或「全部词表」里取消划线
+  </div>
 </div>
 
 <div id="settings">
@@ -381,6 +414,7 @@
     · 顶栏 / 主菜单<b>「搜索」</b> → 在全部 1250 词里查英文、中文释义或序号；结果里同样能发音、划线，点「定位」跳到背诵页里那一页；右上角<b>「全部词表」</b>按页浏览 1250 词（不遮罩、不计时）<br>
     · 点<b>页码</b> → 弹出快速翻页滑块（拖动跟手；松手按趋势翻页、多拖多翻，回拉超过一成页宽则反悔不动；再点或点别处收起）<br>
     · <b>状态池</b>：只背序号范围内的词，划掉即剔除；剩余到阈值后，点「重置」才把范围往后推进（不当场刷新）；可开「池内乱序」<br>
+    · <b>复习</b>：主菜单最下面「复习」，划掉满 7 天的词再过一遍，有自己的「开始复习」「重置」和设置<br>
     · 设置 / 划线 / 自测解锁 / 上次位置自动保存；每次进入先落主菜单。「开始背诵」原样继续上次的页面，页面内容（哪些词、顺序、遮蔽）只在点<b>「重置」</b>时重建
   </div>
 </div>
@@ -490,7 +524,7 @@
   </div>
 
   <div class="row" style="display:block">
-    <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准)、「自定义色号列表」和学习时长；其余设置及当前选中的颜色不同步</span></div>
+    <div class="lab"><b>多端同步</b><span>两台设备填<b>同一个同步码</b>即可同步「划线」(以最新改动为准)、复习记录、「自定义色号列表」和学习时长；其余设置及当前选中的颜色不同步</span></div>
     <div class="hexwrap">
       <input id="syncinput" type="text" placeholder="同步码，如 cet4-9f3k" maxlength="40">
       <button id="syncbtn">连接 / 保存</button>
@@ -621,6 +655,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
     studyOthers:{},               // 其他设备的学习时长 {设备id:{日期:毫秒}}：云端拉来的缓存，只读
     studyStrict:true,             // 只统计状态池 + 自测都开着时的时长（默认开）。【本地】
     browseAnchor:1,               // 「全部词表」的阅读位置（与背诵页的 anchor 分开）。【本地】
+    reviews:{},                   // 复习记录 {单词:{n:复习通过次数, t:上次复习时间戳}}，「重置」时记入。【同步】kind "rev"
+    reviewDays:7,                 // 划线（或上次复习）满几天才进复习。【本地】
+    reviewPass:2,                 // 复习通过几次归入熟练库（不再复习）。【本地】
+    reviewFailReset:true,         // 复习「重置」时本轮没划掉的词通过次数清零（reviews[词].f=1 仍到期）。【本地】
+    revList:null,                 // 冻结的复习词表（rank，按划线时间先后），和 list 一样只有「重置」改。【本地】
+    revMarks:{},                  // 本轮复习里划掉的词 {单词:划线时间戳}，下次「重置」记入 reviews 后清空。【本地】
+    revAnchor:1,                  // 复习页的阅读位置。【本地】
     deviceId:"",                  // 本机随机 id，用来区分各设备的时长行。【本地】
     keysV:1                       // 1 = marks/revealed keyed by rank (old); 2 = keyed by word (see migrateKeys)
   };
@@ -633,6 +674,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(!state.revealed) state.revealed={};
   if(!state.studyMs || typeof state.studyMs!=="object") state.studyMs={};
   if(!state.studyOthers || typeof state.studyOthers!=="object") state.studyOthers={};
+  if(!state.reviews || typeof state.reviews!=="object") state.reviews={};
+  if(!state.revMarks || typeof state.revMarks!=="object") state.revMarks={};
+  if(!(state.reviewDays>=0)) state.reviewDays=7;
+  if(!(state.reviewPass>=1)) state.reviewPass=2;
+  if(typeof state.reviewFailReset!=="boolean") state.reviewFailReset=true;
   var _newDevice=!state.deviceId;
   if(_newDevice) state.deviceId=Math.random().toString(36).slice(2,10)+Date.now().toString(36).slice(-4);
   // 身份键 rank -> 单词（dev/sync.md）：划线/解锁跟着词走，词表重排或换六级都不会对错词。
@@ -693,12 +739,16 @@ window.LEGACY_V1 = __LEGACY_V1__;
 
   // look = 搜索结果：总显示序号、不遮蔽、总带例句、没有累计小标，右上角多一个「定位」。
   // 「全部词表」(browseAll) 同样显示序号、不遮蔽、无累计小标，例句跟随「显示例句」设置。
-  var browseAll=false;
+  // 复习页 (reviewing)：词表是 state.revList，序号显示复习顺序 revPos，划线显示/写入的是本轮的 revMarks。
+  var browseAll=false, reviewing=false, revPos={};
+  function revMarked(word){ return own(state.revMarks,word); }
+  function revEntry(el){ return reviewing && !browseAll && pagesEl.contains(el); }   // 这条是复习页上的那份
+  function entryMarked(el){ return revEntry(el) ? revMarked(el.dataset.word) : marked(el.dataset.word); }
   function entryHTML(e, look){
-    var plain=look||browseAll;
-    var h='<div class="entry'+(marked(e.word)?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
+    var plain=look||browseAll, rv=!plain&&reviewing;
+    var h='<div class="entry'+((rv?revMarked(e.word):marked(e.word))?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
-    h+='<div class="headline"><span class="num" data-act="mark">'+(state.listShuffled&&!plain?'</span>':e.rank+'.</span> ')
+    h+='<div class="headline"><span class="num" data-act="mark">'+(rv?revPos[e.rank]+'.</span> ':state.listShuffled&&!plain?'</span>':e.rank+'.</span> ')
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span>';
     if(look) h+=inList(e.rank) ? '<span class="sjump" data-act="jump">定位 ›</span>'
                                : '<span class="sjump off" data-act="none">不在当前词表</span>';
@@ -774,6 +824,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
   }
   function listEntries(){
     if(browseAll) return DATA;                        // 全部词表：全库按序号，与冻结的背诵词表无关
+    if(reviewing){
+      var rl=(state.revList||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
+      revPos={}; rl.forEach(function(e,i){ revPos[e.rank]=i+1; });
+      return rl;
+    }
     return (state.list||[]).map(function(r){ return byRank[r]; }).filter(Boolean);
   }
   function inList(rank){ return (state.list||[]).indexOf(rank)>=0; }
@@ -819,6 +874,47 @@ window.LEGACY_V1 = __LEGACY_V1__;
     if(state.poolMax===before) return false;
     save();
     return true;
+  }
+
+  // ---- 复习：划掉的词隔几天再拿出来过一遍 ----
+  // 一个划掉的词「到期」= 划线时间和上次复习时间里较晚的那天，距今满 reviewDays 个自然日；
+  // 通过 reviewPass 次（reviews[词].n）就进熟练库，不再复习。复习词表按划线时间先后排，序号就是这个顺序。
+  // 和背诵词表同一套刷新纪律：revList 只在复习页的「重置」时重建；复习里划线只记进 revMarks，
+  // 「重置」时才逐词 n+1、t=当时划线的时间（commitReview），所以划完不会当场消失。
+  // 「没记住就从 0 重新算」开着时，本轮没划掉的词记成 {n:0, t:重置时间, f:1}：f=1 表示仍然到期，
+  // t 跟着更新只是为了让这次清零能按「最新为准」同步出去（云端 v=-1 表示 f）。
+  function midnight(t){ var d=new Date(t); return new Date(d.getFullYear(),d.getMonth(),d.getDate()).getTime(); }
+  function revInfo(word){ return (own(state.reviews,word) && state.reviews[word]) || {n:0, t:0}; }
+  function revStatus(word){                           // null 没划掉 | "done" 熟练库 | "due" 到期 | "wait" 未到期
+    if(!marked(word)) return null;
+    var r=revInfo(word);
+    if(r.n>=state.reviewPass) return "done";
+    if(r.f) return "due";                             // 上一轮没记住、被清零的词：不等间隔
+    var base=Math.max(state.marks[word].t||0, r.t||0);
+    return Math.round((midnight(Date.now())-midnight(base))/86400000)>=state.reviewDays ? "due" : "wait";
+  }
+  function revCounts(){
+    var c={due:0, wait:0, done:0}, s;
+    for(var i=0;i<DATA.length;i++){ s=revStatus(DATA[i].word); if(s) c[s]++; }
+    return c;
+  }
+  function buildRevList(){
+    var due=DATA.filter(function(e){ return revStatus(e.word)==="due"; });
+    due.sort(function(a,b){ return (state.marks[a.word].t||0)-(state.marks[b.word].t||0) || a.rank-b.rank; });
+    state.revList=due.map(function(e){ return e.rank; });
+    state.revAnchor=state.revList[0]||1; save();
+  }
+  function commitReview(){                            // -> {pass: 记入通过的词数, fail: 清零的词数}
+    var n=0, f=0, now=Date.now(), w, r;
+    for(w in state.revMarks){ if(!marked(w)) continue;   // 复习后又在别处取消了划线：这次不算
+      r=revInfo(w); state.reviews[w]={n:r.n+1, t:state.revMarks[w]}; n++; }
+    if(state.reviewFailReset) (state.revList||[]).forEach(function(rank){
+      var e=byRank[rank]; if(!e) return; w=e.word;
+      if(own(state.revMarks,w) || !marked(w)) return;
+      r=revInfo(w); if(r.n>0 || !r.f){ state.reviews[w]={n:0, t:now, f:1}; f++; } });
+    state.revMarks={};
+    if(n||f) scheduleSync();
+    return {pass:n, fail:f};
   }
 
   function paginate(){                              // layout only: re-packs the frozen state.list
@@ -874,7 +970,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
       for(var k=0;k<pages[p][c].length;k++) if(pages[p][c][k].rank===rank) return p;
     return 0;
   }
-  function anchorKey(){ return browseAll ? "browseAnchor" : "anchor"; }   // 两个视图各记各的位置
+  function anchorKey(){ return browseAll ? "browseAnchor" : reviewing ? "revAnchor" : "anchor"; }   // 各视图各记各的位置
   function restoreAnchor(){ var p=pageOfRank(state[anchorKey()]||1);
     requestAnimationFrame(function(){ scrollToPage(p,false); updateLabel(); }); }
   function scrollToPage(p,smooth){
@@ -904,8 +1000,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   }
   var scrollTO;
   pagesEl.addEventListener("scroll", function(){
-    var cur=updateLabel(); clearTimeout(scrollTO);
-    scrollTO=setTimeout(function(){ state[anchorKey()]=firstRankOnPage(cur); save(); prefetchCurrent(); tPage(cur); }, 160);
+    var cur=updateLabel(), key=anchorKey(); clearTimeout(scrollTO);   // key 取滚动当时的视图：160ms 内退出复习不该写进别的位置
+    scrollTO=setTimeout(function(){ state[key]=firstRankOnPage(cur); save(); prefetchCurrent(); tPage(cur); }, 160);
   }, {passive:true});
 
   // ---- audio source: inline base64 (single-file build) OR binary packs (hosted build) ----
@@ -1182,13 +1278,20 @@ window.LEGACY_V1 = __LEGACY_V1__;
       if(hwEl){ var r=hwEl.getBoundingClientRect();
         if(ev.clientY<=r.bottom && ev.clientX<r.left) act="mark"; }
     }
+    if(act==="mark" && revEntry(entry)){               // 复习页：只记本轮复习，不动全库划线
+      var on=!revMarked(word);
+      if(on) state.revMarks[word]=Date.now(); else delete state.revMarks[word];
+      entry.classList.toggle("marked", on);
+      tEntry((on?"复习记住 %":"复习取消划线 %"), word, entry);
+      save(); return;
+    }
     if(act==="mark"){
       var nv = marked(word) ? 0 : 1;
       state.marks[word] = {v:nv, t:Date.now()};
       tEntry((nv?"划掉 %":"取消划线 %"), word, entry);
       // the word may be on screen twice (search result + its reading-page copy): keep both in step
       document.querySelectorAll('.entry[data-rank="'+rank+'"]').forEach(function(el){
-        el.classList.toggle("marked", nv===1); });
+        if(!revEntry(el)) el.classList.toggle("marked", nv===1); });   // 复习页那份显示的是本轮复习划线
       save();
       syncPushMark();
       // 划词绝不重排页面（不会在手指底下抖）。状态池触到低水位也**不当场刷新**——
@@ -1345,6 +1448,13 @@ window.LEGACY_V1 = __LEGACY_V1__;
       poolLowIn=document.getElementById("pool-low"),
       poolStatEl=document.getElementById("pool-stat"),
       poolResetBtn=document.getElementById("pool-reset"),
+      revDaysIn=document.getElementById("rev-days"),
+      revPassIn=document.getElementById("rev-pass"),
+      revStatEl=document.getElementById("rev-stat"),
+      reviewBtn=document.getElementById("review"),
+      revMenuEl=document.getElementById("revmenu"),
+      revProgEl=document.getElementById("rev-progress"),
+      swRevFail=document.getElementById("sw-revfail"),
       swSelftest=document.getElementById("sw-selftest"),
       swShowEx=document.getElementById("sw-showex"),
       swMaskTrans=document.getElementById("sw-masktrans"),
@@ -1419,6 +1529,17 @@ window.LEGACY_V1 = __LEGACY_V1__;
                          : "（剩余 ≤ "+state.poolLow+" 时，下次点「重置」推进到 "+next+" 号）")
       +"<br>全库已掌握 "+all+" / "+DATA.length;
   }
+  function renderReview(){
+    revDaysIn.value=state.reviewDays; revPassIn.value=state.reviewPass;
+    var c=revCounts();
+    revStatEl.innerHTML="划掉（或上次复习）满 "+state.reviewDays+" 天进复习；通过 "+state.reviewPass+" 次归入熟练库。改了点「重置」生效";
+    swRevFail.classList.toggle("on", state.reviewFailReset);
+    var rn=(state.revList||[]).length, rk=0, w;
+    for(w in state.revMarks) if(marked(w)) rk++;
+    reviewBtn.textContent=rn ? "开始复习 · "+rn+" 词" : "开始复习（暂无到期）";
+    revProgEl.innerHTML="本轮 <b>"+rn+"</b> 词"+(rk?" · 已记住 <b>"+rk+"</b>（点「重置」记入）":"")
+      +"<br>现在到期 <b>"+c.due+"</b> · 未到期 "+c.wait+" · 熟练库 <b>"+c.done+"</b>";
+  }
   function syncSettings(){
     renderPool();
     swRemove.classList.toggle("on",state.removeMarked);
@@ -1471,6 +1592,12 @@ window.LEGACY_V1 = __LEGACY_V1__;
     poolApply();
   });
   poolResetBtn.addEventListener("click", function(){ state.poolMax=0; ensurePool(); poolApply(); });
+  // 复习参数：只改 state，复习词表照刷新纪律等下次「重置」
+  revDaysIn.addEventListener("change", function(){
+    var n=parseInt(revDaysIn.value,10); state.reviewDays=(n>=0)?Math.min(n,365):7; renderReview(); save(); });
+  revPassIn.addEventListener("change", function(){
+    var n=parseInt(revPassIn.value,10); state.reviewPass=(n>=1)?Math.min(n,99):2; renderReview(); save(); });
+  swRevFail.addEventListener("click", function(){ state.reviewFailReset=!state.reviewFailReset; renderReview(); save(); });
   // selftest/showEx change what entryHTML renders -> re-paginate so it takes effect (and heights recompute for showEx)
   swSelftest.addEventListener("click", function(){ state.selftest=!state.selftest; syncSettings(); paginate(); save(); });
   swShowEx.addEventListener("click", function(){ state.showEx=!state.showEx; syncSettings(); paginate(); save(); });
@@ -1513,6 +1640,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
         h+="<br>剩余已到阈值——点「重置」将推进到 "+Math.min(DATA.length, win+(state.poolSize-state.poolLow))+" 号";
       else if(win>=DATA.length) h+="（已到全书末尾）";
     }
+    var rn=(state.revList||[]).length;
+    document.getElementById("revmenu-md").textContent=(rn ? "本轮 "+rn+" 词" : "暂无到期")+" · 熟练库 "+revCounts().done+" 词";
     var today=dayKey(), tms=studyByDay()[today]||0, streak=studyStreak();
     h+="<br>今天学习 <b>"+fmtDur(tms)+"</b> · 划掉 <b>"+(marksByDay()[today]||0)+"</b> 词"
       +(streak>=2?" · 连续 <b>"+streak+"</b> 天":"");
@@ -1529,6 +1658,27 @@ window.LEGACY_V1 = __LEGACY_V1__;
     menuEl.style.display="none"; paginate();
     nav.open("read", function(){ if(browseAll) setBrowse(false, false); renderMenu(); menuEl.style.display="flex"; });
   }
+  // 复习：主菜单最下面进复习页（revmenu），复习页上再压一层复习词表（review）。
+  // 复习词表和背诵页同一套排版、自测、发音设置，只是词表换成 revList（复习页的「重置」才变）
+  function openRevMenu(){
+    renderReview(); revMenuEl.style.display="flex"; revMenuEl.scrollTop=0;
+    nav.open("revmenu", function(){ revMenuEl.style.display="none"; renderMenu(); });
+  }
+  function enterReview(){
+    revMenuEl.style.display="none"; menuEl.style.display="none"; reviewing=true; updateTitle(); paginate();
+    nav.open("review", function(){ if(browseAll) setBrowse(false, false); reviewing=false; updateTitle();
+      menuEl.style.display="flex"; renderReview(); revMenuEl.style.display="flex"; });
+  }
+  document.getElementById("btn-revmenu").addEventListener("click", openRevMenu);
+  document.getElementById("revmenu-back").addEventListener("click", function(){ nav.close("revmenu"); });
+  reviewBtn.addEventListener("click", enterReview);
+  // 复习的「重置」：结算本轮（划掉的 n+1；开了「没记住就从 0 重新算」则没划掉的清零），重盖复习词的遮蔽，按到期重建复习词表
+  document.getElementById("revreset").addEventListener("click", function(){
+    var old=state.revList||[], c=commitReview();
+    buildRevList();
+    old.concat(state.revList).forEach(function(r){ var e=byRank[r]; if(e) delete state.revealed[e.word]; });
+    tEv("复习重置：记入通过 "+c.pass+" 词"+(c.fail ? "，清零 "+c.fail+" 词" : "")+"，新一轮复习 "+state.revList.length+" 词");
+    save(); enterReview(); });
   document.getElementById("start").addEventListener("click", enterReading);
   document.getElementById("reset").addEventListener("click", function(){
     state.revealed={}; buildList();
@@ -1605,7 +1755,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function jumpTo(rank){
     state.anchor=rank; save();
     if(nav.has("read") && !browseAll){ nav.closeAbove("read"); scrollToPage(pageOfRank(rank), false); updateLabel(); }
-    else { nav.closeAll(); enterReading(); }       // 定位永远去背诵词表；paginate() -> restoreAnchor() lands on it
+    else { nav.closeAll(); enterReading(); }       // 定位永远去背诵词表（复习页里搜的也是）；paginate() -> restoreAnchor() lands on it
     requestAnimationFrame(function(){ requestAnimationFrame(function(){
       var el=pagesEl.querySelector('.entry[data-rank="'+rank+'"]'); if(!el) return;
       el.classList.remove("flash"); void el.offsetWidth; el.classList.add("flash");
@@ -1623,9 +1773,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // 不碰 state.list / revealed；位置记在 state.browseAnchor。全部词表是盖在搜索页上的一层（搜索页被它挡住、仍在栈里）：
   // 返回 → 回到搜索页（搜索页再返回 → 原来的菜单或背诵页）。
   var browseFromMenu=false;
+  function updateTitle(){
+    document.getElementById("top-title").textContent=browseAll ? "全部词表" : reviewing ? "复习" : "四级高频 1250"; }
   function setBrowse(on, repaint){
-    browseAll=on;
-    document.getElementById("top-title").textContent=on ? "全部词表" : "四级高频 1250";
+    browseAll=on; updateTitle();
     document.getElementById("btn-browseback").style.display=on ? "" : "none";
     if(repaint) paginate();
   }
@@ -1696,38 +1847,39 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function txt(el){ return el ? (el.textContent||"").replace(/\s+/g," ").trim() : ""; }
   function rowLabel(el){ var r=el.closest(".row"), b=r&&r.querySelector(".lab b"); return b ? txt(b) : ""; }
   function pageInfo(){ return "第 "+(currentPage()+1)+" / "+pages.length+" 页"; }
-  var VIEW_NAME={R:"背诵页", B:"全部词表", Q:"搜索", M:"主菜单", O:"设置", P:"样式与偏好", Y:"同步与更新", A:"学习统计"};
+  var VIEW_NAME={R:"背诵页", V:"复习词表", W:"复习页", B:"全部词表", Q:"搜索", M:"主菜单", O:"设置", P:"样式与偏好", Y:"同步与更新", A:"学习统计"};
   function viewCode(){
     if(document.hidden) return "H";
     if(statsEl.style.display==="flex") return "A";
     if(prefsEl.style.display==="flex") return "P";
     if(syncPageEl.style.display==="flex") return "Y";
     if(settingsEl.style.display!=="none") return "O";
+    if(revMenuEl.style.display==="flex") return "W";
     if(searchEl.style.display==="flex") return "Q";
     if(menuEl.style.display!=="none") return "M";
-    return browseAll ? "B" : "R";
+    return browseAll ? "B" : reviewing ? "V" : "R";
   }
   function tView(){
     var v=viewCode(), at=Date.now();
     if(v===lastView || v==="H") return;               // 前后台由 visibilitychange 单独记
     lastView=v;
-    if(v!=="R" && v!=="B"){ tEv("进入"+VIEW_NAME[v], at); return; }
+    if("RVB".indexOf(v)<0){ tEv("进入"+VIEW_NAME[v], at); return; }
     lastPageLog=-2;                                   // 排版后会自动滚到上次位置：那次滚动不算翻页
     setTimeout(function(){                            // 等滚到位再读页码
       lastPageLog=currentPage();
-      tEv("进入"+VIEW_NAME[v]+"（"+pageInfo()+"）"+(v==="R" && !studying() ? "——状态池或自测没开，不计时" : ""), at);
+      tEv("进入"+VIEW_NAME[v]+"（"+pageInfo()+"）"+(v!=="B" && !studying() ? "——状态池或自测没开，不计时" : ""), at);
     }, 400);
   }
   function tPage(p){
     if(lastPageLog===-2) return;
-    var v=viewCode(); if(v!=="R" && v!=="B"){ lastPageLog=p; pageSrc=""; return; }   // 菜单/搜索下面重新排版的滚动不算翻页
+    var v=viewCode(); if("RVB".indexOf(v)<0){ lastPageLog=p; pageSrc=""; return; }   // 菜单/搜索下面重新排版的滚动不算翻页
     if(p===lastPageLog){ if(pageSrc && !swipeTO){ pageSrc=""; } return; }
     lastPageLog=p; clearTimeout(swipeTO); swipeTO=null;
     tEv((pageSrc ? pageSrc+"，" : "")+"翻到"+pageInfo()); pageSrc="";
   }
   // 词条上的操作（entryClick 里调用）：写明是哪个词、在哪
   function tEntry(what, word, entry){
-    tEv(what.replace("%", word)+(entry.closest("#search-list") ? "（搜索结果）" : browseAll ? "（全部词表）" : ""));
+    tEv(what.replace("%", word)+(entry.closest("#search-list") ? "（搜索结果）" : browseAll ? "（全部词表）" : reviewing ? "（复习）" : ""));
   }
   // 滑动：手指在页面上移动 ≥12px 记一次方向；接着翻了页就并进翻页那句，没翻页就单独记
   document.addEventListener("pointerdown", function(e){
@@ -2050,7 +2202,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
   }, 200); });
 
   // ---- multi-device sync (Supabase REST, last-write-wins per word) ----
-  // Syncs ONLY: per-word marks (LWW by timestamp) + the custom-color LIST (union).
+  // Syncs ONLY: per-word marks (LWW by timestamp) + per-word review records (LWW) + the custom-color LIST (union)
+  // + study time (+ timing diagnostics when enabled).
   // NOT synced: any other setting, nor which bg color is selected.
   var SYNC={cfg:window.SYNC_CONFIG||null, code:"", status:"off", timer:null, busy:false};
   var syncStatusEl=null;
@@ -2092,13 +2245,15 @@ window.LEGACY_V1 = __LEGACY_V1__;
       .then(function(rows){
         // 划线两种行（dev/sync.md）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
         // 两者按单词合并取最新；本地较新时两种都写回——旧版设备只认 "mark"，双写让它们照常同步。旧行只覆盖、不删除。
-        var rW={}, rL={}, rColors={}, rTime={}, k, w;
+        var rW={}, rL={}, rColors={}, rTime={}, rRev={}, k, w;
         function keep(map,key,row){ var t=Number(row.t); if(!own(map,key) || t>map[key].t) map[key]={v:row.v?1:0,t:t}; }
         rows.forEach(function(row){
           if(row.kind==="w") keep(rW,row.item,row);
           else if(row.kind==="mark"){ w=legacyWord(row.item); if(w) keep(rL,w,row); }
           else if(row.kind==="color") rColors[row.item]=true;
-          else if(row.kind==="time") rTime[row.item]=Number(row.t); });
+          else if(row.kind==="time") rTime[row.item]=Number(row.t);
+          else if(row.kind==="rev"){ var rt=Number(row.t), rv=Number(row.v)||0;
+            if(!own(rRev,row.item) || rt>rRev[row.item].t) rRev[row.item]=rv<0 ? {n:0, t:rt, f:1} : {n:rv, t:rt}; } });
         var changed=false, push=[], rm;
         [rW,rL].forEach(function(map){ for(k in map){ rm=map[k];
           if(!own(state.marks,k) || rm.t>state.marks[k].t){ state.marks[k]={v:rm.v,t:rm.t}; changed=true; } } });
@@ -2106,6 +2261,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
         for(k in state.marks){ var lm=state.marks[k];
           if(!own(rW,k) || lm.t>rW[k].t) push.push({code:SYNC.code,kind:"w",item:k,v:lm.v,t:lm.t});
           if(own(legacyRank,k) && (!own(rL,k) || lm.t>rL[k].t)) push.push({code:SYNC.code,kind:"mark",item:String(legacyRank[k]),v:lm.v,t:lm.t}); }
+        // 复习记录：kind "rev"，item = 单词，v = 通过次数（-1 = 没记住被清零、仍到期），t = 上次复习时间；整条按 t 取最新
+        for(k in rRev) if(!own(state.reviews,k) || rRev[k].t>state.reviews[k].t){ state.reviews[k]=rRev[k]; changed=true; }
+        for(k in state.reviews){ var lr=state.reviews[k];
+          if(!own(rRev,k) || lr.t>rRev[k].t) push.push({code:SYNC.code,kind:"rev",item:k,v:lr.f?-1:lr.n,t:lr.t}); }
         for(k in rColors){ var hex="#"+k;
           if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
         state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
@@ -2133,10 +2292,11 @@ window.LEGACY_V1 = __LEGACY_V1__;
         if(changed){
           save(); renderSwatches();
           if(menuEl.style.display!=="none") renderMenu();   // 菜单开着时，同步拉回的划线要反映到「已掌握」计数
+          if(revMenuEl.style.display==="flex") renderReview();
           if(statsEl.style.display==="flex") renderStats();
           if(settingsEl.style.display==="none"){
             document.querySelectorAll(".entry[data-rank]").forEach(function(el){   // pages + open search results
-              el.classList.toggle("marked", !!marked(el.dataset.word));
+              el.classList.toggle("marked", entryMarked(el));
             });
           }
         }
@@ -2168,6 +2328,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // init — 每次启动（无论新老用户）都先落主菜单；「开始背诵」原样继续，
   // 「重置」是唯一的页面内容刷新点（重盖遮蔽 / 过滤划词 / 状态池推进 / 乱序都在那一刻发生）。
   // 老存档没有 state.list：首次按当前设置建一份（不清遮蔽），之后只有「重置」会改它。
+  if(!Array.isArray(state.revList)) buildRevList();   // 复习词表同理：首次按现有划线建一份
   if(!Array.isArray(state.list)) buildList();
   else if(typeof state.listShuffled!=="boolean") state.listShuffled=!!(state.poolMode && state.shuffle);
   applyTheme(state.bg); applyLayout(); syncSettings(); devApply(); paginate(); updateCacheUI();

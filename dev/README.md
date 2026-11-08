@@ -8,6 +8,7 @@
 | [data.md](data.md) | 词条数据怎么来的：真题义项、词根、核心意象 |
 | [web.md](web.md) | 网页源码 `web/template.html`：界面、导航、刷新纪律、`state` |
 | [pool.md](pool.md) | 状态池（莱特纳 · 序号上界） |
+| [review.md](review.md) | 复习：划掉的词隔几天再过、熟练库 |
 | [stats.md](stats.md) | 学习时长统计、计时诊断 |
 | [audio.md](audio.md) | 单词与例句音频：音源、播放内核、响度 |
 | [sync.md](sync.md) | 多端同步（Supabase） |

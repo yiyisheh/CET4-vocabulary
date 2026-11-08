@@ -26,7 +26,7 @@
 
 ## 界面层级与返回键
 
-主菜单 `#menu` 是底；其余每个界面是压在导航栈 `nav` 上的一层：`read`（背诵页）、`settings`、`prefs`、`sync`、`stats`、`search`、`browse`（全部词表）、`wheel`（跳页滑块）、`modal`（更新弹窗，经 `window.cet4Nav`）。
+主菜单 `#menu` 是底；其余每个界面是压在导航栈 `nav` 上的一层：`read`（背诵页）、`revmenu`（复习页）、`review`（复习词表，压在复习页上，[review.md](review.md)）、`settings`、`prefs`、`sync`、`stats`、`search`、`browse`（全部词表）、`wheel`（跳页滑块）、`modal`（更新弹窗，经 `window.cet4Nav`）。
 
 - 打开一层 = 显示它 + `nav.open(id, close)`；每层的 `close` 只管收起自己，露出哪层由栈决定。
 - 「‹ 返回」= `nav.close(id)`；顶栏「菜单」= `nav.closeAll()`；「定位」= `nav.closeAbove("read")` 或退空后 `enterReading()`。
@@ -37,7 +37,7 @@
 
 ## 「何时刷新」纪律（用户明确要求）
 
-页面内容（哪些词、什么顺序、哪些遮着）**只在主菜单点「重置」时重建**：清空 `state.revealed`、`buildList()`（推进状态池、按设置过滤、乱序时洗牌）存进 `state.list`、重新装箱。其余路径一律不许改内容：
+页面内容（哪些词、什么顺序、哪些遮着）**只在主菜单点「重置」时重建**：清空 `state.revealed`、`buildList()`（推进状态池、按设置过滤、乱序时洗牌）存进 `state.list`、重新装箱。复习词表有自己的「重置」，见 [review.md](review.md)。其余路径一律不许改内容：
 
 - 「开始背诵」回到同一份 `state.list` 的上次位置；每次启动都先落主菜单。
 - `paginate()` 只排版不改内容；`visible()`（哪些词参与）只被 `buildList()` 读。
@@ -57,11 +57,12 @@
 | 字段 | 含义 |
 |---|---|
 | `list` / `listShuffled` | 冻结的页面内容（rank 数组）及是否乱序（乱序时不显示序号），只有「重置」改 |
-| `anchor` / `browseAnchor` | 背诵页 / 全部词表的阅读位置（首词 rank） |
+| `anchor` / `browseAnchor` / `revAnchor` | 背诵页 / 全部词表 / 复习页的阅读位置（首词 rank） |
 | `marks` | 【同步】划线 `{单词: {v:0或1, t:时间戳}}` |
 | `revealed` | 自测已解开的词 `{单词:1}`，只有「重置」清空 |
 | `keysV` | 2 = `marks`/`revealed` 已按单词存（[sync.md](sync.md#身份键按单词不按序号)） |
 | `poolMode` `poolSize` `poolLow` `poolMax` `shuffle` | 状态池（[pool.md](pool.md)） |
+| `reviews` `reviewDays` `reviewPass` `reviewFailReset` `revList` `revMarks` | 复习（[review.md](review.md)）；`reviews` 【同步】 |
 | `removeMarked` | 去掉已划掉的词（重置生效） |
 | `selftest` `maskExTrans` `showEx` | 自测、例句中文随卡片遮、显示例句 |
 | `mode` `cols` `fontScale` `spacing` `divider` `markStyle` `counters` | 翻页方式（`h` 左右 / `v` 上下）、栏数、字号、间距、分界线、划线样式、累计小标间隔 |

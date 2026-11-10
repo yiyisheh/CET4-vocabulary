@@ -15,7 +15,8 @@
   :root{
     --bg:#ffffff; --card:#ffffff; --ink:#1a1a1a; --sub:#555555;
     --gray:#8a8a8a; --blue:#1f5fa8; --hair:rgba(0,0,0,.08);
-    --mark:#8a8a8a; --panel:#f4f6f9; --fill:#3d3d3d;
+    --mark:#8a8a8a; --mark2:#666666; --panel:#f4f6f9; --fill:#3d3d3d;
+    --st-a:#f08a24; --st-b:#8b5cf6;   /* 学习统计：背单词（橙）/ 复习（紫），applyTheme 按深浅换 */
     --fs:1; --gap:20px; --padh:14px;
   }
   *{ box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
@@ -53,7 +54,8 @@
     padding:calc(4pt*var(--fs)) 0 calc(4.5pt*var(--fs)) 14px; }
   .headline{ position:relative; line-height:1.15; }
   .num{ position:relative; color:var(--gray); font-size:calc(9pt*var(--fs));
-    font-variant-numeric:tabular-nums; cursor:pointer; padding:2px 1px 2px 1px; }
+    font-variant-numeric:tabular-nums; cursor:pointer; padding:2px 1px 2px 1px;
+    -webkit-user-select:none; user-select:none; -webkit-touch-callout:none; }   /* 复习里要长按序号 */
   .hw{ font-size:calc(11pt*var(--fs)); font-weight:700; color:var(--blue); cursor:pointer;
     letter-spacing:.2px; }
   /* uniform breathing gap above each line (headline→ipa→def→ex all share the same 6px). */
@@ -94,6 +96,8 @@
      (before the number) to just after the number's dot — like a Word strikethrough */
   .entry.marked .num::before{ content:""; position:absolute; left:-14px; right:0; top:50%;
     transform:translateY(-50%); height:1.5px; background:var(--mark); }
+  /* 复习里长按标的「熟练」：横线比普通划线深一点 */
+  .entry.marked.master .num::before{ background:var(--mark2); }
   /* style A (default): also dim the whole entry */
   .entry.marked{ opacity:.5; }
   /* style B: line only, text stays its normal color */
@@ -141,20 +145,31 @@
   .stabs button.on{ color:var(--ink); font-weight:700; }
   .stabs button.on::after{ content:""; position:absolute; left:50%; bottom:-1px; width:18px; height:3px;
     margin-left:-9px; border-radius:2px; background:var(--fill); }
-  /* 单序列（不需要图例）：选中的柱 = 主题色实心 + 顶上数值，其余同色淡化；整列都是点按热区 */
+  /* 堆叠柱：背单词（橙）在下、复习（紫）叠在上；选中的柱实心 + 顶上数值（合计），其余淡化；整列都是点按热区 */
   .chart{ position:relative; height:196px; display:flex; margin-top:8px; }
   .chart .c{ flex:1 1 0; min-width:0; position:relative; display:flex; flex-direction:column;
     align-items:center; justify-content:flex-end; cursor:pointer; }
   .chart .c::before{ content:""; position:absolute; top:8px; bottom:22px; left:50%; width:1px; background:var(--hair); }
   .chart .bar{ position:relative; width:60%; max-width:12px; min-height:4px; border-radius:6px; }
-  .chart .bar::before{ content:""; position:absolute; inset:0; border-radius:inherit; background:var(--fill); opacity:.22; }
-  .chart .c.on .bar::before{ opacity:1; }
+  .chart .stk{ position:absolute; inset:0; border-radius:inherit; overflow:hidden; display:flex; flex-direction:column; opacity:.28; }
+  .chart .c.on .stk{ opacity:1; }
+  .chart .stk i{ display:block; }
+  .chart .stk .sa{ flex:1 1 auto; background:var(--st-a); }
+  .chart .stk .sb{ flex:0 0 auto; background:var(--st-b); }
+  .chart .c.zero .stk .sa{ background:var(--gray); }
   .chart .c.zero .bar{ height:4px !important; }
   .chart .val{ position:absolute; bottom:100%; left:50%; transform:translateX(-50%); margin-bottom:6px;
     font-size:12.5px; font-weight:700; color:var(--sub); white-space:nowrap; font-variant-numeric:tabular-nums; }
   .chart .x{ height:22px; line-height:22px; font-size:11.5px; color:var(--gray); white-space:nowrap;
     font-variant-numeric:tabular-nums; }
   .chart .c.on .x{ color:var(--blue); font-weight:700; }
+  .slegend{ display:flex; justify-content:center; gap:22px; margin-top:8px; font-size:12.5px; color:var(--sub);
+    font-variant-numeric:tabular-nums; }
+  .slegend i{ display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:6px; vertical-align:1px; }
+  .slegend .sa{ background:var(--st-a); } .slegend .sb{ background:var(--st-b); }
+  .slegend b{ color:var(--ink); font-weight:700; }
+  .big .ss{ margin-top:3px; font-size:11.5px; color:var(--gray); white-space:nowrap; font-variant-numeric:tabular-nums;
+    overflow:hidden; text-overflow:ellipsis; }
   .snote{ font-size:12px; color:var(--gray); margin:18px 4px 0; line-height:1.6; }
 
   /* 「定位」：跳到背诵页里这个词所在的那一页；不在当前词表里则灰字说明 */
@@ -653,6 +668,8 @@ window.LEGACY_V1 = __LEGACY_V1__;
     revealed:{},                  // self-test: words already unlocked; survives re-render/relaunch, cleared only by 重置. 【local】
     studyMs:{},                   // 学习时长（本机）：{"YYYY-MM-DD": 毫秒}。【同步】kind "time"，见 studyTick
     studyOthers:{},               // 其他设备的学习时长 {设备id:{日期:毫秒}}：云端拉来的缓存，只读
+    revMs:{},                     // 其中复习词表的那部分（本机）：{"YYYY-MM-DD": 毫秒}，已含在 studyMs 里。【同步】kind "rtime"
+    revOthers:{},                 // 其他设备的复习时长，同 studyOthers
     studyStrict:true,             // 只统计状态池 + 自测都开着时的时长（默认开）。【本地】
     browseAnchor:1,               // 「全部词表」的阅读位置（与背诵页的 anchor 分开）。【本地】
     reviews:{},                   // 复习记录 {单词:{n:复习通过次数, t:上次复习时间戳}}，「重置」时记入。【同步】kind "rev"
@@ -661,7 +678,9 @@ window.LEGACY_V1 = __LEGACY_V1__;
     reviewFailReset:true,         // 复习「重置」时本轮没划掉的词通过次数清零（reviews[词].f=1 仍到期）。【本地】
     revList:null,                 // 冻结的复习词表（rank，按划线时间先后），和 list 一样只有「重置」改。【本地】
     revMarks:{},                  // 本轮复习里划掉的词 {单词:划线时间戳}，下次「重置」记入 reviews 后清空。【本地】
+    revMaster:{},                 // 其中长按标成「熟练」的词 {单词:1}（revMarks 的子集），「重置」时 n 直接记成 reviewPass。【本地】
     revAnchor:1,                  // 复习页的阅读位置。【本地】
+    revLog:null,                  // 复习里划掉的记录 {"单词|YYYY-MM-DD":{v:1/0,t}}，统计「复习」按天计数用。【同步】kind "rlog"
     deviceId:"",                  // 本机随机 id，用来区分各设备的时长行。【本地】
     keysV:1                       // 1 = marks/revealed keyed by rank (old); 2 = keyed by word (see migrateKeys)
   };
@@ -676,6 +695,15 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(!state.studyOthers || typeof state.studyOthers!=="object") state.studyOthers={};
   if(!state.reviews || typeof state.reviews!=="object") state.reviews={};
   if(!state.revMarks || typeof state.revMarks!=="object") state.revMarks={};
+  if(!state.revMaster || typeof state.revMaster!=="object") state.revMaster={};
+  if(!state.revMs || typeof state.revMs!=="object") state.revMs={};
+  if(!state.revOthers || typeof state.revOthers!=="object") state.revOthers={};
+  if(!state.revLog || typeof state.revLog!=="object"){   // 老存档：按已有的复习记录补一份（键是确定的，多台设备各补一份也不会重复计数）
+    state.revLog={};
+    for(var _w2 in state.reviews){ var _rr=state.reviews[_w2];
+      if(_rr && _rr.n>0 && !_rr.f && _rr.t>0) state.revLog[_w2+"|"+dayKey(new Date(_rr.t))]={v:1,t:_rr.t}; }
+    for(_w2 in state.revMarks) state.revLog[_w2+"|"+dayKey(new Date(state.revMarks[_w2]))]={v:1,t:state.revMarks[_w2]};
+  }
   if(!(state.reviewDays>=0)) state.reviewDays=7;
   if(!(state.reviewPass>=1)) state.reviewPass=2;
   if(typeof state.reviewFailReset!=="boolean") state.reviewFailReset=true;
@@ -746,7 +774,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function entryMarked(el){ return revEntry(el) ? revMarked(el.dataset.word) : marked(el.dataset.word); }
   function entryHTML(e, look){
     var plain=look||browseAll, rv=!plain&&reviewing;
-    var h='<div class="entry'+((rv?revMarked(e.word):marked(e.word))?" marked":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
+    var h='<div class="entry'+((rv?revMarked(e.word):marked(e.word))?" marked":"")+(rv&&own(state.revMaster,e.word)?" master":"")+'" data-rank="'+e.rank+'" data-word="'+esc(e.word)+'">';
     // 乱序词表不显示序号（空的 .num 仍留着：划线横线和左侧空白的划词热区照旧）
     h+='<div class="headline"><span class="num" data-act="mark">'+(rv?revPos[e.rank]+'.</span> ':state.listShuffled&&!plain?'</span>':e.rank+'.</span> ')
       +'<span class="hw" data-act="syl" data-orig="'+esc(e.word)+'" data-syl="'+esc(e.syl||e.word)+'">'+esc(e.word)+'</span>';
@@ -881,6 +909,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // 通过 reviewPass 次（reviews[词].n）就进熟练库，不再复习。复习词表按划线时间先后排，序号就是这个顺序。
   // 和背诵词表同一套刷新纪律：revList 只在复习页的「重置」时重建；复习里划线只记进 revMarks，
   // 「重置」时才逐词 n+1、t=当时划线的时间（commitReview），所以划完不会当场消失。
+  // 长按划线区标成「熟练」的词（revMaster）：「重置」时 n 直接记成 reviewPass，归入熟练库。
   // 「没记住就从 0 重新算」开着时，本轮没划掉的词记成 {n:0, t:重置时间, f:1}：f=1 表示仍然到期，
   // t 跟着更新只是为了让这次清零能按「最新为准」同步出去（云端 v=-1 表示 f）。
   function midnight(t){ var d=new Date(t); return new Date(d.getFullYear(),d.getMonth(),d.getDate()).getTime(); }
@@ -907,12 +936,12 @@ window.LEGACY_V1 = __LEGACY_V1__;
   function commitReview(){                            // -> {pass: 记入通过的词数, fail: 清零的词数}
     var n=0, f=0, now=Date.now(), w, r;
     for(w in state.revMarks){ if(!marked(w)) continue;   // 复习后又在别处取消了划线：这次不算
-      r=revInfo(w); state.reviews[w]={n:r.n+1, t:state.revMarks[w]}; n++; }
+      r=revInfo(w); state.reviews[w]={n:own(state.revMaster,w) ? state.reviewPass : r.n+1, t:state.revMarks[w]}; n++; }
     if(state.reviewFailReset) (state.revList||[]).forEach(function(rank){
       var e=byRank[rank]; if(!e) return; w=e.word;
       if(own(state.revMarks,w) || !marked(w)) return;
       r=revInfo(w); if(r.n>0 || !r.f){ state.reviews[w]={n:0, t:now, f:1}; f++; } });
-    state.revMarks={};
+    state.revMarks={}; state.revMaster={};
     if(n||f) scheduleSync();
     return {pass:n, fail:f};
   }
@@ -1272,18 +1301,14 @@ window.LEGACY_V1 = __LEGACY_V1__;
         state.revealed[word]=1; save(); tEntry("解锁 % 的释义", word, entry); return; }   // remember the unlock so no re-render/relaunch re-covers it
       tEntry("点 % → 发音", word, entry); speak(word); return;                           // already revealed -> pronounce
     }
-    // clicking the blank strip in front of / around the number also marks
-    if(act==="speak"){
-      var hwEl=entry.querySelector(".hw");
-      if(hwEl){ var r=hwEl.getBoundingClientRect();
-        if(ev.clientY<=r.bottom && ev.clientX<r.left) act="mark"; }
-    }
+    if(act==="speak" && inMarkStrip(entry, ev)) act="mark";
     if(act==="mark" && revEntry(entry)){               // 复习页：只记本轮复习，不动全库划线
-      var on=!revMarked(word);
-      if(on) state.revMarks[word]=Date.now(); else delete state.revMarks[word];
-      entry.classList.toggle("marked", on);
+      var on=!revMarked(word), now=Date.now();
+      if(on){ state.revMarks[word]=now; state.revLog[word+"|"+dayKey()]={v:1,t:now}; }
+      else { state.revLog[word+"|"+dayKey(new Date(state.revMarks[word]))]={v:0,t:now}; delete state.revMarks[word]; delete state.revMaster[word]; }
+      entry.classList.toggle("marked", on); entry.classList.remove("master");
       tEntry((on?"复习记住 %":"复习取消划线 %"), word, entry);
-      save(); return;
+      save(); scheduleSync(); return;
     }
     if(act==="mark"){
       var nv = marked(word) ? 0 : 1;
@@ -1310,6 +1335,39 @@ window.LEGACY_V1 = __LEGACY_V1__;
     speak(word);
   }
   pagesEl.addEventListener("click", entryClick);
+  // clicking the blank strip in front of / around the number also marks
+  function inMarkStrip(entry, ev){
+    var hwEl=entry.querySelector(".hw"), r=hwEl && hwEl.getBoundingClientRect();
+    return !!r && ev.clientY<=r.bottom && ev.clientX<r.left;
+  }
+  // 复习页：长按划线区（序号或它前面的空白）0.3 秒 = 人工标成「熟练」——深一点的横线，
+  // 「重置」时通过次数直接记成 reviewPass。已划的词也可以长按改成熟练；点一下照旧是取消划线。
+  // 长按触发后松手的那次 click 要吞掉，否则会马上又取消。
+  var LONG_PRESS=300, lpTO=null, lpX=0, lpY=0, lpFired=false;
+  pagesEl.addEventListener("pointerdown", function(ev){
+    lpFired=false; clearTimeout(lpTO); lpTO=null;
+    var entry=ev.target.closest(".entry"); if(!entry || !revEntry(entry)) return;
+    var a=ev.target.closest("[data-act]");
+    if(!(a ? a.dataset.act==="mark" : inMarkStrip(entry, ev))) return;
+    lpX=ev.clientX; lpY=ev.clientY;
+    lpTO=setTimeout(function(){ lpTO=null; lpFired=true;
+      var word=entry.dataset.word, now=Date.now();
+      if(!revMarked(word)){ state.revMarks[word]=now; state.revLog[word+"|"+dayKey()]={v:1,t:now}; }
+      state.revMaster[word]=1;
+      entry.classList.add("marked","master");
+      if(navigator.vibrate) navigator.vibrate(15);
+      tEntry("复习长按标为熟练 %", word, entry);
+      save(); scheduleSync();
+    }, LONG_PRESS);
+  });
+  pagesEl.addEventListener("pointermove", function(ev){
+    if(lpTO && (ev.clientX-lpX)*(ev.clientX-lpX)+(ev.clientY-lpY)*(ev.clientY-lpY)>100){ clearTimeout(lpTO); lpTO=null; } });
+  ["pointerup","pointercancel","scroll"].forEach(function(t){
+    pagesEl.addEventListener(t, function(){ clearTimeout(lpTO); lpTO=null; }, {passive:true}); });
+  pagesEl.addEventListener("click", function(ev){
+    if(lpFired){ lpFired=false; ev.stopPropagation(); ev.preventDefault(); } }, true);
+  pagesEl.addEventListener("contextmenu", function(ev){
+    if(lpTO || lpFired) ev.preventDefault(); });
 
   // ---- 跳页滑块：0..1000 连续刻度，拖动时页面实时跟手；松手按「趋势」定去留 ----
   // 趋势规则：越过原点朝某个方向拖 → 翻过去，至少 1 页、多拖多翻（0.5~1.5 → 1 页，
@@ -1430,11 +1488,14 @@ window.LEGACY_V1 = __LEGACY_V1__;
     // 用户自选了主题色则文字与控件都用它
     r.setProperty("--fill", state.themeColor || (dark?"#e9e9e9":"#3d3d3d"));
     r.setProperty("--mark",dark?"#8b9096":"#8a8a8a");
+    r.setProperty("--mark2",dark?"#6b7076":"#666666");
     r.setProperty("--hair",dark?"rgba(255,255,255,.10)":"rgba(0,0,0,.08)");
     r.setProperty("--panel",dark?"rgba(255,255,255,.05)":"#f4f6f9");
     // 学习统计页：浅色 = 底色压暗一点 + 卡片用底色；深色 = 底色 + 卡片提亮一点
     r.setProperty("--sshade",dark?"transparent":"rgba(0,0,0,.035)");
     r.setProperty("--scard",dark?"rgba(255,255,255,.06)":bg);
+    r.setProperty("--st-a",dark?"#f5a052":"#f08a24");
+    r.setProperty("--st-b",dark?"#a78bfa":"#8b5cf6");
   }
 
   // ---- settings UI ----
@@ -1534,10 +1595,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var c=revCounts();
     revStatEl.innerHTML="划掉（或上次复习）满 "+state.reviewDays+" 天进复习；通过 "+state.reviewPass+" 次归入熟练库。改了点「重置」生效";
     swRevFail.classList.toggle("on", state.reviewFailReset);
-    var rn=(state.revList||[]).length, rk=0, w;
-    for(w in state.revMarks) if(marked(w)) rk++;
+    var rn=(state.revList||[]).length, rk=0, rm=0, w;
+    for(w in state.revMarks) if(marked(w)){ rk++; if(own(state.revMaster,w)) rm++; }
     reviewBtn.textContent=rn ? "开始复习 · "+rn+" 词" : "开始复习（暂无到期）";
-    revProgEl.innerHTML="本轮 <b>"+rn+"</b> 词"+(rk?" · 已记住 <b>"+rk+"</b>（点「重置」记入）":"")
+    revProgEl.innerHTML="本轮 <b>"+rn+"</b> 词"+(rk?" · 已记住 <b>"+rk+"</b>"+(rm?"（其中标熟练 "+rm+"）":"")+"（点「重置」记入）":"")
       +"<br>现在到期 <b>"+c.due+"</b> · 未到期 "+c.wait+" · 熟练库 <b>"+c.done+"</b>";
   }
   function syncSettings(){
@@ -1643,7 +1704,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var rn=(state.revList||[]).length;
     document.getElementById("revmenu-md").textContent=(rn ? "本轮 "+rn+" 词" : "暂无到期")+" · 熟练库 "+revCounts().done+" 词";
     var today=dayKey(), tms=studyByDay()[today]||0, streak=studyStreak();
-    h+="<br>今天学习 <b>"+fmtDur(tms)+"</b> · 划掉 <b>"+(marksByDay()[today]||0)+"</b> 词"
+    h+="<br>今天学习 <b>"+fmtDur(tms)+"</b> · 划掉 <b>"+((marksByDay()[today]||0)+(revMarksByDay()[today]||0))+"</b> 词"
       +(streak>=2?" · 连续 <b>"+streak+"</b> 天":"");
     menuProgEl.innerHTML=h;
   }
@@ -1802,6 +1863,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   // 超过 2 分钟当作走开了，这段一秒都不计（不是只算 2 分钟）。2026-11-05 用户把 20 秒放宽到 2 分钟。切后台 / 锁屏直接断开间隔。
   // 计入的那段属于这次心跳所在的页面：在菜单里点「开始背诵」→ 背诵页第一次操作，中间那段算；
   // 菜单里的两次操作之间不算。按本地日期分天，本机存 state.studyMs，多端同步见 reconcile()。
+  // 复习词表上计入的那段另外记进 state.revMs（studyMs 仍是总数，旧版设备照常显示总时长）。
   var STUDY_GAP=120000, lastAct=0, studySaveTO=null,
       statsEl=document.getElementById("stats"), statsBody=document.getElementById("stats-body");
   function dayKey(d){ d=d||new Date();
@@ -1971,6 +2033,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     if(gap>0 || !lastAct) tlogTick(now, gap);
     if(lastAct && gap>0 && gap<=STUDY_GAP && studying()){
       var k=dayKey(); state.studyMs[k]=(state.studyMs[k]||0)+gap;
+      if(reviewing) state.revMs[k]=(state.revMs[k]||0)+gap;      // 复习的那部分另记一份（总数仍在 studyMs 里）
       if(!studySaveTO) studySaveTO=setTimeout(flushStudy, 5000);   // 滚动时心跳很密，攒 5 秒再存盘
     }
     lastAct=now;
@@ -1981,16 +2044,23 @@ window.LEGACY_V1 = __LEGACY_V1__;
   document.addEventListener("visibilitychange", function(){ if(document.hidden){ lastAct=0; flushStudy(); } });
   window.addEventListener("pagehide", flushStudy);
 
-  function studyByDay(){                           // 所有设备相加：{日期: 毫秒}
+  function sumDevices(mine, others){                // 所有设备相加：{日期: 毫秒}
     var t={}, k, d;
-    for(k in state.studyMs) t[k]=(t[k]||0)+state.studyMs[k];
-    for(d in state.studyOthers) for(k in state.studyOthers[d]) t[k]=(t[k]||0)+state.studyOthers[d][k];
+    for(k in mine) t[k]=(t[k]||0)+mine[k];
+    for(d in others) for(k in others[d]) t[k]=(t[k]||0)+others[d][k];
     return t;
   }
+  function studyByDay(){ return sumDevices(state.studyMs, state.studyOthers); }   // 总时长（背单词 + 复习）
+  function revTimeByDay(){ return sumDevices(state.revMs, state.revOthers); }
   function marksByDay(){                           // 当前是「划掉」、且是在那一天划的（同步来的也算）
     var m={}, w, x, k;
     for(w in state.marks){ x=state.marks[w];
       if(x && x.v===1 && x.t>0){ k=dayKey(new Date(x.t)); m[k]=(m[k]||0)+1; } }
+    return m;
+  }
+  function revMarksByDay(){                        // 复习里划掉的词，按划的那天（取消了的不算）
+    var m={}, k, d;
+    for(k in state.revLog) if(state.revLog[k].v===1){ d=k.slice(k.lastIndexOf("|")+1); m[d]=(m[d]||0)+1; }
     return m;
   }
   // 分钟保留一位小数（四舍五入到 0.1 分 = 6 秒）；满 60 分进位成小时
@@ -2005,20 +2075,22 @@ window.LEGACY_V1 = __LEGACY_V1__;
   }
   var WEEKDAY="日一二三四五六";
 
-  // 两张图（学习时长 / 划掉的词），各有 最近一周 / 最近 30 天 / 按月查看 三个标签；点某一列选中它（顶上标数值）
+  // 两张图（学习时长 / 划掉的词），各有 最近一周 / 最近 30 天 / 按月查看 三个标签；点某一列选中它（顶上标数值）。
+  // 每根柱分两段：背单词（橙，在下）+ 复习（紫，叠在上面）；图下的图例写选中那一列各占多少。
   var statsView={t:{tab:"w",sel:-1}, m:{tab:"m",sel:-1}};
-  function statSeries(tab, by){                    // -> [{lab, val}]，旧→新，最后一项是今天 / 本月
-    var now=new Date(), out=[], i, d, k, v;
+  function statSeries(tab, A, B){                  // -> [{lab, a, b, val=a+b}]，旧→新，最后一项是今天 / 本月；A 背单词、B 复习
+    var now=new Date(), out=[], i, d, k, a, b, dk;
     if(tab==="m"){
       for(i=11;i>=0;i--){ d=new Date(now.getFullYear(), now.getMonth()-i, 1);
-        k=d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2); v=0;
-        for(var dk in by) if(dk.slice(0,7)===k) v+=by[dk];
-        out.push({lab:("0"+(d.getMonth()+1)).slice(-2), val:v, full:d.getFullYear()+" 年 "+(d.getMonth()+1)+" 月"}); }
+        k=d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2); a=b=0;
+        for(dk in A) if(dk.slice(0,7)===k) a+=A[dk];
+        for(dk in B) if(dk.slice(0,7)===k) b+=B[dk];
+        out.push({lab:("0"+(d.getMonth()+1)).slice(-2), a:a, b:b, val:a+b}); }
     } else {
       var n=tab==="w"?7:30;
-      for(i=n-1;i>=0;i--){ d=new Date(now); d.setDate(now.getDate()-i);
+      for(i=n-1;i>=0;i--){ d=new Date(now); d.setDate(now.getDate()-i); k=dayKey(d);
         var lab = tab==="w" ? (i===0?"今天":WEEKDAY[d.getDay()]) : (i===0?"今天":(i%7===0?(d.getMonth()+1)+"/"+d.getDate():""));
-        out.push({lab:lab, val:by[dayKey(d)]||0}); }
+        a=A[k]||0; b=B[k]||0; out.push({lab:lab, a:a, b:b, val:a+b}); }
     }
     return out;
   }
@@ -2027,46 +2099,56 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var max=Math.max.apply(null, series.map(function(x){ return x.val; }))||1;
     return '<div class="chart" data-k="'+key+'">'+series.map(function(x,i){
       var h=x.val>0 ? Math.max(6, x.val/max*148) : 4;
+      var hb=x.b>0 ? (x.a>0 ? Math.min(h-3, Math.max(3, h*x.b/x.val)) : h) : 0;   // 紫段高度：两段都有时各至少 3px
       return '<div class="c'+(i===sel?" on":"")+(x.val>0?"":" zero")+'" data-i="'+i+'"><div class="bar" style="height:'+h+'px">'
+        +'<div class="stk"><i class="sb" style="height:'+hb+'px"></i><i class="sa"></i></div>'
         +(i===sel?'<span class="val">'+fmt(x.val)+'</span>':"")+'</div><div class="x">'+x.lab+'</div></div>';
-    }).join("")+'</div>';
+    }).join("")+'</div>'
+      +'<div class="slegend"><span><i class="sa"></i>背单词 <b>'+fmt(series[sel].a)+'</b></span>'
+      +'<span><i class="sb"></i>复习 <b>'+fmt(series[sel].b)+'</b></span></div>';
   }
   function tabsHTML(key){
     var t=statsView[key].tab;
     return '<div class="stabs" data-k="'+key+'">'+[["w","最近一周"],["d","最近 30 天"],["m","按月查看"]].map(function(x){
       return '<button data-t="'+x[0]+'"'+(x[0]===t?' class="on"':"")+'>'+x[1]+'</button>'; }).join("")+'</div>';
   }
-  function bigNum(k, html){ return '<div><div class="k">'+k+'</div><div class="v">'+html+'</div></div>'; }
+  function bigNum(k, html, sub){ return '<div><div class="k">'+k+'</div><div class="v">'+html+'</div>'+(sub?'<div class="ss">'+sub+'</div>':"")+'</div>'; }
+  function splitSub(a, b){ return '背单词 '+a+' · 复习 '+b; }
   function durHTML(ms){ var d=durParts(ms);
     return d.h ? d.h+'<small>小时</small>'+d.m+'<small>分</small>' : d.m+'<small>分钟</small>'; }
-  function sumVals(s){ return s.reduce(function(a,x){ return a+x.val; }, 0); }
+  function sumVals(s, f){ f=f||"val"; return s.reduce(function(a,x){ return a+x[f]; }, 0); }
+  function tabVal(tab, s, f){ return tab==="m" ? s[s.length-1][f||"val"] : sumVals(s, f); }   // 按月看的是本月，其余是整段
   var TAB_SUM={w:"近 7 天", d:"近 30 天", m:"本月"};
   function renderStats(){
-    var by=studyByDay(), mk=marksByDay(), today=dayKey();
-    var totalMs=0, k;
-    for(k in by) totalMs+=by[k];
+    var by=studyByDay(), rt=revTimeByDay(), lt={}, mk=marksByDay(), rk=revMarksByDay(), today=dayKey();
+    var k, tA=0, tB=0;
+    for(k in by){ lt[k]=Math.max(0, by[k]-(rt[k]||0)); tA+=lt[k]; }   // 背单词 = 总时长 − 复习
+    for(k in rt) tB+=rt[k];
     var h='<div class="scard big">'+bigNum("今天学习", durHTML(by[today]||0))
-      +bigNum("今天划掉", (mk[today]||0)+'<small>词</small>')
+      +bigNum("今天划掉", ((mk[today]||0)+(rk[today]||0))+'<small>词</small>')
       +bigNum("连续学习", studyStreak()+'<small>天</small>')+'</div>';
 
-    var tv=statsView.t, ts=statSeries(tv.tab, by);
+    var tf=function(ms){ return fmtDur(ms).replace(/ /g,""); };
+    var tv=statsView.t, ts=statSeries(tv.tab, lt, rt);
     h+='<div class="ssec"><i></i>学习时长</div><div class="scard">'+tabsHTML("t")
-      +chartHTML("t", ts, function(ms){ return fmtDur(ms).replace(/ /g,""); })
-      +'<div class="big foot">'+bigNum(TAB_SUM[tv.tab]+"学习", durHTML(tv.tab==="m"?ts[ts.length-1].val:sumVals(ts)))
-      +bigNum("总时长", durHTML(totalMs))+'</div></div>';
+      +chartHTML("t", ts, tf)
+      +'<div class="big foot">'+bigNum(TAB_SUM[tv.tab]+"学习", durHTML(tabVal(tv.tab, ts)), splitSub(tf(tabVal(tv.tab, ts, "a")), tf(tabVal(tv.tab, ts, "b"))))
+      +bigNum("总时长", durHTML(tA+tB), splitSub(tf(tA), tf(tB)))+'</div></div>';
 
-    var mv=statsView.m, ms=statSeries(mv.tab, mk);
-    // 效率只看「有学习时长记录的日子」：计时上线前的历史划线没有对应的时长，混进来会算出离谱的数
-    var effMs=0, effMk=0;
-    for(k in by) if(by[k]>0){ effMs+=by[k]; effMk+=mk[k]||0; }
-    var perH = effMs>=600000 ? Math.round(effMk/(effMs/3600000))+'<small>词</small>' : '—';
+    var mv=statsView.m, ms=statSeries(mv.tab, mk, rk);
+    // 效率只看「有学习时长记录的日子」：计时上线前的历史划线没有对应的时长，混进来会算出离谱的数。
+    // 背单词、复习各算各的：划掉数 ÷ 各自的时长
+    function perHour(T, M){ var em=0, en=0;
+      for(var d in T) if(T[d]>0){ em+=T[d]; en+=M[d]||0; }
+      return em>=600000 ? Math.round(en/(em/3600000)) : -1; }
+    var phA=perHour(lt, mk), phB=perHour(rt, rk);
     h+='<div class="ssec"><i></i>划掉的词</div><div class="scard">'+tabsHTML("m")
       +chartHTML("m", ms, function(n){ return n+" 词"; })
-      +'<div class="big foot">'+bigNum(TAB_SUM[mv.tab]+"划掉", (mv.tab==="m"?ms[ms.length-1].val:sumVals(ms))+'<small>词</small>')
-      +bigNum("每小时划掉", perH)+'</div></div>';
+      +'<div class="big foot">'+bigNum(TAB_SUM[mv.tab]+"划掉", tabVal(mv.tab, ms)+'<small>词</small>', splitSub(tabVal(mv.tab, ms, "a"), tabVal(mv.tab, ms, "b")))
+      +bigNum("每小时划掉", phA>=0 ? phA+'<small>词</small>' : '—', phB>=0 ? "复习 "+phB+" 词" : "")+'</div></div>';
 
     var devs=Object.keys(state.studyOthers).length;
-    h+='<div class="snote">只统计背诵页的时间'+(state.studyStrict===false?"":"（状态池和自测都开着时）")
+    h+='<div class="snote">只统计背诵页和复习词表上的时间'+(state.studyStrict===false?"":"（状态池和自测都开着时）")
       +'；两次操作间隔超过 '+secs(STUDY_GAP).replace(" 0 秒","钟")+'的那段不算'+(devs?"；含其他 "+devs+" 台设备":"")+'。</div>';
     statsBody.innerHTML=h;
   }
@@ -2245,13 +2327,15 @@ window.LEGACY_V1 = __LEGACY_V1__;
       .then(function(rows){
         // 划线两种行（dev/sync.md）：kind "w" = 按单词（新）；kind "mark" = 按旧序号（旧版设备写的，经 LEGACY_V1 翻译）。
         // 两者按单词合并取最新；本地较新时两种都写回——旧版设备只认 "mark"，双写让它们照常同步。旧行只覆盖、不删除。
-        var rW={}, rL={}, rColors={}, rTime={}, rRev={}, k, w;
+        var rW={}, rL={}, rColors={}, rTime={}, rRtime={}, rRev={}, rLog={}, k, w;
         function keep(map,key,row){ var t=Number(row.t); if(!own(map,key) || t>map[key].t) map[key]={v:row.v?1:0,t:t}; }
         rows.forEach(function(row){
           if(row.kind==="w") keep(rW,row.item,row);
           else if(row.kind==="mark"){ w=legacyWord(row.item); if(w) keep(rL,w,row); }
           else if(row.kind==="color") rColors[row.item]=true;
           else if(row.kind==="time") rTime[row.item]=Number(row.t);
+          else if(row.kind==="rtime") rRtime[row.item]=Number(row.t);
+          else if(row.kind==="rlog") keep(rLog,row.item,row);
           else if(row.kind==="rev"){ var rt=Number(row.t), rv=Number(row.v)||0;
             if(!own(rRev,row.item) || rt>rRev[row.item].t) rRev[row.item]=rv<0 ? {n:0, t:rt, f:1} : {n:rv, t:rt}; } });
         var changed=false, push=[], rm;
@@ -2262,21 +2346,34 @@ window.LEGACY_V1 = __LEGACY_V1__;
           if(!own(rW,k) || lm.t>rW[k].t) push.push({code:SYNC.code,kind:"w",item:k,v:lm.v,t:lm.t});
           if(own(legacyRank,k) && (!own(rL,k) || lm.t>rL[k].t)) push.push({code:SYNC.code,kind:"mark",item:String(legacyRank[k]),v:lm.v,t:lm.t}); }
         // 复习记录：kind "rev"，item = 单词，v = 通过次数（-1 = 没记住被清零、仍到期），t = 上次复习时间；整条按 t 取最新
-        for(k in rRev) if(!own(state.reviews,k) || rRev[k].t>state.reviews[k].t){ state.reviews[k]=rRev[k]; changed=true; }
+        for(k in rRev) if(!own(state.reviews,k) || rRev[k].t>state.reviews[k].t){ state.reviews[k]=rRev[k]; changed=true;
+          // 旧版设备复习通过不写 rlog：按复习记录补一条（同一次通过的键相同，不会重复计数）
+          var lk=k+"|"+dayKey(new Date(rRev[k].t));
+          if(rRev[k].n>0 && !rRev[k].f && !own(state.revLog,lk) && !own(rLog,lk)) state.revLog[lk]={v:1,t:rRev[k].t}; }
         for(k in state.reviews){ var lr=state.reviews[k];
           if(!own(rRev,k) || lr.t>rRev[k].t) push.push({code:SYNC.code,kind:"rev",item:k,v:lr.f?-1:lr.n,t:lr.t}); }
         for(k in rColors){ var hex="#"+k;
           if(state.customColors.indexOf(hex)<0 && !PRESETS.some(function(p){return p.c===hex;})){ state.customColors.push(hex); changed=true; } }
         state.customColors.forEach(function(hex){ var ck=hex.replace("#",""); if(!(ck in rColors)) push.push({code:SYNC.code,kind:"color",item:ck,v:1,t:Date.now()}); });
+        // 复习里划掉的记录：kind "rlog"，item = "单词|日期"，v = 1 划掉 / 0 取消，按 t 取最新（同划线）
+        for(k in rLog) if(!own(state.revLog,k) || rLog[k].t>state.revLog[k].t){ state.revLog[k]=rLog[k]; changed=true; }
+        for(k in state.revLog){ var rl=state.revLog[k];
+          if(!own(rLog,k) || rl.t>rLog[k].t) push.push({code:SYNC.code,kind:"rlog",item:k,v:rl.v,t:rl.t}); }
         // 学习时长：kind "time"，item = "设备id|日期"，t = 当天毫秒数（借用 t 列存时长，不是时间戳）。
+        // 其中复习的那部分另有 kind "rtime"，格式相同。
         // 每台设备只写自己的行，所以不会互相覆盖；本机行取 max（只增不减），别的设备整份替换成云端的。
-        var others={}, tk, tp, me=state.deviceId;
-        for(tk in rTime){ tp=tk.split("|"); if(tp.length!==2) continue;
-          if(tp[0]===me){ if(rTime[tk]>(state.studyMs[tp[1]]||0)){ state.studyMs[tp[1]]=rTime[tk]; changed=true; } }
-          else (others[tp[0]]=others[tp[0]]||{})[tp[1]]=rTime[tk]; }
-        if(JSON.stringify(others)!==JSON.stringify(state.studyOthers)){ state.studyOthers=others; changed=true; }
-        for(k in state.studyMs){ var ms=Math.round(state.studyMs[k]), ti=me+"|"+k;
-          if(!own(rTime,ti) || ms>rTime[ti]) push.push({code:SYNC.code,kind:"time",item:ti,v:1,t:ms}); }
+        var me=state.deviceId;
+        function syncDaily(remote, kind, mineKey, othersKey){
+          var others={}, tk, tp, mine=state[mineKey];
+          for(tk in remote){ tp=tk.split("|"); if(tp.length!==2) continue;
+            if(tp[0]===me){ if(remote[tk]>(mine[tp[1]]||0)){ mine[tp[1]]=remote[tk]; changed=true; } }
+            else (others[tp[0]]=others[tp[0]]||{})[tp[1]]=remote[tk]; }
+          if(JSON.stringify(others)!==JSON.stringify(state[othersKey])){ state[othersKey]=others; changed=true; }
+          for(tk in mine){ var ms=Math.round(mine[tk]), ti=me+"|"+tk;
+            if(!own(remote,ti) || ms>remote[ti]) push.push({code:SYNC.code,kind:kind,item:ti,v:1,t:ms}); }
+        }
+        syncDaily(rTime, "time", "studyMs", "studyOthers");
+        syncDaily(rRtime, "rtime", "revMs", "revOthers");
         // 计时诊断：只上传已结束、还没上传过的分钟；内容写在 item 里（每分钟一行、写一次）
         var tlogSent=[];
         if(state.tlogUpload){ var curMin=minKey(Date.now()), tb;
@@ -2321,7 +2418,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   syncInput.value=state.syncCode||"";
   syncBtn.addEventListener("click", function(){
     var code=(syncInput.value||"").trim();
-    if(code!==state.syncCode) state.studyOthers={};   // 别的设备的时长属于旧同步码，换码就清掉，等新码拉回
+    if(code!==state.syncCode){ state.studyOthers={}; state.revOthers={}; }   // 别的设备的时长属于旧同步码，换码就清掉，等新码拉回
     state.syncCode=code; save(); startSync(); });
   setSyncStatus(state.syncCode ? "connecting" : "off");
 

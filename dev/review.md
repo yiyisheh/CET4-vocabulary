@@ -13,9 +13,10 @@
 | 复习词表 | `revList` | 冻结的 rank 数组，只有「重置」改 |
 | 本轮划线 | `revMarks` | `{单词: 在复习里划线的时间}`，「重置」时结算后清空 |
 | 本轮标熟练 | `revMaster` | `{单词: 1}`，`revMarks` 的子集：长按标的「熟练」，「重置」时一并清空 |
+| 长按时长 | `longPressMs` | 默认 300。复习里长按标熟练要按多久（毫秒，300–750）；【本地】 |
 | 位置 | `revAnchor` | 复习页的阅读位置 |
 
-UI：主菜单最下面的 `#btn-revmenu` 进复习页 `#revmenu`（导航层 `revmenu`），上面有进度、`#review`「开始复习 · N 词」、`#revreset`「重置」、`#rev-days` / `#rev-pass` / `#sw-revfail`，都由 `renderReview()` 回显。复习词表是再压一层的 `review`，收起回到复习页。
+UI：主菜单最下面的 `#btn-revmenu` 进复习页 `#revmenu`（导航层 `revmenu`），上面有进度、`#review`「开始复习 · N 词」、`#revreset`「重置」、`#rev-days` / `#rev-pass` / `#sw-revfail` / `#rg-lp`，都由 `renderReview()` 回显。复习词表是再压一层的 `review`，收起回到复习页。
 
 ## 机制
 
@@ -30,7 +31,7 @@ commitReview() = revMarks 里仍划着的词：n+1（revMaster 里的词直接 n
 ```
 
 - 复习页序号显示的是在 `revList` 里的位置（1, 2, 3…），不是 rank。
-- **长按划线区标熟练**（用户定）：复习词表上长按序号或它前面的空白 0.3 秒（`LONG_PRESS`），这个词记进 `revMarks` + `revMaster`，横线换成深一点的 `--mark2`（`.entry.marked.master`）；「重置」时通过次数直接记成**当时设置的** `reviewPass`，归入熟练库。已划的词也能长按改成熟练；点一下照旧是取消划线（连熟练一起去掉）。长按触发后松手的那次 click 在 `#pages` 捕获阶段吞掉；手指移动超过 10px、滚动、抬起都会取消长按。`.num` 设了 `user-select:none` 和 `-webkit-touch-callout:none`，免得长按弹出系统菜单。复习页显示「已记住 K（其中标熟练 M）」。
+- **长按划线区标熟练**（用户定）：复习词表上长按序号或它前面的空白 `longPressMs`（默认 0.3 秒，复习页滑块 0.3–0.75 秒可调，本地），这个词记进 `revMarks` + `revMaster`，横线换成深一点的 `--mark2`（`.entry.marked.master`）；「重置」时通过次数直接记成**当时设置的** `reviewPass`，归入熟练库。已划的词也能长按改成熟练；点一下照旧是取消划线（连熟练一起去掉）。长按触发后松手的那次 click 在 `#pages` 捕获阶段吞掉；手指移动超过 10px、滚动、抬起都会取消长按。`.num` 设了 `user-select:none` 和 `-webkit-touch-callout:none`，免得长按弹出系统菜单。复习页显示「已记住 K（其中标熟练 M）」。
 - **复习里的划线和全库划线是两套**：在复习页点序号只写 `revMarks`，不动 `marks`；同一个词在搜索结果里划线照旧写 `marks`，复习页那份不跟着变（`revEntry()` / `entryMarked()` 区分）。
 - 遵守[刷新纪律](web.md#何时刷新纪律用户明确要求)，但**复习有自己的「重置」**（复习页上那个）：`commitReview()` → `buildRevList()` → 去掉新旧两轮复习词的 `revealed`（重盖遮蔽）→ 进复习词表。主菜单的「重置」只管背诵词表，不碰复习。改间隔/通过次数也等复习的「重置」。复习里划掉的词当轮不消失，复习页显示「已记住 K（点「重置」记入）」。
 - 没划线的词：「没记住就从 0 重新算」开着（默认）就清零并标 `f=1`，下一轮照样出现；关着则不动，到期状态不变，下一轮也还在。没翻到的词同样算没记住。

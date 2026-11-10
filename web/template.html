@@ -378,10 +378,14 @@
     <div class="lab"><b>没记住就从 0 重新算</b><span>开启时，点「重置」那一刻本轮没划掉的词，通过次数清零（仍留在复习里，下一轮照样出现）。没翻到的词也算没记住</span></div>
     <div id="sw-revfail" class="switch"></div>
   </div>
+  <div class="row">
+    <div class="lab"><b>长按标熟练</b><span>复习里按住序号多久算长按（0.3–0.75 秒）；标熟练的词横线深一点，点「重置」时直接归入熟练库</span></div>
+    <div class="slider"><input id="rg-lp" type="range" min="300" max="750" step="50"><span class="val" id="v-lp"></span></div>
+  </div>
   <div class="hintbox">
     <b>复习怎么用</b><br>
     · 划掉（或上次复习）满设定天数的词进复习，按当初划线的先后排，序号就是复习顺序<br>
-    · 排版、自测、发音和背诵页一样；还记得就点<b>序号</b>划掉<br>
+    · 排版、自测、发音和背诵页一样；还记得就点<b>序号</b>划掉；已经很熟的<b>长按序号</b>标熟练<br>
     · 点这一页的<b>「重置」</b>才记一次复习、换上新到期的词；划掉的次数 +1，满「通过次数」归入熟练库，不再复习<br>
     · 复习里划不划都不改全库的划线，词不会回到状态池；忘了想重背，去搜索或「全部词表」里取消划线
   </div>
@@ -656,7 +660,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
 
   var state = {
     removeMarked:false, markStyle:"dim", divider:true, mode:"v", accent:"us",
-    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0,
+    fontScale:1.0, cols:"auto", spacing:0.35, skipMs:40, exDelay:0, longPressMs:300,   // longPressMs：复习里长按标熟练的时长。【本地】
     bg:"#ffffff", customColors:[], themeColor:"", customAccents:[], marks:{}, anchor:1, syncCode:"", dev:false, devH:170,
     selftest:false, showEx:true,  // selftest: blank the definition until tapped; showEx: render example lines
     maskExTrans:true,             // self-test sub-option: also mask the example's 中文 translation, revealed together with the card
@@ -728,6 +732,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   if(!Array.isArray(state.counters)) state.counters=[];
   // skip slider reference changed 314 -> 100ms; clamp old out-of-range values
   if(!(state.skipMs>=0 && state.skipMs<=100)) state.skipMs=40;
+  if(!(state.longPressMs>=300 && state.longPressMs<=750)) state.longPressMs=300;
   // active-pool defaults / sanity (threshold must leave room for at least one advance)
   // migrate the old per-round roster {pool:[ranks]} -> a single rank ceiling
   var _poolMigrated=false;
@@ -1340,10 +1345,10 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var hwEl=entry.querySelector(".hw"), r=hwEl && hwEl.getBoundingClientRect();
     return !!r && ev.clientY<=r.bottom && ev.clientX<r.left;
   }
-  // 复习页：长按划线区（序号或它前面的空白）0.3 秒 = 人工标成「熟练」——深一点的横线，
+  // 复习页：长按划线区（序号或它前面的空白）state.longPressMs（0.3–0.75 秒，复习页可调）= 人工标成「熟练」——深一点的横线，
   // 「重置」时通过次数直接记成 reviewPass。已划的词也可以长按改成熟练；点一下照旧是取消划线。
   // 长按触发后松手的那次 click 要吞掉，否则会马上又取消。
-  var LONG_PRESS=300, lpTO=null, lpX=0, lpY=0, lpFired=false;
+  var lpTO=null, lpX=0, lpY=0, lpFired=false;
   pagesEl.addEventListener("pointerdown", function(ev){
     lpFired=false; clearTimeout(lpTO); lpTO=null;
     var entry=ev.target.closest(".entry"); if(!entry || !revEntry(entry)) return;
@@ -1358,7 +1363,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
       if(navigator.vibrate) navigator.vibrate(15);
       tEntry("复习长按标为熟练 %", word, entry);
       save(); scheduleSync();
-    }, LONG_PRESS);
+    }, state.longPressMs);
   });
   pagesEl.addEventListener("pointermove", function(ev){
     if(lpTO && (ev.clientX-lpX)*(ev.clientX-lpX)+(ev.clientY-lpY)*(ev.clientY-lpY)>100){ clearTimeout(lpTO); lpTO=null; } });
@@ -1516,6 +1521,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
       revMenuEl=document.getElementById("revmenu"),
       revProgEl=document.getElementById("rev-progress"),
       swRevFail=document.getElementById("sw-revfail"),
+      rgLp=document.getElementById("rg-lp"), vLp=document.getElementById("v-lp"),
       swSelftest=document.getElementById("sw-selftest"),
       swShowEx=document.getElementById("sw-showex"),
       swMaskTrans=document.getElementById("sw-masktrans"),
@@ -1595,6 +1601,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
     var c=revCounts();
     revStatEl.innerHTML="划掉（或上次复习）满 "+state.reviewDays+" 天进复习；通过 "+state.reviewPass+" 次归入熟练库。改了点「重置」生效";
     swRevFail.classList.toggle("on", state.reviewFailReset);
+    rgLp.value=state.longPressMs; vLp.textContent=(state.longPressMs/1000)+" 秒";
     var rn=(state.revList||[]).length, rk=0, rm=0, w;
     for(w in state.revMarks) if(marked(w)){ rk++; if(own(state.revMaster,w)) rm++; }
     reviewBtn.textContent=rn ? "开始复习 · "+rn+" 词" : "开始复习（暂无到期）";
@@ -1659,6 +1666,7 @@ window.LEGACY_V1 = __LEGACY_V1__;
   revPassIn.addEventListener("change", function(){
     var n=parseInt(revPassIn.value,10); state.reviewPass=(n>=1)?Math.min(n,99):2; renderReview(); save(); });
   swRevFail.addEventListener("click", function(){ state.reviewFailReset=!state.reviewFailReset; renderReview(); save(); });
+  rgLp.addEventListener("input", function(){ state.longPressMs=+rgLp.value; vLp.textContent=(state.longPressMs/1000)+" 秒"; save(); });
   // selftest/showEx change what entryHTML renders -> re-paginate so it takes effect (and heights recompute for showEx)
   swSelftest.addEventListener("click", function(){ state.selftest=!state.selftest; syncSettings(); paginate(); save(); });
   swShowEx.addEventListener("click", function(){ state.showEx=!state.showEx; syncSettings(); paginate(); save(); });
